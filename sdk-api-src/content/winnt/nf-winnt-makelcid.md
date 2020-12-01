@@ -55,11 +55,11 @@ Creates a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</
 
 ### -param lgid
 
-[Language identifier](https://docs.microsoft.com/windows/win32/intl/language-identifiers). This identifier is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
+[Language identifier](/windows/win32/intl/language-identifiers). This identifier is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
 
 ### -param srtid
 
-[Sort order identifier](https://docs.microsoft.com/windows/win32/intl/sort-order-identifiers)
+[Sort order identifier](/windows/win32/intl/sort-order-identifiers)
 
 ## -see-also
 
