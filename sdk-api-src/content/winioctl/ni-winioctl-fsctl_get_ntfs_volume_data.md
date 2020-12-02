@@ -102,5 +102,6 @@ Cluster Shared Volume File System (CsvFS) | Yes
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [NTFS_VOLUME_DATA_BUFFER](ns-winioctl-ntfs_extended_volume_data.md)
+* [NTFS_VOLUME_DATA_BUFFER](ns-winioctl-ntfs_volume_data_buffer.md)
+* [NTFS_EXTENDED_VOLUME_DATA](ns-winioctl-ntfs_extended_volume_data.md)
 * [Volume Management Control Codes](/windows/desktop/FileIO/volume-management-control-codes)
