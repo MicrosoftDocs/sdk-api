@@ -69,7 +69,8 @@ A handle to the window.
 
 Type: <b>DWORD*</b>
 
-The display affinity setting.
+A pointer to a variable that receives the display affinity setting.
+See <a href="/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity">SetWindowDisplayAffinity</a> for a list of affinity settings and their meanings.
 
 ## -returns
 
@@ -80,9 +81,6 @@ This function succeeds only when the window is layered and Desktop Windows Manag
 				To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-This function currently only supports one flag, <b>WDA_MONITOR</b> (0x01). This flag  enables  a window's contents to be displayed only on the monitor.
-		
 
 This function and <a href="/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity">SetWindowDisplayAffinity</a> are designed to support the window content protection feature unique to Windows 7. This feature enables applications to protect their
 		own onscreen window content from being captured or copied via a specific set of public operating system features 

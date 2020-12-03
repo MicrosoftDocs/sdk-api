@@ -49,6 +49,8 @@ api_name:
 
 Represents a weak reference to an object.
 
+Weak reference support is on by default for Windows Runtime types that you consume or author in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), WRL, and C++/CX. If you're authoring types, then see [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references#weak-references-in-cwinrt).
+
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWeakReference</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 
