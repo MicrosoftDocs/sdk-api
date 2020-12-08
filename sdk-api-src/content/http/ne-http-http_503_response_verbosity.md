@@ -67,11 +67,11 @@ A 503 response is not sent; the connection is reset.
 
 ### -field Http503ResponseVerbosityLimited
 
-The HTTP Server API sends a 503 response with a "Service Unavailable" reason phrase.
+The HTTP Server API sends a 503 response with a "Service Unavailable" reason phrase. The HTTP Server closes the TCP connection after sending the response, so the client has to re-connect.
 
 ### -field Http503ResponseVerbosityFull
 
-The HTTP Server API sends a 503 response with a detailed reason phrase.
+The HTTP Server API sends a 503 response with a detailed reason phrase. The HTTP Server closes the TCP connection after sending the response, so the client has to re-connect.
 
 ## -remarks
 
