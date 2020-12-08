@@ -9,25 +9,25 @@ ms.assetid: 50e0dac3-b5dc-4d9f-8fd7-3a53a428166b
 ms.date: 12/05/2018
 ms.keywords: '*LPSHELLEXECUTEINFOA, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO structure pointer [Windows Shell], SEE_MASK_ASYNCOK, SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DEFAULT, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_HINST_IS_SITE, SEE_MASK_FLAG_LOG_USAGE, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_HOTKEY, SEE_MASK_ICON, SEE_MASK_IDLIST, SEE_MASK_INVOKEIDLIST, SEE_MASK_NOASYNC, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NOQUERYCLASSSTORE, SEE_MASK_NOZONECHECKS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SEE_MASK_WAITFORINPUTIDLE, SE_ERR_ACCESSDENIED, SE_ERR_ASSOCINCOMPLETE, SE_ERR_DDEBUSY, SE_ERR_DDEFAIL, SE_ERR_DDETIMEOUT, SE_ERR_DLLNOTFOUND, SE_ERR_FNF, SE_ERR_NOASSOC, SE_ERR_OOM, SE_ERR_PNF, SE_ERR_SHARE, SHELLEXECUTEINFO, SHELLEXECUTEINFO structure [Windows Shell], SHELLEXECUTEINFOA, _SHELLEXECUTEINFOA, _SHELLEXECUTEINFOW, _win32_SHELLEXECUTEINFO, edit, explore, find, open, print, properties, shell.SHELLEXECUTEINFO, shellapi/LPSHELLEXECUTEINFO, shellapi/SHELLEXECUTEINFO'
 req.header: shellapi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
 req.typenames: SHELLEXECUTEINFOA, *LPSHELLEXECUTEINFOA
-req.redist: 
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - _SHELLEXECUTEINFOA
@@ -72,6 +72,7 @@ Flags that indicate the content and validity of the other structure members; a c
 <table>
 <tr>
 <td>
+
 `SEE_MASK_DEFAULT` (0x00000000)
 </td>
 <td>
@@ -83,6 +84,7 @@ Use default values.
 
 <tr>
 <td>
+
 `SEE_MASK_CLASSNAME` (0x00000001)
 </td>
 <td>
@@ -94,6 +96,7 @@ Use the class name given by the <b>lpClass</b> member. If both SEE_MASK_CLASSKEY
 
 <tr>
 <td>
+
 `SEE_MASK_CLASSKEY` (0x00000003)
 </td>
 <td>
@@ -105,6 +108,7 @@ Use the class key given by the <b>hkeyClass</b> member. If both SEE_MASK_CLASSKE
 
 <tr>
 <td>
+
 `SEE_MASK_IDLIST` (0x00000004)
 </td>
 <td>
@@ -116,6 +120,7 @@ Use the item identifier list given by the <b>lpIDList</b> member. The <b>lpIDLis
 
 <tr>
 <td>
+
 `SEE_MASK_INVOKEIDLIST` (0x0000000C)
 </td>
 <td>
@@ -130,6 +135,7 @@ Use the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmen
 
 <tr>
 <td>
+
 `SEE_MASK_ICON` (0x00000010)
 </td>
 <td>
@@ -144,6 +150,7 @@ Use the icon given by the <b>hIcon</b> member. This flag cannot be combined with
 
 <tr>
 <td>
+
 `SEE_MASK_HOTKEY` (0x00000020)
 </td>
 <td>
@@ -155,6 +162,7 @@ Use the keyboard shortcut given by the <b>dwHotKey</b> member.
 
 <tr>
 <td>
+
 `SEE_MASK_NOCLOSEPROCESS` (0x00000040)
 </td>
 <td>
@@ -166,6 +174,7 @@ Use to indicate that the <b>hProcess</b> member receives the process handle. Thi
 
 <tr>
 <td>
+
 `SEE_MASK_CONNECTNETDRV` (0x00000080)
 </td>
 <td>
@@ -177,6 +186,7 @@ Validate the share and connect to a drive letter. This enables reconnection of d
 
 <tr>
 <td>
+
 `SEE_MASK_NOASYNC` (0x00000100)
 </td>
 <td>
@@ -192,6 +202,7 @@ For further discussion on when this flag is necessary, see the Remarks section.
 
 <tr>
 <td>
+
 `SEE_MASK_FLAG_DDEWAIT` (0x00000100)
 </td>
 <td>
@@ -203,6 +214,7 @@ The same as SEE_MASK_NOASYNC, use of that option is preferred.
 
 <tr>
 <td>
+
 `SEE_MASK_DOENVSUBST` (0x00000200)
 </td>
 <td>
@@ -214,6 +226,7 @@ Expand any environment variables specified in the string given by the <b>lpDirec
 
 <tr>
 <td>
+
 `SEE_MASK_FLAG_NO_UI` (0x00000400)
 </td>
 <td>
@@ -225,6 +238,7 @@ Do not display an error message box if an error occurs.
 
 <tr>
 <td>
+
 `SEE_MASK_UNICODE` (0x00004000)
 </td>
 <td>
@@ -236,6 +250,7 @@ Use this flag to indicate a Unicode application.
 
 <tr>
 <td>
+
 `SEE_MASK_NO_CONSOLE` (0x00008000)
 </td>
 <td>
@@ -247,6 +262,7 @@ Use to inherit the parent's console for the new process instead of having it cre
 
 <tr>
 <td>
+
 `SEE_MASK_ASYNCOK` (0x00100000)
 </td>
 <td>
@@ -258,6 +274,7 @@ The execution can be performed on a background thread and the call should return
 
 <tr>
 <td>
+
 `SEE_MASK_NOQUERYCLASSSTORE` (0x01000000)
 </td>
 <td>
@@ -269,6 +286,7 @@ Not used.
 
 <tr>
 <td>
+
 `SEE_MASK_HMONITOR` (0x00200000)
 </td>
 <td>
@@ -280,6 +298,7 @@ Use this flag when specifying a monitor on multi-monitor systems. The monitor is
 
 <tr>
 <td>
+
 `SEE_MASK_NOZONECHECKS` (0x00800000)
 </td>
 <td>
@@ -291,6 +310,7 @@ Use this flag when specifying a monitor on multi-monitor systems. The monitor is
 
 <tr>
 <td>
+
 `SEE_MASK_WAITFORINPUTIDLE` (0x02000000)
 </td>
 <td>
@@ -302,6 +322,7 @@ After the new process is created, wait for the process to become idle before ret
 
 <tr>
 <td>
+
 `SEE_MASK_FLAG_LOG_USAGE` (0x04000000)
 </td>
 <td>
@@ -313,6 +334,7 @@ After the new process is created, wait for the process to become idle before ret
 
 <tr>
 <td>
+
 `SEE_MASK_FLAG_HINST_IS_SITE` (0x08000000)
 </td>
 <td>
@@ -402,8 +424,7 @@ Type: <b>HINSTANCE</b>
 
 [out] If SEE_MASK_NOCLOSEPROCESS is set and the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> call succeeds, it sets this member to a value greater than 32. If the function fails, it is set to an SE_ERR_XXX error value that indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and compared to either 32 or the following SE_ERR_XXX error codes.
 
-
-| Error Code | Reason | 
+| Error Code | Reason |
 | ---------- | ------ |
 | `SE_ERR_FNF` (2) | File not found. |
 | `SE_ERR_PNF` (3) | Path not found. |
@@ -480,7 +501,7 @@ If the calling thread has a message loop and will exist for some time after the 
 
 <b>Introduced in Windows XP</b>. Indicates a user initiated launch that enables tracking of frequently used programs and other behaviors.
 
-To include double quotation marks in <b>lpParameters</b>, enclose each mark in a pair of quotation marks, as in the following example. 
+To include double quotation marks in <b>lpParameters</b>, enclose each mark in a pair of quotation marks, as in the following example.
 
 <pre class="syntax" xml:space="preserve"><code>sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";</code></pre>
 In this case, the application receives three parameters: <i>An</i>, <i>example:</i>, and <i>"quoted text"</i>.
