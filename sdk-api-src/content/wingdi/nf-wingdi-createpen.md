@@ -143,7 +143,7 @@ The pen is solid. When this pen is used in any GDI drawing function that takes a
 
 The width of the pen, in logical units. If <i>nWidth</i> is zero, the pen is a single pixel wide, regardless of the current transformation.
 
-<b>CreatePen</b> returns a pen with the specified width bit with the PS_SOLID style if you specify a width greater than one for the following styles: PS_DASH, PS_DOT, PS_DASHDOT, PS_DASHDOTDOT.
+<b>CreatePen</b> returns a pen with the specified width but with the PS_SOLID style if you specify a width greater than one for the following styles: PS_DASH, PS_DOT, PS_DASHDOT, PS_DASHDOTDOT.
 
 ### -param color [in]
 
