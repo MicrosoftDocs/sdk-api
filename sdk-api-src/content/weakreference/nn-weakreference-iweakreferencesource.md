@@ -48,7 +48,10 @@ api_name:
 
 Represents a source object to which a weak reference can be retrieved.
 
-Weak reference support is on by default for Windows Runtime types that you consume or author in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), WRL, and C++/CX. If you're authoring types, then see [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references#weak-references-in-cwinrt).
+> [!NOTE]
+> With only a few exceptions, weak reference support is on by default for Windows Runtime types that you consume or author in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), WRL, and C++/CX. **Windows.UI.Composition** and **Windows.Devices.Input.PenDevice** are examples of exceptions&mdash;that is, namespaces where weak reference support is *not* on for those types.
+> 
+> If you're authoring types, then see [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references#weak-references-in-cwinrt).
 
 ## -inheritance
 
