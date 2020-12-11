@@ -66,4 +66,3 @@ HRESULT_FROM_WIN32(ERROR_SHARING_VIOLATION) – The image handle is in use by an
 Internally CimDeletePath opens and closes a stream handle and only one stream handle can be opened for a given image at a given time. It is an error to call CimDeletePath while a stream handle is opened on the image. Close any open stream handle before deleting a path.
 
 ## -see-also
-

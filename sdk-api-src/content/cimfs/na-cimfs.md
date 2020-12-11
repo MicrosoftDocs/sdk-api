@@ -60,4 +60,3 @@ CIMs were designed and optimized to be used as a Windows Container image layout.
 ## -see-also
 
 ## -examples
-

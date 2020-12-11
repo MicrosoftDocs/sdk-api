@@ -154,24 +154,9 @@ The hot key associated with the high contrast feature can be enabled. An applica
 <td width="60%">
 <p>Passing HIGHCONTRASTSTRUCTURE in calls to SystemParametersInfoA can cause theme change effects even if the theme isn't being changed. For example, the WM_THEMECHANGED message is sent to Windows even if the only change is to HCF_HOTKEYSOUND.</p>
 <p>To prevent this, include the HCF_OPTION_NOTHEMECHANGE flag in the call to SystemParametersInfo.</p>
-</td>
+
 > [!NOTE]
 > The HCF_OPTION_NOTHEMECHANGE flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="HCF_OPTION_NOFLAGNAME"></a><a id="hcf_option_noflagname"></a><dl>
-<dt><b>No flag name supported</b></dt>
-<dt>0x00001000</dt>
-</dl>
-</td>
-<td width="60%">
-<p>Passing HIGHCONTRASTSTRUCTURE in calls to the SystemParametersInfoA function can cause theme change effects even if the theme isn't being changed. For example, the WM_THEMECHANGED message is sent to Windows even if the only change is to HCF_HOTKEYSOUND.</p>
-<p>To prevent this, include this flag value in the call to SystemParametersInfo.</p>
-
-> [!NOTE]
-> This flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
 </td>
 </tr>
 </table>

@@ -53,4 +53,3 @@ An opaque handle that represents a writer for the stream created with CimCreateF
 ## -remarks
 
 ## -see-also
-

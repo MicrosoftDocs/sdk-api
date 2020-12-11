@@ -77,4 +77,3 @@ HRESULT_FROM_WIN32(ERROR_SHARING_VIOLATION) – A sharing violation occurred on 
 ## -remarks
 
 ## -see-also
-

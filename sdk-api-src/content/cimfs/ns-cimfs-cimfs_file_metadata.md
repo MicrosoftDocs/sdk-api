@@ -69,7 +69,7 @@ Last access time
 
 ### -field SecurityDescriptorBuffer
 
-Buffer containing the file security descriptor
+Buffer containing the file security descriptor 
 
 ### -field SecurityDescriptorSize
 
@@ -94,4 +94,3 @@ Size of the EaBuffer in bytes
 ## -remarks
 
 ## -see-also
-

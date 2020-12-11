@@ -72,4 +72,3 @@ E_ACCESSDENIED – The existingImageRelativePath is a directory.
 Internally CimCreateHardLink opens and closes a stream handle and only one stream handle can be opened for a given image at a given time. It is an error to call CimCreateHardLink while a stream handle is opened on the image. Close any open stream handle before adding a hard link.
 
 ## -see-also
-

@@ -74,4 +74,3 @@ HRESULT_FROM_WIN32(ERROR_SHARING_VIOLATION) – The image handle is in use by an
 ## -remarks
 
 ## -see-also
-
