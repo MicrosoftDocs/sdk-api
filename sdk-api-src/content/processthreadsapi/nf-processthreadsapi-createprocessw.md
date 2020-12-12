@@ -153,6 +153,9 @@ The flags that control the priority class and the creation of the process. For a
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to <b>NORMAL_PRIORITY_CLASS</b> unless the priority class of the creating process is <b>IDLE_PRIORITY_CLASS</b> or <b>BELOW_NORMAL_PRIORITY_CLASS</b>. In this case, the child process receives the default priority class of the calling process.
 
+
+The dwCreationFlags parameter can be 0. In that case, the process creation will be default.
+
 ### -param lpEnvironment [in, optional]
 
 A pointer to the environment block for the new process. If this parameter is <b>NULL</b>, the new process uses the environment of the calling process.
