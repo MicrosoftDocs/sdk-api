@@ -95,7 +95,7 @@ This function returns a
 </dl>
 </td>
 <td width="60%">
-The operation completed successully.
+The operation completed successfully.
 
 </td>
 </tr>
