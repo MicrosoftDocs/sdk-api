@@ -58,7 +58,7 @@ Specifies the type of copy operation performed when calling <a href="/windows/de
 
 Copy an acceleration structure while fixing any self-referential pointers that may be present so that the destination is a self-contained copy of the source.  Any external pointers to other acceleration structures remain unchanged from source to destination in the copy.  The size of the destination is identical to the size of the source.
 
-> [!IMPORTANT]]
+> [!IMPORTANT]
 > The source memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 > The destination memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
@@ -70,7 +70,7 @@ This mode is only valid if the source acceleration structure was originally buil
 
 Compacting geometry requires the entire acceleration structure to be constructed, which is why you must first build and then compact the structure.
 
-> [!IMPORTANT]]
+> [!IMPORTANT]
 > The source memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 > The destination memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
@@ -83,7 +83,7 @@ This mode is only intended for tools such as PIX, though nothing stops any app f
 For top-level acceleration structures, the output includes a set of instance descriptions that are identical to the data used in the original build and in the same order.  For bottom-level acceleration structures, the output includes a set of geometry descriptions roughly matching the data used in the original build.  The output is only a rough match for the original in part because of the tolerances allowed in the specification for acceleration structures and in part due to the inherent complexity of reporting exactly the same structure as is conceptually encoded.  For example. axis-aligned bounding boxes (AABBs) returned for procedural primitives could be more conservative (larger) in volume and even different in number than what is actually in the acceleration structure representation.  Geometries, each with its own geometry description, appear in the same order as in the original acceleration, as shader table indexing calculations depend on this.
 
 
-> [!IMPORTANT]]
+> [!IMPORTANT]
 > The source memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 > The destination memory must be in state [**D3D12_RESOURCE_STATE_UNORDERED_ACCESS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
@@ -97,7 +97,7 @@ This mode serializes an acceleration structure so that an app or tools can store
 
 When serializing a top-level acceleration structure, the bottom-level acceleration structures it refers to do not have to still be present or intact in memory.  Likewise, bottom-level acceleration structures can be serialized independent of whether any top-level acceleration structures are pointing to them.  In other words, the order of serialization of acceleration structures doesn’t matter.
 
-> [!IMPORTANT]]
+> [!IMPORTANT]
 > The source memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 > The destination memory must be in state [**D3D12_RESOURCE_STATE_UNORDERED_ACCESS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
@@ -112,6 +112,6 @@ Deserialization can only be performed on the same device and driver version on w
 This mode is only intended for tools such as PIX, though nothing stops any app from using it, but this mode is only permitted when developer mode is enabled in the OS.   This copy operation is not intended to be used for caching acceleration structures, because running a full acceleration structure build is likely to be faster than loading one from disk.  
 
 
-> [!IMPORTANT]]
+> [!IMPORTANT]
 > The source memory must be in state [**D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 > The destination memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
