@@ -57,7 +57,7 @@ Contains placeholder information for creating new placeholder files or directori
 ### -field RelativeFileName
 
 The name of the child placeholder file or directory to be created. 
-This shouldn't be a path or else CfCreatePlaceholders will fail with ERROR_CLOUD_FILE_INVALID_REQUEST.
+This parameter must be a file name rather than a path or or else CfCreatePlaceholders will fail with ERROR_CLOUD_FILE_INVALID_REQUEST.
 E.g. ({BaseDirectoryPath = “C:\foo\bar”}, { RelativeFileName = “baz”}) is allowed, where as ({BaseDirectoryPath = “C:\foo”}, { RelativeFileName = “bar\baz” }) is incorrect.
 
 ### -field FsMetadata
