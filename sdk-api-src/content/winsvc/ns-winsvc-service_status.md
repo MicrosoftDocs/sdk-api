@@ -442,8 +442,8 @@ The service is notified when an event for which the service has registered  occu
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="SERVICE_ACCEPT_USERMODEREBOOT"></a><a id="service_accept_usermodereboot"></a><dl>
-<dt><b>SERVICE_ACCEPT_USERMODEREBOOT</b></dt>
+<td width="40%"><a id="SERVICE_ACCEPT_USER_LOGOFF"></a><a id="service_accept_usermodereboot"></a><dl>
+<dt><b>SERVICE_ACCEPT_USER_LOGOFF</b></dt>
 <dt>0x00000800</dt>
 </dl>
 </td>
