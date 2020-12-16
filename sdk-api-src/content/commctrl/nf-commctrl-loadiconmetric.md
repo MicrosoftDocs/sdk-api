@@ -74,20 +74,18 @@ A pointer to a null-terminated, Unicode buffer that contains location informatio
 
 If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> can specify one of two things.
 
-<ol>
-<li>The identifier of a predefined icon to load. These identifiers are recognized.
+The identifier of a predefined icon to load. These identifiers are recognized.
 
-                            <ul>
+<ol>
 <li>IDI_APPLICATION</li>
 <li>IDI_INFORMATION</li>
 <li>IDI_ERROR</li>
 <li>IDI_WARNING</li>
 <li>IDI_SHIELD</li>
-<li>IDI_QUESTION</li>
-</ul>
+<li>IDI_QUESTION
+
 To pass these constants to the <b>LoadIconMetric</b> function, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
 
-</li>
 <li>The name of a standalone icon (.ico) file.</li>
 </ol>
 If <i>hinst</i> is non-null, <i>pszName</i> can specify one of two things.
