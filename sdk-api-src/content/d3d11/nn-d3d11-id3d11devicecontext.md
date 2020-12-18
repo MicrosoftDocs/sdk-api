@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>ID3D11DeviceContext</b> interface represents a device context which generates rendering commands.
-<div class="alert"><b>Note</b>  The latest version of this interface is <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4">ID3D11DeviceContext4</a> introduced in the Windows 10 Creators Update. Applications targetting Windows 10 Creators Update should use the <b>ID3D11DeviceContext4</b> interface instead of <b>ID3D11Device</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  The latest version of this interface is <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4">ID3D11DeviceContext4</a> introduced in the Windows 10 Creators Update. Applications targetting Windows 10 Creators Update should use the <b>ID3D11DeviceContext4</b> interface instead of <b>ID3D11DeviceContext</b>.</div><div> </div>
 
 ## -inheritance
 
