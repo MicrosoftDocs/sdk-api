@@ -95,7 +95,7 @@ The various NTSTATUS values are defined in NTSTATUS.H, which is distributed with
 </dl>
 </td>
 <td width="60%">
-The ANSI string was converted to Unicode. Otherwise, no storage was allocated and no conversion was done.
+The Unicode string was converted to ANSI. Otherwise, no storage was allocated and no conversion was done.
 
 </td>
 </tr>
