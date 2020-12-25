@@ -108,7 +108,7 @@ If the function succeeds, the return value indicates the event that caused the f
 </dl>
 </td>
 <td width="60%">
-If <i>bWaitAll</i> is <b>TRUE</b>, the return value indicates that the state of all specified objects is signaled. 
+If <i>bWaitAll</i> is <b>TRUE</b>, a return value in this range indicates that the state of all specified objects is signaled. 
 
 
 
