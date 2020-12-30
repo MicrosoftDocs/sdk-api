@@ -78,6 +78,10 @@ Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
+## -remarks
+
+If the data returned is a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or one of its derivative classes, which was previously set by SetPrivateDataInterface, that interface will have its reference count incremented before the private data is returned.
+
 ## -see-also
 
 [IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)
