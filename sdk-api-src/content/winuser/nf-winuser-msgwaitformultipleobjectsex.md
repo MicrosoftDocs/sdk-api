@@ -353,7 +353,7 @@ If the function succeeds, the return value indicates the event that caused the f
 </dl>
 </td>
 <td width="60%">
-If the <b>MWMO_WAITALL</b> flag is used, the return value indicates that the state of all specified objects is signaled. Otherwise, the return value minus <b>WAIT_OBJECT_0</b> indicates the <i>pHandles</i> array index of the object that caused the function to return.
+If the <b>MWMO_WAITALL</b> flag is used, a return value within the specified range indicates that the state of all specified objects is signaled. Otherwise, the return value minus <b>WAIT_OBJECT_0</b> indicates the <i>pHandles</i> array index of the object that caused the function to return.
 
 </td>
 </tr>

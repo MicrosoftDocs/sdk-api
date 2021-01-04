@@ -289,7 +289,7 @@ If the function succeeds, the return value indicates the event that caused the f
 </dl>
 </td>
 <td width="60%">
-If <i>bWaitAll</i> is <b>TRUE</b>, the return value indicates that the state of all specified objects is signaled. If <i>bWaitAll</i> is <b>FALSE</b>, the return value minus <b>WAIT_OBJECT_0</b> indicates the <i>pHandles</i> array index of the object that satisfied the wait.
+If <i>bWaitAll</i> is <b>TRUE</b>, a return value within the specified range indicates that the state of all specified objects is signaled. If <i>bWaitAll</i> is <b>FALSE</b>, the return value minus <b>WAIT_OBJECT_0</b> indicates the <i>pHandles</i> array index of the object that satisfied the wait.
 
 </td>
 </tr>
