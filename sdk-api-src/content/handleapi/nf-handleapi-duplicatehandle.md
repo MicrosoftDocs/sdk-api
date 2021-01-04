@@ -76,29 +76,31 @@ The handle to be duplicated. This is an open object handle that is valid in the 
 
 A handle to the process that is to receive the duplicated handle. The handle must have the PROCESS_DUP_HANDLE access right.
 
+This parameter is optional and can be specified as NULL if the **DUPLICATE_CLOSE_SOURCE** flag is set in _Options_.
+
 ### -param lpTargetHandle [out]
 
 A pointer to a variable that receives the duplicate handle. This handle value is valid in the context of the target process. 
 
-
-
-
-If <i>hSourceHandle</i> is a pseudo handle returned by <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a>, <b>DuplicateHandle</b> converts it to a real  handle to a process or thread, respectively.
+If <i>hSourceHandle</i> is a pseudo handle returned by <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a>, <b>DuplicateHandle</b> converts it to a real handle to a process or thread, respectively.
 
 If <i>lpTargetHandle</i> is <b>NULL</b>, the function duplicates the handle, but does not return the duplicate handle value to the caller. This behavior exists only for backward compatibility with previous versions of this function. You should not use this feature, as you will lose system resources until the target process terminates.
+
+This parameter is ignored if _hTargetProcessHandle_ is **NULL**.
 
 ### -param dwDesiredAccess [in]
 
 The access requested for the new handle. For the flags that can be specified for each object type, see the following Remarks section. 
 
-
-
-
 This parameter is ignored if the <i>dwOptions</i> parameter specifies the DUPLICATE_SAME_ACCESS flag. Otherwise, the flags that can be specified depend on the type of object whose handle is to be duplicated.
+
+This parameter is ignored if _hTargetProcessHandle_ is **NULL**.
 
 ### -param bInheritHandle [in]
 
 A variable that indicates whether the handle is inheritable. If <b>TRUE</b>, the duplicate handle can be inherited by new processes created by the target process. If <b>FALSE</b>, the new handle cannot be inherited.
+
+This parameter is ignored if _hTargetProcessHandle_ is **NULL**.
 
 ### -param dwOptions [in]
 
@@ -332,7 +334,7 @@ Normally the target process closes a duplicated handle when that process is fini
 <ul>
 <li>Set <i>hSourceProcessHandle</i> to the target process from the <b>DuplicateHandle</b> call that created the handle.</li>
 <li>Set <i>hSourceHandle</i> to the duplicated handle to close.</li>
-<li>Set <i>lpTargetHandle</i> to <b>NULL</b>.</li>
+<li>Set <i>hTargetProcessHandle</i> to <b>NULL</b>.</li>
 <li>Set <i>dwOptions</i> to DUPLICATE_CLOSE_SOURCE.</li>
 </ul>
 
