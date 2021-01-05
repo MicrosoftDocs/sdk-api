@@ -57,8 +57,8 @@ Creates one or more new placeholder files or directories under a sync root tree.
 ### -param BaseDirectoryPath [in]
 
 Local directory path under which placeholders are created.
-Note that this represents the directory where the placeholder needs to be created. Hence it will be sync root only
-if the placeholder is being created in the sync root, else it will be a successor of the sync root. E.g. ({BaseDirectoryPath = c:\SyncRoot} {CF_PLACEHOLDER_CREATE_INFO.RelativeFileName = Placeholder}) should be used if the Placeholder is being created in the SyncRoot. ({BaseDirectoryPath = c:\SyncRoot\Successor} {CF_PLACEHOLDER_CREATE_INFO.RelativeFileName = Placeholder}) should be used if the Placeholder is being created in a child of the SyncRoot which is c:\SyncRoot\Successor.
+
+Note that this directory must be the immediate parent directory of the placeholders being created. For example, if the sync root of the provider is c:\SyncRoot and a placeholder is being created in a child directory of the sync root such as c:\SyncRoot\ChildDir, then BaseDirectoryPath = c:\SyncRoot\ChildDir.
 
 ### -param PlaceholderArray [in, out]
 
