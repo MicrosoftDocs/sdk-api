@@ -52,7 +52,7 @@ api_name:
 
 Represents a filter effect.
 
-IDCompositionFilterEffect exposes a subset of Direct2D's image <a href="/windows/desktop/Direct2D/effects-overview">effects</a> through Direction Composition for use in CSS filters in the browser platform.
+IDCompositionFilterEffect exposes a subset of Direct2D's image <a href="/windows/desktop/Direct2D/effects-overview">effects</a> through DirectComposition for use in CSS filters in the browser platform.
 
 ## -inheritance
 
