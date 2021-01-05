@@ -339,7 +339,7 @@ int __cdecl main()
     if ((dwRetVal = GetAdaptersInfo(pAdapterInfo, &ulOutBufLen)) == NO_ERROR) {
         pAdapter = pAdapterInfo;
         while (pAdapter) {
-            printf("\tComboIndex: \t5d\n", pAdapter->ComboIndex);
+            printf("\tComboIndex: \t%d\n", pAdapter->ComboIndex);
             printf("\tAdapter Name: \t%s\n", pAdapter->AdapterName);
             printf("\tAdapter Desc: \t%s\n", pAdapter->Description);
             printf("\tAdapter Addr: \t");
