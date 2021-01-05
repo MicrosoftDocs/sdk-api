@@ -45,9 +45,6 @@ api_name:
  - IDMLObject.GetPrivateData
 ---
 
-# IDMLObject::GetPrivateData
-
-
 ## -description
 
 Gets application-defined data from a DirectML device object. This method is thread-safe.
@@ -56,7 +53,7 @@ Gets application-defined data from a DirectML device object. This method is thre
 
 ### -param guid [in]
 
-Type: <b><a href="/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
+Type: **[REFGUID](/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50)**
 
 The <b>GUID</b> that is associated with the data.
 
@@ -77,6 +74,10 @@ A pointer to a memory block that receives the data from the device object if <i>
 Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## -remarks
+
+If the data returned is a pointer to an [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) (or derived interface) that was previously set by [SetPrivateDataInterface](/windows/win32/api/directml/nf-directml-idmlobject-setprivatedatainterface), then that interface will have its reference count incremented before the private data is returned.
 
 ## -see-also
 
