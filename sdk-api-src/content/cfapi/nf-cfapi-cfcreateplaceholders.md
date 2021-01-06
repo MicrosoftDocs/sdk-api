@@ -58,6 +58,8 @@ Creates one or more new placeholder files or directories under a sync root tree.
 
 Local directory path under which placeholders are created.
 
+Note that this directory must be the immediate parent directory of the placeholders being created. For example, if the sync root of the provider is c:\SyncRoot and a placeholder is being created in a child directory of the sync root such as c:\SyncRoot\ChildDir, then BaseDirectoryPath = c:\SyncRoot\ChildDir.
+
 ### -param PlaceholderArray [in, out]
 
 On successful creation, the <i>PlaceholderArray</i> contains the final USN value and a STATUS_OK message. On return, this array contains an HRESULT value describing whether the placeholder was created or not.
