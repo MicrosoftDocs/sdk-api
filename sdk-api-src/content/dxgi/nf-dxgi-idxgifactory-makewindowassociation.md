@@ -58,19 +58,6 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The handle of the window that is to be monitored. This parameter can be <b>NULL</b>; but only if *Flags* is also 0.
 
-If *WindowHandle* is non-NULL, then you should call this method on the factory that is associated with the swap chain that was created with the target **HWND**. You can guarantee that by calling the [IDXGIObject::GetParent](/windows/win32/api/dxgi/nf-dxgi-idxgiobject-getparent) method on the swap chain to locate the factory. Here's an example.
-
-```cppwinrt
-void LocateFactory(winrt::com_ptr<IDXGISwapChain> const& swapChain,
-    HWND hWnd,
-    UINT flags)
-{
-    winrt::com_ptr<IDXGIFactory1> factory;
-    factory.capture(swapChain, &IDXGISwapChain::GetParent);
-    factory->MakeWindowAssociation(hWnd, flags);
-}
-```
-
 ### -param Flags
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
@@ -102,6 +89,20 @@ Applications can make some changes to make the transition from windowed to full 
 While windowed, the application can, if it chooses, restrict the size of its window's client area to sizes to which it is comfortable rendering. A fully flexible application would make no such restriction, but UI elements or other design considerations can, of course, make this flexibility untenable. If the application further chooses to restrict its window's client area to just those that match supported full-screen resolutions, the application can field WM_SIZING, then check against <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-findclosestmatchingmode">IDXGIOutput::FindClosestMatchingMode</a>. If a matching mode is found, allow the resize. (The IDXGIOutput can be retrieved from <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getcontainingoutput">IDXGISwapChain::GetContainingOutput</a>. Absent subsequent changes to desktop topology, this will be the same output that will be chosen when alt-enter is fielded and fullscreen mode is begun for that swap chain.)
 
 Applications that want to handle mode changes or Alt+Enter themselves should call <b>MakeWindowAssociation</b> with the DXGI_MWA_NO_WINDOW_CHANGES flag after swap chain creation. The <i>WindowHandle</i> argument, if non-<b>NULL</b>, specifies that the application message queues will not be handled by the DXGI runtime for all swap chains of a particular target <a href="/windows/desktop/WinProg/windows-data-types">HWND</a>.  Calling <b>MakeWindowAssociation</b> with the DXGI_MWA_NO_WINDOW_CHANGES flag after swapchain creation ensures that DXGI will not interfere with application's handling of window mode changes or Alt+Enter.
+
+You must call the **MakeWindowAssociation** method on the factory object associated with the target HWND swap chain(s). You can guarantee that by calling the [IDXGIObject::GetParent](/windows/win32/api/dxgi/nf-dxgi-idxgiobject-getparent) method on the swap chain(s) to locate the factory. Here's a code example of doing that.
+
+```cppwinrt
+void MakeWindowAssociationWithLocatedFactory(
+    winrt::com_ptr<IDXGISwapChain> const& swapChain,
+    HWND hWnd,
+    UINT flags)
+{
+    winrt::com_ptr<IDXGIFactory1> factory;
+    factory.capture(swapChain, &IDXGISwapChain::GetParent);
+    factory->MakeWindowAssociation(hWnd, flags);
+}
+```
 
 <h3><a id="Notes_for_Windows_Store_apps"></a><a id="notes_for_windows_store_apps"></a><a id="NOTES_FOR_WINDOWS_STORE_APPS"></a>Notes for Windows Store apps</h3>
 If a Windows Store app calls <b>MakeWindowAssociation</b>, it fails with <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
