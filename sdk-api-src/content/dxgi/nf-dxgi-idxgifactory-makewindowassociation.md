@@ -90,7 +90,7 @@ While windowed, the application can, if it chooses, restrict the size of its win
 
 Applications that want to handle mode changes or Alt+Enter themselves should call <b>MakeWindowAssociation</b> with the DXGI_MWA_NO_WINDOW_CHANGES flag after swap chain creation. The <i>WindowHandle</i> argument, if non-<b>NULL</b>, specifies that the application message queues will not be handled by the DXGI runtime for all swap chains of a particular target <a href="/windows/desktop/WinProg/windows-data-types">HWND</a>.  Calling <b>MakeWindowAssociation</b> with the DXGI_MWA_NO_WINDOW_CHANGES flag after swapchain creation ensures that DXGI will not interfere with application's handling of window mode changes or Alt+Enter.
 
-If you pass a target HWND to **MakeWindowAssociation** (that is, *WindowHandle* is non-NULL), then you must call the method on the factory object associated with the target HWND's swap chain(s). You can guarantee that by calling the [IDXGIObject::GetParent](/windows/win32/api/dxgi/nf-dxgi-idxgiobject-getparent) method on the swap chain(s) to locate the factory. Here's an example.
+You must call the **MakeWindowAssociation** method on the factory object associated with the target HWND swap chain(s). You can guarantee that by calling the [IDXGIObject::GetParent](/windows/win32/api/dxgi/nf-dxgi-idxgiobject-getparent) method on the swap chain(s) to locate the factory. Here's a code example of doing that.
 
 ```cppwinrt
 void MakeWindowAssociationWithLocatedFactory(
