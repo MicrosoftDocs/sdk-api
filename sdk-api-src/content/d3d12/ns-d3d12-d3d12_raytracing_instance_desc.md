@@ -85,7 +85,7 @@ An arbitrary 24-bit value representing per-instance contribution to add into sha
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types) : 8**
 
-An 8-bit mask representing flags to apply to the instance.
+An 8-bit mask representing flags from [D3D12_RAYTRACING_INSTANCE_FLAGS](./ne-d3d12-d3d12_raytracing_instance_flags.md) to apply to the instance.
 
 ### -field AccelerationStructure
 
