@@ -442,6 +442,10 @@ When connected sockets become closed for whatever reason, they should be discard
 
 
 
+<a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>
+
+
+
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>
 
 
