@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.CreateFileMapping2
 title: CreateFileMapping2
-description: Creates or opens a named or unnamed file mapping object for a specified file. You can specify specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
+description: Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
 ms.date: 10/22/2020
 tech.root: base
 targetos: Windows
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Creates or opens a named or unnamed file mapping object for a specified file. You can specify specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
+Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
 
 ## -parameters
 
