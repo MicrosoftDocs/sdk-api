@@ -66,45 +66,11 @@ Type: <b>int</b>
 
 The type of keyboard information to be retrieved. This parameter can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Keyboard type
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Keyboard subtype
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-The number of function keys on the keyboard
-
-</td>
-</tr>
-</table>
+| Value | Meaning                                     |
+|:-----:|---------------------------------------------|
+|   0   | Keyboard type                               |
+|   1   | Keyboard subtype                            |
+|   2   | The number of function keys on the keyboard |
 
 ## -returns
 
@@ -117,169 +83,16 @@ If the function fails and <i>nTypeFlag</i> is not one, the return value is zero;
 
 ## -remarks
 
-The type may be one of the following values.
+The type may be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-IBM PC/XT or compatible (83-key) keyboard
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-Olivetti "ICO" (102-key) keyboard
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-IBM PC/AT (84-key) or similar keyboard
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-IBM enhanced (101- or 102-key) keyboard
-
-</td>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-Nokia 1050 and similar keyboards
-
-</td>
-</tr>
-<tr>
-<td>
-6
-
-</td>
-<td>
-Nokia 9140 and similar keyboards
-
-</td>
-</tr>
-<tr>
-<td>
-7
-
-</td>
-<td>
-Japanese keyboard
-
-</td>
-</tr>
-</table>
- 
+| Value | Description                                          |
+|:-----:|------------------------------------------------------|
+|  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
+|  0x7  | Japanese Keyboard                                    |
+|  0x8  | Korean Keyboard                                      |
+| 0x51  | Unknown type or HID keyboard                         |
 
 The subtype is an original equipment manufacturer (OEM)-dependent value.
-
-The application can also determine the number of function keys on a keyboard from the keyboard type. Following are the number of function keys for each keyboard type.
-
-<table>
-<tr>
-<th>Type</th>
-<th>Number of function keys</th>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-10
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-12 (sometimes 18)
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-10
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-12
-
-</td>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-10
-
-</td>
-</tr>
-<tr>
-<td>
-6
-
-</td>
-<td>
-24
-
-</td>
-</tr>
-<tr>
-<td>
-7
-
-</td>
-<td>
-Hardware dependent and specified by the OEM
-
-</td>
-</tr>
-</table>
- 
-
-When a single USB keyboard is connected to the computer, this function returns the code 81.
 
 ## -see-also
 

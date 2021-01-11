@@ -62,19 +62,28 @@ Defines the raw input data coming from the specified keyboard.
 
 Type: <b>DWORD</b>
 
-The type of the keyboard. See the Remarks section.
+The type of the keyboard.
+
+| Value | Description                                          |
+|:-----:|------------------------------------------------------|
+|  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
+|  0x7  | Japanese Keyboard                                    |
+|  0x8  | Korean Keyboard                                      |
+| 0x51  | Unknown type or HID keyboard                         |
+
+See the Remarks section.
 
 ### -field dwSubType
 
 Type: <b>DWORD</b>
 
-The subtype of the keyboard. See the Remarks section.
+The vendor-specific subtype of the keyboard. See the Remarks section.
 
 ### -field dwKeyboardMode
 
 Type: <b>DWORD</b>
 
-The scan code mode. See the Remarks section.
+The scan code mode. Usually 1 which means that *Scan Code Set 1* is used. See [Keyboard Scan Code Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc).
 
 ### -field dwNumberOfFunctionKeys
 
