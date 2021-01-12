@@ -59,10 +59,6 @@ Occurs when the Tablet PC Input Panel has inserted text into the control with in
 Array of <a href="/windows/desktop/tablet/inkdisp-class">Ink</a> objects in the Input Panel.
 
 
-#### - InkObjects [in]
-
-The number of <a href="/windows/desktop/tablet/inkdisp-class">Ink</a> objects in the Ink array parameter.
-
 ## -returns
 
 This method can return one of these values.
