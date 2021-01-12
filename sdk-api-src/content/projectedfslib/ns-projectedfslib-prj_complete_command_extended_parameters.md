@@ -56,6 +56,8 @@ Specifies parameters required for completing certain callbacks.
 
 ### -field CommandType
 
+The type of command.
+
 ### -field DUMMYUNIONNAME
 
 ### -field DUMMYUNIONNAME.Notification
@@ -70,9 +72,7 @@ A new set of notifications the provider wishes to receive.
 
 An opaque handle to a directory entry buffer. This must be the value passed in the dirEntryBufferHandle parameter of the <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback being completed.
 
-### -field commandType
 
-The type of command.
 
 ## -remarks
 

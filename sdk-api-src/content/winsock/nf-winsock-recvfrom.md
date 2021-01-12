@@ -307,7 +307,7 @@ The <i>flags</i> parameter can be used to influence the behavior of the function
 </tr>
 <tr>
 <td>MSG_PEEK</td>
-<td>Peeks at the incoming data. The data is copied into the buffer but is not removed from the input queue. The function subsequently returns the amount of data that can be read in a single call to the <b>recvfrom</b> (or <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>) function, which may not be the same as the total amount of data queued on the socket.  The amount of data that can actually be read in a single call to the <b>recvfrom</b> (or <b>recv</b>) function is limited to the data size written in the <a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a> or <a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> function call.</td>
+<td>Peeks at the incoming data. The data is copied into the buffer but is not removed from the input queue.</td>
 </tr>
 <tr>
 <td>MSG_OOB</td>

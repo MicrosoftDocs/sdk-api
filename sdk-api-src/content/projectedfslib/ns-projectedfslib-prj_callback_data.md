@@ -64,6 +64,8 @@ Callback-specific flags.
 
 ### -field NamespaceVirtualizationContext
 
+Opaque handle to the virtualization instance that is sending the callback.
+
 ### -field CommandId
 
 A value that uniquely identifies a particular invocation of a callback. The provider uses this value: 
@@ -107,7 +109,3 @@ A pointer to context information defined by the provider. The provider passes th
 
 If the provider did not specify such a context, this value will be NULL.
 
-
-#### - VirtualizationInstanceHandle
-
-Opaque handle to the virtualization instance that is sending the callback.

@@ -68,6 +68,8 @@ A pointer to the GetDirectoryEnumerationCallback.
 
 ### -field GetPlaceholderInfoCallback
 
+A pointer to the GetPlaceholderInformationCallback.
+
 ### -field GetFileDataCallback
 
 A pointer to the GetFileDataCallback.
@@ -78,19 +80,12 @@ A pointer to the QueryFileNameCallback.
 
 ### -field NotificationCallback
 
+A pointer to the NotifyOperationCallback.
+
 ### -field CancelCommandCallback
 
 A pointer to the CancelCommandCallback.
 
-
-#### - GetPlaceholderInformationCallback
-
-A pointer to the GetPlaceholderInformationCallback.
-
-
-#### - NotifyOperationCallback
-
-A pointer to the NotifyOperationCallback.
 
 ## -remarks
 

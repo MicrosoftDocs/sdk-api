@@ -74,541 +74,312 @@ There are five members. The first member, the value-type tag, and the last membe
 
 ### -field tag_inner_PROPVARIANT.vt
 
+Value type tag.
+
 ### -field tag_inner_PROPVARIANT.wReserved1
+
+Reserved for future use.
 
 ### -field tag_inner_PROPVARIANT.wReserved2
 
+Reserved for future use.
+
 ### -field tag_inner_PROPVARIANT.wReserved3
+
+Reserved for future use.
 
 ### -field tag_inner_PROPVARIANT.cVal
 
+<b>VT_I1</b>, Version 1
+
 ### -field tag_inner_PROPVARIANT.bVal
-
-### -field tag_inner_PROPVARIANT.iVal
-
-### -field tag_inner_PROPVARIANT.uiVal
-
-### -field tag_inner_PROPVARIANT.lVal
-
-### -field tag_inner_PROPVARIANT.ulVal
-
-### -field tag_inner_PROPVARIANT.intVal
-
-### -field tag_inner_PROPVARIANT.uintVal
-
-### -field tag_inner_PROPVARIANT.hVal
-
-### -field tag_inner_PROPVARIANT.uhVal
-
-### -field tag_inner_PROPVARIANT.fltVal
-
-### -field tag_inner_PROPVARIANT.dblVal
-
-### -field tag_inner_PROPVARIANT.boolVal
-
-### -field tag_inner_PROPVARIANT.scode
-
-### -field tag_inner_PROPVARIANT.cyVal
-
-### -field tag_inner_PROPVARIANT.date
-
-### -field tag_inner_PROPVARIANT.filetime
-
-### -field tag_inner_PROPVARIANT.puuid
-
-### -field tag_inner_PROPVARIANT.pclipdata
-
-### -field tag_inner_PROPVARIANT.bstrVal
-
-### -field tag_inner_PROPVARIANT.bstrblobVal
-
-### -field tag_inner_PROPVARIANT.blob
-
-### -field tag_inner_PROPVARIANT.pszVal
-
-### -field tag_inner_PROPVARIANT.pwszVal
-
-### -field tag_inner_PROPVARIANT.punkVal
-
-### -field tag_inner_PROPVARIANT.pdispVal
-
-### -field tag_inner_PROPVARIANT.pStream
-
-### -field tag_inner_PROPVARIANT.pStorage
-
-### -field tag_inner_PROPVARIANT.pVersionedStream
-
-### -field tag_inner_PROPVARIANT.parray
-
-### -field tag_inner_PROPVARIANT.cac
-
-### -field tag_inner_PROPVARIANT.caub
-
-### -field tag_inner_PROPVARIANT.cai
-
-### -field tag_inner_PROPVARIANT.caui
-
-### -field tag_inner_PROPVARIANT.cal
-
-### -field tag_inner_PROPVARIANT.caul
-
-### -field tag_inner_PROPVARIANT.cah
-
-### -field tag_inner_PROPVARIANT.cauh
-
-### -field tag_inner_PROPVARIANT.caflt
-
-### -field tag_inner_PROPVARIANT.cadbl
-
-### -field tag_inner_PROPVARIANT.cabool
-
-### -field tag_inner_PROPVARIANT.cascode
-
-### -field tag_inner_PROPVARIANT.cacy
-
-### -field tag_inner_PROPVARIANT.cadate
-
-### -field tag_inner_PROPVARIANT.cafiletime
-
-### -field tag_inner_PROPVARIANT.cauuid
-
-### -field tag_inner_PROPVARIANT.caclipdata
-
-### -field tag_inner_PROPVARIANT.cabstr
-
-### -field tag_inner_PROPVARIANT.cabstrblob
-
-### -field tag_inner_PROPVARIANT.calpstr
-
-### -field tag_inner_PROPVARIANT.calpwstr
-
-### -field tag_inner_PROPVARIANT.capropvar
-
-### -field tag_inner_PROPVARIANT.pcVal
-
-### -field tag_inner_PROPVARIANT.pbVal
-
-### -field tag_inner_PROPVARIANT.piVal
-
-### -field tag_inner_PROPVARIANT.puiVal
-
-### -field tag_inner_PROPVARIANT.plVal
-
-### -field tag_inner_PROPVARIANT.pulVal
-
-### -field tag_inner_PROPVARIANT.pintVal
-
-### -field tag_inner_PROPVARIANT.puintVal
-
-### -field tag_inner_PROPVARIANT.pfltVal
-
-### -field tag_inner_PROPVARIANT.pdblVal
-
-### -field tag_inner_PROPVARIANT.pboolVal
-
-### -field tag_inner_PROPVARIANT.pdecVal
-
-### -field tag_inner_PROPVARIANT.pscode
-
-### -field tag_inner_PROPVARIANT.pcyVal
-
-### -field tag_inner_PROPVARIANT.pdate
-
-### -field tag_inner_PROPVARIANT.pbstrVal
-
-### -field tag_inner_PROPVARIANT.ppunkVal
-
-### -field tag_inner_PROPVARIANT.ppdispVal
-
-### -field tag_inner_PROPVARIANT.pparray
-
-### -field tag_inner_PROPVARIANT.pvarVal
-
-### -field decVal
-
- 
-
-
-
-
-#### - bVal
 
 <b>VT_UI1</b>
 
-
-#### - blob
-
-<b>VT_BLOB</b>, <b>VT_BLOBOBJECT</b>
-
-
-#### - boolVal
-
-<b>VT_BOOL</b>
-
-
-#### - bstrVal
-
-<b>VT_BSTR</b>
-
-
-#### - bstrblobVal
-
-<b>VT_BSTR_BLOB</b>
-
-
-#### - cVal
-
-<b>VT_I1</b>, Version 1
-
-
-#### - cabool
-
-<b>VT_VECTOR</b> | <b>VT_BOOL</b>
-
-
-#### - cabstr
-
-<b>VT_VECTOR</b> | <b>VT_BSTR</b>
-
-
-#### - cabstrblob
-
-<b>VT_VECTOR</b> | <b>VT_BSTR_BLOB</b>
-
-
-#### - cac
-
-<b>VT_VECTOR</b> | <b>VT_I1</b>, Version 1
-
-
-#### - caclipdata
-
-<b>VT_VECTOR</b> | <b>VT_CF</b>
-
-
-#### - cacy
-
-<b>VT_VECTOR</b> | <b>VT_CY</b>
-
-
-#### - cadate
-
-<b>VT_VECTOR</b> | <b>VT_DATE</b>
-
-
-#### - cadbl
-
-<b>VT_VECTOR</b> | <b>VT_R8</b>
-
-
-#### - cafiletime
-
-<b>VT_VECTOR</b> | <b>VT_FILETIME</b>
-
-
-#### - caflt
-
-<b>VT_VECTOR</b> | <b>VT_R4</b>
-
-
-#### - cah
-
-<b>VT_VECTOR</b> | <b>VT_I8</b>
-
-
-#### - cai
-
-<b>VT_VECTOR</b> | <b>VT_I2</b>
-
-
-#### - cal
-
-<b>VT_VECTOR</b> | <b>VT_I4</b>
-
-
-#### - calpstr
-
-<b>VT_VECTOR</b> | <b>VT_LPSTR</b>
-
-
-#### - calpwstr
-
-<b>VT_VECTOR</b> | <b>VT_LPWSTR</b>
-
-
-#### - capropvar
-
-<b>VT_VECTOR</b> | <b>VT_VARIANT</b>
-
-
-#### - cascode
-
-<b>VT_VECTOR</b> | <b>VT_ERROR</b>
-
-
-#### - caub
-
-<b>VT_VECTOR</b> | <b>VT_UI1</b>
-
-
-#### - cauh
-
-<b>VT_VECTOR</b> | <b>VT_UI8</b>
-
-
-#### - caui
-
-<b>VT_VECTOR</b> | <b>VT_UI2</b>
-
-
-#### - caul
-
-<b>VT_VECTOR</b> | <b>VT_UI4</b>
-
-
-#### - cauuid
-
-<b>VT_VECTOR</b> | <b>VT_CLSID</b>
-
-
-#### - cyVal
-
-<b>VT_CY</b>
-
-
-#### - date
-
-<b>VT_DATE</b>
-
-
-#### - dblVal
-
-<b>VT_R8</b>
-
-
-#### - filetime
-
-<b>VT_FILETIME</b>
-
-
-#### - fltVal
-
-<b>VT_R4</b>
-
-
-#### - hVal
-
-<b>VT_I8</b>
-
-
-#### - iVal
+### -field tag_inner_PROPVARIANT.iVal
 
 <b>VT_I2</b>
 
-
-#### - intVal
-
-<b>VT_INT</b>, Version 1
-
-
-#### - lVal
-
-<b>VT_I4</b>
-
-
-#### - pStorage
-
-<b>VT_STORAGE</b>, <b>VT_STORED_OBJECT</b>
-
-
-#### - pStream
-
-<b>VT_STREAM</b>, <b>VT_STREAMED_OBJECT</b>
-
-
-#### - pVersionedStream
-
-<b>VT_VERSIONED_STREAM</b>
-
-
-#### - parray
-
-<b>VT_ARRAY</b> | <b>VT_*</b>, Version 1
-
-
-#### - pbVal
-
-<b>VT_BYREF</b> | <b>VT_UI1</b>, Version 1
-
-
-#### - pboolVal
-
-<b>VT_BYREF</b> | <b>VT_BOOL</b>, Version 1
-
-
-#### - pbstrVal
-
-<b>VT_BYREF</b> | <b>VT_BSTR</b>, Version 1
-
-
-#### - pcVal
-
-<b>VT_BYREF</b> | <b>VT_I1</b>, Version 1
-
-
-#### - pclipdata
-
-<b>VT_CF</b>
-
-
-#### - pcyVal
-
-<b>VT_BYREF</b> | <b>VT_CY</b>, Version 1
-
-
-#### - pdate
-
-<b>VT_BYREF</b> | <b>VT_DATE</b>, Version 1
-
-
-#### - pdblVal
-
-<b>VT_BYREF</b> | <b>VT_R8</b>, Version 1
-
-
-#### - pdecVal
-
-<b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
-
-
-#### - pdispVal
-
-<b>VT_DISPATCH</b>
-
-
-#### - pfltVal
-
-<b>VT_BYREF</b> | <b>VT_R4</b>, Version 1
-
-
-#### - piVal
-
-<b>VT_BYREF</b> | <b>VT_I2</b>, Version 1
-
-
-#### - pintVal
-
-<b>VT_BYREF</b> | <b>VT_INT</b>, Version 1
-
-
-#### - plVal
-
-<b>VT_BYREF</b> | <b>VT_I4</b>, Version 1
-
-
-#### - pparray
-
-<b>VT_BYREF</b> | <b>VT_ARRAY</b>, Version 1
-
-
-#### - ppdispVal
-
-<b>VT_BYREF</b> | <b>VT_DISPATCH</b>, Version 1
-
-
-#### - ppunkVal
-
-<b>VT_BYREF</b> | <b>VT_UNKNOWN</b>, Version 1
-
-
-#### - pscode
-
-<b>VT_BYREF</b> | <b>VT_ERROR</b>, Version 1
-
-
-#### - pszVal
-
-<b>VT_LPSTR</b>
-
-
-#### - puiVal
-
-<b>VT_BYREF</b> | <b>VT_UI2</b>, Version 1
-
-
-#### - puintVal
-
-<b>VT_BYREF</b> | <b>VT_UINT</b>, Version 1
-
-
-#### - pulVal
-
-<b>VT_BYREF</b> | <b>VT_UI4</b>, Version 1
-
-
-#### - punkVal
-
-<b>VT_UNKNOWN</b>
-
-
-#### - puuid
-
-<b>VT_CLSID</b>
-
-
-#### - pvarVal
-
-<b>VT_BYREF</b> | <b>VT_VARIANT</b>, Version 1
-
-
-#### - pwszVal
-
-<b>VT_LPWSTR</b>
-
-
-#### - scode
-
-<b>VT_ERROR</b>
-
-
-#### - uhVal
-
-<b>VT_UI8</b>
-
-
-#### - uiVal
+### -field tag_inner_PROPVARIANT.uiVal
 
 <b>VT_UI2</b>
 
+### -field tag_inner_PROPVARIANT.lVal
 
-#### - uintVal
+<b>VT_I4</b>
 
-<b>VT_UINT</b>, Version 1
-
-
-#### - ulVal
+### -field tag_inner_PROPVARIANT.ulVal
 
 <b>VT_UI4</b>
 
+### -field tag_inner_PROPVARIANT.intVal
 
-#### - vt
+<b>VT_INT</b>, Version 1
 
-Value type tag.
+### -field tag_inner_PROPVARIANT.uintVal
 
+<b>VT_UINT</b>, Version 1
 
-#### - wReserved1
+### -field tag_inner_PROPVARIANT.hVal
 
-Reserved for future use.
+<b>VT_I8</b>
 
+### -field tag_inner_PROPVARIANT.uhVal
 
-#### - wReserved2
+<b>VT_UI8</b>
 
-Reserved for future use.
+### -field tag_inner_PROPVARIANT.fltVal
 
+<b>VT_R4</b>
 
-#### - wReserved3
+### -field tag_inner_PROPVARIANT.dblVal
 
-Reserved for future use.
+<b>VT_R8</b>
+
+### -field tag_inner_PROPVARIANT.boolVal
+
+<b>VT_BOOL</b>
+
+### -field tag_inner_PROPVARIANT.scode
+
+<b>VT_ERROR</b>
+
+### -field tag_inner_PROPVARIANT.cyVal
+
+<b>VT_CY</b>
+
+### -field tag_inner_PROPVARIANT.date
+
+<b>VT_DATE</b>
+
+### -field tag_inner_PROPVARIANT.filetime
+
+<b>VT_FILETIME</b>
+
+### -field tag_inner_PROPVARIANT.puuid
+
+<b>VT_CLSID</b>
+
+### -field tag_inner_PROPVARIANT.pclipdata
+
+<b>VT_CF</b>
+
+### -field tag_inner_PROPVARIANT.bstrVal
+
+<b>VT_BSTR</b>
+
+### -field tag_inner_PROPVARIANT.bstrblobVal
+
+<b>VT_BSTR_BLOB</b>
+
+### -field tag_inner_PROPVARIANT.blob
+
+<b>VT_BLOB</b>, <b>VT_BLOBOBJECT</b>
+
+### -field tag_inner_PROPVARIANT.pszVal
+
+<b>VT_LPSTR</b>
+
+### -field tag_inner_PROPVARIANT.pwszVal
+
+<b>VT_LPWSTR</b>
+
+### -field tag_inner_PROPVARIANT.punkVal
+
+<b>VT_UNKNOWN</b>
+
+### -field tag_inner_PROPVARIANT.pdispVal
+
+<b>VT_DISPATCH</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pStream
+
+<b>VT_STREAM</b>, <b>VT_STREAMED_OBJECT</b>
+
+### -field tag_inner_PROPVARIANT.pStorage
+
+<b>VT_STORAGE</b>, <b>VT_STORED_OBJECT</b>
+
+### -field tag_inner_PROPVARIANT.pVersionedStream
+
+<b>VT_VERSIONED_STREAM</b>
+
+### -field tag_inner_PROPVARIANT.parray
+
+<b>VT_ARRAY</b> | <b>VT_*</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.cac
+
+<b>VT_VECTOR</b> | <b>VT_I1</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.caub
+
+<b>VT_VECTOR</b> | <b>VT_UI1</b>
+
+### -field tag_inner_PROPVARIANT.cai
+
+<b>VT_VECTOR</b> | <b>VT_I2</b>
+
+### -field tag_inner_PROPVARIANT.caui
+
+<b>VT_VECTOR</b> | <b>VT_UI2</b>
+
+### -field tag_inner_PROPVARIANT.cal
+
+<b>VT_VECTOR</b> | <b>VT_I4</b>
+
+### -field tag_inner_PROPVARIANT.caul
+
+<b>VT_VECTOR</b> | <b>VT_UI4</b>
+
+### -field tag_inner_PROPVARIANT.cah
+
+<b>VT_VECTOR</b> | <b>VT_I8</b>
+
+### -field tag_inner_PROPVARIANT.cauh
+
+<b>VT_VECTOR</b> | <b>VT_UI8</b>
+
+### -field tag_inner_PROPVARIANT.caflt
+
+<b>VT_VECTOR</b> | <b>VT_R4</b>
+
+### -field tag_inner_PROPVARIANT.cadbl
+
+<b>VT_VECTOR</b> | <b>VT_R8</b>
+
+### -field tag_inner_PROPVARIANT.cabool
+
+<b>VT_VECTOR</b> | <b>VT_BOOL</b>
+
+### -field tag_inner_PROPVARIANT.cascode
+
+<b>VT_VECTOR</b> | <b>VT_ERROR</b>
+
+### -field tag_inner_PROPVARIANT.cacy
+
+<b>VT_VECTOR</b> | <b>VT_CY</b>
+
+### -field tag_inner_PROPVARIANT.cadate
+
+<b>VT_VECTOR</b> | <b>VT_DATE</b>
+
+### -field tag_inner_PROPVARIANT.cafiletime
+
+<b>VT_VECTOR</b> | <b>VT_FILETIME</b>
+
+### -field tag_inner_PROPVARIANT.cauuid
+
+<b>VT_VECTOR</b> | <b>VT_CLSID</b>
+
+### -field tag_inner_PROPVARIANT.caclipdata
+
+<b>VT_VECTOR</b> | <b>VT_CF</b>
+
+### -field tag_inner_PROPVARIANT.cabstr
+
+<b>VT_VECTOR</b> | <b>VT_BSTR</b>
+
+### -field tag_inner_PROPVARIANT.cabstrblob
+
+<b>VT_VECTOR</b> | <b>VT_BSTR</b>
+
+### -field tag_inner_PROPVARIANT.calpstr
+
+<b>VT_VECTOR</b> | <b>VT_LPSTR</b>
+
+### -field tag_inner_PROPVARIANT.calpwstr
+
+<b>VT_VECTOR</b> | <b>VT_LPWSTR</b>
+
+### -field tag_inner_PROPVARIANT.capropvar
+
+<b>VT_VECTOR</b> | <b>VT_VARIANT</b>
+
+### -field tag_inner_PROPVARIANT.pcVal
+
+<b>VT_BYREF</b> | <b>VT_I1</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pbVal
+
+<b>VT_BYREF</b> | <b>VT_UI1</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.piVal
+
+<b>VT_BYREF</b> | <b>VT_I2</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.puiVal
+
+<b>VT_BYREF</b> | <b>VT_UI2</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.plVal
+
+<b>VT_BYREF</b> | <b>VT_I4</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pulVal
+
+<b>VT_BYREF</b> | <b>VT_UI4</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pintVal
+
+<b>VT_BYREF</b> | <b>VT_INT</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.puintVal
+
+<b>VT_BYREF</b> | <b>VT_UINT</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pfltVal
+
+<b>VT_BYREF</b> | <b>VT_R4</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pdblVal
+
+<b>VT_BYREF</b> | <b>VT_R8</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pboolVal
+
+<b>VT_BYREF</b> | <b>VT_R8</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pdecVal
+
+<b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pscode
+
+<b>VT_BYREF</b> | <b>VT_ERROR</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pcyVal
+
+<b>VT_BYREF</b> | <b>VT_CY</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pdate
+
+<b>VT_BYREF</b> | <b>VT_DATE</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pbstrVal
+
+<b>VT_BYREF</b> | <b>VT_BSTR</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.ppunkVal
+
+<b>VT_BYREF</b> | <b>VT_UNKNOWN</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.ppdispVal
+
+<b>VT_BYREF</b> | <b>VT_DISPATCH</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pparray
+
+<b>VT_BYREF</b> | <b>VT_DISPATCH</b>, Version 1
+
+### -field tag_inner_PROPVARIANT.pvarVal
+
+<b>VT_BYREF</b> | <b>VT_VARIANT</b>, Version 1
+
+### -field decVal
+
+ <b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
+
 
 ## -remarks
 
