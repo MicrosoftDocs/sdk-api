@@ -64,18 +64,11 @@ Type: <b>DWORD</b>
 
 The bitfield of the mouse device identification properties:
 
-|  Value | ntddmou.h constant         | Description                 |
-|:------:|----------------------------|-----------------------------|
-| 0x0001 | MOUSE_INPORT_HARDWARE      | Inport (bus) mouse          |
-| 0x0002 | MOUSE_I8042_HARDWARE       | i8042 port mouse            |
-| 0x0004 | MOUSE_SERIAL_HARDWARE      | Serial port mouse           |
-| 0x0008 | BALLPOINT_I8042_HARDWARE   | i8042 port ballpoint mouse  |
-| 0x0010 | BALLPOINT_SERIAL_HARDWARE  | Serial port ballpoint mouse |
-| 0x0020 | WHEELMOUSE_I8042_HARDWARE  | i8042 port wheel mouse      |
-| 0x0040 | WHEELMOUSE_SERIAL_HARDWARE | Serial port wheel mouse     |
-| 0x0080 | MOUSE_HID_HARDWARE         | [HID mouse](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)        |
-| 0x0100 | WHEELMOUSE_HID_HARDWARE    | [HID wheel mouse](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) |
-| 0x8000 | HORIZONTAL_WHEEL_PRESENT   | Mouse with horizontal wheel |
+| Value  | ntddmou.h constant         | Description                                                                            |
+|:------:|----------------------------|----------------------------------------------------------------------------------------|
+| 0x0080 | MOUSE\_HID\_HARDWARE       | [HID mouse](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)       |
+| 0x0100 | WHEELMOUSE\_HID\_HARDWARE  | [HID wheel mouse](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) |
+| 0x8000 | HORIZONTAL\_WHEEL\_PRESENT | Mouse with horizontal wheel                                                            |
 
 ### -field dwNumberOfButtons
 
