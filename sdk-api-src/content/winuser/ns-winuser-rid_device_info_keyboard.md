@@ -64,11 +64,11 @@ Type: <b>DWORD</b>
 
 The type of the keyboard.
 
-| Value | Description                                          |
-|:-----:|------------------------------------------------------|
-|   4   | Enhanced 101- or 102-key keyboards (and compatibles) |
-|   7   | Japanese Keyboard                                    |
-|   8   | Korean Keyboard                                      |
+| kbd.h define              | Value | Description                                          |
+|---------------------------|:-----:|------------------------------------------------------|
+| KEYBOARD_TYPE_GENERIC_101 |   4   | Enhanced 101- or 102-key keyboards (and compatibles) |
+| KEYBOARD_TYPE_JAPAN       |   7   | Japanese Keyboard                                    |
+| KEYBOARD_TYPE_KOREA       |   8   | Korean Keyboard                                      |
 
 See the Remarks section.
 
