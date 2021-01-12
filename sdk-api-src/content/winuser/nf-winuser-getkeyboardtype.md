@@ -91,7 +91,6 @@ The type may be one of the following values.
 | KEYBOARD\_TYPE\_JAPAN        |  0x7  | Japanese Keyboard                                    |
 | KEYBOARD\_TYPE\_KOREA        |  0x8  | Korean Keyboard                                      |
 | KEYBOARD\_TYPE\_UNKNOWN      | 0x51  | Unknown keyboard type                                |
- 
 
 The subtype is an original equipment manufacturer (OEM)-dependent value.
 
