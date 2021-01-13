@@ -316,7 +316,9 @@ Declares a visual group in the dialog. Subsequent calls to any "add" method add 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 
-<a href="/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialogcontrolevents">IFileDialogControlEvents</a> is implemented on the file dialog object.
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialogcontrolevents">IFileDialogControlEvents</a> is implemented
+by the common file open dialog (CLSID_FileOpenDialog) and
+file save dialog (CLSID_FileSaveDialog).
 
 Controls are added to the dialog before the dialog is shown. Their layout is implied by the order in which they are added. Once the dialog is shown, controls cannot be added or removed, but the existing controls can be hidden or disabled at any time. Their labels can also be changed at any time.
 

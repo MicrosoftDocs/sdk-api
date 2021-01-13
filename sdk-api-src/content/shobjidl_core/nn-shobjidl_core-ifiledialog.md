@@ -279,7 +279,8 @@ Removes an event handler that was attached through the <a href="/windows/desktop
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-<b>IFileDialog</b> is implemented by the common file dialog browser.
+<b>IFileDialog</b> is implemented by the common file open dialog (CLSID_FileOpenDialog) and
+file save dialog (CLSID_FileSaveDialog).
 
 ## -see-also
 

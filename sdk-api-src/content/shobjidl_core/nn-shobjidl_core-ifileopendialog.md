@@ -89,6 +89,9 @@ Gets the currently selected items in the dialog. These items may be items select
 
 ## -remarks
 
+<h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
+<b>IFileOpenDialog</b> is implemented by the common file open dialog (CLSID_FileOpenDialog).
+
 This interface also provides the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> interface, from which it inherits.
 
 ## -see-also
