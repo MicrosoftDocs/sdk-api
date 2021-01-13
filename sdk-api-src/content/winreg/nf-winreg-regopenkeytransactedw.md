@@ -81,7 +81,7 @@ If the <i>lpSubKey</i> parameter is <b>NULL</b> or a pointer to an empty string,
 and if <i>hKey</i> is a predefined key,
 then the system refreshes the predefined key,
 and <i>phkResult</i> receives the same <i>hKey</i> handle passed into the function.
-Otherwise, <i>phkResult</i> receives a new handle to the key specified by <i>hKey</i>.
+Otherwise, <i>phkResult</i> receives a new handle to the opened key.
 
 For more information, see 
 <a href="/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
