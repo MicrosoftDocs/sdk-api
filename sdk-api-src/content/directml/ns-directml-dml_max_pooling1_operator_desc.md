@@ -105,7 +105,7 @@ The number of padding elements to be applied to the end of each spatial dimensio
 ## -remarks
 When *OutputIndicesTensor* is set to NULL, this operator is equivalent to [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc).
 
-A newer version of this operator, [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling2_operator_desc), was introduced in `DML_FEATURE_LEVEL_2_1`.
+A newer version of this operator, [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc), was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
