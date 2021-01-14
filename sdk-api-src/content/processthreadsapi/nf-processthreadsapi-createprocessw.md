@@ -154,7 +154,7 @@ This parameter also controls the new process's priority class, which is used to 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to <b>NORMAL_PRIORITY_CLASS</b> unless the priority class of the creating process is <b>IDLE_PRIORITY_CLASS</b> or <b>BELOW_NORMAL_PRIORITY_CLASS</b>. In this case, the child process receives the default priority class of the calling process.
 
 
-The dwCreationFlags parameter can be 0. In that case, the process creation will be default.
+The dwCreationFlags parameter can be 0. In that case, the process will inherit the error mode of the caller, will inherit the parent's console and if it is a 16-bit Windows-based application it will run in a shared VDM. Also, if dwCreationFlags is 0, the environment block for the new process will be assumed to have ANSI characters (see lpEnvironment parameter for additional information).
 
 ### -param lpEnvironment [in, optional]
 
