@@ -165,121 +165,17 @@ The system adds a null character to the command line string to separate the file
 
 ### -param dwCreationFlags [in]
 
-The flags that control how the process is created. The CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, and CREATE_NEW_PROCESS_GROUP flags are enabled by default. You can specify additional flags as noted. 
+The flags that control how the process is created. The CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, and CREATE_NEW_PROCESS_GROUP flags are enabled by default. For a list of values, see <a href="/windows/desktop/ProcThread/process-creation-flags">Process Creation Flags</a>.
 
-
-
-                     
-                     
-                  
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_DEFAULT_ERROR_MODE"></a><a id="create_default_error_mode"></a><dl>
-<dt><b>CREATE_DEFAULT_ERROR_MODE</b></dt>
-<dt>0x04000000</dt>
-</dl>
-</td>
-<td width="60%">
-The new process does not inherit the error mode of the calling process. Instead, the new process gets the current default error mode. An application sets the current default error mode by calling 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>. 
-
-
-
-
-This flag is enabled by default.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_NEW_CONSOLE"></a><a id="create_new_console"></a><dl>
-<dt><b>CREATE_NEW_CONSOLE</b></dt>
-<dt>0x00000010</dt>
-</dl>
-</td>
-<td width="60%">
-The new process has a new console, instead of inheriting the parent's console. This flag cannot be used with the DETACHED_PROCESS flag. 
-
-
-
-
-This flag is enabled by default.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_NEW_PROCESS_GROUP"></a><a id="create_new_process_group"></a><dl>
-<dt><b>CREATE_NEW_PROCESS_GROUP</b></dt>
-<dt>0x00000200</dt>
-</dl>
-</td>
-<td width="60%">
-The new process is the root process of a new process group. The process group includes all processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier, which is returned in the <i>lpProcessInfo</i> parameter. Process groups are used by the 
-<a href="/windows/console/generateconsolectrlevent">GenerateConsoleCtrlEvent</a> function to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes. 
-
-
-
-
-This flag is enabled by default.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_SEPARATE_WOW_VDM"></a><a id="create_separate_wow_vdm"></a><dl>
-<dt><b>CREATE_SEPARATE_WOW_VDM</b></dt>
-<dt>0x00000800</dt>
-</dl>
-</td>
-<td width="60%">
-This flag is only valid starting a 16-bit Windows-based application. If set, the new process runs in a private Virtual DOS Machine (VDM). By default, all 16-bit Windows-based applications run in a single, shared VDM. The advantage of running separately is that a crash only terminates the single VDM; any other programs running in distinct VDMs continue to function normally. Also, 16-bit Windows-based applications that run in separate VDMs have separate input queues. That means that if one application stops responding momentarily, applications in separate VDMs continue to receive input.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_SUSPENDED"></a><a id="create_suspended"></a><dl>
-<dt><b>CREATE_SUSPENDED</b></dt>
-<dt>0x00000004</dt>
-</dl>
-</td>
-<td width="60%">
-The primary thread of the new process is created in a suspended state, and does not run until the 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a> function is called.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_UNICODE_ENVIRONMENT"></a><a id="create_unicode_environment"></a><dl>
-<dt><b>CREATE_UNICODE_ENVIRONMENT</b></dt>
-<dt>0x00000400</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates the format of the <i>lpEnvironment</i> parameter. If this flag is set, the environment block pointed to by <i>lpEnvironment</i> uses Unicode characters. Otherwise, the environment block uses ANSI characters.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EXTENDED_STARTUPINFO_PRESENT"></a><a id="extended_startupinfo_present"></a><dl>
-<dt><b>EXTENDED_STARTUPINFO_PRESENT</b></dt>
-<dt>0x00080000</dt>
-</dl>
-</td>
-<td width="60%">
-The process is created with extended startup information; the <i>lpStartupInfo</i> parameter specifies a <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> structure.
-
-<b>Windows Server 2003:  </b>This value is not supported.
-
-</td>
-</tr>
-</table>
- 
 
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to NORMAL_PRIORITY_CLASS unless the priority class of the creating process is IDLE_PRIORITY_CLASS or BELOW_NORMAL_PRIORITY_CLASS. In this case, the child process receives the default priority class of the calling process.
+
+If the dwCreationFlags parameter has a value of 0:
+
+- The process inherits both the error mode of the caller and the parent's console. 
+- The environment block for the new process is assumed to contain ANSI characters (see *lpEnvironment* parameter for additional information).
+- A 16-bit Windows-based application runs in a shared Virtual DOS machine (VDM).
 
 ### -param lpEnvironment [in, optional]
 
