@@ -171,7 +171,11 @@ The flags that control how the process is created. The CREATE_DEFAULT_ERROR_MODE
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to NORMAL_PRIORITY_CLASS unless the priority class of the creating process is IDLE_PRIORITY_CLASS or BELOW_NORMAL_PRIORITY_CLASS. In this case, the child process receives the default priority class of the calling process.
 
-The dwCreationFlags parameter can be 0. In that case, the process will have the default error mode, will create a new console, will create a new process group and if it is a 16-bit Windows-based application it will run in a shared VDM. Also, if dwCreationFlags is 0, the environment block for the new process will be assumed to have ANSI characters (see lpEnvironment parameter for additional information).
+If the dwCreationFlags parameter has a value of 0:
+
+- The process inherits both the error mode of the caller and the parent's console. 
+- The environment block for the new process is assumed to contain ANSI characters (see *lpEnvironment* parameter for additional information).
+- A 16-bit Windows-based application runs in a shared Virtual DOS machine (VDM).
 
 ### -param lpEnvironment [in, optional]
 
