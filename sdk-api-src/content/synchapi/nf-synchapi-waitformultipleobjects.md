@@ -124,7 +124,7 @@ If <i>bWaitAll</i> is <b>FALSE</b>, the return value minus <b>WAIT_OBJECT_0</b> 
 </dl>
 </td>
 <td width="60%">
-If <i>bWaitAll</i> is <b>TRUE</b>, the return value indicates that the state of all specified objects is signaled and at least one of the objects is an abandoned mutex object. 
+If <i>bWaitAll</i> is <b>TRUE</b>, a return value within the specified range indicates that the state of all specified objects is signaled and at least one of the objects is an abandoned mutex object. 
 
 
 
