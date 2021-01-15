@@ -54,48 +54,18 @@ Locks a volume if it is not in use. A locked volume can be accessed only through
 
 To perform this operation, call the 
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,            // handle to a volume
-  (DWORD) FSCTL_LOCK_VOLUME,   // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
-
-## -ioctlparameters
-
-### -input-buffer
-
-<text></text>
-
-### -input-buffer-length
-
-<text></text>
-
-### -output-buffer
-
-<text></text>
-
-### -output-buffer-length
-
-<text></text>
-
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length
-
-<text></text>
-
-### -status-block
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hVolume,            // handle to a volume
+  (DWORD) FSCTL_LOCK_VOLUME,   // dwIoControlCode
+  NULL,                        // lpInBuffer
+  0,                           // nInBufferSize
+  NULL,                        // lpOutBuffer
+  0,                           // nOutBufferSize
+  (LPDWORD) lpBytesReturned,   // number of bytes returned
+  NULL                         // OVERLAPPED structure
+);
+```
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -108,10 +78,9 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 The <i>hDevice</i> handle passed to <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened for direct access. To retrieve this handle, call 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the <i>lpFileName</i> parameter set to a string of the following form: 
 
-\\.&#92;<i>X</i>:
+\\.\\X:
 
-where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The application must also specify the <b>FILE_SHARE_READ</b> and <b>FILE_SHARE_WRITE</b> flags in the <i>dwShareMode</i> parameter of 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+where *X* is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The application must also specify the <b>FILE_SHARE_READ</b> and <b>FILE_SHARE_WRITE</b> flags in the <i>dwShareMode</i> parameter of <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 If the specified volume is a system volume or contains a page file, the operation fails.
 
