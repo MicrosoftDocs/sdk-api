@@ -72,11 +72,7 @@ Indicates whether to write the resource updates to the file. If this parameter i
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if the function succeeds; <b>FALSE</b> otherwise. If the function succeeds and 
-
-<i>fDiscard</i> is <b>TRUE</b>, then no resource updates are made to the file; otherwise all 
-
-successful resource updates are made to the file. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if the function succeeds; <b>FALSE</b> otherwise. If the function succeeds and <i>fDiscard</i> is <b>TRUE</b>, then no resource updates are made to the file; otherwise all successful resource updates are made to the file. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
