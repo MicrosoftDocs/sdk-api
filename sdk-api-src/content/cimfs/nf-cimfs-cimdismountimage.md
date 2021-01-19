@@ -2,6 +2,8 @@
 UID: NF:cimfs.CimDismountImage
 title: CimDismountImage
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimDismountImage
 ms.topic: language-reference
 targetos: Windows

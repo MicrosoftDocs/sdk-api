@@ -3,6 +3,8 @@ UID: NF:cimfs.CimCreateAlternateStream
 title: CimCreateAlternateStream
 ms.date: 9/9/2019
 ms.keywords: CimCreateAlternateStream
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.topic: language-reference
 targetos: Windows
 product: Windows

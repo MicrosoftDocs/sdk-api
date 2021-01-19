@@ -1,9 +1,11 @@
 ---
 UID: NA:cimfs
+ms.author: windowssdkdev
+tech.root: cimfs
 title: cimfs
 ms.date: 9/9/2019
 ms.keywords: cimfs
-ms.topic: language-reference
+ms.topic: portal
 targetos: Windows
 product: Windows
 req.assembly: 

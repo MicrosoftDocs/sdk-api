@@ -2,6 +2,8 @@
 UID: NF:cimfs.CimCloseImage
 title: CimCloseImage
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimCloseImage
 ms.topic: language-reference
 targetos: Windows

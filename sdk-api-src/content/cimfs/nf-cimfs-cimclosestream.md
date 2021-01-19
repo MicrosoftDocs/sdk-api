@@ -2,6 +2,8 @@
 UID: NF:cimfs.CimCloseStream
 title: CimCloseStream
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimCloseStream
 ms.topic: language-reference
 targetos: Windows

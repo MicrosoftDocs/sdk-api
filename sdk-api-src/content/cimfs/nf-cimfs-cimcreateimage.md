@@ -2,6 +2,8 @@
 UID: NF:cimfs.CimCreateImage
 title: CimCreateImage
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimCreateImage
 ms.topic: language-reference
 targetos: Windows

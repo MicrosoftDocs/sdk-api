@@ -2,6 +2,8 @@
 UID: NF:cimfs.CimCreateHardLink
 title: CimCreateHardLink
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimCreateHardLink
 ms.topic: language-reference
 targetos: Windows
