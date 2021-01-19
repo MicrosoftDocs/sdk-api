@@ -60,9 +60,7 @@ The <b>EapCredential</b> structure contains information about the credentials ty
 
 The <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a> for the  credentials passed in the <i>credentials</i> parameter.
 
-### -field credData.switch_is
 
-### -field credData.switch_is.credType
 
 ### -field credData
 

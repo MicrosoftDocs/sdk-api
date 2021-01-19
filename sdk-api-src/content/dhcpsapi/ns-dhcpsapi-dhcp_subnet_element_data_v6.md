@@ -74,13 +74,9 @@ Defines the set of possible prefix element types. This value is used to determin
 
 ### -field Element.ExcludeIpRange.case.Dhcpv6ExcludedIpRanges
 
-### -field Element.switch_is
 
-### -field Element.switch_is.ELEMENT_MASK(ElementType)
 
-### -field Element.switch_type
 
-### -field Element.switch_type.DHCP_SUBNET_ELEMENT_TYPE_V6
 
 ### -field Element
 

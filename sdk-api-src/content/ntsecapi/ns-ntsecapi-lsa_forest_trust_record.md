@@ -129,13 +129,9 @@ Time stamp of the record.
 
 ### -field ForestTrustData.Data.default
 
-### -field ForestTrustData.switch_type
 
-### -field ForestTrustData.switch_type.LSA_FOREST_TRUST_RECORD_TYPE
 
-### -field ForestTrustData.switch_is
 
-### -field ForestTrustData.switch_is.ForestTrustType
 
 ### -field ForestTrustData
 
