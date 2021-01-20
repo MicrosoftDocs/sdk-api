@@ -73,6 +73,13 @@ typedef struct _KEYBOARD_ID {
 
 Specifies the keyboard type.
 
+| Value | Description                                          |
+|:-----:|------------------------------------------------------|
+|  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
+|  0x7  | Japanese Keyboard                                    |
+|  0x8  | Korean Keyboard                                      |
+| 0x51  | Unknown type or HID keyboard                         |
+
 #### Subtype
 
 Specifies the keyboard subtype, which is a vendor-specific value.
