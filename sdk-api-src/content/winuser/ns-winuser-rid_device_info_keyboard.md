@@ -64,12 +64,12 @@ Type: <b>DWORD</b>
 
 The type of the keyboard.
 
-| kbd.h define                 | Value | Description                                          |
-|------------------------------|:-----:|------------------------------------------------------|
-| KEYBOARD\_TYPE\_GENERIC\_101 |  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
-| KEYBOARD\_TYPE\_JAPAN        |  0x7  | Japanese Keyboard                                    |
-| KEYBOARD\_TYPE\_KOREA        |  0x8  | Korean Keyboard                                      |
-| KEYBOARD\_TYPE\_UNKNOWN      | 0x51  | Unknown keyboard type                                |
+| Value | Description                                          |
+|:-----:|------------------------------------------------------|
+|  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
+|  0x7  | Japanese Keyboard                                    |
+|  0x8  | Korean Keyboard                                      |
+| 0x51  | Unknown type or HID keyboard                         |
 
 See the Remarks section.
 
