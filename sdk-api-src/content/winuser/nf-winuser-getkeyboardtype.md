@@ -83,18 +83,16 @@ If the function fails and <i>nTypeFlag</i> is not one, the return value is zero;
 
 ## -remarks
 
-The type may be one of the following values.
+The type may be one of the following values:
 
-| kbd.h define                 | Value | Description                                          |
-|------------------------------|:-----:|------------------------------------------------------|
-| KEYBOARD\_TYPE\_GENERIC\_101 |  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
-| KEYBOARD\_TYPE\_JAPAN        |  0x7  | Japanese Keyboard                                    |
-| KEYBOARD\_TYPE\_KOREA        |  0x8  | Korean Keyboard                                      |
-| KEYBOARD\_TYPE\_UNKNOWN      | 0x51  | Unknown keyboard type                                |
+| Value | Description                                          |
+|:-----:|------------------------------------------------------|
+|  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
+|  0x7  | Japanese Keyboard                                    |
+|  0x8  | Korean Keyboard                                      |
+| 0x51  | Unknown type or HID keyboard                         |
 
 The subtype is an original equipment manufacturer (OEM)-dependent value.
-
-When a single USB keyboard is connected to the computer, this function returns the code **KEYBOARD\_TYPE\_UNKNOWN**.
 
 ## -see-also
 
