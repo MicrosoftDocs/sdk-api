@@ -2,6 +2,8 @@
 UID: NF:cimfs.CimCommitImage
 title: CimCommitImage
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimCommitImage
 ms.topic: language-reference
 targetos: Windows

@@ -66,6 +66,4 @@ A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings_1">W
 
 ### -field WRdsConnectionSettings1.case.WRDS_CONNECTION_SETTING_LEVEL_1
 
-### -field switch_type
 
-### -field switch_type.WRDS_CONNECTION_SETTING_LEVEL

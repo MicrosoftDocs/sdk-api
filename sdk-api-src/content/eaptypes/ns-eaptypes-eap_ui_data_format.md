@@ -131,7 +131,6 @@ If [EAP_CRED_LOGON_RESP](/windows/win32/eaphost/eap-cred-logon-resp) structure
  
 
 
-### -field switch_type
 
  
 

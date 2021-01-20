@@ -147,13 +147,9 @@ The DHCP server can restore status with the provided attribute value.
 
 ### -field DhcpAttribUlong.case.DHCP_ATTRIB_TYPE_ULONG
 
-### -field switch_is
 
-### -field switch_is.DhcpAttribType
 
-### -field switch_type
 
-### -field switch_type.ULONG
 
 ### -field DhcpAttribBool
 

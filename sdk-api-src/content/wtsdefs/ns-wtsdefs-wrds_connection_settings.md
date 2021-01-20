@@ -72,9 +72,7 @@ The structure is a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connect
 
 A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_setting">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
 
-### -field WRdsConnectionSetting.switch_is
 
-### -field WRdsConnectionSetting.switch_is.WRdsConnectionSettingLevel
 
 ## -see-also
 

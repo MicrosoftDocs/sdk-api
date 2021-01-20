@@ -78,9 +78,7 @@ UUID in 16-bit format.
 
 ### -field uuid16.case.SDP_ST_UUID16
 
-### -field switch_type
 
-### -field switch_type.unsigned short
 
 ## -see-also
 

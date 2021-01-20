@@ -82,13 +82,9 @@ The <b>DHCP_SUBNET_ELEMENT_DATA</b> structure defines an element that describes 
 
 ### -field Element.IpUsedCluster.case.DhcpIpUsedClusters
 
-### -field Element.switch_is
 
-### -field Element.switch_is.ELEMENT_MASK(ElementType)
 
-### -field Element.switch_type
 
-### -field Element.switch_type.DHCP_SUBNET_ELEMENT_TYPE
 
 ### -field Element
 

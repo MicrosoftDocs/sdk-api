@@ -99,7 +99,6 @@ If <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">eapMe
  
 
 
-### -field switch_type
 
  
 

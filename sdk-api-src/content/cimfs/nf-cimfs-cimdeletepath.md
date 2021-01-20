@@ -2,6 +2,8 @@
 UID: NF:cimfs.CimDeletePath
 title: CimDeletePath
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimDeletePath
 ms.topic: language-reference
 targetos: Windows

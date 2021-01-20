@@ -98,13 +98,9 @@ A <a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_data_type">DHCP
 
 ### -field Element.Ipv6AddressDataOption.case.DhcpIpv6AddressOption
 
-### -field Element.switch_is
 
-### -field Element.switch_is.OptionType
 
-### -field Element.switch_type
 
-### -field Element.switch_type.DHCP_OPTION_DATA_TYPE
 
 ### -field Element
 

@@ -2,6 +2,8 @@
 UID: NF:cimfs.CimWriteStream
 title: CimWriteStream
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimWriteStream
 ms.topic: language-reference
 targetos: Windows
