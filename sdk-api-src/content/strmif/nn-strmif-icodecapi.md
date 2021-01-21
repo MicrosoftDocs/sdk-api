@@ -53,6 +53,9 @@ api_name:
 
 The <b>ICodecAPI</b> interface sets and retrieves settings on an encoder or decoder filter.
 
+> [!Note]
+> APIs declared in strmif.h are not supported for Universal Windows Platform (UWP) apps. To use ICodecAPI in a UWP app, use the version declared in [icodecapi.h](/windows/win32/api/icodecapi/). 
+
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICodecAPI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICodecAPI</b> also has these types of members:
