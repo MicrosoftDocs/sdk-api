@@ -52,7 +52,7 @@ The URL for which to set the cookie.
 
 ### -param pCookie
 
-Pointer to an [INTERNET\_COOKIE2](/windows/desktop/api/wininet/ns-wininet-internet-cookie2) structure containing the cookie data.
+Pointer to an [INTERNET\_COOKIE2](ns-wininet-internet_cookie2.md) structure containing the cookie data.
 
 ### -param pcwszP3PPolicy
 

@@ -67,7 +67,7 @@ Flags of the cookie to retrieve. The following flags are available.
 
 ### -param ppCookies
 
-Pointer that receives an array of [INTERNET\_COOKIE2](ns-wininet-internet-cookie2.md) structures. The returned array must be freed by [InternetFreeCookies](nf-wininet-internetfreecookies.md).
+Pointer that receives an array of [INTERNET\_COOKIE2](ns-wininet-internet_cookie2.md) structures. The returned array must be freed by [InternetFreeCookies](nf-wininet-internetfreecookies.md).
 
 ### -param pdwCookieCount
 
