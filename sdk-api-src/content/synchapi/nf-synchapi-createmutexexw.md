@@ -123,8 +123,7 @@ If the function succeeds, the return value is a handle to the newly created mute
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, 
-[OpenMutex](./nf-synchapi-openmutexw.md) function.
+If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, and the [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns **ERROR_ALREADY_EXISTS**.
 
 ## -remarks
 
