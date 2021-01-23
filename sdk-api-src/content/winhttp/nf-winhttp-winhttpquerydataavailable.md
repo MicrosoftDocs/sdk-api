@@ -45,9 +45,6 @@ api_name:
  - WinHttpQueryDataAvailable
 ---
 
-# WinHttpQueryDataAvailable function
-
-
 ## -description
 
 The <b>WinHttpQueryDataAvailable</b> function returns the amount of data, in bytes, available to be read with 
@@ -189,12 +186,16 @@ If a status callback function has been installed with
 <div class="alert"><b>Note</b>  For more information about Windows XP and Windows 2000, see <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.</div>
 <div> </div>
 
-#### Examples
+## Examples
 
 The following example shows how to use secure transaction semantics to download a resource from an HTTPS server. The sample code initializes the WinHTTP API, selects a target HTTPS server, and then opens and sends a request for this secure resource.  
 <b>WinHttpQueryDataAvailable</b> is used with the request handle to determine how much data is available for download, then 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a> is used to read that data.  This process repeats until the entire document has been retrieved and displayed.
 
+> [!IMPORTANT]
+> If you want some data as quickly as possible (that is, you're processing and parsing data as you receive it), then you should call **WinHttpQueryDataAvailable** and [WinHttpReadData](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddata). If you're trying to download the entire response as quickly as possible, then call **WinHttpReadData** directly, because **WinHttpReadData** tries to fill your buffer before completing.
+> 
+> Also, the code example below allocates on every loop iteration. For production code, where performance is important, you could instead start with an appropriately-sized buffer (perhaps 1 megabyte), and resize that if necessary. In practice, **WinHttpQueryDataAvailable** returns no more than 8 kilobytes.
 
 ```cpp
 
