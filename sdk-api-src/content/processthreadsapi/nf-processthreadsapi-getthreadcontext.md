@@ -74,7 +74,7 @@ A handle to the thread whose context is to be retrieved. The handle must have
 
 ### -param lpContext [in, out]
 
-A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that receives the 
+A pointer to a [CONTEXT](windows/win32/api/winnt/ns-winnt-context) structure (like [ARM64_NT_CONTEXT](/windows/win32/api/winnt/ns-winnt-arm64_nt_context)) that receives the 
       appropriate context of the specified thread. The value of the <b>ContextFlags</b> member of 
       this structure specifies which portions of a thread's context are retrieved. The 
       <b>CONTEXT</b> structure is highly processor specific. Refer to 
@@ -104,7 +104,11 @@ If you call <b>GetThreadContext</b> for the current
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+[CONTEXT](/windows/win32/api/winnt/ns-winnt-context)
+
+
+
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">ARM64_NT_CONTEXT</a>
 
 
 
