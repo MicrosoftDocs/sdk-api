@@ -58,7 +58,7 @@ Loads and executes an application or creates a new instance of an existing appli
 
 ### -param lpModuleName [in]
 
-The file name of the application to be run. When specifying a path, be sure to use backslashes (\), not forward slashes (/). If the <i>lpModuleName</i> parameter does not contain a directory path, the system searches for the executable file in this order: 
+The file name of the application to be run. When specifying a path, be sure to use backslashes (\\), not forward slashes (/). If the <i>lpModuleName</i> parameter does not contain a directory path, the system searches for the executable file in this order: 
 
 
 

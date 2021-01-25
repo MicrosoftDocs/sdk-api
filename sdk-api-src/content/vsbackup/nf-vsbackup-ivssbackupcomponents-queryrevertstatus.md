@@ -59,7 +59,7 @@ The <b>QueryRevertStatus</b> method
 
 ### -param pwszVolume [in]
 
-Null-terminated wide character string containing the name of the volume. The name must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the name of the volume. The name must be in one of the following formats and must include a trailing backslash (\\): 
       
 
 <ul>

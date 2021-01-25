@@ -70,7 +70,7 @@ A handle to the service control manager database. This handle is returned by the
 
 ### -param lpServiceName [in]
 
-The name of the service to install. The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\) are not valid service name characters.
+The name of the service to install. The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\\) are not valid service name characters.
 
 ### -param lpDisplayName [in, optional]
 

@@ -248,7 +248,7 @@ Turns off processing of prefix characters. Normally, <b>DrawTextEx</b> interpret
 </dl>
 </td>
 <td width="60%">
-For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle. If the string contains backslash (\) characters, DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash. The string is not modified unless the DT_MODIFYSTRING flag is specified.
+For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle. If the string contains backslash (\\) characters, DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash. The string is not modified unless the DT_MODIFYSTRING flag is specified.
 
 Compare with DT_END_ELLIPSIS and DT_WORD_ELLIPSIS.
 

@@ -95,7 +95,7 @@ A pointer to the buffer to receive the path and file name of the file found. The
 
 A pointer to the variable to receive the address (within <i>lpBuffer</i>) of the last 
       component of the valid path and file name, which is the address of the character immediately following the final 
-      backslash (\) in the path.
+      backslash (\\) in the path.
 
 ## -returns
 

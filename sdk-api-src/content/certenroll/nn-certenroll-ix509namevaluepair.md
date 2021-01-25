@@ -67,7 +67,7 @@ A CMC request object (<a href="/windows/desktop/api/certenroll/nn-certenroll-ix5
 
 
 The <b>TaggedAttribute</b> structure can contain a <b>RegInfo</b> attribute. This attribute consists of a byte array that contains the name-value pair collection. The byte array is created in the following manner:<ul>
-<li>Each name-value string is standardized. For example, "%5C" escapes are substituted for backslash (\) characters.</li>
+<li>Each name-value string is standardized. For example, "%5C" escapes are substituted for backslash (\\) characters.</li>
 <li>Each name-value pair is concatenated by using an equal sign (=).</li>
 <li>All of the pairs are concatenated by using an ampersand (&amp;)between each pair.</li>
 <li>The result is encoded as a UTF-8 string.</li>

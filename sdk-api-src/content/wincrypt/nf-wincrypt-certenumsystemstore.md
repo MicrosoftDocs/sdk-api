@@ -85,7 +85,7 @@ For CERT_SYSTEM_STORE_LOCAL_MACHINE or CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POL
 
 For CERT_SYSTEM_STORE_SERVICES or CERT_SYSTEM_STORE_USERS, if <i>pvSystemStoreLocationPara</i> is <b>NULL</b>, the function enumerates both the service/user names and the stores for each service/user name. Otherwise, <i>pvSystemStoreLocationPara</i> is a Unicode string that contains a remote computer name and, if available, a service/user name, for example, "<i>service_name</i>", "&#92;&#92;<i>computer_name</i>", or "<i>computer_name</i>\".
 
-If only the <i>computer_name</i> is specified, it must have either the leading backslashes (\\) or a trailing backslash (\). Otherwise, it is interpreted as the <i>service_name</i> or <i>user_name</i>.
+If only the <i>computer_name</i> is specified, it must have either the leading backslashes (\\) or a trailing backslash (\\). Otherwise, it is interpreted as the <i>service_name</i> or <i>user_name</i>.
 
 ### -param pvArg [in]
 

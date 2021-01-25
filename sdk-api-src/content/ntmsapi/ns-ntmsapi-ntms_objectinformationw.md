@@ -408,9 +408,7 @@ Description of the device or system control object. The description of device an
 
 ### -field Info.Computer.case.NTMS_COMPUTER
 
-### -field Info.switch_is
 
-### -field Info.switch_is.dwType
 
 ### -field Info
 

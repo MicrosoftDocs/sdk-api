@@ -62,7 +62,7 @@ The name of the volume that will be the source of shadow copies. This volume is 
       storage area on the <i>pwszDiffAreaVolumeName</i> volume.
       
 
-The name of the volume must be in one of the following formats and must include a trailing backslash (\):
+The name of the volume must be in one of the following formats and must include a trailing backslash (\\):
        <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, 
@@ -76,7 +76,7 @@ The name of the volume that will contain the  shadow copy storage  area to be as
       <i>pwszVolumeName</i> volume.
       
 
-The name of the volume must be in one of the following formats and must include a trailing backslash (\):
+The name of the volume must be in one of the following formats and must include a trailing backslash (\\):
        <ul>
 <li>The path of a mounted folder</li>
 <li>A drive letter, for example, 

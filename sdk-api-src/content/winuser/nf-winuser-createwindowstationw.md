@@ -63,7 +63,7 @@ Creates a window station object, associates it with the calling process, and ass
 
 ### -param lpwinsta [in, optional]
 
-The name of the window station to be created. Window station names are case-insensitive and cannot contain backslash characters (\). Only members of the Administrators group are allowed to specify a name. If <i>lpwinsta</i> is <b>NULL</b> or an empty string, the system forms a window station name using the logon session identifier for the calling process. To get this name, call the 
+The name of the window station to be created. Window station names are case-insensitive and cannot contain backslash characters (\\). Only members of the Administrators group are allowed to specify a name. If <i>lpwinsta</i> is <b>NULL</b> or an empty string, the system forms a window station name using the logon session identifier for the calling process. To get this name, call the 
 <a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a> function.
 
 ### -param dwFlags

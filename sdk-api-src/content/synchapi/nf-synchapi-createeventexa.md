@@ -85,7 +85,7 @@ If <i>lpName</i> matches the name of another kind of object in the same namespac
        <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session 
-        namespace. The remainder of the name can contain any character except the backslash character (\). For more 
+        namespace. The remainder of the name can contain any character except the backslash character (\\). For more 
         information, see <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined 
         for Terminal Services so that applications can support multiple users.
 

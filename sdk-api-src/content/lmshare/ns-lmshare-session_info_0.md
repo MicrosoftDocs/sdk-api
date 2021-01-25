@@ -60,7 +60,7 @@ Contains the name of the computer that established the session.
 
 ### -field sesi0_cname
 
-Pointer to a Unicode string that contains the name of the computer that established the session. This string cannot contain a backslash (\).
+Pointer to a Unicode string that contains the name of the computer that established the session. This string cannot contain a backslash (\\).
 
 ## -see-also
 

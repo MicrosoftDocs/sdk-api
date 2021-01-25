@@ -113,7 +113,7 @@ If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</
             
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace.
-              The remainder of the name can contain any character except the backslash character (\).
+              The remainder of the name can contain any character except the backslash character (\\).
               For more information, see
               <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
               Fast user switching is implemented using Terminal Services sessions.

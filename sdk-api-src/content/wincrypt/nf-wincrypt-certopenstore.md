@@ -205,7 +205,7 @@ Initializes the store with certificates, CRLs, and CTLs from the specified crypt
 <td width="60%">
 Initializes the store with certificates, CRLs, and CTLs from a specified physical store that is a member of a logical system store.
 
-Two names are separated with an intervening backslash (\), for example "Root\.Default". Here, "Root" is the name of the system store and ".Default" is the name of the physical store. The system and physical store names cannot contain any backslashes. The high word of <i>dwFlags</i> indicates the system store location, usually CERT_SYSTEM_STORE_CURRENT_USER. For more information, see <i>dwFlags</i> later in this topic and see <a href="/windows/desktop/SecCrypto/system-store-locations">System Store Locations</a>. Some physical store locations can be opened remotely.
+Two names are separated with an intervening backslash (\\), for example "Root\.Default". Here, "Root" is the name of the system store and ".Default" is the name of the physical store. The system and physical store names cannot contain any backslashes. The high word of <i>dwFlags</i> indicates the system store location, usually CERT_SYSTEM_STORE_CURRENT_USER. For more information, see <i>dwFlags</i> later in this topic and see <a href="/windows/desktop/SecCrypto/system-store-locations">System Store Locations</a>. Some physical store locations can be opened remotely.
 
 <b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a null-terminated Unicode string that contains both the system store name and physical names.
 
