@@ -102,8 +102,6 @@ Name of this feature.
 
 Describes extra metadata for classes, properties, methods, and parameters.
 
-### -field _MI_Qualifier
-
 ### -field numQualifiers
 
 Length of <b>qualifiers</b> array.
@@ -111,8 +109,6 @@ Length of <b>qualifiers</b> array.
 ### -field properties
 
 The properties of this object.
-
-### -field _MI_PropertyDecl
 
 ### -field numProperties
 
@@ -134,8 +130,6 @@ The classDecl for the parent class <b>superClass</b>.
 
 The methods of this class.
 
-### -field _MI_MethodDecl
-
 ### -field numMethods
 
 Number of  methods in this class.
@@ -143,8 +137,6 @@ Number of  methods in this class.
 ### -field schema
 
 Pointer to schema this class belongs to.
-
-### -field _MI_SchemaDecl
 
 ### -field providerFT
 
