@@ -4,7 +4,7 @@ title: TryAcquireSRWLockShared function (synchapi.h)
 description: Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.
 helpviewer_keywords: ["TryAcquireSRWLockShared","TryAcquireSRWLockShared function","base.tryacquiresrwlockshared","synchapi/TryAcquireSRWLockShared","winbase/TryAcquireSRWLockShared"]
 old-location: base\tryacquiresrwlockshared.htm
-tech.root: backup
+tech.root: base
 ms.assetid: e7b0c273-c1d4-4a1c-a824-f519fb52ad8f
 ms.date: 12/05/2018
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared

@@ -4,7 +4,7 @@ title: OpenWaitableTimerW function (synchapi.h)
 description: Opens an existing named waitable timer object.
 helpviewer_keywords: ["OpenWaitableTimer","OpenWaitableTimer function","OpenWaitableTimerA","OpenWaitableTimerW","_win32_openwaitabletimer","base.openwaitabletimer","synchapi/OpenWaitableTimer","synchapi/OpenWaitableTimerA","synchapi/OpenWaitableTimerW"]
 old-location: base\openwaitabletimer.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 0f9b49ea-5d04-449c-9b7d-f79ab28b548b
 ms.date: 12/05/2018
 ms.keywords: OpenWaitableTimer, OpenWaitableTimer function, OpenWaitableTimerA, OpenWaitableTimerW, _win32_openwaitabletimer, base.openwaitabletimer, synchapi/OpenWaitableTimer, synchapi/OpenWaitableTimerA, synchapi/OpenWaitableTimerW

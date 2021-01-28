@@ -4,7 +4,7 @@ title: DeleteSynchronizationBarrier function (synchapi.h)
 description: Deletes a synchronization barrier.
 helpviewer_keywords: ["DeleteSynchronizationBarrier","DeleteSynchronizationBarrier function","base.deletesynchronizationbarrier","synchapi/DeleteSynchronizationBarrier"]
 old-location: base\deletesynchronizationbarrier.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 04626b6f-f5f7-4042-9786-7cabd68636ac
 ms.date: 12/05/2018
 ms.keywords: DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function, base.deletesynchronizationbarrier, synchapi/DeleteSynchronizationBarrier

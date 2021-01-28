@@ -4,7 +4,7 @@ title: WakeAllConditionVariable function (synchapi.h)
 description: Wake all threads waiting on the specified condition variable.
 helpviewer_keywords: ["WakeAllConditionVariable","WakeAllConditionVariable function","base.wakeallconditionvariable","synchapi/WakeAllConditionVariable","winbase/WakeAllConditionVariable"]
 old-location: base\wakeallconditionvariable.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 1a57562a-fbbc-4a5f-910c-7a52a8dccbe3
 ms.date: 12/05/2018
 ms.keywords: WakeAllConditionVariable, WakeAllConditionVariable function, base.wakeallconditionvariable, synchapi/WakeAllConditionVariable, winbase/WakeAllConditionVariable

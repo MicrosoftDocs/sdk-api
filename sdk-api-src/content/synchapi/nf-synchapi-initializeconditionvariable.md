@@ -4,7 +4,7 @@ title: InitializeConditionVariable function (synchapi.h)
 description: Initializes a condition variable.
 helpviewer_keywords: ["InitializeConditionVariable","InitializeConditionVariable function","base.initializeconditionvariable","synchapi/InitializeConditionVariable","winbase/InitializeConditionVariable"]
 old-location: base\initializeconditionvariable.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 55cc8d1a-d5a8-4bb2-a5ac-50b4114b1b0b
 ms.date: 12/05/2018
 ms.keywords: InitializeConditionVariable, InitializeConditionVariable function, base.initializeconditionvariable, synchapi/InitializeConditionVariable, winbase/InitializeConditionVariable

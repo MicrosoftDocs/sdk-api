@@ -4,7 +4,7 @@ title: OpenEventA function (synchapi.h)
 description: Opens an existing named event object.
 helpviewer_keywords: ["OpenEvent","OpenEvent function","OpenEventA","OpenEventW","_win32_openevent","base.openevent","synchapi/OpenEvent","synchapi/OpenEventA","synchapi/OpenEventW","winbase/OpenEvent","winbase/OpenEventA","winbase/OpenEventW"]
 old-location: base\openevent.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 46741024-ace3-44d6-b8a6-5621ad121a1a
 ms.date: 12/05/2018
 ms.keywords: OpenEvent, OpenEvent function, OpenEventA, OpenEventW, _win32_openevent, base.openevent, synchapi/OpenEvent, synchapi/OpenEventA, synchapi/OpenEventW, winbase/OpenEvent, winbase/OpenEventA, winbase/OpenEventW

@@ -4,7 +4,7 @@ title: WaitForSingleObjectEx function (synchapi.h)
 description: Waits until the specified object is in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.
 helpviewer_keywords: ["WaitForSingleObjectEx","WaitForSingleObjectEx function","_win32_waitforsingleobjectex","base.waitforsingleobjectex","synchapi/WaitForSingleObjectEx","winbase/WaitForSingleObjectEx"]
 old-location: base\waitforsingleobjectex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 530b5340-f8b2-4e00-a3ca-87a7c7372482
 ms.date: 12/05/2018
 ms.keywords: WaitForSingleObjectEx, WaitForSingleObjectEx function, _win32_waitforsingleobjectex, base.waitforsingleobjectex, synchapi/WaitForSingleObjectEx, winbase/WaitForSingleObjectEx
