@@ -121,7 +121,7 @@ In the case of a priority collision where two windows are broadcasting determina
 
 Based on that priority, this determinate (specific percentage) progress indicator can be displayed in these cases:
     
-                    <ul>
+<ul>
 <li>The taskbar button does not represent a group and the single window that it represents is broadcasting determinate progress information through this method.</li>
 <li>The taskbar button represents a group, only one window in that group is broadcasting progress information, and that window is broadcasting determinate progress information through this method.</li>
 <li>The taskbar button represents a group, multiple windows in that group are broadcasting progress information, at least one of those windows is broadcasting progress information through this method, and none of those windows has set the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressstate">TBPF_ERROR</a> or <b>TBPF_PAUSED</b> state.</li>
