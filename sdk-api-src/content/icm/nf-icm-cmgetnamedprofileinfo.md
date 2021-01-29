@@ -1,11 +1,10 @@
 ---
 UID: NF:icm.CMGetNamedProfileInfo
-tech.root: wcs
 title: CMGetNamedProfileInfo
+description: Retrieves information about the specified named color profile.
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - icm32.dll
 api_name:
  - CMGetNamedProfileInfo
 f1_keywords:
@@ -42,15 +41,30 @@ dev_langs:
 
 ## -description
 
+Retrieves information about the specified named color profile.
+
 ## -parameters
 
 ### -param hProfile
 
+The handle to the profile from which the information will be retrieved.
+
 ### -param pNamedProfileInfo
+
+A pointer to a **NAMED_PROFILE_INFO** structure.
 
 ## -returns
 
+If this function succeeds, the return value is TRUE.
+
+If this function fails, the return value is FALSE. When this occurs, the CMM should call **SetLastError** to set the last error to a valid error value defined in Winerror.h.
+
 ## -remarks
+
+This function is required in the default CMM. It is optional for all other CMMs.
 
 ## -see-also
 
+* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Functions](ms536536\(v=vs.85\).md)
+* [NAMED_PROFILE_INFO](ms536850\(v=vs.85\).md)

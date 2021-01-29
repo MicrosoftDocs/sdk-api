@@ -1,11 +1,10 @@
 ---
 UID: NF:icm.CMGetPS2ColorRenderingDictionary
-tech.root: wcs
 title: CMGetPS2ColorRenderingDictionary
-ms.date: 01/26/2021
-
-targetos: Windows
 description: 
+tech.root: wcs
+ms.date: 01/26/2021
+targetos: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

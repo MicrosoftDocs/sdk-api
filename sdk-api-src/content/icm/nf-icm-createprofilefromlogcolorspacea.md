@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.CreateProfileFromLogColorSpaceA
-tech.root: wcs
 title: CreateProfileFromLogColorSpaceA
+description: Converts a logical [color space](c.md) to a [device profile](d.md).
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Mscms.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+- mscms.dll
 api_name:
  - CreateProfileFromLogColorSpaceA
  - CreateProfileFromLogColorSpace
@@ -45,15 +44,34 @@ dev_langs:
 
 ## -description
 
+Converts a logical [color space](c.md) to a [device profile](d.md).
+
 ## -parameters
 
 ### -param pLogColorSpace
 
+A pointer to a logical color space structure. See [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) for details. The **lcsFilename** \[0\] member of the structure must be set to the **null** character ('\\0') or this function call will fail with the return value of INVALID\_PARAMETER.
+
 ### -param pProfile
+
+A pointer to a pointer to a buffer where the device profile will be created. This function allocates the buffer and fills it with profile information if it is successful. If not, the pointer is set to **NULL**. The caller is responsible for freeing this buffer when it is no longer needed.
 
 ## -returns
 
+If this function succeeds, the return value is **TRUE**.
+
+If this function fails, the return value is **FALSE**.
+
+If the **lcsFilename** \[0\] member if the [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) structure pointed to by *pLogColorSpace* is not '\\0', this function returns INVALID\_PARAMETER.
+
 ## -remarks
+
+This function can be used with ASCII or Unicode strings. The buffer created by this function must be freed by the caller when it is no longer needed or there will be a memory leak. The [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree) function should be used to free this buffer.
+
+This function does not support Windows Color System (WCS) profiles CAMP, DMP, and GMMP.
 
 ## -see-also
 
+* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Functions](ms536536\(v=vs.85\).md)
+* [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree)

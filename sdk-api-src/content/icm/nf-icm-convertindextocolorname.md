@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.ConvertIndexToColorName
-tech.root: wcs
 title: ConvertIndexToColorName
+description: Transforms indices in a color space to an array of names in a named color space.
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Mscms.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - mscms.dll
 api_name:
  - ConvertIndexToColorName
 f1_keywords:
@@ -42,19 +41,39 @@ dev_langs:
 
 ## -description
 
+Transforms indices in a color space to an array of names in a named color space.
+
 ## -parameters
 
 ### -param hProfile
 
+The handle to an International Color Consortium (ICC) color space profile.
+
 ### -param paIndex
+
+Pointer to an array of color-space index numbers. The indices begin with one, not zero.
 
 ### -param paColorName
 
+Pointer to an array of color name structures.
+
 ### -param dwCount
+
+The number of indices to convert.
 
 ## -returns
 
+If this conversion function succeeds, the return value is **TRUE**.
+
+If this conversion function fails, the return value is **FALSE**.
+
 ## -remarks
+
+This function will fail if *hProfile* is not a valid ICC profile.
+
+This function does not support Windows Color System (WCS) profiles CAMP, DMP, and GMMP; because named profiles are explicit ICC profile types.
 
 ## -see-also
 
+* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Functions](ms536536\(v=vs.85\).md)

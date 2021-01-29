@@ -1,11 +1,10 @@
 ---
 UID: NF:icm.CMDeleteTransform
-tech.root: wcs
 title: CMDeleteTransform
+description: Deletes a specified color transform, and frees any memory associated with it.
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - icm32.dll
 api_name:
  - CMDeleteTransform
 f1_keywords:
@@ -42,13 +41,25 @@ dev_langs:
 
 ## -description
 
+Deletes a specified color transform, and frees any memory associated with it.
+
 ## -parameters
 
 ### -param hcmTransform
 
+Identifies the color transform to be deleted.
+
 ## -returns
+
+If this function succeeds, the return value is **TRUE**.
+
+If the function fails, the return value is **FALSE**. If the **CMDeleteTransform** function is not successful, the CMM should call **SetLastError** to set the last error to a valid error value defined in Winerror.h.
 
 ## -remarks
 
+Every CMM is required to export this function.
+
 ## -see-also
 
+* [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
+* [Functions](dd316902\(v=vs.85\).md)

@@ -1,11 +1,10 @@
 ---
 UID: NF:icm.CMTranslateColors
-tech.root: wcs
 title: CMTranslateColors
+description: Translates an array of colors from a source [color space](ms536506\(v=vs.85\).md) to a destination color space using a color transform.
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - icm32.dll
 api_name:
  - CMTranslateColors
 f1_keywords:
@@ -42,23 +41,49 @@ dev_langs:
 
 ## -description
 
+Translates an array of colors from a source [color space](ms536506\(v=vs.85\).md) to a destination color space using a color transform.
+
 ## -parameters
 
 ### -param hcmTransform
 
+Specifies the color transform to use.
+
 ### -param lpaInputColors
+
+Points to an array of [**COLOR**](ms536849\(v=vs.85\).md) structures to translate.
 
 ### -param nColors
 
+Specifies the number of elements in the array.
+
 ### -param ctInput
+
+Specifies the color type of the input.
 
 ### -param lpaOutputColors
 
+Points to a buffer in which an array of translated **COLOR** structures is to be placed.
+
 ### -param ctOutput
+
+Specifies the output color type.
 
 ## -returns
 
+If this function succeeds, the return value is TRUE.
+
+If this function fails, the return value is FALSE. The CMM should call **SetLastError** to set the last error to a valid error value defined in Winerror.h.
+
 ## -remarks
+
+Every CMM is required to export this function.
+
+If the input and the output color types are not compatible with the color transform, this function should fail.
+
+Note that this function must support in-place translation. That is, whenever the memory footprint of the output is less than or equal to the memory footprint of the input, this function must be able to translate the bitmap colors even if the source and destination buffers are the same.
 
 ## -see-also
 
+* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Functions](ms536536\(v=vs.85\).md)

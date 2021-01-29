@@ -1,11 +1,10 @@
 ---
 UID: NF:icm.CMCreateTransform
-tech.root: wcs
 title: CMCreateTransform
+description: Deprecated. There is no replacement API because this one was no longer being used. Developers of alternate CMM modules are not required to implement it.
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,6 +41,8 @@ dev_langs:
 
 ## -description
 
+Deprecated. There is no replacement API because this one was no longer being used. Developers of alternate CMM modules are not required to implement it.
+
 ## -parameters
 
 ### -param lpColorSpace
@@ -55,4 +56,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-
