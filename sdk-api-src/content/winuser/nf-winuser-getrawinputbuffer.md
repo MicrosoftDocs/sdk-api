@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Performs a buffered read of the raw input data.
+Performs a buffered read of all of the raw input messages data found in the calling thread's message queue.
 
 ## -parameters
 
@@ -57,13 +57,13 @@ Performs a buffered read of the raw input data.
 
 Type: **PRAWINPUT**
 
-A pointer to a buffer of [RAWINPUT](ns-winuser-rawinput.md) structures that contain the raw input data. If **NULL**, the minimum required buffer, in bytes, is returned in \**pcbSize*.
+A pointer to a buffer of [RAWINPUT](ns-winuser-rawinput.md) structures that contain the raw input data. If **NULL**, size of the first raw input message data (minimum required buffer), in bytes, is returned in \**pcbSize*.
 
 ### -param pcbSize [in, out]
 
 Type: **PUINT**
 
-The size, in bytes, of a [RAWINPUT](ns-winuser-rawinput.md) structure.
+The size, in bytes, of the provided [RAWINPUT](ns-winuser-rawinput.md) buffer.
 
 ### -param cbSizeHeader [in]
 
@@ -75,17 +75,19 @@ The size, in bytes, of the [RAWINPUTHEADER](ns-winuser-rawinputheader.md) struct
 
 Type: **UINT**
 
-If *pData* is NULL and the function is successful, the return value is zero. If *pData* is not NULL and the function is successful, the return value is the number of [RAWINPUT](/windows/desktop/api/winuserns-winuser-rawinput) structures written to *pData*.
+If *pData* is **NULL** and the function is successful, the return value is zero. If *pData* is not **NULL** and the function is successful, the return value is the number of [RAWINPUT](/windows/desktop/api/winuserns-winuser-rawinput) structures written to *pData*.
 
 If an error occurs, the return value is (**UINT**)-1. Call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) for the error code.
 
 ## -remarks
 
-Using **GetRawInputBuffer**, the raw input data is buffered in the array of [RAWINPUT](ns-winuser-rawinput.md) structures. For an unbuffered read, use the [GetMessage](nf-winuser-getmessage.md) function to read in the raw input data. 
+Using **GetRawInputBuffer**, the raw input data is read in the array of variable size [RAWINPUT](ns-winuser-rawinput.md) structures. You can call this method several times with smaller buffer until all messages in the message queue have been read.
 
 The [NEXTRAWINPUTBLOCK](nf-winuser-nextrawinputblock.md) macro allows an application to traverse an array of [RAWINPUT](ns-winuser-rawinput.md) structures.
 
-**Note**  To get the correct size of the raw input buffer, do not use \**pcbSize*, use \**pcbSize* \* 8 instead. To ensure **GetRawInputBuffer** behaves properly on WOW64, you must align the [RAWINPUT](ns-winuser-rawinput.md) structure by 8 bytes. The following code shows how to align **RAWINPUT** for WOW64.
+If all raw input messages have been successfully read from message queue then [QS_INPUT](nf-winuser-getqueuestatus.md) flag is cleared from the calling thread's message queue status.
+
+**WOW64 Note**  To get the correct size of the raw input buffer, do not use \**pcbSize*, use \**pcbSize* \* 8 instead. To ensure **GetRawInputBuffer** behaves properly on WOW64, you must align the [RAWINPUT](ns-winuser-rawinput.md) structure by 8 bytes. The following code shows how to align **RAWINPUT** for WOW64.
 
 ```csharp
 [StructLayout(LayoutKind.Explicit)]
