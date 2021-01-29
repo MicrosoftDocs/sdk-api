@@ -1,11 +1,10 @@
 ---
 UID: NF:icm.CMCreateDeviceLinkProfile
-tech.root: wcs
 title: CMCreateDeviceLinkProfile
+description: Creates a [device link profile](/windows/win32/wcs/d) in the format specified by the International Color Consortium in its ICC Profile Format Specification.
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - icm32.dll
 api_name:
  - CMCreateDeviceLinkProfile
 f1_keywords:
@@ -42,23 +41,52 @@ dev_langs:
 
 ## -description
 
+Creates a [device link profile](/windows/win32/wcs/d) in the format specified by the International Color Consortium in its ICC Profile Format Specification.
+
 ## -parameters
 
 ### -param pahProfiles
 
+Pointer to an array of profile handles.
+
 ### -param nProfiles
+
+Specifies the number of profiles in the array.
 
 ### -param padwIntents
 
+An array of rendering intents.
+
 ### -param nIntents
+
+The number of elements in the array of intents.
 
 ### -param dwFlags
 
+Specifies flags to used control creation of the transform. For details, see [CMM Transform Creation Flags](ms536577\(v=vs.85\).md).
+
 ### -param lpProfileData
+
+Pointer to a pointer to a buffer. If successful the function allocates and fills this buffer. The calling application must free this buffer when it is no longer needed. Use the **GlobalFree** function to free this buffer.
 
 ## -returns
 
+If the function succeeds, the return value is a nonzero value.
+
+If this function fails, the return value is zero. If the function is not successful, the CMM should call **SetLastError** to set the last error to a valid error value defined in Winerror.h.
+
 ## -remarks
+
+Only the Windows default CMM is required to export this function; it is optional for all other CMMs.
+
+If a CMM does not support **CMCreateDeviceLinkProfile**, Windows uses the default CMM to create a device link profile.
+
+The first and the last profiles in the array must be [device profiles](ms536507\(v=vs.85\).md). The other profiles can be [color space](ms536506\(v=vs.85\).md) or abstract profiles. Each profile's output color space must be the next profile's input color space.
+
+The calling application must free the buffer allocated by this function and pointed to by the *lpProfileData* parameter. Use the [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree) function to free the buffer.
 
 ## -see-also
 
+* [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
+* [Functions](dd316902\(v=vs.85\).md)
+* [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree)

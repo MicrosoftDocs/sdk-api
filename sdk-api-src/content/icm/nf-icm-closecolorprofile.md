@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.CloseColorProfile
-tech.root: wcs
 title: CloseColorProfile
+description: Closes an open profile handle.
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Mscms.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -42,13 +41,23 @@ dev_langs:
 
 ## -description
 
+Closes an open profile handle.
+
 ## -parameters
 
 ### -param hProfile
 
+Handle to the profile to be closed. The function determines whether the HPROFILE contains ICC or WCS profile information.
+
 ## -returns
+
+If this function succeeds, the return value is **TRUE**.
+
+If this function fails, the return value is **FALSE**. For extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
 ## -see-also
 
+* [Basic color management concepts](basic-color-management-concepts.md)
+* [Functions](functions.md)

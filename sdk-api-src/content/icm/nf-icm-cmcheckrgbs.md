@@ -1,11 +1,10 @@
 ---
 UID: NF:icm.CMCheckRGBs
-tech.root: wcs
 title: CMCheckRGBs
+description: Checks bitmap colors against an output gamut.
+tech.root: wcs
 ms.date: 01/26/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,6 +41,8 @@ dev_langs:
 
 ## -description
 
+Checks bitmap colors against an output gamut.
+
 ## -parameters
 
 ### -param hcmTransform
@@ -67,4 +68,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-
