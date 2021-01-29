@@ -47,7 +47,6 @@ api_name:
 
 # GetRawInputBuffer function
 
-
 ## -description
 
 Performs a buffered read of the raw input data.
@@ -56,43 +55,39 @@ Performs a buffered read of the raw input data.
 
 ### -param pData [out, optional]
 
-Type: <b>PRAWINPUT</b>
+Type: **PRAWINPUT**
 
-A pointer to a buffer of <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures that contain the raw input data. If <b>NULL</b>, the minimum required buffer, in bytes, is returned in *<i>pcbSize</i>.
+A pointer to a buffer of [RAWINPUT](ns-winuser-rawinput.md) structures that contain the raw input data. If **NULL**, the minimum required buffer, in bytes, is returned in \**pcbSize*.
 
 ### -param pcbSize [in, out]
 
-Type: <b>PUINT</b>
+Type: **PUINT**
 
-The size, in bytes, of a <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure.
+The size, in bytes, of a [RAWINPUT](ns-winuser-rawinput.md) structure.
 
 ### -param cbSizeHeader [in]
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-The size, in bytes, of the <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure.
+The size, in bytes, of the [RAWINPUTHEADER](ns-winuser-rawinputheader.md) structure.
 
 ## -returns
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-If 
-						<i>pData</i> is NULL and the function is successful, the return value is zero. If 
-						<i>pData</i> is not NULL and the function is successful, the return value is the number of <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures written to 
-						<i>pData</i>.
+If *pData* is NULL and the function is successful, the return value is zero. If *pData* is not NULL and the function is successful, the return value is the number of [RAWINPUT](/windows/desktop/api/winuserns-winuser-rawinput) structures written to *pData*.
 
-If an error occurs, the return value is (<b>UINT</b>)-1. Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for the error code.
+If an error occurs, the return value is (**UINT**)-1. Call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) for the error code.
 
 ## -remarks
 
-Using <b>GetRawInputBuffer</b>, the raw input data is buffered in the array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures. For an unbuffered read, use the <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> function to read in the raw input data. 
+Using **GetRawInputBuffer**, the raw input data is buffered in the array of [RAWINPUT](ns-winuser-rawinput.md) structures. For an unbuffered read, use the [GetMessage](nf-winuser-getmessage.md) function to read in the raw input data. 
 
-The <a href="/windows/desktop/api/winuser/nf-winuser-nextrawinputblock">NEXTRAWINPUTBLOCK</a> macro allows an application to traverse an array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures.
+The [NEXTRAWINPUTBLOCK](nf-winuser-nextrawinputblock.md) macro allows an application to traverse an array of [RAWINPUT](ns-winuser-rawinput.md) structures.
 
-<div class="alert"><b>Note</b>  To get the correct size of the raw input buffer, do not use *<i>pcbSize</i>, use *<i>pcbSize</i> * 8 instead.   To ensure <b>GetRawInputBuffer</b> behaves properly on WOW64, you must align the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure by 8 bytes. The following code shows how to align <b>RAWINPUT</b>  for WOW64.  
+**Note**  To get the correct size of the raw input buffer, do not use \**pcbSize*, use \**pcbSize* \* 8 instead. To ensure **GetRawInputBuffer** behaves properly on WOW64, you must align the [RAWINPUT](ns-winuser-rawinput.md) structure by 8 bytes. The following code shows how to align **RAWINPUT** for WOW64.
 
-
-```
+```csharp
 [StructLayout(LayoutKind.Explicit)]
 internal struct RAWINPUT
 {
@@ -108,37 +103,20 @@ internal struct RAWINPUT
     [FieldOffset(16+8)]
     public RAWHID hid;
 }
-
 ```
-
-
-</div>
-<div> </div>
 
 ## -see-also
 
-<b>Conceptual</b>
+**Conceptual** 
 
+[GetMessage](nf-winuser-getmessage.md)
 
+[NEXTRAWINPUTBLOCK](nf-winuser-nextrawinputblock.md)
 
-<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+[RAWINPUT](ns-winuser-rawinput.md)
 
+[RAWINPUTHEADER](ns-winuser-rawinputheader.md)
 
+[Raw Input](/windows/desktop/inputdev/raw-input)
 
-<a href="/windows/desktop/api/winuser/nf-winuser-nextrawinputblock">NEXTRAWINPUTBLOCK</a>
-
-
-
-<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
-
-
-
-<a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
-
-
-
-<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
-
-
-
-<b>Reference</b>
+**Reference**
