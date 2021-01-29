@@ -245,17 +245,9 @@ Pointer to the Unicode string to convert.
 
 Size, in characters, of the string indicated by <i>lpWideCharStr</i>. Alternatively, this parameter can be set to -1 if the string is null-terminated. If <i>cchWideChar</i> is set to 0, the function fails.
 
-If this parameter is -1, the function processes the entire input string, including the terminating null 
+If this parameter is -1, the function processes the entire input string, including the terminating null character. Therefore, the resulting character string has a terminating null character, and the length returned by the function includes this character.
 
-character. Therefore, the resulting character string has a terminating null character, and the length 
-
-returned by the function includes this character.
-
-If this parameter is set to a positive integer, the function processes exactly the specified number of 
-
-characters. If the provided size does not include a terminating null character, the resulting character 
-
-string is not null-terminated, and the returned length does not include this character.
+If this parameter is set to a positive integer, the function processes exactly the specified number of characters. If the provided size does not include a terminating null character, the resulting character string is not null-terminated, and the returned length does not include this character.
 
 ### -param lpMultiByteStr [out, optional]
 
