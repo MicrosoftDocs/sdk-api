@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.WcsAssociateColorProfileWithDevice
-tech.root: wcs
 title: WcsAssociateColorProfileWithDevice
-ms.date: 02/01/2021
-
-targetos: Windows
 description: 
+tech.root: wcs
+ms.date: 02/01/2021
+targetos: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Mscms.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - mscms.dll
 api_name:
  - WcsAssociateColorProfileWithDevice
 f1_keywords:
@@ -42,17 +41,39 @@ dev_langs:
 
 ## -description
 
+Associates a specified WCS color profile with a specified device.
+
 ## -parameters
 
 ### -param scope
 
+A [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation, which could be system-wide or for the current user.
+
 ### -param pProfileName
+
+A pointer to the file name of the profile to associate.
 
 ### -param pDeviceName
 
+A pointer to the name of the device with which the profile is to be associated.
+
 ## -returns
+
+If this function succeeds, the return value is **TRUE**.
+
+If this function fails, the return value is **FALSE**. For extended error information, call **GetLastError**.
 
 ## -remarks
 
+The **WCSAssociateColorProfileWithDevice** function fails if the profile has not been installed on the computer using the [**InstallColorProfileW**](/windows/win32/api/icm/nf-icm-installcolorprofilew) function.
+
+If the *profileManagementScope* parameter is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_SYSTEM\_WIDE, the profile association is system-wide and applies to all users. If *profileManagementScope* is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, the association is only for the current user.
+
+This function is executable in Least-Privileged User Account (LUA) context if *profileManagementScope* is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER. Otherwise, administrative privileges are required.
+
 ## -see-also
 
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Functions](ms536536\(v=vs.85\).md)
+* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [WcsDisassociateColorProfileFromDevice**](/windows/win32/api/icm/nf-icm-wcsdisassociatecolorprofilefromdevice)

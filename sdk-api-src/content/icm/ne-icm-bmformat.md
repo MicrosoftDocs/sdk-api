@@ -70,14 +70,14 @@ The values of the **BMFORMAT** enumerated type are used by several WCS functions
 24 bits per pixel maximum. For three channel, X, Y and Z values, the total size is 24 bits per pixel. For single channel gray scale, the total size is 8 bits per pixel.
 
 > [!Note]  
-> The [**TranslateBitmapBits**](translatebitmapbits.md) function does not support [**BM\_XYZTRIPLETS**](/windows/win32/api/icm/ne-icm-bmformat) as an input.
+> The [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits) function does not support [**BM\_XYZTRIPLETS**](/windows/win32/api/icm/ne-icm-bmformat) as an input.
 
 ### -field BM_YxyTRIPLETS
 
 24 bits per pixel maximum. For three channel, Y, x and y values, the total size is 24 bits per pixel. For single channel gray scale, the total size is 8 bits per pixel.
 
 > [!Note]  
-> The [**TranslateBitmapBits**](translatebitmapbits.md) function does not support [**BM\_YxyTRIPLETS**](/windows/win32/api/icm/ne-icm-bmformat) as an input.
+> The [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits) function does not support [**BM\_YxyTRIPLETS**](/windows/win32/api/icm/ne-icm-bmformat) as an input.
 
 ### -field BM_LabTRIPLETS
 

@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.WcsGetCalibrationManagementState
-tech.root: wcs
 title: WcsGetCalibrationManagementState
+description: Determines whether system management of the display calibration state is enabled.
+tech.root: wcs
 ms.date: 02/01/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Mscms.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - mscms.dll
 api_name:
  - WcsGetCalibrationManagementState
 f1_keywords:
@@ -42,13 +41,20 @@ dev_langs:
 
 ## -description
 
+Determines whether system management of the display calibration state is enabled.
+
 ## -parameters
 
 ### -param pbIsEnabled
 
+**TRUE** if system management of the display calibration state is enabled; otherwise **FALSE**.
+
 ## -returns
+
+If this function succeeds, the return value is **TRUE**.
+
+If this function fails, the return value is **FALSE**.
 
 ## -remarks
 
 ## -see-also
-

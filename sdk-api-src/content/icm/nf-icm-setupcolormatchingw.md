@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.SetupColorMatchingW
-tech.root: wcs
 title: SetupColorMatchingW
+description: Creates a Color Management dialog box that lets the user choose whether to enable color management and, if so, provides control over the color profiles used and over the [rendering intent](r.md).
+tech.root: wcs
 ms.date: 02/01/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Icmui.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Icmui.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - icmui.dll
 api_name:
  - SetupColorMatchingW
  - SetupColorMatching
@@ -45,13 +44,25 @@ dev_langs:
 
 ## -description
 
+Creates a Color Management dialog box that lets the user choose whether to enable color management and, if so, provides control over the color profiles used and over the [rendering intent](r.md).
+
 ## -parameters
 
 ### -param pcms
 
+Pointer to a [**COLORMATCHSETUP**](colormatchsetup.md) structure that on entry contains information used to initialize the dialog box.
+
+When **SetupColorMatching** returns, if the user clicked the OK button, this structure contains information about the user's selection. Otherwise, if an error occurred or the user canceled the dialog box, the structure is left unchanged.
+
 ## -returns
+
+If this function succeeds, the return value is **TRUE** indicating that no errors occurred and the user clicked the OK button.
+
+If this function fails, the return value is **FALSE** indicating that an error occurred or the dialog was canceled. For extended error information, call **GetLastError**.
 
 ## -remarks
 
 ## -see-also
 
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Functions](ms536536\(v=vs.85\).md)
