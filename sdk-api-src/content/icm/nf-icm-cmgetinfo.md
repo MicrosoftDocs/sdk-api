@@ -3,7 +3,7 @@ UID: NF:icm.CMGetInfo
 title: CMGetInfo
 description: Retrieves various information about the color management module (CMM).
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -3,7 +3,7 @@ UID: NF:icm.ConvertColorNameToIndex
 title: ConvertColorNameToIndex
 description: Converts color names in a named color space to index numbers in an International Color Consortium (ICC) color profile.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -75,5 +75,5 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)

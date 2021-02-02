@@ -3,7 +3,7 @@ UID: NC:icm.PCMSCALLBACKA
 title: PCMSCALLBACKA
 description: \**PCMSCALLBACKA** (or **ApplyCallbackFunction**) is a callback function that you implement that updates the WCS configuration data while the dialog box displayed by the [**SetupColorMatching**](setupcolormatching.md) function is executing.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -73,7 +73,7 @@ The callback function is completely optional. If it is not supplied, the **Apply
 
 ## -see-also
 
-* [Basic Color Management Concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](basic-color-management-concepts.md)
 * [Functions](functions.md)
 * [SetupColorMatching](setupcolormatching.md)
 * [COLORMATCHSETUP](colormatchsetup.md)

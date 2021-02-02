@@ -3,7 +3,7 @@ UID: NF:icm.AssociateColorProfileWithDeviceA
 title: AssociateColorProfileWithDeviceA
 description: Associates a specified color profile with a specified device.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -68,7 +68,7 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 ## -remarks
 
-The **AssociateColorProfileWithDevice** function will fail if the profile has not been installed on the computer using the [**InstallColorProfile**](installcolorprofile.md) function.
+The **AssociateColorProfileWithDevice** function will fail if the profile has not been installed on the computer using the [**InstallColorProfileW**](/windows/win32/api/icm/nf-icm-installcolorprofilew) function.
 
 Note that under Windows (Windows 95 or later), the PostScript device driver for printers assumes a CMYK color model. Therefore, all PostScript printers must use a CMYK color profile. Windows 2000 does not have this limitation.
 
@@ -82,6 +82,6 @@ Scanners also have no default profile. However, it is atypical to associate more
 
 ## -see-also
 
-* [Basic Color Management Concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](basic-color-management-concepts.md)
 * [Functions](functions.md)
-* [DisassociateColorProfileFromDevice](disassociatecolorprofilefromdevice.md)
+* [DisassociateColorProfileFromDevice](/windows/win32/api/icm/nf-icm-disassociatecolorprofilefromdevicew)

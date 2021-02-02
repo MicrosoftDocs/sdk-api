@@ -3,7 +3,7 @@ UID: NF:icm.CMCreateMultiProfileTransform
 title: CMCreateMultiProfileTransform
 description: Accepts an array of profiles or a single [device link profile](/windows/win32/wcs/d) and creates a color transform. This transform is a mapping from the color space specified by the first profile to that of the second profile and so on to the last one.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

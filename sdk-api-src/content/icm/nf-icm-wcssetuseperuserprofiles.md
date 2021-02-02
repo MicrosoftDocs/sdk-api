@@ -2,7 +2,7 @@
 UID: NF:icm.WcsSetUsePerUserProfiles
 tech.root: wcs
 title: WcsSetUsePerUserProfiles
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 
 targetos: Windows
 description: 

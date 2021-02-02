@@ -3,7 +3,7 @@ UID: NF:icm.CMCheckColors
 title: CMCheckColors
 description: Determines whether given colors lie within the output [gamut](/windows/win32/wcs/g) of a specified transform.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

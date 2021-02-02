@@ -3,7 +3,7 @@ UID: NF:icm.CheckBitmapBits
 title: CheckBitmapBits
 description: Checks whether the pixels in a specified bitmap lie within the output [gamut](g.md) of a specified transform.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

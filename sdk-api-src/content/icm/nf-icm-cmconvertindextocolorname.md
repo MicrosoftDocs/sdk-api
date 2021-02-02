@@ -3,7 +3,7 @@ UID: NF:icm.CMConvertIndexToColorName
 title: CMConvertIndexToColorName
 tech.root: wcs
 description: Transforms indices in a color space to an array of names in a named color space.
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

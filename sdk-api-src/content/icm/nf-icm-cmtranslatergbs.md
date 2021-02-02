@@ -3,7 +3,7 @@ UID: NF:icm.CMTranslateRGBs
 title: CMTranslateRGBs
 description: Translates a bitmap from one [color space](https://msdn.microsoft.com/en-us/library/dd371818\(v=vs.85\)) to another using a color transform.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -136,5 +136,5 @@ Note that this function must support in-place translation. That is, whenever the
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)

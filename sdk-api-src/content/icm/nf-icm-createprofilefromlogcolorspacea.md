@@ -3,7 +3,7 @@ UID: NF:icm.CreateProfileFromLogColorSpaceA
 title: CreateProfileFromLogColorSpaceA
 description: Converts a logical [color space](c.md) to a [device profile](d.md).
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
-- mscms.dll
+ - mscms.dll
 api_name:
  - CreateProfileFromLogColorSpaceA
  - CreateProfileFromLogColorSpace
@@ -72,6 +72,6 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)
 * [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree)

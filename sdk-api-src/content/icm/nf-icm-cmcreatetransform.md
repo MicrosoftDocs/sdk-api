@@ -3,7 +3,7 @@ UID: NF:icm.CMCreateTransform
 title: CMCreateTransform
 description: Deprecated. There is no replacement API because this one was no longer being used. Developers of alternate CMM modules are not required to implement it.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

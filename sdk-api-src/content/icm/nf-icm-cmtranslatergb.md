@@ -3,7 +3,7 @@ UID: NF:icm.CMTranslateRGB
 title: CMTranslateRGB
 description: Translates an application-supplied RGBQuad into the device [color space](https://msdn.microsoft.com/en-us/library/dd371818\(v=vs.85\)).
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -98,5 +98,5 @@ Every CMM is required to export this function.
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)

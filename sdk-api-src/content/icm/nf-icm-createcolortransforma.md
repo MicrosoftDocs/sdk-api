@@ -3,7 +3,7 @@ UID: NF:icm.CreateColorTransformA
 title: CreateColorTransformA
 description: Creates a color transform that applications can use to perform color management.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -103,5 +103,5 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)

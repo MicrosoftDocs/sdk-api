@@ -3,7 +3,7 @@ UID: NF:icm.CMCreateDeviceLinkProfile
 title: CMCreateDeviceLinkProfile
 description: Creates a [device link profile](/windows/win32/wcs/d) in the format specified by the International Color Consortium in its ICC Profile Format Specification.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

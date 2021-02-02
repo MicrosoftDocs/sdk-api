@@ -3,7 +3,7 @@ UID: NE:icm.__unnamed_enum_5
 title: WCS_PROFILE_MANAGEMENT_SCOPE
 description: Specifies the scope of a profile management operation, such as associating a profile with a device.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

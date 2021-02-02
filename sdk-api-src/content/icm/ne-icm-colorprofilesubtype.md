@@ -3,7 +3,7 @@ UID: NE:icm.__unnamed_enum_2
 title: COLORPROFILESUBTYPE
 description: Specifies the subtype of the color profile.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

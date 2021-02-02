@@ -3,7 +3,7 @@ UID: NF:icm.CMGetNamedProfileInfo
 title: CMGetNamedProfileInfo
 description: Retrieves information about the specified named color profile.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -65,6 +65,6 @@ This function is required in the default CMM. It is optional for all other CMMs.
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)
 * [NAMED_PROFILE_INFO](ms536850\(v=vs.85\).md)

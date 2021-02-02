@@ -3,7 +3,7 @@ UID: NF:icm.CreateDeviceLinkProfile
 title: CreateDeviceLinkProfile
 description: Creates an International Color Consortium (ICC) *device link profile* from a set of color profiles, using the specified intents.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -91,6 +91,6 @@ The calling application must free the buffer allocated by this function and poin
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)
 * [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree)

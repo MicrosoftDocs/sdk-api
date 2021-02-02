@@ -2,7 +2,7 @@
 UID: NS:icm.GENERIC3CHANNEL
 tech.root: wcs
 title: GENERIC3CHANNEL
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 
 targetos: Windows
 description: 

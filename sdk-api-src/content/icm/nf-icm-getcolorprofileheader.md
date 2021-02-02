@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.GetColorProfileHeader
-tech.root: wcs
 title: GetColorProfileHeader
-ms.date: 01/26/2021
-
+description: Retrieves or derives ICC header structure from either ICC color profile or WCS XML profile. Drivers and applications should assume returning **TRUE** only indicates that a properly structured header is returned. Each tag will still need to be validated independently using either legacy ICM2 APIs or XML schema APIs.
+tech.root: wcs
+ms.date: 02/01/2021
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Mscms.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - mscms.dll
 api_name:
  - GetColorProfileHeader
 f1_keywords:
@@ -42,15 +41,36 @@ dev_langs:
 
 ## -description
 
+Retrieves or derives ICC header structure from either ICC color profile or WCS XML profile. Drivers and applications should assume returning **TRUE** only indicates that a properly structured header is returned. Each tag will still need to be validated independently using either legacy ICM2 APIs or XML schema APIs.
+
 ## -parameters
 
 ### -param hProfile
 
+Specifies a handle to the color profile in question.
+
 ### -param pHeader
+
+Points to a variable in which the ICC header structure is to be placed.
 
 ## -returns
 
+If this function succeeds, the return value is **TRUE**.
+
+If this function fails, the return value is **FALSE**. This function will fail is an invalid ICC or WCS XML profile is referenced in the hProfile parameter. For extended error information, call **GetLastError**.
+
 ## -remarks
+
+To determine whether the header is derived from an ICC or DMP profile handle, check the header signature (header bytes 36-39). If the signature is "acsp" (big endian) then an ICC profile was used. If the signature is "cdmp" (big-endian) then a DMP was used.
+
+The distinguishing features that identify a header as having been "synthesized" for a WCS DMP are:
+
+pIcmProfileHeader-&gt;phSignature = 'pmdc' (little endian = big endian 'cdmp')
+
+pIcmProfileHeader-&gt;phCMMType = '1scw' (little endian = big endian 'wcs1').
 
 ## -see-also
 
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Functions](ms536536\(v=vs.85\).md)
+* [PROFILEHEADER](profileheader.md)

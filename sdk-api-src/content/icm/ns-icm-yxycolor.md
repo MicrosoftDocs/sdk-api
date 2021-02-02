@@ -2,7 +2,7 @@
 UID: NS:icm.YxyCOLOR
 tech.root: wcs
 title: YxyCOLOR
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 
 targetos: Windows
 description: 

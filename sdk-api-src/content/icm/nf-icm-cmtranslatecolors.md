@@ -3,7 +3,7 @@ UID: NF:icm.CMTranslateColors
 title: CMTranslateColors
 description: Translates an array of colors from a source [color space](ms536506\(v=vs.85\).md) to a destination color space using a color transform.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -85,5 +85,5 @@ Note that this function must support in-place translation. That is, whenever the
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)

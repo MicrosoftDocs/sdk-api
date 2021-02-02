@@ -3,7 +3,7 @@ UID: NE:icm.__unnamed_enum_4
 title: BMFORMAT
 description: The values of the **BMFORMAT** enumerated type are used by several WCS functions to indicate the format that particular bitmaps are in.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

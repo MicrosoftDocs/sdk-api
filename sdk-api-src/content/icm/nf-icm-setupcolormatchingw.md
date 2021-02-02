@@ -2,7 +2,7 @@
 UID: NF:icm.SetupColorMatchingW
 tech.root: wcs
 title: SetupColorMatchingW
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 
 targetos: Windows
 description: 

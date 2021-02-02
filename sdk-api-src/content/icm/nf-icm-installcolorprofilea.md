@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.InstallColorProfileA
-tech.root: wcs
 title: InstallColorProfileA
-ms.date: 01/26/2021
-
+description: Installs a given profile for use on a specified machine. The profile is also copied to the COLOR directory.
+tech.root: wcs
+ms.date: 02/01/2021
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Mscms.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - mscms.dll
 api_name:
  - InstallColorProfileA
  - InstallColorProfile
@@ -45,15 +44,27 @@ dev_langs:
 
 ## -description
 
+Installs a given profile for use on a specified machine. The profile is also copied to the COLOR directory.
+
 ## -parameters
 
 ### -param pMachineName
 
+Reserved. Must be **NULL**. This parameter is intended to point to the name of the computer on which the profile is to be installed. A **NULL** pointer indicates the local computer.
+
 ### -param pProfileName
 
+Pointer to the fully qualified path name of the profile to install.
+
 ## -returns
+
+If this function succeeds, the return value is **TRUE**.
+
+If this function fails, the return value is **FALSE**. For extended error information, call **GetLastError**.
 
 ## -remarks
 
 ## -see-also
 
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Functions](ms536536\(v=vs.85\).md)

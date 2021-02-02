@@ -3,7 +3,7 @@ UID: NF:icm.CMCheckColorsInGamut
 title: CMCheckColorsInGamut
 description: Determines whether specified RGB triples lie in the output [gamut](/windows/win32/wcs/g) of a specified transform.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

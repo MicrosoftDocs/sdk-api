@@ -3,7 +3,7 @@ UID: NF:icm.CMIsProfileValid
 title: CMIsProfileValid
 description: Reports whether the given profile is a valid ICC profile that can be used for color management.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -67,5 +67,5 @@ If a CMM does not support this function, Windows uses the default CMM to validat
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)

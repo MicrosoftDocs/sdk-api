@@ -3,7 +3,7 @@ UID: NF:icm.CreateMultiProfileTransform
 title: CreateMultiProfileTransform
 description: Accepts an array of profiles or a single [device link profile](d.md) and creates a color transform that applications can use to perform color mapping.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -47,7 +47,7 @@ Accepts an array of profiles or a single [device link profile](d.md) and creates
 
 ### -param pahProfiles
 
-Pointer to an array of handles to the profiles to be used. The function determines whether the HPROFILEs contain International Color Consortium (ICC) or Windows Color System (WCS) profile information and processes them appropriately. When valid WCS profiles are returned by [**OpenColorProfile**](opencolorprofile.md) and [**WcsOpenColorProfile**](wcsopencolorprofile.md), these profile handles contain the combination of DMP, CAMP, and GMMP profiles.
+Pointer to an array of handles to the profiles to be used. The function determines whether the HPROFILEs contain International Color Consortium (ICC) or Windows Color System (WCS) profile information and processes them appropriately. When valid WCS profiles are returned by [**OpenColorProfileW**](/windows/win32/api/icm/nf-icm-opencolorprofilew) and [**WcsOpenColorProfile**](wcsopencolorprofile.md), these profile handles contain the combination of DMP, CAMP, and GMMP profiles.
 
 ### -param nProfiles
 
@@ -145,7 +145,7 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)
 * [COLOR Structure**](color.md)
 * [DeleteColorTransform](deletecolortransform.md)

@@ -3,7 +3,7 @@ UID: NF:icm.CMGetPS2ColorRenderingIntent
 title: CMGetPS2ColorRenderingIntent
 description: Retrieves the PostScript Level 2 color [rendering intent](ms536500\(v=vs.85\).md) from a profile.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -84,5 +84,5 @@ If the tag is not present in the profile indicated by *hProfile*, the CMM create
 
 ## -see-also
 
-* [Basic Color Management Concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](ms536813\(v=vs.85\).md)
 * [Functions](ms536536\(v=vs.85\).md)

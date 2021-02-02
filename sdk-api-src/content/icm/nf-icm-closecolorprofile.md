@@ -3,7 +3,7 @@ UID: NF:icm.CloseColorProfile
 title: CloseColorProfile
 description: Closes an open profile handle.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function

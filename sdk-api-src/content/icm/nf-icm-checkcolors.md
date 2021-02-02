@@ -3,7 +3,7 @@ UID: NF:icm.CheckColors
 title: CheckColors
 description: Determines whether the colors in an array lie within the output [gamut](g.md) of a specified transform.
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -81,6 +81,6 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 
 ## -see-also
 
-* [Basic Color Management Concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](basic-color-management-concepts.md)
 * [Functions](functions.md)
 * [COLOR structure](color.md)

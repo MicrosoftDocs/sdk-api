@@ -3,7 +3,7 @@ UID: NF:icm.CMGetPS2ColorSpaceArray
 title: CMGetPS2ColorSpaceArray
 description: 
 tech.root: wcs
-ms.date: 01/26/2021
+ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
 req.construct-type: function
