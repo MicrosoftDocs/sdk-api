@@ -270,7 +270,7 @@ The <i>lpFileName</i> parameter must specify a fully qualified path. This value 
 For example, if Lib2.dll is a dependency of C:\Dir1\Lib1.dll, loading 
          Lib1.dll  with this value causes the system to search for Lib2.dll only in 
          C:\Dir1. To search for Lib2.dll in C:\Dir1 and all of the directories 
-         in the DLL search path, combine this value with <b>LOAD_LIBRARY_DEFAULT_DIRS</b>.
+         in the DLL search path, combine this value with <b>LOAD_LIBRARY_SEARCH_DEFAULT_DIRS</b>.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  </b>This value requires 
           <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> to be 
