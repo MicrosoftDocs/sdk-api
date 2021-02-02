@@ -504,6 +504,10 @@ IrDA implements the connect function with addresses of the form sockaddr_irda. T
 
 
 
+<a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>
+
+
+
 <a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
