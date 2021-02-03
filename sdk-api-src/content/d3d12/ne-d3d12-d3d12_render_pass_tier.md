@@ -56,7 +56,7 @@ Specifies the level of support for render passes on a graphics device.
 
 ### -field D3D12_RENDER_PASS_TIER_0
 
-The user-mode display driver hasn't implemented render passes, and so the feature is provided only via software emulation. Render passes might not provide a performance at this level of support.
+The user-mode display driver hasn't implemented render passes, and so the feature is provided only via software emulation. Render passes might not provide a performance advantage at this level of support.
 
 ### -field D3D12_RENDER_PASS_TIER_1
 
