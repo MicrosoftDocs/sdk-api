@@ -188,7 +188,7 @@ Value: 0xC0AAB109
 The directory item must be  present in the file system image.
 
 
-You can delete the entire file-system image by calling this method for the root directory item and setting the path to a single path delimiter (\).
+You can delete the entire file-system image by calling this method for the root directory item and setting the path to a single path delimiter (\\).
 
 ## -see-also
 

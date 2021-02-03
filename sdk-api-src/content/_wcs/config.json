@@ -1,7 +1,7 @@
 {
   "tech": "wcs",
   "headers": [
-    "tbd",
+    "icm.h",
     "wingdi.h",
     "wcsplugin.h"
   ],

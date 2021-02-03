@@ -58,7 +58,7 @@ The <b>FilterGetDosName</b> function returns the MS-DOS device name that corresp
 
 Pointer to a NULL-terminated wide-character string containing the volume name. 
 
-The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\) is optional. 
+The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\\) is optional. 
 
 <ul>
 <li>

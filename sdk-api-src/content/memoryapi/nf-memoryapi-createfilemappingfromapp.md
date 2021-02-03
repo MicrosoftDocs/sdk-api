@@ -314,7 +314,7 @@ If <i>lpName</i> matches the name of an existing event, semaphore, mutex, waitab
        <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session 
-       namespace. The remainder of the name can contain any character except the backslash character (\). Creating a 
+       namespace. The remainder of the name can contain any character except the backslash character (\\). Creating a 
        file mapping object in the global namespace from a session other than session zero requires the 
        <a href="/windows/desktop/SecAuthZ/authorization-constants">SeCreateGlobalPrivilege</a> 
        privilege. For more information, see 

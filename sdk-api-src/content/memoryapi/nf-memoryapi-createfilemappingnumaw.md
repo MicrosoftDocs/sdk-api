@@ -371,7 +371,7 @@ If the <i>lpName</i> parameter matches the name of an existing event, semaphore,
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the 
         object in the global or session namespace. The remainder of the name can contain any character except the 
-        backslash character (\). Creating a file mapping object in the global namespace requires the 
+        backslash character (\\). Creating a file mapping object in the global namespace requires the 
         <a href="/windows/desktop/SecAuthZ/authorization-constants">SeCreateGlobalPrivilege</a> 
         privilege. For more information, see 
         <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.

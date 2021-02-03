@@ -54,7 +54,7 @@ api_name:
 The <b>GetConfig</b> method retrieves the configuration string for a <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a> server.
 			
 
-The configuration string is the server name and <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name separated by a backslash (\); for example: <i>ServerName</i>&#92;<i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
+The configuration string is the server name and <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name separated by a backslash (\\); for example: <i>ServerName</i>&#92;<i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
 
 ## -parameters
 

@@ -60,7 +60,7 @@ The
 ### -param pwszOriginalVolumeName [in]
 
 Name of the original volume that is the source of the shadow copies. The name of the volume must be in one 
-      of the following formats and must include a trailing backslash (\):
+      of the following formats and must include a trailing backslash (\\):
       
 
 <ul>

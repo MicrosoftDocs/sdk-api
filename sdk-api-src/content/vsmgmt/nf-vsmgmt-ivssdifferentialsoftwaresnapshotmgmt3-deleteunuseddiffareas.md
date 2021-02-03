@@ -59,7 +59,7 @@ Deletes all shadow copy storage areas (also called diff areas) on the specified 
 The name of the volume.
       This parameter is required and cannot be <b>NULL</b>.
 
-The name must be in one of the following formats and must include a trailing backslash (\):
+The name must be in one of the following formats and must include a trailing backslash (\\):
        <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example,  D:\ 

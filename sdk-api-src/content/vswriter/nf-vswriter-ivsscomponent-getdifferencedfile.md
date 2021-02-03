@@ -74,7 +74,7 @@ The address of a caller-allocated variable that receives a string containing the
       
 
 Users of this method need to check to determine whether this path ends with a backslash 
-       (\).
+       (\\).
 
 ### -param pbstrFilespec [out]
 

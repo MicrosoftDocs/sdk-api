@@ -126,7 +126,7 @@ The syntax of a property name was invalid.
 
 ## -remarks
 
-The properties that are set in the  <b>ResUtilSetPrivatePropertyList</b> utility function are placed in the portion of the cluster database below the specified key for the object exactly as specified by the names in the property list. If the name of a property contains backslash characters (\), each string preceding a backslash character is interpreted as a subkey name, and the last string following the last backslash character is interpreted as the value name.
+The properties that are set in the  <b>ResUtilSetPrivatePropertyList</b> utility function are placed in the portion of the cluster database below the specified key for the object exactly as specified by the names in the property list. If the name of a property contains backslash characters (\\), each string preceding a backslash character is interpreted as a subkey name, and the last string following the last backslash character is interpreted as the value name.
 
 Do not call  <b>ResUtilSetPrivatePropertyList</b> from the following resource DLL entry point functions:
 

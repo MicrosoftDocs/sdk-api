@@ -4,7 +4,7 @@ title: WakeByAddressSingle function (synchapi.h)
 description: Wakes one thread that is waiting for the value of an address to change.
 helpviewer_keywords: ["WakeByAddressSingle","WakeByAddressSingle function","base.wakebyaddresssingle","synchapi/WakeByAddressSingle"]
 old-location: base\wakebyaddresssingle.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
 ms.date: 12/05/2018
 ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddresssingle, synchapi/WakeByAddressSingle

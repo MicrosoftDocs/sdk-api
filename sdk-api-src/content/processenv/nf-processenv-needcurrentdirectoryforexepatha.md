@@ -77,7 +77,7 @@ Most system functions perform their own path resolution, therefore, this functio
 
 The value of the NoDefaultCurrentDirectoryInExePath environment variable determines the value this function returns. However, you should call this function rather than checking the environment variable directly, as the registry location of this environment variable can change.
 
-If the value of the <i>ExeName</i> parameter contains a backslash (\), this function will always return TRUE. If it does not contain a backslash, the existence of the NoDefaultCurrentDirectoryInExePath environment variable is checked, and not its value.
+If the value of the <i>ExeName</i> parameter contains a backslash (\\), this function will always return TRUE. If it does not contain a backslash, the existence of the NoDefaultCurrentDirectoryInExePath environment variable is checked, and not its value.
 
 An example of an instance when this function should be called instead of relying on the default search path resolution algorithm in <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> is the "cmd.exe" executable. It calls this function to determine the command search path because it does its own path resolution before calling <b>CreateProcess</b>.  If this function returns TRUE, cmd.exe uses the path ".;%PATH%" for the executable search. If it returns FALSE, cmd.exe uses the path "%PATH%" for the search.
 

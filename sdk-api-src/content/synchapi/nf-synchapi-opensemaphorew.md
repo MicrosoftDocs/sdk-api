@@ -4,7 +4,7 @@ title: OpenSemaphoreW function (synchapi.h)
 description: Opens an existing named semaphore object.
 helpviewer_keywords: ["OpenSemaphore","OpenSemaphore function","OpenSemaphoreA","OpenSemaphoreW","_win32_opensemaphore","base.opensemaphore","synchapi/OpenSemaphore","synchapi/OpenSemaphoreA","synchapi/OpenSemaphoreW"]
 old-location: base\opensemaphore.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f
 ms.date: 12/05/2018
 ms.keywords: OpenSemaphore, OpenSemaphore function, OpenSemaphoreA, OpenSemaphoreW, _win32_opensemaphore, base.opensemaphore, synchapi/OpenSemaphore, synchapi/OpenSemaphoreA, synchapi/OpenSemaphoreW
@@ -82,7 +82,7 @@ The name of the semaphore to be opened. Name comparisons are case sensitive.
 
 This function can open objects in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open an object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open an object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 <b>Note</b>  Fast user switching is implemented using Terminal Services sessions. The first user to log on uses session 0, the next user to log on uses session 1, and so on. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.

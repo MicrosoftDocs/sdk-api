@@ -57,7 +57,7 @@ Checks the registry for writers that should block revert operations on  the spec
 
 ### -param wszVolumeName [in]
 
-The name of the volume. This name must be in one of the following formats and must include a trailing backslash (\):
+The name of the volume. This name must be in one of the following formats and must include a trailing backslash (\\):
       
 
 <ul>

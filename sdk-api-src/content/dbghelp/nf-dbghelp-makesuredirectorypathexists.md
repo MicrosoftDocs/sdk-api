@@ -58,7 +58,7 @@ Creates all the directories in the specified path, beginning with the root.
 ### -param DirPath [in]
 
 A valid path name. If the final component of the path is a directory, not a file name, the string must end 
-      with a backslash (\) character.
+      with a backslash (\\) character.
 
 ## -returns
 

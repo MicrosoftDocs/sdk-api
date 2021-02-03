@@ -58,7 +58,7 @@ The <b>AddToSnapshotSet</b> method adds
 
 ### -param pwszVolumeName [in]
 
-Null-terminated wide character string containing the name of the volume or the UNC path of the remote file share to be shadow copied. The name or UNC path must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the name of the volume or the UNC path of the remote file share to be shadow copied. The name or UNC path must be in one of the following formats and must include a trailing backslash (\\): 
       
 
 <ul>

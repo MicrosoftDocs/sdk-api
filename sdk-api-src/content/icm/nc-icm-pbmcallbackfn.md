@@ -1,0 +1,59 @@
+---
+UID: NC:icm.PBMCALLBACKFN
+title: PBMCALLBACKFN
+description: 
+tech.root: wcs
+ms.date: 02/01/2021
+targetos: Windows
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: icm.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - icm.h
+api_name:
+ - PBMCALLBACKFN
+f1_keywords:
+ - PBMCALLBACKFN
+ - icm/PBMCALLBACKFN
+dev_langs:
+ - c++
+---
+
+## -description
+
+## -parameters
+
+typedef BOOL (WINAPI *PBMCALLBACKFN)(ULONG, ULONG, LPARAM);
+typedef PBMCALLBACKFN LPBMCALLBACKFN;
+
+### -param Arg1
+
+### -param Arg2
+
+### -param Arg3
+
+## -returns
+
+## -remarks
+
+## -see-also

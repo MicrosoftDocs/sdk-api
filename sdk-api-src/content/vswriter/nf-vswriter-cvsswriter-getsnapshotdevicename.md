@@ -62,7 +62,7 @@ The <b>GetSnapshotDeviceName</b> method
 ### -param wszOriginalVolume [in]
 
 Name of the original volume or the UNC path of the original file share that contains data used for the current shadow copy set. The name of the volume must be in one 
-      of the following formats and must include a trailing backslash (\):
+      of the following formats and must include a trailing backslash (\\):
       
 
 <ul>

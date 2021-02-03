@@ -4,7 +4,7 @@ title: OpenMutexW function (synchapi.h)
 description: Opens an existing named mutex object.
 helpviewer_keywords: ["OpenMutex","OpenMutex function","OpenMutexA","OpenMutexW","_win32_openmutex","base.openmutex","synchapi/OpenMutex","synchapi/OpenMutexA","synchapi/OpenMutexW"]
 old-location: base\openmutex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11
 ms.date: 12/05/2018
 ms.keywords: OpenMutex, OpenMutex function, OpenMutexA, OpenMutexW, _win32_openmutex, base.openmutex, synchapi/OpenMutex, synchapi/OpenMutexA, synchapi/OpenMutexW
@@ -86,7 +86,7 @@ The name of the mutex to be opened. Name comparisons are case sensitive.
 
 This function can open objects in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open an object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open an object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 <b>Note</b>  Fast user switching is implemented using Terminal Services sessions. The first user to log on uses session 0, the next user to log on uses session 1, and so on. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.

@@ -4,7 +4,7 @@ title: InitializeSRWLock function (synchapi.h)
 description: Initialize a slim reader/writer (SRW) lock.
 helpviewer_keywords: ["InitializeSRWLock","InitializeSRWLock function","base.initializesrwlock","synchapi/InitializeSRWLock","winbase/InitializeSRWLock"]
 old-location: base\initializesrwlock.htm
-tech.root: backup
+tech.root: base
 ms.assetid: a94443e1-009c-49ba-a51c-6daa63b07cda
 ms.date: 12/05/2018
 ms.keywords: InitializeSRWLock, InitializeSRWLock function, base.initializesrwlock, synchapi/InitializeSRWLock, winbase/InitializeSRWLock

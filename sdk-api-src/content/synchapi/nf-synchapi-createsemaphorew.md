@@ -4,7 +4,7 @@ title: CreateSemaphoreW function (synchapi.h)
 description: Creates or opens a named or unnamed semaphore object.
 helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreW","CreateSemaphoreW function","_win32_createsemaphore","base.createsemaphore","synchapi/CreateSemaphoreA","synchapi/CreateSemaphoreW"]
 old-location: base\createsemaphore.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreW, CreateSemaphoreW function, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
@@ -99,7 +99,7 @@ If <i>lpName</i> is <b>NULL</b>, the semaphore object is created without a name.
 If <i>lpName</i> matches the name of an existing event, mutex, waitable timer, job, or file-mapping object, the function fails and the 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
-The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.

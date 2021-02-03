@@ -4,7 +4,7 @@ title: CreateWaitableTimerW function (synchapi.h)
 description: Creates or opens a waitable timer object.
 helpviewer_keywords: ["CreateWaitableTimer","CreateWaitableTimer function","CreateWaitableTimerA","CreateWaitableTimerW","_win32_createwaitabletimer","base.createwaitabletimer","synchapi/CreateWaitableTimer","synchapi/CreateWaitableTimerA","synchapi/CreateWaitableTimerW"]
 old-location: base\createwaitabletimer.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 41c915c4-424d-43dd-89d9-a6b4fbee701c
 ms.date: 12/05/2018
 ms.keywords: CreateWaitableTimer, CreateWaitableTimer function, CreateWaitableTimerA, CreateWaitableTimerW, _win32_createwaitabletimer, base.createwaitabletimer, synchapi/CreateWaitableTimer, synchapi/CreateWaitableTimerA, synchapi/CreateWaitableTimerW
@@ -85,7 +85,7 @@ If <i>lpTimerName</i> is <b>NULL</b>, the timer object is created without a name
 If <i>lpTimerName</i> matches the name of an existing event, semaphore, mutex, job, or file-mapping object, the function fails and 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
-The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.

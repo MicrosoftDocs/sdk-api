@@ -4,7 +4,7 @@ title: CreateEventExA function (synchapi.h)
 description: Creates or opens a named or unnamed event object and returns a handle to the object.
 helpviewer_keywords: ["CREATE_EVENT_INITIAL_SET","CREATE_EVENT_MANUAL_RESET","CreateEventEx","CreateEventEx function","CreateEventExA","CreateEventExW","base.createeventex","synchapi/CreateEventEx","synchapi/CreateEventExA","synchapi/CreateEventExW","winbase/CreateEventEx","winbase/CreateEventExA","winbase/CreateEventExW"]
 old-location: base\createeventex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
 ms.date: 12/05/2018
 ms.keywords: CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW
@@ -85,7 +85,7 @@ If <i>lpName</i> matches the name of another kind of object in the same namespac
        <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session 
-        namespace. The remainder of the name can contain any character except the backslash character (\). For more 
+        namespace. The remainder of the name can contain any character except the backslash character (\\). For more 
         information, see <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined 
         for Terminal Services so that applications can support multiple users.
 
