@@ -6,7 +6,7 @@ helpviewer_keywords: ["PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY","PROC_THREAD_
 old-location: base\updateprocthreadattribute.htm
 tech.root: backup
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
-ms.date: 12/05/2018
+ms.date: 02/02/2021
 ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
@@ -524,16 +524,32 @@ The following mitigation options are available for the image loading policy:
 <b>Windows 10, version 2004:  </b>The following values are available only in  Windows 10, version 2004 or later.
 
 Hardware-enforced Stack Protection (HSP) is a hardware-based security feature where the CPU verifies function return addresses at runtime by employing a shadow stack mechanism.
-For user-mode HSP, the default mode is compatibility mode, where only shadow stack violations occurring in modules compiled with <a href="/cpp/build/reference/cetcompat">CETCOMPAT</a> are fatal.
+For user-mode HSP, the default mode is compatibility mode, where only shadow stack violations occurring in modules that are considered compatible with shadow stacks (CETCOMPAT) are fatal.
 In strict mode, all shadow stack violations are fatal.
 
-The following mitigation options are available for user-mode Hardware-enforced Stack Protection:
+The following mitigation options are available for user-mode Hardware-enforced Stack Protection and related features:
 
 <dl>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_USER_SHADOW_STACKS_ALWAYS_ON </b> (0x00000001ui64 &lt;&lt; 28)</dd>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_USER_SHADOW_STACKS_ALWAYS_OFF </b> (0x00000002ui64 &lt;&lt; 28)</dd>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_USER_SHADOW_STACKS_STRICT_MODE </b> (0x00000003ui64 &lt;&lt; 28)</dd>
 
+Instruction Pointer validation:
+
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_USER_CET_SET_CONTEXT_IP_VALIDATION_ALWAYS_ON </b>     (0x00000001ui64 &lt;&lt; 32)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_USER_CET_SET_CONTEXT_IP_VALIDATION_ALWAYS_OFF </b>    (0x00000002ui64 &lt;&lt; 32)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_USER_CET_SET_CONTEXT_IP_VALIDATION_RELAXED_MODE </b>  (0x00000003ui64 &lt;&lt; 32)</dd>
+
+Blocking the load of non-CETCOMPAT/non-EHCONT binaries:
+
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_BLOCK_NON_CET_BINARIES_ALWAYS_ON  </b>               (0x00000001ui64 &lt;&lt; 36)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_BLOCK_NON_CET_BINARIES_ALWAYS_OFF </b>               (0x00000002ui64 &lt;&lt; 36)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_BLOCK_NON_CET_BINARIES_NON_EHCONT </b>               (0x00000003ui64 &lt;&lt; 36)</dd>
+
+Restricting certain HSP APIs used to specify security properties of dynamic code to only be callable from outside of the process:
+
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_DYNAMIC_APIS_OUT_OF_PROC_ONLY_ALWAYS_ON </b>     (0x00000001ui64 &lt;&lt; 48)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_DYNAMIC_APIS_OUT_OF_PROC_ONLY_ALWAYS_OFF </b>    (0x00000002ui64 &lt;&lt; 48)</dd>
 
 The  <b>DWORD</b> or <b>DWORD64</b> pointed to by <i>lpValue</i> can be one or more of the following values when you specify <b>PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY</b> for the <i>Attribute</i> parameter:
 
