@@ -89,4 +89,4 @@ The profile handles used to create the color transform can be closed after the c
 ## -see-also
 
 * [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
-* [Functions](dd316902\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

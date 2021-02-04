@@ -78,5 +78,5 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)
 * [SetColorProfileElement](/windows/win32/api/icm/nf-icm-setcolorprofileelement)

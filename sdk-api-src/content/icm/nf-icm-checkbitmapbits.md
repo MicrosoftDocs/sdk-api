@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CheckBitmapBits
 title: CheckBitmapBits
-description: Checks whether the pixels in a specified bitmap lie within the output [gamut](g.md) of a specified transform.
+description: Checks whether the pixels in a specified bitmap lie within the output [gamut](/windows/win32/wcs/g) of a specified transform.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Checks whether the pixels in a specified bitmap lie within the output [gamut](g.md) of a specified transform.
+Checks whether the pixels in a specified bitmap lie within the output [gamut](/windows/win32/wcs/g) of a specified transform.
 
 ## -parameters
 
@@ -100,6 +100,6 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 ## -see-also
 
 * [Basic color management concepts](basic-color-management-concepts.md)
-* [Functions](functions.md)
+* [Functions](/windows/win32/wcs/functions)
 * [ICMProgressProcCallback](icmprogressproccallback.md)
 * [BMFORMAT](/windows/win32/api/icm/ne-icm-bmformat)

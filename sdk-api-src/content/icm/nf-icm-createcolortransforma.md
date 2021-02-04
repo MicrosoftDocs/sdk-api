@@ -50,7 +50,7 @@ Creates a color transform that applications can use to perform color management.
 
 ### -param pLogColorSpace
 
-Pointer to the input [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea).
+Pointer to the input [**LOGCOLORSPACEA**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea).
 
 ### -param hDestProfile
 
@@ -104,4 +104,4 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

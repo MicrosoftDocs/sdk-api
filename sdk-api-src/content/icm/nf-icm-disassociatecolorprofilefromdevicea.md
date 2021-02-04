@@ -72,10 +72,10 @@ If more than one profile is associated with a device, WCS uses the last one asso
 
 If your application disassociates all profiles from a device, WCS uses the sRGB profile as the default.
 
-**DisassociateColorProfileFromDevice** always removes the specified profile from the current user's per-user profile association list for the specified device. Before removing the profile from the list, **DisassociateColorProfileFromDevice** determines whether the user has previously expressed the desire to use a per-user profile association list for the device. If so, then **DisassociateColorProfileFromDevice** simply removes the specified profile from the existing per-user profile association list for the device. If not, then **DisassociateColorProfileFromDevice** creates a new per-user profile association list for the device by copying the system-wide association list for that device. It then removes the specified profile from the per-user list. From that point on, the current user will be using a per-user profile association list for the specified device, as if [**WcsSetUsePerUserProfiles**](wcssetuseperuserprofiles.md) had been called for *pDevice* with the *usePerUserProfiles* parameter set to **TRUE**.
+**DisassociateColorProfileFromDevice** always removes the specified profile from the current user's per-user profile association list for the specified device. Before removing the profile from the list, **DisassociateColorProfileFromDevice** determines whether the user has previously expressed the desire to use a per-user profile association list for the device. If so, then **DisassociateColorProfileFromDevice** simply removes the specified profile from the existing per-user profile association list for the device. If not, then **DisassociateColorProfileFromDevice** creates a new per-user profile association list for the device by copying the system-wide association list for that device. It then removes the specified profile from the per-user list. From that point on, the current user will be using a per-user profile association list for the specified device, as if [**WcsSetUsePerUserProfiles**](/windows/win32/api/icm/nf-icm-wcssetuseperuserprofiles) had been called for *pDevice* with the *usePerUserProfiles* parameter set to **TRUE**.
 
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)
 * [AssociateColorProfileWithDeviceA](/windows/win32/api/icm/nf-icm-associatecolorprofilewithdevicea)

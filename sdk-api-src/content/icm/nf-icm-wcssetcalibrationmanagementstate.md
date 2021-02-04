@@ -1,26 +1,25 @@
 ---
 UID: NF:icm.WcsSetCalibrationManagementState
-tech.root: wcs
 title: WcsSetCalibrationManagementState
+description: Enables or disables system management of the display calibration state.
+tech.root: wcs
 ms.date: 02/01/2021
-
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Mscms.dll
 req.header: icm.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -30,7 +29,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - icm.h
+ - mscms.dll
 api_name:
  - WcsSetCalibrationManagementState
 f1_keywords:
@@ -42,13 +41,25 @@ dev_langs:
 
 ## -description
 
+Enables or disables system management of the display calibration state.
+
 ## -parameters
 
 ### -param bIsEnabled
 
+**TRUE** to enable system management of the display calibration state. **FALSE** to disable system management of the display calibration state.
+
 ## -returns
+
+If this function succeeds, the return value is **TRUE**.
+
+If this function fails, the return value is **FALSE**.
 
 ## -remarks
 
+This function must be called with elevated permissions for it to succeed.
+
 ## -see-also
 
+* [Basic color management concepts](basic-color-management-concepts.md)
+* [Functions](/windows/win32/wcs/functions)

@@ -111,6 +111,6 @@ Use the [**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile)
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)
 * [CloseColorProfile](/windows/win32/api/icm/nf-icm-closecolorprofile)
-* [PROFILE](profile.md)
+* [PROFILE](/windows/win32/api/icm/ns-icm-profile)

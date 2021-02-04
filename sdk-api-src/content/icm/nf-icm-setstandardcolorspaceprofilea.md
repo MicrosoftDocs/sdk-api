@@ -64,7 +64,7 @@ Points to a fully qualified path to the profile file.
 
 If this function succeeds, the return value is **TRUE**.
 
-If this function fails, the return value is **FALSE**. For extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+If this function fails, the return value is **FALSE**. For extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
@@ -83,5 +83,5 @@ This is executable in LUA context if the profile is already installed, fails oth
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)
 * [SetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-setstandardcolorspaceprofilew)

@@ -60,4 +60,4 @@ If this function fails, the return value is **FALSE**. For extended error inform
 ## -see-also
 
 * [Basic color management concepts](basic-color-management-concepts.md)
-* [Functions](functions.md)
+* [Functions](/windows/win32/wcs/functions)

@@ -50,7 +50,7 @@ Creates a Color Management dialog box that lets the user choose whether to enabl
 
 ### -param pcms
 
-Pointer to a [**COLORMATCHSETUP**](colormatchsetup.md) structure that on entry contains information used to initialize the dialog box.
+Pointer to a [**COLORMATCHSETUPW**](/windows/win32/api/icm/ns-icm-colormatchsetupw) structure that on entry contains information used to initialize the dialog box.
 
 When **SetupColorMatching** returns, if the user clicked the OK button, this structure contains information about the user's selection. Otherwise, if an error occurred or the user canceled the dialog box, the structure is left unchanged.
 
@@ -65,4 +65,4 @@ If this function fails, the return value is **FALSE** indicating that an error o
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

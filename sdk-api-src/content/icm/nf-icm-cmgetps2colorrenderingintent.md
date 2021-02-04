@@ -85,4 +85,4 @@ If the tag is not present in the profile indicated by *hProfile*, the CMM create
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

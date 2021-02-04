@@ -1,11 +1,10 @@
 ---
 UID: NS:icm.NAMEDCOLOR
-tech.root: wcs
 title: NAMEDCOLOR
+description: TBD
+tech.root: wcs
 ms.date: 02/01/2021
-
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -38,11 +37,14 @@ dev_langs:
 
 ## -description
 
+TBD
+
 ## -struct-fields
 
 ### -field dwIndex
 
+TBD
+
 ## -remarks
 
 ## -see-also
-

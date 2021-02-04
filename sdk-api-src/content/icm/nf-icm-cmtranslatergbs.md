@@ -110,13 +110,13 @@ Specifies the direction of the transform being used for the translation. This pa
 
 ## -returns
 
-Beginning with Windows Vista, the default CMM (Icm32.dll) will return **FALSE** and [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360\(v=vs.85\)) will report ERROR\_NOT\_SUPPORTED.
+Beginning with Windows Vista, the default CMM (Icm32.dll) will return **FALSE** and [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) will report ERROR\_NOT\_SUPPORTED.
 
 **Windows Server 2003, Windows XP and Windows 2000:**
 
 If this function succeeds, the return value is **TRUE**.
 
-If this function fails, the return value is **FALSE**. If the function is not successful, the CMM should call [**SetLastError**](https://msdn.microsoft.com/en-us/library/ms680627\(v=vs.85\)) to set the last error to a valid error value defined in Winerror.h.
+If this function fails, the return value is **FALSE**. If the function is not successful, the CMM should call [SetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) to set the last error to a valid error value defined in Winerror.h.
 
 ## -remarks
 
@@ -137,4 +137,4 @@ Note that this function must support in-place translation. That is, whenever the
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

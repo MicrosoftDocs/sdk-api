@@ -64,7 +64,7 @@ Points to the name of the device to associate.
 
 If this function succeeds, the return value is **TRUE**.
 
-If this function fails, the return value is **FALSE**. For extended error information, call [**GetLastError**](https://www.bing.com/search?q=**GetLastError**).
+If this function fails, the return value is **FALSE**. For extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
@@ -78,10 +78,10 @@ Several profiles are typically associated with printers, based on paper and ink 
 
 Scanners also have no default profile. However, it is atypical to associate more than one profile with a scanner.
 
-**AssociateColorProfileWithDevice** always adds the specified profile to the current user's per-user profile association list for the specified device. Before adding the profile to the list, **AssociateColorProfileWithDevice** determines whether the user has previously expressed the desire to use a per-user profile association list for the device. If so, then **AssociateColorProfileWithDevice** simply adds the specified profile to the existing per-user profile association list for the device. If not, then **AssociateColorProfileWithDevice** creates a new per-user profile association list for the device by copying the system-wide association list for that device. It then appends the specified profile to the per-user list. From that point on, the current user will be using a per-user profile association list for the specified device, as if [**WcsSetUsePerUserProfiles**](wcssetuseperuserprofiles.md) had been called for *pDevice* with the *usePerUserProfiles* parameter set to **TRUE**.
+**AssociateColorProfileWithDevice** always adds the specified profile to the current user's per-user profile association list for the specified device. Before adding the profile to the list, **AssociateColorProfileWithDevice** determines whether the user has previously expressed the desire to use a per-user profile association list for the device. If so, then **AssociateColorProfileWithDevice** simply adds the specified profile to the existing per-user profile association list for the device. If not, then **AssociateColorProfileWithDevice** creates a new per-user profile association list for the device by copying the system-wide association list for that device. It then appends the specified profile to the per-user list. From that point on, the current user will be using a per-user profile association list for the specified device, as if [**WcsSetUsePerUserProfiles**](/windows/win32/api/icm/nf-icm-wcssetuseperuserprofiles) had been called for *pDevice* with the *usePerUserProfiles* parameter set to **TRUE**.
 
 ## -see-also
 
 * [Basic color management concepts](basic-color-management-concepts.md)
-* [Functions](functions.md)
+* [Functions](/windows/win32/wcs/functions)
 * [DisassociateColorProfileFromDevice](/windows/win32/api/icm/nf-icm-disassociatecolorprofilefromdevicew)

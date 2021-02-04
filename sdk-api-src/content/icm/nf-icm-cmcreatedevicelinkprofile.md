@@ -88,5 +88,5 @@ The calling application must free the buffer allocated by this function and poin
 ## -see-also
 
 * [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
-* [Functions](dd316902\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)
 * [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree)
