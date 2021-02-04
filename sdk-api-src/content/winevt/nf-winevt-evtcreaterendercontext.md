@@ -63,7 +63,13 @@ The number of XPath expressions in the <i>ValuePaths</i> parameter.
 
 ### -param ValuePaths [in]
 
-An array of XPath expressions that uniquely identify a node or attribute in the event that you want to render. The expressions must not contain the <b>OR</b> or <b>AND</b> operator. Set to <b>NULL</b> if the <b>EvtRenderContextValues</b> context flag is not set in the <i>Flags</i> parameter.
+An array of XPath expressions that uniquely identify a node or attribute in the event that you want to render.
+
+Set to **NULL** if the **EvtRenderContextValues** context flag is not set in the *Flags* parameter.
+
+The expressions must not contain the **OR** or **AND** operator. 
+
+Attribute names in the expressions must not be followed by a space. 
 
 ### -param Flags [in]
 
