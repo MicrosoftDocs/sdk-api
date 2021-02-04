@@ -213,9 +213,7 @@ This uses an extended range (XR) sRGB color space. It has the same RGB primaries
 
 ### Table of bitmap formats
 
-The follow table shows, for each of the formats, the number of bits per pixel, the number of channels, the order of the channels, and the bit-by-bit structure of each byte. You may have to scroll to the right to see all the columns of the table.
-
-
+The follow table shows, for each of the formats, the number of bits per pixel, the number of channels, the order of the channels, and the bit-by-bit structure of each byte. You might have to scroll to the right to see all the columns of the table.
 
 | Format                   | Bits Per Pixel | Number of Channels | Channel Ordering | Byte 0                   | Byte 1                         | Byte 2                   | Byte 3                         | Byte 4                   | Byte 5                         | Byte 6                   | Byte 7                   |
 |--------------------------|----------------|--------------------|------------------|--------------------------|--------------------------------|--------------------------|--------------------------------|--------------------------|--------------------------------|--------------------------|--------------------------|

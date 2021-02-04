@@ -60,6 +60,6 @@ If this function fails, the return value is **FALSE**. For extended error inform
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
-* [COLOR structure](color.md)
+* [Functions](/windows/win32/wcs/functions)
+* [COLOR structure](/windows/win32/api/icm/ns-icm-color)
 * [CreateMultiProfileTransform](/windows/win32/api/icm/nf-icm-createmultiprofiletransform)

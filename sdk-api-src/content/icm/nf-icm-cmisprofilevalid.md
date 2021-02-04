@@ -68,4 +68,4 @@ If a CMM does not support this function, Windows uses the default CMM to validat
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

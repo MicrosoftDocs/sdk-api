@@ -1,11 +1,10 @@
 ---
 UID: NS:icm.YxyCOLOR
-tech.root: wcs
 title: YxyCOLOR
+tech.root: wcs
+description: TBD
 ms.date: 02/01/2021
-
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -38,15 +37,22 @@ dev_langs:
 
 ## -description
 
+TBD
+
 ## -struct-fields
 
 ### -field Y
 
+TBD
+
 ### -field x
 
+TBD
+
 ### -field y
+
+TBD
 
 ## -remarks
 
 ## -see-also
-

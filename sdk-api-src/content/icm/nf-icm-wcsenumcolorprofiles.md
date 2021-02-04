@@ -75,7 +75,7 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 Use the [**WcsEnumColorProfilesSize**](/windows/win32/api/icm/nf-icm-wcsenumcolorprofilessize) function to retrieve the value for the *dwSize* parameter, which is the size, in bytes, of the buffer pointed to by the *pBuffer* parameter.
 
-If the *profileManagementScope* parameter is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_SYSTEM\_WIDE, only system-wide associations of profiles to the device are considered. If *profileManagementScope* is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, only per-user associations for the current user are considered. If [**WcsSetUsePerUserProfiles**](wcssetuseperuserprofiles.md) has never been called for this user, or if **WcsSetUsePerUserProfiles** was most recently called for this user with its *usePerUserProfiles* parameter set to **FALSE**, then **WCSEnumColorProfiles** returns an empty list.
+If the *profileManagementScope* parameter is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_SYSTEM\_WIDE, only system-wide associations of profiles to the device are considered. If *profileManagementScope* is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, only per-user associations for the current user are considered. If [**WcsSetUsePerUserProfiles**](/windows/win32/api/icm/nf-icm-wcssetuseperuserprofiles) has never been called for this user, or if **WcsSetUsePerUserProfiles** was most recently called for this user with its *usePerUserProfiles* parameter set to **FALSE**, then **WCSEnumColorProfiles** returns an empty list.
 
 If WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER (the current user setting) is present, it overrides the system-wide default for the *profileManagementScope* parameter.
 
@@ -84,7 +84,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)
 * [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
 * [WCS_PROFILE_MANAGEMENT_SCOPE](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope)
 * [WcsEnumColorProfilesSize](/windows/win32/api/icm/nf-icm-wcsenumcolorprofilessize)

@@ -1,11 +1,10 @@
 ---
 UID: NS:icm.GENERIC3CHANNEL
-tech.root: wcs
 title: GENERIC3CHANNEL
+description: TBD
+tech.root: wcs
 ms.date: 02/01/2021
-
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Professional \[desktop apps only\]
+req.target-min-winversvr: Windows 2000 Server \[desktop apps only\]
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -38,15 +37,22 @@ dev_langs:
 
 ## -description
 
+TBD
+
 ## -struct-fields
 
 ### -field ch1
 
+TBD
+
 ### -field ch2
 
+TBD
+
 ### -field ch3
+
+TBD
 
 ## -remarks
 
 ## -see-also
-

@@ -67,13 +67,13 @@ Specifies the number of elements in the array.
 
 ## -returns
 
-Beginning with Windows Vista, the default CMM (Icm32.dll) will return **FALSE** and [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360\(v=vs.85\)) will report ERROR\_NOT\_SUPPORTED.
+Beginning with Windows Vista, the default CMM (Icm32.dll) will return **FALSE** and [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) will report ERROR\_NOT\_SUPPORTED.
 
 **Windows Server 2003, Windows XP and Windows 2000:**
 
 If this function succeeds, the return value is **TRUE**.
 
-If this function fails, the return value is **FALSE**. Call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360\(v=vs.85\)) to retrieve the error.
+If this function fails, the return value is **FALSE**. Call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error.
 
 ## -remarks
 
@@ -85,9 +85,9 @@ CMM Implementors are required to implement this method.
 
 Every CMM is required to export this function.
 
-If the function is not successful, custom CMMs should call [**SetLastError**](https://msdn.microsoft.com/en-us/library/ms680627\(v=vs.85\)) to set the last error to a valid error value defined in Winerror.h.
+If the function is not successful, custom CMMs should call [SetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) to set the last error to a valid error value defined in Winerror.h.
 
 ## -see-also
 
 * [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
-* [Functions](dd316902\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

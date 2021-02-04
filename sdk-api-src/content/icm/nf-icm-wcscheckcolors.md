@@ -88,5 +88,5 @@ This function fails if you use an International Color Consortium (ICC) transform
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)
 * [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)

@@ -51,7 +51,7 @@ Identifies the color transform to use.
 
 ### -param paInputColors
 
-Pointer to an array of *nColors*[**COLOR**](color.md) structures to translate.
+Pointer to an array of *nColors*[**COLOR**](/windows/win32/api/icm/ns-icm-color) structures to translate.
 
 ### -param nColors
 
@@ -82,4 +82,4 @@ If the input and the output color types are not compatible with the color transf
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

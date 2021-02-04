@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CheckColors
 title: CheckColors
-description: Determines whether the colors in an array lie within the output [gamut](g.md) of a specified transform.
+description: Determines whether the colors in an array lie within the output [gamut](/windows/win32/wcs/g) of a specified transform.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Determines whether the colors in an array lie within the output [gamut](g.md) of a specified transform.
+Determines whether the colors in an array lie within the output [gamut](/windows/win32/wcs/g) of a specified transform.
 
 ## -parameters
 
@@ -51,7 +51,7 @@ Handle to the color transform to use.
 
 ### -param paInputColors
 
-Pointer to an array of *nColors* [**COLOR**](color.md) structures to translate.
+Pointer to an array of *nColors* [**COLOR**](/windows/win32/api/icm/ns-icm-color) structures to translate.
 
 ### -param nColors
 
@@ -82,5 +82,5 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 ## -see-also
 
 * [Basic color management concepts](basic-color-management-concepts.md)
-* [Functions](functions.md)
-* [COLOR structure](color.md)
+* [Functions](/windows/win32/wcs/functions)
+* [COLOR structure](/windows/win32/api/icm/ns-icm-color)

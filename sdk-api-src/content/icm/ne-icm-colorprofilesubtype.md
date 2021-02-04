@@ -142,4 +142,4 @@ COLORPROFILESUBTYPE Global default can be or?d with WCS\_DEFAULT to set this GMM
 ## -see-also
 
 * [**COLORPROFILETYPE**](/windows/win32/api/icm/ne-icm-colorprofiletype)
-* [**WcsSetDefaultColorProfile**](wcssetdefaultcolorprofile.md)
+* [**WcsSetDefaultColorProfile**](/windows/win32/api/icm/nf-icm-wcssetdefaultcolorprofile)

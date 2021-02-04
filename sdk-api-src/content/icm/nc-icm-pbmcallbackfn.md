@@ -1,7 +1,7 @@
 ---
 UID: NC:icm.PBMCALLBACKFN
 title: PBMCALLBACKFN
-description: 
+description: TBD
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -41,16 +41,21 @@ dev_langs:
 
 ## -description
 
-## -parameters
+TBD
 
-typedef BOOL (WINAPI *PBMCALLBACKFN)(ULONG, ULONG, LPARAM);
-typedef PBMCALLBACKFN LPBMCALLBACKFN;
+## -parameters
 
 ### -param Arg1
 
+TBD
+
 ### -param Arg2
 
+TBD
+
 ### -param Arg3
+
+TBD
 
 ## -returns
 

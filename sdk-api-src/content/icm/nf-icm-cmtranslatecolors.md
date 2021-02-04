@@ -51,7 +51,7 @@ Specifies the color transform to use.
 
 ### -param lpaInputColors
 
-Points to an array of [**COLOR**](ms536849\(v=vs.85\).md) structures to translate.
+Points to an array of [**COLOR**](/windows/win32/api/icm/ns-icm-color) structures to translate.
 
 ### -param nColors
 
@@ -86,4 +86,4 @@ Note that this function must support in-place translation. That is, whenever the
 ## -see-also
 
 * [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](ms536536\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

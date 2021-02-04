@@ -51,7 +51,7 @@ Handle to the color transform to use.
 
 ### -param lpaInputColors
 
-Pointer to an array of [**COLOR**](dd371932\(v=vs.85\).md) structures to check against the output gamut.
+Pointer to an array of [**COLOR**](/windows/win32/api/icm/ns-icm-color) structures to check against the output gamut.
 
 ### -param nColors
 
@@ -69,7 +69,7 @@ Pointer to a buffer in which to place an array of bytes containing the test resu
 
 If this function succeeds, the return value is **TRUE**.
 
-If this function fails, the return value is **FALSE**. If the function is not successful, the CMM should call [SetLastError](https://msdn.microsoft.com/en-us/library/ms680627\(v=vs.85\)) to set the last error to a valid error value defined in Winerror.h.
+If this function fails, the return value is **FALSE**. If the function is not successful, the CMM should call [SetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) to set the last error to a valid error value defined in Winerror.h.
 
 ## -remarks
 
@@ -80,4 +80,4 @@ If the input color type is not compatible with the color transform **CMCheckColo
 ## -see-also
 
 * [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
-* [Functions](dd316902\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)

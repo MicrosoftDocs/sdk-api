@@ -74,4 +74,4 @@ This function is required in the default CMM. It is optional for all other CMMs.
 ## -see-also
 
 * [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
-* [Functions](dd316902\(v=vs.85\).md)
+* [Functions](/windows/win32/wcs/functions)
