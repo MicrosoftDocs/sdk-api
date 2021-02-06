@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoMotionVectorHeap.GetDesc
 title: ID3D12VideoMotionVectorHeap::GetDesc
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Gets the D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC structure that was passed into ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap when the ID3D12VideoMotionEstimatorHeap was created.
 tech.root: mf

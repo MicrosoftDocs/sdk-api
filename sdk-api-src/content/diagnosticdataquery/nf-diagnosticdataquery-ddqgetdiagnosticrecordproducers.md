@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordProducers
 title: DdqGetDiagnosticRecordProducers
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordProducers
-ms.topic: language-reference
 description: Fetches Diagnostic Data Producers available for a Diagnostic Data Query session.
 ms.localizationpriority: low
 tech.root: security

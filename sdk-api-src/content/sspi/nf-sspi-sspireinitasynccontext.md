@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiReinitAsyncContext
 title: SspiReinitAsyncContext function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Marks an async context for reuse.
 tech.root: security

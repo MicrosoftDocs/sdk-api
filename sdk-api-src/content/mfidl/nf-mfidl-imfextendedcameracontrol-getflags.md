@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFExtendedCameraControl.GetFlags
 title: IMFExtendedCameraControl::GetFlags
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Queries for property flags on the capture device.
 tech.root: mf

@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqCloseSession
 title: DdqCloseSession
 ms.date: 8/19/2019
 ms.keywords: DdqCloseSession
-ms.topic: language-reference
 description: Closes a Diagnostic Data Query session handle.
 ms.localizationpriority: low
 tech.root: security

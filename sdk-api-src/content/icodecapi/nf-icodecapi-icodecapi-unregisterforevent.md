@@ -2,7 +2,6 @@
 UID: NF:icodecapi.ICodecAPI.UnregisterForEvent
 title: ICodecAPI::UnregisterForEvent
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description: The UnregisterForEvent method unregisters the application for a specified encoder event.
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","UnregisterForEvent method","ICodecAPI.UnregisterForEvent","ICodecAPI::UnregisterForEvent","ICodecAPIUnregisterForEvent","UnregisterForEvent","UnregisterForEvent method [DirectShow]","UnregisterForEvent method [DirectShow]","ICodecAPI interface","dshow.icodecapi_unregisterforevent","icodecapi/ICodecAPI::UnregisterForEvent"]

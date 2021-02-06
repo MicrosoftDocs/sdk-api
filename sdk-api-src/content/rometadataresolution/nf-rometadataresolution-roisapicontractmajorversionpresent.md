@@ -3,7 +3,6 @@ UID: NF:rometadataresolution.RoIsApiContractMajorVersionPresent
 title: RoIsApiContractMajorVersionPresent (rometadataresolution.h)
 tech.root: WinRT
 ms.date: 02/13/2020
-ms.topic: language-reference
 targetos: Windows
 description: Returns true or false to indicate whether the API contract with the specified name and major version number is present.
 helpviewer_keywords: ["RoIsApiContractMajorVersionPresent"]

@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.Remove
 title: IMFContentDecryptionModuleSession::Remove
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Removes all licenses and keys associated with the session.
 tech.root: mf

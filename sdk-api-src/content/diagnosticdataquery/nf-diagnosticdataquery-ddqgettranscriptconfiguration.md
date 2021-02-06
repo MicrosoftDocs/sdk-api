@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetTranscriptConfiguration
 title: DdqGetTranscriptConfiguration
 ms.date: 8/19/2019
 ms.keywords: DdqGetTranscriptConfiguration
-ms.topic: language-reference
 description: Gets event transcript configuration, such as maximum storage size and hours of data history.
 ms.localizationpriority: low
 tech.root: security

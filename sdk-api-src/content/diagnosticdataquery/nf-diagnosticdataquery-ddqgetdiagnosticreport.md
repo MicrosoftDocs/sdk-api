@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticReport
 title: DdqGetDiagnosticReport
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticReport
-ms.topic: language-reference
 description: Fetches error reports uploaded or enqueued for upload from this PC via HDIAGNOSTIC_REPORT_DATA handle.
 ms.localizationpriority: low
 tech.root: security

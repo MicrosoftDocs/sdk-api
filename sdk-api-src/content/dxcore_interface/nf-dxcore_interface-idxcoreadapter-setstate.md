@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,SetState method, IDXCoreAdapter.SetState, IDXCoreAdapter::SetState, SetState, SetState method, SetState method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::SetState, dxcore_interface.idxcoreadapterfactory_setstate
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

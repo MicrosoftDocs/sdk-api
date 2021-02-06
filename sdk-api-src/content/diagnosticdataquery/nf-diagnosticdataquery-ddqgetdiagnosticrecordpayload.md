@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordPayload
 title: DdqGetDiagnosticRecordPayload
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordPayload
-ms.topic: language-reference
 description: Fetches the payload text for the event record specified by rowId.
 ms.localizationpriority: low
 tech.root: security

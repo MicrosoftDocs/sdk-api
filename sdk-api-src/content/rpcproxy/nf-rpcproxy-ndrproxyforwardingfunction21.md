@@ -3,7 +3,6 @@ UID: NF:rpcproxy.NdrProxyForwardingFunction21
 title: NdrProxyForwardingFunction21
 tech.root: Rpc
 ms.date: 07/14/2020
-ms.topic: language-reference
 targetos: Windows
 description: Stub function for COM proxies.
 req.assembly: 

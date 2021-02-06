@@ -2,7 +2,6 @@
 UID: NC:gdiplustypes.ImageAbort
 title: ImageAbort
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: \**ImageAbort** is the signature of a callback function that you implement in your application. During the process of creating or retrieving a thumbnail image, or drawing an image, GDI+ calls this function to give you the opportunity to abort the process.
 tech.root: gdiplus

@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT
 title: D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the output parameters for calls to ID3D12VideoEncodeCommandList::EstimateMotion.
 tech.root: mf

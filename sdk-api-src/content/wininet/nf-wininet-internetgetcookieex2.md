@@ -6,7 +6,6 @@ helpviewer_keywords: ["InternetGetCookieEx2","InternetGetCookieEx2 function [Win
 tech.root: wininet
 ms.date: 12/03/2020
 ms.keywords: InternetGetCookieEx2
-ms.topic: language-reference
 targetos: Windows
 product: Windows
 req.assembly: 

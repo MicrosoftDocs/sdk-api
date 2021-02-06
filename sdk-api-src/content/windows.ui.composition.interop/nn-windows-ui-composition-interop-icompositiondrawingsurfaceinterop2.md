@@ -4,7 +4,6 @@ title: interop::ICompositionDrawingSurfaceInterop2
 description: A native interoperation interface that allows you to read back the contents of a composition drawing surface (or a composition virtual drawing surface).
 ms.date: 01/07/2020
 tech.root: winrt
-ms.topic: language-reference
 req.construct-type: iface
 req.header: windows.ui.composition.interop.h
 req.include-header: 

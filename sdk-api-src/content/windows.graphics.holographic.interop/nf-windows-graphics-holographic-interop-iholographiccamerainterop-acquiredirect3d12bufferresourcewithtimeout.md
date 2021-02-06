@@ -4,7 +4,6 @@ title: IHolographicCameraInterop::AcquireDirect3D12BufferResourceWithTimeout
 description: Acquires a Direct3D 12 buffer resource, with an optional timeout.
 tech.root: direct3d12
 ms.date: 12/12/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

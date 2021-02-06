@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.GetConfiguration
 title: IMFContentDecryptionModuleAccess::GetConfiguration
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Returns the supported combination of configuration options.
 tech.root: mf

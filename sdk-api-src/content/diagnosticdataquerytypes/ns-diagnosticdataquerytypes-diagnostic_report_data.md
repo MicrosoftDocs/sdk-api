@@ -3,7 +3,6 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_REPORT_DATA
 title: DIAGNOSTIC_REPORT_DATA
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_REPORT_DATA, DIAGNOSTIC_REPORT_DATA
-ms.topic: language-reference
 description: This resource contains information about a diagnostic report.
 tech.root: security
 targetos: Windows

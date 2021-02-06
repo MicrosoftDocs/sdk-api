@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiInitializeSecurityContextAsyncA
 title: SspiInitializeSecurityContextAsyncA function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Initializes an async security context.
 tech.root: security

@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticReportAtIndex
 title: DdqGetDiagnosticReportAtIndex
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticReportAtIndex
-ms.topic: language-reference
 description: Fetches an error report and its information at the specified index in the resource pointed to by the HDIAGNOSTIC_REPORT_DATA handle.
 ms.localizationpriority: low
 tech.root: security

@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: IDXCoreAdapterFactory, IDXCoreAdapterFactory interface, IDXCoreAdapterFactory interface,description, dxcore/IDXCoreAdapterFactory, dxcore.idxcoreadapterfactory
 ms.localizationpriority: low
-ms.topic: interface
 targetos: Windows
 product: Windows
 req.assembly: 

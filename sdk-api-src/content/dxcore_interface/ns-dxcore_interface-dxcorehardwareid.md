@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: DXCoreHardwareID structure, dxcore_interface.dxcorehardwareid
 ms.localizationpriority: low
-ms.topic: structure
 targetos: Windows
 product: Windows
 req.assembly: 

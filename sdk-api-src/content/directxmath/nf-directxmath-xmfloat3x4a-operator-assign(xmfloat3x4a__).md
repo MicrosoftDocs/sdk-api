@@ -2,7 +2,6 @@
 UID: NF:directxmath.XMFLOAT3X4A.operator-assign(XMFLOAT3X4A&&)
 title: XMFLOAT3X4A::operator=
 ms.date: 11/8/2019
-ms.topic: language-reference
 targetos: Windows
 description: Move assignment operator for **XMFLOAT3X4A**. Moves the argument's vector component data into the current instance of **XMFLOAT3X4A**.
 tech.root: dxmath

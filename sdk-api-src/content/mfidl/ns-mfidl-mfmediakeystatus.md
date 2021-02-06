@@ -2,7 +2,6 @@
 UID: NS:mfidl.MFMediaKeyStatus
 title: MFMediaKeyStatus
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Reporesents the status of a Content Decryption Module (CDM) session key.
 tech.root: mf

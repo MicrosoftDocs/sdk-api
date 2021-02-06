@@ -3,7 +3,6 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
 title: DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION, DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
-ms.topic: language-reference
 description: A resource that describes a tag, defined by the tag's name and its description.
 tech.root: security
 targetos: Windows

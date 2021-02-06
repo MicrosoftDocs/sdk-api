@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqFreeDiagnosticRecordPage
 title: DdqFreeDiagnosticRecordPage
 ms.date: 8/19/2019
 ms.keywords: DdqFreeDiagnosticRecordPage
-ms.topic: language-reference
 description: Frees memory allocated for the diagnostic record page referenced by HDIAGNOSTIC_RECORD handle.
 ms.localizationpriority: low
 tech.root: security

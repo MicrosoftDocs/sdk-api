@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticReportStoreReportCount
 title: DdqGetDiagnosticReportStoreReportCount
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticReportStoreReportCount
-ms.topic: language-reference
 description: Fetches the number (size) of reports stored in the requested store.
 ms.localizationpriority: low
 tech.root: security

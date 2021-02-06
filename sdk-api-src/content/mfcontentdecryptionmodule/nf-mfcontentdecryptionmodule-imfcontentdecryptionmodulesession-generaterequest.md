@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.GenerateRequest
 title: IMFContentDecryptionModuleSession::GenerateRequest
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Generates a license request based on the provided data.
 tech.root: mf

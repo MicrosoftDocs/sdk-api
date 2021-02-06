@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: GetNetworkConnectivityHintForInterface, GetNetworkConnectivityHintForInterface function [IP Helper], netioapi.GetNetworkConnectivityHintForInterface, netioapi/GetNetworkConnectivityHintForInterface
-ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

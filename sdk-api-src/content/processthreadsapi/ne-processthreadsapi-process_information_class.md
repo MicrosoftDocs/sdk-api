@@ -2,7 +2,6 @@
 UID: NE:processthreadsapi._PROCESS_INFORMATION_CLASS
 title: PROCESS_INFORMATION_CLASS
 ms.date: 05/05/2020
-ms.topic: language-reference
 targetos: Windows
 description: Indicates a specific class of process information.
 tech.root: security

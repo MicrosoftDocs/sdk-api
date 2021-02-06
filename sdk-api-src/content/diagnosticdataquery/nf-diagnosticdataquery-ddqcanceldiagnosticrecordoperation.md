@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqCancelDiagnosticRecordOperation
 title: DdqCancelDiagnosticRecordOperation
 ms.date: 8/19/2019
 ms.keywords: DdqCancelDiagnosticRecordOperation
-ms.topic: language-reference
 description: Cancels all outstanding Diagnostic Data Query API internal query operations for this session. This can be called from another thread to interrupt long running Query APIs.
 ms.localizationpriority: low
 tech.root: security

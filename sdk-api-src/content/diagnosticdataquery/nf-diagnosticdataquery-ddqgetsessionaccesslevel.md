@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetSessionAccessLevel
 title: DdqGetSessionAccessLevel
 ms.date: 8/19/2019
 ms.keywords: DdqGetSessionAccessLevel
-ms.topic: language-reference
 description: Returns the data access level of the current Diagnostic Data Query session.
 ms.localizationpriority: low
 tech.root: security

@@ -5,7 +5,6 @@ description: Specifies the type of a per-service directory path.
 tech.root: security
 ms.date: 4/26/2019
 ms.keywords: SERVICE_DIRECTORY_TYPE
-ms.topic: language-reference
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

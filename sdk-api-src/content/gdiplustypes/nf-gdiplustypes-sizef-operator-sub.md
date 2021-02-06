@@ -2,7 +2,6 @@
 UID: NF:gdiplustypes.SizeF.operator-sub
 title: SizeF::operator-
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Subtraction operator for the [**SizeF**](./nl-gdiplustypes-sizef.md) class.
 tech.root: gdiplus

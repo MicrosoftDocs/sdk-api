@@ -2,7 +2,6 @@
 UID: NF:winwlx.WlxDisconnectNotify
 title: WlxDisconnectNotify
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Winlogon calls this function when a Terminal Services network session is disconnected.
 helpviewer_keywords: ["WlxDisconnectNotify"]

@@ -9,7 +9,6 @@ ms.assetid: 45db763e-735d-48ac-a0e4-6e63b5dda7a5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, TF_WRITE_BEHIND, TransmitFile, TransmitFile function [Winsock], _win32_transmitfile_2, winsock.transmitfile_2, winsock/LPFN_TRANSMITFILE, winsock/TransmitFile
-ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

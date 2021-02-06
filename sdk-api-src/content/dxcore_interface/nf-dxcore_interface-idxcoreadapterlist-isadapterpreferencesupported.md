@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,IsAdapterPreferenceSupported method, IDXCoreAdapterFactory.IsAdapterPreferenceSupported, IDXCoreAdapterFactory::IsAdapterPreferenceSupported, IsAdapterPreferenceSupported, IsAdapterPreferenceSupported method, IsAdapterPreferenceSupported method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::IsAdapterPreferenceSupported, dxcore_interface.idxcoreadapterfactory_isadapterpreferencesupported
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

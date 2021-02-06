@@ -2,7 +2,6 @@
 UID: NF:gdiplustypes.PathData.~PathData
 title: PathData::~PathData
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Destructor for the [**PathData**](./nl-gdiplustypes-pathdata.md) class.
 tech.root: gdiplus

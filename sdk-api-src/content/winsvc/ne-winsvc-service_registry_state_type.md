@@ -5,7 +5,6 @@ description: Specifies a state type for a service registry key.
 tech.root: security
 ms.date: 4/26/2019
 ms.keywords: SERVICE_REGISTRY_STATE_TYPE
-ms.topic: language-reference
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

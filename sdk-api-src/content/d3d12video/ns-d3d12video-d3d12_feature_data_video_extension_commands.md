@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS
 title: D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Retrieves the list of video extension commands from the driver.
 tech.root: mf

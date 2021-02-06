@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordLocaleTagCount
 title: DdqGetDiagnosticRecordLocaleTagCount
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordLocaleTagCount
-ms.topic: language-reference
 description: Fetches the number (size) of tags in the resource pointed to by the HDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION handle.
 ms.localizationpriority: low
 tech.root: security

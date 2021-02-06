@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqFreeDiagnosticRecordProducers
 title: DdqFreeDiagnosticRecordProducers
 ms.date: 8/19/2019
 ms.keywords: DdqFreeDiagnosticRecordProducers
-ms.topic: language-reference
 description: Frees memory allocated for the set of producers referenced by HDIAGNOSTIC_EVENT_PRODUCER_DESCRIPTION handle.
 ms.localizationpriority: low
 tech.root: security

@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList.ResolveMotionVectorHeap
 title: ID3D12VideoEncodeCommandList::ResolveMotionVectorHeap
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Translates the motion vector output of the EstimateMotion method from hardware-dependent formats into a consistent format defined by the video motion estimation APIs.
 tech.root: mf

@@ -4,7 +4,6 @@ title: PRJ_EXT_INFO_TYPE (projectedfslib.h)
 description: Specifies extended information types
 tech.root: ProjFS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

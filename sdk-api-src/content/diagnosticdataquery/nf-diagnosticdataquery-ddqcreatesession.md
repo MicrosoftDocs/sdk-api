@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqCreateSession
 title: DdqCreateSession
 ms.date: 8/19/2019
 ms.keywords: DdqCreateSession
-ms.topic: language-reference
 description: Creates a Diagnostic Data Query API session handle to be used to uniquely identify a Diagnostic Data Query session.
 ms.localizationpriority: low
 tech.root: security

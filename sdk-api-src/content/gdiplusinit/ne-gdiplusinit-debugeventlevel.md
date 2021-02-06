@@ -2,7 +2,6 @@
 UID: NE:gdiplusinit.DebugEventLevel
 title: DebugEventLevel
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
 description: Defines constants that specify a debug event level.
 tech.root: gdiplus

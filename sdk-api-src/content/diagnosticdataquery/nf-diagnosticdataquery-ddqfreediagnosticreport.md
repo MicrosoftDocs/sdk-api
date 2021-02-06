@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqFreeDiagnosticReport
 title: DdqFreeDiagnosticReport
 ms.date: 8/19/2019
 ms.keywords: DdqFreeDiagnosticReport
-ms.topic: language-reference
 description: Frees memory allocated for error reports referenced by HDIAGNOSTIC_REPORT_DATA handle.
 ms.localizationpriority: low
 tech.root: security

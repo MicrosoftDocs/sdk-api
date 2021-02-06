@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordCount
 title: DdqGetDiagnosticRecordCount
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordCount
-ms.topic: language-reference
 description: Fetches number (size) of elements in the resource pointed to by the HDIAGNOSTIC_DATA_RECORD handle.
 ms.localizationpriority: low
 tech.root: security

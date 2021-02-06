@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordTagDistribution
 title: DdqGetDiagnosticRecordTagDistribution
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordTagDistribution
-ms.topic: language-reference
 description: Fetches Diagnostic Data Events per privacy tag event distribution statistics based on the specified producer names.
 ms.localizationpriority: low
 tech.root: security

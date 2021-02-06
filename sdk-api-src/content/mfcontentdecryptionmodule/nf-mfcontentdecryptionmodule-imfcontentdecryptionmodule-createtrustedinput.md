@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.CreateTrustedInput
 title: IMFContentDecryptionModule::CreateTrustedInput
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Creates an IMFTrustedInput object that implements the decryption of content.
 tech.root: mf

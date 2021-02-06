@@ -2,7 +2,6 @@
 UID: NN:d3d12video.ID3D12VideoExtensionCommand
 title: ID3D12VideoExtensionCommand
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: A reference counted object representing the video extension command.
 tech.root: mf

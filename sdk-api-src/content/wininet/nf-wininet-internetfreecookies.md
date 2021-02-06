@@ -6,7 +6,6 @@ helpviewer_keywords: ["InternetFreeCookies","InternetFreeCookies function [WinIN
 tech.root: wininet
 ms.date: 12/03/2020
 ms.keywords: InternetFreeCookies
-ms.topic: language-reference
 targetos: Windows
 product: Windows
 req.assembly: 

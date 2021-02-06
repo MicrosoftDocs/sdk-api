@@ -2,7 +2,6 @@
 UID: NF:icodecapi.ICodecAPI.IsModifiable
 title: ICodecAPI::IsModifiable
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description: The IsModifiable method queries whether a codec property can be changed, given the codec's current configuration.
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","IsModifiable method","ICodecAPI.IsModifiable","ICodecAPI::IsModifiable","ICodecAPIIsModifiable","IsModifiable","IsModifiable method [DirectShow]","IsModifiable method [DirectShow]","ICodecAPI interface","dshow.icodecapi_ismodifiable","icodecapi/ICodecAPI::IsModifiable"]

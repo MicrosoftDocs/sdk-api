@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.CreateContentDecryptionModule
 title: IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
 ms.date: 10/15/2020
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf

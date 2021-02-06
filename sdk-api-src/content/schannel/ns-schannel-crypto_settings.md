@@ -2,7 +2,6 @@
 UID: NS:schannel._CRYPTO_SETTINGS
 title: CRYPTO_SETTINGS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Indicates disabled cryptographic settings.
 tech.root: security

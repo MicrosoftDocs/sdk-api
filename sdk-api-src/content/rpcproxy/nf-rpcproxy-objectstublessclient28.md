@@ -3,7 +3,6 @@ UID: NF:rpcproxy.ObjectStublessClient28
 title: ObjectStublessClient28
 tech.root: Rpc
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Stub function for COM proxies.
 req.assembly: 

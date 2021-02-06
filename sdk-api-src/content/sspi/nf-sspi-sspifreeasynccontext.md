@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiFreeAsyncContext
 title: SspiFreeAsyncContext function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Frees up a context created in the call to the SspiCreateAsyncContext function.
 tech.root: security

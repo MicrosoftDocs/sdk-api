@@ -9,7 +9,6 @@ ms.assetid: 84ca7f8d-6a0a-43d6-9970-9c01099eaad4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_UNLOCK_VOLUME, FSCTL_UNLOCK_VOLUME control, FSCTL_UNLOCK_VOLUME control code [Files], _win32_fsctl_unlock_volume, base.fsctl_unlock_volume, fs.fsctl_unlock_volume, winioctl/FSCTL_UNLOCK_VOLUME
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

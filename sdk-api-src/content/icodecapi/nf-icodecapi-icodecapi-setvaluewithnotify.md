@@ -2,7 +2,6 @@
 UID: NF:icodecapi.ICodecAPI.SetValueWithNotify
 title: ICodecAPI::SetValueWithNotify
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description: The SetValueWithNotify method sets a property on a codec and returns a list of other properties that changed as a result.
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetValueWithNotify method","ICodecAPI.SetValueWithNotify","ICodecAPI::SetValueWithNotify","ICodecAPISetValueWithNotify","SetValueWithNotify","SetValueWithNotify method [DirectShow]","SetValueWithNotify method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setvaluewithnotify","icodecapi/ICodecAPI::SetValueWithNotify"]

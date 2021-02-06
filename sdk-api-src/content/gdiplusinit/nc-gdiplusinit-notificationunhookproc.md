@@ -2,7 +2,6 @@
 UID: NC:gdiplusinit.NotificationUnhookProc
 title: NotificationUnhookProc
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
 description: \**NotificationUnhookProc** is the signature of the notification unhook function that [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns in a [**GdiplusStartupOutput**](./ns-gdiplusinit-gdiplusstartupoutput.md) structure.
 tech.root: gdiplus

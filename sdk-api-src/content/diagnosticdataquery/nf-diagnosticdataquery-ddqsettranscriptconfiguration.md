@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqSetTranscriptConfiguration
 title: DdqSetTranscriptConfiguration
 ms.date: 8/19/2019
 ms.keywords: DdqSetTranscriptConfiguration
-ms.topic: language-reference
 description: Sets event transcript configuration, such as maximum storage size and hours of data history. Note that setting the configuration will fail if the user is not elevated.
 ms.localizationpriority: low
 tech.root: security

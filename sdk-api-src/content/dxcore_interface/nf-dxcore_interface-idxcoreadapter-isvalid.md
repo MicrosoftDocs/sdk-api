@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,IsValid method, IDXCoreAdapter.IsValid, IDXCoreAdapter::IsValid, IsValid, IsValid method, IsValid method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::IsValid, dxcore_interface.idxcoreadapterfactory_isvalid
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqExtractDiagnosticReport
 title: DdqExtractDiagnosticReport
 ms.date: 8/19/2019
 ms.keywords: DdqExtractDiagnosticReport
-ms.topic: language-reference
 description: Used for retrieving Windows Error Reporting reports, this API extracts cabs to destination path specified. If the error report does not contain any cabs, no work is performed.
 ms.localizationpriority: low
 tech.root: security

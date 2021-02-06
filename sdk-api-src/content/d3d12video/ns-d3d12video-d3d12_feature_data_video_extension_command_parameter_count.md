@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT
 title: D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Retrieves the supported number of parameters for the specified parameter stage.
 tech.root: mf

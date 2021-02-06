@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: "*PICMP_ERROR_INFO, ICMP_ERROR_INFO [Winsock], ICMP_ERROR_INFO, ICMP_ERROR_INFO structure [Winsock], PICMP_ERROR_INFO, PICMP_ERROR_INFO structure pointer [Winsock], icmp_error_info, icmp_error_info structure [Winsock], ws2ipdef.icmp_error_info, ws2ipdef/PICMP_ERROR_INFO, ws2ipdef/icmp_error_info, ws2ipdef/PICMP_ERROR_INFO, ws2ipdef/icmp_error_info"
-ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: ws2tcpip.h
 req.target-type: Windows

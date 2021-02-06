@@ -2,7 +2,6 @@
 UID: NS:schannel._SCH_CREDENTIALS
 title: SCH_CREDENTIALS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Contains the data for an Schannel credential.
 tech.root: security

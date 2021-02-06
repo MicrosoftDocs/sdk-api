@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/21/2019
 ms.keywords: _NL_NETWORK_CONNECTIVITY_HINT, NL_NETWORK_CONNECTIVITY_HINT
-ms.topic: struct
 req.header: nldef.h
 req.include-header: iphlpapi.h
 req.target-type: Windows

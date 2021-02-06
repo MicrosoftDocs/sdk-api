@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleFactory.IsTypeSupported
 title: IMFContentDecryptionModuleFactory::IsTypeSupported
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Queries whether the specified Key System and, optionally, content type are supported.
 tech.root: mf

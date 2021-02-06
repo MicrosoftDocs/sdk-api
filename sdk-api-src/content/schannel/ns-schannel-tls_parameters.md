@@ -2,7 +2,6 @@
 UID: NS:schannel._TLS_PARAMETERS
 title: TLS_PARAMETERS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Indicates TLS parameter restrictions.
 tech.root: security

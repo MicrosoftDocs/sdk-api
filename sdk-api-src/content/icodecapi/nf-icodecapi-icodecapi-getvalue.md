@@ -2,7 +2,6 @@
 UID: NF:icodecapi.ICodecAPI.GetValue
 title: ICodecAPI::GetValue
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description: 
 helpviewer_keywords: ["GetValue","GetValue method [DirectShow]","GetValue method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetValue method","ICodecAPI.GetValue","ICodecAPI::GetValue","ICodecAPIGetValue","dshow.icodecapi_getvalue","icodecapi/ICodecAPI::GetValue"]

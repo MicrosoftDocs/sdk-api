@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
 title: D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes a ID3D12VideoMotionEstimatorHeap. Pass this structure into ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap to create an instance of ID3D12VideoMotionEstimatorHeap.
 tech.root: mf

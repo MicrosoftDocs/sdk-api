@@ -3,7 +3,6 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_EVENT_BINARY_STATS
 title: DIAGNOSTIC_DATA_EVENT_BINARY_STATS
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_BINARY_STATS, DIAGNOSTIC_DATA_EVENT_BINARY_STATS
-ms.topic: language-reference
 description: A resource that describes this binary and the amount of diagnostic data it has sent.
 tech.root: security
 targetos: Windows

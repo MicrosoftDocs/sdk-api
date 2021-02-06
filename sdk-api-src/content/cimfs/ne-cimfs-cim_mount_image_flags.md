@@ -5,7 +5,6 @@ ms.date: 9/9/2019
 ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CIM_MOUNT_IMAGE_FLAGS
-ms.topic: language-reference
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

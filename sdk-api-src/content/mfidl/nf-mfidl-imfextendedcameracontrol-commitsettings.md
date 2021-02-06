@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFExtendedCameraControl.CommitSettings
 title: IMFExtendedCameraControl::CommitSettings
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Commits the configured control settings to the camera driver.
 tech.root: mf

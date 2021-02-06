@@ -2,7 +2,6 @@
 UID: NE:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE
 title: D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the types of parameters for video extension commands.
 tech.root: mf

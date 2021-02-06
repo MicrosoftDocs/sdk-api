@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFRelativePanelWatcher.BeginGetReport
 title: IMFRelativePanelWatcher::BeginGetReport
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Begins an asynchronous request to get an IMFRelativePanelReport interface that represents the relative panel location.
 tech.root: mf

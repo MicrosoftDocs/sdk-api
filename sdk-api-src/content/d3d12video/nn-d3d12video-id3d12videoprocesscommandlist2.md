@@ -2,7 +2,6 @@
 UID: NN:d3d12video.ID3D12VideoProcessCommandList2
 title: ID3D12VideoProcessCommandList2
 ms.date: 10/19/2020
-ms.topic: language-reference
 targetos: Windows
 description: Adds support for video extension commands.
 tech.root: mf

@@ -9,7 +9,6 @@ ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
 ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
-ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -2,7 +2,6 @@
 UID: NF:icodecapi.ICodecAPI.SetAllDefaults
 title: ICodecAPI::SetAllDefaults
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description: The SetAllDefaults method resets all codec properties to their default values.
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllDefaults method","ICodecAPI.SetAllDefaults","ICodecAPI::SetAllDefaults","ICodecAPISetAllDefaults","SetAllDefaults","SetAllDefaults method [DirectShow]","SetAllDefaults method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setalldefaults","icodecapi/ICodecAPI::SetAllDefaults"]

@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordProducerAtIndex
 title: DdqGetDiagnosticRecordProducerAtIndex
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordProducerAtIndex
-ms.topic: language-reference
 description: Fetches the description of a producer at the specified index in the resource pointed to by the HDIAGNOSTIC_EVENT_PRODUCER_DESCRIPTION handle.
 ms.localizationpriority: low
 tech.root: security

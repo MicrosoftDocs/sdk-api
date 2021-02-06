@@ -2,7 +2,6 @@
 UID: NN:mfidl.IMFRelativePanelWatcher
 title: IMFRelativePanelWatcher
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Monitors the panel associated with a display, so that the app receives notifications when the relative location of the panel changes.
 tech.root: mf

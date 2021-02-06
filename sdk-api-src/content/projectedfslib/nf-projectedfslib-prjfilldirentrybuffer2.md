@@ -4,7 +4,6 @@ title: PrjFillDirEntryBuffer2 function (projectedfslib.h)
 description: Provides information for one file or directory to an enumeration and allows the caller to specify extended information.
 tech.root: projfs
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -3,7 +3,6 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_SEARCH_CRITERIA
 title: DIAGNOSTIC_DATA_SEARCH_CRITERIA
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_SEARCH_CRITERIA, DIAGNOSTIC_DATA_SEARCH_CRITERIA
-ms.topic: language-reference
 description: This resource contains details of the search criteria when fetching a diagnostic data record.
 tech.root: security
 targetos: Windows

@@ -2,7 +2,6 @@
 UID: NF:sysinfoapi.IsUserCetAvailableInEnvironment
 title: IsUserCetAvailableInEnvironment
 ms.date: 4/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: Queries whether user-mode Hardware-enforced Stack Protection is available for the specified environment.
 req.assembly: 

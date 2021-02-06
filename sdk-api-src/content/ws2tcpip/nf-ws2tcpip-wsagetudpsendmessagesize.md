@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.author: windowssdkdev
 ms.date: 10/01/2019
 ms.keywords: WSAGetUdpSendMessageSize, WSAGetUdpSendMessageSize function [Winsock], winsock.wsagetudpsendmessagesize, ws2tcpip/WSAGetUdpSendMessageSize
-ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

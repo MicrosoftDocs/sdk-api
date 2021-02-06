@@ -3,7 +3,6 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_EVENT_TAG_STATS
 title: DIAGNOSTIC_DATA_EVENT_TAG_STATS
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TAG_STATS, DIAGNOSTIC_DATA_EVENT_TAG_STATS
-ms.topic: language-reference
 description: A resource that includes a privacy tag and how many events have this privacy tag.
 tech.root: security
 targetos: Windows

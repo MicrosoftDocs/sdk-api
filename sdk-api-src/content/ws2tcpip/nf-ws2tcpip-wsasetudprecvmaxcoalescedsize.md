@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.author: windowssdkdev
 ms.date: 10/01/2019
 ms.keywords: WSASetUdpRecvMaxCoalescedSize, WSASetUdpRecvMaxCoalescedSize function [Winsock], winsock.wsasetudprecvmaxcoalescedsize, ws2tcpip/WSASetUdpRecvMaxCoalescedSize
-ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

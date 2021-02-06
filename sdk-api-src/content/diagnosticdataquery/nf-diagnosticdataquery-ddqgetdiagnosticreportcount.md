@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticReportCount
 title: DdqGetDiagnosticReportCount
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticReportCount
-ms.topic: language-reference
 description: Fetches the number (size) of error reports in the resource pointed to by HDIAGNOSTIC_REPORT_DATA handle.
 ms.localizationpriority: low
 tech.root: security

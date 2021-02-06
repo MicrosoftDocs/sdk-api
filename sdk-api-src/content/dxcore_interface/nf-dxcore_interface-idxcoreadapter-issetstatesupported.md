@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/17/2019
 ms.keywords: IDXCoreAdapter interface,IsSetStateSupported method, IDXCoreAdapter.IsSetStateSupported, IDXCoreAdapter::IsSetStateSupported, IsSetStateSupported, IsSetStateSupported method, IsSetStateSupported method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::IsSetStateSupported, dxcore_interface.idxcoreadapterfactory_issetstatesupported
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

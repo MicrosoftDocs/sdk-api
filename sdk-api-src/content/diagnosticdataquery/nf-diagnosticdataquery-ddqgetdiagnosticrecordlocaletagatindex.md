@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordLocaleTagAtIndex
 title: DdqGetDiagnosticRecordLocaleTagAtIndex
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordLocaleTagAtIndex
-ms.topic: language-reference
 description: Fetches tag description at the specified index in the resource pointed to by the HDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION handle.
 ms.localizationpriority: low
 tech.root: security

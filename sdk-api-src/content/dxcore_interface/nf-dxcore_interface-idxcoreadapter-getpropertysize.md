@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,GetPropertySize method, IDXCoreAdapter.GetPropertySize, IDXCoreAdapter::GetPropertySize, GetPropertySize, GetPropertySize method, GetPropertySize method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::GetPropertySize, dxcore_interface.idxcoreadapterfactory_getpropertysize
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

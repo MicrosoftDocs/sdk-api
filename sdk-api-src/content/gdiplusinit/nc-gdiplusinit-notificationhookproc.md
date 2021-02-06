@@ -2,7 +2,6 @@
 UID: NC:gdiplusinit.NotificationHookProc
 title: NotificationHookProc
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
 description: \**NotificationHookProc** is the signature of the notification hook function that [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns in a [**GdiplusStartupOutput**](./ns-gdiplusinit-gdiplusstartupoutput.md) structure.
 tech.root: gdiplus

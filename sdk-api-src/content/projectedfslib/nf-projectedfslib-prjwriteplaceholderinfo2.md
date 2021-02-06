@@ -2,7 +2,6 @@
 UID: NF:projectedfslib.PrjWritePlaceholderInfo2
 title: PrjWritePlaceholderInfo2 function (projectedfslib.h)
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Sends file or directory metadata to ProjFS and allows the caller to specify extended information.
 tech.root: projfs

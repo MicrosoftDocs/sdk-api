@@ -2,7 +2,6 @@
 UID: NS:mfobjects._MFPaletteEntry
 title: MFPaletteEntry
 ms.date: 10/16/2020
-ms.topic: language-reference
 targetos: Windows
 helpviewer_keywords: ["MFPaletteEntry","mfobjects/MFPaletteEntry"]
 description: Contains one palette entry in a color table.

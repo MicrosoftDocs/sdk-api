@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticDataAccessLevelAllowed
 title: DdqGetDiagnosticDataAccessLevelAllowed
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticDataAccessLevelAllowed
-ms.topic: language-reference
 description: Returns the highest available data access level for the API caller. This can be NoData, CurrentUserData or AllUserData.
 ms.localizationpriority: low
 tech.root: security

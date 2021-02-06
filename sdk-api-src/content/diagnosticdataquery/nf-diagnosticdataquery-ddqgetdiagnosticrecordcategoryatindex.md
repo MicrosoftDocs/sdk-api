@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordCategoryAtIndex
 title: DdqGetDiagnosticRecordCategoryAtIndex
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordCategoryAtIndex
-ms.topic: language-reference
 description: Fetches a diagnostic record category at the specified index in the resource pointed to by the HDIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION handle.
 ms.localizationpriority: low
 tech.root: security

@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: PFN_DXCORE_NOTIFICATION_CALLBACK, dxcore_interface.pfn_dxcore_notification_callback
 ms.localizationpriority: low
-ms.topic: callback
 targetos: Windows
 product: Windows
 req.assembly: 

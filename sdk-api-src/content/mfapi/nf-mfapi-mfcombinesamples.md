@@ -2,7 +2,6 @@
 UID: NF:mfapi.MFCombineSamples
 title: MFCombineSamples
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Concatenates a media sample onto another sample if their combined duration does not exceed the specified duration.
 tech.root: mf

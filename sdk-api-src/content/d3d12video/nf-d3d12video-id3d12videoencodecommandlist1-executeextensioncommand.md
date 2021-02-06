@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList1.ExecuteExtensionCommand
 title: ID3D12VideoEncodeCommandList1::ExecuteExtensionCommand
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Records a command to execute a video extension command into an encode command list.
 tech.root: mf

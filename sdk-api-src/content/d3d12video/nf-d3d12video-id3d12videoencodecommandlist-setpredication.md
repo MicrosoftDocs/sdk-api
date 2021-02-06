@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList.SetPredication
 title: ID3D12VideoEncodeCommandList::SetPredication
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies that subsequent commands should not be performed if the predicate value passes the specified operation.
 tech.root: mf

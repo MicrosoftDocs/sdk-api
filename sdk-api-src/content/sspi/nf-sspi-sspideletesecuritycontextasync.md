@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiDeleteSecurityContextAsync
 title: SspiDeleteSecurityContextAsync function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Deletes the local data structures associated with the specified security context initiated by a previous call to the SspiInitializeSecurityContextAsync function or the SspiAcceptSecurityContextAsync function.
 tech.root: security

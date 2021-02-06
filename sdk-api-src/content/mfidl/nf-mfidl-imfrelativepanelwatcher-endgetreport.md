@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFRelativePanelWatcher.EndGetReport
 title: IMFRelativePanelWatcher::EndGetReport
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Ends an asynchronous request to get an IMFRelativePanelReport interface that represents the relative panel location.
 tech.root: mf

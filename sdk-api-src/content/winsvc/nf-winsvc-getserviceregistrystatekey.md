@@ -5,7 +5,6 @@ description: Returns a handle for a registry key for a service to read and/or wr
 tech.root: security
 ms.date: 4/26/2019
 ms.keywords: GetServiceRegistryStateKey
-ms.topic: language-reference
 targetos: Windows
 product: Windows
 req.assembly: 

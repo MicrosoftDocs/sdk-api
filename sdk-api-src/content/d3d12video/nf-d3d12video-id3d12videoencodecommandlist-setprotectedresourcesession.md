@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList.SetProtectedResourceSession
 title: ID3D12VideoEncodeCommandList::SetProtectedResourceSession
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies whether or not protected resources can be accessed by subsequent commands in the video encode command list.
 tech.root: mf

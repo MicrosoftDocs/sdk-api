@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordBinaryDistribution
 title: DdqGetDiagnosticRecordBinaryDistribution
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordBinaryDistribution
-ms.topic: language-reference
 description: Fetches binary name and associated estimated total upload of Diagnostic Data Events volume in bytes for top N noisiest binaries based on total estimated upload size, where N is the value passed in for topNBinaries.
 ms.localizationpriority: low
 tech.root: security

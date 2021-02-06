@@ -2,7 +2,6 @@
 UID: NF:gdiplusinit.GdiplusStartupInput.GdiplusStartupInput
 title: GdiplusStartupInput::GdiplusStartupInput
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
 description: Constructor for the [**GdiplusStartupInput**]() structure.
 tech.root: gdiplus

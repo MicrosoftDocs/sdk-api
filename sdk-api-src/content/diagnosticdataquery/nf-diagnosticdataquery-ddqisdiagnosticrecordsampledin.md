@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqIsDiagnosticRecordSampledIn
 title: DdqIsDiagnosticRecordSampledIn
 ms.date: 8/19/2019
 ms.keywords: DdqIsDiagnosticRecordSampledIn
-ms.topic: language-reference
 description: Fetches the sampled-in state of the device for an event.
 ms.localizationpriority: low
 tech.root: security

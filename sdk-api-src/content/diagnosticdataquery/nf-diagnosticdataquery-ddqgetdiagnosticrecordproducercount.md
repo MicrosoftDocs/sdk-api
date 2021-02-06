@@ -3,7 +3,6 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordProducerCount
 title: DdqGetDiagnosticRecordProducerCount
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordProducerCount
-ms.topic: language-reference
 description: Fetches the number (size) of producers in the resource pointed to by the HDIAGNOSTIC_EVENT_PRODUCER_DESCRIPTION.
 ms.localizationpriority: low
 tech.root: security
