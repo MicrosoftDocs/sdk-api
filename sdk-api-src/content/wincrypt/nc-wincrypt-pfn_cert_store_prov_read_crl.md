@@ -71,7 +71,7 @@ A pointer to the
 
 Reserved for future use and is set to zero.
 
-### -param *ppProvCrlContext [out]
+### -param ppProvCrlContext [out]
 
 A pointer to a pointer to provider's copy of the CRL context. The context will be freed by calling 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.

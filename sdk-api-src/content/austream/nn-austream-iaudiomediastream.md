@@ -69,43 +69,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioMediaStream</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioMediaStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-iaudiomediastream-createsample">CreateSample</a>
-</td>
-<td align="left" width="63%">
-Creates an audio stream sample for use with this stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-iaudiomediastream-getformat">GetFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the stream data's current format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-iaudiomediastream-setformat">SetFormat</a>
-</td>
-<td align="left" width="63%">
-Sets the format for the stream.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>

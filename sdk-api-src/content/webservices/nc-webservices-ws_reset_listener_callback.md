@@ -55,12 +55,12 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wsresetlist
 
 ## -parameters
 
-### -param *listenerInstance [in]
+### -param listenerInstance [in]
 
 The pointer to the state specific to this listener instance,
                     as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_listener_callback">WS_CREATE_LISTENER_CALLBACK</a>.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

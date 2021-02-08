@@ -60,61 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeReader</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAMTimecodeReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-get_vitcline">get_VITCLine</a>
-</td>
-<td align="left" width="63%">
-Retrieves the vertical interval line that the timecode reader is using to read timecode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettcrmode">GetTCRMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves properties of the timecode reader.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettimecode">GetTimecode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the most recent timecode, userbits, and flag values available in the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-put_vitcline">put_VITCLine</a>
-</td>
-<td align="left" width="63%">
-Specifies the vertical interval line that the timecode reader will use to read timecode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">SetTCRMode</a>
-</td>
-<td align="left" width="63%">
-Sets the timecode reader properties.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 For Windows Driver Model (WDM) devices, the <a href="/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the PROPSETID_TIMECODE_READER property set. For more information, see the <a href="/windows-hardware/drivers/gettingstarted/">Windows Driver Kit (WDK)</a> documentation.

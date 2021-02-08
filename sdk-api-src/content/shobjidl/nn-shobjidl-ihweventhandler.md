@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHWEventHandler</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IHWEventHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleevent">HandleEvent</a>
-</td>
-<td align="left" width="63%">
-Handles AutoPlay device events for which there is no content of the type the application is registered to handle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleeventwithcontent">HandleEventWithContent</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes an object that contains an implementation of the <b>IHWEventHandler</b> interface.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Developers supporting this interface must expose it in a Component Object Model (COM) server.

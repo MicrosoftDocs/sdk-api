@@ -63,45 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRealTimeClientEx</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFRealTimeClientEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-registerthreadsex">RegisterThreadsEx</a>
-</td>
-<td align="left" width="63%">
-Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-setworkqueueex">SetWorkQueueEx</a>
-</td>
-<td align="left" width="63%">
-Specifies the work queue that this object should use for asynchronous work items. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-unregisterthreads">UnregisterThreads</a>
-</td>
-<td align="left" width="63%">
-Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
-
-
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

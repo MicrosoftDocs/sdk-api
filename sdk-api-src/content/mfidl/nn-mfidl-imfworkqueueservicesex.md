@@ -59,54 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFWorkQueueServicesEx</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFWorkQueueServicesEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex">BeginRegisterPlatformWorkQueueWithMMCSSEx</a>
-</td>
-<td align="left" width="63%">
-Registers a platform work queue with Multimedia Class Scheduler Service (MMCSS) using the specified
-    class and task id.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-getplatformworkqueuemmcsspriority">GetPlatformWorkQueueMMCSSPriority</a>
-</td>
-<td align="left" width="63%">
-Gets the priority of the Multimedia Class Scheduler Service (MMCSS)  priority associated with
-    the specified platform work queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-gettopologyworkqueuemmcsspriority">GetTopologyWorkQueueMMCSSPriority</a>
-</td>
-<td align="left" width="63%">
-Retrieves the Multimedia Class Scheduler Service (MMCSS)  string associated with the given topology work queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/imfworkqueueservicesex-remotebeginregisterplatformworkqueuewithmmcssex">RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx</a>
-</td>
-<td align="left" width="63%">
-Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex">IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx</a>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface allows applications to control

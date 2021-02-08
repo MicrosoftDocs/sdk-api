@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartmentMgr</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfCompartmentMgr</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ClearCompartment</a>
-</td>
-<td align="left" width="63%">
-Removes the specified compartment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-enumcompartments">EnumCompartments</a>
-</td>
-<td align="left" width="63%">
-Obtains an enumerator that contains the GUID of each compartment within the compartment manager.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-getcompartment">GetCompartment</a>
-</td>
-<td align="left" width="63%">
-Obtains the compartment object for a specified compartment.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The set of compartments that this interface is responsible for depends upon how the interface was obtained. An instance of this interface can be obtained in one of the following ways. For more information, see <a href="/windows/desktop/TSF/compartments">Compartments</a>.

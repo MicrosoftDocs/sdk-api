@@ -51,14 +51,6 @@ api_name:
 
 Enables interoperability with a Univeral Windows Platform (UWP) [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and provides access to **HolographicSpace** members for representing a holographic scene.
 
-## -members
-
-The **ISpatialInteractionManagerInterop** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[CreateForWindow](nf-holographicspaceinterop-iholographicspaceinterop-createforwindow.md)|Instantiates a [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and binds it to the current application.|
-
 ## -see-also
 
 * [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace)

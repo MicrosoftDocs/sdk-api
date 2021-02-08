@@ -62,52 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRVideoStreamControl</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVMRVideoStreamControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrvideostreamcontrol-getcolorkey">GetColorKey</a>
-</td>
-<td align="left" width="63%">
-Retrieves the source color key currently set for this stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrvideostreamcontrol-getstreamactivestate">GetStreamActiveState</a>
-</td>
-<td align="left" width="63%">
-Retrieves the state of the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrvideostreamcontrol-setcolorkey">SetColorKey</a>
-</td>
-<td align="left" width="63%">
-Sets the source color key that the VMR will use when compositing the video image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrvideostreamcontrol-setstreamactivestate">SetStreamActiveState</a>
-</td>
-<td align="left" width="63%">
-Activates or inactivates an input stream.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

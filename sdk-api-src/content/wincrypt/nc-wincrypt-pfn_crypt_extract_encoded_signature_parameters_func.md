@@ -74,7 +74,7 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorith
 
 A pointer to an address for the decoded and allocated signature parameters data structure. Returning the decoded buffer is optional.
 
-### -param *ppwszCNGHashAlgid [out]
+### -param ppwszCNGHashAlgid [out]
 
 A pointer to an address for the allocated Unicode string that represents the CNG hash algorithm identifier extracted from the encoded signature parameters. If this function returns <b>TRUE</b>, a non-<b>NULL</b> pointer must be returned.
 

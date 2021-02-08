@@ -65,43 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnReconversion</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfFnReconversion</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-getreconversion">GetReconversion</a>
-</td>
-<td align="left" width="63%">
-Obtains an ITfCandidateList object for a range of text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-queryrange">QueryRange</a>
-</td>
-<td align="left" width="63%">
-Obtains the range of text that the reconversion applies to.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-reconvert">Reconvert</a>
-</td>
-<td align="left" width="63%">
-Invokes the reconversion process for a range of text.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 When a text service must interpret text before it is inserted into a context, there might be more than one possible interpretation of the text. Speech input is an example of this. If the spoken word is "there", other possible interpretations might be "their" or "they're". The text service will insert the most appropriate text, but there is still some chance of error involved. Text reconversion is the process of allowing the user to select alternate text for the inserted text.

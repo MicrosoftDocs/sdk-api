@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqPlatformEvents</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRtwqPlatformEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-initializationcomplete">InitializationComplete</a>
-</td>
-<td align="left" width="63%">
-Called after the platform has been initialized.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdowncomplete">ShutdownComplete</a>
-</td>
-<td align="left" width="63%">
-Called after the platform has  shutdown. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdownstart">ShutdownStart</a>
-</td>
-<td align="left" width="63%">
-Called before the platform is about to shutdown. 
-
-</td>
-</tr>
-</table>

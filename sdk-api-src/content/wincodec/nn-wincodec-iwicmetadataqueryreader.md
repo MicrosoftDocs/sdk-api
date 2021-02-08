@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataQueryReader</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICMetadataQueryReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getcontainerformat">GetContainerFormat</a>
-</td>
-<td align="left" width="63%">
-Gets the metadata query readers container format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getenumerator">GetEnumerator</a>
-</td>
-<td align="left" width="63%">
-Gets an enumerator of all metadata items at the current relative location within the metadata hierarchy.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getlocation">GetLocation</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current path relative to the root metadata block.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getmetadatabyname">GetMetadataByName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the metadata block or item identified by a metadata query expression. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A metadata query reader uses metadata query expressions to access embedded metadata. For more information on the metadata query language, see the <a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.

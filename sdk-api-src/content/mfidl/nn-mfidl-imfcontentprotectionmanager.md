@@ -62,52 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFContentProtectionManager</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFContentProtectionManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent">BeginEnableContent</a>
-</td>
-<td align="left" width="63%">
-Begins an asynchronous request to perform a content enabling action.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-endenablecontent">EndEnableContent</a>
-</td>
-<td align="left" width="63%">
-Ends an asynchronous request to perform a content enabling action.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/remotebeginenablecontent">RemoteBeginEnableContent</a>
-</td>
-<td align="left" width="63%">
-Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent">BeginEnableContent</a>. (Not used by applications.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/remoteendenablecontent">RemoteEndEnableContent</a>
-</td>
-<td align="left" width="63%">
-Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-endenablecontent">EndEnableContent</a>. (Not used by applications.)
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A <i>content enabler</i> is an object that performs some action that is required to play a piece of protected content. For example, the action might be obtaining a DRM license. Content enablers expose the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a> interface, which defines a generic mechanism for content enabler. Content enablers are created inside the protected media path (PMP) process. However, they must be invoked from the application process. Therefore, the <b>IMFContentProtectionManager</b> interface provides a way for the PMP Media Session to notify the application.

@@ -54,7 +54,7 @@ The <b>CRYPT_ENUM_KEYID_PROP</b> callback function  is used with the <a href="/w
 
 ## -parameters
 
-### -param *pKeyIdentifier [in]
+### -param pKeyIdentifier [in]
 
 A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> that contains the key identifier.
 
@@ -62,11 +62,11 @@ A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.
 
 Reserved for future use and must be zero.
 
-### -param *pvReserved [in]
+### -param pvReserved [in]
 
 Reserved for future use. Must be <b>NULL</b>.
 
-### -param *pvArg [in, out]
+### -param pvArg [in, out]
 
 A pointer to an argument that is passed back from the callback function.
 
@@ -74,7 +74,7 @@ A pointer to an argument that is passed back from the callback function.
 
 Count of elements in the array of <i>rgdwPropId</i>
 
-### -param *rgdwPropId [in]
+### -param rgdwPropId [in]
 
 A pointer to an array of property identifiers. Each entry in the array will be one of the value types listed for in the table for <i>dwPropId</i> in the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a> function.
 
@@ -88,7 +88,7 @@ A pointer to an array that contains pointers to <i>pvData</i> elements correspon
 
 For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
 
-### -param *rgcbData [in]
+### -param rgcbData [in]
 
 Array of <b>DWORD</b>s that specify the size, in bytes, of corresponding elements in the <i>rgpvData</i> array.
 

@@ -60,43 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITravelEntry</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITravelEntry</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-getpidl">GetPidl</a>
-</td>
-<td align="left" width="63%">
-Deprecated. Gets the PIDL associated with the travel entry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-invoke">Invoke</a>
-</td>
-<td align="left" width="63%">
-Deprecated. Invokes the travel entry, navigating to that page.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-update">Update</a>
-</td>
-<td align="left" width="63%">
-Deprecated. Updates the travel entry.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Travel entries represented by <b>ITravelEntry</b> are created and maintained internally by the travel log (<a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>). Calling applications rarely use <b>ITravelEntry</b> directly.

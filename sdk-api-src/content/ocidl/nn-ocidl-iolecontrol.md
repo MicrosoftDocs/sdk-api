@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleControl</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOleControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-freezeevents">FreezeEvents</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the container is ignoring or accepting events from the control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">GetControlInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the control's keyboard mnemonics and behavior.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-onambientpropertychange">OnAmbientPropertyChange</a>
-</td>
-<td align="left" width="63%">
-Informs a control that one or more of the container's ambient properties has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-onmnemonic">OnMnemonic</a>
-</td>
-<td align="left" width="63%">
-Informs a control that the user has pressed a keystroke that represents a keyboard mneumonic.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>

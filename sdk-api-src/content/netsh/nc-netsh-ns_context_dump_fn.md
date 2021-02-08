@@ -63,7 +63,7 @@ The <b>NS_CONTEXT_DUMP_FN</b> command
 The computer on which to perform the command, or null if the command applies to the local computer. The 
       default value is null.
 
-### -param *ppwcArguments [in]
+### -param ppwcArguments [in]
 
 An array of command arguments. <i>ppwcArguments</i>[0] equates to "dump".
 

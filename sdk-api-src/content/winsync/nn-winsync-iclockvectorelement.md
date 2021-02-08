@@ -59,36 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClockVectorElement</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IClockVectorElement</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvectorelement-getreplicakey">GetReplicaKey</a>
-</td>
-<td align="left" width="63%">
-Gets the replica key for the replica that is associated with this clock vector element.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvectorelement-gettickcount">GetTickCount</a>
-</td>
-<td align="left" width="63%">
-Gets the tick count that defines the upper bound on the range of tick counts that are contained in this clock vector element.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The clock vector elements of a clock vector represent the changes that are contained in a knowledge structure. A change that is made by a particular replica is defined to be contained in the knowledge when the tick count for the change occurs between zero and the tick count contained in the <b>IClockVectorElement</b> that tracks that replica.

@@ -59,45 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerServices</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMPPlayerServices</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-activateuiplugin">activateUIPlugin</a>
-</td>
-<td align="left" width="63%">
-Activates the specified user interface (UI) plug-in in the full mode of Windows Media Player.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpane">setTaskPane</a>
-</td>
-<td align="left" width="63%">
-Displays the specified task pane in the full mode of Windows Media Player.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpaneurl">setTaskPaneURL (deprecated)</a>
-</td>
-<td align="left" width="63%">
-Displays the specified URL in the specified task pane of the full mode of Windows Media Player.
-
-</td>
-</tr>
-</table> 
-
-Retrieve a pointer to an <b>IWMPPlayerServices</b> interface by calling the COM <b>CoCreateInstance</b> method.
-
 ## -see-also
 
 <a href="/windows/desktop/WMP/interfaces">Interfaces</a>

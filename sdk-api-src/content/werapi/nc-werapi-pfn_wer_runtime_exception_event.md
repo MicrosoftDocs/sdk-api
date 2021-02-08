@@ -64,7 +64,7 @@ A pointer to arbitrary context information that you specified when you called th
 
 A <a href="/windows/desktop/api/werapi/ns-werapi-wer_runtime_exception_information">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information. Use the information to determine whether you want to claim the crash.
 
-### -param *pbOwnershipClaimed [out]
+### -param pbOwnershipClaimed [out]
 
 Set to <b>TRUE</b> if the exception handler is claiming this crash; otherwise, <b>FALSE</b>. If you set this parameter to <b>FALSE</b>, do not set the rest of the out parameters.
 

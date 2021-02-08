@@ -56,11 +56,11 @@ The <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> function returns a handle to a <a href
 
 ## -parameters
 
-### -param *pPrivateKeyInfo [in]
+### -param pPrivateKeyInfo [in]
 
 A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a> structure that describes the key being imported.
 
-### -param *phCryptProv [out]
+### -param phCryptProv [out]
 
 A pointer to the  <a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a>   to receive the CSP.
 

@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageStore</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IShellImageStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes the image cache.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-commit">Commit</a>
-</td>
-<td align="left" width="63%">
-Writes the contents specified by <i>pdwLoc</i> to storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-getentry">GetEntry</a>
-</td>
-<td align="left" width="63%">
-Gets a handle to an image in the cache.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-isentryinstore">IsEntryInStore</a>
-</td>
-<td align="left" width="63%">
-Checks to see if the image is in the store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-open">Open</a>
-</td>
-<td align="left" width="63%">
-Opens the storage and returns a lock.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <div class="alert"><b>Note</b>  <b>IShellImageStore</b> is supported through Windows XP. It is not supported in later operating systems.</div>

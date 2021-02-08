@@ -61,62 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteRenderingParams</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getcleartypelevel">GetClearTypeLevel</a>
-</td>
-<td align="left" width="63%">
-Gets the ClearType level of the rendering parameters object. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getenhancedcontrast">GetEnhancedContrast</a>
-</td>
-<td align="left" width="63%">
-Gets the enhanced contrast property of the rendering parameters object. Valid values are greater than or equal to zero.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getgamma">GetGamma</a>
-</td>
-<td align="left" width="63%">
-Gets the gamma value used for gamma correction. Valid values must be
-     greater than zero and cannot exceed 256.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getpixelgeometry">GetPixelGeometry</a>
-</td>
-<td align="left" width="63%">
-Gets the pixel geometry of the rendering parameters object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getrenderingmode">GetRenderingMode</a>
-</td>
-<td align="left" width="63%">
-Gets the rendering mode of the rendering parameters object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a>

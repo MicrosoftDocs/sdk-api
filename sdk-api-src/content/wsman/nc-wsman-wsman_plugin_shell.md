@@ -60,7 +60,7 @@ The DLL entry point name must be <b>WSManPluginShell</b>.
 
 Specifies the context that was returned by a call to the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_startup">WSManPluginStartup</a> method. This parameter represents a specific application initialization of a WinRM plug-in.
 
-### -param *requestDetails
+### -param requestDetails
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
@@ -68,11 +68,11 @@ A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request
 
 Reserved for future use. Must be set to zero.
 
-### -param *startupInfo
+### -param startupInfo
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_shell_startup_info_v10">WSMAN_SHELL_STARTUP_INFO</a> structure that contains startup information for the shell.
 
-### -param *inboundShellInformation
+### -param inboundShellInformation
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies an optional inbound object that contains extra data for the shell.
 

@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActivateAudioInterfaceAsyncO
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IActivateAudioInterfaceAsyncOperation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-iactivateaudiointerfaceasyncoperation-getactivateresult">GetActivateResult</a>
-</td>
-<td align="left" width="63%">
-Gets the results of an asynchronous activation of a <a href="/windows/desktop/CoreAudio/wasapi">WASAPI</a> interface initiated by an application calling the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a> function.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>When to implement:</b>  

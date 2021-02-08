@@ -63,25 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMNotification</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMDMNotification</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmnotification-wmdmmessage">WMDMMessage</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Device Manager when a device or storage medium is connected or removed.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>

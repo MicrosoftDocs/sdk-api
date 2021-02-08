@@ -59,21 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationAgent</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IInstallationAgent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationagent-recordinstallationresult">RecordInstallationResult</a>
-</td>
-<td align="left" width="63%">
-Records the result for an update. The result is specified by an <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> object.
-
-</td>
-</tr>
-</table>

@@ -60,61 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDXGIDevice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-createsurface">CreateSurface</a>
-</td>
-<td align="left" width="63%">
-Returns a surface. This method is used internally and you should not call it directly in your application.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getadapter">GetAdapter</a>
-</td>
-<td align="left" width="63%">
-Returns the adapter for the specified device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getgputhreadpriority">GetGPUThreadPriority</a>
-</td>
-<td align="left" width="63%">
-Gets the GPU thread priority.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-queryresourceresidency">QueryResourceResidency</a>
-</td>
-<td align="left" width="63%">
-Gets the residency status of an array of resources.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-setgputhreadpriority">SetGPUThreadPriority</a>
-</td>
-<td align="left" width="63%">
-Sets the GPU thread priority.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IDXGIDevice</b> interface is designed for use by DXGI objects that need access to other DXGI objects. This interface is useful to

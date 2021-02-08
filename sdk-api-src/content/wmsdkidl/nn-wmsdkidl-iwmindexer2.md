@@ -61,40 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMIndexer2</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMIndexer2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer2-configure">Configure</a>
-</td>
-<td align="left" width="63%">
-Enables custom configuration of the indexer object.
-
-</td>
-</tr>
-</table> 
-
-The following interface can be obtained by using the QueryInterface method of this interface.
-
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer</a>
-</td>
-<td>IID_IWMIndexer</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>

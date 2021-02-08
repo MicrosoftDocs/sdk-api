@@ -69,39 +69,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITToneTerminalEvent</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITToneTerminalEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittoneterminalevent-get_call">get_Call</a>
-</td>
-<td align="left" width="63%">
-Gets the call on which the event occurred.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittoneterminalevent-get_error">get_Error</a>
-</td>
-<td align="left" width="63%">
-Gets the error code involved in the event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittoneterminalevent-get_terminal">get_Terminal</a>
-</td>
-<td align="left" width="63%">
-Gets the terminal on which the event occurred.
-
-</td>
-</tr>
-</table>

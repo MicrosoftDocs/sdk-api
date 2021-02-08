@@ -63,43 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeer</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBitsPeer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-getpeername">GetPeerName</a>
-</td>
-<td align="left" width="63%">
-Gets the server principal name that uniquely identifies the peer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-isauthenticated">IsAuthenticated</a>
-</td>
-<td align="left" width="63%">
-Determines whether the peer is authenticated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-isavailable">IsAvailable</a>
-</td>
-<td align="left" width="63%">
-Determines whether the peer is available (online) to serve content.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>

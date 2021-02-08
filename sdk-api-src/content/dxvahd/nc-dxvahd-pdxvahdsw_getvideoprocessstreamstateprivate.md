@@ -62,7 +62,7 @@ A handle to the software DXVA-HD video processor.
 
 The zero-based index of the input stream.
 
-### -param *pData [in, out]
+### -param pData [in, out]
 
 A pointer to a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_private_data">DXVAHD_STREAM_STATE_PRIVATE_DATA</a> structure. On input, the <b>Guid</b> member specifies the private state to query. On output, the structure contains the state information.
 

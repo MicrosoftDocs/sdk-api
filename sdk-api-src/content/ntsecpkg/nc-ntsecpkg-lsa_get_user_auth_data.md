@@ -59,7 +59,7 @@ The <b>GetUserAuthData</b> function returns the authorization data for the user 
 A handle to the user account. This handle is returned by the 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a> function.
 
-### -param *UserAuthData [out]
+### -param UserAuthData [out]
 
 Pointer that receives the consolidated authorization data. When you have finished using the authorization data, free the memory by calling the <a href="/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap">FreeLsaHeap</a> function.
 

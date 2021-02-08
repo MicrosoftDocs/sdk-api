@@ -66,43 +66,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleItemContainer</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOleItemContainer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">GetObject</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the specified object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobjectstorage">GetObjectStorage</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the storage for the specified object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-isrunning">IsRunning</a>
-</td>
-<td align="left" width="63%">
-Determines whether the specified object is running.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/objbase/nf-objbase-createitemmoniker">CreateItemMoniker</a>

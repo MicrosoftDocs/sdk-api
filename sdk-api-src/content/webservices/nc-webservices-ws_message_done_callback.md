@@ -54,7 +54,7 @@ Notifies the caller that the message has completed its use of either the <a href
 
 ## -parameters
 
-### -param *doneCallbackState [in]
+### -param doneCallbackState [in]
 
 A pointer to <b>state</b> information passed to the  <a href="/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> function.
                 

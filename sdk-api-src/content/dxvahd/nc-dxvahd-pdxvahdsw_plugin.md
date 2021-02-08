@@ -58,7 +58,7 @@ Pointer to a function that initializes a software plug-in device for Microsoft D
 
 The size of the structure pointed to by the <i>pCallbacks</i> parameter, in bytes.
 
-### -param *pCallbacks [out]
+### -param pCallbacks [out]
 
 A pointer to an uninitialized <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a> structure. The function fills this structure with pointers to the plug-in device's callback functions.
 

@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextFormattedText</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFTimedTextFormattedText</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-getsubformatting">GetSubformatting</a>
-</td>
-<td align="left" width="63%">
-Gets a subformat in the formatted timed-text object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-getsubformattingcount">GetSubformattingCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of subformats in the formatted timed-text object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-gettext">GetText</a>
-</td>
-<td align="left" width="63%">
-Gets the text in the formatted timed-text object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

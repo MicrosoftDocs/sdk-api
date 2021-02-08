@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileDialogControlEvents</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFileDialogControlEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-onbuttonclicked">OnButtonClicked</a>
-</td>
-<td align="left" width="63%">
-Called when the user clicks a command button.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-oncheckbuttontoggled">OnCheckButtonToggled</a>
-</td>
-<td align="left" width="63%">
-Called when the user changes the state of a check button (check box).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-oncontrolactivating">OnControlActivating</a>
-</td>
-<td align="left" width="63%">
-Called when an <b>Open</b> button drop-down list customized through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-enableopendropdown">IFileDialogCustomize::EnableOpenDropDown</a> or a <b>Tools</b> menu is about to display its contents.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-onitemselected">OnItemSelected</a>
-</td>
-<td align="left" width="63%">
-Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the <b>Tools</b> menu.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>

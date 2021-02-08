@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerCommandProvider</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IExplorerCommandProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommandprovider-getcommand">GetCommand</a>
-</td>
-<td align="left" width="63%">
-Gets a specified Explorer command instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommandprovider-getcommands">GetCommands</a>
-</td>
-<td align="left" width="63%">
-Gets a specified Explorer command enumerator instance.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 None of the methods of this interface should communicate with network resources; they are called on the UI thread and doing so would cause the UI to stop responding.

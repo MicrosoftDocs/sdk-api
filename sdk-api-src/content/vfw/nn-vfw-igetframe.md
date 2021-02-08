@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetFrame</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IGetFrame</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-igetframe-begin">Begin</a>
-</td>
-<td align="left" width="63%">
-Prepares to extract and decompress copies of video frames from a stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-igetframe-end">End</a>
-</td>
-<td align="left" width="63%">
-Ends frame extraction and decompression.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-igetframe-getframe">GetFrame</a>
-</td>
-<td align="left" width="63%">
-Retrieves a decompressed copy of a frame from a stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-igetframe-setformat">SetFormat</a>
-</td>
-<td align="left" width="63%">
-Sets the image format of the frames being extracted.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>

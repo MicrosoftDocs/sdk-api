@@ -58,7 +58,7 @@ Gets the input formats that are supported by a software plug-in Microsoft Direct
 
 A handle to the plug-in DXVA-HD device.
 
-### -param *pContentDesc [in]
+### -param pContentDesc [in]
 
 A pointer to a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_content_desc">DXVAHD_CONTENT_DESC</a> structure that describes the video content.
 
@@ -70,7 +70,7 @@ A member of the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_usa
 
 The number of formats to retrieve.
 
-### -param *pFormats [out]
+### -param pFormats [out]
 
 A pointer to an array of <b>D3DFORMAT</b> values. The <i>Count</i> parameter specifies the number of elements in the array. The method fills the array with a list of input formats.
 

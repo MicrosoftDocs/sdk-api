@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageFilter</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMessageFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">HandleInComingCall</a>
-</td>
-<td align="left" width="63%">
-Provides a single entry point for incoming calls.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-messagepending">MessagePending</a>
-</td>
-<td align="left" width="63%">
-Indicates that a message has arrived while COM is waiting to respond to a remote call.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-retryrejectedcall">RetryRejectedCall</a>
-</td>
-<td align="left" width="63%">
-Provides applications with an opportunity to display a dialog box offering retry, cancel, or task-switching options.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Synchronous calls require the caller to wait for a reply before continuing. COM enters a modal loop while waiting for the reply. During this time, the caller is still able to receive and dispatch incoming messages. 

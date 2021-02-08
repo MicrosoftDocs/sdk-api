@@ -48,10 +48,6 @@ The <b>IDVBCLocator</b> interface is implemented on <a href="/previous-versions/
 
 IDVBCLocator interits from .
 
-## -members
-
-	The IDVBCLocator has no additional methods.
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IDVBCLocator)</code>.

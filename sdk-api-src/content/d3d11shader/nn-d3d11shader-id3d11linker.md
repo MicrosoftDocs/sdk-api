@@ -61,44 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Linker</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D11Linker</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-addclipplanefromcbuffer">AddClipPlaneFromCBuffer</a>
-</td>
-<td align="left" width="63%">
-Adds a <a href="/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9">clip plane</a> with the plane coefficients taken from a <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-constants">cbuffer</a> entry for 10Level9 shaders.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-link">Link</a>
-</td>
-<td align="left" width="63%">
-Links the shader and produces a shader blob that the Direct3D runtime can use.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11linker-uselibrary">UseLibrary</a>
-</td>
-<td align="left" width="63%">
-Adds an instance of a library module to be used for linking.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To get a linker interface, call <a href="/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcreatelinker">D3DCreateLinker</a>.

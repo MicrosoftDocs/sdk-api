@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BitmapRenderTarget</b> i
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1BitmapRenderTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmaprendertarget-getbitmap">GetBitmap</a>
-</td>
-<td align="left" width="63%">
-Retrieves the bitmap for this render target. The returned bitmap can be used for drawing operations.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An <b>ID2D1BitmapRenderTarget</b>  writes to an intermediate texture. It's useful for creating patterns for use with an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> or caching drawing data that will be used repeatedly. 

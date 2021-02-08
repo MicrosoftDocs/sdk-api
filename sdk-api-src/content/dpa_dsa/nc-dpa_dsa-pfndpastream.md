@@ -54,19 +54,19 @@ Defines the prototype for the callback function used by <a href="/windows/deskto
 
 ## -parameters
 
-### -param *pinfo [in]
+### -param pinfo [in]
 
 Type: <b>DPASTREAMINFO*</b>
 
 A pointer to a <a href="/windows/desktop/api/dpa_dsa/ns-dpa_dsa-dpastreaminfo">DPASTREAMINFO</a> structure.
 
-### -param *pstream [in]
+### -param pstream [in]
 
 Type: <b>struct IStream*</b>
 
 An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object to read from or write to.
 
-### -param *pvInstData [in, optional]
+### -param pvInstData [in, optional]
 
 Type: <b>void*</b>
 

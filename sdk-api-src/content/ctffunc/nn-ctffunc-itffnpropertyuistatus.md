@@ -61,30 +61,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnPropertyUIStatus</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfFnPropertyUIStatus</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnpropertyuistatus-getstatus">GetStatus</a>
-</td>
-<td align="left" width="63%">
-Obtains the status of a text service property UI.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnpropertyuistatus-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Modifies the status of a text service property UI.
-
-</td>
-</tr>
-</table>

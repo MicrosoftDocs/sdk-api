@@ -59,14 +59,14 @@ The
 
 ## -parameters
 
-### -param *Packet [in, out]
+### -param Packet [in, out]
 
 Pointer to a 4Kb character buffer that contains the packet.
 
 <div class="alert"><b>Note</b>  Writing to this buffer directly is not recommended.</div>
 <div> </div>
 
-### -param *PacketSize [in, out]
+### -param PacketSize [in, out]
 
 Pointer to the size of the <i>Packet</i> parameter.
 
@@ -78,7 +78,7 @@ Pointer to the IP address of the socket on which the packet was received. The IP
 
 Reserved for future use.
 
-### -param *PktContext [in, out]
+### -param PktContext [in, out]
 
 Pointer provided by the third-party DLL, and used by Microsoft DHCP Server in future references to this specific packet. Third-party DLLs interested in such tracking are responsible for providing and tracking this packet context.
 

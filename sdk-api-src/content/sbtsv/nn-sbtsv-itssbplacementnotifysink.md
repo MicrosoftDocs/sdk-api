@@ -60,27 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbPlacementNotifySink</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITsSbPlacementNotifySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplacementnotifysink-onqueryenvironmentcompleted">OnQueryEnvironmentCompleted</a>
-</td>
-<td align="left" width="63%">
-Notifies RD Connection Broker that the environment specified by the 
-       <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a> object is already 
-       hosting the correct target.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>

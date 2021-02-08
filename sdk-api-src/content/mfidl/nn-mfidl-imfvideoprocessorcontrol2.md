@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl2</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFVideoProcessorControl2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol2-enablehardwareeffects">EnableHardwareEffects</a>
-</td>
-<td align="left" width="63%">
-Enables effects that were implemented with <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">IDirectXVideoProcessor::VideoProcessorBlt</a>. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol2-getsupportedhardwareeffects">GetSupportedHardwareEffects</a>
-</td>
-<td align="left" width="63%">
-Returns the list of supported effects in the currently configured video processor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol2-setrotationoverride">SetRotationOverride</a>
-</td>
-<td align="left" width="63%">
-Overrides the rotation operation that is performed in the video processor.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface controls how the <a href="/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a> generates output frames.

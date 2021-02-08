@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamConcatenate</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IStreamConcatenate</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append">Append</a>
-</td>
-<td align="left" width="63%">
-Appends a stream to this stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">Append2</a>
-</td>
-<td align="left" width="63%">
-Appends an array of streams to this stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes this stream from two input streams.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2">Initialize2</a>
-</td>
-<td align="left" width="63%">
-Initializes this stream from an array of input streams.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To create the  MsftStreamConcatenate object in a script, use IMAPI2.MsftStreamConcatenate as the program identifier when calling CreateObject.

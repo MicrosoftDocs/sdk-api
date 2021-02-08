@@ -59,46 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReplicaKeyMap</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IReplicaKeyMap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ireplicakeymap-lookupreplicaid">LookupReplicaId</a>
-</td>
-<td align="left" width="63%">
-Gets the replica ID that corresponds to the specified replica key.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ireplicakeymap-lookupreplicakey">LookupReplicaKey</a>
-</td>
-<td align="left" width="63%">
-Gets the replica key that corresponds to the specified replica ID.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ireplicakeymap-serialize">Serialize</a>
-</td>
-<td align="left" width="63%">
-Serializes the replica key map data to a byte array.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Because replica IDs repeatedly occur in the metadata for a replica and are suggested to be 16-byte GUIDs, Windows Sync represents replica IDs by using a map between replica IDs to 4-byte replica keys. Windows Sync then uses replica keys where references to particular replicas are required.

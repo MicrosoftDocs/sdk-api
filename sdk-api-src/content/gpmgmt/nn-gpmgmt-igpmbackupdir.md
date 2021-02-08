@@ -67,54 +67,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDir</b> interface i
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
-## -members
-
-The <b>IGPMBackupDir</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackupdir-getbackup">GetBackup</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <b>GPMBackup</b> object that has the specified backup ID (GUID).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackupdir-searchbackups">SearchBackups</a>
-</td>
-<td align="left" width="63%">
-Executes a search for <b>GPMBackup</b> objects according to search criteria, and returns a 
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">GPMBackupCollection</a> object.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDir</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/gpmc/igpmbackupdir-property-methods">BackupDirectory</a>
-
-
-</td>
-<td align="left" width="63%">
-Full path of the file system directory for Group Policy object (GPO) backups.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

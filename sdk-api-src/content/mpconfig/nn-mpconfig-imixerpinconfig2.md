@@ -64,34 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMixerPinConfig2</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMixerPinConfig2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig2-getoverlaysurfacecolorcontrols">GetOverlaySurfaceColorControls</a>
-</td>
-<td align="left" width="63%">
-Retrieves the color control settings currently associated with the specified overlay surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig2-setoverlaysurfacecolorcontrols">SetOverlaySurfaceColorControls</a>
-</td>
-<td align="left" width="63%">
-Sets the color control settings associated with the specified overlay surface.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig</a>

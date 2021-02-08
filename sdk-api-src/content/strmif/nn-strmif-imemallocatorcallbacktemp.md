@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemAllocatorCallbackTemp</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMemAllocatorCallbackTemp</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-getfreecount">GetFreeCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of free media samples.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-setnotify">SetNotify</a>
-</td>
-<td align="left" width="63%">
-Sets or removes a callback on the allocator.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>

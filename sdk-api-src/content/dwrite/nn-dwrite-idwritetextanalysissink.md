@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSink</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteTextAnalysisSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setbidilevel">SetBidiLevel</a>
-</td>
-<td align="left" width="63%">
-Sets a bidirectional level on the range, which is  called once per  run change (either explicit or resolved implicit).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setlinebreakpoints">SetLineBreakpoints</a>
-</td>
-<td align="left" width="63%">
-Sets line-break opportunities for each character, starting from the specified position.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setnumbersubstitution">SetNumberSubstitution</a>
-</td>
-<td align="left" width="63%">
-Sets the number substitution on the text range affected by the text analysis.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setscriptanalysis">SetScriptAnalysis</a>
-</td>
-<td align="left" width="63%">
-Reports script analysis for the specified text range.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The text analyzer disregards any current

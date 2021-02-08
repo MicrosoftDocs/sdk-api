@@ -62,7 +62,7 @@ Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to determine the na
 Specifies the Winlogon handle passed to GINA in the 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
-### -param *ppDesktop [out]
+### -param ppDesktop [out]
 
 Receives a pointer to a 
 <a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_desktop">WLX_DESKTOP</a> structure containing necessary information describing the desktop. This pointer can be freed with 

@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGraphSegmentContainer</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMSVidGraphSegmentContainer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidgraphsegmentcontainer-get_graph">get_Graph</a>
-</td>
-<td align="left" width="63%">
-Returns a pointer to the Filter Graph Manager.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface has additional methods besides the one shown here, but they are not supported.

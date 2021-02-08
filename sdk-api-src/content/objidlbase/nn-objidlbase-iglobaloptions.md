@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalOptions</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IGlobalOptions</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iglobaloptions-query">Query</a>
-</td>
-<td align="left" width="63%">
-Queries the specified global property of the COM runtime.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iglobaloptions-set">Set</a>
-</td>
-<td align="left" width="63%">
-Sets the specified global property of the COM runtime.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The following global properties of the COM runtime can be set and queried with this interface.

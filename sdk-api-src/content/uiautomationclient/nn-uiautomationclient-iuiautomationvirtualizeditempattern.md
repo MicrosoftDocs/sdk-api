@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationVirtualizedItemP
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUIAutomationVirtualizedItemPattern</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvirtualizeditempattern-realize">Realize</a>
-</td>
-<td align="left" width="63%">
-Creates a full UI Automation element for a virtualized item.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A virtualized item can be an item retrieved from a control that supports the <a href="/windows/desktop/WinAuto/uiauto-implementingitemcontainer">ItemContainer</a> control pattern, or a virtualized embedded object retrieved from a control that supports the <a href="/windows/desktop/WinAuto/uiauto-about-text-and-textrange-patterns">Text</a> control pattern.

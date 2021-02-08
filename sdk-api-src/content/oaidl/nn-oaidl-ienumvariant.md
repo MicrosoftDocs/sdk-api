@@ -59,56 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumVARIANT</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumVARIANT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the current state of enumeration.
-
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified items in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning.
-
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Attempts to skip over the next celt elements in the enumeration sequence.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To see how to implement a collection of objects using <b>IEnumVARIANT</b>, refer to the file Enumvar.cpp in the Lines sample code.

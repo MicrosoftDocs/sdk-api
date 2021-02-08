@@ -62,7 +62,7 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_cng_conte
 
 This parameter is reserved. Set it to zero.
 
-### -param *pvReserved
+### -param pvReserved
 
 This parameter is reserved. Set it to <b>NULL</b>.
 

@@ -69,34 +69,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidInputDevice</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMSVidInputDevice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevice-isviewable">IsViewable</a>
-</td>
-<td align="left" width="63%">
-Determines whether this device can view the specified tune request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevice-view">View</a>
-</td>
-<td align="left" width="63%">
-Configures the input device to view the specified tune request.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidInputDevice)</code>.

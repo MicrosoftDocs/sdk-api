@@ -62,27 +62,27 @@ The name of the file.
 
 User-provided data to <a href="/windows/desktop/api/filehc/nf-filehc-cacherichcreatefile">CacheRichCreateFile</a>.
 
-### -param *cbFileSize [out]
+### -param cbFileSize [out]
 
 The size of the low <b>DWORD</b>.
 
-### -param *cbFileSizeHigh [out]
+### -param cbFileSizeHigh [out]
 
 The size of the high <b>DWORD</b>.
 
-### -param *pfDidWeScanIt [out]
+### -param pfDidWeScanIt [out]
 
 Set to <b>TRUE</b> if the file has been scanned; otherwise, it is set to <b>FALSE</b>.
 
-### -param *pfIsStuffed [out]
+### -param pfIsStuffed [out]
 
 Set to <b>TRUE</b> if the file is dot stuffed; otherwise, it is set to <b>FALSE</b>.
 
-### -param *pfStoredWithDots [out]
+### -param pfStoredWithDots [out]
 
 If set to <b>TRUE</b>, this parameter indicates that any dots  that appear at the beginning of a line are stored with an extra dot as required in NNTP, SMTP, and POP3 protocols. If this is <b>FALSE</b>, the message is stored without dot stuffing.
 
-### -param *pfStoredWithTerminatingDot [out]
+### -param pfStoredWithTerminatingDot [out]
 
 If set to <b>TRUE</b>, the file has been stored with a terminating dot; otherwise, it is <b>FALSE</b>.
 

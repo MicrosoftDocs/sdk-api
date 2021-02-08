@@ -74,44 +74,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPolicy</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICertPolicy</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Returns a human-readable description of the policy module and its function.</p> (Inherited from <b>ICertPolicy</b><a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Called by the server engine to allow the policy module to perform initialization tasks.</p> (Inherited from <b>ICertPolicy</b><a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-shutdown">Shutdown</a>
-</td>
-<td align="left" width="63%">
-Called by the server engine before the server is terminated.</p> (Inherited from <b>ICertPolicy</b><a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certpol/nf-certpol-icertpolicy-verifyrequest">VerifyRequest</a>
-</td>
-<td align="left" width="63%">
-Notifies the policy module that a new request has entered the system.</p> (Inherited from <b>ICertPolicy</b><a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
-</tr>
-</table>
-
 ## -remarks
 
 Only a stand-alone <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> should use custom policy or exit modules; when running an enterprise certification authority, the use of Microsoft-provided policy and exit modules is strongly recommended.

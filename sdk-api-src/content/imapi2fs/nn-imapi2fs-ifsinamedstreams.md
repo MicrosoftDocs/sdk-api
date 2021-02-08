@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiNamedStreams</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFsiNamedStreams</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Returns the number of the named streams associated with a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_enumnamedstreams">get_EnumNamedStreams</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IEnumFsiItems</b> list of named streams associated with a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves a named stream associated with a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get__newenum">get_NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IEnumVARIANT</b> list of the named streams associated with a file.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To access this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_fsinamedstreams">IFsiFileItem2::get_FsiNamedStreams</a> method of a file item object representing a standard or 'Real-Time' file.

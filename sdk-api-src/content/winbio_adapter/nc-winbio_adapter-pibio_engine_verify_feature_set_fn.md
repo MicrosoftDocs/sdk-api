@@ -71,7 +71,7 @@ See the Remarks section for more details.
 
 Pointer to a Boolean value that specifies whether the <i>Identity</i> and <i>SubFactor</i> parameters match those of the template recovered from the database. <b>TRUE</b> specifies that these values match.
 
-### -param *PayloadBlob [out]
+### -param PayloadBlob [out]
 
 Address of a variable that receives a pointer to the payload data saved with the template. If there is no payload data, set this value to <b>NULL</b>.
 
@@ -79,7 +79,7 @@ Address of a variable that receives a pointer to the payload data saved with the
 
 Pointer to a value that receives the size, in bytes, of the buffer specified in the <i>PayloadBlob</i> parameter. If there is no payload data stored with the template, set this value to zero.
 
-### -param *HashValue [out]
+### -param HashValue [out]
 
 Address of a variable that receives a pointer to the hash of the template. If the engine adapter does not support hash generation, set this value to <b>NULL</b>.
 

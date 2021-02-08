@@ -62,43 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDevicePropertiesBulk
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPortableDevicePropertiesBulkCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onend">OnEnd</a>
-</td>
-<td align="left" width="63%">
-Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesBulk::Start</b> is completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onprogress">OnProgress</a>
-</td>
-<td align="left" width="63%">
-Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesBulk::Start</b> has sent data to the device and received some information back.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onstart">OnStart</a>
-</td>
-<td align="left" width="63%">
-Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesBulk::Start</b> is about to begin.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>

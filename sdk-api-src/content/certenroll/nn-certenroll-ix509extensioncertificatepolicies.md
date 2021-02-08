@@ -174,53 +174,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionCertificatePoli
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
-## -members
-
-The <b>IX509ExtensionCertificatePolicies</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensioncertificatepolicies-initializedecode">InitializeDecode</a>
-</td>
-<td align="left" width="63%">
-Initializes the  object from a DER-encoded byte array that contains the extension value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensioncertificatepolicies-initializeencode">InitializeEncode</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicies">ICertificatePolicies</a> collection.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionCertificatePolicies</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensioncertificatepolicies-get_policies">Policies</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves a collection of certificate policies.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>

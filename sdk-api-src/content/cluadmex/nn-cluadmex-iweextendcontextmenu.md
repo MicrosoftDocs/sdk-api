@@ -64,26 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendContextMenu</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWEExtendContextMenu</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">AddContextMenuItems</a>
-</td>
-<td align="left" width="63%">
-Allows you to create context menu items for a cluster object and add them to a Failover Cluster Administrator 
-      context menu.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To add code that executes when your context menu items are selected, implement the 

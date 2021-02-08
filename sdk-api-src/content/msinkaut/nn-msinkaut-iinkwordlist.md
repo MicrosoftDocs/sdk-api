@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IInkWordList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord</a>
-</td>
-<td align="left" width="63%">
-Adds a single word to the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-merge">Merge</a>
-</td>
-<td align="left" width="63%">
-Merges the specified <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object into this word list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord</a>
-</td>
-<td align="left" width="63%">
-Removes a single word from an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
-
-</td>
-</tr>
-</table>

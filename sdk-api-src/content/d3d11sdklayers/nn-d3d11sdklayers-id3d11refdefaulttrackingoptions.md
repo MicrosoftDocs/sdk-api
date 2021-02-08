@@ -60,26 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RefDefaultTrackingOptio
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D11RefDefaultTrackingOptions</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11refdefaulttrackingoptions-settrackingoptions">SetTrackingOptions</a>
-</td>
-<td align="left" width="63%">
-Sets GPU debug reference default tracking options for specific resource types.
-      
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 These APIs require the Windows Software Development Kit (SDK) for Windows 8.

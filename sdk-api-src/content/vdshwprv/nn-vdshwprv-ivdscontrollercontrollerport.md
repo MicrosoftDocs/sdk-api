@@ -64,24 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsControllerControllerPort<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVdsControllerControllerPort</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontrollercontrollerport-querycontrollerports">QueryControllerPorts</a>
-</td>
-<td align="left" width="63%">
-Returns an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a> object that enumerates the 
-     ports of the controller.</p> (Inherited from <b>IVdsControllerControllerPort</b>)</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/VDS/controller-object">Controller Object</a>

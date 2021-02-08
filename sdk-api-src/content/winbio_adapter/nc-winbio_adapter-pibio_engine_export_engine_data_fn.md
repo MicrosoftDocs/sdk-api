@@ -87,7 +87,7 @@ The data is not raw but has not been completely processed.
 * **WINBIO_DATA_FLAG_PROCESSED**
 The data has been processed.
 
-### -param *SampleBuffer [out]
+### -param SampleBuffer [out]
 
 Address of a variable that receives a pointer to a <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the feature set or template.
 

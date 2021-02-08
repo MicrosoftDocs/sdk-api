@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataBlockReader</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICMetadataBlockReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getcontainerformat">GetContainerFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the container format of the decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of top level metadata blocks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getenumerator">GetEnumerator</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumeration of each of the top level metadata blocks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getreaderbyindex">GetReaderByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a> for a specified top level metadata block, providing access to the embedded metadata blocks.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>IWICMetadataBlockReader</b> and <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter">IWICMetadataBlockWriter</a> operate at the root level only; that is, they provide read and write access, respectively, to the top level metadata blocks. They are implemented by <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a> and <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a>, respectively. To handle any metadata blocks that are not at the top level of the hierarchy, use <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a> or <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter">IWICMetadataWriter</a>.

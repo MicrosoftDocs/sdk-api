@@ -59,35 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataObjectProvider</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDataObjectProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-getdataobject">GetDataObject</a>
-</td>
-<td align="left" width="63%">
-Gets an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage">DataPackage</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-setdataobject">SetDataObject</a>
-</td>
-<td align="left" width="63%">
-Wraps an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime
-<a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage">DataPackage</a>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>

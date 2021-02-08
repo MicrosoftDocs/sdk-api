@@ -59,54 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConditionFactory</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IConditionFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makeandor">MakeAndOr</a>
-</td>
-<td align="left" width="63%">
-Creates a condition node that is a logical conjunction (AND) or disjunction (OR) of a collection of subconditions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makeleaf">MakeLeaf</a>
-</td>
-<td align="left" width="63%">
-Creates a leaf condition node that represents a comparison of property value and constant value.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makenot">MakeNot</a>
-</td>
-<td align="left" width="63%">
-Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-resolve">Resolve</a>
-</td>
-<td align="left" width="63%">
-Performs a variety of transformations on a condition tree, including the following: resolves conditions with relative date/time expressions to conditions with absolute date/time (as a VT_FILETIME); turns other recognized named entities into condition trees with actual values; simplifies condition trees; replaces virtual or compound properties with OR trees of other properties; removes condition trees resulting from queries with property keywords that had no condition applied.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.

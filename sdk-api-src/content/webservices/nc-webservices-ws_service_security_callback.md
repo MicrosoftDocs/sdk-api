@@ -55,15 +55,15 @@ Invoked when headers of the incoming message
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 The incoming message with headers only.
 
-### -param *authorized [out]
+### -param authorized [out]
 
 Set to <b>TRUE</b>, if authorization succeeded, <b>FALSE</b> if authorization failed.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

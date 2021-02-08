@@ -62,39 +62,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2StreamIdMap</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMPEG2StreamIdMap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-enumstreamidmap">EnumStreamIdMap</a>
-</td>
-<td align="left" width="63%">
-Returns a collection of all the mapped Stream IDs on this pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-mapstreamid">MapStreamId</a>
-</td>
-<td align="left" width="63%">
-Maps the Stream ID of an elementary stream within an MPEG-2 program stream to a media content type and substream filtering information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-unmapstreamid">UnmapStreamId</a>
-</td>
-<td align="left" width="63%">
-Unmaps the Stream ID mapping created in a previous call to <b>MapStreamId</b>.
-
-</td>
-</tr>
-</table>

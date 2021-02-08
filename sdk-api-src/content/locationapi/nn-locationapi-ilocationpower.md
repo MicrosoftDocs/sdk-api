@@ -64,30 +64,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationPower</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ILocationPower</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-connect-vb">Connect</a>
-</td>
-<td align="left" width="63%">
-Notify the location platform that an app has connected.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-disconnect-vb">Disconnect</a>
-</td>
-<td align="left" width="63%">
-Notify the location platform that an app has disconnected.
-
-</td>
-</tr>
-</table>

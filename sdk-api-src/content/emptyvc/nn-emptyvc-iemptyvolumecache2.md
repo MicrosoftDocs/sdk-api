@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEmptyVolumeCache2</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEmptyVolumeCache2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex">InitializeEx</a>
-</td>
-<td align="left" width="63%">
-Initializes the disk cleanup handler. It provides better support for localization than <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">IEmptyVolumeCache::Initialize</a>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface should be exported by disk cleanup handlers running on Windows 2000. Handlers running on Windows 98 must export <a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>.

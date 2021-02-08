@@ -54,14 +54,14 @@ The <b>PFNCryptStreamOutputCallback</b> function receives encrypted or decrypted
 
 ## -parameters
 
-### -param *pvCallbackCtxt [in]
+### -param pvCallbackCtxt [in]
 
 Pointer to data that you can use to keep track of your application. The data is not modified by the data protection API. 
 
 <div class="alert"><b>Note</b>  You can set a pointer to your context data in the <b>pvCallbackCtxt</b> member of the <a href="/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a> structure before passing a pointer to that structure in the <i>pStreamInfo</i> parameter of the <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or  <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a> functions.</div>
 <div> </div>
 
-### -param *pbData [in]
+### -param pbData [in]
 
 Pointer to a block of processed data that can be used by the application.
 

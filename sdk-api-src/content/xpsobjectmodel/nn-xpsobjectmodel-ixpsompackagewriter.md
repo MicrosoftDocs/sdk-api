@@ -59,63 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageWriter</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXpsOMPackageWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">AddPage</a>
-</td>
-<td align="left" width="63%">
-Writes a new FixedPage part to the currently open FixedDocument part in the package.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addresource">AddResource</a>
-</td>
-<td align="left" width="63%">
-Creates a new part resource in the package.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes any open parts of the package, then closes the package.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-isclosed">IsClosed</a>
-</td>
-<td align="left" width="63%">
-Gets the status of the <b>IXpsOMPackageWriter</b> interface.
-            
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument">StartNewDocument</a>
-</td>
-<td align="left" width="63%">
-Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
-            
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Progressive writing enables an application to serialize  XPS document content and resources as they become available. It does not require the application to create all elements of the document before serialization.

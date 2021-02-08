@@ -60,61 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFClockStateSink</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFClockStateSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause">OnClockPause</a>
-</td>
-<td align="left" width="63%">
-Called when the presentation clock pauses.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">OnClockRestart</a>
-</td>
-<td align="left" width="63%">
-Called when the presentation clock restarts from the same position while paused.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate">OnClockSetRate</a>
-</td>
-<td align="left" width="63%">
-Called when the rate changes on the presentation clock.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart">OnClockStart</a>
-</td>
-<td align="left" width="63%">
-Called when the presentation clock starts.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop">OnClockStop</a>
-</td>
-<td align="left" width="63%">
-Called when the presentation clock stops.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To receive state-change notifications from the presentation clock, implement this interface and call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-addclockstatesink">IMFPresentationClock::AddClockStateSink</a> on the presentation clock.

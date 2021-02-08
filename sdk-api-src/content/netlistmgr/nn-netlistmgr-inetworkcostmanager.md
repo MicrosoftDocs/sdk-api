@@ -60,41 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkCostManager</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INetworkCostManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>GetCost</b></td>
-<td align="left" width="63%">
-Retrieves the current cost of either a machine-wide internet connection, or the first-hop of routing to a specific destination on a connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="nla.getdataplanstatus">GetDataPlanStatus</a>
-</td>
-<td align="left" width="63%">
-Retrieves the data plan status for either a machine-wide internet connection , or the first-hop of routing to a specific destination on a connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="nla.setdestinationaddresses">SetDestinationAddresses</a>
-</td>
-<td align="left" width="63%">
-Registers specified destination IP addresses to receive cost or data plan status change notifications.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanagerevents">INetworkCostManagerEvents</a>

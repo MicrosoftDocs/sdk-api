@@ -63,53 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">SecurityProperty</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>SecurityProperty</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-securityproperty-getdirectcallername">GetDirectCallerName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the user name associated with the external process that called the currently executing method.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-securityproperty-getdirectcreatorname">GetDirectCreatorName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the user name associated with the current object's immediate (out-of-process) creator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-securityproperty-getoriginalcallername">GetOriginalCallerName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the user name associated with the base process that initiated the sequence of calls from which the call into the current object originated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-securityproperty-getoriginalcreatorname">GetOriginalCreatorName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the user name associated with the original base process that initiated the activity in which the current object is executing.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>

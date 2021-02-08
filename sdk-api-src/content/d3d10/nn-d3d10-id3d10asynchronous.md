@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D10Asynchronous</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">Begin</a>
-</td>
-<td align="left" width="63%">
-Starts the collection of GPU data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-end">End</a>
-</td>
-<td align="left" width="63%">
-Ends the collection of GPU data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">GetData</a>
-</td>
-<td align="left" width="63%">
-Get data from the GPU asynchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdatasize">GetDataSize</a>
-</td>
-<td align="left" width="63%">
-Get the size of the data (in bytes) that is output when calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 There are three types of asynchronous interfaces, all of which inherit this interface:

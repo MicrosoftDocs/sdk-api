@@ -57,7 +57,7 @@ Allows an application to cleanup
 
 ## -parameters
 
-### -param *state [in]
+### -param state [in]
 
 A reference to the application defined state registered with the callback.
 

@@ -57,7 +57,7 @@ The DLL entry point name must be
 
 ## -parameters
 
-### -param *requestDetails [in]
+### -param requestDetails [in]
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> 
       structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
@@ -76,7 +76,7 @@ Specifies the context returned from creating the shell for which this connection
 If this request is aimed at a command and not a shell, this is the context returned from the 
       <b>winrm create</b> operation;  otherwise, this parameter is <b>NULL</b>.
 
-### -param *inboundConnectInformation [in, optional]
+### -param inboundConnectInformation [in, optional]
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies an 
       optional inbound object that contains extra data for the connection.

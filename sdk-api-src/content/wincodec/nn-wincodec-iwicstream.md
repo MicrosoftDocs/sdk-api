@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromfilename">InitializeFromFilename</a>
-</td>
-<td align="left" width="63%">
-Initializes a stream from a particular file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistream">InitializeFromIStream</a>
-</td>
-<td align="left" width="63%">
-Initializes a stream from another stream. Access rights are inherited from the underlying stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistreamregion">InitializeFromIStreamRegion</a>
-</td>
-<td align="left" width="63%">
-Initializes the stream as a substream of another stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefrommemory">InitializeFromMemory</a>
-</td>
-<td align="left" width="63%">
-Initializes a stream to treat a block of memory as a stream. The stream cannot grow beyond the buffer size.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Decoders and metadata handlers are expected to create sub streams of whatever stream they hold when handing off control for embedded metadata to another metadata handler.  If the stream is not restricted then use MAXLONGLONG as the max size and offset 0.

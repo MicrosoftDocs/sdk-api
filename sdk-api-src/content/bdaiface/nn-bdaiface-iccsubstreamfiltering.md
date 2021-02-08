@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICCSubStreamFiltering</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICCSubStreamFiltering</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-iccsubstreamfiltering-get_substreamtypes">get_SubstreamTypes</a>
-</td>
-<td align="left" width="63%">
-Retrieves the list of closed captioning services this pin is delivering
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-iccsubstreamfiltering-put_substreamtypes">put_SubstreamTypes</a>
-</td>
-<td align="left" width="63%">
-Sets the closed captioning services the pin will deliver.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ICCSubStreamFiltering)</code>.

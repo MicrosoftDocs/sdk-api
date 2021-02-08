@@ -61,61 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUIObjInfo</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOleUIObjInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-convertobject">ConvertObject</a>
-</td>
-<td align="left" width="63%">
-Converts the object to the type of the specified CLSID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-getconvertinfo">GetConvertInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the conversion information associated with the specified object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-getobjectinfo">GetObjectInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the size, type, name, and location information about an object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-getviewinfo">GetViewInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the view information associated with the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuiobjinfoa-setviewinfo">SetViewInfo</a>
-</td>
-<td align="left" width="63%">
-Sets the view information associated with the object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>

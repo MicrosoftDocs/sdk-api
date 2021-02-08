@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapDecoderInfo</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICBitmapDecoderInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-createinstance">CreateInstance</a>
-</td>
-<td align="left" width="63%">
-Creates a new <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-getpatterns">GetPatterns</a>
-</td>
-<td align="left" width="63%">
-Retrieves the file pattern signatures supported by the decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-matchespattern">MatchesPattern</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value that indicates whether the codec recognizes the pattern within a specified stream.
-
-</td>
-</tr>
-</table>

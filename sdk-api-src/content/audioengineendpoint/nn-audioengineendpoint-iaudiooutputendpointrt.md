@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioOutputEndpointRT</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioOutputEndpointRT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-getoutputdatapointer">GetOutputDataPointer</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the output buffer in which data will be written by the audio engine.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-pulseendpoint">PulseEndpoint</a>
-</td>
-<td align="left" width="63%">
-This method is  reserved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-releaseoutputdatapointer">ReleaseOutputDataPointer</a>
-</td>
-<td align="left" width="63%">
-Releases the pointer to the output buffer.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>IAudioOutputEndpointRT</b> methods can be called 

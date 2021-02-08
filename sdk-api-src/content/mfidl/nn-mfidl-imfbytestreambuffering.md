@@ -63,46 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamBuffering</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFByteStreamBuffering</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreambuffering-enablebuffering">EnableBuffering</a>
-</td>
-<td align="left" width="63%">
-Enables or disables buffering.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreambuffering-setbufferingparams">SetBufferingParams</a>
-</td>
-<td align="left" width="63%">
-Sets the buffering parameters.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreambuffering-stopbuffering">StopBuffering</a>
-</td>
-<td align="left" width="63%">
-Stops any buffering that is in progress.
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If a byte stream implements this interface, a media source can use it to control how the byte stream buffers data. This interface is designed for byte streams that read data from a network.

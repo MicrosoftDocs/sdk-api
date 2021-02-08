@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistSerializedPropStorage
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPersistSerializedPropStorage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-getpropertystorage">GetPropertyStorage</a>
-</td>
-<td align="left" width="63%">
-Gets the serialized property storage data from the property store instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-setflags">SetFlags</a>
-</td>
-<td align="left" width="63%">
-Toggles the property store object between the read-only and read/write state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-setpropertystorage">SetPropertyStorage</a>
-</td>
-<td align="left" width="63%">
-Initializes the property store instance from the specified serialized property storage data.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Use the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface to read and write values from and to the property store.

@@ -64,23 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystemNaming</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVdsSubSystemNaming</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystemnaming-setfriendlyname">SetFriendlyName</a>
-</td>
-<td align="left" width="63%">
-Sets the friendly name of a subsystem.</p> (Inherited from <b>IVdsSubSystemNaming</b>)</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

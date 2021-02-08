@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCrossOriginSupport</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFNetCrossOriginSupport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt846741(v=VS.85).aspx">GetCrossOriginPolicy</a>
-</td>
-<td align="left" width="63%">
-Returns the client's current cross-origin policy to apply to the download session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt846742(v=VS.85).aspx">GetSourceOrigin</a>
-</td>
-<td align="left" width="63%">
-Returns the W3C origin of the HTML5 media element.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt846743(v=VS.85).aspx">IsSameOrigin</a>
-</td>
-<td align="left" width="63%">
-Returns true when the specified URL has the same origin as the HTML5 media element.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The Media Foundation network code uses these client callbacks to implement and enforce cross origin downloads.

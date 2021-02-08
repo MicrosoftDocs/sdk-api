@@ -60,37 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssSnapshotMgmt</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVssSnapshotMgmt</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-getprovidermgmtinterface">GetProviderMgmtInterface</a>
-</td>
-<td align="left" width="63%">
-Returns an interface to further configure a shadow copy provider.</p> (Inherited from <b>IVssSnapshotMgmt</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-querysnapshotsbyvolume">QuerySnapshotsByVolume</a>
-</td>
-<td align="left" width="63%">
-Reserved for system use.</p> (Inherited from <b>IVssSnapshotMgmt</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-queryvolumessupportedforsnapshots">QueryVolumesSupportedForSnapshots</a>
-</td>
-<td align="left" width="63%">
-Reserved for system use.</p> (Inherited from <b>IVssSnapshotMgmt</b>)</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IVssSnapshotMgmt</b> interface can be invoked 

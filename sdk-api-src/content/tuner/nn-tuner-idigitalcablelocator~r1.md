@@ -50,10 +50,6 @@ OCUR Devices: This interface supports OpenCable Unidirectional Cable Receiver (O
 
 IDigitalCableLocator interits from .
 
-## -members
-
-	The IDigitalCableLocator has no additional methods.
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IDigitalCableLocator)</code>.

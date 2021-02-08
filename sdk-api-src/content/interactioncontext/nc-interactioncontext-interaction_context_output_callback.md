@@ -54,11 +54,11 @@ Callback that receives events from an <a href="/previous-versions/windows/deskto
 
 ## -parameters
 
-### -param *clientData [in, optional]
+### -param clientData [in, optional]
 
 A pointer to an object that contains information about the client. The value typically points to the object for which the member function is called.
 
-### -param *output [in]
+### -param output [in]
 
 Output of the  <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 

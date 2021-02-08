@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStringable</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IStringable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-istringable-tostring">ToString</a>
-</td>
-<td align="left" width="63%">
-Gets a string that represents the current object.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <div class="alert"><b>Important</b>  Managed types should not implement the <b>IStringable</b> interface. For more info, see <a href="/dotnet/api/system.object.tostring">Object.ToString Method</a>.</div>

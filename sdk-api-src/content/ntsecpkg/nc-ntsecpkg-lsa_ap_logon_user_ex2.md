@@ -76,7 +76,7 @@ Buffer that provides the address within the client process at which the authenti
 
 A <b>ULONG</b> value that indicates the size, in bytes, of the authentication information buffer.
 
-### -param *ProfileBuffer [out]
+### -param ProfileBuffer [out]
 
 Pointer that receives the address of the profile buffer in the client process. The authentication package is responsible for allocating <i>ProfileBuffer</i> within the client process by calling the 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function. However, if the LSA subsequently encounters an error which prevents a successful logon, then the LSA will take care of freeing this buffer. 
@@ -163,16 +163,16 @@ The
 Pointer that receives the address of an 
 <a href="/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> value that indicates the type of information returned for inclusion in the token to be created. The information is returned by means of the <i>TokenInformation</i> parameter.
 
-### -param *TokenInformation [out]
+### -param TokenInformation [out]
 
 Pointer that receives the address of information to be included in the token. The format and content of <i>TokenInformation</i> are indicated by the <i>TokenInformationType</i> parameter. Your authentication package is responsible for allocating the memory used by <i>TokenInformation</i>; however, this memory will be freed by the LSA.
 
-### -param *AccountName [out]
+### -param AccountName [out]
 
 Pointer to an 
 <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the name of the user account. <i>AccountName</i> must always be returned regardless of the success or failure of the call; its string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AccountName</i>; however, this memory will be freed by the LSA.
 
-### -param *AuthenticatingAuthority [out]
+### -param AuthenticatingAuthority [out]
 
 Optional. Pointer to an 
 <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the description of the authenticating authority for the logon. This parameter may be <b>NULL</b>. This string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AuthenticatingAuthority</i>; however, this memory will be freed by the LSA. 
@@ -182,7 +182,7 @@ Optional. Pointer to an
 
 The MSV1_0 authentication package returns the domain name of the domain validating the account. The Kerberos authentication package returns the NetBIOS domain name.
 
-### -param *MachineName [out]
+### -param MachineName [out]
 
 Optional. Pointer that receives the address of a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the client's computer. This string may optionally be omitted. This string is included in the audit record for this authentication attempt. Your authentication package is responsible for allocating the memory used by <i>MachineName</i>; however, this memory will be freed by the LSA. 
 
@@ -196,7 +196,7 @@ The MSV1_0 authentication package returns the NetBIOS name of the client's works
 Pointer to a 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure that returns primary credentials for handing to other packages.
 
-### -param *SupplementalCredentials [out]
+### -param SupplementalCredentials [out]
 
 Pointer to a 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred_array">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> array of supplemental credentials for other packages.

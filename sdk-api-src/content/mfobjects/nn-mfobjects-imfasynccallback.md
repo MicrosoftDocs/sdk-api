@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAsyncCallback</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFAsyncCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters">GetParameters</a>
-</td>
-<td align="left" width="63%">
-Provides configuration information to the dispatching thread for a callback
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a>
-</td>
-<td align="left" width="63%">
-Called when an asynchronous operation is completed.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 For more information about asynchronous methods in Microsoft Media Foundation, see <a href="/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>.

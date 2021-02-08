@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaRendererFactory</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMediaRendererFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/mediastreaming/imediarendererfactory-createmediarendererasync">CreateMediaRendererAsync</a>
-</td>
-<td align="left" width="63%">
-Asynchronously creates a new instance of an object that implements the <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified Unique Device Name (UDN).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/mediastreaming/imediarendererfactory-createmediarendererfrombasicdeviceasync">CreateMediaRendererFromBasicDeviceAsync</a>
-</td>
-<td align="left" width="63%">
-Asynchronously creates a new instance of an object that implements the <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> interface.
-
-</td>
-</tr>
-</table>

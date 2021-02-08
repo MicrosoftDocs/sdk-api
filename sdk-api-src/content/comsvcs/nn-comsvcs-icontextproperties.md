@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextProperties</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IContextProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextproperties-count">Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of context object properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextproperties-enumnames">EnumNames</a>
-</td>
-<td align="left" width="63%">
-Retrieves a reference to an enumerator for the context object properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextproperties-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves a context object property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextproperties-removeproperty">RemoveProperty</a>
-</td>
-<td align="left" width="63%">
-Removes a context object property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextproperties-setproperty">SetProperty</a>
-</td>
-<td align="left" width="63%">
-Sets a context object property.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>

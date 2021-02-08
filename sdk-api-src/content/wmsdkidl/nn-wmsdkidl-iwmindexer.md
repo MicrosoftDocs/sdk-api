@@ -65,49 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMIndexer</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMIndexer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels indexing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">StartIndexing</a>
-</td>
-<td align="left" width="63%">
-Initiates indexing.
-
-</td>
-</tr>
-</table> 
-
-The following interface can be obtained by using the QueryInterface method of this interface.
-
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2">IWMIndexer2</a>
-</td>
-<td>IID_IWMIndexer2</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/wmformat/indexer-object">Indexer Object</a>

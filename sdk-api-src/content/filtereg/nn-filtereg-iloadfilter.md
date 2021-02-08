@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILoadFilter</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ILoadFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilter"> LoadIFilter</a>
-</td>
-<td align="left" width="63%">
-Registers the filters that need to be mapped to the CLSID (CLSID_FilterRegistration), file name extensions, and MIME types that identify the content type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstorage">LoadIFilterFromStorage</a>
-</td>
-<td align="left" width="63%">
-This method is not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstream">LoadIFilterFromStream</a>
-</td>
-<td align="left" width="63%">
-This method is not implemented.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A filter, also known as a filter handler, is an implementation of the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface.

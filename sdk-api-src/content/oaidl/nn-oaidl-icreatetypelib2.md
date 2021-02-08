@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeLib2</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICreateTypeLib2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-deletetypeinfo">DeleteTypeInfo</a>
-</td>
-<td align="left" width="63%">
-Deletes a specified type information from the type library.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-setcustdata">SetCustData</a>
-</td>
-<td align="left" width="63%">
-Sets a value to custom data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-sethelpstringcontext">SetHelpStringContext</a>
-</td>
-<td align="left" width="63%">
-Sets the Help string context number.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-sethelpstringdll">SetHelpStringDll</a>
-</td>
-<td align="left" width="63%">
-Sets the DLL name to be used for Help string lookup (for localization purposes).
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>

@@ -59,21 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INotifyReplica</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INotifyReplica</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/reconcil/nf-reconcil-inotifyreplica-youareareplica">YouAreAReplica</a>
-</td>
-<td align="left" width="63%">
-Notifies an object that it may be subject to subsequent reconciliation through the <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">IReconcilableObject::Reconcile</a> method.
-
-</td>
-</tr>
-</table>

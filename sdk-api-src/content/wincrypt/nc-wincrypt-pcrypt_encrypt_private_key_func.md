@@ -57,19 +57,19 @@ the encrypted contents in the <i>pbEncryptedKey</i> parameter.  It is a callback
 
 ## -parameters
 
-### -param *pAlgorithm [out]
+### -param pAlgorithm [out]
 
 A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure to receive the algorithm used to encrypt the PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 
-### -param *pClearTextPrivateKey [in]
+### -param pClearTextPrivateKey [in]
 
 A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the <a href="/windows/desktop/SecGloss/p-gly">plaintext</a> private key to be encrypted.
 
-### -param *pbEncryptedKey [out]
+### -param pbEncryptedKey [out]
 
 A pointer to a <b>BYTE</b> buffer to receive the encrypted <a href="/windows/desktop/SecGloss/p-gly">private key BLOB</a>. If this parameter is <b>NULL</b>, <i>pcbEncryptedKey</i> will return the size, in bytes, of memory needed to contain the encrypted key on a subsequent call to this function.
 
-### -param *pcbEncryptedKey [in, out]
+### -param pcbEncryptedKey [in, out]
 
 A pointer to a <b>DWORD</b>  variable that contains the size, in  bytes, of the <i>pbEncryptedKey</i> buffer. If pbEncryptedKey is  <b>NULL</b>, then <i>pcbEncryptedKey</i>  is
 set to the size, in bytes,  required to encrypt the

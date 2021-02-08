@@ -61,7 +61,7 @@ The
 
 A descriptor that identifies an unconnected, previously bound socket. See Remarks for more information.
 
-### -param *name [in]
+### -param name [in]
 
 A pointer to  
 a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that specifies the address to which to connect. For  IPv4, the <b>sockaddr</b> contains <b>AF_INET</b> for the address family, the destination IPv4 address, and the destination port. For  IPv6, the <b>sockaddr</b> structure contains <b>AF_INET6</b> for the address family, the destination IPv6 address, the destination port, and may contain additional IPv6 flow and scope-id information.

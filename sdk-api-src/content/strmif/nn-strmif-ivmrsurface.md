@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurface</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVMRSurface</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurface-getsurface">GetSurface</a>
-</td>
-<td align="left" width="63%">
-Retrieves the attached DirectDraw surface interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurface-issurfacelocked">IsSurfaceLocked</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the DirectDraw surface attached to this media sample is locked.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurface-locksurface">LockSurface</a>
-</td>
-<td align="left" width="63%">
-Locks the attached DirectDraw surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurface-unlocksurface">UnlockSurface</a>
-</td>
-<td align="left" width="63%">
-Unlocks the attached DirectDraw surface.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

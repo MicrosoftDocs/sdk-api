@@ -68,7 +68,7 @@ Type: <b>DWORD</b>
 
 Specifies a unique number that identifies the fax job associated with the page of data.
 
-### -param *Buffer [out]
+### -param Buffer [out]
 
 Type: <b>LPBYTE*</b>
 

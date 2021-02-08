@@ -65,25 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMWriter2</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMDRMWriter2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmwriter2-setwmdrmnetencryption">SetWMDRMNetEncryption</a>
-</td>
-<td align="left" width="63%">
-Configures the writer to receive input samples encoded for Windows Media DRM 10 for Network Devices delivery.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>

@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWorkspace</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-getprocessid">GetProcessId</a>
-</td>
-<td align="left" width="63%">
-Retrieves the process ID of the current connection in RemoteApp and Desktop Connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-getworkspacenames">GetWorkspaceNames</a>
-</td>
-<td align="left" width="63%">
-Retrieves the names of the connections in the current process.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-startremoteapplication">StartRemoteApplication</a>
-</td>
-<td align="left" width="63%">
-Starts a RemoteApp program.
-
-</td>
-</tr>
-</table>

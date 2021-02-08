@@ -54,23 +54,23 @@ Gets the content type of the message.
 
 ## -parameters
 
-### -param *decoderContext [in]
+### -param decoderContext [in]
 
 The encoder instance returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
 
-### -param *contentType [in]
+### -param contentType [in]
 
 The content type of the encoded message.
 
-### -param *contentEncoding [in, optional]
+### -param contentEncoding [in, optional]
 
 The content encoding for the encoded message.
 
-### -param *newContentType [out]
+### -param newContentType [out]
 
 The callback should return the content type for the newly decoded message here.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

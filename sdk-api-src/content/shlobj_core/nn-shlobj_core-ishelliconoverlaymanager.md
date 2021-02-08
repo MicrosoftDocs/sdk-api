@@ -61,61 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellIconOverlayManager</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IShellIconOverlayManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlaymanager-getfileoverlayinfo">GetFileOverlayInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the index of the icon overlay or the icon image for the specified file with the specified attributes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlaymanager-getreservedoverlayinfo">GetReservedOverlayInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the index of the icon overlay or the icon image for the specified file with the specified attributes from one of the reserved overlays.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlaymanager-loadnonloadedoverlayidentifiers">LoadNonloadedOverlayIdentifiers</a>
-</td>
-<td align="left" width="63%">
-Loads any registered overlay identifiers, or handlers, that are not currently loaded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/shell/how-to-suppress-and-control-visibility">OverlayIndexFromImageIndex</a>
-</td>
-<td align="left" width="63%">
-Finds the index of an overlay image for the specified icon image. It can add an overlay if one is not found for the icon.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlaymanager-refreshoverlayimages">RefreshOverlayImages</a>
-</td>
-<td align="left" width="63%">
-Refreshes the overlay cache, the image list, or both.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Icon overlays are small images placed at the lower-left corner of the icon that represents a Shell object in Windows Explorer or on the desktop. They are used to add some extra information to the object's normal icon. A commonly used icon overlay is the small arrow that indicates that a file or folder is actually a link. For more information, see <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>.

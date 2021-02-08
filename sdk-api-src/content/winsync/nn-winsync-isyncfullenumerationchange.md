@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncFullEnumerationChange</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISyncFullEnumerationChange</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncfullenumerationchange-getlearnedforgottenknowledge">GetLearnedForgottenKnowledge</a>
-</td>
-<td align="left" width="63%">
-Gets the forgotten knowledge that the destination replica learns when the destination provider applies this change during recovery synchronization.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncfullenumerationchange-getlearnedknowledgeafterrecoverycomplete">GetLearnedKnowledgeAfterRecoveryComplete</a>
-</td>
-<td align="left" width="63%">
-Gets the knowledge that the destination replica will learn after it applies this change during recovery synchronization.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To obtain an <b>ISyncFullEnumerationChange</b> object, pass <b>IID_ISyncFullEnumerationChange</b> to the <b>QueryInterface</b> method of an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange</a> object during recovery synchronization.

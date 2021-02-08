@@ -80,63 +80,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWbemClassObject</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumWbemClassObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Makes a copy of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next object or objects in the enumeration starting from the current position.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync">NextAsync</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next object or objects using asynchronous integration with 
-<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets an enumeration sequence back to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Causes the enumeration to skip ahead so that future calls to the 
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">Next</a> method retrieve objects one, or more, ahead of the current location in the enumeration.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>IEnumWbemClassObject</b> is the object returned from a WMI query, and is used to enumerate through the returned values. For more information on how to use this class, see <a href="/windows/desktop/WmiSdk/querying-wmi">Querying WMI</a> and <a href="/windows/desktop/WmiSdk/enumerating-wmi">Enumerating WMI</a>.

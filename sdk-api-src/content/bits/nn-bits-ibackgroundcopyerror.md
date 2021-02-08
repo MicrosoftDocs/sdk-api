@@ -66,61 +66,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyError</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBackgroundCopyError</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">GetError</a>
-</td>
-<td align="left" width="63%">
-Retrieves the error code and identifies the context in which the error occurred.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">GetErrorContextDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description of the context in which the error occurred.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">GetErrorDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves the error text associated with the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">GetFile</a>
-</td>
-<td align="left" width="63%">
-Retrieves an interface pointer to the file object associated with the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getprotocol">GetProtocol</a>
-</td>
-<td align="left" width="63%">
-Retrieves the protocol used to transfer the file.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE</a>

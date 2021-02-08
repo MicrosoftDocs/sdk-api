@@ -63,39 +63,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitiateWinSATAssessment</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IInitiateWinSATAssessment</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-cancelassessment">CancelAssessment</a>
-</td>
-<td align="left" width="63%">
-Cancels a currently running assessment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">InitiateAssessment</a>
-</td>
-<td align="left" width="63%">
-Initiates an ad hoc assessment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">InitiateFormalAssessment</a>
-</td>
-<td align="left" width="63%">
-Initiates a formal assessment.
-
-</td>
-</tr>
-</table>

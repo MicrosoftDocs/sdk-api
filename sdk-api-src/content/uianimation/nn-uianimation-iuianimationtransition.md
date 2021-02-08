@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationTransition</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUIAnimationTransition</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">GetDuration</a>
-</td>
-<td align="left" width="63%">
-Gets the duration of the transition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-isdurationknown">IsDurationKnown</a>
-</td>
-<td align="left" width="63%">
-Determines whether the transition's duration is currently known.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-setinitialvalue">SetInitialValue</a>
-</td>
-<td align="left" width="63%">
-Sets the initial value for the transition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-setinitialvelocity">SetInitialVelocity</a>
-</td>
-<td align="left" width="63%">
-Sets the initial velocity for the transition.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>IUIAnimationTransition</b> is one of the primary interfaces used to add animation to an application,

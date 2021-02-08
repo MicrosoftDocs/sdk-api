@@ -58,7 +58,7 @@ Opens the user access token associated with the specified user logon.
 
 A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that identifies the user for which to open the access token.
 
-### -param *RetTokenHandle [out]
+### -param RetTokenHandle [out]
 
 A pointer to the handle to the token this function opens.
 

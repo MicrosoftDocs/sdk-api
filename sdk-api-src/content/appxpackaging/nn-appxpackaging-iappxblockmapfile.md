@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBlockMapFile</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxBlockMapFile</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getblocks">GetBlocks</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for traversing the blocks of a file listed in the block map.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getlocalfileheadersize">GetLocalFileHeaderSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of the zip local file header of the associated zip file item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getname">GetName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the associated zip file item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getuncompressedsize">GetUncompressedSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the uncompressed size of the associated zip file item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-validatefilehash">ValidateFileHash</a>
-</td>
-<td align="left" width="63%">
-Validates the content of a file against the hashes stored in the block elements for this block map file.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IAppxBlockMapFile</b> interface provides a read-only object model that represents the files in the block map. Files are represented in the block map file with the <b>File</b> element. You can retrieve the file's attributes and block hashes from the <b>File</b> element. Block hashes can be obtained from the <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a> interface.

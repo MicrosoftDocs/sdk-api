@@ -65,43 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskTrigger</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITaskTrigger</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">GetTrigger</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current task trigger.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettriggerstring">GetTriggerString</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current task trigger in the form of a string.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">SetTrigger</a>
-</td>
-<td align="left" width="63%">
-Sets the task trigger values.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-createtrigger">IScheduledWorkItem::CreateTrigger</a>

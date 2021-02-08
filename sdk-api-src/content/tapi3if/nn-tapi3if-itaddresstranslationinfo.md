@@ -61,61 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslationInfo</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITAddressTranslationInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_currentcountrycode">get_CurrentCountryCode</a>
-</td>
-<td align="left" width="63%">
-Gets the current country/region code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_destinationcountrycode">get_DestinationCountryCode</a>
-</td>
-<td align="left" width="63%">
-Gets the country/region code for the call destination.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_dialablestring">get_DialableString</a>
-</td>
-<td align="left" width="63%">
-Gets a string that contains a number to be dialed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_displayablestring">get_DisplayableString</a>
-</td>
-<td align="left" width="63%">
-Gets a string that contains a displayable version of the number to be dialed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_translationresults">get_TranslationResults</a>
-</td>
-<td align="left" width="63%">
-Gets the translated dialed number calling address.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Tapi/address-object">Address Object</a>

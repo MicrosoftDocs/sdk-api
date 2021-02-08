@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointLastBufferContr
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioEndpointLastBufferControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointlastbuffercontrol-islastbuffercontrolsupported">IsLastBufferControlSupported</a>
-</td>
-<td align="left" width="63%">
-Indicates if last buffer control is supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointlastbuffercontrol-releaseoutputdatapointerforlastbuffer">ReleaseOutputDataPointerForLastBuffer</a>
-</td>
-<td align="left" width="63%">
-Releases the output data pointer for the last buffer.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This is an optional interface on an endpoint.

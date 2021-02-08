@@ -61,21 +61,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeskBandInfo</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDeskBandInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskbandinfo-getdefaultbandwidth">GetDefaultBandWidth</a>
-</td>
-<td align="left" width="63%">
-Gets the band width that the bandsite initially uses to set the default width when the band is added.
-
-</td>
-</tr>
-</table>

@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsoImageManager</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IIsoImageManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_path">get_Path</a>
-</td>
-<td align="left" width="63%">
-Retrieves the logical path to an .iso image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_stream">get_Stream</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <b>IStream</b> object associated with the .iso image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">SetPath</a>
-</td>
-<td align="left" width="63%">
-Sets the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_path">Path</a> property with a logical path to an .iso image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream">SetStream</a>
-</td>
-<td align="left" width="63%">
-Sets the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_stream">Stream</a> property with an <b>IStream</b> object associated with the .iso image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-validate">Validate</a>
-</td>
-<td align="left" width="63%">
-Determines if the provided .iso image is valid.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If a valid path is provided via <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">SetPath</a>, an <b>IStream</b> object will be created from the supplied image file and the <b>Stream</b> property will be populated.

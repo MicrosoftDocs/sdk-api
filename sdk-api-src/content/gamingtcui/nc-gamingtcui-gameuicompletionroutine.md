@@ -62,7 +62,7 @@ Type: <b>HRESULT</b>
 
 Do not use. This API is only supported for Xbox developers.
 
-### -param *context [in, optional]
+### -param context [in, optional]
 
 Type: <b>VOID*</b>
 

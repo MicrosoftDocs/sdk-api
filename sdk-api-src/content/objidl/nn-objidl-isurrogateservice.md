@@ -61,61 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogateService</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISurrogateService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-applicationfree">ApplicationFree</a>
-</td>
-<td align="left" width="63%">
-Releases the application.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-applicationlaunch">ApplicationLaunch</a>
-</td>
-<td align="left" width="63%">
-Launches the application.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-catalogrefresh">CatalogRefresh</a>
-</td>
-<td align="left" width="63%">
-Refreshes the catalog.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes the process server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-processshutdown">ProcessShutdown</a>
-</td>
-<td align="left" width="63%">
-Shuts down the process.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a>

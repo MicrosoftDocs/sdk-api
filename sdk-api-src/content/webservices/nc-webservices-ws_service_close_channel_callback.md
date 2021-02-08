@@ -71,11 +71,11 @@ For session-based service contract, this notification
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 The operation context.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on whether the function is getting invoked asynchornously.
 

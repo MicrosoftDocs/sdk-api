@@ -62,52 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImageCompositor</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVMRImageCompositor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-compositeimage">CompositeImage</a>
-</td>
-<td align="left" width="63%">
-Composites the current frames available in each input stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-initcompositiontarget">InitCompositionTarget</a>
-</td>
-<td align="left" width="63%">
-Informs the compositor that a new composition target has been created.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-setstreammediatype">SetStreamMediaType</a>
-</td>
-<td align="left" width="63%">
-Sets the media type for the input stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-termcompositiontarget">TermCompositionTarget</a>
-</td>
-<td align="left" width="63%">
-Informs the compositor that the current composition target is being replaced.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSCProductList</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWSCProductList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-get_count">Count</a>
-</td>
-<td align="left" width="63%">
-Gathers the total number of all security product providers of the specified type on the computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Gathers information on all of the providers of the specified type on the computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-get_item">Item</a>
-</td>
-<td align="left" width="63%">
-Returns one of the  types of providers on the computer.
-
-</td>
-</tr>
-</table>

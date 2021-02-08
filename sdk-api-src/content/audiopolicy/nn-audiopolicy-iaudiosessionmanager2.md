@@ -70,61 +70,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionManager2</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioSessionManager2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-getsessionenumerator">GetSessionEnumerator</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the audio session enumerator object used to enumerate sessions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registerducknotification">RegisterDuckNotification</a>
-</td>
-<td align="left" width="63%">
-Registers the application to receive ducking notifications.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registersessionnotification">RegisterSessionNotification</a>
-</td>
-<td align="left" width="63%">
-Registers the application to receive a notification when a session is created.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregisterducknotification">UnregisterDuckNotification</a>
-</td>
-<td align="left" width="63%">
-Deletes the registration to  receive ducking notifications.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregistersessionnotification">UnregisterSessionNotification</a>
-</td>
-<td align="left" width="63%">
-Deletes the registration to  receive a notification when a session is created.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An application can use this interface to perform the following tasks:

@@ -54,7 +54,7 @@ Implemented by many of the Windows Shell DLLs to allow applications to obtain DL
 
 ## -parameters
 
-### -param *
+### -param 
 
 #### - pdvi
 

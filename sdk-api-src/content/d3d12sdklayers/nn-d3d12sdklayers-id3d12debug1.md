@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Debug1</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D12Debug1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-enabledebuglayer">EnableDebugLayer</a>
-</td>
-<td align="left" width="63%">
-Enables the debug layer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablegpubasedvalidation">SetEnableGPUBasedValidation</a>
-</td>
-<td align="left" width="63%">
-This method enables or disables GPU-Based Validation (GBV) before creating a device with the debug layer enabled.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablesynchronizedcommandqueuevalidation">SetEnableSynchronizedCommandQueueValidation</a>
-</td>
-<td align="left" width="63%">
-Enables or disables dependent command queue synchronization when using a D3D12 device with the debug layer enabled.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is currently in Preview mode.

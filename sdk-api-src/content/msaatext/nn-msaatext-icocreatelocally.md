@@ -63,21 +63,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoCreateLocally</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICoCreateLocally</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-icocreatelocally-cocreatelocally">CoCreateLocally</a>
-</td>
-<td align="left" width="63%">
-Creates a helper object in the server context.
-
-</td>
-</tr>
-</table>

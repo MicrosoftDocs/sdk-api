@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImage3</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFileSystemImage3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-get_createredundantudfmetadatafiles">get_CreateRedundantUdfMetadataFiles</a>
-</td>
-<td align="left" width="63%">
-Retrieves the option that indicates whether UDF metadata will be redundant in the file system image
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-probespecificfilesystem">ProbeSpecificFileSystem</a>
-</td>
-<td align="left" width="63%">
-Determines if a specific file system on the current media is appendable through the IMAPI.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-put_createredundantudfmetadatafiles">put_CreateRedundantUdfMetadataFiles</a>
-</td>
-<td align="left" width="63%">
-Sets the option that indicates whether UDF metadata will be redundant in the  file system image
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If the metadata and metadata mirror files are set for redundancy, IMAPI  creates identical copies of each in the file system image, which results in increased level of fault tolerance. In a scenario where the metadata files are not set for redundancy, IMAPI only creates a single copy in the file system image, which can save several MB of space on the burned disc.

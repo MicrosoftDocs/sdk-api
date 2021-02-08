@@ -83,39 +83,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsExtension</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IADsExtension</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-iadsextension-operate">Operate</a>
-</td>
-<td align="left" width="63%">
-Performs the specified extended operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">PrivateGetIDsOfNames</a>
-</td>
-<td align="left" width="63%">
-Maps the name(s) to a DISPID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-iadsextension-privateinvoke">PrivateInvoke</a>
-</td>
-<td align="left" width="63%">
-Invokes methods of the extended object.
-
-</td>
-</tr>
-</table>

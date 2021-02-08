@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMessagePump</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfMessagePump</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfmessagepump-getmessagea">GetMessageA</a>
-</td>
-<td align="left" width="63%">
-Obtains a message from the message queue and does not return until a message is obtained. This is the ANSI version of this method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfmessagepump-getmessagew">GetMessageW</a>
-</td>
-<td align="left" width="63%">
-Obtains a message from the message queue and does not return until a message is obtained. This is the Unicode version of this method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfmessagepump-peekmessagea">PeekMessageA</a>
-</td>
-<td align="left" width="63%">
-Obtains a message from the message queue and returns if no message is obtained. This is the ANSI version of this method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfmessagepump-peekmessagew">PeekMessageW</a>
-</td>
-<td align="left" width="63%">
-Obtains a message from the message queue and returns if no message is obtained. This is the Unicode version of this method.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If the application is Unicode, it should use the PeekMessageW and GetMessageW methods. Otherwise, the application should use the PeekMessageA and GetMessageA methods.

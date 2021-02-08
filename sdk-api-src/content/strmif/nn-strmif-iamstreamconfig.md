@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStreamConfig</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAMStreamConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getformat">GetFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current or preferred output format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">GetNumberOfCapabilities</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of format capabilities that this pin supports.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">GetStreamCaps</a>
-</td>
-<td align="left" width="63%">
-Retrieves a set of format capabilities.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">SetFormat</a>
-</td>
-<td align="left" width="63%">
-Sets the output format on the pin.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Filters expose this interface on their output pins. To use the interface, enumerate the filter's pins and query for <b>IAMStreamConfig</b>. Or, if you are using the <a href="/windows/desktop/DirectShow/capture-graph-builder">Capture Graph Builder</a> object to build the filter graph, you can call the <a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-findinterface">ICaptureGraphBuilder2::FindInterface</a> method. Note that a capture filter might have separate pins for capture and preview.

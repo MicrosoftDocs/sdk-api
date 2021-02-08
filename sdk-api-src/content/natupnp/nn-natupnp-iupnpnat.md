@@ -62,41 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPNAT</b> interface inheri
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUPnPNAT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>get_DynamicPortMappingCollection</b></td>
-<td align="left" width="63%">
-This method is not currently supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-iupnpnat-get_nateventmanager">get_NATEventManager</a>
-</td>
-<td align="left" width="63%">
-Establishes callbacks for the NAT to inform the client of changes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-iupnpnat-get_staticportmappingcollection">get_StaticPortMappingCollection</a>
-</td>
-<td align="left" width="63%">
-Retrieves the static port mappings collection.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>

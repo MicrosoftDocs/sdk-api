@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfEditTransactionSink</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfEditTransactionSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">OnEndEditTransaction</a>
-</td>
-<td align="left" width="63%">
-Indicates the end of an edit transaction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onstartedittransaction">OnStartEditTransaction</a>
-</td>
-<td align="left" width="63%">
-Indicates the start of an edit transaction.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An edit transaction involves multiple document locks, and usually includes multiple <a href="/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit</a> method callbacks.

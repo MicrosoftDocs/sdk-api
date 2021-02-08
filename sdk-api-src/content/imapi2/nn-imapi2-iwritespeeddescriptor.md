@@ -71,43 +71,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteSpeedDescriptor</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWriteSpeedDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_mediatype">get_MediaType</a>
-</td>
-<td align="left" width="63%">
-Retrieves type of media in the current drive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_rotationtypeispurecav">get_RotationTypeIsPureCAV</a>
-</td>
-<td align="left" width="63%">
-Retrieves the supported rotational-speed control used by the recorder for the current media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_writespeed">get_WriteSpeed</a>
-</td>
-<td align="left" width="63%">
-Retrieves the supported write speed for writing to the media.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This is a <b>MsftWriteSpeedDescriptor</b> object in script.

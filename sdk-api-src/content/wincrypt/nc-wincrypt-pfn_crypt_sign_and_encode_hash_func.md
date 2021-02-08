@@ -73,7 +73,7 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
 A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the signature <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and its optional encoded parameters.
 
-### -param *pvDecodedSignPara [in]
+### -param pvDecodedSignPara [in]
 
 An optional pointer to the decoded signature parameters data structure previously returned by the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_extract_encoded_signature_parameters_func">PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC</a>  function.
 
@@ -85,7 +85,7 @@ A Unicode string that contains the CNG <a href="/windows/desktop/SecGloss/p-gly"
 
 A Unicode string that contains the CNG hash algorithm identifier that corresponds to <i>pSignatureAlgorithm</i>-&gt;<b>pszObjId</b> or to a hash algorithm identifier in <i>pvDecodedSignPara</i>.
 
-### -param *pbComputedHash [in]
+### -param pbComputedHash [in]
 
 A pointer to the computed hash bytes returned by the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function that corresponds to <i>pwszCNGHashAlgid</i>.
 
@@ -93,11 +93,11 @@ A pointer to the computed hash bytes returned by the <a href="/windows/desktop/a
 
 A value that represents the length, in bytes, of the computed hash.
 
-### -param *pbSignature [out]
+### -param pbSignature [out]
 
 A pointer to the encoded signature bytes.
 
-### -param *pcbSignature [in, out]
+### -param pcbSignature [in, out]
 
 A value that represents the length, in bytes, of the encoded signature.
 

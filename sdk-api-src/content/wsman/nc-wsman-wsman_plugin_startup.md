@@ -68,7 +68,7 @@ A unique identifier for the hosted application. For the main WinRM service, the 
 
 A string that contains configuration information, if any information was stored when the plug-in was registered. When the plug-in is registered using the WinRM configuration, the plug-in can add extra configuration parameters that are useful during initialization to an optional node.  This information can be especially useful if a plug-in is used in different IIS hosting scenarios and requires slightly different run-time semantics during initialization.  This string is a copy of the XML from the configuration, if one is present.  Otherwise, this parameter is set to <b>NULL</b>.
 
-### -param *pluginContext
+### -param pluginContext
 
 The context for the specific application initialization.  This context is passed through to all other WinRM plug-in calls that are associated with this <i>applicationIdentifier</i>.
 

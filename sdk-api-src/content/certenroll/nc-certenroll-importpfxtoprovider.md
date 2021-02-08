@@ -57,7 +57,7 @@ Imports a PFX certificate.
 
 Handle to a Parent Window.
 
-### -param *pbPFX [in]
+### -param pbPFX [in]
 
 Pointer to a buffer that contains the PFX file.
 
@@ -93,7 +93,7 @@ Pointer to a constant null-terminated string of 16-bit Unicode characters that i
 
 Pointer to a constant null-terminated string of 16-bit Unicode characters that is the friendly name of the certificate (can be nullptr).
 
-### -param *pcCertOut [out, optional]
+### -param pcCertOut [out, optional]
 
 Pointer to DWORD that receives  the number of certificates successfully imported (can be nullptr).
 

@@ -59,22 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedEntityCollector</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INamedEntityCollector</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-inamedentitycollector-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds a single (potential) named entity to this <b>INamedEntityCollector</b> collection, as identified in a tokenized span of the input string being parsed.
-        
-
-</td>
-</tr>
-</table>

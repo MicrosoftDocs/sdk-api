@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOVideoOutputOptimizations<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDMOVideoOutputOptimizations</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentoperationmode">GetCurrentOperationMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the optimization features in effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentsamplerequirements">GetCurrentSampleRequirements</a>
-</td>
-<td align="left" width="63%">
-Retrieves the optimization features required to process the next sample, given the features already agreed to by the application.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-queryoperationmodepreferences">QueryOperationModePreferences</a>
-</td>
-<td align="left" width="63%">
-Retrieves the DMO's preferred optimization features.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-setoperationmode">SetOperationMode</a>
-</td>
-<td align="left" width="63%">
-Notifies the DMO of the optimization features in effect.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface enables an application to negotiate with a DMO about video output optimizations. A DMO exposes this interface when it can perform optimizations that require support from the application. The application can query the DMO for its preferred features, and then agree (or not agree) to provide them. The DMO must process output even if the application rejects the optimizations.

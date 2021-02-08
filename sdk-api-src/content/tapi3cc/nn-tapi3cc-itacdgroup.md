@@ -75,39 +75,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITACDGroup</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITACDGroup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-enumeratequeues">EnumerateQueues</a>
-</td>
-<td align="left" width="63%">
-Enumerates queues currently on the ACD group.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_name">get_Name</a>
-</td>
-<td align="left" width="63%">
-Gets the ACD group name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a>
-</td>
-<td align="left" width="63%">
-Creates a collection of queues associated with the current ACD group. Provided for Automation client applications, such as those written in Visual Basic.
-
-</td>
-</tr>
-</table>

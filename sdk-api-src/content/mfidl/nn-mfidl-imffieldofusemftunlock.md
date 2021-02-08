@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFFieldOfUseMFTUnlock</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFFieldOfUseMFTUnlock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imffieldofusemftunlock-unlock">Unlock</a>
-</td>
-<td align="left" width="63%">
-Unlocks an MFT so that the application can use it.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If you register an MFT that requires unlocking, include the <b>MFT_ENUM_FLAG_FIELDOFUSE</b> flag when you call the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftregister">MFTRegister</a> function.

@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICJpegFrameEncode</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICJpegFrameEncode</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getachuffmantable">GetAcHuffmanTable</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of the AC Huffman table for the specified scan and table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getdchuffmantable">GetDcHuffmanTable</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of the DC Huffman table for the specified scan and table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getquantizationtable">GetQuantizationTable</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of the quantization table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-writescan">WriteScan</a>
-</td>
-<td align="left" width="63%">
-Writes scan data to a JPEG frame.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Obtain this interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the Windows-provided <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncoder</a> interface for the JPEG encoder.

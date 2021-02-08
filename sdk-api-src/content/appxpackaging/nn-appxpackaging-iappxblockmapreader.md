@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBlockMapReader</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxBlockMapReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapreader-getfile">GetFile</a>
-</td>
-<td align="left" width="63%">
-Retrieves data corresponding to a file in the block map with the specified file name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapreader-getfiles">GetFiles</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for traversing the files listed in the block map.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapreader-gethashmethod">GetHashMethod</a>
-</td>
-<td align="left" width="63%">
-Retrieves the URI for the hash algorithm used to create block hashes in the block map.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapreader-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Retrieves a read-only stream that represents the XML content of the block map.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IAppxBlockMapReader</b> represents the <b>BlockMap</b> root element of the block map. <b>File</b> elements are the child elements of the <b>BlockMap</b> element.

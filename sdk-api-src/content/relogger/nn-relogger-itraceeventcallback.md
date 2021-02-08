@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventCallback</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEventCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onbeginprocesstrace">OnBeginProcessTrace</a>
-</td>
-<td align="left" width="63%">
-Indicates that a trace is about to begin so that relogging can be started. Invoked before starting to process the events of the specified trace stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onevent">OnEvent</a>
-</td>
-<td align="left" width="63%">
-Indicates that an event has been received on the trace streams associated with a relogger.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onfinalizeprocesstrace">OnFinalizeProcessTrace</a>
-</td>
-<td align="left" width="63%">
-Indicates that a trace is about to end so that relogging can be finalized. Invoked when finished processing the events of the specified trace stream.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is not supported on Windows 7 for the IA64 architecture.

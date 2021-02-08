@@ -59,22 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibleObject</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAccessibleObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibleobject-setaccessiblename">SetAccessibleName</a>
-</td>
-<td align="left" width="63%">
-Sets text that is retrieved by <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a> which accessibility tools use to obtain the Name Property of an object.
-
-
-</td>
-</tr>
-</table>

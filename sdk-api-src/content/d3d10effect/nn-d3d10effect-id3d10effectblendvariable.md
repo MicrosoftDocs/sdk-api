@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectBlendVariable</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D10EffectBlendVariable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectblendvariable-getbackingstore">GetBackingStore</a>
-</td>
-<td align="left" width="63%">
-Get a pointer to a blend-state variable.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectblendvariable-getblendstate">GetBlendState</a>
-</td>
-<td align="left" width="63%">
-Get a pointer to a blend-state interface.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An <b>ID3D10EffectBlendVariable Interface</b> is created when an effect is read into memory.

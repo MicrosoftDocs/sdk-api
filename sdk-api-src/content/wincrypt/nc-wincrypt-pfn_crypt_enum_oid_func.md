@@ -89,7 +89,7 @@ Count of elements in the array of value types.
 
 ### -param rgcbValueData[]
 
-### -param *pvArg [in]
+### -param pvArg [in]
 
 A pointer to arguments passed through to the callback function.
 

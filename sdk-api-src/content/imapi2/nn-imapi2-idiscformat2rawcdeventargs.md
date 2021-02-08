@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2RawCDEventArgs</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDiscFormat2RawCDEventArgs</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_currentaction">get_CurrentAction</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current write action being performed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_elapsedtime">get_ElapsedTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total elapsed time of the write operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcdeventargs-get_remainingtime">get_RemainingTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the estimated remaining time of the write operation.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2rawcdevents">DDiscFormat2RawCDEvents</a>

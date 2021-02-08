@@ -62,52 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicAudio</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBasicAudio</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-ibasicaudio-get_balance">get_Balance</a>
-</td>
-<td align="left" width="63%">
-Retrieves the balance for the audio signal.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-ibasicaudio-get_volume">get_Volume</a>
-</td>
-<td align="left" width="63%">
-Retrieves the volume (amplitude) of the audio signal.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-ibasicaudio-put_balance">put_Balance</a>
-</td>
-<td align="left" width="63%">
-Sets the balance for the audio signal.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-ibasicaudio-put_volume">put_Volume</a>
-</td>
-<td align="left" width="63%">
-Sets the volume (amplitude) of the audio signal.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

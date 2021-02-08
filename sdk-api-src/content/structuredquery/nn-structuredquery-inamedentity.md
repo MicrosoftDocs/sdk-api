@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedEntity</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INamedEntity</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-inamedentity-defaultphrase">DefaultPhrase</a>
-</td>
-<td align="left" width="63%">
-Retrieves a default phrase to use for this named entity in restatements.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-inamedentity-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of this named entity as a string.
-
-</td>
-</tr>
-</table>

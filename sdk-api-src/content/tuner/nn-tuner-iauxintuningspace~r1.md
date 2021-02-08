@@ -48,10 +48,6 @@ The <b>IAuxInTuningSpace</b> interface is implemented on <a href="/previous-vers
 
 IAuxInTuningSpace interits from .
 
-## -members
-
-	The IAuxInTuningSpace has no additional methods.
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IAuxInTuningSpace)</code>.

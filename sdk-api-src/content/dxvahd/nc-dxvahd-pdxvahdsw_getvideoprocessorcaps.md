@@ -58,7 +58,7 @@ Gets the capabilities of one or more software Microsoft DirectX Video Accelerati
 
 A handle to the plug-in DXVA-HD device.
 
-### -param *pContentDesc [in]
+### -param pContentDesc [in]
 
 A pointer to a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_content_desc">DXVAHD_CONTENT_DESC</a> structure that describes the video content.
 
@@ -70,7 +70,7 @@ A member of the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_usa
 
 The number of elements in the <i>pCaps</i> array.
 
-### -param *pCaps [out]
+### -param pCaps [out]
 
 A pointer to an array of <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structures. The function fills the structures with the capabilities of the plug-in video processors.
 

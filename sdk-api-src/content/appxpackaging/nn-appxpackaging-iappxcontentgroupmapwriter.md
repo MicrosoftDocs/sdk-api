@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxContentGroupMapWriter</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxContentGroupMapWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupmapwriter-addautomaticfile">AddAutomaticFile</a>
-</td>
-<td align="left" width="63%">
-Adds files to an automatic content group in a content group map.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupmapwriter-addautomaticgroup">AddAutomaticGroup</a>
-</td>
-<td align="left" width="63%">
-Adds an automatic content group to the content group map.
-
-</td>
-</tr>
-</table>

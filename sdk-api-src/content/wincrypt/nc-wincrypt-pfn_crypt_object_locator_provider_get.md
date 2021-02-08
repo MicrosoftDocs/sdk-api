@@ -86,19 +86,19 @@ The name format of the <i>pNameBlob</i> parameter. Possible values are listed be
 
 Pointer to a <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPTOAPI_BLOB</a> structure that contains the name the calling application is using to uniquely identify the object. Your provider uses this name to locate the requested object. Schannel currently submits a DNS (domain name system) host name encoded in UTF8 with IDN names converted from punycode.
 
-### -param *ppbContent [out]
+### -param ppbContent [out]
 
 Pointer to a byte array that contains the object to be returned.
 
-### -param *pcbContent [out]
+### -param pcbContent [out]
 
 The size, in bytes, of the object pointed to by the <i>ppbContent</i> parameter.
 
-### -param *ppwszPassword [out]
+### -param ppwszPassword [out]
 
 Null-terminated Unicode string that contains the password, if any, used to encrypt the object. If the object is a personal information exchange (PFX) file, a password will typically be used to perform encryption. This value can be <b>NULL</b> if no password is required.
 
-### -param *ppIdentifier [out]
+### -param ppIdentifier [out]
 
 Address that receives a pointer to an optional identifier that can be used during subsequent calls to this function and for change notifications. For more information, see Remarks. If your provider sets this value to <b>NULL</b>, Schannel internally uses the <i>pNameBlob</i> parameter value.
 

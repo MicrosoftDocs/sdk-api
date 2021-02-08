@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawColorControl</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirectDrawColorControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawcolorcontrol-getcolorcontrols">GetColorControls</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current color-control settings that are associated with an overlay or a primary surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawcolorcontrol-setcolorcontrols">SetColorControls</a>
-</td>
-<td align="left" width="63%">
-Sets the color-control options for an overlay or a primary surface.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 You can use the LPDIRECTDRAWCOLORCONTROL data type to declare a variable that contains a pointer to an <b>IDirectDrawColorControl</b> interface. The Ddraw.h header file declares this data type with the following code:

@@ -66,52 +66,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetup</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBITSExtensionSetup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-disablebitsuploads">DisableBITSUploads</a>
-</td>
-<td align="left" width="63%">
-Disables BITS uploads on the virtual directory to which the ADSI object points.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">EnableBITSUploads</a>
-</td>
-<td align="left" width="63%">
-Enables BITS uploads on the virtual directory to which the ADSI object points.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptask">GetCleanupTask</a>
-</td>
-<td align="left" width="63%">
-Returns an interface to the cleanup task associated with the virtual directory. The cleanup task removes orphaned files from the virtual directory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptaskname">GetCleanupTaskName</a>
-</td>
-<td align="left" width="63%">
-Returns the cleanup task name associated with the virtual directory.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is registered on the server when you install the BITS server extension.

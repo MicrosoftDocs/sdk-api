@@ -67,25 +67,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClockAdjustment</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioClockAdjustment</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclockadjustment-setsamplerate">SetSampleRate</a>
-</td>
-<td align="left" width="63%">
-Sets the sample rate of a stream.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a>

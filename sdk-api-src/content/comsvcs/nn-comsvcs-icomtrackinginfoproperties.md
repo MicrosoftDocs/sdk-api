@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTrackingInfoProperties</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IComTrackingInfoProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfoproperties-getpropname">GetPropName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the property corresponding to the specified index number.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfoproperties-propcount">PropCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of properties defined for a tracking information object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>

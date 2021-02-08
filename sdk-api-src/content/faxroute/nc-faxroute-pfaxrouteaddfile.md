@@ -66,7 +66,7 @@ Type: <b>LPCWSTR</b>
 
 Pointer to a constant null-terminated Unicode character string. The string contains the fully qualified path and name of the file to add to the fax file list associated with the received fax document.
 
-### -param *Guid [in]
+### -param Guid [in]
 
 Type: <b>GUID*</b>
 

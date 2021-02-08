@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual2</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDCompositionVisual2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setbackfacevisibility">SetBackFaceVisibility</a>
-</td>
-<td align="left" width="63%">
-Specifies whether or not surfaces that have 3D transformations applied to them should be displayed when facing away from the observer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setopacitymode">SetOpacityMode</a>
-</td>
-<td align="left" width="63%">
-Sets the opacity mode for this visual.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DCompV2BackfaceandD2DBatching">DirectComposition Backface and D2D Batching</a>

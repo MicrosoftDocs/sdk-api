@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStatusCallback</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMStatusCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">OnStatus</a>
-</td>
-<td align="left" width="63%">
-Called when status information must be communicated to the host application. This happens routinely when an ASF file is being opened and read, and when errors occur during reading.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The following methods and functions associate an implementation of this interface with an object:

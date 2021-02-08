@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlayToManagerInterop</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPlayToManagerInterop</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-getforwindow">GetForWindow</a>
-</td>
-<td align="left" width="63%">
-Gets the <a href="/uwp/api/windows.media.playto.playtomanager">PlayToManager</a> instance for the specified window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-showplaytouiforwindow">ShowPlayToUIForWindow</a>
-</td>
-<td align="left" width="63%">
-Displays the Play To UI for the specified window.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/uwp/api/windows.media.playto.playtomanager">PlayToManager</a>

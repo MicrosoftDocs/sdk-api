@@ -59,32 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTranslateTransfo
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDCompositionTranslateTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449126(v=vs.85)">SetOffsetX</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetX property of a 2D translation transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449131(v=vs.85)">SetOffsetY</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetY property of a 2D translation transform.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A translation transform represents the following 3-by-2 matrix:

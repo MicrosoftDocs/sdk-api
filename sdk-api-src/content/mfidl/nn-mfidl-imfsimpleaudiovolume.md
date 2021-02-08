@@ -62,52 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSimpleAudioVolume</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFSimpleAudioVolume</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmastervolume">GetMasterVolume</a>
-</td>
-<td align="left" width="63%">
-Retrieves the master volume level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmute">GetMute</a>
-</td>
-<td align="left" width="63%">
-Queries whether the audio is muted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmastervolume">SetMasterVolume</a>
-</td>
-<td align="left" width="63%">
-Sets the master volume level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmute">SetMute</a>
-</td>
-<td align="left" width="63%">
-Mutes or unmutes the audio.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To control the volume levels of individual channels, use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume">IMFAudioStreamVolume</a> interface. The <b>IMFAudioStreamVolume</b>   interface is supported by the SAR only.

@@ -59,47 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRowsetPrioritization</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRowsetPrioritization</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopepriority">GetScopePriority</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current indexer prioritization level for the scope specified by this query.
-
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopestatistics">GetScopeStatistics</a>
-</td>
-<td align="left" width="63%">
-Gets information describing the scope specified by this query.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-setscopepriority">SetScopePriority</a>
-</td>
-<td align="left" width="63%">
-Sets the current indexer prioritization level for the scope specified by this query.
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is acquired with <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface Method</a> on an indexer rowset. <b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="/previous-versions/windows/desktop/ms711497(v=vs.85)">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset prioritization.

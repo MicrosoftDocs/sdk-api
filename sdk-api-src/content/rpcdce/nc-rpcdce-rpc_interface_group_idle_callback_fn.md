@@ -58,7 +58,7 @@ The <b>RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN</b> is a user-defined callback that 
 
 A <b>RPC_INTERFACE_GROUP</b> from <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a> that defines the interface group for which the idle state has changed.
 
-### -param *IdleCallbackContext [in]
+### -param IdleCallbackContext [in]
 
 A user-defined context provided at interface group creation.
 

@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountSet</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFaxAccountSet</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountset-addaccount-vb">AddAccount</a>
-</td>
-<td align="left" width="63%">
-Adds a fax account to the fax server and returns the new <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountset-getaccount-vb">GetAccount</a>
-</td>
-<td align="left" width="63%">
-Returns an <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object by using the account name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountset-getaccounts-vb">GetAccounts</a>
-</td>
-<td align="left" width="63%">
-Returns an <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a> object that represents all the fax accounts on the fax server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountset-removeaccount-vb">RemoveAccount</a>
-</td>
-<td align="left" width="63%">
-Removes a fax account from the fax server.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A default implementation of <b>IFaxAccountSet</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountset">FaxAccountSet</a> object. The interface and the object are supported only on Windows Vista or later.

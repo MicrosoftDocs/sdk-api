@@ -75,61 +75,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChannelAudioVolume</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IChannelAudioVolume</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-getallvolumes">GetAllVolumes</a>
-</td>
-<td align="left" width="63%">
-Retrieves the volume levels for all the channels in the session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-getchannelcount">GetChannelCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of channels contained in the session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-getchannelvolume">GetChannelVolume</a>
-</td>
-<td align="left" width="63%">
-Retrieves the volume level for the specified channel in the session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes">SetAllVolumes</a>
-</td>
-<td align="left" width="63%">
-Sets the individual volume levels for all the channels in the session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">SetChannelVolume</a>
-</td>
-<td align="left" width="63%">
-Sets the volume level for the specified channel in the session.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

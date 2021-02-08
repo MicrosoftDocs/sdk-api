@@ -54,19 +54,19 @@ The <b>IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</b> function indicates whether the
 
 ## -parameters
 
-### -param *ikeTraffic [in]
+### -param ikeTraffic [in]
 
 Type: [IKEEXT_TRAFFIC0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)*</b>
 
 Specifies the traffic for which keys should be set or retrieved.
 
-### -param *willDictateKey [out]
+### -param willDictateKey [out]
 
 Type: <b>BOOL*</b>
 
 True if the TIA will dictate the keys; otherwise, false.
 
-### -param *weight [out]
+### -param weight [out]
 
 Type: <b>UINT32*</b>
 

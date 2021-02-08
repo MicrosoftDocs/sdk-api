@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscMaster2</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDiscMaster2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of the CD and DVD devices installed on the computer.    
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of the CD and DVD disc devices installed on the computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_issupportedenvironment">get_IsSupportedEnvironment</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value that determines if the environment contains one or more optical devices and the execution context has permission to access the devices.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves the unique identifier of the specified disc device.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To create the <b>MsftDiscMaster2</b> object in a script, use IMAPI2.MsftDiscMaster2 as the program identifier when calling <b>CreateObject</b>.

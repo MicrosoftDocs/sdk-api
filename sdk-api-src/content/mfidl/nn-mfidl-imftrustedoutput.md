@@ -62,46 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTrustedOutput</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFTrustedOutput</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritybyindex">GetOutputTrustAuthorityByIndex</a>
-</td>
-<td align="left" width="63%">
-Gets an OTA, specified by index.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritycount">GetOutputTrustAuthorityCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of OTAs provided by this trusted output.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-isfinal">IsFinal</a>
-</td>
-<td align="left" width="63%">
-Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If an MFT supports <b>IMFTrustedOutput</b>, it must expose the interface through <b>QueryInterface</b>. The interface applies to all of the input streams on the MFT. (There is no mechanism to return a separate <b>IMFTrustedOutput</b> pointer for each stream.) The MFT must apply the  output policies to all of its input streams. If the MFT sends different streams to separate connectors, it must report all of the connector attributes.

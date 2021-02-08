@@ -59,55 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConditionGenerator</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IConditionGenerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-defaultphrase">DefaultPhrase</a>
-</td>
-<td align="left" width="63%">
-This method attempts to produce a phrase that, when recognized by this instance of <b>IConditionGenerator</b>, represents the type and value pair for an entity, relationship, or named entity.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">GenerateForLeaf</a>
-</td>
-<td align="left" width="63%">
-Generates a special query expression for what would otherwise become a leaf query expression.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Resets all states of the interface to default values and retrieves any necessary information from the schema.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-recognizenamedentities">RecognizeNamedEntities</a>
-</td>
-<td align="left" width="63%">
-Identifies named entities in an input string, and creates a collection containing them. The value of each named entity is expressed as a string, which is then used by <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">IConditionGenerator::GenerateForLeaf</a>. The string can contain any data and be in any format, because it is not examined by any other components.
-	    
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 When an object that supports <b>IConditionGenerator</b> has been registered with a query parser as a semantic type T (using the <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setmultioption">IQueryParser::SetMultiOption</a> method with the <a href="/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_multioption">SQMO_GENERATOR_FOR_TYPE</a> constant), and that query parser is about to generate a leaf condition node with semantic type T, the query parser first calls the <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">IConditionGenerator::GenerateForLeaf</a> method of the condition generator. If that method returns S_OK, the returned condition tree (which need not be a leaf node) is used. If it returns S_FALSE, then normal processing ia resumed, which generates a leaf node.

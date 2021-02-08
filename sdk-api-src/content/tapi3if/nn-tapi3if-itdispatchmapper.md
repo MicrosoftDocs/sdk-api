@@ -65,25 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDispatchMapper</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITDispatchMapper</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdispatchmapper-querydispatchinterface">QueryDispatchInterface</a>
-</td>
-<td align="left" width="63%">
-Returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Tapi/dispatch-mapper">Dispatch Mapper</a>

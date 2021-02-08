@@ -60,7 +60,7 @@ The <b>PFN_DEVICE_CALLBACK</b> function is a callback prototype used in associat
 A parameter passed in from  the <b>pvParam</b> member of the 
 <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure through the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothselectdevices">BluetoothSelectDevices</a> function.
 
-### -param *pDevice
+### -param pDevice
 
 Remote Bluetooth address queried; this is the address inserted into the user-presented list of Bluetooth devices.
 

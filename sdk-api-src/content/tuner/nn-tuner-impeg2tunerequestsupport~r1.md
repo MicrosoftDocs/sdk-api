@@ -60,10 +60,6 @@ The following tuning space objects support the <b>IMPEG2TuneRequestSupport</b> i
 
 IMPEG2TuneRequestSupport interits from .
 
-## -members
-
-	The IMPEG2TuneRequestSupport has no additional methods.
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMPEG2TuneRequestSupport)</code>.

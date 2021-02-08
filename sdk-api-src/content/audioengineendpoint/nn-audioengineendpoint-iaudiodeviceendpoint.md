@@ -64,52 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioDeviceEndpoint</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioDeviceEndpoint</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-geteventdrivencapable">GetEventDrivenCapable</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the audio endpoint can be event driven.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-getrtcaps">GetRTCaps</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the audio device is real-time (RT)-capable.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">SetBuffer</a>
-</td>
-<td align="left" width="63%">
-Sets the endpoint format and the size of the endpoint's buffer through which the audio data is streamed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-writeexclusivemodeparameterstosharedmemory">WriteExclusiveModeParametersToSharedMemory</a>
-</td>
-<td align="left" width="63%">
-Creates and writes the exclusive-mode parameters to shared memory.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.

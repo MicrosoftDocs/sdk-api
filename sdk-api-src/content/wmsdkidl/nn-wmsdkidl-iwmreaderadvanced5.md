@@ -61,27 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderAdvanced5</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMReaderAdvanced5</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced5-setplayerhook">SetPlayerHook</a>
-</td>
-<td align="left" width="63%">
-Sets the player hook callback interface that the reader calls before processing samples by using DirectX Video Acceleration.
-
-</td>
-</tr>
-</table> 
-
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/reader-object">Reader Object</a>.
-
 ## -remarks
 
 A player-hook callback can be assigned in the reader object to enable per-sample processing when using DirectX Video Acceleration.

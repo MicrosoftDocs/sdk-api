@@ -82,7 +82,7 @@ Pointer to a callback function that the resource DLL should call to report event
        <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. For more information see 
        <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>.
 
-### -param *FunctionTable [out]
+### -param FunctionTable [out]
 
 Pointer to a <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_function_table">CLRES_FUNCTION_TABLE</a> structure 
        that describes the Resource API version and the specific names for the entry points.

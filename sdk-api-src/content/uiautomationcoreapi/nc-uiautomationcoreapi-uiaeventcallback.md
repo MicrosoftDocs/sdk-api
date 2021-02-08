@@ -55,13 +55,13 @@ api_name:
 
 ## -parameters
 
-### -param *pArgs [in]
+### -param pArgs [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a>*</b>
 
 The address of a <a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a> structure that contains the event arguments.
 
-### -param *pRequestedData [in]
+### -param pRequestedData [in]
 
 Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 

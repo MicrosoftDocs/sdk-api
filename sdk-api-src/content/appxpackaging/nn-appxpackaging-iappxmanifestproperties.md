@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestProperties</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxManifestProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestproperties-getboolvalue">GetBoolValue</a>
-</td>
-<td align="left" width="63%">
-Gets the value of the specified Boolean element in the properties section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestproperties-getstringvalue">GetStringValue</a>
-</td>
-<td align="left" width="63%">
-Gets the value of the specified string element in the properties section.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The properties section of the manifest is defined using the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-properties">Properties</a> element.
