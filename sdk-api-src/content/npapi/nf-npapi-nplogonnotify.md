@@ -47,11 +47,13 @@ api_name:
 
 # NPLogonNotify function
 
-> [!NOTE]
-> This API has been deprecated and will be removed in a future release.
+
 
 
 ## -description
+
+> [!NOTE]
+> This API has been deprecated and will be removed in a future release.
 
 MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script. The <b>NPLogonNotify</b> function is implemented by a credential manager DLL (see Remarks).
 
