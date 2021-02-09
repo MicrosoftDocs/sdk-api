@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPConvert</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMPConvert</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-convertfile">ConvertFile</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to enable a conversion plug-in to convert a digital media file into ASF.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-geterrorurl">GetErrorURL</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to retrieve the URL of a webpage that displays error information about a file conversion.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 These methods are implemented by a conversion plug-in and called by Windows Media Player.

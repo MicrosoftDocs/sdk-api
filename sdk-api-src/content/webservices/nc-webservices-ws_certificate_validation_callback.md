@@ -58,7 +58,7 @@ The <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> callback is invoked to validate a 
 
 A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that is associated with the connection. Applications must free this structure using <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
-### -param *state [in, optional]
+### -param state [in, optional]
 
 A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
 

@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncRegistrationChange</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISyncRegistrationChange</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getevent">GetEvent</a>
-</td>
-<td align="left" width="63%">
-Gets the next pending registration event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getinstanceid">GetInstanceId</a>
-</td>
-<td align="left" width="63%">
-Gets the instance ID of the synchronization provider or synchronization provider configuration UI associated with the event.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>

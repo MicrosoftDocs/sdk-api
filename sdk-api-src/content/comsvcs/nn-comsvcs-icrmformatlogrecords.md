@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmFormatLogRecords</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICrmFormatLogRecords</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumn">GetColumn</a>
-</td>
-<td align="left" width="63%">
-Formats one unstructured log record into an array of viewable fields.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumncount">GetColumnCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of fields (columns) in a log record of the type used by this CRM Compensator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumnheaders">GetColumnHeaders</a>
-</td>
-<td align="left" width="63%">
-Retrieves the names of the fields (columns).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumnvariants">GetColumnVariants</a>
-</td>
-<td align="left" width="63%">
-Formats one structured log record into an array of viewable fields.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>

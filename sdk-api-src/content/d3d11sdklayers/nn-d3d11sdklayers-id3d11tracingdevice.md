@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11TracingDevice</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D11TracingDevice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11tracingdevice-setshadertrackingoptions">SetShaderTrackingOptions</a>
-</td>
-<td align="left" width="63%">
-Sets the reference rasterizer's race-condition tracking options for a specific shader.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11tracingdevice-setshadertrackingoptionsbytype">SetShaderTrackingOptionsByType</a>
-</td>
-<td align="left" width="63%">
-Sets the reference rasterizer's default race-condition tracking options for the specified resource types.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To get this interface, turn on the <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">debug layer</a> and use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> from the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>.

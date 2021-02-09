@@ -62,43 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITransactionContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-abort">Abort</a>
-</td>
-<td align="left" width="63%">
-Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-commit">Commit</a>
-</td>
-<td align="left" width="63%">
-Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-createinstance">CreateInstance</a>
-</td>
-<td align="left" width="63%">
-Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Using the transaction context object to control a transaction limits the reuse of the business logic driving the transaction and should be used sparingly.

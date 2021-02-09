@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFObjectReferenceStream</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFObjectReferenceStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfobjectreferencestream-loadreference">LoadReference</a>
-</td>
-<td align="left" width="63%">
-Marshals an interface from data stored in the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfobjectreferencestream-savereference">SaveReference</a>
-</td>
-<td align="left" width="63%">
-Stores the data needed to marshal an interface across a process boundary.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nf-mfobjects-mfserializeattributestostream">MFSerializeAttributesToStream</a>

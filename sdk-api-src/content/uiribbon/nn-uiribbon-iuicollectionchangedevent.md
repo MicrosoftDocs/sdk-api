@@ -61,25 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICollectionChangedEvent</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUICollectionChangedEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged">OnChanged</a>
-</td>
-<td align="left" width="63%">
-Called when an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> changes.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The Windows Ribbon framework incorporates the standard Component Object Model (COM)  client-server mechanism of <a href="/windows/win32/com/events-in-com-and-connectable-objects">connectable objects</a> to listen for and handle collection changed events at run time.

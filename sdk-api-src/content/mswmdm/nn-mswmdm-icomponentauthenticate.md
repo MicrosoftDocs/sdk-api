@@ -63,34 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentAuthenticate</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IComponentAuthenticate</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth">SACAuth</a>
-</td>
-<td align="left" width="63%">
-Establishes a secure authenticated channel between components.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols">SACGetProtocols</a>
-</td>
-<td align="left" width="63%">
-Discovers the authentication protocols supported by another component.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>

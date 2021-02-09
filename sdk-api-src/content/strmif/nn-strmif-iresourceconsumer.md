@@ -64,34 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResourceConsumer</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IResourceConsumer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-acquireresource">AcquireResource</a>
-</td>
-<td align="left" width="63%">
-Notifies the resource consumer that a resource might be acquired.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-releaseresource">ReleaseResource</a>
-</td>
-<td align="left" width="63%">
-Requests the resource consumer to release the specified resource.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>

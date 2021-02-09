@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideMultipleClassInfo</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IProvideMultipleClassInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iprovidemultipleclassinfo-getinfoofindex">GetInfoOfIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type information from the specified index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iprovidemultipleclassinfo-getmultitypeinfocount">GetMultiTypeInfoCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of type information blocks that this object must provide.
-
-</td>
-</tr>
-</table>

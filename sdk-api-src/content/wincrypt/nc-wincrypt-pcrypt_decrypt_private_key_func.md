@@ -65,12 +65,12 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier"
 
 A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a>  value that identifies the encrypted private key  <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
-### -param *pbClearTextKey [out]
+### -param pbClearTextKey [out]
 
 A pointer to a <b>BYTE</b> buffer to receive the <a href="/windows/desktop/SecGloss/p-gly">plaintext</a>. This parameter can be <b>NULL</b>. For more information, see 
 <a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-### -param *pcbClearTextKey [in, out]
+### -param pcbClearTextKey [in, out]
 
 A pointer to a  <b>DWORD</b>  value that identifies the size, in  bytes, of the <i>pbClearTextKey</i> buffer. If the size is zero, then <i>pcbClearTextKey</i> should be                  filled with the size, in bytes, required to decrypt the
 key, and <i>pbClearTextKey</i> should be ignored.

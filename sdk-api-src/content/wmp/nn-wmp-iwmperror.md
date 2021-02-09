@@ -59,69 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPError</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMPError</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperror-clearerrorqueue">clearErrorQueue</a>
-</td>
-<td align="left" width="63%">
-Clears the errors from the error queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperror-get_errorcount">get_errorCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of errors in the error queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperror-get_item">get_item</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an <b>IWMPErrorItem</b> interface at the given index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperror-webhelp">webHelp</a>
-</td>
-<td align="left" width="63%">
-Launches the Microsoft Windows Media Player Web Help page to display further information about the error.
-
-</td>
-</tr>
-</table> 
-
-Retrieve a pointer to an <b>IWMPError</b> interface with the following method.
-
-<table>
-<tr>
-<th>Interface</th>
-<th>Method</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
-</td>
-<td>
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_error">get_error</a>
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>

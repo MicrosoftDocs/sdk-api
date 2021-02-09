@@ -65,25 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMediaPlayerCallback</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFPMediaPlayerCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">OnMediaPlayerEvent</a>
-</td>
-<td align="left" width="63%">
-Called by the MFPlay player object to notify the application of a playback event.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

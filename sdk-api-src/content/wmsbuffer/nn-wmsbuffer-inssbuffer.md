@@ -94,61 +94,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSSBuffer</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INSSBuffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">GetBuffer</a>
-</td>
-<td align="left" width="63%">
-Retrieves the location of the buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">GetBufferAndLength</a>
-</td>
-<td align="left" width="63%">
-Retrieves the location and size of the used portion of the buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of the used portion of the buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getmaxlength">GetMaxLength</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum size to which a buffer can be set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">SetLength</a>
-</td>
-<td align="left" width="63%">
-Specifies the size of the used portion of the buffer.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/wmformat/buffer-object">Buffer Object</a>

@@ -43,15 +43,6 @@ Encapsulates a list of graphics commands for rendering, extending the interface 
 
 The **ID3D12GraphicsCommandList5** interface inherits from the [ID3D12GraphicsCommandList4](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist4) interface.
 
-## -members
-
-The **ID3D12GraphicsCommandList5** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[RSSetShadingRate](nf-d3d12-id3d12graphicscommandlist5-rssetshadingrate.md)|Sets the base shading rate, and combiners, for variable-rate shading (VRS).|
-|[RSSetShadingRateImage](nf-d3d12-id3d12graphicscommandlist5-rssetshadingrateimage.md)|Sets the screen-space shading-rate image for variable-rate shading (VRS).|
-
 ## -remarks
 
 ## -see-also

@@ -64,25 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocatorEx9</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVMRSurfaceAllocatorEx9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurfaceallocatorex9-getsurfaceex">GetSurfaceEx</a>
-</td>
-<td align="left" width="63%">
-Gets a Direct3D surface and a destination rectangle.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Include DShow.h and D3d9.h before Vmr9.h.

@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderSimple3</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRawElementProviderSimple3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple3-getmetadatavalue">GetMetadataValue</a>
-</td>
-<td align="left" width="63%">
-Gets metadata from the UI Automation element that indicates how the information should be interpreted.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Screen reading accessibility tools like Narrator use a speech synthesizer to read what an app is showing.  Speech synthesizers usually read the provided content well based on the content description.

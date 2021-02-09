@@ -58,11 +58,11 @@ Creates a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD
 
 A handle to the plug-in DXVA-HD device that creates the video processor.
 
-### -param *pVPGuid [in]
+### -param pVPGuid [in]
 
 A GUID that identifies the video processor to create.
 
-### -param *phVideoProcessor [out]
+### -param phVideoProcessor [out]
 
 Receives a handle to the software video processor.
 

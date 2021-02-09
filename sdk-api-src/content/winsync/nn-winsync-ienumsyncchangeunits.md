@@ -59,56 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncChangeUnits</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumSyncChangeUnits</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets the next change unit.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumerator to the beginning of the list.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

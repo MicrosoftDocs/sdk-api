@@ -63,7 +63,7 @@ The message exchange pattern of the channel.
 If the type of channel is not supported by the custom
                     channel implementation,  <b>E_INVALIDARG</b> should be returned.
 
-### -param *channelParameters
+### -param channelParameters
 
 The pointer to the value that was specified by the
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property when the custom channel is created using <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>.
@@ -91,7 +91,7 @@ A pointer to an structure allocated by the callback
 If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_channel_callback">WS_FREE_CHANNEL_CALLBACK</a>will be used to free the channel instance returned
                     in this parameter.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

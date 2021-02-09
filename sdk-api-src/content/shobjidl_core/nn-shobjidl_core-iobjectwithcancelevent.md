@@ -61,21 +61,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithCancelEvent</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IObjectWithCancelEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithcancelevent-getcancelevent">GetCancelEvent</a>
-</td>
-<td align="left" width="63%">
-Retrieves an event that will be sent when an operation is cancelled.
-
-</td>
-</tr>
-</table>

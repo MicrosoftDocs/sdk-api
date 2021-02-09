@@ -59,53 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawPalette</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirectDrawPalette</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawpalette-getcaps">GetCaps</a>
-</td>
-<td align="left" width="63%">
-Retrieves the capabilities of the palette object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawpalette-getentries">GetEntries</a>
-</td>
-<td align="left" width="63%">
-Retrieves palette values from a DirectDrawPalette object.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawpalette-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the DirectDrawPalette object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawpalette-setentries">SetEntries</a>
-</td>
-<td align="left" width="63%">
-Changes entries in a DirectDrawPalette object immediately.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The methods of the <b>IDirectDrawPalette</b> interface can be organized into the following groups:<table>

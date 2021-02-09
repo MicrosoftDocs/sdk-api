@@ -66,43 +66,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdGraphBuilder</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDvdGraphBuilder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-getdvdinterface">GetDvdInterface</a>
-</td>
-<td align="left" width="63%">
-Retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-getfiltergraph">GetFiltergraph</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface for the filter graph used by the DVD-Video graph builder object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">RenderDvdVideoVolume</a>
-</td>
-<td align="left" width="63%">
-Completes building a filter graph according to user specifications for playing a DVD-Video volume.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>

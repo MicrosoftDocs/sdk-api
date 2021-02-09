@@ -61,65 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkGesture</b> interface inh
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
-## -members
-
-The <b>IInkGesture</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint">GetHotPoint</a>
-</td>
-<td align="left" width="63%">
-Retrieves the hot point of the gesture in ink space coordinates.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkGesture</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence">Confidence</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the level of confidence (strong, intermediate, or poor) that a recognizer has in a gesture.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_id">Id</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the value of the application gesture.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Gesture support is built-in by using the Microsoft gesture recognizer. Available gestures are found in the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture</a> enumeration type. For more information about gestures, see <a href="/windows/desktop/tablet/using-gestures">Using Gestures</a> and <a href="/previous-versions/windows/desktop/ms702526(v=vs.85)">Command Input on the Tablet PC</a>.

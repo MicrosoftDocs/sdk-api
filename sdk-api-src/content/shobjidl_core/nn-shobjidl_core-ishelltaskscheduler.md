@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellTaskScheduler</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IShellTaskScheduler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-addtask">AddTask</a>
-</td>
-<td align="left" width="63%">
-Adds a task to the scheduler's background queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-counttasks">CountTasks</a>
-</td>
-<td align="left" width="63%">
-Counts tasks with the same owner ID in the scheduler's queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-removetasks">RemoveTasks</a>
-</td>
-<td align="left" width="63%">
-Removes tasks from the scheduler's background queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-status">Status</a>
-</td>
-<td align="left" width="63%">
-Sets the release status and background thread timeout for the current task.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface does not need to be free-threaded unless the items in the queue interact with the scheduler as well as the main execution thread on which the task scheduler was created.

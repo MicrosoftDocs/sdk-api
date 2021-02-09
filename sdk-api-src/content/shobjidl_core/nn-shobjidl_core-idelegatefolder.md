@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDelegateFolder</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDelegateFolder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idelegatefolder-setitemalloc">SetItemAlloc</a>
-</td>
-<td align="left" width="63%">
-Provides the delegate folder an <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface used to allocate and free item IDs.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The IDs allocated by the delegate folder are in the form of <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-delegateitemid">DELEGATEITEMID</a> structures. It is the delegate's job to pack its data into the pointer to an item identifier list (PIDL) in the <b>DELEGATEITEMID</b> format.

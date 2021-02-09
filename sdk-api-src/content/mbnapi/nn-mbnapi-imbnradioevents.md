@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnRadioEvents</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMbnRadioEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onradiostatechange">OnRadioStateChange</a>
-</td>
-<td align="left" width="63%">
-The radio state of the device has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onsetsoftwareradiostatecomplete">OnSetSoftwareRadioStateComplete</a>
-</td>
-<td align="left" width="63%">
-A set software radio state operation has completed.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The following procedure describes how to register for notifications.

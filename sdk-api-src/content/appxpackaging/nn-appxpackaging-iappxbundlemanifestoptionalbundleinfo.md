@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestOptionalBu
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxBundleManifestOptionalBundleInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getfilename">GetFileName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageid">GetPackageId</a>
-</td>
-<td align="left" width="63%">
-Retrieves an object that represents the identity of the &lt;OptionalBundle&gt;.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageinfoitems">GetPackageInfoItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves optional packages in the bundle.
-
-</td>
-</tr>
-</table>

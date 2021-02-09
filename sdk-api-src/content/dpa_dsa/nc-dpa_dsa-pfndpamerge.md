@@ -100,13 +100,13 @@ Perform any user-defined processing when the merge results in an item being inse
 </tr>
 </table>
 
-### -param *pvDest [in]
+### -param pvDest [in]
 
 Type: <b>void*</b>
 
 A pointer to the first item in the merge.
 
-### -param *pvSrc [in]
+### -param pvSrc [in]
 
 Type: <b>void*</b>
 

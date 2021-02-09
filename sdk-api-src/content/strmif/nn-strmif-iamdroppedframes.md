@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDroppedFrames</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAMDroppedFrames</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getaverageframesize">GetAverageFrameSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the average size of the frames that the filter has captured.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getdroppedinfo">GetDroppedInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves an array of frame numbers that were dropped.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getnumdropped">GetNumDropped</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total number of frames that the filter has dropped since it started streaming.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getnumnotdropped">GetNumNotDropped</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total number of frames that the filter has delivered since it started streaming.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Some filters that expose this interface do not implement the <a href="/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getdroppedinfo">GetDroppedInfo</a> or <a href="/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getaverageframesize">GetAverageFrameSize</a> method.

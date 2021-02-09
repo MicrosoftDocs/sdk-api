@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAsyncReaderTimestampScalin
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAMAsyncReaderTimestampScaling</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamasyncreadertimestampscaling-gettimestampmode">GetTimestampMode</a>
-</td>
-<td align="left" width="63%">
-Gets the filter's time-stamping mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamasyncreadertimestampscaling-settimestampmode">SetTimestampMode</a>
-</td>
-<td align="left" width="63%">
-Sets the filter's time-stamping mode.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 In the pull model, the parser filter requests data from the source filter by calling <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a>. The input to this method is a media sample. The time stamp on the sample specifies the location to read in the stream, as a byte offset.

@@ -61,25 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXpsPrintJobStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes the stream and indicates that the entire document has been written.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a> method must be called before this interface is released.</div>

@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLinkDataList</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IShellLinkDataList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-adddatablock">AddDataBlock</a>
-</td>
-<td align="left" width="63%">
-Adds a data block to a link.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-copydatablock">CopyDataBlock</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of a link's data block.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">GetFlags</a>
-</td>
-<td align="left" width="63%">
-Gets the current option settings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-removedatablock">RemoveDataBlock</a>
-</td>
-<td align="left" width="63%">
-Removes a data block from a link.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-setflags">SetFlags</a>
-</td>
-<td align="left" width="63%">
-Sets the current option settings.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The data blocks are in the form of a structure. The first two members are the same for all data blocks. The first member gives the structure's size. The second member is a signature that identifies the type of data block. The remaining members hold the block's data. There are five types of data block currently supported.

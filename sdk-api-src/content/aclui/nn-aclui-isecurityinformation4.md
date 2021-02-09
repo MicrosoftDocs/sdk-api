@@ -59,21 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation4</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISecurityInformation4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity">GetSecondarySecurity</a>
-</td>
-<td align="left" width="63%">
-Returns additional security contexts that may impact access to the resource.
-
-</td>
-</tr>
-</table>

@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GradientStopCollection1<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1GradientStopCollection1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getbufferprecision">GetBufferPrecision</a>
-</td>
-<td align="left" width="63%">
-Gets the precision of the gradient buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getcolorinterpolationmode">GetColorInterpolationMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the color interpolation mode that the gradient stop collection uses.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getgradientstops1">GetGradientStops1</a>
-</td>
-<td align="left" width="63%">
-Copies the gradient stops from the collection into memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getpostinterpolationspace">GetPostInterpolationSpace</a>
-</td>
-<td align="left" width="63%">
-Gets the color space after interpolation has occurred.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getpreinterpolationspace">GetPreInterpolationSpace</a>
-</td>
-<td align="left" width="63%">
-Gets the color space of the input colors as well as the space in which gradient stops are interpolated.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection">ID2D1DeviceContext::CreateGradientStopCollection</a>

@@ -60,30 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIPDVDec</b> interface inheri
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IIPDVDec</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iipdvdec-get_ipdisplay">get_IPDisplay</a>
-</td>
-<td align="left" width="63%">
-Gets the decoding resolution.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iipdvdec-put_ipdisplay">put_IPDisplay</a>
-</td>
-<td align="left" width="63%">
-Sets the decoding resolution.
-
-</td>
-</tr>
-</table>

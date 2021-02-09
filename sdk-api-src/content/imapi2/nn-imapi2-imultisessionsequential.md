@@ -68,61 +68,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionSequential</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMultisessionSequential</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_freesectorsonmedia">get_FreeSectorsOnMedia</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of free sectors available on the media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_isfirstdatasession">get_IsFirstDataSession</a>
-</td>
-<td align="left" width="63%">
-Determines if this session is the first data session on the media. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_lastwrittenaddressofprevioussession">get_LastWrittenAddressOfPreviousSession</a>
-</td>
-<td align="left" width="63%">
-Retrieves the last sector written in the previous session on the media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_nextwritableaddress">get_NextWritableAddress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next writable address on the media, including used sectors.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential-get_startaddressofprevioussession">get_StartAddressOfPreviousSession</a>
-</td>
-<td align="left" width="63%">
-Retrieves the first sector written in the previous session on the media.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If more than one multi-session interface exist, the application can let <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> choose a compatible multi-session interface to use  or the application can specify the multi-session interface to use by setting the <a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">put_InUse</a> property to VARIANT_TRUE.

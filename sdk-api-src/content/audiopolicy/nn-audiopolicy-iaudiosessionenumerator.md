@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionEnumerator</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioSessionEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the total number of audio sessions that are open on the audio device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getsession">GetSession</a>
-</td>
-<td align="left" width="63%">
-Gets the audio session specified by an audio session number. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If an application wants to be  notified when new sessions are created, it must register its implementation of  <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> with the session manager.  Upon successful registration, the session manager sends create-session notifications to the application in the form of callbacks. These notifications contain a reference to the <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> pointer of the newly created session. 

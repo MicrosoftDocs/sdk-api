@@ -64,43 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetClusterDataInfo</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IGetClusterDataInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getclusterhandle">GetClusterHandle</a>
-</td>
-<td align="left" width="63%">
-Returns a handle to the cluster.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getclustername">GetClusterName</a>
-</td>
-<td align="left" width="63%">
-Returns the name of the cluster.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">GetObjectCount</a>
-</td>
-<td align="left" width="63%">
-Returns a count of the number of selected objects.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 You can use the <b>IGetClusterDataInfo</b> interface when 

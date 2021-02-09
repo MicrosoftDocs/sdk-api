@@ -60,43 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDXGIAdapter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-checkinterfacesupport">CheckInterfaceSupport</a>
-</td>
-<td align="left" width="63%">
-Checks whether the system supports a device interface for a graphics component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-enumoutputs">EnumOutputs</a>
-</td>
-<td align="left" width="63%">
-Enumerate adapter (video card) outputs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Gets a DXGI 1.0 description of an adapter (or video card).
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A display subsystem is often referred to as a video card, however, on some machines the display subsystem is part of the motherboard.

@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallIndirect</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICallIndirect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallindirect-callindirect">CallIndirect</a>
-</td>
-<td align="left" width="63%">
-Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallindirect-getiid">GetIID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the interface id supported by this <b>ICallIndirect</b> implementation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallindirect-getmethodinfo">GetMethodInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the interface method from the call frame.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallindirect-getstacksize">GetStackSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The actual detailed semantics of how to carry out an indirect call are independent of the <b>ICallIndirect</b> interface itself; they are instead specific to the implementation of the interface. For example, implementations of <b>ICallIndirect</b> found in call interceptors carry out the call by constructing and appropriate <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a> instance and then invoking <a href="/windows/desktop/api/callobj/nf-callobj-icallframeevents-oncall">ICallFrameEvents::OnCall</a> in the registered sink. Other implementations might do some appropriate munging of the invocations arguments, then forward the call on to some actual specific object, presumably one previously registered with the <b>ICallIndirect</b> using some implementation-specific means.

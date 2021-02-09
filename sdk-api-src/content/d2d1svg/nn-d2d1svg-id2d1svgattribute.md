@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgAttribute</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1SvgAttribute</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgattribute-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a clone of this attribute value. On creation, the cloned attribute is not set on any element.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgattribute-getelement">GetElement</a>
-</td>
-<td align="left" width="63%">
-Returns the element on which this attribute is set. Returns null if the attribute is not set on any element.
-
-</td>
-</tr>
-</table>

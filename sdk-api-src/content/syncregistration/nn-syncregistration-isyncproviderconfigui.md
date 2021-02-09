@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncProviderConfigUI</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISyncProviderConfigUI</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfigui-createandregisternewsyncprovider">CreateAndRegisterNewSyncProvider</a>
-</td>
-<td align="left" width="63%">
-Creates and registers a new  synchronization provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfigui-getregisteredproperties">GetRegisteredProperties</a>
-</td>
-<td align="left" width="63%">
-Obtains configuration UI properties for reading and writing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfigui-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes the configuration UI for a synchronization provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfigui-modifysyncprovider">ModifySyncProvider</a>
-</td>
-<td align="left" width="63%">
-Updates the <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> of the synchronization provider that is configured by this <b>ISyncProviderConfigUI</b>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The writer of a synchronization provider should implement an <b>ISyncProviderConfigUI</b> (a builder) for a synchronization provider if it requires additional information and properties to be set before it can be created. For example, a synchronization provider may require a user to enter credentials before their data can be synchronized.

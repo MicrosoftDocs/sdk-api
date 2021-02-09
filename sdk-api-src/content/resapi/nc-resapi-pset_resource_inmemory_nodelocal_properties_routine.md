@@ -57,7 +57,7 @@ TBD
 
 TBD
 
-### -param *propertyListBuffer [in] [in]
+### -param propertyListBuffer [in] [in]
 
 TBD
 

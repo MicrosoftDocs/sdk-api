@@ -58,11 +58,11 @@ The <b>CryptXmlDllGetInterface</b> function retrieves a pointer to the cryptogra
 
 This parameter is reserved and must be set to zero.
 
-### -param *pMethod [in]
+### -param pMethod [in]
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure to retrieve the interface of.
 
-### -param *pInterface [out]
+### -param pInterface [out]
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure to receive the interface information.
 

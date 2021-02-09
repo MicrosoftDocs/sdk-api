@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDllServerActivatableClassReg
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDllServerActivatableClassRegistration</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_dllpath">get_DllPath</a>
-</td>
-<td align="left" width="63%">
-Gets the fully qualified path to the in-process server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_threadingtype">get_ThreadingType</a>
-</td>
-<td align="left" width="63%">
-Gets the apartment threading model for activating the in-process server.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>

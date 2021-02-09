@@ -59,26 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESValueUpdatedEvent</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IESValueUpdatedEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesvalueupdatedevent-getvaluenames">GetValueNames</a>
-</td>
-<td align="left" width="63%">
-For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name that has been updated. 
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESValueUpdatedEvent)</code>.

@@ -54,7 +54,7 @@ Handles freeing an encoder instance.
 
 ## -parameters
 
-### -param *encoderContext [in]
+### -param encoderContext [in]
 
 Frees an instance of an encoder.
 

@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1LinearGradientBrush</b> 
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1LinearGradientBrush</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1lineargradientbrush-getendpoint">GetEndPoint</a>
-</td>
-<td align="left" width="63%">
-Retrieves the ending coordinates of the linear gradient.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1lineargradientbrush-getgradientstopcollection">GetGradientStopCollection</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> associated with this linear gradient brush.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1lineargradientbrush-getstartpoint">GetStartPoint</a>
-</td>
-<td align="left" width="63%">
-Retrieves the starting coordinates of the linear gradient.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1lineargradientbrush-setendpoint">SetEndPoint</a>
-</td>
-<td align="left" width="63%">
-Sets the ending coordinates of the linear gradient in the brush's coordinate space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1lineargradientbrush-setstartpoint">SetStartPoint</a>
-</td>
-<td align="left" width="63%">
-Sets the starting coordinates of the linear gradient in the brush's coordinate space. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An <b>ID2D1LinearGradientBrush</b> paints an area with a linear gradient along a line between the brush start point and end   point. The gradient, defined by the brush <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>, is extruded perpendicular to this line, and then transformed by a brush transform (if specified).  

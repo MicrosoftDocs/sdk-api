@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ConditionalAccessEx</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBDA_ConditionalAccessEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-checkentitlementtoken">CheckEntitlementToken</a>
-</td>
-<td align="left" width="63%">
-Checks the access availability of content that is identified by an entitlement token.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-closemmidialog">CloseMmiDialog</a>
-</td>
-<td align="left" width="63%">
-Notifies the CAS that the media sink device (MSD) has closed a user interface (MMI) dialog.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-createdialogrequestnumber">CreateDialogRequestNumber</a>
-</td>
-<td align="left" width="63%">
-Gets a new dialog request number.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-openbroadcastmmi">OpenBroadcastMmi</a>
-</td>
-<td align="left" width="63%">
-Responds to a BroadcastMMI event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-setcapturetoken">SetCaptureToken</a>
-</td>
-<td align="left" width="63%">
-Requests special events that are identified by a capture token.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_ConditionalAccessEx)</code>.

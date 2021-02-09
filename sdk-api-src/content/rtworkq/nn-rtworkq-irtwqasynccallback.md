@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqAsyncCallback</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRtwqAsyncCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-getparameters">GetParameters</a>
-</td>
-<td align="left" width="63%">
-Provides configuration information to the dispatching thread for a callback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke">Invoke</a>
-</td>
-<td align="left" width="63%">
-Called when an asynchronous operation is completed.
-
-</td>
-</tr>
-</table>

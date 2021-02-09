@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObj</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDsAdminNewObj</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobj-getpagecounts">GetPageCounts</a>
-</td>
-<td align="left" width="63%">
-Obtains the total number of pages in the wizard as well as the index of the first page of the  extension.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobj-setbuttons">SetButtons</a>
-</td>
-<td align="left" width="63%">
-Enables or disables the "Next" command button in the wizard for a specific page.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>

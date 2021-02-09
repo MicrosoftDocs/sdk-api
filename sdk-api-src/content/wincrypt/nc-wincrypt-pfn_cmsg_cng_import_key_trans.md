@@ -74,7 +74,7 @@ This function must not update members of the  <a href="/windows/desktop/api/winc
 
 This parameter is reserved. Set it to zero.
 
-### -param *pvReserved
+### -param pvReserved
 
 This parameter is reserved. Set it to <b>NULL</b>.
 

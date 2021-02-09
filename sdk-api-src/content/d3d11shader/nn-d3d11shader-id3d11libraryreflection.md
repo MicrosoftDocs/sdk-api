@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11LibraryReflection</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D11LibraryReflection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11libraryreflection-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Fills the library descriptor structure for the library reflection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11libraryreflection-getfunctionbyindex">GetFunctionByIndex</a>
-</td>
-<td align="left" width="63%">
-Gets the function reflector.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To get a library-reflection interface, call <a href="/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dreflectlibrary">D3DReflectLibrary</a>.

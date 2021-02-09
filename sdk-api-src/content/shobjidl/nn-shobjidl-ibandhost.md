@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandHost</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBandHost</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-createband">CreateBand</a>
-</td>
-<td align="left" width="63%">
-Creates a specified band.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-destroyband">DestroyBand</a>
-</td>
-<td align="left" width="63%">
-Destroys a specified band.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-setbandavailability">SetBandAvailability</a>
-</td>
-<td align="left" width="63%">
-Sets the availability of a specified band.
-
-</td>
-</tr>
-</table>

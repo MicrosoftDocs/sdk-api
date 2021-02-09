@@ -63,43 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDrawVideoImage</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDrawVideoImage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimagebegin">DrawVideoImageBegin</a>
-</td>
-<td align="left" width="63%">
-Turns off DirectDraw in preparation for a call to <a href="/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimagedraw">DrawVideoImageDraw</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimagedraw">DrawVideoImageDraw</a>
-</td>
-<td align="left" width="63%">
-Draws the specified source rectangle to the specified destination rectangle in the specified GDI device context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimageend">DrawVideoImageEnd</a>
-</td>
-<td align="left" width="63%">
-Turns DirectDraw back on after drawing has been performed.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>

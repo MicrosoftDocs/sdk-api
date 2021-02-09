@@ -64,25 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceFinderAddCallbackW
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUPnPDeviceFinderAddCallbackWithInterface</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinderaddcallbackwithinterface-deviceaddedwithinterface">DeviceAddedWithInterface</a>
-</td>
-<td align="left" width="63%">
-Invoked by the UPnP framework to notify the application that  a device has been added to the network.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If you implement this interface, you must also implement the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefindercallback">IUPnPDeviceFinderCallback</a> interface.

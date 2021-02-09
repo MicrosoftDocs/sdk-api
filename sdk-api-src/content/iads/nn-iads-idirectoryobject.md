@@ -64,61 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectoryObject</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirectoryObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">CreateDSObject</a>
-</td>
-<td align="left" width="63%">
-Creates a directory service object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-deletedsobject">DeleteDSObject</a>
-</td>
-<td align="left" width="63%">
-Deletes a directory service object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">GetObjectAttributes</a>
-</td>
-<td align="left" width="63%">
-Gets one or more attributes of a directory service object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectinformation">GetObjectInformation</a>
-</td>
-<td align="left" width="63%">
-Gets data about a directory service object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">SetObjectAttributes</a>
-</td>
-<td align="left" width="63%">
-Sets one or more attributes of a directory service object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>

@@ -58,15 +58,15 @@ The incoming <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>, the servi
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 The <a href="/windows/desktop/wsw/ws-operation-context">context</a> within which this callback is being invoked.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Specifies whether the callback can run asynchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

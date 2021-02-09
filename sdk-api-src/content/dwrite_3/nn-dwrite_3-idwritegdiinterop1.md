@@ -60,43 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGdiInterop1</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteGdiInterop1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-createfontfromlogfont">CreateFontFromLOGFONT</a>
-</td>
-<td align="left" width="63%">
-Creates a font object that matches the properties specified by the LOGFONT structure.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-getfontsignature">GetFontSignature</a>
-</td>
-<td align="left" width="63%">Overloaded. Retrieves a font signature.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-getmatchingfontsbylogfont">GetMatchingFontsByLOGFONT</a>
-</td>
-<td align="left" width="63%">
-Gets a list of matching fonts based on the specified LOGFONT values. Only fonts
-        of that family name will be returned.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>

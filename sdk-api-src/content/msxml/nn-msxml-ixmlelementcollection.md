@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLElementCollection</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXMLElementCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msxml/nf-msxml-ixmlelementcollection-get_length">get_length</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of elements in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msxml/nf-msxml-ixmlelementcollection-item">item</a>
-</td>
-<td align="left" width="63%">
-Retrieves the child elements from a collection.
-
-</td>
-</tr>
-</table>

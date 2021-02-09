@@ -59,33 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SolidColorBrush</b> inte
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1SolidColorBrush</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1solidcolorbrush-getcolor">GetColor</a>
-</td>
-<td align="left" width="63%">
-Retrieves the color of the solid color brush.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/Direct2D/id2d1solidcolorbrush-setcolor">SetColor</a>
-</td>
-<td align="left" width="63%">Overloaded. Specifies the color of this solid color brush. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="Creating_ID2D1SolidColorBrush_Objects"></a><a id="creating_id2d1solidcolorbrush_objects"></a><a id="CREATING_ID2D1SOLIDCOLORBRUSH_OBJECTS"></a>Creating ID2D1SolidColorBrush Objects</h3>

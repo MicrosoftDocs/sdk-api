@@ -60,43 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSampleGrabberSinkCallback<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFSampleGrabberSinkCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onprocesssample">OnProcessSample</a>
-</td>
-<td align="left" width="63%">
-Called when the sample-grabber sink receives a new media sample.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onsetpresentationclock">OnSetPresentationClock</a>
-</td>
-<td align="left" width="63%">
-Called when the presentation clock is set on the sample-grabber sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback-onshutdown">OnShutdown</a>
-</td>
-<td align="left" width="63%">
-Called when the sample-grabber sink is shut down.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The sample-grabber sink enables an application to get data from the Media Foundation pipeline without implementing a custom media sink. To use the sample-grabber sink, the application must perform the following steps:

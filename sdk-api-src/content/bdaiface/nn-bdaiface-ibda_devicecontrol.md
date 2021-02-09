@@ -63,52 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DeviceControl</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBDA_DeviceControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-checkchanges">CheckChanges</a>
-</td>
-<td align="left" width="63%">
-Queries the device filter as to whether the changes that are pending would succeed if they were committed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-commitchanges">CommitChanges</a>
-</td>
-<td align="left" width="63%">
-Instructs the device to perform the changes specified in the previous call to <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-startchanges">StartChanges</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-getchangestate">GetChangeState</a>
-</td>
-<td align="left" width="63%">
-Returns a value indicating whether any uncommitted changes are currently pending in the filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_devicecontrol-startchanges">StartChanges</a>
-</td>
-<td align="left" width="63%">
-Called by a Network Provider before it begins to modify a set of properties on a BDA device filter.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_DeviceControl)</code>.

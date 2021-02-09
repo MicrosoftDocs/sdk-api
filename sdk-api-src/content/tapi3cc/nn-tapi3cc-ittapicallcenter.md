@@ -67,36 +67,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTAPICallCenter</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITTAPICallCenter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-enumerateagenthandlers">EnumerateAgentHandlers</a>
-</td>
-<td align="left" width="63%">
-Enumerates 
-<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interfaces currently associated with the call center.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-get_agenthandlers">get_AgentHandlers</a>
-</td>
-<td align="left" width="63%">
-Creates a collection of 
-<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interfaces currently associated with the call center. Provided for Automation client applications, such as those written in Visual Basic.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Tapi/call-center-controls-interfaces">Call Center Interfaces</a>

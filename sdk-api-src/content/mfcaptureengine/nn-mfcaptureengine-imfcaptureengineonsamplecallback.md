@@ -59,27 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureEngineOnSampleCallb
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFCaptureEngineOnSampleCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineonsamplecallback-onsample">OnSample</a>
-</td>
-<td align="left" width="63%">
-Called when the capture sink receives a sample.
-
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To set the callback interface, call one of the following methods.

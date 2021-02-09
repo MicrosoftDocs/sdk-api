@@ -64,30 +64,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectoryObjectUser</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITDirectoryObjectUser</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-get_ipphoneprimary">get_IPPhonePrimary</a>
-</td>
-<td align="left" width="63%">
-Gets user's primary IP phone.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-put_ipphoneprimary">put_IPPhonePrimary</a>
-</td>
-<td align="left" width="63%">
-Sets user's primary IP phone.
-
-</td>
-</tr>
-</table>

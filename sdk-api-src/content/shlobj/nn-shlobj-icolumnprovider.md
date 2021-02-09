@@ -62,43 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnProvider</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IColumnProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">GetColumnInfo</a>
-</td>
-<td align="left" width="63%">
-Requests information about a column.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">GetItemData</a>
-</td>
-<td align="left" width="63%">
-Requests column data for a specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes an <b>IColumnProvider</b> interface.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The Windows Explorer Details view typically displays several standard columns. Each column lists information, such as the file size or type, for each file in the current folder. There can also be a number of columns that the user can choose to display. When the user right-clicks one of the column headers, a list of the available columns is displayed in a dialog box. By creating a column provider object that exports the <b>IColumnProvider</b> interface, you can add custom columns to that dialog box for display by Windows Explorer. For example, a collection of files that contain music could use a column provider to display columns listing the artist and piece contained by each file.

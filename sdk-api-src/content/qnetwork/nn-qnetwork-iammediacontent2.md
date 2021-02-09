@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent2</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAMMediaContent2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparameter">get_MediaParameter</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of a custom parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparametername">get_MediaParameterName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of a custom parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_playlistcount">get_PlaylistCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of playlist entries.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:

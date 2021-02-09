@@ -58,7 +58,7 @@ Gets the custom rates that a software Microsoft DirectX Video Acceleration High 
 
 A handle to the plug-in DXVA-HD device.
 
-### -param *pVPGuid [in]
+### -param pVPGuid [in]
 
 A GUID that identifies the video processor to query.
 
@@ -66,7 +66,7 @@ A GUID that identifies the video processor to query.
 
 The number of rates to retrieve.
 
-### -param *pRates [out]
+### -param pRates [out]
 
 A pointer to an array of <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_custom_rate_data">DXVAHD_CUSTOM_RATE_DATA</a> structures. The <i>Count</i> parameter specifies the number of elements in the array. The function fills the array with a list of custom rates.
 

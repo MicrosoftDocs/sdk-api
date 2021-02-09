@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemBalloon</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfLangBarItemBalloon</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemballoon-getballooninfo">GetBalloonInfo</a>
-</td>
-<td align="left" width="63%">
-Obtains information about the balloon.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemballoon-getpreferredsize">GetPreferredSize</a>
-</td>
-<td align="left" width="63%">
-Obtains the preferred size,in pixels, of the balloon.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemballoon-onclick">OnClick</a>
-</td>
-<td align="left" width="63%">
-Not currently used.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A language bar balloon acts as a pop-up notification on the language bar.

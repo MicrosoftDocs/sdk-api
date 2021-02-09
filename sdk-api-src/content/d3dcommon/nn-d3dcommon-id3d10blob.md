@@ -59,36 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Blob</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D10Blob</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3d10blob-getbufferpointer">GetBufferPointer</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the data.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3d10blob-getbuffersize">GetBufferSize</a>
-</td>
-<td align="left" width="63%">
-Gets the size.
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface is type-defined in the D3DCommon.h header file as a <b>ID3D10Blob</b> interface, which is fully defined in the D3DCommon.h header file.

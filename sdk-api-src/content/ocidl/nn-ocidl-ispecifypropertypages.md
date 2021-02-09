@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpecifyPropertyPages</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISpecifyPropertyPages</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ispecifypropertypages-getpages">GetPages</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of property pages that can be displayed in this object's property sheet.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
  A property page object manages a particular page within a property sheet. A property page implements at least <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a> and can optionally implement <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage2">IPropertyPage2</a> if selection of a specific property is supported.

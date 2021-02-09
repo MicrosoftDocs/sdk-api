@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferSink</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IStreamBufferSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-createrecorder">CreateRecorder</a>
-</td>
-<td align="left" width="63%">
-Creates a <b>Recording</b> object for permanent file storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-isprofilelocked">IsProfileLocked</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the profile has been locked.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">LockProfile</a>
-</td>
-<td align="left" width="63%">
-Locks a graph profile, preventing input streams from changing, and optionally specifies the buffer file's name and location.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IStreamBufferSink)</code>.

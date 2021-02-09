@@ -63,53 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyRenewal</b> inte
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
-## -members
-
-The <b>ICertPropertyRenewal</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyrenewal-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from a SHA-1 hash of the new certificate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyrenewal-initializefromcertificatehash">InitializeFromCertificateHash</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from the new  certificate.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyRenewal</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyrenewal-get_renewal">Renewal</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves the SHA-1 hash of the new certificate.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>

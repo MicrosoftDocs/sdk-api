@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVertexDeclaration9</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirect3DVertexDeclaration9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexdeclaration9-getdeclaration">GetDeclaration</a>
-</td>
-<td align="left" width="63%">
-Gets the vertex shader declaration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexdeclaration9-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Gets the current device.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A vertex shader declaration is made up of an array of vertex elements.

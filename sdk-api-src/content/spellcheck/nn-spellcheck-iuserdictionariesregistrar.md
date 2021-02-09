@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserDictionariesRegistrar</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUserDictionariesRegistrar</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-registeruserdictionary">RegisterUserDictionary</a>
-</td>
-<td align="left" width="63%">
-Registers a file to be used as a user dictionary for the current user, until unregistered.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-unregisteruserdictionary">UnregisterUserDictionary</a>
-</td>
-<td align="left" width="63%">
-Unregisters a previously registered user dictionary.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>IUserDictionariesRegistrar</b> allows clients to persistently register and unregister user dictionary files that exist in locations other than the usual dictionary path (<code>%AppData%\Microsoft\Spelling</code>). The dictionaries must have the same file formats as the ones located in the normal path and also should have the appropriate file extensions.

@@ -52,14 +52,14 @@ api_name:
 
 ## -parameters
 
-### -param *Packet [in, out]
+### -param Packet [in, out]
 
 Pointer to a buffer, 4Kb in size,  that contains the packet.
 
 <div class="alert"><b>Note</b>  Writing to this buffer directly is not recommended.</div>
 <div> </div>
 
-### -param *PacketSize [in, out]
+### -param PacketSize [in, out]
 
 Pointer to the size of the <i>Packet</i> parameter, in bytes.
 

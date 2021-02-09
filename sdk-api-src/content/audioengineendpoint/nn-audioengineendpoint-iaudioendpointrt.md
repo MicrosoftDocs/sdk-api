@@ -65,52 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointRT</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioEndpointRT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-getcurrentpadding">GetCurrentPadding</a>
-</td>
-<td align="left" width="63%">
-Gets the amount, in 100-nanosecond units, of data that is queued up in the endpoint.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-processingcomplete">ProcessingComplete</a>
-</td>
-<td align="left" width="63%">
-Notifies the endpoint that a processing pass has been completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-setpinactive">SetPinActive</a>
-</td>
-<td align="left" width="63%">
-Notifies the endpoint that it must change the state of the underlying stream to an active state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-setpininactive">SetPinInactive</a>
-</td>
-<td align="left" width="63%">
-Notifies the endpoint that it must change the state of the underlying stream to an inactive state.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client 

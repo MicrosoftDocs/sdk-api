@@ -59,46 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcUri</b> interface inherit
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOpcUri</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcuri-combineparturi">CombinePartUri</a>
-</td>
-<td align="left" width="63%">
-Forms the part name of the part that is referenced by the specified relative URI.
-            
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcuri-getrelationshipsparturi">GetRelationshipsPartUri</a>
-</td>
-<td align="left" width="63%">
-Gets the part name of the Relationships part that stores relationships that have the source URI represented by the  current OPC URI object.
-            
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcuri-getrelativeuri">GetRelativeUri</a>
-</td>
-<td align="left" width="63%">
-Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
-            
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="Support_on__Previous_Windows_Versions"></a><a id="support_on__previous_windows_versions"></a><a id="SUPPORT_ON__PREVIOUS_WINDOWS_VERSIONS"></a>Support on  Previous Windows Versions</h3>

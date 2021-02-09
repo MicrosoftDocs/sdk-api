@@ -69,52 +69,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATPROPSTG</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumSTATPROPSTG</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new enumerator that contains the same enumeration state as the current <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets a specified number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning of the <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips a specified number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures in the enumeration sequence.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>

@@ -229,7 +229,7 @@ Buffer integrity is verified; however, replayed and out-of-sequence messages wil
 
 The size, in characters, of the <i>MetaData</i> buffer.
 
-### -param *MetaData [out]
+### -param MetaData [out]
 
 The metadata that the SSP provides.
 

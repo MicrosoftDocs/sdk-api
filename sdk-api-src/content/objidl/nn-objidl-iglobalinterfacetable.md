@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalInterfaceTable</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IGlobalInterfaceTable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal">GetInterfaceFromGlobal</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an interface on an object that is usable by the calling apartment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal">RegisterInterfaceInGlobal</a>
-</td>
-<td align="left" width="63%">
-Registers the specified interface on an object residing in one apartment of a process as a global interface, enabling other apartments access to that interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal">RevokeInterfaceFromGlobal</a>
-</td>
-<td align="left" width="63%">
-Revokes the registration of an interface in the global interface table.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IGlobalInterfaceTable</b> interface is an efficient way for a process to store an interface pointer in a memory location that can be accessed from multiple apartments within the process, such as processwide variables and agile (free-threaded marshaled) objects containing interface pointers to other objects. 

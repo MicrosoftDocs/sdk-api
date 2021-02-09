@@ -66,7 +66,7 @@ Specifies the Winlogon handle passed to GINA in the
 
 Specifies one of the following options:
 
-### -param *Value [out]
+### -param Value [out]
 
 Returns the current value of the option.
 

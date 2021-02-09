@@ -69,36 +69,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgentSessionEvent</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITAgentSessionEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event">get_Event</a>
-</td>
-<td align="left" width="63%">
-Gets an 
-<a href="/windows/desktop/api/tapi3/ne-tapi3-agent_session_event">AGENT_SESSION_EVENT</a> descriptor of the event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_session">get_Session</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the 
-<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>

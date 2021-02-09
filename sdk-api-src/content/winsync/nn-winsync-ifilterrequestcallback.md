@@ -59,26 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterRequestCallback</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFilterRequestCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">RequestFilter</a>
-</td>
-<td align="left" width="63%">
-Requests that the filter that is specified by the destination provider be used by the source provider during change enumeration.
-
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irequestfilteredsync">IRequestFilteredSync Interface</a>

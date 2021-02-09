@@ -59,28 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandlerActivationHost</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IHandlerActivationHost</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihandleractivationhost-beforecocreateinstance">BeforeCoCreateInstance</a>
-</td>
-<td align="left" width="63%">Notifies a client of <a href="/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> that a handler is about to be created, giving that client the opportunity to display UI confirming the use of that handler or reject it by returning a specific error code.</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihandleractivationhost-beforecreateprocess">BeforeCreateProcess</a>
-</td>
-<td align="left" width="63%">Notifies a client of <a href="/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> that a process is about to created, giving that client the opportunity to display UI confirming that or reject it by returning a specific error code.</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is implemented by an object reachable through the site chain provided to [ShellExecuteEx](../shellapi/nf-shellapi-shellexecuteexw.md) or the context menu handler. Applications will return this object in their **IServiceProvider::QueryService** implementation when asked for the service ID **SID_SHandlerActivationHost**.

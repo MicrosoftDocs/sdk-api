@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocManagerNotificatio
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDot11AdHocManagerNotificationSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-oninterfaceadd">IDot11AdHocManagerNotificationSink::OnInterfaceAdd</a>
-</td>
-<td align="left" width="63%">
-Notifies the client that a new network interface card (NIC) is active.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-oninterfaceremove">IDot11AdHocManagerNotificationSink::OnInterfaceRemove</a>
-</td>
-<td align="left" width="63%">
-Notifies the client that a network interface card (NIC) has become inactive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-onnetworkadd">IDot11AdHocManagerNotificationSink::OnNetworkAdd</a>
-</td>
-<td align="left" width="63%">
-Notifies the client that a new wireless ad hoc network destination is in range and available for connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-onnetworkremove">IDot11AdHocManagerNotificationSink::OnNetworkRemove</a>
-</td>
-<td align="left" width="63%">
-Notifies the client that a wireless ad hoc network destination is no longer  available for connection.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>

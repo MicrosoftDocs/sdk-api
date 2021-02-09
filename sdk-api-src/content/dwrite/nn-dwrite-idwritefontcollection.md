@@ -59,53 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteFontCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-findfamilyname">FindFamilyName</a>
-</td>
-<td align="left" width="63%">
- Finds the font family with the specified family name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamily">GetFontFamily</a>
-</td>
-<td align="left" width="63%">
- Creates a font family object given a zero-based font family index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamilycount">GetFontFamilyCount</a>
-</td>
-<td align="left" width="63%">
- Gets the number of font families in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-getfontfromfontface">GetFontFromFontFace</a>
-</td>
-<td align="left" width="63%">
- Gets the font object that corresponds to the same physical font as the specified font face object. The specified physical font must belong 
-     to the font collection.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection">IDWriteFactory::GetSystemFontCollection</a> method will give you an <b>IDWriteFontCollection</b> object, which encapsulates the set of fonts installed on the system, as shown in the following code example.

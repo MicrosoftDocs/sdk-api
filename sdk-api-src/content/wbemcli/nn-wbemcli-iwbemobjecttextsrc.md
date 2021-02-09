@@ -63,32 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemObjectTextSrc</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWbemObjectTextSrc</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>CreateFromText</b></td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext">GetText</a>
-</td>
-<td align="left" width="63%">
-Creates a textual representation of a class or object instance.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <b></b>

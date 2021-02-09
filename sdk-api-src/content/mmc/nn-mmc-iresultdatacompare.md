@@ -65,21 +65,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultDataCompare</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IResultDataCompare</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iresultdatacompare-compare">Compare</a>
-</td>
-<td align="left" width="63%">
-Compares two cookies.
-
-</td>
-</tr>
-</table>

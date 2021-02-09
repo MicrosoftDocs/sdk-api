@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ConcreteTransform</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1ConcreteTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1concretetransform-setcached">SetCached</a>
-</td>
-<td align="left" width="63%">
-Sets whether the output of the specified transform is cached.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1concretetransform-setoutputbuffer">SetOutputBuffer</a>
-</td>
-<td align="left" width="63%">
-Sets the properties of the output buffer of the specified transform node.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>

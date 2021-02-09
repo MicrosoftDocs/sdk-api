@@ -59,26 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12CommandList</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D12CommandList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandlist-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Gets the type of the command list, such as direct, bundle, compute, or copy.
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Use <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandlist">ID3D12Device::CreateCommandList</a> to create a command list object.

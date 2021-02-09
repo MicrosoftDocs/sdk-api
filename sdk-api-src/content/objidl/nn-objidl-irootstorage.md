@@ -61,25 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRootStorage</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRootStorage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-irootstorage-switchtofile">SwitchToFile</a>
-</td>
-<td align="left" width="63%">
-Copies the file underlying this root storage object, and then associates this storage with the copied file.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>

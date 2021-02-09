@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual2</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IShellFolderViewDual2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-get_currentviewmode">get_CurrentViewMode</a>
-</td>
-<td align="left" width="63%">
-Gets the current view mode of the current folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-put_currentviewmode">put_CurrentViewMode</a>
-</td>
-<td align="left" width="63%">
-Sets the current view mode of the current folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-selectitemrelative">SelectItemRelative</a>
-</td>
-<td align="left" width="63%">
-Selects an item relative to the current item.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface also provides the methods of the <a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a> interface, from which it inherits.

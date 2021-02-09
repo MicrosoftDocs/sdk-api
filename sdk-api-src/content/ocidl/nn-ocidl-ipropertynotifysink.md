@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyNotifySink</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPropertyNotifySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onchanged">OnChanged</a>
-</td>
-<td align="left" width="63%">
-Notifies a sink that a <a href="/windows/desktop/Midl/bindable">bindable</a> property has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onrequestedit">OnRequestEdit</a>
-</td>
-<td align="left" width="63%">
-Notifies a sink that a <a href="/windows/desktop/Midl/requestedit">requestedit</a> property is about to change.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The object is itself required to call the methods of <b>IPropertyNotifySink</b> only for those properties marked with the [<a href="/windows/desktop/Midl/bindable">bindable</a>] and [<a href="/windows/desktop/Midl/requestedit">requestedit</a>] attributes in the object's type information. When the object changes a [<b>bindable</b>] property, it is required to call <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onchanged">IPropertyNotifySink::OnChanged</a>. When the object is about to change a [<b>requestedit</b>] property, it must call <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onrequestedit">IPropertyNotifySink::OnRequestEdit</a> before changing the property and must also honor the action specified by the sink on return from this call.

@@ -151,7 +151,7 @@ If the user is not found and the Guest account is enabled, the Guest account is 
 
 Reserved. Specify zero.
 
-### -param *UserHandle [out]
+### -param UserHandle [out]
 
 Pointer to a pointer that receives a handle to the user account.
 

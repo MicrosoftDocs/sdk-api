@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsBrowseDomainTree</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDsBrowseDomainTree</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto">BrowseTo</a>
-</td>
-<td align="left" width="63%">
-Displays a dialog box used to browse for a domain.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">FlushCachedDomains</a>
-</td>
-<td align="left" width="63%">
-Frees the cached domain list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">FreeDomains</a>
-</td>
-<td align="left" width="63%">
-Frees the memory allocated by the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">GetDomains</a>
-</td>
-<td align="left" width="63%">
-Retrieves the trust domains of the current computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">SetComputer</a>
-</td>
-<td align="left" width="63%">
-Specifies the computer and credentials to be used by this instance of the <b>IDsBrowseDomainTree</b> interface.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An instance of this interface is created by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.

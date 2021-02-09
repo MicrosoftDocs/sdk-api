@@ -62,13 +62,13 @@ Type: <b>DWORD</b>
 
 Specifies a unique number that identifies the fax job that received the fax document.
 
-### -param *GuidOwner [in]
+### -param GuidOwner [in]
 
 Type: <b>GUID*</b>
 
 Pointer to the GUID associated with the fax routing method that added the file to the fax file list. (This file is specified by the <i>FileName</i> parameter.)
 
-### -param *GuidCaller [in]
+### -param GuidCaller [in]
 
 Type: <b>GUID*</b>
 

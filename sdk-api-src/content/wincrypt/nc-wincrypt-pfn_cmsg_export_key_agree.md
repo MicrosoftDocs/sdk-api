@@ -70,7 +70,7 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree
 
 This value is not used. Set it to zero.
 
-### -param *pvReserved
+### -param pvReserved
 
 This parameter is reserved and must be NULL.
 

@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventSink</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWbemEventSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-getrestrictedsink">GetRestrictedSink</a>
-</td>
-<td align="left" width="63%">
-Called by the consumer to set up restricted event queries.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-isactive">IsActive</a>
-</td>
-<td align="left" width="63%">
-Checks status of event sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setbatchingparameters">SetBatchingParameters</a>
-</td>
-<td align="left" width="63%">
-Called by the consumer to set batching parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity">SetSinkSecurity</a>
-</td>
-<td align="left" width="63%">
-Used to update the security descriptor on an event sink.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 When implementing an event subscription sink (<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> or <b>IWbemEventSink</b>), do  not call into WMI from within the  methods on the sink object.  For example, calling <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">IWbemServices::CancelAsyncCall</a> to cancel the sink  from within an implementation of <a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity">IWbemEventSink::SetSinkSecurity</a> can interfere with the WMI state. To cancel an event subscription, set a flag and call <b>IWbemServices::CancelAsyncCall</b> from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.

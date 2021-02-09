@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMouseTracker</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfMouseTracker</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">AdviseMouseSink</a>
-</td>
-<td align="left" width="63%">
-Installs a mouse event sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-unadvisemousesink">UnadviseMouseSink</a>
-</td>
-<td align="left" width="63%">
-Uninstalls a mouse event sink.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext

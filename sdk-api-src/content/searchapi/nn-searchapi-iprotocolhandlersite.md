@@ -59,26 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProtocolHandlerSite</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IProtocolHandlerSite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter">GetFilter</a>
-</td>
-<td align="left" width="63%">
-Retrieves the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>according to the supplied parameters.     
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter">IProtocolHandlerSite::GetFilter</a> method.

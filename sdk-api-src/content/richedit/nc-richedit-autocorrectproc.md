@@ -66,13 +66,13 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LANGID</a></b>
 
 Language ID that identifies the autocorrect file to use for automatic correcting.
 
-### -param *pszBefore
+### -param pszBefore
 
 Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
 Autocorrect candidate string.
 
-### -param *pszAfter
+### -param pszAfter
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
@@ -84,7 +84,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Count of characters in <i>pszAfter</i>.
 
-### -param *pcchReplaced
+### -param pcchReplaced
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 

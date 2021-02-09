@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecAMVideoAccelerator</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMCodecAMVideoAccelerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-negotiateconnection">NegotiateConnection</a>
-</td>
-<td align="left" width="63%">
-Called by the output pin on the player's source filter during the connection process when it has been given a DirectX VA media type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-setacceleratorinterface">SetAcceleratorInterface</a>
-</td>
-<td align="left" width="63%">
-Called by the output pin on the player's source filter to pass the VMR's <b>IAMVideoAccelerator</b> interface to the decoder DMO.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmdxva/nf-wmdxva-iwmcodecamvideoaccelerator-setplayernotify">SetPlayerNotify</a>
-</td>
-<td align="left" width="63%">
-Called by the output pin on the source filter to provide the decoder DMO with the source filter's <b>IWMPlayerTimestampHook</b> interface to enable the filter to update the time stamps on the samples before they are delivered to the renderer.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>

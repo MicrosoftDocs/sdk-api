@@ -61,39 +61,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolShadowConnection<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWTSProtocolShadowConnection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolshadowconnection-dotarget">DoTarget</a>
-</td>
-<td align="left" width="63%">
-Requests that the protocol start the target side of a shadow connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolshadowconnection-start">Start</a>
-</td>
-<td align="left" width="63%">
-Notifies the protocol that shadowing has started.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolshadowconnection-stop">Stop</a>
-</td>
-<td align="left" width="63%">
-Notifies the protocol that shadowing has stopped.
-
-</td>
-</tr>
-</table>

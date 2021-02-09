@@ -60,61 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVolumeTexture9</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirect3DVolumeTexture9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-adddirtybox">AddDirtyBox</a>
-</td>
-<td align="left" width="63%">
-Adds a dirty region to a volume texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-getleveldesc">GetLevelDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves a level description of a volume texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-getvolumelevel">GetVolumeLevel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified volume texture level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-lockbox">LockBox</a>
-</td>
-<td align="left" width="63%">
-Locks a box on a volume texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-unlockbox">UnlockBox</a>
-</td>
-<td align="left" width="63%">
-Unlocks a box on a volume texture resource.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IDirect3DVolumeTexture9</b> interface can be obtained by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvolumetexture">CreateVolumeTexture</a> method or one of the D3DXCreateVolumeTexture<i>xxx</i> functions.

@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObject</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISpatialAudioObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setposition">SetPosition</a>
-</td>
-<td align="left" width="63%">
-Sets the position in 3D space, relative to the listener, from which the <b>ISpatialAudioObject</b> audio data will be rendered.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setvolume">SetVolume</a>
-</td>
-<td align="left" width="63%">
-Sets an audio amplitude multiplier that will be applied to the audio data provided by the <b>ISpatialAudioObject</b> before it is submitted to the audio rendering engine.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>

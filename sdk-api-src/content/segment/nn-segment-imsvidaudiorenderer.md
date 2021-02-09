@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAudioRenderer</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMSVidAudioRenderer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_balance">get_Balance</a>
-</td>
-<td align="left" width="63%">
-Retrieves the balance level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_volume">get_Volume</a>
-</td>
-<td align="left" width="63%">
-Retrieves the volume level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_balance">put_Balance</a>
-</td>
-<td align="left" width="63%">
-Specifies the balance level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_volume">put_Volume</a>
-</td>
-<td align="left" width="63%">
-Specifies the volume level.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidAudioRenderer)</code>.

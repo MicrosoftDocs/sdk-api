@@ -69,34 +69,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMixerControl2</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFVideoMixerControl2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-imfvideomixercontrol2-getmixingprefs">GetMixingPrefs</a>
-</td>
-<td align="left" width="63%">
-Gets the current preferences for video deinterlacing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-imfvideomixercontrol2-setmixingprefs">SetMixingPrefs</a>
-</td>
-<td align="left" width="63%">
-Sets the preferences for video deinterlacing.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>

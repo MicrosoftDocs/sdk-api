@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable2</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWorkspaceScriptable2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable2-resourcedismissed">ResourceDismissed</a>
-</td>
-<td align="left" width="63%">
-Alerts the user when a resource has been dismissed or is otherwise unavailable. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable2-startworkspaceex">StartWorkspaceEx</a>
-</td>
-<td align="left" width="63%">
-Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
-
-</td>
-</tr>
-</table>

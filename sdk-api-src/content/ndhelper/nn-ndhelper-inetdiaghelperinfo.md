@@ -59,21 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelperInfo</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INetDiagHelperInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperinfo-getattributeinfo">INetDiagHelperInfo::GetAttributeInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves the list of key parameters required by the Helper Class Extension.
-
-</td>
-</tr>
-</table>

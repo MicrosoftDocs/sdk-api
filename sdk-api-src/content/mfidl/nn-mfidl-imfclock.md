@@ -62,61 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFClock</b> interface inheri
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFClock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getclockcharacteristics">GetClockCharacteristics</a>
-</td>
-<td align="left" width="63%">
-Retrieves the characteristics of the clock.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcontinuitykey">GetContinuityKey</a>
-</td>
-<td align="left" width="63%">
-Retrieves the clock's continuity key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">GetCorrelatedTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the last clock time that was correlated with system time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Retrieves the properties of the clock.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getstate">GetState</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current state of the clock.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IMFClock</b> interface applies to any kind of clock. The presentation clock exposes the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface in addition to <b>IMFClock</b>.

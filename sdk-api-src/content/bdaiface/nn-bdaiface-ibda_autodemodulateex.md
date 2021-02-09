@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_AutoDemodulateEx</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBDA_AutoDemodulateEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_auxinputcount">get_AuxInputCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves a count of the number of auxiliary inputs on the demodulator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_supporteddevicenodetypes">get_SupportedDeviceNodeTypes</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of the device node types that the demodulator supports.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_supportedvideoformats">get_SupportedVideoFormats</a>
-</td>
-<td align="left" width="63%">
-Retrieves the video formats that are supported by the demodulator.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_AutoDemodulateEx)</code>.

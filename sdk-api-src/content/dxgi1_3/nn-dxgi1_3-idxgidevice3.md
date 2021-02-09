@@ -60,26 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice3</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDXGIDevice3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidevice3-trim">Trim</a>
-</td>
-<td align="left" width="63%">
-Trims the graphics memory allocated by the <b>IDXGIDevice3</b>
-DXGI device on the app's behalf.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IDXGIDevice3</b> interface is designed for use by DXGI objects that need access to other DXGI objects. This interface is useful to

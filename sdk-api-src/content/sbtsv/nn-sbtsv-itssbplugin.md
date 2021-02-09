@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbPlugin</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITsSbPlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the plug-in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-terminate">Terminate</a>
-</td>
-<td align="left" width="63%">
-Performs clean-up and unloads the plug-in.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Two different types of plugins are supported - filters and resources. Resource plugins are for supporting new 

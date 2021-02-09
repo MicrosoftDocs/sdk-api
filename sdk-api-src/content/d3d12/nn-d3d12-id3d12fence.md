@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Fence</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D12Fence</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">GetCompletedValue</a>
-</td>
-<td align="left" width="63%">
-Gets the current value of the fence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion">SetEventOnCompletion</a>
-</td>
-<td align="left" width="63%">
-Specifies an event that should be fired when the fence reaches a certain value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-signal">Signal</a>
-</td>
-<td align="left" width="63%">
-Sets the fence to the specified value.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/win32/direct3d12/direct3d-12-interfaces">Core Interfaces</a>

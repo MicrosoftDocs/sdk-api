@@ -64,43 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMixerBitmap9</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVMRMixerBitmap9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-getalphabitmapparameters">GetAlphaBitmapParameters</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of the current image and related blending parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-setalphabitmap">SetAlphaBitmap</a>
-</td>
-<td align="left" width="63%">
-Specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-updatealphabitmapparameters">UpdateAlphaBitmapParameters</a>
-</td>
-<td align="left" width="63%">
-Changes the bitmap location, size and blending value.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Include DShow.h and D3d9.h before Vmr9.h.

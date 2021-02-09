@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextInputPanelRunInfo</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITextInputPanelRunInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanelruninfo-istiprunning">IsTipRunning</a>
-</td>
-<td align="left" width="63%">
-Indicates if the Tablet PC Input Panel is running at the time the method is called.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This element is declared in Peninputpanel.h.

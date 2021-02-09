@@ -60,43 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DIndexBuffer9</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirect3DIndexBuffer9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description of the index buffer resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-lock">Lock</a>
-</td>
-<td align="left" width="63%">
-Locks a range of index data and obtains a pointer to the index buffer memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-unlock">Unlock</a>
-</td>
-<td align="left" width="63%">
-Unlocks index data.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IDirect3DIndexBuffer9</b> interface is obtained by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createindexbuffer">IDirect3DDevice9::CreateIndexBuffer</a> method.

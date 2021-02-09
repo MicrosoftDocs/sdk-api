@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdState</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDvdState</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idvdstate-getdiscid">GetDiscID</a>
-</td>
-<td align="left" width="63%">
-Gets the unique identifier (ID) of the disc from which the bookmark was made.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idvdstate-getparentallevel">GetParentalLevel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the user's parental level as saved in the <b>DvdState</b> object.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To get the current DVD state information from the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a>, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getstate">IDvdInfo2::GetState</a>. To restore the state, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setstate">IDvdControl2::SetState</a>.

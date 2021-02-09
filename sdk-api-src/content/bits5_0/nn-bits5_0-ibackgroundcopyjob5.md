@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob5</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBackgroundCopyJob5</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyjob5-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-A generic method for getting BITS job properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyjob5-setproperty">SetProperty</a>
-</td>
-<td align="left" width="63%">
-A generic method for setting BITS job properties.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>

@@ -64,61 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilter</b> interface inherit
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-bindregion">BindRegion</a>
-</td>
-<td align="left" width="63%">
-Retrieves an interface representing the specified portion of object. Currently reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-getchunk">GetChunk</a>
-</td>
-<td align="left" width="63%">
-Positions filter at beginning of first or next chunk and returns a descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-gettext">GetText</a>
-</td>
-<td align="left" width="63%">
-Retrieves text from the current chunk.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves values from the current chunk.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes a filtering session.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>IFilter</b> components for Indexing Service run in the Local Security context and should be written to manage buffers and to stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer.

@@ -58,7 +58,7 @@ Gets a private surface format from a software plug-in Microsoft DirectX Video Ac
 
 A handle to the plug-in DXVA-HD device.
 
-### -param *pFormat [in, out]
+### -param pFormat [in, out]
 
 A pointer to a <b>D3DFORMAT</b> value. On input, specifies the surface format that is requested by the application. On output, specifies the private surface format that the plug-in device proposes.
 

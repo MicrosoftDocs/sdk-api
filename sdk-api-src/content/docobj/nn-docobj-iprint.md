@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrint</b> interface inherits
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrint</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/docobj/nf-docobj-iprint-getpageinfo">GetPageInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of a document's first page and the total number of pages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/docobj/nf-docobj-iprint-print">Print</a>
-</td>
-<td align="left" width="63%">
-Prints an object on the specified printer, using the specified job requirements.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/docobj/nf-docobj-iprint-setinitialpagenum">SetInitialPageNum</a>
-</td>
-<td align="left" width="63%">
-Sets the page number of the first page of a document.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 After a document is loaded, containers and other clients can call <a href="/windows/desktop/api/docobj/nf-docobj-iprint-print">IPrint::Print</a> to instruct a document to print itself, specifying printing control flags, the target device, the particular pages to print, and other options. The client can control the continuation of printing by calling the <a href="/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a> interface. 

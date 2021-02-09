@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationInvokePattern</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUIAutomationInvokePattern</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationinvokepattern-invoke">Invoke</a>
-</td>
-<td align="left" width="63%">
-Invokes the action of a control, such as a button click.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A control should support this interface if it initiates or performs a single, unambiguous action and does not maintain state when activated.

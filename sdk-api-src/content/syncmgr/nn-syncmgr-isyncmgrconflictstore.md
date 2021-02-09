@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictStore</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISyncMgrConflictStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-bindtoconflict">BindToConflict</a>
-</td>
-<td align="left" width="63%">
-Binds to a particular conflict specified by IID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-enumconflicts">EnumConflicts</a>
-</td>
-<td align="left" width="63%">
-Enumerates conflicts scoped to the provided sync handler and sync item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of conflicts in the store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-removeconflicts">RemoveConflicts</a>
-</td>
-<td align="left" width="63%">
-Deletes a set of conflicts, specified by conflict ID, from the store.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Conflict is provided to enable the user to select a version of a <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> as needed, instead of being forced to pick to complete a sync selection set. The fact that we current display them in the conflict folder is purely secondary. 

@@ -54,13 +54,13 @@ The <b>PAC_CHANGES_CALLBACK_FN</b>  function is used to add custom behavior to t
 
 ## -parameters
 
-### -param *context [in, optional]
+### -param context [in, optional]
 
 Type: <b>void*</b>
 
 Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges">NetworkIsolationRegisterForAppContainerChanges</a> function.
 
-### -param *pChange [in]
+### -param pChange [in]
 
 Type: <b>const <a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>*</b>
 

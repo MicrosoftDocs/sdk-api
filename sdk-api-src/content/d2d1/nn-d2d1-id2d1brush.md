@@ -59,51 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Brush</b> interface inhe
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1Brush</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-getopacity">GetOpacity</a>
-</td>
-<td align="left" width="63%">
-Gets the degree of opacity of this brush.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-gettransform">GetTransform</a>
-</td>
-<td align="left" width="63%">
-Gets the transform applied to this brush.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-setopacity">SetOpacity</a>
-</td>
-<td align="left" width="63%">
-Sets the degree of opacity of this brush.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f_)">SetTransform</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the transformation applied to the brush.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> is a device-dependent resource: your application should create bitmap brushes after it initializes the render target with which the bitmap brush will be used, and recreate the bitmap brush whenever the render target needs recreated. (For more information about resources, see <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.)

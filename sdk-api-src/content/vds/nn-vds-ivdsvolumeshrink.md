@@ -62,30 +62,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeShrink</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVdsVolumeShrink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeshrink-querymaxreclaimablebytes">QueryMaxReclaimableBytes</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum number of bytes that can be reclaimed from the current volume.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeshrink-shrink">Shrink</a>
-</td>
-<td align="left" width="63%">
-Shrinks the volume and all plexes and returns the released extents.
-
-</td>
-</tr>
-</table>

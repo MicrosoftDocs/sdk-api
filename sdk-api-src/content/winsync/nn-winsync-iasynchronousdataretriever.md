@@ -59,54 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsynchronousDataRetriever</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAsynchronousDataRetriever</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-getidparameters">GetIdParameters</a>
-</td>
-<td align="left" width="63%">
-Gets the ID format schema of the provider.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-loadchangedata">LoadChangeData</a>
-</td>
-<td align="left" width="63%">
-Retrieves item data for a change.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-registercallback">RegisterCallback</a>
-</td>
-<td align="left" width="63%">
-Registers a callback interface that will be called by the <b>IAsynchronousDataRetriever</b> object when an asynchronous method finishes processing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-revokecallback">RevokeCallback</a>
-</td>
-<td align="left" width="63%">
-Indicates that the <b>IAsynchronousDataRetriever</b>  object must no longer use the specified callback interface and must release any references to it.
-
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

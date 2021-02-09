@@ -55,17 +55,17 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wsabandonme
 
 ## -parameters
 
-### -param *channelInstance [in]
+### -param channelInstance [in]
 
 Pointer to the state specific to this channel instance,
                     as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
 
-### -param *message [in]
+### -param message [in]
 
 The message that is current being read or written.  This should be
                     the same message as was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a>.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

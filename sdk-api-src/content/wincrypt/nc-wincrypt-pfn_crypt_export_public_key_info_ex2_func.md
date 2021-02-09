@@ -79,7 +79,7 @@ A pointer to a string that contains the <a href="/windows/desktop/SecGloss/p-gly
 
 A value that indicates how the public key information  is exported. This can be zero.
 
-### -param *pvAuxInfo [in, optional]
+### -param pvAuxInfo [in, optional]
 
 This parameter is reserved for future use and  must be set to <b>NULL</b>.
 
@@ -91,7 +91,7 @@ A pointer to a
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-### -param *pcbInfo [in, out]
+### -param pcbInfo [in, out]
 
 A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer pointed to by the <i>pInfo</i> parameter. When the function returns, the <b>DWORD</b> contains the number of bytes stored in the buffer.
 

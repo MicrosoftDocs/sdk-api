@@ -60,23 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssSnapshotMgmt2</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVssSnapshotMgmt2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt2-getmindiffareasize">GetMinDiffAreaSize</a>
-</td>
-<td align="left" width="63%">
-Returns the current minimum size of the shadow copy storage area.</p> (Inherited from <b>IVssSnapshotMgmt2</b>)</td>
-</tr>
-</table>
-
 ## -remarks
 
 To obtain an instance of the <b>IVssSnapshotMgmt2</b> 

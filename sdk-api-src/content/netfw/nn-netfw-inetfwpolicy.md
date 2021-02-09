@@ -63,53 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwPolicy</b> interface in
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
-## -members
-
-The <b>INetFwPolicy</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy-get_currentprofile">get_CurrentProfile</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current profile in effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy-getprofilebytype">GetProfileByType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the profile currently in effect by type.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwPolicy</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_currentprofiletype">CurrentProfile</a>
-
-
-</td>
-<td align="left" width="63%">
-Access to the type of firewall profile currently in effect.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Instances of this interface are

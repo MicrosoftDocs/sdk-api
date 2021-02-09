@@ -54,11 +54,11 @@ The <b>pfnIsFileSupportedName</b> callback function queries the <a href="/window
 
 ## -parameters
 
-### -param *pwszFileName [in]
+### -param pwszFileName [in]
 
 A pointer to a <b>null</b>-terminated string that contains the absolute path to the file to be processed by the SIP.
 
-### -param *pgSubject [out]
+### -param pgSubject [out]
 
 The GUID identifying the SIP that handles the file type.
 

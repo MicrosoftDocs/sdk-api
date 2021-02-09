@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationAssociationRegist
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IApplicationAssociationRegistrationUI</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui">LaunchAdvancedAssociationUI</a>
-</td>
-<td align="left" width="63%">
-Launches an advanced association dialog box through which the user can customize the associations for the application specified in <i>pszAppRegName</i>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Because <b>IApplicationAssociationRegistrationUI</b> is only supported for Windows Vista and later, applications that support earlier operating systems must use their preexisting code when running under those operating systems. Those applications should include a check for the operating system version to account for this.

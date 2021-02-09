@@ -62,61 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScanningTuner</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IScanningTuner</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-autoprogram">AutoProgram</a>
-</td>
-<td align="left" width="63%">
-Scans for all channels with valid programming.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-scandown">ScanDown</a>
-</td>
-<td align="left" width="63%">
-Changes the channel to the next lower channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-scanup">ScanUp</a>
-</td>
-<td align="left" width="63%">
-Changes the channel to the next higher channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekdown">SeekDown</a>
-</td>
-<td align="left" width="63%">
-Changes the channel to the next lower channel with valid programming.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekup">SeekUp</a>
-</td>
-<td align="left" width="63%">
-Changes the channel to the next higher channel with valid programming.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Currently the DVB-C and DVB-S Network Provider filters do not implement this interface. The interface is implemented for DVB-T.

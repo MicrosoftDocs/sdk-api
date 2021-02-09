@@ -60,52 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssAdmin</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVssAdmin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-abortallsnapshotsinprogress">AbortAllSnapshotsInProgress</a>
-</td>
-<td align="left" width="63%">
-Reserved for system use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-queryproviders">QueryProviders</a>
-</td>
-<td align="left" width="63%">
-Queries all registered providers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-registerprovider">RegisterProvider</a>
-</td>
-<td align="left" width="63%">
-Registers a new shadow copy provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a>
-</td>
-<td align="left" width="63%">
-Unregisters an existing provider.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>

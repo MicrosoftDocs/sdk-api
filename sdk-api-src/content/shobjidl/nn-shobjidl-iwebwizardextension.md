@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebWizardExtension</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWebWizardExtension</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwebwizardextension-seterrorurl">SetErrorURL</a>
-</td>
-<td align="left" width="63%">
-Specifies the URL of a page that displays when a user experiences an error while navigating through the wizard extension pages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwebwizardextension-setinitialurl">SetInitialURL</a>
-</td>
-<td align="left" width="63%">
-Sets the URL of the initial server-provided HTML page in a hosted wizard.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>

@@ -60,26 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIContextualUI</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUIContextualUI</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicontextualui-showatlocation">ShowAtLocation</a>
-</td>
-<td align="left" width="63%">
-Displays a <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
-		
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> is composed of two components: the <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> and <a href="/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a> elements.

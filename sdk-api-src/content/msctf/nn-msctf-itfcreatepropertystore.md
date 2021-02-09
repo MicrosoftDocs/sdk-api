@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCreatePropertyStore</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfCreatePropertyStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcreatepropertystore-createpropertystore">CreatePropertyStore</a>
-</td>
-<td align="left" width="63%">
-Creates a property store object from serialized property store data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcreatepropertystore-isstoreserializable">IsStoreSerializable</a>
-</td>
-<td align="left" width="63%">
-Determines if a property store can be stored as persistent data.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 When a property store is unserialized, the TSF manager creates an object from the CLSID obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetPropertyRangeCreator</a> and obtain an <b>ITfCreatePropertyStore</b> interface pointer from it. The manager then uses <b>ITfCreatePropertyStore::CreatePropertyStore</b> to create the property store object.

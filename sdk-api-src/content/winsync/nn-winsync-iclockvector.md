@@ -59,36 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClockVector</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IClockVector</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvector-getclockvectorelementcount">GetClockVectorElementCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of elements that are contained in the clock vector.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvector-getclockvectorelements">GetClockVectorElements</a>
-</td>
-<td align="left" width="63%">
-Returns an enumerator that iterates through the clock vector elements.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A clock vector defines the changes that are contained in a knowledge structure by using a list of <b>IClockVectorElement</b> objects. An <b>IClockVectorElement</b> object exists for each replica that has made a change that is contained in the knowledge. A change that is made by a particular replica is defined to be contained in the knowledge when the tick count for the change occurs between zero and the tick count contained in <b>IClockVectorElement</b> that tracks that replica.

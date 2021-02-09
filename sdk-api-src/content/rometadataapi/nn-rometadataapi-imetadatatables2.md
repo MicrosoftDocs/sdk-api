@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMetaDataTables2</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMetaDataTables2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastorage">GetMetaDataStorage</a>
-</td>
-<td align="left" width="63%">
-Gets the size and contents of the metadata stored in the specified section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastreaminfo">GetMetaDataStreamInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the name, size, and contents of the metadata stream at the specified index.
-
-</td>
-</tr>
-</table>

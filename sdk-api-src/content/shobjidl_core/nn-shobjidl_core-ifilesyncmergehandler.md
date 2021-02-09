@@ -59,24 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSyncMergeHandler</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFileSyncMergeHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesyncmergehandler-merge">Merge</a>
-</td>
-<td align="left" width="63%">Merges changes between the local copy and server copy of a file.</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesyncmergehandler-showresolveconflictuiasync">ShowResolveConflictUIAsync</a>
-</td>
-<td align="left" width="63%">Displays a UI to resolve conflicts between the local copy and server copy of a file.</td>
-</tr>
-</table>

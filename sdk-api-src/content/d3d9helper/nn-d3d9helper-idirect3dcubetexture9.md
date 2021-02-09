@@ -60,61 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DCubeTexture9</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirect3DCubeTexture9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-adddirtyrect">AddDirtyRect</a>
-</td>
-<td align="left" width="63%">
-Adds a dirty region to a cube texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getcubemapsurface">GetCubeMapSurface</a>
-</td>
-<td align="left" width="63%">
-Retrieves a cube texture map surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getleveldesc">GetLevelDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description of one face of the specified cube texture level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-lockrect">LockRect</a>
-</td>
-<td align="left" width="63%">
-Locks a rectangle on a cube texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-unlockrect">UnlockRect</a>
-</td>
-<td align="left" width="63%">
-Unlocks a rectangle on a cube texture resource.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IDirect3DCubeTexture9</b> interface can be obtained by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createcubetexture">IDirect3DDevice9::CreateCubeTexture</a> method or one of the D3DXCreateCubeTexture<i>xxx</i> functions.

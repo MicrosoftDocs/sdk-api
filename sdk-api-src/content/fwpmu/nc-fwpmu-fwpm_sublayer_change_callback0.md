@@ -54,13 +54,13 @@ The <b>FWPM_SUBLAYER_CHANGE_CALLBACK0</b> function is used to added custom behav
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 Type: <b>void*</b>
 
 Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayersubscribechanges0">FwpmSubLayerSubscribeChanges0</a> function.
 
-### -param *change [in]
+### -param change [in]
 
 Type: [FWPM_SUBLAYER_CHANGE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_change0)*</b>
 

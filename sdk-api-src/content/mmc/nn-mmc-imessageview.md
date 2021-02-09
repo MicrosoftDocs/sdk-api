@@ -64,52 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageView</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMessageView</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-imessageview-clear">Clear</a>
-</td>
-<td align="left" width="63%">
-Clears the title, text, and icon of the result pane message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-imessageview-setbodytext">SetBodyText</a>
-</td>
-<td align="left" width="63%">
-Changes the text for the result pane message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-imessageview-seticon">SetIcon</a>
-</td>
-<td align="left" width="63%">
-Changes the icon for the result pane message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-imessageview-settitletext">SetTitleText</a>
-</td>
-<td align="left" width="63%">
-Changes the title for the result pane message.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>

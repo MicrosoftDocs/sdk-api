@@ -60,19 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingServiceC
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAccessibilityDockingServiceCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">Undocked</td>
-<td align="left" width="63%">
-Undocks the accessibility window so that it will not be automatically moved to its previous location.
-
-</td>
-</tr>
-</table>

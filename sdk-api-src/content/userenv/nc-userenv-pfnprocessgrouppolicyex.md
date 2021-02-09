@@ -158,7 +158,7 @@ Pointer that receives the list of changed GPO structures. For more information, 
 
 Asynchronous completion handle. If the callback function does not support asynchronous processing, this handle is zero.
 
-### -param *pbAbort [in]
+### -param pbAbort [in]
 
 Specifies whether to continue processing GPOs. If this parameter is <b>TRUE</b>, GPO processing will cease. If this parameter is <b>FALSE</b>, GPO processing will continue.
 
@@ -167,11 +167,11 @@ Specifies whether to continue processing GPOs. If this parameter is <b>TRUE</b>,
 Pointer to a 
 <a href="/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a> callback function that displays status messages. This parameter can be <b>NULL</b> in certain cases. For example, if the system is applying policy in the background, the status user interface is not present and the application cannot send status messages to be displayed. For more information, see the following Remarks section.
 
-### -param *pWbemServices [in]
+### -param pWbemServices [in]
 
 Specifies a WMI services pointer to the RSoP namespace to which the policy data should be written. This parameter is <b>NULL</b> when RSoP logging is disabled, indicating that the extension should not log RSoP data.
 
-### -param *pRsopStatus [out]
+### -param pRsopStatus [out]
 
 Pointer to an <b>HRESULT</b> return code that indicates whether RSoP logging was successful.
 

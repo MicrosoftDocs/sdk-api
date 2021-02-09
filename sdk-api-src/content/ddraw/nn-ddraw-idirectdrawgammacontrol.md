@@ -59,35 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawGammaControl</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirectDrawGammaControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp">GetGammaRamp</a>
-</td>
-<td align="left" width="63%">
-Retrieves the red, green, and blue gamma ramps for the primary surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">SetGammaRamp</a>
-</td>
-<td align="left" width="63%">
-Sets the red, green, and blue gamma ramps for the primary surface.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IDirectDrawGammaControl</b> interface is supported by DirectDrawSurface objects. That is, you can retrieve a pointer to the <b>IDirectDrawGammaControl</b> interface by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method of a DirectDrawSurface object and by specifying the IID_IDirectDrawGammaControl reference identifier in the <i>riid</i> parameter.

@@ -64,34 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenterConfig</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVMRImagePresenterConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenterconfig-getrenderingprefs">GetRenderingPrefs</a>
-</td>
-<td align="left" width="63%">
-Gets the rendering preferences.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenterconfig-setrenderingprefs">SetRenderingPrefs</a>
-</td>
-<td align="left" width="63%">
-Sets the rendering preferences.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

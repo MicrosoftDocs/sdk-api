@@ -59,46 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatch</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISyncChangeBatch</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-addloggedconflict">AddLoggedConflict</a>
-</td>
-<td align="left" width="63%">
-Adds metadata that represents a conflict to the change batch.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-beginunorderedgroup">BeginUnorderedGroup</a>
-</td>
-<td align="left" width="63%">
-Opens an unordered group in the change batch. Item changes in this group can be in any order.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-endunorderedgroup">EndUnorderedGroup</a>
-</td>
-<td align="left" width="63%">
-Closes a previously opened unordered group in the change batch.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Change batches are used by synchronization providers to communicate metadata for item changes from a source provider to a destination provider. The source provider enumerates changes and adds a specified number of them to a change batch. The change batch is then sent to the destination provider. The destination provider enumerates the changes in the change batch and applies them to its item store.

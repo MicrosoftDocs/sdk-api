@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMetadataPicture</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMPMetadataPicture</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_description">get_description</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description of the metadata image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_mimetype">get_mimeType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the MIME type of the metadata image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_picturetype">get_pictureType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the picture type of the metadata image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_url">get_URL</a>
-</td>
-<td align="left" width="63%">
-Internal use only.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/WMP/interfaces">Interfaces</a>

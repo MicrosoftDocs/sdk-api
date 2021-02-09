@@ -59,36 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreFragmentInspector</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICoreFragmentInspector</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragmentinspector-nextcorefragments">NextCoreFragments</a>
-</td>
-<td align="left" width="63%">
-Returns the next <b>ICoreFragment</b> objects in the knowledge, if they are available.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragmentinspector-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumerator to the beginning of the knowledge.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An <b>ICoreFragmentInspector</b> object can be obtained by calling <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge2-getinspector">ISyncKnowledge2::GetInspector</a> on a knowledge object.

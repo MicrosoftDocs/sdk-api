@@ -60,61 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DTexture9</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirect3DTexture9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect">AddDirtyRect</a>
-</td>
-<td align="left" width="63%">
-Adds a dirty region to a texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getleveldesc">GetLevelDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves a level description of a texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getsurfacelevel">GetSurfaceLevel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified texture surface level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-lockrect">LockRect</a>
-</td>
-<td align="left" width="63%">
-Locks a rectangle on a texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-unlockrect">UnlockRect</a>
-</td>
-<td align="left" width="63%">
-Unlocks a rectangle on a texture resource.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IDirect3DTexture9</b> interface can be obtained by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">IDirect3DDevice9::CreateTexture</a> method or one of the D3DXCreateTexture<i>xxx</i> functions.

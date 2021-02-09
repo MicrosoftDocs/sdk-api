@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSeekInfo</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFSeekInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfseekinfo-getnearestkeyframes">GetNearestKeyFrames</a>
-</td>
-<td align="left" width="63%">
-For a particular seek position, gets the two nearest key frames.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A media source can implement this interface as an optional service. To get a pointer to the interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-mfgetservice">IMFGetService::GetService</a> with the service identifier <b>MF_SCRUBBING_SERVICE</b>.

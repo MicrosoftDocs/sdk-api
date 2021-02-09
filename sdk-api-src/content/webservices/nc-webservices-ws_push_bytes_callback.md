@@ -54,7 +54,7 @@ Used by the <a href="/windows/desktop/api/webservices/nf-webservices-wspushbytes
 
 ## -parameters
 
-### -param *callbackState [in]
+### -param callbackState [in]
 
 A 
            void pointer to the user-defined state that was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wspushbytes">WsPushBytes</a>.
@@ -64,15 +64,15 @@ A
 The
           callback function for writing bytes to the document.
 
-### -param *writeCallbackState [in]
+### -param writeCallbackState [in]
 
 A  void  pointer to the caller-defined state that should be passed when invoking the <a href="/windows/desktop/api/webservices/nc-webservices-ws_write_callback">WS_WRITE_CALLBACK</a> function.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assign  <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
 

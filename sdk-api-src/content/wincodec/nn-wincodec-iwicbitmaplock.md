@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapLock</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICBitmapLock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmaplock-getdatapointer">GetDataPointer</a>
-</td>
-<td align="left" width="63%">
-Gets the pointer to the top left pixel in the locked rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmaplock-getpixelformat">GetPixelFormat</a>
-</td>
-<td align="left" width="63%">
-Gets the pixel format of for the locked area of pixels. This can be used to compute the number of bytes-per-pixel in the locked area.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmaplock-getsize">GetSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the width and height, in pixels, of the locked rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmaplock-getstride">GetStride</a>
-</td>
-<td align="left" width="63%">
-Provides access to the <a href="https://docs.microsoft.com/">stride</a> value for the memory.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The bitmap lock is simply an abstraction for a rectangular memory window into the bitmap. For the simplest case, a system memory bitmap, this is simply a pointer to the top left corner of the rectangle and a stride value.

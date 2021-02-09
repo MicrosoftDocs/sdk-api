@@ -59,62 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcSignaturePartReference</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOpcSignaturePartReference</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreference-getcontenttype">GetContentType</a>
-</td>
-<td align="left" width="63%">
-Gets the content type of the referenced part.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreference-getdigestmethod">GetDigestMethod</a>
-</td>
-<td align="left" width="63%">
-              Gets the digest method to use on part content of the referenced part when the part is signed.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreference-getdigestvalue">GetDigestValue</a>
-</td>
-<td align="left" width="63%">
-Gets the digest value that is calculated for part content of the referenced part when  the part is signed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreference-getpartname">GetPartName</a>
-</td>
-<td align="left" width="63%">
-Gets the part name of the referenced part.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreference-gettransformmethod">GetTransformMethod</a>
-</td>
-<td align="left" width="63%">
-Gets the canonicalization method to use on part content of a referenced part when the part is signed.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Only parts that can be represented by the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface can be referenced by an <b>IOpcSignaturePartReference</b> interface pointer. Relationships parts are referenced for signing  by a pointer to the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturerelationshipreference">IOpcSignatureRelationshipReference</a> interface. To create an <b>IOpcSignatureRelationshipReference</b> interface pointer, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturerelationshipreferenceset-create">IOpcSignatureRelationshipReferenceSet::Create</a> method.

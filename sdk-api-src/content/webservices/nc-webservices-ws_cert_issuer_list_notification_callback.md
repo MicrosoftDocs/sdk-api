@@ -70,15 +70,15 @@ duration of the callback.
 
 ## -parameters
 
-### -param *certIssuerListNotificationCallbackState [in]
+### -param certIssuerListNotificationCallbackState [in]
 
 State that was specified along with this callback in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
 
-### -param *issuerList [in]
+### -param issuerList [in]
 
 The list of certificate issuers acceptable to the server.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

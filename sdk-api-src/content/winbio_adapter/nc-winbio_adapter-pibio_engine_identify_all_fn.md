@@ -62,7 +62,7 @@ Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-wi
 
 Address of a variable that receives the number of presences detected by the function.
 
-### -param *PresenceArray [out]
+### -param PresenceArray [out]
 
 Address of a variable that receives a pointer to an array of <a href="/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> elements.
 

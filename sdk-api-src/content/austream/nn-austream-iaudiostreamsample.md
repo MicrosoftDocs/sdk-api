@@ -67,25 +67,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioStreamSample</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioStreamSample</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-iaudiostreamsample-getaudiodata">GetAudioData</a>
-</td>
-<td align="left" width="63%">
-Retrieves the address of a pointer to the <a href="/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> object associated with the sample.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>

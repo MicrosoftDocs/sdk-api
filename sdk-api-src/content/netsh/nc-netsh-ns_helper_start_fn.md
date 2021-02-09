@@ -56,7 +56,7 @@ The
 
 ## -parameters
 
-### -param *pguidParent [in]
+### -param pguidParent [in]
 
 The parent under which the helper DLL should be registered.
 

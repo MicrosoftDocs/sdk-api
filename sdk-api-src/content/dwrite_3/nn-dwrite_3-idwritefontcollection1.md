@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection1</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteFontCollection1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection1-getfontset">GetFontSet</a>
-</td>
-<td align="left" width="63%">
-Gets the underlying font set used by this collection.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>

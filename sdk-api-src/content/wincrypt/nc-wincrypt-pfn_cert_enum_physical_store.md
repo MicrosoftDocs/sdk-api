@@ -56,7 +56,7 @@ The <b>CertEnumPhysicalStoreCallback</b>
 
 ## -parameters
 
-### -param *pvSystemStore [in]
+### -param pvSystemStore [in]
 
 If CERT_SYSTEM_STORE_RELOCATE_FLAG is set in <i>dwFlags</i>, <i>pvSystemStore</i> points to a 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure that indicates both the name and the location of the system store to be enumerated. Otherwise, <i>pvSystemStore</i> is a pointer to a Unicode string that names the system store whose physical stores are to be enumerated. For information about prefixing the name of a service or computer to the system store name, see 
@@ -86,11 +86,11 @@ Name of the physical store.
 
 A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_physical_store_info">CERT_PHYSICAL_STORE_INFO</a> structure containing information about the store.
 
-### -param *pvReserved [in]
+### -param pvReserved [in]
 
 Reserved for future use.
 
-### -param *pvArg [in]
+### -param pvArg [in]
 
 A pointer to information passed to the callback function in the <i>pvArg</i> passed to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumphysicalstore">CertEnumPhysicalStore</a>.
 

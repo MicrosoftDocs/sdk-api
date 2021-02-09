@@ -94,51 +94,6 @@ Called by XAudio2 just before an audio processing pass begins.
 </tr>
 </table>
 
-## -members
-
-The <b>IXAudio2EngineCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror">OnCriticalError</a>
-</td>
-<td align="left" width="63%">
-Called if a critical system error occurs that requires XAudio2 to be closed down and restarted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassend">OnProcessingPassEnd</a>
-</td>
-<td align="left" width="63%">
-Called by XAudio2 just after an audio processing pass ends.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassstart">OnProcessingPassStart</a>
-</td>
-<td align="left" width="63%">
-Called by XAudio2 just before an audio processing pass begins.
-
-</td>
-</tr>
-</table>Called if a critical system error occurs that requires XAudio2 to be closed down and restarted.
-
-Called by XAudio2 just after an audio processing pass ends.
-
-Called by XAudio2 just before an audio processing pass begins.
-
- 
-
-Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
-
 ## -remarks
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

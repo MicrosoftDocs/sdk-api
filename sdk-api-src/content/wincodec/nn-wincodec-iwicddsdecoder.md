@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsDecoder</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICDdsDecoder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getframe">GetFrame</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified frame of the DDS image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getparameters">GetParameters</a>
-</td>
-<td align="left" width="63%">
-Gets DDS-specific data.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is implemented by the WIC DDS codec. To obtain this interface, create an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> using the DDS codec and QueryInterface for <b>IWICDdsDecoder</b>.

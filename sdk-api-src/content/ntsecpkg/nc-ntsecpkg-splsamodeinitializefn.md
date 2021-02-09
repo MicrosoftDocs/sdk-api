@@ -62,7 +62,7 @@ The version of the LSA.
 
 Pointer to a <b>ULONG</b> that returns the SSP/AP DLL version number.
 
-### -param *ppTables [out]
+### -param ppTables [out]
 
 Pointer to an array of 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structures. Each structure is a table of pointers to the functions implemented by a security package deployed in the SSP/AP DLL.

@@ -54,11 +54,11 @@ Creates an instance of a software plug-in Microsoft DirectX Video Acceleration H
 
 ## -parameters
 
-### -param *pD3DDevice [in]
+### -param pD3DDevice [in]
 
 A pointer to the <b>IDirect3DDevice9Ex</b> interface of the Direct3D device.
 
-### -param *phDevice [out]
+### -param phDevice [out]
 
 Receives a handle to the plug-in DXVA-HD device.
 

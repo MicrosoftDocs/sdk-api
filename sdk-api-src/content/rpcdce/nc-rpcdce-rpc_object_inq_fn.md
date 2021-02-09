@@ -55,16 +55,16 @@ The
 
 ## -parameters
 
-### -param *ObjectUuid
+### -param ObjectUuid
 
 Pointer to the variable that specifies the object 
 <a href="https://msdn.microsoft.com/">UUID</a> that is to be mapped to a type UUID.
 
-### -param *TypeUuid
+### -param TypeUuid
 
 Pointer to the address of the variable that is to contain the type UUID derived from the object UUID. The type UUID is returned by the function.
 
-### -param *Status
+### -param Status
 
 Pointer to a return value for the function.
 

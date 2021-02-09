@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectPoolEvents</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IComObjectPoolEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolgetfromtx">OnObjPoolGetFromTx</a>
-</td>
-<td align="left" width="63%">
-Generated when a transactional object is obtained from the pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolgetobject">OnObjPoolGetObject</a>
-</td>
-<td align="left" width="63%">
-Generated when a non-transactional object is obtained from the pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolputobject">OnObjPoolPutObject</a>
-</td>
-<td align="left" width="63%">
-Generated when a new object is added to the pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolrecycletotx">OnObjPoolRecycleToTx</a>
-</td>
-<td align="left" width="63%">
-Generated when a transactional object is returned to the pool.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/cossdk/com--events">COM+ Events</a>

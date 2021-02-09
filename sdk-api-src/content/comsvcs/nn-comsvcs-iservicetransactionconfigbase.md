@@ -59,65 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTransactionConfigBase
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IServiceTransactionConfigBase</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfigbase-bringyourowntransaction">BringYourOwnTransaction</a>
-</td>
-<td align="left" width="63%">
-Enables you to run the enclosed code in an existing transaction that you provide.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfigbase-configuretransaction">ConfigureTransaction</a>
-</td>
-<td align="left" width="63%">
-Configures how transactions are used in the enclosed work.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfigbase-isolationlevel">IsolationLevel</a>
-</td>
-<td align="left" width="63%">
-Sets the isolation level of the transactions.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfigbase-newtransactiondescription">NewTransactionDescription</a>
-</td>
-<td align="left" width="63%">
-Sets the name that is used when transaction statistics are displayed.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfigbase-transactiontimeout">TransactionTimeout</a>
-</td>
-<td align="left" width="63%">
-Sets the transaction time-out for a new transaction.
-
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/cossdk/bring-your-own-transaction--byot-">Bring Your Own Transaction (BYOT)</a>

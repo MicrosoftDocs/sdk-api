@@ -62,11 +62,11 @@ Pointer to the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_obje
 
 Pointer to a provider defined object that contains information about the provider and the objects.
 
-### -param *pdwExpectedObjectCount [out]
+### -param pdwExpectedObjectCount [out]
 
 Specifies the number of unique objects that the provider expects to locate. This value tells the caller how much memory to allocate for storing objects. Set this value to zero (0) to specify the default value of 10,000 objects.
 
-### -param *ppFuncTable [out]
+### -param ppFuncTable [out]
 
 A <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> structure that contains pointers to the functions implemented by the provider. No pointers in the table can be <b>NULL</b>. The caller does not free this structure. It is expected that the provider will return a table that is not allocated on the heap.
 

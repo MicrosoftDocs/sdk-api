@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter4</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDXGIAdapter4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgiadapter4-getdesc3">GetDesc3</a>
-</td>
-<td align="left" width="63%">
-Gets a DXGI 1.6 description of an adapter or video card. This description includes information about ACG compatibility.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 For more details, refer to the <a href="/windows/desktop/direct3d12/residency">Residency</a> section of the D3D12 documentation.

@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibleHostingElementProv
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAccessibleHostingElementProviders</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iaccessiblehostingelementproviders-getembeddedfragmentroots">GetEmbeddedFragmentRoots</a>
-</td>
-<td align="left" width="63%">
-Retrieves the  Microsoft Active Accessibility providers of  all windowless ActiveX controls that have a UI Automation provider implementation, and are hosted in a Microsoft Active Accessibility object that implements the <b>IAccessibleHostingElementProviders</b> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iaccessiblehostingelementproviders-getobjectidforprovider">GetObjectIdForProvider</a>
-</td>
-<td align="left" width="63%">
-Retrieves the object ID associated with a contained windowless ActiveX control that implements UI Automation.  
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhostingaccessibles">IRawElementProviderHostingAccessibles</a>

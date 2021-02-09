@@ -56,7 +56,7 @@ The <b>CertEnumSystemStoreCallback</b>
 
 ## -parameters
 
-### -param *pvSystemStore [in]
+### -param pvSystemStore [in]
 
 A pointer to information on the system store found by a call to 
 	<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a>. Where appropriate, this argument will contain a leading computer name or service name prefix.
@@ -97,11 +97,11 @@ If set, the <i>pvSystemStore</i> parameter points to a CERT_SYSTEM_STORE_RELOCAT
 A pointer to a 
 	    <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_info">CERT_SYSTEM_STORE_INFO</a> structure that contains information about the store.
 
-### -param *pvReserved [in]
+### -param pvReserved [in]
 
 Reserved for future use.
 
-### -param *pvArg [in]
+### -param pvArg [in]
 
 A pointer to information passed to the callback function in the <i>pvArg</i> 
 	 passed to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a>.

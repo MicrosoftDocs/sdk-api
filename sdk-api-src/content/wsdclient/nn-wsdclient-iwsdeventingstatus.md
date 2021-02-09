@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDEventingStatus</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWSDEventingStatus</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdeventingstatus-subscriptionended">SubscriptionEnded</a>
-</td>
-<td align="left" width="63%">
-Indicates that subscription has been terminated by the subscription manager.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdeventingstatus-subscriptionrenewalfailed">SubscriptionRenewalFailed</a>
-</td>
-<td align="left" width="63%">
-Indicates that the service proxy was unable to renew the subscription with the service.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdeventingstatus-subscriptionrenewed">SubscriptionRenewed</a>
-</td>
-<td align="left" width="63%">
-Indicates that the subscription has successfully been renewed.
-
-</td>
-</tr>
-</table>

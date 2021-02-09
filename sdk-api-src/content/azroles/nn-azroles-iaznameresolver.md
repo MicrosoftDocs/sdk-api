@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzNameResolver</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAzNameResolver</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/azroles/nf-azroles-iaznameresolver-namefromsid">NameFromSid</a>
-</td>
-<td align="left" width="63%">
-Gets the display name that corresponds to the specified SID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/azroles/nf-azroles-iaznameresolver-namesfromsids">NamesFromSids</a>
-</td>
-<td align="left" width="63%">
-Gets the display names that correspond to the specified SIDs.
-
-</td>
-</tr>
-</table>

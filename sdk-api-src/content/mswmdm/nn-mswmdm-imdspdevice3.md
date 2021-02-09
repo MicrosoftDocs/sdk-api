@@ -64,61 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDevice3</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMDSPDevice3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-deviceiocontrol">DeviceIoControl</a>
-</td>
-<td align="left" width="63%">
-Calls the device I/O control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-findstorage">FindStorage</a>
-</td>
-<td align="left" width="63%">
-Finds the storage through its unique identification (ID).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-getformatcapability">GetFormatCapability</a>
-</td>
-<td align="left" width="63%">
-Retrieves information from a device about the values or ranges of values supported by the device for each aspect of a particular object format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves device-specific properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-setproperty">SetProperty</a>
-</td>
-<td align="left" width="63%">
-Sets device-specific properties that are writeable.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>

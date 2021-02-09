@@ -55,20 +55,20 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessa
 
 ## -parameters
 
-### -param *channelInstance [in]
+### -param channelInstance [in]
 
 The pointer to the state specific to this channel instance,
                     as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
 
-### -param *message [in]
+### -param message [in]
 
 The message to receive into.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

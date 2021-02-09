@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamTimeSeek</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFByteStreamTimeSeek</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-gettimeseekresult">GetTimeSeekResult</a>
-</td>
-<td align="left" width="63%">
-Gets the result of a time-based seek.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-istimeseeksupported">IsTimeSeekSupported</a>
-</td>
-<td align="left" width="63%">
-Queries whether the byte stream supports time-based seeking.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-timeseek">TimeSeek</a>
-</td>
-<td align="left" width="63%">
-Seeks to a new position in the byte stream.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A byte stream can implement this interface if it supports time-based seeking. For example, a byte stream that reads data from a server  might implement the interface. Typically, a local file-based byte stream would not implement it.

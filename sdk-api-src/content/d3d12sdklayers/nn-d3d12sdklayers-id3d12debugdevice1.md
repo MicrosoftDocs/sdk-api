@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DebugDevice1</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D12DebugDevice1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice1-getdebugparameter">GetDebugParameter</a>
-</td>
-<td align="left" width="63%">
-Gets optional device-wide Debug Layer settings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice1-reportlivedeviceobjects">ReportLiveDeviceObjects</a>
-</td>
-<td align="left" width="63%">
-Specifies the amount of information to report  on a device object's lifetime.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice1-setdebugparameter">SetDebugParameter</a>
-</td>
-<td align="left" width="63%">
-Modifies the D3D12 optional device-wide Debug Layer settings.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is currently in Preview mode.

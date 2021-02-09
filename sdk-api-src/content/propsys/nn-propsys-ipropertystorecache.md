@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStoreCache</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPropertyStoreCache</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/oe/oe-ioeactions-getstate">GetState</a>
-</td>
-<td align="left" width="63%">
-Gets the state of a specified property key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertystorecache-getvalueandstate">GetValueAndState</a>
-</td>
-<td align="left" width="63%">
-Gets value and state data for a property key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-setstate">SetState</a>
-</td>
-<td align="left" width="63%">
-Sets the property state of a specified property key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertystorecache-setvalueandstate">SetValueAndState</a>
-</td>
-<td align="left" width="63%">
-Sets value and state data for a property key.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface also provides the methods of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface, from which it inherits.

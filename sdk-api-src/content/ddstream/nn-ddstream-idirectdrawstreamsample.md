@@ -65,34 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawStreamSample</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirectDrawStreamSample</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawstreamsample-getsurface">GetSurface</a>
-</td>
-<td align="left" width="63%">
-Retrieves pointers to the current sample's DirectDraw surface and associated clipping rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawstreamsample-setrect">SetRect</a>
-</td>
-<td align="left" width="63%">
-Changes the clipping rectangle for a sample.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>

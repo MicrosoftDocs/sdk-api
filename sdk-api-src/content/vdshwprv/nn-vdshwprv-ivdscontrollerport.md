@@ -63,54 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsControllerPort</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVdsControllerPort</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontrollerport-getcontroller">GetController</a>
-</td>
-<td align="left" width="63%">
-Returns the controller to which the controller port belongs.</p> (Inherited from <b>IVdsControllerPort</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontrollerport-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Retrieves the properties of a controller port.</p> (Inherited from <b>IVdsControllerPort</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontrollerport-queryassociatedluns">QueryAssociatedLuns</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of the LUNs with which the controller port is associated—the LUNs 
-     for which the controller is active. This method replaces 
-     <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-queryassociatedluns">IVdsController::QueryAssociatedLuns</a>.
- (Inherited from <b>IVdsControllerPort</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontrollerport-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Reinitializes the controller port.</p> (Inherited from <b>IVdsControllerPort</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontrollerport-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Sets the status of a controller port to the specified value.</p> (Inherited from <b>IVdsControllerPort</b>)</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontroller">IVdsController</a>

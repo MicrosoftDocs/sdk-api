@@ -60,44 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Multithread</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1Multithread</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-enter">Enter</a>
-</td>
-<td align="left" width="63%">
-Enters the Direct2D API critical section, if it exists. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-getmultithreadprotected">GetMultithreadProtected</a>
-</td>
-<td align="left" width="63%">
-Returns whether the Direct2D factory was created with the <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE_MULTI_THREADED</a> flag.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1multithread-leave">Leave</a>
-</td>
-<td align="left" width="63%">
-Leaves the Direct2D API critical section, if it exists.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 You can get an <b>ID2D1Multithread</b> object by querying for it from an <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> 

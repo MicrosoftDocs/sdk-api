@@ -62,52 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnRegistrationEvents</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMbnRegistrationEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onpacketservicestatechange">OnPacketServiceStateChange</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the device packet service state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregistermodeavailable">OnRegisterModeAvailable</a>
-</td>
-<td align="left" width="63%">
-Indicates that registration mode information is available.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregisterstatechange">OnRegisterStateChange</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the device's registration state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onsetregistermodecomplete">OnSetRegisterModeComplete</a>
-</td>
-<td align="left" width="63%">
-Indicates that a set registration operation has completed.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The following procedure describes how to register for notifications.

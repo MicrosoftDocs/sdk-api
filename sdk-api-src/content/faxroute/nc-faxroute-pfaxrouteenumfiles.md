@@ -63,7 +63,7 @@ Type: <b>DWORD</b>
 
 Specifies a unique number that identifies the fax job that received the fax document.
 
-### -param *Guid [in]
+### -param Guid [in]
 
 Type: <b>GUID*</b>
 

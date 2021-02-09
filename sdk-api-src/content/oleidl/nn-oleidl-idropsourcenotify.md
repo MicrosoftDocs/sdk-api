@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropSourceNotify</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDropSourceNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-idropsourcenotify-dragentertarget">DragEnterTarget</a>
-</td>
-<td align="left" width="63%">
-OLE calls this method when the user drags the mouse cursor into a potential drop target window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-idropsourcenotify-dragleavetarget">DragLeaveTarget</a>
-</td>
-<td align="left" width="63%">
-OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>

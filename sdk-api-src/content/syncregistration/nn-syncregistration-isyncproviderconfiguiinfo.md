@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncProviderConfigUIInfo</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISyncProviderConfigUIInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfiguiinfo-getsyncproviderconfigui">GetSyncProviderConfigUI</a>
-</td>
-<td align="left" width="63%">
-Creates an instance of a synchronization provider configuration UI.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 You can get and set the properties of a  synchronization provider configuration UI by calling the <a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfiguiinfo-getsyncproviderconfigui">GetSyncProviderConfigUI</a>method and manipulating the configuration UI's <b>IPropertyStore</b>.

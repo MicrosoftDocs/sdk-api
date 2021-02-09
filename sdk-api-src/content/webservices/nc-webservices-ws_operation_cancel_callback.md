@@ -60,7 +60,7 @@ Gives notification of the cancellation of an
 
 Specifies the reason for which the call back is called.
 
-### -param *state [in]
+### -param state [in]
 
 A reference to the application defined state registered with the callback.
 

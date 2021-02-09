@@ -60,22 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DeviceContext6</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1DeviceContext6</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext6-blendimage">BlendImage</a>
-</td>
-<td align="left" width="63%">
-Draws an image to the device context using the specified blend mode. 
-        Results are equivalent to using Direct2D's built-in <a href="/windows/desktop/Direct2D/blend">Blend effect</a>.
-
-</td>
-</tr>
-</table>

@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumIDList</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumIDList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new item enumeration object with the same contents and state as the current one.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Returns to the beginning of the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the specified number of elements in the enumeration sequence.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 All Shell folder objects must be able to respond to a call to their <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method by creating an enumeration object that exports <b>IEnumIDList</b>. The Shell, in particular, uses these objects to enumerate the items in a folder.

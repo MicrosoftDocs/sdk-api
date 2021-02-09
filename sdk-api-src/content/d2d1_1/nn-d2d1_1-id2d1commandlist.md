@@ -59,35 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandList</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1CommandList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-close">Close</a>
-</td>
-<td align="left" width="63%">
-Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-drawimage">ID2D1DeviceContext::DrawImage</a>
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">Stream</a>
-</td>
-<td align="left" width="63%">
-Streams the contents of the command list  to the specified command sink. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The command list does not include static copies of resources with the recorded set of commands. All bitmaps, effects, and geometries are stored as references to the actual resource and all the brushes are stored by value. All the resource creation and destruction happens outside of the command list. The following table  	lists resources and how they are treated inside of a command list.

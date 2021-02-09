@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandWrittenTextInsertion</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IHandWrittenTextInsertion</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertinkrecognitionresult">InsertInkRecognitionResult</a>
-</td>
-<td align="left" width="63%">
-Insert recognition results.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertrecognitionresultsarray">InsertRecognitionResultsArray</a>
-</td>
-<td align="left" width="63%">
-Insert recognition results array.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This element is declared in Peninputpanel.h.

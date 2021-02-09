@@ -59,45 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoryRanges</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITextStoryRanges</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/tom/nf-tom-itextstoryranges-_newenum">_NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an 
-			<b>IEnumVARIANT</b> enumerator interface for this collection of stories.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tom/nf-tom-itextstoryranges-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of stories in the specified stories collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tom/nf-tom-itextstoryranges-item">Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object for the 
-			<i>Index</i>th story in this story collection. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
  

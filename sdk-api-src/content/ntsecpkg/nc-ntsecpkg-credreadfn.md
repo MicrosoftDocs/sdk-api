@@ -147,7 +147,7 @@ Specifies the type of the credential to read. The possible values for this param
 
 Reserved. This parameter must be set to zero.
 
-### -param *Credential [out]
+### -param Credential [out]
 
 A pointer to a pointer to an <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that receives the credentials that this function reads.
 

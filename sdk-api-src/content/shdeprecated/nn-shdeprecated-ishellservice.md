@@ -60,21 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellService</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IShellService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ishellservice-setowner">SetOwner</a>
-</td>
-<td align="left" width="63%">
-Deprecated. Declares an owner reference to the service object.
-
-</td>
-</tr>
-</table>

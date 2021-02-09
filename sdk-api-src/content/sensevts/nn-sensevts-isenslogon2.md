@@ -60,61 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensLogon2</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISensLogon2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-logoff">Logoff</a>
-</td>
-<td align="left" width="63%">
-A user has logged off.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-logon">Logon</a>
-</td>
-<td align="left" width="63%">
-A user has logged on.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-postshell">PostShell</a>
-</td>
-<td align="left" width="63%">
-A user has logged on and Windows Explorer (Shell) is up and running.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-sessiondisconnect">SessionDisconnect</a>
-</td>
-<td align="left" width="63%">
-A session has been disconnected.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-sessionreconnect">SessionReconnect</a>
-</td>
-<td align="left" width="63%">
-A session has been reconnected.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>

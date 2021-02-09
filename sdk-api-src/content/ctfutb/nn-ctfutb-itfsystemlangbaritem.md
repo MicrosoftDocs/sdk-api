@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItem</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfSystemLangBarItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritem-seticon">SetIcon</a>
-</td>
-<td align="left" width="63%">
-Modifies the icon displayed for the system language bar menu.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritem-settooltipstring">SetTooltipString</a>
-</td>
-<td align="left" width="63%">
-Modifies the tooltip text displayed for the system language bar menu.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A system language bar menu is an object on the language bar that supports menu items added to it by third-partyextensions. The system item must support the <a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> interface and support the IID_ITfSystemLangBarItemSink identifier in its <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> implementation. The system item should also implement the <b>ITfSystemLangBarItem</b> interface. The system item uses the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a> interface to enable the extension to add items.

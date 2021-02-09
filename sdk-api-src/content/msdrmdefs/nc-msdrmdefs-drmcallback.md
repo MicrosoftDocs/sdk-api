@@ -66,7 +66,7 @@ Specifies the action being performed. This can be one of the <a href="/windows/d
 
 The status of the current action.
 
-### -param *
+### -param 
 
 An application-defined value, such as a pointer to a callback function or a pointer to an event handle.
 

@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2TuneRequest</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMPEG2TuneRequest</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequest-get_progno">get_ProgNo</a>
-</td>
-<td align="left" width="63%">
-Retrieves the program number ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequest-get_tsid">get_TSID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the transport stream ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequest-put_progno">put_ProgNo</a>
-</td>
-<td align="left" width="63%">
-Sets the program number ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequest-put_tsid">put_TSID</a>
-</td>
-<td align="left" width="63%">
-Sets the transport stream ID.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMPEG2TuneRequest)</code>.

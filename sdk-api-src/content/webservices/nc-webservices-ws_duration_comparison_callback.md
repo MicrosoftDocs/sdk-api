@@ -54,15 +54,15 @@ Compares two durations.A duration represents a unit of time as an eight-dimensio
 
 ## -parameters
 
-### -param *duration1 [in]
+### -param duration1 [in]
 
 A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> structure representing the first duration to compare.
 
-### -param *duration2 [in]
+### -param duration2 [in]
 
 A  pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> structure representing the second duration.
 
-### -param *result [out]
+### -param result [out]
 
 The relationship between the durations as one of the following values:
                     <ul>
@@ -71,7 +71,7 @@ The relationship between the durations as one of the following values:
 <li> 1 if <i>duration1</i> is greater than <i>duration2</i></li>
 </ul>
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 A pointer to  a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> handle where additional error information should be stored if the function fails.
 

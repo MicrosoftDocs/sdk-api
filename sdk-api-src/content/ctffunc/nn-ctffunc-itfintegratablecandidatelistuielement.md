@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfIntegratableCandidateListU
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfIntegratableCandidateListUIElement</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-finalizeexactcompositionstring">FinalizeExactCompositionString</a>
-</td>
-<td align="left" width="63%">
-Finalizes the current composition with the value currently shown to the user.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle">GetSelectionStyle</a>
-</td>
-<td align="left" width="63%">
-Retrieves the selection style.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-onkeydown">OnKeyDown</a>
-</td>
-<td align="left" width="63%">
-Processes a key press.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-setintegrationstyle">SetIntegrationStyle</a>
-</td>
-<td align="left" width="63%">
-Sets the integration style.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-showcandidatenumbers">ShowCandidateNumbers</a>
-</td>
-<td align="left" width="63%">
-Specifies whether candidate numbers should be shown.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>ITfIntegratableCandidateListUIElement</b> interface is implemented by text services and Input Method Editors (IMEs) to adjust UI-less mode behavior for a better UI and keyboarding experience in IME-integrated controls, like the Windows 8 Search box.  The interface is used by apps that need a more streamlined UI and keyboarding experience with IME languages. 

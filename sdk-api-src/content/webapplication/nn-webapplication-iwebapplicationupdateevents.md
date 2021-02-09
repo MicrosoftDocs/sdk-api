@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationUpdateEvents</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWebApplicationUpdateEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationupdateevents-oncsschanged">OnCssChanged</a>
-</td>
-<td align="left" width="63%">
-Notifies the authoring app that the CSS has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationupdateevents-onpaint">OnPaint</a>
-</td>
-<td align="left" width="63%">
-Notifies the authoring app that a portion of the app was painted.
-
-</td>
-</tr>
-</table>

@@ -60,21 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPAsyncResult</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUPnPAsyncResult</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">AsyncOperationComplete</a>
-</td>
-<td align="left" width="63%">
-Provides notification of a completed asynchronous I/O operation.
-
-</td>
-</tr>
-</table>

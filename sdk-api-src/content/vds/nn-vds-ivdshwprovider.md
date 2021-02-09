@@ -63,43 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProvider</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVdsHwProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-querysubsystems">QuerySubSystems</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of the subsystems managed by the provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">Reenumerate</a>
-</td>
-<td align="left" width="63%">
-Discovers newly connected and disconnected subsystems.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">Refresh</a>
-</td>
-<td align="left" width="63%">
-Refreshes the internally-cached data about existing subsystems managed by the provider.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-queryproviders">IVdsService::QueryProviders</a>

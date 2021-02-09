@@ -63,34 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMMDeviceCollection</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMMDeviceCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevicecollection-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves a count of the devices in the device collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item">Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the specified item in the device collection.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

@@ -60,39 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbDefaultAuthorityDescripto
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDvbDefaultAuthorityDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdefaultauthoritydescriptor-getdefaultauthority">GetDefaultAuthority</a>
-</td>
-<td align="left" width="63%">
-Gets the string identifying the default authority from a  DVB  CRID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdefaultauthoritydescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the body length of a DVB  default authority descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbdefaultauthoritydescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Gets the tag that identifies a DVB  default authority descriptor.
-
-</td>
-</tr>
-</table>

@@ -60,25 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventProviderSecurity</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWbemEventProviderSecurity</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventprovidersecurity-accesscheck">AccessCheck</a>
-</td>
-<td align="left" width="63%">
-Checks a consumer's access permission when the consumer attempts to subscribe to an event.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This method is automatically called by Windows Management whenever a new consumer attempts to subscribe to an event where the event provider has implemented 

@@ -62,7 +62,7 @@ The session handle.
 
 A list of server-trusted Certificate Authorities.
 
-### -param *ppCertificate [in, out]
+### -param ppCertificate [in, out]
 
 Upon receiving the callback, the user supplies an appropriate client certificate in 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> format and returns a value of <b>TRUE</b>. If the client cannot supply an appropriate certificate or wants the server to use anonymous credentials, it should return a value of <b>FALSE</b> instead. Any certificate supplied must be freed by the application after the connection is completed.

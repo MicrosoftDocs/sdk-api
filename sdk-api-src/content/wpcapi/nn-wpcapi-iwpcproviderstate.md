@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCProviderState</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWPCProviderState</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderstate-disable">Disable</a>
-</td>
-<td align="left" width="63%">
-Notifies the third-party application that it is not the current provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderstate-enable">Enable</a>
-</td>
-<td align="left" width="63%">
-Notifies the third-party application that it has been selected as the new current provider.
-
-</td>
-</tr>
-</table>

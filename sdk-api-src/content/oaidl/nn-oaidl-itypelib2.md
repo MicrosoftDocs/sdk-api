@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeLib2</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITypeLib2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib2-getallcustdata">GetAllCustData</a>
-</td>
-<td align="left" width="63%">
-Gets all custom data items for the library.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib2-getcustdata">GetCustData</a>
-</td>
-<td align="left" width="63%">
-Gets the custom data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib2-getdocumentation2">GetDocumentation2</a>
-</td>
-<td align="left" width="63%">
-Retrieves the library's documentation string, the complete Help file name and path, the localization context to use, and the context ID for the library Help topic in the Help file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib2-getlibstatistics">GetLibStatistics</a>
-</td>
-<td align="left" width="63%">
-Returns statistics about a type library that are required for efficient sizing of hash tables.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>

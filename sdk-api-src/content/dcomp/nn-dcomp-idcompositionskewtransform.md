@@ -59,48 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionSkewTransform</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDCompositionSkewTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setanglex">SetAngleX</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the AngleX property of a 2D skew transform. The AngleX property specifies the rotation angle, in degrees. The default value is zero.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setangley">SetAngleY</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the AngleY property of a 2D skew transform. The AngleY property specifies the rotation angle, in degrees. The default value is zero.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449075(v=vs.85)">SetCenterX</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 2D skew transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449081(v=vs.85)">SetCenterY</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a  of a 2D skew transform.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A skew transform represents the following 3-by-3 matrix: 

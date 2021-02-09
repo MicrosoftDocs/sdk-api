@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireDeviceSelectionD
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPhotoAcquireDeviceSelectionDialog</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-domodal">DoModal</a>
-</td>
-<td align="left" width="63%">
-Displays a device selection dialog box and retrieves the ID and type of the selected device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-setsubmitbuttontext">SetPrompt</a>
-</td>
-<td align="left" width="63%">
-Sets the text displayed in the dialog box that prompts the user to select a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-settitle">SetTitle</a>
-</td>
-<td align="left" width="63%">
-Sets the title of the device selection dialog box.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>

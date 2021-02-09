@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelperEx</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INetDiagHelperEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reconfirmlowhealth">INetDiagHelperEx::ReconfirmLowHealth</a>
-</td>
-<td align="left" width="63%">
-Adds a second Low Health pass after hypotheses have been diagnosed and before repairs are retrieved. This method is optional when building a Helper Class extension.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reproducefailure">INetDiagHelperEx::ReproduceFailure</a>
-</td>
-<td align="left" width="63%">
-Reserved for system use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-setutilities">INetDiagHelperEx::SetUtilities</a>
-</td>
-<td align="left" width="63%">
-Reserved for system use.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

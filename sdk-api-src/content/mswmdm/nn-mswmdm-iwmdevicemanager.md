@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDeviceManager</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMDeviceManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">EnumDevices</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the <b>IWMDMEnumDevice</b> interface that can be used to enumerate portable devices connected to the computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-getdevicecount">GetDeviceCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of portable devices that are currently connected to the computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-getrevision">GetRevision</a>
-</td>
-<td align="left" width="63%">
-Retrieves the version number of Windows Media Device Manager currently in use.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>

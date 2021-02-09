@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeInfo</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfDisplayAttributeInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getattributeinfo">GetAttributeInfo</a>
-</td>
-<td align="left" width="63%">
-Obtains the display attribute data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Obtains the description string of the display attribute.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getguid">GetGUID</a>
-</td>
-<td align="left" width="63%">
-Obtains the GUID for the display attribute.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the display attribute data to its default value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-setattributeinfo">SetAttributeInfo</a>
-</td>
-<td align="left" width="63%">
-Sets the new attribute data.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An application obtains an instance of this interface by calling <a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">ITfDisplayAttributeMgr::GetDisplayAttributeInfo</a> or <a href="/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next</a>.

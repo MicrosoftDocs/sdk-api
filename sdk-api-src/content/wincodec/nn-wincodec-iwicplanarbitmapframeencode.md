@@ -63,34 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarBitmapFrameEncode</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICPlanarBitmapFrameEncode</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapframeencode-writepixels">WritePixels</a>
-</td>
-<td align="left" width="63%">
-Writes lines from the source planes to the encoded format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapframeencode-writesource">WriteSource</a>
-</td>
-<td align="left" width="63%">
-Writes lines from the source planes to the encoded format.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Encoding YCbCr data using <b>IWICPlanarBitmapFrameEncode</b> is similar but not identical to encoding interleaved data using <a href="/windows/desktop/wic/-wic-imp-iwicbitmapframeencode">IWICBitmapFrameEncode</a>. The planar interface only exposes the ability to write planar frame image data, and you should continue to use the frame encode interface to set metadata or a thumbnail and to commit at the end of the operation.

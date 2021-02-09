@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHardwareAudioEngineBase</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IHardwareAudioEngineBase</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getavailableoffloadconnectorcount">GetAvailableOffloadConnectorCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of available endpoints for handling offloaded audio streams.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getengineformat">GetEngineFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current data format for the hardware audio engine.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getgfxstate">GetGfxState</a>
-</td>
-<td align="left" width="63%">
-Retrieves the state of the global effects  that are currently applied to the offloaded audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setenginedeviceformat">SetEngineDeviceFormat</a>
-</td>
-<td align="left" width="63%">
-Sets the data format for the hardware audio engine.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setgfxstate">SetGfxState</a>
-</td>
-<td align="left" width="63%">
-Sets the state of the global effects (GFX) that are applied to the offloaded audio stream.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

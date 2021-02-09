@@ -61,61 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioMetadataItems</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISpatialAudioMetadataItems</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getframecount">GetFrameCount</a>
-</td>
-<td align="left" width="63%">
-Gets the total frame count of the <b>ISpatialAudioMetadataItems</b>, which defines valid item offsets.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getinfo">GetInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the total frame count for the <b>ISpatialAudioMetadataItems</b>, which defines valid item offsets.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getitemcount">GetItemCount</a>
-</td>
-<td align="left" width="63%">
-The current number of items stored by the <b>ISpatialAudioMetadataItems</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxitemcount">GetMaxItemCount</a>
-</td>
-<td align="left" width="63%">
-The maximum number of items allowed by the <b>ISpatialAudioMetadataItems</b>, defined when the object is created.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxvaluebufferlength">GetMaxValueBufferLength</a>
-</td>
-<td align="left" width="63%">
-The size of the largest command value defined by the metadata format for the <b>ISpatialAudioMetadataItems</b>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Get an instance of this interface by calling <a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadataitems">ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems</a>.
