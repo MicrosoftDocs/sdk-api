@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertificationAuthority.Property
- - ICertificationAuthority.get_Property
+ - ICertificationAuthority::get_Property
 ---
 
 # ICertificationAuthority::get_Property
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
+

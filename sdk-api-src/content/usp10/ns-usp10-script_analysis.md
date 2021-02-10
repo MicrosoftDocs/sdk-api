@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
+ - tag_SCRIPT_ANALYSIS
  - SCRIPT_ANALYSIS
 ---
 
@@ -307,3 +308,4 @@ Applications that use <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

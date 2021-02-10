@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor2.GetDisplayUrl
- - IUrlAccessor4.GetDisplayUrl
+ - IUrlAccessor2::GetDisplayUrl
 ---
 
 # IUrlAccessor2::GetDisplayUrl

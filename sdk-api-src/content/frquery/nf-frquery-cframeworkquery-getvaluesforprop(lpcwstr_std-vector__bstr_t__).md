@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CFrameworkQuery.GetValuesForProp
+ - CFrameworkQuery::GetValuesForProp
 ---
 
 # CFrameworkQuery::GetValuesForProp(LPCWSTR,std
@@ -163,3 +163,4 @@ SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"
 
 
 <a href="/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>
+

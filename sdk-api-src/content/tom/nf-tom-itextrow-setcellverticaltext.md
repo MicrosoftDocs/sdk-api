@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.SetCellVerticalText
+ - ITextRow::SetCellVerticalText
 ---
 
 # ITextRow::SetCellVerticalText
@@ -77,3 +77,4 @@ This property is not currently implemented.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-getcellverticaltext">ITextRow::GetCellVerticalText</a>
+

@@ -9,6 +9,8 @@ tech.root: fsrm
 f1_keywords:
  - fsrmscreen
  - fsrmscreen/fsrmscreen
+api_name:
+ - fsrmscreen
 ---
 
 # Fsrmscreen.h header

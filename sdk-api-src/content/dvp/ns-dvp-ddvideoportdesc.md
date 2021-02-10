@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dvp.h
 api_name:
+ - _DDVIDEOPORTDESC
+ - LPDDVIDEOPORTDESC
  - DDVIDEOPORTDESC
 ---
 
@@ -109,3 +111,4 @@ Reserved for future use and should be ignored by the driver.
 
 
 <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a>
+

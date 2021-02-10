@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesItemFilter.GetPatternFilter
+ - IOfflineFilesItemFilter::GetPatternFilter
 ---
 
 # IOfflineFilesItemFilter::GetPatternFilter
@@ -86,3 +86,4 @@ While this method can be implemented in any filter type (inclusion, exclusion) o
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitemfilter">IOfflineFilesItemFilter</a>
+

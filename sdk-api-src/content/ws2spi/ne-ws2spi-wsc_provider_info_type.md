@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
+ - _WSC_PROVIDER_INFO_TYPE
  - WSC_PROVIDER_INFO_TYPE
 ---
 

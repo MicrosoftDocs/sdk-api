@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandler.GetName
+ - ISyncMgrHandler::GetName
 ---
 
 # ISyncMgrHandler::GetName
@@ -75,3 +75,4 @@ Sync Center calls this method any time that <a href="/windows/desktop/api/syncmg
 It is the responsibility of the handler to allocate the string buffer using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. Sync Center deallocates the buffer through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 <b>ISyncMgrHandler::GetName</b> replaces the use of <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">GetHandlerInfo</a> to retrieve the handler name.
+

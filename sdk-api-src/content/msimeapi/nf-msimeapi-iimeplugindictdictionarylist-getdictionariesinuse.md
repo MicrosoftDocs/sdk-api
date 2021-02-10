@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msimeapi.h
 api_name:
- - IImePlugInDictDictionaryList.GetDictionariesInUse
+ - IImePlugInDictDictionaryList::GetDictionariesInUse
 ---
 
 # IImePlugInDictDictionaryList::GetDictionariesInUse
@@ -113,3 +113,4 @@ Other errors.
 ## -see-also
 
 <a href="/windows/desktop/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist">IImePlugInDictDictionaryList</a>
+

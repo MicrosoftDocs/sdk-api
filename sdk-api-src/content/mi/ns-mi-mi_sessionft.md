@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mi.h
 api_name:
+ - _MI_SessionFT
  - MI_SessionFT
 ---
 
@@ -114,3 +115,4 @@ TBD
 ### -field TestConnection
 
 TBD
+

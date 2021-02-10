@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_FAULT
  - WS_FAULT
 ---
 
@@ -131,3 +132,4 @@ If there is detail for the fault, the <a href="/windows/desktop/wsw/ws-xml-buffe
                     fault-specific XML content is contained within the detail element.
                     The local name and namespace of the element are ignored; they are replaced with
                     the appropriate element name according to the <a href="/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION</a>when the detail element is written.
+

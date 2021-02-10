@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.WBEMTime
- - ??0WBEMTime@@QAE@QAG@Z
- - ??0WBEMTime@@QEAA@QEAG@Z
+ - WBEMTime::WBEMTime
 ---
 
 # WBEMTime::WBEMTime(const BSTR)
@@ -92,3 +90,4 @@ The microsecond separator "." and UTC offset sign "+/-" must be present in the c
 Example: "1979**********.000000+000"  appears as "197910101000000.000000+000".
 
 "1979**********.000000+0*1" converts to "197910101000000.000000+001". Note the "*" in the UTC offset changes to 0 in the second position. On reading this datetime field the resulting UTC of 001 impacts the minute field to yield "197910100000000.000000+000".
+

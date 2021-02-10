@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItemInfo.GetTypeLabel
+ - ISyncMgrSyncItemInfo::GetTypeLabel
 ---
 
 # ISyncMgrSyncItemInfo::GetTypeLabel
@@ -71,3 +71,4 @@ Returns S_OK if successful, or an error value otherwise. If the method fails, <i
 The label value is displayed as the System.Sync.ItemTypeLabel (PKEY_Sync_ItemTypeLabel) property in the folder UI. Sync Center calls this method whenever the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> or <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a> method is called.
 
 The item is responsible for allocating the string buffer pointed to by <i>ppszTypeLabel</i> through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. Sync Center deallocates the string buffer through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+

@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursor.Buttons
- - IInkCursor.get_Buttons
- - IInkCursor.get_Buttons
+ - IInkCursor::get_Buttons
 ---
 
 # IInkCursor::get_Buttons
@@ -76,3 +74,4 @@ For a pen, the buttons may include the writing tip, the eraser end, and the barr
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">InkCursor Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStrokeBuilder.BeginStroke
+ - IStrokeBuilder::BeginStroke
 ---
 
 # IStrokeBuilder::BeginStroke
@@ -152,3 +152,4 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusDown(
 
 
 <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
+

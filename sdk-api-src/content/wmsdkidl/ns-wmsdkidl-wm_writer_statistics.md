@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - _WMWriterStatistics
  - WM_WRITER_STATISTICS
 ---
 
@@ -107,3 +108,4 @@ Sample rates are specified in kilohertz. For instance, a sample rate of 8 indica
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

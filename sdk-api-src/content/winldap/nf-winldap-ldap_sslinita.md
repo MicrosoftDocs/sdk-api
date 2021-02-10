@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_sslinitA
  - winldap/ldap_sslinitA
+ - ldap_sslinit
+ - winldap/ldap_sslinit
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_sslinit
  - ldap_sslinitA
- - ldap_sslinitW
+ - ldap_sslinit
 ---
 
 # ldap_sslinitA function
@@ -113,3 +114,4 @@ Microsoft implements security features, like SSL, through its SSPI capabilities.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
+

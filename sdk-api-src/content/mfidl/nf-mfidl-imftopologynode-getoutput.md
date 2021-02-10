@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode.GetOutput
+ - IMFTopologyNode::GetOutput
 ---
 
 # IMFTopologyNode::GetOutput
@@ -118,3 +118,4 @@ The specified input stream is not connected to another node.
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

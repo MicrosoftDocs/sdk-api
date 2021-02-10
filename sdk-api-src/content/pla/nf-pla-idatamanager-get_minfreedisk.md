@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.MinFreeDisk
- - IDataManager.get_MinFreeDisk
- - IDataManager.put_MinFreeDisk
+ - IDataManager::get_MinFreeDisk
 ---
 
 # IDataManager::get_MinFreeDisk
@@ -65,3 +63,4 @@ The minimum value applies to the folder specified in the <a href="/previous-vers
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
+

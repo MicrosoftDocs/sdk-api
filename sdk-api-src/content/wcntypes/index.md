@@ -9,6 +9,8 @@ tech.root: wcn
 f1_keywords:
  - wcntypes
  - wcntypes/wcntypes
+api_name:
+ - wcntypes
 ---
 
 # Wcntypes.h header

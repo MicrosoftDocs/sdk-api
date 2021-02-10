@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMUINT4.XMUINT4
+ - XMUINT4::XMUINT4
 ---
 
 # XMUINT4::XMUINT4(const uint32_t)
@@ -79,3 +79,4 @@ instance.w = pArray[3];
 <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)">XMUINT4 Constructors</a>
+

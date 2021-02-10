@@ -44,6 +44,7 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
+ - IKEEXT_CREDENTIAL2_
  - IKEEXT_CREDENTIAL2
 ---
 
@@ -122,3 +123,4 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

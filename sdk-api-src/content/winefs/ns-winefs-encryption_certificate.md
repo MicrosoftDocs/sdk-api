@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winefs.h
 api_name:
+ - _ENCRYPTION_CERTIFICATE
+ - PENCRYPTION_CERTIFICATE
  - ENCRYPTION_CERTIFICATE
 ---
 
@@ -86,3 +88,4 @@ A pointer to an
 
 
 <a href="/windows/desktop/api/winefs/nf-winefs-setuserfileencryptionkey">SetUserFileEncryptionKey</a>
+

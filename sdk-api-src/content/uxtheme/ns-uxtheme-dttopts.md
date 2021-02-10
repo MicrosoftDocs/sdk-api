@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
+ - _DTTOPTS
+ - PDTTOPTS
  - DTTOPTS
 ---
 
@@ -342,3 +344,4 @@ Pointer to callback function for <a href="/windows/desktop/api/uxtheme/nf-uxthem
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Parameter for callback back function specified by <b>pfnDrawTextCallback</b>.
+

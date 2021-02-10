@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.put_EditStart
+ - IAMExtTransport::put_EditStart
 ---
 
 # IAMExtTransport::put_EditStart
@@ -103,3 +103,4 @@ Use this method to manually enable edit control. Edit control is defined as the 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_editstart">IAMExtTransport::get_EditStart</a>
+

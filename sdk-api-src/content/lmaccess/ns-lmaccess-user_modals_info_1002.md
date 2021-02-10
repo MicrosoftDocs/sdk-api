@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_MODALS_INFO_1002
+ - PUSER_MODALS_INFO_1002
  - USER_MODALS_INFO_1002
 ---
 
@@ -78,3 +80,4 @@ Specifies, in seconds, the maximum allowable password age. A value of TIMEQ_FORE
 
 
 <a href="/windows/desktop/NetMgmt/user-modal-functions">User Modal Functions</a>
+

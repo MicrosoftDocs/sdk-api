@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bits1_5.h
 api_name:
+ - __MIDL_IBackgroundCopyJob2_0002
  - BG_AUTH_CREDENTIALS_UNION
 ---
 

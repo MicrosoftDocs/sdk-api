@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shldisp.h
 api_name:
- - IShellFolderViewDual3.get_SortColumns
+ - IShellFolderViewDual3::get_SortColumns
 ---
 
 # IShellFolderViewDual3::get_SortColumns
@@ -65,3 +65,4 @@ A <b>BSTR</b> that contains the column names.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

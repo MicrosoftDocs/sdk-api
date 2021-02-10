@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetSortColumns
+ - ISearchFolderItemFactory::SetSortColumns
 ---
 
 # ISearchFolderItemFactory::SetSortColumns
@@ -71,3 +71,4 @@ A pointer to an array of <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
+

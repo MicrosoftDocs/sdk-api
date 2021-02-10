@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
+ - _INTERNET_CACHE_TIMESTAMPS
+ - LPINTERNET_CACHE_TIMESTAMPS
  - INTERNET_CACHE_TIMESTAMPS
 ---
 
@@ -78,3 +80,4 @@ This structure is returned in the buffer when calling
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
+

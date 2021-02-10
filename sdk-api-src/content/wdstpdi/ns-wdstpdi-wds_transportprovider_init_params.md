@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wdstpdi.h
 api_name:
+ - _WDS_TRANSPORTPROVIDER_INIT_PARAMS
+ - PWDS_TRANSPORTPROVIDER_INIT_PARAMS
  - WDS_TRANSPORTPROVIDER_INIT_PARAMS
 ---
 
@@ -74,3 +76,4 @@ An open handle to the registry key where this provider should
 ### -field hProvider
 
 A handle that the provider can use to uniquely identify itself in calls to the multicast server.
+

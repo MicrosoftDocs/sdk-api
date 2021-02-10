@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.OpenStream
+ - IWMSyncReader::OpenStream
 ---
 
 # IWMSyncReader::OpenStream
@@ -72,3 +72,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-open">IWMSyncReader::Open</a>
+

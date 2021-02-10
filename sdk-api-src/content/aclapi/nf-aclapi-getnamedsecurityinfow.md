@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetNamedSecurityInfoW
  - aclapi/GetNamedSecurityInfoW
+ - GetNamedSecurityInfo
+ - aclapi/GetNamedSecurityInfo
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - ntmarta.dll
  - API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
 api_name:
- - GetNamedSecurityInfo
- - GetNamedSecurityInfoA
  - GetNamedSecurityInfoW
+ - GetNamedSecurityInfo
 ---
 
 # GetNamedSecurityInfoW function
@@ -191,3 +192,4 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>
+

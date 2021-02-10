@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - StorageAdapterCloseDatabase
+ - PIBIO_STORAGE_CLOSE_DATABASE_FN
 ---
 
 # PIBIO_STORAGE_CLOSE_DATABASE_FN callback function
@@ -187,3 +187,4 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a>
+

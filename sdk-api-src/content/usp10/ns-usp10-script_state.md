@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
+ - tag_SCRIPT_STATE
  - SCRIPT_STATE
 ---
 
@@ -336,3 +337,4 @@ This structure is used to initialize the Unicode algorithm state as an input to 
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

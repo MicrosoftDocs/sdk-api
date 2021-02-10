@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
- - WSAQUERYSET2
- - WSAQUERYSET2A
+ - _WSAQuerySet2W
+ - PWSAQUERYSET2W
  - WSAQUERYSET2W
 ---
 
@@ -253,3 +253,4 @@ On Windows Vista and Windows Server 2008, the <b>WSAQUERYSET2</b> structure ca
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea">WSASetService</a>
+

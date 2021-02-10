@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
- - PRINTDLG
- - PRINTDLGA
+ - tagPDW
+ - LPPRINTDLGW
  - PRINTDLGW
 ---
 
@@ -530,3 +530,4 @@ If the <b>PD_RETURNDEFAULT</b> flag is set and both <b>hDevMode</b> and <b>hDevN
 
 
 <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
+

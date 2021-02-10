@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetSignatureId
+ - IXpsSigningOptions::GetSignatureId
 ---
 
 # IXpsSigningOptions::GetSignatureId
@@ -79,3 +79,4 @@ The default value of the signature ID is an empty string.
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

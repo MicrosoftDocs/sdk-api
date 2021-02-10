@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig.SetBitrate
+ - IWMStreamConfig::SetBitrate
 ---
 
 # IWMStreamConfig::SetBitrate
@@ -78,3 +78,4 @@ The new value will not take effect in the profile until you call <a href="/windo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getbitrate">IWMStreamConfig::GetBitrate</a>
+

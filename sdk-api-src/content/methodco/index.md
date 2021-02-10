@@ -9,6 +9,8 @@ tech.root: wmi
 f1_keywords:
  - methodco
  - methodco/methodco
+api_name:
+ - methodco
 ---
 
 # Methodco.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
- - ITTerminalControl.get_AddressHandle
+ - ITTerminalControl::get_AddressHandle
 ---
 
 # ITTerminalControl::get_AddressHandle
@@ -95,3 +95,4 @@ The <i>phtAddress</i> parameter is not a valid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rdpencomapi.h
 api_name:
+ - __MIDL___MIDL_itf_rdpencomapi_0000_0000_0003
  - CHANNEL_PRIORITY
 ---
 
@@ -71,3 +72,4 @@ Send the packets at a high priority.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapivirtualchannel-get_priority">Priority Property of IRDPSRAPIVirtualChannel</a>
+

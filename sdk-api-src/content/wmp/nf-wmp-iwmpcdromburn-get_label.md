@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn.get_label
+ - IWMPCdromBurn::get_label
 ---
 
 # IWMPCdromBurn::get_label
@@ -91,3 +91,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_label">IWMPCdromBurn::put_label</a>
+

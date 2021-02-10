@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyArchived.Initialize
+ - ICertPropertyArchived::Initialize
 ---
 
 # ICertPropertyArchived::Initialize
@@ -94,3 +94,4 @@ The object is already initialized.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchived">ICertPropertyArchived</a>
+

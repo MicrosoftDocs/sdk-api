@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser.Unadvise
+ - IExplorerBrowser::Unadvise
 ---
 
 # IExplorerBrowser::Unadvise
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Terminates an advisory connection previously established through method <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-advise">IExplorerBrowser::Advise</a>. The <i>dwCookie</i> parameter identifies the connection to terminate. Failure to call  <b>IExplorerBrowser::Unadvise</b>, may result in a memory leak.
+

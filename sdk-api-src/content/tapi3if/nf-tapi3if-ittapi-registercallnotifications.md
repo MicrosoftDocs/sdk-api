@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI.RegisterCallNotifications
+ - ITTAPI::RegisterCallNotifications
 ---
 
 # ITTAPI::RegisterCallNotifications
@@ -174,3 +174,4 @@ An application can specify multiple flags to handle multiple media types. Confli
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
+

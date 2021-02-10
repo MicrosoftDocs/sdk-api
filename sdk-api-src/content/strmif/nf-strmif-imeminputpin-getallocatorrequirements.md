@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemInputPin.GetAllocatorRequirements
+ - IMemInputPin::GetAllocatorRequirements
 ---
 
 # IMemInputPin::GetAllocatorRequirements
@@ -114,3 +114,4 @@ When an output pin initializes a memory allocator, it can call this method to de
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
+

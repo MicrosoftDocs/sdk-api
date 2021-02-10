@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_REQUEST_CHANNEL_BIND_STATUS
+ - PHTTP_REQUEST_CHANNEL_BIND_STATUS
  - HTTP_REQUEST_CHANNEL_BIND_STATUS
 ---
 
@@ -73,3 +75,4 @@ The length of the <b>ChannelToken</b> buffer in bytes.
 ### -field Flags
 
 Reserved
+

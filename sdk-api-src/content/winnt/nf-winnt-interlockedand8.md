@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InterlockedAnd8
  - winnt/InterlockedAnd8
+ - InterlockedAnd
+ - winnt/InterlockedAnd
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - Winnt.h
 api_name:
  - InterlockedAnd8
+ - InterlockedAnd
 ---
 
 # InterlockedAnd8 function

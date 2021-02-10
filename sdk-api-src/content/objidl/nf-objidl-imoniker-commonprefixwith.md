@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker.CommonPrefixWith
+ - IMoniker::CommonPrefixWith
 ---
 
 # IMoniker::CommonPrefixWith
@@ -242,3 +242,4 @@ This method returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/objbase/nf-objbase-monikercommonprefixwith">MonikerCommonPrefixWith</a>
+

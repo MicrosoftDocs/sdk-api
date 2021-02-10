@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_SUBNET_ELEMENT_INFO_ARRAY
+ - LPDHCP_SUBNET_ELEMENT_INFO_ARRAY
  - DHCP_SUBNET_ELEMENT_INFO_ARRAY
 ---
 
@@ -77,3 +79,4 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_sub
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetelements">DhcpEnumSubnetElements</a>
+

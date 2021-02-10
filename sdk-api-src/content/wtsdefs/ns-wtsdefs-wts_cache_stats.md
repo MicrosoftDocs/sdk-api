@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_CACHE_STATS
+ - PWTS_CACHE_STATS
  - WTS_CACHE_STATS
 ---
 
@@ -84,8 +86,6 @@ The cache data is contained in the <b>Reserved</b> member.
 
 A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats_un">WTS_CACHE_STATS_UN</a> union that contains the cache statistics.
 
-
-
 ### -field ProtocolType
 
 An integer that specifies the protocol type. This is not currently used by the Remote Desktop Services service.
@@ -97,3 +97,4 @@ An integer that contains the length of the data in the <b>Reserved</b> member of
 ## -remarks
 
 This structure is a member of the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_status">WTS_PROTOCOL_STATUS</a> structure.
+

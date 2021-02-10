@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICategorizer.CompareCategory
+ - ICategorizer::CompareCategory
 ---
 
 # ICategorizer::CompareCategory
@@ -99,3 +99,4 @@ The following table shows the values returned in the CODE field of the HRESULT.
 <td>The two items are the same (<i>dwCategoryId1</i> = <i>dwCategoryId2</i>).</td>
 </tr>
 </table>
+

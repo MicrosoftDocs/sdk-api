@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.MoveItems
+ - IFileOperation::MoveItems
 ---
 
 # IFileOperation::MoveItems
@@ -89,3 +89,4 @@ This method does not move the items, it merely declares the items to be moved. T
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-moveitem">IFileOperation::MoveItem</a>
+

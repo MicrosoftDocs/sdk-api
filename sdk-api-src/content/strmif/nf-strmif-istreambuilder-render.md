@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IStreamBuilder.Render
+ - IStreamBuilder::Render
 ---
 
 # IStreamBuilder::Render
@@ -138,3 +138,4 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-istreambuilder">IStreamBuilder Interface</a>
+

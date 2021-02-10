@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDXMLContext.AddNameToNamespace
+ - IWSDXMLContext::AddNameToNamespace
 ---
 
 # IWSDXMLContext::AddNameToNamespace
@@ -128,3 +128,4 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPostView.GetPostViewProps
+ - IWMWriterPostView::GetPostViewProps
 ---
 
 # IWMWriterPostView::GetPostViewProps
@@ -109,3 +109,4 @@ An application can enumerate through the various outputs, and retrieve the outpu
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
+

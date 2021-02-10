@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMTVAudioNotification.OnEvent
+ - IAMTVAudioNotification::OnEvent
 ---
 
 # IAMTVAudioNotification::OnEvent
@@ -71,3 +71,4 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudionotification">IAMTVAudioNotification Interface</a>
+

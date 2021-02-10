@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IKsJackDescription.GetJackDescription
+ - IKsJackDescription::GetJackDescription
 ---
 
 # IKsJackDescription::GetJackDescription
@@ -117,3 +117,4 @@ For more information, see <a href="/windows/win32/api/devicetopology/ns-deviceto
 
 
 <a href="/windows/win32/api/devicetopology/ns-devicetopology-ksjack_description">KSJACK_DESCRIPTION</a>
+

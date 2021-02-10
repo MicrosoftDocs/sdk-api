@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiApplyPatchA
  - msi/MsiApplyPatchA
+ - MsiApplyPatch
+ - msi/MsiApplyPatch
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiApplyPatch
  - MsiApplyPatchA
- - MsiApplyPatchW
+ - MsiApplyPatch
 ---
 
 # MsiApplyPatchA function
@@ -221,3 +222,4 @@ Because the list delimiter for transforms, sources, and patches is a semicolon, 
 
 
 <a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+

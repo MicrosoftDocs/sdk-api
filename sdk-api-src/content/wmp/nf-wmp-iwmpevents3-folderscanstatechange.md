@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents3.FolderScanStateChange
+ - IWMPEvents3::FolderScanStateChange
 ---
 
 # IWMPEvents3::FolderScanStateChange
@@ -75,3 +75,4 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 <a href="/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>
+

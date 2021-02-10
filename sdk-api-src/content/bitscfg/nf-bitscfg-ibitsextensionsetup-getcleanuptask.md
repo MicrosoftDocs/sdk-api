@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsMgr.dll
 api_name:
- - IBITSExtensionSetup.GetCleanupTask
+ - IBITSExtensionSetup::GetCleanupTask
 ---
 
 # IBITSExtensionSetup::GetCleanupTask
@@ -84,3 +84,4 @@ To change the cleanup schedule, see the <a href="/windows/desktop/Bits/bits-iis-
 
 
 <a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptaskname">IBITSExtensionSetup::GetCleanupTaskName</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor.DesiredExpansion
- - IInertiaProcessor.get_DesiredExpansion
- - IInertiaProcessor.put_DesiredExpansion
+ - IInertiaProcessor::put_DesiredExpansion
 ---
 
 # IInertiaProcessor::put_DesiredExpansion
@@ -90,3 +88,4 @@ Call this function to set the initial state of inertia. You would call this func
 
 
 <a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
+

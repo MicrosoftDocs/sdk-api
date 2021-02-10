@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - _VMR9AlphaBitmap
  - VMR9AlphaBitmap
 ---
 
@@ -173,3 +174,4 @@ When you are done, release the device context by calling <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

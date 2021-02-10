@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.GetMethod
+ - IWbemClassObject::GetMethod
 ---
 
 # IWbemClassObject::GetMethod
@@ -125,3 +125,4 @@ After filling in the property values of the <i>ppInSignature</i> object, the cal
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-putmethod">IWbemClassObject::PutMethod</a>
+

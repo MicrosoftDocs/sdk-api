@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IActionCollection.XmlText
- - IActionCollection.get_XmlText
- - IActionCollection.put_XmlText
+ - IActionCollection::put_XmlText
 ---
 
 # IActionCollection::put_XmlText
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

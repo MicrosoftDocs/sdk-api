@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagLVGROUP
+ - PLVGROUP
  - LVGROUP
 ---
 
@@ -578,3 +580,4 @@ All strings returned in this structure should be treated as read-only.
 	
 
 The creation of subsets is not currently supported, and <b>pszSubsetTitle</b> cannot be set by applications.
+

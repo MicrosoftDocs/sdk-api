@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.GetTransform
+ - PathGradientBrush::GetTransform
 ---
 
 # PathGradientBrush::GetTransform
@@ -148,3 +148,4 @@ VOID Example_GetTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

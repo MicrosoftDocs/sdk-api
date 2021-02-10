@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateReadOnlyStreamOnFile
+ - IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
 ---
 
 # IXpsOMObjectFactory::CreateReadOnlyStreamOnFile
@@ -132,3 +132,4 @@ This method calls the <a href="/previous-versions/windows/desktop/opc/packaging"
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

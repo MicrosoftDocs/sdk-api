@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IDTFilter.put_BlockUnRated
+ - IDTFilter::put_BlockUnRated
 ---
 
 # IDTFilter::put_BlockUnRated
@@ -98,3 +98,4 @@ The filter passes this call through to the <b>EvalRat</b> object. For more infor
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>
+

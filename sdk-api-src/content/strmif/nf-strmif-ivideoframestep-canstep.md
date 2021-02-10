@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoFrameStep.CanStep
+ - IVideoFrameStep::CanStep
 ---
 
 # IVideoFrameStep::CanStep
@@ -74,3 +74,4 @@ Returns S_OK if the object can step or E_INVALIDARG if <i>pStepObject</i> is inv
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ivideoframestep">IVideoFrameStep Interface</a>
+

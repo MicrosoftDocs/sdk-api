@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes.ClearNoOp
+ - ImageAttributes::ClearNoOp
 ---
 
 # ImageAttributes::ClearNoOp
@@ -181,3 +181,4 @@ VOID Example_SetClearNoOp(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mstask.h
 api_name:
+ - _TRIGGER_TYPE_UNION
  - TRIGGER_TYPE_UNION
 ---
 
@@ -109,3 +110,4 @@ The <b>TriggerType</b> member of the
 
 
 <a href="/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a>
+

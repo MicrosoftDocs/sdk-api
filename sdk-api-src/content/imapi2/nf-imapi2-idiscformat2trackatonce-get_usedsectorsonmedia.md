@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia
+ - IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia
 ---
 
 # IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia
@@ -118,3 +118,4 @@ If you call this method from your event handler, the number reflects the sectors
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_totalsectorsonmedia">IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia</a>
+

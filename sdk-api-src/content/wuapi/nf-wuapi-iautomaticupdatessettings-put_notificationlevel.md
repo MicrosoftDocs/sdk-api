@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings.NotificationLevel
- - IAutomaticUpdatesSettings.get_NotificationLevel
- - IAutomaticUpdatesSettings.put_NotificationLevel
+ - IAutomaticUpdatesSettings::put_NotificationLevel
 ---
 
 # IAutomaticUpdatesSettings::put_NotificationLevel
@@ -68,3 +66,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
+

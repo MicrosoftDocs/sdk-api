@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObjExt.WriteData
+ - IDsAdminNewObjExt::WriteData
 ---
 
 # IDsAdminNewObjExt::WriteData
@@ -97,3 +97,4 @@ A secondary object creation extension should not commit the data set during the 
 
 
 <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">IDsAdminNewObjExt::SetObject</a>
+

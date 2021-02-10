@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDMessageParameters.GetLowerParameters
+ - IWSDMessageParameters::GetLowerParameters
 ---
 
 # IWSDMessageParameters::GetLowerParameters
@@ -99,3 +99,4 @@ The method was not implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
+

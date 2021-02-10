@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfInsertAtSelection.InsertEmbeddedAtSelection
+ - ITfInsertAtSelection::InsertEmbeddedAtSelection
 ---
 
 # ITfInsertAtSelection::InsertEmbeddedAtSelection
@@ -193,3 +193,4 @@ To insert text instead of an <b>IDataObject</b> object, use the <a href="/window
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfqueryembedded-queryinsertembedded">ITfQueryEmbedded::QueryInsertEmbedded
       </a>
+

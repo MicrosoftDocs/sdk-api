@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl.h
 api_name:
- - IAccessibilityDockingService.UndockWindow
+ - IAccessibilityDockingService::UndockWindow
 ---
 
 # IAccessibilityDockingService::UndockWindow
@@ -134,3 +134,4 @@ class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallb
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservice">IAccessibilityDockingService</a>
+

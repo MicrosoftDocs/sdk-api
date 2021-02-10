@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_SERVICE_PROP
  - VDS_SERVICE_PROP
 ---
 
@@ -77,3 +78,4 @@ A bitmask of <a href="/windows/desktop/api/vds/ne-vds-vds_service_flag">VDS_SERV
 
 
 <a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
+

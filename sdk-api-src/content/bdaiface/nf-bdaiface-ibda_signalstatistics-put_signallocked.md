@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_SignalStatistics.put_SignalLocked
+ - IBDA_SignalStatistics::put_SignalLocked
 ---
 
 # IBDA_SignalStatistics::put_SignalLocked
@@ -73,3 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_signallocked">IBDA_SignalStatistics::get_SignalLocked</a>
+

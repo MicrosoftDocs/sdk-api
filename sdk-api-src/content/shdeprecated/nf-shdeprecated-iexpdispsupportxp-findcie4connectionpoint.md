@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IExpDispSupportXP.FindCIE4ConnectionPoint
+ - IExpDispSupportXP::FindCIE4ConnectionPoint
 ---
 
 # IExpDispSupportXP::FindCIE4ConnectionPoint

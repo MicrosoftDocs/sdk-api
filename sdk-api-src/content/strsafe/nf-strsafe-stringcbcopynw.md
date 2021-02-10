@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StringCbCopyNW
  - strsafe/StringCbCopyNW
+ - StringCbCopyN
+ - strsafe/StringCbCopyN
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCbCopyN
- - StringCbCopyNA
  - StringCbCopyNW
+ - StringCbCopyN
 ---
 
 # StringCbCopyNW function
@@ -192,3 +193,4 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="/wi
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyna">StringCchCopyN</a>
+

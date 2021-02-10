@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser.SetFolderSettings
+ - IExplorerBrowser::SetFolderSettings
 ---
 
 # IExplorerBrowser::SetFolderSettings
@@ -79,3 +79,4 @@ To ensure the view state is perserved across sessions, specify the persistence n
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>
+

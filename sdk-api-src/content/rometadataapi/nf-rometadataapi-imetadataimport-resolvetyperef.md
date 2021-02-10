@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.ResolveTypeRef
+ - IMetaDataImport::ResolveTypeRef
 ---
 
 # IMetaDataImport::ResolveTypeRef
@@ -88,3 +88,4 @@ If the type reference to be resolved has a resolution scope of AssemblyRef, the 
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

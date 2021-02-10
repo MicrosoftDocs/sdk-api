@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeReader.SetTCRMode
+ - IAMTimecodeReader::SetTCRMode
 ---
 
 # IAMTimecodeReader::SetTCRMode
@@ -117,3 +117,4 @@ Note that ED_TCR_LAST_VALUE is used when implementing timecode notification beca
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettcrmode">IAMTimecodeReader::GetTCRMode</a>
+

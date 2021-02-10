@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.StylusOutOfRange
+ - IStylusPlugin::StylusOutOfRange
 ---
 
 # IStylusPlugin::StylusOutOfRange
@@ -85,3 +85,4 @@ The stylus is out of range of the digitizer.
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+

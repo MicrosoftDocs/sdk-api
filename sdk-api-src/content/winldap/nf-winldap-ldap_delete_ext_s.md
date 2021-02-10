@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_delete_ext_s
- - ldap_delete_ext_sA
- - ldap_delete_ext_sW
 ---
 
 # ldap_delete_ext_s function
@@ -121,3 +119,4 @@ Multithreading: Calls to <b>ldap_delete_ext_s</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_s">ldap_delete_s</a>
+

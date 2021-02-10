@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix.OffsetY
+ - Matrix::OffsetY
 ---
 
 # Matrix::OffsetY
@@ -84,3 +84,4 @@ This method returns the vertical translation value of this matrix, which is the 
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

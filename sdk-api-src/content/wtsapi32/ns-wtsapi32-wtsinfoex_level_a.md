@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - WTSINFOEX_LEVEL
+ - _WTSINFOEX_LEVEL_A
+ - PWTSINFOEX_LEVEL_A
  - WTSINFOEX_LEVEL_A
- - WTSINFOEX_LEVEL_W
 ---
 
 # WTSINFOEX_LEVEL_A structure
@@ -71,3 +71,4 @@ A <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFO
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a>
+

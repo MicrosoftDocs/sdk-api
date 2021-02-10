@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.EndDraw
+ - ID2D1CommandSink::EndDraw
 ---
 
 # ID2D1CommandSink::EndDraw
@@ -77,3 +77,4 @@ The <b>HRESULT</b> active at the end of the command list will be returned.
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a>
+

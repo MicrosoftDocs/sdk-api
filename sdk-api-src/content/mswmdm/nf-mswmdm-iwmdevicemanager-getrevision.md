@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDeviceManager.GetRevision
+ - IWMDeviceManager::GetRevision
 ---
 
 # IWMDeviceManager::GetRevision
@@ -73,3 +73,4 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager Interface</a>
+

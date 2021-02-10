@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback.ReportEvent
+ - ISyncMgrSyncCallback::ReportEvent
 ---
 
 # ISyncMgrSyncCallback::ReportEvent
@@ -162,3 +162,4 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 }
 
 ```
+

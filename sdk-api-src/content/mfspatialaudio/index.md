@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - mfspatialaudio
  - mfspatialaudio/mfspatialaudio
+api_name:
+ - mfspatialaudio
 ---
 
 # Mfspatialaudio.h header

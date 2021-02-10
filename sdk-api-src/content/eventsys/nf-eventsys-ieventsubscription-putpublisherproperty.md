@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription.PutPublisherProperty
+ - IEventSubscription::PutPublisherProperty
 ---
 
 # IEventSubscription::PutPublisherProperty
@@ -77,3 +77,4 @@ A property bag is used to store information about the events the subscriber need
 
 
 <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_publisherid">PublisherID</a>
+

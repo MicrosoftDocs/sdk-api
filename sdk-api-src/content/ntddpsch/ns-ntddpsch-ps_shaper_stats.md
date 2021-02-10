@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntddpsch.h
 api_name:
+ - _PS_SHAPER_STATS
+ - PPS_SHAPER_STATS
  - PS_SHAPER_STATS
 ---
 
@@ -76,3 +78,4 @@ Average number of packets that have been in the packet shaper for the flow or in
 
 
 <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.put_BlockAlign
+ - ITScriptableAudioFormat::put_BlockAlign
 ---
 
 # ITScriptableAudioFormat::put_BlockAlign
@@ -90,3 +90,4 @@ Method succeeded.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_blockalign">get_BlockAlign</a>
+

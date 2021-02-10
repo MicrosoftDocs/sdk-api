@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRSETMITERLIMIT
+ - PEMRSETMITERLIMIT
  - EMRSETMITERLIMIT
 ---
 
@@ -77,3 +79,4 @@ New miter limit.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a>
+

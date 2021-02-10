@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ISynchronize.Wait
+ - ISynchronize::Wait
 ---
 
 # ISynchronize::Wait
@@ -106,3 +106,4 @@ If the caller is waiting in a single-thread apartment, <b>Wait</b> enters the CO
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWMFiledesc.GetRecursive
+ - IVssWMFiledesc::GetRecursive
 ---
 
 # IVssWMFiledesc::GetRecursive
@@ -144,3 +144,4 @@ The XML document is not valid. Check the event log for details. For more
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector.StreamMode
- - ITraceDataCollector.get_StreamMode
- - ITraceDataCollector.put_StreamMode
+ - ITraceDataCollector::put_StreamMode
 ---
 
 # ITraceDataCollector::put_StreamMode
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/pla/ne-pla-streammode">StreamMode</a>
+

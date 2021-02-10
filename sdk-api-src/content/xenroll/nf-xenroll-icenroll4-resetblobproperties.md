@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.resetBlobProperties
- - CEnroll.resetBlobProperties
+ - ICEnroll4::resetBlobProperties
 ---
 
 # ICEnroll4::resetBlobProperties
@@ -66,3 +65,4 @@ This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+

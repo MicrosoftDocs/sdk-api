@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
+ - IUIAnimationStoryboard2::AddTransitionBetweenKeyframes
 ---
 
 # IUIAnimationStoryboard2::AddTransitionBetweenKeyframes
@@ -152,3 +152,4 @@ Transitions must be added in the order in which they will be played. A transitio
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
+

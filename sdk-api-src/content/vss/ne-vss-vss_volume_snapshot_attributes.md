@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+ - PVSS_VOLUME_SNAPSHOT_ATTRIBUTES
  - VSS_VOLUME_SNAPSHOT_ATTRIBUTES
 ---
 
@@ -337,3 +339,4 @@ The shadow copies' context and attributes are found as a bit mask contained in t
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
+

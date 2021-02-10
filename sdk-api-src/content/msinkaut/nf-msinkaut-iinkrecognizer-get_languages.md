@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizer.Languages
- - IInkRecognizer.get_Languages
- - IInkRecognizer.get_Languages
+ - IInkRecognizer::get_Languages
 ---
 
 # IInkRecognizer::get_Languages
@@ -74,3 +72,4 @@ This property returns the empty array for Microsoft gesture recognizer.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name">Name Property</a>
+

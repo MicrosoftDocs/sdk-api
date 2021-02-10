@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetComputerNameA
  - winbase/GetComputerNameA
+ - GetComputerName
+ - winbase/GetComputerName
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetComputerName
  - GetComputerNameA
- - GetComputerNameW
+ - GetComputerName
 ---
 
 # GetComputerNameA function
@@ -133,3 +134,4 @@ For an example, see
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System
     Information Functions</a>
+

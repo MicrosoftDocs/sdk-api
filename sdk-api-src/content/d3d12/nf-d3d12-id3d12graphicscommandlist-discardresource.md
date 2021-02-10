@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.DiscardResource
+ - ID3D12GraphicsCommandList::DiscardResource
 ---
 
 ## -description
@@ -86,3 +86,4 @@ For <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
 <a href="/windows/desktop/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
+

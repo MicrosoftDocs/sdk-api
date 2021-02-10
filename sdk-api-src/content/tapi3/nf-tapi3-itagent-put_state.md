@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent.put_State
+ - ITAgent::put_State
 ---
 
 # ITAgent::put_State
@@ -130,3 +130,4 @@ The <b>ITAgent::put_State</b> method is a COM wrapper for the TAPI 2.1
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">get_State</a>
+

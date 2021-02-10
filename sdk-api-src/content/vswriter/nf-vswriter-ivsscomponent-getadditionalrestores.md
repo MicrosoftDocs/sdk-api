@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetAdditionalRestores
+ - IVssComponent::GetAdditionalRestores
 ---
 
 # IVssComponent::GetAdditionalRestores
@@ -151,3 +151,4 @@ When
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+

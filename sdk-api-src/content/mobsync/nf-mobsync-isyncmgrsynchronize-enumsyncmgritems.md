@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.EnumSyncMgrItems
+ - ISyncMgrSynchronize::EnumSyncMgrItems
 ---
 
 # ISyncMgrSynchronize::EnumSyncMgrItems
@@ -109,3 +109,4 @@ The enumeration object that this method creates implements the
 
 
 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
+

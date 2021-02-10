@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition.Type
- - IFsrmPropertyDefinition.get_Type
- - IFsrmPropertyDefinition.put_Type
+ - IFsrmPropertyDefinition::get_Type
 ---
 
 # IFsrmPropertyDefinition::get_Type
@@ -65,3 +63,4 @@ You cannot change the type after you commit the definition.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
+

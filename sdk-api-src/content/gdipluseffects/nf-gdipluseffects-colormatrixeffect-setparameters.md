@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ColorMatrixEffect.SetParameters
+ - ColorMatrixEffect::SetParameters
 ---
 
 # ColorMatrixEffect::SetParameters
@@ -82,3 +82,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
+

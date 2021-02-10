@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_simple_bindA
  - winldap/ldap_simple_bindA
+ - ldap_simple_bind
+ - winldap/ldap_simple_bind
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_simple_bind
  - ldap_simple_bindA
- - ldap_simple_bindW
+ - ldap_simple_bind
 ---
 
 # ldap_simple_bindA function
@@ -128,3 +129,4 @@ The <b>ldap_simple_bind</b> function is designed to bind to the local domain. Th
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
+

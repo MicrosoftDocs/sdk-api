@@ -44,6 +44,7 @@ api_type:
 api_location:
  - TlHelp32.h
 api_name:
+ - tagTHREADENTRY32
  - THREADENTRY32
 ---
 
@@ -94,3 +95,4 @@ This member is no longer used and is always set to zero.
 
 
 <a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32next">Thread32Next</a>
+

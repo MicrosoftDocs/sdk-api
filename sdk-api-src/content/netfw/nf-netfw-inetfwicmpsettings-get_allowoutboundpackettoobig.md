@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowOutboundPacketTooBig
- - INetFwIcmpSettings.get_AllowOutboundPacketTooBig
- - INetFwIcmpSettings.put_AllowOutboundPacketTooBig
+ - INetFwIcmpSettings::get_AllowOutboundPacketTooBig
 ---
 
 # INetFwIcmpSettings::get_AllowOutboundPacketTooBig
@@ -68,3 +66,4 @@ This setting is  for IPv6 only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwicmpsettings">INetFwIcmpSettings</a>
+

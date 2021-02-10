@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi1_3.h
 api_name:
- - IDXGIFactory3.GetCreationFlags
+ - IDXGIFactory3::GetCreationFlags
 ---
 
 # IDXGIFactory3::GetCreationFlags
@@ -65,3 +65,4 @@ The <b>GetCreationFlags</b> method returns flags that were passed to the  <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>
+

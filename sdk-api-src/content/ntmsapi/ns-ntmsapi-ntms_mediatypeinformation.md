@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
+ - _NTMS_MEDIATYPEINFORMATION
  - NTMS_MEDIATYPEINFORMATION
 ---
 
@@ -163,3 +164,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+

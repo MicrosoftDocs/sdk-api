@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CompareStringW
  - stringapiset/CompareStringW
+ - CompareString
+ - stringapiset/CompareString
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
 api_name:
- - CompareString
- - CompareStringA
  - CompareStringW
+ - CompareString
 ---
 
 # CompareStringW function
@@ -147,3 +148,4 @@ Normally, for case-insensitive comparisons, <b>CompareString</b> maps the lowerc
 
 
 <a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
+

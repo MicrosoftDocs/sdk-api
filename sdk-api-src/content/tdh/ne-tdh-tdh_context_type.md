@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _TDH_CONTEXT_TYPE
  - TDH_CONTEXT_TYPE
 ---
 
@@ -97,3 +98,4 @@ If you are specifying context information for a legacy ETW event, you only need 
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a>
+

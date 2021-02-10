@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.AddLogParam
+ - IWMReaderAdvanced4::AddLogParam
 ---
 
 # IWMReaderAdvanced4::AddLogParam
@@ -126,3 +126,4 @@ To send the logging information to the server, call the <b>SendLogParams</b> met
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-sendlogparams">IWMReaderAdvanced4::SendLogParams</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager.ScheduleTransition
+ - IUIAnimationManager::ScheduleTransition
 ---
 
 # IUIAnimationManager::ScheduleTransition
@@ -122,3 +122,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>
+

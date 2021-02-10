@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - _FOLLOW_FLAGS
  - FOLLOW_FLAGS
 ---
 
@@ -64,3 +65,4 @@ Specifies whether complex URLs (those containing a '?') should be indexed.
 ### -field FF_SUPPRESSINDEXING
 
 Follow but do not index this URL.
+

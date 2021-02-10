@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.FindText
+ - IUIAutomationTextRange::FindText
 ---
 
 # IUIAutomationTextRange::FindText
@@ -95,3 +95,4 @@ There is no differentiation between hidden and visible text.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

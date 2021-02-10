@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IEnumMcastScope.Reset
+ - IEnumMcastScope::Reset
 ---
 
 # IEnumMcastScope::Reset
@@ -83,3 +83,4 @@ Method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a>
+

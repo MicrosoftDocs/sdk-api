@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _RAS_USER_0
+ - PRAS_USER_0
  - RAS_USER_0
 ---
 
@@ -149,3 +151,4 @@ Pointer to a Unicode string containing the phone number at which the RAS user sh
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

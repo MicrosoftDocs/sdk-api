@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - Shell_GetCachedImageIndex
  - shlobj_core/Shell_GetCachedImageIndex
@@ -45,9 +46,6 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - Shell_GetCachedImageIndex
- - Shell_GetCachedImageIndexA
- - Shell_GetCachedImageIndexW
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # Shell_GetCachedImageIndex function
@@ -94,3 +92,4 @@ The <b>Shell_GetCachedImageIndexA</b> and <b>Shell_GetCachedImageIndexW</b> vers
 ## -see-also
 
 <a href="/windows/desktop/shell/fileiconinit">FileIconInit</a>
+

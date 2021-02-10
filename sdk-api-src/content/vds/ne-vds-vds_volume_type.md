@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_VOLUME_TYPE
  - VDS_VOLUME_TYPE
 ---
 
@@ -100,3 +101,4 @@ The  <a href="/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">IVdsPack::C
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>
+

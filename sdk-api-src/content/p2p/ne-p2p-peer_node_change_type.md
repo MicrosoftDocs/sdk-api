@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_node_change_type_tag
  - PEER_NODE_CHANGE_TYPE
 ---
 

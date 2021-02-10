@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tlogstg.h
 api_name:
+ - _WINDOWDATA
  - WINDOWDATA
 ---
 

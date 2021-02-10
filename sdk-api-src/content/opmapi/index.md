@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - opmapi
  - opmapi/opmapi
+api_name:
+ - opmapi
 ---
 
 # Opmapi.h header

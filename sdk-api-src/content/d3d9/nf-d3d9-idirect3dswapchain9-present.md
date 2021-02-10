@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DSwapChain9.Present
+ - IDirect3DSwapChain9::Present
 ---
 
 # IDirect3DSwapChain9::Present
@@ -116,3 +116,4 @@ Present will fail if called between <a href="/windows/desktop/api/d3d9/nf-d3d9-i
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-reset">Reset</a>
+

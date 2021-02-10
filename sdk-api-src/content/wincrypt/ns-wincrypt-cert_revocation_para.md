@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_REVOCATION_PARA
+ - PCERT_REVOCATION_PARA
  - CERT_REVOCATION_PARA
 ---
 
@@ -126,3 +128,4 @@ The <b>CERT_REVOCATION_PARA</b> structure provides additional information that t
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>
+

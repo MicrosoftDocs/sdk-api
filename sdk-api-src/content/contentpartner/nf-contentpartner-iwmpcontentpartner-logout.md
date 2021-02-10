@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.Logout
+ - IWMPContentPartner::Logout
 ---
 
 # IWMPContentPartner::Logout
@@ -91,3 +91,4 @@ The <b>Logout</b> method should delete any cached credentials.
 
 
 <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login">IWMPContentPartner::Login</a>
+

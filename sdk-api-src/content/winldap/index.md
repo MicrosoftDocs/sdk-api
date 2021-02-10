@@ -9,6 +9,8 @@ tech.root: ldap
 f1_keywords:
  - winldap
  - winldap/winldap
+api_name:
+ - winldap
 ---
 
 # Winldap.h header

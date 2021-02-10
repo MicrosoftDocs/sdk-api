@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_TRAFFIC0_
  - IPSEC_TRAFFIC0
 ---
 
@@ -130,3 +131,4 @@ For IPsec tunnel mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> mem
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

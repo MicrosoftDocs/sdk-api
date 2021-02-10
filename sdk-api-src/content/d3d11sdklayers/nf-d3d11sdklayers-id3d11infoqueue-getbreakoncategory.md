@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11InfoQueue.GetBreakOnCategory
+ - ID3D11InfoQueue::GetBreakOnCategory
 ---
 
 # ID3D11InfoQueue::GetBreakOnCategory
@@ -70,3 +70,4 @@ Whether this breaking condition is turned on or off (true for on, false for off)
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
+

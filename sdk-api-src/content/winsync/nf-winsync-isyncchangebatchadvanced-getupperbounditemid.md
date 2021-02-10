@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchAdvanced.GetUpperBoundItemId
+ - ISyncChangeBatchAdvanced::GetUpperBoundItemId
 ---
 
 # ISyncChangeBatchAdvanced::GetUpperBoundItemId
@@ -109,3 +109,4 @@ When <i>pbItemId</i> is too small. In this situation, the required number of byt
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>
+

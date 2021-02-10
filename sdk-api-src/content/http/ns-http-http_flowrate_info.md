@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_FLOWRATE_INFO
+ - PHTTP_FLOWRATE_INFO
  - HTTP_FLOWRATE_INFO
 ---
 
@@ -88,3 +90,4 @@ For example, if that client needs initial 20KB of the file to start playback, th
 ## -see-also
 
 <a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
+

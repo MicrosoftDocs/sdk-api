@@ -42,9 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventPublisher.PublisherName
- - IEventPublisher.get_PublisherName
- - IEventPublisher.put_PublisherName
+ - IEventPublisher::put_PublisherName
 ---
 
 # IEventPublisher::put_PublisherName
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">IEventPublisher</a>
+

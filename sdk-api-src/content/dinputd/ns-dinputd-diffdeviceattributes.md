@@ -45,6 +45,7 @@ api_location:
  - dinputd.h
 api_name:
  - DIFFDEVICEATTRIBUTES
+ - LPDIFFDEVICEATTRIBUTES
 ---
 
 # DIFFDEVICEATTRIBUTES structure

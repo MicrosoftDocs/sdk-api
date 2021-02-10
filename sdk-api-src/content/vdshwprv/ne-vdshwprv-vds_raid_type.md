@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_RAID_TYPE
+ - PVDS_RAID_TYPE
  - VDS_RAID_TYPE
 ---
 
@@ -151,3 +153,4 @@ The underlying RAID type of of the storage pool is different from the RAID type 
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">VDS_POOL_ATTRIBUTES</a>
+

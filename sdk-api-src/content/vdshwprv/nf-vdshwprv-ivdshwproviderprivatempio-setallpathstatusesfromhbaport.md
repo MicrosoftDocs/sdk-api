@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VdsHwPrv.h
 api_name:
- - IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort
+ - IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
 ---
 
 # IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
@@ -112,3 +112,4 @@ At least one path's status was not successfully set due to a nonfatal error (for
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>
+

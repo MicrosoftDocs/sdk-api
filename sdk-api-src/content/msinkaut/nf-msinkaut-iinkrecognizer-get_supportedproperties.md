@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizer.SupportedProperties
- - IInkRecognizer.get_SupportedProperties
- - IInkRecognizer.get_SupportedProperties
+ - IInkRecognizer::get_SupportedProperties
 ---
 
 # IInkRecognizer::get_SupportedProperties
@@ -72,3 +70,4 @@ A recognizer may support line metrics, line numbers, confidence levels, and so o
 
 
 <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
+

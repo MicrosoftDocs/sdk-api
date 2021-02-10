@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage.Pages
- - IFaxIncomingMessage.get_Pages
- - IFaxIncomingMessage.get_Pages
+ - IFaxIncomingMessage::get_Pages
 ---
 
 # IFaxIncomingMessage::get_Pages
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-archive">Visual Basic Example</a>
+

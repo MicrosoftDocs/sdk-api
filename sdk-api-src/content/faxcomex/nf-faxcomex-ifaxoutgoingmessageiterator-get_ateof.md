@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessageIterator.AtEOF
- - IFaxOutgoingMessageIterator.get_AtEOF
+ - IFaxOutgoingMessageIterator::get_AtEOF
 ---
 
 # IFaxOutgoingMessageIterator::get_AtEOF
@@ -72,3 +71,4 @@ If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond th
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
+

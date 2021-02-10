@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - mfreadwrite
  - mfreadwrite/mfreadwrite
+api_name:
+ - mfreadwrite
 ---
 
 # Mfreadwrite.h header

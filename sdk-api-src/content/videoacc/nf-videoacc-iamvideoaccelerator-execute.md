@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator.Execute
+ - IAMVideoAccelerator::Execute
 ---
 
 # IAMVideoAccelerator::Execute
@@ -192,3 +192,4 @@ Private data can be passed to and from a driver.
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
+

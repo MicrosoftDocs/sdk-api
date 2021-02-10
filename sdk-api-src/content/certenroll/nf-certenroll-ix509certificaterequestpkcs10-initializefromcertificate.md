@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.InitializeFromCertificate
+ - IX509CertificateRequestPkcs10::InitializeFromCertificate
 ---
 
 # IX509CertificateRequestPkcs10::InitializeFromCertificate
@@ -268,3 +268,4 @@ The <b>InitializeFromCertificate</b> method validates the options specified in t
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+

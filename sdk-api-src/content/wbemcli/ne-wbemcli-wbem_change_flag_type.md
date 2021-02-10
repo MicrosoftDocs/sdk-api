@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_CHANGE_FLAG_TYPE
  - WBEM_CHANGE_FLAG_TYPE
 ---
 

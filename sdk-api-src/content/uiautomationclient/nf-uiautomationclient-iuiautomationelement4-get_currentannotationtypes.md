@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationElement4.CurrentAnnotationTypes
- - IUIAutomationElement4.get_CurrentAnnotationTypes
+ - IUIAutomationElement4::get_CurrentAnnotationTypes
 ---
 
 # IUIAutomationElement4::get_CurrentAnnotationTypes
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement4">IUIAutomationElement4</a>
+

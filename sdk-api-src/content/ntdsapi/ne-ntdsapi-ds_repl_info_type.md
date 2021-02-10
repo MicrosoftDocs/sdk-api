@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - _DS_REPL_INFO_TYPE
  - DS_REPL_INFO_TYPE
 ---
 
@@ -166,3 +167,4 @@ Requests replication state data for a specific attribute for the given object. R
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
+

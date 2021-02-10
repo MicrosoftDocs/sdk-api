@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice.get_partnershipIndex
+ - IWMPSyncDevice::get_partnershipIndex
 ---
 
 # IWMPSyncDevice::get_partnershipIndex
@@ -114,3 +114,4 @@ When <i>plIndex</i> equals zero, no partnership exists.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid">IWMPSyncDevice::get_deviceId</a>
+

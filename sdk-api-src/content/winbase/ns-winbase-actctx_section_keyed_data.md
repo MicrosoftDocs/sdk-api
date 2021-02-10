@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
+ - tagACTCTX_SECTION_KEYED_DATA
+ - PACTCTX_SECTION_KEYED_DATA
  - ACTCTX_SECTION_KEYED_DATA
 ---
 
@@ -136,3 +138,4 @@ which  initializes all members to zero/null except the size field which is set c
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-findactctxsectionstringa">FindActCtxSectionString</a>
+

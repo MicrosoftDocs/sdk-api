@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspaddr.h
 api_name:
- - CMSPAddress.IsValidSetOfMediaTypes
+ - CMSPAddress::IsValidSetOfMediaTypes
 ---
 
 # CMSPAddress::IsValidSetOfMediaTypes
@@ -66,3 +66,4 @@ Media types mask indicating types that can be handled.
 ## -see-also
 
 <a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
+

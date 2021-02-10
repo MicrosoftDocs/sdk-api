@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceDocumentAccess.GetDocumentURL
+ - IUPnPDeviceDocumentAccess::GetDocumentURL
 ---
 
 # IUPnPDeviceDocumentAccess::GetDocumentURL
@@ -78,3 +78,4 @@ This method does not support scripting.
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicedocumentaccess">IUPnPDeviceDocumentAccess</a>
+

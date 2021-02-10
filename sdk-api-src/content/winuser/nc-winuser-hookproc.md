@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - CallWndRetProc
+ - HOOKPROC
 ---
 
 # HOOKPROC callback function
@@ -120,3 +120,4 @@ An application installs the hook procedure by specifying the <a href="/windows/d
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+

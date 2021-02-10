@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.Address
- - IFaxStatus.get_Address
+ - IFaxStatus::get_Address
 ---
 
 # IFaxStatus::get_Address
@@ -84,3 +83,4 @@ The <b>IFaxStatus::get_Address</b> method allocates the memory required for the 
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

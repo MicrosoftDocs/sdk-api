@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure3.SetNamespace
+ - IStreamBufferConfigure3::SetNamespace
 ---
 
 # IStreamBufferConfigure3::SetNamespace
@@ -105,3 +105,4 @@ If the value is "Global", the synchronization objects are created in the global 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure3">IStreamBufferConfigure3 Interface</a>
+

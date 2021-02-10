@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput.WaitForVBlank
+ - IDXGIOutput::WaitForVBlank
 ---
 
 # IDXGIOutput::WaitForVBlank
@@ -68,3 +68,4 @@ A vertical blank occurs when the raster moves from the lower right corner to the
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
+

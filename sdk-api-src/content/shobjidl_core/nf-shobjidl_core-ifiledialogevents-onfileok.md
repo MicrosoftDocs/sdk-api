@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogEvents.OnFileOk
+ - IFileDialogEvents::OnFileOk
 ---
 
 # IFileDialogEvents::OnFileOk
@@ -73,3 +73,4 @@ When this method is called, the <a href="/windows/desktop/api/shobjidl_core/nf-s
 The application can use this callback method to perform additional validation before the dialog closes, or to prevent the dialog from closing. If the application prevents the dialog from closing, it should display a UI to indicate a cause. To obtain a parent <b>HWND</b> for the UI, obtain the <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a> interface through <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IFileDialog::QueryInterface</a> and call <a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>.
 
 An application can also use this method to perform all of its work surrounding the opening or saving of files.
+

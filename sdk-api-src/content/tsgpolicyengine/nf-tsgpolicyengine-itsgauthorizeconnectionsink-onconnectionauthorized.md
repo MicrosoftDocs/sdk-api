@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGPolicyEngine.h
 api_name:
- - ITSGAuthorizeConnectionSink.OnConnectionAuthorized
+ - ITSGAuthorizeConnectionSink::OnConnectionAuthorized
 ---
 
 # ITSGAuthorizeConnectionSink::OnConnectionAuthorized
@@ -119,3 +119,4 @@ For a sample that uses the <b>OnConnectionAuthorized</b> method, see the [Remote
 ## -see-also
 
 <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeconnectionsink">ITSGAuthorizeConnectionSink</a>
+

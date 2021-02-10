@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.CAStoreFlags
- - ICEnroll4.get_CAStoreFlags
- - ICEnroll4.put_CAStoreFlags
- - ICEnroll3.CAStoreFlags
- - ICEnroll3.get_CAStoreFlags
- - ICEnroll3.put_CAStoreFlags
- - ICEnroll2.CAStoreFlags
- - ICEnroll2.get_CAStoreFlags
- - ICEnroll2.put_CAStoreFlags
- - ICEnroll.CAStoreFlags
- - ICEnroll.get_CAStoreFlags
- - ICEnroll.put_CAStoreFlags
- - CEnroll.CAStoreFlags
+ - ICEnroll::put_CAStoreFlags
 ---
 
 # ICEnroll::put_CAStoreFlags
@@ -110,3 +98,4 @@ if ( FAILED ( hr ) )
 else
     printf("Updated CAStoreFlags\n");
 ```
+

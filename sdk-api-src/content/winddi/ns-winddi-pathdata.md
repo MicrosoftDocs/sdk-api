@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _PATHDATA
+ - PPATHDATA
  - PATHDATA
 ---
 
@@ -148,3 +150,4 @@ The PATHDATA structure describes all or part of a subpath. For example, a <b>Mov
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
+

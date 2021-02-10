@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPDVD.titleMenu
+ - IWMPDVD::titleMenu
 ---
 
 # IWMPDVD::titleMenu
@@ -89,3 +89,4 @@ Every DVD is authored differently. The DVD must contain a menu for this method t
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu">IWMPDVD::topMenu</a>
+

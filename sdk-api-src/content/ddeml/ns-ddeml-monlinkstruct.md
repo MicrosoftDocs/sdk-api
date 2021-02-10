@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
+ - tagMONLINKSTRUCT
+ - PMONLINKSTRUCT
  - MONLINKSTRUCT
 ---
 
@@ -164,3 +166,4 @@ The
 
 
 <b>Reference</b>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFContentInfo.SetProfile
+ - IMFASFContentInfo::SetProfile
 ---
 
 # IMFASFContentInfo::SetProfile
@@ -100,3 +100,4 @@ If there is already information in the ContentInfo object when this method is ca
 
 
 <a href="/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole.MessageBox
+ - IConsole::MessageBox
 ---
 
 # IConsole::MessageBox
@@ -256,3 +256,4 @@ In most cases, the MMC message OCX control is a more appropriate way of that dis
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
+

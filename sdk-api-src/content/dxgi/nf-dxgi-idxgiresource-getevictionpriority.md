@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIResource.GetEvictionPriority
+ - IDXGIResource::GetEvictionPriority
 ---
 
 # IDXGIResource::GetEvictionPriority
@@ -135,3 +135,4 @@ Priority levels other than the defined values are used when appropriate. For exa
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>
+

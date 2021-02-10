@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiPortal.SetStatus
+ - IVdsIscsiPortal::SetStatus
 ---
 
 # IVdsIscsiPortal::SetStatus
@@ -142,3 +142,4 @@ The operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_iscsi_portal_status">VDS_ISCSI_PORTAL_STATUS</a>
+

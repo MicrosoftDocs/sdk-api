@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - TranslateURLW
  - intshcut/TranslateURLW
+ - TranslateURL
+ - intshcut/TranslateURL
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Url.dll
 api_name:
- - TranslateURL
- - TranslateURLA
  - TranslateURLW
+ - TranslateURL
 ---
 
 # TranslateURLW function

@@ -43,8 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwProfile.IcmpSettings
- - INetFwProfile.get_IcmpSettings
+ - INetFwProfile::get_IcmpSettings
 ---
 
 # INetFwProfile::get_IcmpSettings
@@ -67,3 +66,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
+

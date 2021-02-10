@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTransform.GetInputStreamAttributes
+ - IMFTransform::GetInputStreamAttributes
 ---
 
 # IMFTransform::GetInputStreamAttributes
@@ -128,3 +128,4 @@ To get the attribute store for the entire MFT, call <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/medfound/transform-attributes">Transform Attributes</a>
+

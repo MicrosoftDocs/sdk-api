@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
- - PDH_BROWSE_DLG_CONFIG_H
- - PDH_BROWSE_DLG_CONFIG_HA
+ - _BrowseDlgConfig_HW
+ - PPDH_BROWSE_DLG_CONFIG_HW
  - PDH_BROWSE_DLG_CONFIG_HW
 ---
 
@@ -248,3 +248,4 @@ Each time the
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersha">PdhBrowseCountersH</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest2.GetCAProperty
- - ICertRequest.GetCAProperty
- - CCertRequest.GetCAProperty
+ - ICertRequest2::GetCAProperty
 ---
 
 # ICertRequest2::GetCAProperty
@@ -249,3 +247,4 @@ The return value is a <b>Variant</b> that receives the requested property value.
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
+

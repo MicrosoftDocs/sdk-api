@@ -9,6 +9,8 @@ tech.root: serports
 f1_keywords:
  - msports
  - msports/msports
+api_name:
+ - msports
 ---
 
 # Msports.h header

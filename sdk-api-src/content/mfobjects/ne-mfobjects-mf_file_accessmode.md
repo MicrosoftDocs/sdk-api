@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - __MIDL___MIDL_itf_mfobjects_0000_0017_0001
  - MF_FILE_ACCESSMODE
 ---
 
@@ -83,3 +84,4 @@ Read and write mode.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

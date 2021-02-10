@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush.SetVisualLocal
+ - IXpsOMVisualBrush::SetVisualLocal
 ---
 
 # IXpsOMVisualBrush::SetVisualLocal
@@ -179,3 +179,4 @@ Neither <b>SetVisualLocal</b> nor <a href="/windows/desktop/api/xpsobjectmodel/n
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

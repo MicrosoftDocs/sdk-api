@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetCombineUrlW
  - wininet/InternetCombineUrlW
+ - InternetCombineUrl
+ - wininet/InternetCombineUrl
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetCombineUrl
- - InternetCombineUrlA
  - InternetCombineUrlW
+ - InternetCombineUrl
 ---
 
 # InternetCombineUrlW function
@@ -226,3 +227,4 @@ There is an invalid string, buffer, buffer size, or flags parameter.
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

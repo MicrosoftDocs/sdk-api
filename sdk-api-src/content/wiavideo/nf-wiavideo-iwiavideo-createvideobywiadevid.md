@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiavideo.dll
 api_name:
- - IWiaVideo.CreateVideoByWiaDevID
+ - IWiaVideo::CreateVideoByWiaDevID
 ---
 
 # IWiaVideo::CreateVideoByWiaDevID
@@ -97,3 +97,4 @@ In order for the function to succeed, the <a href="/windows/desktop/api/wiavideo
 
 
 <a href="/windows/desktop/api/wiavideo/nn-wiavideo-iwiavideo">IWiaVideo</a>
+

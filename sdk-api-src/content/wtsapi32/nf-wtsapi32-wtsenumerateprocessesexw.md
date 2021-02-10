@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - WTSEnumerateProcessesExW
  - wtsapi32/WTSEnumerateProcessesExW
+ - WTSEnumerateProcessesEx
+ - wtsapi32/WTSEnumerateProcessesEx
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Wtsapi32.dll
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSEnumerateProcessesEx
- - WTSEnumerateProcessesExA
  - WTSEnumerateProcessesExW
-req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
+ - WTSEnumerateProcessesEx
 ---
 
 # WTSEnumerateProcessesExW function
@@ -116,3 +117,4 @@ The caller must be a member of the Administrators group to enumerate processes t
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_info_exa">WTS_PROCESS_INFO_EX</a>
+

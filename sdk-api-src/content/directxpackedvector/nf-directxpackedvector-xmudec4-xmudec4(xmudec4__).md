@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUDEC4.operator =
+ - XMUDEC4::XMUDEC4
 ---
 
 # XMUDEC4::XMUDEC4(XMUDEC4 &&)
@@ -69,3 +69,4 @@ A value.
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>
 
 <a href="/windows/desktop/dxmath/xmudec4-ctor">XMUDEC4 Constructors</a>
+

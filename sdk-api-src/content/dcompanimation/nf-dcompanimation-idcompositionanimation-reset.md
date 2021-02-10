@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionAnimation.Reset
+ - IDCompositionAnimation::Reset
 ---
 
 # IDCompositionAnimation::Reset
@@ -65,3 +65,4 @@ This method returns the animation function to a clean state, as when the animati
 ## -see-also
 
 <a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>
+

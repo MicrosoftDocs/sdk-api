@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentContainer.GetType
+ - IWMPContentContainer::GetType
 ---
 
 # IWMPContentContainer::GetType
@@ -106,3 +106,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>
+

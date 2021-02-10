@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IAppVisibilityEvents.LauncherVisibilityChange
+ - IAppVisibilityEvents::LauncherVisibilityChange
 ---
 
 # IAppVisibilityEvents::LauncherVisibilityChange
@@ -65,3 +65,4 @@ The return value is ignored.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_DSA_PARAMETER_HEADER
  - BCRYPT_DSA_PARAMETER_HEADER
 ---
 
@@ -107,3 +108,4 @@ The single memory block consists of the following items:
 
 
 <a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>
+

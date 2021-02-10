@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SOAPUDP_URL
  - WS_SOAPUDP_URL
 ---
 
@@ -99,3 +100,4 @@ If used with the <a href="/windows/desktop/api/webservices/nf-webservices-wsdeco
 
 
 <a href="/windows/desktop/api/webservices/ns-webservices-ws_nettcp_url">WS_NETTCP_URL</a>
+

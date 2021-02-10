@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDOPENSURFACEIN
+ - LPDDOPENSURFACEIN
  - DDOPENSURFACEIN
 ---
 
@@ -81,3 +83,4 @@ Contains a value that is passed if the <b>pfnSurfaceClose</b> callback function 
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

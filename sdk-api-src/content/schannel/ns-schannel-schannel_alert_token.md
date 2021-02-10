@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
+ - _SCHANNEL_ALERT_TOKEN
  - SCHANNEL_ALERT_TOKEN
 ---
 
@@ -196,3 +197,4 @@ One of the alert messages defined by the TLS protocol specification. For descrip
 ## -remarks
 
 Add an alert message to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - QuerySecurityPackageInfoA
  - sspi/QuerySecurityPackageInfoA
+ - QuerySecurityPackageInfo
+ - sspi/QuerySecurityPackageInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - QuerySecurityPackageInfo
  - QuerySecurityPackageInfoA
- - QuerySecurityPackageInfoW
+ - QuerySecurityPackageInfo
 ---
 
 # QuerySecurityPackageInfoA function
@@ -94,3 +95,4 @@ The caller must call the
 
 
 <a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>
+

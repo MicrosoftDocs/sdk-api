@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_ATTRIBUTE
+ - PCRYPT_ATTRIBUTE
  - CRYPT_ATTRIBUTE
 ---
 
@@ -97,3 +99,4 @@ Pointer to an array of <a href="/previous-versions/windows/desktop/legacy/aa3814
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindattribute">CertFindAttribute</a>
+

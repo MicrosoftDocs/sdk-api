@@ -46,6 +46,8 @@ api_type:
 api_location:
  - combaseapi.h
 api_name:
+ - tagServerInformation
+ - PServerInformation
  - ServerInformation
 ---
 
@@ -77,3 +79,4 @@ The <b>ServerInformation</b> structure is used by the <a href="/windows/desktop/
 ## -see-also
 
 <a href="/windows/desktop/api/combaseapi/nf-combaseapi-codecodeproxy">CoDecodeProxy</a>
+

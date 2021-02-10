@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetOwner
+ - IBackgroundCopyJob::GetOwner
 ---
 
 # IBackgroundCopyJob::GetOwner
@@ -106,3 +106,4 @@ To convert the string format of the SID into a domain\user-name format, which is
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-takeownership">IBackgroundCopyJob::TakeOwnership</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - StorageAdapterControlUnit
+ - PIBIO_STORAGE_CONTROL_UNIT_FN
 ---
 
 # PIBIO_STORAGE_CONTROL_UNIT_FN callback function
@@ -364,3 +364,4 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_control_unit_privileged_fn">StorageAdapterControlUnitPrivileged</a>
+

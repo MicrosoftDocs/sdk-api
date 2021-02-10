@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_TICKET_LOGON
+ - PKERB_TICKET_LOGON
  - KERB_TICKET_LOGON
 ---
 
@@ -90,3 +92,4 @@ Optional buffer containing an ASN.1-encoded KRB_CRED message containing the user
 The service ticket must be for the host SPN of the computer. If the ticket includes a Windows Privilege Attribute Certificate (PAC), it will be used to construct the user's logon token. Otherwise, an anonymous token will be created using the client principal name in the ticket.
 
 If a ticket-granting ticket (TGT) is supplied as a KRB_CRED message, it is placed in the <a href="/windows/desktop/SecGloss/l-gly">logon session</a> credentials cache. If the TGT is omitted, the logon will be only for the local machine.
+

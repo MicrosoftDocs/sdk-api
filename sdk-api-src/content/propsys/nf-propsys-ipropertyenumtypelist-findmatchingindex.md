@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyEnumTypeList.FindMatchingIndex
+ - IPropertyEnumTypeList::FindMatchingIndex
 ---
 
 # IPropertyEnumTypeList::FindMatchingIndex
@@ -71,3 +71,4 @@ When this method returns, contains a pointer to the index in the enumerated type
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

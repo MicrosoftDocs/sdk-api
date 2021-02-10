@@ -9,6 +9,8 @@ tech.root: eaphost
 f1_keywords:
  - eapauthenticatortypes
  - eapauthenticatortypes/eapauthenticatortypes
+api_name:
+ - eapauthenticatortypes
 ---
 
 # Eapauthenticatortypes.h header

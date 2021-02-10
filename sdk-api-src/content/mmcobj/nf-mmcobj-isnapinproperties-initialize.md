@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcobj.h
 api_name:
- - ISnapinProperties.Initialize
+ - ISnapinProperties::Initialize
 ---
 
 # ISnapinProperties::Initialize
@@ -62,3 +62,4 @@ The
 ## -returns
 
 If successful, the return value is S_OK; otherwise, the return value is E_FAIL.
+

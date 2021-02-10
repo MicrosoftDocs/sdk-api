@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - ICommandTree.SetCommandTree
+ - ICommandTree::SetCommandTree
 ---
 
 # ICommandTree::SetCommandTree
@@ -131,3 +131,4 @@ A rowset was open on the command object.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
+

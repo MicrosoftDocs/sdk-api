@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmStorageModuleType
  - FsrmStorageModuleType
 ---
 
@@ -87,3 +88,4 @@ The storage module stores classification properties in system data store. This t
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_storagetype">IFsrmStorageModuleDefinition.StorageType</a>
+

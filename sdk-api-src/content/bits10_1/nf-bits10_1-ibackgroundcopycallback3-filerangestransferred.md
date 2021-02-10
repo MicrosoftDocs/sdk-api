@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyCallback3.FileRangesTransferred
+ - IBackgroundCopyCallback3::FileRangesTransferred
 ---
 
 # IBackgroundCopyCallback3::FileRangesTransferred
@@ -97,3 +97,4 @@ For an example of how to use this function, see the example code for the <a href
 ## -see-also
 
 <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopycallback3">IBackgroundCopyCallback3</a>
+

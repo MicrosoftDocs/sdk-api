@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.get_LocalControl
+ - IAMExtTransport::get_LocalControl
 ---
 
 # IAMExtTransport::get_LocalControl
@@ -103,3 +103,4 @@ To control an external device from an application, the device must be in remote 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_localcontrol">IAMExtTransport::put_LocalControl</a>
+

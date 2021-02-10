@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
+ - tagCapStatus
+ - PCAPSTATUS
  - CAPSTATUS
 ---
 
@@ -149,3 +151,4 @@ Video Capture
 
 
 <a href="/windows/desktop/Multimedia/wm-cap-get-status">WM_CAP_GET_STATUS</a>
+

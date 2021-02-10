@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_HTTP_REDIRECT_CALLBACK_CONTEXT
  - WS_HTTP_REDIRECT_CALLBACK_CONTEXT
 ---
 
@@ -67,3 +68,4 @@ Application specific callback for controlling HTTP auto redirections.
 ### -field state
 
 Application specific state that would be made available to the callback upon its invocation.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyList.Reset
+ - IADsPropertyList::Reset
 ---
 
 # IADsPropertyList::Reset
@@ -73,3 +73,4 @@ This method supports the standard <b>HRESULT</b> values, including <b>S_OK</b>. 
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a>
+

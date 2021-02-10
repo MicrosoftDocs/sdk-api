@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.Pause
- - IFaxOutgoingJob.Pause
+ - IFaxOutgoingJob::Pause
 ---
 
 # IFaxOutgoingJob::Pause
@@ -70,3 +69,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob">IFaxOutgoingJob</a>
+

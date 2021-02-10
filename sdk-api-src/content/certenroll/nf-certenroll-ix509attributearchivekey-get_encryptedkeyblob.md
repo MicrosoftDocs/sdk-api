@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKey.EncryptedKeyBlob
- - IX509AttributeArchiveKey.get_EncryptedKeyBlob
+ - IX509AttributeArchiveKey::get_EncryptedKeyBlob
 ---
 
 # IX509AttributeArchiveKey::get_EncryptedKeyBlob
@@ -73,3 +72,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributear
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekey">IX509AttributeArchiveKey</a>
+

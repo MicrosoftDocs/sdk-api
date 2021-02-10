@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tom.h
 api_name:
+ - __MIDL___MIDL_itf_tom_0000_0000_0001
  - tomConstants
 ---
 
@@ -2672,3 +2673,4 @@ Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can hav
 #### - tomUseOperandPrec
 
 Use operand precedence.
+

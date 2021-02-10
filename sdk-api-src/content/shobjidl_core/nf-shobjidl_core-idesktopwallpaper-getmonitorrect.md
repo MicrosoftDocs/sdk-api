@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IDesktopWallpaper.GetMonitorRECT
+ - IDesktopWallpaper::GetMonitorRECT
 ---
 
 # IDesktopWallpaper::GetMonitorRECT
@@ -109,3 +109,4 @@ The ID supplied in <i>monitorID</i> cannot be found.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
+

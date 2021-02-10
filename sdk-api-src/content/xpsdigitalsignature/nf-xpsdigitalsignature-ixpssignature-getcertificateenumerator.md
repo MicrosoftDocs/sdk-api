@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignature.GetCertificateEnumerator
+ - IXpsSignature::GetCertificateEnumerator
 ---
 
 # IXpsSignature::GetCertificateEnumerator
@@ -122,3 +122,4 @@ The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertifica
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

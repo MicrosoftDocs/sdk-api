@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - windows.ui.xaml.media.dxinterop
  - windows.ui.xaml.media.dxinterop/windows.ui.xaml.media.dxinterop
+api_name:
+ - windows.ui.xaml.media.dxinterop
 ---
 
 # Windows.Ui.Xaml.Media.Dxinterop.h header

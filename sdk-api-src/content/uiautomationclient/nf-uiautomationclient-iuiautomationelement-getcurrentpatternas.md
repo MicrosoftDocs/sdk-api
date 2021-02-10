@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetCurrentPatternAs
+ - IUIAutomationElement::GetCurrentPatternAs
 ---
 
 # IUIAutomationElement::GetCurrentPatternAs
@@ -105,3 +105,4 @@ It is recommended that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase
 
 
 <a href="/windows/desktop/WinAuto/uiauto-controlpatternsoverview">UI Automation Control Patterns Overview</a>
+

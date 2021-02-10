@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WTSCreateListenerW
  - wtsapi32/WTSCreateListenerW
+ - WTSCreateListener
+ - wtsapi32/WTSCreateListener
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wtsapi32.dll
 api_name:
- - WTSCreateListener
- - WTSCreateListenerA
  - WTSCreateListenerW
+ - WTSCreateListener
 ---
 
 # WTSCreateListenerW function
@@ -139,3 +140,4 @@ This function does not validate the settings for the new listener. Be sure that 
 
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetlistenersecuritya">WTSSetListenerSecurity</a>
+

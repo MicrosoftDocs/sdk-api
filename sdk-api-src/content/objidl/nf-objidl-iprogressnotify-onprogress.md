@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IProgressNotify.OnProgress
+ - IProgressNotify::OnProgress
 ---
 
 # IProgressNotify::OnProgress
@@ -137,3 +137,4 @@ Any one of the sinks can relinquish control to the next connection point by retu
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>
+

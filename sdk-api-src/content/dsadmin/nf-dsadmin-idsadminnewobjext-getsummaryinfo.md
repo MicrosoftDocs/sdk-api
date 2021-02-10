@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObjExt.GetSummaryInfo
+ - IDsAdminNewObjExt::GetSummaryInfo
 ---
 
 # IDsAdminNewObjExt::GetSummaryInfo
@@ -77,3 +77,4 @@ Support of this method is optional. If the extension does not supply summary inf
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

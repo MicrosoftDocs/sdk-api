@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ILoadChangeContext.SetRecoverableErrorOnChangeUnit
+ - ILoadChangeContext::SetRecoverableErrorOnChangeUnit
 ---
 
 # ILoadChangeContext::SetRecoverableErrorOnChangeUnit
@@ -143,3 +143,4 @@ When this method is called, an <b>IChangeUnitException</b> object is added to th
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iloadchangecontext">ILoadChangeContext Interface</a>
+

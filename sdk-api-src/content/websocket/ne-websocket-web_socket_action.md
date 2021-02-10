@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Websocket.h
 api_name:
+ - _WEB_SOCKET_ACTION
+ - PWEB_SOCKET_ACTION
  - WEB_SOCKET_ACTION
 ---
 
@@ -97,3 +99,4 @@ Indicates the operation queued by <a href="/windows/desktop/api/websocket/nf-web
 
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.get_Bold
+ - IFont::get_Bold
 ---
 
 # IFont::get_Bold
@@ -99,3 +99,4 @@ The address in pBold is not valid. For example, it may be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_bold">IFont::put_Bold</a>
+

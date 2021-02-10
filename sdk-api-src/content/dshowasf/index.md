@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - dshowasf
  - dshowasf/dshowasf
+api_name:
+ - dshowasf
 ---
 
 # Dshowasf.h header

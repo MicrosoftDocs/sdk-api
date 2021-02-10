@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpFormatCredentials
+ - SpFormatCredentialsFn
 ---
 
 # SpFormatCredentialsFn callback function
@@ -89,3 +89,4 @@ A pointer to the <b>SpFormatCredentials</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
+

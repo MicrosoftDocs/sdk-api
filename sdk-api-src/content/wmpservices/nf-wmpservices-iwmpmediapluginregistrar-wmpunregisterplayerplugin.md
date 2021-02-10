@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - WMPUnRegisterPlayerPlugin
+ - IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin
 ---
 
 # IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin
@@ -79,3 +79,4 @@ DSP plug-ins designed to work with Windows Media Player 11 must call this method
 
 
 <a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin">IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin</a>
+

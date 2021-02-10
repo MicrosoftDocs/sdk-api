@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsBackup.h
 api_name:
- - IVssBackupComponentsEx3.GetWriterStatusEx
+ - IVssBackupComponentsEx3::GetWriterStatusEx
 ---
 
 # IVssBackupComponentsEx3::GetWriterStatusEx
@@ -294,3 +294,4 @@ When the caller has finished accessing the status information returned by this m
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
+

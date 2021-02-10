@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectConnections.GetOutputConnector
+ - IMILBitmapEffectConnections::GetOutputConnector
 ---
 
 # IMILBitmapEffectConnections::GetOutputConnector
@@ -71,3 +71,4 @@ When this method returns, contains the output connector for the given output pin
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

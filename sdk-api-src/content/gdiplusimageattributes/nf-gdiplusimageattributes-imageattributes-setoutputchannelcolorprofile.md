@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes.SetOutputChannelColorProfile
+ - ImageAttributes::SetOutputChannelColorProfile
 ---
 
 # ImageAttributes::SetOutputChannelColorProfile
@@ -193,3 +193,4 @@ The preceding code, along with the files Mosaic2.bmp and Tekph600.icm, produced 
 
 
 <a href="/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setoutputchannel">ImageAttributes::SetOutputChannel</a>
+

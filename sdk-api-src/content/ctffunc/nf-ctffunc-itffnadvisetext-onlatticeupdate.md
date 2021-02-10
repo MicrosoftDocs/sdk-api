@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnAdviseText.OnLatticeUpdate
+ - ITfFnAdviseText::OnLatticeUpdate
 ---
 
 # ITfFnAdviseText::OnLatticeUpdate
@@ -107,3 +107,4 @@ One or more parameters are invalid.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
+

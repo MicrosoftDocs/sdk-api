@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.SupportHighContrastSelectionUI
- - IInkPicture.get_SupportHighContrastSelectionUI
- - IInkPicture.put_SupportHighContrastSelectionUI
- - InkPicture.get_SupportHighContrastSelectionUI
- - InkPicture.put_SupportHighContrastSelectionUI
+ - IInkPicture::put_SupportHighContrastSelectionUI
 ---
 
 # IInkPicture::put_SupportHighContrastSelectionUI
@@ -74,3 +70,4 @@ For further details about this property, refer to the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
+

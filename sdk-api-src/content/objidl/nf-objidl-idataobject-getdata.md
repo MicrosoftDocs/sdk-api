@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject.GetData
+ - IDataObject::GetData
 ---
 
 # IDataObject::GetData
@@ -189,3 +189,4 @@ Although the caller can specify more than one medium for returning the data, <b>
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+

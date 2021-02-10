@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1510
+ - PSERVER_INFO_1510
  - SERVER_INFO_1510
 ---
 
@@ -78,3 +80,4 @@ Specifies the maximum number of users that can be logged on to a server using a 
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

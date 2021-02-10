@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SystemParametersInfoW
  - winuser/SystemParametersInfoW
+ - SystemParametersInfo
+ - winuser/SystemParametersInfo
 dev_langs:
  - c++
 topic_type:
@@ -46,10 +49,8 @@ api_location:
  - minuser.dll
  - api-ms-win-ntuser-sysparams-l1-1-0.dll
 api_name:
- - SystemParametersInfo
- - SystemParametersInfoA
  - SystemParametersInfoW
-req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
+ - SystemParametersInfo
 ---
 
 # SystemParametersInfoW function
@@ -3084,3 +3085,4 @@ void main()
 
 
 <a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
+

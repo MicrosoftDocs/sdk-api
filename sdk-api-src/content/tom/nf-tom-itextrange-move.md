@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.Move
+ - ITextRange::Move
 ---
 
 # ITextRange::Move
@@ -182,3 +182,4 @@ See also the <a href="/windows/desktop/api/tom/nf-tom-itextrange-movestart">ITex
 
 
 <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
+

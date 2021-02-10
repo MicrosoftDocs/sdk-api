@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual.AddVisual
+ - IDCompositionVisual::AddVisual
 ---
 
 # IDCompositionVisual::AddVisual
@@ -119,3 +119,4 @@ For an example, see <a href="/windows/desktop/directcomp/how-to--build-a-visual-
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-removevisual">IDCompositionVisual::RemoveVisual</a>
+

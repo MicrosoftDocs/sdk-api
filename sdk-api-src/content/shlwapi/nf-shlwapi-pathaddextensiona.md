@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PathAddExtensionA
  - shlwapi/PathAddExtensionA
+ - PathAddExtension
+ - shlwapi/PathAddExtension
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathAddExtension
  - PathAddExtensionA
- - PathAddExtensionW
+ - PathAddExtension
 ---
 
 # PathAddExtensionA function
@@ -149,3 +150,4 @@ The return value is 1
 
 > [!NOTE]
 > The shlwapi.h header defines PathAddExtension as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

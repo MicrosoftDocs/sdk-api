@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.Validate
+ - IX509EnrollmentPolicyServer::Validate
 ---
 
 # IX509EnrollmentPolicyServer::Validate
@@ -96,3 +96,4 @@ This method calls <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509en
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
+

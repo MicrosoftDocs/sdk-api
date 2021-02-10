@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - corewindow
  - corewindow/corewindow
+api_name:
+ - corewindow
 ---
 
 # Corewindow.h header

@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesErrorInfo.GetRawData
+ - IOfflineFilesErrorInfo::GetRawData
 ---
 
 # IOfflineFilesErrorInfo::GetRawData
@@ -70,3 +70,4 @@ The BYTE_BLOB structure is defined in Wtypes.h.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileserrorinfo">IOfflineFilesErrorInfo</a>
+

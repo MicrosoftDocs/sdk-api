@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
+ - ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString
 ---
 
 # ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString
@@ -85,3 +85,4 @@ The <b>FinalizeExactCompositionString</b> method enables an app to tell the text
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement">ITfIntegratableCandidateListUIElement</a>
+

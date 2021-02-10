@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink.get_SinkName
+ - IMSVidStreamBufferSink::get_SinkName
 ---
 
 # IMSVidStreamBufferSink::get_SinkName
@@ -102,3 +102,4 @@ The caller must release the returned string, using the <b>SysFreeString</b> func
 
 
 <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
+

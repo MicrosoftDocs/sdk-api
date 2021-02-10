@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderPropertyConstraintCollection.Skip
+ - IProviderPropertyConstraintCollection::Skip
 ---
 
 # IProviderPropertyConstraintCollection::Skip
@@ -63,3 +63,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection">IProviderPropertyConstraintCollection</a>
+

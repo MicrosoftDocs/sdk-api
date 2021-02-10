@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmRule.Name
- - IFsrmRule.get_Name
- - IFsrmRule.put_Name
+ - IFsrmRule::put_Name
 ---
 
 # IFsrmRule::put_Name
@@ -65,3 +63,4 @@ The name must be unique for its type (see the <a href="/previous-versions/window
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.GetCenterPoint
+ - PathGradientBrush::GetCenterPoint
 ---
 
 # PathGradientBrush::GetCenterPoint(OUT Point)
@@ -153,3 +153,4 @@ VOID Example_GetCenterPoint(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)">PathGradientBrush::SetCenterPoint Methods</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds
+ - IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds
 ---
 
 # IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds
@@ -393,3 +393,4 @@ To retrieve a list of the write configurations that the recorder and current med
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeddescriptors">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors</a>
+

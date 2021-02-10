@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat.SetDigitSubstitution
+ - StringFormat::SetDigitSubstitution
 ---
 
 # StringFormat::SetDigitSubstitution
@@ -93,3 +93,4 @@ If you are specifying a language other than LANG_NEUTRAL, use MAKELANGID to crea
 <code>LANGID language = MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL);</code>
 
 For a list of the available languages and sublanguages, see Winnt.h.
+

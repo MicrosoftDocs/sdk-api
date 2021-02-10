@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Cchannel.h
 api_name:
- - VirtualChannelOpen
+ - VIRTUALCHANNELOPEN
 ---
 
 # VIRTUALCHANNELOPEN callback function
@@ -111,3 +111,4 @@ The client DLL cannot call this function until the client has established a conn
 
 
 <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a>
+

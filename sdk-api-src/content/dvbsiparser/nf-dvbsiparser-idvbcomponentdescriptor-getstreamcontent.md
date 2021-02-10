@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbComponentDescriptor.GetStreamContent
+ - IDvbComponentDescriptor::GetStreamContent
 ---
 
 # IDvbComponentDescriptor::GetStreamContent
@@ -70,3 +70,4 @@ For a list of content codes associated with the value returned in the <i>pbVal</
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcomponentdescriptor">IDvbComponentDescriptor</a>
+

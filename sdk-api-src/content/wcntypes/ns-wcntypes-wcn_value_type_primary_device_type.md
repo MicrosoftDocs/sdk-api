@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
+ - tagWCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
  - WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
 ---
 

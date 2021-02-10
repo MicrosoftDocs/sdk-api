@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask.SetParameters
+ - ITask::SetParameters
 ---
 
 # ITask::SetParameters
@@ -121,3 +121,4 @@ For an example of how to set parameters, see <a href="/windows/desktop/TaskSchd/
 ## -see-also
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+

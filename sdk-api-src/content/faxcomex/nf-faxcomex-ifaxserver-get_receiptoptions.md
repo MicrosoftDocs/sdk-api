@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.ReceiptOptions
- - IFaxServer.get_ReceiptOptions
+ - IFaxServer::get_ReceiptOptions
 ---
 
 # IFaxServer::get_ReceiptOptions
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-receipt-options">Visual Basic Example</a>
+

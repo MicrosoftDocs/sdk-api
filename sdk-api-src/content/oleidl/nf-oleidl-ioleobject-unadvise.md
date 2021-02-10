@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.Unadvise
+ - IOleObject::Unadvise
 ---
 
 # IOleObject::Unadvise
@@ -110,3 +110,4 @@ Normally, containers call <b>IOleObject::Unadvise</b> at shutdown or when an obj
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumadvise">IOleObject::EnumAdvise</a>
+

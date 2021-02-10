@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationClock.GetTimeSource
+ - IMFPresentationClock::GetTimeSource
 ---
 
 # IMFPresentationClock::GetTimeSource
@@ -99,3 +99,4 @@ No time source was set on this clock.
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

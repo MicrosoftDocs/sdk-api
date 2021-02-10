@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.h
 api_name:
+ - PSYMSRV_INDEX_INFO
  - SYMSRV_INDEX_INFO
- - SYMSRV_INDEX_INFO
- - SYMSRV_INDEX_INFOW
 ---
 
 # SYMSRV_INDEX_INFO structure
@@ -101,3 +100,4 @@ The age of the .pdb file.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>
+

@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSetting.SetPreference
+ - IOfflineFilesSetting::SetPreference
 ---
 
 # IOfflineFilesSetting::SetPreference
@@ -96,3 +96,4 @@ It is important to note that policy cannot be set through the Offline Files API.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>
+

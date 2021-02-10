@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - comcat
  - comcat/comcat
+api_name:
+ - comcat
 ---
 
 # Comcat.h header

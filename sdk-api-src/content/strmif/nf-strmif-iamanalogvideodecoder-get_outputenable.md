@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder.get_OutputEnable
+ - IAMAnalogVideoDecoder::get_OutputEnable
 ---
 
 # IAMAnalogVideoDecoder::get_OutputEnable
@@ -120,3 +120,4 @@ This method applies only to devices that use a shared video port bus. If the ret
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
+

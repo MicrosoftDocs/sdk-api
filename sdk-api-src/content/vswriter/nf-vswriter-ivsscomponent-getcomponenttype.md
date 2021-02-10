@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetComponentType
+ - IVssComponent::GetComponentType
 ---
 
 # IVssComponent::GetComponentType
@@ -127,3 +127,4 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
+

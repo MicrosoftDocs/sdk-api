@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap.Clone
+ - Bitmap::Clone
 ---
 
 # Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat)
@@ -121,3 +121,4 @@ This method returns a pointer to the new
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

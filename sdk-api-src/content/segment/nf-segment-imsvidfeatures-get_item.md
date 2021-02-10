@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidFeatures.get_Item
+ - IMSVidFeatures::get_Item
 ---
 
 # IMSVidFeatures::get_Item
@@ -137,3 +137,4 @@ If the method succeeds, the <a href="/previous-versions/windows/desktop/mstv/msv
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>
+

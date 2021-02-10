@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Textstor.h
 api_name:
+ - __MIDL___MIDL_itf_textstor_0000_0000_0001
  - TsActiveSelEnd
 ---
 
@@ -78,3 +79,4 @@ This enumeration is used in the <a href="/windows/desktop/api/textstor/ns-textst
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_selectionstyle">TS_SELECTIONSTYLE
       </a>
+

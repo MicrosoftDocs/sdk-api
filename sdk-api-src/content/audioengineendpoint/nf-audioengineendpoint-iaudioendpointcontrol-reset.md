@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IAudioEndpointControl.Reset
+ - IAudioEndpointControl::Reset
 ---
 
 # IAudioEndpointControl::Reset
@@ -70,3 +70,4 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointcontrol">IAudioEndpointControl</a>
+

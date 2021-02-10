@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX500DistinguishedName.Encode
+ - IX500DistinguishedName::Encode
 ---
 
 # IX500DistinguishedName::Encode
@@ -125,3 +125,4 @@ This method internally calls the CryptoAPI <a href="/windows/desktop/api/wincryp
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a>
+

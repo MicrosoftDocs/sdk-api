@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.Refresh
+ - IMSVidCtl::Refresh
 ---
 
 # IMSVidCtl::Refresh
@@ -65,3 +65,4 @@ This method is a stock ActiveX control method. It forces the Video Control windo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+

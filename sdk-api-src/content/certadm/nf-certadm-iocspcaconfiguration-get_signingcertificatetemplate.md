@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration.SigningCertificateTemplate
- - IOCSPCAConfiguration.get_SigningCertificateTemplate
- - IOCSPCAConfiguration.put_SigningCertificateTemplate
- - IOCSPCAConfiguration.SigningCertificateTemplate
+ - IOCSPCAConfiguration::get_SigningCertificateTemplate
 ---
 
 # IOCSPCAConfiguration::get_SigningCertificateTemplate
@@ -66,3 +63,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - _ICONINFO
  - ICONINFO
 ---
 
@@ -105,3 +106,4 @@ A handle to the icon color bitmap. This member can be optional if this structure
 
 
 <b>Reference</b>
+

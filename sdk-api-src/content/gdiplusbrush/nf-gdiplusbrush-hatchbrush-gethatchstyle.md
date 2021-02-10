@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - HatchBrush.GetHatchStyle
+ - HatchBrush::GetHatchStyle
 ---
 
 # HatchBrush::GetHatchStyle
@@ -80,3 +80,4 @@ This method returns the hatch style, which is one of the elements of the <a href
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a>
+

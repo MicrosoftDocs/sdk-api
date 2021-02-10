@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sptip.dll
 api_name:
- - ITfTextInputProcessor.Activate
+ - ITfTextInputProcessor::Activate
 ---
 
 # ITfTextInputProcessor::Activate
@@ -88,3 +88,4 @@ The corresponding <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputproce
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
+

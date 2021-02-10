@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
+ - _WCM_DATAPLAN_STATUS
+ - PWCM_DATAPLAN_STATUS
  - WCM_DATAPLAN_STATUS
 ---
 
@@ -107,3 +109,4 @@ Reserved.
 
 
 <a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_usage_data">WCM_USAGE_DATA</a>
+

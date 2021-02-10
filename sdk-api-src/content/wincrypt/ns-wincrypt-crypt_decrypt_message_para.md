@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_DECRYPT_MESSAGE_PARA
+ - PCRYPT_DECRYPT_MESSAGE_PARA
  - CRYPT_DECRYPT_MESSAGE_PARA
 ---
 
@@ -106,3 +108,4 @@ The CRYPT_MESSAGE_SILENT_KEYSET_FLAG can be set to suppress any UI by the CSP. F
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage">CryptDecryptMessage</a>
+

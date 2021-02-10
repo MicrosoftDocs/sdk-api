@@ -42,9 +42,7 @@ api_type:
 api_location:
  - MethodCo.h
 api_name:
- - MethodContext.SetStatusObject
- - ?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z
- - ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z
+ - MethodContext::SetStatusObject
 ---
 
 # MethodContext::SetStatusObject
@@ -73,3 +71,4 @@ A pointer to <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">
 ## -see-also
 
 <a href="/windows/desktop/api/methodco/nl-methodco-methodcontext">MethodContext</a>
+

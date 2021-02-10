@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_FAILOVER_SERVER
+ - LPDHCP_FAILOVER_SERVER
  - DHCP_FAILOVER_SERVER
 ---
 
@@ -69,3 +71,4 @@ The server is a secondary server in the failover relationship.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a>
+

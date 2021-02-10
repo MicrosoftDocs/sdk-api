@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.QueryHeader
+ - IMFHttpDownloadRequest::QueryHeader
 ---
 
 # IMFHttpDownloadRequest::QueryHeader
@@ -128,3 +128,4 @@ The <i>dwIndex</i> parameter value is out of range.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
+

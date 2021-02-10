@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwServiceRestriction.RestrictService
+ - INetFwServiceRestriction::RestrictService
 ---
 
 # INetFwServiceRestriction::RestrictService
@@ -148,3 +148,4 @@ When adding rules, note that there may be a small time lag before the newly-adde
 ## -see-also
 
 <a href="/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>
+

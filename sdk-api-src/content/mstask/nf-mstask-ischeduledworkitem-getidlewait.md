@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.GetIdleWait
+ - IScheduledWorkItem::GetIdleWait
 ---
 
 # IScheduledWorkItem::GetIdleWait
@@ -125,3 +125,4 @@ For an example of how to retrieve the idle wait time of a task, see <a href="/wi
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setidlewait">IScheduledWorkItem::SetIdleWait</a>
+

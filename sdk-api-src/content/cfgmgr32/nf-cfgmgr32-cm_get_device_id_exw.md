@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_ID_ExW
  - cfgmgr32/CM_Get_Device_ID_ExW
+ - CM_Get_Device_ID_Ex
+ - cfgmgr32/CM_Get_Device_ID_Ex
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Get_Device_ID_Ex
  - CM_Get_Device_ID_ExW
+ - CM_Get_Device_ID_Ex
 ---
 
 # CM_Get_Device_ID_ExW function
@@ -102,3 +104,4 @@ For information about using device instance handles that are bound to a local or
 
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_idw">CM_Get_Device_ID</a>
+

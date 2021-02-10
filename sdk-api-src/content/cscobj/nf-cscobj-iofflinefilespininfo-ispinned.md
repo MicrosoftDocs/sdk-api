@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesPinInfo.IsPinned
+ - IOfflineFilesPinInfo::IsPinned
 ---
 
 # IOfflineFilesPinInfo::IsPinned
@@ -74,3 +74,4 @@ When an item is pinned in the Offline Files cache, it is protected from automati
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilespininfo">IOfflineFilesPinInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecordControl.Stop
+ - IStreamBufferRecordControl::Stop
 ---
 
 # IStreamBufferRecordControl::Stop
@@ -95,3 +95,4 @@ The stop time must be greater than or equal to the start time.
 
 
 <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-start">IStreamBufferRecordControl::Start</a>
+

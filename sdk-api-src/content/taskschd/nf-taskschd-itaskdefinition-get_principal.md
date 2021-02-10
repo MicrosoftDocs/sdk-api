@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskDefinition.Principal
- - ITaskDefinition.get_Principal
- - ITaskDefinition.put_Principal
+ - ITaskDefinition::get_Principal
 ---
 
 # ITaskDefinition::get_Principal
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
+

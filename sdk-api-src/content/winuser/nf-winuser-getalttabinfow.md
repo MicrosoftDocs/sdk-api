@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetAltTabInfoW
  - winuser/GetAltTabInfoW
+ - GetAltTabInfo
+ - winuser/GetAltTabInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - GetAltTabInfo
- - GetAltTabInfoA
  - GetAltTabInfoW
+ - GetAltTabInfo
 ---
 
 # GetAltTabInfoW function
@@ -120,3 +121,4 @@ The application-switching window enables you to switch to the most recently used
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wiavideo.dll
 api_name:
- - IWiaVideo.ImagesDirectory
- - IWiaVideo.get_ImagesDirectory
- - IWiaVideo.put_ImagesDirectory
+ - IWiaVideo::get_ImagesDirectory
 ---
 
 # IWiaVideo::get_ImagesDirectory
@@ -61,3 +59,4 @@ This property is read/write.
 ## -remarks
 
 This property should be set to the value of the video device's WIA_DPV_IMAGES_DIRECTORY property.
+

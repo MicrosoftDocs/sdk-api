@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensNetwork.ConnectionLost
+ - ISensNetwork::ConnectionLost
 ---
 
 # ISensNetwork::ConnectionLost
@@ -138,3 +138,4 @@ Filtering can be performed on the publisher property <i>ulConnectionLostType</i>
 
 
 <a href="/windows/desktop/api/sensevts/nn-sensevts-isensnetwork">ISensNetwork</a>
+

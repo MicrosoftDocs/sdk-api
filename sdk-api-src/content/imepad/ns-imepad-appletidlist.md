@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
+ - tagAPPLETIDLIST
+ - LPAPPLETIDLIST
  - APPLETIDLIST
 ---
 
@@ -65,3 +67,4 @@ The number of the IID's implemented in this applet.
 ### -field pIIDList
 
 The IID list. This must be allocated with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>.
+

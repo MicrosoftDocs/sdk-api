@@ -44,6 +44,7 @@ api_type:
 api_location:
  - RendezvousSession.h
 api_name:
+ - __MIDL___MIDL_itf_rendezvoussession_0000_0000_0002
  - RENDEZVOUS_SESSION_FLAGS
 ---
 

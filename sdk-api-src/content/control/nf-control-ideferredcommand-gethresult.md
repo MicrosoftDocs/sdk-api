@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDeferredCommand.GetHResult
+ - IDeferredCommand::GetHResult
 ---
 
 # IDeferredCommand::GetHResult
@@ -110,3 +110,4 @@ Command has not yet been invoked.
 
 
 <a href="/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand Interface</a>
+

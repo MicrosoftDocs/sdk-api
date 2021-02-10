@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.InheritsFrom
+ - IWbemClassObject::InheritsFrom
 ---
 
 # IWbemClassObject::InheritsFrom
@@ -79,3 +79,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
+

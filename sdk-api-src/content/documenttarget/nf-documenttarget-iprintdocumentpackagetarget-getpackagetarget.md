@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Documenttarget.h
 api_name:
- - IPrintDocumentPackageTarget.GetPackageTarget
+ - IPrintDocumentPackageTarget::GetPackageTarget
 ---
 
 # IPrintDocumentPackageTarget::GetPackageTarget
@@ -73,3 +73,4 @@ If the <b>GetPackageTarget</b> method completes successfully, it returns an S_OK
 ## -see-also
 
 <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionMatrixTransform.SetMatrixElement
+ - IDCompositionMatrixTransform::SetMatrixElement
 ---
 
 # IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation)
@@ -81,3 +81,4 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionmatrixtransform">IDCompositionMatrixTransform</a>
+

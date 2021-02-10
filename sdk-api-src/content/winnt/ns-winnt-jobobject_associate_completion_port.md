@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _JOBOBJECT_ASSOCIATE_COMPLETION_PORT
+ - PJOBOBJECT_ASSOCIATE_COMPLETION_PORT
  - JOBOBJECT_ASSOCIATE_COMPLETION_PORT
 ---
 
@@ -241,3 +243,4 @@ You must be cautious when using the JOB_OBJECT_MSG_NEW_PROCESS and JOB_OBJECT_MS
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+

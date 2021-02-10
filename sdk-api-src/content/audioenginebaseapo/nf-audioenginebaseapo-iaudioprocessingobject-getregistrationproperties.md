@@ -43,7 +43,7 @@ api_location:
  - Audioenginebaseapo.idl
  - Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.GetRegistrationProperties
+ - IAudioProcessingObject::GetRegistrationProperties
 ---
 
 # IAudioProcessingObject::GetRegistrationProperties
@@ -77,3 +77,4 @@ The caller must free the memory returned by <code>GetRegistrationProperties</cod
 ## -see-also
 
 <a href="/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>
+

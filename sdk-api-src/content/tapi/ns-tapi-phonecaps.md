@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - phonecaps_tag
+ - LPPHONECAPS
  - PHONECAPS
 ---
 
@@ -326,3 +328,4 @@ The members <b>dwDeviceClassesSize</b> through <b>dwMonitoredHeadsetHookSwitchMo
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phonesetvolume">phoneSetVolume</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.IsEqualEnd
+ - ITfRange::IsEqualEnd
 ---
 
 # ITfRange::IsEqualEnd
@@ -190,3 +190,4 @@ This method is functionally equivalent to, but more efficient than, <a href="/wi
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
+

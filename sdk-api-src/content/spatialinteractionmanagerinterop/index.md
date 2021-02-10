@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - spatialinteractionmanagerinterop
  - spatialinteractionmanagerinterop/spatialinteractionmanagerinterop
+api_name:
+ - spatialinteractionmanagerinterop
 ---
 
 # Spatialinteractionmanagerinterop.h header

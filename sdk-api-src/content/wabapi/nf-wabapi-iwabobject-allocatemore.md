@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject.AllocateMore
+ - IWABObject::AllocateMore
 ---
 
 # IWABObject::AllocateMore
@@ -94,3 +94,4 @@ It is only possible to release a buffer allocated with
 	<b>IWABObject::AllocateMore</b> enables 
 	<b>IWABObject::FreeBuffer</b> to release both buffers 
 	with a single call.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - CrediUnmarshalandDecodeString
+ - CrediUnmarshalandDecodeStringFn
 ---
 
 # CrediUnmarshalandDecodeStringFn callback function
@@ -85,3 +85,4 @@ A pointer to the <b>CrediUnmarshalandDecodeString</b> function is available in t
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

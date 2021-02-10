@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_POLICY_ARRAY
+ - PDHCP_POLICY_ARRAY
  - DHCP_POLICY_ARRAY
 ---
 
@@ -73,3 +75,4 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4enumpolicies">DhcpV4EnumPolicies</a>
+

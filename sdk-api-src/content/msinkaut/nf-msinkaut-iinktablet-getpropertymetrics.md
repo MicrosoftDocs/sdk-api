@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablet.GetPropertyMetrics
+ - IInkTablet::GetPropertyMetrics
 ---
 
 # IInkTablet::GetPropertyMetrics
@@ -193,3 +193,4 @@ For a complete list of properties for which you can retrieve metrics, see the <a
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit">TabletPropertyMetricUnit Enumeration</a>
+

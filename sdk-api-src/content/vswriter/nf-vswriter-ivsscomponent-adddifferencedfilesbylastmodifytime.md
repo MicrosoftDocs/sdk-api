@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.AddDifferencedFilesByLastModifyTime
+ - IVssComponent::AddDifferencedFilesByLastModifyTime
 ---
 
 # IVssComponent::AddDifferencedFilesByLastModifyTime
@@ -280,3 +280,4 @@ There is no method in the
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a>
+

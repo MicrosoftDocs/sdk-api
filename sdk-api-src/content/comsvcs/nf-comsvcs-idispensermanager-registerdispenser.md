@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IDispenserManager.RegisterDispenser
+ - IDispenserManager::RegisterDispenser
 ---
 
 # IDispenserManager::RegisterDispenser
@@ -81,3 +81,4 @@ This method does not call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknow
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
+

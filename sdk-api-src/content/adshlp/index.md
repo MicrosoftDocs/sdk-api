@@ -9,6 +9,8 @@ tech.root: adsi
 f1_keywords:
  - adshlp
  - adshlp/adshlp
+api_name:
+ - adshlp
 ---
 
 # Adshlp.h header

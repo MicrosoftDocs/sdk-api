@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509EnrollmentWebClassFactory.CreateObject
+ - IX509EnrollmentWebClassFactory::CreateObject
 ---
 
 # IX509EnrollmentWebClassFactory::CreateObject
@@ -338,3 +338,4 @@ The Prog ID specified represents an object that cannot be created by using this 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentwebclassfactory">IX509EnrollmentWebClassFactory</a>
+

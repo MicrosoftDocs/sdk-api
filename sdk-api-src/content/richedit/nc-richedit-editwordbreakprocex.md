@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - EditWordBreakProcEx
+ - EDITWORDBREAKPROCEX
 ---
 
 # EDITWORDBREAKPROCEX callback function
@@ -171,3 +171,4 @@ For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWord
 
 
 <b>Reference</b>
+

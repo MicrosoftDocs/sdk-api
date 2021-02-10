@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CurrentIsReadOnly
- - IUIAutomationRangeValuePattern.get_CurrentIsReadOnly
+ - IUIAutomationRangeValuePattern::get_CurrentIsReadOnly
 ---
 
 # IUIAutomationRangeValuePattern::get_CurrentIsReadOnly

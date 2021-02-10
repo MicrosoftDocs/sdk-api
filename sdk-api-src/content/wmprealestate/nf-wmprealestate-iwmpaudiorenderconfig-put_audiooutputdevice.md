@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPAudioRenderConfig.put_audioOutputDevice
+ - IWMPAudioRenderConfig::put_audioOutputDevice
 ---
 
 # IWMPAudioRenderConfig::put_audioOutputDevice
@@ -95,3 +95,4 @@ This method validates that the endpoint specified in <i>bstrOutputDevice</i> is 
 
 
 <a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig">IWMPAudioRenderConfig</a>
+

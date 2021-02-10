@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.Messages
- - IFsrmPropertyBag.get_Messages
+ - IFsrmPropertyBag::get_Messages
 ---
 
 # IFsrmPropertyBag::get_Messages
@@ -72,3 +71,4 @@ The format of the message is
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-addmessage">IFsrmPropertyBag::AddMessage</a>
+

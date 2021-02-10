@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice.RingingNow
- - IFaxDevice.get_RingingNow
- - IFaxDevice.get_RingingNow
+ - IFaxDevice::get_RingingNow
 ---
 
 # IFaxDevice::get_RingingNow
@@ -76,3 +74,4 @@ If this property is equal to <b>TRUE</b>, the fax device is currently ringing. I
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
+

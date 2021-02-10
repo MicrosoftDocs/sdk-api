@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.IsVolumeSupported
+ - IVssBackupComponents::IsVolumeSupported
 ---
 
 # IVssBackupComponents::IsVolumeSupported
@@ -193,3 +193,4 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
+

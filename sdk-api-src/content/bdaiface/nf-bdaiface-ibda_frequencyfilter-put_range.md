@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_FrequencyFilter.put_Range
+ - IBDA_FrequencyFilter::put_Range
 ---
 
 # IBDA_FrequencyFilter::put_Range
@@ -77,3 +77,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_range">IBDA_FrequencyFilter::get_Range</a>
+

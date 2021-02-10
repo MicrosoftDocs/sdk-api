@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCacheControl.OnRun
+ - IOleCacheControl::OnRun
 ---
 
 # IOleCacheControl::OnRun
@@ -121,3 +121,4 @@ Some object handlers or in-process servers might use the cache passively, and no
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onstop">IOleCacheControl::OnStop</a>
+

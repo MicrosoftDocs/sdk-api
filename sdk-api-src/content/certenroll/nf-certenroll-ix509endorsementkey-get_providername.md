@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509EndorsementKey.ProviderName
- - IX509EndorsementKey.get_ProviderName
- - IX509EndorsementKey.put_ProviderName
+ - IX509EndorsementKey::get_ProviderName
 ---
 
 # IX509EndorsementKey::get_ProviderName
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
+

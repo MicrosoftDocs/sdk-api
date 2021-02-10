@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Clfsmgmtw32.h
 api_name:
+ - _LOG_MANAGEMENT_CALLBACKS
+ - PLOG_MANAGEMENT_CALLBACKS
  - LOG_MANAGEMENT_CALLBACKS
 ---
 
@@ -73,3 +75,4 @@ Called when an asynchronous request is initiated when <a href="/windows/desktop/
 ### -field LogUnpinnedCallback
 
 Called when a pinned log becomes unpinned.
+

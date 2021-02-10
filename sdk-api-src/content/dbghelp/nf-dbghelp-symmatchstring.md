@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymMatchString
- - SymMatchString
- - SymMatchStringW
 ---
 
 # SymMatchString function
@@ -83,3 +81,4 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 ## -see-also
 
 <a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+

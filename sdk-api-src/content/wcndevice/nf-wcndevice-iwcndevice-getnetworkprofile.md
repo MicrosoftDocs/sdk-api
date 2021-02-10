@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice.GetNetworkProfile
+ - IWCNDevice::GetNetworkProfile
 ---
 
 # IWCNDevice::GetNetworkProfile
@@ -95,3 +95,4 @@ The network profile was successfully retrieved.
 
 
 <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
+

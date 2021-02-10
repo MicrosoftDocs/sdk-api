@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStream.GetSizeMax
+ - IPersistStream::GetSizeMax
 ---
 
 # IPersistStream::GetSizeMax
@@ -75,3 +75,4 @@ This method retrieves the maximum number of bytes in the stream that will be req
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
+

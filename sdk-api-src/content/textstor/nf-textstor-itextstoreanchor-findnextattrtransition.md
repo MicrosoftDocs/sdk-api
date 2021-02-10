@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor.FindNextAttrTransition
+ - ITextStoreAnchor::FindNextAttrTransition
 ---
 
 # ITextStoreAnchor::FindNextAttrTransition
@@ -176,3 +176,4 @@ The character positions specified are beyond the text in the document.
 
 <a href="/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
       </a>
+

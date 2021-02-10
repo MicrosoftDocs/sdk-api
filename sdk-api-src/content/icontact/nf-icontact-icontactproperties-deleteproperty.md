@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactProperties.DeleteProperty
+ - IContactProperties::DeleteProperty
 ---
 
 # IContactProperties::DeleteProperty
@@ -101,3 +101,4 @@ Property name doesn't exist for delete.
 </td>
 </tr>
 </table>
+

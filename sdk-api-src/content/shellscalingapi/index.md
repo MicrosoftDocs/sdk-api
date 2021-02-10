@@ -9,6 +9,8 @@ tech.root: hidpi
 f1_keywords:
  - shellscalingapi
  - shellscalingapi/shellscalingapi
+api_name:
+ - shellscalingapi
 ---
 
 # Shellscalingapi.h header

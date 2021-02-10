@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlay.GetClipList
+ - IOverlay::GetClipList
 ---
 
 # IOverlay::GetClipList
@@ -82,3 +82,4 @@ The <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> implem
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
+

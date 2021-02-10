@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetScope
+ - ISearchFolderItemFactory::SetScope
 ---
 
 # ISearchFolderItemFactory::SetScope
@@ -65,3 +65,4 @@ A pointer to the list of locations to search. The search will include this locat
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
+

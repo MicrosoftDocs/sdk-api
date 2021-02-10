@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qmgr.h
 api_name:
- - IBackgroundCopyCallback1.OnStatus
+ - IBackgroundCopyCallback1::OnStatus
 ---
 
 # IBackgroundCopyCallback1::OnStatus
@@ -91,3 +91,4 @@ This method should return <b>S_OK</b>; otherwise, the service continues to call 
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopycallback1">IBackgroundCopyCallback1</a>
+

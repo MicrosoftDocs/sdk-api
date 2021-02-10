@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - ads_search_column
+ - PADS_SEARCH_COLUMN
  - ADS_SEARCH_COLUMN
 ---
 
@@ -99,3 +101,4 @@ For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="/windows/des
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>
+

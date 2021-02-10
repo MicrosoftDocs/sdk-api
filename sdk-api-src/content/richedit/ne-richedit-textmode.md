@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - tagTextMode
  - TEXTMODE
 ---
 

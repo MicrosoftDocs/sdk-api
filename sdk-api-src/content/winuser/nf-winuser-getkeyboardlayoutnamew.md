@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetKeyboardLayoutNameW
  - winuser/GetKeyboardLayoutNameW
+ - GetKeyboardLayoutName
+ - winuser/GetKeyboardLayoutName
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - GetKeyboardLayoutName
- - GetKeyboardLayoutNameA
  - GetKeyboardLayoutNameW
+ - GetKeyboardLayoutName
 ---
 
 # GetKeyboardLayoutNameW function
@@ -114,3 +115,4 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a>
+

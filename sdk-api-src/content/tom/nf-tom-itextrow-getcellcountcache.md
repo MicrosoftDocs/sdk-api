@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.GetCellCountCache
+ - ITextRow::GetCellCountCache
 ---
 
 # ITextRow::GetCellCountCache
@@ -77,3 +77,4 @@ If all cells are identical, properties need to be cached only for the cell with 
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-setcellcountcache">ITextRow::SetCellCountCache</a>
+

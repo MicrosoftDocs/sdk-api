@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddstream.h
 api_name:
- - IDirectDrawMediaStream.SetDirectDraw
+ - IDirectDrawMediaStream::SetDirectDraw
 ---
 
 # IDirectDrawMediaStream::SetDirectDraw
@@ -73,3 +73,4 @@ If this stream has no allocated samples, you can set <i>pDirectDraw</i> to <b>NU
 ## -see-also
 
 <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
+

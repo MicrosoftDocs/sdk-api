@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.GetWindowInputRectangle
+ - IInkPicture::GetWindowInputRectangle
 ---
 
 # IInkPicture::GetWindowInputRectangle
@@ -133,3 +133,4 @@ If you call <b>GetWindowInputRectangle</b> before you call the <a href="/windows
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle">SetWindowInputRectangle Method</a>
+

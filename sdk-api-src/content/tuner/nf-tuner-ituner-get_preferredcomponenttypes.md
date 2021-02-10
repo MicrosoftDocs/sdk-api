@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner.get_PreferredComponentTypes
+ - ITuner::get_PreferredComponentTypes
 ---
 
 # ITuner::get_PreferredComponentTypes
@@ -73,3 +73,4 @@ When a program ends, there may be a new set of stream components available, so a
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
+

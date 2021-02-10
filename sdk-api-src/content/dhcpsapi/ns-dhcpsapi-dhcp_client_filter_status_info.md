@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_FILTER_STATUS_INFO
+ - LPDHCP_CLIENT_FILTER_STATUS_INFO
  - DHCP_CLIENT_FILTER_STATUS_INFO
 ---
 
@@ -298,3 +300,4 @@ The DHCPv4 client MAC address has a wildcard match in the deny list.
 </td>
 </tr>
 </table>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_KEY_DATA_BLOB_HEADER
+ - PBCRYPT_KEY_DATA_BLOB_HEADER
  - BCRYPT_KEY_DATA_BLOB_HEADER
 ---
 
@@ -104,3 +106,4 @@ The size, in bytes, of the key data.
 
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
+

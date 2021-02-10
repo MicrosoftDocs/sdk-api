@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogCustomize.StartVisualGroup
+ - IFileDialogCustomize::StartVisualGroup
 ---
 
 # IFileDialogCustomize::StartVisualGroup
@@ -78,3 +78,4 @@ Controls will continue to be added to this visual group until you call <a href="
               
 
 A visual group can be hidden and disabled like any other control, except that doing so affects all of the controls within it. Individual members of the visual group can also be hidden and disabled singly.
+

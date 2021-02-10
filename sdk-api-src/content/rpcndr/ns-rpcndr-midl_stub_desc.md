@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rpcndr.h
 api_name:
+ - _MIDL_STUB_DESC
  - MIDL_STUB_DESC
 ---
 
@@ -194,3 +195,4 @@ Unused.
 #### - Reserved5
 
 Unused.
+

@@ -43,8 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEvent.FreeEventParams
- - IMediaEventEx.FreeEventParams
+ - IMediaEvent::FreeEventParams
 ---
 
 # IMediaEvent::FreeEventParams
@@ -99,3 +98,4 @@ hr = pEvent->FreeEventParams(evCode, param1, param2);
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a>
+

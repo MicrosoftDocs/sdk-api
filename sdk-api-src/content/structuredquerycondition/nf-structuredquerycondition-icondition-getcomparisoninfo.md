@@ -42,7 +42,7 @@ api_type:
 api_location:
  - structuredquerycondition.h
 api_name:
- - ICondition.GetComparisonInfo
+ - ICondition::GetComparisonInfo
 ---
 
 # ICondition::GetComparisonInfo
@@ -101,3 +101,4 @@ Any or all of the three parameters can be <b>NULL</b>.
 
 
 <b>Reference</b>
+

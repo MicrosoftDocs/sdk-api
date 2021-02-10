@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - SetInternalState
+ - PSET_INTERNAL_STATE
 ---
 
 # PSET_INTERNAL_STATE callback function
@@ -68,3 +68,4 @@ Whether the resource is active
 #### - [in]
 
 A resource handle
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphConfig.RemoveFilterEx
+ - IGraphConfig::RemoveFilterEx
 ---
 
 # IGraphConfig::RemoveFilterEx
@@ -80,3 +80,4 @@ By default, this method disconnects the filter before removing it from the graph
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
+

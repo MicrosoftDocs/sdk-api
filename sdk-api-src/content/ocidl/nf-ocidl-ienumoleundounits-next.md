@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IEnumOleUndoUnits.Next
+ - IEnumOleUndoUnits::Next
 ---
 
 # IEnumOleUndoUnits::Next
@@ -87,3 +87,4 @@ E_NOTIMPL is not allowed as a return value. If an error value is returned, no en
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
+

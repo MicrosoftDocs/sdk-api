@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - weakreference
  - weakreference/weakreference
+api_name:
+ - weakreference
 ---
 
 # Weakreference.h header

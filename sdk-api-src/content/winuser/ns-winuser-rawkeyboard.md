@@ -45,6 +45,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagRAWKEYBOARD
+ - PRAWKEYBOARD
  - RAWKEYBOARD
 ---
 
@@ -127,3 +129,4 @@ Older PS/2 keyboards actually transmit Scan Code Set 2 values down the wire from
 [PS/2 Keyboard Scan Code Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc)
 
 [KEYBOARD_INPUT_DATA structure](../ntddkbd/ns-ntddkbd-keyboard_input_data.md)
+

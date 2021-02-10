@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUS_STORAGE_SET_DRIVELETTER
+ - PCLUS_STORAGE_SET_DRIVELETTER
  - CLUS_STORAGE_SET_DRIVELETTER
 ---
 

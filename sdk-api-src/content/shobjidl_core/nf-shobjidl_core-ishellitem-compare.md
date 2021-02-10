@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellItem.Compare
+ - IShellItem::Compare
 ---
 
 # IShellItem::Compare
@@ -94,3 +94,4 @@ typedef DWORD SICHINTF;
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
+

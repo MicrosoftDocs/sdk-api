@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPLibrary.get_mediaCollection
+ - IWMPLibrary::get_mediaCollection
 ---
 
 # IWMPLibrary::get_mediaCollection
@@ -91,3 +91,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
+

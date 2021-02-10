@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMStatusMsgCollection.Count
- - IGPMStatusMsgCollection.get_Count
- - GPMStatusMsgCollection.Count
+ - IGPMStatusMsgCollection::get_Count
 ---
 
 # IGPMStatusMsgCollection::get_Count
@@ -65,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
+

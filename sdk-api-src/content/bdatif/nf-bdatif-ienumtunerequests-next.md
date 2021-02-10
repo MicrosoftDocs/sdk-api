@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IEnumTuneRequests.Next
+ - IEnumTuneRequests::Next
 ---
 
 # IEnumTuneRequests::Next
@@ -106,3 +106,4 @@ The collection is at the end of the enumeration sequence.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumtunerequests">IEnumTuneRequests Interface</a>
+

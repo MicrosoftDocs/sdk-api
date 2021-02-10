@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmRule.ModuleDefinitionName
- - IFsrmRule.get_ModuleDefinitionName
- - IFsrmRule.put_ModuleDefinitionName
+ - IFsrmRule::put_ModuleDefinitionName
 ---
 
 # IFsrmRule::put_ModuleDefinitionName
@@ -67,3 +65,4 @@ To get a list of modules that have been registered with FSRM, call the <a href="
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
+

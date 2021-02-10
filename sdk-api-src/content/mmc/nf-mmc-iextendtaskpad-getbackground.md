@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendTaskPad.GetBackground
+ - IExtendTaskPad::GetBackground
 ---
 
 # IExtendTaskPad::GetBackground
@@ -91,3 +91,4 @@ Allocate the strings in the
 
 
 <a href="/windows/desktop/api/mmc/ns-mmc-mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
+

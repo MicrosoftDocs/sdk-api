@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionSurfaceFactory.CreateVirtualSurface
+ - IDCompositionSurfaceFactory::CreateVirtualSurface
 ---
 
 # IDCompositionSurfaceFactory::CreateVirtualSurface
@@ -113,3 +113,4 @@ Microsoft DirectComposition surfaces support the following pixel formats:
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurfacefactory-createvirtualsurface">IDCompositionSurfaceFactory::CreateVirtualSurface</a>
+

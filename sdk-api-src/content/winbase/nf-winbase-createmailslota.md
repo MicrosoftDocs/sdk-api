@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateMailslotA
  - winbase/CreateMailslotA
+ - CreateMailslot
+ - winbase/CreateMailslot
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateMailslot
  - CreateMailslotA
- - CreateMailslotW
+ - CreateMailslot
 ---
 
 # CreateMailslotA function
@@ -214,3 +215,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ICivicAddressReport.GetCountryRegion
+ - ICivicAddressReport::GetCountryRegion
 ---
 
 # ICivicAddressReport::GetCountryRegion
@@ -88,3 +88,4 @@ The following example demonstrates how to call <b>GetCountryRegion</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-icivicaddressreport">ICivicAddressReport</a>
+

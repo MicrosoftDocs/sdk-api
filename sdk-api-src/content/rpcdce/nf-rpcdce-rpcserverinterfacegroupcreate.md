@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcServerInterfaceGroupCreate
- - RpcServerInterfaceGroupCreateA
- - RpcServerInterfaceGroupCreateW
 ---
 
 # RpcServerInterfaceGroupCreate function
@@ -138,3 +136,4 @@ RPC server activity is not always visible to the server application.  In some ca
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInterfaceGroupInqBindings</a>
+

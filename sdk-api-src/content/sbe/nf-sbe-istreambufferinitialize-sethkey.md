@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferInitialize.SetHKEY
+ - IStreamBufferInitialize::SetHKEY
 ---
 
 # IStreamBufferInitialize::SetHKEY
@@ -155,3 +155,4 @@ hr = pInit->SetHKEY(hkey);
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>
+

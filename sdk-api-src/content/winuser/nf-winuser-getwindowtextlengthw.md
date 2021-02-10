@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 f1_keywords:
  - GetWindowTextLengthW
  - winuser/GetWindowTextLengthW
+ - GetWindowTextLength
+ - winuser/GetWindowTextLength
 dev_langs:
  - c++
 topic_type:
@@ -47,10 +50,8 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-0.dll
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - GetWindowTextLength
- - GetWindowTextLengthA
  - GetWindowTextLengthW
-req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
+ - GetWindowTextLength
 ---
 
 # GetWindowTextLengthW function
@@ -135,3 +136,4 @@ To obtain the exact length of the text, use the <a href="/windows/desktop/winmsg
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

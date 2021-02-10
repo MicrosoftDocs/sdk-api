@@ -9,6 +9,8 @@ tech.root: wec
 f1_keywords:
  - evcoll
  - evcoll/evcoll
+api_name:
+ - evcoll
 ---
 
 # Evcoll.h header

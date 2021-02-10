@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.GetEncoderParameterList
+ - Image::GetEncoderParameterList
 ---
 
 # Image::GetEncoderParameterList
@@ -112,3 +112,4 @@ The <b>Image::GetEncoderParameterList</b> method returns an array of
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
+

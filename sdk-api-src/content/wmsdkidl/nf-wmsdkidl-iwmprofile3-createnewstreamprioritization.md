@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3.CreateNewStreamPrioritization
+ - IWMProfile3::CreateNewStreamPrioritization
 ---
 
 # IWMProfile3::CreateNewStreamPrioritization
@@ -116,3 +116,4 @@ A profile can only contain one stream prioritization. When you assign a new stre
 
 
 <a href="/windows/desktop/wmformat/stream-prioritization-object">Stream Prioritization Object</a>
+

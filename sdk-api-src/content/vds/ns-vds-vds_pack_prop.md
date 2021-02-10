@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_PACK_PROP
+ - PVDS_PACK_PROP
  - VDS_PACK_PROP
 ---
 
@@ -95,3 +97,4 @@ The <a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::G
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>
+

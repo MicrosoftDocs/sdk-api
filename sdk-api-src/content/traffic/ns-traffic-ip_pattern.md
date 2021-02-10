@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Traffic.h
 api_name:
+ - _IP_PATTERN
+ - PIP_PATTERN
  - IP_PATTERN
 ---
 
@@ -125,3 +127,4 @@ The following macros are defined in Traffic.h to make it easier to reference the
 ## -see-also
 
 <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+

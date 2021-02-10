@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader.CancelMonitorLicenseAcquisition
+ - IWMDRMReader::CancelMonitorLicenseAcquisition
 ---
 
 # IWMDRMReader::CancelMonitorLicenseAcquisition
@@ -70,3 +70,4 @@ This method terminates the thread that periodically checks the license store to 
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
+

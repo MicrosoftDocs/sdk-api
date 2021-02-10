@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage4.GetRightsWithProgress
+ - IWMDMStorage4::GetRightsWithProgress
 ---
 
 # IWMDMStorage4::GetRightsWithProgress
@@ -91,3 +91,4 @@ This method is identical to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdm
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRPOLYPOLYLINE16
+ - PEMRPOLYPOLYLINE16
  - EMRPOLYPOLYLINE16
 ---
 
@@ -101,3 +103,4 @@ An array of <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structures
 
 
 <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>
+

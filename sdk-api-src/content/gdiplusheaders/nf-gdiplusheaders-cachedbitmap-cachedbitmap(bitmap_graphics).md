@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CachedBitmap.CachedBitmap
+ - CachedBitmap::CachedBitmap
 ---
 
 ## -description
@@ -107,3 +107,4 @@ VOID Example_CachedBitmap(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-cached-bitmap-to-improve-performance-use">Using a Cached Bitmap to Improve Performance</a>
+

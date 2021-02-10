@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _SET_DISK_ATTRIBUTES
+ - PSET_DISK_ATTRIBUTES
  - SET_DISK_ATTRIBUTES
 ---
 
@@ -152,3 +154,4 @@ Reserved. Must be set to 0.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">IOCTL_DISK_SET_DISK_ATTRIBUTES</a>
+

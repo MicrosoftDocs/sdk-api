@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSession.ClientApplicationID
- - IUpdateSession.get_ClientApplicationID
- - IUpdateSession.put_ClientApplicationID
+ - IUpdateSession::put_ClientApplicationID
 ---
 
 # IUpdateSession::put_ClientApplicationID
@@ -65,3 +63,4 @@ Returns the Unknown value if the client application has not set the property.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
+

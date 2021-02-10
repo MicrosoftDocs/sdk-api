@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_SNAPSHOT_CONTEXT
+ - PVSS_SNAPSHOT_CONTEXT
  - VSS_SNAPSHOT_CONTEXT
 ---
 
@@ -175,3 +177,4 @@ The use of <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> is limited to systems running
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+

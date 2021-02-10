@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imekrcic.dll
 api_name:
- - ITfEditTransactionSink.OnEndEditTransaction
+ - ITfEditTransactionSink::OnEndEditTransaction
 ---
 
 # ITfEditTransactionSink::OnEndEditTransaction
@@ -80,3 +80,4 @@ The TSF manager calls this method at the end of an edit transaction. A text serv
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
       </a>
+

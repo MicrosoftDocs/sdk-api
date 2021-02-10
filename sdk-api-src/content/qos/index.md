@@ -9,6 +9,8 @@ tech.root: qos
 f1_keywords:
  - qos
  - qos/qos
+api_name:
+ - qos
 ---
 
 # Qos.h header

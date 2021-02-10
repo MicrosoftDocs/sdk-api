@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvControl
+ - PFN_CERT_STORE_PROV_CONTROL
 ---
 
 # PFN_CERT_STORE_PROV_CONTROL callback function
@@ -74,3 +74,4 @@ A pointer to a buffer whose structure and content is determined by the values of
 ## -returns
 
 Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if it fails.
+

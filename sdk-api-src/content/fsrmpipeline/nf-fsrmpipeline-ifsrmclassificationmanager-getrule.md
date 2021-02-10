@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.GetRule
- - IFsrmClassificationManager2.GetRule
- - FsrmClassificationManager.GetRule
+ - IFsrmClassificationManager::GetRule
 ---
 
 # IFsrmClassificationManager::GetRule
@@ -108,3 +106,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
+

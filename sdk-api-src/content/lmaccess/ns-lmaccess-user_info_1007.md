@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1007
+ - PUSER_INFO_1007
  - USER_INFO_1007
 ---
 
@@ -80,3 +82,4 @@ Pointer to a Unicode string that contains a comment to associate with the user a
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

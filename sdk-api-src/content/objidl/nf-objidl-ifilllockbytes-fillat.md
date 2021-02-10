@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IFillLockBytes.FillAt
+ - IFillLockBytes::FillAt
 ---
 
 # IFillLockBytes::FillAt
@@ -97,3 +97,4 @@ The
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilockbytes-readat">ILockBytes::ReadAt</a>
+

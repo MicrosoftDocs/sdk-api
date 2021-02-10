@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.Add
+ - ITPluggableTerminalSuperclassRegistration::Add
 ---
 
 # ITPluggableTerminalSuperclassRegistration::Add
@@ -103,3 +103,4 @@ If the CLSID for the terminal superclass was not set for terminal superclass, th
 
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
+

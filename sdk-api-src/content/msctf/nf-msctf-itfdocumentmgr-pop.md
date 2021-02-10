@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfDocumentMgr.Pop
+ - ITfDocumentMgr::Pop
 ---
 
 # ITfDocumentMgr::Pop
@@ -139,3 +139,4 @@ This method causes the <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onuninitdocumentmgr">ITfThreadMgrEventSink::OnUninitDocumentMgr
       </a>
+

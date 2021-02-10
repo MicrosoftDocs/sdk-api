@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationElement7.FindAllWithOptionsBuildCache
+ - IUIAutomationElement7::FindAllWithOptionsBuildCache
 ---
 
 # IUIAutomationElement7::FindAllWithOptionsBuildCache
@@ -97,3 +97,4 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement7">IUIAutomationElement7</a>
+

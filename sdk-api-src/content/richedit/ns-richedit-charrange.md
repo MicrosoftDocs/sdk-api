@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _charrange
  - CHARRANGE
 ---
 
@@ -81,3 +82,4 @@ Character position immediately following the last character in the range.
 
 
 <b>Reference</b>
+

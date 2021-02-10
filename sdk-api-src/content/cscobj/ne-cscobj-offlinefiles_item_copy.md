@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_ITEM_COPY
  - OFFLINEFILES_ITEM_COPY
 ---
 
@@ -79,3 +80,4 @@ Retrieve the attributes, time values, or size of the original copy of the item. 
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfilesysinfo-gettimes">IOfflineFilesFileSysInfo::GetTimes</a>
+

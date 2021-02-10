@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp.Save
+ - IInkDisp::Save
 ---
 
 # IInkDisp::Save
@@ -274,3 +274,4 @@ Attempting to save an empty <a href="/windows/desktop/tablet/inkdisp-class">InkD
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load">Load Method</a>
+

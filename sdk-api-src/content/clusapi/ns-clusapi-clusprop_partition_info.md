@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_PARTITION_INFO
+ - PCLUSPROP_PARTITION_INFO
 ---
 
 ## -description
@@ -72,3 +73,4 @@ Contains
 <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a>
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

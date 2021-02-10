@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.RemoteName
- - IRDPSRAPIAttendee.get_RemoteName
- - RDPSRAPIAttendee.RemoteName
+ - IRDPSRAPIAttendee::get_RemoteName
 ---
 
 # IRDPSRAPIAttendee::get_RemoteName
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
+

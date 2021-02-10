@@ -42,10 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmSetting.EnableScreeningAudit
- - IFsrmSetting.get_EnableScreeningAudit
- - IFsrmSetting.put_EnableScreeningAudit
- - FsrmSetting.EnableScreeningAudit
+ - IFsrmSetting::put_EnableScreeningAudit
 ---
 
 # IFsrmSetting::put_EnableScreeningAudit
@@ -93,3 +90,4 @@ For an example, see <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
+

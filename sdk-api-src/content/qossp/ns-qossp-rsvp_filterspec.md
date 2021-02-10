@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
+ - _RSVP_FILTERSPEC
+ - LPRSVP_FILTERSPEC
  - RSVP_FILTERSPEC
 ---
 
@@ -101,3 +103,4 @@ IPv6 FILTERSPEC general port ID information, provided in the form of a <a href="
 
 
 <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a>
+

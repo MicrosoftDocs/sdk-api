@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _PARTITION_INFORMATION_EX
+ - PPARTITION_INFORMATION_EX
  - PARTITION_INFORMATION_EX
 ---
 
@@ -119,3 +121,4 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 
 
 <a href="/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
+

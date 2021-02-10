@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioclient.h
 api_name:
- - IAudioClock2.GetDevicePosition
+ - IAudioClock2::GetDevicePosition
 ---
 
 # IAudioClock2::GetDevicePosition
@@ -134,3 +134,4 @@ Given the device position and the performance counter at the time of the <b>GetD
 ## -see-also
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclock2">IAudioClock2</a>
+

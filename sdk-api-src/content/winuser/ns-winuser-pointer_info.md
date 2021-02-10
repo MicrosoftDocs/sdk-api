@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagPOINTER_INFO
  - POINTER_INFO
 ---
 
@@ -190,3 +191,4 @@ When flags indicate <b>POINTER_FLAG_HWHEEL,</b> this value indicates the distanc
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
+

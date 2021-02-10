@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAsyncResult.GetState
+ - IMFAsyncResult::GetState
 ---
 
 # IMFAsyncResult::GetState
@@ -112,3 +112,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a>
+

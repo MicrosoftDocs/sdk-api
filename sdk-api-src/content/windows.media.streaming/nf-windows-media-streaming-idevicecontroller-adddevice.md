@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IDeviceController.AddDevice
+ - IDeviceController::AddDevice
 ---
 
 # IDeviceController::streaming
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>
+

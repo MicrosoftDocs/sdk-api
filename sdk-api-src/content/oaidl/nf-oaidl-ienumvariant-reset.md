@@ -42,7 +42,7 @@ api_type:
 api_location:
  - stdole.dll
 api_name:
- - IEnumVARIANT.Reset
+ - IEnumVARIANT::Reset
 ---
 
 # IEnumVARIANT::Reset
@@ -109,3 +109,4 @@ CEnumVariant::Reset()
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
+

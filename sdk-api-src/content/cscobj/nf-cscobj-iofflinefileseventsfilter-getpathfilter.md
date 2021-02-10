@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEventsFilter.GetPathFilter
+ - IOfflineFilesEventsFilter::GetPathFilter
 ---
 
 # IOfflineFilesEventsFilter::GetPathFilter
@@ -70,3 +70,4 @@ Return <b>S_OK</b> if implemented, <b>E_NOTIMPL</b> if not implemented.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileseventsfilter">IOfflineFilesEventsFilter</a>
+

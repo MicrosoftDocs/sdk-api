@@ -44,8 +44,6 @@ api_location:
  - FrameDyn.dll
 api_name:
  - CHStringArray
- - ??1CHStringArray@@QAE@XZ
- - ??1CHStringArray@@QEAA@XZ
 ---
 
 # CHStringArray class
@@ -231,3 +229,4 @@ Sets the number of elements to be contained in this array
 </td>
 </tr>
 </table>
+

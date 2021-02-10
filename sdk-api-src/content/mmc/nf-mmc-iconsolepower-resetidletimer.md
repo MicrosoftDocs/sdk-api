@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsolePower.ResetIdleTimer
+ - IConsolePower::ResetIdleTimer
 ---
 
 # IConsolePower::ResetIdleTimer
@@ -120,3 +120,4 @@ switch (hr)
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>
+

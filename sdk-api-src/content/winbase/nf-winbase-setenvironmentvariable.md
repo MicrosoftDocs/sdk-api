@@ -48,8 +48,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - SetEnvironmentVariable
- - SetEnvironmentVariableA
- - SetEnvironmentVariableW
 ---
 
 # SetEnvironmentVariable function
@@ -100,3 +98,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>
+

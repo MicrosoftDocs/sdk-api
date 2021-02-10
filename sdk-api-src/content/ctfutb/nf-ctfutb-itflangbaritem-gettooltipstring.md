@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarItem.GetTooltipString
+ - ITfLangBarItem::GetTooltipString
 ---
 
 # ITfLangBarItem::GetTooltipString
@@ -124,3 +124,4 @@ A memory allocation failure occurred.
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

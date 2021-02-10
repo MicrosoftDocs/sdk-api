@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentItemStatus
- - IUIAutomationElement.get_CurrentItemStatus
+ - IUIAutomationElement::get_CurrentItemStatus
 ---
 
 # IUIAutomationElement::get_CurrentItemStatus
@@ -76,3 +75,4 @@ This property enables a client to ascertain whether an element is conveying stat
 
 
 <b>Reference</b>
+

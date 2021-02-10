@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
+ - _AM_PROPERTY_SPPAL
+ - PAM_PROPERTY_SPPAL
  - AM_PROPERTY_SPPAL
 ---
 
@@ -69,3 +71,4 @@ The AM_PROPERTY_DVDSUBPIC_PALETTE property uses this structure.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-subpicture-property-set">DVD Subpicture Property Set</a>
+

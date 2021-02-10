@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDeviceProvider.Status
- - IFaxDeviceProvider.get_Status
+ - IFaxDeviceProvider::get_Status
 ---
 
 # IFaxDeviceProvider::get_Status
@@ -72,3 +71,4 @@ If the FSP did not load successfully, the property indicates the reason for the 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-device-providers">Visual Basic Example</a>
+

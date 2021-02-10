@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdXmldom.h
 api_name:
+ - _WSDXML_ELEMENT_LIST
  - WSDXML_ELEMENT_LIST
 ---
 
@@ -63,3 +64,4 @@ Reference to the next node in the linked list of <b>WSDXML_ELEMENT_LIST</b> stru
 ### -field Element
 
 The <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure referenced by this node.
+

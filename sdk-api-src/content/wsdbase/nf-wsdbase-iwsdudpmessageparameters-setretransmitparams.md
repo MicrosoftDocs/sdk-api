@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpMessageParameters.SetRetransmitParams
+ - IWSDUdpMessageParameters::SetRetransmitParams
 ---
 
 # IWSDUdpMessageParameters::SetRetransmitParams
@@ -87,3 +87,4 @@ If you do not specify these values, WSD sends the message only once.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a>
+

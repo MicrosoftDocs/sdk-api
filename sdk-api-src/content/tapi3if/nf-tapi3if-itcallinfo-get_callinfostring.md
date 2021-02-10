@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallInfo.get_CallInfoString
+ - ITCallInfo::get_CallInfoString
 ---
 
 # ITCallInfo::get_CallInfoString
@@ -150,3 +150,4 @@ The application must use
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring">put_CallInfoString</a>
+

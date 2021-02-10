@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device2.GetResourceTiling
+ - ID3D11Device2::GetResourceTiling
 ---
 
 # ID3D11Device2::GetResourceTiling
@@ -111,3 +111,4 @@ For more info about tiled resources, see <a href="/windows/desktop/direct3d11/ti
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>
+

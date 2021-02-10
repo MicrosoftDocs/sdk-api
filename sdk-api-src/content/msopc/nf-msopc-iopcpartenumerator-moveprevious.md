@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcPartEnumerator.MovePrevious
+ - IOpcPartEnumerator::MovePrevious
 ---
 
 # IOpcPartEnumerator::MovePrevious
@@ -188,3 +188,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

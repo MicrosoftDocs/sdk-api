@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WNetSetLastErrorA
  - npapi/WNetSetLastErrorA
+ - WNetSetLastError
+ - npapi/WNetSetLastError
 dev_langs:
  - c++
 topic_type:
@@ -42,8 +44,8 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetSetLastError
  - WNetSetLastErrorA
+ - WNetSetLastError
 ---
 
 # WNetSetLastErrorA function
@@ -103,3 +105,4 @@ return(ERROR_EXTENDED_ERROR) ;
 In this case, providerError is the provider-specific error code.
 
 Providers do not need to call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> before returning from a provider function. The MPR calls <b>SetLastError</b> to set the Windows error returned from a provider when necessary to satisfy applications.
+

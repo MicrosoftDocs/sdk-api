@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfCompartment.SetValue
+ - ITfCompartment::SetValue
 ---
 
 # ITfCompartment::SetValue
@@ -120,3 +120,4 @@ The compartment was cleared by a call to <a href="/windows/desktop/api/msctf/nf-
 ## -see-also
 
 [ITfCompartment interface](nn-msctf-itfcompartment.md), [ITfCompartment::GetValue](nf-msctf-itfcompartment-getvalue.md), [ITfCompartmentMgr::ClearCompartment](nf-msctf-itfcompartmentmgr-clearcompartment.md), [VariantClear function](../oleauto/nf-oleauto-variantclear.md)
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName
+ - ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName
 ---
 
 # ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName
@@ -82,3 +82,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesex">ITfInputProcessorProfilesEx</a>
+

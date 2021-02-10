@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus2.put_FlicksEnabled
+ - IRealTimeStylus2::put_FlicksEnabled
 ---
 
 # IRealTimeStylus2::put_FlicksEnabled
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus2">IRealTimeStylus2 Interface</a>
+

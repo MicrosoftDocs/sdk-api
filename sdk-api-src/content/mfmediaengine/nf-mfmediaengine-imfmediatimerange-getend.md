@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaTimeRange.GetEnd
+ - IMFMediaTimeRange::GetEnd
 ---
 
 # IMFMediaTimeRange::GetEnd
@@ -73,3 +73,4 @@ This method corresponds to the <b>TimeRanges.end</b> method in HTML5.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>
+

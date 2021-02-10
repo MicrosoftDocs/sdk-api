@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfMessagePump.GetMessageW
- - getmessagew
+ - ITfMessagePump::GetMessageW
 ---
 
 # ITfMessagePump::GetMessageW
@@ -123,3 +122,4 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 
 <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IEnumFsiItems.Next
+ - IEnumFsiItems::Next
 ---
 
 # IEnumFsiItems::Next
@@ -129,3 +129,4 @@ If there are fewer than the requested number of elements left in the sequence, i
 
 
 IEnumFsiItems::RemoteNext
+

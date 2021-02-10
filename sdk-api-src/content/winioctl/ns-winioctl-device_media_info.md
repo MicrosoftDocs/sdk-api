@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DEVICE_MEDIA_INFO
+ - PDEVICE_MEDIA_INFO
  - DEVICE_MEDIA_INFO
 ---
 
@@ -261,3 +263,4 @@ The SCSI-specific current operating density for read/write operations.
 
 
 <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a>
+

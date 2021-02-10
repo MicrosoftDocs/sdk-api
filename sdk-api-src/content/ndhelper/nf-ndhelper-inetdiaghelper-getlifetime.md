@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelper.GetLifeTime
+ - INetDiagHelper::GetLifeTime
 ---
 
 # INetDiagHelper::GetLifeTime
@@ -147,3 +147,4 @@ For example, Windows Filtering Platform (WFP) helper classes use lifetime to det
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
+

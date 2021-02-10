@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tuner.h
 api_name:
- - IScanningTunerEx.ResumeCurrentScan
+ - IScanningTunerEx::ResumeCurrentScan
 ---
 
 # IScanningTunerEx::ResumeCurrentScan
@@ -117,3 +117,4 @@ When the application calls <b>PerformExhaustiveScan</b>, the tuner scans until i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CredentialProvider.h
 api_name:
- - ICredentialProviderCredentialEvents2.SetFieldOptions
+ - ICredentialProviderCredentialEvents2::SetFieldOptions
 ---
 
 # ICredentialProviderCredentialEvents2::SetFieldOptions
@@ -85,3 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialwithfieldoptions-getfieldoptions">ICredentialProviderCredentialWithFieldOptions::GetFieldOptions</a>
+

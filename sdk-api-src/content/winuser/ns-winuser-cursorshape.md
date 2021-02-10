@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagCURSORSHAPE
+ - LPCURSORSHAPE
  - CURSORSHAPE
 ---
 
@@ -119,3 +121,4 @@ When an application passes a cursor handle to the <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/menurc/resources">Resources</a>
+

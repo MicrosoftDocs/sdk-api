@@ -46,6 +46,8 @@ api_type:
 api_location:
  - XInput.h
 api_name:
+ - _XINPUT_KEYSTROKE
+ - PXINPUT_KEYSTROKE
  - XINPUT_KEYSTROKE
 ---
 
@@ -257,3 +259,4 @@ The valid virtual-key (VK_xxx) codes are defined in XInput.h. In addition to cod
 ## -see-also
 
 <a href="/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4.getCertContextFromResponseBlob
+ - IEnroll4::getCertContextFromResponseBlob
 ---
 
 # IEnroll4::getCertContextFromResponseBlob
@@ -73,3 +73,4 @@ The response may be either a PKCS #7 or a full <a href="/windows/desktop/SecGlos
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICComponentFactory.CreateEncoderPropertyBag
+ - IWICComponentFactory::CreateEncoderPropertyBag
 ---
 
 # IWICComponentFactory::CreateEncoderPropertyBag
@@ -78,3 +78,4 @@ A pointer that receives a pointer to an encoder <a href="/previous-versions/wind
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingArchive.UseArchive
- - IFaxIncomingArchive.get_UseArchive
- - IFaxIncomingArchive.put_UseArchive
- - IFaxIncomingArchive.get_UseArchive
- - IFaxIncomingArchive.put_UseArchive
+ - IFaxIncomingArchive::get_UseArchive
 ---
 
 # IFaxIncomingArchive::get_UseArchive
@@ -77,3 +73,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-incoming-archive">Visual Basic Example</a>
+

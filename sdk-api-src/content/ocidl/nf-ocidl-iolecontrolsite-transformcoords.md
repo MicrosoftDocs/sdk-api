@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControlSite.TransformCoords
+ - IOleControlSite::TransformCoords
 ---
 
 # IOleControlSite::TransformCoords
@@ -181,3 +181,4 @@ A control uses this method when it has to send coordinates to a container within
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAsyncCallback.Invoke
+ - IMFAsyncCallback::Invoke
 ---
 
 # IMFAsyncCallback::Invoke
@@ -103,3 +103,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinvokecallback">MFInvokeCallback</a>
+

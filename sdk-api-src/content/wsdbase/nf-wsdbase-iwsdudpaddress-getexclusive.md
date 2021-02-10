@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpAddress.GetExclusive
+ - IWSDUdpAddress::GetExclusive
 ---
 
 # IWSDUdpAddress::GetExclusive
@@ -90,3 +90,4 @@ The socket is not in exclusive mode.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
+

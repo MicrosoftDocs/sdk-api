@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IStreamPseudoRandomBased.get_ExtendedSeed
+ - IStreamPseudoRandomBased::get_ExtendedSeed
 ---
 
 # IStreamPseudoRandomBased::get_ExtendedSeed
@@ -97,3 +97,4 @@ Value: 0x80004001
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">IStreamPseudoRandomBased::put_ExtendedSeed</a>
+

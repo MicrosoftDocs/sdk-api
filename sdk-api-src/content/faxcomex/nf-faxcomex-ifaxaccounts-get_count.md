@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccounts.Count
- - IFaxAccounts.get_Count
+ - IFaxAccounts::get_Count
 ---
 
 # IFaxAccounts::get_Count
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccounts">IFaxAccounts</a>
+

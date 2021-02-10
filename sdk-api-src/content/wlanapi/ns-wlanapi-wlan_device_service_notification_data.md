@@ -29,6 +29,7 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
+ - PWLAN_DEVICE_SERVICE_NOTIFICATION_DATA
  - WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
 f1_keywords:
  - _WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
@@ -74,3 +75,4 @@ A pointer to an array containing **BYTES**s, representing the data blob. This is
 ## -remarks
 
 ## -see-also
+

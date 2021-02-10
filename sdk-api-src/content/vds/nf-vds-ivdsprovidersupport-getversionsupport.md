@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsProviderSupport.GetVersionSupport
+ - IVdsProviderSupport::GetVersionSupport
 ---
 
 # IVdsProviderSupport::GetVersionSupport
@@ -76,3 +76,4 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_version_support_flag">VDS_VERSION_SUPPORT_FLAG</a>
+

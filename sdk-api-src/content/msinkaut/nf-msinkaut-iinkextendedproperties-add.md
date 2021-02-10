@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkExtendedProperties.Add
+ - IInkExtendedProperties::Add
 ---
 
 # IInkExtendedProperties::Add
@@ -173,3 +173,4 @@ The following types are acceptable:
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

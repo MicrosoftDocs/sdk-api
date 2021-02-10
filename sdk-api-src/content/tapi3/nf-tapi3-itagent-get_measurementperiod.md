@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent.get_MeasurementPeriod
+ - ITAgent::get_MeasurementPeriod
 ---
 
 # ITAgent::get_MeasurementPeriod
@@ -123,3 +123,4 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-put_measurementperiod">put_MeasurementPeriod</a>
+

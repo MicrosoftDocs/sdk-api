@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineSupportsSourceTransfer.AttachMediaSource
+ - IMFMediaEngineSupportsSourceTransfer::AttachMediaSource
 ---
 
 # IMFMediaEngineSupportsSourceTransfer::AttachMediaSource
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesupportssourcetransfer">IMFMediaEngineSupportsSourceTransfer</a>
+

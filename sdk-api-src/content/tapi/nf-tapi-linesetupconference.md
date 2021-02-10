@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineSetupConference
- - lineSetupConferenceA
- - lineSetupConferenceW
 ---
 
 # lineSetupConference function
@@ -161,3 +159,4 @@ If an application specifies the handle of the original call (<i>hCall</i>) in a 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineunhold">lineUnhold</a>
+

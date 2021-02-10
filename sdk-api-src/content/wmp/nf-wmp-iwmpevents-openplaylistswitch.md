@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.OpenPlaylistSwitch
+ - IWMPEvents::OpenPlaylistSwitch
 ---
 
 # IWMPEvents::OpenPlaylistSwitch
@@ -61,3 +61,4 @@ Pointer to an <b>IDispatch</b> interface for the given playlist.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

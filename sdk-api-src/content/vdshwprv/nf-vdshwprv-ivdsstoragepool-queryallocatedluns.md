@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsStoragePool.QueryAllocatedLuns
+ - IVdsStoragePool::QueryAllocatedLuns
 ---
 
 # IVdsStoragePool::QueryAllocatedLuns
@@ -87,3 +87,4 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsstoragepool">IVdsStoragePool</a>
+

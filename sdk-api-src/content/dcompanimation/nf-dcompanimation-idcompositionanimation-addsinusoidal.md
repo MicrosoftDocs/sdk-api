@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionAnimation.AddSinusoidal
+ - IDCompositionAnimation::AddSinusoidal
 ---
 
 # IDCompositionAnimation::AddSinusoidal
@@ -103,3 +103,4 @@ This animation segment remains in effect until the begin time of the next segmen
 ## -see-also
 
 <a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>
+

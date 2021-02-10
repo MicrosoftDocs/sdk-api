@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - EventCallback
+ - PEVENT_CALLBACK
 ---
 
 # PEVENT_CALLBACK callback function
@@ -99,3 +99,4 @@ For an example implementation of an
 
 
 <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>
+

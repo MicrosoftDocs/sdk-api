@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.RegisterInboundRoutingExtension
- - IFaxServer.RegisterInboundRoutingExtension
+ - IFaxServer::RegisterInboundRoutingExtension
 ---
 
 # IFaxServer::RegisterInboundRoutingExtension
@@ -101,3 +100,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
+

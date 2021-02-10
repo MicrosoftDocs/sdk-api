@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.OutboundRouting
- - IFaxServer.get_OutboundRouting
+ - IFaxServer::get_OutboundRouting
 ---
 
 # IFaxServer::get_OutboundRouting
@@ -72,3 +71,4 @@ This property is not supported in Windows XP, and will return the error: <a hre
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>
+

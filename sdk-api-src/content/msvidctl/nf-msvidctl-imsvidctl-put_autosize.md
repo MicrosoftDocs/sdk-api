@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.put_AutoSize
+ - IMSVidCtl::put_AutoSize
 ---
 
 # IMSVidCtl::put_AutoSize
@@ -86,3 +86,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_autosize">IMSVidCtl::get_AutoSize</a>
+

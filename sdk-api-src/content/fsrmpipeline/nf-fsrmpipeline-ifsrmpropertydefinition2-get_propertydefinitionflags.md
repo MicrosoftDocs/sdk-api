@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition2.PropertyDefinitionFlags
- - IFsrmPropertyDefinition2.get_PropertyDefinitionFlags
+ - IFsrmPropertyDefinition2::get_PropertyDefinitionFlags
 ---
 
 # IFsrmPropertyDefinition2::get_PropertyDefinitionFlags
@@ -74,3 +73,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationpropertydefinition">MSFT_FSRMClassificationPropertyDefinition</a>
+

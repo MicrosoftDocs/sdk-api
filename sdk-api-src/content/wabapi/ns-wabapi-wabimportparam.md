@@ -47,6 +47,8 @@ api_type:
 api_location:
  - Wabapi.h
 api_name:
+ - _WABIMPORTPARAM
+ - LPWABIMPORTPARAM
  - WABIMPORTPARAM
 ---
 
@@ -96,3 +98,4 @@ Value of type <b>LPSTR</b> that specifies the filename to import, or <b>NULL</b>
 Type: <b>HWND</b>
 
 Value of type <b>HWND</b> that specifies the parent window handle for any dialog boxes.
+

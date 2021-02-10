@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdMoCompCreate
+ - PDD_MOCOMPCB_CREATE
 ---
 
 ## -description
@@ -68,3 +68,4 @@ Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createmocompda
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createmocompdata">DD_CREATEMOCOMPDATA</a>
+

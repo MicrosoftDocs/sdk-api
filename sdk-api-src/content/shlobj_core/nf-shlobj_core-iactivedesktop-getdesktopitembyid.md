@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IActiveDesktop.GetDesktopItemByID
+ - IActiveDesktop::GetDesktopItemByID
 ---
 
 # IActiveDesktop::GetDesktopItemByID
@@ -85,3 +85,4 @@ The desktop item's identification is returned in the <b>dwID</b> member of the <
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
+

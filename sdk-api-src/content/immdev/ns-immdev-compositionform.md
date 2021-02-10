@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Imm.h
 api_name:
+ - tagCOMPOSITIONFORM
+ - PCOMPOSITIONFORM
  - COMPOSITIONFORM
 ---
 
@@ -104,3 +106,4 @@ Some IME windows adjust the composition window position specified by the system 
 
 
 <a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
+

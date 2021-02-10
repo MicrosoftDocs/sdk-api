@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _RAS_PORT_CONDITION
  - RAS_PORT_CONDITION
 ---
 
@@ -92,3 +93,4 @@ The port is initializing.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

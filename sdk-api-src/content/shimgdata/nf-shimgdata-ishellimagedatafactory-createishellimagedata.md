@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageDataFactory.CreateIShellImageData
+ - IShellImageDataFactory::CreateIShellImageData
 ---
 
 # IShellImageDataFactory::CreateIShellImageData
@@ -105,3 +105,4 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
+

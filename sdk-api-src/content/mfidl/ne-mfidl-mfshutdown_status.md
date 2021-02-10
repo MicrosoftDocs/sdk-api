@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFSHUTDOWN_STATUS
  - MFSHUTDOWN_STATUS
 ---
 
@@ -75,3 +76,4 @@ Shutdown is complete.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

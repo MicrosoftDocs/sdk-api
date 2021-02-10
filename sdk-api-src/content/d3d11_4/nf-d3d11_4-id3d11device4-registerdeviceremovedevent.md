@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11Device4.RegisterDeviceRemovedEvent
+ - ID3D11Device4::RegisterDeviceRemovedEvent
 ---
 
 # ID3D11Device4::RegisterDeviceRemovedEvent
@@ -125,3 +125,4 @@ The semantics of <b>RegisterDeviceRemovedEvent</b> are similar to
 
 
 <a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-unregisterdeviceremoved">UnregisterDeviceRemoved</a>
+

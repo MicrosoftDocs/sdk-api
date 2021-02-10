@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data.get_CurrentRotationTypeIsPureCAV
+ - IDiscFormat2Data::get_CurrentRotationTypeIsPureCAV
 ---
 
 # IDiscFormat2Data::get_CurrentRotationTypeIsPureCAV
@@ -379,3 +379,4 @@ Rotational-speed control types include the following:
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_requestedrotationtypeispurecav">IDiscFormat2Data::get_RequestedRotationTypeIsPureCAV</a>
+

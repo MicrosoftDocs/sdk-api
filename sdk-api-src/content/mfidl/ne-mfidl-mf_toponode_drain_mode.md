@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MF_TOPONODE_DRAIN_MODE
  - MF_TOPONODE_DRAIN_MODE
 ---
 
@@ -75,3 +76,4 @@ The transform is never drained.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

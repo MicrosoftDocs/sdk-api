@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.SetPreviousBackupStamp
+ - IVssBackupComponents::SetPreviousBackupStamp
 ---
 
 # IVssBackupComponents::SetPreviousBackupStamp
@@ -211,3 +211,4 @@ A writer will then obtain this value (using
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
+

@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-chartranslation-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - OemToCharW
  - winuser/OemToCharW
+ - OemToChar
+ - winuser/OemToChar
 dev_langs:
  - c++
 topic_type:
@@ -42,10 +45,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - OemToChar
- - OemToCharA
  - OemToCharW
-req.apiset: ext-ms-win-ntuser-chartranslation-l1-1-0 (introduced in Windows 8)
+ - OemToChar
 ---
 
 # OemToCharW function
@@ -109,3 +110,4 @@ The return value is always nonzero except when you pass the same address to
 
 > [!NOTE]
 > The winuser.h header defines OemToChar as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

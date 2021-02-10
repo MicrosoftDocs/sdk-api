@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _ITEMSPACING
  - ITEMSPACING
 ---
 
@@ -79,3 +80,4 @@ The width of the spacing between icons in large icon mode, in pixels.
 Type: <b>int</b>
 
 The height of the spacing between icons in large icon mode, in pixels.
+

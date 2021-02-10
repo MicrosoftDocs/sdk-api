@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_group_authentication_scheme_tag
  - PEER_GROUP_AUTHENTICATION_SCHEME
 ---
 

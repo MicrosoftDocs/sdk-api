@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - AzAuthorizationStore.GetProperty
- - IAzAuthorizationStore.GetProperty
+ - IAzAuthorizationStore::GetProperty
 ---
 
 # IAzAuthorizationStore::GetProperty
@@ -179,3 +178,4 @@ A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazau
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
+

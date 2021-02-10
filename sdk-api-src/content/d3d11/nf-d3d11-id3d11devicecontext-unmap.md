@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.Unmap
+ - ID3D11DeviceContext::Unmap
 ---
 
 # ID3D11DeviceContext::Unmap
@@ -78,3 +78,4 @@ For info about how to use <b>Unmap</b>, see <a href="/windows/desktop/direct3d11
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

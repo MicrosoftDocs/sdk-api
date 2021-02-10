@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.Finish
+ - IUIAnimationStoryboard2::Finish
 ---
 
 # IUIAnimationStoryboard2::Finish
@@ -85,3 +85,4 @@ This method has no effect on storyboard events. Events continue to be raised as 
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-schedule">IUIAnimationStoryboard2::Schedule</a>
+

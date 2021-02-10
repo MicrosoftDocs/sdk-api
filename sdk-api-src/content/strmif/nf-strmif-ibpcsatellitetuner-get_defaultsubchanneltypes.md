@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IBPCSatelliteTuner.get_DefaultSubChannelTypes
+ - IBPCSatelliteTuner::get_DefaultSubChannelTypes
 ---
 
 # IBPCSatelliteTuner::get_DefaultSubChannelTypes
@@ -71,3 +71,4 @@ Returns an <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ibpcsatellitetuner">IBPCSatelliteTuner Interface</a>
+

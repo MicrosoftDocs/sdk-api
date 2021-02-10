@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winsock.h
 api_name:
+ - hostent
+ - PHOSTENT
  - HOSTENT
 ---
 
@@ -237,3 +239,4 @@ int main(int argc, char **argv)
 
 
 <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a>
+

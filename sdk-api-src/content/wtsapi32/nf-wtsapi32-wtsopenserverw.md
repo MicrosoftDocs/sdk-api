@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WTSOpenServerW
  - wtsapi32/WTSOpenServerW
+ - WTSOpenServer
+ - wtsapi32/WTSOpenServer
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wtsapi32.dll
 api_name:
- - WTSOpenServer
- - WTSOpenServerA
  - WTSOpenServerW
+ - WTSOpenServer
 ---
 
 # WTSOpenServerW function
@@ -83,3 +84,4 @@ You do not need to open a handle for operations performed on the RD Session Hos
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscloseserver">WTSCloseServer</a>
+

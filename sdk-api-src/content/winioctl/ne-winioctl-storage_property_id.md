@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_PROPERTY_ID
+ - PSTORAGE_PROPERTY_ID
  - STORAGE_PROPERTY_ID
 ---
 
@@ -227,3 +229,4 @@ The optional output buffer returned through the *lpOutBuffer* parameter of the [
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
 * [STORAGE_QUERY_TYPE](ne-winioctl-storage_query_type.md)
+

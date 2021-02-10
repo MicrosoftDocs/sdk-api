@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDSETSKIPFIELD
+ - LPDDSETSKIPFIELD
  - DDSETSKIPFIELD
 ---
 
@@ -77,3 +79,4 @@ Indicates the field that needs to be skipped and is relative to the current fiel
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

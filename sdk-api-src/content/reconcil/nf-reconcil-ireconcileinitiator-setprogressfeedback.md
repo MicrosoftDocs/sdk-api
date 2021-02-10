@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IReconcileInitiator.SetProgressFeedback
+ - IReconcileInitiator::SetProgressFeedback
 ---
 
 # IReconcileInitiator::SetProgressFeedback
@@ -79,3 +79,4 @@ The initiator typically uses this measure of progress to update a thermometer ga
 ## -see-also
 
 <a href="/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>
+

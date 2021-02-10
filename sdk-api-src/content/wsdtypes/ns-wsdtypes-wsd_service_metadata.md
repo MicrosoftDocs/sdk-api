@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_SERVICE_METADATA
  - WSD_SERVICE_METADATA
 ---
 
@@ -71,3 +72,4 @@ The URI of the service. This URI must be valid when a <b>WSD_SERVICE_METADATA</b
 ### -field Any
 
 Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+

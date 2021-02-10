@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntprov.h
 api_name:
+ - _EVENT_DATA_DESCRIPTOR
+ - PEVENT_DATA_DESCRIPTOR
  - EVENT_DATA_DESCRIPTOR
 ---
 
@@ -118,3 +120,4 @@ And
 
 
 <a href="/windows/desktop/ETW/writing-manifest-based-events">Writing Manifest-based Events</a>
+

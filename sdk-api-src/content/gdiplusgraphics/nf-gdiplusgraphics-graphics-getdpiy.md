@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.GetDpiY
+ - Graphics::GetDpiY
 ---
 
 # Graphics::GetDpiY
@@ -86,3 +86,4 @@ This method returns the vertical resolution, in dots per inch, of the display de
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-types-of-coordinate-systems-about">Types of Coordinate Systems</a>
+

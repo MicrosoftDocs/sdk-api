@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IUserInputString.GetStringType
+ - IUserInputString::GetStringType
 ---
 
 # IUserInputString::GetStringType
@@ -116,3 +116,4 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer is expected.
 
 
 <a href="/windows/desktop/api/photoacquire/ne-photoacquire-user_input_string_type">USER_INPUT_STRING_TYPE</a>
+

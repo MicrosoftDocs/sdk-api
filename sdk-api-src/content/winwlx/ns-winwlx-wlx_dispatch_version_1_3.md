@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
+ - _WLX_DISPATCH_VERSION_1_3
+ - PWLX_DISPATCH_VERSION_1_3
  - WLX_DISPATCH_VERSION_1_3
 ---
 
@@ -167,3 +169,4 @@ Pointer to a <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+

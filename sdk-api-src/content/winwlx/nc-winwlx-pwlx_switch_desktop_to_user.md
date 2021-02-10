@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxSwitchDesktopToUser
+ - PWLX_SWITCH_DESKTOP_TO_USER
 ---
 
 # PWLX_SWITCH_DESKTOP_TO_USER callback function
@@ -69,3 +69,4 @@ The <b>WlxSwitchDesktopToUser</b> function returns zero if the function call suc
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder.CompareIDs
- - IShellFolder2.CompareIDs
+ - IShellFolder::CompareIDs
 ---
 
 # IShellFolder::CompareIDs
@@ -200,3 +199,4 @@ HRESULT CompareIDs(LPARAM lParam, PCUIDLIST_RELATIVE pidl1, PCUIDLIST_RELATIVE p
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
+

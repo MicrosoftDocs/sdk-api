@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUS_CSV_VOLUME_NAME
+ - PCLUS_CSV_VOLUME_NAME
  - CLUS_CSV_VOLUME_NAME
 ---
 
@@ -73,3 +75,4 @@ The root path of the CSV.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

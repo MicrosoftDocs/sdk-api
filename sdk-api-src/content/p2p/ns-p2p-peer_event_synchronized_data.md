@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_event_synchronized_data_tag
+ - PPEER_EVENT_SYNCHRONIZED_DATA
  - PEER_EVENT_SYNCHRONIZED_DATA
 ---
 
@@ -73,3 +75,4 @@ This event only occurs if an application has specified a record synchronization 
 ## -see-also
 
 <a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
+

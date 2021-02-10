@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceTrackerConfig.TrackerConfig
+ - IServiceTrackerConfig::TrackerConfig
 ---
 
 # IServiceTrackerConfig::TrackerConfig
@@ -77,3 +77,4 @@ Because no component is associated with this tracker property, tracker activity 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetrackerconfig">IServiceTrackerConfig</a>
+

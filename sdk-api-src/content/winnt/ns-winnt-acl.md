@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _ACL
  - ACL
 ---
 
@@ -135,3 +136,4 @@ The maximum size for an ACL, including its ACEs, is 64 KB.
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a>
+

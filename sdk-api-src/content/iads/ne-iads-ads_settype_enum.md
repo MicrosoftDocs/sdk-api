@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0078_0001
  - ADS_SETTYPE_ENUM
 ---
 
@@ -83,3 +84,4 @@ Since VBScript cannot read information from a type library, VBScript application
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadspathname-set">IADsPathname::Set</a>
+

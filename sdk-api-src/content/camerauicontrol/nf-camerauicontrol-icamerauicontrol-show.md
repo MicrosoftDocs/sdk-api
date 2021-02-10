@@ -42,7 +42,7 @@ api_type:
 api_location:
  - camerauicontrol.h
 api_name:
- - ICameraUIControl.Show
+ - ICameraUIControl::Show
 ---
 
 # ICameraUIControl::Show
@@ -93,3 +93,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontrol">ICameraUIControl</a>
+

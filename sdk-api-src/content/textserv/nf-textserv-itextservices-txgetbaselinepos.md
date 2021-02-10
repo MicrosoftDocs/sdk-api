@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices.TxGetBaseLinePos
+ - ITextServices::TxGetBaseLinePos
 ---
 
 # ITextServices::TxGetBaseLinePos
@@ -93,3 +93,4 @@ Not implemented.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
+

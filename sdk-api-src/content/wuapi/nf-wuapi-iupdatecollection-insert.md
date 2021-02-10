@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateCollection.Insert
+ - IUpdateCollection::Insert
 ---
 
 # IUpdateCollection::Insert
@@ -111,3 +111,4 @@ An index is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
+

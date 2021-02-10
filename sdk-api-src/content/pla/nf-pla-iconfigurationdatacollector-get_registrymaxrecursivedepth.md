@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IConfigurationDataCollector.RegistryMaxRecursiveDepth
- - IConfigurationDataCollector.get_RegistryMaxRecursiveDepth
- - IConfigurationDataCollector.put_RegistryMaxRecursiveDepth
+ - IConfigurationDataCollector::get_RegistryMaxRecursiveDepth
 ---
 
 # IConfigurationDataCollector::get_RegistryMaxRecursiveDepth
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_registrykeys">IConfigurationDataCollector::RegistryKeys</a>
+

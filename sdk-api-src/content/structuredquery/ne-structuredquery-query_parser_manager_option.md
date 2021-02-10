@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
+ - tagQUERY_PARSER_MANAGER_OPTION
  - QUERY_PARSER_MANAGER_OPTION
 ---
 
@@ -79,3 +80,4 @@ A <b>VT_BOOL</b>.  If <b>TRUE</b>, then the paths for pre-localized and localize
 ### -field QPMO_LOCALIZER_SUPPORT
 
 A <b>VT_UNKNOWN</b> with an object supporting <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a>. This object will be used instead of the default localizer support object.
+

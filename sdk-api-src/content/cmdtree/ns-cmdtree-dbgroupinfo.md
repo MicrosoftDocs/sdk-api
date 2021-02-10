@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBGROUPINFO
  - DBGROUPINFO
 ---
 
@@ -62,3 +63,4 @@ The <a href="/previous-versions/windows/desktop/indexsrv/dbcontentvector">DBCONT
 ### -field lcid
 
 local ID for text portion of query
+

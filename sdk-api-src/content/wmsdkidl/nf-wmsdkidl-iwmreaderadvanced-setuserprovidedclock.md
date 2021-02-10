@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.SetUserProvidedClock
+ - IWMReaderAdvanced::SetUserProvidedClock
 ---
 
 # IWMReaderAdvanced::SetUserProvidedClock
@@ -129,3 +129,4 @@ This method can fail if the current source does not support user-provided clocks
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getuserprovidedclock">IWMReaderAdvanced::GetUserProvidedClock</a>
+

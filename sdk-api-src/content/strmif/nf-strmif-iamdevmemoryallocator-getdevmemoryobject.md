@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMDevMemoryAllocator.GetDevMemoryObject
+ - IAMDevMemoryAllocator::GetDevMemoryObject
 ---
 
 # IAMDevMemoryAllocator::GetDevMemoryObject
@@ -81,3 +81,4 @@ See COM documentation for rules on how the outer object implements aggregation.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator Interface</a>
+

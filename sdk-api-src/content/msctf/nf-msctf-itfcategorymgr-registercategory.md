@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfCategoryMgr.RegisterCategory
+ - ITfCategoryMgr::RegisterCategory
 ---
 
 # ITfCategoryMgr::RegisterCategory
@@ -102,3 +102,4 @@ An unspecified error occurred.
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::UnregisterCategory](nf-msctf-itfcategorymgr-unregistercategory.md), [Predefined Category Values](/windows/desktop/TSF/predefined-category-values)
+

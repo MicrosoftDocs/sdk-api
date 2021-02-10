@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwService.Scope
- - INetFwService.get_Scope
- - INetFwService.put_Scope
+ - INetFwService::get_Scope
 ---
 
 # INetFwService::get_Scope
@@ -87,3 +85,4 @@ To create a custom scope, use the <a href="/windows/desktop/api/netfw/nf-netfw-i
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_scope">NET_FW_SCOPE</a>
+

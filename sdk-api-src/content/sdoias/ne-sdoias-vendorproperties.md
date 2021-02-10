@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _VENDORPROPERTIES
  - VENDORPROPERTIES
 ---
 
@@ -68,3 +69,4 @@ The SMI Network Management Private Enterprise Code assigned to this vendor by th
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-radiusproperties">RADIUSPROPERTIES</a>
+

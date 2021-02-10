@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPLibrarySharingServices.showLibrarySharing
+ - IWMPLibrarySharingServices::showLibrarySharing
 ---
 
 # IWMPLibrarySharingServices::showLibrarySharing
@@ -85,3 +85,4 @@ The <b>Library Sharing</b> dialog box enables the user to configure library shar
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices">IWMPLibrarySharingServices Interface</a>
+

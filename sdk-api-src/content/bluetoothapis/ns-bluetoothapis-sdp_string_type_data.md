@@ -46,6 +46,8 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
+ - _SDP_STRING_TYPE_DATA
+ - PSDP_STRING_TYPE_DATA
  - SDP_STRING_TYPE_DATA
 ---
 
@@ -82,3 +84,4 @@ Identifier of the base attribute in which the string is to be found in the recor
 <a href="/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_bluetooth_enum_attributes_callback">PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</a>
 
 <a href="/windows/desktop/api/bluetoothapis/ns-bluetoothapis-sdp_element_data">SDP_ELEMENT_DATA</a>
+

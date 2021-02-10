@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineInitializeExW
  - tapi/lineInitializeExW
+ - lineInitializeEx
+ - tapi/lineInitializeEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineInitializeEx
- - lineInitializeExA
  - lineInitializeExW
+ - lineInitializeEx
 ---
 
 # lineInitializeExW function
@@ -200,3 +201,4 @@ The application can refer to individual line devices by using line device identi
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>
+

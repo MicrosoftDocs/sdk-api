@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaParamInfo.GetNumTimeFormats
+ - IMediaParamInfo::GetNumTimeFormats
 ---
 
 # IMediaParamInfo::GetNumTimeFormats
@@ -95,3 +95,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
+

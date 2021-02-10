@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPAddressFamilyControl.SetAddressFamily
+ - IUPnPAddressFamilyControl::SetAddressFamily
 ---
 
 # IUPnPAddressFamilyControl::SetAddressFamily
@@ -153,3 +153,4 @@ Scenario 3: an application sets the address family flag to UPNP_ADDRESSFAMILY_BO
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>
+

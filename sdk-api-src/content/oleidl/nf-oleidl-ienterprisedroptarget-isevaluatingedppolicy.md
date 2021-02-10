@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IEnterpriseDropTarget.IsEvaluatingEdpPolicy
+ - IEnterpriseDropTarget::IsEvaluatingEdpPolicy
 ---
 
 # IEnterpriseDropTarget::IsEvaluatingEdpPolicy

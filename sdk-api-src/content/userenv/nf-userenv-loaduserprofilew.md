@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LoadUserProfileW
  - userenv/LoadUserProfileW
+ - LoadUserProfile
+ - userenv/LoadUserProfile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Userenv.dll
 api_name:
- - LoadUserProfile
- - LoadUserProfileA
  - LoadUserProfileW
+ - LoadUserProfile
 ---
 
 # LoadUserProfileW function
@@ -120,3 +121,4 @@ Starting with Windows XP Service Pack 2 (SP2) and Windows Server 2003, the ca
 
 
 <a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IChannelAudioVolume.GetChannelCount
+ - IChannelAudioVolume::GetChannelCount
 ---
 
 # IChannelAudioVolume::GetChannelCount
@@ -109,3 +109,4 @@ Call this method to get the number of channels in the audio session before calli
 ## -see-also
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-ichannelaudiovolume">IChannelAudioVolume Interface</a>
+

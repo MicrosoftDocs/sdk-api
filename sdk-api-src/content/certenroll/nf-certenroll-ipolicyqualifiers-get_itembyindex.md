@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IPolicyQualifiers.ItemByIndex
- - IPolicyQualifiers.get_ItemByIndex
+ - IPolicyQualifiers::get_ItemByIndex
 ---
 
 # IPolicyQualifiers::get_ItemByIndex
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a>
+

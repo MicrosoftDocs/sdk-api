@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallInfo.ReleaseUserUserInfo
+ - ITCallInfo::ReleaseUserUserInfo
 ---
 
 # ITCallInfo::ReleaseUserUserInfo
@@ -108,3 +108,4 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
+

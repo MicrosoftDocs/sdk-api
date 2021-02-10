@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _selchange
  - SELCHANGE
 ---
 
@@ -124,3 +125,4 @@ More than one COM object.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>
+

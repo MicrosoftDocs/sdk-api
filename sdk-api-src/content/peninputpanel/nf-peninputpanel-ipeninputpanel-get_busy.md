@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel.Busy
- - IPenInputPanel.get_Busy
- - PenInputPanel.get_Busy
+ - IPenInputPanel::get_Busy
 ---
 
 # IPenInputPanel::get_Busy
@@ -70,3 +68,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
+

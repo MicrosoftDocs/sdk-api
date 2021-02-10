@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument.RangeFromPoint
+ - ITextDocument::RangeFromPoint
 ---
 
 # ITextDocument::RangeFromPoint
@@ -138,3 +138,4 @@ Insufficient memory.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

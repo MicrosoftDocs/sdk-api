@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - _ads_attr_def
+ - PADS_ATTR_DEF
  - ADS_ATTR_DEF
 ---
 
@@ -92,3 +94,4 @@ In ADSI, attributes and properties are used interchangeably.
 
 
 <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
+

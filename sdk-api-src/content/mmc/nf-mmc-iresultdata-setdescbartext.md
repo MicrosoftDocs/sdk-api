@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData.SetDescBarText
- - IResultData2.SetDescBarText
+ - IResultData::SetDescBarText
 ---
 
 # IResultData::SetDescBarText
@@ -74,3 +73,4 @@ This method provides the same functionality for both result view panes and virtu
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
+

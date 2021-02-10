@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.GetBufferSetLength
+ - CHString::GetBufferSetLength
 ---
 
 # CHString::GetBufferSetLength
@@ -110,3 +110,4 @@ printf( "str: %S\n", (LPCWSTR)str );
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">CHString::ReleaseBuffer</a>
+

@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.EnumerateInstances
- - ?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z
+ - Provider::EnumerateInstances
 ---
 
 # Provider::EnumerateInstances
@@ -97,3 +96,4 @@ WMI often calls <b>EnumerateInstances</b> when a client application calls <a hre
 <li>Send the instance back to the client using <a href="/windows/desktop/api/instance/nf-instance-cinstance-commit">CInstance::Commit</a>.</li>
 </ol>
 If you are building a method-only provider and do not have any instances, or if enumerating instances of your class would return too many instances, you may decide to support queries that retrieve only specific instances.
+

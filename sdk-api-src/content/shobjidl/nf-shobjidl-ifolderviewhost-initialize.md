@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IFolderViewHost.Initialize
+ - IFolderViewHost::Initialize
 ---
 
 # IFolderViewHost::Initialize
@@ -77,3 +77,4 @@ The address of a pointer to a <b>RECT</b> structure that specifies the dimension
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - _MFCameraExtrinsic_CalibratedTransform
  - MFCameraExtrinsic_CalibratedTransform
 ---
 
@@ -104,3 +105,4 @@ DEFINE_GUID(MFSampleExtension_CameraExtrinsicsCalibrationType, 0x3524e3b0, 0xc35
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

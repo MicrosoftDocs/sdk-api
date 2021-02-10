@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_TransportStreamInfo.get_PatTableTickCount
+ - IBDA_TransportStreamInfo::get_PatTableTickCount
 ---
 
 # IBDA_TransportStreamInfo::get_PatTableTickCount
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_transportstreaminfo">IBDA_TransportStreamInfo Interface</a>
+

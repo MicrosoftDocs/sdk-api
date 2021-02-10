@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage4.GetParent
+ - IWMDMStorage4::GetParent
 ---
 
 # IWMDMStorage4::GetParent
@@ -122,3 +122,4 @@ HRESULT BubbleUp(IWMDMStorage *pIStorage)
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
+

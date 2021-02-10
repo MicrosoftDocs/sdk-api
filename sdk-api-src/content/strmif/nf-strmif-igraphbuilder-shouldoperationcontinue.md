@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphBuilder.ShouldOperationContinue
+ - IGraphBuilder::ShouldOperationContinue
 ---
 
 # IGraphBuilder::ShouldOperationContinue
@@ -106,3 +106,4 @@ Unexpected error.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
+

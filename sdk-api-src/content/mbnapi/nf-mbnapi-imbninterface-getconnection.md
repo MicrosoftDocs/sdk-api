@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface.GetConnection
+ - IMbnInterface::GetConnection
 ---
 
 # IMbnInterface::GetConnection
@@ -97,3 +97,4 @@ Either there is no available connection or the device is not registered to a net
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
+

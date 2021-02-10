@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBaseFilter.QueryFilterInfo
+ - IBaseFilter::QueryFilterInfo
 ---
 
 # IBaseFilter::QueryFilterInfo
@@ -103,3 +103,4 @@ This method fills the <b>FILTER_INFO</b> structure with the filter information. 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
+

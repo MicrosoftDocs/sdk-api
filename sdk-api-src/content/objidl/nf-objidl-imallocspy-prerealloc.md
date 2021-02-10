@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMallocSpy.PreRealloc
+ - IMallocSpy::PreRealloc
 ---
 
 # IMallocSpy::PreRealloc
@@ -91,3 +91,4 @@ The <b>PreRealloc</b> implementation may extend and/or modify the allocation to 
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postrealloc">IMallocSpy::PostRealloc</a>
+

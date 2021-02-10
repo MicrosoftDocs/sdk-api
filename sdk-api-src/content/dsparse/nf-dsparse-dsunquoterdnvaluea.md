@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsUnquoteRdnValueA
  - dsparse/DsUnquoteRdnValueA
+ - DsUnquoteRdnValue
+ - dsparse/DsUnquoteRdnValue
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsUnquoteRdnValue
  - DsUnquoteRdnValueA
- - DsUnquoteRdnValueW
+ - DsUnquoteRdnValue
 ---
 
 # DsUnquoteRdnValueA function
@@ -131,3 +132,4 @@ The following actions are always taken:
 
 
 <a href="/windows/desktop/api/dsparse/nf-dsparse-dsquoterdnvaluea">DsQuoteRdnValue</a>
+

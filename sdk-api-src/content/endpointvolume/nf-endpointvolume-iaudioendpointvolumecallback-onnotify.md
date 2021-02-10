@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolumeCallback.OnNotify
+ - IAudioEndpointVolumeCallback::OnNotify
 ---
 
 # IAudioEndpointVolumeCallback::OnNotify
@@ -81,3 +81,4 @@ For a code example that implements the <b>OnNotify</b> method, see <a href="/win
 
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback">IAudioEndpointVolumeCallback Interface</a>
+

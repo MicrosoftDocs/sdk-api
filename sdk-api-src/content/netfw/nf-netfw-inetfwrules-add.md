@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRules.Add
+ - INetFwRules::Add
 ---
 
 # INetFwRules::Add
@@ -164,3 +164,4 @@ Adding a firewall rule with a <a href="/previous-versions/windows/desktop/api/ne
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
+

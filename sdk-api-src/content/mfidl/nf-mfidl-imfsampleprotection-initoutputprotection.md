@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSampleProtection.InitOutputProtection
+ - IMFSampleProtection::InitOutputProtection
 ---
 
 # IMFSampleProtection::InitOutputProtection
@@ -119,3 +119,4 @@ This method must be implemented by the upstream component. The method fails if t
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
+

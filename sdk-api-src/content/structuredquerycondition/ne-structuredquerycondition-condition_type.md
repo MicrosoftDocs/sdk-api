@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Structuredquerycondition.h
 api_name:
+ - tagCONDITION_TYPE
  - CONDITION_TYPE
 ---
 
@@ -113,3 +114,4 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 <b>Reference</b>
+

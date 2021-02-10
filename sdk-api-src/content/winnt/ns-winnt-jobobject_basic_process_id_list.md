@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _JOBOBJECT_BASIC_PROCESS_ID_LIST
+ - PJOBOBJECT_BASIC_PROCESS_ID_LIST
  - JOBOBJECT_BASIC_PROCESS_ID_LIST
 ---
 
@@ -77,3 +79,4 @@ A variable-length array of process identifiers returned by this call. Array elem
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+

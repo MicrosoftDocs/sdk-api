@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemInputPin.NotifyAllocator
+ - IMemInputPin::NotifyAllocator
 ---
 
 # IMemInputPin::NotifyAllocator
@@ -80,3 +80,4 @@ If the <i>bReadOnly</i> parameter is <b>TRUE</b>, all samples in the allocator a
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
+

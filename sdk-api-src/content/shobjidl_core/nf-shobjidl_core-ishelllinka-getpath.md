@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLink.GetPath
- - IShellLinkA.GetPath
- - IShellLinkW.GetPath
+ - IShellLinkA::GetPath
 ---
 
 # IShellLinkA::GetPath
@@ -109,3 +107,4 @@ Retrieves the raw path name. A raw path is something that might not exist and ma
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the operation is successful and a valid path is retrieved. If the operation is successful but no path is retrieved, it returns <b>S_FALSE</b> and <i>pszFile</i> will be empty. Otherwise, it returns one of the standard HRESULT error values.
+

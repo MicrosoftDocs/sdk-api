@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumPIDMap.Skip
+ - IEnumPIDMap::Skip
 ---
 
 # IEnumPIDMap::Skip
@@ -99,3 +99,4 @@ Success.
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ienumpidmap">IEnumPIDMap Interface</a>
+

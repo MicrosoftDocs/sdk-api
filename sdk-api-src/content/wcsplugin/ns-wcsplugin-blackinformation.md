@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
+ - _BlackInformation
  - BlackInformation
 ---
 
@@ -109,3 +110,4 @@ You can set plug-ins to either support or ignore the <b>BlackInformation</b>.
 
 
 <a href="/previous-versions/windows/desktop/wcs/structures">Structures</a>
+

@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp.Dirty
- - IInkDisp.get_Dirty
- - IInkDisp.put_Dirty
- - InkDisp.get_Dirty
- - InkDisp.put_Dirty
+ - IInkDisp::put_Dirty
 ---
 
 # IInkDisp::put_Dirty
@@ -78,3 +74,4 @@ After ink is saved, the dirty flag is automatically cleared and the value of thi
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method</a>
+

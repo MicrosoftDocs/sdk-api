@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11InfoQueue.SetMessageCountLimit
+ - ID3D11InfoQueue::SetMessageCountLimit
 ---
 
 # ID3D11InfoQueue::SetMessageCountLimit
@@ -74,3 +74,4 @@ When the number of messages in the message queue has reached the maximum limit, 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
+

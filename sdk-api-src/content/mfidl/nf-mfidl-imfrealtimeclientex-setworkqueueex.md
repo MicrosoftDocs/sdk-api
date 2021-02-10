@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFRealTimeClientEx.SetWorkQueueEx
+ - IMFRealTimeClientEx::SetWorkQueueEx
 ---
 
 # IMFRealTimeClientEx::SetWorkQueueEx
@@ -81,3 +81,4 @@ The object should use the values of <i>dwMultithreadedWorkQueueId</i> and <i>lWo
 
 
 <a href="/windows/desktop/medfound/work-queues">Work Queues</a>
+

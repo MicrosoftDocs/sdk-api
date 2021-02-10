@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.MoveItem
+ - IFileOperation::MoveItem
 ---
 
 # IFileOperation::MoveItem
@@ -109,3 +109,4 @@ This method does not move the item, it merely declares the item to be moved. To 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-premoveitem">PreMoveItem</a>
+

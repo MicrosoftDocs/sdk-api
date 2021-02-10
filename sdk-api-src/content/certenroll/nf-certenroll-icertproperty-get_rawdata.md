@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertProperty.RawData
- - ICertProperty.get_RawData
+ - ICertProperty::get_RawData
 ---
 
 # ICertProperty::get_RawData
@@ -64,3 +63,4 @@ Call <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_pr
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
+

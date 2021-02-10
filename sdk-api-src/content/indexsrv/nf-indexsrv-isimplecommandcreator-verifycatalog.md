@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - ISimpleCommandCreator.VerifyCatalog
+ - ISimpleCommandCreator::VerifyCatalog
 ---
 
 # ISimpleCommandCreator::VerifyCatalog
@@ -69,3 +69,4 @@ If the catalog is accessible, it returns <b>S_OK</b>. Otherwise, it returns an <
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-isimplecommandcreator">ISimpleCommandCreator</a>
+

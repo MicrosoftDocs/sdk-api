@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Winnls.h
 api_name:
- - CPINFOEX
+ - _cpinfoexA
+ - LPCPINFOEXA
+ - CPINFOEXA
 ---
 
 # CPINFOEXA structure
@@ -113,3 +115,4 @@ The lead byte information is not very helpful for most code pages, and is not ev
 
 
 <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
+

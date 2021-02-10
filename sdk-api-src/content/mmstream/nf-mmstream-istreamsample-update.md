@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IStreamSample.Update
+ - IStreamSample::Update
 ---
 
 # IStreamSample::Update
@@ -186,3 +186,4 @@ If an application creates multiple streams, it must perform an asynchronous upda
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample Interface</a>
+

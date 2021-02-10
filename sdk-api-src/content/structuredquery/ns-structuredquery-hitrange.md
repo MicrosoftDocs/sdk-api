@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
+ - tagHITRANGE
  - HITRANGE
 ---
 

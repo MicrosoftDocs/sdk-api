@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_4
+ - PDFS_INFO_4
  - DFS_INFO_4
 ---
 
@@ -201,3 +203,4 @@ A <b>DFS_INFO_4</b> structure contains one or more
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFContentInfo.GeneratePresentationDescriptor
+ - IMFASFContentInfo::GeneratePresentationDescriptor
 ---
 
 # IMFASFContentInfo::GeneratePresentationDescriptor
@@ -88,3 +88,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
+

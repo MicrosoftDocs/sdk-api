@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.ContainerName
- - IX509PrivateKey.get_ContainerName
- - IX509PrivateKey.put_ContainerName
+ - IX509PrivateKey::get_ContainerName
 ---
 
 # IX509PrivateKey::get_ContainerName
@@ -65,3 +63,4 @@ If you do not specify a name, one is created when the <a href="/windows/desktop/
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

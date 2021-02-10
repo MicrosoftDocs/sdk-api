@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDEventingStatus.SubscriptionRenewalFailed
+ - IWSDEventingStatus::SubscriptionRenewalFailed
 ---
 
 # IWSDEventingStatus::SubscriptionRenewalFailed
@@ -69,3 +69,4 @@ After an operation is subscribed to, the service proxy will attempt to automatic
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdeventingstatus">IWSDEventingStatus</a>
+

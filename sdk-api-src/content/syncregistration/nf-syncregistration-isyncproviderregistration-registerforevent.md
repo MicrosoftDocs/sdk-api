@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration.RegisterForEvent
+ - ISyncProviderRegistration::RegisterForEvent
 ---
 
 # ISyncProviderRegistration::RegisterForEvent
@@ -107,3 +107,4 @@ To unregister from this event notification system, call the <a href="/previous-v
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
+

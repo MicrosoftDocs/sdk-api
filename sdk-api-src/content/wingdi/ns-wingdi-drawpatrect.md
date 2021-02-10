@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - _DRAWPATRECT
+ - PDRAWPATRECT
  - DRAWPATRECT
 ---
 
@@ -108,3 +110,4 @@ This structure is used with the <a href="/previous-versions/windows/desktop/lega
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
+

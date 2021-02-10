@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_QC_STATEMENT
+ - PCERT_QC_STATEMENT
  - CERT_QC_STATEMENT
 ---
 
@@ -99,3 +101,4 @@ Secure Signature Creation Device
 ### -field StatementInfo
 
 An optional <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that contains additional information that qualifies the defined statement. The <b>pszStatementId</b> member defines the syntax of this parameter.
+

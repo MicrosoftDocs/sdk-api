@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDAddress.Serialize
+ - IWSDAddress::Serialize
 ---
 
 # IWSDAddress::Serialize
@@ -113,3 +113,4 @@ The method could not be completed.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>
+

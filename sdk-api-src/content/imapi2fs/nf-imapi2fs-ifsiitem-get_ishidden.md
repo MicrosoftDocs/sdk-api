@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiItem.get_IsHidden
+ - IFsiItem::get_IsHidden
 ---
 
 # IFsiItem::get_IsHidden
@@ -89,3 +89,4 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_ishidden">IFsiItem::put_IsHidden</a>
+

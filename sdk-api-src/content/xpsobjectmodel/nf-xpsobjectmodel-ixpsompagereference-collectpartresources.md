@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.CollectPartResources
+ - IXpsOMPageReference::CollectPartResources
 ---
 
 # IXpsOMPageReference::CollectPartResources
@@ -119,3 +119,4 @@ The list of resource parts that are returned in the <a href="/windows/desktop/ap
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

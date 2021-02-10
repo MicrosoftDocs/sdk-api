@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolShadowCallback.StopShadow
+ - IWRdsProtocolShadowCallback::StopShadow
 ---
 
 # IWRdsProtocolShadowCallback::StopShadow
@@ -63,3 +63,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolshadowcallback">IWRdsProtocolShadowCallback</a>
+

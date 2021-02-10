@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMultiMediaStream.AddMediaStream
+ - IAMMultiMediaStream::AddMediaStream
 ---
 
 # IAMMultiMediaStream::AddMediaStream
@@ -177,3 +177,4 @@ If the method succeeds, the caller must release the returned <b>IMediaStream</b>
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
+

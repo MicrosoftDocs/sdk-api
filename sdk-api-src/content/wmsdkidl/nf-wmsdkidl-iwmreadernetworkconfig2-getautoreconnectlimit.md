@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.GetAutoReconnectLimit
+ - IWMReaderNetworkConfig2::GetAutoReconnectLimit
 ---
 
 # IWMReaderNetworkConfig2::GetAutoReconnectLimit
@@ -101,3 +101,4 @@ NULL pointer argument.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setautoreconnectlimit">IWMReaderNetworkConfig2::SetAutoReconnectLimit</a>
+

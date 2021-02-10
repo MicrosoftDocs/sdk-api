@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.TimeHole
+ - IMSVidStreamBufferSourceEvent::TimeHole
 ---
 
 # IMSVidStreamBufferSourceEvent::TimeHole
@@ -78,3 +78,4 @@ This event corresponds to the STREAMBUFFER_EC_TIMEHOLE event in the Stream Buffe
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_TRANSPORT_INFO_3
+ - PSERVER_TRANSPORT_INFO_3
  - SERVER_TRANSPORT_INFO_3
 ---
 
@@ -251,3 +253,4 @@ Scoped endpoints are generally used by the cluster namespace.
 
 
 <a href="/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
+

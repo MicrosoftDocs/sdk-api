@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.GetProviderName
+ - Provider::GetProviderName
 ---
 
 # Provider::GetProviderName
@@ -64,3 +64,4 @@ The <b>GetProviderName</b> method retrieves the name of the class used in the co
 ## -returns
 
 If successful, the method returns the name of the class used in the constructor of the provider as a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> reference. The name returned is the first parameter originally given to the Provider::Provider constructor.
+

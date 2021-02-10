@@ -44,6 +44,7 @@ api_type:
 api_location:
  - slpublic.h
 api_name:
+ - _tagSL_AD_ACTIVATION_INFO
  - SL_AD_ACTIVATION_INFO
 ---
 
@@ -91,3 +92,4 @@ For an example of how this structure is used, see the description of the <i>pAct
 
 
 <a href="/windows/desktop/api/slpublic/ne-slpublic-sl_activation_type">SL_ACTIVATION_TYPE</a>
+

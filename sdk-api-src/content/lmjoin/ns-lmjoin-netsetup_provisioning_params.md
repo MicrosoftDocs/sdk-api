@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmjoin.h
 api_name:
+ - _NETSETUP_PROVISIONING_PARAMS
+ - PNETSETUP_PROVISIONING_PARAMS
  - NETSETUP_PROVISIONING_PARAMS
 ---
 
@@ -206,7 +208,7 @@ TBD
 ### -field lpPrimaryDNSDomain
 
 TBD
- 
+
 ## -remarks
 
 The <b>NETSETUP_PROVISIONING_PARAMS</b> structure  provides flags for the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function which is supported on Windows 8 and  Windows Server 2012 for offline join operations.
@@ -226,7 +228,6 @@ There are two different ways to add policies. You can use one or both methods:<u
 </ul>
 
 ## -see-also
-
 
 <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisionPackage</a>
 
@@ -261,4 +262,4 @@ There are two different ways to add policies. You can use one or both methods:<u
 
 <a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-		  
+

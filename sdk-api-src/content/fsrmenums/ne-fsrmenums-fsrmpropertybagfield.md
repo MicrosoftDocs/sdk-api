@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmPropertyBagField
  - FsrmPropertyBagField
 ---
 
@@ -73,3 +74,4 @@ Indicates if the property bag should include the volume <b>GUID</b> name of the
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag2-getfieldvalue">IFsrmPropertyBag2::GetFieldValue</a>
+

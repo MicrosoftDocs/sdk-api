@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICBitmapSourceTransform.GetClosestSize
+ - IWICBitmapSourceTransform::GetClosestSize
 ---
 
 # IWICBitmapSourceTransform::GetClosestSize
@@ -85,3 +85,4 @@ The Windows provided codecs provide the following support for native scaling:
 <li>JPEG-XR:  Native scaling of the original image by powers of 2.
 </li>
 </ul>
+

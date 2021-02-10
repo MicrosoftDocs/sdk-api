@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.Ink
- - IInkStrokeDisp.get_Ink
- - IInkStrokeDisp.get_Ink
+ - IInkStrokeDisp::get_Ink
 ---
 
 # IInkStrokeDisp::get_Ink
@@ -72,3 +70,4 @@ The stroke must be contained in one and only one <a href="/windows/desktop/table
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+

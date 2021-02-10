@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
  - WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 ---
 
@@ -66,3 +67,4 @@ This type derives from the base type <a href="/windows/win32/api/webservices/ns-
 
 The base type from which this type and all other Windows Integrated Authentication credential types derive.
                 See <a href="/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+

@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.ThumbPrint
- - ICEnroll4.get_ThumbPrint
- - ICEnroll4.put_ThumbPrint
- - CEnroll.ThumbPrint
+ - ICEnroll4::get_ThumbPrint
 ---
 
 # ICEnroll4::get_ThumbPrint
@@ -66,3 +63,4 @@ This property is read/write.
 ## -remarks
 
 The thumbprint is used to point to a pending certificate.
+

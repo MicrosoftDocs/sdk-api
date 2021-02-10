@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IViewExtensionCallback.AddView
+ - IViewExtensionCallback::AddView
 ---
 
 # IViewExtensionCallback::AddView
@@ -85,3 +85,4 @@ If successful, the return value is S_OK. Other return values indicate an error c
 
 
 <a href="/previous-versions/windows/desktop/mmc/view-extension-mechanism">View Extension Mechanism</a>
+

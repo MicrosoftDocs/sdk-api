@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateEffectGroup
+ - IDCompositionDevice::CreateEffectGroup
 ---
 
 # IDCompositionDevice::CreateEffectGroup
@@ -79,3 +79,4 @@ A new effect group has a default opacity value of 1.0 and no 3D transformations.
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
+

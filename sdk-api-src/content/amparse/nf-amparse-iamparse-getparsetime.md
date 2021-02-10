@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMParse.GetParseTime
+ - IAMParse::GetParseTime
 ---
 
 # IAMParse::GetParseTime
@@ -103,3 +103,4 @@ The parse time for the MPEG-2 Splitter filter is the current stream position in 
 
 
 <a href="/windows/desktop/api/amparse/nn-amparse-iamparse">IAMParse Interface</a>
+

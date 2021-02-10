@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _NTFS_STATISTICS_EX
+ - PNTFS_STATISTICS_EX
  - NTFS_STATISTICS_EX
 ---
 
@@ -393,3 +395,4 @@ The number of read and write operations measured is the number of paging operati
 
 
 <a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>
+

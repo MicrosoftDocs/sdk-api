@@ -9,6 +9,8 @@ tech.root: rras
 f1_keywords:
  - ras
  - ras/ras
+api_name:
+ - ras
 ---
 
 # Ras.h header

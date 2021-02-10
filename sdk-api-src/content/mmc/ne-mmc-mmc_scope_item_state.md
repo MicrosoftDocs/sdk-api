@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_SCOPE_ITEM_STATE
  - MMC_SCOPE_ITEM_STATE
 ---
 
@@ -69,3 +70,4 @@ Not currently used.
 ### -field MMC_SCOPE_ITEM_STATE_EXPANDEDONCE
 
 Set if the item has been expanded at least once or 0 (zero) if the item has not been expanded.
+

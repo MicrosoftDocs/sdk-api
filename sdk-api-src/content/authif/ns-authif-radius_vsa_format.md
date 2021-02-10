@@ -44,6 +44,7 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
+ - _RADIUS_VSA_FORMAT
  - RADIUS_VSA_FORMAT
 ---
 
@@ -94,3 +95,4 @@ See
 
 
 <a href="/windows/desktop/Nps/ias-internet-authentication-service-structures">NPS Extensions Structures</a>
+

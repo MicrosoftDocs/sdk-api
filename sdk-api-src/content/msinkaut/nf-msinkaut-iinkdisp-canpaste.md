@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp.CanPaste
+ - IInkDisp::CanPaste
 ---
 
 # IInkDisp::CanPaste
@@ -118,3 +118,4 @@ If the supplied <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDat
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+

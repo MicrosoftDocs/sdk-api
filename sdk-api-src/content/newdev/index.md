@@ -9,6 +9,8 @@ tech.root: devinst
 f1_keywords:
  - newdev
  - newdev/newdev
+api_name:
+ - newdev
 ---
 
 # Newdev.h header

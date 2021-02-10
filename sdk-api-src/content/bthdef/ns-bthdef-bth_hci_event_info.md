@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bthdef.h
 api_name:
+ - _BTH_HCI_EVENT_INFO
+ - PBTH_HCI_EVENT_INFO
  - BTH_HCI_EVENT_INFO
 ---
 
@@ -78,3 +80,4 @@ Status of the connection. If nonzero, the connection has been established. If ze
 
 <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothenablediscovery">Bluetooth and WM_DEVICECHANGE
 				Messages</a>
+

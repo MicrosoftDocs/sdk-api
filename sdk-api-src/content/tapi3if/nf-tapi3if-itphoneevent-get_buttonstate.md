@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhoneEvent.get_ButtonState
+ - ITPhoneEvent::get_ButtonState
 ---
 
 # ITPhoneEvent::get_ButtonState
@@ -78,3 +78,4 @@ This method is available because some buttons do not support the PBS_DOWN button
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_event">ITPhoneEvent::get_Event</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkContainer.UpdateLink
- - IOleUILinkContainerA.UpdateLink
- - IOleUILinkContainerW.UpdateLink
+ - IOleUILinkContainerA::UpdateLink
 ---
 
 # IOleUILinkContainerA::UpdateLink
@@ -138,3 +136,4 @@ For OLE links, call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-up
 
 
 <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
+

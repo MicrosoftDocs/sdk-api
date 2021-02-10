@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader2.SetRangeByTimecode
+ - IWMSyncReader2::SetRangeByTimecode
 ---
 
 # IWMSyncReader2::SetRangeByTimecode
@@ -82,3 +82,4 @@ If the call is successful, all streams are synchronized to the same position bas
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader2">IWMSyncReader2 Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetHwnd
+ - IDXGISwapChain1::GetHwnd
 ---
 
 # IDXGISwapChain1::GetHwnd
@@ -72,3 +72,4 @@ Applications call the  <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifac
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
+

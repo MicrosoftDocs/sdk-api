@@ -43,7 +43,7 @@ api_location:
  - twinapi.lib
  - twinapi.dll
 api_name:
- - IAppVisibilityEvents.AppVisibilityOnMonitorChanged
+ - IAppVisibilityEvents::AppVisibilityOnMonitorChanged
 ---
 
 # IAppVisibilityEvents::AppVisibilityOnMonitorChanged
@@ -74,3 +74,4 @@ The return value is ignored.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mprapi.h
 api_name:
+ - _MPR_IF_CUSTOMINFOEX0
+ - PMPR_IF_CUSTOMINFOEX0
  - MPR_IF_CUSTOMINFOEX0
 ---
 
@@ -116,3 +118,4 @@ A <a href="/windows/desktop/api/mprapi/ns-mprapi-router_ikev2_if_custom_config0"
 
 
 <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacesetcustominfoex">MprConfigInterfaceSetCustomInfoEx</a>
+

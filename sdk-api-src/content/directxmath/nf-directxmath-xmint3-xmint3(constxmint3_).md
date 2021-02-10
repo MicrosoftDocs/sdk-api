@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMINT3.XMINT3
+ - XMINT3::XMINT3
 ---
 
 # XMINT3::XMINT3(const XMINT3 &)
@@ -69,3 +69,4 @@ A value.
 <a href="/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a>
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t)">XMINT3 Constructors</a>
+

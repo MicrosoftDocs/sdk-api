@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps.SetProp
+ - IWMBackupRestoreProps::SetProp
 ---
 
 # IWMBackupRestoreProps::SetProp
@@ -119,3 +119,4 @@ The following table lists the predefined properties.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore Interface</a>
+

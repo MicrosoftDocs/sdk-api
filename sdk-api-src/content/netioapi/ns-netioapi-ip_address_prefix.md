@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
+ - _IP_ADDRESS_PREFIX
+ - PIP_ADDRESS_PREFIX
  - IP_ADDRESS_PREFIX
 ---
 
@@ -114,3 +116,4 @@ The <b>IP_ADDRESS_PREFIX</b> structure is the data type of the <b>DestinationPre
 
 
 <a href="/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2">SetIpForwardEntry2</a>
+

@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _FILE_SET_DEFECT_MGMT_BUFFER
+ - PFILE_SET_DEFECT_MGMT_BUFFER
  - FILE_SET_DEFECT_MGMT_BUFFER
 ---
 
@@ -68,3 +70,4 @@ If <b>TRUE</b>, indicates that defect management is disabled.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_defect_management">FSCTL_SET_DEFECT_MANAGEMENT</a>
+

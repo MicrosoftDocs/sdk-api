@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList.Clear
+ - IITPropList::Clear
 ---
 
 # IITPropList::Clear
@@ -83,3 +83,4 @@ Call this method to clear a property list without requiring the list to be destr
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
+

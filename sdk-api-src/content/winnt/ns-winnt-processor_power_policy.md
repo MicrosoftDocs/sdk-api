@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _PROCESSOR_POWER_POLICY
+ - PPROCESSOR_POWER_POLICY
  - PROCESSOR_POWER_POLICY
 ---
 
@@ -95,3 +97,4 @@ An array of
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-processor_power_policy_info">PROCESSOR_POWER_POLICY_INFO</a>
+

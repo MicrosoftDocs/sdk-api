@@ -46,6 +46,8 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
+ - _EAP_CONFIG_INPUT_FIELD_DATA
+ - PEAP_CONFIG_INPUT_FIELD_DATA
  - EAP_CONFIG_INPUT_FIELD_DATA
 ---
 
@@ -233,3 +235,4 @@ The entire collection of input fields in a EAP configuration dialog box is repre
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
+

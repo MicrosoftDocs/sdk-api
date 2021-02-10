@@ -42,9 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription.SubscriberInterface
- - IEventSubscription.get_SubscriberInterface
- - IEventSubscription.put_SubscriberInterface
+ - IEventSubscription::put_SubscriberInterface
 ---
 
 # IEventSubscription::put_SubscriberInterface
@@ -65,3 +63,4 @@ If not <b>NULL</b>, the subscription is transient and the <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+

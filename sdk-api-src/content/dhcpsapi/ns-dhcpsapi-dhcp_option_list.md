@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_OPTION_LIST
+ - LPDHCP_OPTION_LIST
  - DHCP_OPTION_LIST
 ---
 
@@ -77,3 +79,4 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_opt
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetclientoptions">DhcpGetClientOptions</a>
+

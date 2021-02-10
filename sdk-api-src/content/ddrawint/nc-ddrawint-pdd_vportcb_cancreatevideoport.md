@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdVideoPortCanCreate
+ - PDD_VPORTCB_CANCREATEVIDEOPORT
 ---
 
 ## -description
@@ -76,3 +76,4 @@ The driver should check the members of the <a href="/windows/desktop/api/dvp/ns-
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_createvideoport">DdVideoPortCreate</a>
+

@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_DRIVE_PROP
+ - PVDS_DRIVE_PROP
  - VDS_DRIVE_PROP
 ---
 
@@ -162,3 +164,4 @@ The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getproperties">
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
+

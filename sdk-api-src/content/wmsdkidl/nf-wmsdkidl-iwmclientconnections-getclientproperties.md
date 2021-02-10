@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMClientConnections.GetClientProperties
+ - IWMClientConnections::GetClientProperties
 ---
 
 # IWMClientConnections::GetClientProperties
@@ -127,3 +127,4 @@ Failed to get client information for unspecified reason.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections Interface</a>
+

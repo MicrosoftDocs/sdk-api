@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntddpsch.h
 api_name:
+ - _PS_CONFORMER_STATS
+ - PPS_CONFORMER_STATS
  - PS_CONFORMER_STATS
 ---
 
@@ -72,3 +74,4 @@ Number of nonconforming packets that have been scheduled on the flow or interfac
 
 
 <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
+

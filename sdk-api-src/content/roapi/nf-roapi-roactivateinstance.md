@@ -45,7 +45,6 @@ api_location:
  - ComBase.dll
 api_name:
  - RoActivateInstance
- - WinRTActivateInstance
 ---
 
 # RoActivateInstance function
@@ -167,3 +166,4 @@ Use the <b>RoActivateInstance</b> function to activate a Windows Runtime class. 
 
 
 <a href="/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>
+

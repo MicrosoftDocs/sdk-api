@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiCreateDeviceInfoListExW
  - setupapi/SetupDiCreateDeviceInfoListExW
+ - SetupDiCreateDeviceInfoListEx
+ - setupapi/SetupDiCreateDeviceInfoListEx
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiCreateDeviceInfoListEx
  - SetupDiCreateDeviceInfoListExW
+ - SetupDiCreateDeviceInfoListEx
 ---
 
 # SetupDiCreateDeviceInfoListExW function
@@ -100,3 +102,4 @@ If the device information set is for devices on a remote computer (<i>MachineNam
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>
+

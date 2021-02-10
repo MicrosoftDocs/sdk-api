@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablet3.IsMultiTouch
- - IInkTablet3.get_IsMultiTouch
- - IInkTablet3.get_IsMultiTouch
+ - IInkTablet3::get_IsMultiTouch
 ---
 
 # IInkTablet3::get_IsMultiTouch
@@ -62,3 +60,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet3">IInkTablet3</a>
+

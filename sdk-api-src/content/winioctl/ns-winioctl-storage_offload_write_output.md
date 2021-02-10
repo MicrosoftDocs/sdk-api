@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_OFFLOAD_WRITE_OUTPUT
+ - PSTORAGE_OFFLOAD_WRITE_OUTPUT
  - STORAGE_OFFLOAD_WRITE_OUTPUT
 ---
 
@@ -111,3 +113,4 @@ The length of the copied content.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ncrypt.h
 api_name:
+ - __NCRYPT_SUPPORTED_LENGTHS
  - NCRYPT_SUPPORTED_LENGTHS
 ---
 
@@ -71,3 +72,4 @@ The number of bits that the key size can be incremented between <b>dwMinLength</
 ### -field dwDefaultLength
 
 The default length, in bits, of a key.
+

@@ -44,9 +44,7 @@ api_location:
  - API-MS-Win-Core-url-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - UrlIsNoHistory
  - UrlIsNoHistoryA
- - UrlIsNoHistoryW
 ---
 
 # UrlIsNoHistoryA function
@@ -81,3 +79,4 @@ This function is equivalent to the following:
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>
+

@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription.CoerceToCanonicalValue
+ - IPropertyDescription::CoerceToCanonicalValue
 ---
 
 # IPropertyDescription::CoerceToCanonicalValue
@@ -239,3 +239,4 @@ The coercion is performed in four steps, as follows:
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
+

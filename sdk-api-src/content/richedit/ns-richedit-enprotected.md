@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _enprotected
  - ENPROTECTED
 ---
 
@@ -90,3 +91,4 @@ The current selection.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+

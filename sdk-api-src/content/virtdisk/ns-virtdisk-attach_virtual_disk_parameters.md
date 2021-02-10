@@ -47,6 +47,8 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _ATTACH_VIRTUAL_DISK_PARAMETERS
+ - PATTACH_VIRTUAL_DISK_PARAMETERS
  - ATTACH_VIRTUAL_DISK_PARAMETERS
 ---
 
@@ -81,3 +83,4 @@ Reserved.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument.Body
- - IFaxDocument.get_Body
- - IFaxDocument.put_Body
+ - IFaxDocument::put_Body
 ---
 
 # IFaxDocument::put_Body
@@ -75,3 +73,4 @@ Either the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument2-bo
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - uiautomationclient.h
 api_name:
- - IUIAutomationElement5.CurrentLandmarkType
- - IUIAutomationElement5.get_CurrentLandmarkType
+ - IUIAutomationElement5::get_CurrentLandmarkType
 ---
 
 # IUIAutomationElement5::get_CurrentLandmarkType
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement5">IUIAutomationElement5</a>
+

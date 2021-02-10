@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - EventRecordCallback
+ - PEVENT_RECORD_CALLBACK
 ---
 
 # PEVENT_RECORD_CALLBACK callback function
@@ -84,3 +84,4 @@ For information on parsing the event data, see <a href="/windows/desktop/ETW/ret
 
 
 <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>
+

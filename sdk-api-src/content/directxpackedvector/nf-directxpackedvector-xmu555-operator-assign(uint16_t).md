@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU555.operator =
+ - XMU555::operator=
 ---
 
 # XMU555::operator-assign(uint16_t)

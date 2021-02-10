@@ -43,7 +43,6 @@ api_location:
  - mfobjects.h
 api_name:
  - IMFRemoteAsyncCallback
- - IMFRemoteAsyncCallback.Invoke
 ---
 
 # IMFRemoteAsyncCallback interface
@@ -65,3 +64,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRemoteAsyncCallback</b> in
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+

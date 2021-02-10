@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Traffic.h
 api_name:
+ - _ADDRESS_LIST_DESCRIPTOR
+ - PADDRESS_LIST_DESCRIPTOR
  - ADDRESS_LIST_DESCRIPTOR
 ---
 
@@ -71,3 +73,4 @@ Pointer to the address list for the interface. The <b>NETWORK_ADDRESS_LIST</b> s
 ## -see-also
 
 <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+

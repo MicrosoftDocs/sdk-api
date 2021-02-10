@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Powrprof.h
 api_name:
+ - _DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
+ - PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
  - DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 ---
 
@@ -73,3 +75,4 @@ The context of the application registering for the notification.
 
 
 <a href="/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>
+

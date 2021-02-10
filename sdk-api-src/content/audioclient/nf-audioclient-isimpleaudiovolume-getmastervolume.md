@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - ISimpleAudioVolume.GetMasterVolume
+ - ISimpleAudioVolume::GetMasterVolume
 ---
 
 # ISimpleAudioVolume::GetMasterVolume
@@ -117,3 +117,4 @@ This method retrieves the client volume level for the session. This is the volum
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a>
+

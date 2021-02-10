@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT_HEADER3_
  - FWPM_NET_EVENT_HEADER3
 ---
 
@@ -162,3 +163,4 @@ The EDP remote server used for name-based policy.
 [FWP_BYTE_BLOB](../fwptypes/ns-fwptypes-fwp_byte_blob.md)
 
 [FWP_IP_VERSION](../fwptypes/ne-fwptypes-fwp_ip_version.md)
+

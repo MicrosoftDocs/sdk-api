@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - syncmgr
  - syncmgr/syncmgr
+api_name:
+ - syncmgr
 ---
 
 # Syncmgr.h header

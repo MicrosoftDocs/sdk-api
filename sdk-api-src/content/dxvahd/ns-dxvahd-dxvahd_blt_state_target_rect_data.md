@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_BLT_STATE_TARGET_RECT_DATA
  - DXVAHD_BLT_STATE_TARGET_RECT_DATA
 ---
 
@@ -112,3 +113,4 @@ If the <b>Enable</b> member is <b>FALSE</b>, the <b>TargetRect</b> member is ign
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

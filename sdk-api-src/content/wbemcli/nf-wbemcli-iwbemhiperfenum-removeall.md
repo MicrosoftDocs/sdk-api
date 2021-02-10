@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemHiPerfEnum.RemoveAll
+ - IWbemHiPerfEnum::RemoveAll
 ---
 
 # IWbemHiPerfEnum::RemoveAll

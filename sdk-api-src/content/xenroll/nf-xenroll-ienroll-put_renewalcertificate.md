@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.RenewalCertificate
- - IEnroll.get_RenewalCertificate
- - IEnroll.put_RenewalCertificate
+ - IEnroll::put_RenewalCertificate
 ---
 
 # IEnroll::put_RenewalCertificate
@@ -67,3 +65,4 @@ For more information about how to create a certificate renewal request, see <a h
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

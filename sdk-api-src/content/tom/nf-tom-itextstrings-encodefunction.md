@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStrings.EncodeFunction
+ - ITextStrings::EncodeFunction
 ---
 
 # ITextStrings::EncodeFunction
@@ -121,3 +121,4 @@ See <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextR
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
+

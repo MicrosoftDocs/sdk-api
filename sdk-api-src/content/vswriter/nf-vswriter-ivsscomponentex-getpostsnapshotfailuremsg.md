@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponentEx.GetPostSnapshotFailureMsg
+ - IVssComponentEx::GetPostSnapshotFailureMsg
 ---
 
 # IVssComponentEx::GetPostSnapshotFailureMsg
@@ -133,3 +133,4 @@ The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setpostsnapshotfailuremsg">IVssComponentEx::SetPostSnapshotFailureMsg</a>
+

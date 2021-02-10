@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WLAN_SECURITY_ATTRIBUTES
+ - PWLAN_SECURITY_ATTRIBUTES
  - WLAN_SECURITY_ATTRIBUTES
 ---
 
@@ -77,3 +79,4 @@ A <a href="/windows/desktop/NativeWiFi/dot11-cipher-algorithm">DOT11_CIPHER_ALGO
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMDomain.GetWMIFilter
- - GPMDomain.GetWMIFilter
+ - IGPMDomain::GetWMIFilter
 ---
 
 # IGPMDomain::GetWMIFilter
@@ -83,3 +82,4 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2.CreateSwapChainForCoreWindow
+ - IDXGIFactory2::CreateSwapChainForCoreWindow
 ---
 
 # IDXGIFactory2::CreateSwapChainForCoreWindow
@@ -165,3 +165,4 @@ if (SUCCEEDED(hr) && m_foregroundSwapChain)
 
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IAsynchronousDataRetriever.RevokeCallback
+ - IAsynchronousDataRetriever::RevokeCallback
 ---
 
 # IAsynchronousDataRetriever::RevokeCallback
@@ -91,3 +91,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iasynchronousdataretriever">IAsynchronousDataRetriever Interface</a>
+

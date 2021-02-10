@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform.InitializeTransform
+ - IMFDeviceTransform::InitializeTransform
 ---
 
 # IMFDeviceTransform::InitializeTransform
@@ -98,3 +98,4 @@ Device MFTs can take advantage of this function to initialize various internal o
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
+

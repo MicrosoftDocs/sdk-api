@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost2.TxSetCursor2
+ - ITextHost2::TxSetCursor2
 ---
 
 # ITextHost2::TxSetCursor2
@@ -83,3 +83,4 @@ Returns the cursor that <i>hcur</i> is replacing.
 
 
 <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>
+

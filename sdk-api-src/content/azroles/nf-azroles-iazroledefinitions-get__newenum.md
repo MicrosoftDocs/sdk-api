@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRoleDefinitions._NewEnum
- - IAzRoleDefinitions.get__NewEnum
+ - IAzRoleDefinitions::get__NewEnum
 ---
 
 # IAzRoleDefinitions::get__NewEnum
@@ -56,3 +55,4 @@ The <b>_NewEnum</b> property retrieves an <a href="/previous-versions/windows/de
 This property is read-only.
 
 ## -parameters
+

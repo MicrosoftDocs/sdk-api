@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IQueryCancelAutoPlay.AllowAutoPlay
+ - IQueryCancelAutoPlay::AllowAutoPlay
 ---
 
 # IQueryCancelAutoPlay::AllowAutoPlay
@@ -241,3 +241,4 @@ Upon presentation of media, the Shell searches the ROT for a component implement
 
 <div class="alert"><b>Note</b>  The CLSID entered as a value under this key should not be encased in curly brackets.</div>
 <div> </div>
+

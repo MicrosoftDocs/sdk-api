@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IQueryParserManager.CreateLoadedParser
+ - IQueryParserManager::CreateLoadedParser
 ---
 
 # IQueryParserManager::CreateLoadedParser
@@ -87,3 +87,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If %LOCALAPPDATA% is not available, then this method fails. You should call <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-setoption">IQueryParserManager::SetOption</a> to point to a different folder like %ProgramData%.
+

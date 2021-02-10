@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoDecoder.GetCreationParameters
+ - IDirectXVideoDecoder::GetCreationParameters
 ---
 
 # IDirectXVideoDecoder::GetCreationParameters
@@ -120,3 +120,4 @@ If you specify a non-<b>NULL</b> value for <i>pppDecoderRenderTargets</i> (to re
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
+

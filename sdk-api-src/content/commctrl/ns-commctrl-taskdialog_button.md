@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - _TASKDIALOG_BUTTON
  - TASKDIALOG_BUTTON
 ---
 
@@ -67,3 +68,4 @@ Indicates the value to be returned when this button is selected.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
 Pointer that references the string to be used to label the button. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. When using Command Links, you delineate the command from the note by placing a new line character in the string.
+

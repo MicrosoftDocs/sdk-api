@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.RecognitionFlags
- - IInkRecognizerContext.get_RecognitionFlags
- - IInkRecognizerContext.put_RecognitionFlags
- - InkRecognizerContext.get_RecognitionFlags
- - InkRecognizerContext.put_RecognitionFlags
+ - IInkRecognizerContext::get_RecognitionFlags
 ---
 
 # IInkRecognizerContext::get_RecognitionFlags
@@ -85,3 +81,4 @@ For a list of modes that you can use, see the <a href="/windows/desktop/api/msin
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+

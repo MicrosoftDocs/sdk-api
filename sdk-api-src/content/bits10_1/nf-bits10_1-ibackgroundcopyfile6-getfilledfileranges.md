@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyFile6.GetFilledFileRanges
+ - IBackgroundCopyFile6::GetFilledFileRanges
 ---
 
 # IBackgroundCopyFile6::GetFilledFileRanges
@@ -78,3 +78,4 @@ For more information, see <a href="/windows/desktop/Bits/http-requirements-for-b
 ## -see-also
 
 <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6">IBackgroundCopyFile6</a>
+

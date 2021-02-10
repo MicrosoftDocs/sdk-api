@@ -9,6 +9,8 @@ tech.root: dataxchg
 f1_keywords:
  - ddeml
  - ddeml/ddeml
+api_name:
+ - ddeml
 ---
 
 # Ddeml.h header

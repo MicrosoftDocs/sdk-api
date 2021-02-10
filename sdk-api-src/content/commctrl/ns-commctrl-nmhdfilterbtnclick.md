@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMHDFILTERBTNCLICK
+ - LPNMHDFILTERBTNCLICK
  - NMHDFILTERBTNCLICK
 ---
 
@@ -79,3 +81,4 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 ## -see-also
 
 <a href="/windows/desktop/Controls/hdn-filterbtnclick">HDN_FILTERBTNCLICK</a>
+

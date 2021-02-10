@@ -9,6 +9,8 @@ tech.root: dns
 f1_keywords:
  - windns
  - windns/windns
+api_name:
+ - windns
 ---
 
 # Windns.h header

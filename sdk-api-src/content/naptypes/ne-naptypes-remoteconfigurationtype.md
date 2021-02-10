@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
+ - tagRemoteConfigurationType
  - RemoteConfigurationType
 ---
 

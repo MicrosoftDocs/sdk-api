@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer.Properties
- - IRDPSRAPIViewer.get_Properties
- - RDPViewer.Properties
+ - IRDPSRAPIViewer::get_Properties
 ---
 
 # IRDPSRAPIViewer::get_Properties
@@ -63,3 +61,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>
+

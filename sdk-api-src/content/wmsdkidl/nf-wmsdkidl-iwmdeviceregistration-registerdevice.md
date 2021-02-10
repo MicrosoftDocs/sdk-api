@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDeviceRegistration.RegisterDevice
+ - IWMDeviceRegistration::RegisterDevice
 ---
 
 # IWMDeviceRegistration::RegisterDevice
@@ -142,3 +142,4 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection Interface</a>
+

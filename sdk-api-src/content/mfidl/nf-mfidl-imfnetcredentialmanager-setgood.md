@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCredentialManager.SetGood
+ - IMFNetCredentialManager::SetGood
 ---
 
 # IMFNetCredentialManager::SetGood
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialmanager">IMFNetCredentialManager</a>
+

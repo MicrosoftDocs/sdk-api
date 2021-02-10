@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MF_CONNECT_METHOD
  - MF_CONNECT_METHOD
 ---
 
@@ -87,3 +88,4 @@ The entire topology branch starting at this node is optional. If the topology lo
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

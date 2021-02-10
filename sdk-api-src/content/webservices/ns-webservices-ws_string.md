@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_STRING
  - WS_STRING
 ---
 
@@ -73,3 +74,4 @@ The string is not required to be zero terminated.  If it is
 
 The macro <a href="/windows/desktop/api/webservices/nf-webservices-ws_string_value">WS_STRING_VALUE</a> can be used to initialize
                 this structure if the string is a constant string.
+

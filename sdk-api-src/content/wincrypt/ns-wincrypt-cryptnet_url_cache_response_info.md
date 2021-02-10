@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPTNET_URL_CACHE_RESPONSE_INFO
+ - PCRYPTNET_URL_CACHE_RESPONSE_INFO
  - CRYPTNET_URL_CACHE_RESPONSE_INFO
 ---
 
@@ -133,3 +135,4 @@ To determine whether a response is valid, the cache service performs a bitwise <
 <td>0x8000</td>
 </tr>
 </table>
+

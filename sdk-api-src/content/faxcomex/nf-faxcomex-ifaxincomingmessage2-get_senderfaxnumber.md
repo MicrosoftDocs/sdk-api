@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.SenderFaxNumber
- - IFaxIncomingMessage2.get_SenderFaxNumber
- - IFaxIncomingMessage2.put_SenderFaxNumber
- - IFaxIncomingMessage2.get_SenderFaxNumber
- - IFaxIncomingMessage2.put_SenderFaxNumber
+ - IFaxIncomingMessage2::get_SenderFaxNumber
 ---
 
 # IFaxIncomingMessage2::get_SenderFaxNumber
@@ -72,3 +68,4 @@ A received message starts with a null value for the sender's fax number when it 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
+

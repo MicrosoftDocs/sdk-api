@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.Save
+ - Image::Save
 ---
 
 # Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters)
@@ -218,3 +218,4 @@ Exit:
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
+

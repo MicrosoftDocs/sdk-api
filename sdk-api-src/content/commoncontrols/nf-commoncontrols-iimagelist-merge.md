@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList.Merge
+ - IImageList::Merge
 ---
 
 # IImageList::Merge
@@ -107,3 +107,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The new image consists of the second image drawn transparently over the first. 	The mask for the new image is obtained by combining the masks of the two existing images with the bitwise OR operator.
 
 To use <b>IImageList::Merge</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactManager.MergeContactIDs
+ - IContactManager::MergeContactIDs
 ---
 
 # IContactManager::MergeContactIDs
@@ -91,3 +91,4 @@ Address change was successful.
 </td>
 </tr>
 </table>
+

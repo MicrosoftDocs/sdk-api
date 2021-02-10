@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Thumbcache.h
 api_name:
- - IThumbnailCache.GetThumbnailByID
+ - IThumbnailCache::GetThumbnailByID
 ---
 
 # IThumbnailCache::GetThumbnailByID
@@ -167,3 +167,4 @@ The WTS_FASTEXTRACT flag was set, but fast extraction is not available.
 ## -remarks
 
 This method is typically called after <a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">GetThumbnail</a> has already been called to retrieve the thumbnail ID.
+

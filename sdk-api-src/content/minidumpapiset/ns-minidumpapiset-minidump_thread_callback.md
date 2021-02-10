@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_THREAD_CALLBACK
+ - PMINIDUMP_THREAD_CALLBACK
  - MINIDUMP_THREAD_CALLBACK
 ---
 
@@ -98,3 +100,4 @@ The ending address of the thread stack.
 
 
 <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
+

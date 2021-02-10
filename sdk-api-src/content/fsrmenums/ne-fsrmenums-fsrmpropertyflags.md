@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmPropertyFlags
  - FsrmPropertyFlags
 ---
 
@@ -175,3 +176,4 @@ The <b>FsrmPropertyFlags_SetByClassifier</b> flag is set in the following cases:
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmproperty-get_propertyflags">IFsrmProperty.PropertyFlags</a>
+

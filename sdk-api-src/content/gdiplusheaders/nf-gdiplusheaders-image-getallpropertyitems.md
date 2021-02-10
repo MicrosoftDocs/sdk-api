@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.GetAllPropertyItems
+ - Image::GetAllPropertyItems
 ---
 
 # Image::GetAllPropertyItems
@@ -238,3 +238,4 @@ The preceding output shows a hexadecimal ID number for each property item. You c
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-reading-and-writing-metadata-use">Reading and Writing Metadata</a>
+

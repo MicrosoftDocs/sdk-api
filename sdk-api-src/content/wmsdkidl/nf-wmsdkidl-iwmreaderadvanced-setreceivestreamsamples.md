@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.SetReceiveStreamSamples
+ - IWMReaderAdvanced::SetReceiveStreamSamples
 ---
 
 # IWMReaderAdvanced::SetReceiveStreamSamples
@@ -133,3 +133,4 @@ The application can register itself to receive samples directly from the Windows
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceivestreamsamples">IWMReaderAdvanced::GetReceiveStreamSamples</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_ALT_NAME_ENTRY
+ - PCERT_ALT_NAME_ENTRY
  - CERT_ALT_NAME_ENTRY
 ---
 
@@ -118,3 +120,4 @@ Object identifier (OID) of any registered object.
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationMultipleViewPattern.GetViewName
+ - IUIAutomationMultipleViewPattern::GetViewName
 ---
 
 # IUIAutomationMultipleViewPattern::GetViewName
@@ -71,3 +71,4 @@ Receives a pointer to a localized view name.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

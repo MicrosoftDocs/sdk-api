@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - amparse
  - amparse/amparse
+api_name:
+ - amparse
 ---
 
 # Amparse.h header

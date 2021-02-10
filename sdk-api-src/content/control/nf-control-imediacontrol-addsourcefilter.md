@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaControl.AddSourceFilter
+ - IMediaControl::AddSourceFilter
 ---
 
 # IMediaControl::AddSourceFilter
@@ -74,3 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
+

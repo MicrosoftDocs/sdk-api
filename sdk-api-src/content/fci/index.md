@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - fci
  - fci/fci
+api_name:
+ - fci
 ---
 
 # Fci.h header

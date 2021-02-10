@@ -47,6 +47,8 @@ api_location:
  - Iprtrmib.h
  - Iphlpapi.h
 api_name:
+ - _TCPIP_OWNER_MODULE_BASIC_INFO
+ - PTCPIP_OWNER_MODULE_BASIC_INFO
  - TCPIP_OWNER_MODULE_BASIC_INFO
 ---
 
@@ -72,3 +74,4 @@ A pointer to the full path of the module, including the module name. This field 
 If the module owner is the system kernel, the <b>lpModuleName</b> and <b>lpModulePath</b> members point to a wide character string that contains "System".
 
 On Windows Vista and later as well as on the Microsoft Windows Software Development Kit (SDK), the organization of header files has changed and the <b>TCPIP_OWNER_MODULE_BASIC_INFO</b> structure is defined in the <i>Iprtrmib.h</i> header file.
+

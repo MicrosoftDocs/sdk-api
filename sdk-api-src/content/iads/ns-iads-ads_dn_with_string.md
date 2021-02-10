@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0016
+ - PADS_DN_WITH_STRING
  - ADS_DN_WITH_STRING
 ---
 
@@ -81,3 +83,4 @@ When extending the active directory schema to add <b>ADS_DN_WITH_STRING</b>, you
 
 
 <a href="/windows/desktop/ADSchema/s-object-dn-string">Object(DN-String)</a>
+

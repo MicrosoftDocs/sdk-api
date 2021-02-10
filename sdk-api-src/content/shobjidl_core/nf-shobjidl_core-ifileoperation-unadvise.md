@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.Unadvise
+ - IFileOperation::Unadvise
 ---
 
 # IFileOperation::Unadvise
@@ -102,3 +102,4 @@ The value in <i>dwCookie</i> does not represent a valid connection.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a>
+

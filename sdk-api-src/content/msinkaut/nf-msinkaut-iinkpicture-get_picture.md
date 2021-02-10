@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.Picture
- - IInkPicture.get_Picture
- - IInkPicture.put_Picture
- - InkPicture.get_Picture
- - InkPicture.put_Picture
+ - IInkPicture::get_Picture
 ---
 
 # IInkPicture::get_Picture
@@ -73,3 +69,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+

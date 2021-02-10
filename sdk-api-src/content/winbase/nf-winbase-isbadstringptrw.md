@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - IsBadStringPtrW
  - winbase/IsBadStringPtrW
+ - IsBadStringPtr
+ - winbase/IsBadStringPtr
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - IsBadStringPtr
- - IsBadStringPtrA
  - IsBadStringPtrW
+ - IsBadStringPtr
 ---
 
 # IsBadStringPtrW function
@@ -104,3 +105,4 @@ In a preemptive multitasking environment, it is possible for some other thread t
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-isbadwriteptr">IsBadWritePtr</a>
+

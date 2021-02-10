@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_FAILOVER_STATISTICS
+ - LPDHCP_FAILOVER_STATISTICS
  - DHCP_FAILOVER_STATISTICS
 ---
 
@@ -86,3 +88,4 @@ Value that specifies the number of IPv4 addresses on the local server that are l
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovergetscopestatistics">DhcpV4FailoverGetScopeStatistics</a>
+

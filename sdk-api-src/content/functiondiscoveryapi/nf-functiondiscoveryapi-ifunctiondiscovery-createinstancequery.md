@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionDiscovery.CreateInstanceQuery
+ - IFunctionDiscovery::CreateInstanceQuery
 ---
 
 # IFunctionDiscovery::CreateInstanceQuery
@@ -129,3 +129,4 @@ This method only initializes the query call. The <a href="/windows/desktop/api/f
 
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
+

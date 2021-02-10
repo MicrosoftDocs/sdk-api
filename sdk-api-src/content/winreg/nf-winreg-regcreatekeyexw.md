@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegCreateKeyExW
  - winreg/RegCreateKeyExW
+ - RegCreateKeyEx
+ - winreg/RegCreateKeyEx
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegCreateKeyEx
- - RegCreateKeyExA
  - RegCreateKeyExW
+ - RegCreateKeyEx
 ---
 
 # RegCreateKeyExW function
@@ -289,3 +290,4 @@ Note that operations that access certain registry keys are redirected. For more 
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+

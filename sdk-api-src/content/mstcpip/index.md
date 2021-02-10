@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - mstcpip
  - mstcpip/mstcpip
+api_name:
+ - mstcpip
 ---
 
 # Mstcpip.h header

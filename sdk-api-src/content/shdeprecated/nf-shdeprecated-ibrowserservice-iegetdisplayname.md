@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService.IEGetDisplayName
+ - IBrowserService::IEGetDisplayName
 ---
 
 # IBrowserService::IEGetDisplayName

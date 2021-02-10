@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IMediaRenderer.PlayAsync
+ - IMediaRenderer::PlayAsync
 ---
 
 # IMediaRenderer::streaming
@@ -90,3 +90,4 @@ A different playback rate can be specified by calling the <a href="/previous-ver
 ## -see-also
 
 <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_DH_PARAMETER_HEADER
  - BCRYPT_DH_PARAMETER_HEADER
 ---
 
@@ -122,3 +123,4 @@ CopyMemory(pbTemp, rgbGenerator, pDHParamHeader->cbKeyLength);
 
 
 <a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>
+

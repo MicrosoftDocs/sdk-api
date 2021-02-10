@@ -44,6 +44,7 @@ api_type:
 api_location:
  - slpublic.h
 api_name:
+ - _tagSL_LICENSING_STATUS
  - SL_LICENSING_STATUS
 ---
 
@@ -91,3 +92,4 @@ The error of unlicensed status.
 Type: <b>UINT64</b>
 
 The validity expiration day.
+

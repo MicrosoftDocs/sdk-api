@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
+ - _WSAEcomparator
+ - PWSAECOMPARATOR
  - WSAECOMPARATOR
 ---
 

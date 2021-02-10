@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ISynchronize.Signal
+ - ISynchronize::Signal
 ---
 
 # ISynchronize::Signal
@@ -61,3 +61,4 @@ This method returns S_OK to indicate that the method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>
+

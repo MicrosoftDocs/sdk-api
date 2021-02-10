@@ -46,6 +46,8 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
+ - _RADIUS_ATTRIBUTE_ARRAY
+ - PRADIUS_ATTRIBUTE_ARRAY
  - RADIUS_ATTRIBUTE_ARRAY
 ---
 
@@ -280,3 +282,4 @@ This structure is returned by the functions
 
 
 <a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>
+

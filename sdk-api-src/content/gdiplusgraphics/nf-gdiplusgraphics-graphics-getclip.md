@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.GetClip
+ - Graphics::GetClip
 ---
 
 # Graphics::GetClip
@@ -99,3 +99,4 @@ fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstgraphicspath_incombinemode)">SetClip Methods</a>
+

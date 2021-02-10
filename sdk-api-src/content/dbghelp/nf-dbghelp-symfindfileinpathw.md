@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymFindFileInPathW
  - dbghelp/SymFindFileInPathW
+ - SymFindFileInPath
+ - dbghelp/SymFindFileInPath
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - DbgHelp.dll
  - imagehlp.dll
 api_name:
- - SymFindFileInPath
- - SymFindFileInPath
  - SymFindFileInPathW
+ - SymFindFileInPath
 ---
 
 # SymFindFileInPathW function
@@ -192,3 +193,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>
+

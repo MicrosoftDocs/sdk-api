@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CachedIsReadOnly
- - IUIAutomationRangeValuePattern.get_CachedIsReadOnly
+ - IUIAutomationRangeValuePattern::get_CachedIsReadOnly
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedIsReadOnly

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - IWordBreaker.Init
+ - IWordBreaker::Init
 ---
 
 # IWordBreaker::Init
@@ -136,3 +136,4 @@ The functionality of the word breaker is similar in both index creation and quer
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a>
+

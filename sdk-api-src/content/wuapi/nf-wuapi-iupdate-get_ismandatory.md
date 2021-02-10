@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.IsMandatory
- - IUpdate.get_IsMandatory
+ - IUpdate::get_IsMandatory
 ---
 
 # IUpdate::get_IsMandatory
@@ -66,3 +65,4 @@ Mandatory updates are updates to the Windows Update Agent (WUA) infrastructure. 
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

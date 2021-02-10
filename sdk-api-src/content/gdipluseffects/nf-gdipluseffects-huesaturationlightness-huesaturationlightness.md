@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - HueSaturationLightness.HueSaturationLightness
+ - HueSaturationLightness::HueSaturationLightness
 ---
 
 # HueSaturationLightness::HueSaturationLightness
@@ -66,3 +66,4 @@ Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-huesatu
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-huesaturationlightnessparams">HueSaturationLightnessParams</a>
+

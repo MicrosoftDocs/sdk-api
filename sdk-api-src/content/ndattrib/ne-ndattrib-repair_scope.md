@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ndattrib.h
 api_name:
+ - tagREPAIR_SCOPE
+ - PREPAIR_SCOPE
  - REPAIR_SCOPE
 ---
 

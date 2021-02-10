@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Raseapif.h
 api_name:
+ - _PPP_EAP_ACTION
  - PPP_EAP_ACTION
 ---
 
@@ -110,3 +111,4 @@ Reserved for system use.
 
 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a>
+

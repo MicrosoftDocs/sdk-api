@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterClearContext
+ - PIBIO_ENGINE_CLEAR_CONTEXT_FN
 ---
 
 # PIBIO_ENGINE_CLEAR_CONTEXT_FN callback function
@@ -211,3 +211,4 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_clear_context_fn">StorageAdapterClearContext</a>
+

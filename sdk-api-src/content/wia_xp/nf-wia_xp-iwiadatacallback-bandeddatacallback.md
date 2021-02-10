@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IWiaDataCallback.BandedDataCallback
+ - IWiaDataCallback::BandedDataCallback
 ---
 
 # IWiaDataCallback::BandedDataCallback
@@ -406,3 +406,4 @@ public:
 };
 
 ```
+

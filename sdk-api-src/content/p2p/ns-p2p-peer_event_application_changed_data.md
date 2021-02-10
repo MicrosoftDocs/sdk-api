@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_event_application_changed_data_tag
+ - PPEER_EVENT_APPLICATION_CHANGED_DATA
  - PEER_EVENT_APPLICATION_CHANGED_DATA
 ---
 
@@ -103,3 +105,4 @@ The <b>current user</b> scope has priority over the <b>all user</b> scope. If th
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

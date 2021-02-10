@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.h
 api_name:
- - ILocationPermissions.CheckLocationCapability
+ - ILocationPermissions::CheckLocationCapability
 ---
 
 # ILocationPermissions::CheckLocationCapability
@@ -111,3 +111,4 @@ For more information on location settings in Windows 8 see <a href="/previous-v
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions">ILocationPermissions</a>
+

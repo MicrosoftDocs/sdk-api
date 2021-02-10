@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider.Query
+ - IVssFileShareSnapshotProvider::Query
 ---
 
 # IVssFileShareSnapshotProvider::Query
@@ -153,3 +153,4 @@ Calling the <a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEn
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor.ElasticMarginBottom
- - IInertiaProcessor.get_ElasticMarginBottom
- - IInertiaProcessor.put_ElasticMarginBottom
+ - IInertiaProcessor::put_ElasticMarginBottom
 ---
 
 # IInertiaProcessor::put_ElasticMarginBottom
@@ -85,3 +83,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
+

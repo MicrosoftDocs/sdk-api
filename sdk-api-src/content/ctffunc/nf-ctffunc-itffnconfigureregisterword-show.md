@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imekrcic.dll
 api_name:
- - ITfFnConfigureRegisterWord.Show
+ - ITfFnConfigureRegisterWord::Show
 ---
 
 # ITfFnConfigureRegisterWord::Show
@@ -111,3 +111,4 @@ The text service does not implement this method.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
+

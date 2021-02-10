@@ -46,6 +46,8 @@ api_type:
 api_location:
  - commoncontrols.h
 api_name:
+ - _IMAGEINFO
+ - LPIMAGEINFO
  - IMAGEINFO
 ---
 
@@ -88,3 +90,4 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The bounding rectangle of the specified image within the bitmap specified by 
 					<b>hbmImage</b>.
+

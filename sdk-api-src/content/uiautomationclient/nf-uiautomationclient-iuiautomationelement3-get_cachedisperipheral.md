@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement3.CachedIsPeripheral
- - IUIAutomationElement3.get_CachedIsPeripheral
+ - IUIAutomationElement3::get_CachedIsPeripheral
 ---
 
 # IUIAutomationElement3::get_CachedIsPeripheral
@@ -87,3 +86,4 @@ The appearance of peripheral UI often triggers one of these events, if the perip
 
 
 <b>Reference</b>
+

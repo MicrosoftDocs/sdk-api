@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataDispenser.OpenScopeOnMemory
+ - IMetaDataDispenser::OpenScopeOnMemory
 ---
 
 # IMetaDataDispenser::OpenScopeOnMemory
@@ -91,3 +91,4 @@ If the target area of memory does not contain common language runtime (CLR) meta
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a>
+

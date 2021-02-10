@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportContentProvider.InitializationRoutine
- - IWdsTransportContentProvider.get_InitializationRoutine
+ - IWdsTransportContentProvider::get_InitializationRoutine
 ---
 
 # IWdsTransportContentProvider::get_InitializationRoutine
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontentprovider">IWdsTransportContentProvider</a>
+

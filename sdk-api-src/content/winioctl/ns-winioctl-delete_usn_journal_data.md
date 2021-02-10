@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PDELETE_USN_JOURNAL_DATA
  - DELETE_USN_JOURNAL_DATA
 ---
 
@@ -125,3 +126,4 @@ For more information, see
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
+

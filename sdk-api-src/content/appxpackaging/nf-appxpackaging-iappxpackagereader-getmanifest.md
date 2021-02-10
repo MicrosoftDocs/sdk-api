@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxPackageReader.GetManifest
+ - IAppxPackageReader::GetManifest
 ---
 
 # IAppxPackageReader::GetManifest
@@ -80,3 +80,4 @@ For an example, see <a href="/windows/desktop/appxpkg/how-to-query-package-ident
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>
+

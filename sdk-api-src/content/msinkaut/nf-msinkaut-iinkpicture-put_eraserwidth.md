@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.EraserWidth
- - IInkPicture.get_EraserWidth
- - IInkPicture.put_EraserWidth
- - InkPicture.get_EraserWidth
- - InkPicture.put_EraserWidth
+ - IInkPicture::put_EraserWidth
 ---
 
 # IInkPicture::put_EraserWidth
@@ -90,3 +86,4 @@ This property applies only when the <a href="/windows/desktop/api/msinkaut/nf-ms
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+

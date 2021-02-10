@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OleUIEditLinksA
  - oledlg/OleUIEditLinksA
+ - OleUIEditLinks
+ - oledlg/OleUIEditLinks
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - OleDlg.dll
 api_name:
- - OleUIEditLinks
  - OleUIEditLinksA
- - OleUIEditLinksW
+ - OleUIEditLinks
 ---
 
 # OleUIEditLinksA function
@@ -358,3 +359,4 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 
 > [!NOTE]
 > The oledlg.h header defines OLEUIEDITLINKS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

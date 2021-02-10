@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsNameTranslate.Init
+ - IADsNameTranslate::Init
 ---
 
 # IADsNameTranslate::Init
@@ -162,3 +162,4 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::Init</b> 
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
+

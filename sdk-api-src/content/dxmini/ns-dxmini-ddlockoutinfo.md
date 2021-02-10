@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
+ - _DDLOCKOUTINFO
+ - PDDLOCKOUTINFO
  - DDLOCKOUTINFO
 ---
 
@@ -65,3 +67,4 @@ Points to the surface in the frame buffer.
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>
+

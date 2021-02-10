@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesConnectionInfo.TransitionOffline
+ - IOfflineFilesConnectionInfo::TransitionOffline
 ---
 
 # IOfflineFilesConnectionInfo::TransitionOffline
@@ -105,3 +105,4 @@ Here is an example of how this method is used: When transitioning a scope offlin
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-transitiononline">IOfflineFilesConnectionInfo::TransitionOnline</a>
+

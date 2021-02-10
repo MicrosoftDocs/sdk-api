@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer.SetIndexByteStreams
+ - IMFASFIndexer::SetIndexByteStreams
 ---
 
 # IMFASFIndexer::SetIndexByteStreams
@@ -107,3 +107,4 @@ For a reading scenario, only one byte stream should be used by the indexer objec
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
+

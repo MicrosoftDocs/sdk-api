@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_VideoProcessBltParams
  - DXVA2_VideoProcessBltParams
 ---
 
@@ -168,3 +169,4 @@ Currently, these flags are ignored. They are intended for use with interlaced ou
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

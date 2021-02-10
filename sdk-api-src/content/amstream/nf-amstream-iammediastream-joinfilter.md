@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaStream.JoinFilter
+ - IAMMediaStream::JoinFilter
 ---
 
 # IAMMediaStream::JoinFilter
@@ -67,3 +67,4 @@ Returns S_OK if successful.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
+

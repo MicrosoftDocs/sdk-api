@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.Open
+ - IX509PrivateKey::Open
 ---
 
 # IX509PrivateKey::Open
@@ -146,3 +146,4 @@ The following properties can be set regardless of whether the key is open:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

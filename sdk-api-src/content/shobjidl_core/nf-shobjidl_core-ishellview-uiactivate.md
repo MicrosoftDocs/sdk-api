@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView.UIActivate
+ - IShellView::UIActivate
 ---
 
 # IShellView::UIActivate
@@ -103,3 +103,4 @@ Use this method to track the activation state and change any behavior, as approp
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
+

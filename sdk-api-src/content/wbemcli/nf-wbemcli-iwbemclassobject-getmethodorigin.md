@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.GetMethodOrigin
+ - IWbemClassObject::GetMethodOrigin
 ---
 
 # IWbemClassObject::GetMethodOrigin
@@ -82,3 +82,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -remarks
 
 Because methods are inherited from class to class, it is often desirable to determine the owning class for a given method.
+

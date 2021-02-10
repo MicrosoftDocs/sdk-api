@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationDragPattern.CachedIsGrabbed
- - IUIAutomationDragPattern.get_CachedIsGrabbed
+ - IUIAutomationDragPattern::get_CachedIsGrabbed
 ---
 
 # IUIAutomationDragPattern::get_CachedIsGrabbed
@@ -62,3 +61,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdragpattern">IUIAutomationDragPattern</a>
+

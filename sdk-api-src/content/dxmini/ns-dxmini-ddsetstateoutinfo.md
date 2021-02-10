@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
+ - _DDSETSTATEOUTINFO
+ - PDDSETSTATEOUTINFO
  - DDSETSTATEOUTINFO
 ---
 
@@ -83,3 +85,4 @@ If the miniport driver switches from hardware to software autoflipping, DirectDr
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
+

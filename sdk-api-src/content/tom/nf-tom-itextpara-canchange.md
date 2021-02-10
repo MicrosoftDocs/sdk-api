@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.CanChange
+ - ITextPara::CanChange
 ---
 
 # ITextPara::CanChange
@@ -85,3 +85,4 @@ The *<i>pbCanChange</i>  parameter returns <b>tomTrue</b> only if the paragraph 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - NTMS_OPREQUESTINFORMATION
+ - _NTMS_OPREQUESTINFORMATIONA
  - NTMS_OPREQUESTINFORMATIONA
- - NTMS_OPREQUESTINFORMATIONW
 ---
 
 # NTMS_OPREQUESTINFORMATIONA structure
@@ -367,3 +366,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+

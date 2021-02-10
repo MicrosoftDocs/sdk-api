@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumITfCompositionView.Reset
+ - IEnumITfCompositionView::Reset
 ---
 
 # IEnumITfCompositionView::Reset

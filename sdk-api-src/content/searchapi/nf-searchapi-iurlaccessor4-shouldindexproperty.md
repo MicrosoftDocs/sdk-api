@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor4.ShouldIndexProperty
+ - IUrlAccessor4::ShouldIndexProperty
 ---
 
 # IUrlAccessor4::ShouldIndexProperty
@@ -69,3 +69,4 @@ Returns S_FALSE if the property should not be indexed.
 ## -see-also
 
 <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor4">IUrlAccessor4</a>
+

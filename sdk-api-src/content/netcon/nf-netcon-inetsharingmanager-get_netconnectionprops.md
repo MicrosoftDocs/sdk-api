@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetSharingManager.get_NetConnectionProps
+ - INetSharingManager::get_NetConnectionProps
 ---
 
 # INetSharingManager::get_NetConnectionProps
@@ -188,3 +188,4 @@ Not all connections can be configured for sharing. Retrieve the properties for t
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects.RenderFullScreen
+ - IWMPEffects::RenderFullScreen
 ---
 
 # IWMPEffects::RenderFullScreen
@@ -79,3 +79,4 @@ If your implementation returns an error from this method, then <b>GoFullscreen</
 
 
 <a href="/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel">TimedLevel</a>
+

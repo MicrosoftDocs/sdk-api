@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509SignatureInformation.PublicKeyAlgorithm
- - IX509SignatureInformation.get_PublicKeyAlgorithm
- - IX509SignatureInformation.put_PublicKeyAlgorithm
+ - IX509SignatureInformation::get_PublicKeyAlgorithm
 ---
 
 # IX509SignatureInformation::get_PublicKeyAlgorithm
@@ -67,3 +65,4 @@ The <b>PublicKeyAlgorithm</b> property validates whether the OID you specify rep
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

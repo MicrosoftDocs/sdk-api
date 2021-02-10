@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2.SetTileViewProperties
+ - IFolderView2::SetTileViewProperties
 ---
 
 # IFolderView2::SetTileViewProperties
@@ -89,3 +89,4 @@ The <i>pszPropList</i> parameter must be of the form "prop:&lt;canonical-propert
 
 
 <a href="/windows/desktop/properties/building-property-handlers-property-lists">Property Lists</a>
+

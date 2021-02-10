@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.CreateQuotaCollection
- - IFsrmQuotaManagerEx.CreateQuotaCollection
- - FsrmQuotaManager.CreateQuotaCollection
+ - IFsrmQuotaManager::CreateQuotaCollection
 ---
 
 # IFsrmQuotaManager::CreateQuotaCollection
@@ -92,3 +90,4 @@ Using the collection to add more than one quota provides better performance than
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

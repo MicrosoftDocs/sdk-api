@@ -46,7 +46,9 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
- - SP_TROUBLESHOOTER_PARAMS - sp_troubleshooter_params_a
+ - _SP_TROUBLESHOOTER_PARAMS_A
+ - PSP_TROUBLESHOOTER_PARAMS_A
+ - SP_TROUBLESHOOTER_PARAMS_A
 ---
 
 # SP_TROUBLESHOOTER_PARAMS_A structure
@@ -92,3 +94,4 @@ An installer fills in this structure in response to a DIF_TROUBLESHOOTER request
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+

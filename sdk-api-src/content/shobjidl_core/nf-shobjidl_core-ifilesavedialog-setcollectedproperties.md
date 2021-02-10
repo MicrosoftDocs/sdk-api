@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IFileSaveDialog.SetCollectedProperties
+ - IFileSaveDialog::SetCollectedProperties
 ---
 
 # IFileSaveDialog::SetCollectedProperties
@@ -91,3 +91,4 @@ For more information about property schemas, see
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-setproperties">IFileSaveDialog::SetProperties</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIResource1.CreateSharedHandle
+ - IDXGIResource1::CreateSharedHandle
 ---
 
 # IDXGIResource1::CreateSharedHandle
@@ -144,3 +144,4 @@ pResource-&gt;CreateSharedHandle(NULL,
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiresource1">IDXGIResource1</a>
+

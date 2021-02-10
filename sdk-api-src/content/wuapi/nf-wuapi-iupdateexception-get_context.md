@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateException.Context
- - IUpdateException.get_Context
+ - IUpdateException::get_Context
 ---
 
 # IUpdateException::get_Context
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a>
+

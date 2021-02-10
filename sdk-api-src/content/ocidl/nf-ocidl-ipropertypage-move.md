@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPage.Move
+ - IPropertyPage::Move
 ---
 
 # IPropertyPage::Move
@@ -104,3 +104,4 @@ The page must create its dialog box with the placement and dimensions described 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
+

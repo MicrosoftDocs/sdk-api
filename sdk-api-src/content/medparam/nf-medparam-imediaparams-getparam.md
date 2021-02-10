@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaParams.GetParam
+ - IMediaParams::GetParam
 ---
 
 # IMediaParams::GetParam
@@ -114,3 +114,4 @@ To enumerate the parameters supported by this object, along with their index val
 ## -see-also
 
 <a href="/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
+

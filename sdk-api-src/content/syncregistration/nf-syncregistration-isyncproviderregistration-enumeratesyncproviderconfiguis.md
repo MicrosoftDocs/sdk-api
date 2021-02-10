@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration.EnumerateSyncProviderConfigUIs
+ - ISyncProviderRegistration::EnumerateSyncProviderConfigUIs
 ---
 
 # ISyncProviderRegistration::EnumerateSyncProviderConfigUIs
@@ -123,3 +123,4 @@ There was not enough memory available to register the provider.
 
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
+

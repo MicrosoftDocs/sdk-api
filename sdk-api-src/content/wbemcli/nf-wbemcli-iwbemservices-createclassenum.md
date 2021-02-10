@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.CreateClassEnum
+ - IWbemServices::CreateClassEnum
 ---
 
 # IWbemServices::CreateClassEnum
@@ -151,3 +151,4 @@ COM-specific error codes also can be returned if network problems cause you to l
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
+

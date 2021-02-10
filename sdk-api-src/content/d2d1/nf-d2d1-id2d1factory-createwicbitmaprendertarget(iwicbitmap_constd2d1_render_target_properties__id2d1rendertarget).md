@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory.CreateWicBitmapRenderTarget
+ - ID2D1Factory::CreateWicBitmapRenderTarget
 ---
 
 # ID2D1Factory::CreateWicBitmapRenderTarget(IWICBitmap,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NetCon.h
 api_name:
+ - tagNETCON_PROPERTIES
  - NETCON_PROPERTIES
 ---
 
@@ -116,3 +117,4 @@ Class identifier for the user-interface object.
 
 
 <a href="/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICMetadataReaderInfo.GetPatterns
+ - IWICMetadataReaderInfo::GetPatterns
 ---
 
 # IWICMetadataReaderInfo::GetPatterns
@@ -89,3 +89,4 @@ Pointer that receives the size, in bytes, needed to obtain the metadata patterns
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

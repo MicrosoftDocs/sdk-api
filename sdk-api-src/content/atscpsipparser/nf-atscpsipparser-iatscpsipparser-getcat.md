@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IAtscPsipParser.GetCAT
+ - IAtscPsipParser::GetCAT
 ---
 
 # IAtscPsipParser::GetCAT
@@ -140,3 +140,4 @@ The method returns the first CAT that is marked <i>current</i>; that is, one in 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
+

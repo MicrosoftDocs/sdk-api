@@ -42,8 +42,7 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
- - IRemoteDesktopClient.Actions
- - IRemoteDesktopClient.get_Actions
+ - IRemoteDesktopClient::get_Actions
 ---
 
 # IRemoteDesktopClient::get_Actions
@@ -62,3 +61,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient">IRemoteDesktopClient</a>
+

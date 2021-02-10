@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.GetItemRect
+ - INameSpaceTreeControl::GetItemRect
 ---
 
 # INameSpaceTreeControl::GetItemRect
@@ -71,3 +71,4 @@ A pointer to the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> s
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

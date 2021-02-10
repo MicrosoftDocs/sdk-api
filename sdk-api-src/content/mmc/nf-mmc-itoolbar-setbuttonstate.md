@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IToolbar.SetButtonState
+ - IToolbar::SetButtonState
 ---
 
 # IToolbar::SetButtonState
@@ -111,3 +111,4 @@ Snap-ins should not set button states until the toolbar has been attached using
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
+

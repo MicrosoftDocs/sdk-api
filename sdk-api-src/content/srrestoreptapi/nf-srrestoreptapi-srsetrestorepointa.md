@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SRSetRestorePointA
  - srrestoreptapi/SRSetRestorePointA
+ - SRSetRestorePoint
+ - srrestoreptapi/SRSetRestorePoint
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - SrClient.dll
  - sfc.dll
 api_name:
- - SRSetRestorePoint
  - SRSetRestorePointA
- - SRSetRestorePointW
+ - SRSetRestorePoint
 ---
 
 # SRSetRestorePointA function
@@ -142,3 +143,4 @@ For an example, see <a href="/windows/desktop/sr/using-system-restore">Using Sys
 ## -see-also
 
 <a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srremoverestorepoint">SRRemoveRestorePoint</a>
+

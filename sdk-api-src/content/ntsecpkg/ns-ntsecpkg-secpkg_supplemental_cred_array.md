@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_SUPPLEMENTAL_CRED_ARRAY
+ - PSECPKG_SUPPLEMENTAL_CRED_ARRAY
  - SECPKG_SUPPLEMENTAL_CRED_ARRAY
 ---
 
@@ -71,3 +73,4 @@ The number of supplemental credentials in the <b>Credentials</b> member.
 ### -field Credentials
 
 An array containing supplemental credentials.
+

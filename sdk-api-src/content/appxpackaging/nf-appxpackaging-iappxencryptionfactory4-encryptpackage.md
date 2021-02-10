@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory4.EncryptPackage
+ - IAppxEncryptionFactory4::EncryptPackage
 ---
 
 # IAppxEncryptionFactory4::EncryptPackage
@@ -85,3 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptionfactory4">IAppxEncryptionFactory4</a>
+

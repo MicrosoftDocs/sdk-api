@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IContextState.SetMyTransactionVote
+ - IContextState::SetMyTransactionVote
 ---
 
 # IContextState::SetMyTransactionVote
@@ -105,3 +105,4 @@ The default value of the consistent flag is true.
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
+

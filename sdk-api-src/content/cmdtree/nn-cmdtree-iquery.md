@@ -43,8 +43,6 @@ api_location:
  - cmdtree.h
 api_name:
  - IQuery
- - IQuery.AddPostProcessing
- - IQuery.GetCardinalityEstimate
 ---
 
 # IQuery interface
@@ -67,3 +65,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuery</b> interface inherits
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
+

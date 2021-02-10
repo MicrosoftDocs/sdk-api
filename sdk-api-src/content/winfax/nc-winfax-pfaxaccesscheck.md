@@ -43,8 +43,6 @@ api_location:
  - Winfax.h
 api_name:
  - PFAXACCESSCHECK
- - FaxAccessCheckA
- - FaxAccessCheckW
 ---
 
 # PFAXACCESSCHECK callback function
@@ -111,3 +109,4 @@ The fax service administration application, a Microsoft Management Console (MMC)
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a>
+

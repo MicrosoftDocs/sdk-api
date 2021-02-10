@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wmidcprv.dll
 api_name:
- - IWbemDecoupledBasicEventProvider.GetSink
- - WbemDecoupledBasicEventProvider.GetSink
+ - IWbemDecoupledBasicEventProvider::GetSink
 ---
 
 # IWbemDecoupledBasicEventProvider::GetSink
@@ -73,3 +72,4 @@ Pointer to an
 ## -returns
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
+

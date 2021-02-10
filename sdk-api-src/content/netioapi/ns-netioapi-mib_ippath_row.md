@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
+ - _MIB_IPPATH_ROW
+ - PMIB_IPPATH_ROW
  - MIB_IPPATH_ROW
 ---
 
@@ -172,3 +174,4 @@ The <a href="/windows/desktop/api/netioapi/nf-netioapi-getippathentry">GetIpPath
 
 
 <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer.Disconnect
- - IFaxServer.Disconnect
+ - IFaxServer::Disconnect
 ---
 
 # IFaxServer::Disconnect
@@ -100,3 +99,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
+

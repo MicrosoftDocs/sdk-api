@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D10_1Shader.h
 api_name:
+ - _D3D10_SHADER_DEBUG_REGTYPE
  - D3D10_SHADER_DEBUG_REGTYPE
 ---
 
@@ -120,3 +121,4 @@ The <b>D3D10_SHADER_DEBUG_REGTYPE</b> enumeration is used to specify register ty
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-enums">Shader Enumerations</a>
+

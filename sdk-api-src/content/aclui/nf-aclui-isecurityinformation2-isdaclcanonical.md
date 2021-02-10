@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation2.IsDaclCanonical
+ - ISecurityInformation2::IsDaclCanonical
 ---
 
 # ISecurityInformation2::IsDaclCanonical
@@ -90,3 +90,4 @@ If the return value of this method is <b>FALSE</b>, the access control editor  d
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
+

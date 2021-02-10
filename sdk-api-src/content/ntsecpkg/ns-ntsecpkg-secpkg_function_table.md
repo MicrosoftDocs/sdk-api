@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_FUNCTION_TABLE
+ - PSECPKG_FUNCTION_TABLE
  - SECPKG_FUNCTION_TABLE
 ---
 
@@ -206,4 +208,3 @@ Pointer to the <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spvalidatetarg
 
 ### -field GetRemoteCredGuardSupplementalCreds
 
- 

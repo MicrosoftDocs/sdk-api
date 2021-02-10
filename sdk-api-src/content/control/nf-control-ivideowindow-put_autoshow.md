@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.put_AutoShow
+ - IVideoWindow::put_AutoShow
 ---
 
 # IVideoWindow::put_AutoShow
@@ -137,3 +137,4 @@ By default, when the filter graph changes state to paused or running, the video 
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_autoshow">IVideoWindow::get_AutoShow</a>
+

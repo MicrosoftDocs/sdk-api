@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetEndpointReference
+ - IWSDiscoveredService::GetEndpointReference
 ---
 
 # IWSDiscoveredService::GetEndpointReference
@@ -103,3 +103,4 @@ The resulting pointer value is only valid for the lifetime of the <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
+

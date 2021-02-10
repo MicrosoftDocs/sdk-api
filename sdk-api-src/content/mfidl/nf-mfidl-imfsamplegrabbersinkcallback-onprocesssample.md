@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSampleGrabberSinkCallback.OnProcessSample
+ - IMFSampleGrabberSinkCallback::OnProcessSample
 ---
 
 # IMFSampleGrabberSinkCallback::OnProcessSample
@@ -92,3 +92,4 @@ If you use the sample-grabber sink in a playback topology, this method should re
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>
+

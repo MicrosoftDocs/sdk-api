@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
- - DhcpAddressDelHook
+ - LPDHCP_PROB
 ---
 
 # LPDHCP_PROB callback function
@@ -131,3 +131,4 @@ The following table defines the four defined events that trigger Microsoft DHCP 
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a>
+

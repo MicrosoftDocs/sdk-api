@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_CONTROL_TYPE
  - MMC_CONTROL_TYPE
 ---
 
@@ -78,3 +79,4 @@ Not implemented at this time. This is a standard Win32 combo box.
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">IControlbar::Create</a>
+

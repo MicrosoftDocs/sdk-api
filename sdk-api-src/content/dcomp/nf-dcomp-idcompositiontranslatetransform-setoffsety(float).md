@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionTranslateTransform.SetOffsetY
+ - IDCompositionTranslateTransform::SetOffsetY
 ---
 
 # IDCompositionTranslateTransform::SetOffsetY
@@ -81,3 +81,4 @@ If the OffsetY property was previously animated, this method removes the animati
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449126(v=vs.85)">IDCompositionTranslateTransform::SetOffsetX</a>
+

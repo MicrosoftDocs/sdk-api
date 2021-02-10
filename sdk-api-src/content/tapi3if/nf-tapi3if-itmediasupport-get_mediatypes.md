@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITMediaSupport.get_MediaTypes
+ - ITMediaSupport::get_MediaTypes
 ---
 
 # ITMediaSupport::get_MediaTypes
@@ -112,3 +112,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport">ITMediaSupport</a>
+

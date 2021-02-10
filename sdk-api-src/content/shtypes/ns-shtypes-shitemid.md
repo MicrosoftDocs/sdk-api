@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shtypes.h
 api_name:
+ - _SHITEMID
  - SHITEMID
 ---
 

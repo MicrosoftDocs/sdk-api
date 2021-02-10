@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dvdevcod.h
 api_name:
+ - _tagDVD_WARNING
  - DVD_WARNING
 ---
 
@@ -87,3 +88,4 @@ File Read failed.
 
 
 <a href="/windows/desktop/DirectShow/ec-dvd-warning">EC_DVD_WARNING</a>
+

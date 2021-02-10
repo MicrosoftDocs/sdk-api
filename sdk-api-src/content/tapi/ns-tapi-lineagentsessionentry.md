@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - lineagentsession_tag
+ - LPLINEAGENTSESSIONENTRY
  - LINEAGENTSESSIONENTRY
 ---
 
@@ -88,3 +90,4 @@ Address identifier on which the agent will receive calls for this session.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessionlist">lineGetAgentSessionList</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.GetState
+ - IMFPMediaPlayer::GetState
 ---
 
 # IMFPMediaPlayer::GetState
@@ -79,3 +79,4 @@ Many of the <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFP
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

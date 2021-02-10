@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.Ink
- - IInkPicture.get_Ink
- - IInkPicture.put_Ink
- - InkPicture.get_Ink
- - InkPicture.put_Ink
+ - IInkPicture::get_Ink
 ---
 
 # IInkPicture::get_Ink
@@ -80,3 +76,4 @@ For further details about this property, refer to the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+

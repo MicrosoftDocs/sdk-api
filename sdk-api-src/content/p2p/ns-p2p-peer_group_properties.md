@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_group_properties_tag
+ - PPEER_GROUP_PROPERTIES
  - PEER_GROUP_PROPERTIES
 ---
 
@@ -123,3 +125,4 @@ Specifies the lifetime, in seconds, of presence information published to a peer 
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupsetproperties">PeerGroupSetProperties</a>
+

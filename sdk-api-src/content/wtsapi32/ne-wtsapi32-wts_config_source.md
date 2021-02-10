@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
+ - _WTS_CONFIG_SOURCE
  - WTS_CONFIG_SOURCE
 ---
 
@@ -67,3 +68,4 @@ The configuration information came from the Security Accounts Manager (SAM) data
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONFIG</a>
+

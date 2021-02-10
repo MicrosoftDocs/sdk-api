@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUBYTE2.XMUBYTE2
+ - XMUBYTE2::XMUBYTE2
 ---
 
 # XMUBYTE2::XMUBYTE2(uint8_t,uint8_t)
@@ -90,3 +90,4 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmubyte2-ctor">XMUBYTE2 Constructors</a>
+

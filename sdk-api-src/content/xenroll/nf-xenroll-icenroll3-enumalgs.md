@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.EnumAlgs
- - ICEnroll3.EnumAlgs
- - CEnroll.EnumAlgs
+ - ICEnroll3::EnumAlgs
 ---
 
 # ICEnroll3::EnumAlgs
@@ -150,3 +148,4 @@ while ( TRUE )
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+

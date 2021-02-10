@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - RasCustomScriptExecute
+ - RasCustomScriptExecuteFn
 ---
 
 # RasCustomScriptExecuteFn callback function
@@ -152,3 +152,4 @@ In some cases, the <b>szUserName</b> of the
 
 
 <a href="/windows/desktop/api/ras/nc-ras-pfnrassendbuffer">RasSendBuffer</a>
+

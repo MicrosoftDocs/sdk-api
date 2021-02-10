@@ -9,6 +9,8 @@ tech.root: lwef
 f1_keywords:
  - searchapi
  - searchapi/searchapi
+api_name:
+ - searchapi
 ---
 
 # Searchapi.h header

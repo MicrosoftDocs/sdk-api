@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
- - ID3D10ShaderReflectionType.GetMemberTypeName
+ - ID3D10ShaderReflectionType::GetMemberTypeName
 ---
 
 ## -description
@@ -67,3 +67,4 @@ The member name in the form of a stringified value of the [D3D_SHADER_VARIABLE_T
 
 * [ID3D10ShaderReflectionType](./nn-d3d10shader-id3d10shaderreflectiontype.md) interface
 * [D3D_SHADER_VARIABLE_TYPE](../d3dcommon/ne-d3dcommon-d3d_shader_variable_type.md) enumeration
+

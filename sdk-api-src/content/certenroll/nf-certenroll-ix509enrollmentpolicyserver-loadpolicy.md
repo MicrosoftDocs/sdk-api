@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.LoadPolicy
+ - IX509EnrollmentPolicyServer::LoadPolicy
 ---
 
 # IX509EnrollmentPolicyServer::LoadPolicy
@@ -143,3 +143,4 @@ There was a problem with the lightweight directory access protocol (LDAP) used t
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
+

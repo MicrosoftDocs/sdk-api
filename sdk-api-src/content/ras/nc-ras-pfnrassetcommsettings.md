@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - RasSetCommSettings
+ - PFNRASSETCOMMSETTINGS
 ---
 
 # PFNRASSETCOMMSETTINGS callback function
@@ -92,3 +92,4 @@ RAS passes the custom-scripting DLL a pointer to the
 
 
 <a href="/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
+

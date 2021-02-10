@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
+ - tagRootCauseInfo
+ - PRootCauseInfo
  - RootCauseInfo
 ---
 
@@ -149,3 +151,4 @@ The number of repairs available.
 
 
 <a href="/windows/desktop/api/ndattrib/ns-ndattrib-repairinfoex">RepairInfoEx</a>
+

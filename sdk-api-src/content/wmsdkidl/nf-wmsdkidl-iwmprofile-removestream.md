@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.RemoveStream
- - IWMProfile2.RemoveStream
- - IWMProfile3.RemoveStream
+ - IWMProfile::RemoveStream
 ---
 
 # IWMProfile::RemoveStream
@@ -127,3 +125,4 @@ The <i>pConfig</i> parameter is <b>NULL</b> or not valid.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-removestreambynumber">IWMProfile::RemoveStreamByNumber</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork.getProxyName
+ - IWMPNetwork::getProxyName
 ---
 
 # IWMPNetwork::getProxyName
@@ -101,3 +101,4 @@ This method fails unless the calling application is running on the local compute
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxyname">IWMPNetwork::setProxyName</a>
+

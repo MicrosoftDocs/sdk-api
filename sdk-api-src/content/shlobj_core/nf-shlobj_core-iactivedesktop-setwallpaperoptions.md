@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IActiveDesktop.SetWallpaperOptions
+ - IActiveDesktop::SetWallpaperOptions
 ---
 
 # IActiveDesktop::SetWallpaperOptions
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComLTxEvents.OnLtxTransactionStart
+ - IComLTxEvents::OnLtxTransactionStart
 ---
 
 # IComLTxEvents::OnLtxTransactionStart
@@ -83,3 +83,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomltxevents">IComLTxEvents</a>
+

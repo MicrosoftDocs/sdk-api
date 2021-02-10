@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FaxRoute.h
 api_name:
- - FaxRouteModifyRoutingData
+ - PFAXROUTEMODIFYROUTINGDATA
 ---
 
 # PFAXROUTEMODIFYROUTINGDATA callback function
@@ -123,3 +123,4 @@ The fax routing method specified by the <i>RoutingGuid</i> parameter must have a
 
 
 <a href="/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a>
+

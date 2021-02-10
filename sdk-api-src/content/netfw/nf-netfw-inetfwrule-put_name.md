@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule.Name
- - INetFwRule.get_Name
- - INetFwRule.put_Name
+ - INetFwRule::put_Name
 ---
 
 # INetFwRule::put_Name
@@ -67,3 +65,4 @@ Also see the restrictions on changing properties described in the Remarks sectio
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ImmGetGuideLineA
  - imm/ImmGetGuideLineA
+ - ImmGetGuideLine
+ - imm/ImmGetGuideLine
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Imm32.dll
 api_name:
- - ImmGetGuideLine
  - ImmGetGuideLineA
- - ImmGetGuideLineW
+ - ImmGetGuideLine
 ---
 
 # ImmGetGuideLineA function
@@ -243,3 +244,4 @@ Applications typically call this function after receiving an <a href="/windows/d
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+

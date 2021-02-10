@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WLAN_RATE_SET
+ - PWLAN_RATE_SET
  - WLAN_RATE_SET
 ---
 
@@ -75,3 +77,4 @@ To calculate the data transfer rate in Mbps for an arbitrary array entry rateSet
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a>
+

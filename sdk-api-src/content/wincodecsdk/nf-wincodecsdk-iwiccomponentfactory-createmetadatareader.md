@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICComponentFactory.CreateMetadataReader
+ - IWICComponentFactory::CreateMetadataReader
 ---
 
 # IWICComponentFactory::CreateMetadataReader
@@ -89,3 +89,4 @@ A pointer that receives a pointer to the new metadata reader.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.put_Bold
+ - IFont::put_Bold
 ---
 
 # IFont::put_Bold
@@ -107,3 +107,4 @@ Changing the
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_bold">IFont::get_Bold</a>
+

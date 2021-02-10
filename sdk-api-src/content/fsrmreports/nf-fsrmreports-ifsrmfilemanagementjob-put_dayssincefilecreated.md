@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.DaysSinceFileCreated
- - IFsrmFileManagementJob.get_DaysSinceFileCreated
- - IFsrmFileManagementJob.put_DaysSinceFileCreated
+ - IFsrmFileManagementJob::put_DaysSinceFileCreated
 ---
 
 # IFsrmFileManagementJob::put_DaysSinceFileCreated
@@ -76,3 +74,4 @@ The job considers this condition met for a file if the file's creation date minu
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

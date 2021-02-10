@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer2.get_Allocator
+ - IMSVidVideoRenderer2::get_Allocator
 ---
 
 # IMSVidVideoRenderer2::get_Allocator
@@ -89,3 +89,4 @@ The caller must release the returned <b>IUnknown</b> interface.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>
+

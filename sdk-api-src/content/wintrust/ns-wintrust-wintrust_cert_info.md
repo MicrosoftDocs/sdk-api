@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
+ - WINTRUST_CERT_INFO_
+ - PWINTRUST_CERT_INFO
  - WINTRUST_CERT_INFO
 ---
 
@@ -87,3 +89,4 @@ An array of open <a href="/windows/desktop/SecGloss/c-gly">certificate stores</a
 ### -field dwFlags
 
 ### -field psftVerifyAsOf
+

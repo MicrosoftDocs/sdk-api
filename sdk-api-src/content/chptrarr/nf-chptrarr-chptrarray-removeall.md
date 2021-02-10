@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHPtrArray.RemoveAll
- - ?RemoveAll@CHPtrArray@@QAEXXZ
+ - CHPtrArray::RemoveAll
 ---
 
 # CHPtrArray::RemoveAll
@@ -73,3 +72,4 @@ The <b>RemoveAll</b> method does not return an error if the array is empty.
 
 
 <a href="/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
+

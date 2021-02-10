@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowOutboundTimeExceeded
- - INetFwIcmpSettings.get_AllowOutboundTimeExceeded
- - INetFwIcmpSettings.put_AllowOutboundTimeExceeded
+ - INetFwIcmpSettings::put_AllowOutboundTimeExceeded
 ---
 
 # INetFwIcmpSettings::put_AllowOutboundTimeExceeded
@@ -68,3 +66,4 @@ This setting is common to IPv4 and IPv6.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwicmpsettings">INetFwIcmpSettings</a>
+

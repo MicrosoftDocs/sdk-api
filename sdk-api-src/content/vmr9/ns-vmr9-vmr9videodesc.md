@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - _VMR9VideoDesc
  - VMR9VideoDesc
 ---
 
@@ -91,3 +92,4 @@ A <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrfrequency"
 
 
 <a href="/windows/desktop/DirectShow/setting-deinterlace-preferences">Setting Deinterlace Preferences</a>
+

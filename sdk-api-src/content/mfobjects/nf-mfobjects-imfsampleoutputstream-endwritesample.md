@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFSampleOutputStream.EndWriteSample
+ - IMFSampleOutputStream::EndWriteSample
 ---
 
 # IMFSampleOutputStream::EndWriteSample
@@ -69,3 +69,4 @@ Call this method when the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-i
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsampleoutputstream">IMFSampleOutputStream</a>
+

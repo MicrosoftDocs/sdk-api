@@ -44,6 +44,7 @@ api_type:
 api_location:
  - peninputpanel.h
 api_name:
+ - __MIDL___MIDL_itf_peninputpanel_0000_0000_0005
  - CorrectionPosition
 ---
 
@@ -71,3 +72,4 @@ The correction comb is shown above the input area.
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplaceposition">ITextInputPanel::SetInPlacePosition Method</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_AUDIO_LANG_EXT
  - DVD_AUDIO_LANG_EXT
 ---
 
@@ -87,3 +88,4 @@ This enumeration is used in the <a href="/windows/desktop/api/strmif/nf-strmif-i
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a>
+

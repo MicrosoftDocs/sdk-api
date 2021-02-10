@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.acceptResponse
- - CEnroll.acceptResponse
+ - ICEnroll4::acceptResponse
 ---
 
 # ICEnroll4::acceptResponse
@@ -79,3 +78,4 @@ The response must contain exactly one certificate; a child certificate cannot be
 The response may be either a PKCS #7 or a full CMC response; however, to accept a full CMC response, the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> must support <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding of CMC structures.
 
 When this method is called from script, the method displays a user interface that asks whether the user will allow installation of a  certificate.
+

@@ -44,7 +44,7 @@ api_location:
  - Fastprox.dll
  - Wbemess.dll
 api_name:
- - IWbemObjectAccess.ReadDWORD
+ - IWbemObjectAccess::ReadDWORD
 ---
 
 # IWbemObjectAccess::ReadDWORD
@@ -71,3 +71,4 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.Enable
+ - IDirectManipulationViewport::Enable
 ---
 
 # IDirectManipulationViewport::Enable
@@ -77,3 +77,4 @@ HRESULT hr = pViewport->Enable();
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
+

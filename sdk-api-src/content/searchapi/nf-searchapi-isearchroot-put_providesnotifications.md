@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchRoot.put_ProvidesNotifications
+ - ISearchRoot::put_ProvidesNotifications
 ---
 
 # ISearchRoot::put_ProvidesNotifications
@@ -72,3 +72,4 @@ That value that <b>ISearchRoot::put_ProvidesNotifications</b> sets is not protoc
 
 <b>Windows 7 and later</b>: Check out the <a href="/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
+

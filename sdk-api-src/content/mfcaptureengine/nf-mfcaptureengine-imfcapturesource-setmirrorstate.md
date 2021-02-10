@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSource.SetMirrorState
+ - IMFCaptureSource::SetMirrorState
 ---
 
 # IMFCaptureSource::SetMirrorState
@@ -109,3 +109,4 @@ The source is not initialized.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
+

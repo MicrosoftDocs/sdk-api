@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - certenroll
  - certenroll/certenroll
+api_name:
+ - certenroll
 ---
 
 # Certenroll.h header

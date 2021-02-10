@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCPV4_FAILOVER_CLIENT_INFO
+ - LPDHCPV4_FAILOVER_CLIENT_INFO
  - DHCPV4_FAILOVER_CLIENT_INFO
 ---
 
@@ -376,3 +378,4 @@ Reserved. Do not use.
 ## -see-also
 
 <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcpv4_failover_client_info_array">DHCPV4_FAILOVER_CLIENT_INFO_ARRAY</a>
+

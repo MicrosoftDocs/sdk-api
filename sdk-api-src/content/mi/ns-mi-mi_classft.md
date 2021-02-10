@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ClassFT
  - MI_ClassFT
 ---
 
@@ -123,3 +124,4 @@ Delete an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object. 
 
 Clones an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_clone">MI_Class_Clone</a>.
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winbio.h
 api_name:
+ - _WINBIO_ASYNC_RESULT
+ - PWINBIO_ASYNC_RESULT
  - WINBIO_ASYNC_RESULT
 ---
 
@@ -543,3 +545,4 @@ Further, if an operation uses a <b>WINBIO_BIOMETRIC_SUBTYPE</b> data type, it wi
 
 
 <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>
+

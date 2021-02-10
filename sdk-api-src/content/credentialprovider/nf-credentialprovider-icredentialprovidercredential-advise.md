@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.Advise
+ - ICredentialProviderCredential::Advise
 ---
 
 # ICredentialProviderCredential::Advise
@@ -79,3 +79,4 @@ Credential providers that implement this method have the responsibility of calli
 
 
 <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-unadvise">ICredentialProviderCredential::UnAdvise</a>
+

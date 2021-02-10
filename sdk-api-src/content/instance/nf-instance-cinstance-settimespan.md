@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance.SetTimeSpan
+ - CInstance::SetTimeSpan
 ---
 
 # CInstance::SetTimeSpan
@@ -72,3 +72,4 @@ Value assigned to the time span property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent property or a property that is not a time span value. More information is available in the log file, Framework.log.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2PsiParser.h
 api_name:
- - IPMT.QueryServiceGatewayInfo
+ - IPMT::QueryServiceGatewayInfo
 ---
 
 # IPMT::QueryServiceGatewayInfo
@@ -135,3 +135,4 @@ If the method succeeds, it returns one of the two success codes listed in the pr
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
+

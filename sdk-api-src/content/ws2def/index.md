@@ -9,6 +9,8 @@ tech.root: iphlp
 f1_keywords:
  - ws2def
  - ws2def/ws2def
+api_name:
+ - ws2def
 ---
 
 # Ws2Def.h header

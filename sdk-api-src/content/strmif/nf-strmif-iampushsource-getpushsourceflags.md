@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMPushSource.GetPushSourceFlags
+ - IAMPushSource::GetPushSourceFlags
 ---
 
 # IAMPushSource::GetPushSourceFlags
@@ -74,3 +74,4 @@ Call this method to determine whether a renderer filter can safely match clock r
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
+

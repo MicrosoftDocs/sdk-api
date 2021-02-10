@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutput3.CheckOverlaySupport
+ - IDXGIOutput3::CheckOverlaySupport
 ---
 
 # IDXGIOutput3::CheckOverlaySupport
@@ -82,3 +82,4 @@ Returns one of the error codes described in the <a href="/windows/desktop/direct
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput3">IDXGIOutput3</a>
+

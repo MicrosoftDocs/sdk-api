@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - lineaddressstatus_tag
+ - LPLINEADDRESSSTATUS
  - LINEADDRESSSTATUS
 ---
 
@@ -161,3 +163,4 @@ This data structure is returned by the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>
+

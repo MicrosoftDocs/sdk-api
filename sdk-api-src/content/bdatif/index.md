@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - bdatif
  - bdatif/bdatif
+api_name:
+ - bdatif
 ---
 
 # Bdatif.h header

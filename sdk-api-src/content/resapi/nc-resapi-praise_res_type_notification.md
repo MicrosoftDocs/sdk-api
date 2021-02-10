@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - RaiseResTypeNotification callback
+ - PRAISE_RES_TYPE_NOTIFICATION
 ---
 
 # PRAISE_RES_TYPE_NOTIFICATION callback function
@@ -72,3 +72,4 @@ TBD
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
+

@@ -9,6 +9,8 @@ tech.root: lwef
 f1_keywords:
  - emptyvc
  - emptyvc/emptyvc
+api_name:
+ - emptyvc
 ---
 
 # Emptyvc.h header

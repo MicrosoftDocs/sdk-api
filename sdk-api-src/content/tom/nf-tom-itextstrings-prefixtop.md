@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStrings.PrefixTop
+ - ITextStrings::PrefixTop
 ---
 
 # ITextStrings::PrefixTop
@@ -87,3 +87,4 @@ Insufficient memory.
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2.IsCurrentMediaSupported
+ - IDiscFormat2::IsCurrentMediaSupported
 ---
 
 # IDiscFormat2::IsCurrentMediaSupported
@@ -113,3 +113,4 @@ There is no media in the device.
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IDiscFormat2::IsDiscRecorderSupported</a>
+

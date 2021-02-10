@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage.GetRights
+ - IWMDMStorage::GetRights
 ---
 
 # IWMDMStorage::GetRights
@@ -133,3 +133,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>
+

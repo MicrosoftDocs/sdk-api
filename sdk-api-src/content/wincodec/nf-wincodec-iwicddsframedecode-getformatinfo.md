@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDdsFrameDecode.GetFormatInfo
+ - IWICDdsFrameDecode::GetFormatInfo
 ---
 
 # IWICDdsFrameDecode::GetFormatInfo
@@ -85,3 +85,4 @@ This information can be used for allocating memory or constructing Direct3D or D
 
 
 <a href="/windows/desktop/api/wincodec/ns-wincodec-wicddsformatinfo">WICDdsFormatInfo</a>
+

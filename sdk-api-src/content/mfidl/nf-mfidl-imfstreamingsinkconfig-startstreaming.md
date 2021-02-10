@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFStreamingSinkConfig.StartStreaming
+ - IMFStreamingSinkConfig::StartStreaming
 ---
 
 # IMFStreamingSinkConfig::StartStreaming
@@ -97,3 +97,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamingsinkconfig">IMFStreamingSinkConfig</a>
+

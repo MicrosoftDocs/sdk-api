@@ -9,6 +9,8 @@ tech.root: direct3d10
 f1_keywords:
  - d3d10shader
  - d3d10shader/d3d10shader
+api_name:
+ - d3d10shader
 ---
 
 # D3D10Shader.h header

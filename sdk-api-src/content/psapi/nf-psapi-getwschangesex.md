@@ -47,7 +47,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - GetWsChangesEx
- - K32GetWsChangesEx
 ---
 
 # GetWsChangesEx function
@@ -128,3 +127,4 @@ Programs that must run on earlier versions of Windows as
 
 
 <a href="/windows/desktop/psapi/working-set-information">Working Set Information</a>
+

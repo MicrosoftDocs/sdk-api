@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
+ - ldapmsg
+ - PLDAPMessage
  - LDAPMessage
 ---
 
@@ -90,3 +92,4 @@ There are no client-accessible fields in this structure.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>
+

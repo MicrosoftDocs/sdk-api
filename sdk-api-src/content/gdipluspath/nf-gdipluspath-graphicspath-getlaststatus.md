@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.GetLastStatus
+ - GraphicsPath::GetLastStatus
 ---
 
 # GraphicsPath::GetLastStatus
@@ -94,3 +94,4 @@ The first time you call the <b>GraphicsPath::GetLastStatus</b> method of a <a hr
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

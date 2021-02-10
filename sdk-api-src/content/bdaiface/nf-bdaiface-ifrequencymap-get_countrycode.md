@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IFrequencyMap.get_CountryCode
+ - IFrequencyMap::get_CountryCode
 ---
 
 # IFrequencyMap::get_CountryCode
@@ -73,3 +73,4 @@ For a list of country/region codes, see <a href="/windows/desktop/DirectShow/cou
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ifrequencymap">IFrequencyMap Interface</a>
+

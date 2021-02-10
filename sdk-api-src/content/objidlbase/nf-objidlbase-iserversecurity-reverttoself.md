@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IServerSecurity.RevertToSelf
+ - IServerSecurity::RevertToSelf
 ---
 
 # IServerSecurity::RevertToSelf
@@ -77,3 +77,4 @@ It is important to understand that an instance of <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
+

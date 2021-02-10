@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.Clear
+ - ID2D1CommandSink::Clear
 ---
 
 # ID2D1CommandSink::Clear
@@ -89,3 +89,4 @@ If no color is specified, the color should be interpreted by context. Examples i
 
 
 <a href="/windows/desktop/Direct2D/id2d1rendertarget-clear">ID2D1RenderTarget::Clear</a>
+

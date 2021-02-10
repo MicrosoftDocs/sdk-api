@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Prsht.h
 api_name:
- - PROPSHEETPAGE
- - PROPSHEETPAGEA
- - PROPSHEETPAGEW
+ - _PROPSHEETPAGEA_V3
+ - LPPROPSHEETPAGEA_V3
+ - PROPSHEETPAGEA_V3
 ---
 
 # PROPSHEETPAGEA_V3 structure
@@ -343,3 +343,4 @@ Title of the property sheet dialog box. This title overrides the title specified
 ## -remarks
 
 Comctl32.dll version 6 and later are not redistributable. To use Comctl32.dll version 6 or later, specify the .dll file in a manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2.GetFrameStatistics
+ - IDCompositionDevice2::GetFrameStatistics
 ---
 
 # IDCompositionDevice2::GetFrameStatistics
@@ -77,3 +77,4 @@ This method retrieves timing information about the composition engine that an ap
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
+

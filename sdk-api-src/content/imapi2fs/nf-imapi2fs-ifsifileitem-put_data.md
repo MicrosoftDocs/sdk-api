@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiFileItem.put_Data
+ - IFsiFileItem::put_Data
 ---
 
 # IFsiFileItem::put_Data
@@ -106,3 +106,4 @@ The contents of the file becomes read-only once the file item is added to file s
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_data">IFsiFileItem::get_Data</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Documenttarget.h
 api_name:
- - IPrintDocumentPackageTarget.Cancel
+ - IPrintDocumentPackageTarget::Cancel
 ---
 
 # IPrintDocumentPackageTarget::Cancel
@@ -61,3 +61,4 @@ If the <b>Cancel</b> method completes successfully, it returns an S_OK. Otherwis
 ## -see-also
 
 <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
+

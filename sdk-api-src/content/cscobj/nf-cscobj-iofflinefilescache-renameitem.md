@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.RenameItem
+ - IOfflineFilesCache::RenameItem
 ---
 
 # IOfflineFilesCache::RenameItem
@@ -88,3 +88,4 @@ Beginning with Windows 8 and Windows Server 2012 you can also use the <a href=
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache2-renameitemex">IOfflineFilesCache2::RenameItemEx</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richole.h
 api_name:
+ - _reobject
  - REOBJECT
 ---
 
@@ -324,3 +325,4 @@ An OLE or image object  in a rich edit control occupies one character position i
 
 
 <b>Reference</b>
+

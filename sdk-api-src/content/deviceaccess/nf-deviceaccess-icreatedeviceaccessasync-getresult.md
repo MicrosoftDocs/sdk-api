@@ -43,7 +43,7 @@ api_location:
  - Deviceaccess.lib
  - Deviceaccess.dll
 api_name:
- - ICreateDeviceAccessAsync.GetResult
+ - ICreateDeviceAccessAsync::GetResult
 ---
 
 # ICreateDeviceAccessAsync::GetResult
@@ -99,3 +99,4 @@ The asynchronous operation wasn't in a valid state. The bind operation was eithe
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>
+

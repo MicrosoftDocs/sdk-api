@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - profinfo
  - profinfo/profinfo
+api_name:
+ - profinfo
 ---
 
 # Profinfo.h header

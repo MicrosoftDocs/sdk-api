@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFClock.GetCorrelatedTime
+ - IMFClock::GetCorrelatedTime
 ---
 
 # IMFClock::GetCorrelatedTime
@@ -133,3 +133,4 @@ For the presentation clock, the clock time is the presentation time, and is alwa
 
 
 <a href="/windows/desktop/medfound/mftime">MFTIME</a>
+

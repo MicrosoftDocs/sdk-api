@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationElement4.CurrentSizeOfSet
- - IUIAutomationElement4.get_CurrentSizeOfSet
+ - IUIAutomationElement4::get_CurrentSizeOfSet
 ---
 
 # IUIAutomationElement4::get_CurrentSizeOfSet
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement4">IUIAutomationElement4</a>
+

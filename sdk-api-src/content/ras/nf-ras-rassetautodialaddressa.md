@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasSetAutodialAddressA
  - ras/RasSetAutodialAddressA
+ - RasSetAutodialAddress
+ - ras/RasSetAutodialAddress
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasSetAutodialAddress
  - RasSetAutodialAddressA
- - RasSetAutodialAddressW
+ - RasSetAutodialAddress
 ---
 
 # RasSetAutodialAddressA function
@@ -184,3 +185,4 @@ It is possible to have two connections that have the same name if one is configu
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

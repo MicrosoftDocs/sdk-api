@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetDuration
+ - IMFMediaEngine::GetDuration
 ---
 
 # IMFMediaEngine::GetDuration
@@ -67,3 +67,4 @@ If the duration changes, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVENT_DURA
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_DATA_CHUNK
+ - PHTTP_DATA_CHUNK
  - HTTP_DATA_CHUNK
 ---
 
@@ -128,3 +130,4 @@ the <a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFr
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
+

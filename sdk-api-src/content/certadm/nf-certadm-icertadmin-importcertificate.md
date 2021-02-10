@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.ImportCertificate
- - ICertAdmin.ImportCertificate
- - CCertAdmin.ImportCertificate
+ - ICertAdmin::ImportCertificate
 ---
 
 # ICertAdmin::ImportCertificate
@@ -225,3 +223,4 @@ SysFreeString(bstrCA);
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+

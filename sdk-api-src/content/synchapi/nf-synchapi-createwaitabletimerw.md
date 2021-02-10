@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateWaitableTimerW
  - synchapi/CreateWaitableTimerW
+ - CreateWaitableTimer
+ - synchapi/CreateWaitableTimer
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - Kernel32Legacy.dll
  - KernelBase.dll
 api_name:
- - CreateWaitableTimer
- - CreateWaitableTimerA
  - CreateWaitableTimerW
+ - CreateWaitableTimer
 ---
 
 # CreateWaitableTimerW function
@@ -179,3 +180,4 @@ For an example that uses
 
 
 <a href="/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>
+

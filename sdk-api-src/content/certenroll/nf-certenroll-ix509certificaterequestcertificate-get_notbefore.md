@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCertificate.NotBefore
- - IX509CertificateRequestCertificate.get_NotBefore
- - IX509CertificateRequestCertificate.put_NotBefore
+ - IX509CertificateRequestCertificate::get_NotBefore
 ---
 
 # IX509CertificateRequestCertificate::get_NotBefore
@@ -90,3 +88,4 @@ You must initialize the request object before calling this property. For more in
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
+

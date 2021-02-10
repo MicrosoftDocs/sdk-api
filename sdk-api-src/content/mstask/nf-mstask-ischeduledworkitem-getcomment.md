@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.GetComment
+ - IScheduledWorkItem::GetComment
 ---
 
 # IScheduledWorkItem::GetComment
@@ -112,3 +112,4 @@ Not enough memory is available.
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setcomment">IScheduledWorkItem::SetComment</a>
+

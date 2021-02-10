@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff.CallerId
- - IFaxTiff.get_CallerId
+ - IFaxTiff::get_CallerId
 ---
 
 # IFaxTiff::get_CallerId
@@ -86,3 +85,4 @@ The <b>get_CallerId</b> method allocates the memory required for the buffer poin
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - tagHistogramDataHeader
  - HistogramDataHeader
 ---
 
@@ -79,3 +80,4 @@ Mask of the color channel for the histogram data.
 
 
 <a href="/windows/desktop/api/mfapi/ns-mfapi-histogramheader">HistogramHeader</a>
+

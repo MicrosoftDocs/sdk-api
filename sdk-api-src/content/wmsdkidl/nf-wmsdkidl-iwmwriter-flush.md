@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter.Flush
+ - IWMWriter::Flush
 ---
 
 # IWMWriter::Flush
@@ -64,3 +64,4 @@ This method always returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+

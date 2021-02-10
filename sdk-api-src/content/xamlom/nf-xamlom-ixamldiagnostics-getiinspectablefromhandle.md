@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IXamlDiagnostics.GetIInspectableFromHandle
+ - IXamlDiagnostics::GetIInspectableFromHandle
 ---
 
 # IXamlDiagnostics::GetIInspectableFromHandle
@@ -75,3 +75,4 @@ This method will fail if XAML Diagnostics no longer has a reference to
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>
+

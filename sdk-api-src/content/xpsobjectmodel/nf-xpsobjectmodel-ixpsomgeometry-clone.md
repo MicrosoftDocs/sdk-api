@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometry.Clone
+ - IXpsOMGeometry::Clone
 ---
 
 # IXpsOMGeometry::Clone
@@ -113,3 +113,4 @@ Not enough memory to perform this operation.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

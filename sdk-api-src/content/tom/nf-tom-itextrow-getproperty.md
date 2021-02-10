@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.GetProperty
+ - ITextRow::GetProperty
 ---
 
 # ITextRow::GetProperty
@@ -83,3 +83,4 @@ Currently, no extra properties are defined.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-setproperty">ITextRow::SetProperty</a>
+

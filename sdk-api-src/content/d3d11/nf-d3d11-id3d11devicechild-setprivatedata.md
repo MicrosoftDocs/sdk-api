@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceChild.SetPrivateData
+ - ID3D11DeviceChild::SetPrivateData
 ---
 
 # ID3D11DeviceChild::SetPrivateData
@@ -96,3 +96,4 @@ hr = pContext->SetPrivateData( WKPDID_D3DDebugObjectName, sizeof( c_szName ) - 1
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
+

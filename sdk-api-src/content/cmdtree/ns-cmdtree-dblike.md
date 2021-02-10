@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBLIKE
  - DBLIKE
 ---
 
@@ -70,3 +71,4 @@ system to use for "likeness". E.g. Reg. Ex.
 ## -remarks
 
 For more information about the DBOP_like operator, see <a href="/previous-versions/windows/desktop/indexsrv/operators-for-scalars">Operators for Scalars</a>.
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcBindingInqAuthClientA
  - rpcdce/RpcBindingInqAuthClientA
+ - RpcBindingInqAuthClient
+ - rpcdce/RpcBindingInqAuthClient
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcBindingInqAuthClient
  - RpcBindingInqAuthClientA
- - RpcBindingInqAuthClientW
+ - RpcBindingInqAuthClient
 ---
 
 # RpcBindingInqAuthClientA function
@@ -184,3 +185,4 @@ For synchronous RPC calls, the server application can use zero as the value for 
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

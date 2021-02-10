@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.NeedsFileContent
- - IFsrmPipelineModuleDefinition.get_NeedsFileContent
- - IFsrmPipelineModuleDefinition.put_NeedsFileContent
+ - IFsrmPipelineModuleDefinition::get_NeedsFileContent
 ---
 
 # IFsrmPipelineModuleDefinition::get_NeedsFileContent
@@ -69,3 +67,4 @@ If the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
+

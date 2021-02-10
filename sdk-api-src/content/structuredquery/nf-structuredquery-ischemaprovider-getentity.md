@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - ISchemaProvider.GetEntity
+ - ISchemaProvider::GetEntity
 ---
 
 # ISchemaProvider::GetEntity
@@ -71,3 +71,4 @@ Receives the address of a pointer to the requested entity. The calling applicati
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, S_FALSE if there is no entity with the specified name, or an error value otherwise.
+

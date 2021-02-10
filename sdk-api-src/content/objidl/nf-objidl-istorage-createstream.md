@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage.CreateStream
+ - IStorage::CreateStream
 ---
 
 # IStorage::CreateStream
@@ -104,3 +104,4 @@ If the stream already exists and <i>grfMode</i> is set to STGM_FAILIFTHERE, this
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSubscriberInformation.TelephoneNumbers
- - IMbnSubscriberInformation.get_TelephoneNumbers
+ - IMbnSubscriberInformation::get_TelephoneNumbers
 ---
 
 # IMbnSubscriberInformation::get_TelephoneNumbers
@@ -69,3 +68,4 @@ This value is not populated until the ready state reaches <b>MBN_READY_STATE_INI
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation">IMbnSubscriberInformation</a>
+

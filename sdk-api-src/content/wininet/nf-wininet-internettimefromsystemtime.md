@@ -45,8 +45,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - InternetTimeFromSystemTime
- - InternetTimeFromSystemTimeA
- - InternetTimeFromSystemTimeW
 ---
 
 # InternetTimeFromSystemTime function
@@ -93,3 +91,4 @@ Returns TRUE if the function succeeds, or FALSE otherwise. To get extended error
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

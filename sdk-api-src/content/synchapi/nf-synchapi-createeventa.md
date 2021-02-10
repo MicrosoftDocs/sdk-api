@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateEventA
  - synchapi/CreateEventA
+ - CreateEvent
+ - synchapi/CreateEvent
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - CreateEvent
  - CreateEventA
- - CreateEventW
+ - CreateEvent
 ---
 
 # CreateEventA function
@@ -225,3 +226,4 @@ For an example that uses <b>CreateEvent</b>, see
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

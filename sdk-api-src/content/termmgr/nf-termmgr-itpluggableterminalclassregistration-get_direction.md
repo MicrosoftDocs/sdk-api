@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalClassRegistration.get_Direction
+ - ITPluggableTerminalClassRegistration::get_Direction
 ---
 
 # ITPluggableTerminalClassRegistration::get_Direction
@@ -71,3 +71,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_direction">put_Direction</a>
+

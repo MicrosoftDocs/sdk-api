@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.Silent
- - IX509PrivateKey.get_Silent
- - IX509PrivateKey.put_Silent
+ - IX509PrivateKey::put_Silent
 ---
 
 # IX509PrivateKey::put_Silent
@@ -65,3 +63,4 @@ If the user interface is not allowed but is required to access the private key, 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

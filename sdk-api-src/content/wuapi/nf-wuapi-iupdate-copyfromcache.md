@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.CopyFromCache
+ - IUpdate::CopyFromCache
 ---
 
 # IUpdate::CopyFromCache
@@ -177,3 +177,4 @@ A file or directory could not be located.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

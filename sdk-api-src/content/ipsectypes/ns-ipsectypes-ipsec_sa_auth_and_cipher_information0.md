@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0_
  - IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
 ---
 
@@ -79,3 +80,4 @@ Authentication algorithm information as specified by [IPSEC_SA_AUTH_INFORMATION0
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

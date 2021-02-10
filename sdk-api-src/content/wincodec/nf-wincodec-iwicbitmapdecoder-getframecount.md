@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.GetFrameCount
+ - IWICBitmapDecoder::GetFrameCount
 ---
 
 # IWICBitmapDecoder::GetFrameCount

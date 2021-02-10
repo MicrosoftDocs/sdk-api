@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _PAYLOAD_FILTER_PREDICATE
+ - PPAYLOAD_FILTER_PREDICATE
  - PAYLOAD_FILTER_PREDICATE
 ---
 
@@ -307,3 +309,4 @@ the example for the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2
 
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
+

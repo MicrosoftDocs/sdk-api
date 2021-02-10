@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winsvc.h
 api_name:
+ - _SERVICE_TRIGGER_INFO
+ - PSERVICE_TRIGGER_INFO
  - SERVICE_TRIGGER_INFO
 ---
 
@@ -97,3 +99,4 @@ This member is reserved and must be NULL.
 
 
 <a href="/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
+

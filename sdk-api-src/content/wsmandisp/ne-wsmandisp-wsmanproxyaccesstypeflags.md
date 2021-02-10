@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WSManDisp.h
 api_name:
+ - _WSManProxyAccessTypeFlags
  - WSManProxyAccessTypeFlags
 ---
 

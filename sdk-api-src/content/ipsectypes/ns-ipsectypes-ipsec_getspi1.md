@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_GETSPI1_
  - IPSEC_GETSPI1
 ---
 
@@ -78,3 +79,4 @@ Not used. An <b>IPSEC_CRYPTO_MODULE_ID</b> is a <b>GUID</b> value.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

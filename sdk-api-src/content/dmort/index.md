@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - dmort
  - dmort/dmort
+api_name:
+ - dmort
 ---
 
 # Dmort.h header

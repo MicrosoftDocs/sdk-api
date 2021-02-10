@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaControl.AddUserName
+ - IDiskQuotaControl::AddUserName
 ---
 
 # IDiskQuotaControl::AddUserName
@@ -225,3 +225,4 @@ The NTFS file system automatically creates a user quota entry when a user first 
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
+

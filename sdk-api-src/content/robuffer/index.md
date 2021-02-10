@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - robuffer
  - robuffer/robuffer
+api_name:
+ - robuffer
 ---
 
 # Robuffer.h header

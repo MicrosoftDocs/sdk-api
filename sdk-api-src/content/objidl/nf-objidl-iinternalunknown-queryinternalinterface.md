@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IInternalUnknown.QueryInternalInterface
+ - IInternalUnknown::QueryInternalInterface
 ---
 
 # IInternalUnknown::QueryInternalInterface
@@ -77,3 +77,4 @@ This method is similar to the <a href="/windows/desktop/api/unknwn/nf-unknwn-iun
 
 
 <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
+

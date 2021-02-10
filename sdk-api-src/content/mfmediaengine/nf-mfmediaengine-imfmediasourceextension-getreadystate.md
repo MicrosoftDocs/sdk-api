@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaSourceExtension.GetReadyState
+ - IMFMediaSourceExtension::GetReadyState
 ---
 
 # IMFMediaSourceExtension::GetReadyState
@@ -65,3 +65,4 @@ The ready state of the media source.
 
 
 <a href="/windows/desktop/medfound/mf-mse-ready">MF_MSE_READY</a>
+

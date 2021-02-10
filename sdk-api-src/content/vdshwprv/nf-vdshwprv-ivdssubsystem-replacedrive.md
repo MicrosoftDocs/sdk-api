@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.ReplaceDrive
+ - IVdsSubSystem::ReplaceDrive
 ---
 
 # IVdsSubSystem::ReplaceDrive
@@ -160,3 +160,4 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
+

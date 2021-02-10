@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.GetAnnotationByIndex
+ - ID3D10EffectVariable::GetAnnotationByIndex
 ---
 
 # ID3D10EffectVariable::GetAnnotationByIndex
@@ -73,3 +73,4 @@ Annonations can be attached to a technique, a pass or a gloval variable. For the
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable Interface</a>
+

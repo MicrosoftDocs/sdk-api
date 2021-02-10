@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DnsAddrArray
+ - PDNS_ADDR_ARRAY
  - DNS_ADDR_ARRAY
 ---
 
@@ -136,3 +138,4 @@ An array of <a href="/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a> 
 
 
 <a href="/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
+

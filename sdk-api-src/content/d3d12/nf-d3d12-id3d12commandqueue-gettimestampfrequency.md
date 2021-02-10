@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12CommandQueue.GetTimestampFrequency
+ - ID3D12CommandQueue::GetTimestampFrequency
 ---
 
 # ID3D12CommandQueue::GetTimestampFrequency
@@ -73,3 +73,4 @@ For more information, refer to <a href="/windows/desktop/direct3d12/timing">Timi
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
+

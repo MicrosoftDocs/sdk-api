@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
+ - tagWCN_VALUE_TYPE_VERSION
  - WCN_VALUE_TYPE_VERSION
 ---
 
@@ -67,3 +68,4 @@ Specifies WPS 2.0.  Indicates compliance with Wi-Fi Alliance protocol specificat
 ## -see-also
 
 <a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
+

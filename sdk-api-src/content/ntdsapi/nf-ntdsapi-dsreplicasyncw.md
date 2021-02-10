@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsReplicaSyncW
  - ntdsapi/DsReplicaSyncW
+ - DsReplicaSync
+ - ntdsapi/DsReplicaSync
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsReplicaSync
- - DsReplicaSyncA
  - DsReplicaSyncW
+ - DsReplicaSync
 ---
 
 # DsReplicaSyncW function
@@ -230,3 +231,4 @@ The server that <b>DsReplicaSync</b> executes on is called the destination. The 
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa">DsReplicaUpdateRefs</a>
+

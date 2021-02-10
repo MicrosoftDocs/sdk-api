@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject.FreeStreamingResources
+ - IMediaObject::FreeStreamingResources
 ---
 
 # IMediaObject::FreeStreamingResources
@@ -70,3 +70,4 @@ Regardless of whether the method fails or succeeds, the application can continue
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
+

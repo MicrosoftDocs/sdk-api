@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkernel.h
 api_name:
+ - _DDKERNELCAPS
+ - LPDDKERNELCAPS
  - DDKERNELCAPS
 ---
 
@@ -413,3 +415,4 @@ he device can generate V-sync IRQs for hardware video port number 9.
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a>
+

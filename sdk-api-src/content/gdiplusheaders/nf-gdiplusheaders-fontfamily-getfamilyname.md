@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontFamily.GetFamilyName
+ - FontFamily::GetFamilyName
 ---
 
 # FontFamily::GetFamilyName
@@ -124,3 +124,4 @@ VOID Example_GetFamilyName(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a>
+

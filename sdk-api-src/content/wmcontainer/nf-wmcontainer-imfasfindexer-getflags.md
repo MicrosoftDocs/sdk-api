@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer.GetFlags
+ - IMFASFIndexer::GetFlags
 ---
 
 # IMFASFIndexer::GetFlags
@@ -103,3 +103,4 @@ You must call this method before initializing the indexer object with <a href="/
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
+

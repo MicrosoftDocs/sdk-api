@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector.SessionThreadId
- - ITraceDataCollector.get_SessionThreadId
+ - ITraceDataCollector::get_SessionThreadId
 ---
 
 # ITraceDataCollector::get_SessionThreadId
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
+

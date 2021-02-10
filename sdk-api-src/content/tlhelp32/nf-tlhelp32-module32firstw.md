@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - Module32FirstW
  - tlhelp32/Module32FirstW
+ - Module32First
+ - tlhelp32/Module32First
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
- - Module32First
- - Module32First
  - Module32FirstW
+ - Module32First
 ---
 
 # Module32FirstW function
@@ -119,3 +120,4 @@ For an example, see
 
 
 <a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
+

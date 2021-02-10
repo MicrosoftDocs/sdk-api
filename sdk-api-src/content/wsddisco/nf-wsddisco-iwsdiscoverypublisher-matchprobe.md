@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher.MatchProbe
+ - IWSDiscoveryPublisher::MatchProbe
 ---
 
 # IWSDiscoveryPublisher::MatchProbe
@@ -179,3 +179,4 @@ Insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
+

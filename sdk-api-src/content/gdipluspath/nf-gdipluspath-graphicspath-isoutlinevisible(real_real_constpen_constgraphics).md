@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.IsOutlineVisible
+ - GraphicsPath::IsOutlineVisible
 ---
 
 # GraphicsPath::IsOutlineVisible(IN REAL,IN REAL,IN const Pen,IN const Graphics)
@@ -132,3 +132,4 @@ If the test point touches the outline of this path, this method returns <b>TRUE<
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>
+

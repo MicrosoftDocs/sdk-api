@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_IPV4Filter.GetMulticastListSize
+ - IBDA_IPV4Filter::GetMulticastListSize
 ---
 
 # IBDA_IPV4Filter::GetMulticastListSize
@@ -73,3 +73,4 @@ This method is used by an IPv4 Network Data Sink filter to request that a Networ
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ipv4filter">IBDA_IPV4Filter Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wpcevent.h
 api_name:
+ - tagWPCFLAG_LOGOFF_TYPE
  - WPCFLAG_LOGOFF_TYPE
 ---
 

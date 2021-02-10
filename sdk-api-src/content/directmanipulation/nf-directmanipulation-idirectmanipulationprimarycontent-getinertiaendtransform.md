@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.GetInertiaEndTransform
+ - IDirectManipulationPrimaryContent::GetInertiaEndTransform
 ---
 
 # IDirectManipulationPrimaryContent::GetInertiaEndTransform
@@ -76,3 +76,4 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationprimarycontent">IDirectManipulationPrimaryContent</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator.GetInternalMemInfo
+ - IAMVideoAccelerator::GetInternalMemInfo
 ---
 
 # IAMVideoAccelerator::GetInternalMemInfo
@@ -144,3 +144,4 @@ Success.
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IChangeUnitListFilterInfo.Initialize
+ - IChangeUnitListFilterInfo::Initialize
 ---
 
 # IChangeUnitListFilterInfo::Initialize
@@ -123,3 +123,4 @@ An <b>IChangeUnitListFilterInfo</b> object can be reused. Calling <b>Initialize<
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>
+

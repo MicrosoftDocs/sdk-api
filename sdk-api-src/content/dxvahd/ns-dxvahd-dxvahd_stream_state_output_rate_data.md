@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
  - DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
 ---
 
@@ -120,3 +121,4 @@ The output rate might require the device to convert the frame rate of the input 
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

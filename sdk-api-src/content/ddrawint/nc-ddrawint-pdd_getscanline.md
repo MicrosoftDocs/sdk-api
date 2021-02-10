@@ -42,11 +42,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdGetScanLine
+ - PDD_GETSCANLINE
 ---
-
-
-
 
 ## -description
 
@@ -55,7 +52,6 @@ The <i>DdGetScanLine</i> callback function returns the number of the current phy
 ## -parameters
 
 ### -param Arg1
-
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getscanlinedata">DD_GETSCANLINEDATA</a> structure in which the driver returns the number of the current scan line.
 
@@ -72,3 +68,4 @@ The scan line is indeterminate if a vertical blank is in progress. In this situa
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getscanlinedata">DD_GETSCANLINEDATA</a>
+

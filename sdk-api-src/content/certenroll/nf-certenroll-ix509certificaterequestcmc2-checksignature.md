@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateRequestCmc2.CheckSignature
+ - IX509CertificateRequestCmc2::CheckSignature
 ---
 
 # IX509CertificateRequestCmc2::CheckSignature
@@ -140,3 +140,4 @@ This method uses the public key to decrypt the signature and compares the signat
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc2">IX509CertificateRequestCmc2</a>
+

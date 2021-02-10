@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStream.Load
+ - IPersistStream::Load
 ---
 
 # IPersistStream::Load
@@ -126,3 +126,4 @@ Initializes an URL moniker from data within a stream, usually stored there previ
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
+

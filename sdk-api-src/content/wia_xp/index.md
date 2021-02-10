@@ -9,6 +9,8 @@ tech.root: automat
 f1_keywords:
  - wia_xp
  - wia_xp/wia_xp
+api_name:
+ - wia_xp
 ---
 
 # Wia_Xp.h header

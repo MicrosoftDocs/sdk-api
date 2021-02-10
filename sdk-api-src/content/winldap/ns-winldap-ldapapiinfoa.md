@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - LDAPAPIInfo
+ - ldapapiinfoA
  - LDAPAPIInfoA
- - LDAPAPIInfoW
 ---
 
 # LDAPAPIInfoA structure
@@ -108,3 +107,4 @@ A pointer to this structure is passed with the <a href="/previous-versions/previ
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
+

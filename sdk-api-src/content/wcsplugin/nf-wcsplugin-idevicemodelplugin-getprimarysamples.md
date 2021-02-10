@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.GetPrimarySamples
+ - IDeviceModelPlugIn::GetPrimarySamples
 ---
 
 # IDeviceModelPlugIn::GetPrimarySamples
@@ -75,3 +75,4 @@ If this function fails, the return value is E_FAIL.
 
 
 <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
+

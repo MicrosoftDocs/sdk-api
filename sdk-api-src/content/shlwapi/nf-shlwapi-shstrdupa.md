@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHStrDupA
  - shlwapi/SHStrDupA
+ - SHStrDup
+ - shlwapi/SHStrDup
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
  - API-MS-Win-ShCore-Obsolete-l1-1-0.dll
 api_name:
- - SHStrDup
  - SHStrDupA
- - SHStrDupW
+ - SHStrDup
 ---
 
 # SHStrDupA function
@@ -99,3 +100,4 @@ This function uses <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotask
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strdupa">StrDup</a>
+

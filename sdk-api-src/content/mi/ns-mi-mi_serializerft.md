@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_SerializerFT
  - MI_SerializerFT
 ---
 
@@ -71,3 +72,4 @@ Serializes an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> into
 Serializes an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> into a buffer in the 
        format specified when the serializer was created. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
+

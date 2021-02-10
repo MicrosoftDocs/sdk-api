@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopoLoader.Load
+ - IMFTopoLoader::Load
 ---
 
 # IMFTopoLoader::Load
@@ -123,3 +123,4 @@ Before calling this method, you must ensure that the output nodes in the partial
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

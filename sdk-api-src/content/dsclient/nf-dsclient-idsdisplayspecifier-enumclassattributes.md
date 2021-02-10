@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.EnumClassAttributes
+ - IDsDisplaySpecifier::EnumClassAttributes
 ---
 
 # IDsDisplaySpecifier::EnumClassAttributes
@@ -81,3 +81,4 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
+

@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISwapChain.ResizeBuffers
+ - IDXGISwapChain::ResizeBuffers
 ---
 
 # IDXGISwapChain::ResizeBuffers
@@ -145,3 +145,4 @@ The only difference between <b>IDXGISwapChain::ResizeBuffers</b> in Windows 8 v
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
+

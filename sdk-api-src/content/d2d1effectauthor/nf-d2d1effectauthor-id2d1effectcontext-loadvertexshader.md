@@ -43,7 +43,7 @@ api_location:
  - D2D1.lib
  - D2D1.dll
 api_name:
- - ID2D1EffectContext.LoadVertexShader
+ - ID2D1EffectContext::LoadVertexShader
 ---
 
 # ID2D1EffectContext::LoadVertexShader
@@ -105,3 +105,4 @@ The shader you specify must be compiled,  not  in raw HLSL code.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
+

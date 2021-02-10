@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device1.CreateDeviceContextState
+ - ID3D11Device1::CreateDeviceContextState
 ---
 
 # ID3D11Device1::CreateDeviceContextState
@@ -1665,3 +1665,4 @@ Create*, like <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createqu
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsReadMsgPdu.Message
- - IMbnSmsReadMsgPdu.get_Message
+ - IMbnSmsReadMsgPdu::get_Message
 ---
 
 # IMbnSmsReadMsgPdu::get_Message
@@ -67,3 +66,4 @@ For CDMA devices, this returns a byte array representing a message as defined in
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a>
+

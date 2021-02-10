@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVertexBuffer9.GetDesc
+ - IDirect3DVertexBuffer9::GetDesc
 ---
 
 # IDirect3DVertexBuffer9::GetDesc
@@ -74,3 +74,4 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 <a href="/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
+

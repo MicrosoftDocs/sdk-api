@@ -46,7 +46,8 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - IMAGEHLP_DUPLICATE_SYMBOL64
+ - _IMAGEHLP_DUPLICATE_SYMBOL
+ - PIMAGEHLP_DUPLICATE_SYMBOL
  - IMAGEHLP_DUPLICATE_SYMBOL
 ---
 
@@ -103,3 +104,4 @@ typedef struct _IMAGEHLP_DUPLICATE_SYMBOL {
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
+

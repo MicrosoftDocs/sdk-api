@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _FD_XFORM
+ - PFD_XFORM
  - FD_XFORM
 ---
 

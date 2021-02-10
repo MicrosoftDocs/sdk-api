@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTranscodeProfile.SetVideoAttributes
+ - IMFTranscodeProfile::SetVideoAttributes
 ---
 
 # IMFTranscodeProfile::SetVideoAttributes
@@ -93,3 +93,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/transcode-api">Transcode API</a>
+

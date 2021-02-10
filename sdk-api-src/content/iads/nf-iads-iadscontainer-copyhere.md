@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsContainer.CopyHere
+ - IADsContainer::CopyHere
 ---
 
 # IADsContainer::CopyHere
@@ -87,3 +87,4 @@ The  providers supplied with ADSI return the <b>E_NOTIMPL</b> error message.
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadscontainer-movehere">IADsContainer::MoveHere</a>
+

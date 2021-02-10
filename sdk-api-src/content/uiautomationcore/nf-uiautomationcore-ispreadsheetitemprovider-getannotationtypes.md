@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISpreadsheetItemProvider.GetAnnotationTypes
+ - ISpreadsheetItemProvider::GetAnnotationTypes
 ---
 
 # ISpreadsheetItemProvider::GetAnnotationTypes
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ispreadsheetitemprovider">ISpreadsheetItemProvider</a>
+

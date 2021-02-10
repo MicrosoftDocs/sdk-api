@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.ModuleClsid
- - IFsrmPipelineModuleDefinition.get_ModuleClsid
- - IFsrmPipelineModuleDefinition.put_ModuleClsid
+ - IFsrmPipelineModuleDefinition::get_ModuleClsid
 ---
 
 # IFsrmPipelineModuleDefinition::get_ModuleClsid
@@ -65,3 +63,4 @@ Note that the COM class  identifier specified must refer to a class that impleme
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
+

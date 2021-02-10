@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _SColumnSetID
  - SColumnSetID
 ---
 
@@ -85,3 +86,4 @@ For details on using the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
+

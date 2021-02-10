@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoServiceControl.StopService
+ - ISdoServiceControl::StopService
 ---
 
 # ISdoServiceControl::StopService
@@ -75,3 +75,4 @@ If the method fails, the return value is one of the following error codes.
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-startservice">ISdoServiceControl::StartService</a>
+

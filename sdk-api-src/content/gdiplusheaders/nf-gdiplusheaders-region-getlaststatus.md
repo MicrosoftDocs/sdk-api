@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region.GetLastStatus
+ - Region::GetLastStatus
 ---
 
 # Region::GetLastStatus
@@ -117,3 +117,4 @@ VOID Example_GetLastStatus(HDC hdc)
    }
 }
 ```
+

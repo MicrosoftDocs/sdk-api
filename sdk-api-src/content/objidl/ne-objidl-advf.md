@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
+ - tagADVF
  - ADVF
 ---
 
@@ -129,3 +130,4 @@ These constants are also used in the <b>advf</b> member of the <a href="/windows
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter.InstallAlternateWriter
+ - CVssWriter::InstallAlternateWriter
 ---
 
 # CVssWriter::InstallAlternateWriter

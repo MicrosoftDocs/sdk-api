@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateCubicBezierLinearTransition
+ - IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition
 ---
 
 # IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition
@@ -101,3 +101,4 @@ The following figure shows the change in value over time for an animation variab
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
+

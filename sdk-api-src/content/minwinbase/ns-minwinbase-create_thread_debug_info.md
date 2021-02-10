@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _CREATE_THREAD_DEBUG_INFO
+ - LPCREATE_THREAD_DEBUG_INFO
  - CREATE_THREAD_DEBUG_INFO
 ---
 
@@ -90,3 +92,4 @@ A pointer to the starting address of the thread. This value may only be an appro
 
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
+

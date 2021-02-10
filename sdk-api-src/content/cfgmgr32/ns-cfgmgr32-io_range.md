@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cfgmgr32.h
 api_name:
+ - IO_Range_s
+ - PIO_RANGE
  - IO_RANGE
 ---
 
@@ -139,3 +141,4 @@ The flags specified for <b>IOR_Alias</b> have the same interpretation as the add
 ## -see-also
 
 [IO_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)
+

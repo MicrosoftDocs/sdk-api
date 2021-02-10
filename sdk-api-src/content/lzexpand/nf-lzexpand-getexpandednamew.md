@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetExpandedNameW
  - lzexpand/GetExpandedNameW
+ - GetExpandedName
+ - lzexpand/GetExpandedName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Lz32.dll
 api_name:
- - GetExpandedName
- - GetExpandedNameA
  - GetExpandedNameW
+ - GetExpandedName
 ---
 
 # GetExpandedNameW function
@@ -154,3 +155,4 @@ Yes
 
 
 <a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+

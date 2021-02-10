@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChainMedia.GetFrameStatisticsMedia
+ - IDXGISwapChainMedia::GetFrameStatisticsMedia
 ---
 
 # IDXGISwapChainMedia::GetFrameStatisticsMedia
@@ -66,3 +66,4 @@ This method returns S_OK on success, or a DXGI error code on failure.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchainmedia">IDXGISwapChainMedia</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmDerivedObjectsResult.DerivedObjects
- - IFsrmDerivedObjectsResult.get_DerivedObjects
+ - IFsrmDerivedObjectsResult::get_DerivedObjects
 ---
 
 # IFsrmDerivedObjectsResult::get_DerivedObjects
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmderivedobjectsresult">IFsrmDerivedObjectsResult</a>
+

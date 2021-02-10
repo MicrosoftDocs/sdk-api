@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHRegWriteUSValueA
  - shlwapi/SHRegWriteUSValueA
+ - SHRegWriteUSValue
+ - shlwapi/SHRegWriteUSValue
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - SHRegWriteUSValue
  - SHRegWriteUSValueA
- - SHRegWriteUSValueW
+ - SHRegWriteUSValue
 ---
 
 # SHRegWriteUSValueA function
@@ -212,3 +213,4 @@ If you need to write more than one value on the same key, multiple calls to <b>S
 ## -see-also
 
 <a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>
+

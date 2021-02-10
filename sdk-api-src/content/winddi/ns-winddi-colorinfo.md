@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _COLORINFO
+ - PCOLORINFO
  - COLORINFO
 ---
 
@@ -119,3 +121,4 @@ Any values in the COLORINFO structure that are out of the specified range defaul
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
+

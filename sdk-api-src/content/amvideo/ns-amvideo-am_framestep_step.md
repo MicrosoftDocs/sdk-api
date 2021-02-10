@@ -44,6 +44,7 @@ api_type:
 api_location:
  - amvideo.h
 api_name:
+ - _AM_FRAMESTEP_STEP
  - AM_FRAMESTEP_STEP
 ---
 
@@ -63,3 +64,4 @@ Specifies the number of frames to step.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/frame-stepping-property-set">Frame Stepping Property Set</a>
+

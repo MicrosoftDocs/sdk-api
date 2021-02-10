@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cchannel.h
 api_name:
+ - tagCHANNEL_ENTRY_POINTS
+ - PCHANNEL_ENTRY_POINTS
  - CHANNEL_ENTRY_POINTS
 ---
 
@@ -106,3 +108,4 @@ Pointer to a
 
 
 <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a>
+

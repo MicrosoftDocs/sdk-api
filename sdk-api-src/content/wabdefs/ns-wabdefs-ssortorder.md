@@ -47,6 +47,8 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
+ - _SSortOrder
+ - LPSSortOrder
  - SSortOrder
 ---
 
@@ -90,3 +92,4 @@ TABLE_SORT_COMBINE can only be used when the <b>SSortOrder</b> structure is bein
 #### TABLE_SORT_DESCEND
 
 Table is sorted in descending order.
+

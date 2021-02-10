@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertConfig2.SetSharedFolder
- - CCertConfig.SetSharedFolder
+ - ICertConfig2::SetSharedFolder
 ---
 
 # ICertConfig2::SetSharedFolder
@@ -65,3 +64,4 @@ String value that specifies the path of the new shared folder directory.
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

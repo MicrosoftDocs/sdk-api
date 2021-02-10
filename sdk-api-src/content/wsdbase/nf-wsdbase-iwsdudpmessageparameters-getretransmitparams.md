@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpMessageParameters.GetRetransmitParams
+ - IWSDUdpMessageParameters::GetRetransmitParams
 ---
 
 # IWSDUdpMessageParameters::GetRetransmitParams
@@ -94,3 +94,4 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a>
+

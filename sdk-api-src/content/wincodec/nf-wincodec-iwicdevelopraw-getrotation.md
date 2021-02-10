@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetRotation
+ - IWICDevelopRaw::GetRotation
 ---
 
 # IWICDevelopRaw::GetRotation

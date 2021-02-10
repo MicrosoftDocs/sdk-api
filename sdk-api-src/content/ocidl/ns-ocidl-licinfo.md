@@ -46,6 +46,8 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagLICINFO
+ - LPLICINFO
  - LICINFO
 ---
 
@@ -73,3 +75,4 @@ Indicates whether a full machine license exists such that calls to <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">IClassFactory2::GetLicInfo</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
+ - _tagOLECMDTEXT
  - OLECMDTEXT
 ---
 
@@ -79,3 +80,4 @@ A caller-allocated array of wide characters to receive the command name or statu
 
 
 <a href="/windows/desktop/api/docobj/ne-docobj-olecmdtextf">OLECMDTEXTF</a>
+

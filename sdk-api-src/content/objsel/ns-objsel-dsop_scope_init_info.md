@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Objsel.h
 api_name:
+ - _DSOP_SCOPE_INIT_INFO
+ - PDSOP_SCOPE_INIT_INFO
  - DSOP_SCOPE_INIT_INFO
 ---
 
@@ -251,3 +253,4 @@ If <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">ID
 
 
 <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>
+

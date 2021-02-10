@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetProxyBypassForLocal
+ - IWMReaderNetworkConfig::SetProxyBypassForLocal
 ---
 
 # IWMReaderNetworkConfig::SetProxyBypassForLocal
@@ -113,3 +113,4 @@ This setting is used only when the proxy setting is WMT_PROXY_SETTING_MANUAL. If
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxysettings">IWMReaderNetworkConfig::SetProxySettings</a>
+

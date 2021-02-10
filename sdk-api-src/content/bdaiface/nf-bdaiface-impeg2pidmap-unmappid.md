@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMPEG2PIDMap.UnmapPID
+ - IMPEG2PIDMap::UnmapPID
 ---
 
 # IMPEG2PIDMap::UnmapPID
@@ -78,3 +78,4 @@ On output pins for audio and video streams, there will typically be only one PID
 
 
 <a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>
+

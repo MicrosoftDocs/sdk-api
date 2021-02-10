@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetVectorCurve
+ - IUIAnimationVariable2::GetVectorCurve
 ---
 
 # IUIAnimationVariable2::GetVectorCurve
@@ -73,3 +73,4 @@ The application implements the <a href="/windows/desktop/api/dcompanimation/nn-d
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable2">IUIAnimationVariable2</a>
+

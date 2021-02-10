@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoProcessor.GetVideoProcessorCaps
+ - IDirectXVideoProcessor::GetVideoProcessorCaps
 ---
 
 # IDirectXVideoProcessor::GetVideoProcessorCaps
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessor">IDirectXVideoProcessor</a>
+

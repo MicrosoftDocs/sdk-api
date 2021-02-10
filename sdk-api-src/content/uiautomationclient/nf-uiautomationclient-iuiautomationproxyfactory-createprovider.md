@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactory.CreateProvider
+ - IUIAutomationProxyFactory::CreateProvider
 ---
 
 # IUIAutomationProxyFactory::CreateProvider
@@ -87,3 +87,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The <i>idObject</i> parameter is normally <a href="/windows/desktop/WinAuto/object-identifiers">OBJID_CLIENT</a>, and <i>idChild</i> is normally CHILDID_SELF. However, when the method is called in response to a registered WinEvent, these values are from the event, specifying the subelement that raised the event.
+

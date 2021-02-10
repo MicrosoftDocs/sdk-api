@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxQueryConsoleSwitchCredentials
+ - PWLX_QUERY_CONSOLESWITCH_CREDENTIALS
 ---
 
 # PWLX_QUERY_CONSOLESWITCH_CREDENTIALS callback function
@@ -68,3 +68,4 @@ Returns <b>TRUE</b> if credentials were transferred and <b>FALSE</b> if the tran
 
 In order to access this function, the GINA DLL must use the 
 <a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a> structure.
+

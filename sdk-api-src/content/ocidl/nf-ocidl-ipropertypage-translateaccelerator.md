@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPage.TranslateAccelerator
+ - IPropertyPage::TranslateAccelerator
 ---
 
 # IPropertyPage::TranslateAccelerator
@@ -121,3 +121,4 @@ Calls to this method must occur after a call to <a href="/windows/desktop/api/oc
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
+

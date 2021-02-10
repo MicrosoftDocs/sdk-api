@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
+ - _DDOVERLAYFX
  - DDOVERLAYFX
 ---
 
@@ -128,3 +129,4 @@ Currently not used and must be set to 0.
 ## -remarks
 
 The unions in this structure have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the Ddraw.h header file.
+

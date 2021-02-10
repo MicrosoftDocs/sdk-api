@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IContextMenu.QueryContextMenu
+ - IContextMenu::QueryContextMenu
 ---
 
 # IContextMenu::QueryContextMenu
@@ -209,3 +209,4 @@ A common practice is to set the first command identifier to <i>idCmdFirst</i> (a
 If the Shell subsequently calls another shortcut menu handler, it will use the code value of the returned <b>HRESULT</b> to set <i>idCmdFirst</i> when it calls that handler's <b>QueryContextMenu</b> method.
 
 When a context menu handler adds a pop-up menu item, it must use <b>IContextMenu::QueryContextMenu</b> to add at least one item to that menu for the WM_INITMENUPOPUP message to be forwarded.
+

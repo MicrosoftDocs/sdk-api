@@ -44,6 +44,7 @@ api_type:
 api_location:
  - VirtDisk.h
 api_name:
+ - _RESIZE_VIRTUAL_DISK_VERSION
  - RESIZE_VIRTUAL_DISK_VERSION
 ---
 
@@ -76,3 +77,4 @@ Version one of the parameters is used. This is the only supported value.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_CONTEXT
+ - PCERT_CONTEXT
  - CERT_CONTEXT
 ---
 
@@ -138,3 +140,4 @@ A handle to the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> 
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
+

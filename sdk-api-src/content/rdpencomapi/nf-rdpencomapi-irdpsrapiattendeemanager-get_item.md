@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendeeManager.Item
- - IRDPSRAPIAttendeeManager.get_Item
- - RDPSRAPIAttendeeManager.Item
+ - IRDPSRAPIAttendeeManager::get_Item
 ---
 
 # IRDPSRAPIAttendeeManager::get_Item
@@ -65,3 +63,4 @@ If the identifier matches the object identifier of one of the attendee objects, 
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a>
+

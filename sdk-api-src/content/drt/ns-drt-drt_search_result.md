@@ -46,6 +46,8 @@ api_type:
 api_location:
  - drt.h
 api_name:
+ - drt_search_result_tag
+ - PDRT_SEARCH_RESULT
  - DRT_SEARCH_RESULT
 ---
 
@@ -82,3 +84,4 @@ Contains the registration result.
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
+

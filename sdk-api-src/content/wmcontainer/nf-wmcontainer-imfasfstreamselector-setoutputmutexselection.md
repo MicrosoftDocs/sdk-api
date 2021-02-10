@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector.SetOutputMutexSelection
+ - IMFASFStreamSelector::SetOutputMutexSelection
 ---
 
 # IMFASFStreamSelector::SetOutputMutexSelection
@@ -102,3 +102,4 @@ An ASF file can contain multiple mutually exclusive relationships, such as a fil
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutex">IMFASFStreamSelector::GetOutputMutex</a>
+

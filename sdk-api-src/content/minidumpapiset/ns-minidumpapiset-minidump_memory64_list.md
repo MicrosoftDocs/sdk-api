@@ -46,7 +46,9 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - MINIDUMP_MEMORY_LIST
+ - _MINIDUMP_MEMORY64_LIST
+ - PMINIDUMP_MEMORY64_LIST
+ - MINIDUMP_MEMORY64_LIST
 ---
 
 # MINIDUMP_MEMORY64_LIST structure
@@ -93,3 +95,4 @@ Note that <b>BaseRva</b> is the overall base RVA for the memory list. To locate 
 
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+

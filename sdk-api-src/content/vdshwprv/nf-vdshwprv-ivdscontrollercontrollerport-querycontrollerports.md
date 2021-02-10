@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsControllerControllerPort.QueryControllerPorts
+ - IVdsControllerControllerPort::QueryControllerPorts
 ---
 
 # IVdsControllerControllerPort::QueryControllerPorts
@@ -156,3 +156,4 @@ This operation is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontrollercontrollerport">IVdsControllerControllerPort</a>
+

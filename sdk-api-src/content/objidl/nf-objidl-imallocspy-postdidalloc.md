@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMallocSpy.PostDidAlloc
+ - IMallocSpy::PostDidAlloc
 ---
 
 # IMallocSpy::PostDidAlloc
@@ -87,3 +87,4 @@ For convenience, <i>pRequest</i>, the original pointer passed in the call to <a 
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-predidalloc">IMallocSpy::PreDidAlloc</a>
+

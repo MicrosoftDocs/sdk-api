@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPathKeyList.GetText
+ - IWbemPathKeyList::GetText
 ---
 
 # IWbemPathKeyList::GetText
@@ -94,3 +94,4 @@ This method can be used to determine how big a buffer is needed by passing in a 
 
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>
+

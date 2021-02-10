@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.IsUserAllowedToLogon
+ - IWTSProtocolConnection::IsUserAllowedToLogon
 ---
 
 # IWTSProtocolConnection::IsUserAllowedToLogon
@@ -75,3 +75,4 @@ A pointer to a string that contains the user name.
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

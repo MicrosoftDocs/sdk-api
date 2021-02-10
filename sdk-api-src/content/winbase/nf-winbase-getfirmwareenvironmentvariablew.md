@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetFirmwareEnvironmentVariableW
  - winbase/GetFirmwareEnvironmentVariableW
+ - GetFirmwareEnvironmentVariable
+ - winbase/GetFirmwareEnvironmentVariable
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - kernel32legacy.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GetFirmwareEnvironmentVariable
- - GetFirmwareEnvironmentVariableA
  - GetFirmwareEnvironmentVariableW
+ - GetFirmwareEnvironmentVariable
 ---
 
 # GetFirmwareEnvironmentVariableW function
@@ -122,3 +123,4 @@ If you are creating a backup application, you can use this function to save all 
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Pwm.h
 api_name:
+ - _PWM_PIN_SET_POLARITY_INPUT
  - PWM_PIN_SET_POLARITY_INPUT
 ---
 
@@ -67,3 +68,4 @@ The desired polarity for the pin or channel as a <a href="/windows/desktop/api/p
 
 
 <a href="/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a>
+

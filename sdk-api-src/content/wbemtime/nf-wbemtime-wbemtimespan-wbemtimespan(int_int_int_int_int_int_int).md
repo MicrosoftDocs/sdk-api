@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan.WBEMTimeSpan
- - ??0WBEMTimeSpan@@QAE@HHHHHHH@Z
+ - WBEMTimeSpan::WBEMTimeSpan
 ---
 
 # WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int)
@@ -90,3 +89,4 @@ Number of elapsed
 ### -param iNSec
 
 Number of elapsed nanoseconds.
+

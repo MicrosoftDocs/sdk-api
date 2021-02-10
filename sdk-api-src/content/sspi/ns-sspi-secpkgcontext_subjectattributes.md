@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_SubjectAttributes
+ - PSecPkgContext_SubjectAttributes
  - SecPkgContext_SubjectAttributes
 ---
 
@@ -61,3 +63,4 @@ The <b>SecPkgContext_SubjectAttributes</b> structure returns the security attrib
 ### -field AttributeInfo
 
 Pointer to a <b>void</b> that receives the attribute information stored in a <a href="/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure.
+

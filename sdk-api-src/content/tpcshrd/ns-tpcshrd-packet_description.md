@@ -46,6 +46,8 @@ api_type:
 api_location:
  - tpcshrd.h
 api_name:
+ - _PACKET_DESCRIPTION
+ - PPACKET_DESCRIPTION
  - PACKET_DESCRIPTION
 ---
 
@@ -91,3 +93,4 @@ The <b>PACKET_DESCRIPTION</b> structure defines the logical layout of the packet
 
 
 <a href="/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription Function</a>
+

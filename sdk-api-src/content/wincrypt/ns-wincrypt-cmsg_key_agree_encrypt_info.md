@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_KEY_AGREE_ENCRYPT_INFO
+ - PCMSG_KEY_AGREE_ENCRYPT_INFO
  - CMSG_KEY_AGREE_ENCRYPT_INFO
 ---
 
@@ -216,3 +218,4 @@ The following members of the <b>CMSG_KEY_AGREE_ENCRYPT_INFO</b> structure can be
 
 
 The other members are read-only.
+

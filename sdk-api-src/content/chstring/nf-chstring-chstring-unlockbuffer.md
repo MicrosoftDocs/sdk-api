@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.UnlockBuffer
+ - CHString::UnlockBuffer
 ---
 
 # CHString::UnlockBuffer
@@ -72,3 +72,4 @@ The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> destructor implies <
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-lockbuffer">CHString::LockBuffer</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - peninputpanel.h
 api_name:
+ - __MIDL___MIDL_itf_peninputpanel_0000_0000_0004
  - CorrectionMode
 ---
 
@@ -83,3 +84,4 @@ There are two basic modes in which the correction comb may appear; pre-insertion
 The post-insertion correction comb is used to correct text after it has been inserted into an application. Activate the post-insertion mode by placing the insertion point in or selecting text that was previously inserted.
 
 The post-insertion correction comb may appear either above or below Input Panel or it may appear collapsed or expanded. In the collapsed state the post-insertion correction comb only shows a list of alternates. In the expanded state it includes both the alternates and an area to rewrite the word.
+

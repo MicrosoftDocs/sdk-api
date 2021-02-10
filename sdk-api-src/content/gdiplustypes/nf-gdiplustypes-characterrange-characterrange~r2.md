@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CharacterRange.CharacterRange
+ - CharacterRange::CharacterRange
 ---
 
 # CharacterRange::CharacterRange~r2
@@ -70,3 +70,4 @@ Creates a <b>CharacterRange::CharacterRange</b> object with the data members set
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>
+

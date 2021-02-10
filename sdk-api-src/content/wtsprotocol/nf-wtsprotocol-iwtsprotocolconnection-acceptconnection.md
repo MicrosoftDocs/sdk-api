@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.AcceptConnection
+ - IWTSProtocolConnection::AcceptConnection
 ---
 
 # IWTSProtocolConnection::AcceptConnection
@@ -63,3 +63,4 @@ During a connection sequence, the Remote Desktop Services service calls this met
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

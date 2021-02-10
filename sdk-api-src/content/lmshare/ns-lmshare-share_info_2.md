@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
+ - _SHARE_INFO_2
+ - PSHARE_INFO_2
  - SHARE_INFO_2
 ---
 
@@ -296,3 +298,4 @@ Pointer to a Unicode string that specifies the share's password when the server 
 
 
 <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
+

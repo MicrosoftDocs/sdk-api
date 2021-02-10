@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetSidLength
+ - IDiskQuotaUser::GetSidLength
 ---
 
 # IDiskQuotaUser::GetSidLength
@@ -125,3 +125,4 @@ Failure to obtain an exclusive lock.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
+

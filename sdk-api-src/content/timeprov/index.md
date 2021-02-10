@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - timeprov
  - timeprov/timeprov
+api_name:
+ - timeprov
 ---
 
 # Timeprov.h header

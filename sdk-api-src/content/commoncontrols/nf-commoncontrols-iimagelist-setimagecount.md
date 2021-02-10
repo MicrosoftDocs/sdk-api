@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList.SetImageCount
+ - IImageList::SetImageCount
 ---
 
 # IImageList::SetImageCount
@@ -74,3 +74,4 @@ If an application expands an image list using this method, it must add new image
 If you decrease the size of an image list using this method, images at the end of the list for which there is no longer room are truncated from the list.  Images truncated in this manner are automatically deallocated. 
 
 To use <b>IImageList::SetImageCount</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

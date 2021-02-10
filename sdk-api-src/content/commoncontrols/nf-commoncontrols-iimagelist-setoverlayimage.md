@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList.SetOverlayImage
+ - IImageList::SetOverlayImage
 ---
 
 # IImageList::SetOverlayImage
@@ -81,3 +81,4 @@ A call to this method fails and returns E_INVALIDARG unless the image list is cr
 		
 
 To use <b>IImageList::SetOverlayImage</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

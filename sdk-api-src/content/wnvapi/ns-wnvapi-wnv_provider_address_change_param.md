@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
+ - _WNV_PROVIDER_ADDRESS_CHANGE_PARAM
+ - PWNV_PROVIDER_ADDRESS_CHANGE_PARAM
  - WNV_PROVIDER_ADDRESS_CHANGE_PARAM
 ---
 
@@ -153,3 +155,4 @@ For a detailed description of network virtualization concepts and terminology, r
 
 
 <a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_object_type">WNV_OBJECT_TYPE</a>
+

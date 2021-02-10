@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_SESSIONINFO_TYPE
  - SECPKG_SESSIONINFO_TYPE
 ---
 
@@ -59,3 +60,4 @@ Specifies the format of session information. This enumeration is used by the <a 
 ### -field SecSessionPrimaryCred
 
 The session information is contained in a <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure.
+

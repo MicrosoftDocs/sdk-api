@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFClockStateSink.OnClockSetRate
+ - IMFClockStateSink::OnClockSetRate
 ---
 
 # IMFClockStateSink::OnClockSetRate
@@ -85,3 +85,4 @@ For any object that is not the presentation time source, the <b>OnClockSetRate</
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

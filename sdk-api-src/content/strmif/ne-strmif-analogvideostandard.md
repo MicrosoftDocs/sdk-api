@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagAnalogVideoStandard
  - AnalogVideoStandard
 ---
 
@@ -151,3 +152,4 @@ Combination (N) PAL standard (Argentina).
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a>
+

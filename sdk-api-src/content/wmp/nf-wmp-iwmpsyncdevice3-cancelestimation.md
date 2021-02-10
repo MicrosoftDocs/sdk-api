@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice3.cancelEstimation
+ - IWMPSyncDevice3::cancelEstimation
 ---
 
 # IWMPSyncDevice3::cancelEstimation
@@ -83,3 +83,4 @@ When you call this method, Windows Media Player raises the<a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3">IWMPSyncDevice3 Interface</a>
+

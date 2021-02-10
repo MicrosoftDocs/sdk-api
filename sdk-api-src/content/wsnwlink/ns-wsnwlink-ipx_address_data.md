@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wsnwlink.h
 api_name:
+ - _IPX_ADDRESS_DATA
+ - PIPX_ADDRESS_DATA
  - IPX_ADDRESS_DATA
 ---
 
@@ -96,3 +98,4 @@ Adapter numbers are base zero, so if there are eight adapters on a given compute
 ## -see-also
 
 <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
+

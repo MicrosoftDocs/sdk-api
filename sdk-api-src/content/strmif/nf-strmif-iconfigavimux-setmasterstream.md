@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IConfigAviMux.SetMasterStream
+ - IConfigAviMux::SetMasterStream
 ---
 
 # IConfigAviMux::SetMasterStream
@@ -111,3 +111,4 @@ This method works by adjusting the <i>dwScale</i> and <i>dwRate</i> values in th
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iconfigavimux">IConfigAviMux Interface</a>
+

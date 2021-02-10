@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _AUTH_VALIDATION_EX
  - AUTH_VALIDATION_EX
 ---
 
@@ -92,3 +93,4 @@ A <b>BYTE</b> array that contains the user authentication information required t
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
+

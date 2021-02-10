@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.ShowPopup
+ - IWMPContentPartnerCallback::ShowPopup
 ---
 
 # IWMPContentPartnerCallback::ShowPopup
@@ -95,3 +95,4 @@ You can use the <i>bstrParameters</i> parameter to specify the size of the pop-u
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
+

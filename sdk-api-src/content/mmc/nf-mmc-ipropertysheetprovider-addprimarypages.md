@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider.AddPrimaryPages
+ - IPropertySheetProvider::AddPrimaryPages
 ---
 
 # IPropertySheetProvider::AddPrimaryPages
@@ -95,3 +95,4 @@ The snap-in might not add any pages during this method call. If this is the case
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-ipropertysheetprovider-directly">Using IPropertySheetProvider Directly</a>
+

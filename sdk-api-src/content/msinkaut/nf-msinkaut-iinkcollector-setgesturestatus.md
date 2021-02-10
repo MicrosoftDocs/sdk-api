@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector.SetGestureStatus
+ - IInkCollector::SetGestureStatus
 ---
 
 # IInkCollector::SetGestureStatus
@@ -178,3 +178,4 @@ For the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> 
 
 
 <a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
+

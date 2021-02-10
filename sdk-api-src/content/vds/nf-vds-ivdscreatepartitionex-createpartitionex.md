@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsCreatePartitionEx.CreatePartitionEx
+ - IVdsCreatePartitionEx::CreatePartitionEx
 ---
 
 # IVdsCreatePartitionEx::CreatePartitionEx
@@ -228,3 +228,4 @@ If a dynamic disk is read-only and offline, it must be made read/write and broug
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdscreatepartitionex">IVdsCreatePartitionEx</a>
+

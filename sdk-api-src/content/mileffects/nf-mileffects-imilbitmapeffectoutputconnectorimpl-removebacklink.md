@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectOutputConnectorImpl.RemoveBackLink
+ - IMILBitmapEffectOutputConnectorImpl::RemoveBackLink
 ---
 
 # IMILBitmapEffectOutputConnectorImpl::RemoveBackLink
@@ -61,3 +61,4 @@ Type: <b><a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffect
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

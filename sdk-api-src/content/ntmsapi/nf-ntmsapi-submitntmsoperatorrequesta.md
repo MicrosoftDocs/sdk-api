@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SubmitNtmsOperatorRequestA
  - ntmsapi/SubmitNtmsOperatorRequestA
+ - SubmitNtmsOperatorRequest
+ - ntmsapi/SubmitNtmsOperatorRequest
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - SubmitNtmsOperatorRequest
  - SubmitNtmsOperatorRequestA
- - SubmitNtmsOperatorRequestW
+ - SubmitNtmsOperatorRequest
 ---
 
 # SubmitNtmsOperatorRequestA function
@@ -288,3 +289,4 @@ The NTMS_OPEREQ_MESSAGE value (in the <i>dwRequest</i> parameter) is the request
 
 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsoperatorrequest">WaitForNtmsOperatorRequest</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagRAWHID
+ - PRAWHID
  - RAWHID
 ---
 
@@ -97,3 +99,4 @@ For more information, see <a href="/windows-hardware/drivers/hid/interpreting-hi
 <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>
 
 <a href="/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>
+

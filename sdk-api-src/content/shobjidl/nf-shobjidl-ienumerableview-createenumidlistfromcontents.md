@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IEnumerableView.CreateEnumIDListFromContents
+ - IEnumerableView::CreateEnumIDListFromContents
 ---
 
 # IEnumerableView::CreateEnumIDListFromContents
@@ -77,3 +77,4 @@ When this method returns, contains an <a href="/windows/desktop/api/shobjidl_cor
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
+

@@ -42,6 +42,7 @@ api_type:
 api_location:
  - ntdef.h
 api_name:
+ - _OBJECT_ATTRIBUTES
  - OBJECT_ATTRIBUTES
 ---
 
@@ -252,3 +253,4 @@ Driver routines that run in a process context other than that of the system proc
 
 f1_keywords: 
  - "ntdef/ANSI_STRING"
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.MaxFolderCount
- - IDataManager.get_MaxFolderCount
- - IDataManager.put_MaxFolderCount
+ - IDataManager::put_MaxFolderCount
 ---
 
 # IDataManager::put_MaxFolderCount
@@ -65,3 +63,4 @@ The maximum value applies to all subfolders under the path specified by the <a h
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
+

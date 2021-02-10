@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects2.OnWindowMessage
+ - IWMPEffects2::OnWindowMessage
 ---
 
 # IWMPEffects2::OnWindowMessage
@@ -81,3 +81,4 @@ Your implementation must only return S_OK if it has handled the window message. 
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
+

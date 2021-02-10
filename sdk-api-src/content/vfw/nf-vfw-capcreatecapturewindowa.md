@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - capCreateCaptureWindowA
  - vfw/capCreateCaptureWindowA
+ - capCreateCaptureWindow
+ - vfw/capCreateCaptureWindow
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Avicap32.dll
 api_name:
- - capCreateCaptureWindow
  - capCreateCaptureWindowA
- - capCreateCaptureWindowW
+ - capCreateCaptureWindow
 ---
 
 # capCreateCaptureWindowA function
@@ -108,3 +109,4 @@ Returns a handle of the capture window if successful or <b>NULL</b> otherwise.
 
 > [!NOTE]
 > The vfw.h header defines capCreateCaptureWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

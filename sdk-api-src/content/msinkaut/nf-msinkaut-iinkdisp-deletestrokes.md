@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp.DeleteStrokes
+ - IInkDisp::DeleteStrokes
 ---
 
 # IInkDisp::DeleteStrokes
@@ -172,3 +172,4 @@ The <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object renumbers
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

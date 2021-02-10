@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.MinDownloadSize
- - IUpdate.get_MinDownloadSize
+ - IUpdate::get_MinDownloadSize
 ---
 
 # IUpdate::get_MinDownloadSize
@@ -64,3 +63,4 @@ The <b>MinDownloadSize</b> property of an update is always downloaded.  However,
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

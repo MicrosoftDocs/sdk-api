@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetThreadGroupSize
+ - ID3D12ShaderReflection::GetThreadGroupSize
 ---
 
 # ID3D12ShaderReflection::GetThreadGroupSize
@@ -91,3 +91,4 @@ When a compute shader is written it defines the actions of a single thread group
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>
+

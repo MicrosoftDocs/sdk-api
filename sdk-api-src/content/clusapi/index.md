@@ -9,6 +9,8 @@ tech.root: mscs
 f1_keywords:
  - clusapi
  - clusapi/clusapi
+api_name:
+ - clusapi
 ---
 
 # Clusapi.h header

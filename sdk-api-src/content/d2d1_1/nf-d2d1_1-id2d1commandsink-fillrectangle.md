@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.FillRectangle
+ - ID2D1CommandSink::FillRectangle
 ---
 
 # ID2D1CommandSink::FillRectangle
@@ -83,3 +83,4 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle(constd2d1_rect_f_id2d1brush)">ID2D1RenderTarget::FillRectangle</a>
+

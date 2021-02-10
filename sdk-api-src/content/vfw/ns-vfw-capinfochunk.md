@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
+ - tagCapInfoChunk
+ - PCAPINFOCHUNK
  - CAPINFOCHUNK
 ---
 
@@ -81,3 +83,4 @@ Video Capture
 
 
 <a href="/windows/desktop/Multimedia/wm-cap-file-set-infochunk">WM_CAP_FILE_SET_INFOCHUNK</a>
+

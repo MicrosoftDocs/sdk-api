@@ -45,6 +45,7 @@ api_location:
  - Audioengineendpoint.h
 api_name:
  - AE_CURRENT_POSITION
+ - PAE_CURRENT_POSITION
 ---
 
 # AE_CURRENT_POSITION structure
@@ -95,3 +96,4 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-getoutputdatapointer">IAudioOutputEndpointRT::GetOutputDataPointer</a>
+

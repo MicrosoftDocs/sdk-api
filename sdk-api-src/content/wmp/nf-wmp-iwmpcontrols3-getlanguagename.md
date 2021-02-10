@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls3.getLanguageName
+ - IWMPControls3::getLanguageName
 ---
 
 # IWMPControls3::getLanguageName
@@ -117,3 +117,4 @@ For Windows Media-based content, properties and methods related to language sele
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguage">IWMPControls3::put_currentAudioLanguage</a>
+

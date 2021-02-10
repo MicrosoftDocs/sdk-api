@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokes.Clip
+ - IInkStrokes::Clip
 ---
 
 # IInkStrokes::Clip
@@ -161,3 +161,4 @@ For more information on ink data, see <a href="/windows/desktop/tablet/ink-data"
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

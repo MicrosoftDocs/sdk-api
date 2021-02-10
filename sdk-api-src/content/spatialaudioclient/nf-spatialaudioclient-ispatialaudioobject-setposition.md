@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObject.SetPosition
+ - ISpatialAudioObject::SetPosition
 ---
 
 # ISpatialAudioObject::SetPosition
@@ -123,3 +123,4 @@ If <b>SetPosition</b> is never called, the origin (x=0.0, y=0.0, z=0.0) is used 
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a>
+

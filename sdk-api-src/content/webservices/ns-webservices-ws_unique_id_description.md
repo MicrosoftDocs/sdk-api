@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_UNIQUE_ID_DESCRIPTION
  - WS_UNIQUE_ID_DESCRIPTION
 ---
 
@@ -66,3 +67,4 @@ The minimum number of characters.  This only pertains
 
 The maximum number of characters.  This only pertains
                     to the case where the unique ID is represented as a string.
+

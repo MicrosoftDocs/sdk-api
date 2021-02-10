@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_STRING
+ - PMINIDUMP_STRING
  - MINIDUMP_STRING
 ---
 
@@ -77,3 +79,4 @@ The null-terminated string.
 
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module">MINIDUMP_UNLOADED_MODULE</a>
+

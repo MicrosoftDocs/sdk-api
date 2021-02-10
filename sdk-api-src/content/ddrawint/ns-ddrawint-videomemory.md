@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _VIDEOMEMORY
  - VIDEOMEMORY
 ---
 
@@ -172,3 +173,4 @@ DirectDraw's heap manager makes two passes through the VIDEOMEMORY structures. T
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+

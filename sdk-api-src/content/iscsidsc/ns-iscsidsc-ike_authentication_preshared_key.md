@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
+ - PIKE_AUTHENTICATION_PRESHARED_KEY
  - IKE_AUTHENTICATION_PRESHARED_KEY
 ---
 

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmTemplateApplyOptions
  - FsrmTemplateApplyOptions
 ---
 
@@ -74,3 +75,4 @@ Apply template changes to all derived objects, whether their properties match th
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplate-commitandupdatederived">IFsrmQuotaTemplate::CommitAndUpdateDerived</a>
+

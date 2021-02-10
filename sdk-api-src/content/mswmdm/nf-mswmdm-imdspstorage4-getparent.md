@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage4.GetParent
+ - IMDSPStorage4::GetParent
 ---
 
 # IMDSPStorage4::GetParent
@@ -79,3 +79,4 @@ When this method is called for root storage, this method should return S_FALSE a
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
+

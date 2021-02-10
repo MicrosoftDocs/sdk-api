@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - wsrm
  - wsrm/wsrm
+api_name:
+ - wsrm
 ---
 
 # Wsrm.h header

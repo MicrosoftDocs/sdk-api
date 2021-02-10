@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOleCallback.GetNewStorage
+ - IRichEditOleCallback::GetNewStorage
 ---
 
 # IRichEditOleCallback::GetNewStorage
@@ -106,3 +106,4 @@ This method must be implemented to allow cut, copy, paste, drag, and drop operat
 
 
 <b>Reference</b>
+

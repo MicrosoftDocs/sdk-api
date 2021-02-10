@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateAndCondition
+ - IUIAutomation::CreateAndCondition
 ---
 
 # IUIAutomation::CreateAndCondition
@@ -116,3 +116,4 @@ The <b>CreateAndCondition</b> method calls <a href="/windows/desktop/api/unknwn/
 
 
 <b>Reference</b>
+

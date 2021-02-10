@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
- - ID3D10ShaderReflectionVariable.GetType
+ - ID3D10ShaderReflectionVariable::GetType
 ---
 
 # ID3D10ShaderReflectionVariable::GetType
@@ -63,3 +63,4 @@ A pointer to a <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10sh
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectionvariable">ID3D10ShaderReflectionVariable Interface</a>
+

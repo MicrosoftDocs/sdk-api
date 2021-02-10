@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shdeprecated.h
 api_name:
- - IExpDispSupportXP.OnInvoke
+ - IExpDispSupportXP::OnInvoke
 ---
 
 # IExpDispSupportXP::OnInvoke
@@ -107,3 +107,4 @@ Receives the index within the <b>rgvarg</b> member of the <a href="/windows/desk
 Type: <b>HRESULT</b>
 
 Returns E_NOTIMPL.
+

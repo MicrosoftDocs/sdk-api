@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext.CreateImageBrush
+ - ID2D1DeviceContext::CreateImageBrush
 ---
 
 # ID2D1DeviceContext::CreateImageBrush
@@ -189,3 +189,4 @@ CreatePatternBrush(
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>
+

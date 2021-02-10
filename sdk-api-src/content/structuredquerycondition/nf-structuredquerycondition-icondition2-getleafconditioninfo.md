@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquerycondition.h
 api_name:
- - ICondition2.GetLeafConditionInfo
+ - ICondition2::GetLeafConditionInfo
 ---
 
 # ICondition2::GetLeafConditionInfo
@@ -103,3 +103,4 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 <b>Reference</b>
+

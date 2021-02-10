@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IGridProvider.ColumnCount
- - IGridProvider.get_ColumnCount
+ - IGridProvider::get_ColumnCount
 ---
 
 # IGridProvider::get_ColumnCount
@@ -72,3 +71,4 @@ Hidden rows and columns, depending on the provider implementation, may be loaded
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

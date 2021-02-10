@@ -46,9 +46,9 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _IMAGEHLP_CBA_EVENT
+ - PIMAGEHLP_CBA_EVENT
  - IMAGEHLP_CBA_EVENT
- - IMAGEHLP_CBA_EVENT
- - IMAGEHLP_CBA_EVENTW
 ---
 
 # IMAGEHLP_CBA_EVENT structure
@@ -134,3 +134,4 @@ This member is reserved for future use.
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbolservercallbackproc">SymbolServerCallback</a>
+

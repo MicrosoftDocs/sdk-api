@@ -47,6 +47,8 @@ api_location:
  - ClusAPI.h
  - MSClus.h
 api_name:
+ - _CLUSTER_CREATE_GROUP_INFO
+ - PCLUSTER_CREATE_GROUP_INFO
  - CLUSTER_CREATE_GROUP_INFO
 ---
 

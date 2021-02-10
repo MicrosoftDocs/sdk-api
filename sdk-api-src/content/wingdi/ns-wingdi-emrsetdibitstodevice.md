@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRSETDIBITSTODEVICE
+ - PEMRSETDIBITSTODEVICE
  - EMRSETDIBITSTODEVICE
 ---
 
@@ -133,3 +135,4 @@ Number of scan lines.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibitstodevice">SetDIBitsToDevice</a>
+

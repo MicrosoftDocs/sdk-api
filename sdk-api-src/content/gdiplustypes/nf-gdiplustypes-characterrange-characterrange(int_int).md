@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CharacterRange.CharacterRange
+ - CharacterRange::CharacterRange
 ---
 
 # CharacterRange::CharacterRange(INT,INT)
@@ -83,3 +83,4 @@ Integer that specifies the number of positions in this range.
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>
+

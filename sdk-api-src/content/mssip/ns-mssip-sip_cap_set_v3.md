@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Mssip.h
 api_name:
- - SIP_CAP_SET
+ - _SIP_CAP_SET_V3
+ - PSIP_CAP_SET_V3
+ - SIP_CAP_SET_V3
 ---
 
 # SIP_CAP_SET_V3 structure
@@ -75,3 +77,4 @@ A value of one (1) indicates that the SIP supports multiple embedded signatures.
 ### -field dwReserved
 
 Reserved for future use. Set this value to zero (0).
+

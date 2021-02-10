@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress.get_MessageWaiting
+ - ITAddress::get_MessageWaiting
 ---
 
 # ITAddress::get_MessageWaiting
@@ -123,3 +123,4 @@ In TAPI 2.<i>x</i>, this maps to the flag LINEDEVSTATUSFLAGS_MSGWAIT being set o
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-put_messagewaiting">put_MessageWaiting</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IStringCollection.Insert
+ - IStringCollection::Insert
 ---
 
 # IStringCollection::Insert
@@ -100,3 +100,4 @@ An index is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
+

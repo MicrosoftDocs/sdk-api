@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObjExt.AddPages
+ - IDsAdminNewObjExt::AddPages
 ---
 
 # IDsAdminNewObjExt::AddPages
@@ -98,3 +98,4 @@ This method is identical in format and operation to the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a>
+

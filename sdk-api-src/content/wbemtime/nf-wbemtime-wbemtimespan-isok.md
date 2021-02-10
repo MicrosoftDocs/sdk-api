@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan.IsOk
+ - WBEMTimeSpan::IsOk
 ---
 
 # WBEMTimeSpan::IsOk
@@ -64,3 +64,4 @@ The <b>IsOk</b> method indicates whether the <a href="/windows/desktop/api/wbemt
 ## -returns
 
 The method returns <b>TRUE</b> if the time span is valid and <b>FALSE</b> if the time span is not valid.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IAdviseSinkEx.OnViewStatusChange
+ - IAdviseSinkEx::OnViewStatusChange
 ---
 
 # IAdviseSinkEx::OnViewStatusChange
@@ -73,3 +73,4 @@ It is important that objects call the <a href="/windows/desktop/api/objidl/nf-ob
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iadvisesinkex">IAdviseSinkEx</a>
+

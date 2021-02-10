@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION.Reset
- - IEnumCERTVIEWEXTENSION.Reset
+ - IEnumCERTVIEWEXTENSION::Reset
 ---
 
 # IEnumCERTVIEWEXTENSION::Reset
@@ -123,3 +122,4 @@ else
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-next">IEnumCERTVIEWEXTENSION::Next</a>
+

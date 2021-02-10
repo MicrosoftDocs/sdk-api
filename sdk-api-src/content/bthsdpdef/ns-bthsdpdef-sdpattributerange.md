@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bthsdpdef.h
 api_name:
+ - _SdpAttributeRange
  - SdpAttributeRange
 ---
 
@@ -67,3 +68,4 @@ Maximum attribute value for which to search.
 ## -see-also
 
 <a href="/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
+

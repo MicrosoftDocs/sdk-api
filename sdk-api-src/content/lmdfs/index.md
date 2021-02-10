@@ -9,6 +9,8 @@ tech.root: dfs
 f1_keywords:
  - lmdfs
  - lmdfs/lmdfs
+api_name:
+ - lmdfs
 ---
 
 # Lmdfs.h header

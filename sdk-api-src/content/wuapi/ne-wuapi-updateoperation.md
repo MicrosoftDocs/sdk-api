@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
+ - tagUpdateOperation
  - UpdateOperation
 ---
 

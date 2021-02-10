@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo.AddressOfMember
+ - ITypeInfo::AddressOfMember
 ---
 
 # ITypeInfo::AddressOfMember
@@ -122,3 +122,4 @@ If the type description inherits from another type description, this function is
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wmpdevices.h
 api_name:
+ - _WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
  - WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 ---
 
@@ -123,3 +124,4 @@ The Windows Media Device Manager service provider should return as many object p
 ## -see-also
 
 <a href="/windows/desktop/WMP/windows-media-device-manager-device-extensions-for-metadata-transfer">Windows Media Device Manager Device Extensions for Metadata Transfer</a>
+

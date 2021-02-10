@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.Schedules
- - IDataCollectorSet.get_Schedules
+ - IDataCollectorSet::get_Schedules
 ---
 
 # IDataCollectorSet::get_Schedules
@@ -72,3 +71,4 @@ To manually start the data collector set, call the <a href="/previous-versions/w
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedulesenabled">IDataCollectorSet::SchedulesEnabled</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_CHAIN_PARA
+ - PCERT_CHAIN_PARA
  - CERT_CHAIN_PARA
 ---
 
@@ -166,3 +168,4 @@ If the <b>CERT_STRONG_SIGN_ENABLE_CRL_CHECK</b> or <b>CERT_STRONG_SIGN_ENABLE_OC
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_usage_match">CERT_USAGE_MATCH</a>
+

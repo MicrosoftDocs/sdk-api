@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetDriveTypeW
  - fileapi/GetDriveTypeW
+ - GetDriveType
+ - fileapi/GetDriveType
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - GetDriveType
- - GetDriveTypeA
  - GetDriveTypeW
+ - GetDriveType
 ---
 
 # GetDriveTypeW function
@@ -249,3 +250,4 @@ SMB does not support volume management functions.
 
 
 <a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
+

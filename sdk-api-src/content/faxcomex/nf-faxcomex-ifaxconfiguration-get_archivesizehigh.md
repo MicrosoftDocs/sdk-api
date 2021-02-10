@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration.ArchiveSizeHigh
- - IFaxConfiguration.get_ArchiveSizeHigh
+ - IFaxConfiguration::get_ArchiveSizeHigh
 ---
 
 # IFaxConfiguration::get_ArchiveSizeHigh
@@ -68,3 +67,4 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
+

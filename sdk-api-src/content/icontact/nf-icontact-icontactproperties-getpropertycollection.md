@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactProperties.GetPropertyCollection
+ - IContactProperties::GetPropertyCollection
 ---
 
 # IContactProperties::GetPropertyCollection
@@ -125,3 +125,4 @@ Caller can enumerate all child properties of a top-level property with
 		an optional label filter applied. For example: all emailAddresses where label="work". On success, 
 		collection has been reset to the location before the first element (if any are present). 
 		Call <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-next">Next</a> to begin querying data.
+

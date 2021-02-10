@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUS_CHKDSK_INFO
+ - PCLUS_CHKDSK_INFO
  - CLUS_CHKDSK_INFO
 ---
 
@@ -77,3 +79,4 @@ A list of file IDs that were identified by the Chkdsk operation.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

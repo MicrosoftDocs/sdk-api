@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_PropertySet
  - MI_PropertySet
 ---
 
@@ -67,3 +68,4 @@ Reserved for internal use.
 ## -remarks
 
 It supports the building and interrogation of property sets. In general, clients  build property sets and providers interrogate them.
+

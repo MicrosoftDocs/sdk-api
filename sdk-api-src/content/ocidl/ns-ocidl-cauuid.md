@@ -46,6 +46,8 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagCAUUID
+ - LPCAUUID
  - CAUUID
 ---
 
@@ -69,3 +71,4 @@ A pointer to an array of values, each of which specifies a CLSID of a particular
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ispecifypropertypages-getpages">ISpecifyPropertyPages::GetPages</a>
+

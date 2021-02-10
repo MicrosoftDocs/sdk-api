@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureExchange2.TransferContainerData2
+ - ISCPSecureExchange2::TransferContainerData2
 ---
 
 # ISCPSecureExchange2::TransferContainerData2
@@ -194,3 +194,4 @@ Windows Media Device Manager passes the application-provided progress callback t
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3 Interface</a>
+

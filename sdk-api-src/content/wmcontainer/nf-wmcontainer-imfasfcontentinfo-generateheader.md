@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFContentInfo.GenerateHeader
+ - IMFASFContentInfo::GenerateHeader
 ---
 
 # IMFASFContentInfo::GenerateHeader
@@ -139,3 +139,4 @@ During this call, the stream properties are set based on the encoding properties
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
+

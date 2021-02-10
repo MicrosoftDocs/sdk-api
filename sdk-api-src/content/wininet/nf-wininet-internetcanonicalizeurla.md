@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetCanonicalizeUrlA
  - wininet/InternetCanonicalizeUrlA
+ - InternetCanonicalizeUrl
+ - wininet/InternetCanonicalizeUrl
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetCanonicalizeUrl
  - InternetCanonicalizeUrlA
- - InternetCanonicalizeUrlW
+ - InternetCanonicalizeUrl
 ---
 
 # InternetCanonicalizeUrlA function
@@ -238,3 +239,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

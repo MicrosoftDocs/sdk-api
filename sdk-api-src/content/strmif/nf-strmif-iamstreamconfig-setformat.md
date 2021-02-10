@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStreamConfig.SetFormat
+ - IAMStreamConfig::SetFormat
 ---
 
 # IAMStreamConfig::SetFormat
@@ -170,3 +170,4 @@ If the pin is already connected, and the pin supports the media type, reconnect 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
+

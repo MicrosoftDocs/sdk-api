@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetFileAttributesTransactedA
  - winbase/SetFileAttributesTransactedA
+ - SetFileAttributesTransacted
+ - winbase/SetFileAttributesTransacted
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - SetFileAttributesTransacted
  - SetFileAttributesTransactedA
- - SetFileAttributesTransactedW
+ - SetFileAttributesTransacted
 ---
 
 # SetFileAttributesTransactedA function
@@ -320,3 +321,4 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 <a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
+

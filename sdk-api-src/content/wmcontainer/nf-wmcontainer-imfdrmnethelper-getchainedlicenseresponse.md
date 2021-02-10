@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcontainer.h
 api_name:
- - IMFDRMNetHelper.GetChainedLicenseResponse
+ - IMFDRMNetHelper::GetChainedLicenseResponse
 ---
 
 # IMFDRMNetHelper::GetChainedLicenseResponse
@@ -69,3 +69,4 @@ The method returns <b>E_NOTIMPL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfdrmnethelper">IMFDRMNetHelper</a>
+

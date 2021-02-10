@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.IsVolumeSupported
+ - IVssSoftwareSnapshotProvider::IsVolumeSupported
 ---
 
 # IVssSoftwareSnapshotProvider::IsVolumeSupported
@@ -191,3 +191,4 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
+

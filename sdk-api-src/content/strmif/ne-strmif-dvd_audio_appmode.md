@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_AUDIO_APPMODE
  - DVD_AUDIO_APPMODE
 ---
 
@@ -79,3 +80,4 @@ Unrecognized audio mode.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>
+

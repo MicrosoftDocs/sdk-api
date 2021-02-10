@@ -9,6 +9,8 @@ tech.root: fsrm
 f1_keywords:
  - fsrmpipeline
  - fsrmpipeline/fsrmpipeline
+api_name:
+ - fsrmpipeline
 ---
 
 # Fsrmpipeline.h header

@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.Left
- - ?Left@CHString@@QBE?AV1@H@Z
- - ?Left@CHString@@QEBA?AV1@H@Z
+ - CHString::Left
 ---
 
 # CHString::Left
@@ -85,3 +83,4 @@ Returns a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string contain
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>
+

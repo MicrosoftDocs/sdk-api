@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_invitation_tag
+ - PPEER_INVITATION
  - PEER_INVITATION
 ---
 
@@ -81,3 +83,4 @@ An invitation request is typically sent by a peer after a contact appears online
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

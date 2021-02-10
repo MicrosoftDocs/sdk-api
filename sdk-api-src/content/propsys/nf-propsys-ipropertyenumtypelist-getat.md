@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyEnumTypeList.GetAt
+ - IPropertyEnumTypeList::GetAt
 ---
 
 # IPropertyEnumTypeList::GetAt
@@ -77,3 +77,4 @@ When this method returns successfully, contains the interface pointer requested 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellChecker.remove_SpellCheckerChanged
+ - ISpellChecker::remove_SpellCheckerChanged
 ---
 
 # ISpellChecker::remove_SpellCheckerChanged
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add_spellcheckerchanged">add_SpellCheckerChanged</a>
+

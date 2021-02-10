@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagUSAGE_PROPERTIES
+ - PUSAGE_PROPERTIES
  - USAGE_PROPERTIES
 ---
 

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions2.SetHttpMethod
+ - IBackgroundCopyJobHttpOptions2::SetHttpMethod
 ---
 
 # IBackgroundCopyJobHttpOptions2::SetHttpMethod
@@ -81,3 +81,4 @@ BITS allows you, as the developer, to choose an HTTP method other than the defau
 ## -see-also
 
 <a href="/windows/win32/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2">IBackgroundCopyJobHttpOptions2</a>
+

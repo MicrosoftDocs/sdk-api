@@ -42,8 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskService.TargetServer
- - ITaskService.get_TargetServer
+ - ITaskService::get_TargetServer
 ---
 
 # ITaskService::get_TargetServer
@@ -64,3 +63,4 @@ This property returns an empty string when the user passes an IP address, Localh
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
+

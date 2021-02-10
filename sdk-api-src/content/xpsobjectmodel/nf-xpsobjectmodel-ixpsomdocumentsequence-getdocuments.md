@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentSequence.GetDocuments
+ - IXpsOMDocumentSequence::GetDocuments
 ---
 
 # IXpsOMDocumentSequence::GetDocuments
@@ -106,3 +106,4 @@ If the document sequence does not have any documents, the document collection th
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

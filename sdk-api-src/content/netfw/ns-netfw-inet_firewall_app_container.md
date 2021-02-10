@@ -46,6 +46,8 @@ api_type:
 api_location:
  - networkisolation.h
 api_name:
+ - _INET_FIREWALL_APP_CONTAINER
+ - PINET_FIREWALL_APP_CONTAINER
  - INET_FIREWALL_APP_CONTAINER
 ---
 
@@ -114,3 +116,4 @@ Binary paths to the applications running in the app container.
 
 
 <a href="/windows/desktop/api/networkisolation/ns-networkisolation-inet_firewall_ac_capabilities">INET_FIREWALL_AC_CAPABILITIES</a>
+

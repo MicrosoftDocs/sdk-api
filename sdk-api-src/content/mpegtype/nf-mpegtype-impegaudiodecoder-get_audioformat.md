@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMpegAudioDecoder.get_AudioFormat
+ - IMpegAudioDecoder::get_AudioFormat
 ---
 
 # IMpegAudioDecoder::get_AudioFormat
@@ -84,3 +84,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>
+

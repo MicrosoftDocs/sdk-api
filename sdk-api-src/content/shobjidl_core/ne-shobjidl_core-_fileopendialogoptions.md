@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ; typedef DWORD FILEOPENDIALOGOPTIONS
+ - _FILEOPENDIALOGOPTIONS
 ---
 
 # _FILEOPENDIALOGOPTIONS enumeration
@@ -163,3 +163,4 @@ Indicates that the caller is opening a file as a stream (<a href="/windows/deskt
 
 
 <a href="/previous-versions/windows/desktop/legacy/bb775708(v=vs.85)">IFileSaveDialog::SetOptions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterControlUnitPrivileged
+ - PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN
 ---
 
 # PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN callback function
@@ -363,3 +363,4 @@ cleanup:
 
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

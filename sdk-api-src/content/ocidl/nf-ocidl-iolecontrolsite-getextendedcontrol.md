@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControlSite.GetExtendedControl
+ - IOleControlSite::GetExtendedControl
 ---
 
 # IOleControlSite::GetExtendedControl
@@ -115,3 +115,4 @@ The returned pointer is the responsibility of the caller, which must release it 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMpegAudioDecoder.get_DualMode
+ - IMpegAudioDecoder::get_DualMode
 ---
 
 # IMpegAudioDecoder::get_DualMode
@@ -112,3 +112,4 @@ The <i>pIntDecode</i> parameter can have one of the values in the following tabl
 ## -see-also
 
 <a href="/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>
+

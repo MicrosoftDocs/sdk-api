@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfCompartmentMgr.ClearCompartment
+ - ITfCompartmentMgr::ClearCompartment
 ---
 
 # ITfCompartmentMgr::ClearCompartment
@@ -120,3 +120,4 @@ The owner must clear this compartment.
 ## -see-also
 
 [ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)
+

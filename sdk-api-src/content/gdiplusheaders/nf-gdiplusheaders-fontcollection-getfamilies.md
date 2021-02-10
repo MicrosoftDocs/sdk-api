@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontCollection.GetFamilies
+ - FontCollection::GetFamilies
 ---
 
 # FontCollection::GetFamilies
@@ -136,3 +136,4 @@ VOID Example_GetFamilies(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
+

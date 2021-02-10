@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_CONNECTION_EVENT_TYPE_
  - FWPM_CONNECTION_EVENT_TYPE
 ---
 
@@ -71,3 +72,4 @@ Maximum value for testing purposes.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
+

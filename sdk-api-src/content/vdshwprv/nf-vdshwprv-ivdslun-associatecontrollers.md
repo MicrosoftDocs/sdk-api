@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun.AssociateControllers
+ - IVdsLun::AssociateControllers
 ---
 
 # IVdsLun::AssociateControllers
@@ -201,3 +201,4 @@ Use the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-queryactiveco
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-queryactivecontrollers">IVdsLun::QueryActiveControllers</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceManager.CreateNamespace
+ - IWdsTransportNamespaceManager::CreateNamespace
 ---
 
 # IWdsTransportNamespaceManager::CreateNamespace
@@ -89,3 +89,4 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a>
+

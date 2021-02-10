@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mprapi.h
 api_name:
+ - _IKEV2_TUNNEL_CONFIG_PARAMS1
+ - PIKEV2_TUNNEL_CONFIG_PARAMS1
  - IKEV2_TUNNEL_CONFIG_PARAMS1
 ---
 
@@ -87,3 +89,4 @@ A value that specifies the number of certificates in the <b>certificateNames</b>
 ### -field certificateNames
 
 An array of CERT_NAME_BLOB structures that contain X.509 public key infrastructure certificates.
+

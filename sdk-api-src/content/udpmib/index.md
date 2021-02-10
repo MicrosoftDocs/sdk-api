@@ -9,6 +9,8 @@ tech.root: mib
 f1_keywords:
  - udpmib
  - udpmib/udpmib
+api_name:
+ - udpmib
 ---
 
 # Udpmib.h header

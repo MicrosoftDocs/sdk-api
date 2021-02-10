@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
+ - _WIN32_STREAM_ID
+ - LPWIN32_STREAM_ID
  - WIN32_STREAM_ID
 ---
 
@@ -240,3 +242,4 @@ Unicode string that specifies the name of the alternative data stream.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
+

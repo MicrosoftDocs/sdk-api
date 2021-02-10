@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceIscsi.SetInitiatorSharedSecret
+ - IVdsServiceIscsi::SetInitiatorSharedSecret
 ---
 
 # IVdsServiceIscsi::SetInitiatorSharedSecret
@@ -143,3 +143,4 @@ The Microsoft iSCSI Software Initiator does not support setting target-specific 
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRWindowlessControl.DisplayModeChanged
+ - IVMRWindowlessControl::DisplayModeChanged
 ---
 
 # IVMRWindowlessControl::DisplayModeChanged
@@ -92,3 +92,4 @@ An application must call this method whenever it receives a WM_DISPLAYCHANGE win
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

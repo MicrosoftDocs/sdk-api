@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Websocket.h
 api_name:
+ - _WEB_SOCKET_ACTION_QUEUE
  - WEB_SOCKET_ACTION_QUEUE
 ---
 
@@ -79,3 +80,4 @@ The <b>WEB_SOCKET_ACTION_QUEUE</b> enumeration specifies the action types return
 
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>
+

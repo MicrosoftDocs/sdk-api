@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo.GetRoot
+ - IDvdInfo::GetRoot
 ---
 
 # IDvdInfo::GetRoot
@@ -134,3 +134,4 @@ If a valid root was found, this method returns the root string. Otherwise, it re
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
+

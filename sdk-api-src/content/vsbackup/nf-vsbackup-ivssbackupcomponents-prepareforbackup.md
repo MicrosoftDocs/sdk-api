@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.PrepareForBackup
+ - IVssBackupComponents::PrepareForBackup
 ---
 
 # IVssBackupComponents::PrepareForBackup
@@ -173,3 +173,4 @@ The caller is responsible for releasing the
 
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+

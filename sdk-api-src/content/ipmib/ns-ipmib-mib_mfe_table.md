@@ -47,6 +47,8 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
+ - _MIB_MFE_TABLE
+ - PMIB_MFE_TABLE
  - MIB_MFE_TABLE
 ---
 
@@ -76,3 +78,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Ser
 ## -see-also
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
+

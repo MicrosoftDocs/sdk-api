@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPDVD.resume
+ - IWMPDVD::resume
 ---
 
 # IWMPDVD::resume
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
+

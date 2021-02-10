@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.MachineContext
- - IX509PrivateKey.get_MachineContext
- - IX509PrivateKey.put_MachineContext
+ - IX509PrivateKey::put_MachineContext
 ---
 
 # IX509PrivateKey::put_MachineContext
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

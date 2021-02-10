@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - _SEARCH_TERM_EXPANSION
  - SEARCH_TERM_EXPANSION
 ---
 
@@ -71,3 +72,4 @@ Stem expansion is applied to all terms.
 ## -remarks
 
 While the <b>SEARCH_TERM_EXPANSION</b> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> interface.
+

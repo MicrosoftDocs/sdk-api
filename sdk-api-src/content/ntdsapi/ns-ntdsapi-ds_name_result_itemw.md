@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - DS_NAME_RESULT_ITEM
- - DS_NAME_RESULT_ITEMA
+ - PDS_NAME_RESULT_ITEMW
  - DS_NAME_RESULT_ITEMW
 ---
 
@@ -97,3 +96,4 @@ The <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
+

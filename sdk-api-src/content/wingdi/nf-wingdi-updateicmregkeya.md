@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UpdateICMRegKeyA
  - wingdi/UpdateICMRegKeyA
+ - UpdateICMRegKey
+ - wingdi/UpdateICMRegKey
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - UpdateICMRegKey
  - UpdateICMRegKeyA
- - UpdateICMRegKeyW
+ - UpdateICMRegKey
 ---
 
 # UpdateICMRegKeyA function
@@ -182,3 +183,4 @@ This function is retained for backward compatibility and may be removed in futur
 
 
 <a href="/previous-versions/windows/desktop/wcs/obsolete-wcs-functions">Obsolete WCS Functions</a>
+

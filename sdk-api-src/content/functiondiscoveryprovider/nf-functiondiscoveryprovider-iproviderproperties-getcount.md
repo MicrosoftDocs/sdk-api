@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderProperties.GetCount
+ - IProviderProperties::GetCount
 ---
 
 # IProviderProperties::GetCount
@@ -115,3 +115,4 @@ One of the parameters contains an invalid argument.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a>
+

@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - LOGFONT
+ - tagLOGFONTA
+ - PLOGFONTA
  - LOGFONTA
- - LOGFONTW
 ---
 
 # LOGFONTA structure
@@ -486,3 +486,4 @@ The following situations do not support ClearType antialiasing:
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+

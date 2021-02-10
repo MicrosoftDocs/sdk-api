@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern.CurrentCanMove
- - IUIAutomationTransformPattern.get_CurrentCanMove
+ - IUIAutomationTransformPattern::get_CurrentCanMove
 ---
 
 # IUIAutomationTransformPattern::get_CurrentCanMove
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-move">IUIAutomationTransformPattern::Move</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_CREATESURFACEDATA
+ - PDD_CREATESURFACEDATA
  - DD_CREATESURFACEDATA
 ---
 
@@ -93,3 +95,4 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+

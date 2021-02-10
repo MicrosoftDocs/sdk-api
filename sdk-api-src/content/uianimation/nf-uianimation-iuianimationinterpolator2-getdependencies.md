@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator2.GetDependencies
+ - IUIAnimationInterpolator2::GetDependencies
 ---
 
 # IUIAnimationInterpolator2::GetDependencies
@@ -95,3 +95,4 @@ It is important that an interpolator return a correct set of flags. If a flag is
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a>
+

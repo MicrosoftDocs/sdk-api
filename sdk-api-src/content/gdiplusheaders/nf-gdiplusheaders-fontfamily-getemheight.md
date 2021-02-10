@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontFamily.GetEmHeight
+ - FontFamily::GetEmHeight
 ---
 
 # FontFamily::GetEmHeight
@@ -90,3 +90,4 @@ This method returns the size, in design units, of this font family.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-obtaining-font-metrics-use">Obtaining Font Metrics</a>
+

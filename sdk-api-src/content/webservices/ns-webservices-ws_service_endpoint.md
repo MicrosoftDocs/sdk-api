@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SERVICE_ENDPOINT
  - WS_SERVICE_ENDPOINT
 ---
 
@@ -92,3 +93,4 @@ Number of elements in the WS_SERVICE_ENDPOINT_PROPERTY array.
 ### -field channelProperties
 
                     Channel properties associated with the endpoint. An application should be careful in modifying default values. For example, modifying send/receive timeouts may result in unexpected behavior and cause the client to fail.
+

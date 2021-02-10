@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimerEventHandler.OnRenderingTooSlow
+ - IUIAnimationTimerEventHandler::OnRenderingTooSlow
 ---
 
 # IUIAnimationTimerEventHandler::OnRenderingTooSlow
@@ -78,3 +78,4 @@ The minimum desirable frame rate is specified using the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimereventhandler">IUIAnimationTimerEventHandler</a>
+

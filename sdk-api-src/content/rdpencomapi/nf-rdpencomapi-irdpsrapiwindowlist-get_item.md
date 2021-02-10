@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIWindowList.Item
- - IRDPSRAPIWindowList.get_Item
- - RDPSRAPIWindowList.Item
+ - IRDPSRAPIWindowList::get_Item
 ---
 
 # IRDPSRAPIWindowList::get_Item
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindowlist">IRDPSRAPIWindowList</a>
+

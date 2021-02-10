@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tcpestats.h
 api_name:
+ - _TCP_ESTATS_SEND_BUFF_ROD_v0
+ - PTCP_ESTATS_SEND_BUFF_ROD_v0
  - TCP_ESTATS_SEND_BUFF_ROD_v0
 ---
 
@@ -176,3 +178,4 @@ tcpEStatsAppMaxAppWQueue
 
 
 <a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - DxBobNextField
+ - PDX_BOBNEXTFIELD
 ---
 
 ## -description
@@ -82,3 +82,4 @@ When data is interleaved, the driver's <a href="/windows/desktop/api/ddrawint/nc
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a>
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
+

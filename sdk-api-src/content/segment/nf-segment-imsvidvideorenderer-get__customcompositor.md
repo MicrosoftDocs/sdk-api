@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer.get__CustomCompositor
+ - IMSVidVideoRenderer::get__CustomCompositor
 ---
 
 # IMSVidVideoRenderer::get__CustomCompositor
@@ -79,3 +79,4 @@ The returned <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagecompositor"
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__customcompositor">IMSVidVideoRenderer::put__CustomCompositor</a>
+

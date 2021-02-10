@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDataObjectAsyncCapability.GetAsyncMode
+ - IDataObjectAsyncCapability::GetAsyncMode
 ---
 
 # IDataObjectAsyncCapability::GetAsyncMode
@@ -73,3 +73,4 @@ The purpose of this method is to give the drop target the value of the <a href="
 ## -see-also
 
 <a href="/windows/desktop/api/shldisp/nn-shldisp-idataobjectasynccapability">IDataObjectAsyncCapability</a>
+

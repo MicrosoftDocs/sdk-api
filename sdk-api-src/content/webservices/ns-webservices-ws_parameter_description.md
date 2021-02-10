@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_PARAMETER_DESCRIPTION
  - WS_PARAMETER_DESCRIPTION
 ---
 
@@ -71,3 +72,4 @@ A value between 0 and MAX_SHORT - 1 that represents the index of the field
 A value between 0 and MAX_SHORT - 1 that represents the index of the field 
                     in the output <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is MAX_USHORT if it has not present in the output
                     WS_MESSAGE.
+

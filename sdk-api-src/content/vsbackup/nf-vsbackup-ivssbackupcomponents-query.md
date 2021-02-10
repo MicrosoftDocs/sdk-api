@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.Query
+ - IVssBackupComponents::Query
 ---
 
 # IVssBackupComponents::Query
@@ -237,3 +237,4 @@ While this method currently returns a lists of all available providers and/or al
 
 
 <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
+

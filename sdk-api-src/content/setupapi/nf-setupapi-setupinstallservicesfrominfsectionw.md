@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupInstallServicesFromInfSectionW
  - setupapi/SetupInstallServicesFromInfSectionW
+ - SetupInstallServicesFromInfSection
+ - setupapi/SetupInstallServicesFromInfSection
 dev_langs:
  - c++
 topic_type:
@@ -44,10 +47,8 @@ api_location:
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupInstallServicesFromInfSection
- - SetupInstallServicesFromInfSectionA
  - SetupInstallServicesFromInfSectionW
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
+ - SetupInstallServicesFromInfSection
 ---
 
 # SetupInstallServicesFromInfSectionW function
@@ -268,3 +269,4 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 > [!NOTE]
 > The setupapi.h header defines SetupInstallServicesFromInfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

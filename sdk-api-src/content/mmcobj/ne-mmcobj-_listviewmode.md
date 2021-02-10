@@ -46,6 +46,8 @@ api_type:
 api_location:
  - MmcObj.h
 api_name:
+ - ListViewMode
+ - PLISTVIEWMODE
  - _ListViewMode
 ---
 
@@ -88,3 +90,4 @@ A filtered list view is displayed.
 
 
 <a href="/previous-versions/windows/desktop/mmc/view-listviewmode">View.ListViewMode</a>
+

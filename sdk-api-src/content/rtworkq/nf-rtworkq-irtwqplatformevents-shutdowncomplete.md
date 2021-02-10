@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTWorkQ.dll
 api_name:
- - IRtwqPlatformEvents.ShutdownComplete
+ - IRtwqPlatformEvents::ShutdownComplete
 ---
 
 # IRtwqPlatformEvents::ShutdownComplete
@@ -61,3 +61,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.SetLongestAcceptableDelay
+ - IUIAnimationStoryboard2::SetLongestAcceptableDelay
 ---
 
 # IUIAnimationStoryboard2::SetLongestAcceptableDelay
@@ -75,3 +75,4 @@ For Windows Animation to schedule a storyboard successfully, the storyboard must
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration">SetSkipDuration</a>
+

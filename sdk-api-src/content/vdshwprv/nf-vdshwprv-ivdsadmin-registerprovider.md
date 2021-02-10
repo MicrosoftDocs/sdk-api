@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdmin.RegisterProvider
+ - IVdsAdmin::RegisterProvider
 ---
 
 # IVdsAdmin::RegisterProvider
@@ -137,3 +137,4 @@ Hardware providers must not stop running while VDS is running.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>
+

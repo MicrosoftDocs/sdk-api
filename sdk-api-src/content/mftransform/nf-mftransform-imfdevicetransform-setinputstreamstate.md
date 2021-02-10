@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform.SetInputStreamState
+ - IMFDeviceTransform::SetInputStreamState
 ---
 
 # IMFDeviceTransform::SetInputStreamState
@@ -134,3 +134,4 @@ As an  example, consider a Device MFT that has two input streams and three outpu
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
+

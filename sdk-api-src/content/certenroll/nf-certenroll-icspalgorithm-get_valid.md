@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithm.Valid
- - ICspAlgorithm.get_Valid
+ - ICspAlgorithm::get_Valid
 ---
 
 # ICspAlgorithm::get_Valid
@@ -76,3 +75,4 @@ You must call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinf
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
+

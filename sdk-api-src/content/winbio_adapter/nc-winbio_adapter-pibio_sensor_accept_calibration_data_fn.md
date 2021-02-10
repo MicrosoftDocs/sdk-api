@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterAcceptCalibrationData
+ - PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN
 ---
 
 # PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN callback function
@@ -93,3 +93,4 @@ Any error code will cause the Biometric Service to discontinue the dynamic calib
 This method is called during a dynamic calibration loop.
 
 The memory holding the calibration buffer belongs to the Windows Biometric Framework, and the Sensor Adapter must not keep any pointers to this buffer once the <b>SensorAdapterAcceptCalibrationData</b> method returns.
+

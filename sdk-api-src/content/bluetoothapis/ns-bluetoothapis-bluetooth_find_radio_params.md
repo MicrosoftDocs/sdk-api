@@ -44,6 +44,7 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
+ - _BLUETOOTH_FIND_RADIO_PARAMS
  - BLUETOOTH_FIND_RADIO_PARAMS
 ---
 
@@ -67,3 +68,4 @@ Size of the <b>BLUETOOTH_FIND_RADIO_PARAMS</b> structure, in bytes.
 
 
 <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindnextradio">BluetoothFindNextRadio</a>
+

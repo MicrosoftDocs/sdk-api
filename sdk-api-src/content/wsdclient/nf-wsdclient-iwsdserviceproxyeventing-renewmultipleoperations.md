@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing.RenewMultipleOperations
+ - IWSDServiceProxyEventing::RenewMultipleOperations
 ---
 
 # IWSDServiceProxyEventing::RenewMultipleOperations
@@ -85,3 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>
+

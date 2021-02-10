@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.AddMemberName
- - AzApplicationGroup.AddMemberName
+ - IAzApplicationGroup::AddMemberName
 ---
 
 # IAzApplicationGroup::AddMemberName
@@ -68,3 +67,4 @@ Reserved for future use.
 To view the list of account names of  accounts that belong to this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
+

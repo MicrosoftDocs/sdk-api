@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.GetBold
+ - ITextFont::GetBold
 ---
 
 # ITextFont::GetBold
@@ -145,3 +145,4 @@ You can use the <a href="/windows/desktop/api/tom/nf-tom-itextfont-setweight">IT
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

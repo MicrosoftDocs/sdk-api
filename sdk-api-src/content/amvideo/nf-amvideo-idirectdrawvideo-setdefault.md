@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo.SetDefault
+ - IDirectDrawVideo::SetDefault
 ---
 
 # IDirectDrawVideo::SetDefault
@@ -70,3 +70,4 @@ All properties set through <b>IDirectDrawVideo</b> are specific to that particul
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
+

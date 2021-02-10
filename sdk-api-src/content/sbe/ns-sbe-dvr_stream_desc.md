@@ -44,6 +44,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
+ - __MIDL___MIDL_itf_sbe_0000_0015_0002
  - DVR_STREAM_DESC
 ---
 
@@ -93,3 +94,4 @@ Specifies the stream's version number.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-structures">Stream Buffer Engine Structures</a>
+

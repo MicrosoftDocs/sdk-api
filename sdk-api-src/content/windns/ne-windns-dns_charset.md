@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DNS_CHARSET
  - DNS_CHARSET
 ---
 
@@ -83,3 +84,4 @@ The character set is ANSI.
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10Effect.Optimize
+ - ID3D10Effect::Optimize
 ---
 
 # ID3D10Effect::Optimize
@@ -105,3 +105,4 @@ Note that references retrieved with these methods before calling <b>ID3D10Effect
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect Interface</a>
+

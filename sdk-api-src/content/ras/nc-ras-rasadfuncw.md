@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - RASADFunc
- - RASADFuncA
- - RASADFuncW
+ - RASADFUNCW
 ---
 
 # RASADFUNCW callback function
@@ -143,3 +141,4 @@ The AutoDial DLL must provide both a <b>RASADFUNCA</b> (ANSI) and a <b>RASADFUNC
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

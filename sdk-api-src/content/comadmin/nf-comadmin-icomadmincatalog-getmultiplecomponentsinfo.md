@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.GetMultipleComponentsInfo
+ - ICOMAdminCatalog::GetMultipleComponentsInfo
 ---
 
 # ICOMAdminCatalog::GetMultipleComponentsInfo
@@ -215,3 +215,4 @@ Errors occurred while accessing one or more objects.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

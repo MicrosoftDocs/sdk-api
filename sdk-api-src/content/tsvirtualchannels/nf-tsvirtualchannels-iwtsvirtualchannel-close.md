@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannel.Close
+ - IWTSVirtualChannel::Close
 ---
 
 # IWTSVirtualChannel::Close
@@ -63,3 +63,4 @@ Returns <b>S_OK</b> if successful.
 ## -see-also
 
 <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a>
+

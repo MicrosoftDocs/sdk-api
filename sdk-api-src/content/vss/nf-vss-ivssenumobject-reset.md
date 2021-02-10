@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssEnumObject.Reset
+ - IVssEnumObject::Reset
 ---
 
 # IVssEnumObject::Reset
@@ -97,3 +97,4 @@ There was an internal error in the enumerator.
 
 
 <a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRL_ISSUING_DIST_POINT
+ - PCRL_ISSUING_DIST_POINT
  - CRL_ISSUING_DIST_POINT
 ---
 
@@ -79,3 +81,4 @@ Optional
 ### -field fIndirectCRL
 
 <b>BOOL</b> flag. <b>TRUE</b> if this is an indirect CRL.
+

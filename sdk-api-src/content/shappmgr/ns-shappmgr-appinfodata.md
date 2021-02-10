@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
+ - _AppInfoData
+ - PAPPINFODATA
  - APPINFODATA
 ---
 
@@ -185,3 +187,4 @@ Not applicable to published applications.
 
 
 <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">IPublishedApp::GetPublishedAppInfo</a>
+

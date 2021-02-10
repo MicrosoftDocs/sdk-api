@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryMapping.Count
- - IUIAutomationProxyFactoryMapping.get_Count
+ - IUIAutomationProxyFactoryMapping::get_Count
 ---
 
 # IUIAutomationProxyFactoryMapping::get_Count

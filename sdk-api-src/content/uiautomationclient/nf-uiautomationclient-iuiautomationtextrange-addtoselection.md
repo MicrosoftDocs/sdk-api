@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.AddToSelection
+ - IUIAutomationTextRange::AddToSelection
 ---
 
 # IUIAutomationTextRange::AddToSelection
@@ -75,3 +75,4 @@ The text insertion point moves to the newly selected text. If <b>AddToSelection<
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

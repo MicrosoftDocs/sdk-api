@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
+ - tagPROBLEM_TYPE
  - PROBLEM_TYPE
 ---
 

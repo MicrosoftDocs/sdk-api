@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView.RefreshObject
+ - IShellFolderView::RefreshObject
 ---
 
 # IShellFolderView::RefreshObject
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If you immediately call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject">IShellFolderView::GetObject</a> with the index returned by <i>puItem</i>, you will get a copy of the ITEMID_CHILD that you redrew.  However, the index position of an item may change over time, so code cannot trust that any specific index always returns the same ITEMID_CHILD.
+

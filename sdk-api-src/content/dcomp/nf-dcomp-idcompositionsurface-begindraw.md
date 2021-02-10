@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionSurface.BeginDraw
+ - IDCompositionSurface::BeginDraw
 ---
 
 # IDCompositionSurface::BeginDraw
@@ -136,3 +136,4 @@ Only one DirectComposition surface can be updated at a time. An application must
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a>
+

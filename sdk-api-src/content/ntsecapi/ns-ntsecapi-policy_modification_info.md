@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _POLICY_MODIFICATION_INFO
+ - PPOLICY_MODIFICATION_INFO
  - POLICY_MODIFICATION_INFO
 ---
 
@@ -84,3 +86,4 @@ A <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
+

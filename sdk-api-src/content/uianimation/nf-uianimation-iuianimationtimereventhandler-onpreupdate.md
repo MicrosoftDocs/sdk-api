@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimerEventHandler.OnPreUpdate
+ - IUIAnimationTimerEventHandler::OnPreUpdate
 ---
 
 # IUIAnimationTimerEventHandler::OnPreUpdate
@@ -80,3 +80,4 @@ For each tick, a timer calls the following sequence of methods:
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-settimereventhandler">SetTimerEventHandler</a>
+

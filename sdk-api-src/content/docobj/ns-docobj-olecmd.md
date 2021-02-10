@@ -44,6 +44,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
+ - _tagOLECMD
  - OLECMD
 ---
 
@@ -71,3 +72,4 @@ Flags associated with <b>cmdID</b>; taken from the <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a>
+

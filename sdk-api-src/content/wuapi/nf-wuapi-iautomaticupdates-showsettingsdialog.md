@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdates.ShowSettingsDialog
+ - IAutomaticUpdates::ShowSettingsDialog
 ---
 
 # IAutomaticUpdates::ShowSettingsDialog
@@ -135,3 +135,4 @@ The settings in the dialog box are read-only if the caller has insufficient secu
 
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_settings">IAutomaticUpdates.Settings</a>
+

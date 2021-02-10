@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IExternalConnection.ReleaseConnection
+ - IExternalConnection::ReleaseConnection
 ---
 
 # IExternalConnection::ReleaseConnection
@@ -77,3 +77,4 @@ If <i>fLastReleaseCloses</i> equals <b>TRUE</b>, calling <b>ReleaseConnection</b
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iexternalconnection">IExternalConnection</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputFormat
+ - IWMSyncReader::GetOutputFormat
 ---
 
 # IWMSyncReader::GetOutputFormat
@@ -120,3 +120,4 @@ To enumerate the supported formats for an output media stream, call <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
+

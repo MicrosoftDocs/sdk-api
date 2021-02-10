@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.GetTransform
+ - Pen::GetTransform
 ---
 
 # Pen::GetTransform
@@ -107,3 +107,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

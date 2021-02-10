@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject.New
+ - IGroupPolicyObject::New
 ---
 
 # IGroupPolicyObject::New
@@ -106,3 +106,4 @@ To open a GPO that already exists, you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-opendsgpo">OpenDSGPO</a>
+

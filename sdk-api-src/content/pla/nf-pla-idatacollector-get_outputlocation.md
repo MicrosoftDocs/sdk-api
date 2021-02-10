@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector.OutputLocation
- - IDataCollector.get_OutputLocation
+ - IDataCollector::get_OutputLocation
 ---
 
 # IDataCollector::get_OutputLocation
@@ -68,3 +67,4 @@ The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-ge
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a>
+

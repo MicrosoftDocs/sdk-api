@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr.GetDefaultTarget
- - FhConfigMgr.GetDefaultTarget
+ - IFhConfigMgr::GetDefaultTarget
 ---
 
 # IFhConfigMgr::GetDefaultTarget
@@ -81,3 +80,4 @@ If no backup target is currently assigned, this method returns <code>HRESULT_FRO
 
 
 <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a>
+

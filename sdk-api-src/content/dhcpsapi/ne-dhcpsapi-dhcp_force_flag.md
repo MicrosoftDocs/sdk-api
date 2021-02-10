@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_FORCE_FLAG
+ - LPDHCP_FORCE_FLAG
  - DHCP_FORCE_FLAG
 ---
 
@@ -73,3 +75,4 @@ The operation deletes all client records affected by the element, and then delet
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremovesubnetelementv5">DhcpRemoveSubnetElementV5</a>
+

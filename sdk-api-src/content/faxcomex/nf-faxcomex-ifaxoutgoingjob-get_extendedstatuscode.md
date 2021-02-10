@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.ExtendedStatusCode
- - IFaxOutgoingJob.get_ExtendedStatusCode
- - IFaxOutgoingJob.get_ExtendedStatusCode
+ - IFaxOutgoingJob::get_ExtendedStatusCode
 ---
 
 # IFaxOutgoingJob::get_ExtendedStatusCode
@@ -75,3 +73,4 @@ A fax client application should check the extended status string first. If the s
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
+

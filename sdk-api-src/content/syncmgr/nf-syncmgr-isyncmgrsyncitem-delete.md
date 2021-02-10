@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItem.Delete
+ - ISyncMgrSyncItem::Delete
 ---
 
 # ISyncMgrSyncItem::Delete
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Sync Center calls this method when the user selects the item in the handler's folder and launches its <b>Delete</b> task, but only if the item has set the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_ICM_CAN_DELETE</a> flag. If the handler supports the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">SYNCMGR_OBJECTID_QueryBeforeDeactivate</a> object, this method is only called if the UI operation was successful.
 
 If the handler does not need to perform any actions when it is activated, it can return either S_OK or E_NOTIMPL.
+

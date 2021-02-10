@@ -43,7 +43,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsNetAddress
- - NetAddress
 ---
 
 # IADsNetAddress interface
@@ -62,3 +61,4 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

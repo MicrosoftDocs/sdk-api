@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CFrameworkQuery.KeysOnly
+ - CFrameworkQuery::KeysOnly
 ---
 
 # CFrameworkQuery::KeysOnly
@@ -64,3 +64,4 @@ The <b>KeysOnly</b> method indicates whether only the key properties are require
 ## -returns
 
 Returns <b>TRUE</b> if only the key properties are required and <b>FALSE</b> if non-key properties are required.
+

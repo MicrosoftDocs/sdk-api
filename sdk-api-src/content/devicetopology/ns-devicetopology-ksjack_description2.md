@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
+ - _tagKSJACK_DESCRIPTION2
+ - PKSJACK_DESCRIPTION2
  - KSJACK_DESCRIPTION2
 ---
 
@@ -82,3 +84,4 @@ Stores the audio jack's capabilities: jack presence detection capability
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
+

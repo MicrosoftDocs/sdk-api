@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBCOMMANDTREE
  - DBCOMMANDTREE
 ---
 
@@ -304,3 +305,4 @@ Error indicator, details in Extended Error info (4 bytes)
 Many operations create a binding environment. For example, a DBOP_select operation has two inputs — a table and a Boolean predicate. (For more information on this operation, see <a href="/previous-versions/windows/desktop/indexsrv/operators-with-two-variants-for-ordered-and-non-ordered-tables">Operators with Two Variants for Ordered and Non-Ordered Tables</a>.) By virtue of the "select" operation, the table becomes the binding environment for the predicate. That means that the predicate may freely reference column names defined in the table. Note that not all bindings must come from the nearest table operation. For example, there might be multiple table operations within an "exist" expression, and any predicate may reference a column defined outside the "exist" expression. (In SQL, this is called a "correlated subquery.")
 
 The typical size of a <b>DBCOMMANDTREE</b> structure for a node is 24 bytes. However, operators may store some specific information in the value field of the node. For programming convenience, the union field includes branches representing some common types that can fit within 8 bytes. Variable-length types are referenced via a pointer to the corresponding structure (such as <a href="/previous-versions/windows/desktop/indexsrv/dbtext">DBTEXT</a>). The discriminator for the union is of type <b>WORD</b> rather than <a href="/previous-versions/windows/desktop/indexsrv/dbvaluekind">DBVALUEKIND</a> so that it is possible to store node values such as DBVALUEKIND_VECTOR | DBVALUEKIND_GUID, DBVALUEKIND_BYREF | DBVALUEKIND_UI4, or DBVALUEKIND_SAFEARRAY | DBVALUEKIND_I4.
+

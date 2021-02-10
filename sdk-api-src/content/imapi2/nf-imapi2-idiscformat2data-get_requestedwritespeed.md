@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data.get_RequestedWriteSpeed
+ - IDiscFormat2Data::get_RequestedWriteSpeed
 ---
 
 # IDiscFormat2Data::get_RequestedWriteSpeed
@@ -104,3 +104,4 @@ This is the value specified in the most recent call to the <a href="/windows/des
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeds">IDiscFormat2Data::get_SupportedWriteSpeeds</a>
+

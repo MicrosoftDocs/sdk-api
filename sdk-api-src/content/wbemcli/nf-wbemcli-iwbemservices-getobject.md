@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.GetObject
+ - IWbemServices::GetObject
 ---
 
 # IWbemServices::GetObject
@@ -152,3 +152,4 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
+

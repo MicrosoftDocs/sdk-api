@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyFile.GetRemoteName
+ - IBackgroundCopyFile::GetRemoteName
 ---
 
 # IBackgroundCopyFile::GetRemoteName
@@ -95,3 +95,4 @@ See the example code for the
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
+

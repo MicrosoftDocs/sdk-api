@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateFontIndirectA
  - wingdi/CreateFontIndirectA
+ - CreateFontIndirect
+ - wingdi/CreateFontIndirect
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Font-L1-1-3.dll
  - GDI32Full.dll
 api_name:
- - CreateFontIndirect
  - CreateFontIndirectA
- - CreateFontIndirectW
+ - CreateFontIndirect
 ---
 
 # CreateFontIndirectA function
@@ -143,3 +144,4 @@ For an example, see <a href="/windows/desktop/gdi/creating-a-logical-font">Creat
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject
       </a>
+

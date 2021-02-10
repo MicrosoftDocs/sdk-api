@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_BACKUP_RESTORE_FLAGS
  - WBEM_BACKUP_RESTORE_FLAGS
 ---
 
@@ -63,3 +64,4 @@ Does not shut down active clients; returns an error if there are any.
 ### -field WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN
 
 Shuts down any active clients.
+

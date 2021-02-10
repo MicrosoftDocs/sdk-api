@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlay.Advise
+ - IOverlay::Advise
 ---
 
 # IOverlay::Advise
@@ -117,3 +117,4 @@ Only one advise link can be set on any given <a href="/windows/desktop/api/strmi
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
+

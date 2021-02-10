@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - dssec
  - dssec/dssec
+api_name:
+ - dssec
 ---
 
 # Dssec.h header

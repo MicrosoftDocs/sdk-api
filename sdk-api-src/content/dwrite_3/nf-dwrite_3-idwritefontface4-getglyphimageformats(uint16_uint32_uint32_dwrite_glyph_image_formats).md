@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFontFace4.GetGlyphImageFormats
+ - IDWriteFontFace4::GetGlyphImageFormats
 ---
 
 # IDWriteFontFace4::GetGlyphImageFormats(UINT16,UINT32,UINT32,DWRITE_GLYPH_IMAGE_FORMATS)
@@ -80,3 +80,4 @@ Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_forma
 ## -see-also
 
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4">IDWriteFontFace4</a>
+

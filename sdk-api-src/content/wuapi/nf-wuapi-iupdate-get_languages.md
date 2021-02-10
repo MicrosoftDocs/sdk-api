@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.Languages
- - IUpdate.get_Languages
+ - IUpdate::get_Languages
 ---
 
 # IUpdate::get_Languages
@@ -64,3 +63,4 @@ This property refers to the language of the update itself.  The language that is
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponentsEx2.SetRestoreName
+ - IVssBackupComponentsEx2::SetRestoreName
 ---
 
 # IVssBackupComponentsEx2::SetRestoreName
@@ -190,3 +190,4 @@ For more
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
+

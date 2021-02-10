@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_Sint16A
  - MI_Sint16A
 ---
 

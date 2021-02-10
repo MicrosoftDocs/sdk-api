@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVINFO
+ - PDVINFO
 ---
 
 # DVINFO structure
@@ -99,3 +100,4 @@ The AAUX and VAUX packs are defined in IEC 61834-4.
 
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

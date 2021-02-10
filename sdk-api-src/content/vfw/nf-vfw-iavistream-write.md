@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIStream.Write
+ - IAVIStream::Write
 ---
 
 # IAVIStream::Write
@@ -113,3 +113,4 @@ HRESULT Write(LONG lStart, LONG lSamples, LPVOID lpBuffer,
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+

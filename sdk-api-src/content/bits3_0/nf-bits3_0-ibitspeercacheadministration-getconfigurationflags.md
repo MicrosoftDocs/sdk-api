@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.GetConfigurationFlags
+ - IBitsPeerCacheAdministration::GetConfigurationFlags
 ---
 
 # IBitsPeerCacheAdministration::GetConfigurationFlags
@@ -123,3 +123,4 @@ Peer caching could have been enabled by Group Policy or by calling the <a href="
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
+

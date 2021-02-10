@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CHANGER_SET_ACCESS
+ - PCHANGER_SET_ACCESS
  - CHANGER_SET_ACCESS
 ---
 
@@ -145,3 +147,4 @@ Requires that <b>Features0</b> is CHANGER_LOCK_UNLOCK.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>
+

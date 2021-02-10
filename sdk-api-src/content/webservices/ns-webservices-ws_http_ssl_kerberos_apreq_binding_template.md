@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE
  - WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE
 ---
 
@@ -73,3 +74,4 @@ Application provided SSL transport security binding information that cannot be r
 ### -field kerberosApreqMessageSecurityBinding
 
 Application provided kerberos binding information that cannot be represented in policy.
+

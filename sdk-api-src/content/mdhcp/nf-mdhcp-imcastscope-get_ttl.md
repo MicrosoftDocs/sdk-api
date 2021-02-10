@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastScope.get_TTL
+ - IMcastScope::get_TTL
 ---
 
 # IMcastScope::get_TTL
@@ -98,3 +98,4 @@ The caller passed in an invalid pointer argument.
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
+

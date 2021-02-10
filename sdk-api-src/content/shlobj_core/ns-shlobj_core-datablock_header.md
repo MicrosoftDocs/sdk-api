@@ -46,6 +46,8 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - tagDATABLOCKHEADER
+ - LPDATABLOCK_HEADER
  - DATABLOCK_HEADER
 ---
 
@@ -81,3 +83,4 @@ A signature that identifies the type of data block that follows the header.
 
 
 <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_fe_console_props">NT_FE_CONSOLE_PROPS</a>
+

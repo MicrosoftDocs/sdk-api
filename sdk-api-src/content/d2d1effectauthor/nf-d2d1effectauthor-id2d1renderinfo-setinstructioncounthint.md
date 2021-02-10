@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1RenderInfo.SetInstructionCountHint
+ - ID2D1RenderInfo::SetInstructionCountHint
 ---
 
 # ID2D1RenderInfo::SetInstructionCountHint
@@ -73,3 +73,4 @@ The instruction count may be set according to the number of instructions in the 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a>
+

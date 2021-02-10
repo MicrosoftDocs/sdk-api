@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage3.SetMetadata
+ - IWMDMStorage3::SetMetadata
 ---
 
 # IWMDMStorage3::SetMetadata
@@ -112,3 +112,4 @@ BREAK_HR(hr, "Set metadata on the storage in TestUpdateMetadata.", "Couldn't set
 
 
 <a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
+

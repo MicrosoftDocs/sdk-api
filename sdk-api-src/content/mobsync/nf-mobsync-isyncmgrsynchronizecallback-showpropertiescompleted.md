@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
+ - ISyncMgrSynchronizeCallback::ShowPropertiesCompleted
 ---
 
 # ISyncMgrSynchronizeCallback::ShowPropertiesCompleted
@@ -98,3 +98,4 @@ This method should not be called if the registered application's handler does no
 
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a>
+

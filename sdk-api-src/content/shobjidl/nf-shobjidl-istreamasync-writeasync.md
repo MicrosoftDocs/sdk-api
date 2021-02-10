@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IStreamAsync.WriteAsync
+ - IStreamAsync::WriteAsync
 ---
 
 # IStreamAsync::WriteAsync
@@ -87,3 +87,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>WriteAsync</b> should reset the event specified by the <b>hEvent</b> member of the <a href="/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure to a nonsignaled state when it begins the input/output (I/O) operation.
+

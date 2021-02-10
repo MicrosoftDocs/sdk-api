@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.Graphics
+ - Graphics::Graphics
 ---
 
 # Graphics::Graphics(IN Image)
@@ -99,3 +99,4 @@ This constructor also fails if the image uses one of the following pixel formats
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
+

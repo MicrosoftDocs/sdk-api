@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.GetPatternProgrammaticName
+ - IUIAutomation::GetPatternProgrammaticName
 ---
 
 # IUIAutomation::GetPatternProgrammaticName
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The programmatic name is intended for debugging and diagnostic purposes only. The string is not localized.
 
 This property should not be used in string comparisons. To determine whether two control patterns are the same, compare the control pattern identifiers directly.
+

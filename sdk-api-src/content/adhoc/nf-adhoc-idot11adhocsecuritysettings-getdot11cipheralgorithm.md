@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm
+ - IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm
 ---
 
 # IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm
@@ -131,3 +131,4 @@ The pointer <i>pCipher</i> is invalid.
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>
+

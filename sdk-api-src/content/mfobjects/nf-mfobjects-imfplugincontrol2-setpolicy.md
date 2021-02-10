@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFPluginControl2.SetPolicy
+ - IMFPluginControl2::SetPolicy
 ---
 
 # IMFPluginControl2::SetPolicy
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol2">IMFPluginControl2</a>
+

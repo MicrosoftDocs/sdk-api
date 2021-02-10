@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter.GetInputCount
+ - IWMWriter::GetInputCount
 ---
 
 # IWMWriter::GetInputCount
@@ -105,3 +105,4 @@ This method along with <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwri
 
 
 <a href="/windows/desktop/wmformat/to-identify-inputs-by-number">To Identify Inputs By Number</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Rect.Union
+ - Rect::Union
 ---
 
 # Rect::Union
@@ -139,3 +139,4 @@ VOID Example_UnionABC(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

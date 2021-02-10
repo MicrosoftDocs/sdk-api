@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.CreateRule
- - IFsrmClassificationManager2.CreateRule
- - FsrmClassificationManager.CreateRule
+ - IFsrmClassificationManager::CreateRule
 ---
 
 # IFsrmClassificationManager::CreateRule
@@ -110,3 +108,4 @@ FSRM cannot guarantee the order in which the rules
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
+

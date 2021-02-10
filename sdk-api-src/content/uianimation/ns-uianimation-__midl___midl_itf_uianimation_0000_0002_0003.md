@@ -44,6 +44,7 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
+ - __MIDL___MIDL_itf_UIAnimation_0000_0002_0003
  - UI_ANIMATION_KEYFRAME
 ---
 
@@ -82,3 +83,4 @@ This structure should be treated as a handle. It is returned as an output parame
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-repeatbetweenkeyframes">IUIAnimationStoryboard::RepeatBetweenKeyframes</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagMENUGETOBJECTINFO
+ - PMENUGETOBJECTINFO
  - MENUGETOBJECTINFO
 ---
 
@@ -147,3 +149,4 @@ To create a drag-and-drop menu, call <a href="/windows/desktop/api/winuser/nf-wi
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setmenuinfo">SetMenuInfo</a>
+

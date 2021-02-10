@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evalcom2.dll
 api_name:
- - IValidate.OpenDatabase
+ - IValidate::OpenDatabase
 ---
 
 # IValidate::OpenDatabase
@@ -107,3 +107,4 @@ The <b>OpenDatabase</b> method can also accept a handle to an opened database. T
 
 
 <a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
+

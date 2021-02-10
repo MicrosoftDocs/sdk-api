@@ -46,9 +46,9 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - ACTRL_ACCESS
+ - _ACTRL_ALISTA
+ - PACTRL_ACCESSA
  - ACTRL_ACCESSA
- - ACTRL_ACCESSW
 ---
 
 # ACTRL_ACCESSA structure
@@ -87,3 +87,4 @@ Note the following type definition.
 ## -see-also
 
 <a href="/windows/desktop/api/iaccess/nf-iaccess-iaccesscontrol-grantaccessrights">IAccessControl::GrantAccessRights</a>
+

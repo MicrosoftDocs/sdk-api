@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
+ - IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
 ---
 
 # IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
@@ -147,3 +147,4 @@ By default, a call made in a callback method to any other animation method resul
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE </a>
+

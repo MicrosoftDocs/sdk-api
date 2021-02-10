@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfProperties.Clone
+ - IEnumTfProperties::Clone
 ---
 
 # IEnumTfProperties::Clone
@@ -105,3 +105,4 @@ The method is not implemented.
 ## -see-also
 
 [IEnumTfProperties interface](nn-msctf-ienumtfproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md)
+

@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1.Present1
+ - IDXGISwapChain1::Present1
 ---
 
 # IDXGISwapChain1::Present1
@@ -117,3 +117,4 @@ It is a requirement of variable refresh rate displays that tearing is enabled. T
 
 
 <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>
+

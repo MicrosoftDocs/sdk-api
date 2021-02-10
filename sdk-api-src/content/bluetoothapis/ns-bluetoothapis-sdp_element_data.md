@@ -46,6 +46,8 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
+ - _SDP_ELEMENT_DATA
+ - PSDP_ELEMENT_DATA
  - SDP_ELEMENT_DATA
 ---
 
@@ -211,3 +213,4 @@ Length of the raw alternative. Cannot be null terminated.
 
 
 <a href="/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_bluetooth_enum_attributes_callback">PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - AVIStreamOpenFromFileW
  - vfw/AVIStreamOpenFromFileW
+ - AVIStreamOpenFromFile
+ - vfw/AVIStreamOpenFromFile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Avifil32.dll
 api_name:
- - AVIStreamOpenFromFile
- - AVIStreamOpenFromFileA
  - AVIStreamOpenFromFileW
+ - AVIStreamOpenFromFile
 ---
 
 # AVIStreamOpenFromFileW function
@@ -127,3 +128,4 @@ This function calls the <a href="/windows/desktop/api/vfw/nf-vfw-avifileopen">AV
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
+

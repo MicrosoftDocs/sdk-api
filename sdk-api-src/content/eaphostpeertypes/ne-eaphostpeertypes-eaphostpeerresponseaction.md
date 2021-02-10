@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaphostpeertypes.h
 api_name:
+ - tagEapHostPeerResponseAction
  - EapHostPeerResponseAction
 ---
 

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GopherFindFirstFileA
  - wininet/GopherFindFirstFileA
+ - GopherFindFirstFile
+ - wininet/GopherFindFirstFile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - GopherFindFirstFile
  - GopherFindFirstFileA
- - GopherFindFirstFileW
+ - GopherFindFirstFile
 ---
 
 # GopherFindFirstFileA function
@@ -188,3 +189,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 ## -see-also
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

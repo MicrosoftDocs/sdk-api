@@ -9,6 +9,8 @@ tech.root: direct3d10
 f1_keywords:
  - d3d10_1
  - d3d10_1/d3d10_1
+api_name:
+ - d3d10_1
 ---
 
 # D3D10_1.h header

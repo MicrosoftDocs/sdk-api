@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation.SetObjectTotalSize
+ - IWMDMOperation::SetObjectTotalSize
 ---
 
 # IWMDMOperation::SetObjectTotalSize
@@ -122,3 +122,4 @@ This method is called after <b>SetObjectAttributes</b>.
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize">IWMDMOperation::GetObjectTotalSize</a>
+

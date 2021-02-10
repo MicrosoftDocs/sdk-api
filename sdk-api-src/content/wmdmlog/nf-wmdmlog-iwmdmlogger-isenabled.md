@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMLogger.IsEnabled
+ - IWMDMLogger::IsEnabled
 ---
 
 # IWMDMLogger::IsEnabled
@@ -100,3 +100,4 @@ if(!enabled)
 
 
 <a href="/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger">IWMDMLogger Interface</a>
+

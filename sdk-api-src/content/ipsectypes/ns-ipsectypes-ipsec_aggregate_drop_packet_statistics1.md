@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1_
  - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
 ---
 
@@ -100,3 +101,4 @@ Number of inbound drops for all packets.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

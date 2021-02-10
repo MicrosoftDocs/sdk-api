@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPISaveMail
+ - MAPISAVEMAIL
 ---
 
 # MAPISAVEMAIL callback function
@@ -272,3 +272,4 @@ Because message identifiers are system-specific and opaque and can be invalidate
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
+

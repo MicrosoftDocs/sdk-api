@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ifdef.h
 api_name:
+ - _NET_IF_CONNECTION_TYPE
+ - PNET_IF_CONNECTION_TYPE
  - NET_IF_CONNECTION_TYPE
 ---
 
@@ -78,3 +80,4 @@ Specifies the demand-dial connection type. A demand-dial connection comes up in 
 ### -field NET_IF_CONNECTION_MAXIMUM
 
 A maximum value for testing purposes.
+

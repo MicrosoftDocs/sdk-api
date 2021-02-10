@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
+ - _PSAPI_WORKING_SET_INFORMATION
+ - PPSAPI_WORKING_SET_INFORMATION
  - PSAPI_WORKING_SET_INFORMATION
 ---
 
@@ -73,3 +75,4 @@ An array of <a href="/windows/desktop/api/psapi/ns-psapi-psapi_working_set_block
 
 
 <a href="/windows/desktop/api/psapi/nf-psapi-queryworkingset">QueryWorkingSet</a>
+

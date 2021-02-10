@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevices.Count
- - IFaxDevices.get_Count
+ - IFaxDevices::get_Count
 ---
 
 # IFaxDevices::get_Count
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
+

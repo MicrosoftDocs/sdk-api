@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator.AdviseNotify
+ - IVMRSurfaceAllocator::AdviseNotify
 ---
 
 # IVMRSurfaceAllocator::AdviseNotify
@@ -86,3 +86,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/DirectShow/vmr-renderless-playback-mode--custom-allocator-presenters">VMR Renderless Playback Mode (Custom Allocator-Presenters)</a>
+

@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.SMTPPassword
- - IFaxReceiptOptions.get_SMTPPassword
- - IFaxReceiptOptions.put_SMTPPassword
- - IFaxReceiptOptions.get_SMTPPassword
- - IFaxReceiptOptions.put_SMTPPassword
+ - IFaxReceiptOptions::get_SMTPPassword
 ---
 
 # IFaxReceiptOptions::get_SMTPPassword
@@ -71,3 +67,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxreceiptoptions">IFaxReceiptOptions</a>
+

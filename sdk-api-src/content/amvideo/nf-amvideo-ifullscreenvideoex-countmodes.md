@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx.CountModes
+ - IFullScreenVideoEx::CountModes
 ---
 
 # IFullScreenVideoEx::CountModes
@@ -99,3 +99,4 @@ Success.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
+

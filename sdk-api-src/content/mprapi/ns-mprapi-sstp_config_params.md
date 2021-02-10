@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _SSTP_CONFIG_PARAMS
+ - PSSTP_CONFIG_PARAMS
  - SSTP_CONFIG_PARAMS
 ---
 
@@ -167,3 +169,4 @@ An <a href="/windows/desktop/api/mprapi/ns-mprapi-sstp_cert_info">SSTP_CERT_INFO
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
+

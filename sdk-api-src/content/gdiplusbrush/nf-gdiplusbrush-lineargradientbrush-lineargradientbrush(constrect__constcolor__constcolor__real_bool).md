@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.LinearGradientBrush
+ - LinearGradientBrush::LinearGradientBrush
 ---
 
 # LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL)
@@ -98,3 +98,4 @@ where ß is the new angle of the directional line; width and height are the dime
 ## -see-also
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a>
+

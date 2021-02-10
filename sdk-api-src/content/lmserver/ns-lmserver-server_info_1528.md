@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1528
+ - PSERVER_INFO_1528
  - SERVER_INFO_1528
 ---
 
@@ -78,3 +80,4 @@ Specifies the period of time, in seconds, that the scavenger remains idle before
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

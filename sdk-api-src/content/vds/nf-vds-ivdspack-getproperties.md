@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack.GetProperties
+ - IVdsPack::GetProperties
 ---
 
 # IVdsPack::GetProperties
@@ -106,3 +106,4 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_pack_prop">VDS_PACK_PROP</a>
+

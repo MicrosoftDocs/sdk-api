@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - HttpSendRequestExW
  - wininet/HttpSendRequestExW
+ - HttpSendRequestEx
+ - wininet/HttpSendRequestEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - HttpSendRequestEx
- - HttpSendRequestExA
  - HttpSendRequestExW
+ - HttpSendRequestEx
 ---
 
 # HttpSendRequestExW function
@@ -112,3 +113,4 @@ Instead, an application can use the <a href="/windows/desktop/api/stringapiset/n
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

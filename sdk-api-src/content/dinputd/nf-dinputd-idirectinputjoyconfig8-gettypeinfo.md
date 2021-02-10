@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputJoyConfig8.GetTypeInfo
+ - IDirectInputJoyConfig8::GetTypeInfo
 ---
 
 # IDirectInputJoyConfig8::GetTypeInfo
@@ -124,3 +124,4 @@ The joystick type was not found.
 </td>
 </tr>
 </table>
+

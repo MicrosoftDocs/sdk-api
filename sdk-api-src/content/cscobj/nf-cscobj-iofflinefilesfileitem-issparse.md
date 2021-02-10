@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesFileItem.IsSparse
+ - IOfflineFilesFileItem::IsSparse
 ---
 
 # IOfflineFilesFileItem::IsSparse
@@ -72,3 +72,4 @@ To fill sparse files manually, use the <a href="/previous-versions/windows/deskt
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesfileitem">IOfflineFilesFileItem</a>
+

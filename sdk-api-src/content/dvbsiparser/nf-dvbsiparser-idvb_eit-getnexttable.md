@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_EIT.GetNextTable
+ - IDVB_EIT::GetNextTable
 ---
 
 # IDVB_EIT::GetNextTable
@@ -114,3 +114,4 @@ This method applies only to current tables. Otherwise, the method returns E_ACCE
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>
+

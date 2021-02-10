@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IAnnotationProvider.AnnotationTypeName
- - IAnnotationProvider.get_AnnotationTypeName
+ - IAnnotationProvider::get_AnnotationTypeName
 ---
 
 # IAnnotationProvider::get_AnnotationTypeName
@@ -64,3 +63,4 @@ The name of the annotation type can correspond to one of the annotation type ide
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iannotationprovider">IAnnotationProvider</a>
+

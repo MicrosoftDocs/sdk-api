@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.GetNativeVideoSize
+ - IMFPMediaPlayer::GetNativeVideoSize
 ---
 
 # IMFPMediaPlayer::GetNativeVideoSize
@@ -121,3 +121,4 @@ At least one parameter must be non-<b>NULL</b>.
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IGlobalInterfaceTable.GetInterfaceFromGlobal
+ - IGlobalInterfaceTable::GetInterfaceFromGlobal
 ---
 
 # IGlobalInterfaceTable::GetInterfaceFromGlobal
@@ -110,3 +110,4 @@ The <b>GetInterfaceFromGlobal</b> method calls <a href="/windows/desktop/api/unk
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>
+

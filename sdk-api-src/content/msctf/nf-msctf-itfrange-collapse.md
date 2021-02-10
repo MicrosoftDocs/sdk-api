@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.Collapse
+ - ITfRange::Collapse
 ---
 
 # ITfRange::Collapse
@@ -167,3 +167,4 @@ The cookie in <i>ec</i> is invalid, or the caller does not have a read-only lock
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
+

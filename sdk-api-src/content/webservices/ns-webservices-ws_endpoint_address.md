@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_ENDPOINT_ADDRESS
  - WS_ENDPOINT_ADDRESS
 ---
 
@@ -127,3 +128,4 @@ This field corresponds to the Identity element, which is an extension
 ## -remarks
 
 Only the URL field is required (other fields may be <b>NULL</b>).
+

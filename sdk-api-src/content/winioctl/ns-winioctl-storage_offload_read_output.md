@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_OFFLOAD_READ_OUTPUT
+ - PSTORAGE_OFFLOAD_READ_OUTPUT
  - STORAGE_OFFLOAD_READ_OUTPUT
 ---
 
@@ -122,3 +124,4 @@ A <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STOR
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
+

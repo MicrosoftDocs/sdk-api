@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - cpl
  - cpl/cpl
+api_name:
+ - cpl
 ---
 
 # Cpl.h header

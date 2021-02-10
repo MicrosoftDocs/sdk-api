@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DdeInitializeW
  - ddeml/DdeInitializeW
+ - DdeInitialize
+ - ddeml/DdeInitialize
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DdeInitialize
- - DdeInitializeA
  - DdeInitializeW
+ - DdeInitialize
 ---
 
 # DdeInitializeW function
@@ -382,3 +383,4 @@ There is an ANSI version and a Unicode version of <b>DdeInitialize</b>. The vers
 ## -see-also
 
 <a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library Overview</a>
+

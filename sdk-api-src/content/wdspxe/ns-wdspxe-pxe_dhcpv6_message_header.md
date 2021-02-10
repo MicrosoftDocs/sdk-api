@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WdsPxe.h
 api_name:
+ - tagPXE_DHCPV6_MESSAGE_HEADER
+ - PPXE_DHCPV6_MESSAGE_HEADER
  - PXE_DHCPV6_MESSAGE_HEADER
 ---
 
@@ -67,3 +69,4 @@ The DHCPv6 Message Type.
 ### -field Message
 
 The remainder of the packet which must be interpreted differently based on the <b>MessageType</b>.
+

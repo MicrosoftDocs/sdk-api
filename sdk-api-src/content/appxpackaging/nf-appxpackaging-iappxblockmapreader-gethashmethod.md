@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBlockMapReader.GetHashMethod
+ - IAppxBlockMapReader::GetHashMethod
 ---
 
 # IAppxBlockMapReader::GetHashMethod
@@ -75,3 +75,4 @@ The <i>hashMethod</i> value corresponds to the <b>HashMethod</b> attribute of th
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
+

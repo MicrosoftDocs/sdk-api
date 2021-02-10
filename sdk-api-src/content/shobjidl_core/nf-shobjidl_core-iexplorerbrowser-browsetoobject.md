@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser.BrowseToObject
+ - IExplorerBrowser::BrowseToObject
 ---
 
 # IExplorerBrowser::BrowseToObject
@@ -117,3 +117,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method calls <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistidlist-getidlist">GetIDList</a> and browses to the pidl returned.  It operates in the same way as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-browsetoidlist">IExplorerBrowser::BrowseToIDList</a>, except that <i>punk</i> cannot be <b>NULL</b>. Standard usage is to browse to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> or an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>. An error will be returned if the object passed in cannot be browsed through. An object that can be browsed through implements either <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist">IPersistIDList</a>.
 
 The first navigation of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> is synchronous. After that, all navigations are asynchronous. As a result, calls to <b>IExplorerBrowser::BrowseToObject</b> will succeed if you properly set up the pending   navigation, but that does not guarantee the navigation will succeed.  To be informed of success and failure, clients should implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents">IExplorerBrowserEvents</a> and respond appropriately in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationcomplete">OnNavigationComplete</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationfailed">OnNavigationFailed</a>.
+

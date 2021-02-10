@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dwmapi.h
 api_name:
+ - _MilMatrix3x2D
  - MilMatrix3x2D
 ---
 

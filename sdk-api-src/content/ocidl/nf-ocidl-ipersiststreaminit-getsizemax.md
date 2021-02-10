@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPersistStreamInit.GetSizeMax
+ - IPersistStreamInit::GetSizeMax
 ---
 
 # IPersistStreamInit::GetSizeMax
@@ -72,3 +72,4 @@ The <b>GetSizeMax</b> implementation should return a conservative estimate of th
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
+

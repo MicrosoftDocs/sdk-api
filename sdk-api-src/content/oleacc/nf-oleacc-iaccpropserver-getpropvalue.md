@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServer.GetPropValue
+ - IAccPropServer::GetPropValue
 ---
 
 # IAccPropServer::GetPropValue
@@ -97,3 +97,4 @@ If a single callback object is registered for annotating multiple accessible ele
 If the accessible element is <b>HWND</b>-based, <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-decomposehwndidentitystring">IAccPropServices::DecomposeHwndIdentityString</a> can be used to extract the HWND/idObject/idChild from the identity string.
 
 If the callback has a value to return for the specified property, it should return it in <i>pvarValue</i> and set <i>pfHasProp</i> to <b>TRUE</b>. Otherwise it should set <i>pvarValue</i> to VT_EMPTY and set <i>pfHasProp</i> to <b>FALSE</b>. In this latter case, the original <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer will be used to obtain a value for this property.
+

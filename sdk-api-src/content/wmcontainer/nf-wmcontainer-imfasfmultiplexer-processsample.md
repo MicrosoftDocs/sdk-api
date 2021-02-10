@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMultiplexer.ProcessSample
+ - IMFASFMultiplexer::ProcessSample
 ---
 
 # IMFASFMultiplexer::ProcessSample
@@ -156,3 +156,4 @@ After each call to <b>ProcessSample</b>, call <a href="/windows/desktop/api/wmco
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
+

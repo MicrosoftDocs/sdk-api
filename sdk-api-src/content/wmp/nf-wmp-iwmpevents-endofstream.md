@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.h
 api_name:
- - IWMPEvents.EndOfStream
+ - IWMPEvents::EndOfStream
 ---
 
 # IWMPEvents::EndOfStream
@@ -65,3 +65,4 @@ This event is reserved for future use.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

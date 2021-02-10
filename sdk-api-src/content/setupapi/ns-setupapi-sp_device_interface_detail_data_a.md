@@ -46,8 +46,9 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
- - SP_DEVICE_INTERFACE_DETAIL_DATA
- - sp_device_interface_detail_data_a
+ - _SP_DEVICE_INTERFACE_DETAIL_DATA_A
+ - PSP_DEVICE_INTERFACE_DETAIL_DATA_A
+ - SP_DEVICE_INTERFACE_DETAIL_DATA_A
 ---
 
 # SP_DEVICE_INTERFACE_DETAIL_DATA_A structure
@@ -83,3 +84,4 @@ An SP_DEVICE_INTERFACE_DETAIL_DATA structure identifies the path for a device in
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacedetaila">SetupDiGetDeviceInterfaceDetail</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ddrawi.h
 api_name:
+ - _DDCORECAPS
  - DDCORECAPS
 ---
 
@@ -1406,3 +1407,4 @@ This structure mirrors the first entries of the DDCAPS structure, but is of a fi
 The driver initializes DDCORECAPS when it is initializing the other members of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure in its <a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
 
 DirectDraw requests additional driver capabilities by calling the <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function that is also returned in the DD_HALINFO structure.
+

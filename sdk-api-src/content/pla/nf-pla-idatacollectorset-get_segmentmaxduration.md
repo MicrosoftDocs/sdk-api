@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.SegmentMaxDuration
- - IDataCollectorSet.get_SegmentMaxDuration
- - IDataCollectorSet.put_SegmentMaxDuration
+ - IDataCollectorSet::get_SegmentMaxDuration
 ---
 
 # IDataCollectorSet::get_SegmentMaxDuration
@@ -79,3 +77,4 @@ This duration needs to be less than the <a href="/previous-versions/windows/desk
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxsize">IDataCollectorSet::SegmentMaxSize</a>
+

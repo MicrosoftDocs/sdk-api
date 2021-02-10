@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetLogColorSpaceW
  - wingdi/GetLogColorSpaceW
+ - GetLogColorSpace
+ - wingdi/GetLogColorSpace
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetLogColorSpace
- - GetLogColorSpaceA
  - GetLogColorSpaceW
+ - GetLogColorSpace
 ---
 
 # GetLogColorSpaceW function
@@ -94,3 +95,4 @@ If this function fails, the return value is <b>FALSE</b>.
 
 
 <a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Txlogpub.h
 api_name:
- - ILog.ReadRecordPrefix
+ - ILog::ReadRecordPrefix
 ---
 
 # ILog::ReadRecordPrefix
@@ -129,3 +129,4 @@ Although records appended to the log using <a href="/windows/desktop/api/txlogpu
 ## -see-also
 
 <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
+

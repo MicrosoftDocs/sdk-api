@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_FORMAT2_DATA_WRITE_ACTION
+ - PIMAPI_FORMAT2_DATA_WRITE_ACTION
  - IMAPI_FORMAT2_DATA_WRITE_ACTION
 ---
 
@@ -93,3 +95,4 @@ Verifying the integrity of the burned media.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_currentaction">IDiscFormat2DataEventArgs::get_CurrentAction</a>
+

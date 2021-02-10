@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView2.HandleRename
+ - IShellView2::HandleRename
 ---
 
 # IShellView2::HandleRename
@@ -65,3 +65,4 @@ A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITE
 Type: <b>HRESULT</b>
 
 Return S_OK if successful, or a COM-defined error code otherwise.
+

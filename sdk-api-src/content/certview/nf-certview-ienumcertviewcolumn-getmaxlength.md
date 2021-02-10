@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.GetMaxLength
- - IEnumCERTVIEWCOLUMN.GetMaxLength
+ - IEnumCERTVIEWCOLUMN::GetMaxLength
 ---
 
 # IEnumCERTVIEWCOLUMN::GetMaxLength
@@ -122,3 +121,4 @@ if (S_OK == hr)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>
+

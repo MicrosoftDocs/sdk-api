@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IEnumWIA_FORMAT_INFO.Next
+ - IEnumWIA_FORMAT_INFO::Next
 ---
 
 # IEnumWIA_FORMAT_INFO::Next
@@ -78,3 +78,4 @@ On output, receives the address of a <b>ULONG</b> that contains the number of <a
 Type: <b>HRESULT</b>
 
 If the enumeration is continuing, this method returns S_OK and sets the value pointed to by <i>pceltFetched</i> to the number of capabilities returned. If the enumeration is complete, it returns S_FALSE and sets the value pointed to by <i>pceltFetched</i> to zero. If the method fails, it returns a standard COM error.
+

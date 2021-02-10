@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation.Name
- - ICspInformation.get_Name
+ - ICspInformation::get_Name
 ---
 
 # ICspInformation::get_Name
@@ -79,3 +78,4 @@ The following list shows the names of some of the Microsoft providers installed 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+

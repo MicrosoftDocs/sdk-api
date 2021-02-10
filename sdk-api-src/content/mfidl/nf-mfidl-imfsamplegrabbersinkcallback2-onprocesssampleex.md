@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFSampleGrabberSinkCallback2.OnProcessSampleEx
+ - IMFSampleGrabberSinkCallback2::OnProcessSampleEx
 ---
 
 # IMFSampleGrabberSinkCallback2::OnProcessSampleEx
@@ -95,3 +95,4 @@ If you use the sample-grabber sink in a playback topology, this method should re
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback2">IMFSampleGrabberSinkCallback2</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking.SetPositions
+ - IMediaSeeking::SetPositions
 ---
 
 # IMediaSeeking::SetPositions
@@ -240,3 +240,4 @@ For more information, see the source code for the <a href="/windows/desktop/Dire
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
+

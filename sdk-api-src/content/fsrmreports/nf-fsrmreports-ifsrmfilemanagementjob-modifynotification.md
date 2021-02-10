@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.ModifyNotification
+ - IFsrmFileManagementJob::ModifyNotification
 ---
 
 # IFsrmFileManagementJob::ModifyNotification
@@ -89,3 +89,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

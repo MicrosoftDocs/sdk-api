@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph.FindFilterByName
+ - IFilterGraph::FindFilterByName
 ---
 
 # IFilterGraph::FindFilterByName
@@ -120,3 +120,4 @@ The returned <b>IBaseFilter</b> interface has an outstanding reference count. Th
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
+

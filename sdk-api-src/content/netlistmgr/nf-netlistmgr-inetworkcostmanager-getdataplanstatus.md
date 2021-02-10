@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkCostManager.GetDataPlanStatus
+ - INetworkCostManager::GetDataPlanStatus
 ---
 
 # INetworkCostManager::GetDataPlanStatus
@@ -135,3 +135,4 @@ Network connectivity is currently unavailable.
 
 
 <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_sockaddr">NLM_SOCKADDR</a>
+

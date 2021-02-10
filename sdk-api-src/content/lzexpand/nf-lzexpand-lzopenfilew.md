@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LZOpenFileW
  - lzexpand/LZOpenFileW
+ - LZOpenFile
+ - lzexpand/LZOpenFile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Lz32.dll
 api_name:
- - LZOpenFile
- - LZOpenFileA
  - LZOpenFileW
+ - LZOpenFile
 ---
 
 # LZOpenFileW function
@@ -413,3 +414,4 @@ CsvFs will do redirected IO for compressed files.
 
 
 <a href="/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a>
+

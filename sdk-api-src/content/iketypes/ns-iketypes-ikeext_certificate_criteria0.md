@@ -44,6 +44,7 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
+ - IKEEXT_CERTIFICATE_CRITERIA0_
  - IKEEXT_CERTIFICATE_CRITERIA0
 ---
 
@@ -102,3 +103,4 @@ The <b>certData</b> member refers to the encoded name of the root certificate, w
 
 
 [IKEEXT_CERT_NAME0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)
+

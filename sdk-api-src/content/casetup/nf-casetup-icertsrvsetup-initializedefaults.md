@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup.InitializeDefaults
+ - ICertSrvSetup::InitializeDefaults
 ---
 
 # ICertSrvSetup::InitializeDefaults
@@ -69,3 +69,4 @@ If the policy statement file "CAPolicy.inf" is installed, <b>InitializeDefaults<
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
+

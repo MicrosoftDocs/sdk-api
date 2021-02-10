@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls.pause
+ - IWMPControls::pause
 ---
 
 # IWMPControls::pause
@@ -89,3 +89,4 @@ Certain media types cannot be paused, such as live streams. To determine whether
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_isavailable">IWMPControls::get_isAvailable</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - InetNtop
- - InetNtopA or inet_ntop
- - InetNtopW
+ - inet_ntop
 ---
 
 # inet_ntop function
@@ -236,3 +234,4 @@ On Windows Vista and later, the <a href="/windows/desktop/api/ip2string/nf-ip2s
 
 
 <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
+

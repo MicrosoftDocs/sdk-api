@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _ATTRIBUTEINFO
  - ATTRIBUTEINFO
 ---
 
@@ -97,3 +98,4 @@ The attribute type for Vendor Specific Attributes (VSA).
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdodictionaryold-getattributeinfo">ISdoDictionaryOld::GetAttributeInfo</a>
+

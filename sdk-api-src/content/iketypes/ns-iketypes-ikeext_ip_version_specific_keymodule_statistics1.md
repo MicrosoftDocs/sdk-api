@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1_
  - IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1
 ---
 
@@ -132,3 +133,4 @@ Total number of successful Main Mode mode negotiations that used impersonation.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

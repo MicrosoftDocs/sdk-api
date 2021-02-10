@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.Draw
+ - IInkOverlay::Draw
 ---
 
 # IInkOverlay::Draw
@@ -78,3 +78,4 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
+

@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - vptype
  - vptype/vptype
+api_name:
+ - vptype
 ---
 
 # Vptype.h header

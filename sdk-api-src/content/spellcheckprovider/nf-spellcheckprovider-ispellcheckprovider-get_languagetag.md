@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider.LanguageTag
- - ISpellCheckProvider.get_LanguageTag
+ - ISpellCheckProvider::get_LanguageTag
 ---
 
 # ISpellCheckProvider::get_LanguageTag
@@ -66,3 +65,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
+

@@ -9,6 +9,8 @@ tech.root: xps
 f1_keywords:
  - documenttarget
  - documenttarget/documenttarget
+api_name:
+ - documenttarget
 ---
 
 # Documenttarget.h header

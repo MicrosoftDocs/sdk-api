@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationTimeSource.GetUnderlyingClock
+ - IMFPresentationTimeSource::GetUnderlyingClock
 ---
 
 # IMFPresentationTimeSource::GetUnderlyingClock
@@ -109,3 +109,4 @@ If the time source does not expose an underlying clock, the method returns MF_E_
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

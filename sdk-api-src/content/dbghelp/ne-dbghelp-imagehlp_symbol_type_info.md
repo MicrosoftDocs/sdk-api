@@ -44,6 +44,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _IMAGEHLP_SYMBOL_TYPE_INFO
  - IMAGEHLP_SYMBOL_TYPE_INFO
 ---
 
@@ -268,3 +269,4 @@ The data type is <b>BOOL</b>.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a>
+

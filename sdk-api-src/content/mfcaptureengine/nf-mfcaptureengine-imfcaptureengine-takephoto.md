@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureEngine.TakePhoto
+ - IMFCaptureEngine::TakePhoto
 ---
 
 # IMFCaptureEngine::TakePhoto
@@ -67,3 +67,4 @@ This method is asynchronous. If the method returns a success code, the caller wi
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
+

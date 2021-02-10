@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDdsDecoder.GetFrame
+ - IWICDdsDecoder::GetFrame
 ---
 
 # IWICDdsDecoder::GetFrame
@@ -105,3 +105,4 @@ WIC maps this three level hierarchy into a linear array of <a href="/windows/des
 
 
 <a href="/windows/desktop/api/wincodec/ns-wincodec-wicddsformatinfo">WICDdsFormatInfo</a>
+

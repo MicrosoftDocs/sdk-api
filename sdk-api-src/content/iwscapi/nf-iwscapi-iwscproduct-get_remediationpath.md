@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wscapi.dll
 api_name:
- - IWscProduct.get_RemediationPath
+ - IWscProduct::get_RemediationPath
 ---
 
 # IWscProduct::get_RemediationPath
@@ -67,3 +67,4 @@ If the method  fails, returns a Win32 error code.
 ## -see-also
 
 <a href="/windows/desktop/api/iwscapi/nn-iwscapi-iwscproduct">IWscProduct</a>
+

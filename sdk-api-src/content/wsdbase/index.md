@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - wsdbase
  - wsdbase/wsdbase
+api_name:
+ - wsdbase
 ---
 
 # Wsdbase.h header

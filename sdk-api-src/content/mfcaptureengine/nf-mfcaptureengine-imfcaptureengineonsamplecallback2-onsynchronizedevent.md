@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
+ - IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
 ---
 
 # IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
@@ -69,3 +69,4 @@ The return value is ignored.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineonsamplecallback2">IMFCaptureEngineOnSampleCallback2</a>
+

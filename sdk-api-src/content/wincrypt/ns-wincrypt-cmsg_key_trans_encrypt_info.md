@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_KEY_TRANS_ENCRYPT_INFO
+ - PCMSG_KEY_TRANS_ENCRYPT_INFO
  - CMSG_KEY_TRANS_ENCRYPT_INFO
 ---
 
@@ -124,3 +126,4 @@ The other members are read-only.
 ## -see-also
 
 <a href="/windows/desktop/SecCrypto/encoding-enveloped-data">Encoding Enveloped Data</a>
+

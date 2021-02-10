@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
+ - _tagSlowAppInfo
+ - PSLOWAPPINFO
  - SLOWAPPINFO
 ---
 
@@ -89,3 +91,4 @@ This structure is used by the <a href="/windows/desktop/api/shappmgr/nf-shappmgr
 ## -see-also
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - _HD_HITTESTINFO
+ - LPHDHITTESTINFO
  - HDHITTESTINFO
 ---
 
@@ -217,3 +219,4 @@ The point is to the right of the header control's bounding rectangle.
 Type: <b>int</b>
 
 If the hit test is successful, contains the index of the item at the hit test point.
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_TUNNEL_POLICY1_
  - IPSEC_TUNNEL_POLICY1
 ---
 
@@ -215,3 +216,4 @@ See [IKEEXT_EM_POLICY1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_poli
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

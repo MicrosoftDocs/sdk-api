@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo.ReleaseTypeAttr
+ - ITypeInfo::ReleaseTypeAttr
 ---
 
 # ITypeInfo::ReleaseTypeAttr
@@ -61,3 +61,4 @@ The TYPEATTR to be freed.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
+

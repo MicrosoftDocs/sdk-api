@@ -46,7 +46,9 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - IMAGE_NT_HEADERS
+ - _IMAGE_NT_HEADERS64
+ - PIMAGE_NT_HEADERS64
+ - IMAGE_NT_HEADERS64
 ---
 
 # IMAGE_NT_HEADERS64 structure
@@ -120,3 +122,4 @@ typedef struct _IMAGE_NT_HEADERS64 {
 
 
 <a href="/windows/desktop/api/imagehlp/nf-imagehlp-updatedebuginfofile">UpdateDebugInfoFile</a>
+

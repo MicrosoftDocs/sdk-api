@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2SourceVoice.Stop
+ - IXAudio2SourceVoice::Stop
 ---
 
 # IXAudio2SourceVoice::Stop
@@ -112,3 +112,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
+

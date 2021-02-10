@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.AppendText
+ - IX509EnrollmentStatus::AppendText
 ---
 
 # IX509EnrollmentStatus::AppendText
@@ -67,3 +67,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
+

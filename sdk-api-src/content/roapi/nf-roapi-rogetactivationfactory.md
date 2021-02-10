@@ -44,7 +44,6 @@ api_location:
  - API-MS-Win-Core-Winrt-l1-1-0.dll
 api_name:
  - RoGetActivationFactory
- - WinRTGetActivationFactory
 ---
 
 # RoGetActivationFactory function
@@ -79,3 +78,4 @@ The activation factory.
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

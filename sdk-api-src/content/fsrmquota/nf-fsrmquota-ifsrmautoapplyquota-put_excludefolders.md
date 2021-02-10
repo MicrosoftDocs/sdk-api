@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmAutoApplyQuota.ExcludeFolders
- - IFsrmAutoApplyQuota.get_ExcludeFolders
- - IFsrmAutoApplyQuota.put_ExcludeFolders
+ - IFsrmAutoApplyQuota::put_ExcludeFolders
 ---
 
 # IFsrmAutoApplyQuota::put_ExcludeFolders
@@ -77,3 +75,4 @@ Setting this property overwrites the current list of subdirectories to exclude. 
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMultiMediaStream.GetFilter
+ - IAMMultiMediaStream::GetFilter
 ---
 
 # IAMMultiMediaStream::GetFilter
@@ -102,3 +102,4 @@ If the method succeeds, the caller must release the <b>IMediaStreamFilter</b> in
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
+

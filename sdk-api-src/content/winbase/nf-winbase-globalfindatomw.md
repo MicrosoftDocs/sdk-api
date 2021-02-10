@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GlobalFindAtomW
  - winbase/GlobalFindAtomW
+ - GlobalFindAtom
+ - winbase/GlobalFindAtom
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - kernel32legacy.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalFindAtom
- - GlobalFindAtomA
  - GlobalFindAtomW
+ - GlobalFindAtom
 ---
 
 # GlobalFindAtomW function
@@ -120,3 +121,4 @@ If
 
 
 <b>Reference</b>
+

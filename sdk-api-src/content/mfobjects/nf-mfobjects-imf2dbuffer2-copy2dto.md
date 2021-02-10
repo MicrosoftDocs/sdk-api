@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMF2DBuffer2.Copy2DTo
+ - IMF2DBuffer2::Copy2DTo
 ---
 
 # IMF2DBuffer2::Copy2DTo
@@ -69,3 +69,4 @@ The destination buffer must be at least as large as the source buffer.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>
+

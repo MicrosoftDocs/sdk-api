@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellingError.StartIndex
- - ISpellingError.get_StartIndex
+ - ISpellingError::get_StartIndex
 ---
 
 # ISpellingError::get_StartIndex
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>
+

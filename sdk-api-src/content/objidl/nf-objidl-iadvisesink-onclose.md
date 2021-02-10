@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IAdviseSink.OnClose
+ - IAdviseSink::OnClose
 ---
 
 # IAdviseSink::OnClose
@@ -65,3 +65,4 @@ In the case of a link object, the notification that the object is closing should
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsControllerPort.SetStatus
+ - IVdsControllerPort::SetStatus
 ---
 
 # IVdsControllerPort::SetStatus
@@ -145,3 +145,4 @@ This operation is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_port_status">VDS_PORT_STATUS</a>
+

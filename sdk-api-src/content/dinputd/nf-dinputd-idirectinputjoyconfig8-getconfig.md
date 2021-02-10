@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputJoyConfig8.GetConfig
+ - IDirectInputJoyConfig8::GetConfig
 ---
 
 # IDirectInputJoyConfig8::GetConfig
@@ -135,3 +135,4 @@ No more joysticks are available.
 </td>
 </tr>
 </table>
+

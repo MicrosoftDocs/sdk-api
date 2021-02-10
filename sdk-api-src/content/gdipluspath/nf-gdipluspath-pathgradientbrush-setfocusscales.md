@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.SetFocusScales
+ - PathGradientBrush::SetFocusScales
 ---
 
 # PathGradientBrush::SetFocusScales
@@ -149,3 +149,4 @@ VOID Example_SetFocusScales(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setinterpolationcolors">PathGradientBrush::SetInterpolationColors</a>
+

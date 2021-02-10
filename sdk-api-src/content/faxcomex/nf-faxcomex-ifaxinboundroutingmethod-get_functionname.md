@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethod.FunctionName
- - IFaxInboundRoutingMethod.get_FunctionName
- - IFaxInboundRoutingMethod.get_FunctionName
+ - IFaxInboundRoutingMethod::get_FunctionName
 ---
 
 # IFaxInboundRoutingMethod::get_FunctionName
@@ -73,3 +71,4 @@ The fax routing extension DLL identified by the <a href="/previous-versions/wind
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
+

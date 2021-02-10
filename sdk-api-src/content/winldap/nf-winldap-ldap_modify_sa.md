@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_modify_sA
  - winldap/ldap_modify_sA
+ - ldap_modify_s
+ - winldap/ldap_modify_s
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_modify_s
  - ldap_modify_sA
- - ldap_modify_sW
+ - ldap_modify_s
 ---
 
 # ldap_modify_sA function
@@ -125,3 +126,4 @@ Multithreading: Calls to <b>ldap_modify_s</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
+

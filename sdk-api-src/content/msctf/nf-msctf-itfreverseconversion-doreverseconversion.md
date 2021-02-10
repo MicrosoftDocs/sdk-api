@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfReverseConversion.DoReverseConversion
+ - ITfReverseConversion::DoReverseConversion
 ---
 
 # ITfReverseConversion::DoReverseConversion
@@ -115,3 +115,4 @@ A reverse conversion provides the keystroke sequences required to create the spe
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a>
+

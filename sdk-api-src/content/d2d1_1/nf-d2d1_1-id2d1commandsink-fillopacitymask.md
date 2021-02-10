@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.FillOpacityMask
+ - ID2D1CommandSink::FillOpacityMask
 ---
 
 # ID2D1CommandSink::FillOpacityMask
@@ -99,3 +99,4 @@ The opacity mask bitmap must be considered to be clamped on each axis.
 
 
 <a href="/windows/desktop/Direct2D/id2d1rendertarget-fillopacitymask">ID2D1RenderTarget::FillOpacityMask</a>
+

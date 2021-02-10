@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidTuner.get_TuningSpace
+ - IMSVidTuner::get_TuningSpace
 ---
 
 # IMSVidTuner::get_TuningSpace
@@ -77,3 +77,4 @@ The returned <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itun
 
 
 <a href="/previous-versions/windows/desktop/mstv/the-microsoft-unified-tuning-model">The Microsoft Unified Tuning Model</a>
+

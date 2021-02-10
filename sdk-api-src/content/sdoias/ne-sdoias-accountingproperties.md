@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _ACCOUNTINGPROPERTIES
  - ACCOUNTINGPROPERTIES
 ---
 
@@ -137,3 +138,4 @@ Not used.
 
 
 <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
+

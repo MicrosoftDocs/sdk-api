@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_PATH_POLICY
  - VDS_PATH_POLICY
 ---
 
@@ -84,3 +85,4 @@ The weight assigned to the path. This is only relevant if the load balance polic
 
 
 <a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSManDisp.h
 api_name:
- - IWSManConnectionOptionsEx2.SetProxy
+ - IWSManConnectionOptionsEx2::SetProxy
 ---
 
 # IWSManConnectionOptionsEx2::SetProxy
@@ -81,3 +81,4 @@ The default credentials are the credentials under which the current thread is op
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptionsex2">IWSManConnectionOptionsEx2</a>
+

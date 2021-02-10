@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
+ - _BP_BUFFERFORMAT
  - BP_BUFFERFORMAT
 ---
 
@@ -83,3 +84,4 @@ Top-down, monochrome, device-independent bitmap. Uses 1 bit per pixel.
 
 
 <b>Other Resources</b>
+

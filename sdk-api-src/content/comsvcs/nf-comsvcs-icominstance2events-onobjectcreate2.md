@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComInstance2Events.OnObjectCreate2
+ - IComInstance2Events::OnObjectCreate2
 ---
 
 # IComInstance2Events::OnObjectCreate2
@@ -89,3 +89,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icominstance2events">IComInstance2Events</a>
+

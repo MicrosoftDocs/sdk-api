@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - ole2
  - ole2/ole2
+api_name:
+ - ole2
 ---
 
 # Ole2.h header

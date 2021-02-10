@@ -9,6 +9,8 @@ tech.root: ics
 f1_keywords:
  - networkisolation
  - networkisolation/networkisolation
+api_name:
+ - networkisolation
 ---
 
 # Networkisolation.h header

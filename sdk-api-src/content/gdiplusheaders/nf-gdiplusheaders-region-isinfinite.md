@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region.IsInfinite
+ - Region::IsInfinite
 ---
 
 # Region::IsInfinite
@@ -94,3 +94,4 @@ If this region is infinite, this method returns <b>TRUE</b>; otherwise, it retur
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

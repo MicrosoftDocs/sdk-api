@@ -9,6 +9,8 @@ tech.root: gdi
 f1_keywords:
  - windef
  - windef/windef
+api_name:
+ - windef
 ---
 
 # Windef.h header

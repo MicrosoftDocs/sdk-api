@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase.AddItemMetadataToGroup
+ - ISyncChangeBatchBase::AddItemMetadataToGroup
 ---
 
 # ISyncChangeBatchBase::AddItemMetadataToGroup
@@ -160,3 +160,4 @@ The <b>ISyncChangeBatchBase</b> object has been sent to a change applier or to t
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure
 </a>
+

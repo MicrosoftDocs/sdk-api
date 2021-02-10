@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBPROBABILISTIC
  - DBPROBABILISTIC
 ---
 
@@ -68,3 +69,4 @@ The <b>DBPROBABILISTIC</b> structure is reserved for future use.
 ### -field flK3
 
 ### -field flB
+

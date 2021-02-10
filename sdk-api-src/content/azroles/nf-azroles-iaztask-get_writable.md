@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask.Writable
- - IAzTask.get_Writable
- - AzTask.Writable
+ - IAzTask::get_Writable
 ---
 
 # IAzTask::get_Writable

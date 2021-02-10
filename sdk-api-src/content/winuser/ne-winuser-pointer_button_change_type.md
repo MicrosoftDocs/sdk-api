@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagPOINTER_BUTTON_CHANGE_TYPE
  - POINTER_BUTTON_CHANGE_TYPE
 ---
 
@@ -107,3 +108,4 @@ The fifth button (see <a href="/previous-versions/windows/desktop/inputmsg/point
 
 
 <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a>
+

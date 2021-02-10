@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMClockAdjust.SetClockDelta
+ - IAMClockAdjust::SetClockDelta
 ---
 
 # IAMClockAdjust::SetClockDelta
@@ -74,3 +74,4 @@ The time values returned by <a href="/windows/desktop/api/strmif/nf-strmif-irefe
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamclockadjust">IAMClockAdjust Interface</a>
+

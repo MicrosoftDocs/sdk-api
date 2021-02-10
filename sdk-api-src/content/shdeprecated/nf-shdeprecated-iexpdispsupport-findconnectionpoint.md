@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IExpDispSupport.FindConnectionPoint
+ - IExpDispSupport::FindConnectionPoint
 ---
 
 # IExpDispSupport::FindConnectionPoint
@@ -94,3 +94,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>IExpDispSupport::FindCIE4ConnectionPoint</b> was created specifically for use with Windows Internet Explorer 4.0.
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IReferenceClock.AdviseTime
+ - IReferenceClock::AdviseTime
 ---
 
 # IReferenceClock::AdviseTime
@@ -139,3 +139,4 @@ To cancel the notification before the time is reached, call the <a href="/window
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - VerifyVersionInfoA
  - winbase/VerifyVersionInfoA
+ - VerifyVersionInfo
+ - winbase/VerifyVersionInfo
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - VerifyVersionInfo
  - VerifyVersionInfoA
- - VerifyVersionInfoW
+ - VerifyVersionInfo
 ---
 
 # VerifyVersionInfoA function
@@ -263,3 +264,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winnt/nf-winnt-versetconditionmask">VerSetConditionMask</a>
+

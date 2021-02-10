@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2PsiParser.h
 api_name:
- - ITSDT.GetCountOfTableDescriptors
+ - ITSDT::GetCountOfTableDescriptors
 ---
 
 # ITSDT::GetCountOfTableDescriptors
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-itsdt">ITSDT Interface</a>
+

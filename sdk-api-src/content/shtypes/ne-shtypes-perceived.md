@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shtypes.h
 api_name:
+ - tagPERCEIVED
  - PERCEIVED
 ---
 
@@ -119,3 +120,4 @@ The file's perceived type is "application".
 ## -remarks
 
 Prior to Windows Vista, this enumeration was declared in Shlwapi.h.
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStats.AddValue
+ - IAMStats::AddValue
 ---
 
 # IAMStats::AddValue
@@ -103,3 +103,4 @@ Index out of range.
 
 
 <a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
+

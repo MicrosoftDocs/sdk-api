@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mpegtype.h
 api_name:
+ - tagAM_MPEGSYSTEMTYPE
  - AM_MPEGSYSTEMTYPE
 ---
 
@@ -79,3 +80,4 @@ The <b>Streams</b> member contains a list of <a href="/previous-versions/windows
 
 
 <a href="/windows/desktop/DirectShow/mpeg-1-media-types">MEPG-1 Media Types</a>
+

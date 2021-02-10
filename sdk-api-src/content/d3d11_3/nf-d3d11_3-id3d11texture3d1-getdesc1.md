@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Texture3D1.GetDesc1
+ - ID3D11Texture3D1::GetDesc1
 ---
 
 # ID3D11Texture3D1::GetDesc1
@@ -64,3 +64,4 @@ A pointer to a <a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_texture3d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11texture3d1">ID3D11Texture3D1</a>
+

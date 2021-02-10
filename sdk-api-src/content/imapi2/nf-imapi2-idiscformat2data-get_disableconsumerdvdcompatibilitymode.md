@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode
+ - IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
 ---
 
 # IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
@@ -95,3 +95,4 @@ This property has no affect on CD media.
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode</a>
+

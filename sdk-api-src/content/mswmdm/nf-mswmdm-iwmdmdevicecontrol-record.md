@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDeviceControl.Record
+ - IWMDMDeviceControl::Record
 ---
 
 # IWMDMDeviceControl::Record
@@ -147,3 +147,4 @@ When you use device recording, you must enumerate the storage medium contents to
 
 
 <a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoCompression.get_Quality
+ - IAMVideoCompression::get_Quality
 ---
 
 # IAMVideoCompression::get_Quality
@@ -80,3 +80,4 @@ To determine if the filter supports this method, call the <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_quality">IAMVideoCompression::put_Quality</a>
+

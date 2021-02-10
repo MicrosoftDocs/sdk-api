@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Textstor.h
 api_name:
+ - __MIDL_IAnchor_0002
  - TsShiftDir
 ---
 
@@ -68,3 +69,4 @@ Specifies that the anchor will be moved to the region immediately following a ra
 
 <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shiftregion">IAnchor::ShiftRegion
       </a>
+

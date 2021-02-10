@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IEnumWiaItem.Skip
+ - IEnumWiaItem::Skip
 ---
 
 # IEnumWiaItem::Skip
@@ -66,3 +66,4 @@ Specifies the number of items to skip.
 Type: <b>HRESULT</b>
 
 If the method succeeds, the method returns S_OK. If it is unable to skip the specified number of items, it returns S_FALSE. If the method fails, it returns a standard COM error code.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - windows.ui.composition.interop.h
 api_name:
- - interop::ICompositionDrawingSurfaceInterop2
+ - ICompositionDrawingSurfaceInterop2
 ---
 
 ## -description
@@ -56,3 +56,4 @@ A native interoperation interface that allows you to read back the contents of a
 [ICompositionDrawingSurfaceInterop interface](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop.md)
 
 [Composition native interoperation overview](/windows/uwp/composition/composition-native-interop)
+

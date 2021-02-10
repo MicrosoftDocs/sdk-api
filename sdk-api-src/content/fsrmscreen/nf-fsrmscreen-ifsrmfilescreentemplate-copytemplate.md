@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplate.CopyTemplate
+ - IFsrmFileScreenTemplate::CopyTemplate
 ---
 
 # IFsrmFileScreenTemplate::CopyTemplate
@@ -73,3 +73,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreentemplate">MSFT_FSRMFileScreenTemplate</a>
+

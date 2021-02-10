@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.ExportApplication
+ - ICOMAdminCatalog::ExportApplication
 ---
 
 # ICOMAdminCatalog::ExportApplication
@@ -166,3 +166,4 @@ The application does not exist.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

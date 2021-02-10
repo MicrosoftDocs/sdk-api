@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IPublisherFilter.Initialize
+ - IPublisherFilter::Initialize
 ---
 
 # IPublisherFilter::Initialize
@@ -240,3 +240,4 @@ The publisher filter uses the pointer passed in dispUserDefined to obtain a list
 
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a>
+

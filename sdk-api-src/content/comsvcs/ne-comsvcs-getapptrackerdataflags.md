@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - _GetAppTrackerDataFlags
  - GetAppTrackerDataFlags
 ---
 
@@ -79,3 +80,4 @@ Include the application name in the <a href="/windows/desktop/api/comsvcs/ns-com
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
+

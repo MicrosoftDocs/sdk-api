@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMShareable.GetType
+ - IXpsOMShareable::GetType
 ---
 
 # IXpsOMShareable::GetType
@@ -94,3 +94,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>
+

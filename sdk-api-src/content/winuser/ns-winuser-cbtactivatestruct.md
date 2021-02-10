@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagCBTACTIVATESTRUCT
+ - LPCBTACTIVATESTRUCT
  - CBTACTIVATESTRUCT
 ---
 
@@ -89,3 +91,4 @@ A handle to the active window.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+

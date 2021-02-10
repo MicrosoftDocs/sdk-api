@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.addNameValuePairToRequest
- - CEnroll.addNameValuePairToRequest
+ - ICEnroll4::addNameValuePairToRequest
 ---
 
 # ICEnroll4::addNameValuePairToRequest
@@ -76,3 +75,4 @@ The value portion of the name-value pair.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
 <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

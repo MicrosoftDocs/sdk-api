@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzBizRuleInterfaces.AddInterfaces
+ - IAzBizRuleInterfaces::AddInterfaces
 ---
 
 # IAzBizRuleInterfaces::AddInterfaces
@@ -75,3 +75,4 @@ If the method fails, it returns an error code. For a list of common error codes,
 ## -remarks
 
 The names of the interfaces specified by the <i>varInterfaceNames</i> array are in the same order as the corresponding interface IDs specified by the <i>varInterfaces</i> array.
+

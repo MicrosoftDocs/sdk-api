@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPPlugin.AdviseWMPServices
+ - IWMPPlugin::AdviseWMPServices
 ---
 
 # IWMPPlugin::AdviseWMPServices
@@ -73,3 +73,4 @@ Windows Media Player calls the <b>AdviseWMPServices</b> method on the plug-in to
 
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpservices">IWMPServices Interface</a>
+

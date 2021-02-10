@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxRoutingMethod.DeviceName
- - IFaxRoutingMethod.get_DeviceName
+ - IFaxRoutingMethod::get_DeviceName
 ---
 
 # IFaxRoutingMethod::get_DeviceName
@@ -90,3 +89,4 @@ Note that it is possible for multiple fax ports to have the same user-friendly n
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
+

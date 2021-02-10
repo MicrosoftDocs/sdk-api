@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_ENCRYPT_MESSAGE_PARA
+ - PCRYPT_ENCRYPT_MESSAGE_PARA
  - CRYPT_ENCRYPT_MESSAGE_PARA
 ---
 
@@ -135,3 +137,4 @@ Normally set to zero. The <b>dwInnerContentType</b> member must be set to set th
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage">CryptSignAndEncryptMessage</a>
+

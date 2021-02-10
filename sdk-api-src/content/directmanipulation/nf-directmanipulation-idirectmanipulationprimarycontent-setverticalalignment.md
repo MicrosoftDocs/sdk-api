@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.SetVerticalAlignment
+ - IDirectManipulationPrimaryContent::SetVerticalAlignment
 ---
 
 # IDirectManipulationPrimaryContent::SetVerticalAlignment
@@ -83,3 +83,4 @@ HRESULT hr = pContent->SetVerticalAlignment(
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationprimarycontent">IDirectManipulationPrimaryContent</a>
+

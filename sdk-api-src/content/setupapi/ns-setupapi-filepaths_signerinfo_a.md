@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - FILEPATHS_SIGNERINFO - filepaths_signerinfo_a
+ - _FILEPATHS_SIGNERINFO_A
+ - PFILEPATHS_SIGNERINFO_A
+ - FILEPATHS_SIGNERINFO_A
 ---
 
 # FILEPATHS_SIGNERINFO_A structure
@@ -176,3 +178,4 @@ Catalog file.
 
 > [!NOTE]
 > The setupapi.h header defines FILEPATHS_SIGNERINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

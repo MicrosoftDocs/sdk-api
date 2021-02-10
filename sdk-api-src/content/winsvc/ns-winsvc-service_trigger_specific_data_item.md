@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winsvc.h
 api_name:
+ - _SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+ - PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM
  - SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 ---
 
@@ -202,3 +204,4 @@ The following table lists trigger-specific data by trigger event type.
 
 
 <a href="/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
+

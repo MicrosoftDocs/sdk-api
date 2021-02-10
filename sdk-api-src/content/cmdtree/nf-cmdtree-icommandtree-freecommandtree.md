@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - ICommandTree.FreeCommandTree
+ - ICommandTree::FreeCommandTree
 ---
 
 # ICommandTree::FreeCommandTree
@@ -123,3 +123,4 @@ The <b>FreeCommandTree</b> method can be used by a consumer to free its copy of 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
+

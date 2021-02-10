@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.MakeReverse
+ - CHString::MakeReverse
 ---
 
 # CHString::MakeReverse
@@ -64,3 +64,4 @@ The <b>MakeReverse</b> method reverses the order of the characters in a <a href=
 ## -returns
 
 This method does not return a value.
+

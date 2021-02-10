@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPage2.EditProperty
+ - IPropertyPage2::EditProperty
 ---
 
 # IPropertyPage2::EditProperty
@@ -99,3 +99,4 @@ If this method is called before a page is activated, the page should store the p
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage2">IPropertyPage2</a>
+

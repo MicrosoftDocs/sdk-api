@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession.Stop
+ - IMFMediaSession::Stop
 ---
 
 # IMFMediaSession::Stop
@@ -106,3 +106,4 @@ This method is asynchronous. When the operation completes, the Media Session sen
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
+

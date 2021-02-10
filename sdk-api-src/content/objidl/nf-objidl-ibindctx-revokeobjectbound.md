@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx.RevokeObjectBound
+ - IBindCtx::RevokeObjectBound
 ---
 
 # IBindCtx::RevokeObjectBound
@@ -98,3 +98,4 @@ You would rarely call this method. It is documented primarily for completeness.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
+

@@ -41,7 +41,7 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
- - IOCTL_STORAGE_QUERY_PROPERTY
+ - IOCTL_STORAGE_PROTOCOL_COMMAND
 ---
 
 # IOCTL_STORAGE_PROTOCOL_COMMAND IOCTL
@@ -93,3 +93,4 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [STORAGE_PROPERTY_ID](ne-winioctl-storage_property_id.md)
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
+

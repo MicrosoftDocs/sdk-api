@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - GetCredentials
+ - LSA_GET_CREDENTIALS
 ---
 
 # LSA_GET_CREDENTIALS callback function
@@ -150,3 +150,4 @@ The
 
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+

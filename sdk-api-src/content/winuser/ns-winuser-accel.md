@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagACCEL
+ - LPACCEL
  - ACCEL
 ---
 
@@ -157,3 +159,4 @@ The accelerator identifier. This value is placed in the low-order word of the <i
 
 
 <a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
+

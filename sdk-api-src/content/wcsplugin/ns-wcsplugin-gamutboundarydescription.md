@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
+ - _GamutBoundaryDescription
  - GamutBoundaryDescription
 ---
 
@@ -110,3 +111,4 @@ The primary colors.
 
 
 <a href="/previous-versions/windows/desktop/wcs/windows-color-system-schemas-and-algorithms">Windows Color System Schemas and Algorithms</a>
+

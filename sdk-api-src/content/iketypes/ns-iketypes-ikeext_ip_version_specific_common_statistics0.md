@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0_
  - IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
 ---
 
@@ -64,3 +65,4 @@ Total number of UDP 500/4500 socket receive failures.
 ### -field totalSocketSendFailures
 
 Total number of UDP 500/4500 socket send failures.
+

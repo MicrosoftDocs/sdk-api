@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursorButton.ID
- - IInkCursorButton.get_ID
- - IInkCursorButton.get_Id
+ - IInkCursorButton::get_Id
 ---
 
 # IInkCursorButton::get_Id
@@ -71,3 +69,4 @@ An object's identifier never changes.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton">IInkCursorButton</a>
+

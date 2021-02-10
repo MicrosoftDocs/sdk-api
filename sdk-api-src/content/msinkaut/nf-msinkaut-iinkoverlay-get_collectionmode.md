@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.CollectionMode
- - IInkOverlay.get_CollectionMode
- - IInkOverlay.put_CollectionMode
- - InkOverlay.get_CollectionMode
- - InkOverlay.put_CollectionMode
+ - IInkOverlay::get_CollectionMode
 ---
 
 # IInkOverlay::get_CollectionMode
@@ -129,3 +125,4 @@ When <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collec
 
 
 <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsQuerySitesByCostW
  - ntdsapi/DsQuerySitesByCostW
+ - DsQuerySitesByCost
+ - ntdsapi/DsQuerySitesByCost
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsQuerySitesByCost
- - DsQuerySitesByCostA
  - DsQuerySitesByCostW
+ - DsQuerySitesByCost
 ---
 
 # DsQuerySitesByCostW function
@@ -109,3 +110,4 @@ The cost values obtained by this function are only used to compare and have no m
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesfree">DsQuerySitesFree</a>
+

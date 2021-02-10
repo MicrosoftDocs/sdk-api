@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
+ - _WTS_CONFIG_CLASS
  - WTS_CONFIG_CLASS
 ---
 
@@ -505,3 +506,4 @@ A <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONF
 
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
+

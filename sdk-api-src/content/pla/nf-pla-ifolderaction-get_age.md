@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IFolderAction.Age
- - IFolderAction.get_Age
- - IFolderAction.put_Age
+ - IFolderAction::get_Age
 ---
 
 # IFolderAction::get_Age
@@ -65,3 +63,4 @@ The time is determined by the age of the folder.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>
+

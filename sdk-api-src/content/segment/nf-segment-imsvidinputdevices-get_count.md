@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidInputDevices.get_Count
+ - IMSVidInputDevices::get_Count
 ---
 
 # IMSVidInputDevices::get_Count
@@ -94,3 +94,4 @@ NULL pointer argument.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.SetWriteSpeed
+ - IDiscFormat2RawCD::SetWriteSpeed
 ---
 
 # IDiscFormat2RawCD::SetWriteSpeed
@@ -470,3 +470,4 @@ To retrieve the requested values, call the <a href="/windows/desktop/api/imapi2/
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds">IDiscFormat2RawCD::get_SupportedWriteSpeeds</a>
+

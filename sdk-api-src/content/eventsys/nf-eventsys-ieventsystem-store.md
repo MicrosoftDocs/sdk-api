@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSystem.Store
+ - IEventSystem::Store
 ---
 
 # IEventSystem::Store
@@ -98,3 +98,4 @@ The owner SID on a per-user subscription does not exist.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
+

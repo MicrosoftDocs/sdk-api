@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SetupFindFirstLineA
  - setupapi/SetupFindFirstLineA
+ - SetupFindFirstLine
+ - setupapi/SetupFindFirstLine
 dev_langs:
  - c++
 topic_type:
@@ -44,10 +47,8 @@ api_location:
  - Ext-MS-Win-setupapi-inf-l1-1-0.dll
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupFindFirstLine
  - SetupFindFirstLineA
- - SetupFindFirstLineW
-req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
+ - SetupFindFirstLine
 ---
 
 # SetupFindFirstLineA function
@@ -116,3 +117,4 @@ If the <i>InfHandle</i> parameter references multiple INF files that have been a
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetlinebyindexa">SetupGetLineByIndex</a>
+

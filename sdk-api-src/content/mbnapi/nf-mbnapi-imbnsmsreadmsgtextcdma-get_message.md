@@ -42,8 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma.Message
- - IMbnSmsReadMsgTextCdma.get_Message
+ - IMbnSmsReadMsgTextCdma::get_Message
 ---
 
 # IMbnSmsReadMsgTextCdma::get_Message
@@ -67,3 +66,4 @@ The maximum size of the message is specified by the <a href="/windows/desktop/ap
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk.ConvertStyle
+ - IVdsDisk::ConvertStyle
 ---
 
 # IVdsDisk::ConvertStyle
@@ -114,3 +114,4 @@ An empty disk contains no user data, OEM partitions, ESP partitions, or unknown 
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
+

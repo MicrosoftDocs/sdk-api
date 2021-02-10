@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccountFolders.IncomingQueue
- - IFaxAccountFolders.get_IncomingQueue
- - IFaxAccountFolders.get_IncomingQueue
+ - IFaxAccountFolders::get_IncomingQueue
 ---
 
 # IFaxAccountFolders::get_IncomingQueue
@@ -65,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountfolders">IFaxAccountFolders</a>
+

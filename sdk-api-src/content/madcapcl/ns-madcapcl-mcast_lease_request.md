@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Madcapcl.h
 api_name:
+ - _MCAST_LEASE_REQUEST
+ - PMCAST_LEASE_REQUEST
  - MCAST_LEASE_REQUEST
 ---
 
@@ -136,3 +138,4 @@ In MCAST_API_VERSION_1 version, <b>MaxLeaseStartTime</b>, <b>MinLeaseDuration</b
 
 
 <a href="/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
+

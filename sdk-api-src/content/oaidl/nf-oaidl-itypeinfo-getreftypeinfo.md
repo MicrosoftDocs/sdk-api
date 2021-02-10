@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo.GetRefTypeInfo
+ - ITypeInfo::GetRefTypeInfo
 ---
 
 # ITypeInfo::GetRefTypeInfo
@@ -116,3 +116,4 @@ On return, the second parameter contains a pointer to a pointer to a type descri
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
+

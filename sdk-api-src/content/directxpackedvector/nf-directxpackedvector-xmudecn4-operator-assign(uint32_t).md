@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUDECN4.operator =
+ - XMUDECN4::operator=
 ---
 
 # XMUDECN4::operator-assign(uint32_t)
@@ -118,3 +118,4 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned
 
 
 <a href="https://msdn.microsoft.com/b5cb7c96-68c2-4d6b-8ed7-a44651c681b5">operator = </a>
+

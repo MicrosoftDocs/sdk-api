@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12StateObjectProperties.GetShaderStackSize
+ - ID3D12StateObjectProperties::GetShaderStackSize
 ---
 
 # ID3D12StateObjectProperties::GetShaderStackSize
@@ -86,3 +86,4 @@ This API can be called on either collection state objects or raytracing pipeline
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
+

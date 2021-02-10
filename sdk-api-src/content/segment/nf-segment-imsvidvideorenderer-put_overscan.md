@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer.put_OverScan
+ - IMSVidVideoRenderer::put_OverScan
 ---
 
 # IMSVidVideoRenderer::put_OverScan
@@ -73,3 +73,4 @@ If the current clipping mode is <b>sslClipByOverScan</b>, the VMR clips the vide
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_overscan">IMSVidVideoRenderer::get_OverScan</a>
+

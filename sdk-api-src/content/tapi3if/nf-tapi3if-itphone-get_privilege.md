@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone.get_Privilege
+ - ITPhone::get_Privilege
 ---
 
 # ITPhone::get_Privilege
@@ -70,3 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
+

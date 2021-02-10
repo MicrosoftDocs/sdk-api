@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_ALGORITHM_INFO
+ - PCRYPT_XML_ALGORITHM_INFO
  - CRYPT_XML_ALGORITHM_INFO
 ---
 
@@ -146,3 +148,4 @@ Optional. A pointer to a structure that contains extra information that can be p
 
 
 <a href="/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>
+

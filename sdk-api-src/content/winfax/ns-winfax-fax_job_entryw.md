@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - FAX_JOB_ENTRY
- - FAX_JOB_ENTRYA
+ - _FAX_JOB_ENTRYW
+ - PFAX_JOB_ENTRYW
  - FAX_JOB_ENTRYW
 ---
 
@@ -669,3 +669,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
+

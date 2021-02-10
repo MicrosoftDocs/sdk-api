@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
+ - _WNV_NOTIFICATION_TYPE
+ - PWNV_NOTIFICATION_TYPE
  - WNV_NOTIFICATION_TYPE
 ---
 
@@ -78,3 +80,4 @@ The maximum possible value for this enumeration type. This is not a legal value.
 ## -see-also
 
 <a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a>
+

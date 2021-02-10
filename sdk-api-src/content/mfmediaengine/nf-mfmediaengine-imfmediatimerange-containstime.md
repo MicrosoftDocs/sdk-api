@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaTimeRange.ContainsTime
+ - IMFMediaTimeRange::ContainsTime
 ---
 
 # IMFMediaTimeRange::ContainsTime
@@ -74,3 +74,4 @@ This method returns <b>TRUE</b> if the following condition holds for any time ra
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>
+

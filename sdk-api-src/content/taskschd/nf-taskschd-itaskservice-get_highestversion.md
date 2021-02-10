@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskService.HighestVersion
- - ITaskService.get_HighestVersion
- - TBD.HighestVersion
+ - ITaskService::get_HighestVersion
 ---
 
 # ITaskService::get_HighestVersion
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
+

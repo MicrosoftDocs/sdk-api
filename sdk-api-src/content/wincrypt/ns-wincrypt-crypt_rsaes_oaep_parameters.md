@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_RSAES_OAEP_PARAMETERS
+ - PCRYPT_RSAES_OAEP_PARAMETERS
  - CRYPT_RSAES_OAEP_PARAMETERS
 ---
 
@@ -73,3 +75,4 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_psource_algorithm">CR
 ## -remarks
 
 RSAES-OAEP is normally used for encrypting AES symmetric keys. Normally, only the hash algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) will need to be set for encoding. For decoding, all the members are explicitly set.
+

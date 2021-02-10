@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge.ProjectOntoRange
+ - ISyncKnowledge::ProjectOntoRange
 ---
 
 # ISyncKnowledge::ProjectOntoRange
@@ -107,3 +107,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_range">SYNC_RANGE Structure</a>
+

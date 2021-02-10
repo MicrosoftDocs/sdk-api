@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.TransformPoints
+ - Graphics::TransformPoints
 ---
 
 # Graphics::TransformPoints
@@ -180,3 +180,4 @@ VOID Example_TransformPoints(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-types-of-coordinate-systems-about">Types of Coordinate Systems</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_SEARCH_TYPE_V6
+ - LPDHCP_SEARCH_INFO_TYPE_V6
  - DHCP_SEARCH_INFO_TYPE_V6
 ---
 

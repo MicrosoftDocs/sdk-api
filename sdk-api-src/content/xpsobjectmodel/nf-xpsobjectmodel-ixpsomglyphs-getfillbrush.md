@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetFillBrush
+ - IXpsOMGlyphs::GetFillBrush
 ---
 
 # IXpsOMGlyphs::GetFillBrush
@@ -175,3 +175,4 @@ The fill brush is  used to fill the shape of the rendered glyphs.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

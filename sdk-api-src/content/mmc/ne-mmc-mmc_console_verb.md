@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_CONSOLE_VERB
  - MMC_CONSOLE_VERB
 ---
 
@@ -108,3 +109,4 @@ Determines whether the currently selected item can be printed. When the user act
 ### -field MMC_VERB_FIRST
 
 ### -field MMC_VERB_LAST
+

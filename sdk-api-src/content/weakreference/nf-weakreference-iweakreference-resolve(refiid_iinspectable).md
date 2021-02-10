@@ -41,7 +41,7 @@ api_type:
 api_location:
  - WeakReference.h
 api_name:
- - IWeakReference.Resolve
+ - IWeakReference::Resolve
 ---
 
 ## -description
@@ -75,3 +75,4 @@ If you try to resolve a weak reference to a strong reference for an object that 
 ## -see-also
 
 <a href="/windows/win32/api/weakreference/nn-weakreference-iweakreference">IWeakReference</a>
+

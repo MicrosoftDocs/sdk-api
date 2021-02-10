@@ -43,7 +43,7 @@ api_location:
  - XAPOBase.lib
  - XAPOBase.dll
 api_name:
- - CXAPOParametersBase.EndProcess
+ - CXAPOParametersBase::EndProcess
 ---
 
 # CXAPOParametersBase::EndProcess
@@ -65,3 +65,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 ## -see-also
 
 <a href="/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a>
+

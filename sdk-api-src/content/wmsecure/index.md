@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmsecure
  - wmsecure/wmsecure
+api_name:
+ - wmsecure
 ---
 
 # Wmsecure.h header

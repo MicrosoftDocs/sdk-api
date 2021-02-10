@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.SetDuplicate
+ - ITextPara::SetDuplicate
 ---
 
 # ITextPara::SetDuplicate
@@ -147,3 +147,4 @@ The tomUndefined values have no effect, that is, they will not change the target
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

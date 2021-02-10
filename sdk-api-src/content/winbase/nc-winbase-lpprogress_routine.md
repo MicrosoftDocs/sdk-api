@@ -42,7 +42,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - CopyProgressRoutine
  - LPPROGRESS_ROUTINE
 ---
 
@@ -217,3 +216,4 @@ An application can use this information to display a progress bar that shows the
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
+

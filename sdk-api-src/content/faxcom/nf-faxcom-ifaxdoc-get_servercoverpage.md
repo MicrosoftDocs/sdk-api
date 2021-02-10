@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.ServerCoverpage
- - IFaxDoc.get_ServerCoverpage
- - IFaxDoc.put_ServerCoverpage
+ - IFaxDoc::get_ServerCoverpage
 ---
 
 # IFaxDoc::get_ServerCoverpage
@@ -85,3 +83,4 @@ You can send a common cover page or a personal cover page with a fax document. F
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-sendcoverpage-vb">IFaxDoc::put_SendCoverpage Method</a>
+

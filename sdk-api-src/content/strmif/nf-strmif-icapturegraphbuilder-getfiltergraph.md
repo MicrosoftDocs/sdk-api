@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - ICaptureGraphBuilder.GetFiltergraph
+ - ICaptureGraphBuilder::GetFiltergraph
 ---
 
 # ICaptureGraphBuilder::GetFiltergraph
@@ -75,3 +75,4 @@ This method increments the reference count on the <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
+

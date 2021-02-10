@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_STATE_D3DFORMAT_DATA
  - DXVAHD_STREAM_STATE_D3DFORMAT_DATA
 ---
 
@@ -81,3 +82,4 @@ The default state value is <b>D3DFMT_UNKNOWN</b>.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

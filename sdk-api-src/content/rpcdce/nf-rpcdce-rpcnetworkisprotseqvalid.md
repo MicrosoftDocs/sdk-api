@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcNetworkIsProtseqValid
- - RpcNetworkIsProtseqValidA
- - RpcNetworkIsProtseqValidW
 ---
 
 # RpcNetworkIsProtseqValid function
@@ -127,3 +125,4 @@ A protocol sequence is valid if both the RPC run-time library and the operating 
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
+

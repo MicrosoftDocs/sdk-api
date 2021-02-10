@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Raseapif.h
 api_name:
+ - _PPP_EAP_OUTPUT
+ - PPPP_EAP_OUTPUT
  - PPP_EAP_OUTPUT
 ---
 
@@ -177,3 +179,4 @@ The authentication protocol can use the
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
+

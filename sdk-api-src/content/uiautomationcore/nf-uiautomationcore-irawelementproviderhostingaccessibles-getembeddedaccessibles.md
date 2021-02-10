@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles
+ - IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles
 ---
 
 # IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles
@@ -77,3 +77,4 @@ This method should ignore providers that do not implement <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhostingaccessibles">IRawElementProviderHostingAccessibles</a>
+

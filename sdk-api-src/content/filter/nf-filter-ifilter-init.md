@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - IFilter.Init
+ - IFilter::Init
 ---
 
 # IFilter::Init
@@ -170,3 +170,4 @@ For some implementations of the <a href="/windows/desktop/api/filter/nn-filter-i
 
 
 <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
+

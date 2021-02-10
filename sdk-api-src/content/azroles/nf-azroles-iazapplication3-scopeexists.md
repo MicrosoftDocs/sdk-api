@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication3.ScopeExists
+ - IAzApplication3::ScopeExists
 ---
 
 # IAzApplication3::ScopeExists
@@ -67,3 +67,4 @@ A string that contains the name of the scope to be checked.
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
+ - tagAecQualityMetrics_Struct
  - AecQualityMetrics_Struct
 ---
 
@@ -139,3 +140,4 @@ Reserved
 
 
 <a href="/windows/desktop/medfound/voicecapturedmo">Voice Capture DSP</a>
+

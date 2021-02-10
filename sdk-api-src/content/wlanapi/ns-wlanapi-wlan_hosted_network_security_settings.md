@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
+ - _WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
+ - PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS
  - WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
 ---
 
@@ -81,3 +83,4 @@ The <b>WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</b>  structure is an extension to n
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty">WlanHostedNetworkQueryProperty</a>
+

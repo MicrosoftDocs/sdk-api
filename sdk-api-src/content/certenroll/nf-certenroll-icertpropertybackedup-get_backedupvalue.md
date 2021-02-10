@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyBackedUp.BackedUpValue
- - ICertPropertyBackedUp.get_BackedUpValue
+ - ICertPropertyBackedUp::get_BackedUpValue
 ---
 
 # ICertPropertyBackedUp::get_BackedUpValue
@@ -68,3 +67,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertybac
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>
+

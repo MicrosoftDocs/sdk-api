@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIEditStream.Clone
+ - IAVIEditStream::Clone
 ---
 
 # IAVIEditStream::Clone
@@ -87,3 +87,4 @@ HRESULT Clone(PAVISTREAM *ppResult);
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+

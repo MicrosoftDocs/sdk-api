@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - phoneGetIconA
  - tapi/phoneGetIconA
+ - phoneGetIcon
+ - tapi/phoneGetIcon
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - phoneGetIcon
  - phoneGetIconA
- - phoneGetIconW
+ - phoneGetIcon
 ---
 
 # phoneGetIconA function
@@ -106,3 +107,4 @@ For applications using a TAPI version earlier than 2.0, if the provider does not
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>
+

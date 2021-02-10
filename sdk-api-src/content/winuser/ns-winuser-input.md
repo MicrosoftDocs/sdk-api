@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagINPUT
+ - PINPUT
  - INPUT
 ---
 
@@ -167,3 +169,4 @@ The information about a simulated hardware event.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-mouse_event">mouse_event</a>
+

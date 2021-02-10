@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.PushEmptyRetrievalFilter
+ - ID3D10InfoQueue::PushEmptyRetrievalFilter
 ---
 
 # ID3D10InfoQueue::PushEmptyRetrievalFilter
@@ -67,3 +67,4 @@ An empty retrieval filter allows all messages to pass through.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>
+

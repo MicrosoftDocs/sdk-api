@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeLongArray.GetCount
- - CCertEncodeLongArray.GetCount
+ - ICertEncodeLongArray::GetCount
 ---
 
 # ICertEncodeLongArray::GetCount
@@ -76,3 +75,4 @@ The return value is the number of <b>Long</b> values contained in the <b>Long</b
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">ICertEncodeLongArray::Reset</a>
+

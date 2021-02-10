@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser.SetOptions
+ - IExplorerBrowser::SetOptions
 ---
 
 # IExplorerBrowser::SetOptions
@@ -87,3 +87,4 @@ Frames are disabled by default. To enable frames and get the default set of pane
 <li>EP_Ribbon</li>
 </ul>
 See <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a> for more information.
+

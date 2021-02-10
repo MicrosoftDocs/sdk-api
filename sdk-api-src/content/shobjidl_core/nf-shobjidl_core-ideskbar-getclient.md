@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDeskBar.GetClient
+ - IDeskBar::GetClient
 ---
 
 # IDeskBar::GetClient
@@ -65,3 +65,4 @@ The address of a pointer to a variable of type <a href="/windows/desktop/api/unk
 Type: <b>HRESULT</b>
 
 Returns S_OK if the client object is returned, or an error value otherwise.
+

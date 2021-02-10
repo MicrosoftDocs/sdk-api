@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplustypes.h
 api_name:
- - Rect.Intersect
+ - Rect::Intersect
 ---
 
 # Rect::Intersect
@@ -81,3 +81,4 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersect(ou
 </table>
 
 ## -parameters
+

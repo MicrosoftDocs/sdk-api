@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
+ - tagDIRECTX_AUDIO_ACTIVATION_PARAMS
+ - PDIRECTX_AUDIO_ACTIVATION_PARAMS
  - DIRECTX_AUDIO_ACTIVATION_PARAMS
 ---
 
@@ -91,3 +93,4 @@ For a code example that uses the <b>DIRECTX_AUDIO_ACTIVATION_PARAMS</b> structur
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>
+

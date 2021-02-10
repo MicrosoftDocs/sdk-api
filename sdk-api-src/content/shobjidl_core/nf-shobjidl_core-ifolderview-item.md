@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IFolderView.Item
+ - IFolderView::Item
 ---
 
 # IFolderView::Item
@@ -83,3 +83,4 @@ When no longer needed, the PIDL should be freed by calling <a href="/windows/des
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-items">IFolderView::Items</a>
+

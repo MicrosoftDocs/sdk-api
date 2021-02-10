@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIDeviceManager.OpenDeviceHandle
+ - IMFDXGIDeviceManager::OpenDeviceHandle
 ---
 
 # IMFDXGIDeviceManager::OpenDeviceHandle
@@ -94,3 +94,4 @@ The DXGI Device Manager was not initialized. The owner of the device must call <
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
+

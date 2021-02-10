@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.SessionArbitrationEnumeration
+ - IWTSProtocolConnection::SessionArbitrationEnumeration
 ---
 
 # IWTSProtocolConnection::SessionArbitrationEnumeration
@@ -79,3 +79,4 @@ The Remote Desktop Services service calls this method to find existing sessions 
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

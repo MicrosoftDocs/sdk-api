@@ -47,9 +47,9 @@ api_location:
  - MinWinBase.h
  - WinBase.h
 api_name:
- - WIN32_FIND_DATA
+ - _WIN32_FIND_DATAA
+ - PWIN32_FIND_DATAA
  - WIN32_FIND_DATAA
- - WIN32_FIND_DATAW
 ---
 
 # WIN32_FIND_DATAA structure
@@ -259,3 +259,4 @@ Not all file systems can record creation and last access times, and not all file
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
+

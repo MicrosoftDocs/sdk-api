@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.FaxNumber
- - IFaxDoc.get_FaxNumber
- - IFaxDoc.put_FaxNumber
+ - IFaxDoc::get_FaxNumber
 ---
 
 # IFaxDoc::get_FaxNumber
@@ -87,3 +85,4 @@ The <b>get_FaxNumber</b> method allocates the memory required for the buffer poi
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

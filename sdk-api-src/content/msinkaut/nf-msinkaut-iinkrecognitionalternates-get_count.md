@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternates.Count
- - IInkRecognitionAlternates.get_Count
- - IInkRecognitionAlternates.get_Count
+ - IInkRecognitionAlternates::get_Count
 ---
 
 # IInkRecognitionAlternates::get_Count
@@ -64,3 +62,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates Interface</a>
+

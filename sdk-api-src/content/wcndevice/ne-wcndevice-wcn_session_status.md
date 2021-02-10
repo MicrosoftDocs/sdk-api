@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wcndevice.h
 api_name:
+ - tagWCN_SESSION_STATUS
  - WCN_SESSION_STATUS
 ---
 

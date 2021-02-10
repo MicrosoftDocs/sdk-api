@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccDictionary.GetParentTerm
+ - IAccDictionary::GetParentTerm
 ---
 
 # IAccDictionary::GetParentTerm
@@ -78,3 +78,4 @@ If successful, returns S_OK.
 ## -remarks
 
 If there is not a parent term for <i>Term</i>, then <i>pParentTerm</i> will point to GUID_NULL.
+

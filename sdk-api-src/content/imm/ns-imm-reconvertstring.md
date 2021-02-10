@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Imm.h
 api_name:
+ - tagRECONVERTSTRING
+ - PRECONVERTSTRING
  - RECONVERTSTRING
 ---
 
@@ -115,3 +117,4 @@ If an application starts the reconversion process by calling <a href="/windows/d
 
 
 <a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDetectTone.get_Duration
+ - ITDetectTone::get_Duration
 ---
 
 # ITDetectTone::get_Duration
@@ -99,3 +99,4 @@ The <i>plDuration</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_duration">put_Duration</a>
+

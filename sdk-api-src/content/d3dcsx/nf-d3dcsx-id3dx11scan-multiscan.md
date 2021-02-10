@@ -43,7 +43,7 @@ api_location:
  - d3dcsx.lib
  - d3dcsx.dll
 api_name:
- - ID3DX11Scan.Multiscan
+ - ID3DX11Scan::Multiscan
 ---
 
 # ID3DX11Scan::Multiscan
@@ -110,3 +110,4 @@ You must point the parameters <i>pSrc</i> and <i>pDst</i> to typed buffers (and 
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11scan">ID3DX11Scan</a>
+

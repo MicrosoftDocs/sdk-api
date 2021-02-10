@@ -44,6 +44,7 @@ api_type:
 api_location:
  - callobj.h
 api_name:
+ - __MIDL_ICallFrame_0002
  - CALLFRAMEPARAMINFO
 ---
 
@@ -75,3 +76,4 @@ Represents the size in bytes occupied by the parameter on the stack.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

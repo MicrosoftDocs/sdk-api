@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_STATUS
+ - PCRYPT_XML_STATUS
  - CRYPT_XML_STATUS
 ---
 
@@ -228,3 +230,4 @@ The document is open for encoding.
 </td>
 </tr>
 </table>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcProxyBuffer.Disconnect
+ - IRpcProxyBuffer::Disconnect
 ---
 
 # IRpcProxyBuffer::Disconnect
@@ -57,3 +57,4 @@ Disconnects a client proxy from any RPC channel to which it is connected.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>
+

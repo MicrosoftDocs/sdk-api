@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CharLowerBuffA
  - winuser/CharLowerBuffA
+ - CharLowerBuff
+ - winuser/CharLowerBuff
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-DownLevel-user32-l1-1-0.dll
  - API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - CharLowerBuff
  - CharLowerBuffA
- - CharLowerBuffW
+ - CharLowerBuff
 ---
 
 # CharLowerBuffA function
@@ -129,3 +130,4 @@ For an example, see "Creating a Spell Dialog Box" in <a href="/windows/desktop/C
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
+

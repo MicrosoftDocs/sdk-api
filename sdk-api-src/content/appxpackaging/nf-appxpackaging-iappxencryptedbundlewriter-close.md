@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxEncryptedBundleWriter.Close
+ - IAppxEncryptedBundleWriter::Close
 ---
 
 # IAppxEncryptedBundleWriter::Close
@@ -61,3 +61,4 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedbundlewriter">IAppxEncryptedBundleWriter</a>
+

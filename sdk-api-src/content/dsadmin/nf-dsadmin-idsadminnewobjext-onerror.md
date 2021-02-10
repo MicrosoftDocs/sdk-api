@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObjExt.OnError
+ - IDsAdminNewObjExt::OnError
 ---
 
 # IDsAdminNewObjExt::OnError
@@ -99,3 +99,4 @@ The return value is ignored for a secondary creation extension.
 ## -see-also
 
 <a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjext">IDsAdminNewObjExt</a>
+

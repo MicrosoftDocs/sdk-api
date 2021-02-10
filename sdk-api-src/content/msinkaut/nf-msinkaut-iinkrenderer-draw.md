@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer.Draw
+ - IInkRenderer::Draw
 ---
 
 # IInkRenderer::Draw
@@ -186,3 +186,4 @@ The <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> forces t
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

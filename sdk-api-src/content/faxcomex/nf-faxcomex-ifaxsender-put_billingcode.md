@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSender.BillingCode
- - IFaxSender.get_BillingCode
- - IFaxSender.put_BillingCode
+ - IFaxSender::put_BillingCode
 ---
 
 # IFaxSender::put_BillingCode
@@ -69,3 +67,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

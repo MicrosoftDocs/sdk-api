@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskHandler.Start
+ - ITaskHandler::Start
 ---
 
 # ITaskHandler::Start
@@ -95,3 +95,4 @@ After  the handler starts its processing, it can call the <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus">UpdateStatus</a>
+

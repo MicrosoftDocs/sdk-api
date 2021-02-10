@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - wsnwlink
  - wsnwlink/wsnwlink
+api_name:
+ - wsnwlink
 ---
 
 # Wsnwlink.h header

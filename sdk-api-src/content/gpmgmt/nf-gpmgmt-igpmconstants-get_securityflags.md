@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMConstants.SecurityFlags
- - IGPMConstants.get_SecurityFlags
- - GPMConstants.SecurityFlags
+ - IGPMConstants::get_SecurityFlags
 ---
 
 # IGPMConstants::get_SecurityFlags
@@ -68,3 +66,4 @@ For more information about access control lists (ACLs) and the security model fo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">IGPMConstants</a>
+

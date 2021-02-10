@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_SETTING_VALUE_TYPE
  - OFFLINEFILES_SETTING_VALUE_TYPE
 ---
 
@@ -79,3 +80,4 @@ A 2-dimensional array.  Each row is a <i>name,value</i> pair. Used to represent 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvaluetype">IOfflineFilesSetting::GetValueType</a>
+

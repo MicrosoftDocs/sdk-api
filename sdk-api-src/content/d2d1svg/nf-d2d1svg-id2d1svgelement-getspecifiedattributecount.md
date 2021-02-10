@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgElement.GetSpecifiedAttributeCount
+ - ID2D1SvgElement::GetSpecifiedAttributeCount
 ---
 
 # ID2D1SvgElement::GetSpecifiedAttributeCount
@@ -66,3 +66,4 @@ Returns the number of specified attributes on this element.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
+

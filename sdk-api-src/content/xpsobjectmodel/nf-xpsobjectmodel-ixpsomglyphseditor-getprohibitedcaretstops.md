@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.GetProhibitedCaretStops
+ - IXpsOMGlyphsEditor::GetProhibitedCaretStops
 ---
 
 # IXpsOMGlyphsEditor::GetProhibitedCaretStops
@@ -126,3 +126,4 @@ A caret stop is the index of the UTF-16 code point in the <b>UnicodeString</b> p
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

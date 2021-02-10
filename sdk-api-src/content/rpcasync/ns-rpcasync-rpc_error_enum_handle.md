@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
+ - tagRPC_ERROR_ENUM_HANDLE
  - RPC_ERROR_ENUM_HANDLE
 ---
 
@@ -106,3 +107,4 @@ The
 
 
 <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>
+

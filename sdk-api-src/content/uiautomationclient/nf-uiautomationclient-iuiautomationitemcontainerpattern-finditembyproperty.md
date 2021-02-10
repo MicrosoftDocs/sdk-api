@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationItemContainerPattern.FindItemByProperty
+ - IUIAutomationItemContainerPattern::FindItemByProperty
 ---
 
 # IUIAutomationItemContainerPattern::FindItemByProperty
@@ -108,3 +108,4 @@ When the <i>propertyId</i> parameter is specified as 0 (zero), the provider is e
 
 
 <b>Reference</b>
+

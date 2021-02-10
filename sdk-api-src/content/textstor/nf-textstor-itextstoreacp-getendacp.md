@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP.GetEndACP
+ - ITextStoreACP::GetEndACP
 ---
 
 # ITextStoreACP::GetEndACP
@@ -110,3 +110,4 @@ The caller does not have a read-only lock.
 
 <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettext">ITextStoreACP::GetText
       </a>
+

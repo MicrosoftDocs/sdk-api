@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - IEventCallback
+ - ITraceEventCallback
 ---
 
 # ITraceEventCallback interface
@@ -70,3 +70,4 @@ This interface is not supported on Windows 7 for the IA64 architecture.
 
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
+

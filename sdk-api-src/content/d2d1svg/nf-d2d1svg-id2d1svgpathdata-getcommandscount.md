@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgPathData.GetCommandsCount
+ - ID2D1SvgPathData::GetCommandsCount
 ---
 
 # ID2D1SvgPathData::GetCommandsCount
@@ -63,3 +63,4 @@ Returns the size of the commands array.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpathdata">ID2D1SvgPathData</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_compare_extA
  - winldap/ldap_compare_extA
+ - ldap_compare_ext
+ - winldap/ldap_compare_ext
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_compare_ext
  - ldap_compare_extA
- - ldap_compare_extW
+ - ldap_compare_ext
 ---
 
 # ldap_compare_extA function
@@ -140,3 +141,4 @@ Multithreading: Calls to <b>ldap_compare_ext</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
+

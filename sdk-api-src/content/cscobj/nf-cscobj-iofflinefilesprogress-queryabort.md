@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesProgress.QueryAbort
+ - IOfflineFilesProgress::QueryAbort
 ---
 
 # IOfflineFilesProgress::QueryAbort
@@ -70,3 +70,4 @@ This method may be used by the implementation in cases where calls to other prog
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
+

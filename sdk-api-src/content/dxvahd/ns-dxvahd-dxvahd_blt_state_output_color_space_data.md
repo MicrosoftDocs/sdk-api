@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
  - DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 ---
 
@@ -253,3 +254,4 @@ HRESULT DXVAHD_SetOutputColorSpace(
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

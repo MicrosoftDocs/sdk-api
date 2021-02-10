@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPropertyUI.GetHelpInfo
+ - IPropertyUI::GetHelpInfo
 ---
 
 # IPropertyUI::GetHelpInfo
@@ -87,3 +87,4 @@ The Help context ID for the property.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

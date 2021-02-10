@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawEllipse
+ - Graphics::DrawEllipse
 ---
 
 # Graphics::DrawEllipse(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL)
@@ -110,3 +110,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+

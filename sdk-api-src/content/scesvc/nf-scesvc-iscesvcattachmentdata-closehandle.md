@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsecedit.dll
 api_name:
- - ISceSvcAttachmentData.CloseHandle
+ - ISceSvcAttachmentData::CloseHandle
 ---
 
 # ISceSvcAttachmentData::CloseHandle
@@ -76,3 +76,4 @@ You should call this method when your attachment snap-in extension no longer req
 
 
 <a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>
+

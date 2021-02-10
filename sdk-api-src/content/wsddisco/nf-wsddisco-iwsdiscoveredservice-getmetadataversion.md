@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetMetadataVersion
+ - IWSDiscoveredService::GetMetadataVersion
 ---
 
 # IWSDiscoveredService::GetMetadataVersion
@@ -103,3 +103,4 @@ Versioning is used to determine if metadata exchange should be performed again d
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
+

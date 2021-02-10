@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinEfs.h
 api_name:
+ - _ENCRYPTION_CERTIFICATE_HASH_LIST
+ - PENCRYPTION_CERTIFICATE_HASH_LIST
  - ENCRYPTION_CERTIFICATE_HASH_LIST
 ---
 
@@ -100,3 +102,4 @@ A pointer to the first
 
 
 <a href="/windows/desktop/api/winefs/nf-winefs-removeusersfromencryptedfile">RemoveUsersFromEncryptedFile</a>
+

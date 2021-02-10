@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - _NMTBCUSTOMDRAW
+ - LPNMTBCUSTOMDRAW
  - NMTBCUSTOMDRAW
 ---
 
@@ -150,3 +152,4 @@ Type: <b>int</b>
 <a href="/windows/desktop/Controls/common-control-versions">Version 6.0</a> Specifies the distance between the toolbar button image and the text, in logical pixels, for toolbars that have <a href="/windows/desktop/Controls/toolbar-control-and-button-styles">TBSTYLE_LIST</a> style set.
 
 Note that Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

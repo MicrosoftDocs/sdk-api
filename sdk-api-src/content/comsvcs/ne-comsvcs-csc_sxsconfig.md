@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - tagCSC_SxsConfig
  - CSC_SxsConfig
 ---
 
@@ -91,3 +92,4 @@ This enumeration is used to configure side-by-side assemblies through <a href="/
 
 
 <a href="/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal">Isolated Applications and Side-by-side Assemblies</a>
+

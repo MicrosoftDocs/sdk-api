@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.Task
- - IFsrmFileManagementJob.get_Task
- - IFsrmFileManagementJob.put_Task
+ - IFsrmFileManagementJob::put_Task
 ---
 
 # IFsrmFileManagementJob::put_Task
@@ -80,3 +78,4 @@ The command that you specify for the scheduled job is C:\Windows\System32\Storre
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

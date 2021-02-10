@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects.GetTitle
+ - IWMPEffects::GetTitle
 ---
 
 # IWMPEffects::GetTitle
@@ -69,3 +69,4 @@ This method allows the application to show the user a title when the visualizati
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
+

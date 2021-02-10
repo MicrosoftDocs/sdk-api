@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
+ - _DRM_CLIENT_VERSION_INFO
  - DRM_CLIENT_VERSION_INFO
 ---
 
@@ -108,7 +109,6 @@ Array of type <b>WCHAR</b> that receives the product description. This member is
 
 TBD
 
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-structures">AD RMS Structures</a>
@@ -116,3 +116,4 @@ TBD
 
 
 <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a>
+

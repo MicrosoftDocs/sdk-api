@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ICoreFragment.GetColumnCount
+ - ICoreFragment::GetColumnCount
 ---
 
 # ICoreFragment::GetColumnCount
@@ -98,3 +98,4 @@ An <b>ISyncKnowledge2</b> object contains one or more <b>ICoreFragment</b> objec
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragment">ICoreFragment Interface</a>
+

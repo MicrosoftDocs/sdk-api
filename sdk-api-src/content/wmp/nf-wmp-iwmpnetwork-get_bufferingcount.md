@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork.get_bufferingCount
+ - IWMPNetwork::get_bufferingCount
 ---
 
 # IWMPNetwork::get_bufferingCount
@@ -93,3 +93,4 @@ Buffering only applies to streaming content. This method retrieves valid informa
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
+

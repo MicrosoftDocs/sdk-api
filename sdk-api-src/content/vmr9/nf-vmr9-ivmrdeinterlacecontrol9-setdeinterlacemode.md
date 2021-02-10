@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl9.SetDeinterlaceMode
+ - IVMRDeinterlaceControl9::SetDeinterlaceMode
 ---
 
 # IVMRDeinterlaceControl9::SetDeinterlaceMode
@@ -150,3 +150,4 @@ The <b>SetDeinterlaceMode</b> method is effective only for new connections made 
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - _ads_attr_info
+ - PADS_ATTR_INFO
  - ADS_ATTR_INFO
 ---
 
@@ -119,3 +121,4 @@ The value of the <b>dwControlCode</b> member is ignored when the structure is us
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a>
+

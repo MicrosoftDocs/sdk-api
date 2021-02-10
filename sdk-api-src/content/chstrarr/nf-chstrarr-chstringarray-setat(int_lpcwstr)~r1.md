@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray.SetAt
+ - CHStringArray::SetAt
 ---
 
 # CHStringArray::SetAt
@@ -122,3 +122,4 @@ The following  example results in a <a href="/windows/desktop/api/chstrarr/nl-ch
 
 
 <a href="/windows/desktop/WmiSdk/chstringarray--operator-brackets">CHStringArray::operator []</a>
+

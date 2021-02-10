@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - wintrust
  - wintrust/wintrust
+api_name:
+ - wintrust
 ---
 
 # Wintrust.h header

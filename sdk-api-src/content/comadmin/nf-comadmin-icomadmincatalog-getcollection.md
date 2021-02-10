@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.GetCollection
+ - ICOMAdminCatalog::GetCollection
 ---
 
 # ICOMAdminCatalog::GetCollection
@@ -77,3 +77,4 @@ For a complete list of collections in the COM+ catalog, see <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

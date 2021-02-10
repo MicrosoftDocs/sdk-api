@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetTop
+ - IDCompositionRectangleClip::SetTop
 ---
 
 # IDCompositionRectangleClip::SetTop
@@ -78,3 +78,4 @@ If the Top property was previously animated, this method removes the animation a
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
+

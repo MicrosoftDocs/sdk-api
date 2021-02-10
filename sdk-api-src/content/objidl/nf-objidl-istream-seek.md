@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream.Seek
+ - IStream::Seek
 ---
 
 # IStream::Seek
@@ -93,3 +93,4 @@ You can also use this method to obtain the current value of the seek pointer by 
 
 
 <a href="/windows/desktop/api/objidl/ne-objidl-stream_seek">STREAM_SEEK</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _PROCESSOR_GROUP_INFO
+ - PPROCESSOR_GROUP_INFO
  - PROCESSOR_GROUP_INFO
 ---
 
@@ -77,3 +79,4 @@ A bitmap that specifies the affinity for zero or more active processors within t
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a>
+

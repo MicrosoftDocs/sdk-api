@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_INFO_ARRAY_VQ
+ - LPDHCP_CLIENT_INFO_ARRAY_VQ
  - DHCP_CLIENT_INFO_ARRAY_VQ
 ---
 
@@ -73,3 +75,4 @@ Pointer to the first element in the array of <a href="/windows/desktop/api/dhcps
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>
+

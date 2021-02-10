@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSink.GetService
+ - IMFCaptureSink::GetService
 ---
 
 # IMFCaptureSink::GetService
@@ -128,3 +128,4 @@ Invalid stream number.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
+

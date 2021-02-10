@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetCallInfo
- - lineGetCallInfoA
- - lineGetCallInfoW
 ---
 
 # lineGetCallInfo function
@@ -99,3 +97,4 @@ A separate
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+

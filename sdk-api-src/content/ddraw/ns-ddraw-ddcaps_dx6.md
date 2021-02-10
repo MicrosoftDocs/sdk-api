@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
- - DDCAPS
+ - _DDCAPS_DX6
+ - DDCAPS_DX6
 ---
 
 ## -description
@@ -1059,3 +1060,4 @@ A <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAP
 ## -remarks
 
 For backward compatibility, the Ddraw.h header file contains multiple definitions of the DDCAPS structure. The version that passes the preprocessor is determined by the value of the DIRECTDRAW_VERSION constant.
+

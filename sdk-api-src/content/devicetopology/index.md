@@ -9,6 +9,8 @@ tech.root: coreaudio
 f1_keywords:
  - devicetopology
  - devicetopology/devicetopology
+api_name:
+ - devicetopology
 ---
 
 # Devicetopology.h header

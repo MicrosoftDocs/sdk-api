@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mstask.h
 api_name:
+ - _TASK_TRIGGER
+ - PTASK_TRIGGER
  - TASK_TRIGGER
 ---
 
@@ -191,3 +193,4 @@ These times may include the start time, end time, duration, and modification fla
 
 
 <a href="/windows/desktop/TaskSchd/trigger-interfaces">Task Scheduler 2.0 Trigger Interfaces</a>
+

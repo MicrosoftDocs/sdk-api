@@ -44,6 +44,7 @@ api_type:
 api_location:
  - XpsPrint.h
 api_name:
+ - __MIDL___MIDL_itf_xpsprint_0000_0000_0001
  - XPS_JOB_COMPLETION
 ---
 
@@ -89,3 +90,4 @@ The print job failed. The <b>jobStatus</b> member of <a href="/windows/win32/api
 
 
 <a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>
+

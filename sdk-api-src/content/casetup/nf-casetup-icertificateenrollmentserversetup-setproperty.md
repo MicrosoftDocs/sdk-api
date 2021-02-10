@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentServerSetup.SetProperty
+ - ICertificateEnrollmentServerSetup::SetProperty
 ---
 
 # ICertificateEnrollmentServerSetup::SetProperty
@@ -146,3 +146,4 @@ You cannot set the ENUM_CESSETUPPROP_CACONFIG property if the target server is a
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
+

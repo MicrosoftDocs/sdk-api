@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgElement.GetDocument
+ - ID2D1SvgElement::GetDocument
 ---
 
 # ID2D1SvgElement::GetDocument
@@ -63,3 +63,4 @@ Ouputs the document that contains this element. This argument will be null if th
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
+

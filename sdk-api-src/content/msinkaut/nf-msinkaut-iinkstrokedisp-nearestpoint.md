@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.NearestPoint
+ - IInkStrokeDisp::NearestPoint
 ---
 
 # IInkStrokeDisp::NearestPoint
@@ -147,3 +147,4 @@ The <i>distance</i> parameter describes the distance from the point to the envel
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-nearestpoint">NearestPoint Method [InkDisp Class]</a>
+

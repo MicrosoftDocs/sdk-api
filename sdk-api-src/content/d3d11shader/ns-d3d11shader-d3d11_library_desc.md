@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D11Shader.h
 api_name:
+ - _D3D11_LIBRARY_DESC
  - D3D11_LIBRARY_DESC
 ---
 
@@ -81,3 +82,4 @@ The number of functions exported from the library.
 
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
+

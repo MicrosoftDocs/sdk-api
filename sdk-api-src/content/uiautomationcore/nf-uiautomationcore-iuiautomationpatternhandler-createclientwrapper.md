@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IUIAutomationPatternHandler.CreateClientWrapper
+ - IUIAutomationPatternHandler::CreateClientWrapper
 ---
 
 # IUIAutomationPatternHandler::CreateClientWrapper
@@ -79,3 +79,4 @@ The wrapper object exposes methods and properties of the <i>control pattern</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationpatternhandler">IUIAutomationPatternHandler</a>
+

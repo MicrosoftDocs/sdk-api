@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPersistSerializedPropStorage.GetPropertyStorage
+ - IPersistSerializedPropStorage::GetPropertyStorage
 ---
 
 # IPersistSerializedPropStorage::GetPropertyStorage
@@ -78,3 +78,4 @@ The <b>SERIALIZEDPROPSTORAGE</b> type is defined in Propsys.h as an incomplete t
 
 <div class="alert"><b>Note</b>  It is the responsibility of the application that calls <b>IPersistSerializedPropStorage::GetPropertyStorage</b> to later call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the memory referred to by <i>ppsps</i> when it is no longer needed.</div>
 <div> </div>
+

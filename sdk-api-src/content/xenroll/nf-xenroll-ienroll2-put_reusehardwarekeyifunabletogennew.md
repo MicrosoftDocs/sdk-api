@@ -42,12 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll2.ReuseHardwareKeyIfUnableToGenNew
- - IEnroll2.get_ReuseHardwareKeyIfUnableToGenNew
- - IEnroll2.put_ReuseHardwareKeyIfUnableToGenNew
- - IEnroll4.ReuseHardwareKeyIfUnableToGenNew
- - IEnroll4.get_ReuseHardwareKeyIfUnableToGenNew
- - IEnroll4.put_ReuseHardwareKeyIfUnableToGenNew
+ - IEnroll2::put_ReuseHardwareKeyIfUnableToGenNew
 ---
 
 # IEnroll2::put_ReuseHardwareKeyIfUnableToGenNew
@@ -77,3 +72,4 @@ This property is a Boolean value. This property affects only <a href="/windows/d
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

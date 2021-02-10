@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateNotCondition
+ - IUIAutomation::CreateNotCondition
 ---
 
 # IUIAutomation::CreateNotCondition
@@ -103,3 +103,4 @@ The <b>CreateNotCondition</b> method calls <a href="/windows/desktop/api/unknwn/
 
 
 <b>Reference</b>
+

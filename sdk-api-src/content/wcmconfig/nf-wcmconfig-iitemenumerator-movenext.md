@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - IItemEnumerator.MoveNext
+ - IItemEnumerator::MoveNext
 ---
 
 # IItemEnumerator::MoveNext
@@ -88,3 +88,4 @@ Indicates success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a>
+

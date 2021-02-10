@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - PFN_DXCORE_NOTIFICATION_CALLBACK
+f1_keywords:
+ - PFN_DXCORE_NOTIFICATION_CALLBACK
+ - dxcore_interface/PFN_DXCORE_NOTIFICATION_CALLBACK
 ---
 
 ## -description
@@ -67,3 +70,4 @@ A pointer, which may be `nullptr`, to an object containing context info.
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

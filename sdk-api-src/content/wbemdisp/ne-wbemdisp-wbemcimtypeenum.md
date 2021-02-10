@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemdisp.h
 api_name:
- - WbemCimTypeEnum
+ - WbemCimtypeEnum
 ---
 
 # WbemCimtypeEnum enumeration
@@ -129,3 +129,4 @@ CIM object
 
 
 <a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
+

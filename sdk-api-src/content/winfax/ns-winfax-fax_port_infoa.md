@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - FAX_PORT_INFO
+ - _FAX_PORT_INFOA
+ - PFAX_PORT_INFOA
  - FAX_PORT_INFOA
- - FAX_PORT_INFOW
 ---
 
 # FAX_PORT_INFOA structure
@@ -304,3 +304,4 @@ If an application calls the <a href="/previous-versions/windows/desktop/api/winf
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-virtual-fax-devices">Virtual Fax Devices</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManagerEventHandler2.OnManagerStatusChanged
+ - IUIAnimationManagerEventHandler2::OnManagerStatusChanged
 ---
 
 # IUIAnimationManagerEventHandler2::OnManagerStatusChanged
@@ -81,3 +81,4 @@ Calls made to other Windows Animation methods from <b>IUIAnimationManager2::OnMa
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfobjects.lib
  - mfobjects.dll
 api_name:
- - IMFSpatialAudioObjectBuffer.SetID
+ - IMFSpatialAudioObjectBuffer::SetID
 ---
 
 # IMFSpatialAudioObjectBuffer::SetID
@@ -90,3 +90,4 @@ The object ID must be unique for each spatial audio sample.  Subsequent samples 
 ## -see-also
 
 <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
+

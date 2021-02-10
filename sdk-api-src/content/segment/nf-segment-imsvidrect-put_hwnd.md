@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidRect.put_HWnd
+ - IMSVidRect::put_HWnd
 ---
 
 # IMSVidRect::put_HWnd
@@ -69,3 +69,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-get_hwnd">IMSVidRect::get_HWnd</a>
+

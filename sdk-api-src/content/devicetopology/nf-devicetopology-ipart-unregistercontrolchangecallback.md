@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart.UnregisterControlChangeCallback
+ - IPart::UnregisterControlChangeCallback
 ---
 
 # IPart::UnregisterControlChangeCallback
@@ -106,3 +106,4 @@ Before the client releases its final reference to the <b>IControlChangeNotify</b
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-registercontrolchangecallback">IPart::RegisterControlChangeCallback</a>
+

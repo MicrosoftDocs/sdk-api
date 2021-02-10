@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_QUERY_FLAGS
  - EVT_QUERY_FLAGS
 ---
 
@@ -85,3 +86,4 @@ You can retrieve events only in a forward direction from Debug and Analytic chan
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>
+

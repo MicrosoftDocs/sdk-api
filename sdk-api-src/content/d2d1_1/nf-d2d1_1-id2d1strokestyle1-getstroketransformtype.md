@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1StrokeStyle1.GetStrokeTransformType
+ - ID2D1StrokeStyle1::GetStrokeTransformType
 ---
 
 # ID2D1StrokeStyle1::GetStrokeTransformType
@@ -67,3 +67,4 @@ This method returns the stroke transform type.
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>
+

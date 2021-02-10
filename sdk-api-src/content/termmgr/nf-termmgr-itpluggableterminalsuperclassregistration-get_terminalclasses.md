@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.get_TerminalClasses
+ - ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
 ---
 
 # ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
@@ -106,3 +106,4 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
+

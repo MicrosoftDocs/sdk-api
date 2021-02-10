@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
+ - __MIDL___MIDL_itf_msp_0000_0000_0005
  - MSP_EVENT_INFO
 ---
 
@@ -174,3 +175,4 @@ Pointer to <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispa
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

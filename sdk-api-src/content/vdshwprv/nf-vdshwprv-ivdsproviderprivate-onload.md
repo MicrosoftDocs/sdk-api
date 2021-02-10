@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsProviderPrivate.OnLoad
+ - IVdsProviderPrivate::OnLoad
 ---
 
 # IVdsProviderPrivate::OnLoad
@@ -118,3 +118,4 @@ Implementers must implement this method. Invoke the  <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsproviderprivate-onunload">IVdsProviderPrivate::OnUnload</a>
+

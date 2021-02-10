@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - exdisp
  - exdisp/exdisp
+api_name:
+ - exdisp
 ---
 
 # Exdisp.h header

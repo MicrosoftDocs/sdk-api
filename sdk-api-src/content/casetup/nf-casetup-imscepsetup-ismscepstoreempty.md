@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup.IsMSCEPStoreEmpty
+ - IMSCEPSetup::IsMSCEPStoreEmpty
 ---
 
 # IMSCEPSetup::IsMSCEPStoreEmpty
@@ -65,3 +65,4 @@ For the Network Device Enrollment Service (NDES) role, the My personal store is 
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
+

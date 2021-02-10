@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx
+ - IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
@@ -232,3 +232,4 @@ To create a shadow copy storage area, use the <a href="/windows/desktop/api/vsmg
 
 
 <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>
+

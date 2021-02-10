@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACPServices.Serialize
+ - ITextStoreACPServices::Serialize
 ---
 
 # ITextStoreACPServices::Serialize
@@ -132,3 +132,4 @@ When calling this method, the application must be able to grant a synchronous re
 ## -see-also
 
 [ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITextStoreACPServices::Unserialize](nf-msctf-itextstoreacpservices-unserialize.md), [ITfContext::EnumProperties](nf-msctf-itfcontext-enumproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfReadOnlyProperty::EnumRanges](nf-msctf-itfreadonlyproperty-enumranges.md), [TF_PERSISTENT_PROPERTY_HEADER_ACP structure](ns-msctf-tf_persistent_property_header_acp.md)
+

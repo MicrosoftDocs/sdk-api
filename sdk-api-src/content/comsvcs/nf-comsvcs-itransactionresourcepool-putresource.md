@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionResourcePool.PutResource
+ - ITransactionResourcePool::PutResource
 ---
 
 # ITransactionResourcePool::PutResource
@@ -73,3 +73,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.GetStatus
+ - IDirectManipulationViewport::GetStatus
 ---
 
 # IDirectManipulationViewport::GetStatus
@@ -84,3 +84,4 @@ HRESULT hr = pViewport->GetStatus(&status);
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
+

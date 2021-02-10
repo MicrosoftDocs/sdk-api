@@ -9,6 +9,8 @@ tech.root: perf
 f1_keywords:
  - winperf
  - winperf/winperf
+api_name:
+ - winperf
 ---
 
 # Winperf.h header

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.QueryDriveLetters
+ - IVdsService::QueryDriveLetters
 ---
 
 # IVdsService::QueryDriveLetters
@@ -110,3 +110,4 @@ VDS failed to initialize. If an application calls this method before the service
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_drive_letter_prop">VDS_DRIVE_LETTER_PROP</a>
+

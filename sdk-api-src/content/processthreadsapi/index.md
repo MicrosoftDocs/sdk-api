@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - processthreadsapi
  - processthreadsapi/processthreadsapi
+api_name:
+ - processthreadsapi
 ---
 
 # Processthreadsapi.h header

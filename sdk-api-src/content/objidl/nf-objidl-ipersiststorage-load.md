@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStorage.Load
+ - IPersistStorage::Load
 ---
 
 # IPersistStorage::Load
@@ -152,3 +152,4 @@ Your implementation of this method should return the CO_E_ALREADYINITIALIZED err
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
+

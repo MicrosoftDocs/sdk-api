@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportJob.NamespaceRoots
- - IFsrmReportJob.get_NamespaceRoots
- - IFsrmReportJob.put_NamespaceRoots
+ - IFsrmReportJob::get_NamespaceRoots
 ---
 
 # IFsrmReportJob::get_NamespaceRoots
@@ -85,3 +83,4 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/defining-a-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
+

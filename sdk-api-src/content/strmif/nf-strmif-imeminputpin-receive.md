@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemInputPin.Receive
+ - IMemInputPin::Receive
 ---
 
 # IMemInputPin::Receive
@@ -163,3 +163,4 @@ If this method returns S_FALSE or an error code, the upstream filter should stop
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
+

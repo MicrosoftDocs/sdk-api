@@ -9,6 +9,8 @@ tech.root: intl
 f1_keywords:
  - immdev
  - immdev/immdev
+api_name:
+ - immdev
 ---
 
 # Immdev.h header

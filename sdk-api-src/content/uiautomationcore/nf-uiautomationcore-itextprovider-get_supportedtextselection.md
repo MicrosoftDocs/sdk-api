@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextProvider.SupportedTextSelection
- - ITextProvider.get_SupportedTextSelection
+ - ITextProvider::get_SupportedTextSelection
 ---
 
 # ITextProvider::get_SupportedTextSelection

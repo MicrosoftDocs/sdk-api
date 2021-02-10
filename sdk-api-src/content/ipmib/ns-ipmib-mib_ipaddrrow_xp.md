@@ -47,7 +47,9 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - MIB_IPADDRROW
+ - _MIB_IPADDRROW_XP
+ - PMIB_IPADDRROW_XP
+ - MIB_IPADDRROW_XP
 ---
 
 ## -description
@@ -182,3 +184,4 @@ To view an example that retrieves the <a href="/windows/desktop/api/ipmib/ns-ipm
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_controls_free
- - ldap_controls_freeA
- - ldap_controls_freeW
 ---
 
 # ldap_controls_free function
@@ -93,3 +91,4 @@ Use this function to free an array of <a href="/previous-versions/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_result">ldap_parse_result</a>
+

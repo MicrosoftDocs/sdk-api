@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRCREATEMONOBRUSH
+ - PEMRCREATEMONOBRUSH
  - EMRCREATEMONOBRUSH
 ---
 
@@ -109,3 +111,4 @@ Size of bitmap bits.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+

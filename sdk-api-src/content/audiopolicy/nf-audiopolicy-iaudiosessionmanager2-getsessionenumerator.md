@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionManager2.GetSessionEnumerator
+ - IAudioSessionManager2::GetSessionEnumerator
 ---
 
 # IAudioSessionManager2::GetSessionEnumerator
@@ -71,3 +71,4 @@ The session enumerator might not be aware of the new sessions that are reported 
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2">IAudioSessionManager2</a>
+

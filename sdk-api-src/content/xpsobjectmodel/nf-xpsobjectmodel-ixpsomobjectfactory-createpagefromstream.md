@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePageFromStream
+ - IXpsOMObjectFactory::CreatePageFromStream
 ---
 
 # IXpsOMObjectFactory::CreatePageFromStream
@@ -179,3 +179,4 @@ This method does not validate the contents of any stream-based resources that it
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

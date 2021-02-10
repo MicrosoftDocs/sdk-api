@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecAMVideoAccelerator.NegotiateConnection
+ - IWMCodecAMVideoAccelerator::NegotiateConnection
 ---
 
 # IWMCodecAMVideoAccelerator::NegotiateConnection
@@ -123,3 +123,4 @@ The decoder has no valid <b>IAMVideoAccelerator</b> interface pointer.
 
 
 <a href="/windows/desktop/api/wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator">IWMCodecAMVideoAccelerator Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRSurface9.LockSurface
+ - IVMRSurface9::LockSurface
 ---
 
 # IVMRSurface9::LockSurface
@@ -114,3 +114,4 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

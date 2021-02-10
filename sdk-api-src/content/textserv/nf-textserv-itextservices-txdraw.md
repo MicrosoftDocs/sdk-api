@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices.TxDraw
+ - ITextServices::TxDraw
 ---
 
 # ITextServices::TxDraw
@@ -255,3 +255,4 @@ Also, take great care when the control is in-place active. This problem is even 
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
+ - ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
 ---
 
 # ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
@@ -110,3 +110,4 @@ The knowledge that is returned in <i>ppLearnedWithPrerequisiteKnowledge</i> is c
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
+

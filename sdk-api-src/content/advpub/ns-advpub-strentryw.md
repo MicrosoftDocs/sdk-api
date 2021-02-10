@@ -46,6 +46,8 @@ api_type:
 api_location:
  - advpack.lib
 api_name:
+ - _StrEntryW
+ - LPSTRENTRYW
  - STRENTRYW
 ---
 

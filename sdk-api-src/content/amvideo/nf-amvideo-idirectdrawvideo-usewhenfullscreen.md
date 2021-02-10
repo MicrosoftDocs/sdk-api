@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo.UseWhenFullScreen
+ - IDirectDrawVideo::UseWhenFullScreen
 ---
 
 # IDirectDrawVideo::UseWhenFullScreen
@@ -78,3 +78,4 @@ The third and final choice is to simply take any renderer supporting the <a href
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
+

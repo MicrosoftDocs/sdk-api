@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _CLIPLINE
+ - PCLIPLINE
  - CLIPLINE
 ---
 
@@ -95,3 +97,4 @@ See <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-run">RUN</a>
+

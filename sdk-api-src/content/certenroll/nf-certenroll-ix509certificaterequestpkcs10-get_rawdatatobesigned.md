@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.RawDataToBeSigned
- - IX509CertificateRequestPkcs10.get_RawDataToBeSigned
+ - IX509CertificateRequestPkcs10::get_RawDataToBeSigned
 ---
 
 # IX509CertificateRequestPkcs10::get_RawDataToBeSigned
@@ -82,3 +81,4 @@ The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificatereque
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+

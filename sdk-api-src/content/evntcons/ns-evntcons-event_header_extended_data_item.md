@@ -46,6 +46,8 @@ api_type:
 api_location:
  - relogger.h
 api_name:
+ - _EVENT_HEADER_EXTENDED_DATA_ITEM
+ - PEVENT_HEADER_EXTENDED_DATA_ITEM
  - EVENT_HEADER_EXTENDED_DATA_ITEM
 ---
 
@@ -196,3 +198,4 @@ Pointer to the extended data. The <b>ExtType</b> member determines the type of e
 ## -see-also
 
 <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
+

@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMWriter3.SetProtectStreamSamples
+ - IWMDRMWriter3::SetProtectStreamSamples
 ---
 
 # IWMDRMWriter3::SetProtectStreamSamples
@@ -117,3 +117,4 @@ When importing protected content, this method must be called after configuring t
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter3">IWMDRMWriter3 Interface</a>
+

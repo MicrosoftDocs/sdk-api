@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Dinputd.h
 api_name:
- - DIJOYTYPEINFO, *LPDIJOYTYPEINFO
+ - DIJOYTYPEINFO
+ - LPDIJOYTYPEINFO
 ---
 
 # DIJOYTYPEINFO structure

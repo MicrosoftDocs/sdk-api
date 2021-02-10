@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ISearchJob.CleanUp
+ - ISearchJob::CleanUp
 ---
 
 # ISearchJob::CleanUp
@@ -65,3 +65,4 @@ When you use any asynchronous WUA API in your app, you might need to implement a
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateSkewTransform
+ - IDCompositionDevice::CreateSkewTransform
 ---
 
 # IDCompositionDevice::CreateSkewTransform
@@ -77,3 +77,4 @@ A new 2D skew transform object has a static value of zero for the AngleX, AngleY
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
+

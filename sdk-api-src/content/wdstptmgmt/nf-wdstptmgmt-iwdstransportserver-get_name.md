@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer.Name
- - IWdsTransportServer.get_Name
+ - IWdsTransportServer::get_Name
 ---
 
 # IWdsTransportServer::get_Name
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a>
+

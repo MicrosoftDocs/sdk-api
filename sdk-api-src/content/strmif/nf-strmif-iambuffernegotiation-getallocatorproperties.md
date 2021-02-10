@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMBufferNegotiation.GetAllocatorProperties
+ - IAMBufferNegotiation::GetAllocatorProperties
 ---
 
 # IAMBufferNegotiation::GetAllocatorProperties
@@ -114,3 +114,4 @@ Call this method after the pins connect, to find out the allocator properties th
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iambuffernegotiation">IAMBufferNegotiation Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - __MIDL___MIDL_itf_mfobjects_0000_0017_0002
  - MF_FILE_OPENMODE
 ---
 
@@ -91,3 +92,4 @@ Create a new file. If the file exists, overwrite the file.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

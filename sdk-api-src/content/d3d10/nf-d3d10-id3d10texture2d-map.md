@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Texture2D.Map
+ - ID3D10Texture2D::Map
 ---
 
 # ID3D10Texture2D::Map
@@ -91,3 +91,4 @@ All of the Map methods have identical return values and operating restrictions. 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10texture2d">ID3D10Texture2D Interface</a>
+

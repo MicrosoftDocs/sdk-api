@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandler.GetCapabilities
+ - ISyncMgrHandler::GetCapabilities
 ---
 
 # ISyncMgrHandler::GetCapabilities
@@ -88,3 +88,4 @@ STDMETHODIMP CMyDeviceHandler::GetCapabilities(
 }
 
 ```
+

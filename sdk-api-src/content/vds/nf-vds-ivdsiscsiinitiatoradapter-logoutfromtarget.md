@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiInitiatorAdapter.LogoutFromTarget
+ - IVdsIscsiInitiatorAdapter::LogoutFromTarget
 ---
 
 # IVdsIscsiInitiatorAdapter::LogoutFromTarget
@@ -135,3 +135,4 @@ At least one session did not logout successfully.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsiscsiinitiatoradapter">IVdsIscsiInitiatorAdapter</a>
+

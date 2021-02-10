@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
+ - _XHR_CRED_PROMPT
  - XHR_CRED_PROMPT
 ---
 
@@ -75,3 +76,4 @@ This setting disables any credential prompts in response to requests from the se
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
+

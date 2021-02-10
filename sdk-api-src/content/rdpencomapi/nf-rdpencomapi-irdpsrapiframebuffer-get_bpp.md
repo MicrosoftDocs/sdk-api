@@ -42,8 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIFrameBuffer.Bpp
- - IRDPSRAPIFrameBuffer.get_Bpp
+ - IRDPSRAPIFrameBuffer::get_Bpp
 ---
 
 # IRDPSRAPIFrameBuffer::get_Bpp
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiframebuffer">IRDPSRAPIFrameBuffer</a>
+

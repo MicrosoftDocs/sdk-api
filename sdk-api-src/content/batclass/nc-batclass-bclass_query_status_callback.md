@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - BatteryMiniQueryStatus
+ - BCLASS_QUERY_STATUS_CALLBACK
 ---
 
 # BCLASS_QUERY_STATUS_CALLBACK callback function
@@ -118,3 +118,4 @@ Before reporting a critically low, discharging battery (BATTERY_DISCHARGING and 
 
 
 <a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>
+

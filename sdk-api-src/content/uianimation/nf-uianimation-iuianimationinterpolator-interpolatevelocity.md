@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator.InterpolateVelocity
+ - IUIAnimationInterpolator::InterpolateVelocity
 ---
 
 # IUIAnimationInterpolator::InterpolateVelocity
@@ -81,3 +81,4 @@ Windows Animation can call <a href="/windows/desktop/api/uianimation/nf-uianimat
 
 
 <a href="/windows/desktop/UIAnimation/ui-animation-seconds">UI_ANIMATION_SECONDS</a>
+

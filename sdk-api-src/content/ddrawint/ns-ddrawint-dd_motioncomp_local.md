@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_MOTIONCOMP_LOCAL
+ - PDD_MOTIONCOMP_LOCAL
  - DD_MOTIONCOMP_LOCAL
 ---
 
@@ -93,3 +95,4 @@ Are reserved for use by the display driver.
 ### -field lpDriverReserved3
 
 Are reserved for use by the display driver.
+

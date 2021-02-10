@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _RAS_QUARANTINE_STATE
  - RAS_QUARANTINE_STATE
 ---
 
@@ -80,3 +81,4 @@ The connection state is unknown.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

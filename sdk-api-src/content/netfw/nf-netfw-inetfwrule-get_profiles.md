@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule.Profiles
- - INetFwRule.get_Profiles
- - INetFwRule.put_Profiles
+ - INetFwRule::get_Profiles
 ---
 
 # INetFwRule::get_Profiles
@@ -67,3 +65,4 @@ Also see the restrictions on changing properties described in the Remarks sectio
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
+

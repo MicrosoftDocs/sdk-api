@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - tagWMMPEG2VIDEOINFO
  - WMMPEG2VIDEOINFO
 ---
 
@@ -93,3 +94,4 @@ This structure is identical to the <b>MPEG2VIDEOINFO</b> structure defined in Dv
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

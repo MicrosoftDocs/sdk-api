@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shlwapi.h
 api_name:
+ - _DLLVERSIONINFO
  - DLLVERSIONINFO
 ---
 
@@ -108,3 +109,4 @@ The DLL was built for platforms such as Windows 2000, Windows Vista, or Window
 
 
 <a href="/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.SetTime
+ - IMediaSample::SetTime
 ---
 
 # IMediaSample::SetTime
@@ -82,3 +82,4 @@ For more information about stream times, see <a href="/windows/desktop/DirectSho
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
+

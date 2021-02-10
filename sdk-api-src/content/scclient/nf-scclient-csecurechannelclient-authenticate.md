@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient.Authenticate
+ - CSecureChannelClient::Authenticate
 ---
 
 # CSecureChannelClient::Authenticate
@@ -166,3 +166,4 @@ HRESULT MyClass::Authenticate()
 
 
 <a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+

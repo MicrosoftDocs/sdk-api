@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.AddContent
+ - IDirectManipulationViewport::AddContent
 ---
 
 # IDirectManipulationViewport::AddContent
@@ -69,3 +69,4 @@ Secondary content is created by calling <a href="/previous-versions/windows/desk
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
+

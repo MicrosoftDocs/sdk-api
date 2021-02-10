@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.Image
+ - Image::Image
 ---
 
 # Image::Image(IN const WCHAR,IN BOOL)
@@ -114,3 +114,4 @@ You can construct <b>Image::Image</b> objects based on files of a variety of typ
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-bitmaps-use">Loading and Displaying Bitmaps</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.GetURL
+ - ITextRange2::GetURL
 ---
 
 # ITextRange2::GetURL
@@ -106,3 +106,4 @@ This method sets the start and end positions of the range to that of the whole h
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-seturl">ITextRange2::SetURL</a>
+

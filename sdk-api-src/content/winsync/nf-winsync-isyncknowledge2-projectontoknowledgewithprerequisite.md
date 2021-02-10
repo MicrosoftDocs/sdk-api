@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite
+ - ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
 ---
 
 # ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
@@ -121,3 +121,4 @@ To calculate the knowledge that is returned in <i>ppProjectedKnowledge</i>, this
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
+

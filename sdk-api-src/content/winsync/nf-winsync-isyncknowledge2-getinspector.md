@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2.GetInspector
+ - ISyncKnowledge2::GetInspector
 ---
 
 # ISyncKnowledge2::GetInspector
@@ -113,3 +113,4 @@ Invalid pointer.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
+

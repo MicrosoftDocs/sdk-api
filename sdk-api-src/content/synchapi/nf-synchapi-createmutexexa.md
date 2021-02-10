@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateMutexExA
  - synchapi/CreateMutexExA
+ - CreateMutexEx
+ - synchapi/CreateMutexEx
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - CreateMutexEx
  - CreateMutexExA
- - CreateMutexExW
+ - CreateMutexEx
 ---
 
 # CreateMutexExA function
@@ -172,3 +173,4 @@ Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseH
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

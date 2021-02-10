@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.GetShadowConnection
+ - IWRdsProtocolConnection::GetShadowConnection
 ---
 
 # IWRdsProtocolConnection::GetShadowConnection
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolshadowconnection">IWRdsProtocolShadowConnection</a>
+

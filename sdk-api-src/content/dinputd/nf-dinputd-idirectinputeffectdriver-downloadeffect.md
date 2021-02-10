@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputEffectDriver.DownloadEffect
+ - IDirectInputEffectDriver::DownloadEffect
 ---
 
 # IDirectInputEffectDriver::DownloadEffect
@@ -193,3 +193,4 @@ Suppresses the automatic download that is normally performed after the parameter
 ## -returns
 
 Returns S_OK if successful, or an error value otherwise.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
+ - ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout
 ---
 
 # ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout
@@ -107,3 +107,4 @@ The method was successful.
 
 
 <a href="/windows/desktop/TSF/text-service-registration">Text Service Registration</a>
+

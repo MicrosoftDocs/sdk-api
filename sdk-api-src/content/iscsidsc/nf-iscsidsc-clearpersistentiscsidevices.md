@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - ClearPersistentiScsiDevices
+ - ClearPersistentIScsiDevices
 ---
 
 # ClearPersistentIScsiDevices function
@@ -81,3 +81,4 @@ returns ERROR_SUCCESS if the operation succeeds and the appropriate Win32 or iSC
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-setuppersistentiscsidevices">SetupPersistentIscsiDevices</a>
+

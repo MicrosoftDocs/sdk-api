@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC
+ - CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC
 ---
 
 # CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(const D3D11_DEPTH_STENCIL_DESC &)
@@ -62,3 +62,4 @@ Address of the **D3D11_DEPTH_STENCIL_DESC** structure that initializes the **D3D
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a>
+

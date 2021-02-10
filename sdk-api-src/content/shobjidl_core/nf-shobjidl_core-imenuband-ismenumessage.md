@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IMenuBand.IsMenuMessage
+ - IMenuBand::IsMenuMessage
 ---
 
 # IMenuBand::IsMenuMessage
@@ -98,3 +98,4 @@ The menu has exited the menu mode and can be destroyed.
 ## -remarks
 
 If this method returns <b>S_OK</b>, the message loop should not call <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>.
+

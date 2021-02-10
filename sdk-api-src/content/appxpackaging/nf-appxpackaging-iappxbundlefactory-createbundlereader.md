@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleFactory.CreateBundleReader
+ - IAppxBundleFactory::CreateBundleReader
 ---
 
 # IAppxBundleFactory::CreateBundleReader
@@ -126,3 +126,4 @@ The bundle manifest is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a>
+

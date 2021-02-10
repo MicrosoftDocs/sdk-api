@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph.AddFilter
+ - IFilterGraph::AddFilter
 ---
 
 # IFilterGraph::AddFilter
@@ -166,3 +166,4 @@ The Filter Graph Manager holds a reference count on the filter until the filter 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
+

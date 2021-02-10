@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMWstDecoder.GetCurrentService
+ - IAMWstDecoder::GetCurrentService
 ---
 
 # IAMWstDecoder::GetCurrentService
@@ -95,3 +95,4 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>
+

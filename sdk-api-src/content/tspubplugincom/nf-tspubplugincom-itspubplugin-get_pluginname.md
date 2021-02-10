@@ -42,8 +42,7 @@ api_type:
 api_location:
  - tspubplugincom.h
 api_name:
- - ItsPubPlugin.pluginName
- - ItsPubPlugin.get_pluginName
+ - ItsPubPlugin::get_pluginName
 ---
 
 # ItsPubPlugin::get_pluginName
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>
+

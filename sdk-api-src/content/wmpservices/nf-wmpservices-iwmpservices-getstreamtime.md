@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPServices.GetStreamTime
+ - IWMPServices::GetStreamTime
 ---
 
 # IWMPServices::GetStreamTime
@@ -71,3 +71,4 @@ The values provided in the <b>rtTimestamp</b> member of <b>IMediaObject::Process
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpservices">IWMPServices Interface</a>
+

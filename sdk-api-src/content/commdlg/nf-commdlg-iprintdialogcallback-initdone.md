@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - IPrintDialogCallback.InitDone
+ - IPrintDialogCallback::InitDone
 ---
 
 # IPrintDialogCallback::InitDone
@@ -89,3 +89,4 @@ If your callback object implements the <a href="/windows/desktop/api/ocidl/nn-oc
 
 
 <b>Reference</b>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents.NotifyClosingDisc
+ - IDiscMasterProgressEvents::NotifyClosingDisc
 ---
 
 # IDiscMasterProgressEvents::NotifyClosingDisc
@@ -65,3 +65,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
+

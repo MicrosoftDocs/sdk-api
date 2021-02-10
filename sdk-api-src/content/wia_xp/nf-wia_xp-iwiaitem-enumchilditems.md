@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItem.EnumChildItems
+ - IWiaItem::EnumChildItems
 ---
 
 # IWiaItem::EnumChildItems
@@ -73,3 +73,4 @@ The WIA run-time system represents each WIA hardware device as a hierarchical tr
 If the folder is not empty, it contains a subtree of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enumerates all of the items contained in the folder. It stores a pointer to an enumerator in the <i>ppIEnumWiaItem</i> parameter. Applications use the enumerator pointer to perform the enumeration of an object's child items.
 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnumWiaItem</i> parameter.
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetPatchFileListW
  - msi/MsiGetPatchFileListW
+ - MsiGetPatchFileList
+ - msi/MsiGetPatchFileList
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetPatchFileList
- - MsiGetPatchFileListA
  - MsiGetPatchFileListW
+ - MsiGetPatchFileList
 ---
 
 # MsiGetPatchFileListW function
@@ -139,3 +140,4 @@ For more information about using the <b>MsiGetPatchFileList</b> function  see <a
 ## -see-also
 
 <a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-3-1">Not Supported in Windows Installer 3.1 and earlier versions</a>
+

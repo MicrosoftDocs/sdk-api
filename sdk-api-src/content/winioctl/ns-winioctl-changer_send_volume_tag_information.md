@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CHANGER_SEND_VOLUME_TAG_INFORMATION
+ - PCHANGER_SEND_VOLUME_TAG_INFORMATION
  - CHANGER_SEND_VOLUME_TAG_INFORMATION
 ---
 
@@ -277,3 +279,4 @@ The template that the device uses to search for volume IDs. For search operation
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>
+

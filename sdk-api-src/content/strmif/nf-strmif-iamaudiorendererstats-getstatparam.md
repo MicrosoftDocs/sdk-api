@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioRendererStats.GetStatParam
+ - IAMAudioRendererStats::GetStatParam
 ---
 
 # IAMAudioRendererStats::GetStatParam
@@ -136,3 +136,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMMATRIX.XMMATRIX
+ - XMMATRIX::XMMATRIX
 ---
 
 # XMMATRIX::XMMATRIX(const float)
@@ -93,3 +93,4 @@ mat._44=pArray[15];
 <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
 <a href="/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
+

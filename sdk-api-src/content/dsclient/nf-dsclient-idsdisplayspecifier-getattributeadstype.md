@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.GetAttributeADsType
+ - IDsDisplaySpecifier::GetAttributeADsType
 ---
 
 # IDsDisplaySpecifier::GetAttributeADsType
@@ -73,3 +73,4 @@ Returns one of the <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPE
 
 
 <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
+

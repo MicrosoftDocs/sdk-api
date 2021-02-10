@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpAddress.SetTTL
+ - IWSDUdpAddress::SetTTL
 ---
 
 # IWSDUdpAddress::SetTTL
@@ -94,3 +94,4 @@ Method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
+

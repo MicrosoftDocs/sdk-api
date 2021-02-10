@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CachedRole
- - IUIAutomationLegacyIAccessiblePattern.get_CachedRole
+ - IUIAutomationLegacyIAccessiblePattern::get_CachedRole
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedRole

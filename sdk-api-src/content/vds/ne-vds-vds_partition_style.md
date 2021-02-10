@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_PARTITION_STYLE
  - VDS_PARTITION_STYLE
 ---
 
@@ -97,3 +98,4 @@ The <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> an
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a>
+

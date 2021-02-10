@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamList.GetStreams
+ - IWMStreamList::GetStreams
 ---
 
 # IWMStreamList::GetStreams
@@ -118,3 +118,4 @@ Stream numbers are in the range of 1 through 63.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList Interface</a>
+

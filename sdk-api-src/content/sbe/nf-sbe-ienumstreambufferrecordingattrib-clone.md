@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IEnumStreamBufferRecordingAttrib.Clone
+ - IEnumStreamBufferRecordingAttrib::Clone
 ---
 
 # IEnumStreamBufferRecordingAttrib::Clone
@@ -105,3 +105,4 @@ NULL pointer argument.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib Interface</a>
+

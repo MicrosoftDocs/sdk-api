@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _MSV1_0_SUBAUTH_LOGON
+ - PMSV1_0_SUBAUTH_LOGON
  - MSV1_0_SUBAUTH_LOGON
 ---
 
@@ -225,3 +227,4 @@ Contains the subauthentication package identifier. This value is set by the suba
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>
+

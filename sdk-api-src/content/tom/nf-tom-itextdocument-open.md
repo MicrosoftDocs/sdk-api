@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument.Open
+ - ITextDocument::Open
 ---
 
 # ITextDocument::Open
@@ -291,3 +291,4 @@ if(hr == STG_E_FILENOTFOUND)
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

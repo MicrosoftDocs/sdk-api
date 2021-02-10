@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - ntsecpkg
  - ntsecpkg/ntsecpkg
+api_name:
+ - ntsecpkg
 ---
 
 # Ntsecpkg.h header

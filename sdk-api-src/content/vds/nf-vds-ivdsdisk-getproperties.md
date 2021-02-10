@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk.GetProperties
+ - IVdsDisk::GetProperties
 ---
 
 # IVdsDisk::GetProperties
@@ -108,3 +108,4 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>
+

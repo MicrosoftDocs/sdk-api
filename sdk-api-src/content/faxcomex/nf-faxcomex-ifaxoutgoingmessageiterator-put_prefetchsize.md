@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessageIterator.PrefetchSize
- - IFaxOutgoingMessageIterator.get_PrefetchSize
- - IFaxOutgoingMessageIterator.put_PrefetchSize
- - IFaxOutgoingMessageIterator.get_PrefetchSize
- - IFaxOutgoingMessageIterator.put_PrefetchSize
+ - IFaxOutgoingMessageIterator::put_PrefetchSize
 ---
 
 # IFaxOutgoingMessageIterator::put_PrefetchSize
@@ -75,3 +71,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ldefault-prefetch-size">lDEFAULT_PREFETCH_SIZE</a>
+

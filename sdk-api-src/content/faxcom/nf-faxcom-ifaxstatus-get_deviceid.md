@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.DeviceId
- - IFaxStatus.get_DeviceId
+ - IFaxStatus::get_DeviceId
 ---
 
 # IFaxStatus::get_DeviceId
@@ -80,3 +79,4 @@ It is possible for multiple fax ports to have the same user-friendly name. You c
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.FilePropertyNames
- - IFsrmPropertyBag.get_FilePropertyNames
+ - IFsrmPropertyBag::get_FilePropertyNames
 ---
 
 # IFsrmPropertyBag::get_FilePropertyNames
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-setfileproperty">IFsrmPropertyBag::SetFileProperty</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProviderEx.GetProviderCapabilities
+ - IVssHardwareSnapshotProviderEx::GetProviderCapabilities
 ---
 
 # IVssHardwareSnapshotProviderEx::GetProviderCapabilities

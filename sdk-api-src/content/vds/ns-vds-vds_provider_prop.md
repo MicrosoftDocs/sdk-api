@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_PROVIDER_PROP
  - VDS_PROVIDER_PROP
 ---
 
@@ -127,3 +128,4 @@ The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getpropertie
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>
+

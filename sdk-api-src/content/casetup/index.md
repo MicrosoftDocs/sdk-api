@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - casetup
  - casetup/casetup
+api_name:
+ - casetup
 ---
 
 # Casetup.h header

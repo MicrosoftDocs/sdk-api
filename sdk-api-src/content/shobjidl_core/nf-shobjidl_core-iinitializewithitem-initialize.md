@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IInitializeWithItem.Initialize
+ - IInitializeWithItem::Initialize
 ---
 
 # IInitializeWithItem::Initialize
@@ -89,3 +89,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 If the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> cannot be accessed, this method returns an appropriate error code.
 
 A handler instance should be initialized only once in its lifetime. Attempts by the calling application to reinitialize the handler result in the error <code>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</code>.
+

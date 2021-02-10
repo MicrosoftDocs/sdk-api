@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISelectionItemProvider.AddToSelection
+ - ISelectionItemProvider::AddToSelection
 ---
 
 # ISelectionItemProvider::AddToSelection
@@ -77,3 +77,4 @@ If the result of a call to <b>ISelectionItemProvider::AddToSelection</b> is that
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

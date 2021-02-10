@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMPackage1.WriteToFile1
+ - IXpsOMPackage1::WriteToFile1
 ---
 
 # IXpsOMPackage1::WriteToFile1
@@ -108,3 +108,4 @@ The caller must ensure that all image resources in the package are supported by 
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsompackage1">IXpsOMPackage1</a>
+

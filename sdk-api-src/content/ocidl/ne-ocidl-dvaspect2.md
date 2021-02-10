@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagDVASPECT2
  - DVASPECT2
 ---
 
@@ -125,3 +126,4 @@ Even when DVASPECT_OPAQUE and DVASPECT_TRANSPARENT are supported, the container 
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>
+

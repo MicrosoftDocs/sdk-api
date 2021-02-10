@@ -9,6 +9,8 @@ tech.root: appxpkg
 f1_keywords:
  - appxpackaging
  - appxpackaging/appxpackaging
+api_name:
+ - appxpackaging
 ---
 
 # Appxpackaging.h header

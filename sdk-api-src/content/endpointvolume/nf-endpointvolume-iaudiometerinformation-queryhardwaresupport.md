@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioMeterInformation.QueryHardwareSupport
+ - IAudioMeterInformation::QueryHardwareSupport
 ---
 
 # IAudioMeterInformation::QueryHardwareSupport
@@ -94,3 +94,4 @@ The system automatically substitutes a software implementation for any function 
 ## -see-also
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudiometerinformation">IAudioMeterInformation Interface</a>
+

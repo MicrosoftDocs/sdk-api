@@ -42,7 +42,6 @@ api_type:
 api_location:
  - Prsht.h
 api_name:
- - AddPropSheetPageProc
  - LPFNADDPROPSHEETPAGE
 ---
 
@@ -82,3 +81,4 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 <div class="alert"><b>Note</b>  This function is not supported when using the Aero wizard style (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
+

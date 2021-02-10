@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_FAULT_REASON
  - WS_FAULT_REASON
 ---
 

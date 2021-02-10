@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfMouseTrackerACP.UnadviseMouseSink
+ - ITfMouseTrackerACP::UnadviseMouseSink
 ---
 
 # ITfMouseTrackerACP::UnadviseMouseSink
@@ -108,3 +108,4 @@ The application must release the <a href="/windows/desktop/api/msctf/nn-msctf-it
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
       </a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMTVASYNCDRAW
  - NMTVASYNCDRAW
 ---
 
@@ -136,3 +137,4 @@ Do not draw an image.
 Type: <b>int</b>
 
 Index of the image to draw in the image list. Used if ADRF_DRAWIMAGE is returned in <b>dwRetFlags</b>.
+

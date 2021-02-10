@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITTerminalSupport.EnumerateStaticTerminals
+ - ITTerminalSupport::EnumerateStaticTerminals
 ---
 
 # ITTerminalSupport::EnumerateStaticTerminals
@@ -126,3 +126,4 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
+

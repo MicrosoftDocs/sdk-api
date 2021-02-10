@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IContinueCallback.FContinuePrinting
+ - IContinueCallback::FContinuePrinting
 ---
 
 # IContinueCallback::FContinuePrinting
@@ -110,3 +110,4 @@ Implementations of <a href="/windows/desktop/api/docobj/nf-docobj-iprint-print">
 
 
 <a href="/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>
+

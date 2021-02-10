@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectUser.put_IPPhonePrimary
+ - ITDirectoryObjectUser::put_IPPhonePrimary
 ---
 
 # ITDirectoryObjectUser::put_IPPhonePrimary
@@ -114,3 +114,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-get_ipphoneprimary">ITDirectoryObjectUser::get_IPPhonePrimary</a>
+

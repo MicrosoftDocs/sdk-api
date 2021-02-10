@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_BOOL_TEXT
  - WS_XML_BOOL_TEXT
 ---
 
@@ -63,3 +64,4 @@ The base type for all types that derive from <a href="/windows/desktop/api/webse
 ### -field value
 
 The Boolean value.  0 represents the text "false", while 1 represents the text "true".
+

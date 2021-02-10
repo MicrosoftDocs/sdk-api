@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ObjectCloseAuditAlarmA
  - winbase/ObjectCloseAuditAlarmA
+ - ObjectCloseAuditAlarm
+ - winbase/ObjectCloseAuditAlarm
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ObjectCloseAuditAlarm
  - ObjectCloseAuditAlarmA
- - ObjectCloseAuditAlarmW
+ - ObjectCloseAuditAlarm
 ---
 
 # ObjectCloseAuditAlarmA function
@@ -109,3 +110,4 @@ The <b>ObjectCloseAuditAlarm</b> function requires the calling application to ha
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-objectprivilegeauditalarma">ObjectPrivilegeAuditAlarm</a>
+

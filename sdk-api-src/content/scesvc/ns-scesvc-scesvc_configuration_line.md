@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Scesvc.h
 api_name:
+ - _SCESVC_CONFIGURATION_LINE_
+ - PSCESVC_CONFIGURATION_LINE
  - SCESVC_CONFIGURATION_LINE
 ---
 

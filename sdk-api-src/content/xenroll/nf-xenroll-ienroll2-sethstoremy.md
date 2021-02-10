@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.SetHStoreMy
- - IEnroll2.SetHStoreMy
+ - IEnroll2::SetHStoreMy
 ---
 
 # IEnroll2::SetHStoreMy
@@ -72,3 +71,4 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
+

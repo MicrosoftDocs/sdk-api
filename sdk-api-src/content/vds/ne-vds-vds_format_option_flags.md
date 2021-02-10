@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_FORMAT_OPTION_FLAGS
  - VDS_FORMAT_OPTION_FLAGS
 ---
 
@@ -86,3 +87,4 @@ Forces duplication of metadata for UDF 2.5 and above.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf2-formatpartitionex2">IVdsDiskPartitionMF2::FormatPartitionEx2</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice3.GetFormatCapability
+ - IMDSPDevice3::GetFormatCapability
 ---
 
 # IMDSPDevice3::GetFormatCapability
@@ -114,3 +114,4 @@ For a particular format, this method should return all configurations of support
 
 
 <a href="/windows/desktop/WMDM/wmdm-prop-values-range">WMDM_PROP_VALUES_RANGE</a>
+

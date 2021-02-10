@@ -43,7 +43,7 @@ api_location:
  - dxgi.lib
  - dxgi.dll
 api_name:
- - IDXGISwapChain2.SetMatrixTransform
+ - IDXGISwapChain2::SetMatrixTransform
 ---
 
 ## -description
@@ -73,3 +73,4 @@ The transform matrix to use for swap chain scaling and translation. This functio
 <a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmatrixtransform">GetMatrixTransform</a>
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
+

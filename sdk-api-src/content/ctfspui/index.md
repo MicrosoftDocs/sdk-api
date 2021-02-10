@@ -9,6 +9,8 @@ tech.root: tsf
 f1_keywords:
  - ctfspui
  - ctfspui/ctfspui
+api_name:
+ - ctfspui
 ---
 
 # Ctfspui.h header

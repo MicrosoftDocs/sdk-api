@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetTextExtentPoint32W
  - wingdi/GetTextExtentPoint32W
+ - GetTextExtentPoint32
+ - wingdi/GetTextExtentPoint32
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetTextExtentPoint32
- - GetTextExtentPoint32A
  - GetTextExtentPoint32W
+ - GetTextExtentPoint32
 ---
 
 # GetTextExtentPoint32W function
@@ -137,3 +138,4 @@ For an example, see <a href="/windows/desktop/gdi/drawing-text-from-different-fo
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-settextjustification">SetTextJustification</a>
+

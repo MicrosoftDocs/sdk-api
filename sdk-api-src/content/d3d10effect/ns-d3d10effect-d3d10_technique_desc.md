@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d10effect.h
 api_name:
+ - _D3D10_TECHNIQUE_DESC
  - D3D10_TECHNIQUE_DESC
 ---
 
@@ -81,3 +82,4 @@ To get a technique, call <a href="/windows/desktop/api/d3d10effect/nf-d3d10effec
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-effect-structures">Effect Structures (Direct3D 10)</a>
+

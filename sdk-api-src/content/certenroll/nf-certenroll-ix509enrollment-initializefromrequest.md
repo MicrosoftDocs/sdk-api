@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment.InitializeFromRequest
+ - IX509Enrollment::InitializeFromRequest
 ---
 
 # IX509Enrollment::InitializeFromRequest
@@ -115,3 +115,4 @@ The <b>InitializeFromRequest</b>  method:
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
+

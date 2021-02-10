@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoMemoryConfiguration.SetSurfaceType
+ - IDirectXVideoMemoryConfiguration::SetSurfaceType
 ---
 
 # IDirectXVideoMemoryConfiguration::SetSurfaceType
@@ -106,3 +106,4 @@ The only way to undo the setting is to break the pin connection.
 
 
 <a href="/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>
+

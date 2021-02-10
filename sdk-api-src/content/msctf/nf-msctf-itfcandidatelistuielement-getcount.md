@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfCandidateListUIElement.GetCount
+ - ITfCandidateListUIElement::GetCount
 ---
 
 # ITfCandidateListUIElement::GetCount

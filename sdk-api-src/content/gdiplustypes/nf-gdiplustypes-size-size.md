@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Size.Size
+ - Size::Size
 ---
 
 # Size::Size
@@ -62,3 +62,4 @@ Creates a new <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">S
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>
+

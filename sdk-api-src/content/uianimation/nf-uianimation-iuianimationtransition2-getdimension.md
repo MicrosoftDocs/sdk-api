@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.GetDimension
+ - IUIAnimationTransition2::GetDimension
 ---
 
 # IUIAnimationTransition2::GetDimension
@@ -65,3 +65,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a>
+

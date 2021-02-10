@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetSubProperties
+ - ID2D1Properties::GetSubProperties
 ---
 
 # ID2D1Properties::GetSubProperties
@@ -95,3 +95,4 @@ If there are no sub-properties, <i>subProperties</i> will be <b>NULL</b>, and <b
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+

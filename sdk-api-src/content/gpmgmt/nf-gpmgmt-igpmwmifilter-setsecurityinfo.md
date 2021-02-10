@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMWMIFilter.SetSecurityInfo
- - GPMWMIFilter.SetSecurityInfo
+ - IGPMWMIFilter::SetSecurityInfo
 ---
 
 ## -description
@@ -85,3 +84,4 @@ You should understand these considerations before changing permissions on WMI fi
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
+

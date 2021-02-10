@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapLock.GetStride
+ - IWICBitmapLock::GetStride
 ---
 
 # IWICBitmapLock::GetStride
@@ -68,3 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Note the <a href="https://docs.microsoft.com/">stride</a> value is specific to the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>, not the bitmap. 
             For example, two consecutive locks on the same rectangle of a bitmap may return different pointers and stride values, depending on internal implementation.
+

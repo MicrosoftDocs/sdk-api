@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.Conclude
+ - IUIAnimationStoryboard::Conclude
 ---
 
 # IUIAnimationStoryboard::Conclude
@@ -81,3 +81,4 @@ If this method is called  at the end  of a keyframe loop iteration, the loop is 
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-schedule">IUIAnimationStoryboard::Schedule</a>
+

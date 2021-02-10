@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.Delete
+ - IPortableDeviceContent::Delete
 ---
 
 # IPortableDeviceContent::Delete
@@ -189,3 +189,4 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
+

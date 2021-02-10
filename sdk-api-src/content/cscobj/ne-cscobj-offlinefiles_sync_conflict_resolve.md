@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE
  - OFFLINEFILES_SYNC_CONFLICT_RESOLVE
 ---
 
@@ -116,3 +117,4 @@ Cancel the synchronization operation.
 
 
 <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a>
+

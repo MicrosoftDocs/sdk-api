@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntddpsch.h
 api_name:
+ - _PS_FLOW_STATS
+ - PPS_FLOW_STATS
  - PS_FLOW_STATS
 ---
 
@@ -88,3 +90,4 @@ Number of bytes that have been transmitted on the flow.
 
 
 <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
+

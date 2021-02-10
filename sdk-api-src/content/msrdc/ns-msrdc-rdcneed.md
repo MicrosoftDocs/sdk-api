@@ -44,6 +44,7 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
+ - __MIDL___MIDL_itf_msrdc_0000_0000_0004
  - RdcNeed
 ---
 
@@ -80,3 +81,4 @@ Length, in bytes, of the chunk of data that is to be copied to the target data.
 
 
 <a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
+

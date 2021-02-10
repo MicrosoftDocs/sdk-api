@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMCOLOR.XMCOLOR
+ - XMCOLOR::XMCOLOR
 ---
 
 # XMCOLOR::XMCOLOR(const float)
@@ -98,3 +98,4 @@ instance.v =  ( (uint32_t)_a1 << 24) |
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 <a href="/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
+

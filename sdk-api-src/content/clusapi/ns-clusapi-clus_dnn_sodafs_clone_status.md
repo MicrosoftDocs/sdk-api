@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_DNN_SODAFS_CLONE_STATUS
+ - PCLUS_DNN_SODAFS_CLONE_STATUS
 ---
 
 # CLUS_DNN_SODAFS_CLONE_STATUS structure
@@ -71,3 +72,4 @@ A <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_res
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

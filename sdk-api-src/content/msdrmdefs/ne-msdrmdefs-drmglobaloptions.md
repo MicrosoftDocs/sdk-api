@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
+ - _DRMGLOBALOPTIONS
  - DRMGLOBALOPTIONS
 ---
 
@@ -81,3 +82,4 @@ WinINet cannot be used under the network service account. If an application will
 
 
 <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetglobaloptions">DRMSetGlobalOptions</a>
+

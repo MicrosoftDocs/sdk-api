@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.GetStyluses
+ - IRealTimeStylus::GetStyluses
 ---
 
 # IRealTimeStylus::GetStyluses
@@ -117,3 +117,4 @@ if (SUCCEEDED(g_pRealTimeStylus->GetStyluses(&piInkCursors)))
 
 
 <b>RealTimeStylus Class</b>
+

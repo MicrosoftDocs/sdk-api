@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2.WriteSection
+ - IWriteEngine2::WriteSection
 ---
 
 # IWriteEngine2::WriteSection
@@ -171,3 +171,4 @@ This method is synchronous. To determine the progress of the write operation, yo
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_startlba">IWriteEngine2EventArgs::get_StartLba</a>
+

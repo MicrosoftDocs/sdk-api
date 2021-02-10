@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator.HasCurve
+ - GraphicsPathIterator::HasCurve
 ---
 
 # GraphicsPathIterator::HasCurve
@@ -100,3 +100,4 @@ Certain methods flatten a path, which means that all the curves in the path are 
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">Widen</a>
+

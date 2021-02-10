@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_WRITER_OUTPUT
  - WS_XML_WRITER_OUTPUT
 ---
 

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Docobj.h
 api_name:
+ - tagPAGESET
  - PAGESET
 ---
 
@@ -79,3 +80,4 @@ Pointer to an array of <a href="/windows/desktop/api/docobj/ns-docobj-pagerange"
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/ns-docobj-pagerange">PAGERANGE</a>
+

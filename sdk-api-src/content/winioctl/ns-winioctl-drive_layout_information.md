@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DRIVE_LAYOUT_INFORMATION
+ - PDRIVE_LAYOUT_INFORMATION
  - DRIVE_LAYOUT_INFORMATION
 ---
 

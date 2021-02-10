@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetLastInputTime
+ - IWTSProtocolConnection::GetLastInputTime
 ---
 
 # IWTSProtocolConnection::GetLastInputTime
@@ -63,3 +63,4 @@ An integer that contains the elapsed time, in milliseconds.
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

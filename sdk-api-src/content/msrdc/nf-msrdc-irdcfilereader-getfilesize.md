@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcFileReader.GetFileSize
+ - IRdcFileReader::GetFileSize
 ---
 
 # IRdcFileReader::GetFileSize
@@ -67,3 +67,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>
+

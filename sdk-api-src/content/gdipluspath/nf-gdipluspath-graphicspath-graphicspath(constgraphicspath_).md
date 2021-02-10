@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdipluspath.h
 api_name:
- - GraphicsPath.GraphicsPath
+ - GraphicsPath::GraphicsPath
 ---
 
 # GraphicsPath::GraphicsPath(const GraphicsPath &)
@@ -87,3 +87,4 @@ Creates a <a href="/previous-versions/ms535631(v=vs.85)">GraphicsPath::GraphicsP
 </table>
 
 ## -parameters
+

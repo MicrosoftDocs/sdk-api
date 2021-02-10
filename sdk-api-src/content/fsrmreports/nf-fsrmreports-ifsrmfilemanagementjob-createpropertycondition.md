@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.CreatePropertyCondition
+ - IFsrmFileManagementJob::CreatePropertyCondition
 ---
 
 # IFsrmFileManagementJob::CreatePropertyCondition
@@ -87,3 +87,4 @@ To enumerate the collection of property conditions associated with the job, acce
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

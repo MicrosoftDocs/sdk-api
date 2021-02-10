@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStop.GetOffset
+ - IXpsOMGradientStop::GetOffset
 ---
 
 # IXpsOMGradientStop::GetOffset
@@ -106,3 +106,4 @@ The valid range of  values returned in <i>offset</i> is 0.0–1.0. 0.0 is the st
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

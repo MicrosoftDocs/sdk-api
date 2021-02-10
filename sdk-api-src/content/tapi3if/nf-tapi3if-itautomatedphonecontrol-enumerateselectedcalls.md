@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.EnumerateSelectedCalls
+ - ITAutomatedPhoneControl::EnumerateSelectedCalls
 ---
 
 # ITAutomatedPhoneControl::EnumerateSelectedCalls
@@ -81,3 +81,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a>
+

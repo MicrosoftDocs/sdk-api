@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPreviewHandlerVisuals.SetBackgroundColor
+ - IPreviewHandlerVisuals::SetBackgroundColor
 ---
 
 # IPreviewHandlerVisuals::SetBackgroundColor
@@ -70,3 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <div class="alert"><b>Note</b>  These are suggestions. It is not compulsory for this method to be called. The preview handlers must be able to make their own decisions.</div>
 <div> </div>
+

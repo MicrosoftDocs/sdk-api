@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDiskPartitionMF.QueryPartitionFileSystemFormatSupport
+ - IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport
 ---
 
 # IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport
@@ -159,3 +159,4 @@ The operation is not supported on non-OEM partitions.
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_format_support_prop">VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP</a>
+

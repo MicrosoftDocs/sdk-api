@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignaturePartReference.GetPartName
+ - IOpcSignaturePartReference::GetPartName
 ---
 
 # IOpcSignaturePartReference::GetPartName
@@ -130,3 +130,4 @@ The <i>partName</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
+

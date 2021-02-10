@@ -46,6 +46,8 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _SHChangeDWORDAsIDList
+ - LPSHChangeDWORDAsIDList
  - SHChangeDWORDAsIDList
 ---
 
@@ -138,3 +140,4 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a>
+

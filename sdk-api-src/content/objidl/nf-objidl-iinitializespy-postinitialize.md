@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IInitializeSpy.PostInitialize
+ - IInitializeSpy::PostInitialize
 ---
 
 # IInitializeSpy::PostInitialize
@@ -83,3 +83,4 @@ For cases where there are multiple registrations active on this thread, the retu
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>
+

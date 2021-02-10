@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemSink.OnUpdate
+ - ITfLangBarItemSink::OnUpdate
 ---
 
 # ITfLangBarItemSink::OnUpdate
@@ -102,3 +102,4 @@ A language bar item should call this method when the internal state of the item 
 
 
 <a href="/windows/desktop/TSF/tf-lbi--constants">TF_LBI_* Constants</a>
+

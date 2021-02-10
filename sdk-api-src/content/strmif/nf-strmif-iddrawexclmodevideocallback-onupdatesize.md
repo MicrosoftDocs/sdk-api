@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDDrawExclModeVideoCallback.OnUpdateSize
+ - IDDrawExclModeVideoCallback::OnUpdateSize
 ---
 
 # IDDrawExclModeVideoCallback::OnUpdateSize
@@ -86,3 +86,4 @@ This method is called when the size of the rectangle in the video stream changes
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideocallback">IDDrawExclModeVideoCallback Interface</a>
+

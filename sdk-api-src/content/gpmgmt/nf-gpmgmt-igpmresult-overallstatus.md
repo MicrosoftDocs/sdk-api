@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMResult.OverallStatus
- - GPMResult.OverallStatus
+ - IGPMResult::OverallStatus
 ---
 
 # IGPMResult::OverallStatus
@@ -67,3 +66,4 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">IGPMResult</a>
+

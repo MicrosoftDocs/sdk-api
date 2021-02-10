@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_REVOCATION_CRL_INFO
+ - PCERT_REVOCATION_CRL_INFO
  - CERT_REVOCATION_CRL_INFO
 ---
 
@@ -81,3 +83,4 @@ A pointer to a base CRL context.
 ### -field pDeltaCRLContext
 
 A pointer to a delta CRL context.
+

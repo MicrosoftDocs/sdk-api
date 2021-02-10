@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_REFRESHER_FLAGS
  - WBEM_REFRESHER_FLAGS
 ---
 
@@ -71,3 +72,4 @@ If the connection is broken, the refresher does not attempt to reconnect to the 
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemrefresher-refresh">IWbemRefresher::Refresh</a>
+

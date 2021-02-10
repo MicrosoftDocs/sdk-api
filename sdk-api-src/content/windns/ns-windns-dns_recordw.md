@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_RECORD
+ - _DnsRecordW
+ - PDNS_RECORDW
+ - DNS_RECORDW
 ---
 
 # DNS_RECORDW structure
@@ -679,3 +681,4 @@ When building a
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsreplacerecordseta">DnsReplaceRecordSet</a>
+

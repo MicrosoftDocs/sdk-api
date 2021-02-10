@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.RefreshLicense
+ - IWMPContentPartner::RefreshLicense
 ---
 
 # IWMPContentPartner::RefreshLicense
@@ -125,3 +125,4 @@ This method initiates the license update and then returns immediately. When the 
 
 
 <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">IWMPContentPartnerCallback::RefreshLicenseComplete</a>
+

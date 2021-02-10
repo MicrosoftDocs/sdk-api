@@ -46,6 +46,8 @@ api_type:
 api_location:
  - lmjoin.h
 api_name:
+ - _DSREG_JOIN_TYPE
+ - PDSREG_JOIN_TYPE
  - DSREG_JOIN_TYPE
 ---
 

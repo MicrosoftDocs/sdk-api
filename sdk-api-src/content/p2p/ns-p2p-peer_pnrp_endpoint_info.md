@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_pnrp_endpoint_info_tag
+ - PPEER_PNRP_ENDPOINT_INFO
  - PEER_PNRP_ENDPOINT_INFO
 ---
 
@@ -77,3 +79,4 @@ Pointer to a zero-terminated Unicode string that contains a comment for this pee
 ### -field payload
 
 Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a> structure that contains application-specific data for the peer endpoint (such as a message or an image).
+

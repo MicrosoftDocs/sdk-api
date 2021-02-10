@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ws2bth.h
 api_name:
+ - _BTH_QUERY_DEVICE
+ - PBTH_QUERY_DEVICE
  - BTH_QUERY_DEVICE
 ---
 
@@ -80,3 +82,4 @@ See the Bluetooth specification at
 
 
 <a href="/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-device-inquiry">Bluetooth and WSAQUERYSET for Device Inquiry</a>
+

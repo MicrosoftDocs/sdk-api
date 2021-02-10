@@ -9,6 +9,8 @@ tech.root: tapi3
 f1_keywords:
  - tapi3if
  - tapi3if/tapi3if
+api_name:
+ - tapi3if
 ---
 
 # Tapi3If.h header

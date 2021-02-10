@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.MediaCollectionChange
+ - IWMPEvents::MediaCollectionChange
 ---
 
 # IWMPEvents::MediaCollectionChange
@@ -61,3 +61,4 @@ The <b>MediaCollectionChange</b> event occurs when the media collection changes.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

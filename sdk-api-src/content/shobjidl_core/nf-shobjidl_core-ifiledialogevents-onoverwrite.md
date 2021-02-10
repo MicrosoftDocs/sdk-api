@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogEvents.OnOverwrite
+ - IFileDialogEvents::OnOverwrite
 ---
 
 # IFileDialogEvents::OnOverwrite
@@ -81,3 +81,4 @@ The implementer should return E_NOTIMPL if this method is not implemented; S_OK 
 ## -remarks
 
 The <b>FOS_OVERWRITEPROMPT</b> flag must be set through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions">IFileDialog::SetOptions</a> before this method is called.
+

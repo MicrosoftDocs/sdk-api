@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EjectDiskFromSADriveW
  - ntmsapi/EjectDiskFromSADriveW
+ - EjectDiskFromSADrive
+ - ntmsapi/EjectDiskFromSADrive
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - EjectDiskFromSADrive
- - EjectDiskFromSADriveA
  - EjectDiskFromSADriveW
+ - EjectDiskFromSADrive
 ---
 
 # EjectDiskFromSADriveW function
@@ -322,3 +323,4 @@ The
 
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
+

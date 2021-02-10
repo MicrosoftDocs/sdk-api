@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib.SetGuid
+ - ICreateTypeLib::SetGuid
 ---
 
 # ICreateTypeLib::SetGuid
@@ -131,3 +131,4 @@ The state of the type library is not valid for this operation.
 
 
 <a href="/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language">Type Libraries and the Object Description Language</a>
+

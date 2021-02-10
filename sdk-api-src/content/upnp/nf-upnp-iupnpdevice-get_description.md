@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice.get_Description
+ - IUPnPDevice::get_Description
 ---
 
 # IUPnPDevice::get_Description
@@ -70,3 +70,4 @@ This property is optional and <i>pbstr</i> can return <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+

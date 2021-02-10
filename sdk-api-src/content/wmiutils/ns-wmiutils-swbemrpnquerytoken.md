@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmiutils.h
 api_name:
+ - tag_SWbemRpnQueryToken
  - SWbemRpnQueryToken
 ---
 
@@ -341,3 +342,4 @@ Specifies a function on the left of the operator in a WHERE clause. If there is 
 
 
 <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemrpnEncodedQuery</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMovieSetup.Register
+ - IAMovieSetup::Register
 ---
 
 # IAMovieSetup::Register
@@ -71,3 +71,4 @@ This method registers the filter, its pins, and the media type associated with t
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamoviesetup">IAMovieSetup Interface</a>
+

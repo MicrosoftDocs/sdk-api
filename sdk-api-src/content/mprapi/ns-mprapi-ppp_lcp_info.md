@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _PPP_LCP_INFO
  - PPP_LCP_INFO
 ---
 
@@ -336,3 +337,4 @@ Specifies the type identifier of the Extensible Authentication Protocol (EAP) us
 ## -see-also
 
 <a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_ccp_info">PPP_CCP_INFO</a>
+

@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - subauth
  - subauth/subauth
+api_name:
+ - subauth
 ---
 
 # Subauth.h header

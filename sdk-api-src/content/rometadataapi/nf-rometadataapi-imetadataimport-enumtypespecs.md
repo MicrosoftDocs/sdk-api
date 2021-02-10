@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.EnumTypeSpecs
+ - IMetaDataImport::EnumTypeSpecs
 ---
 
 # IMetaDataImport::EnumTypeSpecs
@@ -93,3 +93,4 @@ The number of TypeSpec tokens returned in <i>rgTypeSpecs</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl.GetGroupingParam
+ - IAudioSessionControl::GetGroupingParam
 ---
 
 # IAudioSessionControl::GetGroupingParam
@@ -117,3 +117,4 @@ If a client has never called <a href="/windows/desktop/api/audiopolicy/nf-audiop
 
 
 <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setgroupingparam">IAudioSessionControl::SetGroupingParam</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data.get_CurrentMediaStatus
+ - IDiscFormat2Data::get_CurrentMediaStatus
 ---
 
 # IDiscFormat2Data::get_CurrentMediaStatus
@@ -349,3 +349,4 @@ For an example that uses this property, see <a href="/windows/desktop/imapi/chec
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+

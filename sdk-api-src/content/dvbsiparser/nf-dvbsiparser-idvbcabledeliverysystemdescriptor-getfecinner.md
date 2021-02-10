@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbCableDeliverySystemDescriptor.GetFECInner
+ - IDvbCableDeliverySystemDescriptor::GetFECInner
 ---
 
 # IDvbCableDeliverySystemDescriptor::GetFECInner
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcabledeliverysystemdescriptor">IDvbCableDeliverySystemDescriptor Interface</a>
+

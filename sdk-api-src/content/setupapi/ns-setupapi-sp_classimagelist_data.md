@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_CLASSIMAGELIST_DATA
+ - PSP_CLASSIMAGELIST_DATA
  - SP_CLASSIMAGELIST_DATA
 ---
 
@@ -81,3 +83,4 @@ Reserved. For internal use only.
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelist">SetupDiGetClassImageList</a>
+

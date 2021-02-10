@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mssip.h
 api_name:
+ - SIP_DISPATCH_INFO_
+ - LPSIP_DISPATCH_INFO
  - SIP_DISPATCH_INFO
 ---
 
@@ -109,3 +111,4 @@ Your application must initialize this structure to binary zeros and set <b>cbSiz
 
 
 <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>
+

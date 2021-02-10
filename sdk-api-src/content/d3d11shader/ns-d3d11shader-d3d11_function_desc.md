@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D11Shader.h
 api_name:
+ - _D3D11_FUNCTION_DESC
  - D3D11_FUNCTION_DESC
 ---
 
@@ -261,3 +262,4 @@ Indicates whether there is a Direct3D 10Level9 pixel shader blob. <b>TRUE</b> in
 
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
+

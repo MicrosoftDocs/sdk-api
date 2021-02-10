@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceProxy.BeginGetMetadata
+ - IWSDDeviceProxy::BeginGetMetadata
 ---
 
 # IWSDDeviceProxy::BeginGetMetadata
@@ -125,3 +125,4 @@ BeginGetMetadata will force the device proxy to send a metadata request to the h
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
+

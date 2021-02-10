@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader.GetDpiX
+ - MetafileHeader::GetDpiX
 ---
 
 # MetafileHeader::GetDpiX
@@ -84,3 +84,4 @@ This method returns a real number that indicates the horizontal dots per inch of
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+

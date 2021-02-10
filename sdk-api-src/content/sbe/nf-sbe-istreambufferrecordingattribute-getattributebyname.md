@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecordingAttribute.GetAttributeByName
+ - IStreamBufferRecordingAttribute::GetAttributeByName
 ---
 
 # IStreamBufferRecordingAttribute::GetAttributeByName
@@ -110,3 +110,4 @@ The buffer given in <i>pbAttribute</i> is too small.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordingattribute">IStreamBufferRecordingAttribute Interface</a>
+

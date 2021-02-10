@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmExportImport.ExportFileGroups
- - FsrmExportImport.ExportFileGroups
+ - IFsrmExportImport::ExportFileGroups
 ---
 
 # IFsrmExportImport::ExportFileGroups
@@ -97,3 +96,4 @@ You can also use the
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmexportimport">IFsrmExportImport</a>
+

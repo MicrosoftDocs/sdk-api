@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FaxRoute.h
 api_name:
- - FaxRouteMethod
+ - PFAXROUTEMETHOD
 ---
 
 ## -description
@@ -127,3 +127,4 @@ If you want the fax service to retry a failed routing method at a later time, th
 
 
 <a href="/windows/win32/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a>
+

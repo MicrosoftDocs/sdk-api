@@ -43,8 +43,6 @@ api_location:
  - Qmgr.h
 api_name:
  - IBackgroundCopyCallback1
- - IBackgroundCopyCallback1.OnProgress
- - IBackgroundCopyCallback1.OnProgressEx
 ---
 
 # IBackgroundCopyCallback1 interface

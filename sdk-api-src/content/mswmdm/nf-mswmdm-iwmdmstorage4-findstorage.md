@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage4.FindStorage
+ - IWMDMStorage4::FindStorage
 ---
 
 # IWMDMStorage4::FindStorage
@@ -105,3 +105,4 @@ The format of the persistent unique identifier depends on the device. The applic
 
 
 <a href="/windows/desktop/WMDM/wmdm-find-scope">WMDM_FIND_SCOPE</a>
+

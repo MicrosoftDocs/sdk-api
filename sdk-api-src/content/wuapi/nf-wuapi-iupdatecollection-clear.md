@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateCollection.Clear
+ - IUpdateCollection::Clear
 ---
 
 # IUpdateCollection::Clear
@@ -81,3 +81,4 @@ The collection is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
+

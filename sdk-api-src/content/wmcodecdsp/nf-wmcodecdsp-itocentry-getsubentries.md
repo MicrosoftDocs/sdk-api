@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocEntry.GetSubEntries
+ - ITocEntry::GetSubEntries
 ---
 
 # ITocEntry::GetSubEntries
@@ -102,3 +102,4 @@ The method returns this error code if <i>pwSubEntryIndices</i> is not <b>NULL</b
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>
+

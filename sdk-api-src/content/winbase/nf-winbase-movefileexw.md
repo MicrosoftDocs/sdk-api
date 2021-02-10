@@ -34,6 +34,8 @@ ms.custom: 19H1
 f1_keywords:
  - MoveFileExW
  - winbase/MoveFileExW
+ - MoveFileEx
+ - winbase/MoveFileEx
 topic_type:
  - APIRef
  - kbSyntax
@@ -55,9 +57,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - MoveFileEx
- - MoveFileExA
  - MoveFileExW
+ - MoveFileEx
 ---
 
 # MoveFileExW function
@@ -403,3 +404,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
+

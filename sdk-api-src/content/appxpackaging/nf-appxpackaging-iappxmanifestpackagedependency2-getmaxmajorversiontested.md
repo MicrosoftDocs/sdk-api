@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageDependency2.GetMaxMajorVersionTested
+ - IAppxManifestPackageDependency2::GetMaxMajorVersionTested
 ---
 
 # IAppxManifestPackageDependency2::GetMaxMajorVersionTested
@@ -76,3 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency2">IAppxManifestPackageDependency2</a>
+

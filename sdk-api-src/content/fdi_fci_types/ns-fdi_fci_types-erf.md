@@ -42,7 +42,7 @@ api_type:
 api_location:
  - fdi_fci_types.h
 api_name:
- - ERF FAR *PERF
+ - ERF
 ---
 
 # ERF structure
@@ -338,3 +338,4 @@ A flag that indicates an error. If <b>TRUE</b>, an error is present.
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/extract">Extract</a>
+

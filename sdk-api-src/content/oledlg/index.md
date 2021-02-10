@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - oledlg
  - oledlg/oledlg
+api_name:
+ - oledlg
 ---
 
 # Oledlg.h header

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
+ - _PROVIDER_CONTEXT
+ - PPERF_PROVIDER_CONTEXT
  - PERF_PROVIDER_CONTEXT
 ---
 
@@ -89,3 +91,4 @@ By default, PERFLIB uses process heap. The memory allocation and free routines l
 ## -see-also
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfstartproviderex">PerfStartProviderEx</a>
+

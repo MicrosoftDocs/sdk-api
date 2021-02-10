@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - CHARFORMAT2
+ - _charformat2a
  - CHARFORMAT2A
- - CHARFORMAT2W
 ---
 
 # CHARFORMAT2A structure
@@ -1215,3 +1214,4 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+

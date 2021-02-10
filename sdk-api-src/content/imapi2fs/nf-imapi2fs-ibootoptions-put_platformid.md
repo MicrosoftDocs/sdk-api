@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IBootOptions.put_PlatformId
+ - IBootOptions::put_PlatformId
 ---
 
 # IBootOptions::put_PlatformId
@@ -69,3 +69,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_platformid">IBootOptions::get_PlatformId</a>
+

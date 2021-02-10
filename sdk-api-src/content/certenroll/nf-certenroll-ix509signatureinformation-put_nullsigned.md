@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509SignatureInformation.NullSigned
- - IX509SignatureInformation.get_NullSigned
- - IX509SignatureInformation.put_NullSigned
+ - IX509SignatureInformation::put_NullSigned
 ---
 
 # IX509SignatureInformation::put_NullSigned
@@ -65,3 +63,4 @@ A null-signed certificate request is not really signed. That is, the request can
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

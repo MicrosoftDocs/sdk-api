@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMLogger.LogDword
+ - IWMDMLogger::LogDword
 ---
 
 # IWMDMLogger::LogDword
@@ -114,3 +114,4 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger">IWMDMLogger Interface</a>
+

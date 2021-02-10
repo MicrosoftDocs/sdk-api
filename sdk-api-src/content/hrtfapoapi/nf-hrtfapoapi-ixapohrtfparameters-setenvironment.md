@@ -42,7 +42,7 @@ api_type:
 api_location:
  - HrtfApo.dll
 api_name:
- - IXAPOHrtfParameters.SetEnvironment
+ - IXAPOHrtfParameters::SetEnvironment
 ---
 
 # IXAPOHrtfParameters::SetEnvironment
@@ -69,3 +69,4 @@ The environment represents distance-cue params.
 ## -see-also
 
 <a href="/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
+

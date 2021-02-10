@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayerApplication.get_playerDocked
+ - IWMPPlayerApplication::get_playerDocked
 ---
 
 # IWMPPlayerApplication::get_playerDocked
@@ -93,3 +93,4 @@ This method is used only when remoting the Windows Media Player control.
 
 
 <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
+

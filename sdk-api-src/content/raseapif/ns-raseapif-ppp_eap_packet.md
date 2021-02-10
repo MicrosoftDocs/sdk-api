@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Raseapif.h
 api_name:
+ - _PPP_EAP_PACKET
+ - PPPP_EAP_PACKET
  - PPP_EAP_PACKET
 ---
 
@@ -152,3 +154,4 @@ Specifies the data transmitted by this packet. If the packet is a request or a r
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
+

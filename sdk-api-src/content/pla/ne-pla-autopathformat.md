@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Pla.h
 api_name:
+ - __MIDL___MIDL_itf_pla_0001_0043_0003
  - AutoPathFormat
 ---
 
@@ -109,3 +110,4 @@ For details on patterns, see the Remarks section of <a href="/previous-versions/
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a>
+

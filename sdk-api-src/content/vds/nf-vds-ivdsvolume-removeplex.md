@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume.RemovePlex
+ - IVdsVolume::RemovePlex
 ---
 
 # IVdsVolume::RemovePlex
@@ -137,3 +137,4 @@ Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsvolume-delete">IVdsVolume::Delete</a>
+

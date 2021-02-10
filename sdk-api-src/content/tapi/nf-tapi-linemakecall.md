@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineMakeCall
- - lineMakeCallA
- - lineMakeCallW
 ---
 
 # lineMakeCall function
@@ -158,3 +156,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
+

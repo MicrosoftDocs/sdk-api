@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.RemoveAllEffects
+ - IMFPMediaPlayer::RemoveAllEffects
 ---
 
 # IMFPMediaPlayer::RemoveAllEffects
@@ -77,3 +77,4 @@ The change applies to the next media item that is set on the player. The effects
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IAttachmentExecute.Save
+ - IAttachmentExecute::Save
 ---
 
 # IAttachmentExecute::Save
@@ -77,3 +77,4 @@ Before calling <b>IAttachmentExecute::Save</b>, you must call <a href="/windows/
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-savewithui">IAttachmentExecute::SaveWithUI</a>
+

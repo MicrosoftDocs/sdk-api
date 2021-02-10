@@ -9,6 +9,8 @@ tech.root: direct3ddxgi
 f1_keywords:
  - dxgiformat
  - dxgiformat/dxgiformat
+api_name:
+ - dxgiformat
 ---
 
 # Dxgiformat.h header

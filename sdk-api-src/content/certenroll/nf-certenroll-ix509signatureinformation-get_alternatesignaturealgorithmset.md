@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509SignatureInformation.AlternateSignatureAlgorithmSet
- - IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
+ - IX509SignatureInformation::get_AlternateSignatureAlgorithmSet
 ---
 
 # IX509SignatureInformation::get_AlternateSignatureAlgorithmSet
@@ -68,3 +67,4 @@ The <b>AlternateSignatureAlgorithmSet</b> property is used by a CMC certificate 
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

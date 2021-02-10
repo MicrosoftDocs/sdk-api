@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - IEnumDirectoryObject.Reset
+ - IEnumDirectoryObject::Reset
 ---
 
 # IEnumDirectoryObject::Reset
@@ -83,3 +83,4 @@ Method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-ienumdirectoryobject">IEnumDirectoryObject</a>
+

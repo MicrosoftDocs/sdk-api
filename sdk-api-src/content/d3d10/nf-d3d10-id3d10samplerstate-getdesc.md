@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10SamplerState.GetDesc
+ - ID3D10SamplerState::GetDesc
 ---
 
 # ID3D10SamplerState::GetDesc
@@ -64,3 +64,4 @@ A pointer to the sampler state (see <a href="/windows/desktop/api/d3d10/ns-d3d10
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState Interface</a>
+

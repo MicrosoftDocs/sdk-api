@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
+ - PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
  - CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
 ---
 
@@ -136,3 +138,4 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_ke
 ## -remarks
 
 If <b>dwSignerType</b> is CMSG_VERIFY_SIGNER_NULL, the signature is expected to contain only the unencrypted hash octets.
+

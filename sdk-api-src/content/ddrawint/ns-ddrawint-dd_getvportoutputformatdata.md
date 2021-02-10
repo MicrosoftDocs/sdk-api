@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_GETVPORTOUTPUTFORMATDATA
+ - PDD_GETVPORTOUTPUTFORMATDATA
  - DD_GETVPORTOUTPUTFORMATDATA
 ---
 
@@ -120,3 +122,4 @@ Unused: Win95 compatibility
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getoutputformats">DdVideoPortGetOutputFormats</a>
+

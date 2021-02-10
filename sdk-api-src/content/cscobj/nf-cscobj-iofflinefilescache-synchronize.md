@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.Synchronize
+ - IOfflineFilesCache::Synchronize
 ---
 
 # IOfflineFilesCache::Synchronize
@@ -346,3 +346,4 @@ If the calling code also listens for published sync events, the Sync ID may be s
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfileitem-issparse">IOfflineFilesFileItem::IsSparse</a>
+

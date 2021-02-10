@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObject.get_Name
+ - ITDirectoryObject::get_Name
 ---
 
 # ITDirectoryObject::get_Name
@@ -118,3 +118,4 @@ The application must use
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_name">ITDirectoryObject::put_Name</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAsync.Cancel
+ - IVdsAsync::Cancel
 ---
 
 # IVdsAsync::Cancel
@@ -151,3 +151,4 @@ Dynamic providers do not implement this method. The basic provider checks for th
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
+

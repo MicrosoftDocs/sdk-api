@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmRule.LastModified
- - IFsrmRule.get_LastModified
+ - IFsrmRule::get_LastModified
 ---
 
 # IFsrmRule::get_LastModified
@@ -66,3 +65,4 @@ The last-modified time is used by FSRM to determine whether the rule needs to be
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
+

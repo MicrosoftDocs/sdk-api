@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.dll
 api_name:
- - IMFTimedTextCue.GetOriginalId
+ - IMFTimedTextCue::GetOriginalId
 ---
 
 # IMFTimedTextCue::GetOriginalId
@@ -77,3 +77,4 @@ This method retrieves an identifier for the cue that is included in the source d
 
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>
+

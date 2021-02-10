@@ -46,8 +46,9 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
- - SP_DRVINFO_DETAIL_DATA
- - sp_drvinfo_detail_data_w
+ - _SP_DRVINFO_DETAIL_DATA_W
+ - PSP_DRVINFO_DETAIL_DATA_W
+ - SP_DRVINFO_DETAIL_DATA_W
 ---
 
 # SP_DRVINFO_DETAIL_DATA_W structure
@@ -188,3 +189,4 @@ if (CompatIDsLength > 0)
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinfodetaila">SetupDiGetDriverInfoDetail</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRCREATEDIBPATTERNBRUSHPT
+ - PEMRCREATEDIBPATTERNBRUSHPT
  - EMRCREATEDIBPATTERNBRUSHPT
 ---
 
@@ -105,3 +107,4 @@ Size of bitmap bits.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.EnumerateRoots
+ - ISearchCrawlScopeManager::EnumerateRoots
 ---
 
 # ISearchCrawlScopeManager::EnumerateRoots
@@ -71,3 +71,4 @@ Returns S_OK if successful, S_FALSE if there are no roots to enumerate, or an er
 <i>ppSearchRoots</i> is set to <b>NULL</b> if there are no roots to enumerate.
 
 <b>Windows 7 and later</b>: Check out the <a href="/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+

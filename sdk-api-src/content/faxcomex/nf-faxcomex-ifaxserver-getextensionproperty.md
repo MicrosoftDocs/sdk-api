@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.GetExtensionProperty
- - IFaxServer.GetExtensionProperty
+ - IFaxServer::GetExtensionProperty
 ---
 
 ## -description
@@ -87,3 +86,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-extension-configuration-properties">Visual Basic Example</a>
+

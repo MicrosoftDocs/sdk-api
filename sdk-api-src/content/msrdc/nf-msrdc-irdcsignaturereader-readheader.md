@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcSignatureReader.ReadHeader
+ - IRdcSignatureReader::ReadHeader
 ---
 
 # IRdcSignatureReader::ReadHeader
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a>
+

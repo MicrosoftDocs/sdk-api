@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
+ - _COMMTIMEOUTS
+ - LPCOMMTIMEOUTS
  - COMMTIMEOUTS
 ---
 
@@ -145,3 +147,4 @@ If an application sets <b>ReadIntervalTimeout</b> and
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
+

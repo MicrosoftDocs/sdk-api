@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.GetWriterMetadataCount
+ - IVssBackupComponents::GetWriterMetadataCount
 ---
 
 # IVssBackupComponents::GetWriterMetadataCount
@@ -142,3 +142,4 @@ The number of writers returned by
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
+

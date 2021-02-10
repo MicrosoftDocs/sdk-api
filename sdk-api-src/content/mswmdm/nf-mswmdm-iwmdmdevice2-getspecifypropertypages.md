@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice2.GetSpecifyPropertyPages
+ - IWMDMDevice2::GetSpecifyPropertyPages
 ---
 
 # IWMDMDevice2::GetSpecifyPropertyPages
@@ -81,3 +81,4 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
+

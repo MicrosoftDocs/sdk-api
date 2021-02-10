@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSpreadsheetPattern.GetItemByName
+ - IUIAutomationSpreadsheetPattern::GetItemByName
 ---
 
 # IUIAutomationSpreadsheetPattern::GetItemByName
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationspreadsheetpattern">IUIAutomationSpreadsheetPattern</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWMComponent.GetDependency
+ - IVssWMComponent::GetDependency
 ---
 
 # IVssWMComponent::GetDependency
@@ -169,3 +169,4 @@ The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-un
 
 
 <a href="/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a>
+

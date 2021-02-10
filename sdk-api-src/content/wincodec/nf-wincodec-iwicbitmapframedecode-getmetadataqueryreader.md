@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameDecode.GetMetadataQueryReader
+ - IWICBitmapFrameDecode::GetMetadataQueryReader
 ---
 
 # IWICBitmapFrameDecode::GetMetadataQueryReader
@@ -89,3 +89,4 @@ For image formats with one frame (JPG, PNG, JPEG-XR), the frame-level query read
 
 
 <a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
+

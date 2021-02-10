@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_WOW_CLIENT_DLL
+ - PSECPKG_WOW_CLIENT_DLL
  - SECPKG_WOW_CLIENT_DLL
 ---
 
@@ -65,3 +67,4 @@ This structure is used by the
 ### -field WowClientDllPath
 
 A <a href="/windows/desktop/api/sspi/ns-sspi-security_string">SECURITY_STRING</a> that contain the path to the WOW-aware client 32-bit library.
+

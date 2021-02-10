@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IEnumDot11AdHocNetworks.Skip
+ - IEnumDot11AdHocNetworks::Skip
 ---
 
 # IEnumDot11AdHocNetworks::Skip
@@ -94,3 +94,4 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>
+

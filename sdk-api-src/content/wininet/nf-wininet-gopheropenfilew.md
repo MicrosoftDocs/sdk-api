@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GopherOpenFileW
  - wininet/GopherOpenFileW
+ - GopherOpenFile
+ - wininet/GopherOpenFile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - GopherOpenFile
- - GopherOpenFileA
  - GopherOpenFileW
+ - GopherOpenFile
 ---
 
 # GopherOpenFileW function
@@ -175,3 +176,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 ## -see-also
 
 <a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
+

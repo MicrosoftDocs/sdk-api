@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsControllerPort.GetProperties
+ - IVdsControllerPort::GetProperties
 ---
 
 # IVdsControllerPort::GetProperties
@@ -134,3 +134,4 @@ The controller port object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_port_prop">VDS_PORT_PROP</a>
+

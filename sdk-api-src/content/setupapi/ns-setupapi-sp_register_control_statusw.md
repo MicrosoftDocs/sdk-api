@@ -46,7 +46,8 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - SP_REGISTER_CONTROL_STATUS
+ - _SP_REGISTER_CONTROL_STATUSW
+ - PSP_REGISTER_CONTROL_STATUSW
  - SP_REGISTER_CONTROL_STATUSW
 ---
 
@@ -186,3 +187,4 @@ Size of the structure, in bytes.
 
 > [!NOTE]
 > The setupapi.h header defines SP_REGISTER_CONTROL_STATUS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

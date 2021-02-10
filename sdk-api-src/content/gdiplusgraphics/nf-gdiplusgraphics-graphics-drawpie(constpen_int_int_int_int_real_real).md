@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawPie
+ - Graphics::DrawPie
 ---
 
 # Graphics::DrawPie(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
@@ -157,3 +157,4 @@ VOID Example_DrawPie3(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+

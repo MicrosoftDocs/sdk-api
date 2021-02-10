@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetNotifyInterface
+ - IBackgroundCopyJob::SetNotifyInterface
 ---
 
 # IBackgroundCopyJob::SetNotifyInterface
@@ -154,3 +154,4 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
+

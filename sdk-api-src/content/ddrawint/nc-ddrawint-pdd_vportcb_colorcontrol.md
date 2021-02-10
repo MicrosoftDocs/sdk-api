@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdVideoPortColorControl
+ - PDD_VPORTCB_COLORCONTROL
 ---
 
 ## -description
@@ -89,3 +89,4 @@ When <b>dwFlags</b> is DDRAWI_VPORTSETCOLOR, the driver should set the VPE objec
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_vportcolordata">DD_VPORTCOLORDATA</a>
+

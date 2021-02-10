@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IEnumOleDocumentViews.Clone
+ - IEnumOleDocumentViews::Clone
 ---
 
 # IEnumOleDocumentViews::Clone
@@ -107,3 +107,4 @@ Insufficient memory available for this operation.
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a>
+

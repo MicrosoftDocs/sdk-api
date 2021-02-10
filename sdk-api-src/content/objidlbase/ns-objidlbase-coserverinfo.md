@@ -44,6 +44,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
+ - _COSERVERINFO
  - COSERVERINFO
 ---
 
@@ -122,3 +123,4 @@ Starting with Windows XP with Service Pack 2 (SP2), <i>dwAuthnLevel</i> is the
 
 
 <a href="/windows/desktop/com/turning-off-activation-security">Turning Off Activation Security</a>
+

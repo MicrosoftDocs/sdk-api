@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapter::GetProperty
+f1_keywords:
+ - IDXCoreAdapter::GetProperty
+ - dxcore_interface/IDXCoreAdapter::GetProperty
 ---
 
 ## -description
@@ -45,12 +48,6 @@ api_name:
 Retrieves the value of the specified adapter property. Before calling **GetProperty** for a property type, call [IsPropertySupported](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported) to confirm that the property type is available for this adapter and operating system (OS). Also before calling **GetProperty**, call [GetPropertySize](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize) to determine the necessary size of the buffer in which to receive the property value.
 
 ## -parameters
-
-### -param property
-
-Type: **[DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
-
-The type of the property whose value you wish to retrieve. See the table in [DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) for more info about each adapter property.
 
 ### -param bufferSize
 
@@ -77,6 +74,12 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 |E_INVALIDARG|An insufficient buffer size is provided in *propertyData*. Call [GetPropertySize](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize) to determine the size that the *propertyData* buffer should be for a given adapter property.|
 |E_POINTER|`nullptr` was provided for *propertyData*.|
 
+## -param property
+
+Type: **[DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
+
+The type of the property whose value you wish to retrieve. See the table in [DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) for more info about each adapter property.
+
 ## -remarks
 
 You can call **GetProperty** on an adapter that's no longer valid&mdash;the function won't fail as a result of that. This function zeros out the *propertyData* buffer prior to filling it in.
@@ -84,3 +87,4 @@ You can call **GetProperty** on an adapter that's no longer valid&mdash;the func
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

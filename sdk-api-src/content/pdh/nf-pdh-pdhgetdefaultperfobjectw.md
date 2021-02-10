@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhGetDefaultPerfObjectW
  - pdh/PdhGetDefaultPerfObjectW
+ - PdhGetDefaultPerfObject
+ - pdh/PdhGetDefaultPerfObject
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhGetDefaultPerfObject
- - PdhGetDefaultPerfObjectA
  - PdhGetDefaultPerfObjectW
+ - PdhGetDefaultPerfObject
 ---
 
 # PdhGetDefaultPerfObjectW function
@@ -160,3 +161,4 @@ You should call this function twice, the first time to get the required buffer s
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetdefaultperfobjectha">PdhGetDefaultPerfObjectH</a>
+

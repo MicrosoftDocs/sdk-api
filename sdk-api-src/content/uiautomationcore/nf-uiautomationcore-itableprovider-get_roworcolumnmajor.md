@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITableProvider.RowOrColumnMajor
- - ITableProvider.get_RowOrColumnMajor
+ - ITableProvider::get_RowOrColumnMajor
 ---
 
 # ITableProvider::get_RowOrColumnMajor
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

@@ -9,6 +9,8 @@ tech.root: wmi
 f1_keywords:
  - wbemprov
  - wbemprov/wbemprov
+api_name:
+ - wbemprov
 ---
 
 # Wbemprov.h header

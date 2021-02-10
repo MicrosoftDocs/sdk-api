@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IObjectWithProgID.GetProgID
+ - IObjectWithProgID::GetProgID
 ---
 
 # IObjectWithProgID::GetProgID
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/shell/fa-progids">Programmatic Identifiers</a>
+

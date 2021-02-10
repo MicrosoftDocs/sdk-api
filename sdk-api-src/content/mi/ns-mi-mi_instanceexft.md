@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mi.h
 api_name:
+ - _MI_InstanceExFT
  - MI_InstanceExFT
 ---
 
@@ -67,3 +68,4 @@ Parses the structure and returns the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/wmi_v2/mi-structures-and-unions">MI Structures and Unions</a>
+

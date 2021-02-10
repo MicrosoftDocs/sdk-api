@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MapVirtualKeyW
  - winuser/MapVirtualKeyW
+ - MapVirtualKey
+ - winuser/MapVirtualKey
 dev_langs:
  - c++
 topic_type:
@@ -50,12 +52,12 @@ api_location:
  - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - MapVirtualKey
- - MapVirtualKeyA
  - MapVirtualKeyW
+ - MapVirtualKey
 ---
 
 # MapVirtualKeyW function
+
 
 ## -description
 
@@ -125,3 +127,4 @@ These left- and right-distinguishing constants are available to an application o
 **Reference**
 
 [SetKeyboardState](nf-winuser-setkeyboardstate.md)
+

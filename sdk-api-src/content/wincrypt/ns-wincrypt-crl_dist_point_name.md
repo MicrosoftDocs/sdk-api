@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRL_DIST_POINT_NAME
+ - PCRL_DIST_POINT_NAME
  - CRL_DIST_POINT_NAME
 ---
 
@@ -120,3 +122,4 @@ A
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a>
+

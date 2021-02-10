@@ -46,6 +46,8 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
+ - _VSS_DIFF_VOLUME_PROP
+ - PVSS_DIFF_VOLUME_PROP
  - VSS_DIFF_VOLUME_PROP
 ---
 
@@ -79,3 +81,4 @@ Total space, in bytes, on the shadow copy storage area volume.
 ## -see-also
 
 <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_ENVIRONMENT_VARIABLE_SET
  - WSMAN_ENVIRONMENT_VARIABLE_SET
 ---
 
@@ -63,3 +64,4 @@ Specifies the number of environment variables contained within the <b>vars</b> a
 ### -field vars
 
 Defines an array of environment variables. Each element of the array is of type <a href="/windows/desktop/api/wsman/ns-wsman-wsman_environment_variable">WSMAN_ENVIRONMENT_VARIABLE</a>.
+

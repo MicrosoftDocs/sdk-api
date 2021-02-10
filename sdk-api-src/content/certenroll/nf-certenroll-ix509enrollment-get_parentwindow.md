@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment.ParentWindow
- - IX509Enrollment.get_ParentWindow
- - IX509Enrollment.put_ParentWindow
+ - IX509Enrollment::get_ParentWindow
 ---
 
 # IX509Enrollment::get_ParentWindow
@@ -65,3 +63,4 @@ You can call this property before initializing the enrollment object. If you do 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
+

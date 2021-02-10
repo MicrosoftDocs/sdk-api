@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _tableCellParms
  - TABLECELLPARMS
 ---
 
@@ -226,3 +227,4 @@ The content appears at the bottom of a cell.
 
 
 <a href="/windows/desktop/api/richedit/ns-richedit-tablerowparms">TABLEROWPARMS</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winsnmp.h
 api_name:
+ - smiLPVENDORINFO
  - smiVENDORINFO
 ---
 
@@ -92,3 +93,4 @@ Contains the value 311, Microsoft's enterprise number (permanent address) assign
 
 
 <a href="/windows/desktop/SNMP/winsnmp-structures">WinSNMP Structures</a>
+

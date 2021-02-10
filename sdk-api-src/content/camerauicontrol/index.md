@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - camerauicontrol
  - camerauicontrol/camerauicontrol
+api_name:
+ - camerauicontrol
 ---
 
 # Camerauicontrol.h header

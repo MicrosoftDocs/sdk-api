@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIContextualUI.ShowAtLocation
+ - IUIContextualUI::ShowAtLocation
 ---
 
 # IUIContextualUI::ShowAtLocation
@@ -88,3 +88,4 @@ The location of the <a href="/windows/desktop/windowsribbon/windowsribbon-elemen
 
 
 <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>
+

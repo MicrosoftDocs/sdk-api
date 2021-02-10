@@ -42,8 +42,7 @@ api_type:
 api_location:
  - shidfact.h
 api_name:
- - GetPropertyFromIDList.GetPropertyFromIDList
- - CItemIDFactory.GetPropertyFromIDList
+ - CItemIDFactory::GetPropertyFromIDList
 ---
 
 # CItemIDFactory::GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,PROPVARIANT)
@@ -90,3 +89,4 @@ This method is useful when using <a href="/windows/desktop/api/shobjidl_core/nf-
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">IShellFolder2::GetDetailsEx</a>
+

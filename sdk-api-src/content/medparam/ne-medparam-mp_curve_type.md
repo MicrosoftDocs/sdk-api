@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Medparam.h
 api_name:
+ - _MP_CURVE_TYPE
  - MP_CURVE_TYPE
 ---
 
@@ -121,3 +122,4 @@ For Boolean and enumeration parameters, only MP_CURVE_JUMP is valid.
 
 
 <a href="/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_envelope_segment">MP_ENVELOPE_SEGMENT</a>
+

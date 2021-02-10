@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddstream.h
 api_name:
- - IDirectDrawStreamSample.GetSurface
+ - IDirectDrawStreamSample::GetSurface
 ---
 
 # IDirectDrawStreamSample::GetSurface
@@ -75,3 +75,4 @@ Both parameters are optional. All implementations of this interface must support
 ## -see-also
 
 <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample Interface</a>
+

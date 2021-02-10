@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxRoutingMethods.get_Count
+ - IFaxRoutingMethods::get_Count
 ---
 
 # IFaxRoutingMethods::get_Count
@@ -93,3 +93,4 @@ After calling the <b>IFaxRoutingMethods::get_Count</b> method, a fax client appl
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxroutingmethods-get_item">IFaxRoutingMethods::get_Item</a>
+

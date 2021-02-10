@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1SourceTransform.SetRenderInfo
+ - ID2D1SourceTransform::SetRenderInfo
 ---
 
 # ID2D1SourceTransform::SetRenderInfo
@@ -78,3 +78,4 @@ Provides a render information interface to the source transform to allow it to s
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1sourcetransform">ID2D1SourceTransform</a>
+

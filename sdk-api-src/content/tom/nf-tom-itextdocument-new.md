@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument.New
+ - ITextDocument::New
 ---
 
 # ITextDocument::New
@@ -83,3 +83,4 @@ If another document is open, this method saves any current changes and closes th
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

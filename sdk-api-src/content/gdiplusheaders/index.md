@@ -9,6 +9,8 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusheaders
  - gdiplusheaders/gdiplusheaders
+api_name:
+ - gdiplusheaders
 ---
 
 # Gdiplusheaders.h header

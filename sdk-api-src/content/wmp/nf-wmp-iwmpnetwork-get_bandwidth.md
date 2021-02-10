@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork.get_bandWidth
+ - IWMPNetwork::get_bandWidth
 ---
 
 # IWMPNetwork::get_bandWidth
@@ -91,3 +91,4 @@ The value retrieved through <b>IWMPCore::put_URL</b> will be zero if the URL is 
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
+

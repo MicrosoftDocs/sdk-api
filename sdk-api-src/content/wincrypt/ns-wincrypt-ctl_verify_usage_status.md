@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CTL_VERIFY_USAGE_STATUS
+ - PCTL_VERIFY_USAGE_STATUS
  - CTL_VERIFY_USAGE_STATUS
 ---
 
@@ -113,3 +115,4 @@ The members <b>dwError</b>, <b>dwFlags</b>, <b>dwCtlEntryIndex</b>, and <b>dwSig
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a>
+

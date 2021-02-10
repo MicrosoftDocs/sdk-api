@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
+ - __MIDL___MIDL_itf_msctf_0000_0070_0004
  - TF_DA_ATTR_INFO
 ---
 
@@ -88,3 +89,4 @@ Reserved for the system.
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE
       </a>
+

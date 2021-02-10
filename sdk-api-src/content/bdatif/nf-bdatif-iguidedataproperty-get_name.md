@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IGuideDataProperty.get_Name
+ - IGuideDataProperty::get_Name
 ---
 
 # IGuideDataProperty::get_Name
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataproperty">IGuideDataProperty Interface</a>
+

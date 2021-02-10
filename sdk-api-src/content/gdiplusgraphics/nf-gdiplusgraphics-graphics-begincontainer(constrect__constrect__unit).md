@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.BeginContainer
+ - Graphics::BeginContainer
 ---
 
 # Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit)
@@ -164,3 +164,4 @@ VOID Example_BeginContainer2(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI.GetValue
+ - ICodecAPI::GetValue
 ---
 
 # ICodecAPI::GetValue
@@ -111,3 +111,4 @@ The property does not currently have a value.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue">ICodecAPI::SetValue</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
+ - _WSANETWORKEVENTS
+ - LPWSANETWORKEVENTS
  - WSANETWORKEVENTS
 ---
 
@@ -74,3 +76,4 @@ Array that contains any associated error codes, with an array index that corresp
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage2.GetAttributes2
+ - IWMDMStorage2::GetAttributes2
 ---
 
 # IWMDMStorage2::GetAttributes2
@@ -101,3 +101,4 @@ Evaluation of attributes is a crucial step when exposing the contents of the med
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">IWMDMStorage::EnumStorage</a>
+

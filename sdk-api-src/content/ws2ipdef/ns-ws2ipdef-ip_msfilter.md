@@ -47,6 +47,8 @@ api_location:
  - Ws2ipdef.h
  - Ws2tcpip.h
 api_name:
+ - ip_msfilter
+ - PIP_MSFILTER
  - IP_MSFILTER
 ---
 
@@ -159,3 +161,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_mreq_source">ip_mreq_source</a>
+

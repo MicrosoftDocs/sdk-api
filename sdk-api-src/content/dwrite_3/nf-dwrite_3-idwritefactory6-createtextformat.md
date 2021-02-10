@@ -41,7 +41,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFactory6::CreateFontSetBuilder
+ - IDWriteFactory6::CreateTextFormat
 ---
 
 ## -description
@@ -103,3 +103,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 If *fontCollection* is `nullptr`, then the system font collection is used, grouped by typographic family name ([DWRITE_FONT_FAMILY_MODEL_TYPOGRAPHIC](./ne-dwrite_3-dwrite_font_family_model.md)) without downloadable fonts.
 
 ## -see-also
+

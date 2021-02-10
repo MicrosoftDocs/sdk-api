@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.Notifications
- - IFsrmFileManagementJob.get_Notifications
+ - IFsrmFileManagementJob::get_Notifications
 ---
 
 # IFsrmFileManagementJob::get_Notifications
@@ -72,3 +71,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotification">MSFT_FSRMFMJNotification</a>
+

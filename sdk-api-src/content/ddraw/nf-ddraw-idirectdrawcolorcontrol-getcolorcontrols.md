@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 16ac7bef-e88c-47da-8db9-9e6258a381a0
 ms.date: 12/05/2018
 ms.keywords: GetColorControls, GetColorControls method [DirectDraw], GetColorControls method [DirectDraw],IDirectDrawColorControl interface, IDirectDrawColorControl interface [DirectDraw],GetColorControls method, IDirectDrawColorControl.GetColorControls, IDirectDrawColorControl::GetColorControls, ddraw/IDirectDrawColorControl::GetColorControls, directdraw.idirectdrawcolorcontrol_getcolorcontrols
-f1_keywords:
-- ddraw/IDirectDrawColorControl.GetColorControls
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawColorControl.GetColorControls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawColorControl::GetColorControls
+ - ddraw/IDirectDrawColorControl::GetColorControls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawColorControl::GetColorControls
 ---
 
 ## -description
@@ -56,8 +57,6 @@ A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff549237(v=v
 
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
 
 
@@ -70,26 +69,14 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The <b>dwFlags</b> member of the <a href="/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a> structure indicates which of the color-control options are supported.
 
 
 You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetColorControls</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawcolorcontrol">IDirectDrawColorControl</a>
- 
 
- 

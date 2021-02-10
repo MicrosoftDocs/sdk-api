@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo.GetDevicePath
+ - IEnhancedStorageSilo::GetDevicePath
 ---
 
 # IEnhancedStorageSilo::GetDevicePath
@@ -98,3 +98,4 @@ The memory to contain the device path string is allocated by the Enhanced Storag
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
+

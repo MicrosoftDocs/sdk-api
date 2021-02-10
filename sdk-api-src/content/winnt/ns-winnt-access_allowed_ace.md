@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _ACCESS_ALLOWED_ACE
  - ACCESS_ALLOWED_ACE
 ---
 
@@ -100,3 +101,4 @@ An <b>ACCESS_ALLOWED_ACE</b> structure can be created in an <a href="/windows/de
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+

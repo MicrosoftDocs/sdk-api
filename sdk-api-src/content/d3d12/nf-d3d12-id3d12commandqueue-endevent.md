@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.h
 api_name:
- - ID3D12CommandQueue.EndEvent
+ - ID3D12CommandQueue::EndEvent
 ---
 
 # ID3D12CommandQueue::EndEvent
@@ -64,3 +64,4 @@ To mark the end of an instrumentation region at the current location within a D3
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
+

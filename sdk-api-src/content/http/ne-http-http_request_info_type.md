@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_REQUEST_INFO_TYPE
+ - PHTTP_REQUEST_INFO_TYPE
  - HTTP_REQUEST_INFO_TYPE
 ---
 
@@ -81,3 +83,4 @@ The <b>pInfo</b> member of the <a href="/windows/desktop/api/http/ns-http-http_r
 
 
 <a href="/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a>
+

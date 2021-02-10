@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mprapi.h
 api_name:
+ - _RAS_CONNECTION_4
+ - PRAS_CONNECTION_4
  - RAS_CONNECTION_4
 ---
 
@@ -297,3 +299,4 @@ IKEv2 tunnel
 </td>
 </tr>
 </table>
+

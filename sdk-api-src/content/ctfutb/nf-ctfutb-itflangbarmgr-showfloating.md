@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarMgr.ShowFloating
+ - ITfLangBarMgr::ShowFloating
 ---
 
 # ITfLangBarMgr::ShowFloating
@@ -237,3 +237,4 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
       </a>
+

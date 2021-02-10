@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_LONG
+ - PCLUSPROP_LONG
 ---
 
 # CLUSPROP_LONG structure
@@ -84,3 +85,4 @@ Signed <b>LONG</b> value.
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

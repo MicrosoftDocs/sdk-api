@@ -13,25 +13,27 @@ req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
 req.unicode-ansi: GetVolumePathNameW (Unicode) and GetVolumePathNameA (ANSI)
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
-req.irql:
+req.irql: 
 targetos: Windows
-req.typenames:
-req.redist:
+req.typenames: 
+req.redist: 
 ms.custom: 19H1
 f1_keywords:
  - GetVolumePathNameW
  - fileapi/GetVolumePathNameW
+ - GetVolumePathName
+ - fileapi/GetVolumePathName
 dev_langs:
  - c++
 topic_type:
@@ -51,12 +53,12 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - GetVolumePathName
- - GetVolumePathNameA
  - GetVolumePathNameW
+ - GetVolumePathName
 ---
 
 # GetVolumePathNameW function
+
 
 ## -description
 
@@ -165,3 +167,4 @@ Specified path                                                | Function returns
 * [SetVolumeMountPoint](/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa)
 * [Volume Management Functions](/windows/desktop/FileIO/volume-management-functions)
 * [Volume Mount Points](/windows/desktop/FileIO/volume-mount-points)
+

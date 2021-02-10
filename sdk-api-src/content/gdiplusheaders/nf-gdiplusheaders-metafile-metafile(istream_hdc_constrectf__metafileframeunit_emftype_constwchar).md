@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile.Metafile
+ - Metafile::Metafile
 ---
 
 # Metafile::Metafile(IN IStream,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
@@ -123,3 +123,4 @@ When recording to a file, the file must be writable, and Windows GDI+ must be ab
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+

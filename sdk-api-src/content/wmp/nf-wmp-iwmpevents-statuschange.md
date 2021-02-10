@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.StatusChange
+ - IWMPEvents::StatusChange
 ---
 
 # IWMPEvents::StatusChange
@@ -57,3 +57,4 @@ The <b>StatusChange</b> event occurs when the <b>status</b> property changes val
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

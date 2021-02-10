@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIApplicationFilter.Applications
- - IRDPSRAPIApplicationFilter.get_Applications
- - RDPSRAPIApplicationFilter.Applications
+ - IRDPSRAPIApplicationFilter::get_Applications
 ---
 
 # IRDPSRAPIApplicationFilter::get_Applications
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - InkPresenterDesktop.h
 api_name:
- - IInkDesktopHost.CreateInkPresenter
+ - IInkDesktopHost::CreateInkPresenter
 ---
 
 # IInkDesktopHost::CreateInkPresenter
@@ -93,3 +93,4 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 <a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
+

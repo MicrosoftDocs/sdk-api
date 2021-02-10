@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance.SetWCHARSplat
+ - CInstance::SetWCHARSplat
 ---
 
 # CInstance::SetWCHARSplat
@@ -72,3 +72,4 @@ Pointer to the Unicode string.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent or non-string property. More information is available in the log file, Framework.log.
+

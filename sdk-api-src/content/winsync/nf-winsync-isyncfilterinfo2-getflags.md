@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncFilterInfo2.GetFlags
+ - ISyncFilterInfo2::GetFlags
 ---
 
 # ISyncFilterInfo2::GetFlags
@@ -125,3 +125,4 @@ The following table describes the flags that specify information about an <a hre
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo2">ISyncFilterInfo2 Interface</a>
+

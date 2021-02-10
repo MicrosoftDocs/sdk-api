@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart.Activate
+ - IPart::Activate
 ---
 
 # IPart::Activate
@@ -202,3 +202,4 @@ For more information about the <b>__uuidof</b> operator, see the Windows SDK doc
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
+

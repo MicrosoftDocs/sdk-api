@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILockBytes.Flush
+ - ILockBytes::Flush
 ---
 
 # ILockBytes::Flush
@@ -77,3 +77,4 @@ The COM-provided implementation of compound files calls this method during a tra
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>
+

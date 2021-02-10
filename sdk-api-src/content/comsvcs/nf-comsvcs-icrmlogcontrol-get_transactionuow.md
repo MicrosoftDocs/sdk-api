@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmLogControl.get_TransactionUOW
+ - ICrmLogControl::get_TransactionUOW
 ---
 
 # ICrmLogControl::get_TransactionUOW
@@ -116,3 +116,4 @@ An out of memory error has occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - IPublishedApp.GetPublishedAppInfo
+ - IPublishedApp::GetPublishedAppInfo
 ---
 
 # IPublishedApp::GetPublishedAppInfo
@@ -119,3 +119,4 @@ HRESULT CPubApp::GetPublishedAppInfo(PUBAPPINFO *pInfo)
 
 
 <a href="/windows/desktop/api/shappmgr/ns-shappmgr-pubappinfo">PUBAPPINFO</a>
+

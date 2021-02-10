@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices.ClearHwndProps
+ - IAccPropServices::ClearHwndProps
 ---
 
 # IAccPropServices::ClearHwndProps
@@ -121,3 +121,4 @@ Additionally, <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-se
 
 
 <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">SetHwndPropStr</a>
+

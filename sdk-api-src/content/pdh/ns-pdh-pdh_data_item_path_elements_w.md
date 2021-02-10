@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
- - PDH_DATA_ITEM_PATH_ELEMENTS
- - PDH_DATA_ITEM_PATH_ELEMENTS_A
+ - _PDH_DATA_ITEM_PATH_ELEMENTS_W
+ - PPDH_DATA_ITEM_PATH_ELEMENTS_W
  - PDH_DATA_ITEM_PATH_ELEMENTS_W
 ---
 
@@ -80,3 +80,4 @@ Pointer to a null-terminated string that specifies the name of the data item ins
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/ns-pdh-pdh_counter_info_a">PDH_COUNTER_INFO</a>
+

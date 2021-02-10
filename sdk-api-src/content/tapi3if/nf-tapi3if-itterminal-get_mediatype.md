@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITTerminal.get_MediaType
+ - ITTerminal::get_MediaType
 ---
 
 # ITTerminal::get_MediaType
@@ -115,3 +115,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
+

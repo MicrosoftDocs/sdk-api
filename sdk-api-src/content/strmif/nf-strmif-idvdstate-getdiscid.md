@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdState.GetDiscID
+ - IDvdState::GetDiscID
 ---
 
 # IDvdState::GetDiscID
@@ -103,3 +103,4 @@ Invalid argument
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdstate">IDvdState Interface</a>
+

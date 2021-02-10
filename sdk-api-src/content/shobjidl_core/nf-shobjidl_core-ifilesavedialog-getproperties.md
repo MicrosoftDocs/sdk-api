@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IFileSaveDialog.GetProperties
+ - IFileSaveDialog::GetProperties
 ---
 
 # IFileSaveDialog::GetProperties
@@ -71,3 +71,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method can be called while the dialog is showing to retrieve the current set of values in the metadata collection pane. It can also be called after the dialog has closed, to retrieve the final set of values.
 
 The call to this method will fail unless property collection has been turned on with a call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-setcollectedproperties">IFileSaveDialog::SetCollectedProperties</a>.
+

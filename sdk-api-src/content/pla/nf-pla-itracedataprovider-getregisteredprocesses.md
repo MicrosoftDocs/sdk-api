@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProvider.GetRegisteredProcesses
+ - ITraceDataProvider::GetRegisteredProcesses
 ---
 
 # ITraceDataProvider::GetRegisteredProcesses
@@ -65,3 +65,4 @@ Returns S_OK if successful.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
+

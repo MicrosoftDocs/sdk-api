@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.GetFriendlyAttributeName
+ - IDsDisplaySpecifier::GetFriendlyAttributeName
 ---
 
 # IDsDisplaySpecifier::GetFriendlyAttributeName
@@ -85,3 +85,4 @@ This method looks up the display specifier of the class to check the <b>attribut
 
 
 <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
+

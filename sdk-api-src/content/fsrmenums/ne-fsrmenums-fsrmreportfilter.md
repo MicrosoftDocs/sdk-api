@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmReportFilter
  - FsrmReportFilter
 ---
 
@@ -144,3 +145,4 @@ The value for the filter is specified when you call the
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setdefaultfilter">IFsrmReportManager::SetDefaultFilter</a>
+

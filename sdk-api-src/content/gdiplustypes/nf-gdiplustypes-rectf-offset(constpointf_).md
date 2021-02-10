@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplustypes.h
 api_name:
- - RectF.Offset
+ - RectF::Offset
 ---
 
 # RectF::Offset
@@ -80,3 +80,4 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inre
 </table>
 
 ## -parameters
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_CONDITION_FLAG_TYPE
  - WBEM_CONDITION_FLAG_TYPE
 ---
 
@@ -85,3 +86,4 @@ Contains flags used with the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iw
 ### -field WBEM_FLAG_CLASS_LOCAL_AND_OVERRIDES
 
 ### -field WBEM_MASK_CLASS_CONDITION
+

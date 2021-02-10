@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetSetOptionExW
  - wininet/InternetSetOptionExW
+ - InternetSetOptionEx
+ - wininet/InternetSetOptionEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetSetOptionEx
- - InternetSetOptionExA
  - InternetSetOptionExW
+ - InternetSetOptionEx
 ---
 
 # InternetSetOptionExW function
@@ -96,3 +97,4 @@ This function does not return a value.
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
+

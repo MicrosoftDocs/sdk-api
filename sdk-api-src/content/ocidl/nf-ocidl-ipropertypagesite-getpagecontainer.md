@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPageSite.GetPageContainer
+ - IPropertyPageSite::GetPageContainer
 ---
 
 # IPropertyPageSite::GetPageContainer
@@ -67,3 +67,4 @@ This method returns E_NOTIMPL.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
+

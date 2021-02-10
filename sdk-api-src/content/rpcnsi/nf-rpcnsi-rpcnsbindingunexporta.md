@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsBindingUnexportA
  - rpcnsi/RpcNsBindingUnexportA
+ - RpcNsBindingUnexport
+ - rpcnsi/RpcNsBindingUnexport
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsBindingUnexport
  - RpcNsBindingUnexportA
- - RpcNsBindingUnexportW
+ - RpcNsBindingUnexport
 ---
 
 # RpcNsBindingUnexportA function
@@ -240,3 +241,4 @@ Therefore, before you call this function, keep in mind how long you expect the s
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
+

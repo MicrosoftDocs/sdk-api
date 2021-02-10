@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetGammaRamp
+ - IDirect3DDevice9::SetGammaRamp
 ---
 
 # IDirect3DDevice9::SetGammaRamp
@@ -121,3 +121,4 @@ For windowed gamma correction presentation, use <a href="/windows/desktop/api/d3
 
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>
+

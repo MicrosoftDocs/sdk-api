@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceService.WriteData
+ - IMbnDeviceService::WriteData
 ---
 
 # IMbnDeviceService::WriteData
@@ -142,3 +142,4 @@ This is an asynchronous operation and <b>WriteData</b> will return immediately. 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
+

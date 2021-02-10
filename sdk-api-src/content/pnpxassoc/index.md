@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - pnpxassoc
  - pnpxassoc/pnpxassoc
+api_name:
+ - pnpxassoc
 ---
 
 # Pnpxassoc.h header

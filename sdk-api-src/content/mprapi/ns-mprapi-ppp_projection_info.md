@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _PPP_PROJECTION_INFO
+ - PPPP_PROJECTION_INFO
  - PPP_PROJECTION_INFO
 ---
 
@@ -740,3 +742,4 @@ The last three options are used when a connection is made over Layer 2 Tunneling
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
+

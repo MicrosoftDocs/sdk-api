@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetNewTargetCount
+ - IVssComponent::GetNewTargetCount
 ---
 
 # IVssComponent::GetNewTargetCount
@@ -109,3 +109,4 @@ The caller is out of memory or other system resources.
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference.get_Description
+ - ITDirectoryObjectConference::get_Description
 ---
 
 # ITDirectoryObjectConference::get_Description
@@ -140,3 +140,4 @@ The application must use
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_description">ITDirectoryObjectConference::put_Description</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.GetDuration
+ - IMFPMediaPlayer::GetDuration
 ---
 
 # IMFPMediaPlayer::GetDuration
@@ -147,3 +147,4 @@ For example, suppose that you load a 30-second audio file and set the start time
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

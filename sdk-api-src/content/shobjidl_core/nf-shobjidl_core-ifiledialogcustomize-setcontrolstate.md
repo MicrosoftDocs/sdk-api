@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogCustomize.SetControlState
+ - IFileDialogCustomize::SetControlState
 ---
 
 # IFileDialogCustomize::SetControlState
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 When the dialog is shown, controls cannot be added or removed, but the existing controls can be hidden or disabled at any time.
+

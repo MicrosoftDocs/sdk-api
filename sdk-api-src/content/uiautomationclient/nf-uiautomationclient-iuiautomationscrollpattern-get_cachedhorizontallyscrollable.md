@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CachedHorizontallyScrollable
- - IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
+ - IUIAutomationScrollPattern::get_CachedHorizontallyScrollable
 ---
 
 # IUIAutomationScrollPattern::get_CachedHorizontallyScrollable
@@ -68,3 +67,4 @@ This property can be dynamic. For example, the content area of the element might
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedverticallyscrollable">IUIAutomationScrollPattern::CachedVerticallyScrollable</a>
+

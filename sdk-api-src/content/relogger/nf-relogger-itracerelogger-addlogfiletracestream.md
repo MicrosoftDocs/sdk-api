@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceRelogger.AddLogfileTraceStream
+ - ITraceRelogger::AddLogfileTraceStream
 ---
 
 # ITraceRelogger::AddLogfileTraceStream
@@ -89,3 +89,4 @@ Events in the newly-added stream will generate callbacks to the <a href="/window
 
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
+

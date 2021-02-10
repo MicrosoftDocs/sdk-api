@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_DEVICE_CLAIMS
+ - PTOKEN_DEVICE_CLAIMS
  - TOKEN_DEVICE_CLAIMS
 ---
 

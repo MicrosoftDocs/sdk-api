@@ -46,6 +46,8 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
+ - BusNumber_Resource_s
+ - PBUSNUMBER_RESOURCE
  - BUSNUMBER_RESOURCE
 ---
 
@@ -81,3 +83,4 @@ A [BUSNUMBER_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range) a
 
 
 [BUSNUMBER_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterDeactivate
+ - PIBIO_SENSOR_DEACTIVATE_FN
 ---
 
 # PIBIO_SENSOR_DEACTIVATE_FN callback function
@@ -87,3 +87,4 @@ This method is called when the last client using this biometric unit has closed 
 This method executes in the context of the same thread that activated the biometric unit and that processed all other requests for the unit.
 
 When this routine is called, the Engine and Storage adapters are still available.
+

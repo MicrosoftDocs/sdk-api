@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget.GetPixelsPerDip
+ - IDWriteBitmapRenderTarget::GetPixelsPerDip
 ---
 
 # IDWriteBitmapRenderTarget::GetPixelsPerDip

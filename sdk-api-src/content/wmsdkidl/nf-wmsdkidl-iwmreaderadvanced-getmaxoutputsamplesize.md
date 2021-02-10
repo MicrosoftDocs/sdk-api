@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetMaxOutputSampleSize
+ - IWMReaderAdvanced::GetMaxOutputSampleSize
 ---
 
 # IWMReaderAdvanced::GetMaxOutputSampleSize
@@ -120,3 +120,4 @@ No file has been opened for the sample.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxstreamsamplesize">IWMReaderAdvanced::GetMaxStreamSampleSize</a>
+

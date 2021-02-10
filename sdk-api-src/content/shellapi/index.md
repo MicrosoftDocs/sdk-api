@@ -9,6 +9,8 @@ tech.root: properties
 f1_keywords:
  - shellapi
  - shellapi/shellapi
+api_name:
+ - shellapi
 ---
 
 # Shellapi.h header

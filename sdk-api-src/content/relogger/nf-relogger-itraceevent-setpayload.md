@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceEvent.SetPayload
+ - ITraceEvent::SetPayload
 ---
 
 # ITraceEvent::SetPayload
@@ -79,3 +79,4 @@ Payloads contain only developer-defined data.
 ## -see-also
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_SUBNET_INFO
+ - LPDHCP_SUBNET_INFO
  - DHCP_SUBNET_INFO
 ---
 
@@ -93,3 +95,4 @@ Unicode string that contains an optional comment particular to this subnet.
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetsubnetinfo">DhcpGetSubnetInfo</a>
+

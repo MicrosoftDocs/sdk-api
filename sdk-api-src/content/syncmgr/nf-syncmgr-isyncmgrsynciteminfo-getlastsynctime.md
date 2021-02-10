@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItemInfo.GetLastSyncTime
+ - ISyncMgrSyncItemInfo::GetLastSyncTime
 ---
 
 # ISyncMgrSyncItemInfo::GetLastSyncTime
@@ -88,3 +88,4 @@ STDMETHODIMP CMyDeviceSyncItem::GetLastSyncTime(__out FILETIME *pftLastSync)
 }
 
 ```
+

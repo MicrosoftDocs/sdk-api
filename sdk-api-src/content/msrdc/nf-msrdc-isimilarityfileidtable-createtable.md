@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityFileIdTable.CreateTable
+ - ISimilarityFileIdTable::CreateTable
 ---
 
 # ISimilarityFileIdTable::CreateTable
@@ -85,3 +85,4 @@ If an existing table is being opened, the table must be valid, and the value of 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
+

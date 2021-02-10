@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceMethods.Cancel
+ - IPortableDeviceServiceMethods::Cancel
 ---
 
 # IPortableDeviceServiceMethods::Cancel
@@ -71,3 +71,4 @@ To enable targeted cancellation of a specific method invocation, pass a unique i
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods Interface</a>
+

@@ -45,6 +45,8 @@ api_type:
 api_location:
  - 
 api_name:
+ - _CLUSTER_HEALTH_FAULT
+ - PCLUSTER_HEALTH_FAULT
  - CLUSTER_HEALTH_FAULT
 ---
 

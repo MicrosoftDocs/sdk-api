@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHQueryRecycleBinA
  - shellapi/SHQueryRecycleBinA
+ - SHQueryRecycleBin
+ - shellapi/SHQueryRecycleBin
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHQueryRecycleBin
  - SHQueryRecycleBinA
- - SHQueryRecycleBinW
+ - SHQueryRecycleBin
 ---
 
 # SHQueryRecycleBinA function
@@ -88,3 +89,4 @@ With Windows 2000, if <b>NULL</b> is passed in the <i>pszRootPath</i> parameter
 ## -see-also
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-shemptyrecyclebina">SHEmptyRecycleBin</a>
+

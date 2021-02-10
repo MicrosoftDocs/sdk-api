@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumSingleItemExceptions.Skip
+ - IEnumSingleItemExceptions::Skip
 ---
 
 # IEnumSingleItemExceptions::Skip
@@ -102,3 +102,4 @@ The enumerator reaches the end of the list before it can skip <i>cExceptions</i>
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsingleitemexceptions">IEnumSingleItemExceptions Interface</a>
+

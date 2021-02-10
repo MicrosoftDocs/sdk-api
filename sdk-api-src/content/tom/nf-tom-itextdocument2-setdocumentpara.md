@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2.SetDocumentPara
+ - ITextDocument2::SetDocumentPara
 ---
 
 # ITextDocument2::SetDocumentPara
@@ -77,3 +77,4 @@ You can also set the default paragraph formatting by calling <a href="/windows/d
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getdocumentpara">ITextDocument2::GetDocumentPara</a>
+

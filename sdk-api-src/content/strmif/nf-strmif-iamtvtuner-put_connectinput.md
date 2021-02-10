@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTVTuner.put_ConnectInput
+ - IAMTVTuner::put_ConnectInput
 ---
 
 # IAMTVTuner::put_ConnectInput
@@ -74,3 +74,4 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

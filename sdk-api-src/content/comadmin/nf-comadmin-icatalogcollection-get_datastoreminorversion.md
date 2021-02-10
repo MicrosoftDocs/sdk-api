@@ -42,8 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogCollection.DataStoreMinorVersion
- - ICatalogCollection.get_DataStoreMinorVersion
+ - ICatalogCollection::get_DataStoreMinorVersion
 ---
 
 # ICatalogCollection::get_DataStoreMinorVersion
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
+

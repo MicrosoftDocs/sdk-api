@@ -42,7 +42,7 @@ api_type:
 api_location:
  - activationregistration.h
 api_name:
- - IExeServerRegistration.get_CommandLine
+ - IExeServerRegistration::get_CommandLine
 ---
 
 # IExeServerRegistration::get_CommandLine
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/activationregistration/nn-activationregistration-iexeserverregistration">IExeServerRegistration</a>
+

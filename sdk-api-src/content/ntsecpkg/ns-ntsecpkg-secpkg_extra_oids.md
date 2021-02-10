@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_EXTRA_OIDS
+ - PSECPKG_EXTRA_OIDS
  - SECPKG_EXTRA_OIDS
 ---
 
@@ -69,3 +71,4 @@ The total number of OIDs in the security package.
 ### -field Oids
 
 A <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_serialized_oid">SECPKG_SERIALIZED_OID</a> structure containing the OID data.
+

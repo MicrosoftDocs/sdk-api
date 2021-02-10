@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IObjectWithAppUserModelID.GetAppID
+ - IObjectWithAppUserModelID::GetAppID
 ---
 
 # IObjectWithAppUserModelID::GetAppID
@@ -85,3 +85,4 @@ This method can only retrieve an AppUserModelID explicitly set for the handler. 
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+

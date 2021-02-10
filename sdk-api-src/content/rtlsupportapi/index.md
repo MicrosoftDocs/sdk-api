@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - rtlsupportapi
  - rtlsupportapi/rtlsupportapi
+api_name:
+ - rtlsupportapi
 ---
 
 # Rtlsupportapi.h header

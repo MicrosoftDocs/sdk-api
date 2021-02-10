@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoProcessorService.CreateVideoProcessor
+ - IDirectXVideoProcessorService::CreateVideoProcessor
 ---
 
 # IDirectXVideoProcessorService::CreateVideoProcessor
@@ -104,3 +104,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice">IDirectXVideoProcessorService</a>
+

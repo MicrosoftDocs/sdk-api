@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_EXPORTLOG_FLAGS
  - EVT_EXPORTLOG_FLAGS
 ---
 
@@ -73,3 +74,4 @@ Export events even if part of the query generates an error (is not well formed).
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a>
+

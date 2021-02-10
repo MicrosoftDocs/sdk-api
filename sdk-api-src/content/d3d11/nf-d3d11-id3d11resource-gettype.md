@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Resource.GetType
+ - ID3D11Resource::GetType
 ---
 
 # ID3D11Resource::GetType
@@ -69,3 +69,4 @@ Pointer to the resource type (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
+

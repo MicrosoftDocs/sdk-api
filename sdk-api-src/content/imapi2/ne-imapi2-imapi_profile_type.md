@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_PROFILE_TYPE
+ - PIMAPI_PROFILE_TYPE
  - IMAPI_PROFILE_TYPE
 ---
 
@@ -204,3 +206,4 @@ Other values not defined here may exist. Consumers of this enumeration should no
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>
+

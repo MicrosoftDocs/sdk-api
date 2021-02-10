@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shidfact.h
 api_name:
- - CItemIDFactory.GetDataFromIDList
+ - CItemIDFactory::GetDataFromIDList
 ---
 
 # CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE)
@@ -70,3 +70,4 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns <b>E_INV
 ## -see-also
 
 <a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
+

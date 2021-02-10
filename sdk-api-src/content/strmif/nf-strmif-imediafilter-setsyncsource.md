@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaFilter.SetSyncSource
+ - IMediaFilter::SetSyncSource
 ---
 
 # IMediaFilter::SetSyncSource
@@ -92,3 +92,4 @@ Applications should never call this method on filters.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
+

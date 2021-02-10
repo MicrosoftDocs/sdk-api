@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings.ExecutionTimeLimit
- - ITaskSettings.get_ExecutionTimeLimit
- - ITaskSettings.put_ExecutionTimeLimit
+ - ITaskSettings::put_ExecutionTimeLimit
 ---
 
 # ITaskSettings::put_ExecutionTimeLimit
@@ -73,3 +71,4 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

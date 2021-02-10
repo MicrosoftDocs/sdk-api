@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureEngineClassFactory.CreateInstance
+ - IMFCaptureEngineClassFactory::CreateInstance
 ---
 
 # IMFCaptureEngineClassFactory::CreateInstance
@@ -79,3 +79,4 @@ Before calling this method, call the <a href="/windows/desktop/api/mfapi/nf-mfap
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineclassfactory">IMFCaptureEngineClassFactory</a>
+

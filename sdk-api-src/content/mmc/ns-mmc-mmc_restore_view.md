@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_RESTORE_VIEW
  - MMC_RESTORE_VIEW
 ---
 
@@ -96,3 +97,4 @@ MMC_RESTORE_VIEW structure as its arg parameter and a pointer to a BOOL as its p
 
 
 <a href="/previous-versions/windows/desktop/mmc/mmcn-restore-view">MMCN_RESTORE_VIEW</a>
+

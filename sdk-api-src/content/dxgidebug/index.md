@@ -9,6 +9,8 @@ tech.root: direct3ddxgi
 f1_keywords:
  - dxgidebug
  - dxgidebug/dxgidebug
+api_name:
+ - dxgidebug
 ---
 
 # Dxgidebug.h header

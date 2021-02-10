@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - EXT_FILE_ID_128
+ - _FILE_ID_128
+ - PFILE_ID_128
+ - FILE_ID_128
 ---
 
 # FILE_ID_128 structure
@@ -77,3 +79,4 @@ A byte array containing  the 128 bit identifier.
 
 
 <a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
+

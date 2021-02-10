@@ -44,6 +44,7 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
+ - _RM_APP_TYPE
  - RM_APP_TYPE
 ---
 
@@ -87,3 +88,4 @@ A system restart is required to complete the installation because a process cann
 ## -see-also
 
 <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a>
+

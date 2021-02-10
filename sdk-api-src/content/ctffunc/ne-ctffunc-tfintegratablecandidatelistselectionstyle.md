@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ctffunc.h
 api_name:
+ - __MIDL___MIDL_itf_ctffunc_0000_0022_0001
  - TfIntegratableCandidateListSelectionStyle
 ---
 
@@ -67,3 +68,4 @@ The default selection key will choose the selection.
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle">GetSelectionStyle</a>
+

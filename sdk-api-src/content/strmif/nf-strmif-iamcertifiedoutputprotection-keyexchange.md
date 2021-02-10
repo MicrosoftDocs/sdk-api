@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCertifiedOutputProtection.KeyExchange
+ - IAMCertifiedOutputProtection::KeyExchange
 ---
 
 # IAMCertifiedOutputProtection::KeyExchange
@@ -135,3 +135,4 @@ If this method returns E_UNEXPECTED, the application should create a new COPP se
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
+

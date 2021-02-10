@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRSETMAPPERFLAGS
+ - PEMRSETMAPPERFLAGS
  - EMRSETMAPPERFLAGS
 ---
 
@@ -77,3 +79,4 @@ Font mapper flag.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setmapperflags">SetMapperFlags</a>
+

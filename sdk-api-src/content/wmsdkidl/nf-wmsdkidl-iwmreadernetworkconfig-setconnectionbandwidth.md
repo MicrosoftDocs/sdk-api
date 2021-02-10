@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetConnectionBandwidth
+ - IWMReaderNetworkConfig::SetConnectionBandwidth
 ---
 
 # IWMReaderNetworkConfig::SetConnectionBandwidth
@@ -107,3 +107,4 @@ Setting a bandwidth by using this method is sometimes called <i>bandwidth-thrott
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getconnectionbandwidth">IWMReaderNetworkConfig::GetConnectionBandwidth</a>
+

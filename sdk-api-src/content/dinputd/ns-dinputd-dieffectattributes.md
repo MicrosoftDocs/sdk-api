@@ -45,6 +45,7 @@ api_location:
  - Dinputd.h
 api_name:
  - DIEFFECTATTRIBUTES
+ - LPDIEFFECTATTRIBUTES
 ---
 
 # DIEFFECTATTRIBUTES structure
@@ -203,3 +204,4 @@ One or more coordinate system flags (DIEFF_CARTESIAN, DIEFF_POLAR, DIEFF_SPHERIC
 ## -remarks
 
 For information about the DIEFFECT, DICONSTANTFORCE, DIRAMPFORCE, DIPERIODIC, DICONDITION, DICUSTOMFORCE, and DIENVELOPE structures, see the DirectInput section of the DirectX SDK.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceService.QueryCommand
+ - IMbnDeviceService::QueryCommand
 ---
 
 # IMbnDeviceService::QueryCommand
@@ -124,3 +124,4 @@ This is an asynchronous operation and <b>QueryCommand</b> will return immediatel
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
+

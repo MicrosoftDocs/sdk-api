@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteRenderingParams3.GetRenderingMode1
+ - IDWriteRenderingParams3::GetRenderingMode1
 ---
 
 # IDWriteRenderingParams3::GetRenderingMode1

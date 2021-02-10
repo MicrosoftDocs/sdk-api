@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - scrnsave
  - scrnsave/scrnsave
+api_name:
+ - scrnsave
 ---
 
 # Scrnsave.h header

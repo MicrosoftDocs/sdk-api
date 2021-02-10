@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - GetFileTitleA
  - commdlg/GetFileTitleA
+ - GetFileTitle
+ - commdlg/GetFileTitle
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Comdlg32.dll
  - ext-ms-win-shell-comdlg32-l1-1-1.dll
 api_name:
- - GetFileTitle
  - GetFileTitleA
- - GetFileTitleW
-req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
+ - GetFileTitle
 ---
 
 # GetFileTitleA function
@@ -123,3 +124,4 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 
 <b>Reference</b>
+

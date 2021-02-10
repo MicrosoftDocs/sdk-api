@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflectionType.GetNumInterfaces
+ - ID3D11ShaderReflectionType::GetNumInterfaces
 ---
 
 # ID3D11ShaderReflectionType::GetNumInterfaces
@@ -67,3 +67,4 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectiontype">ID3D11ShaderReflectionType Interface</a>
+

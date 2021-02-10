@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataReader.ReadNextItemCommand
+ - ISpatialAudioMetadataReader::ReadNextItemCommand
 ---
 
 # ISpatialAudioMetadataReader::ReadNextItemCommand
@@ -115,3 +115,4 @@ The process for reading commands and the associated values is recursive. After e
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a>
+

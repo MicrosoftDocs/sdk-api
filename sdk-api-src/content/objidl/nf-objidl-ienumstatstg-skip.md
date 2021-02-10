@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IEnumSTATSTG.Skip
+ - IEnumSTATSTG::Skip
 ---
 
 # IEnumSTATSTG::Skip
@@ -63,3 +63,4 @@ The number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a
 ## -returns
 
 This method supports the following return values:
+

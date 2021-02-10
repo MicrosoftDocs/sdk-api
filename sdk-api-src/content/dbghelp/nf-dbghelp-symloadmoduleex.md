@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymLoadModuleEx
- - SymLoadModuleEx
- - SymLoadModuleExW
 ---
 
 # SymLoadModuleEx function
@@ -167,3 +165,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a>
+

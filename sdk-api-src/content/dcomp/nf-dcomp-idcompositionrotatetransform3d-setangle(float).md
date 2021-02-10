@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D.SetAngle
+ - IDCompositionRotateTransform3D::SetAngle
 ---
 
 # IDCompositionRotateTransform3D::SetAngle(float)
@@ -77,3 +77,4 @@ If the Angle property was previously animated, this method removes the animation
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionrotatetransform3d">IDCompositionRotateTransform3D</a>
+

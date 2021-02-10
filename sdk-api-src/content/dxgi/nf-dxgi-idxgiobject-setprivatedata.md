@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIObject.SetPrivateData
+ - IDXGIObject::SetPrivateData
 ---
 
 # IDXGIObject::SetPrivateData
@@ -105,3 +105,4 @@ You can use <b>WKPDID_D3DDebugObjectName</b> to track down memory leaks and unde
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
+

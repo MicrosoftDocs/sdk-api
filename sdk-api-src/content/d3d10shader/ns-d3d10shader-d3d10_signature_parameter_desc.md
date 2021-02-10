@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
+ - _D3D10_SIGNATURE_PARAMETER_DESC
  - D3D10_SIGNATURE_PARAMETER_DESC
 ---
 
@@ -109,3 +110,4 @@ Get a shader-signature from a shader or an effect by calling APIs such as <a hre
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectContext.SetComplete
+ - IObjectContext::SetComplete
 ---
 
 # IObjectContext::SetComplete
@@ -96,3 +96,4 @@ If an object does not need to maintain its state after it returns from a method 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
+

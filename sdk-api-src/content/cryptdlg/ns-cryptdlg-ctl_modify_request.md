@@ -46,6 +46,8 @@ api_type:
 api_location:
  - CryptDlg.h
 api_name:
+ - _CTL_MODIFY_REQUEST
+ - PCTL_MODIFY_REQUEST
  - CTL_MODIFY_REQUEST
 ---
 
@@ -111,3 +113,4 @@ The error code generated for this operation.
 ## -see-also
 
 <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a>
+

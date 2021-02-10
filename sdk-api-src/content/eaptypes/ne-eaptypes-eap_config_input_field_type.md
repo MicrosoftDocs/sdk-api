@@ -46,6 +46,8 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
+ - _EAP_CONFIG_INPUT_FIELD_TYPE
+ - PEAP_CONFIG_INPUT_FIELD_TYPE
  - EAP_CONFIG_INPUT_FIELD_TYPE
 ---
 

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - SPBEGINF
+ - _SPBEGINF
 ---
 
 # _SPBEGINF enumeration
@@ -82,3 +82,4 @@ Indicates that the UI should not include a <b>Cancel</b> button.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">IActionProgress::Begin</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiItem.get_CreationTime
+ - IFsiItem::get_CreationTime
 ---
 
 # IFsiItem::get_CreationTime
@@ -95,3 +95,4 @@ IMAPI does not support the extended attribute for <i>CreationTime</i>, and as a 
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_creationtime">IFsiItem::put_CreationTime</a>
+

@@ -47,6 +47,8 @@ api_location:
  - winsock.h
 api_name:
  - protoent
+ - PPROTOENT
+ - PROTOENT
 ---
 
 # PROTOENT structure

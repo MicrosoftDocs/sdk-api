@@ -45,6 +45,7 @@ api_location:
  - ResApi.h
 api_name:
  - POST_UPGRADE_VERSION_INFO
+ - PPOST_UPGRADE_VERSION_INFO
 ---
 
 # POST_UPGRADE_VERSION_INFO structure
@@ -85,3 +86,4 @@ Reserved.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
+

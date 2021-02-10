@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo.AddScript
- - IWMHeaderInfo2.AddScript
- - IWMHeaderInfo3.AddScript
+ - IWMHeaderInfo::AddScript
 ---
 
 # IWMHeaderInfo::AddScript
@@ -169,3 +167,4 @@ When using DRM to encrypt a file, no script command can have a presentation time
 
 
 <a href="/windows/desktop/wmformat/using-script-commands">Using Script Commands</a>
+

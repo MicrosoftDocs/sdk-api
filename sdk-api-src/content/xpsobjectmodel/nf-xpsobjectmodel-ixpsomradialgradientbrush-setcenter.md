@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMRadialGradientBrush.SetCenter
+ - IXpsOMRadialGradientBrush::SetCenter
 ---
 
 # IXpsOMRadialGradientBrush::SetCenter
@@ -125,3 +125,4 @@ The following illustration shows the parts of a radial gradient. <i>center</i> s
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+

@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - enclaveapi
  - enclaveapi/enclaveapi
+api_name:
+ - enclaveapi
 ---
 
 # Enclaveapi.h header

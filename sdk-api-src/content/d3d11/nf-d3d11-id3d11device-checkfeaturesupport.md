@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11Device.CheckFeatureSupport
+ - ID3D11Device::CheckFeatureSupport
 ---
 
 # ID3D11Device::CheckFeatureSupport
@@ -92,3 +92,4 @@ Calling CheckFeatureSupport with <i>Feature</i> set to D3D11_FEATURE_FORMAT_SUPP
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
+

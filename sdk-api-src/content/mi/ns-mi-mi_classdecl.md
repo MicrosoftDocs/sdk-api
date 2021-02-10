@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ClassDecl
  - MI_ClassDecl
 ---
 
@@ -145,3 +146,4 @@ Provider functions.
 ### -field owningClass
 
 Owning <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object, if any.
+

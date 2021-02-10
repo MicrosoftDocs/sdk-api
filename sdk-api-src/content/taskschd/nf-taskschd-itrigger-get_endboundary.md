@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITrigger.EndBoundary
- - ITrigger.get_EndBoundary
- - ITrigger.put_EndBoundary
+ - ITrigger::get_EndBoundary
 ---
 
 # ITrigger::get_EndBoundary
@@ -73,3 +71,4 @@ When reading or writing XML for a task, the trigger end boundary is specified in
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.Unadvise
+ - IPortableDeviceService::Unadvise
 ---
 
 # IPortableDeviceService::Unadvise
@@ -95,3 +95,4 @@ A <b>NULL</b> parameter was specified.
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
+

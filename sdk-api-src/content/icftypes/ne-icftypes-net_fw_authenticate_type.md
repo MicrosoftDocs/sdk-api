@@ -44,6 +44,7 @@ api_type:
 api_location:
  - icftypes.h
 api_name:
+ - NET_FW_AUTHENTICATE_TYPE_
  - NET_FW_AUTHENTICATE_TYPE
 ---
 
@@ -79,3 +80,4 @@ The traffic is allowed if it is IPsec-protected with authentication, integrity a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrule3-get_secureflags">INetFwRule3::SecureFlags </a>
+

@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+ - PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER
  - FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 ---
 
@@ -108,3 +110,4 @@ The last implementation that modified the disk. This information is implementati
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info">FSCTL_QUERY_ON_DISK_VOLUME_INFO</a>
+

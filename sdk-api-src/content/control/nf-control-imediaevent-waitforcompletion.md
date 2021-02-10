@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEvent.WaitForCompletion
+ - IMediaEvent::WaitForCompletion
 ---
 
 # IMediaEvent::WaitForCompletion
@@ -133,3 +133,4 @@ If the return value is S_OK, the <i>pEvCode</i> parameter receives the event cod
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
+

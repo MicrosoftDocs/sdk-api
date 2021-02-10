@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IApplicationAssociationRegistration.QueryCurrentDefault
+ - IApplicationAssociationRegistration::QueryCurrentDefault
 ---
 
 # IApplicationAssociationRegistration::QueryCurrentDefault
@@ -96,3 +96,4 @@ The string produced is typically a ProgID matching one of the ProgIDs associated
 <a href="/windows/desktop/shell/default-programs">Default Programs</a>
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a>
+

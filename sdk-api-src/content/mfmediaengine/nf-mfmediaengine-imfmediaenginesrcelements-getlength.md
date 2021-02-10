@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElements.GetLength
+ - IMFMediaEngineSrcElements::GetLength
 ---
 
 # IMFMediaEngineSrcElements::GetLength
@@ -61,3 +61,4 @@ Returns the number of source elements.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements">IMFMediaEngineSrcElements</a>
+

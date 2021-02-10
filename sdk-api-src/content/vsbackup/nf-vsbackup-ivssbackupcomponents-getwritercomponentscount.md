@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.GetWriterComponentsCount
+ - IVssBackupComponents::GetWriterComponentsCount
 ---
 
 # IVssBackupComponents::GetWriterComponentsCount
@@ -138,3 +138,4 @@ The count returned by
 ## -see-also
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+

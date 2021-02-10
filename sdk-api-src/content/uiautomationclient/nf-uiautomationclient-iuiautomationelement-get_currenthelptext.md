@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentHelpText
- - IUIAutomationElement.get_CurrentHelpText
+ - IUIAutomationElement::get_CurrentHelpText
 ---
 
 # IUIAutomationElement::get_CurrentHelpText
@@ -79,3 +78,4 @@ This information is typically obtained from tooltips.
 
 
 <b>Reference</b>
+

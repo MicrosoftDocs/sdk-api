@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialog.SetFileTypeIndex
+ - IFileDialog::SetFileTypeIndex
 ---
 
 # IFileDialog::SetFileTypeIndex
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method must be called before the dialog is showing.
+

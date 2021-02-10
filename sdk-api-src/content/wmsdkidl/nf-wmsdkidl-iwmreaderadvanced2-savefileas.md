@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.SaveFileAs
+ - IWMReaderAdvanced2::SaveFileAs
 ---
 
 # IWMReaderAdvanced2::SaveFileAs
@@ -154,3 +154,4 @@ This method can take some time to complete, and a call can be made to <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
+

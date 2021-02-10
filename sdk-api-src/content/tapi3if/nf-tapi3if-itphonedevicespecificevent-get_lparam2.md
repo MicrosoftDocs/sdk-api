@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhoneDeviceSpecificEvent.get_lParam2
+ - ITPhoneDeviceSpecificEvent::get_lParam2
 ---
 
 # ITPhoneDeviceSpecificEvent::get_lParam2
@@ -110,3 +110,4 @@ The <i>pParam2</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/Tapi/phone-and-address-device-specific-events">Phone and Address Device-specific Events</a>
+

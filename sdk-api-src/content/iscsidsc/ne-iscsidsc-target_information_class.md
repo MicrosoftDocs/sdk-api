@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
+ - PTARGET_INFORMATION_CLASS
  - TARGET_INFORMATION_CLASS
 ---
 
@@ -99,3 +100,4 @@ A value of the <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a>
+

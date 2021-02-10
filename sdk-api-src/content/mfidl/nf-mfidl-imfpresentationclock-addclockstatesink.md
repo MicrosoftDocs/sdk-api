@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationClock.AddClockStateSink
+ - IMFPresentationClock::AddClockStateSink
 ---
 
 # IMFPresentationClock::AddClockStateSink
@@ -92,3 +92,4 @@ Before releasing the object, call <a href="/windows/desktop/api/mfidl/nf-mfidl-i
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

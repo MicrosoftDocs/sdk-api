@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMovieSetup.Unregister
+ - IAMovieSetup::Unregister
 ---
 
 # IAMovieSetup::Unregister
@@ -71,3 +71,4 @@ This method should be implemented to use the <a href="/windows/desktop/api/strmi
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamoviesetup">IAMovieSetup Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGuids.lib
  - PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector.Cancel
+ - IPortableDeviceConnector::Cancel
 ---
 
 # IPortableDeviceConnector::Cancel
@@ -95,3 +95,4 @@ Either the <i>pCallback</i> parameter does not correspond to a pending connect o
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
+

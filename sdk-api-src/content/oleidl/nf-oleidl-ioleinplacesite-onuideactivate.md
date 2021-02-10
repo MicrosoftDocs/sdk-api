@@ -43,8 +43,7 @@ api_location:
  - OleIdl.h
  - browsewm.dll
 api_name:
- - IOleInPlaceSite.OnUIDeactivate
- - IOleInPlaceSiteWindowless.OnUIDeactivate
+ - IOleInPlaceSite::OnUIDeactivate
 ---
 
 # IOleInPlaceSite::OnUIDeactivate
@@ -96,3 +95,4 @@ The object indicates whether it can undo changes through the <i>fUndoable</i> fl
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
+

@@ -43,6 +43,7 @@ api_type:
 api_location:
  - 
 api_name:
+ - _DS_REPL_VALUE_META_DATA_BLOB_EXT
  - DS_REPL_VALUE_META_DATA_BLOB_EXT
 ---
 
@@ -126,3 +127,4 @@ TBD
 
 
 <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_BufferUnderrunFreeDisabled
+ - IDiscFormat2TrackAtOnce::get_BufferUnderrunFreeDisabled
 ---
 
 # IDiscFormat2TrackAtOnce::get_BufferUnderrunFreeDisabled
@@ -89,3 +89,4 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_bufferunderrunfreedisabled">IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled</a>
+

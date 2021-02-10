@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - phoneGetID
- - phoneGetIDA
- - phoneGetIDW
 ---
 
 # phoneGetID function
@@ -97,3 +95,4 @@ A vendor that defines a device-specific media type also needs to define the corr
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
+

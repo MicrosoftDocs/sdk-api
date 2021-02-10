@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - shappmgr
  - shappmgr/shappmgr
+api_name:
+ - shappmgr
 ---
 
 # Shappmgr.h header

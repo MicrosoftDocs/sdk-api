@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF3.FormatEx2
+ - IVdsVolumeMF3::FormatEx2
 ---
 
 # IVdsVolumeMF3::FormatEx2
@@ -346,3 +346,4 @@ BitLocker encryption could not be disabled for the volume.
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_format_option_flags">VDS_FORMAT_OPTION_FLAGS</a>
+

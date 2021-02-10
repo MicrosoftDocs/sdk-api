@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureReference.GetTransformMethod
+ - IOpcSignatureReference::GetTransformMethod
 ---
 
 # IOpcSignatureReference::GetTransformMethod
@@ -134,3 +134,4 @@ The <i>transformMethod</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
+

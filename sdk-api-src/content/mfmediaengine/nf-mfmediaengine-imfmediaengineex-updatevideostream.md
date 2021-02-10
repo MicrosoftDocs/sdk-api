@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.UpdateVideoStream
+ - IMFMediaEngineEx::UpdateVideoStream
 ---
 
 # IMFMediaEngineEx::UpdateVideoStream
@@ -81,3 +81,4 @@ See <a href="/windows/desktop/medfound/video-processor-mft">Video Processor MFT<
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _NETLOGON_INFO_3
+ - PNETLOGON_INFO_3
  - NETLOGON_INFO_3
 ---
 
@@ -170,3 +172,4 @@ Reserved value.
 ## -see-also
 
 <a href="/windows/desktop/api/lmaccess/nf-lmaccess-i_netlogoncontrol2">I_NetLogonControl2</a>
+

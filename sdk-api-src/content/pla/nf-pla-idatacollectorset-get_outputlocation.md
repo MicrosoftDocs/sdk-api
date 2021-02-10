@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.OutputLocation
- - IDataCollectorSet.get_OutputLocation
+ - IDataCollectorSet::get_OutputLocation
 ---
 
 # IDataCollectorSet::get_OutputLocation
@@ -76,3 +75,4 @@ The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectory">IDataCollectorSet::Subdirectory</a>
+

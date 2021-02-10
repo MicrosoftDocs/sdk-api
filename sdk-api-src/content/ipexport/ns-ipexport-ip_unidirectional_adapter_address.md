@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
+ - _IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
+ - PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS
  - IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 ---
 
@@ -87,3 +89,4 @@ The <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure is retrieved by the <a hr
 
 
 <a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
+

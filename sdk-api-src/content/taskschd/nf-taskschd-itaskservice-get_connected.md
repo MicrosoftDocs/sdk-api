@@ -42,8 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskService.Connected
- - ITaskService.get_Connected
+ - ITaskService::get_Connected
 ---
 
 # ITaskService::get_Connected
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
+

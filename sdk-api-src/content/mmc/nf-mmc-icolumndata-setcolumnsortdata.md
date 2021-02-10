@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IColumnData.SetColumnSortData
+ - IColumnData::SetColumnSortData
 ---
 
 # IColumnData::SetColumnSortData
@@ -86,3 +86,4 @@ All data set and retrieved by the methods of the
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetMuteDebugOutput
+ - IDXGIInfoQueue::GetMuteDebugOutput
 ---
 
 # IDXGIInfoQueue::GetMuteDebugOutput
@@ -70,3 +70,4 @@ Returns a Boolean value that specifies whether the debug output is turned on or 
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
+

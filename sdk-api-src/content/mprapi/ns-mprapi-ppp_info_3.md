@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _PPP_INFO_3
  - PPP_INFO_3
 ---
 
@@ -101,3 +102,4 @@ A
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

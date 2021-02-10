@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator.DisplayFrame
+ - IAMVideoAccelerator::DisplayFrame
 ---
 
 # IAMVideoAccelerator::DisplayFrame
@@ -171,3 +171,4 @@ The video decoder calls this method after calling <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
+

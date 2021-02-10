@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuota.QuotaPeakUsageTime
- - IFsrmQuota.get_QuotaPeakUsageTime
+ - IFsrmQuota::get_QuotaPeakUsageTime
 ---
 
 # IFsrmQuota::get_QuotaPeakUsageTime
@@ -86,3 +85,4 @@ For an example, see
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

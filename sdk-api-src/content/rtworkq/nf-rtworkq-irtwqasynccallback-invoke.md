@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTWorkQ.dll
 api_name:
- - IRtwqAsyncCallback.Invoke
+ - IRtwqAsyncCallback::Invoke
 ---
 
 # IRtwqAsyncCallback::Invoke
@@ -87,3 +87,4 @@ Within your implementation of <a href="/windows/desktop/DirectShow/cdeferredcomm
 ## -see-also
 
 <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a>
+

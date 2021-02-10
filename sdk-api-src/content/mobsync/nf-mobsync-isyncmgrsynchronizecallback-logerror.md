@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback.LogError
+ - ISyncMgrSynchronizeCallback::LogError
 ---
 
 # ISyncMgrSynchronizeCallback::LogError
@@ -107,3 +107,4 @@ The error information is logged successfully.
 
 
 <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a>
+

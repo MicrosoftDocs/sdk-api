@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.GetNextItem
- - IConsoleNameSpace2.GetNextItem
+ - IConsoleNameSpace::GetNextItem
 ---
 
 # IConsoleNameSpace::GetNextItem
@@ -82,3 +81,4 @@ If there is no item next to the given item, <b>NULL</b> is returned.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
+

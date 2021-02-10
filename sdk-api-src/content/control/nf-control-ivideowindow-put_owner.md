@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.put_Owner
+ - IVideoWindow::put_Owner
 ---
 
 # IVideoWindow::put_Owner
@@ -109,3 +109,4 @@ Reset the owner to <b>NULL</b> before releasing the Filter Graph Manager. Otherw
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_owner">IVideoWindow::get_Owner</a>
+

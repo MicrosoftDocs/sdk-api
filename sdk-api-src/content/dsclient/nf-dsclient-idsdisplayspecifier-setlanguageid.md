@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.SetLanguageID
+ - IDsDisplaySpecifier::SetLanguageID
 ---
 
 # IDsDisplaySpecifier::SetLanguageID
@@ -78,3 +78,4 @@ During object creation, the <a href="/windows/desktop/api/dsclient/nn-dsclient-i
 
 
 <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
+

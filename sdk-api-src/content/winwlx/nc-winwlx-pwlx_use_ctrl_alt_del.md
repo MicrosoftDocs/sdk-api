@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxUseCtrlAltDel
+ - PWLX_USE_CTRL_ALT_DEL
 ---
 
 # PWLX_USE_CTRL_ALT_DEL callback function
@@ -76,3 +76,4 @@ If GINA uses this function, it is not required to use the
 
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a>
+

@@ -44,9 +44,7 @@ api_location:
  - Strmiids.dll
  - wmp.dll
 api_name:
- - IFilterGraph.Disconnect
- - IGraphBuilder.Disconnect
- - IGraphBuilder.Disconnect
+ - IFilterGraph::Disconnect
 ---
 
 # IFilterGraph::Disconnect
@@ -141,3 +139,4 @@ To remove a filter from the filter graph entirely, call the <a href="/windows/de
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo.GetAssessmentInfo
+ - IProvideWinSATResultsInfo::GetAssessmentInfo
 ---
 
 # IProvideWinSATResultsInfo::GetAssessmentInfo
@@ -71,3 +71,4 @@ Returns S_OK if successful.
 ## -see-also
 
 <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo">IProvideWinSATResultsInfo</a>
+

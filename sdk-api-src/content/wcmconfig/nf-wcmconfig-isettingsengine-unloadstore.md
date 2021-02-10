@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsEngine.UnloadStore
+ - ISettingsEngine::UnloadStore
 ---
 
 # ISettingsEngine::UnloadStore
@@ -65,3 +65,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. If there ar
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
+

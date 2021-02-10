@@ -32,6 +32,7 @@ api_location:
  - wlanapi.h
 api_name:
  - _DOT11_RADIO_STATE
+ - PDOT11_RADIO_STATE
  - DOT11_RADIO_STATE
 ---
 
@@ -61,3 +62,4 @@ The radio is off.
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a>
+

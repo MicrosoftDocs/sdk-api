@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix.Multiply
+ - Matrix::Multiply
 ---
 
 # Matrix::Multiply
@@ -116,3 +116,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

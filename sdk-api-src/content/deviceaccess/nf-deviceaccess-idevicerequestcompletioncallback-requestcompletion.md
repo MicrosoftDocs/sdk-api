@@ -42,7 +42,7 @@ api_type:
 api_location:
  - deviceaccess.h
 api_name:
- - IDeviceRequestCompletionCallback.RequestCompletion
+ - IDeviceRequestCompletionCallback::RequestCompletion
 ---
 
 # IDeviceRequestCompletionCallback::RequestCompletion
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback">IDeviceRequestCompletionCallback</a>
+

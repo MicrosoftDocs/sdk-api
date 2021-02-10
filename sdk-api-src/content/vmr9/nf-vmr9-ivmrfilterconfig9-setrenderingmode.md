@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRFilterConfig9.SetRenderingMode
+ - IVMRFilterConfig9::SetRenderingMode
 ---
 
 # IVMRFilterConfig9::SetRenderingMode
@@ -120,3 +120,4 @@ The mode cannot be changed after any pin has been connected. Also, the mode cann
 
 
 <a href="/windows/desktop/DirectShow/vmr-modes-of-operation">VMR Modes of Operation</a>
+

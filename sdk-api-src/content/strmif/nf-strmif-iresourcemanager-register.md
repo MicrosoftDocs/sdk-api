@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceManager.Register
+ - IResourceManager::Register
 ---
 
 # IResourceManager::Register
@@ -144,3 +144,4 @@ This method registers a named resource, which can contain a number of resources,
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
+

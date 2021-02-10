@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_publication_scope_tag
  - PEER_PUBLICATION_SCOPE
 ---
 
@@ -75,3 +76,4 @@ The data is published to all peers.
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
+

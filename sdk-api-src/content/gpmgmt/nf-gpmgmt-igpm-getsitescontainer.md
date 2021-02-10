@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM.GetSitesContainer
- - GPM.GetSitesContainer
+ - IGPM::GetSitesContainer
 ---
 
 # IGPM::GetSitesContainer
@@ -95,3 +94,4 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsitescontainer">IGPMSitesContainer</a>
+

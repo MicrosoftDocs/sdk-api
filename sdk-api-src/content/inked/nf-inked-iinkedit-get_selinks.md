@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.SelInks
- - IInkEdit.get_SelInks
- - IInkEdit.put_SelInks
- - InkEdit.get_SelInks
- - InkEdit.put_SelInks
+ - IInkEdit::get_SelInks
 ---
 
 # IInkEdit::get_SelInks
@@ -90,3 +86,4 @@ This property is run time only.
 
 
 <a href="/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize Method [InkEdit Control]</a>
+

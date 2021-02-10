@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsBackup.h
 api_name:
- - IVssBackupComponentsEx2.FastRecovery
+ - IVssBackupComponentsEx2::FastRecovery
 ---
 
 # IVssBackupComponentsEx2::FastRecovery

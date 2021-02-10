@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - NEWTEXTMETRIC
+ - tagNEWTEXTMETRICA
+ - PNEWTEXTMETRICA
  - NEWTEXTMETRICA
- - NEWTEXTMETRICW
 ---
 
 # NEWTEXTMETRICA structure
@@ -249,3 +249,4 @@ The sizes in the <b>NEWTEXTMETRIC</b> structure are typically specified in logic
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
+ - _TASK_TRIGGER_TYPE2
  - TASK_TRIGGER_TYPE2
 ---
 
@@ -109,3 +110,4 @@ Triggers the task when a specific user session state changes.  For more informat
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
+

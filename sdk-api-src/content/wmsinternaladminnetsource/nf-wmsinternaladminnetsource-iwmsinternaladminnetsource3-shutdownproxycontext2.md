@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource3.ShutdownProxyContext2
+ - IWMSInternalAdminNetSource3::ShutdownProxyContext2
 ---
 
 # IWMSInternalAdminNetSource3::ShutdownProxyContext2
@@ -68,3 +68,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource3">IWMSInternalAdminNetSource3 Interface</a>
+

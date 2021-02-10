@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer.put_MixerBitmap
+ - IMSVidVideoRenderer::put_MixerBitmap
 ---
 
 # IMSVidVideoRenderer::put_MixerBitmap
@@ -89,3 +89,4 @@ The VMR alpha-blends the static bitmap image onto the video image. For informati
 
 
 <a href="/previous-versions/windows/desktop/mstv/mixing-an-image-onto-the-video-window-in-c-">Mixing an Image Onto the Video Window in C++</a>
+

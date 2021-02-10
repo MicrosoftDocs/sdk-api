@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_PACK_NOTIFICATION
  - VDS_PACK_NOTIFICATION
 ---
 
@@ -136,3 +137,4 @@ To get the pack object, use the <a href="/windows/desktop/api/vds/nf-vds-ivdsser
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
+

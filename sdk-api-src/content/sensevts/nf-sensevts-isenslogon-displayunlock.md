@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon.DisplayUnLock
+ - ISensLogon::DisplayUnlock
 ---
 
 # ISensLogon::DisplayUnlock
@@ -115,3 +115,4 @@ SENS calls this method to notify an application that the screen display is unloc
 
 
 <a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-stopscreensaver">ISensLogon::StopScreenSaver</a>
+

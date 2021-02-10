@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsecedit.dll
 api_name:
- - ISceSvcAttachmentPersistInfo.IsDirty
+ - ISceSvcAttachmentPersistInfo::IsDirty
 ---
 
 # ISceSvcAttachmentPersistInfo::IsDirty
@@ -69,3 +69,4 @@ The return value is an HRESULT. A value of S_OK indicates the method was success
 
 
 <a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">ISceSvcAttachmentPersistInfo::Save</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.Display
- - IX509EnrollmentStatus.get_Display
- - IX509EnrollmentStatus.put_Display
+ - IX509EnrollmentStatus::put_Display
 ---
 
 # IX509EnrollmentStatus::put_Display
@@ -65,3 +63,4 @@ This property is used by the Certificate Enrollment wizard to determine whether 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
+

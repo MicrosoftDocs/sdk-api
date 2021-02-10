@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagENHMETARECORD
+ - PENHMETARECORD
  - ENHMETARECORD
 ---
 
@@ -81,3 +83,4 @@ An array of parameters passed to the GDI function identified by the record.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+

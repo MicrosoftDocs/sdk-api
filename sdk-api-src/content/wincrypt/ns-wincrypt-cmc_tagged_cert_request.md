@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMC_TAGGED_CERT_REQUEST
+ - PCMC_TAGGED_CERT_REQUEST
  - CMC_TAGGED_CERT_REQUEST
 ---
 
@@ -66,3 +68,4 @@ The <b>CMC_TAGGED_CERT_REQUEST</b> structure is used in the
 ### -field SignedCertRequest
 
 A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains a signed request for a certificate.
+

@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - objidl
  - objidl/objidl
+api_name:
+ - objidl
 ---
 
 # Objidl.h header

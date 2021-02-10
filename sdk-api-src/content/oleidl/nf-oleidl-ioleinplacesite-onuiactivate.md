@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceSite.OnUIActivate
+ - IOleInPlaceSite::OnUIActivate
 ---
 
 # IOleInPlaceSite::OnUIActivate
@@ -94,3 +94,4 @@ If there is already an object active in place in the same document, the containe
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
+

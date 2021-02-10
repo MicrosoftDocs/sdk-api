@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.BreakSnapshotSet
+ - IVssBackupComponents::BreakSnapshotSet
 ---
 
 # IVssBackupComponents::BreakSnapshotSet
@@ -169,3 +169,4 @@ Shadow copies of volumes "broken" with
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">IVssBackupComponents::DeleteSnapshots</a>
+

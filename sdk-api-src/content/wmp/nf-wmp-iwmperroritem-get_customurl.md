@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPErrorItem.get_customUrl
+ - IWMPErrorItem::get_customUrl
 ---
 
 # IWMPErrorItem::get_customUrl
@@ -87,3 +87,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>
+

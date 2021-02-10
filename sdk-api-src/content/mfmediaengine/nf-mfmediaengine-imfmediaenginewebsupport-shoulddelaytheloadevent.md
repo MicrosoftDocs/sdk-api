@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent
+ - IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent
 ---
 
 # IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent
@@ -61,3 +61,4 @@ True if connection to Web audio should delay the page's load event; otherwise, f
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginewebsupport">IMFMediaEngineWebSupport</a>
+

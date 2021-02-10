@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreen.MatchesSourceTemplate
- - IFsrmFileScreen.get_MatchesSourceTemplate
+ - IFsrmFileScreen::get_MatchesSourceTemplate
 ---
 
 # IFsrmFileScreen::get_MatchesSourceTemplate
@@ -69,3 +68,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
+

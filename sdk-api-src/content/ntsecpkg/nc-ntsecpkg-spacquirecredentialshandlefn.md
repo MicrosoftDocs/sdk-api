@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpAcquireCredentialsHandle
+ - SpAcquireCredentialsHandleFn
 ---
 
 # SpAcquireCredentialsHandleFn callback function
@@ -106,7 +106,6 @@ Optional. Pointer to supplemental authentication data.
 ### -param GetKeyFunciton [in]
 
 Pointer to a function in the caller's address space that generates <a href="/windows/desktop/SecGloss/s-gly">session keys</a>.
-
 
 ### -param GetKeyArgument [in]
 
@@ -180,3 +179,4 @@ A pointer to the <b>SpAcquireCredentialsHandle</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
+

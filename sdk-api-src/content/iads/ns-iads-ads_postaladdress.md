@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0006
+ - PADS_POSTALADDRESS
  - ADS_POSTALADDRESS
 ---
 
@@ -65,3 +67,4 @@ An array of six null-terminated Unicode strings that represent the postal addres
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
+

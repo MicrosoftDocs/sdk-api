@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder2.GetDetailsEx
+ - IShellFolder2::GetDetailsEx
 ---
 
 # IShellFolder2::GetDetailsEx
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This function is a more robust version of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof">IShellFolder2::GetDetailsOf</a>. It provides access to the information that is displayed in the Windows Explorer Details view of a Shell folder. The primary difference is that <b>GetDetailsEx</b> allows you to identify the column with an <a href="/windows/desktop/shell/objects">FMTID</a> and PID structure instead of having to first determine the column index.
+

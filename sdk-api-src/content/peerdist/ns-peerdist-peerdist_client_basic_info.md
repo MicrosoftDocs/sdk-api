@@ -46,6 +46,8 @@ api_type:
 api_location:
  - peerdist.h
 api_name:
+ - _PEERDIST_CLIENT_BASIC_INFO
+ - PPEERDIST_CLIENT_BASIC_INFO
  - PEERDIST_CLIENT_BASIC_INFO
 ---
 
@@ -71,3 +73,4 @@ If true,  content that cannot be retrieved from the Peer Distribution APIs may s
 ## -see-also
 
 <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientgetinformationbyhandle">PeerDistClientGetInformationHandle</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Add_ID_ExW
  - cfgmgr32/CM_Add_ID_ExW
+ - CM_Add_ID_Ex
+ - cfgmgr32/CM_Add_ID_Ex
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Add_ID_Ex
  - CM_Add_ID_ExW
+ - CM_Add_ID_Ex
 ---
 
 # CM_Add_ID_ExW function
@@ -129,3 +131,4 @@ Functionality to access remote machines has been removed in Windows 8 and Windo
 
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>
+

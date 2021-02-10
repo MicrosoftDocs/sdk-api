@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost.TxGetClientRect
+ - ITextHost::TxGetClientRect
 ---
 
 # ITextHost::TxGetClientRect
@@ -116,3 +116,4 @@ The client rectangle is expressed in client coordinates of the containing window
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

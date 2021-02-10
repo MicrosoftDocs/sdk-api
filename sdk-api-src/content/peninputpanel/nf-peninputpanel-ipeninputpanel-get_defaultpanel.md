@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel.DefaultPanel
- - IPenInputPanel.get_DefaultPanel
- - IPenInputPanel.put_DefaultPanel
- - PenInputPanel.get_DefaultPanel
- - PenInputPanel.put_DefaultPanel
+ - IPenInputPanel::get_DefaultPanel
 ---
 
 # IPenInputPanel::get_DefaultPanel
@@ -94,3 +90,4 @@ If you re-attach the <a href="/windows/desktop/tablet/peninputpanel-class">PenIn
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
+

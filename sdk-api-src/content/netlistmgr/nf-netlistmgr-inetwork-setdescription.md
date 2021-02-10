@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetwork.SetDescription
+ - INetwork::SetDescription
 ---
 
 # INetwork::SetDescription
@@ -98,3 +98,4 @@ The maximum length for a network description is 1024 characters.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
+

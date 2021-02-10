@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.SetBlend
+ - LinearGradientBrush::SetBlend
 ---
 
 # LinearGradientBrush::SetBlend
@@ -145,3 +145,4 @@ VOID Example_SetBlend(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+

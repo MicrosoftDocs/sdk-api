@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject.LDAPUrl
+ - IWABObject::LDAPUrl
 ---
 
 # IWABObject::LDAPUrl
@@ -141,3 +141,4 @@ To pass in a Unicode LDAP 
 	URL pointer to a <b>LPSTR</b> and pass it into 
 	this function. Mark <i>ulFlags</i> to include <b>MAPI_UNICODE</b>, and the WAB will cast the 
 	URL back to an <b>LPWSTR</b> prior to using it.
+

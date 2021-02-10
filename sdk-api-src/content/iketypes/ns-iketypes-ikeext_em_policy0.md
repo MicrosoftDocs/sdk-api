@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_EM_POLICY0_
  - IKEEXT_EM_POLICY0
 ---
 
@@ -88,3 +89,4 @@ Applies only to AuthIP.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SetupDiGetClassDevsW
  - setupapi/SetupDiGetClassDevsW
+ - SetupDiGetClassDevs
+ - setupapi/SetupDiGetClassDevs
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +48,8 @@ api_location:
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupDiGetClassDevs
  - SetupDiGetClassDevsW
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
+ - SetupDiGetClassDevs
 ---
 
 # SetupDiGetClassDevsW function
@@ -316,3 +318,4 @@ if (DeviceInfoSet) {
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsexa">SetupDiGetClassDevsEx</a>
+

@@ -9,6 +9,8 @@ tech.root: xps
 f1_keywords:
  - xpsdigitalsignature
  - xpsdigitalsignature/xpsdigitalsignature
+api_name:
+ - xpsdigitalsignature
 ---
 
 # Xpsdigitalsignature.h header

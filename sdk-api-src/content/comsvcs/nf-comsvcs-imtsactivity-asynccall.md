@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IMTSActivity.AsyncCall
+ - IMTSActivity::AsyncCall
 ---
 
 # IMTSActivity::AsyncCall
@@ -72,3 +72,4 @@ A return value of S_OK indicates that the batch work was accepted by the activit
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsactivity">IMTSActivity</a>
+

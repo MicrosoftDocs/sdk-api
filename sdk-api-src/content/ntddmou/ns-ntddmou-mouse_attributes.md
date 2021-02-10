@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ntddmou.h
 api_name:
+ - _MOUSE_ATTRIBUTES
+ - PMOUSE_ATTRIBUTES
  - MOUSE_ATTRIBUTES
 ---
 
@@ -178,3 +180,4 @@ This structure is used with an <a href="/windows/desktop/api/ntddmou/ni-ntddmou-
 ## -see-also
 
 <a href="/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>
+

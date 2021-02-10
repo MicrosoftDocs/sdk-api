@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPFolderMonitorServices.get_addedFilesCount
+ - IWMPFolderMonitorServices::get_addedFilesCount
 ---
 
 # IWMPFolderMonitorServices::get_addedFilesCount
@@ -107,3 +107,4 @@ A scanning operation consists of two phases: scanning and updating. The count of
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpfolderscanstate">WMPFolderScanState</a>
+

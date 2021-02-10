@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - loadperf
  - loadperf/loadperf
+api_name:
+ - loadperf
 ---
 
 # Loadperf.h header

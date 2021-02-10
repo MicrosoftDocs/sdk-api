@@ -39,6 +39,9 @@ api_location:
  - dxcore.dll
 api_name:
  - DXCoreAdapterProperty
+f1_keywords:
+ - DXCoreAdapterProperty
+ - dxcore_interface/DXCoreAdapterProperty
 ---
 
 ## -description
@@ -136,3 +139,4 @@ The <em>IsDetachable</em> adapter property has type <b>bool</b>.
 ## -see-also
 
 [IDXCoreAdapter::GetPropertySize](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize), [IDXCoreAdapter::GetProperty](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

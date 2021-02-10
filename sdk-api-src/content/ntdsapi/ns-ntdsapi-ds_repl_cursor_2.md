@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - _DS_REPL_CURSOR_2
  - DS_REPL_CURSOR_2
 ---
 
@@ -84,3 +85,4 @@ Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILE
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+

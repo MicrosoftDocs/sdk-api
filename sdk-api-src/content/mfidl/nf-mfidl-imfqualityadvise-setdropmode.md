@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFQualityAdvise.SetDropMode
+ - IMFQualityAdvise::SetDropMode
 ---
 
 # IMFQualityAdvise::SetDropMode
@@ -99,3 +99,4 @@ If this method is called on a media source, the media source might switch betwee
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
+

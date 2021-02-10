@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.ProviderName
- - ICEnroll4.get_ProviderName
- - ICEnroll4.put_ProviderName
- - ICEnroll3.ProviderName
- - ICEnroll3.get_ProviderName
- - ICEnroll3.put_ProviderName
- - ICEnroll2.ProviderName
- - ICEnroll2.get_ProviderName
- - ICEnroll2.put_ProviderName
- - ICEnroll.ProviderName
- - ICEnroll.get_ProviderName
- - ICEnroll.put_ProviderName
- - CEnroll.ProviderName
+ - ICEnroll::get_ProviderName
 ---
 
 # ICEnroll::get_ProviderName
@@ -122,3 +110,4 @@ else
 if ( NULL != bstrMyProvName )
     SysFreeString( bstrMyProvName );
 ```
+

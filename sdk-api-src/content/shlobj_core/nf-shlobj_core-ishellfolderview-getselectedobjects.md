@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView.GetSelectedObjects
+ - IShellFolderView::GetSelectedObjects
 ---
 
 # IShellFolderView::GetSelectedObjects
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method provides constant pointers to internal data structures. The calling application is expected to act on them immediately and not cache them.
+

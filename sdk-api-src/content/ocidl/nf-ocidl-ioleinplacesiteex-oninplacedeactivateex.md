@@ -43,8 +43,7 @@ api_location:
  - OCIdl.h
  - wmp.dll
 api_name:
- - IOleInPlaceSiteEx.OnInPlaceDeactivateEx
- - IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx
+ - IOleInPlaceSiteEx::OnInPlaceDeactivateEx
 ---
 
 # IOleInPlaceSiteEx::OnInPlaceDeactivateEx
@@ -93,3 +92,4 @@ This method replaces <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaces
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx</a>
+

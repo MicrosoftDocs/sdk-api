@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSource.InitializeItemList
+ - IPhotoAcquireSource::InitializeItemList
 ---
 
 # IPhotoAcquireSource::InitializeItemList
@@ -117,3 +117,4 @@ The first time the item list is initialized—either implicitly through <a href=
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
+

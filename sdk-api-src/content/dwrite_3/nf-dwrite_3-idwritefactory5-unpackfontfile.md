@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFactory5.UnpackFontFile
+ - IDWriteFactory5::UnpackFontFile
 ---
 
 # IDWriteFactory5::UnpackFontFile

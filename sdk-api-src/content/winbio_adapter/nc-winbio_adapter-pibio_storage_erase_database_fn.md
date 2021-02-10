@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - StorageAdapterEraseDatabase
+ - PIBIO_STORAGE_ERASE_DATABASE_FN
 ---
 
 # PIBIO_STORAGE_ERASE_DATABASE_FN callback function
@@ -140,3 +140,4 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a>
+

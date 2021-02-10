@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendTaskPad.GetListPadInfo
+ - IExtendTaskPad::GetListPadInfo
 ---
 
 # IExtendTaskPad::GetListPadInfo
@@ -78,3 +78,4 @@ If the snap-in is not a list-view taskpad, this method is not called by MMC.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
+

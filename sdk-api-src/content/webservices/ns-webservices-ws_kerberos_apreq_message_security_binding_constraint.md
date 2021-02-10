@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT
  - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT
 ---
 
@@ -69,3 +70,4 @@ There are no binding-specific properties are defined for this binding constraint
 
 This specifies how the security token corresponding to this security 
                     binding should be attached to a message.
+

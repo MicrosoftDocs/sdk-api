@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComActivityEvents.OnActivityTimeout
+ - IComActivityEvents::OnActivityTimeout
 ---
 
 # IComActivityEvents::OnActivityTimeout
@@ -81,3 +81,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomactivityevents">IComActivityEvents</a>
+

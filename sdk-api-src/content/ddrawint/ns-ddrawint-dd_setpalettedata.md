@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_SETPALETTEDATA
+ - PDD_SETPALETTEDATA
  - DD_SETPALETTEDATA
 ---
 
@@ -85,3 +87,4 @@ Indicates whether to attach this palette to the surface.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setpalette">DdSetPalette</a>
+

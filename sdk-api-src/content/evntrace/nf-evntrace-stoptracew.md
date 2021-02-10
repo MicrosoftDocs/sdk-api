@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StopTraceW
  - evntrace/StopTraceW
+ - StopTrace
+ - evntrace/StopTrace
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-Eventing-Legacy-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - StopTrace
- - StopTraceA
  - StopTraceW
+ - StopTrace
 ---
 
 # StopTraceW function
@@ -178,3 +179,4 @@ Note that it is not safe to stop a trace session from DllMain.
 
 
 <a href="/windows/desktop/ETW/starttrace">StartTrace</a>
+

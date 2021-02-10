@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - powersetting
  - powersetting/powersetting
+api_name:
+ - powersetting
 ---
 
 # Powersetting.h header

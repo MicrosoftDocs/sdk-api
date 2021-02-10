@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.GetText
+ - ITfRange::GetText
 ---
 
 # ITfRange::GetText
@@ -177,3 +177,4 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 
 
 <a href="/windows/desktop/TSF/text-stores">Text Stores</a>
+

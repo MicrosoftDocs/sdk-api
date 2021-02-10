@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskFolder.CreateFolder
+ - ITaskFolder::CreateFolder
 ---
 
 # ITaskFolder::CreateFolder
@@ -88,3 +88,4 @@ Specifying an invalid security descriptor in the <i>sddl</i> parameter will caus
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

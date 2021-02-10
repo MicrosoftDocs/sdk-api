@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo.GetPlayerParentalLevel
+ - IDvdInfo::GetPlayerParentalLevel
 ---
 
 # IDvdInfo::GetPlayerParentalLevel
@@ -136,3 +136,4 @@ For the country/region codes, see ISO3166 : Alpha-2 Code.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
+

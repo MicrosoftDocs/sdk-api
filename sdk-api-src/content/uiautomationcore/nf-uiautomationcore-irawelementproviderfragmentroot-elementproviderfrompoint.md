@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderFragmentRoot.ElementProviderFromPoint
+ - IRawElementProviderFragmentRoot::ElementProviderFromPoint
 ---
 
 # IRawElementProviderFragmentRoot::ElementProviderFromPoint
@@ -126,3 +126,4 @@ HRESULT STDMETHODCALLTYPE ListProvider::ElementProviderFromPoint(double x, doubl
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>
+

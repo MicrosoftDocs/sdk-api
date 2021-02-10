@@ -50,7 +50,6 @@ api_location:
  - ntdll.dll
 api_name:
  - GetCurrentProcessorNumber
- - RtlGetCurrentProcessorNumber
 ---
 
 # GetCurrentProcessorNumber function
@@ -83,3 +82,4 @@ On systems with more than 64 logical processors, the <b>GetCurrentProcessorNumbe
 
 
 <a href="/windows/desktop/ProcThread/child-processes">Processes</a>
+

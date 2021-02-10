@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionCommand.Account
- - IFsrmActionCommand.get_Account
- - IFsrmActionCommand.put_Account
+ - IFsrmActionCommand::put_Account
 ---
 
 # IFsrmActionCommand::put_Account
@@ -81,3 +79,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
+

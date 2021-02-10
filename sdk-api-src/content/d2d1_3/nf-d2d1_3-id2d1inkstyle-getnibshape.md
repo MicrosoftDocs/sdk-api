@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - ID2D1InkStyle.GetNibShape
+ - ID2D1InkStyle::GetNibShape
 ---
 
 # ID2D1InkStyle::GetNibShape
@@ -63,3 +63,4 @@ Returns the pre-transform nib shape for this style.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a>
+

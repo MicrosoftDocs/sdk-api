@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
+ - tagCRYPTUI_INITDIALOG_STRUCT
+ - PCRYPTUI_INITDIALOG_STRUCT
  - CRYPTUI_INITDIALOG_STRUCT
 ---
 
@@ -74,3 +76,4 @@ A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context
 
 
 <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcertificatea">CryptUIDlgViewCertificate</a>
+

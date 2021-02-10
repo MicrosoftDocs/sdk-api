@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateUrlCacheEntryA
  - wininet/CreateUrlCacheEntryA
+ - CreateUrlCacheEntry
+ - wininet/CreateUrlCacheEntry
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - CreateUrlCacheEntry
  - CreateUrlCacheEntryA
- - CreateUrlCacheEntryW
+ - CreateUrlCacheEntry
 ---
 
 # CreateUrlCacheEntryA function
@@ -123,3 +124,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
+

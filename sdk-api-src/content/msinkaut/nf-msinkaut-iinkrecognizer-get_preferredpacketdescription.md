@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizer.PreferredPacketDescription
- - IInkRecognizer.get_PreferredPacketDescription
- - IInkRecognizer.get_PreferredPacketDescription
+ - IInkRecognizer::get_PreferredPacketDescription
 ---
 
 # IInkRecognizer::get_PreferredPacketDescription
@@ -74,3 +72,4 @@ This property lists the packet properties that the recognizer uses to complete r
 
 
 <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcGeneratorParameters.Serialize
+ - IRdcGeneratorParameters::Serialize
 ---
 
 # IRdcGeneratorParameters::Serialize
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
+

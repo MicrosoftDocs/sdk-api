@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage
- - IX509ExtensionEnhancedKeyUsage.get_EnhancedKeyUsage
+ - IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage
 ---
 
 # IX509ExtensionEnhancedKeyUsage::get_EnhancedKeyUsage
@@ -64,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionen
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionenhancedkeyusage">IX509ExtensionEnhancedKeyUsage</a>
+

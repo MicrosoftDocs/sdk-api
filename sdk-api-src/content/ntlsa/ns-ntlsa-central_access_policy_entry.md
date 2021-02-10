@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntlsa.h
 api_name:
+ - _CENTRAL_ACCESS_POLICY_ENTRY
+ - PCENTRAL_ACCESS_POLICY_ENTRY
  - CENTRAL_ACCESS_POLICY_ENTRY
 ---
 

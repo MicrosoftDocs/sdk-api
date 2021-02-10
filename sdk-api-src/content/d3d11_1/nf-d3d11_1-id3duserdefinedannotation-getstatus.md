@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3DUserDefinedAnnotation.GetStatus
+ - ID3DUserDefinedAnnotation::GetStatus
 ---
 
 # ID3DUserDefinedAnnotation::GetStatus
@@ -92,3 +92,4 @@ The following code shows how to use <b>GetStatus</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>
+

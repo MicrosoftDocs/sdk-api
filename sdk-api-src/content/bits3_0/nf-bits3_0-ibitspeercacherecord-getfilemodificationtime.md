@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheRecord.GetFileModificationTime
+ - IBitsPeerCacheRecord::GetFileModificationTime
 ---
 
 # IBitsPeerCacheRecord::GetFileModificationTime
@@ -85,3 +85,4 @@ Success
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
+

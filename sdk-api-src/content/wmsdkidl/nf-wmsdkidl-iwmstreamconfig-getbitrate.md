@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig.GetBitrate
+ - IWMStreamConfig::GetBitrate
 ---
 
 # IWMStreamConfig::GetBitrate
@@ -101,3 +101,4 @@ The <i>pdwbitrate</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbitrate">IWMStreamConfig::SetBitrate</a>
+

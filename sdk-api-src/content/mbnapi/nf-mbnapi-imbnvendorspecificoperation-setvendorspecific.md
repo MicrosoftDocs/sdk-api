@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnVendorSpecificOperation.SetVendorSpecific
+ - IMbnVendorSpecificOperation::SetVendorSpecific
 ---
 
 # IMbnVendorSpecificOperation::SetVendorSpecific
@@ -82,3 +82,4 @@ Refer to  the Mobile Broadband Driver Model for more information about vendor sp
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificoperation">IMbnVendorSpecificOperation</a>
+

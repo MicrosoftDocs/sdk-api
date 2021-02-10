@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterQueryPreferredFormat
+ - PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN
 ---
 
 # PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback function
@@ -151,3 +151,4 @@ cleanup:
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation.IsHardwareDevice
- - ICspInformation.get_IsHardwareDevice
+ - ICspInformation::get_IsHardwareDevice
 ---
 
 # ICspInformation::get_IsHardwareDevice
@@ -70,3 +69,4 @@ Both of these providers also return true for the <a href="/windows/desktop/api/c
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+

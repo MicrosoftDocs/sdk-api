@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineGetCallInfoA
  - tapi/lineGetCallInfoA
+ - lineGetCallInfo
+ - tapi/lineGetCallInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGetCallInfo
  - lineGetCallInfoA
- - lineGetCallInfoW
+ - lineGetCallInfo
 ---
 
 # lineGetCallInfoA function
@@ -106,3 +107,4 @@ A separate
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+

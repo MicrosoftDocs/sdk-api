@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbOrchestration.PrepareTargetForConnect
+ - ITsSbOrchestration::PrepareTargetForConnect
 ---
 
 # ITsSbOrchestration::PrepareTargetForConnect
@@ -83,3 +83,4 @@ include waking a virtual machine and determining its IP address. Your implementa
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssborchestrationnotifysink">ITsSbOrchestrationNotifySink</a>
+

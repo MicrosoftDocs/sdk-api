@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionSkewTransform.SetAngleX
+ - IDCompositionSkewTransform::SetAngleX
 ---
 
 # IDCompositionSkewTransform::SetAngleX(float)
@@ -79,3 +79,4 @@ If the AngleX property was previously animated, this method removes the animatio
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley(float)">IDCompositionSkewTransform::SetAngleY</a>
+

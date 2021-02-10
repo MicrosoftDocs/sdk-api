@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPort.Protocol
- - INetFwOpenPort.get_Protocol
- - INetFwOpenPort.put_Protocol
+ - INetFwOpenPort::put_Protocol
 ---
 
 # INetFwOpenPort::put_Protocol
@@ -72,3 +70,4 @@ The default protocol type is TCP for new ports.
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>
+

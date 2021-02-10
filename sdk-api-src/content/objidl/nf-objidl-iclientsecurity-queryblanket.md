@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IClientSecurity.QueryBlanket
+ - IClientSecurity::QueryBlanket
 ---
 
 # IClientSecurity::QueryBlanket
@@ -149,3 +149,4 @@ In <i>pProxy</i>, you pass an interface pointer. However, you cannot pass a poin
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>
+

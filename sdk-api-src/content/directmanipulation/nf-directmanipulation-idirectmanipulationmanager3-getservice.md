@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationManager3.GetService
+ - IDirectManipulationManager3::GetService
 ---
 
 # IDirectManipulationManager3::GetService
@@ -73,3 +73,4 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager3">IDirectManipulationManager3</a>
+

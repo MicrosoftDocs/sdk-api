@@ -44,7 +44,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - CLUSPROP_MULTI_SZ
+ - CLUSPROP_SZ
+ - PCLUSPROP_SZ
 ---
 
 ## -description
@@ -72,3 +73,4 @@ Multiple null-terminated Unicode strings with the last string followed by an add
 <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

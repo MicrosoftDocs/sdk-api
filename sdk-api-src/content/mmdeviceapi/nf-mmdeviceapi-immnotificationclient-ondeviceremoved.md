@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMNotificationClient.OnDeviceRemoved
+ - IMMNotificationClient::OnDeviceRemoved
 ---
 
 # IMMNotificationClient::OnDeviceRemoved
@@ -69,3 +69,4 @@ For a code example that implements the <b>OnDeviceRemoved</b> method, see <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
+

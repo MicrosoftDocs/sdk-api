@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmError.get_ModuleKeys
+ - IMsmError::get_ModuleKeys
 ---
 
 # IMsmError::get_ModuleKeys
@@ -102,3 +102,4 @@ The collection is empty if the values do not apply to the type of the error. You
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.FaxNumber
- - IFaxJob.get_FaxNumber
+ - IFaxJob::get_FaxNumber
 ---
 
 # IFaxJob::get_FaxNumber
@@ -82,3 +81,4 @@ A fax number is only available for faxes that have a <a href="/previous-versions
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IUserNotification2.PlaySound
+ - IUserNotification2::PlaySound
 ---
 
 # IUserNotification2::PlaySound
@@ -83,3 +83,4 @@ If the specified sound cannot be found, <b>IUserNotification2::PlaySound</b> use
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-playsound">PlaySound</a>
+

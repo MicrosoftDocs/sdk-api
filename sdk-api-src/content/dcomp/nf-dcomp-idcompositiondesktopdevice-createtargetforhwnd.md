@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dcomp.h
 api_name:
- - IDCompositionDesktopDevice.CreateTargetForHwnd
+ - IDCompositionDesktopDevice::CreateTargetForHwnd
 ---
 
 # IDCompositionDesktopDevice::CreateTargetForHwnd
@@ -95,3 +95,4 @@ At most, only two composition targets can be created for each window in the syst
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>
+

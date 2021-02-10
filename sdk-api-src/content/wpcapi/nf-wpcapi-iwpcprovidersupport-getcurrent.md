@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCProviderSupport.GetCurrent
+ - IWPCProviderSupport::GetCurrent
 ---
 
 # IWPCProviderSupport::GetCurrent
@@ -89,3 +89,4 @@ The <i>pguidProvider</i> parameter will be a null GUID if there is no currently 
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcprovidersupport">IWPCProviderSupport</a>
+

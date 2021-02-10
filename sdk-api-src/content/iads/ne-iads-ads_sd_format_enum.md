@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0088_0002
  - ADS_SD_FORMAT_ENUM
 ---
 
@@ -87,3 +88,4 @@ Indicates that the security descriptor is to be converted to the hex encoded str
 
 
 <a href="/windows/desktop/ADSI/security-descriptors-on-files-and-registry-keys">Security Descriptors on Files and Registry Keys</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectControl.Activate
+ - IObjectControl::Activate
 ---
 
 # IObjectControl::Activate
@@ -77,3 +77,4 @@ You can also use the <b>Activate</b> method to obtain a reference to the object'
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a>
+

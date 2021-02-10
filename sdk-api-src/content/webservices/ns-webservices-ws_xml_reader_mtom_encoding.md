@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_READER_MTOM_ENCODING
  - WS_XML_READER_MTOM_ENCODING
 ---
 
@@ -93,3 +94,4 @@ When used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_r
       
 
 See http://www.w3.org/TR/2005/REC-xop10-20050125/ for the MTOM specification.
+

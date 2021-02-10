@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mmddk.h
 api_name:
+ - joyreghwvalues_tag
+ - LPJOYREGHWVALUES
  - JOYREGHWVALUES
 ---
 

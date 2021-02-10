@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sensapi.h
 api_name:
+ - tagQOCINFO
+ - LPQOCINFO
  - QOCINFO
 ---
 
@@ -120,3 +122,4 @@ Speed of data sent to the destination in bytes per second.
 ## -see-also
 
 <a href="/windows/desktop/api/sensapi/nf-sensapi-isdestinationreachablea">IsDestinationReachable</a>
+

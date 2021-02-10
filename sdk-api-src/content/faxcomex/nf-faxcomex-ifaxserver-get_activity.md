@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.Activity
- - IFaxServer.get_Activity
+ - IFaxServer::get_Activity
 ---
 
 # IFaxServer::get_Activity
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-monitoring-fax-activity">Visual Basic Example</a>
+

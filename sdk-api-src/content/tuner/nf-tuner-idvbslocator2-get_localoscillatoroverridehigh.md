@@ -42,9 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDVBSLocator2.LocalOscillatorOverrideHigh
- - IDVBSLocator2.get_LocalOscillatorOverrideHigh
- - IDVBSLocator2.put_LocalOscillatorOverrideHigh
+ - IDVBSLocator2::get_LocalOscillatorOverrideHigh
 ---
 
 # IDVBSLocator2::get_LocalOscillatorOverrideHigh
@@ -62,3 +60,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator2">IDVBSLocator2</a>
+

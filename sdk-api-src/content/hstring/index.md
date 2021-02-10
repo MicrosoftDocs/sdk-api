@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - hstring
  - hstring/hstring
+api_name:
+ - hstring
 ---
 
 # Hstring.h header

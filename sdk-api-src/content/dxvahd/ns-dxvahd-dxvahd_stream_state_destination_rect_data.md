@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
  - DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
 ---
 
@@ -112,3 +113,4 @@ If the <b>Enable</b> member is <b>FALSE</b>, the <b>DestinationRect</b> member i
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

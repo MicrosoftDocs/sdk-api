@@ -46,8 +46,9 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _IMAGE_LOAD_CONFIG_DIRECTORY64
+ - PIMAGE_LOAD_CONFIG_DIRECTORY64
  - IMAGE_LOAD_CONFIG_DIRECTORY64
- - IMAGE_LOAD_CONFIG_DIRECTORY
 ---
 
 # IMAGE_LOAD_CONFIG_DIRECTORY64 structure
@@ -236,3 +237,4 @@ typedef struct {
 
 
 <a href="/windows/desktop/api/imagehlp/nf-imagehlp-setimageconfiginformation">SetImageConfigInformation</a>
+

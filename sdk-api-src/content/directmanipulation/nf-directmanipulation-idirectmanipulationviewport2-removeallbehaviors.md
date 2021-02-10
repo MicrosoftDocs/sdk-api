@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport2.RemoveAllBehaviors
+ - IDirectManipulationViewport2::RemoveAllBehaviors
 ---
 
 # IDirectManipulationViewport2::RemoveAllBehaviors
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport2">IDirectManipulationViewport2</a>
+

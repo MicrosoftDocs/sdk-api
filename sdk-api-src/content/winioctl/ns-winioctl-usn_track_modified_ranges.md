@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PUSN_TRACK_MODIFIED_RANGES
  - USN_TRACK_MODIFIED_RANGES
 ---
 
@@ -91,3 +92,4 @@ Once range tracking is enabled for a given volume it cannot be disabled except b
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
+

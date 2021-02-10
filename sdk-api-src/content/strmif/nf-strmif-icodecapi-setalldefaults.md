@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI.SetAllDefaults
+ - ICodecAPI::SetAllDefaults
 ---
 
 # ICodecAPI::SetAllDefaults
@@ -74,3 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getvalue">ICodecAPI::GetValue</a>
+

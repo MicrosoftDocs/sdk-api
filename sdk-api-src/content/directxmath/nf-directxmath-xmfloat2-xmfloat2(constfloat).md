@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT2.XMFLOAT2
+ - XMFLOAT2::XMFLOAT2
 ---
 
 # XMFLOAT2::XMFLOAT2(const float)
@@ -89,3 +89,4 @@ Two element <code>float</code> array containing the values used to initialize th
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constfloat)">XMFLOAT2 Constructors</a>
+

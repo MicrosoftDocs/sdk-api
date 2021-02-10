@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
+ - PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
  - SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
 ---
 
@@ -69,3 +71,4 @@ When <b>TRUE</b>, the result set includes all the offline disks in the available
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
+

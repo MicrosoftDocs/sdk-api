@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsGroup.Add
+ - IADsGroup::Add
 ---
 
 # IADsGroup::Add
@@ -157,3 +157,4 @@ Cleanup:
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
+

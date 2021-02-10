@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_UNLOCKDATA
+ - PDD_UNLOCKDATA
  - DD_UNLOCKDATA
 ---
 
@@ -81,3 +83,4 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff570106(v=vs.85)">UnlockD3DBuffer</a>
+

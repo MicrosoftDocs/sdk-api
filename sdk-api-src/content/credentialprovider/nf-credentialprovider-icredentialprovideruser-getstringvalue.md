@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Authui.dll
 api_name:
- - ICredentialProviderUser.GetStringValue
+ - ICredentialProviderUser::GetStringValue
 ---
 
 # ICredentialProviderUser::GetStringValue
@@ -209,3 +209,4 @@ In this scenario, the following table provides some sample data for each of the 
 
 
 <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getvalue">ICredentialProviderUser::GetValue</a>
+

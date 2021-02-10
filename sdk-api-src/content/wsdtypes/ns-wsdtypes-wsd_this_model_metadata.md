@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_THIS_MODEL_METADATA
  - WSD_THIS_MODEL_METADATA
 ---
 
@@ -117,3 +118,4 @@ Model metadata follows this form:
 
 
 </code></pre>
+

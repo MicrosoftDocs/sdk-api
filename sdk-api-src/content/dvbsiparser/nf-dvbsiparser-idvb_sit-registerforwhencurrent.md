@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_SIT.RegisterForWhenCurrent
+ - IDVB_SIT::RegisterForWhenCurrent
 ---
 
 # IDVB_SIT::RegisterForWhenCurrent
@@ -125,3 +125,4 @@ This method applies only to <i>next</i> tables. Otherwise, the method returns E_
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sit">IDVB_SIT Interface</a>
+

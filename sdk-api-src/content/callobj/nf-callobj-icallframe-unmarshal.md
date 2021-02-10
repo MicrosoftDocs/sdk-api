@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame.Unmarshal
+ - ICallFrame::Unmarshal
 ---
 
 # ICallFrame::Unmarshal
@@ -114,3 +114,4 @@ When unmarshalling, the [in] versions of [in, out] parameters are freed and inte
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

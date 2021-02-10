@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_VideoLighting
  - DXVA2_VideoLighting
 ---
 
@@ -89,3 +90,4 @@ If you are using the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmed
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

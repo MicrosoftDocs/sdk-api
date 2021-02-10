@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IAudioOutputSelector.SetSelection
+ - IAudioOutputSelector::SetSelection
 ---
 
 # IAudioOutputSelector::SetSelection
@@ -106,3 +106,4 @@ A local ID is a number that uniquely identifies a part among all parts in a devi
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getlocalid">IPart::GetLocalId</a>
+

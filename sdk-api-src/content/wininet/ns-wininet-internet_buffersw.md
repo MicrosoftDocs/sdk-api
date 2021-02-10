@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - INTERNET_BUFFERS
- - INTERNET_BUFFERSA
+ - _INTERNET_BUFFERSW
+ - LPINTERNET_BUFFERSW
  - INTERNET_BUFFERSW
 ---
 
@@ -122,3 +122,4 @@ Reserved; do not use.
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetreadfileexa">InternetReadFileEx</a>
+

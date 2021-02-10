@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterMapper2.EnumMatchingFilters
+ - IFilterMapper2::EnumMatchingFilters
 ---
 
 # IFilterMapper2::EnumMatchingFilters
@@ -205,3 +205,4 @@ If a pin did not register any media types, this method will not consider it a ma
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>
+

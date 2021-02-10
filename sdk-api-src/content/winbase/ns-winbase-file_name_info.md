@@ -47,6 +47,8 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
+ - _FILE_NAME_INFO
+ - PFILE_NAME_INFO
  - FILE_NAME_INFO
 ---
 
@@ -75,3 +77,4 @@ The file name that is returned.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
+

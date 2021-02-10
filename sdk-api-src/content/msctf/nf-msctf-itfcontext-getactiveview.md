@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.GetActiveView
+ - ITfContext::GetActiveView
 ---
 
 # ITfContext::GetActiveView
@@ -116,3 +116,4 @@ An unspecified error occurred.
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfContextView interface](nn-msctf-itfcontextview.md)
+

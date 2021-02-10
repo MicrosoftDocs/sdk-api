@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetAddressCaps
- - lineGetAddressCapsA
- - lineGetAddressCapsW
 ---
 
 # lineGetAddressCaps function
@@ -122,3 +120,4 @@ Valid address identifiers range from zero to one less than the number of address
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
+

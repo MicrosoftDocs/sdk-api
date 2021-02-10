@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1550
+ - PSERVER_INFO_1550
  - SERVER_INFO_1550
 ---
 
@@ -78,3 +80,4 @@ Specifies the percentage of free disk space remaining before an alert message is
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

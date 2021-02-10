@@ -45,8 +45,6 @@ api_location:
  - winmmbase.dll
 api_name:
  - joyGetDevCaps
- - joGetDevCapsA
- - joyGetDevCapsW
 ---
 
 # joyGetDevCaps function
@@ -117,3 +115,4 @@ This method fails when passed an invalid value for the <i>cbjc</i> parameter.
 
 
 <a href="/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
+

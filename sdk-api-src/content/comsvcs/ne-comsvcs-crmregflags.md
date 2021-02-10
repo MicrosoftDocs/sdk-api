@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - tagCRMREGFLAGS
  - CRMREGFLAGS
 ---
 
@@ -79,3 +80,4 @@ Fail if in-doubt transactions remain after recovery.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">ICrmLogControl::RegisterCompensator</a>
+

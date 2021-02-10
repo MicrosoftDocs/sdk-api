@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfDisplayAttributeInfo.Next
+ - IEnumTfDisplayAttributeInfo::Next
 ---
 
 # IEnumTfDisplayAttributeInfo::Next
@@ -102,3 +102,4 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md), [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md)
+

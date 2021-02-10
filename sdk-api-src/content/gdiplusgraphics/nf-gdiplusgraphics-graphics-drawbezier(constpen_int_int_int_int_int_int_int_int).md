@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawBezier
+ - Graphics::DrawBezier
 ---
 
 # Graphics::DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT)
@@ -193,3 +193,4 @@ VOID Example_DrawBezier3(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+

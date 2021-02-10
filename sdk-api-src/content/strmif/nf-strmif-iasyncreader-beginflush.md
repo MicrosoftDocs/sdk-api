@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAsyncReader.BeginFlush
+ - IAsyncReader::BeginFlush
 ---
 
 # IAsyncReader::BeginFlush
@@ -104,3 +104,4 @@ m_pReader-&gt;EndFlush();
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
+

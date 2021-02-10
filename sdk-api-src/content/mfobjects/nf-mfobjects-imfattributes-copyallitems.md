@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAttributes.CopyAllItems
+ - IMFAttributes::CopyAllItems
 ---
 
 # IMFAttributes::CopyAllItems
@@ -112,3 +112,4 @@ HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
+

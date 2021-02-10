@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.GetDMTF
- - ?GetDMTF@WBEMTime@@QBEPAGH@Z
- - ?GetDMTF@WBEMTime@@QEBAPEAGH@Z
+ - WBEMTime::GetDMTF
 ---
 
 # WBEMTime::GetDMTF
@@ -87,3 +85,4 @@ The calling function must call <a href="/previous-versions/windows/desktop/api/o
 
 
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-setdmtf">WBEMTime::SetDMTF</a>
+

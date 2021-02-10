@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.RetryDelay
- - IFaxOutgoingQueue.get_RetryDelay
- - IFaxOutgoingQueue.put_RetryDelay
- - IFaxOutgoingQueue.get_RetryDelay
- - IFaxOutgoingQueue.put_RetryDelay
+ - IFaxOutgoingQueue::put_RetryDelay
 ---
 
 # IFaxOutgoingQueue::put_RetryDelay
@@ -75,3 +71,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-the-outgoing-queue-properties">Setting the Outgoing Queue Properties</a>
+

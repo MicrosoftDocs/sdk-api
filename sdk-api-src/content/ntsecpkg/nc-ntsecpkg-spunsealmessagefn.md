@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpUnsealMessage
+ - SpUnsealMessageFn
 ---
 
 # SpUnsealMessageFn callback function
@@ -105,3 +105,4 @@ A pointer to the <b>SpUnsealMessage</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
+

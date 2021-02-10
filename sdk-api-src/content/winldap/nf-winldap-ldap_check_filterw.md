@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_check_filterW
  - winldap/ldap_check_filterW
+ - ldap_check_filter
+ - winldap/ldap_check_filter
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_check_filter
- - ldap_check_filterA
  - ldap_check_filterW
+ - ldap_check_filter
 ---
 
 # ldap_check_filterW function
@@ -93,3 +94,4 @@ Use <b>ldap_check_filter</b> to verify the syntax of a search filter before init
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>
+

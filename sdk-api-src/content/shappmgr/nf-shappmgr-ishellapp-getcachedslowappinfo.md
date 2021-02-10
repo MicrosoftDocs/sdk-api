@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellApp.GetCachedSlowAppInfo
+ - IShellApp::GetCachedSlowAppInfo
 ---
 
 # IShellApp::GetCachedSlowAppInfo
@@ -81,3 +81,4 @@ Implementations of <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublished
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
+

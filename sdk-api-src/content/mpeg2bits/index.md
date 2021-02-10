@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - mpeg2bits
  - mpeg2bits/mpeg2bits
+api_name:
+ - mpeg2bits
 ---
 
 # Mpeg2Bits.h header

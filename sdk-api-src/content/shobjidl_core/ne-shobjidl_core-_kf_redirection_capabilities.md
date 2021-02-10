@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - KF_REDIRECTION_CAPABILITIES
+ - _KF_REDIRECTION_CAPABILITIES
 ---
 
 # _KF_REDIRECTION_CAPABILITIES enumeration
@@ -81,3 +81,4 @@ The folder cannot be redirected because the calling application does not have su
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
+

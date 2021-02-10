@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
+ - IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
 ---
 
 # IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
@@ -120,3 +120,4 @@ By default, a call made in a callback method to any other animation method resul
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler">IUIAnimationStoryboardEventHandler</a>
+

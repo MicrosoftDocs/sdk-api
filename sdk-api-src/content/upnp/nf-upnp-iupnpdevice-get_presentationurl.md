@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice.get_PresentationURL
+ - IUPnPDevice::get_PresentationURL
 ---
 
 # IUPnPDevice::get_PresentationURL
@@ -71,3 +71,4 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. If 
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+

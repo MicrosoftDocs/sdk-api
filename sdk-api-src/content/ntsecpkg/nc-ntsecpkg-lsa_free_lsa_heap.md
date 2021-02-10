@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - FreeReturnBuffer
+ - LSA_FREE_LSA_HEAP
 ---
 
 # LSA_FREE_LSA_HEAP callback function
@@ -71,3 +71,4 @@ A pointer to the <b>FreeReturnBuffer</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

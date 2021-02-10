@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT1_
  - FWPM_NET_EVENT1
 ---
 
@@ -104,3 +105,4 @@ Available when **type** is **FWPM_NET_EVENT_IPSEC_DOSP_DROP**.
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
+

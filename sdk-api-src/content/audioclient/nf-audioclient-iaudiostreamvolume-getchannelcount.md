@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioStreamVolume.GetChannelCount
+ - IAudioStreamVolume::GetChannelCount
 ---
 
 # IAudioStreamVolume::GetChannelCount
@@ -109,3 +109,4 @@ Call this method to get the number of channels in the audio stream before callin
 ## -see-also
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume Interface</a>
+

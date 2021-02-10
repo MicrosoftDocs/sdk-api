@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
+ - _GamutShell
  - GamutShell
 ---
 
@@ -101,3 +102,4 @@ A pointer to the vertices data.
 
 
 <a href="/previous-versions/windows/desktop/wcs/windows-color-system-schemas-and-algorithms">Windows Color System Schemas and Algorithms</a>
+

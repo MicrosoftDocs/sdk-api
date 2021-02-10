@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdVideoPortDestroy
+ - PDD_VPORTCB_DESTROYVPORT
 ---
 
 ## -description
@@ -76,3 +76,4 @@ The driver should free any memory that it allocated and associated with the spec
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_createvideoport">DdVideoPortCreate</a>
+

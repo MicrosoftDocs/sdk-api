@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qos2.h
 api_name:
+ - _QOS_FLOW_FUNDAMENTALS
+ - PQOS_FLOW_FUNDAMENTALS
  - QOS_FLOW_FUNDAMENTALS
 ---
 
@@ -89,3 +91,4 @@ Measures the round-trip time between the source and sink device, in microseconds
 
 
 <a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
+

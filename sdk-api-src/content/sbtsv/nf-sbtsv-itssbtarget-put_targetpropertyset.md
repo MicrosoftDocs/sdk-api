@@ -42,12 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget.TargetPropertySet
- - ITsSbTarget.get_TargetPropertySet
- - ITsSbTarget.put_TargetPropertySet
- - ITsSbTargetEx.TargetPropertySet
- - ITsSbTargetEx.get_TargetPropertySet
- - ITsSbTargetEx.put_TargetPropertySet
+ - ITsSbTarget::put_TargetPropertySet
 ---
 
 # ITsSbTarget::put_TargetPropertySet
@@ -72,3 +67,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtargetpropertyset">ITsSbTargetPropertySet</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetLicenseConnection
+ - IWTSProtocolConnection::GetLicenseConnection
 ---
 
 # IWTSProtocolConnection::GetLicenseConnection
@@ -63,3 +63,4 @@ The address of a pointer to an <a href="/windows/desktop/api/wtsprotocol/nn-wtsp
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

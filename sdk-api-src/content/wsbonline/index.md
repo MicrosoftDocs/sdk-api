@@ -9,6 +9,8 @@ tech.root: wsb
 f1_keywords:
  - wsbonline
  - wsbonline/wsbonline
+api_name:
+ - wsbonline
 ---
 
 # Wsbonline.h header

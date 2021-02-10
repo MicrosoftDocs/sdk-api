@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMStarterGPOCollection.Item
- - IGPMStarterGPOCollection.get_Item
+ - IGPMStarterGPOCollection::get_Item
 ---
 
 # IGPMStarterGPOCollection::get_Item
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">IGPMStarterGPOCollection</a>
+

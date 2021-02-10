@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.CancelAsyncCall
+ - IWbemServices::CancelAsyncCall
 ---
 
 # IWbemServices::CancelAsyncCall
@@ -137,3 +137,4 @@ HRESULT CProvider_IWbemServices :: CancelAsyncCall (
 
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+

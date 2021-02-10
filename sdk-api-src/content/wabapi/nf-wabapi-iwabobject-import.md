@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject.Import
+ - IWABObject::Import
 ---
 
 # IWABObject::Import
@@ -84,3 +84,4 @@ For compatibility with previously released versions of the
 	WAB that expose this method, the pointer to the 
 	<a href="/windows/desktop/api/wabapi/ns-wabapi-wabimportparam">WABIMPORTPARAM</a> structure needs to be cast to an 
 	<b>LPSTR</b> prior to passing it into this method.
+

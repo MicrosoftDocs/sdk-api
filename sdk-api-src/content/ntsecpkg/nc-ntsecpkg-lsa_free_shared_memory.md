@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - FreeSharedMemory
+ - LSA_FREE_SHARED_MEMORY
 ---
 
 # LSA_FREE_SHARED_MEMORY callback function
@@ -86,3 +86,4 @@ A pointer to the <b>FreeSharedMemory</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

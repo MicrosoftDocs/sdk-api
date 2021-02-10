@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateWaitableTimerExW
  - synchapi/CreateWaitableTimerExW
+ - CreateWaitableTimerEx
+ - synchapi/CreateWaitableTimerEx
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - CreateWaitableTimerEx
- - CreateWaitableTimerExA
  - CreateWaitableTimerExW
+ - CreateWaitableTimerEx
 ---
 
 # CreateWaitableTimerExW function
@@ -153,3 +154,4 @@ To associate a timer with a window, use the <a href="/windows/desktop/api/winuse
 
 
 <a href="/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>
+

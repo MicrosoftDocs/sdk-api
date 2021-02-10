@@ -43,7 +43,6 @@ api_location:
  - VssApi.dll
 api_name:
  - CreateVssExpressWriter
- - CreateVssExpressWriterInternal
 ---
 
 # CreateVssExpressWriter function
@@ -104,3 +103,4 @@ One of the parameters is not valid.
 </td>
 </tr>
 </table>
+

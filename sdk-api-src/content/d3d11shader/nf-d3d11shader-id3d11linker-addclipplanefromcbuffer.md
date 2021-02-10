@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11Linker.AddClipPlaneFromCBuffer
+ - ID3D11Linker::AddClipPlaneFromCBuffer
 ---
 
 # ID3D11Linker::AddClipPlaneFromCBuffer
@@ -75,3 +75,4 @@ Returns S_OK if successful; otherwise, returns one of the <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11linker">ID3D11Linker</a>
+

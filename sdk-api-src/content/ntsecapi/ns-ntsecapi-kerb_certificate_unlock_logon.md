@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_CERTIFICATE_UNLOCK_LOGON
+ - PKERB_CERTIFICATE_UNLOCK_LOGON
  - KERB_CERTIFICATE_UNLOCK_LOGON
 ---
 
@@ -82,3 +84,4 @@ A <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that ide
 
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>
+

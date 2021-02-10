@@ -47,6 +47,8 @@ api_location:
  - ClusAPI.h
  - MsClus.h
 api_name:
+ - _CLUSTER_GROUP_ENUM_ITEM
+ - PCLUSTER_GROUP_ENUM_ITEM
  - CLUSTER_GROUP_ENUM_ITEM
 ---
 
@@ -112,5 +114,4 @@ The size, in bytes, of the <b>pRoProperties</b> field.
 ### -field pRoProperties
 
 A pointer to a list of names of read-only common properties.
-
 

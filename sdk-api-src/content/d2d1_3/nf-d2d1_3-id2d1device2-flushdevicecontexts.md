@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - ID2D1Device2.FlushDeviceContexts
+ - ID2D1Device2::FlushDeviceContexts
 ---
 
 # ID2D1Device2::FlushDeviceContexts
@@ -63,3 +63,4 @@ The bitmap, created on this device, for which all referencing device contexts wi
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device2">ID2D1Device2</a>
+

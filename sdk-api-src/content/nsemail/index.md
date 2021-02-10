@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - nsemail
  - nsemail/nsemail
+api_name:
+ - nsemail
 ---
 
 # Nsemail.h header

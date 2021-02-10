@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wsnwlink.h
 api_name:
+ - _IPX_SPXCONNSTATUS_DATA
+ - PIPX_SPXCONNSTATUS_DATA
  - IPX_SPXCONNSTATUS_DATA
 ---
 
@@ -136,3 +138,4 @@ Specifies the number of suppressed packets on the socket.
 ## -see-also
 
 <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
+

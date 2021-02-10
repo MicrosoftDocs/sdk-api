@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_CUSTOM_RATE_DATA
  - DXVAHD_CUSTOM_RATE_DATA
 ---
 
@@ -114,3 +115,4 @@ Reverse 2:3 pulldown (IVTC) from 60i to 24p.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

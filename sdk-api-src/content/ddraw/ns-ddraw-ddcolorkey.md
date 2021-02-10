@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
+ - _DDCOLORKEY
  - DDCOLORKEY
 ---
 
@@ -63,3 +64,4 @@ Low value of the color range that is to be used as the color key.
 ### -field dwColorSpaceHighValue
 
 High value of the color range that is to be used as the color key.
+

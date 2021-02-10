@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1GdiMetafile1.GetSourceBounds
+ - ID2D1GdiMetafile1::GetSourceBounds
 ---
 
 # ID2D1GdiMetafile1::GetSourceBounds
@@ -82,3 +82,4 @@ S_OK if successful, otherwise a failure HRESULT.
 
 
 <a href="/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">[MS-EMF]: Enhanced Metafile Format</a>
+

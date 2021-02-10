@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMREBARSPLITTER
+ - LPNMREBARSPLITTER
  - NMREBARSPLITTER
 ---
 
@@ -69,3 +71,4 @@ An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 An <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that indicates the size the rebar will be after the drag operation completes.
+

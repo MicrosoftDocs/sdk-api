@@ -46,6 +46,8 @@ api_type:
 api_location:
  - drt.h
 api_name:
+ - drt_data_tag
+ - PDRT_DATA
  - DRT_DATA
 ---
 

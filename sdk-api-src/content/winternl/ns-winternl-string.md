@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winternl.h
 api_name:
+ - _STRING
  - STRING
 ---
 
@@ -75,3 +76,4 @@ The data type used in the <b>DestinationString</b> parameter of the <a href="/wi
                 
 
 <code>typedef PSTRING POEM_STRING;</code>
+

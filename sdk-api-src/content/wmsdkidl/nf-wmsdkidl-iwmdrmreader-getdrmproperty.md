@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader.GetDRMProperty
+ - IWMDRMReader::GetDRMProperty
 ---
 
 # IWMDRMReader::GetDRMProperty
@@ -267,3 +267,4 @@ Before calling this method on a new file, always call the helper function <a hre
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
+

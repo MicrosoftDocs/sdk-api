@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector.FileNameFormatPattern
- - IDataCollector.get_FileNameFormatPattern
- - IDataCollector.put_FileNameFormatPattern
+ - IDataCollector::put_FileNameFormatPattern
 ---
 
 # IDataCollector::put_FileNameFormatPattern
@@ -190,3 +188,4 @@ PLA appends the decoration to the file name. Use the following pattern character
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>
+

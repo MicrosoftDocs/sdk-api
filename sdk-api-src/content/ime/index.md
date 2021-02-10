@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - ime
  - ime/ime
+api_name:
+ - ime
 ---
 
 # Ime.h header

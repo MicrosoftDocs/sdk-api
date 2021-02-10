@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.AddPolygon
+ - GraphicsPath::AddPolygon
 ---
 
 # GraphicsPath::AddPolygon(IN const Point,IN INT)
@@ -136,3 +136,4 @@ VOID Example_AddPolygon(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-polygons-about">Polygons</a>
+

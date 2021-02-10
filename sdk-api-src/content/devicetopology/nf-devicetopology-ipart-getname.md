@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart.GetName
+ - IPart::GetName
 ---
 
 # IPart::GetName
@@ -83,3 +83,4 @@ Pointer <i>ppwstrName</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
+

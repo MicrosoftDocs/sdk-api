@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IVisualTreeService3.AddDictionaryItem
+ - IVisualTreeService3::AddDictionaryItem
 ---
 
 # IVisualTreeService3::AddDictionaryItem
@@ -77,3 +77,4 @@ Any invalid resource references will result in the value being cleared, and <a h
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice3">IVisualTreeService3</a>
+

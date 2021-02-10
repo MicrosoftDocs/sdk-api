@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OpenSemaphoreW
  - synchapi/OpenSemaphoreW
+ - OpenSemaphore
+ - synchapi/OpenSemaphore
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - OpenSemaphore
- - OpenSemaphoreA
  - OpenSemaphoreW
+ - OpenSemaphore
 ---
 
 # OpenSemaphoreW function
@@ -130,3 +131,4 @@ The handle can be duplicated by using the <a href="/windows/desktop/api/handleap
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

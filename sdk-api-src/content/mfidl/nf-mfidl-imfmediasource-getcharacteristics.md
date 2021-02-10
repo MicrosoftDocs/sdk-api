@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSource.GetCharacteristics
+ - IMFMediaSource::GetCharacteristics
 ---
 
 # IMFMediaSource::GetCharacteristics
@@ -99,3 +99,4 @@ The characteristics of a media source can change at any time. If this happens, t
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
+

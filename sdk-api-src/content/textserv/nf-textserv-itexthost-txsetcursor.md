@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost.TxSetCursor
+ - ITextHost::TxSetCursor
 ---
 
 # ITextHost::TxSetCursor
@@ -79,3 +79,4 @@ This method may be called at any time, whether the control is active or inactive
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
+

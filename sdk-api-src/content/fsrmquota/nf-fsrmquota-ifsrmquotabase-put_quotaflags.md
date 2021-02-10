@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.QuotaFlags
- - IFsrmQuotaBase.get_QuotaFlags
- - IFsrmQuotaBase.put_QuotaFlags
+ - IFsrmQuotaBase::put_QuotaFlags
 ---
 
 # IFsrmQuotaBase::put_QuotaFlags
@@ -69,3 +67,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

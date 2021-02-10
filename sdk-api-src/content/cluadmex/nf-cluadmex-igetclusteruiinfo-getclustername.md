@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterUIInfo.GetClusterName
+ - IGetClusterUIInfo::GetClusterName
 ---
 
 # IGetClusterUIInfo::GetClusterName
@@ -130,3 +130,4 @@ If the <i>lpszName</i> parameter is set to <b>NULL</b> and the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusteruiinfo">IGetClusterUIInfo</a>
+

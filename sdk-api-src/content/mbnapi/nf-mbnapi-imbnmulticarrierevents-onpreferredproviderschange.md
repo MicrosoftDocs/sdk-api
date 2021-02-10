@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrierEvents.OnPreferredProvidersChange
+ - IMbnMultiCarrierEvents::OnPreferredProvidersChange
 ---
 
 # IMbnMultiCarrierEvents::OnPreferredProvidersChange
@@ -75,3 +75,4 @@ A device's preferred provider list can be updated by the network by SMS or OTA (
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a>
+

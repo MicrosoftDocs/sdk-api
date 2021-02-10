@@ -45,6 +45,7 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _ATTACH_VIRTUAL_DISK_FLAG
  - ATTACH_VIRTUAL_DISK_FLAG
 ---
 
@@ -105,3 +106,4 @@ This flag is not supported for ISO virtual disks.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

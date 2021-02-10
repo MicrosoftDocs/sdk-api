@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMBandwidthSharing.GetBandwidth
+ - IWMBandwidthSharing::GetBandwidth
 ---
 
 # IWMBandwidthSharing::GetBandwidth
@@ -109,3 +109,4 @@ The settings of a bandwidth sharing object are purely informational. They are no
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-setbandwidth">IWMBandwidthSharing::SetBandwidth</a>
+

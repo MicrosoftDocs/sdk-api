@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectContext.DisableCommit
+ - ObjectContext::DisableCommit
 ---
 
 # ObjectContext::DisableCommit
@@ -105,3 +105,4 @@ You can use the <b>DisableCommit</b> method to prevent a transaction from commit
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
+

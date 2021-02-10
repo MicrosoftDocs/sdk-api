@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IResultOwnerData.FindItem
+ - IResultOwnerData::FindItem
 ---
 
 # IResultOwnerData::FindItem
@@ -77,3 +77,4 @@ FindItem call.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/ns-mmc-resultfindinfo">RESULTFINDINFO</a>
+

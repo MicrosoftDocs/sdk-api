@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2.SerializeWithOptions
+ - ISyncKnowledge2::SerializeWithOptions
 ---
 
 # ISyncKnowledge2::SerializeWithOptions
@@ -152,3 +152,4 @@ The value of <i>targetFormatVersion</i> determines the format of the serialized 
 
 
 <a href="/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>
+

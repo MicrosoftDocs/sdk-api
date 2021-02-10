@@ -44,6 +44,7 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
+ - IKEEXT_KERBEROS_AUTHENTICATION1__
  - IKEEXT_KERBEROS_AUTHENTICATION1
 ---
 
@@ -111,3 +112,4 @@ The Kerberos proxy server.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

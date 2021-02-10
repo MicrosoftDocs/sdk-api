@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPObjectInfo.SetPlayLength
+ - IMDSPObjectInfo::SetPlayLength
 ---
 
 # IMDSPObjectInfo::SetPlayLength
@@ -85,3 +85,4 @@ For folders or file systems containing playable files, the value passed is the n
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getplaylength">IMDSPObjectInfo::GetPlayLength</a>
+

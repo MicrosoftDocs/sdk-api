@@ -9,6 +9,8 @@ tech.root: qos
 f1_keywords:
  - qospol
  - qospol/qospol
+api_name:
+ - qospol
 ---
 
 # Qospol.h header

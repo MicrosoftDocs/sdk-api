@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnBalloon.UpdateBalloon
+ - ITfFnBalloon::UpdateBalloon
 ---
 
 # ITfFnBalloon::UpdateBalloon
@@ -121,3 +121,4 @@ The language bar balloon implementation should update its style and text by modi
 
 <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
       </a>
+

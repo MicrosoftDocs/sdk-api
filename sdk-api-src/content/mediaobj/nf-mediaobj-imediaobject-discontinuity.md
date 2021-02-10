@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject.Discontinuity
+ - IMediaObject::Discontinuity
 ---
 
 # IMediaObject::Discontinuity
@@ -123,3 +123,4 @@ This method might fail if it is called before the client sets the input and outp
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
+

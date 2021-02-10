@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumPhone.Clone
+ - IEnumPhone::Clone
 ---
 
 # IEnumPhone::Clone
@@ -124,3 +124,4 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone">IEnumPhone</a>
+

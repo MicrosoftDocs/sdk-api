@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMAsyncCancel
- - GPMAsyncCancel
 ---
 
 # IGPMAsyncCancel interface
@@ -76,3 +75,4 @@ the <a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmasyncpr
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasyncprogress">IGPMAsyncProgress</a>
+

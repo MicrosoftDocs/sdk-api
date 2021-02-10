@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionContextEvents.OnProvisionedContextListChange
+ - IMbnConnectionContextEvents::OnProvisionedContextListChange
 ---
 
 # IMbnConnectionContextEvents::OnProvisionedContextListChange
@@ -74,3 +74,4 @@ An application can use the passed <a href="/windows/desktop/api/mbnapi/nn-mbnapi
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a>
+

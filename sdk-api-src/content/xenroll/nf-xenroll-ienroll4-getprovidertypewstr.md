@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4.getProviderTypeWStr
+ - IEnroll4::getProviderTypeWStr
 ---
 
 # IEnroll4::getProviderTypeWStr
@@ -79,3 +79,4 @@ A pointer to a <b>LONG</b> value that receives the CSP type. The CSP type is one
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

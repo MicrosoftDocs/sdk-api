@@ -43,8 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPort.BuiltIn
- - INetFwOpenPort.get_BuiltIn
+ - INetFwOpenPort::get_BuiltIn
 ---
 
 # INetFwOpenPort::get_BuiltIn
@@ -67,3 +66,4 @@ Ports  with their <b>BuiltIn</b> property set to true (<b>VARIANT_TRUE</b>) are 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IKnownFolder.GetIDList
+ - IKnownFolder::GetIDList
 ---
 
 # IKnownFolder::GetIDList
@@ -87,3 +87,4 @@ Equivalent to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknow
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderidlist">SHGetKnownFolderIDList</a>
+

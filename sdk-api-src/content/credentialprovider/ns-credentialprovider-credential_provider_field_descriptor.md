@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
+ - _CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
  - CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
 ---
 

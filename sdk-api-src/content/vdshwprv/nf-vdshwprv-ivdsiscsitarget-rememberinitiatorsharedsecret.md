@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget.RememberInitiatorSharedSecret
+ - IVdsIscsiTarget::RememberInitiatorSharedSecret
 ---
 
 # IVdsIscsiTarget::RememberInitiatorSharedSecret
@@ -137,3 +137,4 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a>
+

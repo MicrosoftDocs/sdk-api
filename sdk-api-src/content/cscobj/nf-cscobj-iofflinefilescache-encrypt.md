@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.Encrypt
+ - IOfflineFilesCache::Encrypt
 ---
 
 # IOfflineFilesCache::Encrypt
@@ -198,3 +198,4 @@ The caller can implement the progress callback methods in the following list to 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
+

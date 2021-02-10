@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmat.h
 api_name:
+ - _AT_INFO
+ - PAT_INFO
  - AT_INFO
 ---
 
@@ -231,3 +233,4 @@ For more information about scheduling jobs that execute once, jobs that execute 
 
 
 <a href="/windows/desktop/NetMgmt/schedule-functions">Schedule Functions</a>
+

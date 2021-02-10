@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbProvider.GetResourcePluginStore
+ - ITsSbProvider::GetResourcePluginStore
 ---
 
 # ITsSbProvider::GetResourcePluginStore
@@ -75,3 +75,4 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorCollection.Add
+ - ISensorCollection::Add
 ---
 
 # ISensorCollection::Add
@@ -95,3 +95,4 @@ The sensor collection already contains a sensor with the specified ID.
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
+

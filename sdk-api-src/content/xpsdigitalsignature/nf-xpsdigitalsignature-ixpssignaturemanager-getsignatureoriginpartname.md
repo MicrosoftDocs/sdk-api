@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.GetSignatureOriginPartName
+ - IXpsSignatureManager::GetSignatureOriginPartName
 ---
 
 # IXpsSignatureManager::GetSignatureOriginPartName
@@ -110,3 +110,4 @@ An XPS package has not yet been opened in the signature manager.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

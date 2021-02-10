@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2.GetEffectColor
+ - ITextDocument2::GetEffectColor
 ---
 
 # ITextDocument2::GetEffectColor
@@ -277,3 +277,4 @@ The first 16 index values are for special underline colors. If an index between 
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-seteffectcolor">ITextDocument2::SetEffectColor</a>
+

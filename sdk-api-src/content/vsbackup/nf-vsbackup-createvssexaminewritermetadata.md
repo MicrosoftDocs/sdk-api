@@ -43,7 +43,6 @@ api_location:
  - VssApi.dll
 api_name:
  - CreateVssExamineWriterMetadata
- - CreateVssExamineWriterMetadataInternal
 ---
 
 # CreateVssExamineWriterMetadata function
@@ -171,3 +170,4 @@ The calling application is responsible for calling <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
+

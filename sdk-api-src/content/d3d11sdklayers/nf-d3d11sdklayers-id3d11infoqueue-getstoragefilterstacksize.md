@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11InfoQueue.GetStorageFilterStackSize
+ - ID3D11InfoQueue::GetStorageFilterStackSize
 ---
 
 # ID3D11InfoQueue::GetStorageFilterStackSize
@@ -64,3 +64,4 @@ Size of the storage-filter stack in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
+

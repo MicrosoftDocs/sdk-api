@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPIResolveName
+ - MAPIRESOLVENAME
 ---
 
 # MAPIRESOLVENAME callback function
@@ -245,3 +245,4 @@ The <b>MAPIResolveName</b> function resolves a message recipient's name (as ente
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
+

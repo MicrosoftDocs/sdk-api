@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _COMMPROP
+ - LPCOMMPROP
  - COMMPROP
 ---
 
@@ -924,3 +926,4 @@ If the provider subtype is <b>PST_MODEM</b>, these members are used as follows.
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getcommproperties">GetCommProperties</a>
+

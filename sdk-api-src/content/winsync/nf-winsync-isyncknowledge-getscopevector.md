@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge.GetScopeVector
+ - ISyncKnowledge::GetScopeVector
 ---
 
 # ISyncKnowledge::GetScopeVector
@@ -115,3 +115,4 @@ Be aware that there is no single representation of knowledge. Equivalent knowled
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

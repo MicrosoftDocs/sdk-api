@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUS_SHARED_VOLUME_BACKUP_MODE
+ - PCLUS_SHARED_VOLUME_BACKUP_MODE
  - CLUS_SHARED_VOLUME_BACKUP_MODE
 ---
 
@@ -101,3 +103,4 @@ Null-terminated Unicode string containing the name of the shared volume. The nam
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
+

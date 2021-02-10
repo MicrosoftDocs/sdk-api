@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.put_Italic
+ - IFont::put_Italic
 ---
 
 # IFont::put_Italic
@@ -98,3 +98,4 @@ The font does not support an italic state. This value is not an error condition.
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">IFont::get_Italic</a>
+

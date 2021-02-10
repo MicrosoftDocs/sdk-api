@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - tsvirtualchannels
  - tsvirtualchannels/tsvirtualchannels
+api_name:
+ - tsvirtualchannels
 ---
 
 # Tsvirtualchannels.h header

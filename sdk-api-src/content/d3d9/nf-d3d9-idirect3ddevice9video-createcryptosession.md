@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DDevice9Video.CreateCryptoSession
+ - IDirect3DDevice9Video::CreateCryptoSession
 ---
 
 # IDirect3DDevice9Video::CreateCryptoSession
@@ -68,8 +68,7 @@ A pointer to a GUID that specifies the DirectX Video Acceleration 2 (DXVA-2) dec
 
 Type: **D3DCONTENTPROTECTIONCAPS**
 
- A pointer to a D3DCONTENTPROTECTIONCAPS structure. The method fills in this structure with the driver's content protection capabilities. 
-
+ A pointer to a D3DCONTENTPROTECTIONCAPS structure. The method fills in this structure with the driver's content protection capabilities.
 
 ### -param pDecodeProfile
 
@@ -94,3 +93,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video">IDirect3DDevice9Video</a>
+

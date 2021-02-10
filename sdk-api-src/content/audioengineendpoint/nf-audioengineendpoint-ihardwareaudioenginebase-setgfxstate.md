@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioengineendpoint.h
 api_name:
- - IHardwareAudioEngineBase.SetGfxState
+ - IHardwareAudioEngineBase::SetGfxState
 ---
 
 # IHardwareAudioEngineBase::SetGfxState
@@ -73,3 +73,4 @@ The <b>SetGfxState</b> method returns S_OK to indicate that it has completed suc
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a>
+

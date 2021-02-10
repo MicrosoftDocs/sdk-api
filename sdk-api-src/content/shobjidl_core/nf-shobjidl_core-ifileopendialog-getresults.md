@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOpenDialog.GetResults
+ - IFileOpenDialog::GetResults
 ---
 
 # IFileOpenDialog::GetResults
@@ -74,3 +74,4 @@ This method can be used whether the selection consists of a single item or multi
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show">Show</a> must return a success code for a result to be available to <b>IFileOpenDialog::GetResult</b>.
+

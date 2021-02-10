@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IProgressDialog.HasUserCancelled
+ - IProgressDialog::HasUserCancelled
 ---
 
 # IProgressDialog::HasUserCancelled
@@ -67,3 +67,4 @@ The system does not send a message to the application when the user clicks the <
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
+

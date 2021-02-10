@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.ServerName
- - IFaxServer.get_ServerName
- - IFaxServer.get_ServerName
+ - IFaxServer::get_ServerName
 ---
 
 # IFaxServer::get_ServerName
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-retrieving-server-properties">Visual Basic Example</a>
+

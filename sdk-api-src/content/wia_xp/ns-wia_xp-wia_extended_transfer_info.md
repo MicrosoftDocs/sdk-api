@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wia_xp.h
 api_name:
+ - _WIA_EXTENDED_TRANSFER_INFO
+ - PWIA_EXTENDED_TRANSFER_INFO
  - WIA_EXTENDED_TRANSFER_INFO
 ---
 
@@ -87,3 +89,4 @@ Driver-recommended maximum buffer size the application could request in a call t
 Type: <b>ULONG</b>
 
 This value is not used and should be ignored.
+

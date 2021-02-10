@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDServiceProxy.SubscribeToOperation
+ - IWSDServiceProxy::SubscribeToOperation
 ---
 
 # IWSDServiceProxy::SubscribeToOperation
@@ -133,3 +133,4 @@ This method is normally only called by generated proxy code.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
+

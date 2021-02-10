@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKey.InitializeDecode
+ - IX509AttributeArchiveKey::InitializeDecode
 ---
 
 # IX509AttributeArchiveKey::InitializeDecode
@@ -89,3 +89,4 @@ You must call either <a href="/windows/desktop/api/certenroll/nf-certenroll-ix50
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekey">IX509AttributeArchiveKey</a>
+

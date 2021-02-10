@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ConvertSecurityDescriptorToStringSecurityDescriptorA
  - sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA
+ - ConvertSecurityDescriptorToStringSecurityDescriptor
+ - sddl/ConvertSecurityDescriptorToStringSecurityDescriptor
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - sechost.dll
  - API-MS-Win-Security-sddl-l1-1-0.dll
 api_name:
- - ConvertSecurityDescriptorToStringSecurityDescriptor
  - ConvertSecurityDescriptorToStringSecurityDescriptorA
- - ConvertSecurityDescriptorToStringSecurityDescriptorW
+ - ConvertSecurityDescriptorToStringSecurityDescriptor
 ---
 
 # ConvertSecurityDescriptorToStringSecurityDescriptorA function
@@ -187,3 +188,4 @@ If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is not set in th
 
 
 <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
+

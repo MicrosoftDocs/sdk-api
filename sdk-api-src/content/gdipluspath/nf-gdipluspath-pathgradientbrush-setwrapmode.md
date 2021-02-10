@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.SetWrapMode
+ - PathGradientBrush::SetWrapMode
 ---
 
 # PathGradientBrush::SetWrapMode
@@ -140,3 +140,4 @@ VOID Example_SetWrapMode(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setwrapmode">PathGradientBrush::SetWrapMode</a>
+

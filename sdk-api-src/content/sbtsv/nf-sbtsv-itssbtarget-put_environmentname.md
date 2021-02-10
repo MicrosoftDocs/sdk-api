@@ -42,12 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget.EnvironmentName
- - ITsSbTarget.get_EnvironmentName
- - ITsSbTarget.put_EnvironmentName
- - ITsSbTargetEx.EnvironmentName
- - ITsSbTargetEx.get_EnvironmentName
- - ITsSbTargetEx.put_EnvironmentName
+ - ITsSbTarget::put_EnvironmentName
 ---
 
 # ITsSbTarget::put_EnvironmentName
@@ -68,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
+

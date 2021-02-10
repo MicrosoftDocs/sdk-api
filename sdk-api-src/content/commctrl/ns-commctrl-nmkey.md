@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMKEY
+ - LPNMKEY
  - NMKEY
 ---
 
@@ -76,3 +78,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flags associated with the key. These are the same flags that are passed in the high word of the 
 					<i>lParam</i> parameter of the <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> message.
+

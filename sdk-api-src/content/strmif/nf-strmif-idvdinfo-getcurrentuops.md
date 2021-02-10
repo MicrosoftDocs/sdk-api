@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo.GetCurrentUOPS
+ - IDvdInfo::GetCurrentUOPS
 ---
 
 # IDvdInfo::GetCurrentUOPS
@@ -309,3 +309,4 @@ This method is useful because DVD titles can enable or disable individual user o
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
+

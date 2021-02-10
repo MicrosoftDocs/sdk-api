@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentAudio
+ - IDvdInfo2::GetCurrentAudio
 ---
 
 # IDvdInfo2::GetCurrentAudio
@@ -126,3 +126,4 @@ To get the available audio languages on the disc, call <code>GetCurrentAudio</co
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D.SetCenterX
+ - IDCompositionRotateTransform3D::SetCenterX
 ---
 
 # IDCompositionRotateTransform3D::SetCenterX
@@ -85,3 +85,4 @@ If the CenterX property was previously animated, this method removes the animati
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterz(float)">IDCompositionRotateTransform3D::SetCenterZ</a>
+

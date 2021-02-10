@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMallocSpy.PreAlloc
+ - IMallocSpy::PreAlloc
 ---
 
 # IMallocSpy::PreAlloc
@@ -83,3 +83,4 @@ The call to <b>PreAlloc</b> through the return from <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">IMallocSpy::PostAlloc</a>
+

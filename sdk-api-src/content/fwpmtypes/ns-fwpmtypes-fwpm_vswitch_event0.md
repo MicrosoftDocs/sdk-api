@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_VSWITCH_EVENT0_
  - FWPM_VSWITCH_EVENT0
 ---
 
@@ -116,3 +117,4 @@ For the unnamed union, switch_is(eventType), switch_type(FWPM_VSWITCH_EVENT_TYPE
 ## -see-also
 
 [FWPM_VSWITCH_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)
+

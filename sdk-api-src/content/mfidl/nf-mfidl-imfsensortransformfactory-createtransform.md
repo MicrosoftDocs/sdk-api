@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorTransformFactory.CreateTransform
+ - IMFSensorTransformFactory::CreateTransform
 ---
 
 # IMFSensorTransformFactory::CreateTransform
@@ -76,3 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensortransformfactory">IMFSensorTransformFactory</a>
+

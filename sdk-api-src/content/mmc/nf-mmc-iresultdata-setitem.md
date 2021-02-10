@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData.SetItem
- - IResultData2.SetItem
+ - IResultData::SetItem
 ---
 
 # IResultData::SetItem
@@ -83,3 +82,4 @@ This method does not support virtual lists.
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">IResultData::GetItem</a>
+

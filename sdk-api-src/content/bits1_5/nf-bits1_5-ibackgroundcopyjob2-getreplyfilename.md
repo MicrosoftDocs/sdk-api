@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.GetReplyFileName
+ - IBackgroundCopyJob2::GetReplyFileName
 ---
 
 # IBackgroundCopyJob2::GetReplyFileName
@@ -120,3 +120,4 @@ For an example that uses the
 
 
 <a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a>
+

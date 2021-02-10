@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapDecoderInfo.GetPatterns
+ - IWICBitmapDecoderInfo::GetPatterns
 ---
 
 # IWICBitmapDecoderInfo::GetPatterns
@@ -88,3 +88,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 To retrieve all pattern signatures, this method should first be called with <i>pPatterns</i> set to <code>NULL</code> to retrieve the actual buffer size needed through <i>pcbPatternsActual</i>.
                Once the needed buffer size is known, allocate a buffer of the needed size and call <b>GetPatterns</b> again with the allocated buffer.
+

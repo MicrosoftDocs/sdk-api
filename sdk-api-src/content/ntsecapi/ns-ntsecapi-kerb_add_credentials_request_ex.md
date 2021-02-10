@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_ADD_CREDENTIALS_REQUEST_EX
+ - PKERB_ADD_CREDENTIALS_REQUEST_EX
  - KERB_ADD_CREDENTIALS_REQUEST_EX
 ---
 
@@ -79,3 +81,4 @@ Calling the   <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenti
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a>
+

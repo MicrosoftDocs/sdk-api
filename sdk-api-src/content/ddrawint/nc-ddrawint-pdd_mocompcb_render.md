@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdMoCompRender
+ - PDD_MOCOMPCB_RENDER
 ---
 
 ## -description
@@ -78,3 +78,4 @@ If a previous render operation is not yet finished, the driver should fail the c
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_endframe">DdMoCompEndFrame</a>
+

@@ -46,7 +46,8 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - STACKFRAME64
+ - _tagSTACKFRAME
+ - LPSTACKFRAME
  - STACKFRAME
 ---
 
@@ -184,3 +185,4 @@ typedef struct _tagSTACKFRAME {
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
+

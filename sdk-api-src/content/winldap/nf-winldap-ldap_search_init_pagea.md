@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_search_init_pageA
  - winldap/ldap_search_init_pageA
+ - ldap_search_init_page
+ - winldap/ldap_search_init_page
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_search_init_page
  - ldap_search_init_pageA
- - ldap_search_init_pageW
+ - ldap_search_init_page
 ---
 
 # ldap_search_init_pageA function
@@ -188,3 +189,4 @@ To determine whether a server supports paged-results searches, check the support
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_abandon_page">ldap_search_abandon_page</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteTextLayout2.SetOpticalAlignment
+ - IDWriteTextLayout2::SetOpticalAlignment
 ---
 
 # IDWriteTextLayout2::SetOpticalAlignment

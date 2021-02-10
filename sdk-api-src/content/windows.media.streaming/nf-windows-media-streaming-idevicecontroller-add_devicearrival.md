@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IDeviceController.add_DeviceArrival
+ - IDeviceController::add_DeviceArrival
 ---
 
 # IDeviceController::streaming
@@ -91,3 +91,4 @@ To unregister the event handler that was registered by this method, pass the <i>
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>
+

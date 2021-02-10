@@ -42,8 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManConnectionOptions.Password
- - IWSManConnectionOptions.put_Password
+ - IWSManConnectionOptions::put_Password
 ---
 
 # IWSManConnectionOptions::put_Password
@@ -64,3 +63,4 @@ This property is write-only.
 
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a>
+

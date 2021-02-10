@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.SetAccountInformation
+ - IScheduledWorkItem::SetAccountInformation
 ---
 
 # IScheduledWorkItem::SetAccountInformation
@@ -205,3 +205,4 @@ For more information and an example of how to set the account information of a t
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>
+

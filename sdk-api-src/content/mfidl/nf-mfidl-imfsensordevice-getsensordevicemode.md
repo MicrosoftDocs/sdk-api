@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorDevice.GetSensorDeviceMode
+ - IMFSensorDevice::GetSensorDeviceMode
 ---
 
 # IMFSensorDevice::GetSensorDeviceMode
@@ -110,3 +110,4 @@ The sensor group has not been initialized.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
+

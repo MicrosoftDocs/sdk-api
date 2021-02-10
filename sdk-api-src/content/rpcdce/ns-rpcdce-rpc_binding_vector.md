@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
+ - _RPC_BINDING_VECTOR
  - RPC_BINDING_VECTOR
 ---
 
@@ -118,3 +119,4 @@ Calling
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinqbindings">RpcServerInqBindings</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.getCertFromFileResponse
- - CEnroll.getCertFromFileResponse
+ - ICEnroll4::getCertFromFileResponse
 ---
 
 # ICEnroll4::getCertFromFileResponse
@@ -83,3 +82,4 @@ The response contained in <i>strResponseFileName</i> must contain exactly one ce
 The response may be either a <a href="/windows/desktop/SecGloss/p-gly">PKCS #7</a> or a full <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response. However, to accept a full CMC response, the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) must support <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding of CMC structures.
 
 When this method is called from script, the method displays a user interface that asks whether the user will allow a read operation from the file system.
+

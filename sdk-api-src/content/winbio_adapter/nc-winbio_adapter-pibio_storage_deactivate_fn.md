@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - StorageAdapterDeactivate
+ - PIBIO_STORAGE_DEACTIVATE_FN
 ---
 
 # PIBIO_STORAGE_DEACTIVATE_FN callback function
@@ -85,3 +85,4 @@ The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
 This method is called when the last client using this biometric unit has closed its session handle.
 
 This method executes in the context of the same thread that activated the biometric unit and that processed all other requests for the unit.
+

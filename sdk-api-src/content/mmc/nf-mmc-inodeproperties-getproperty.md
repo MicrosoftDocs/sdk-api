@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - INodeProperties.GetProperty
+ - INodeProperties::GetProperty
 ---
 
 # INodeProperties::GetProperty
@@ -108,3 +108,4 @@ For more information and a code example for <b>INodeProperties::GetProperty</b>,
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-the-extended-view-extension-implementation-details">Using the Extended View Extension - Implementation Details</a>
+

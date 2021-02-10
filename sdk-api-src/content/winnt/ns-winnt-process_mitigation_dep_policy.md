@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _PROCESS_MITIGATION_DEP_POLICY
+ - PPROCESS_MITIGATION_DEP_POLICY
  - PROCESS_MITIGATION_DEP_POLICY
 ---
 
@@ -90,3 +92,4 @@ DEP is enabled for the process if this flag is set.
 #### - ReservedFlags : 30
 
 This member is reserved for system use.
+

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9.CheckDeviceType
+ - IDirect3D9::CheckDeviceType
 ---
 
 # IDirect3D9::CheckDeviceType
@@ -132,3 +132,4 @@ Using <b>CheckDeviceType</b> to test for compatibility between a back buffer tha
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
+

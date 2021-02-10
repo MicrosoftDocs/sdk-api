@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
- - ITMSPAddress.GetEvent
+ - ITMSPAddress::GetEvent
 ---
 
 # ITMSPAddress::GetEvent
@@ -155,3 +155,4 @@ Users of the MSP base classes: This method locks the event list.
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

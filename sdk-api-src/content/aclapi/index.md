@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - aclapi
  - aclapi/aclapi
+api_name:
+ - aclapi
 ---
 
 # Aclapi.h header

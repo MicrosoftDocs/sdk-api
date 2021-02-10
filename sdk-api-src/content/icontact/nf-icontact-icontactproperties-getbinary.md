@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactProperties.GetBinary
+ - IContactProperties::GetBinary
 ---
 
 # IContactProperties::GetBinary
@@ -169,3 +169,4 @@ To retrieve a single level property, set <i>pszPropertyName</i> to the property 
 To retrieve a value from a multi-value (hierarchical) property, include the desired index as part of <i>pszPropertyName</i> using the form: toplevel/secondlevel[1]/thirdlevel. NOTE: the first element of a set is index 1, so index [0] is invalid.
 
 For deleted properties, this method returns S_OK and an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a> of zero length. NOTE: For properties not of binary type, this method may return incorrect data in the IStream.
+

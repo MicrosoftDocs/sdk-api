@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IConfigurationDataCollector.RegistryKeys
- - IConfigurationDataCollector.get_RegistryKeys
- - IConfigurationDataCollector.put_RegistryKeys
+ - IConfigurationDataCollector::put_RegistryKeys
 ---
 
 # IConfigurationDataCollector::put_RegistryKeys
@@ -84,3 +82,4 @@ To collect registry information from a remote computer, include the computer nam
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_registrymaxrecursivedepth">IConfigurationDataCollector::RegistryMaxRecursiveDepth</a>
+

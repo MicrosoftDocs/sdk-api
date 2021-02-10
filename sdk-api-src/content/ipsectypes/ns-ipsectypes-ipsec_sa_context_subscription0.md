@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_SA_CONTEXT_SUBSCRIPTION0_
  - IPSEC_SA_CONTEXT_SUBSCRIPTION0
 ---
 

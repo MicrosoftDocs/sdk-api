@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.CspStatus
- - IX509PrivateKey.get_CspStatus
- - IX509PrivateKey.put_CspStatus
+ - IX509PrivateKey::get_CspStatus
 ---
 
 # IX509PrivateKey::get_CspStatus
@@ -65,3 +63,4 @@ The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_a
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

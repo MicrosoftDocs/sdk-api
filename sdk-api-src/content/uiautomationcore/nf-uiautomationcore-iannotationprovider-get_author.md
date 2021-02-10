@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IAnnotationProvider.Author
- - IAnnotationProvider.get_Author
+ - IAnnotationProvider::get_Author
 ---
 
 # IAnnotationProvider::get_Author
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iannotationprovider">IAnnotationProvider</a>
+

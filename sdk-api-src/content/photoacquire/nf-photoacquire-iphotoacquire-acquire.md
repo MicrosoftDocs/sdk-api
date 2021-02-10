@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquire.Acquire
+ - IPhotoAcquire::Acquire
 ---
 
 # IPhotoAcquire::Acquire
@@ -127,3 +127,4 @@ To verify that there are items in the device before acquisition, or to selective
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12CommandList.GetType
+ - ID3D12CommandList::GetType
 ---
 
 # ID3D12CommandList::GetType
@@ -65,3 +65,4 @@ This method returns the type of the command list,
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a>
+

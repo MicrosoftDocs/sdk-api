@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IAnchor.GetGravity
+ - IAnchor::GetGravity
 ---
 
 # IAnchor::GetGravity
@@ -106,3 +106,4 @@ The <i>pgravity</i> pointer is invalid.
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
+

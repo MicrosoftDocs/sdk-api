@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
+ - _ID_PARAMETER_PAIR
  - ID_PARAMETER_PAIR
 ---
 
@@ -71,3 +72,4 @@ The length of the ID when <i>fIsVariable</i> is <b>FALSE</b>. The maximum length
 
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
+

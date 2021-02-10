@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.KeyUsage
- - IX509PrivateKey.get_KeyUsage
- - IX509PrivateKey.put_KeyUsage
+ - IX509PrivateKey::put_KeyUsage
 ---
 
 # IX509PrivateKey::put_KeyUsage
@@ -66,3 +64,4 @@ If you set the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509priva
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

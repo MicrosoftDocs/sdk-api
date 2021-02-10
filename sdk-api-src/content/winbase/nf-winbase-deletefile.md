@@ -50,8 +50,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - DeleteFile
- - DeleteFileA
- - DeleteFileW
 ---
 
 # DeleteFile function
@@ -217,3 +215,4 @@ For an example, see
 
 
 <a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+

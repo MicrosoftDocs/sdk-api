@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration.SigningFlags
- - IOCSPCAConfiguration.get_SigningFlags
- - IOCSPCAConfiguration.put_SigningFlags
+ - IOCSPCAConfiguration::get_SigningFlags
 ---
 
 # IOCSPCAConfiguration::get_SigningFlags
@@ -129,3 +127,4 @@ If you specify <b>OCSP_SF_ALLOW_SIGNINGCERT_AUTOENROLLMENT</b>, you must also sp
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
+

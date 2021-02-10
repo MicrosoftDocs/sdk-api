@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_AUTHENTICATION_CREDENTIALS
  - WSMAN_AUTHENTICATION_CREDENTIALS
 ---
 
@@ -67,3 +68,4 @@ Defines the credentials used for authentication. See <a href="/windows/desktop/a
 ### -field certificateThumbprint
 
 Defines the certificate thumbprint.
+

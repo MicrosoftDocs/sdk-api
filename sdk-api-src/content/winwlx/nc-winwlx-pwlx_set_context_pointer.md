@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxSetContextPointer
+ - PWLX_SET_CONTEXT_POINTER
 ---
 
 # PWLX_SET_CONTEXT_POINTER callback function
@@ -86,3 +86,4 @@ If the GINA must call
 
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eapmethodpeerapis.h
 api_name:
+ - tagEapPeerMethodResult
  - EapPeerMethodResult
 ---
 
@@ -104,3 +105,4 @@ Whether or not to save to Credential Manager.
 ## -see-also
 
 [EAPHost Peer Method Structures](/windows/win32/eaphost/eap-host-peer-method-structures)
+

@@ -42,7 +42,6 @@ api_type:
 api_location:
  - Digitalv.h
 api_name:
- - MCI_DGV_STATUS_PARMS
  - MCI_DGV_STATUS_PARMSW
 ---
 
@@ -109,3 +108,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

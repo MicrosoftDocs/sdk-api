@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - SymEnumerateSymbolsProc64
+ - PSYM_ENUMSYMBOLS_CALLBACK
 ---
 
 # PSYM_ENUMSYMBOLS_CALLBACK callback function
@@ -125,3 +125,4 @@ typedef BOOL
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratesymbols">SymEnumerateSymbols64</a>
+

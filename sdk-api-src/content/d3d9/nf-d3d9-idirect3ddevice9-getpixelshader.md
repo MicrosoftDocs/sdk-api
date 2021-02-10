@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.GetPixelShader
+ - IDirect3DDevice9::GetPixelShader
 ---
 
 # IDirect3DDevice9::GetPixelShader
@@ -78,3 +78,4 @@ This method will not work on a device that is created using D3DCREATE_PUREDEVICE
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshader">IDirect3DDevice9::SetPixelShader</a>
+

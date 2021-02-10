@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - __WTS_PROPERTY_VALUE
+ - PWTS_PROPERTY_VALUE
  - WTS_PROPERTY_VALUE
 ---
 
@@ -121,3 +123,4 @@ A pointer to a byte array that contains the property value.
 ### -field u.guidVal
 
 A GUID that contains the property value.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ITrackShellMenu.SetObscured
+ - ITrackShellMenu::SetObscured
 ---
 
 # ITrackShellMenu::SetObscured
@@ -103,3 +103,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Obscured buttons are those buttons that cannot be displayed due to toolbar size limitations. Commonly, to see them you must press the chevron at the end of the toolbar.
+

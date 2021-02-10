@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Elscore.h
 api_name:
+ - _MAPPING_DATA_RANGE
+ - PMAPPING_DATA_RANGE
  - MAPPING_DATA_RANGE
 ---
 
@@ -122,3 +124,4 @@ Action display names for this subrange. These strings can be localized.
 
 
 <a href="/windows/desktop/api/elscore/ns-elscore-mapping_property_bag">MAPPING_PROPERTY_BAG</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth.Unload
+ - IDirectMusicSynth::Unload
 ---
 
 # IDirectMusicSynth::Unload
@@ -120,3 +120,4 @@ For more information, see the descriptions of the <b>IDirectMusic</b> and <b>IDi
 ## -see-also
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-download">IDirectMusicSynth::Download</a>
+

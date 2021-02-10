@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller.AllowSourcePrompts
- - IUpdateInstaller.get_AllowSourcePrompts
- - IUpdateInstaller.put_AllowSourcePrompts
+ - IUpdateInstaller::get_AllowSourcePrompts
 ---
 
 # IUpdateInstaller::get_AllowSourcePrompts
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
+

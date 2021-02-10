@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemStatusCodeText.GetErrorCodeText
+ - IWbemStatusCodeText::GetErrorCodeText
 ---
 
 # IWbemStatusCodeText::GetErrorCodeText

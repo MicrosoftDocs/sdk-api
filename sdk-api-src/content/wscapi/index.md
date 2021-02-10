@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - wscapi
  - wscapi/wscapi
+api_name:
+ - wscapi
 ---
 
 # Wscapi.h header

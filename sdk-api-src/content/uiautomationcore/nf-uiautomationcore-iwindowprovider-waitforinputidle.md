@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IWindowProvider.WaitForInputIdle
+ - IWindowProvider::WaitForInputIdle
 ---
 
 # IWindowProvider::WaitForInputIdle
@@ -89,3 +89,4 @@ This method is typically used in conjunction with the handling of a <a href="/wi
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

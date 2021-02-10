@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagLAYERPLANEDESCRIPTOR
+ - PLAYERPLANEDESCRIPTOR
  - LAYERPLANEDESCRIPTOR
 ---
 
@@ -258,3 +260,4 @@ Please notice, as documented above, that certain layer plane properties are not 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-wglswaplayerbuffers">wglSwapLayerBuffers</a>
+

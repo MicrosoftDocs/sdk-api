@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetButtonAtPosition
+ - IDvdInfo2::GetButtonAtPosition
 ---
 
 # IDvdInfo2::GetButtonAtPosition
@@ -133,3 +133,4 @@ This method is typically called in response to a mouse pointer move within a DVD
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+

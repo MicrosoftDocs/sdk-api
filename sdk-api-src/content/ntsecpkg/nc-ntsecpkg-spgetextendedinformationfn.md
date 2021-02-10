@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpGetExtendedInformation
+ - SpGetExtendedInformationFn
 ---
 
 # SpGetExtendedInformationFn callback function
@@ -104,3 +104,4 @@ A pointer to the <b>SpGetExtendedInformation</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a>
+

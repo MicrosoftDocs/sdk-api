@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallMultiGraph.DispatchGraphEvent
+ - CMSPCallMultiGraph::DispatchGraphEvent
 ---
 
 # CMSPCallMultiGraph::DispatchGraphEvent
@@ -72,3 +72,4 @@ Not used. Required for
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
+

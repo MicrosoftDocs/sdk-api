@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient.SetCertificate
+ - CSecureChannelClient::SetCertificate
 ---
 
 # CSecureChannelClient::SetCertificate
@@ -199,3 +199,4 @@ HRESULT MyClass::Authenticate()
 
 
 <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
+

@@ -9,6 +9,8 @@ tech.root: perf
 f1_keywords:
  - pdh
  - pdh/pdh
+api_name:
+ - pdh
 ---
 
 # Pdh.h header

@@ -43,7 +43,6 @@ api_location:
  - imapi2.h
 api_name:
  - IBlockRangeList
- - IBlockRangeList.get_BlockRanges
 ---
 
 # IBlockRangeList interface
@@ -73,3 +72,4 @@ The order of sector ranges in <b>IBlockRangeList</b> is taken into account durin
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

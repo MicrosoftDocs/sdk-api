@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignature.GetCustomObjectEnumerator
+ - IXpsSignature::GetCustomObjectEnumerator
 ---
 
 # IXpsSignature::GetCustomObjectEnumerator
@@ -129,3 +129,4 @@ The interface is not associated with the signature manager.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

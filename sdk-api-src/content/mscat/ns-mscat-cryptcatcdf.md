@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mscat.h
 api_name:
+ - CRYPTCATCDF_
  - CRYPTCATCDF
 ---
 
@@ -113,3 +114,4 @@ A parser can update <i>dwCurFilePos</i> and <i>dwLastMemberOffset</i> as it read
 
 
 <a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>
+

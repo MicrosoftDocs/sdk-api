@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFClock.GetContinuityKey
+ - IMFClock::GetContinuityKey
 ---
 
 # IMFClock::GetContinuityKey
@@ -88,3 +88,4 @@ Continuity keys are currently not supported in Media Foundation. Clocks must ret
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>
+

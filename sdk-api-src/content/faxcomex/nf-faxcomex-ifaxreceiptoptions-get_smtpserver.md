@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.SMTPServer
- - IFaxReceiptOptions.get_SMTPServer
- - IFaxReceiptOptions.put_SMTPServer
- - IFaxReceiptOptions.get_SMTPServer
- - IFaxReceiptOptions.put_SMTPServer
+ - IFaxReceiptOptions::get_SMTPServer
 ---
 
 # IFaxReceiptOptions::get_SMTPServer
@@ -75,3 +71,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-receipt-options">Setting Receipt Options</a>
+

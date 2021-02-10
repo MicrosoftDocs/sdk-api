@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderSimple2.ShowContextMenu
+ - IRawElementProviderSimple2::ShowContextMenu
 ---
 
 # IRawElementProviderSimple2::ShowContextMenu
@@ -69,3 +69,4 @@ This method returns an error code if the context menu could not be invoked.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>
+

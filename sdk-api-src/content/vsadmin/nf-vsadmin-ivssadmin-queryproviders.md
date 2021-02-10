@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsAdmin.h
 api_name:
- - IVssAdmin.QueryProviders
+ - IVssAdmin::QueryProviders
 ---
 
 # IVssAdmin::QueryProviders
@@ -189,3 +189,4 @@ Calling the <a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEn
 ## -see-also
 
 <a href="/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>
+

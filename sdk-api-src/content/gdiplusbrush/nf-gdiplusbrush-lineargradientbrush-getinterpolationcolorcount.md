@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.GetInterpolationColorCount
+ - LinearGradientBrush::GetInterpolationColorCount
 ---
 
 # LinearGradientBrush::GetInterpolationColorCount
@@ -172,3 +172,4 @@ VOID Example_GetInterpColors(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
+

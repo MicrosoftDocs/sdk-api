@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Connect_MachineW
  - cfgmgr32/CM_Connect_MachineW
+ - CM_Connect_Machine
+ - cfgmgr32/CM_Connect_Machine
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Connect_Machine
  - CM_Connect_MachineW
+ - CM_Connect_Machine
 ---
 
 # CM_Connect_MachineW function
@@ -84,3 +86,4 @@ Use machine handles obtained with this function only with the <a href="/previous
 ## -see-also
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_disconnect_machine">CM_Disconnect_Machine</a>
+

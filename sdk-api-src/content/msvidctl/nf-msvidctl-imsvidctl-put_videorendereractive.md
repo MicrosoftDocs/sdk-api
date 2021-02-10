@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.put_VideoRendererActive
+ - IMSVidCtl::put_VideoRendererActive
 ---
 
 # IMSVidCtl::put_VideoRendererActive
@@ -73,3 +73,4 @@ Currently the only supported video renderer is the Video Mixing Renderer (VMR) f
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive">IMSVidCtl::get_VideoRendererActive</a>
+

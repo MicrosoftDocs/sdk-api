@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_SMART_CARD_LOGON
+ - PKERB_SMART_CARD_LOGON
  - KERB_SMART_CARD_LOGON
 ---
 
@@ -76,3 +78,4 @@ The length, in characters, of the <b>CspData</b> member.
 ### -field CspData
 
 A pointer to a <b>KERB_SMARTCARD_CSP_INFO</b> structure that contains information about the smart card cryptographic service provider (CSP) or a pointer to a marshaled <b>KERB_CERTIFICATE_INFO</b> structure when updating certificate credentials.
+

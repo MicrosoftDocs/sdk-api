@@ -44,6 +44,7 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
+ - __MIDL___MIDL_itf_msrdc_0000_0000_0009
  - RdcCreatedTables
 ---
 
@@ -79,3 +80,4 @@ The table is a new table.
 
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">ISimilarityTraitsTable::CreateTable</a>
+

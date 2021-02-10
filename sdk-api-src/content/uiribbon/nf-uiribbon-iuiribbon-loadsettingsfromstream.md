@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIRibbon.LoadSettingsFromStream
+ - IUIRibbon::LoadSettingsFromStream
 ---
 
 # IUIRibbon::LoadSettingsFromStream
@@ -92,3 +92,4 @@ The <b>LoadSettingsFromStream </b> method is useful for persisting ribbon state,
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+

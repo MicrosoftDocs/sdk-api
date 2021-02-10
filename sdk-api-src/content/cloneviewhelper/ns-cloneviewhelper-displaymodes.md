@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cloneviewhelper.h
 api_name:
+ - tagDisplayModes
  - DisplayModes
 ---
 
@@ -71,3 +72,4 @@ An array of <a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-dis
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
+

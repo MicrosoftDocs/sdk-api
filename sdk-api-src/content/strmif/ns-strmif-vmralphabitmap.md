@@ -46,6 +46,8 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - _VMRALPHABITMAP
+ - PVMRALPHABITMAP
  - VMRALPHABITMAP
 ---
 
@@ -157,3 +159,4 @@ Specifies the source color key.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

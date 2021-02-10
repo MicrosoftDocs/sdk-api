@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TsVirtualChannels.h
 api_name:
- - IWTSPlugin.Initialize
+ - IWTSPlugin::Initialize
 ---
 
 # IWTSPlugin::Initialize
@@ -65,3 +65,4 @@ Returns <b>S_OK</b> if the call completes successfully. If the call fails, the p
 ## -see-also
 
 <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>
+

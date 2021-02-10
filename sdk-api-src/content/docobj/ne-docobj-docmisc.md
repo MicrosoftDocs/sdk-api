@@ -44,6 +44,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
+ - __MIDL_IOleDocument_0001
  - DOCMISC
 ---
 
@@ -99,3 +100,4 @@ If an object requires none of these flags, it must write a zero to the <i>pdwSta
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
+

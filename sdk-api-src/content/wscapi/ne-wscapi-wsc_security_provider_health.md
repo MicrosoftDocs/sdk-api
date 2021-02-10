@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Wscapi.h
 api_name:
- - WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
+ - _WSC_SECURITY_PROVIDER_HEALTH
+ - PWSC_SECURITY_PROVIDER_HEALTH
+ - WSC_SECURITY_PROVIDER_HEALTH
 ---
 
 # WSC_SECURITY_PROVIDER_HEALTH enumeration
@@ -77,3 +79,4 @@ The security provider category is in snooze state. Snooze indicates that WSC is 
 ## -see-also
 
 <a href="/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a>
+

@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore.ApplyStoreSacl
- - IAzAuthorizationStore.get_ApplyStoreSacl
- - IAzAuthorizationStore.put_ApplyStoreSacl
- - AzAuthorizationStore.ApplyStoreSacl
+ - IAzAuthorizationStore::get_ApplyStoreSacl
 ---
 
 # IAzAuthorizationStore::get_ApplyStoreSacl

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CTL_VERIFY_USAGE_PARA
+ - PCTL_VERIFY_USAGE_PARA
  - CTL_VERIFY_USAGE_PARA
 ---
 
@@ -90,3 +92,4 @@ Array of handles of stores to be searched for acceptable CTL signers.
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a>
+

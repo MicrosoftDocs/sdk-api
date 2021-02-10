@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
+ - _WitnessTagHelper
  - WitnessTagHelper
 ---
 
@@ -71,3 +72,4 @@ The Paxos tag to validate.
 
 
 <a href="/windows/desktop/api/resapi/ns-resapi-witnesstagupdatehelper">WitnessTagUpdateHelper</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Wmvcore.lib
  - Wmvcore.dll
 api_name:
- - IWMVideoMediaProps.GetQuality
+ - IWMVideoMediaProps::GetQuality
 ---
 
 # IWMVideoMediaProps::GetQuality
@@ -99,3 +99,4 @@ For more information, see the Remarks for <a href="/windows/desktop/api/wmsdkidl
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps Interface</a>
+

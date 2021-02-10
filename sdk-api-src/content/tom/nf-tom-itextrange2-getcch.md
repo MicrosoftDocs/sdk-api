@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.GetCch
+ - ITextRange2::GetCch
 ---
 
 # ITextRange2::GetCch
@@ -73,3 +73,4 @@ The count of characters is the difference between the character position of the 
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+

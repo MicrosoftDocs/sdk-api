@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStream.Write
+ - IMFByteStream::Write
 ---
 
 # IMFByteStream::Write
@@ -166,3 +166,4 @@ HRESULT WriteToStream(
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
+

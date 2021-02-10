@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_SA_ENUM_TEMPLATE0_
  - IKEEXT_SA_ENUM_TEMPLATE0
 ---
 
@@ -93,3 +94,4 @@ See [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

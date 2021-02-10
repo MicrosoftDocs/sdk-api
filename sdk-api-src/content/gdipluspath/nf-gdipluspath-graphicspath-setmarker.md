@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.SetMarker
+ - GraphicsPath::SetMarker
 ---
 
 # GraphicsPath::SetMarker
@@ -114,3 +114,4 @@ Markers divide a path into sections. You can use a <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

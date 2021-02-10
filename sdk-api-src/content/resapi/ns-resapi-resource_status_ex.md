@@ -44,6 +44,7 @@ api_location:
  - 
 api_name:
  - RESOURCE_STATUS_EX
+ - PRESOURCE_STATUS_EX
 ---
 
 # RESOURCE_STATUS_EX structure
@@ -144,3 +145,4 @@ This member is not being used at this time.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
+

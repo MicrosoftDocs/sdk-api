@@ -42,7 +42,7 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - ISearchItemsChangedSink.StoppedMonitoringScope
+ - ISearchItemsChangedSink::StoppedMonitoringScope
 ---
 
 # ISearchItemsChangedSink::StoppedMonitoringScope
@@ -93,3 +93,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-startedmonitoringscope">StartedMonitoringScope</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _TRUSTED_DOMAIN_NAME_INFO
+ - PTRUSTED_DOMAIN_NAME_INFO
  - TRUSTED_DOMAIN_NAME_INFO
 ---
 
@@ -80,3 +82,4 @@ An
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
+

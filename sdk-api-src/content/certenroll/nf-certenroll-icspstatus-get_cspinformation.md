@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspStatus.CspInformation
- - ICspStatus.get_CspInformation
+ - ICspStatus::get_CspInformation
 ---
 
 # ICspStatus::get_CspInformation
@@ -76,3 +75,4 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICsp
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
+

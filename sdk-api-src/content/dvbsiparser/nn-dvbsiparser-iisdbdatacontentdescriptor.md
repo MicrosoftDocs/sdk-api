@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dvbsiparser.h
 api_name:
- - IIsdbDatacontentDescriptor
+ - IIsdbDataContentDescriptor
 ---
 
 # IIsdbDataContentDescriptor interface

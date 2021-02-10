@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx.GetCaption
+ - IFullScreenVideoEx::GetCaption
 ---
 
 # IFullScreenVideoEx::GetCaption
@@ -116,3 +116,4 @@ The caller must release the returned string, by calling the <b>SysFreeString</b>
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
+

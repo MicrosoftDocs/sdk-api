@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarMgr.SetModalInput
+ - ITfLangBarMgr::SetModalInput
 ---
 
 # ITfLangBarMgr::SetModalInput
@@ -76,3 +76,4 @@ This method does not return a value.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
+

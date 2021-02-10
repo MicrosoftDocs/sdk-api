@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider.InstanceReleased
+ - IFunctionDiscoveryProvider::InstanceReleased
 ---
 
 # IFunctionDiscoveryProvider::InstanceReleased
@@ -120,3 +120,4 @@ When you implement this method, you must clean up the memory allocated for <i>pp
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
+

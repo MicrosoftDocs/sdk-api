@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
+ - tagMKSYS
  - MKSYS
 ---
 
@@ -99,3 +100,4 @@ Indicates the system's elevation moniker class.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-issystemmoniker">IMoniker::IsSystemMoniker</a>
+

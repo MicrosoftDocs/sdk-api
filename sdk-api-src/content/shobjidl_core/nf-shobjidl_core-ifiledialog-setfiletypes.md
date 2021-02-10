@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialog.SetFileTypes
+ - IFileDialog::SetFileTypes
 ---
 
 # IFileDialog::SetFileTypes
@@ -133,3 +133,4 @@ COMDLG_FILTERSPEC rgSpec[] =
     { szAll, L"*.*" },
 };
 ```
+

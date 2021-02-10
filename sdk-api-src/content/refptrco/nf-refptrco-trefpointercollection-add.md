@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - TRefPointerCollection.Add
+ - TRefPointerCollection::Add
 ---
 
 # TRefPointerCollection::Add
@@ -74,3 +74,4 @@ If the method fails, it returns <b>FALSE</b>.
 ## -remarks
 
 The <b>Add</b> method calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on this pointer.
+

@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device.GetCreationFlags
+ - ID3D10Device::GetCreationFlags
 ---
 
 # ID3D10Device::GetCreationFlags
@@ -64,3 +64,4 @@ A bitfield containing the flags used to create the device. See <a href="/windows
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

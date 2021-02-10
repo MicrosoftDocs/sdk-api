@@ -44,6 +44,7 @@ api_type:
 api_location:
  - HtmlHelp.h
 api_name:
+ - tagHHN_NOTIFY
  - HHN_NOTIFY
 ---
 
@@ -67,3 +68,4 @@ A multi-byte, zero-terminated string that specifies the topic navigated to, or t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
+

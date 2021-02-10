@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IBlockRangeList.get_BlockRanges
+ - IBlockRangeList::get_BlockRanges
 ---
 
 # IBlockRangeList::get_BlockRanges
@@ -102,3 +102,4 @@ The order of sector ranges in <a href="/windows/desktop/api/imapi2/nn-imapi2-ibl
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a>
+

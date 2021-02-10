@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.ListContentsComplete
+ - IWMPContentPartnerCallback::ListContentsComplete
 ---
 
 # IWMPContentPartnerCallback::ListContentsComplete
@@ -93,3 +93,4 @@ Windows Media Player starts retrieving list contents by calling <a href="/window
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
+

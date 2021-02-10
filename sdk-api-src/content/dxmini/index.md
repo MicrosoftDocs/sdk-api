@@ -9,6 +9,8 @@ tech.root: display
 f1_keywords:
  - dxmini
  - dxmini/dxmini
+api_name:
+ - dxmini
 ---
 
 # Dxmini.h header

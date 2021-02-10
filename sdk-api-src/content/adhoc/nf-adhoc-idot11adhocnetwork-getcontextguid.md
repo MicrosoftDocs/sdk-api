@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetwork.GetContextGuid
+ - IDot11AdHocNetwork::GetContextGuid
 ---
 
 # IDot11AdHocNetwork::GetContextGuid
@@ -127,3 +127,4 @@ A pointer passed as a parameter is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
+

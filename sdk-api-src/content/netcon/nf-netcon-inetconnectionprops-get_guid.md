@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetConnectionProps.get_Guid
+ - INetConnectionProps::get_Guid
 ---
 
 # INetConnectionProps::get_Guid
@@ -166,3 +166,4 @@ The method failed for unknown reasons.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnectionprops">INetConnectionProps</a>
+

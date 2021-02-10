@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceFrame.RemoveMenus
+ - IOleInPlaceFrame::RemoveMenus
 ---
 
 # IOleInPlaceFrame::RemoveMenus
@@ -109,3 +109,4 @@ This method is called by the object application while it is being UI-deactivated
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
+

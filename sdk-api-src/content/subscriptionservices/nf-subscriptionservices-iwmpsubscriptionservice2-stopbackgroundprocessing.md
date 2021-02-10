@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionService2.stopBackgroundProcessing
+ - IWMPSubscriptionService2::stopBackgroundProcessing
 ---
 
 # IWMPSubscriptionService2::stopBackgroundProcessing
@@ -85,3 +85,4 @@ Calls to <b>stopBackgroundProcessing</b> occur after calls to <b>startBackground
 ## -see-also
 
 <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2">IWMPSubscriptionService2 Interface</a>
+

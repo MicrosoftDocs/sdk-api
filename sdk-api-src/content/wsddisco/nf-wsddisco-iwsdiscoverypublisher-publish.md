@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher.Publish
+ - IWSDiscoveryPublisher::Publish
 ---
 
 # IWSDiscoveryPublisher::Publish
@@ -175,3 +175,4 @@ If successful, <b>Publish</b> will send a WS-Discovery Hello message to the loca
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
+

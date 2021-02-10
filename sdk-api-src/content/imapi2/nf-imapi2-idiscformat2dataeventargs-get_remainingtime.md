@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2DataEventArgs.get_RemainingTime
+ - IDiscFormat2DataEventArgs::get_RemainingTime
 ---
 
 # IDiscFormat2DataEventArgs::get_RemainingTime
@@ -93,3 +93,4 @@ The estimate for a single write operation can vary as the operation progresses. 
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2dataeventargs">IDiscFormat2DataEventArgs</a>
+

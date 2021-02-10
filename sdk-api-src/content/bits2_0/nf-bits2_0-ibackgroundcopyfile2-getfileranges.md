@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx3.dll
 api_name:
- - IBackgroundCopyFile2.GetFileRanges
+ - IBackgroundCopyFile2::GetFileRanges
 ---
 
 # IBackgroundCopyFile2::GetFileRanges
@@ -106,3 +106,4 @@ No ranges were specified or the job is an upload or upload-reply job. <i>RangeCo
 
 
 <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
+

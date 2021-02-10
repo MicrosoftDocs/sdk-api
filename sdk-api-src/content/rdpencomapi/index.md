@@ -9,6 +9,8 @@ tech.root: rdp
 f1_keywords:
  - rdpencomapi
  - rdpencomapi/rdpencomapi
+api_name:
+ - rdpencomapi
 ---
 
 # Rdpencomapi.h header

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer2.CurrentAccount
- - IFaxServer2.get_CurrentAccount
- - IFaxServer2.get_CurrentAccount
+ - IFaxServer2::get_CurrentAccount
 ---
 
 # IFaxServer2::get_CurrentAccount
@@ -65,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver2">IFaxServer2</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWatermarkInfo.GetWatermarkEntry
+ - IWMWatermarkInfo::GetWatermarkEntry
 ---
 
 # IWMWatermarkInfo::GetWatermarkEntry
@@ -102,3 +102,4 @@ No watermarking <a href="/windows/desktop/wmformat/wmformat-glossary">DMOs</a> a
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwatermarkinfo-getwatermarkentrycount">IWMWatermarkInfo::GetWatermarkEntryCount</a>
+

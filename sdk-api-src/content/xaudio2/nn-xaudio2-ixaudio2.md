@@ -43,7 +43,7 @@ api_location:
  - xaudio2.lib
  - xaudio2.dll
 api_name:
- - IXAudio2 Interface
+ - IXAudio2
 ---
 
 # IXAudio2 interface
@@ -72,3 +72,4 @@ Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 ## -see-also
 
 <a href="/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>
+

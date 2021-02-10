@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateOrCondition
+ - IUIAutomation::CreateOrCondition
 ---
 
 # IUIAutomation::CreateOrCondition
@@ -117,3 +117,4 @@ The <b>CreateOrCondition</b> method calls <a href="/windows/desktop/api/unknwn/n
 
 
 <b>Reference</b>
+

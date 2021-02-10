@@ -9,6 +9,8 @@ tech.root: bits
 f1_keywords:
  - bits
  - bits/bits
+api_name:
+ - bits
 ---
 
 # Bits.h header

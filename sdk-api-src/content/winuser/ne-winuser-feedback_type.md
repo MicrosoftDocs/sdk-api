@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagFEEDBACK_TYPE
  - FEEDBACK_TYPE
 ---
 
@@ -107,3 +108,4 @@ Do not use.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_feedback/enumerations">Enumerations</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge.ExtractFiles
+ - IMsmMerge::ExtractFiles
 ---
 
 # IMsmMerge::ExtractFiles
@@ -150,3 +150,4 @@ Any files in the destination directory with the same name are overwritten. The p
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

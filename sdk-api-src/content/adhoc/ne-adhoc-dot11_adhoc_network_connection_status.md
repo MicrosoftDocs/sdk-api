@@ -44,6 +44,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
+ - tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
  - DOT11_ADHOC_NETWORK_CONNECTION_STATUS
 ---
 

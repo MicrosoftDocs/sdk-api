@@ -44,6 +44,7 @@ api_type:
 api_location:
  - propidlbase.h
 api_name:
+ - tagPROPSPEC
  - PROPSPEC
 ---
 
@@ -108,3 +109,4 @@ String names are optional and can be assigned to a set of properties when the pr
 ## -see-also
 
 <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourceNotification.NotifyTargetChange
+ - ITsSbResourceNotification::NotifyTargetChange
 ---
 
 # ITsSbResourceNotification::NotifyTargetChange
@@ -81,3 +81,4 @@ RD Connection Broker calls the <b>NotifyTargetChange</b> method to notify regis
 
 
 <a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-target_change_type">TARGET_CHANGE_TYPE</a>
+

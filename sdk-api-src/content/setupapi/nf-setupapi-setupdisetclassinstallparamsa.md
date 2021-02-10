@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiSetClassInstallParamsA
  - setupapi/SetupDiSetClassInstallParamsA
+ - SetupDiSetClassInstallParams
+ - setupapi/SetupDiSetClassInstallParams
 dev_langs:
  - c++
 topic_type:
@@ -43,7 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetClassInstallParams - SetupDiSetClassInstallParamsA
+ - SetupDiSetClassInstallParamsA
+ - SetupDiSetClassInstallParams
 ---
 
 # SetupDiSetClassInstallParamsA function
@@ -99,3 +102,4 @@ If the class install parameters are cleared, the DI_CLASSINSTALLPARAMS flag is r
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinstallparamsa">SetupDiSetDeviceInstallParams</a>
+

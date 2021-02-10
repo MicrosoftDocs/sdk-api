@@ -42,8 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.FrameBuffer
- - IRDPSRAPISharingSession2.get_FrameBuffer
+ - IRDPSRAPISharingSession2::get_FrameBuffer
 ---
 
 # IRDPSRAPISharingSession2::get_FrameBuffer
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
+

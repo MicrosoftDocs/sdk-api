@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddstream.h
 api_name:
- - IDirectDrawMediaStream.CreateSample
+ - IDirectDrawMediaStream::CreateSample
 ---
 
 # IDirectDrawMediaStream::CreateSample
@@ -175,3 +175,4 @@ The <i>pRect</i> parameter should match the format of the stream (see <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
+

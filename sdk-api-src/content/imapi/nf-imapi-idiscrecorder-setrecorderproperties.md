@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscRecorder.SetRecorderProperties
+ - IDiscRecorder::SetRecorderProperties
 ---
 
 # IDiscRecorder::SetRecorderProperties
@@ -77,3 +77,4 @@ After calling
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
+

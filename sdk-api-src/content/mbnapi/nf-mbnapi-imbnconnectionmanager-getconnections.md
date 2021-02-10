@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionManager.GetConnections
+ - IMbnConnectionManager::GetConnections
 ---
 
 # IMbnConnectionManager::GetConnections
@@ -108,3 +108,4 @@ Could not allocate the required memory.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanager">IMbnConnectionManager</a>
+

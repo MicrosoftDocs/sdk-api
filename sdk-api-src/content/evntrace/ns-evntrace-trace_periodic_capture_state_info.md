@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
+ - _TRACE_PERIODIC_CAPTURE_STATE_INFO
+ - PTRACE_PERIODIC_CAPTURE_STATE_INFO
  - TRACE_PERIODIC_CAPTURE_STATE_INFO
 ---
 
@@ -83,3 +85,4 @@ Periodic capture state is a way to allow capture state notifications to be routi
 <li>Call <a href="/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a> using <b>TracePeriodicCaptureStateListInfo</b> from the <a href="/windows/desktop/ETW/trace-info-class">TRACE_INFO_CLASS</a> enumeration. </li>
 <li>To turn periodic capture state off, call <a href="/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a> again with <b>TracePeriodicCaptureStateListInfo</b> from the <a href="/windows/desktop/ETW/trace-info-class">TRACE_INFO_CLASS</a>, NULL for the <b>TraceInformation</b>, and 0 as the <b>InformationLength</b>.</li>
 </ul>
+

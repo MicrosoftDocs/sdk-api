@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITableItemProvider.GetRowHeaderItems
+ - ITableItemProvider::GetRowHeaderItems
 ---
 
 # ITableItemProvider::GetRowHeaderItems
@@ -87,3 +87,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

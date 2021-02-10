@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font.GetHeight
+ - Font::GetHeight
 ---
 
 # Font::GetHeight(IN REAL)
@@ -92,3 +92,4 @@ If the font unit is set to anything other than <a href="/windows/desktop/api/gdi
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
+

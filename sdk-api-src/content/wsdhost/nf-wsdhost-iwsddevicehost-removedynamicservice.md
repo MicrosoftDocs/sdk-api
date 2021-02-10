@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost.RemoveDynamicService
+ - IWSDDeviceHost::RemoveDynamicService
 ---
 
 # IWSDDeviceHost::RemoveDynamicService
@@ -109,3 +109,4 @@ The device host releases its reference to the service object after the service i
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
+

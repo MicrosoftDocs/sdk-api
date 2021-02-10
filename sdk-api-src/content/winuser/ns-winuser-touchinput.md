@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagTOUCHINPUT
+ - PTOUCHINPUT
  - TOUCHINPUT
 ---
 
@@ -257,3 +259,4 @@ for (UINT i = 0; i < cInputs; i++){
 
 
 <a href="/windows/desktop/wintouch/structures">Structures</a>
+

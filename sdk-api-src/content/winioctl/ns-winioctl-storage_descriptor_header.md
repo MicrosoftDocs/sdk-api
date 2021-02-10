@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_DESCRIPTOR_HEADER
+ - PSTORAGE_DESCRIPTOR_HEADER
  - STORAGE_DESCRIPTOR_HEADER
 ---
 
@@ -118,3 +120,4 @@ The data retrieved by
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
+

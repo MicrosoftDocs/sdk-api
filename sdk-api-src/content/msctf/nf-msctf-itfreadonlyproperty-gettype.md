@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfReadOnlyProperty.GetType
+ - ITfReadOnlyProperty::GetType
 ---
 
 # ITfReadOnlyProperty::GetType
@@ -151,3 +151,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/TSF/properties">Properties</a>
+

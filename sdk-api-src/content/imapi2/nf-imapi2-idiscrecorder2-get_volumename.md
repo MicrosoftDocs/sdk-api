@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2.get_VolumeName
+ - IDiscRecorder2::get_VolumeName
 ---
 
 # IDiscRecorder2::get_VolumeName
@@ -115,3 +115,4 @@ To retrieve the drive letter assignment, call the <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+

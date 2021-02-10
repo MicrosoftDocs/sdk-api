@@ -43,7 +43,7 @@ api_location:
  - D2D1.lib
  - D2D1.dll
 api_name:
- - ID2D1EffectImpl.PrepareForRender
+ - ID2D1EffectImpl::PrepareForRender
 ---
 
 # ID2D1EffectImpl::PrepareForRender
@@ -125,3 +125,4 @@ private:
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
+

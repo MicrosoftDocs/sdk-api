@@ -43,9 +43,6 @@ api_location:
  - Dnsapi.dll
 api_name:
  - DnsNameCompare
- - DnsNameCompare_A
- - DnsNameCompare_W
- - DnsNameCompare_UTF8
 ---
 
 # DnsNameCompare macro
@@ -117,3 +114,4 @@ As with other DNS comparison functions, the
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcompare">DnsRecordSetCompare</a>
+

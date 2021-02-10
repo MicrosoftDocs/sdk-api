@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisualDebug.EnableRedrawRegions
+ - IDCompositionVisualDebug::EnableRedrawRegions
 ---
 
 # IDCompositionVisualDebug::EnableRedrawRegions
@@ -73,3 +73,4 @@ Highlighting redraw regions can be enabled by calling <b>EnableRedrawRegions</b>
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-disableredrawregions">IDCompositionVisualDebug::DisableRedrawRegions</a>
+

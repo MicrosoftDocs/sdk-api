@@ -9,6 +9,8 @@ tech.root: gdi
 f1_keywords:
  - fontsub
  - fontsub/fontsub
+api_name:
+ - fontsub
 ---
 
 # Fontsub.h header

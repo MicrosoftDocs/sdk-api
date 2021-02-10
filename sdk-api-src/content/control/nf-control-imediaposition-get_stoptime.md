@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition.get_StopTime
+ - IMediaPosition::get_StopTime
 ---
 
 # IMediaPosition::get_StopTime
@@ -114,3 +114,4 @@ The playback rate does not affect the value returned by this method.
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dpa_dsa.h
 api_name:
+ - _DPASTREAMINFO
  - DPASTREAMINFO
 ---
 
@@ -67,3 +68,4 @@ An index of the item in the DPA.
 Type: <b>void*</b>
 
 A void pointer to the item data.
+

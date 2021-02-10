@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDevMgr.CreateDevice
+ - IWiaDevMgr::CreateDevice
 ---
 
 # IWiaDevMgr::CreateDevice
@@ -79,3 +79,4 @@ Applications use the <b>IWiaDevMgr::CreateDevice</b> method to create a device o
 When it returns, the <b>IWiaDevMgr::CreateDevice</b> method stores an address of a pointer in the parameter <i>ppWiaItemRoot</i>. The pointer points to the root item of the tree of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects created by <b>IWiaDevMgr::CreateDevice</b>. Applications can use this tree of objects to control and retrieve data from the WIA device.
 
 Note that applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the pointers they receive through the <i>ppWiaItemRoot</i> parameter.
+

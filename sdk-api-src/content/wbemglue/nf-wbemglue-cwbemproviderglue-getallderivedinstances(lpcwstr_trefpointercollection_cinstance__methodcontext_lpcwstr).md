@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetAllDerivedInstances
+ - CWbemProviderGlue::GetAllDerivedInstances
 ---
 
 # CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
@@ -88,3 +88,4 @@ The <b>GetAllDerivedInstances</b> method allows framework providers to access da
 The return codes include all the possible returns from <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a>.
 
 This method is semantically equivalent to the query SELECT * FROM <i>pszBaseClassName</i>.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceManager.RegisterServiceWithAU
+ - IUpdateServiceManager::RegisterServiceWithAU
 ---
 
 # IUpdateServiceManager::RegisterServiceWithAU
@@ -141,3 +141,4 @@ This method returns <b>WU_E_DS_NEEDWINDOWSSERVICE</b> if you try to remove the W
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
+

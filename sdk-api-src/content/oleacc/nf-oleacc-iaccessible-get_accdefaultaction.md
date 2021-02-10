@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.get_accDefaultAction
+ - IAccessible::get_accDefaultAction
 ---
 
 # IAccessible::get_accDefaultAction
@@ -168,3 +168,4 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accDefaultAction(
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
+

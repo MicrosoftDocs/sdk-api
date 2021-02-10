@@ -42,7 +42,7 @@ api_type:
 api_location:
  - prnasnot.dll
 api_name:
- - IPrintAsyncNotifyCallback.OnEventNotify
+ - IPrintAsyncNotifyCallback::OnEventNotify
 ---
 
 # IPrintAsyncNotifyCallback::OnEventNotify
@@ -136,3 +136,4 @@ To deliver a notification, the print spooler will call the <b>OnEventNotify</b> 
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
+

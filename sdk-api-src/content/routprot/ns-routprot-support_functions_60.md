@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - SUPPORT_FUNCTIONS
+ - _SUPPORT_FUNCTIONS_60
+ - SUPPORT_FUNCTIONS_60
 ---
 
 # SUPPORT_FUNCTIONS_60 structure
@@ -540,3 +541,4 @@ Pointer to information that describes the route to validate.
 ## -see-also
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>
+

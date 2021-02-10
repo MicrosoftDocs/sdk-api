@@ -46,6 +46,8 @@ api_type:
 api_location:
  - iwstdec.h
 api_name:
+ - _AM_WST_PAGE
+ - PAM_WST_PAGE
  - AM_WST_PAGE
 ---
 
@@ -77,3 +79,4 @@ A pointer to the page data.
 
 
 <a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder</a>
+

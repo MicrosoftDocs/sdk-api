@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide.Midline
- - IInkRecognizerGuide.get_Midline
- - IInkRecognizerGuide.put_Midline
- - InkRecognizerGuide.get_Midline
- - InkRecognizerGuide.put_Midline
+ - IInkRecognizerGuide::get_Midline
 ---
 
 # IInkRecognizerGuide::get_Midline
@@ -74,3 +70,4 @@ The value is 0 if the midline is not present.
 
 
 <a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
+

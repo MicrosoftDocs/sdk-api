@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_CONNECT_STATE
  - OFFLINEFILES_CONNECT_STATE
 ---
 
@@ -91,3 +92,4 @@ Transparently cached data is accessible only when the client is connected to the
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-setconnectstate">IOfflineFilesConnectionInfo::SetConnectState</a>
+

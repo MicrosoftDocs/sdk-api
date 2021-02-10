@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSetting.DeletePreference
+ - IOfflineFilesSetting::DeletePreference
 ---
 
 # IOfflineFilesSetting::DeletePreference
@@ -86,3 +86,4 @@ This method requires system administrator privilege if the preference is a per-m
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>
+

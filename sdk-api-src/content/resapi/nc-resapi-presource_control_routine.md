@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - ResourceControl
+ - PRESOURCE_CONTROL_ROUTINE
 ---
 
 # PRESOURCE_CONTROL_ROUTINE callback function
@@ -179,3 +179,4 @@ See <a href="/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
+

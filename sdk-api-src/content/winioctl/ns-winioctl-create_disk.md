@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CREATE_DISK
+ - PCREATE_DISK
  - CREATE_DISK
 ---
 
@@ -92,3 +94,4 @@ A
 
 
 <a href="/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
+

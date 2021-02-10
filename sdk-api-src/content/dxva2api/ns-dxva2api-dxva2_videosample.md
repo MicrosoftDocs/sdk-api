@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_VideoSample
  - DXVA2_VideoSample
 ---
 
@@ -147,3 +148,4 @@ These flags provide a hint to the deinterlacer when it performs inverse telecine
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

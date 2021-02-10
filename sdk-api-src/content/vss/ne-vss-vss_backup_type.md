@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_BACKUP_TYPE
+ - PVSS_BACKUP_TYPE
  - VSS_BACKUP_TYPE
 ---
 
@@ -161,3 +163,4 @@ Writers use
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
+

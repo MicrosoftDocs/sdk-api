@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationJob.GetProgress
+ - IInstallationJob::GetProgress
 ---
 
 # IInstallationJob::GetProgress
@@ -70,3 +70,4 @@ the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpd
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>
+

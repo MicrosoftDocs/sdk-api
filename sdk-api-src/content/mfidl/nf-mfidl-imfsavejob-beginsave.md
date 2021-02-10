@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSaveJob.BeginSave
+ - IMFSaveJob::BeginSave
 ---
 
 # IMFSaveJob::BeginSave
@@ -96,3 +96,4 @@ When the operation completes, the callback object's <a href="/windows/desktop/ap
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsavejob">IMFSaveJob</a>
+

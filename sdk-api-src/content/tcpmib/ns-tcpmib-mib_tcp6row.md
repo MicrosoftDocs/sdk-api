@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tcpmib.h
 api_name:
+ - _MIB_TCP6ROW
+ - PMIB_TCP6ROW
  - MIB_TCP6ROW
 ---
 
@@ -457,3 +459,4 @@ int wmain()
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
+

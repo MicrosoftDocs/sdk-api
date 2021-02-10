@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagINPUT_INJECTION_VALUE
+ - PINPUT_INJECTION_VALUE
  - INPUT_INJECTION_VALUE
 ---
 

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_EVENT_PACKAGE_CHANGE
+ - PSECPKG_EVENT_PACKAGE_CHANGE
  - SECPKG_EVENT_PACKAGE_CHANGE
 ---
 
@@ -107,3 +109,4 @@ The identifier of the security package.
 ### -field PackageName
 
 The name of the security package.
+

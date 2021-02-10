@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
+ - _WTS_TYPE_CLASS
  - WTS_TYPE_CLASS
 ---
 
@@ -75,3 +76,4 @@ The buffer contains one or more <a href="/windows/desktop/api/wtsapi32/ns-wtsapi
 
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememoryexa">WTSFreeMemoryEx</a>
+

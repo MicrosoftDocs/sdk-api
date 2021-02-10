@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel.HorizontalOffset
- - IPenInputPanel.get_HorizontalOffset
- - IPenInputPanel.put_HorizontalOffset
- - PenInputPanel.get_HorizontalOffset
- - PenInputPanel.put_HorizontalOffset
+ - IPenInputPanel::get_HorizontalOffset
 ---
 
 # IPenInputPanel::get_HorizontalOffset
@@ -82,3 +78,4 @@ If the new position causes the panel to appear outside the boundary of the scree
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset">VerticalOffset Property</a>
+

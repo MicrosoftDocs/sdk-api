@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeGenerator.GetTCGMode
+ - IAMTimecodeGenerator::GetTCGMode
 ---
 
 # IAMTimecodeGenerator::GetTCGMode
@@ -202,3 +202,4 @@ This method returns various settings of the timecode generator. For more informa
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
+

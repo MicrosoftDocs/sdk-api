@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMRSOP.CreateQueryResults
- - GPMRSOP.CreateQueryResults
+ - IGPMRSOP::CreateQueryResults
 ---
 
 # IGPMRSOP::CreateQueryResults
@@ -74,3 +73,4 @@ In the GPMC UI, logging mode is also referred to as "Group Policy Results", and 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a>
+

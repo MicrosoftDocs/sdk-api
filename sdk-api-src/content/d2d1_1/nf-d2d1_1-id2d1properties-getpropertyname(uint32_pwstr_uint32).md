@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetPropertyName
+ - ID2D1Properties::GetPropertyName
 ---
 
 # ID2D1Properties::GetPropertyName(UINT32,PWSTR,UINT32)
@@ -116,3 +116,4 @@ This method returns an empty string if <i>index</i> is invalid. If the method re
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+

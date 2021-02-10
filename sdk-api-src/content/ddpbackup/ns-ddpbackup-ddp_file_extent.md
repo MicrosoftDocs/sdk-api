@@ -44,6 +44,7 @@ api_type:
 api_location:
  - DdpBackup.h
 api_name:
+ - _DDP_FILE_EXTENT
  - DDP_FILE_EXTENT
 ---
 
@@ -73,3 +74,4 @@ Data Deduplication needs to read only the portions of a container file that back
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-previewcontainerread">IDedupReadFileCallback::PreviewContainerRead</a>
+

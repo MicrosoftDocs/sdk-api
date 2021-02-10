@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
+ - tagMPEG2VIDEOINFO
  - MPEG2VIDEOINFO
 ---
 
@@ -213,3 +214,4 @@ The <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOH
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

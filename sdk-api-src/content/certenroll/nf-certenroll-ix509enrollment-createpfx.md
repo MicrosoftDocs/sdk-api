@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment.CreatePFX
+ - IX509Enrollment::CreatePFX
 ---
 
 # IX509Enrollment::CreatePFX
@@ -144,3 +144,4 @@ Before calling this method, you must initialize the <a href="/windows/desktop/ap
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
+

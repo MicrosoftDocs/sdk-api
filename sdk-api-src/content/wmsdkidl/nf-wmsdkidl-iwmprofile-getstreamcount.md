@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.GetStreamCount
- - IWMProfile2.GetStreamCount
- - IWMProfile3.GetStreamCount
+ - IWMProfile::GetStreamCount
 ---
 
 # IWMProfile::GetStreamCount
@@ -108,3 +106,4 @@ The <i>pcStreams</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
+

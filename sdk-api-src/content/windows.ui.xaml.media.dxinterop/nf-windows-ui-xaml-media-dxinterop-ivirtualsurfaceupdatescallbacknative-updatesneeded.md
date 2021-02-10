@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.UI.Xaml.dll
 api_name:
- - IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded
+ - IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded
 ---
 
 # IVirtualSurfaceUpdatesCallbackNative::xaml
@@ -69,3 +69,4 @@ This method is implemented by the developer.
 
 
 <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative">IVirtualSurfaceUpdatesCallbackNative</a>
+

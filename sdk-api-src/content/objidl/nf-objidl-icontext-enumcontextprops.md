@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IContext.EnumContextProps
+ - IContext::EnumContextProps
 ---
 
 # IContext::EnumContextProps
@@ -69,3 +69,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumcontextprops">IEnumContextProps</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_PATHFILTER_MATCH
  - OFFLINEFILES_PATHFILTER_MATCH
 ---
 
@@ -79,3 +80,4 @@ Event must be an exact match or any descendant of the fully qualified UNC path a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getpathfilter">IOfflineFilesEventsFilter::GetPathFilter</a>
+

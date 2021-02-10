@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IContextProperties.SetProperty
+ - IContextProperties::SetProperty
 ---
 
 # IContextProperties::SetProperty
@@ -69,3 +69,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextproperties">IContextProperties</a>
+

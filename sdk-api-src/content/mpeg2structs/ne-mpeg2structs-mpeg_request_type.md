@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
+ - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0032
  - MPEG_REQUEST_TYPE
 ---
 
@@ -99,3 +100,4 @@ Get a stream of multi-protocol encapsulation (MPE) packets.
 
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initialize">ISectionList::Initialize</a>
+

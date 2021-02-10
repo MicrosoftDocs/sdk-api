@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
+ - PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
  - KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
 ---
 
@@ -93,3 +95,4 @@ The 	name of the domain that you are querying for the extended policies.
 ### -field DsFlags
 
 Flags that represent the requirements. These flags are returned from the <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function.
+

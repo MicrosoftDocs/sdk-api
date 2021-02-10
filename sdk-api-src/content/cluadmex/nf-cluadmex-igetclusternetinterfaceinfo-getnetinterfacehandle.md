@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterNetInterfaceInfo.GetNetInterfaceHandle
+ - IGetClusterNetInterfaceInfo::GetNetInterfaceHandle
 ---
 
 # IGetClusterNetInterfaceInfo::GetNetInterfaceHandle
@@ -86,3 +86,4 @@ Do not close the handle obtained through this method.
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusternetinterfaceinfo">IGetClusterNetInterfaceInfo</a>
+

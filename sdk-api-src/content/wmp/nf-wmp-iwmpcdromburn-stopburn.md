@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn.stopBurn
+ - IWMPCdromBurn::stopBurn
 ---
 
 # IWMPCdromBurn::stopBurn
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-startburn">IWMPCdromBurn::startBurn</a>
+

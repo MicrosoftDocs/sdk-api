@@ -9,6 +9,8 @@ tech.root: WinHttp
 f1_keywords:
  - winhttp
  - winhttp/winhttp
+api_name:
+ - winhttp
 ---
 
 # Winhttp.h header

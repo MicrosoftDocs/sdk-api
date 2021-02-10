@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer.PauseServerQueue
- - IFaxServer.get_PauseServerQueue
- - IFaxServer.put_PauseServerQueue
- - IFaxServer.get_PauseServerQueue
- - IFaxServer.put_PauseServerQueue
+ - IFaxServer::put_PauseServerQueue
 ---
 
 # IFaxServer::put_PauseServerQueue
@@ -79,3 +75,4 @@ An administrator might pause the fax job queue for various reasons. For example,
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
+

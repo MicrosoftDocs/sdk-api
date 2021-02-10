@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_SUBPICTURE_CODING
  - DVD_SUBPICTURE_CODING
 ---
 
@@ -79,3 +80,4 @@ Most subpicture streams contain language-related content such as movie subtitles
 
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

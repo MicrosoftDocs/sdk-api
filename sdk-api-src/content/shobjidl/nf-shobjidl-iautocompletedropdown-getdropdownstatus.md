@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Browseui.dll
 api_name:
- - IAutoCompleteDropDown.GetDropDownStatus
+ - IAutoCompleteDropDown::GetDropDownStatus
 ---
 
 # IAutoCompleteDropDown::GetDropDownStatus
@@ -93,3 +93,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iautocompletedropdown">IAutoCompleteDropDown</a>
+

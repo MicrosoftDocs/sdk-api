@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput.GetGammaControl
+ - IDXGIOutput::GetGammaControl
 ---
 
 # IDXGIOutput::GetGammaControl
@@ -78,3 +78,4 @@ For info about using gamma correction, see <a href="/windows/desktop/direct3ddxg
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsRemovable.QueryMedia
+ - IVdsRemovable::QueryMedia
 ---
 
 # IVdsRemovable::QueryMedia
@@ -89,3 +89,4 @@ VDS sends a notification when a disk or volume event modifies disk or volume pro
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsremovable">IVdsRemovable</a>
+

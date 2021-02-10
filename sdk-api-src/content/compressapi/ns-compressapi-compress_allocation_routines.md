@@ -46,6 +46,8 @@ api_type:
 api_location:
  - compressapi.h
 api_name:
+ - _COMPRESS_ALLOCATION_ROUTINES
+ - PCOMPRESS_ALLOCATION_ROUTINES
  - COMPRESS_ALLOCATION_ROUTINES
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2.IntersectsWithKnowledge
+ - ISyncKnowledge2::IntersectsWithKnowledge
 ---
 
 # ISyncKnowledge2::IntersectsWithKnowledge
@@ -109,3 +109,4 @@ Invalid pointer.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
+

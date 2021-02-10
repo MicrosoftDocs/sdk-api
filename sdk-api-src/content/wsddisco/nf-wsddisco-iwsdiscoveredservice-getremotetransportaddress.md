@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetRemoteTransportAddress
+ - IWSDiscoveredService::GetRemoteTransportAddress
 ---
 
 # IWSDiscoveredService::GetRemoteTransportAddress
@@ -106,3 +106,4 @@ The string returned by this method may contain an IPv4 or unbracketed IPv6 addre
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
+

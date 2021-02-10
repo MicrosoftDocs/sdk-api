@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.put_Recorder
+ - IDiscFormat2TrackAtOnce::put_Recorder
 ---
 
 # IDiscFormat2TrackAtOnce::put_Recorder
@@ -119,3 +119,4 @@ The recorder must be compatible with the format defined by this  interface. To d
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_recorder">IDiscFormat2TrackAtOnce::get_Recorder</a>
+

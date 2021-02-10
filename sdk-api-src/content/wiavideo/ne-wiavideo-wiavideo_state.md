@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wiavideo.h
 api_name:
+ - __MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001
  - WIAVIDEO_STATE
 ---
 
@@ -86,3 +87,4 @@ The application called <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavi
 ## -see-also
 
 <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-getcurrentstate">IWiaVideo::GetCurrentState</a>
+

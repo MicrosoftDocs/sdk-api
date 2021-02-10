@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
+ - _DXVA_COPPStatusSignalingCmdData
  - DXVA_COPPStatusSignalingCmdData
 ---
 
@@ -115,3 +116,4 @@ Additional signaling elements. This array is currently not used.
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
+

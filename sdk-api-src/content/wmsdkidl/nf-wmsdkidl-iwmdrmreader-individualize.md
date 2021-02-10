@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader.Individualize
+ - IWMDRMReader::Individualize
 ---
 
 # IWMDRMReader::Individualize
@@ -142,3 +142,4 @@ There are two times to initiate the individualization process: the first is when
 
 
 <a href="/windows/desktop/wmformat/wm-individualize-status">WM_INDIVIDUALIZE_STATUS</a>
+

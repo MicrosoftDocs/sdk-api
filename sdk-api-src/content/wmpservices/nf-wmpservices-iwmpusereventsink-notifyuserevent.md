@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPUserEventSink.NotifyUserEvent
+ - IWMPUserEventSink::NotifyUserEvent
 ---
 
 # IWMPUserEventSink::NotifyUserEvent
@@ -86,3 +86,4 @@ The definition of WMPUE_EC_USER depends on the definition of EC_USER, which is d
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpusereventsink">IWMPUserEventSink Interface</a>
+

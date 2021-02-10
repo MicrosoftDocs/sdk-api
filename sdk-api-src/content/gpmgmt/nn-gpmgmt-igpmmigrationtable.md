@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMMigrationTable
- - GPMMigrationTable
 ---
 
 # IGPMMigrationTable interface
@@ -63,3 +62,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMigrationTable</b> interf
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

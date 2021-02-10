@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.TranslateTransform
+ - Graphics::TranslateTransform
 ---
 
 # Graphics::TranslateTransform
@@ -144,3 +144,4 @@ VOID Example_TranslateTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

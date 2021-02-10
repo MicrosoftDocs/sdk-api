@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - INamespaceWalkCB2.WalkComplete
+ - INamespaceWalkCB2::WalkComplete
 ---
 
 # INamespaceWalkCB2::WalkComplete
@@ -65,3 +65,4 @@ The results of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inam
 Type: <b>HRESULT</b>
 
 Always returns S_OK.
+

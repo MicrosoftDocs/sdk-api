@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ImmRequestMessageA
  - immdev/ImmRequestMessageA
+ - ImmRequestMessage
+ - immdev/ImmRequestMessage
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Imm32.dll
 api_name:
- - ImmRequestMessage
  - ImmRequestMessageA
- - ImmRequestMessageW
+ - ImmRequestMessage
 ---
 
 # ImmRequestMessageA function
@@ -94,3 +95,4 @@ IME must use this function instead of sending the <a href="/windows/desktop/Intl
 
 
 <a href="/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a>
+

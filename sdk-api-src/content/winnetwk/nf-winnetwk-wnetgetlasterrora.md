@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WNetGetLastErrorA
  - winnetwk/WNetGetLastErrorA
+ - WNetGetLastError
+ - winnetwk/WNetGetLastError
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetGetLastError
  - WNetGetLastErrorA
- - WNetGetLastErrorW
+ - WNetGetLastError
 ---
 
 # WNetGetLastErrorA function
@@ -114,3 +115,4 @@ For more information about using an application-defined error handler that calls
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
+

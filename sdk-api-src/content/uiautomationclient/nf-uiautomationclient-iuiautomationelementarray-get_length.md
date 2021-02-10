@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElementArray.Length
- - IUIAutomationElementArray.get_Length
+ - IUIAutomationElementArray::get_Length
 ---
 
 # IUIAutomationElementArray::get_Length
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelementarray">IUIAutomationElementArray</a>
+

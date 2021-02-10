@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_COLORCONTROLCALLBACKS
  - DD_COLORCONTROLCALLBACKS
 ---
 
@@ -111,3 +112,4 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+

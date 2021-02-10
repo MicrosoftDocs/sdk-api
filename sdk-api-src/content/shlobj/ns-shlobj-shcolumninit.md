@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
+ - LPSHCOLUMNINIT
  - SHCOLUMNINIT
 ---
 
@@ -73,3 +74,4 @@ Reserved. Set to <b>NULL</b>.
 Type: <b>WCHAR[MAX_PATH]</b>
 
 A pointer to a null-terminated Unicode string with a fully qualified folder path. The string will be empty if multiple folders are specified.
+

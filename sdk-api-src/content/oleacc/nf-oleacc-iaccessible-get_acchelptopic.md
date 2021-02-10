@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.get_accHelpTopic
+ - IAccessible::get_accHelpTopic
 ---
 
 # IAccessible::get_accHelpTopic
@@ -138,3 +138,4 @@ Getting information from a Help file might be time and memory intensive.
 
 
 <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelp">IAccessible::get_accHelp</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymEnumSymbols
- - SymEnumSymbols
- - SymEnumSymbolsW
 ---
 
 # SymEnumSymbols function
@@ -184,3 +182,4 @@ For an example, see <a href="/windows/desktop/Debug/enumerating-symbols">Enumera
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
+

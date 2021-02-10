@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap.GetHistogramSize
+ - Bitmap::GetHistogramSize
 ---
 
 # Bitmap::GetHistogramSize
@@ -80,3 +80,4 @@ If the method fails, it returns one of the other elements of the
 ## -see-also
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
+

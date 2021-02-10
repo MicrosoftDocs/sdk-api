@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - _BLENDFUNCTION
+ - PBLENDFUNCTION
  - BLENDFUNCTION
 ---
 
@@ -211,3 +213,4 @@ If the source has both the <b>SourceConstantAlpha</b> (that is, it is not 0xFF) 
 
 
 <a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.SetTransformDeviceModelInfo
+ - IDeviceModelPlugIn::SetTransformDeviceModelInfo
 ---
 
 # IDeviceModelPlugIn::SetTransformDeviceModelInfo
@@ -85,3 +85,4 @@ This function will fail if the other device model is a baseline device model, be
 
 
 <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
+

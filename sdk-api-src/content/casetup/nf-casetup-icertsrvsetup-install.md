@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup.Install
+ - ICertSrvSetup::Install
 ---
 
 # ICertSrvSetup::Install
@@ -63,3 +63,4 @@ Unless the key already exists, the <b>Install</b> method creates a key for the <
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
+

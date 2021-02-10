@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfFunctionProvider.GetDescription
+ - ITfFunctionProvider::GetDescription
 ---
 
 # ITfFunctionProvider::GetDescription
@@ -113,3 +113,4 @@ A memory allocation failure occurred.
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

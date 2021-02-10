@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_HWPROVIDER_TYPE
  - VDS_HWPROVIDER_TYPE
 ---
 
@@ -113,3 +114,4 @@ If your application encounters a <b>VDS_HWPROVIDER_TYPE</b> value that it does n
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a>
+

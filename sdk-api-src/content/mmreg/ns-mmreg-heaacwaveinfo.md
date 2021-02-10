@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mmreg.h
 api_name:
+ - heaacwaveinfo_tag
  - HEAACWAVEINFO
 ---
 
@@ -205,3 +206,4 @@ The <b>WAVEFORMATEX</b> structure defined in the <b>wfx</b> member contains the 
 <td>Specifies the size, in bytes, of the format data after the <b>WAVEFORMATEX</b> structure.</td>
 </tr>
 </table>
+

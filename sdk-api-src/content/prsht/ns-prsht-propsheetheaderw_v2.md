@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Prsht.h
 api_name:
- - PROPSHEETHEADER
- - PROPSHEETHEADERA
- - PROPSHEETHEADERW
+ - _PROPSHEETHEADERW_V2
+ - LPPROPSHEETHEADERW_V2
+ - PROPSHEETHEADERW_V2
 ---
 
 # PROPSHEETHEADERW_V2 structure
@@ -548,3 +548,4 @@ to initialize the <b>dwSize</b> member. For earlier versions, the size of the pr
 <code>psh.dwSize = PROPSHEETHEADER_V1_SIZE;</code>
 
 The PSH_WIZARD, PSH_WIZARD97, and PSH_WIZARD_LITE styles are mutually incompatible. Only one of these style flags should be set. PSH_AEROWIZARD should be combined with PSH_WIZARD.
+

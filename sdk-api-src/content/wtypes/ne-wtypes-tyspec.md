@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WTypes.h
 api_name:
+ - tagTYSPEC
  - TYSPEC
 ---
 
@@ -115,3 +116,4 @@ The TYSPEC enumeration and uCLSSPEC union provide mappings to a class ID. Note t
 ## -see-also
 
 <a href="/windows/desktop/api/objbase/nf-objbase-coinstall">CoInstall</a>
+

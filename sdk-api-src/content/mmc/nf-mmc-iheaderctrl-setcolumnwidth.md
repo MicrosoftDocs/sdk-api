@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IHeaderCtrl.SetColumnWidth
+ - IHeaderCtrl::SetColumnWidth
 ---
 
 # IHeaderCtrl::SetColumnWidth
@@ -87,3 +87,4 @@ SetColumnWidth. If the snap-in must hide the column, it must call <a href="/wind
 
 
 <a href="/previous-versions/windows/desktop/mmc/iheaderctrl2-and-column-persistence">IHeaderCtrl2 and Column Persistence</a>
+

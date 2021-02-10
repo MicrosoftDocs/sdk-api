@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynthSink.GetLatencyClock
+ - IDirectMusicSynthSink::GetLatencyClock
 ---
 
 # IDirectMusicSynthSink::GetLatencyClock
@@ -95,3 +95,4 @@ For more information about latency clocks, see <a href="/windows-hardware/driver
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a>
+

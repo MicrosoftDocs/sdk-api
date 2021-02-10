@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspaddr.h
 api_name:
- - CMSPAddress.ShutdownMSPCallHelper
+ - ShutdownMSPCallHelper
 ---
 
 # ShutdownMSPCallHelper function
@@ -72,3 +72,4 @@ TBD
 ## -see-also
 
 <a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
+

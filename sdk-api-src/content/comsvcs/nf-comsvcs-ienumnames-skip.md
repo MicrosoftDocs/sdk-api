@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IEnumNames.Skip
+ - IEnumNames::Skip
 ---
 
 # IEnumNames::Skip
@@ -94,3 +94,4 @@ The number of elements skipped was not the same as the number requested.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>
+

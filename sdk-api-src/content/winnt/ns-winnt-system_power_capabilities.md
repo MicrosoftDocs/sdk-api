@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - PSYSTEM_POWER_CAPABILITIES
  - SYSTEM_POWER_CAPABILITIES
 ---
 
@@ -218,3 +219,4 @@ If this member is set to <b>TRUE</b>, the system is currently capable of perform
 
 
 <a href="/windows/desktop/Power/system-power-states">System Power States</a>
+

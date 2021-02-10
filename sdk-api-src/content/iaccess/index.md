@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - iaccess
  - iaccess/iaccess
+api_name:
+ - iaccess
 ---
 
 # Iaccess.h header

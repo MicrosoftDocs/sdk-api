@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IEnumDiskQuotaUsers.Clone
+ - IEnumDiskQuotaUsers::Clone
 ---
 
 # IEnumDiskQuotaUsers::Clone
@@ -114,3 +114,4 @@ An unexpected exception occurred.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a>
+

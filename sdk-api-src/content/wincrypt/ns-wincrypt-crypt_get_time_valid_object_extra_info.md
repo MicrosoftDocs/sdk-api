@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
+ - PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
  - CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
 ---
 
@@ -94,3 +96,4 @@ A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.
 ## -remarks
 
 All members of the <b>CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</b> structure that do not have a value must be set to zero.
+

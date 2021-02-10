@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT2.XMFLOAT2
+ - XMFLOAT2::XMFLOAT2
 ---
 
 # XMFLOAT2::XMFLOAT2(float,float)
@@ -97,3 +97,4 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constfloat)">XMFLOAT2 Constructors</a>
+

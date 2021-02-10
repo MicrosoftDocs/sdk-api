@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CachedLargeChange
- - IUIAutomationRangeValuePattern.get_CachedLargeChange
+ - IUIAutomationRangeValuePattern::get_CachedLargeChange
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedLargeChange
@@ -68,3 +67,4 @@ The LargeChange property can support a Not a Number (NaN) value. When retrieving
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_cachedsmallchange">IUIAutomationRangeValuePattern::CachedSmallChange</a>
+

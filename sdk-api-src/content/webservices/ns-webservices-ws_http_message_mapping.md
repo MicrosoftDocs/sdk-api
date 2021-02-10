@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_HTTP_MESSAGE_MAPPING
  - WS_HTTP_MESSAGE_MAPPING
 ---
 
@@ -136,3 +137,4 @@ Other information in an HTTP request or response that does not correspond
                 extracted using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmappedheader">WsGetMappedHeader</a>.  
                 See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_HTTP_REQUEST_MAPPING_OPTIONS</a> or <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_property_id">WS_HTTP_RESPONSE_MAPPING_OPTIONS</a> 
                 for information about what information can be mapped into message headers.
+

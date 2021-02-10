@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.GetClipPlane
+ - IDirect3DDevice9::GetClipPlane
 ---
 
 # IDirect3DDevice9::GetClipPlane
@@ -90,3 +90,4 @@ The plane equation used by this method exists in world space and is set by a pre
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipplane">IDirect3DDevice9::SetClipPlane</a>
+

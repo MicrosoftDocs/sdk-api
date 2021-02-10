@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _OCSP_BASIC_RESPONSE_INFO
+ - POCSP_BASIC_RESPONSE_INFO
  - OCSP_BASIC_RESPONSE_INFO
 ---
 
@@ -117,3 +119,4 @@ OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCOD
 ## -see-also
 
 <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560 Online Certificate Status Protocol</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder.get_HorizontalLocked
+ - IAMAnalogVideoDecoder::get_HorizontalLocked
 ---
 
 # IAMAnalogVideoDecoder::get_HorizontalLocked
@@ -116,3 +116,4 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
+

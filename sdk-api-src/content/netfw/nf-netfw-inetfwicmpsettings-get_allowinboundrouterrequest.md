@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowInboundRouterRequest
- - INetFwIcmpSettings.get_AllowInboundRouterRequest
- - INetFwIcmpSettings.put_AllowInboundRouterRequest
+ - INetFwIcmpSettings::get_AllowInboundRouterRequest
 ---
 
 # INetFwIcmpSettings::get_AllowInboundRouterRequest
@@ -68,3 +66,4 @@ This setting is  for IPv4 only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwicmpsettings">INetFwIcmpSettings</a>
+

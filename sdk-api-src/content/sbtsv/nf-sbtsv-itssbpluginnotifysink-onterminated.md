@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbPluginNotifySink.OnTerminated
+ - ITsSbPluginNotifySink::OnTerminated
 ---
 
 # ITsSbPluginNotifySink::OnTerminated
@@ -65,3 +65,4 @@ Plug-ins should call this method after they complete their termination process o
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginnotifysink">ITsSbPluginNotifySink</a>
+

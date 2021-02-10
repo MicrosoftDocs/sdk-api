@@ -46,6 +46,8 @@ api_type:
 api_location:
  - peerdist.h
 api_name:
+ - peerdist_content_tag_tag
+ - PPEERDIST_CONTENT_TAG
  - PEERDIST_CONTENT_TAG
 ---
 
@@ -69,3 +71,4 @@ A 16 byte tag associated with the open content.
 
 
 <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
+

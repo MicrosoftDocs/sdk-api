@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFDesiredSample.Clear
+ - IMFDesiredSample::Clear
 ---
 
 # IMFDesiredSample::Clear
@@ -68,3 +68,4 @@ This method also clears the time stamp and duration and removes all attributes f
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
+

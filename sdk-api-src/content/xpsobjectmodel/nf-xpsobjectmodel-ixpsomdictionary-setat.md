@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary.SetAt
+ - IXpsOMDictionary::SetAt
 ---
 
 # IXpsOMDictionary::SetAt
@@ -128,3 +128,4 @@ The figure that follows illustrates how the dictionary is changed by the <b>SetA
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyKeyProvInfo.Initialize
+ - ICertPropertyKeyProvInfo::Initialize
 ---
 
 # ICertPropertyKeyProvInfo::Initialize
@@ -127,3 +127,4 @@ The <b>Initialize</b> method opens the private key and verifies that the followi
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a>
+

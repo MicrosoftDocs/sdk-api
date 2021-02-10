@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.GetAttributeByIndex
+ - IWMRegisteredDevice::GetAttributeByIndex
 ---
 
 # IWMRegisteredDevice::GetAttributeByIndex
@@ -92,3 +92,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
+

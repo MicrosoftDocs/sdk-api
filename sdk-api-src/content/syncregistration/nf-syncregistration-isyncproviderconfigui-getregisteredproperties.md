@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderConfigUI.GetRegisteredProperties
+ - ISyncProviderConfigUI::GetRegisteredProperties
 ---
 
 # ISyncProviderConfigUI::GetRegisteredProperties
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
+

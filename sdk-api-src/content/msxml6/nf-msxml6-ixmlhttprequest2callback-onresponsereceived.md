@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback.OnResponseReceived
+ - IXMLHTTPRequest2Callback::OnResponseReceived
 ---
 
 # IXMLHTTPRequest2Callback::OnResponseReceived
@@ -84,3 +84,4 @@ Custom streams receive a call to <a href="/windows/desktop/api/objidl/nf-objidl-
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>
+

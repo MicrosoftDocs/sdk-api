@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer.SetupMixerBitmap
+ - IMSVidVideoRenderer::SetupMixerBitmap
 ---
 
 # IMSVidVideoRenderer::SetupMixerBitmap
@@ -85,3 +85,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmappositionrect">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetInheritedServices
+ - IPortableDeviceServiceCapabilities::GetInheritedServices
 ---
 
 # IPortableDeviceServiceCapabilities::GetInheritedServices
@@ -77,3 +77,4 @@ If the value of the <i>dwInheritanceType</i> parameter is <b>WPD_SERVICE_INHERIT
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
+

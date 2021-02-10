@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects2.RenderWindowed
+ - IWMPEffects2::RenderWindowed
 ---
 
 # IWMPEffects2::RenderWindowed
@@ -83,3 +83,4 @@ The <i>fRequiredRender</i> parameter informs you that your visualization must re
 
 
 <a href="/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel">TimedLevel</a>
+

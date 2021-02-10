@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Device5.CheckDriverMatchingIdentifier
+ - ID3D12Device5::CheckDriverMatchingIdentifier
 ---
 
 # ID3D12Device5::CheckDriverMatchingIdentifier
@@ -69,3 +69,4 @@ The returned compatibility status. For more information, see <a href="https://ms
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
+

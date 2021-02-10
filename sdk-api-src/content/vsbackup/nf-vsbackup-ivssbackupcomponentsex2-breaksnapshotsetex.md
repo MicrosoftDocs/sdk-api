@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsBackup.h
 api_name:
- - IVssBackupComponentsEx2.BreakSnapshotSetEx
+ - IVssBackupComponentsEx2::BreakSnapshotSetEx
 ---
 
 # IVssBackupComponentsEx2::BreakSnapshotSetEx
@@ -182,3 +182,4 @@ Unexpected error. The error code is logged in the error log file. For more infor
 Like <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">BreakSnapshotSet</a>, <b>BreakSnapshotSetEx</b> can be used only for shadow copies that were created by a hardware shadow copy provider.
 
 After this method returns, the shadow copy volume is still a volume, but it is no longer a shadow copy. For more information, see <a href="/windows/desktop/VSS/breaking-shadow-copies">Breaking Shadow Copies</a>.
+

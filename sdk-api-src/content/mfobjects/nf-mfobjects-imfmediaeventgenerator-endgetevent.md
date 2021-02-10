@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaEventGenerator.EndGetEvent
+ - IMFMediaEventGenerator::EndGetEvent
 ---
 
 # IMFMediaEventGenerator::EndGetEvent
@@ -107,3 +107,4 @@ Call this method from inside your application's <a href="/windows/desktop/api/mf
 
 
 <a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
+

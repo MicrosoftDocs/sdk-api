@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICJpegFrameEncode.WriteScan
+ - IWICJpegFrameEncode::WriteScan
 ---
 
 # IWICJpegFrameEncode::WriteScan
@@ -87,3 +87,4 @@ Any calls to set encoder parameters or image metadata that will appear before th
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>
+

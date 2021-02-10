@@ -44,6 +44,7 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
+ - _MULTIPLE_TRUSTEE_OPERATION
  - MULTIPLE_TRUSTEE_OPERATION
 ---
 
@@ -76,3 +77,4 @@ The trustee is an impersonation trustee. The <b>pMultipleTrustee</b> member of t
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
+

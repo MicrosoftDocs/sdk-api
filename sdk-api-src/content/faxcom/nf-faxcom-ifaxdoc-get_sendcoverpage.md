@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.SendCoverpage
- - IFaxDoc.get_SendCoverpage
- - IFaxDoc.put_SendCoverpage
+ - IFaxDoc::get_SendCoverpage
 ---
 
 # IFaxDoc::get_SendCoverpage
@@ -98,3 +96,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

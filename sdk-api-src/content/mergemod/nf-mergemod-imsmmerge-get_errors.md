@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge.get_Errors
+ - IMsmMerge::get_Errors
 ---
 
 # IMsmMerge::get_Errors
@@ -118,3 +118,4 @@ The client is responsible for releasing the interface returned by this function.
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

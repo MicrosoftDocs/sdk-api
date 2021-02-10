@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IKsJackDescription2.GetJackDescription2
+ - IKsJackDescription2::GetJackDescription2
 ---
 
 # IKsJackDescription2::GetJackDescription2
@@ -97,3 +97,4 @@ Pointer <i>pDescription</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
+

@@ -43,8 +43,7 @@ api_location:
  - oaidl.h
  - Shdocvw.dll
 api_name:
- - IDispatch.GetTypeInfo
- - IWebBrowser2.GetTypeInfo
+ - IDispatch::GetTypeInfo
 ---
 
 # IDispatch::GetTypeInfo
@@ -109,3 +108,4 @@ The <i>iTInfo</i> parameter was not 0.
 
 
 <a href="/windows/desktop/api/exdisp/nn-exdisp-iwebbrowser2">IWebBrowser2</a>
+

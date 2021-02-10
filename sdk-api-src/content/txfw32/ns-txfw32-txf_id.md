@@ -46,6 +46,8 @@ api_type:
 api_location:
  - TxfW32.h
 api_name:
+ - _TXF_ID
+ - PTXF_ID
  - TXF_ID
 ---
 
@@ -91,3 +93,4 @@ The high part of the identifier.
 
 
 <a href="/windows/desktop/api/txfw32/nf-txfw32-txflogcreatefilereadcontext">TxfLogCreateFileReadContext</a>
+

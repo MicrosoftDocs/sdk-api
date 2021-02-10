@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITACDGroup.EnumerateQueues
+ - ITACDGroup::EnumerateQueues
 ---
 
 # ITACDGroup::EnumerateQueues
@@ -133,3 +133,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a>
+

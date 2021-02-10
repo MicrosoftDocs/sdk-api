@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIAdapter1.GetDesc1
+ - IDXGIAdapter1::GetDesc1
 ---
 
 # IDXGIAdapter1::GetDesc1
@@ -86,3 +86,4 @@ Use the <b>GetDesc1</b> method to get a DXGI 1.1 description of an adapter.  To 
 
 
 <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-getdesc">IDXGIAdapter::GetDesc</a>
+

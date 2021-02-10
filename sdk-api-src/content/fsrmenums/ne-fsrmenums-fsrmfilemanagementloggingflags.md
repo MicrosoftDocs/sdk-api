@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmFileManagementLoggingFlags
  - FsrmFileManagementLoggingFlags
 ---
 
@@ -76,3 +77,4 @@ Log information about every file that met all of the file management job's condi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_logging">IFsrmFileManagementJob.Logging</a>
+

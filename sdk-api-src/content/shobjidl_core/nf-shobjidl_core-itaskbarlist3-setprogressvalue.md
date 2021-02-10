@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Explorerframe.dll
 api_name:
- - ITaskbarList3.SetProgressValue
+ - ITaskbarList3::SetProgressValue
 ---
 
 # ITaskbarList3::SetProgressValue
@@ -182,3 +182,4 @@ HRESULT CMyApp::ShowProgressInTaskbar(HWND hwnd, __in ITaskbarList3 *pTL)
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+

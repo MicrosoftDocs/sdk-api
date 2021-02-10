@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_TitleMainAttributes
  - DVD_TitleAttributes
 ---
 
@@ -101,3 +102,4 @@ If the application sets the <b>DVD_EnableTitleLength</b> option to <b>TRUE</b>, 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a>
+

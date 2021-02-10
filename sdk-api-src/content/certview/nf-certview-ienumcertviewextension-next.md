@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION.Next
- - IEnumCERTVIEWEXTENSION.Next
+ - IEnumCERTVIEWEXTENSION::Next
 ---
 
 # IEnumCERTVIEWEXTENSION::Next
@@ -118,3 +117,4 @@ printf("Number of extensions is %d\n", nCount);
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getvalue">IEnumCERTVIEWEXTENSION::GetValue</a>
+

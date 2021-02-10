@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.AllocSysString
+ - CHString::AllocSysString
 ---
 
 # CHString::AllocSysString
@@ -64,3 +64,4 @@ The <b>AllocSysString</b> method allocates a new <b>BSTR</b> string that is Auto
 ## -returns
 
 If the <b>AllocSysString</b> method is successful, it points to the newly allocated string.
+

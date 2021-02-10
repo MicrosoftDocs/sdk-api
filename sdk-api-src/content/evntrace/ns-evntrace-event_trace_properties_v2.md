@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
+ - _EVENT_TRACE_PROPERTIES_V2
+ - PEVENT_TRACE_PROPERTIES_V2
  - EVENT_TRACE_PROPERTIES_V2
 ---
 
@@ -688,3 +690,4 @@ Note that the filters  passed into <a href="/windows/desktop/ETW/controltrace">C
 
 
 <a href="/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>
+

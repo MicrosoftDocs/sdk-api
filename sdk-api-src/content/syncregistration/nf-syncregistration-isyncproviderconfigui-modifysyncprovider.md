@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderConfigUI.ModifySyncProvider
+ - ISyncProviderConfigUI::ModifySyncProvider
 ---
 
 # ISyncProviderConfigUI::ModifySyncProvider
@@ -103,3 +103,4 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
+

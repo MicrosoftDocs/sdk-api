@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument.ConnectedSubmit
+ - IFaxDocument::ConnectedSubmit
 ---
 
 # IFaxDocument::ConnectedSubmit
@@ -87,3 +87,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

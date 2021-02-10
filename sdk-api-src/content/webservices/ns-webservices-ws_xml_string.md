@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_STRING
  - WS_XML_STRING
 ---
 
@@ -89,3 +90,4 @@ The macros <a href="/windows/desktop/api/webservices/nf-webservices-ws_xml_strin
       
 
 The dictionary information is used by the binary encoding to write a more compact xml document.
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_DETECTDEVICE_PARAMS
+ - PSP_DETECTDEVICE_PARAMS
  - SP_DETECTDEVICE_PARAMS
 ---
 
@@ -94,3 +96,4 @@ The opaque <b>ProgressNotifyParam</b> "handle" that the class installer passes t
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+

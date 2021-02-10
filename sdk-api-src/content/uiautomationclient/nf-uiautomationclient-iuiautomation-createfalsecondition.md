@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateFalseCondition
+ - IUIAutomation::CreateFalseCondition
 ---
 
 # IUIAutomation::CreateFalseCondition
@@ -97,3 +97,4 @@ This method exists only for symmetry with <a href="/windows/desktop/api/uiautoma
 
 
 <b>Reference</b>
+

@@ -49,7 +49,7 @@ api_location:
  - Wbemess.dll
  - Wmipjobj.dll
 api_name:
- - IWbemContext.GetValue
+ - IWbemContext::GetValue
 ---
 
 # IWbemContext::GetValue
@@ -89,3 +89,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-setvalue">IWbemContext::SetValue</a>
+

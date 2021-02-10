@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FaxGetJobW
  - winfax/FaxGetJobW
+ - FaxGetJob
+ - winfax/FaxGetJob
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxGetJob
- - FaxGetJobA
  - FaxGetJobW
+ - FaxGetJob
 ---
 
 # FaxGetJobW function
@@ -165,3 +166,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a>
+

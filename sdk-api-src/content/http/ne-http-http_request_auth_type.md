@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_REQUEST_AUTH_TYPE
+ - PHTTP_REQUEST_AUTH_TYPE
  - HTTP_REQUEST_AUTH_TYPE
 ---
 
@@ -91,3 +93,4 @@ Kerberos authentication is attempted for the request.
 
 
 <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
+

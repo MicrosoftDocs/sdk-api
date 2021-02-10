@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.FitToCurve
- - IInkDrawingAttributes.get_FitToCurve
- - IInkDrawingAttributes.put_FitToCurve
- - InkDrawingAttributes.get_FitToCurve
- - InkDrawingAttributes.put_FitToCurve
+ - IInkDrawingAttributes::put_FitToCurve
 ---
 
 # IInkDrawingAttributes::put_FitToCurve
@@ -84,3 +80,4 @@ If you set this property while collecting a stroke or strokes, the ink does not 
 
 
 <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
+

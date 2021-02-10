@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing.UnsubscribeToMultipleOperations
+ - IWSDServiceProxyEventing::UnsubscribeToMultipleOperations
 ---
 
 # IWSDServiceProxyEventing::UnsubscribeToMultipleOperations
@@ -117,3 +117,4 @@ This method is designed to be exclusively called by generated proxy code.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>
+

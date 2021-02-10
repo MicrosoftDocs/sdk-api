@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3dcommon.h
 api_name:
- - ID3D10Blob.GetBufferSize
+ - ID3D10Blob::GetBufferSize
 ---
 
 # ID3D10Blob::GetBufferSize
@@ -63,3 +63,4 @@ The size of the data, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>
+

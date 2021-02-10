@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElements.AddElement
+ - IMFMediaEngineSrcElements::AddElement
 ---
 
 # IMFMediaEngineSrcElements::AddElement
@@ -79,3 +79,4 @@ This method allocates copies of the <b>BSTR</b>s that are passed in.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements">IMFMediaEngineSrcElements</a>
+

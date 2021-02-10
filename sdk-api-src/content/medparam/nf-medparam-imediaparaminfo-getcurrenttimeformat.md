@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaParamInfo.GetCurrentTimeFormat
+ - IMediaParamInfo::GetCurrentTimeFormat
 ---
 
 # IMediaParamInfo::GetCurrentTimeFormat
@@ -103,3 +103,4 @@ The meaning of the value returned in the <i>pTimeData</i> parameter depends on t
 ## -see-also
 
 <a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
+

@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_NETNAME_PWD_INFO
+ - PCLUS_NETNAME_PWD_INFO
 ---
 
 # CLUS_NETNAME_PWD_INFO structure
@@ -75,3 +76,4 @@ Contains the ID of a security principal objecton a directory server.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-structures">Failover Cluster Structures</a>
+

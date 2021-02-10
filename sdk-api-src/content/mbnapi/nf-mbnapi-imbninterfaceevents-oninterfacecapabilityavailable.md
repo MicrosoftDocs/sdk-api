@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnInterfaceCapabilityAvailable
+ - IMbnInterfaceEvents::OnInterfaceCapabilityAvailable
 ---
 
 # IMbnInterfaceEvents::OnInterfaceCapabilityAvailable
@@ -72,3 +72,4 @@ The application can issue the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imb
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiSetClassPropertyW
  - setupapi/SetupDiSetClassPropertyW
+ - SetupDiSetClassProperty
+ - setupapi/SetupDiSetClassProperty
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetClassProperty
- - SetupDiSetClassPropertyA
  - SetupDiSetClassPropertyW
+ - SetupDiSetClassProperty
 ---
 
 # SetupDiSetClassPropertyW function
@@ -261,3 +262,4 @@ To set a device class property on a remote computer, call <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>
+

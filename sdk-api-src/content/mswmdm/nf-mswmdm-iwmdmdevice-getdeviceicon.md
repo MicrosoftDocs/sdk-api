@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice.GetDeviceIcon
+ - IWMDMDevice::GetDeviceIcon
 ---
 
 # IWMDMDevice::GetDeviceIcon
@@ -77,3 +77,4 @@ When the application is finished with the icon, it must call the Win32 <b>Destro
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
+

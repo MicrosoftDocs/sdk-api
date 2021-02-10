@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_POLICY_CONSTRAINTS_INFO
+ - PCERT_POLICY_CONSTRAINTS_INFO
  - CERT_POLICY_CONSTRAINTS_INFO
 ---
 

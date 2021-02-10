@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.dll
 api_name:
- - IPropertySystem.EnumeratePropertyDescriptions
+ - IPropertySystem::EnumeratePropertyDescriptions
 ---
 
 # IPropertySystem::EnumeratePropertyDescriptions
@@ -116,3 +116,4 @@ It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to 
 ## -see-also
 
 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
+

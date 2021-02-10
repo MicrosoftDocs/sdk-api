@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mswmdm.h
 api_name:
- - IWMDeviceManager3.SetDeviceEnumPreference
+ - IWMDeviceManager3::SetDeviceEnumPreference
 ---
 
 # IWMDeviceManager3::SetDeviceEnumPreference
@@ -130,3 +130,4 @@ The service provider may not honor the DO_NOT_VIRTUALIZE_STORAGES_AS_DEVICES fla
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">IWMDMDevice2::GetCanonicalName</a>
+

@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader2.TryNextLicense
+ - IWMDRMReader2::TryNextLicense
 ---
 
 # IWMDRMReader2::TryNextLicense
@@ -128,3 +128,4 @@ The file opened in the reader is not protected.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>
+

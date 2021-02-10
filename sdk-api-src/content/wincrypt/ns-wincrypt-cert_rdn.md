@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_RDN
+ - PCERT_RDN
  - CERT_RDN
 ---
 
@@ -87,3 +89,4 @@ Array of
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
+

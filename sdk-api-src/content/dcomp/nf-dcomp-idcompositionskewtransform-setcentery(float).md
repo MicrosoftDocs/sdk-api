@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionSkewTransform.SetCenterY
+ - IDCompositionSkewTransform::SetCenterY
 ---
 
 # IDCompositionSkewTransform::SetCenterY
@@ -79,3 +79,4 @@ If the CenterY property was previously animated, this method removes the animati
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449075(v=vs.85)">IDCompositionSkewTransform::SetCenterX</a>
+

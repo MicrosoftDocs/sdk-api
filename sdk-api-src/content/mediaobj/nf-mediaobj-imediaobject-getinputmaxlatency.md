@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject.GetInputMaxLatency
+ - IMediaObject::GetInputMaxLatency
 ---
 
 # IMediaObject::GetInputMaxLatency
@@ -136,3 +136,4 @@ Latency is defined only when samples have time stamps, and the time stamps incre
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
+

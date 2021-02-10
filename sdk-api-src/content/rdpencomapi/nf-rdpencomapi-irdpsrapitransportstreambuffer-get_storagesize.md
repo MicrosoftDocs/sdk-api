@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - IRDPSRAPITransportStreamBuffer::StorageSize
+ - IRDPSRAPITransportStreamBuffer::get_StorageSize
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_StorageSize
@@ -58,3 +58,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
+

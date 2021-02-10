@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_DATA
  - WSMAN_DATA
 ---
 
@@ -92,3 +93,4 @@ If <b>type</b> is <b>WSMAN_DATA_TYPE_XML_BINARY</b>, <b>binaryData</b> contains 
 #### number
 
 If <b>type</b> is <b>WSMAN_DATA_TYPE_DWORD</b>, <b>number</b> is a DWORD integer.
+

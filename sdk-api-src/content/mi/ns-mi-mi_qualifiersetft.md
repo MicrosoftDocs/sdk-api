@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_QualifierSetFT
  - MI_QualifierSetFT
 ---
 
@@ -69,3 +70,4 @@ Gets a qualifier at the specified index. See
 
 Gets the number of qualifiers in a qualifier set. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_qualifierset_getqualifiercount">MI_QualifierSet_GetQualifierCount</a>.
+

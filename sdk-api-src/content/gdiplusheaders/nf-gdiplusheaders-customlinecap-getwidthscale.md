@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap.GetWidthScale
+ - CustomLineCap::GetWidthScale
 ---
 
 # CustomLineCap::GetWidthScale
@@ -78,3 +78,4 @@ This method returns the value of the width-scaling factor. It is of type
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

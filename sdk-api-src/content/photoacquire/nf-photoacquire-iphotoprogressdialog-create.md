@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.Create
+ - IPhotoProgressDialog::Create
 ---
 
 # IPhotoProgressDialog::Create
@@ -94,3 +94,4 @@ To close the dialog, call <a href="/windows/desktop/api/photoacquire/nf-photoacq
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-destroy">IPhotoProgressDialog::Destroy</a>
+

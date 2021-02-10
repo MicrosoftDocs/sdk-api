@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask.Tasks
- - IAzTask.get_Tasks
- - AzTask.Tasks
+ - IAzTask::get_Tasks
 ---
 
 # IAzTask::get_Tasks
@@ -63,3 +61,4 @@ This property is read-only.
 This property shows the nesting of <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> objects within another <b>IAzTask</b> object.
 
 In  JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
+

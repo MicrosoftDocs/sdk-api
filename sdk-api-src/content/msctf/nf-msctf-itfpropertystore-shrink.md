@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfPropertyStore.Shrink
+ - ITfPropertyStore::Shrink
 ---
 
 # ITfPropertyStore::Shrink
@@ -96,3 +96,4 @@ If this method returns a value other than S_OK, the property store is discarded.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
+

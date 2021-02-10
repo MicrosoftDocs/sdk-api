@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ISysmon.h
 api_name:
+ - eReportValueTypeConstant
  - ReportValueTypeConstants
 ---
 
@@ -79,3 +80,4 @@ The maximum value of the counter over the sampling period.
 ## -see-also
 
 <a href="/windows/desktop/SysMon/systemmonitor-reportvaluetype">SystemMonitor.ReportValueType</a>
+

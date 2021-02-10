@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - DDiscFormat2RawCDEvents.Update
+ - DDiscFormat2RawCDEvents::Update
 ---
 
 # DDiscFormat2RawCDEvents::Update
@@ -87,3 +87,4 @@ To stop the write process, call the <a href="/windows/desktop/api/imapi2/nf-imap
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a>
+

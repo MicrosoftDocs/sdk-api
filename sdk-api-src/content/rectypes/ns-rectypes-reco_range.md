@@ -44,6 +44,7 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
+ - tagRECO_RANGE
  - RECO_RANGE
 ---
 
@@ -67,3 +68,4 @@ Count of characters in the range.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/ms698163(v=vs.85)">GetAlternateList Function</a>
+

@@ -44,8 +44,6 @@ api_location:
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
  - acmFormatChoose
- - acmFormatChooseA
- - acmFormatChooseW
 ---
 
 # acmFormatChoose function
@@ -147,3 +145,4 @@ A suitable driver is not available to provide valid format selections.
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

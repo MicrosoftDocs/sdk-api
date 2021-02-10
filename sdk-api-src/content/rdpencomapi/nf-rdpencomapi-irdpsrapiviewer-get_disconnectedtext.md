@@ -42,10 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer.DisconnectedText
- - IRDPSRAPIViewer.get_DisconnectedText
- - IRDPSRAPIViewer.put_DisconnectedText
- - RDPViewer.DisconnectedText
+ - IRDPSRAPIViewer::get_DisconnectedText
 ---
 
 # IRDPSRAPIViewer::get_DisconnectedText
@@ -70,3 +67,4 @@ The <b>DisconnectedText</b> property can be set only if the control is not in th
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>
+

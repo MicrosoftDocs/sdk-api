@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices2.TxGetNaturalSize2
+ - ITextServices2::TxGetNaturalSize2
 ---
 
 # ITextServices2::TxGetNaturalSize2
@@ -274,3 +274,4 @@ pserv->TxGetNaturalSize2(DVASPECT_DOCPRINT, hdc, hdcNil, pNil,
 ## -see-also
 
 <a href="/windows/desktop/api/textserv/nl-textserv-itextservices2">ITextServices2</a>
+

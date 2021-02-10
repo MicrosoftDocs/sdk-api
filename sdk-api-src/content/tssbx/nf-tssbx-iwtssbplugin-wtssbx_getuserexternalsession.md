@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - IWTSSBPlugin.WTSSBX_GetUserExternalSession
+ - IWTSSBPlugin::WTSSBX_GetUserExternalSession
 ---
 
 # IWTSSBPlugin::WTSSBX_GetUserExternalSession
@@ -99,3 +99,4 @@ Your implementation of <b>WTSSBX_GetUserExternalSession</b> should return <b>E_N
 
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher.MatchProbeEx
+ - IWSDiscoveryPublisher::MatchProbeEx
 ---
 
 # IWSDiscoveryPublisher::MatchProbeEx
@@ -201,3 +201,4 @@ The parameters referring to <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbSession.TargetName
- - ITsSbSession.get_TargetName
+ - ITsSbSession::get_TargetName
 ---
 
 # ITsSbSession::get_TargetName
@@ -61,3 +60,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
+

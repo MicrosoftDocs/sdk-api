@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncSessionState.OnProgress
+ - ISyncSessionState::OnProgress
 ---
 
 # ISyncSessionState::OnProgress
@@ -122,3 +122,4 @@ This method can be used to report custom progress to the application. When a pro
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_provider_role">SYNC_PROVIDER ROLE Enumeration</a>
+

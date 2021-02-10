@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellChecker.Id
- - ISpellChecker.get_Id
+ - ISpellChecker::get_Id
 ---
 
 # ISpellChecker::get_Id
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
+

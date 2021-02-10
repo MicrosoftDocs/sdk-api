@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
- - ITfThreadMgrEventSink.OnPopContext
+ - ITfThreadMgrEventSink::OnPopContext
 ---
 
 # ITfThreadMgrEventSink::OnPopContext
@@ -70,3 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink</a>
+

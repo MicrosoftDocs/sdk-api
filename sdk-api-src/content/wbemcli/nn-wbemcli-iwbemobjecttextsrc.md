@@ -43,8 +43,6 @@ api_location:
  - Fastprox.dll
 api_name:
  - IWbemObjectTextSrc
- - IWbemObjectTextSrc.CreateFromText
- - WbemObjectTextSrc
 ---
 
 # IWbemObjectTextSrc interface
@@ -70,3 +68,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemObjectTextSrc</b> interf
 
 
 <a href="/windows/desktop/WmiSdk/representing-objects-in-xml">Representing Objects in XML</a>
+

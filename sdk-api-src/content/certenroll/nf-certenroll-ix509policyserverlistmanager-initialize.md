@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager.Initialize
+ - IX509PolicyServerListManager::Initialize
 ---
 
 # IX509PolicyServerListManager::Initialize
@@ -164,3 +164,4 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlist
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlistmanager">IX509PolicyServerListManager</a>
+

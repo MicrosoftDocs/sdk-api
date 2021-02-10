@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.SetText2
+ - ITextRange2::SetText2
 ---
 
 # ITextRange2::SetText2
@@ -167,3 +167,4 @@ This method is similar to <a href="/windows/desktop/api/tom/nf-tom-itextrange-se
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-gettext2">ITextRange2::GetText2</a>
+

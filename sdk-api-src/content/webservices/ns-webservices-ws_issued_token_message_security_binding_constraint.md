@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT
  - WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT
 ---
 
@@ -115,3 +116,4 @@ The information extracted using this binding constraint can be used
 
 This binding constraint is typically used in federated security
                 scenarios.
+

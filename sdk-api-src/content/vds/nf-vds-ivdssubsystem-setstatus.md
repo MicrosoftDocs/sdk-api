@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.SetStatus
+ - IVdsSubSystem::SetStatus
 ---
 
 # IVdsSubSystem::SetStatus
@@ -162,3 +162,4 @@ Implementers are responsible for performing any necessary operations to get the 
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a>
+

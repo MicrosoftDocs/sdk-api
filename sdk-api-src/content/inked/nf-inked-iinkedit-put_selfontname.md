@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.SelFontName
- - IInkEdit.get_SelFontName
- - IInkEdit.put_SelFontName
- - InkEdit.get_SelFontName
- - InkEdit.put_SelFontName
+ - IInkEdit::put_SelFontName
 ---
 
 # IInkEdit::put_SelFontName
@@ -74,3 +70,4 @@ If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-con
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

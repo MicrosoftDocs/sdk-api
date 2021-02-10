@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
+ - IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
 ---
 
 # IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
@@ -105,3 +105,4 @@ When using Fast Start, the server running Windows Media Services will send some 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setacceleratedstreamingduration">IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITForwardInformation.get_NumRingsNoAnswer
+ - ITForwardInformation::get_NumRingsNoAnswer
 ---
 
 # ITForwardInformation::get_NumRingsNoAnswer
@@ -126,3 +126,4 @@ The <i>plNumRings</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-put_numringsnoanswer">put_NumRingsNoAnswer</a>
+

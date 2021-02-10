@@ -44,6 +44,7 @@ api_type:
 api_location:
  - batclass.h
 api_name:
+ - PBATTERY_NOTIFY
  - BATTERY_NOTIFY
 ---
 
@@ -71,3 +72,4 @@ Specifies a ULONG value indicating the battery capacity above which the class dr
 ## -see-also
 
 <a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>
+

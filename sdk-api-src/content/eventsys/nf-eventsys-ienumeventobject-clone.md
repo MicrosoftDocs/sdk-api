@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEnumEventObject.Clone
+ - IEnumEventObject::Clone
 ---
 
 # IEnumEventObject::Clone
@@ -69,3 +69,4 @@ When the pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ienum
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
+

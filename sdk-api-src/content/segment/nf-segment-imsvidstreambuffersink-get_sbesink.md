@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink.get_SBESink
+ - IMSVidStreamBufferSink::get_SBESink
 ---
 
 # IMSVidStreamBufferSink::get_SBESink
@@ -87,3 +87,4 @@ The caller must release the <b>IUnknown</b> interface.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
+

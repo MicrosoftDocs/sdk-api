@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - ControlCallback
+ - PERFLIBREQUEST
 ---
 
 # PERFLIBREQUEST callback function
@@ -208,3 +208,4 @@ ULONG MyControlCallback(ULONG RequestCode, PVOID pBuffer, ULONG* pBufferSize)
 }
 
 ```
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+ - PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION
  - JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 ---
 
@@ -179,3 +181,4 @@ CPU rate control cannot be used by job objects in applications running under <a 
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+

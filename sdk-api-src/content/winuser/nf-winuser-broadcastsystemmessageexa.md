@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - BroadcastSystemMessageExA
  - winuser/BroadcastSystemMessageExA
+ - BroadcastSystemMessageEx
+ - winuser/BroadcastSystemMessageEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - BroadcastSystemMessageEx
  - BroadcastSystemMessageExA
- - BroadcastSystemMessageExW
+ - BroadcastSystemMessageEx
 ---
 
 # BroadcastSystemMessageExA function
@@ -325,3 +326,4 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
+

@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.BackColor
- - IInkPicture.get_BackColor
- - IInkPicture.put_BackColor
- - InkPicture.get_BackColor
- - InkPicture.put_BackColor
+ - IInkPicture::get_BackColor
 ---
 
 # IInkPicture::get_BackColor
@@ -68,3 +64,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+

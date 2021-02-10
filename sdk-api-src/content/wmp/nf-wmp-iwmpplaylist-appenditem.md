@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylist.appendItem
+ - IWMPPlaylist::appendItem
 ---
 
 # IWMPPlaylist::appendItem
@@ -87,3 +87,4 @@ Before calling this method, you must have full access to the library. For more i
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+

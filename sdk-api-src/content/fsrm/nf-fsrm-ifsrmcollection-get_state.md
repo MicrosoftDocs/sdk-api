@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmCollection.State
- - IFsrmCollection.get_State
+ - IFsrmCollection::get_State
 ---
 
 # IFsrmCollection::get_State
@@ -62,3 +61,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
+

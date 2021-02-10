@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice.Open
+ - IPortableDevice::Open
 ---
 
 # IPortableDevice::Open
@@ -268,3 +268,4 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-close">IPortableDevice::Close</a>
+

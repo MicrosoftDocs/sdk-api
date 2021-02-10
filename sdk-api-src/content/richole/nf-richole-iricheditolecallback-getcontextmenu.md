@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOleCallback.GetContextMenu
+ - IRichEditOleCallback::GetContextMenu
 ---
 
 # IRichEditOleCallback::GetContextMenu
@@ -195,3 +195,4 @@ When the user selects an item from the context window, a <a href="/windows/deskt
 
 
 <b>Reference</b>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _WIN32_MEMORY_RANGE_ENTRY
+ - PWIN32_MEMORY_RANGE_ENTRY
  - WIN32_MEMORY_RANGE_ENTRY
 ---
 
@@ -76,3 +78,4 @@ To compile an application that calls this function, define <b>_WIN32_WINNT</b> a
 
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-prefetchvirtualmemory">PrefetchVirtualMemory</a>
+

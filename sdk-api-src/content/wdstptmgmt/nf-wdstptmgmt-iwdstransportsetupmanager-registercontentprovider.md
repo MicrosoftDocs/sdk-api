@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportSetupManager.RegisterContentProvider
+ - IWdsTransportSetupManager::RegisterContentProvider
 ---
 
 # IWdsTransportSetupManager::RegisterContentProvider
@@ -84,3 +84,4 @@ To enable a multicast provider to support unauthenticated connections, the provi
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a>
+

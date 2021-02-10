@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferSource.SetProperties
+ - ITransferSource::SetProperties
 ---
 
 # ITransferSource::SetProperties
@@ -65,3 +65,4 @@ An array of properties and their changed values.
 Type: <b>HRESULT</b>
 
 Any return value other than S_OK indicates a failure.
+

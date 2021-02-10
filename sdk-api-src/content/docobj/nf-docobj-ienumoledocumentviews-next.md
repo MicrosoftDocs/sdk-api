@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IEnumOleDocumentViews.Next
+ - IEnumOleDocumentViews::Next
 ---
 
 # IEnumOleDocumentViews::Next
@@ -85,3 +85,4 @@ E_NOTIMPL is not allowed as a return value. If an error value is returned, no en
 
 
 <a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_ALL_OPTION_VALUES_PB
+ - LPDHCP_ALL_OPTION_VALUES_PB
  - DHCP_ALL_OPTION_VALUES_PB
 ---
 
@@ -93,7 +95,3 @@ Pointer to an array of structures that contain the set of all option values for 
 =======
 A pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
 
-## -see-also
-
-<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getalloptionvalues">DhcpV4GetAllOptionValues</a>
->>>>>>> d630a335cb0... Links: SDK-API - Pass 1

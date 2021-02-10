@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_MINFO_DATA
+ - PDNS_MINFO_DATAA
+ - DNS_MINFO_DATAA
 ---
 
 # DNS_MINFO_DATAA structure

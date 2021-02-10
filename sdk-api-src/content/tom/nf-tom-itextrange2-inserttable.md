@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.InsertTable
+ - ITextRange2::InsertTable
 ---
 
 # ITextRange2::InsertTable
@@ -114,3 +114,4 @@ If the range is nondegenerate, the table replaces the text in the range. The col
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+

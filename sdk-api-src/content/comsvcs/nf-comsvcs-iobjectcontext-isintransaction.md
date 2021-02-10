@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectContext.IsInTransaction
+ - IObjectContext::IsInTransaction
 ---
 
 # IObjectContext::IsInTransaction
@@ -65,3 +65,4 @@ You can use this method to ensure that an object that requires a transaction nev
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
+

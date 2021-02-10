@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winnt.h
 api_name:
+ - _ENCLAVE_CREATE_INFO_VBS
+ - PENCLAVE_CREATE_INFO_VBS
  - ENCLAVE_CREATE_INFO_VBS
 ---
 
@@ -98,3 +100,4 @@ The identifier of the owner of the enclave.
 ## -see-also
 
 <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
+

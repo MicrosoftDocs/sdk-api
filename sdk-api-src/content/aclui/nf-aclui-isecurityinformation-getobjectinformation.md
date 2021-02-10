@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation.GetObjectInformation
+ - ISecurityInformation::GetObjectInformation
 ---
 
 # ISecurityInformation::GetObjectInformation
@@ -85,3 +85,4 @@ The system does not free the string pointers that you return in the
 
 
 <a href="/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a>
+

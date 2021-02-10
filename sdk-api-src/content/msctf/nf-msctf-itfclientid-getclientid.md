@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfClientId.GetClientId
+ - ITfClientId::GetClientId
 ---
 
 # ITfClientId::GetClientId
@@ -91,3 +91,4 @@ An application obtains its client identifier by calling <a href="/windows/deskto
 ## -see-also
 
 [ITfClientId interface](nn-msctf-itfclientid.md), [ITfTextInputProcessor::Activate](nf-msctf-itftextinputprocessor-activate.md), [ITfThreadMgr::Activate](nf-msctf-itfthreadmgr-activate.md), [TfClientId](/windows/desktop/TSF/tfclientid)
+

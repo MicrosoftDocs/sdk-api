@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Uiribbon.h
 api_name:
+ - _UI_EVENTPARAMS
  - UI_EVENTPARAMS
 ---
 
@@ -95,3 +96,4 @@ For all other events, <b>Params</b> contains additional data about the event.
 
 
 <a href="/windows/desktop/windowsribbon/structures">Structures</a>
+

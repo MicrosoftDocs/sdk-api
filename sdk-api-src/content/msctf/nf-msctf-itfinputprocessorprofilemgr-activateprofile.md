@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfileMgr.ActivateProfile
+ - ITfInputProcessorProfileMgr::ActivateProfile
 ---
 
 # ITfInputProcessorProfileMgr::ActivateProfile
@@ -222,3 +222,4 @@ One or more parameters are invalid.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-deactivateprofile">ITfInputProcessorProfileMgr::DeactivateProfile
       </a>
+

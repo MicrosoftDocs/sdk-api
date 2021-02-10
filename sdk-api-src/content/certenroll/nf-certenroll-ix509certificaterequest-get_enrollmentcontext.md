@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest.EnrollmentContext
- - IX509CertificateRequest.get_EnrollmentContext
+ - IX509CertificateRequest::get_EnrollmentContext
 ---
 
 # IX509CertificateRequest::get_EnrollmentContext
@@ -84,3 +83,4 @@ For a PKCS #7 or CMC request, the property value is retrieved from the inner req
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

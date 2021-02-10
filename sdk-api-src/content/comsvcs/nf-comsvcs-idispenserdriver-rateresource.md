@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IDispenserDriver.RateResource
+ - IDispenserDriver::RateResource
 ---
 
 # IDispenserDriver::RateResource
@@ -134,3 +134,4 @@ If a particular type of resource can be used only once per transaction, a resour
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+

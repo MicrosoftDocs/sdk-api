@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoProcessor.GetCreationParameters
+ - IDirectXVideoProcessor::GetCreationParameters
 ---
 
 # IDirectXVideoProcessor::GetCreationParameters
@@ -114,3 +114,4 @@ You can set any parameter to <b>NULL</b> if you are not interested in the result
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessor">IDirectXVideoProcessor</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureRelationshipReference.GetRelationshipSigningOption
+ - IOpcSignatureRelationshipReference::GetRelationshipSigningOption
 ---
 
 # IOpcSignatureRelationshipReference::GetRelationshipSigningOption
@@ -134,3 +134,4 @@ The <i>relationshipSigningOption</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
+

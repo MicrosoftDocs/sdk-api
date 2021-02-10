@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPService.get_LastTransportStatus
+ - IUPnPService::get_LastTransportStatus
 ---
 
 # IUPnPService::get_LastTransportStatus
@@ -69,3 +69,4 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
+

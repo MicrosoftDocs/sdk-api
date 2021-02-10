@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectMatrixVariable.SetMatrixTransposeArray
+ - ID3D10EffectMatrixVariable::SetMatrixTransposeArray
 ---
 
 # ID3D10EffectMatrixVariable::SetMatrixTransposeArray
@@ -85,3 +85,4 @@ Transposing a matrix will rearrange the data order from row-column order to colu
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectmatrixvariable">ID3D10EffectMatrixVariable Interface</a>
+

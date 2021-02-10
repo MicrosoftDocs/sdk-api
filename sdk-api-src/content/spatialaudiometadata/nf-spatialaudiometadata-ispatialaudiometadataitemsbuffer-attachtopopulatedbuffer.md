@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
+ - ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer
 ---
 
 # ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer
@@ -133,3 +133,4 @@ The supplied buffer is not large enough to hold the maximum number of metadata i
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a>
+

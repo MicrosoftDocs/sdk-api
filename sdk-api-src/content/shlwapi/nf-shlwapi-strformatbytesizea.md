@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StrFormatByteSizeA
  - shlwapi/StrFormatByteSizeA
+ - StrFormatByteSize
+ - shlwapi/StrFormatByteSize
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - Shlwapi.dll
 api_name:
  - StrFormatByteSizeA
+ - StrFormatByteSize
 ---
 
 # StrFormatByteSizeA function
@@ -132,3 +135,4 @@ The following table illustrates how this function converts a numeric value into 
 
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
+

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGuids.lib
  - PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector.GetPnPID
+ - IPortableDeviceConnector::GetPnPID
 ---
 
 # IPortableDeviceConnector::GetPnPID
@@ -90,3 +90,4 @@ Once the application no longer needs the identifier specified by the <i>ppwszPnP
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskScheduler.Enum
+ - ITaskScheduler::Enum
 ---
 
 # ITaskScheduler::Enum
@@ -143,3 +143,4 @@ By default, the current folder resides on the local computer. For remote compute
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-settargetcomputer">ITaskScheduler::SetTargetComputer</a>
+

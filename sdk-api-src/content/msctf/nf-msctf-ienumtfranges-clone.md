@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfRanges.Clone
+ - IEnumTfRanges::Clone
 ---
 
 # IEnumTfRanges::Clone
@@ -94,3 +94,4 @@ A memory allocation failure occurred.
 ## -see-also
 
 [IEnumTfRanges interface](nn-msctf-ienumtfranges.md), [ITfRange interface](nn-msctf-itfrange.md)
+

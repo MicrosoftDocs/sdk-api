@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1536
+ - PSERVER_INFO_1536
  - SERVER_INFO_1536
 ---
 
@@ -78,3 +80,4 @@ Specifies whether the server allows clients to use oplocks on files. Opportunist
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

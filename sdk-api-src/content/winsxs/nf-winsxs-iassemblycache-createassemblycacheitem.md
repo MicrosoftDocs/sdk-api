@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sxs.dll
 api_name:
- - IAssemblyCache.CreateAssemblyCacheItem
+ - IAssemblyCache::CreateAssemblyCacheItem
 ---
 
 # IAssemblyCache::CreateAssemblyCacheItem
@@ -117,3 +117,4 @@ The full name of the assembly must be provided by <i>pszAssemblyName</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoMachine.GetOSType
- - SdoMachine.GetOSType
+ - ISdoMachine::GetOSType
 ---
 
 # ISdoMachine::GetOSType
@@ -83,3 +82,4 @@ Before calling this method, use the
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope.CanBeDelegated
- - IAzScope.get_CanBeDelegated
- - AzScope.CanBeDelegated
+ - IAzScope::get_CanBeDelegated
 ---
 
 # IAzScope::get_CanBeDelegated

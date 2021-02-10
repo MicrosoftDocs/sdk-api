@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DEVICE_COPY_OFFLOAD_DESCRIPTOR
+ - PDEVICE_COPY_OFFLOAD_DESCRIPTOR
  - DEVICE_COPY_OFFLOAD_DESCRIPTOR
 ---
 
@@ -127,3 +129,4 @@ This structure is returned from a
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
+

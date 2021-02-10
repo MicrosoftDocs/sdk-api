@@ -44,6 +44,7 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
+ - _RM_SHUTDOWN_TYPE
  - RM_SHUTDOWN_TYPE
 ---
 
@@ -75,3 +76,4 @@ The time to wait before initiating a forced shutdown of services is specified by
 ## -see-also
 
 <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>
+

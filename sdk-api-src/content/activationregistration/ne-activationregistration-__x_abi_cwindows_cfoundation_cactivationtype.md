@@ -42,7 +42,7 @@ api_type:
 api_location:
  - activationregistration.h
 api_name:
- - ActivationType
+ - __x_ABI_CWindows_CFoundation_CActivationType
 ---
 
 # __x_ABI_CWindows_CFoundation_CActivationType enumeration
@@ -69,3 +69,4 @@ Specifies remote-process activation.
 ## -see-also
 
 <a href="/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>
+

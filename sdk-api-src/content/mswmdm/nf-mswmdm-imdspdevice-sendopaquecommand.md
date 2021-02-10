@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice.SendOpaqueCommand
+ - IMDSPDevice::SendOpaqueCommand
 ---
 
 # IMDSPDevice::SendOpaqueCommand
@@ -79,3 +79,4 @@ This method is optional. For more information, see <a href="/windows/desktop/WMD
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
+

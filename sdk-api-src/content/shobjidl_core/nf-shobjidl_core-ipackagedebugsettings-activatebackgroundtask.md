@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.ActivateBackgroundTask
+ - IPackageDebugSettings::ActivateBackgroundTask
 ---
 
 # IPackageDebugSettings::ActivateBackgroundTask
@@ -69,3 +69,4 @@ Use the <b>ActivateBackgroundTask</b> method to test the code that handles your 
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
+

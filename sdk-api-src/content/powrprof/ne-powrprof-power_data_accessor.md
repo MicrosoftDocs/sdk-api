@@ -46,6 +46,8 @@ api_type:
 api_location:
  - PowrProf.h
 api_name:
+ - _POWER_DATA_ACCESSOR
+ - PPOWER_DATA_ACCESSOR
  - POWER_DATA_ACCESSOR
 ---
 
@@ -149,3 +151,4 @@ Used with <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccessc
 
 
 <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressCapabilities.get_DeviceClasses
+ - ITAddressCapabilities::get_DeviceClasses
 ---
 
 # ITAddressCapabilities::get_DeviceClasses
@@ -111,3 +111,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
+

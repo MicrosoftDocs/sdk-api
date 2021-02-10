@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
+ - tagBIND_OPTS
+ - LPBIND_OPTS
  - BIND_OPTS
 ---
 
@@ -99,3 +101,4 @@ Moniker clients (use a moniker to acquire an interface pointer to an object) typ
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+

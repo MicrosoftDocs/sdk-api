@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingArchive.SizeQuotaWarning
- - IFaxIncomingArchive.get_SizeQuotaWarning
- - IFaxIncomingArchive.put_SizeQuotaWarning
- - IFaxIncomingArchive.get_SizeQuotaWarning
- - IFaxIncomingArchive.put_SizeQuotaWarning
+ - IFaxIncomingArchive::get_SizeQuotaWarning
 ---
 
 # IFaxIncomingArchive::get_SizeQuotaWarning
@@ -79,3 +75,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-incoming-archive">Visual Basic Example</a>
+

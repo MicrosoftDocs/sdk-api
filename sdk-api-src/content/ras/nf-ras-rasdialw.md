@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasDialW
  - ras/RasDialW
+ - RasDial
+ - ras/RasDial
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasDial
- - RasDialA
  - RasDialW
+ - RasDial
 ---
 
 # RasDialW function
@@ -295,3 +296,4 @@ To specify that
 
 
 <a href="/windows/desktop/RRAS/wm-rasdialevent">WM_RASDIALEVENT</a>
+

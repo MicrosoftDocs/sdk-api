@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleReader.GetFootprintFile
+ - IAppxBundleReader::GetFootprintFile
 ---
 
 # IAppxBundleReader::GetFootprintFile
@@ -107,3 +107,4 @@ The bundle doesn't contain a footprint file of the specified type.
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>
+

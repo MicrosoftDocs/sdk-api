@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Nb30.h
 api_name:
+ - _NCB
+ - PNCB
  - NCB
 ---
 
@@ -586,3 +588,4 @@ Using <b>ncb_event</b> to issue asynchronous requests requires fewer system reso
 
 
 <a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
+

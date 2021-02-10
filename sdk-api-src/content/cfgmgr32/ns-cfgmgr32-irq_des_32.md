@@ -46,7 +46,9 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - IRQ_DES
+ - IRQ_Des_32_s
+ - PIRQ_DES_32
+ - IRQ_DES_32
 ---
 
 # IRQ_DES_32 structure
@@ -199,3 +201,4 @@ A bitmask representing the processor affinity of the IRQ line that is allocated 
 
 
 [IRQ_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)
+

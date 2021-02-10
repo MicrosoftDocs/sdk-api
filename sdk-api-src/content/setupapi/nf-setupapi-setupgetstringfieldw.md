@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupGetStringFieldW
  - setupapi/SetupGetStringFieldW
+ - SetupGetStringField
+ - setupapi/SetupGetStringField
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Setupapi.dll
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupGetStringField
- - SetupGetStringFieldA
  - SetupGetStringFieldW
-req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
+ - SetupGetStringField
 ---
 
 # SetupGetStringFieldW function
@@ -124,3 +125,4 @@ Note that the maximum length of any single string specified in an INF Strings se
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetmultiszfielda">SetupGetMultiSzField</a>
+

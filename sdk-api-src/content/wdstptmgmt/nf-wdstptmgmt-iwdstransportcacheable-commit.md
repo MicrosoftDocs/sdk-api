@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportCacheable.Commit
+ - IWdsTransportCacheable::Commit
 ---
 
 # IWdsTransportCacheable::Commit
@@ -61,3 +61,4 @@ Upon successful completion, this method clears the <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
+

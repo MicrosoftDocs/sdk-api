@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMObjectFactory1.CreatePackageFromStream1
+ - IXpsOMObjectFactory1::CreatePackageFromStream1
 ---
 
 # IXpsOMObjectFactory1::CreatePackageFromStream1
@@ -90,3 +90,4 @@ Use this method to read a stream that contains an XPS document that could be of 
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
+

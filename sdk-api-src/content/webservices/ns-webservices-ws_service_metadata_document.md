@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SERVICE_METADATA_DOCUMENT
  - WS_SERVICE_METADATA_DOCUMENT
 ---
 
@@ -70,3 +71,4 @@ The name of the document which will be suffixed to the URL path on which this do
 
 See <a href="/windows/desktop/api/webservices/ne-webservices-ws_service_endpoint_property_id">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> service endpoint property to see how to enable HTTP GET support or
                     WS-MetadataExchange 1.1 for servicing metadata request.
+

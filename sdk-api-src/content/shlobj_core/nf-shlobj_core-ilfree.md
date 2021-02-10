@@ -47,7 +47,6 @@ api_location:
  - API-MS-Win-Shell-Namespace-L1-1-0.dll
 api_name:
  - ILFree
- - HashTable_CoTaskMemFreeCB
 ---
 
 # ILFree function
@@ -87,3 +86,4 @@ A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">IT
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilcombine">ILCombine</a>
+

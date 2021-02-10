@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_graph_event_type_tag
  - PEER_GRAPH_EVENT_TYPE
 ---
 
@@ -107,3 +108,4 @@ A specific  record type has been synchronized.
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetproperties">PeerGraphGetProperties</a>
+

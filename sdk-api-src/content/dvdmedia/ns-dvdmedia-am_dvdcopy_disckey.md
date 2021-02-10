@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
+ - _AM_DVDCOPY_DISCKEY
+ - PAM_DVDCOPY_DISCKEY
  - AM_DVDCOPY_DISCKEY
 ---
 
@@ -71,3 +73,4 @@ A disc key is used for the DVD CSS key exchange for decryption. Implementors sho
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
+

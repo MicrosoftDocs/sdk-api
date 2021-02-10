@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LCMapStringA
  - winnls/LCMapStringA
+ - LCMapString
+ - winnls/LCMapString
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - LCMapString
  - LCMapStringA
- - LCMapStringW
+ - LCMapString
 ---
 
 # LCMapStringA function
@@ -179,3 +180,4 @@ The ANSI version of <b>LCMapString</b> maps strings to and from Unicode based on
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

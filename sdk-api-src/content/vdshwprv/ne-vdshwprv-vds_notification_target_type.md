@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_NOTIFICATION_TARGET_TYPE
  - VDS_NOTIFICATION_TARGET_TYPE
 ---
 
@@ -164,3 +165,4 @@ The <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOT
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_object_type">VDS_OBJECT_TYPE</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StringCchCopyNExA
  - strsafe/StringCchCopyNExA
+ - StringCchCopyNEx
+ - strsafe/StringCchCopyNEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCchCopyNEx
  - StringCchCopyNExA
- - StringCchCopyNExW
+ - StringCchCopyNEx
 ---
 
 # StringCchCopyNExA function
@@ -270,3 +271,4 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyna">StringCchCopyN</a>
+

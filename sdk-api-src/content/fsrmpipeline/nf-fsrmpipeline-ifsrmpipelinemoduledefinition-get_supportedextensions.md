@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.SupportedExtensions
- - IFsrmPipelineModuleDefinition.get_SupportedExtensions
- - IFsrmPipelineModuleDefinition.put_SupportedExtensions
+ - IFsrmPipelineModuleDefinition::get_SupportedExtensions
 ---
 
 # IFsrmPipelineModuleDefinition::get_SupportedExtensions
@@ -67,3 +65,4 @@ This property is optional. Set this property only if you support a limited numbe
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
+

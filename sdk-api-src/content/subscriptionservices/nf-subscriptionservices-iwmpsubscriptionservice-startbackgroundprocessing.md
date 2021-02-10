@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionService.startBackgroundProcessing
+ - IWMPSubscriptionService::startBackgroundProcessing
 ---
 
 # IWMPSubscriptionService::startBackgroundProcessing
@@ -73,3 +73,4 @@ Windows Media Player calls <b>startBackgroundProcessing</b> during idle time aft
 ## -see-also
 
 <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>
+

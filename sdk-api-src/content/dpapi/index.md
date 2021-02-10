@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - dpapi
  - dpapi/dpapi
+api_name:
+ - dpapi
 ---
 
 # Dpapi.h header

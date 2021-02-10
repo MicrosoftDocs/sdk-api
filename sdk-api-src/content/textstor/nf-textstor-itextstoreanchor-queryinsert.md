@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor.QueryInsert
+ - ITextStoreAnchor::QueryInsert
 ---
 
 # ITextStoreAnchor::QueryInsert

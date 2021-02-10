@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMixerControl.SetOutputRect
+ - IVMRMixerControl::SetOutputRect
 ---
 
 # IVMRMixerControl::SetOutputRect
@@ -115,3 +115,4 @@ Because this rectangle exists in compositional space, there is no such thing as 
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

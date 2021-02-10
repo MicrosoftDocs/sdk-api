@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevices.get_Count
+ - IUPnPDevices::get_Count
 ---
 
 # IUPnPDevices::get_Count
@@ -66,3 +66,4 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
+

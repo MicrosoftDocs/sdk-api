@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IKsFormatSupport.GetDevicePreferredFormat
+ - IKsFormatSupport::GetDevicePreferredFormat
 ---
 
 # IKsFormatSupport::GetDevicePreferredFormat
@@ -94,3 +94,4 @@ Out of memory.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksformatsupport">IKsFormatSupport Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT3.XMFLOAT3
+ - XMFLOAT3::XMFLOAT3
 ---
 
 # XMFLOAT3::XMFLOAT3(float,float,float)
@@ -97,3 +97,4 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3-xmfloat3(constfloat)">XMFLOAT3 Constructors</a>
+

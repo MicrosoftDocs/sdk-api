@@ -9,6 +9,8 @@ tech.root: multimedia
 f1_keywords:
  - joystickapi
  - joystickapi/joystickapi
+api_name:
+ - joystickapi
 ---
 
 # Joystickapi.h header

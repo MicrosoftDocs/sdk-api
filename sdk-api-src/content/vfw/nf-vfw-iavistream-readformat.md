@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIStream.ReadFormat
+ - IAVIStream::ReadFormat
 ---
 
 # IAVIStream::ReadFormat
@@ -100,3 +100,4 @@ HRESULT ReadFormat(LONG lPos, LPVOID lpFormat,
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+

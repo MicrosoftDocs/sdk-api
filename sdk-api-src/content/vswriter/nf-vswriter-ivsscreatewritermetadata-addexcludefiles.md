@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.AddExcludeFiles
+ - IVssCreateWriterMetadata::AddExcludeFiles
 ---
 
 # IVssCreateWriterMetadata::AddExcludeFiles
@@ -178,3 +178,4 @@ For more information on excluding files, see
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">IVssCreateWriterMetadata::AddComponent</a>
+

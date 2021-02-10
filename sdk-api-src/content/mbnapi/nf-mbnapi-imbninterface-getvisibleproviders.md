@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface.GetVisibleProviders
+ - IMbnInterface::GetVisibleProviders
 ---
 
 # IMbnInterface::GetVisibleProviders
@@ -120,3 +120,4 @@ An application can call this method to get a list of visible providers upon the 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
+

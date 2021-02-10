@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.UI.Xaml.dll
 api_name:
- - ISwapChainPanelNative.SetSwapChain
+ - ISwapChainPanelNative::SetSwapChain
 ---
 
 # ISwapChainPanelNative::xaml
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative">ISwapChainPanelNative</a>
+

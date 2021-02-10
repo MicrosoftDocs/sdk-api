@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Adtgen.h
 api_name:
+ - _AUDIT_PARAM_TYPE
  - AUDIT_PARAM_TYPE
 ---
 
@@ -120,3 +121,4 @@ Logon ID with SID that results in four output parameters:
 <li>Authority name</li>
 <li>LogonID</li>
 </ul>
+

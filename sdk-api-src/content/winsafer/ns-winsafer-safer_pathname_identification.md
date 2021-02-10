@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinSafer.h
 api_name:
+ - _SAFER_PATHNAME_IDENTIFICATION
+ - PSAFER_PATHNAME_IDENTIFICATION
  - SAFER_PATHNAME_IDENTIFICATION
 ---
 
@@ -73,3 +75,4 @@ A pointer to a <b>null</b>-terminated wide character string that specifies the f
 ### -field dwSaferFlags
 
 Reserved for future use.
+

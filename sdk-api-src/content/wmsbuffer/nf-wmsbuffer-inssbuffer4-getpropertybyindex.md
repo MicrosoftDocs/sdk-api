@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSSBuffer4.GetPropertyByIndex
+ - INSSBuffer4::GetPropertyByIndex
 ---
 
 # INSSBuffer4::GetPropertyByIndex
@@ -80,3 +80,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4 Interface</a>
+

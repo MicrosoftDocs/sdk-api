@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStreamBuffer.Context
- - IRDPSRAPITransportStreamBuffer.get_Context
- - IRDPSRAPITransportStreamBuffer.put_Context
+ - IRDPSRAPITransportStreamBuffer::get_Context
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_Context
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
+

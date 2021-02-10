@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.GetDC
+ - IOleInPlaceSiteWindowless::GetDC
 ---
 
 # IOleInPlaceSiteWindowless::GetDC
@@ -171,3 +171,4 @@ When this method returns, the clipping region in the device context should be se
 
 
 <a href="/windows/desktop/api/ocidl/ne-ocidl-oledcflags">OLEDCFLAGS</a>
+

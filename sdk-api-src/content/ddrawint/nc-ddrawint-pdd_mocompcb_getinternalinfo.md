@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdMoCompGetInternalInfo
+ - PDD_MOCOMPCB_GETINTERNALINFO
 ---
 
 ## -description
@@ -68,3 +68,4 @@ This function allows the decoder and DirectShow to make better-informed decision
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getinternalmocompdata">DD_GETINTERNALMOCOMPDATA</a>
+

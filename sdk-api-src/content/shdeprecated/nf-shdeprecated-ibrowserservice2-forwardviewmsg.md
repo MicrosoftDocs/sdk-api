@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2.ForwardViewMsg
+ - IBrowserService2::ForwardViewMsg
 ---
 
 # IBrowserService2::ForwardViewMsg
@@ -78,3 +78,4 @@ Additional message-specific information.
 Type: <b>LRESULT</b>
 
 The return value specifies the result of the message processing; it depends on the message sent.
+

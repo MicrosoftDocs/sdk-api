@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dbt.h
 api_name:
+ - _DEV_BROADCAST_HANDLE
+ - PDEV_BROADCAST_HANDLE
  - DEV_BROADCAST_HANDLE
 ---
 
@@ -99,3 +101,4 @@ Optional binary data.  This member is valid only for <a href="/windows/desktop/D
 
 
 <a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
+

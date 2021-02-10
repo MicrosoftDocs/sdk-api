@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - _ApplicationProcessRecycleInfo
  - ApplicationProcessRecycleInfo
 ---
 
@@ -115,3 +116,4 @@ The total number of calls serviced by a COM+ server application instance, or 0 i
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
+

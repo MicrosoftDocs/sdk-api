@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaItem.HasAudio
+ - IMFPMediaItem::HasAudio
 ---
 
 # IMFPMediaItem::HasAudio
@@ -81,3 +81,4 @@ To select or deselect streams before playback starts, call <a href="/windows/des
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

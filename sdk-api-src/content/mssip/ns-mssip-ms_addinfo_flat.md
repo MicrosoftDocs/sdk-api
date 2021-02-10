@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mssip.h
 api_name:
+ - MS_ADDINFO_FLAT_
+ - PMS_ADDINFO_FLAT
  - MS_ADDINFO_FLAT
 ---
 
@@ -65,3 +67,4 @@ The size, in bytes, of this structure.
 ### -field pIndirectData
 
 A [SIP_INDIRECT_DATA](/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure that contains the <a href="/windows/desktop/SecGloss/h-gly">hash</a> of a flat file subject.
+

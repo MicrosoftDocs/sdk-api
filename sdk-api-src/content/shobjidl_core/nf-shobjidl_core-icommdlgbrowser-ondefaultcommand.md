@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICommDlgBrowser.OnDefaultCommand
+ - ICommDlgBrowser::OnDefaultCommand
 ---
 
 # ICommDlgBrowser::OnDefaultCommand
@@ -76,3 +76,4 @@ This method allows the default command to be handled by the common dialog box in
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>
+

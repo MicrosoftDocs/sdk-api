@@ -9,6 +9,8 @@ tech.root: virtual
 f1_keywords:
  - mmc
  - mmc/mmc
+api_name:
+ - mmc
 ---
 
 # Mmc.h header

@@ -43,9 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymGetLinePrev64
- - SymGetLinePrev64
- - SymGetLinePrevW64
- - SymGetLinePrev
 ---
 
 # SymGetLinePrev64 function
@@ -150,3 +147,4 @@ SymGetLinePrevW(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
+

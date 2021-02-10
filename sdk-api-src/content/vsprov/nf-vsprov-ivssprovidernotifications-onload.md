@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssProviderNotifications.OnLoad
+ - IVssProviderNotifications::OnLoad
 ---
 
 # IVssProviderNotifications::OnLoad
@@ -126,3 +126,4 @@ An unexpected provider error occurred. If this is returned, the error must be de
 
 
 <a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onunload">OnUnload</a>
+

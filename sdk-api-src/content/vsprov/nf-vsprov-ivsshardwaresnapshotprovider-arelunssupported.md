@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider.AreLunsSupported
+ - IVssHardwareSnapshotProvider::AreLunsSupported
 ---
 
 # IVssHardwareSnapshotProvider::AreLunsSupported
@@ -165,3 +165,4 @@ The provider must never agree to create shadow copies if it cannot, even if the 
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+

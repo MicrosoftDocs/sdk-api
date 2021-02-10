@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_SERVICE_CONFIG_URLACL_PARAM
+ - PHTTP_SERVICE_CONFIG_URLACL_PARAM
  - HTTP_SERVICE_CONFIG_URLACL_PARAM
 ---
 
@@ -83,3 +85,4 @@ An example of a security descriptor string is:
 
 
 <a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>
+

@@ -9,6 +9,8 @@ tech.root: mapi
 f1_keywords:
  - wabmem
  - wabmem/wabmem
+api_name:
+ - wabmem
 ---
 
 # Wabmem.h header

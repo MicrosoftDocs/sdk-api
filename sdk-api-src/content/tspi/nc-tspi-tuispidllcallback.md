@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tspi.h
 api_name:
- - DllCallbackProc
+ - TUISPIDLLCALLBACK
 ---
 
 # TUISPIDLLCALLBACK callback function
@@ -161,3 +161,4 @@ LINEERR_INVALPARAM, LINEERR_INVALPOINTER, LINEERR_NOMEM, LINEERR_OPERATIONFAILED
 
 
 <a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>
+

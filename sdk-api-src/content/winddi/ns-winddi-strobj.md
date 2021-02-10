@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _STROBJ
  - STROBJ
 ---
 
@@ -195,3 +196,4 @@ A driver can call <a href="/windows/desktop/api/winddi/nf-winddi-strobj_venumsta
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
+

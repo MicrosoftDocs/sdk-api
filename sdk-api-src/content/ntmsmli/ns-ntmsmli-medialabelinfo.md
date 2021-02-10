@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NtmsMli.h
 api_name:
+ - pMediaLabelInfo
  - MediaLabelInfo
 ---
 
@@ -79,3 +80,4 @@ Unicode string that describes the media. For example, the description for a back
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsmli/nc-ntmsmli-claimmedialabel">ClaimMediaLabel</a>
+

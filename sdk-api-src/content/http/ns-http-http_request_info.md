@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_REQUEST_INFO
+ - PHTTP_REQUEST_INFO
  - HTTP_REQUEST_INFO
 ---
 
@@ -85,3 +87,4 @@ Starting with the HTTP Server API version 2.0, the HTTP_REQUEST structure is ext
 
 
 <a href="/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>
+

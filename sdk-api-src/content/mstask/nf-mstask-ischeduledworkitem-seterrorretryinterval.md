@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.SetErrorRetryInterval
+ - IScheduledWorkItem::SetErrorRetryInterval
 ---
 
 # IScheduledWorkItem::SetErrorRetryInterval
@@ -128,3 +128,4 @@ Programs must call the <b>IPersistFile::Save</b> method after calling
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-geterrorretryinterval">IScheduledWorkItem::GetErrorRetryInterval</a>
+

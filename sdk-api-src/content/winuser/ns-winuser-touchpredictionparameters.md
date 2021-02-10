@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - TouchPredictionParameters
+ - tagTouchPredictionParameters
+ - PTOUCHPREDICTIONPARAMETERS
+ - TOUCHPREDICTIONPARAMETERS
 ---
 
 # TOUCHPREDICTIONPARAMETERS structure
@@ -81,3 +83,4 @@ By default, touch prediction is activated. For information on getting pointer da
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
+

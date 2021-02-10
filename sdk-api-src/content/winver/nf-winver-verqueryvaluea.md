@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - VerQueryValueA
  - winver/VerQueryValueA
+ - VerQueryValue
+ - winver/VerQueryValue
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-Core-Version-L1-1-1.dll
  - version.dll
 api_name:
- - VerQueryValue
  - VerQueryValueA
- - VerQueryValueW
+ - VerQueryValue
 ---
 
 # VerQueryValueA function
@@ -246,3 +247,4 @@ for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 
 <a href="/windows/desktop/menurc/version-information">Version Information</a>
+

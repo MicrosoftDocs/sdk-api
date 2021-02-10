@@ -46,7 +46,9 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - IRQ_DES
+ - IRQ_Des_64_s
+ - PIRQ_DES_64
+ - IRQ_DES_64
 ---
 
 # IRQ_DES_64 structure
@@ -229,3 +231,4 @@ The number of elements in the [IRQ_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cf
 
 
 [IRQ_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)
+

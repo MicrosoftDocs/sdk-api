@@ -9,6 +9,8 @@ tech.root: setup
 f1_keywords:
  - evalcom2
  - evalcom2/evalcom2
+api_name:
+ - evalcom2
 ---
 
 # Evalcom2.h header

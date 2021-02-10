@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Appmgmt.h
 api_name:
+ - _APPCATEGORYINFO
  - APPCATEGORYINFO
 ---
 
@@ -81,3 +82,4 @@ A GUID identifying the application category.
 
 
 <a href="/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-getcategories">IAppPublisher::GetCategories</a>
+

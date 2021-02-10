@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObjExt.Initialize
+ - IDsAdminNewObjExt::Initialize
 ---
 
 # IDsAdminNewObjExt::Initialize
@@ -113,3 +113,4 @@ An object in Active Directory Domain Services can either be created from nothing
 
 
 <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IBPCSatelliteTuner.IsTapingPermitted
+ - IBPCSatelliteTuner::IsTapingPermitted
 ---
 
 # IBPCSatelliteTuner::IsTapingPermitted
@@ -63,3 +63,4 @@ Returns S_OK if taping is permitted or S_FALSE if taping is not permitted.
 ## -see-also
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ibpcsatellitetuner">IBPCSatelliteTuner Interface</a>
+

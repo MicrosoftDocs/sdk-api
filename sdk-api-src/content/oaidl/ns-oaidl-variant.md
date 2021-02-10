@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
+ - tagVARIANT
  - VARIANT
 ---
 
@@ -380,3 +381,4 @@ A reference to a UDT.
 <b>Type: <b>DECIMAL</b>
 </b>
 A decimal value.
+

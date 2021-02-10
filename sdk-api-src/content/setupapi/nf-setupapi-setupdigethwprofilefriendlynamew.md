@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetHwProfileFriendlyNameW
  - setupapi/SetupDiGetHwProfileFriendlyNameW
+ - SetupDiGetHwProfileFriendlyName
+ - setupapi/SetupDiGetHwProfileFriendlyName
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetHwProfileFriendlyName
  - SetupDiGetHwProfileFriendlyNameW
+ - SetupDiGetHwProfileFriendlyName
 ---
 
 # SetupDiGetHwProfileFriendlyNameW function
@@ -94,3 +96,4 @@ Call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilefrien
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>
+

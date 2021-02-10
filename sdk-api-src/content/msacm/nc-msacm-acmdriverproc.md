@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
- - acmDriverProc
+ - ACMDRIVERPROC
 ---
 
 # ACMDRIVERPROC callback function
@@ -74,7 +74,6 @@ Message parameter.
 
 Message parameter.
 
-
 ## -returns
 
 Returns zero if successful or an error otherwise.
@@ -90,3 +89,4 @@ Applications should not call any system-defined functions from inside a callback
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

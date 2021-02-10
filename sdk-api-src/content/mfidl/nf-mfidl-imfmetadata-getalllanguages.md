@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMetadata.GetAllLanguages
+ - IMFMetadata::GetAllLanguages
 ---
 
 # IMFMetadata::GetAllLanguages
@@ -112,3 +112,4 @@ HRESULT DisplayLanguageList(IMFMetadata *pMetadata)
 
 
 <a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>
+

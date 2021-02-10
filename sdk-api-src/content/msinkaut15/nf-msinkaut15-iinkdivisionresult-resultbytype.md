@@ -43,7 +43,7 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivisionResult.ResultByType
+ - IInkDivisionResult::ResultByType
 ---
 
 # IInkDivisionResult::ResultByType
@@ -148,3 +148,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="/windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype">InkDivisionType Enumeration</a>
+

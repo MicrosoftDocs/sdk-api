@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IBootTrigger.Delay
- - IBootTrigger.get_Delay
- - IBootTrigger.put_Delay
+ - IBootTrigger::put_Delay
 ---
 
 # IBootTrigger::put_Delay
@@ -69,3 +67,4 @@ When reading or writing your own XML for a task, the boot delay is specified usi
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

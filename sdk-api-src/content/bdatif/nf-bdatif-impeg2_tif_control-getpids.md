@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IMPEG2_TIF_CONTROL.GetPIDs
+ - IMPEG2_TIF_CONTROL::GetPIDs
 ---
 
 # IMPEG2_TIF_CONTROL::GetPIDs
@@ -103,3 +103,4 @@ A custom TIF extension might or might not have need for this method.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpidcount">IMPEG2_TIF_CONTROL::GetPIDCount</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsController.GetSubSystem
+ - IVdsController::GetSubSystem
 ---
 
 # IVdsController::GetSubSystem
@@ -118,3 +118,4 @@ The controller object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
+

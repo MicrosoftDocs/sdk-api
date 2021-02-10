@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.GetNestLevel
+ - ITextRow::GetNestLevel
 ---
 
 # ITextRow::GetNestLevel
@@ -73,3 +73,4 @@ The nest level of the table is identified by the associated <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
+

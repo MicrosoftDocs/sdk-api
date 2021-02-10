@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
+ - _WNV_REDIRECT_PARAM
+ - PWNV_REDIRECT_PARAM
  - WNV_REDIRECT_PARAM
 ---
 
@@ -111,3 +113,4 @@ For a detailed description of network virtualization concepts and terminology, r
 ## -see-also
 
 <a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
+

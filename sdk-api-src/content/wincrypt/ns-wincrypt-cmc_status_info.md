@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMC_STATUS_INFO
+ - PCMC_STATUS_INFO
  - CMC_STATUS_INFO
 ---
 
@@ -311,3 +313,4 @@ A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_pend_inf
 ## -remarks
 
 Additional members of the union may be defined in future versions.
+

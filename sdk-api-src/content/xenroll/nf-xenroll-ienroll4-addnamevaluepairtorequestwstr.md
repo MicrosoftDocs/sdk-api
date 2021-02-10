@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.addNameValuePairToRequestWStr
- - IEnroll4.addNameValuePairToRequestWStr
+ - IEnroll4::addNameValuePairToRequestWStr
 ---
 
 # IEnroll4::addNameValuePairToRequestWStr
@@ -76,3 +75,4 @@ A pointer to a null-terminated wide character string that represents the value p
 
 
 <b>IEnroll4</b>
+

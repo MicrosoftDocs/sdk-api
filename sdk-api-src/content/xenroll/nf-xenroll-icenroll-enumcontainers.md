@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.enumContainers
- - ICEnroll3.enumContainers
- - ICEnroll2.enumContainers
- - ICEnroll.enumContainers
- - CEnroll.enumContainers
+ - ICEnroll::enumContainers
 ---
 
 # ICEnroll::enumContainers
@@ -128,3 +124,4 @@ while ( S_OK == pEnroll->enumContainers(nCon, &bstrCon) )
 
 
 <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providername">ProviderName</a>
+

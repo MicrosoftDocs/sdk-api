@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNodeAttributeEditor.UpdateNodeAttributes
+ - IMFTopologyNodeAttributeEditor::UpdateNodeAttributes
 ---
 
 # IMFTopologyNodeAttributeEditor::UpdateNodeAttributes
@@ -96,3 +96,4 @@ Currently the only attribute that can be updated is the <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynodeattributeeditor">IMFTopologyNodeAttributeEditor</a>
+

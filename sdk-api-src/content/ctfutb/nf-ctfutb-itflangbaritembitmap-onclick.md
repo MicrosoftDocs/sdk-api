@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemBitmap.OnClick
+ - ITfLangBarItemBitmap::OnClick
 ---
 
 # ITfLangBarItemBitmap::OnClick
@@ -115,3 +115,4 @@ One or more parameters are invalid.
 
 <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
+

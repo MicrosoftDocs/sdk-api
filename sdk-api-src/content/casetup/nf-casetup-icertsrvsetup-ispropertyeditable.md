@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup.IsPropertyEditable
+ - ICertSrvSetup::IsPropertyEditable
 ---
 
 # ICertSrvSetup::IsPropertyEditable
@@ -65,3 +65,4 @@ A value that indicates whether the property can be edited.
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
+

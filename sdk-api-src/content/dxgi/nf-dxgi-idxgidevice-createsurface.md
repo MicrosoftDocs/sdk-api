@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIDevice.CreateSurface
+ - IDXGIDevice::CreateSurface
 ---
 
 # IDXGIDevice::CreateSurface
@@ -112,3 +112,4 @@ The runtime automatically creates an <a href="/windows/desktop/api/dxgi/nn-dxgi-
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - drt.h
 api_name:
+ - drt_event_type_tag
  - DRT_EVENT_TYPE
 ---
 
@@ -75,3 +76,4 @@ The event handle passed to <a href="/windows/desktop/api/drt/nf-drt-drtopen">Drt
 ## -see-also
 
 <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
+

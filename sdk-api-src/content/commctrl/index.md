@@ -9,6 +9,8 @@ tech.root: controls
 f1_keywords:
  - commctrl
  - commctrl/commctrl
+api_name:
+ - commctrl
 ---
 
 # Commctrl.h header

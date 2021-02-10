@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.DetectTones
+ - ITLegacyCallMediaControl2::DetectTones
 ---
 
 # ITLegacyCallMediaControl2::DetectTones
@@ -126,3 +126,4 @@ To cancel tone monitoring in progress, call the
 
 
 <a href="/windows/desktop/api/tapi3if/ns-tapi3if-tapi_detecttone">TAPI_DETECTTONE</a>
+

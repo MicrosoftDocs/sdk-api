@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon2.Logoff
+ - ISensLogon2::Logoff
 ---
 
 # ISensLogon2::Logoff
@@ -104,3 +104,4 @@ SENS calls this method to notify an application that a user is logged off.
 
 
 <a href="/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
+

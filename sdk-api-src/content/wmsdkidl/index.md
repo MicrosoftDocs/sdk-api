@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmsdkidl
  - wmsdkidl/wmsdkidl
+api_name:
+ - wmsdkidl
 ---
 
 # Wmsdkidl.h header

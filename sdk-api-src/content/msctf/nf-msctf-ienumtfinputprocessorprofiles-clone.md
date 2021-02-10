@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IEnumTfInputProcessorProfiles.Clone
+ - IEnumTfInputProcessorProfiles::Clone
 ---
 
 # IEnumTfInputProcessorProfiles::Clone
@@ -101,3 +101,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
+

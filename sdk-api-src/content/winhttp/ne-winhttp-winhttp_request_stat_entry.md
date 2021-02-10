@@ -43,6 +43,7 @@ api_type:
 api_location:
  - winhttp.h
 api_name:
+ - _WINHTTP_REQUEST_STAT_ENTRY
  - WINHTTP_REQUEST_STAT_ENTRY
 ---
 

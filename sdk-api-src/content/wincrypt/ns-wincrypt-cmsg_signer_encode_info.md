@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_SIGNER_ENCODE_INFO
+ - PCMSG_SIGNER_ENCODE_INFO
  - CMSG_SIGNER_ENCODE_INFO
 ---
 
@@ -197,3 +199,4 @@ This member is present only if CMSG_SIGNER_ENCODE_INFO_HAS_CMS_FIELDS is defined
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_1
+ - PDFS_INFO_1
  - DFS_INFO_1
 ---
 
@@ -117,3 +119,4 @@ The DFS functions use the
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

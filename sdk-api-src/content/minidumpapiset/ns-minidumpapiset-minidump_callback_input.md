@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_CALLBACK_INPUT
+ - PMINIDUMP_CALLBACK_INPUT
  - MINIDUMP_CALLBACK_INPUT
 ---
 
@@ -172,3 +174,4 @@ If <b>CallbackType</b> is <b>CancelCallback</b> or <b>MemoryCallback</b>, the <b
 
 
 <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
+

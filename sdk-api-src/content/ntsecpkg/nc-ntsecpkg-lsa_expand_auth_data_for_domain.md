@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - ExpandAuthDataForDomain
+ - LSA_EXPAND_AUTH_DATA_FOR_DOMAIN
 ---
 
 # LSA_EXPAND_AUTH_DATA_FOR_DOMAIN callback function
@@ -89,3 +89,4 @@ A pointer to the <b>ExpandAuthDataForDomain</b> function is available in the
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

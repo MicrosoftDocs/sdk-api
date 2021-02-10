@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
+ - _FH_RETENTION_TYPES
  - FH_RETENTION_TYPES
 ---
 
@@ -85,3 +86,4 @@ If <b>FH_RETENTION_AGE_BASED</b> is specified and the target is large enough, it
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a>
+

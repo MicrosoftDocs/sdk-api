@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetCrackUrlA
  - wininet/InternetCrackUrlA
+ - InternetCrackUrl
+ - wininet/InternetCrackUrl
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetCrackUrl
  - InternetCrackUrlA
- - InternetCrackUrlW
+ - InternetCrackUrl
 ---
 
 # InternetCrackUrlA function
@@ -161,3 +162,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

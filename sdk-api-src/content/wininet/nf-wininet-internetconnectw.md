@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetConnectW
  - wininet/InternetConnectW
+ - InternetConnect
+ - wininet/InternetConnect
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetConnect
- - InternetConnectA
  - InternetConnectW
+ - InternetConnect
 ---
 
 # InternetConnectW function
@@ -310,3 +311,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

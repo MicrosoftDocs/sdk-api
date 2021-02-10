@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedAutomationId
- - IUIAutomationElement.get_CachedAutomationId
+ - IUIAutomationElement::get_CachedAutomationId
 ---
 
 # IUIAutomationElement::get_CachedAutomationId
@@ -76,3 +75,4 @@ The  UI Automation identifier is unique among sibling elements in a container, a
 
 
 <b>Reference</b>
+

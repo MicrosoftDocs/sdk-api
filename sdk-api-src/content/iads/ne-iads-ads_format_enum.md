@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0078_0002
  - ADS_FORMAT_ENUM
 ---
 
@@ -113,3 +114,4 @@ Because Visual Basic Scripting Edition  cannot read data from a type library, VB
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadspathname-retrieve">IADsPathname::Retrieve</a>
+

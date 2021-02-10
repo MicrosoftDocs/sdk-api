@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetRawAlertText
+ - ISCTE_EAS::GetRawAlertText
 ---
 
 # ISCTE_EAS::GetRawAlertText
@@ -73,3 +73,4 @@ To get the alert text for a specific language, call <a href="/previous-versions/
 
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getalerttext">ISCTE_EAS::GetAlertText</a>
+

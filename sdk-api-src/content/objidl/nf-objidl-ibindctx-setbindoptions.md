@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx.SetBindOptions
+ - IBindCtx::SetBindOptions
 ---
 
 # IBindCtx::SetBindOptions
@@ -97,3 +97,4 @@ You can use the <b>IBindCtx::SetBindOptions</b> method to modify these values be
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
+

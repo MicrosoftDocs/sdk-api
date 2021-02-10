@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateTemplates.Clear
+ - IX509CertificateTemplates::Clear
 ---
 
 # IX509CertificateTemplates::Clear
@@ -67,3 +67,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplates">IX509CertificateTemplates</a>
+

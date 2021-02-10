@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.setDefaultAuthorization
+ - IWindowsMediaLibrarySharingServices::setDefaultAuthorization
 ---
 
 # IWindowsMediaLibrarySharingServices::setDefaultAuthorization

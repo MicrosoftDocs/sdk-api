@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.MeasureString
+ - Graphics::MeasureString
 ---
 
 # Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const SizeF &,IN const StringFormat,OUT SizeF,OUT INT,OUT INT)
@@ -133,3 +133,4 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMWMIFilter.GetQueryList
- - GPMWMIFilter.GetQueryList
+ - IGPMWMIFilter::GetQueryList
 ---
 
 # IGPMWMIFilter::GetQueryList
@@ -77,3 +76,4 @@ An array of strings representing the queries. Each string contains the query str
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
+

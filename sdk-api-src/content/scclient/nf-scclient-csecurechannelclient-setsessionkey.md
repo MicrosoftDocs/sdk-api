@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient.SetSessionKey
+ - CSecureChannelClient::SetSessionKey
 ---
 
 # CSecureChannelClient::SetSessionKey
@@ -102,3 +102,4 @@ Possible values include, but are not limited to, those in the following table.
 
 
 <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
+

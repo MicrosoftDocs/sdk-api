@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _NET_VALIDATE_AUTHENTICATION_INPUT_ARG
+ - PNET_VALIDATE_AUTHENTICATION_INPUT_ARG
  - NET_VALIDATE_AUTHENTICATION_INPUT_ARG
 ---
 
@@ -77,3 +79,4 @@ BOOLEAN value that indicates the result of the client application's authenticati
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

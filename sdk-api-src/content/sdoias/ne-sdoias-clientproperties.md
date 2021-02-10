@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _CLIENTPROPERTIES
  - CLIENTPROPERTIES
 ---
 
@@ -101,3 +102,4 @@ This value must be set before a client SDO object can be saved.
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-radiusproperties">RADIUSPROPERTIES</a>
+

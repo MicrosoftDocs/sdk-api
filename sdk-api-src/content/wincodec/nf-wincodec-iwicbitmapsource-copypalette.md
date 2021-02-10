@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapSource.CopyPalette
+ - IWICBitmapSource::CopyPalette
 ---
 
 # IWICBitmapSource::CopyPalette
@@ -99,3 +99,4 @@ The palette was successfully copied.
 
 If the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> is an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>, the function may return the image's global palette if a frame-level palette is not available.
             The global palette may also be retrieved using the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-copypalette">CopyPalette</a> method.
+

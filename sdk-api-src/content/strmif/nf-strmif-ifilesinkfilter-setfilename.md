@@ -43,8 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFileSinkFilter.SetFileName
- - IFileSinkFilter2.SetFileName
+ - IFileSinkFilter::SetFileName
 ---
 
 # IFileSinkFilter::SetFileName
@@ -83,3 +82,4 @@ If the <i>pszFileName</i> parameter names a nonexistent file, the file will be c
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter2">IFileSinkFilter2</a>
+

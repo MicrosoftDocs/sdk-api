@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IGetSecurityCallContext.GetSecurityCallContext
+ - IGetSecurityCallContext::GetSecurityCallContext
 ---
 
 # IGetSecurityCallContext::GetSecurityCallContext
@@ -112,3 +112,4 @@ With an object's security call context, you can retrieve items in the security c
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ras.h
 api_name:
+ - _RAS_STATS
+ - PRAS_STATS
  - RAS_STATS
 ---
 
@@ -157,3 +159,4 @@ The amount of time, in milliseconds, that the connection or link has been connec
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.GetGammaCorrection
+ - LinearGradientBrush::GetGammaCorrection
 ---
 
 # LinearGradientBrush::GetGammaCorrection
@@ -69,3 +69,4 @@ If gamma correction is enabled, this method returns <b>TRUE</b>; otherwise, it r
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a>
+

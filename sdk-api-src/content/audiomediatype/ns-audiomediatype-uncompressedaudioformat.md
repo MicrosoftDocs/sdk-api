@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Audiomediatype.h
 api_name:
+ - _UNCOMPRESSEDAUDIOFORMAT
  - UNCOMPRESSEDAUDIOFORMAT
 ---
 

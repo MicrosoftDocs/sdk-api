@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_FrequencyFilter.get_FrequencyMultiplier
+ - IBDA_FrequencyFilter::get_FrequencyMultiplier
 ---
 
 # IBDA_FrequencyFilter::get_FrequencyMultiplier
@@ -81,3 +81,4 @@ Frequencies for DVB-S, DVB-T, and ATSC should all be expressed in kilohertz and 
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-put_frequencymultiplier">IBDA_FrequencyFilter::put_FrequencyMultiplier</a>
+

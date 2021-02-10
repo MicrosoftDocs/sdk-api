@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.Open
+ - IPortableDeviceService::Open
 ---
 
 # IPortableDeviceService::Open
@@ -125,3 +125,4 @@ This method has already been called for the service.
 
 
 <a href="/windows/desktop/wpd_sdk/opening-a-service">Opening a Service</a>
+

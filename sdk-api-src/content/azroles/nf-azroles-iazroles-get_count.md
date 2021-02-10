@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRoles.Count
- - IAzRoles.get_Count
- - AzRoles.Count
+ - IAzRoles::get_Count
 ---
 
 # IAzRoles::get_Count
@@ -61,3 +59,4 @@ This property is read-only.
 ## -remarks
 
 The <b>Count</b> property can be used to specify the last <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object in a collection when retrieving a specific <b>IAzRole</b> object using the  <a href="/windows/desktop/api/azroles/nf-azroles-iazroles-get_item">IAzRoles.Item</a> property.
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit.SetContext
- - CCertServerExit.SetContext
+ - ICertServerExit::SetContext
 ---
 
 # ICertServerExit::SetContext
@@ -81,3 +80,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
+

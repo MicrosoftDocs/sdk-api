@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication.CreateTask
- - AzApplication.CreateTask
+ - IAzApplication::CreateTask
 ---
 
 # IAzApplication::CreateTask
@@ -78,3 +77,4 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">IAzTask::Submit</a> method to persist any changes made to the returned object.
 
 The returned <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object is an immediate child object of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
+

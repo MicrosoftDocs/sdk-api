@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - AVIFileInfoW
  - vfw/AVIFileInfoW
+ - AVIFileInfo
+ - vfw/AVIFileInfo
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Avifil32.dll
  - Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIFileInfo
- - AVIFileInfoA
  - AVIFileInfoW
+ - AVIFileInfo
 ---
 
 # AVIFileInfoW function
@@ -91,3 +92,4 @@ The argument <i>pfile</i> is a pointer to an <a href="/windows/desktop/api/vfw/n
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsOpenVDisk.Detach
+ - IVdsOpenVDisk::Detach
 ---
 
 # IVdsOpenVDisk::Detach
@@ -90,3 +90,4 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsopenvdisk">IVdsOpenVDisk</a>
+

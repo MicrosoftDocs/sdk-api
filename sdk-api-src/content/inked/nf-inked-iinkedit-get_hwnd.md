@@ -43,9 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.Hwnd
- - IInkEdit.get_Hwnd
- - InkEdit.get_Hwnd
+ - IInkEdit::get_Hwnd
 ---
 
 # IInkEdit::get_Hwnd
@@ -72,3 +70,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

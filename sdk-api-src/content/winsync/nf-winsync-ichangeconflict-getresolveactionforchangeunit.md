@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IChangeConflict.GetResolveActionForChangeUnit
+ - IChangeConflict::GetResolveActionForChangeUnit
 ---
 
 # IChangeConflict::GetResolveActionForChangeUnit
@@ -102,3 +102,4 @@ Invalid pointer.
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.Copy
+ - ITextRange::Copy
 ---
 
 # ITextRange::Copy
@@ -130,3 +130,4 @@ To copy and replace plain text, you can use the <a href="/windows/desktop/api/to
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

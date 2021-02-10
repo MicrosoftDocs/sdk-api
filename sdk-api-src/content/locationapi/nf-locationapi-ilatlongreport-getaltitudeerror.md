@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILatLongReport.GetAltitudeError
+ - ILatLongReport::GetAltitudeError
 ---
 
 # ILatLongReport::GetAltitudeError
@@ -98,3 +98,4 @@ The location report does not include data for the requested field. This result i
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilatlongreport">ILatLongReport</a>
+

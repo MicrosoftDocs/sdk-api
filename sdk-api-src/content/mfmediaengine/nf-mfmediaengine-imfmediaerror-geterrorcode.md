@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaError.GetErrorCode
+ - IMFMediaError::GetErrorCode
 ---
 
 # IMFMediaError::GetErrorCode
@@ -61,3 +61,4 @@ Returns a value from the <a href="/windows/desktop/api/mfmediaengine/ne-mfmediae
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaerror">IMFMediaError</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _EVENTLOGRECORD
+ - PEVENTLOGRECORD
  - EVENTLOGRECORD
 ---
 
@@ -222,3 +224,4 @@ The binary information is information that is specific to the event. It could be
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-readeventloga">ReadEventLog</a>
+

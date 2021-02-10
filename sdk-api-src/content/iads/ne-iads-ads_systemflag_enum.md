@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0017_0001
  - ADS_SYSTEMFLAG_ENUM
 ---
 
@@ -251,3 +252,4 @@ CoUninitialize();    // uninitialize COM.
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMarshal.MarshalInterface
+ - IMarshal::MarshalInterface
 ---
 
 # IMarshal::MarshalInterface
@@ -161,3 +161,4 @@ Using the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHL
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
+

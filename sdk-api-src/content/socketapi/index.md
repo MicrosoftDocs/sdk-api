@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - socketapi
  - socketapi/socketapi
+api_name:
+ - socketapi
 ---
 
 # Socketapi.h header

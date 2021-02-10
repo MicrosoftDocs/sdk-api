@@ -42,9 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryEntry.ClassName
- - IUIAutomationProxyFactoryEntry.get_ClassName
- - IUIAutomationProxyFactoryEntry.put_ClassName
+ - IUIAutomationProxyFactoryEntry::put_ClassName
 ---
 
 # IUIAutomationProxyFactoryEntry::put_ClassName

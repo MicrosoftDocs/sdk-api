@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSignalEvents.OnSignalStateChange
+ - IMbnSignalEvents::OnSignalStateChange
 ---
 
 # IMbnSignalEvents::OnSignalStateChange
@@ -73,3 +73,4 @@ An application can get updated values from the <a href="/windows/desktop/api/mbn
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>
+

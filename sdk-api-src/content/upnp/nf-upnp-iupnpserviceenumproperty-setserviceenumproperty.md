@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceEnumProperty.SetServiceEnumProperty
+ - IUPnPServiceEnumProperty::SetServiceEnumProperty
 ---
 
 # IUPnPServiceEnumProperty::SetServiceEnumProperty
@@ -80,3 +80,4 @@ Returns <b>S_OK</b> on success. Otherwise, this method returns <b>E_FAIL</b>.
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpserviceenumproperty">IUPnPServiceEnumProperty</a>
+

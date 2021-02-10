@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ifdef.h
 api_name:
+ - _NET_IF_ADMIN_STATUS
+ - PNET_IF_ADMIN_STATUS
  - NET_IF_ADMIN_STATUS
 ---
 
@@ -85,3 +87,4 @@ For more information on RFC 2863, see
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-gen-admin-status">OID_GEN_ADMIN_STATUS</a>
+

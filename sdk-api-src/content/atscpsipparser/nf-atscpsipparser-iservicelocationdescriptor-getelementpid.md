@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor.GetElementPID
+ - IServiceLocationDescriptor::GetElementPID
 ---
 
 # IServiceLocationDescriptor::GetElementPID
@@ -70,3 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iservicelocationdescriptor">IServiceLocationDescriptor</a>
+

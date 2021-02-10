@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchManager.put_UserAgent
+ - ISearchManager::put_UserAgent
 ---
 
 # ISearchManager::put_UserAgent
@@ -73,3 +73,4 @@ A user agent is a client application that accesses the Internet. User agents inc
 Each user agent typially has a user agent string, such as "Mozilla/4.0", that it can pass to websites and services to identify itself.
 
 Check out the <a href="/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings.get_volume
- - IWMPSetting2::get_volume
- - IWMPSetting2.get_volume
+ - IWMPSettings::get_volume
 ---
 
 # IWMPSettings::get_volume
@@ -93,3 +91,4 @@ A value of zero specifies no volume (muted). A value of 100 specifies full volum
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
+

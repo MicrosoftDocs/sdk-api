@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.SetSnapCoordinate
+ - IDirectManipulationPrimaryContent::SetSnapCoordinate
 ---
 
 # IDirectManipulationPrimaryContent::SetSnapCoordinate
@@ -91,3 +91,4 @@ The origin is relative to the content boundaries. If no boundary has been set (<
 
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnappoints">SetSnapPoints</a>
+

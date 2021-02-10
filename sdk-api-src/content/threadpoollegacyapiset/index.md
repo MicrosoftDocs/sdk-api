@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - threadpoollegacyapiset
  - threadpoollegacyapiset/threadpoollegacyapiset
+api_name:
+ - threadpoollegacyapiset
 ---
 
 # Threadpoollegacyapiset.h header

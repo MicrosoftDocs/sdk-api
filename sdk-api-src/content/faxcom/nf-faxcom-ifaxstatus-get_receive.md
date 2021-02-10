@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.Receive
- - IFaxStatus.get_Receive
+ - IFaxStatus::get_Receive
 ---
 
 # IFaxStatus::get_Receive
@@ -84,3 +83,4 @@ To determine if a specified port is currently sending a fax, you can call the <a
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxstatus-get-send-vb">IFaxStatus::get_Send</a>
+

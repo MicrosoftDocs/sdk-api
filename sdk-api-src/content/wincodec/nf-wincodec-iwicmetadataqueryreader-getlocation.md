@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICMetadataQueryReader.GetLocation
+ - IWICMetadataQueryReader::GetLocation
 ---
 
 # IWICMetadataQueryReader::GetLocation
@@ -102,3 +102,4 @@ If the query reader is relative to a nested metadata block, this method will ret
 
 
 <a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
+ - _WINTRUST_DATA
+ - PWINTRUST_DATA
  - WINTRUST_DATA
 ---
 
@@ -536,3 +538,4 @@ Use when calling <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytru
 Pointer to a [WINTRUST_SIGNATURE_SETTINGS](/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings) structure.
 
 <b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
+

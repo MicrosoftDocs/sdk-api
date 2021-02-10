@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEventControl.AllowInprocActivation
- - IEventControl.get_AllowInprocActivation
- - IEventControl.put_AllowInprocActivation
+ - IEventControl::get_AllowInprocActivation
 ---
 
 # IEventControl::get_AllowInprocActivation
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a>
+

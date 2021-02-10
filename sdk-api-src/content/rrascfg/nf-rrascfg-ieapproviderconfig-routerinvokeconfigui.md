@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rrascfg.h
 api_name:
- - IEAPProviderConfig.RouterInvokeConfigUI
+ - IEAPProviderConfig::RouterInvokeConfigUI
 ---
 
 # IEAPProviderConfig::RouterInvokeConfigUI
@@ -170,3 +170,4 @@ An unexpected error occurred.
 
 
 <a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize">IEAPProviderConfig::Uninitialize</a>
+

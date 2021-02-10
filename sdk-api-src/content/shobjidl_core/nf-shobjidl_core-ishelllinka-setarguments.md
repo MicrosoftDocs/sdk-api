@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLink.SetArguments
- - IShellLinkA.SetArguments
- - IShellLinkW.SetArguments
+ - IShellLinkA::SetArguments
 ---
 
 # IShellLinkA::SetArguments
@@ -87,3 +85,4 @@ This method is useful when creating a link to an application that takes special 
 
 
 <b>IShellLinkW</b>
+

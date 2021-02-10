@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - ClusterSetupProgressCallback callback
+ - PCLUSTER_SETUP_PROGRESS_CALLBACK
 ---
 
 # PCLUSTER_SETUP_PROGRESS_CALLBACK callback function
@@ -343,3 +343,4 @@ The <a href="/previous-versions/windows/desktop/cluswmi/mscluster-eventclusterca
 
 
 <a href="/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a>
+

@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - WTSQuerySessionInformationW
  - wtsapi32/WTSQuerySessionInformationW
+ - WTSQuerySessionInformation
+ - wtsapi32/WTSQuerySessionInformation
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Wtsapi32.dll
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSQuerySessionInformation
- - WTSQuerySessionInformationA
  - WTSQuerySessionInformationW
-req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
+ - WTSQuerySessionInformation
 ---
 
 # WTSQuerySessionInformationW function
@@ -157,3 +158,4 @@ To determine whether your application is running on the physical console, you mu
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_address">WTS_SESSION_ADDRESS</a>
+

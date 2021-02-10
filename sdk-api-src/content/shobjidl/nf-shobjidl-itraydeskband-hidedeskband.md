@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - ITrayDeskBand.HideDeskBand
+ - ITrayDeskBand::HideDeskBand
 ---
 
 # ITrayDeskBand::HideDeskBand

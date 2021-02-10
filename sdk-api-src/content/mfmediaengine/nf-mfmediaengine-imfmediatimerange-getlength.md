@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaTimeRange.GetLength
+ - IMFMediaTimeRange::GetLength
 ---
 
 # IMFMediaTimeRange::GetLength
@@ -65,3 +65,4 @@ This method corresponds to the <b>TimeRanges.length</b> attribute in HTML5.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bits.h
 api_name:
+ - _BG_FILE_PROGRESS
  - BG_FILE_PROGRESS
 ---
 
@@ -101,3 +102,4 @@ Note that the progress values will be set back to zero if the time stamp of the 
 
 
 <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
+

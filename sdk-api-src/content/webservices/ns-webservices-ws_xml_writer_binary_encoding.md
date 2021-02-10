@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_WRITER_BINARY_ENCODING
  - WS_XML_WRITER_BINARY_ENCODING
 ---
 
@@ -75,3 +76,4 @@ Specifies an optional callback that the writer will invoke when a <a href="/wind
 ### -field dynamicStringCallbackState
 
 User-defined state that will be passed to dynamicStringCallback.
+

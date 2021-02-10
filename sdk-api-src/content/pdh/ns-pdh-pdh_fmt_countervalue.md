@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
+ - _PDH_FMT_COUNTERVALUE
+ - PPDH_FMT_COUNTERVALUE
  - PDH_FMT_COUNTERVALUE
 ---
 
@@ -95,3 +97,4 @@ You specify the data type of the computed counter value when you call <a href="/
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcountervalue">PdhGetFormattedCounterValue</a>
+

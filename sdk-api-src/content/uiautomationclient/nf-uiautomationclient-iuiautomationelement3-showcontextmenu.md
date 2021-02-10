@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationElement3.ShowContextMenu
+ - IUIAutomationElement3::ShowContextMenu
 ---
 
 # IUIAutomationElement3::ShowContextMenu
@@ -69,3 +69,4 @@ The context menus themselves fire menu opened / closed events when they are invo
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement3</a>
+

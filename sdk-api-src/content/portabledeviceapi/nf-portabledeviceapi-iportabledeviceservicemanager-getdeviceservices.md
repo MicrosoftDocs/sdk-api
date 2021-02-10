@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceManager.GetDeviceServices
+ - IPortableDeviceServiceManager::GetDeviceServices
 ---
 
 # IPortableDeviceServiceManager::GetDeviceServices
@@ -385,3 +385,4 @@ HRESULT GetServiceName( LPCWSTR    pszPnpServiceID,
 
 
 <a href="/windows/desktop/wpd_sdk/opening-a-service">Opening a Service</a>
+

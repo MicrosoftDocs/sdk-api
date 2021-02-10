@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IEnumSTATPROPSTG.Next
+ - IEnumSTATPROPSTG::Next
 ---
 
 # IEnumSTATPROPSTG::Next
@@ -98,3 +98,4 @@ The number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STAT
 </td>
 </tr>
 </table>
+

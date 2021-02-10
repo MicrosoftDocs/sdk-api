@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3PK.XMFLOAT3PK
+ - XMFLOAT3PK::XMFLOAT3PK
 ---
 
 # XMFLOAT3PK::XMFLOAT3PK(float,float,float)
@@ -107,3 +107,4 @@ Because of the change in floating point format during the instantiation of an in
 
 
 <a href="/windows/desktop/dxmath/xmfloat3pk-ctor">XMFLOAT3PK Constructors</a>
+

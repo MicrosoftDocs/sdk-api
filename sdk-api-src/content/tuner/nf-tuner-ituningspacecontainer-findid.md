@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer.FindID
+ - ITuningSpaceContainer::FindID
 ---
 
 # ITuningSpaceContainer::FindID
@@ -109,3 +109,4 @@ Success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.RuleTargetFileName
- - IDataManager.get_RuleTargetFileName
- - IDataManager.put_RuleTargetFileName
+ - IDataManager::put_RuleTargetFileName
 ---
 
 # IDataManager::put_RuleTargetFileName
@@ -67,3 +65,4 @@ To specify the contents of the report, use the <a href="/previous-versions/windo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
+

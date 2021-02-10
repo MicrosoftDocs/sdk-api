@@ -42,8 +42,7 @@ api_type:
 api_location:
  - RendezvousSession.tlb
 api_name:
- - IRendezvousSession.Flags
- - IRendezvousSession.get_Flags
+ - IRendezvousSession::get_Flags
 ---
 
 # IRendezvousSession::get_Flags

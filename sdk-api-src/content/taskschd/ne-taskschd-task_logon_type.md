@@ -44,6 +44,7 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
+ - _TASK_LOGON_TYPE
  - TASK_LOGON_TYPE
 ---
 
@@ -89,3 +90,4 @@ Not in use; currently identical to TASK_LOGON_PASSWORD.
 ## -see-also
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
+

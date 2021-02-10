@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQueue.get_CurrentLongestWaitTime
+ - ITQueue::get_CurrentLongestWaitTime
 ---
 
 # ITQueue::get_CurrentLongestWaitTime
@@ -118,3 +118,4 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
+

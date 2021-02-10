@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_KEY_USAGE_RESTRICTION_INFO
+ - PCERT_KEY_USAGE_RESTRICTION_INFO
  - CERT_KEY_USAGE_RESTRICTION_INFO
 ---
 
@@ -114,3 +116,4 @@ The following are currently defined values for the <b>pbData</b> member of <b>Re
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a>
+

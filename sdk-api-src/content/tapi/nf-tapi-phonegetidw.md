@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - phoneGetIDW
  - tapi/phoneGetIDW
+ - phoneGetID
+ - tapi/phoneGetID
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - phoneGetID
- - phoneGetIDA
  - phoneGetIDW
+ - phoneGetID
 ---
 
 # phoneGetIDW function
@@ -104,3 +105,4 @@ A vendor that defines a device-specific media type also needs to define the corr
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
+

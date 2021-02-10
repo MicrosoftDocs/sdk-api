@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmMonitorClerks.Item
+ - ICrmMonitorClerks::Item
 ---
 
 # ICrmMonitorClerks::Item
@@ -109,3 +109,4 @@ One of the arguments is incorrect.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker.GetTimeOfLastChange
+ - IMoniker::GetTimeOfLastChange
 ---
 
 # IMoniker::GetTimeOfLastChange
@@ -200,3 +200,4 @@ You can get the storage associated with this moniker (or the <i>pmkToLeft</i> mo
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-gettimeoflastchange">IRunningObjectTable::GetTimeOfLastChange</a>
+

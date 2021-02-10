@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SECURITY_DESCRIPTION
  - WS_SECURITY_DESCRIPTION
 ---
 
@@ -85,3 +86,4 @@ The figure below illustrates the structure of a security description.
             
 
 <img alt="" src="images/SecurityDescription.png"/>
+

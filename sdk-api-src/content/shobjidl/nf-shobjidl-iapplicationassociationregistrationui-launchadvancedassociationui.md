@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
+ - IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 ---
 
 # IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
@@ -77,3 +77,4 @@ Starting in Windows 10, this does not launch the association dialog box. It dis
 
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iapplicationassociationregistrationui">IApplicationAssociationRegistrationUI</a>
+

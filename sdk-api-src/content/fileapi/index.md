@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - fileapi
  - fileapi/fileapi
+api_name:
+ - fileapi
 ---
 
 # Fileapi.h header

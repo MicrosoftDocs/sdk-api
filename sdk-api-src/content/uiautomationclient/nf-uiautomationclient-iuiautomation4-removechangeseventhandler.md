@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation4.RemoveChangesEventHandler
+ - IUIAutomation4::RemoveChangesEventHandler
 ---
 
 # IUIAutomation4::RemoveChangesEventHandler
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation4">IUIAutomation4</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - ISimpleCommandCreator.CreateICommand
+ - ISimpleCommandCreator::CreateICommand
 ---
 
 # ISimpleCommandCreator::CreateICommand
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-isimplecommandcreator">ISimpleCommandCreator</a>
+

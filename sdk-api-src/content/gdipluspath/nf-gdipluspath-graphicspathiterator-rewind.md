@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator.Rewind
+ - GraphicsPathIterator::Rewind
 ---
 
 # GraphicsPathIterator::Rewind
@@ -142,3 +142,4 @@ VOID RewindExample(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

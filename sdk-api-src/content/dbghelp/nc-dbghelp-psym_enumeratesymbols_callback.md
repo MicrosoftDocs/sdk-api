@@ -42,9 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - SymEnumSymbolsProc
  - PSYM_ENUMERATESYMBOLS_CALLBACK
- - PSYM_ENUMERATESYMBOLS_CALLBACKW
 ---
 
 # PSYM_ENUMERATESYMBOLS_CALLBACK callback function
@@ -107,3 +105,4 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypesbyname">SymEnumTypesByName</a>
+

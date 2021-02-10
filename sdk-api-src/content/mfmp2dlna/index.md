@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - mfmp2dlna
  - mfmp2dlna/mfmp2dlna
+api_name:
+ - mfmp2dlna
 ---
 
 # Mfmp2Dlna.h header

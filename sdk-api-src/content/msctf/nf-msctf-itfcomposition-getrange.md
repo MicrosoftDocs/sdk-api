@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfComposition.GetRange
+ - ITfComposition::GetRange
 ---
 
 # ITfComposition::GetRange
@@ -127,3 +127,4 @@ The composition has already terminated.
 ## -see-also
 
 [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfRange interface](nn-msctf-itfrange.md)
+

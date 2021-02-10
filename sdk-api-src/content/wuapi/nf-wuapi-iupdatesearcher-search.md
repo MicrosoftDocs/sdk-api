@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher.Search
+ - IUpdateSearcher::Search
 ---
 
 # IUpdateSearcher::Search
@@ -304,3 +304,4 @@ To find all the hidden updates (by using the  <a href="/windows/desktop/api/wuap
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
+

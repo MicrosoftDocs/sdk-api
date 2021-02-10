@@ -42,9 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbSession.ClientDisplay
- - ITsSbSession.get_ClientDisplay
- - ITsSbSession.put_ClientDisplay
+ - ITsSbSession::put_ClientDisplay
 ---
 
 # ITsSbSession::put_ClientDisplay
@@ -66,3 +64,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
+

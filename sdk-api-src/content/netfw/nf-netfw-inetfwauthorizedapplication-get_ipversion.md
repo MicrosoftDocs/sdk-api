@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication.IpVersion
- - INetFwAuthorizedApplication.get_IpVersion
- - INetFwAuthorizedApplication.put_IpVersion
+ - INetFwAuthorizedApplication::get_IpVersion
 ---
 
 # INetFwAuthorizedApplication::get_IpVersion
@@ -72,3 +70,4 @@ Only <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_version">NET_F
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_version">NET_FW_IP_VERSION</a>
+

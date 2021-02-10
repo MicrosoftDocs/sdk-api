@@ -41,8 +41,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - IOptionDescription.Heading
- - IOptionDescription.get_Heading
+ - IOptionDescription::get_Heading
 ---
 
 # IOptionDescription::get_Heading
@@ -63,3 +62,4 @@ The heading can be used to group sets of options by placing the header on the fi
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
+

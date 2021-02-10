@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - ADS_USER_FLAG
  - ADS_USER_FLAG_ENUM
 ---
 
@@ -187,3 +188,4 @@ For more information, and a code example that shows how to set the
 
 
 <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
+

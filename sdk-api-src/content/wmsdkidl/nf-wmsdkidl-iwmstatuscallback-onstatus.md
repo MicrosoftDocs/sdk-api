@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMStatusCallback.OnStatus
+ - IWMStatusCallback::OnStatus
 ---
 
 # IWMStatusCallback::OnStatus
@@ -324,3 +324,4 @@ The following <b>WMT_STATUS</b> enumeration values can be passed to the callback
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a>
+

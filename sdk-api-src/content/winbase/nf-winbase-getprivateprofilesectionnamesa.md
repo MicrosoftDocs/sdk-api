@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetPrivateProfileSectionNamesA
  - winbase/GetPrivateProfileSectionNamesA
+ - GetPrivateProfileSectionNames
+ - winbase/GetPrivateProfileSectionNames
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - GetPrivateProfileSectionNames
  - GetPrivateProfileSectionNamesA
- - GetPrivateProfileSectionNamesW
+ - GetPrivateProfileSectionNames
 ---
 
 # GetPrivateProfileSectionNamesA function
@@ -117,3 +118,4 @@ When looking at values in the registry that specify other registry locations, th
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>
+

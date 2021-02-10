@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - ExtractAssociatedIconW
  - shellapi/ExtractAssociatedIconW
+ - ExtractAssociatedIcon
+ - shellapi/ExtractAssociatedIcon
 dev_langs:
  - c++
 topic_type:
@@ -44,10 +47,8 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - ExtractAssociatedIcon
- - ExtractAssociatedIconA
  - ExtractAssociatedIconW
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
+ - ExtractAssociatedIcon
 ---
 
 # ExtractAssociatedIconW function
@@ -119,3 +120,4 @@ The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in th
 
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>
+

@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE
+ - tagICEXYZTRIPLE
+ - CIEXYZTRIPLE
 ---
 
 # CIEXYZTRIPLE structure
@@ -75,3 +76,4 @@ The xyz coordinates of blue endpoint.
 
 
 <a href="/previous-versions/windows/desktop/wcs/structures">Structures</a>
+

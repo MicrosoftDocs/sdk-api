@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.SetBump
+ - IAMExtTransport::SetBump
 ---
 
 # IAMExtTransport::SetBump
@@ -90,3 +90,4 @@ This method causes a temporary speed variation of the transport. The transport o
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-getbump">IAMExtTransport::GetBump</a>
+

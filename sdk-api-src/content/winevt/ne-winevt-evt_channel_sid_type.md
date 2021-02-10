@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_CHANNEL_SID_TYPE
  - EVT_CHANNEL_SID_TYPE
 ---
 
@@ -75,3 +76,4 @@ Include with the event the SID of the principal that logged the event.
 
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
+

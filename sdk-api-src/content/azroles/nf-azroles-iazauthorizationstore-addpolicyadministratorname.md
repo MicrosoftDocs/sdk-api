@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - AzAuthorizationStore.AddPolicyAdministratorName
- - IAzAuthorizationStore.AddPolicyAdministratorName
+ - IAzAuthorizationStore::AddPolicyAdministratorName
 ---
 
 # IAzAuthorizationStore::AddPolicyAdministratorName
@@ -87,3 +86,4 @@ Policy administrators for an object can perform the following tasks:
 To view the list of policy administrators in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministratorsname">PolicyAdministratorsName</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
+

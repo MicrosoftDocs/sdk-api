@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItems.GetMaxValueBufferLength
+ - ISpatialAudioMetadataItems::GetMaxValueBufferLength
 ---
 
 # ISpatialAudioMetadataItems::GetMaxValueBufferLength
@@ -65,3 +65,4 @@ If the method succeeds, it returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph3.SetSyncSourceEx
+ - IFilterGraph3::SetSyncSourceEx
 ---
 
 # IFilterGraph3::SetSyncSourceEx
@@ -113,3 +113,4 @@ To clear both reference clocks, set all three parameters to <b>NULL</b>. To set 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph3">IFilterGraph3 Interface</a>
+

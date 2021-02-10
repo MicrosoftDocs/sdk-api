@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509SignatureInformation.Parameters
- - IX509SignatureInformation.get_Parameters
- - IX509SignatureInformation.put_Parameters
+ - IX509SignatureInformation::put_Parameters
 ---
 
 # IX509SignatureInformation::put_Parameters
@@ -116,3 +114,4 @@ RSASSA-PSS-params ::= SEQUENCE
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

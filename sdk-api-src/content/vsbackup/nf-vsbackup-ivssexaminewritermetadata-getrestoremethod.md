@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadata.GetRestoreMethod
+ - IVssExamineWriterMetadata::GetRestoreMethod
 ---
 
 # IVssExamineWriterMetadata::GetRestoreMethod
@@ -197,3 +197,4 @@ If the restore method is VSS_RME_STOP_RESTORE_START or VSS_RME_RESTORE_STOP_STAR
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
+

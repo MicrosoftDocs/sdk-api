@@ -44,6 +44,7 @@ api_type:
 api_location:
  - RdpEncomAPI.tlb
 api_name:
+ - __MIDL___MIDL_itf_rdpencomapi_0000_0000_0011
  - RDPSRAPI_KBD_SYNC_FLAG
 ---
 
@@ -68,3 +69,4 @@ Defines values for the type of keys that control the state of a keyboard, such a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/rdp/windows-desktop-sharing-enumerations">Windows Desktop Sharing Enumerations</a>
+

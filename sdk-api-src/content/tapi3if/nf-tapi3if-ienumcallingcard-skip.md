@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumCallingCard.Skip
+ - IEnumCallingCard::Skip
 ---
 
 # IEnumCallingCard::Skip
@@ -106,3 +106,4 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
+

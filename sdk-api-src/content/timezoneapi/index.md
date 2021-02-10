@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - timezoneapi
  - timezoneapi/timezoneapi
+api_name:
+ - timezoneapi
 ---
 
 # Timezoneapi.h header

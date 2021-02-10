@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
+ - __MIDL_IWTSSBPlugin_0010
  - WTSSBX_NOTIFICATION_TYPE
 ---
 
@@ -75,3 +76,4 @@ RDÂ Connection Broker received a Resync notification. This indicates that an RDÂ
 ## -see-also
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
+

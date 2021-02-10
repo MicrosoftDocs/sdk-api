@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIDecodeSwapChain.GetTargetRect
+ - IDXGIDecodeSwapChain::GetTargetRect
 ---
 
 # IDXGIDecodeSwapChain::GetTargetRect
@@ -67,3 +67,4 @@ This method returns S_OK on success, or it returns one of the error codes that a
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidecodeswapchain">IDXGIDecodeSwapChain</a>
+

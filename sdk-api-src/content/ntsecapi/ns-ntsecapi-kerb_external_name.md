@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_EXTERNAL_NAME
+ - PKERB_EXTERNAL_NAME
  - KERB_EXTERNAL_NAME
 ---
 
@@ -180,3 +182,4 @@ Indicates the number of names stored in <b>Names</b>.
 
 Array of 
 <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRINGS</a> containing the names.
+

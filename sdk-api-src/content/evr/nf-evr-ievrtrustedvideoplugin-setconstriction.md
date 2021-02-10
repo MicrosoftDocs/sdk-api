@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IEVRTrustedVideoPlugin.SetConstriction
+ - IEVRTrustedVideoPlugin::SetConstriction
 ---
 
 # IEVRTrustedVideoPlugin::SetConstriction
@@ -98,3 +98,4 @@ The EVR might call this method at any time if the <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
+

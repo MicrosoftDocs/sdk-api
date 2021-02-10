@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGradientBrush.GetTransform
+ - IXpsOMGradientBrush::GetTransform
 ---
 
 # IXpsOMGradientBrush::GetTransform
@@ -177,3 +177,4 @@ No object could be found with a key name that matched the value passed in <i>loo
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

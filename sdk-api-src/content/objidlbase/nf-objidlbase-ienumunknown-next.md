@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IEnumUnknown.Next
+ - IEnumUnknown::Next
 ---
 
 # IEnumUnknown::Next
@@ -79,3 +79,4 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+

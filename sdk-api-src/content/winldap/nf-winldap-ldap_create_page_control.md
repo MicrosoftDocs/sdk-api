@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_create_page_control
- - ldap_create_page_controlA
- - ldap_create_page_controlW
 ---
 
 # ldap_create_page_control function
@@ -124,3 +122,4 @@ Call
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
+

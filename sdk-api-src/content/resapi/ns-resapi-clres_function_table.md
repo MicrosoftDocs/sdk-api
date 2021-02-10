@@ -45,6 +45,7 @@ api_location:
  - ResApi.h
 api_name:
  - CLRES_FUNCTION_TABLE
+ - PCLRES_FUNCTION_TABLE
 ---
 
 # CLRES_FUNCTION_TABLE structure
@@ -199,3 +200,4 @@ See <a href="/previous-versions/windows/desktop/mscs/defining-structures-and-con
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-presource_type_control_routine">ResourceTypeControl</a>
+

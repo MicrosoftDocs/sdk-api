@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.put_Strikethrough
+ - IFont::put_Strikethrough
 ---
 
 # IFont::put_Strikethrough
@@ -98,3 +98,4 @@ The font does not support a strikethrough state. This value is not an error cond
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_strikethrough">IFont::get_Strikethrough</a>
+

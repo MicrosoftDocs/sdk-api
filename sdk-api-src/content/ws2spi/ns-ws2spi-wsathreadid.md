@@ -30,6 +30,7 @@ api_location:
  - ws2spi.h
 api_name:
  - _WSATHREADID
+ - LPWSATHREADID
  - WSATHREADID
 f1_keywords:
  - _WSATHREADID
@@ -70,3 +71,4 @@ Reserved.
    
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>
+

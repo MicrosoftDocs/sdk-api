@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImageEncoder.WriteFrame
+ - IWICImageEncoder::WriteFrame
 ---
 
 # IWICImageEncoder::WriteFrame
@@ -89,3 +89,4 @@ You must correctly and independently have set up the <a href="/windows/desktop/w
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder">IWICImageEncoder</a>
+

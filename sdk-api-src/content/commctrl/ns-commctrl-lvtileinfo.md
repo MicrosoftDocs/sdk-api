@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagLVTILEINFO
+ - PLVTILEINFO
  - LVTILEINFO
 ---
 
@@ -93,3 +95,4 @@ A pointer to an array of column formats (for example, LVCFMT_LEFT), one for each
 In tile view, the item name is displayed to the right of the icon. You can specify additional subitems (corresponding to columns in the details view), to be displayed on lines below the item name. The <b>puColumns</b> array contains the indices of subitems to be displayed. Indices should be greater than 0, because subitem 0, the item name, is already displayed.
 
 Column information can also be set in the <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure when creating the list item.
+

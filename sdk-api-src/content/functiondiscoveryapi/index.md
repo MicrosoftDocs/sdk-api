@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - functiondiscoveryapi
  - functiondiscoveryapi/functiondiscoveryapi
+api_name:
+ - functiondiscoveryapi
 ---
 
 # Functiondiscoveryapi.h header

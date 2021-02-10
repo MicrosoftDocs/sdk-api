@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation.InitializeFromType
+ - ICspInformation::InitializeFromType
 ---
 
 # ICspInformation::InitializeFromType
@@ -143,3 +143,4 @@ The method adds the available algorithms to the <a href="/windows/desktop/api/ce
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+

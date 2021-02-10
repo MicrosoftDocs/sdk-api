@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.accNavigate
+ - IAccessible::accNavigate
 ---
 
 # IAccessible::accNavigate
@@ -366,3 +366,4 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
+

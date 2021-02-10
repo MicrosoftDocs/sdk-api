@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.ErrorAdvise
+ - IPhotoAcquireProgressCB::ErrorAdvise
 ---
 
 # IPhotoAcquireProgressCB::ErrorAdvise
@@ -174,3 +174,4 @@ Normally, a message is displayed when an error occurs during image acquisition. 
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
+

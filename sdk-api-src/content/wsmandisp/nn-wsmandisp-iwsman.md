@@ -43,12 +43,6 @@ api_location:
  - WSMAuto.dll
 api_name:
  - IWSMan
- - IWSMan.CreateSession
- - IWSMan.CreateConnectionOptions
- - IWSMan.CommandLine
- - IWSMan.get_CommandLine
- - IWSMan.Error
- - IWSMan.get_Error
 ---
 
 # IWSMan interface
@@ -73,3 +67,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSMan</b> interface inherits
 
 
 <a href="/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
+

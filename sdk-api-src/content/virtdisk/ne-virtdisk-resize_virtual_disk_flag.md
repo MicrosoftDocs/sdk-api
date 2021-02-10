@@ -44,6 +44,7 @@ api_type:
 api_location:
  - VirtDisk.h
 api_name:
+ - _RESIZE_VIRTUAL_DISK_FLAG
  - RESIZE_VIRTUAL_DISK_FLAG
 ---
 
@@ -84,3 +85,4 @@ If this flag is set, resize the disk to the smallest virtual size possible witho
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>
+

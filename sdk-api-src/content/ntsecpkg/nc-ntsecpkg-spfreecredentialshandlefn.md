@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpFreeCredentialsHandle
+ - SpFreeCredentialsHandleFn
 ---
 
 # SpFreeCredentialsHandleFn callback function
@@ -102,3 +102,4 @@ A pointer to the <b>SpFreeCredentialsHandle</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
+

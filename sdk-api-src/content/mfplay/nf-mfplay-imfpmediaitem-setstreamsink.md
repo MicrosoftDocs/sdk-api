@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaItem.SetStreamSink
+ - IMFPMediaItem::SetStreamSink
 ---
 
 # IMFPMediaItem::SetStreamSink
@@ -98,3 +98,4 @@ If the application is running over Remote Desktop, and you call this method with
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

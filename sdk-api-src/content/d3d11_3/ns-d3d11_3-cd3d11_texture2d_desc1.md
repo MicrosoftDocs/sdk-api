@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11_3.h
 api_name:
- - D3D11_TEXTURE2D_DESC1
+ - CD3D11_TEXTURE2D_DESC1
 ---
 
 # CD3D11_TEXTURE2D_DESC1 structure
@@ -149,3 +149,4 @@ The texture size range is determined by the <a href="/windows/desktop/direct3d11
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
+

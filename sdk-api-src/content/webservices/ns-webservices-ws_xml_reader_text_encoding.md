@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_READER_TEXT_ENCODING
  - WS_XML_READER_TEXT_ENCODING
 ---
 
@@ -65,3 +66,4 @@ The base type for all types that derive from <a href="/windows/desktop/api/webse
 Indicates the text encoding of the bytes.  If <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a> is specified then the reader will
           determine the encoding of the document based on the first few bytes of the document.  If an xml declaration
           is present in the document, the reader will ensure that the encoding attribute coincides with this value.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - efswrt.dll
 api_name:
- - IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync
+ - IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync
 ---
 
 # IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync
@@ -90,3 +90,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/efswrtinterop/nn-efswrtinterop-iprotectionpolicymanagerinterop2">IProtectionPolicyManagerInterop2</a>
+

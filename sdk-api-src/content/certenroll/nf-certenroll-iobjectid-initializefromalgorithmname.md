@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IObjectId.InitializeFromAlgorithmName
+ - IObjectId::InitializeFromAlgorithmName
 ---
 
 # IObjectId::InitializeFromAlgorithmName
@@ -146,3 +146,4 @@ You can use the upper 16 bits of the <i>GroupId</i> parameter to specify the key
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>
+

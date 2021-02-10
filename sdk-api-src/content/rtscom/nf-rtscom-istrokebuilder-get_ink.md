@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStrokeBuilder.Ink
- - IStrokeBuilder.get_Ink
- - IStrokeBuilder.put_Ink
- - IStrokeBuilder.get_Ink
- - IStrokeBuilder.put_Ink
+ - IStrokeBuilder::get_Ink
 ---
 
 # IStrokeBuilder::get_Ink
@@ -76,3 +72,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
+

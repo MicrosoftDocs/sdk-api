@@ -47,6 +47,8 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
+ - _SPropValue
+ - LPSPropValue
  - SPropValue
 ---
 
@@ -298,3 +300,4 @@ PT_ERROR
 PT_NULL, PT_OBJECT (no usable value)
 
 ### -field _PV
+

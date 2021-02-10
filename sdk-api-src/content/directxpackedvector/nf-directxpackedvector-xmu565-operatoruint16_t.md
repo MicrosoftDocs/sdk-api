@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU565.operator uint16_t
+ - XMU565::operator uint16_t
 ---
 
 # XMU565::operator uint16_t
@@ -98,3 +98,4 @@ The third 5 bits (bits 11-15) of the return value are to the <b>z</b>component o
 
 
 <a href="/windows/desktop/dxmath/ovw-xmu565-operators">XMU565 Operators</a>
+

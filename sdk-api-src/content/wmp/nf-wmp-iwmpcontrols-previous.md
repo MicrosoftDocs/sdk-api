@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls.previous
+ - IWMPControls::previous
 ---
 
 # IWMPControls::previous
@@ -91,3 +91,4 @@ If the playlist is on the first entry when <b>previous</b> is invoked, the last 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-stop">IWMPControls::stop</a>
+

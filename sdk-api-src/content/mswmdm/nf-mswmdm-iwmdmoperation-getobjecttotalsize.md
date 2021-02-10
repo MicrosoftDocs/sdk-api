@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation.GetObjectTotalSize
+ - IWMDMOperation::GetObjectTotalSize
 ---
 
 # IWMDMOperation::GetObjectTotalSize
@@ -146,3 +146,4 @@ HRESULT GetObjectTotalSize(DWORD*  pdwSize,    DWORD*  pdwSizeHigh)
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjecttotalsize">SetObjectTotalSize</a>
+

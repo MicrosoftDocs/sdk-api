@@ -46,6 +46,8 @@ api_type:
 api_location:
  - QosObjs.h
 api_name:
+ - _QOS_DIFFSERV
+ - LPQOS_DIFFSERV
  - QOS_DIFFSERV
 ---
 
@@ -96,3 +98,4 @@ The
 
 
 <a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
+

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager.GetDeviceFriendlyName
+ - IPortableDeviceManager::GetDeviceFriendlyName
 ---
 
 # IPortableDeviceManager::GetDeviceFriendlyName
@@ -133,3 +133,4 @@ A device is not required to support this method. If this method fails to retriev
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>
+

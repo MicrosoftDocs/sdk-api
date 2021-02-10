@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcPart.GetCompressionOptions
+ - IOpcPart::GetCompressionOptions
 ---
 
 # IOpcPart::GetCompressionOptions
@@ -149,3 +149,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

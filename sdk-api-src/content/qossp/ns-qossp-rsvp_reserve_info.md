@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
+ - _RSVP_RESERVE_INFO
+ - LPRSVP_RESERVE_INFO
  - RSVP_RESERVE_INFO
 ---
 
@@ -144,3 +146,4 @@ Pointer to the list of FLOWDESCRIPTORs.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
+

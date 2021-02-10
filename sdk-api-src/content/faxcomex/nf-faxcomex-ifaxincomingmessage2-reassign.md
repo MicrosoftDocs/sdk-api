@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Reassign
- - IFaxIncomingMessage2.Reassign
+ - IFaxIncomingMessage2::ReAssign
 ---
 
 # IFaxIncomingMessage2::ReAssign
@@ -77,3 +76,4 @@ If the <a href="/previous-versions/windows/desktop/fax/-mfax-glossary">routing a
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
+

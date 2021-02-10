@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath.GetScopeAsText
+ - IWbemPath::GetScopeAsText
 ---
 
 # IWbemPath::GetScopeAsText
@@ -78,3 +78,4 @@ This method can be used to determine how big a buffer is needed for <i>pszText</
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPalette.GetType
+ - IWICPalette::GetType
 ---
 
 # IWICPalette::GetType
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>WICBitmapPaletteCustom</b> is used for palettes initialized from both <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializecustom">InitializeCustom</a> and <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrombitmap">InitializeFromBitmap</a>. There is no distinction is made between optimized and custom palettes.
+

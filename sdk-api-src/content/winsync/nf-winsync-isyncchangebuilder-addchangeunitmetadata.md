@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBuilder.AddChangeUnitMetadata
+ - ISyncChangeBuilder::AddChangeUnitMetadata
 ---
 
 # ISyncChangeBuilder::AddChangeUnitMetadata
@@ -132,3 +132,4 @@ The item change to which to add this change unit to has <b>SYNC_CHANGE_FLAG_DELE
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdAddAttachedSurface
+ - PDD_SURFCB_ADDATTACHEDSURFACE
 ---
 
 ## -description
@@ -68,3 +68,4 @@ The driver should update any internal surface state it keeps to reflect the atta
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a>
+

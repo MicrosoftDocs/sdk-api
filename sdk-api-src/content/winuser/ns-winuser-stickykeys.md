@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagSTICKYKEYS
+ - LPSTICKYKEYS
  - STICKYKEYS
 ---
 
@@ -383,3 +385,4 @@ If you call <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinf
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

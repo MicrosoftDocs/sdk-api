@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProvider.FilterData
- - ITraceDataProvider.get_FilterData
- - ITraceDataProvider.put_FilterData
+ - ITraceDataProvider::get_FilterData
 ---
 
 # ITraceDataProvider::get_FilterData
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filtertype">ITraceDataProvider::FilterType</a>
+

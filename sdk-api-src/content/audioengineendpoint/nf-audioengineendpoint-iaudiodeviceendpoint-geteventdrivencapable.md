@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IAudioDeviceEndpoint.GetEventDrivenCapable
+ - IAudioDeviceEndpoint::GetEventDrivenCapable
 ---
 
 # IAudioDeviceEndpoint::GetEventDrivenCapable
@@ -77,3 +77,4 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>
+

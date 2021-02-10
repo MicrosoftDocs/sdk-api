@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE
  - WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE
 ---
 
@@ -65,3 +66,4 @@ See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_co
 ### -field securityBindingProperties
 
 Application provided security binding properties that cannot be represented in policy.
+

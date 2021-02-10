@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory.EnableAutoRefresh
+ - ITDirectory::EnableAutoRefresh
 ---
 
 # ITDirectory::EnableAutoRefresh
@@ -131,3 +131,4 @@ This method is not yet implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+

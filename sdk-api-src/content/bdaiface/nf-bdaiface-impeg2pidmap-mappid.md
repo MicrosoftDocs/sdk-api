@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMPEG2PIDMap.MapPID
+ - IMPEG2PIDMap::MapPID
 ---
 
 # IMPEG2PIDMap::MapPID
@@ -82,3 +82,4 @@ There may be no more than 255 distinct PIDs mapped at any given time. This inclu
 
 
 <a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>
+

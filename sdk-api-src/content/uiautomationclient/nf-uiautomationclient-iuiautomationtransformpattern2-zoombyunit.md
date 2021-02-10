@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern2.ZoomByUnit
+ - IUIAutomationTransformPattern2::ZoomByUnit
 ---
 
 # IUIAutomationTransformPattern2::ZoomByUnit
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern2">IUIAutomationTransformPattern2</a>
+

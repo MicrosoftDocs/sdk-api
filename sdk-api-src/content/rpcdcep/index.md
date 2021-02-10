@@ -9,6 +9,8 @@ tech.root: rpc
 f1_keywords:
  - rpcdcep
  - rpcdcep/rpcdcep
+api_name:
+ - rpcdcep
 ---
 
 # Rpcdcep.h header

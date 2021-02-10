@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator.GraphicsPathIterator
+ - GraphicsPathIterator::GraphicsPathIterator
 ---
 
 ## -description
@@ -61,3 +61,4 @@ The object to copy to this object.
 <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
+

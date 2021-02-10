@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dsrole.h
 api_name:
+ - _DSROLE_OPERATION_STATE
  - DSROLE_OPERATION_STATE
 ---
 
@@ -75,3 +76,4 @@ The computer requires a restart.
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
+

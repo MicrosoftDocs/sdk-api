@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner.ChannelMinMax
+ - IAMTuner::ChannelMinMax
 ---
 
 # IAMTuner::ChannelMinMax
@@ -107,3 +107,4 @@ Success
 
 
 <a href="/windows/desktop/DirectShow/international-analog-tv-tuning">International Analog TV Tuning</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeBitString.GetBitCount
- - CCertEncodeBitString.GetBitCount
+ - ICertEncodeBitString::GetBitCount
 ---
 
 # ICertEncodeBitString::GetBitCount
@@ -74,3 +73,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -see-also
 
 <a href="/windows/desktop/api/certenc/nn-certenc-icertencodebitstring">ICertEncodeBitString</a>
+

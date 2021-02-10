@@ -43,9 +43,6 @@ api_location:
  - wmsinternaladminnetsource.h
 api_name:
  - IWMSInternalAdminNetSource3
- - IWMSInternalAdminNetSource3.GetNetSourceCreator2
- - IWMSInternalAdminNetSource3.IsUsingIE2
- - IWMSInternalAdminNetSource3.RegisterProxyFailure2
 ---
 
 # IWMSInternalAdminNetSource3 interface
@@ -75,3 +72,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSInternalAdminNetSource3</
 
 
 <a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
+

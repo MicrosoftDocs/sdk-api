@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - DS_REPL_NEIGHBOR
+ - _DS_REPL_NEIGHBORW
+ - DS_REPL_NEIGHBORW
 ---
 
 # DS_REPL_NEIGHBORW structure
@@ -226,3 +227,4 @@ Contains the number of failed replication attempts from this source since the la
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+

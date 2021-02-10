@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - PPBRANGE
  - PBRANGE
 ---
 
@@ -67,3 +68,4 @@ Low limit for the progress bar control. This is a signed integer.
 Type: <b>int</b>
 
 High limit for the progress bar control. This is a signed integer.
+

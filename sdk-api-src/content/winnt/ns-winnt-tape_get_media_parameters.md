@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TAPE_GET_MEDIA_PARAMETERS
+ - PTAPE_GET_MEDIA_PARAMETERS
  - TAPE_GET_MEDIA_PARAMETERS
 ---
 
@@ -87,3 +89,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
+

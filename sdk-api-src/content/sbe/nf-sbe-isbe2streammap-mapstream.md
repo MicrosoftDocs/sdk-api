@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2StreamMap.MapStream
+ - ISBE2StreamMap::MapStream
 ---
 
 # ISBE2StreamMap::MapStream
@@ -133,3 +133,4 @@ If the new stream has different media type from the previously mapped stream, th
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
+

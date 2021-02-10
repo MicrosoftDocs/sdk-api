@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityCallContext.IsSecurityEnabled
+ - ISecurityCallContext::IsSecurityEnabled
 ---
 
 # ISecurityCallContext::IsSecurityEnabled
@@ -79,3 +79,4 @@ You can use this method to find out whether role-based security is enabled befor
 
 
 <a href="/windows/desktop/cossdk/role-based-security-administration">Role-Based Security</a>
+

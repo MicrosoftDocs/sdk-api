@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PUSN_RECORD_COMMON_HEADER
  - USN_RECORD_COMMON_HEADER
 ---
 
@@ -111,3 +112,4 @@ The minor version number of the change journal software for this record. For exa
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

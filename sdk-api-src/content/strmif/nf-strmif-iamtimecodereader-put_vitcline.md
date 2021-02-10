@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeReader.put_VITCLine
+ - IAMTimecodeReader::put_VITCLine
 ---
 
 # IAMTimecodeReader::put_VITCLine
@@ -84,3 +84,4 @@ Set the high bit to add to the list of lines for readers that test across multip
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-get_vitcline">IAMTimecodeReader::get_VITCLine</a>
+

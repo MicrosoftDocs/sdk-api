@@ -43,11 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMStarterGPOBackupCollection
- - IGPMStarterGPOBackupCollection.Count
- - IGPMStarterGPOBackupCollection.get_Count
- - IGPMStarterGPOBackupCollection.Item
- - IGPMStarterGPOBackupCollection.get_Item
- - GPMStarterGPOBackupCollection
 ---
 
 # IGPMStarterGPOBackupCollection interface
@@ -87,3 +82,4 @@ For more information, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMStarterGPOBackup</a>
+

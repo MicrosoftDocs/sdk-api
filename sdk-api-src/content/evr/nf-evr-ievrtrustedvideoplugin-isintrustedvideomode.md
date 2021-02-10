@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IEVRTrustedVideoPlugin.IsInTrustedVideoMode
+ - IEVRTrustedVideoPlugin::IsInTrustedVideoMode
 ---
 
 # IEVRTrustedVideoPlugin::IsInTrustedVideoMode
@@ -116,3 +116,4 @@ This method should be used only to report transient conditions. A plug-in that i
 
 
 <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
+

@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_ASYNC_OUTPUT
  - VDS_ASYNC_OUTPUT
 ---
 
@@ -256,3 +257,4 @@ The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsasync-wait">IVdsAsync
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_async_output_type">VDS_ASYNC_OUTPUT_TYPE</a>
+

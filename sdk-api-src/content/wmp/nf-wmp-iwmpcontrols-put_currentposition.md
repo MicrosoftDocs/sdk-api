@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls.put_currentPosition
+ - IWMPControls::put_currentPosition
 ---
 
 # IWMPControls::put_currentPosition
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentposition">IWMPControls::get_currentPosition</a>
+

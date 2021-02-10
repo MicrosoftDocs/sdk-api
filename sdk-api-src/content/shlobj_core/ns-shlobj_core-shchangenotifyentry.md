@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _SHChangeNotifyEntry
  - SHChangeNotifyEntry
 ---
 
@@ -67,3 +68,4 @@ PIDL for which to receive notifications.
 Type: <b>BOOL</b>
 
 A flag indicating whether to post notifications for children of this PIDL. For example, if the PIDL points to a folder, then file notifications would come from the folder's children if this flag was <b>TRUE</b>.
+

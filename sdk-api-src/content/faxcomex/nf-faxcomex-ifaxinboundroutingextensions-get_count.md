@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtensions.Count
- - IFaxInboundRoutingExtensions.get_Count
+ - IFaxInboundRoutingExtensions::get_Count
 ---
 
 # IFaxInboundRoutingExtensions::get_Count
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
+

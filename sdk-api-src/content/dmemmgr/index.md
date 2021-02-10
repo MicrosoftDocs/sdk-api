@@ -9,6 +9,8 @@ tech.root: display
 f1_keywords:
  - dmemmgr
  - dmemmgr/dmemmgr
+api_name:
+ - dmemmgr
 ---
 
 # Dmemmgr.h header

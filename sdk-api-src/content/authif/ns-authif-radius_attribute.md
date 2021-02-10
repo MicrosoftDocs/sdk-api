@@ -46,6 +46,8 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
+ - _RADIUS_ATTRIBUTE
+ - PRADIUS_ATTRIBUTE
  - RADIUS_ATTRIBUTE
 ---
 
@@ -104,3 +106,4 @@ Stores a multi-byte data value. The <b>lpValue</b> member is used if the <b>fDat
 
 
 <a href="/windows/desktop/api/authif/ne-authif-radius_data_type">RADIUS_DATA_TYPE</a>
+

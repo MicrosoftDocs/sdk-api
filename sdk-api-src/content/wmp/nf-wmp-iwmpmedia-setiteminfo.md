@@ -42,9 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia.setItemInfo
- - IWMPMedia2.setItemInfo
- - IWMPMedia3.setItemInfo
+ - IWMPMedia::setItemInfo
 ---
 
 # IWMPMedia::setItemInfo
@@ -116,3 +114,4 @@ If you embed the Windows Media Player control in your application, file attribut
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-isreadonlyitem">IWMPMedia::isReadOnlyItem</a>
+

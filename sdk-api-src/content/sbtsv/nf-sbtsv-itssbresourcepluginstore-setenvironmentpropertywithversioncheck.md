@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
+ - ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck
 ---
 
 # ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck
@@ -85,3 +85,4 @@ When  a target or environment object is updated, the version number in the datab
 
 
 <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-setenvironmentproperty">SetEnvironmentProperty</a>
+

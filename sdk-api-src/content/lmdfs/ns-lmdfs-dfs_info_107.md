@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_107
+ - PDFS_INFO_107
  - DFS_INFO_107
 ---
 
@@ -220,3 +222,4 @@ Pointer to a  <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">
 
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a>
+

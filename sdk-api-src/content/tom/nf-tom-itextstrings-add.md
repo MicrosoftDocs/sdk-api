@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStrings.Add
+ - ITextStrings::Add
 ---
 
 # ITextStrings::Add
@@ -102,3 +102,4 @@ Adding an item to the end of a collection is like pushing a parameter onto the s
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
+

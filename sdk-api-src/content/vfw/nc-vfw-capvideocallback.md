@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
- - capVideoStreamCallback
+ - CAPVIDEOCALLBACK
 ---
 
 # CAPVIDEOCALLBACK callback function
@@ -79,3 +79,4 @@ The capture window calls a video stream callback function when a video buffer is
 
 
 <a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
+

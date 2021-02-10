@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ras.h
 api_name:
+ - _tagRasNapState
+ - LPRASNAPSTATE
  - RASNAPSTATE
 ---
 
@@ -77,3 +79,4 @@ Specifies the time required for the connection to come out of quarantine after w
 ## -remarks
 
 The <a href="/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> enumerated type and the ProbationTime structure are declared in naptypes.h.
+

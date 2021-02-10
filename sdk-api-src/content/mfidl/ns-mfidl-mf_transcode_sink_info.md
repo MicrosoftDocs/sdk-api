@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MF_TRANSCODE_SINK_INFO
  - MF_TRANSCODE_SINK_INFO
 ---
 
@@ -85,3 +86,4 @@ The <a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodesinkinfoprovider-ge
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

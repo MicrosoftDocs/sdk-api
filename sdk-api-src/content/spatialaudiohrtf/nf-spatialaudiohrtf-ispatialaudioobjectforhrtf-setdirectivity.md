@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf.SetDirectivity
+ - ISpatialAudioObjectForHrtf::SetDirectivity
 ---
 
 # ISpatialAudioObjectForHrtf::SetDirectivity
@@ -114,3 +114,4 @@ If <b>SetDirectivity</b> is not called, the default type of <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>
+

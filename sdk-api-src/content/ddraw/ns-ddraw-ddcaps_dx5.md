@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
- - DDCAPS
+ - _DDCAPS_DX5
+ - DDCAPS_DX5
 ---
 
 ## -description
@@ -1057,3 +1058,4 @@ DirectDraw supports only those overlay source rectangles whose x-axis sizes, in 
 ## -remarks
 
 For backward compatibility, the Ddraw.h header file contains multiple definitions of the DDCAPS structure. The version that passes the preprocessor is determined by the value of the DIRECTDRAW_VERSION constant.
+

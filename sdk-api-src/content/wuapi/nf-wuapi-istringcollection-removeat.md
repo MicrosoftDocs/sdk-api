@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IStringCollection.RemoveAt
+ - IStringCollection::RemoveAt
 ---
 
 # IStringCollection::RemoveAt
@@ -96,3 +96,4 @@ An index is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
+

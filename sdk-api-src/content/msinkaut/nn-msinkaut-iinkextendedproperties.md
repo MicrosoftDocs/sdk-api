@@ -44,7 +44,6 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkExtendedProperties
- - IInkExtendedProperties._NewEnum
 ---
 
 # IInkExtendedProperties interface
@@ -81,3 +80,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty Interface</a>
+

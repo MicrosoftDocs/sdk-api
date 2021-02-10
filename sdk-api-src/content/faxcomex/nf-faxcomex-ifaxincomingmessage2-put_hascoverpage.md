@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.HasCoverPage
- - IFaxIncomingMessage2.get_HasCoverPage
- - IFaxIncomingMessage2.put_HasCoverPage
- - IFaxIncomingMessage2.get_HasCoverPage
- - IFaxIncomingMessage2.put_HasCoverPage
+ - IFaxIncomingMessage2::put_HasCoverPage
 ---
 
 # IFaxIncomingMessage2::put_HasCoverPage
@@ -74,3 +70,4 @@ A change to this value is not committed to the server until <a href="/previous-v
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
+

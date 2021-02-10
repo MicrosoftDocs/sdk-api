@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor.GetESMultiLingualFlag
+ - IIsdbAudioComponentDescriptor::GetESMultiLingualFlag
 ---
 
 # IIsdbAudioComponentDescriptor::GetESMultiLingualFlag
@@ -69,3 +69,4 @@ ES multilingual mode (also called <i>2-language multilingual mode</i> or <i>1/0 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbaudiocomponentdescriptor">IIsdbAudioComponentDescriptor</a>
+

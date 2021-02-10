@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope.DeleteApplicationGroup
- - AzScope.DeleteApplicationGroup
+ - IAzScope::DeleteApplicationGroup
 ---
 
 # IAzScope::DeleteApplicationGroup
@@ -66,3 +65,4 @@ Reserved for future use.
 ## -remarks
 
 If there are any <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> references to an <b>IAzApplicationGroup</b> object that has been deleted from the cache, the <b>IAzApplicationGroup</b> object can no longer be used. In C++, you must release references to deleted <b>IAzApplicationGroup</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+

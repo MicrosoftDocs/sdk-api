@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputEffectDriver.SendForceFeedbackCommand
+ - IDirectInputEffectDriver::SendForceFeedbackCommand
 ---
 
 # IDirectInputEffectDriver::SendForceFeedbackCommand

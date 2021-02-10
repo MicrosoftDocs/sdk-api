@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun.GetProperties
+ - IVdsLun::GetProperties
 ---
 
 # IVdsLun::GetProperties
@@ -133,3 +133,4 @@ The LUN object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a>
+

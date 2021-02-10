@@ -42,7 +42,7 @@ api_type:
 api_location:
  - inputpanelconfiguration.h
 api_name:
- - IInputPanelInvocationConfiguration.RequireTouchInEditControl
+ - IInputPanelInvocationConfiguration::RequireTouchInEditControl
 ---
 
 # IInputPanelInvocationConfiguration::RequireTouchInEditControl
@@ -121,3 +121,4 @@ UIAutomationPropertyInfo customPropertyInfo =
 ## -see-also
 
 <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration">IInputPanelInvocationConfiguration</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagINITCOMMONCONTROLSEX
+ - LPINITCOMMONCONTROLSEX
  - INITCOMMONCONTROLSEX
 ---
 
@@ -263,3 +265,4 @@ Load animate control, header, hot key, list-view, progress bar, status bar, tab,
 </td>
 </tr>
 </table>
+

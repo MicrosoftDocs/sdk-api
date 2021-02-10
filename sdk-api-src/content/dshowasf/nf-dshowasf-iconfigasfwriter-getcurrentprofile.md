@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter.GetCurrentProfile
+ - IConfigAsfWriter::GetCurrentProfile
 ---
 
 # IConfigAsfWriter::GetCurrentProfile
@@ -73,3 +73,4 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
+

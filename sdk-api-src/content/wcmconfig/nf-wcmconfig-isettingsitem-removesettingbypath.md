@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem.RemoveSettingByPath
+ - ISettingsItem::RemoveSettingByPath
 ---
 
 # ISettingsItem::RemoveSettingByPath
@@ -149,3 +149,4 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
+

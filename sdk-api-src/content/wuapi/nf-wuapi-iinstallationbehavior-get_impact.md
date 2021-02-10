@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationBehavior.Impact
- - IInstallationBehavior.get_Impact
+ - IInstallationBehavior::get_Impact
 ---
 
 # IInstallationBehavior::get_Impact
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>
+

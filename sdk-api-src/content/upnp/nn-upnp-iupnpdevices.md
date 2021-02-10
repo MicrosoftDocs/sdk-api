@@ -43,7 +43,6 @@ api_location:
  - Upnp.dll
 api_name:
  - IUPnPDevices
- - IUPnPDevices.This interface has no methods.
 ---
 
 # IUPnPDevices interface

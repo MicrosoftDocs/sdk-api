@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallBase.InternalCreateStream
+ - CMSPCallBase::InternalCreateStream
 ---
 
 # CMSPCallBase::InternalCreateStream
@@ -90,3 +90,4 @@ Pointer to
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
+

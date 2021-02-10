@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyFile.GetProgress
+ - IBackgroundCopyFile::GetProgress
 ---
 
 # IBackgroundCopyFile::GetProgress
@@ -74,3 +74,4 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">IBackgroundCopyJob::GetProgress</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriterEx2.IsWriterShuttingDown
+ - CVssWriterEx2::IsWriterShuttingDown
 ---
 
 # CVssWriterEx2::IsWriterShuttingDown
@@ -71,3 +71,4 @@ The writer implementation should call this method periodically during long-runni
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex2">CVssWriterEx2</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
+ - PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE
  - SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
 ---
 
@@ -205,3 +207,4 @@ When a <b>SYSTEM_AUDIT_CALLBACK_OBJECT_ACE</b> structure is created, sufficient 
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+

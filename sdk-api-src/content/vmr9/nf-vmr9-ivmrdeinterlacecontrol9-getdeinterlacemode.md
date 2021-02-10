@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl9.GetDeinterlaceMode
+ - IVMRDeinterlaceControl9::GetDeinterlaceMode
 ---
 
 # IVMRDeinterlaceControl9::GetDeinterlaceMode
@@ -152,3 +152,4 @@ The VMR may not be able to use the requested mode, in which case it falls back t
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>
+

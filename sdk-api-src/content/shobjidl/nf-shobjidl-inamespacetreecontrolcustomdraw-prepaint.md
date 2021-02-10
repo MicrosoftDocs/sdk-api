@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlCustomDraw.PrePaint
+ - INameSpaceTreeControlCustomDraw::PrePaint
 ---
 
 # INameSpaceTreeControlCustomDraw::PrePaint
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw">INameSpaceTreeControlCustomDraw</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - UuidToString
- - UuidToStringA
- - UuidToStringW
 ---
 
 # UuidToString function
@@ -115,3 +113,4 @@ An application calls
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
+

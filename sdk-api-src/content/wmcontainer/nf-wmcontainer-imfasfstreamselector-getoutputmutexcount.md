@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector.GetOutputMutexCount
+ - IMFASFStreamSelector::GetOutputMutexCount
 ---
 
 # IMFASFStreamSelector::GetOutputMutexCount
@@ -92,3 +92,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutex">IMFASFStreamSelector::GetOutputMutex</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagPOINTER_DEVICE_CURSOR_INFO
  - POINTER_DEVICE_CURSOR_INFO
 ---
 
@@ -67,3 +68,4 @@ The <a href="/windows/desktop/api/winuser/ne-winuser-pointer_device_cursor_type"
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
+

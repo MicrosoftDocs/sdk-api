@@ -42,7 +42,7 @@ api_type:
 api_location:
  - austream.h
 api_name:
- - IAudioData.GetFormat
+ - IAudioData::GetFormat
 ---
 
 # IAudioData::GetFormat
@@ -75,3 +75,4 @@ Currently, Microsoft DirectShow supports only PCM wave data.
 
 
 <a href="/windows/desktop/api/austream/nf-austream-iaudiodata-setformat">IAudioData::SetFormat</a>
+

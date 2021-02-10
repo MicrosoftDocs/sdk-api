@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
+ - __MIDL___MIDL_itf_msopc_0001_0076_0003
  - OPC_RELATIONSHIPS_SIGNING_OPTION
 ---
 
@@ -107,3 +108,4 @@ The reference refers to all of the relationships represented as relationship obj
 
 
 <b>Reference</b>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _clipboardformat
  - CLIPBOARDFORMAT
 ---
 
@@ -71,3 +72,4 @@ A clipboard format registered by a call to the <a href="/windows/win32/api/winus
 ## -see-also
 
 <a href="/windows/desktop/Controls/en-clipformat">EN_CLIPFORMAT</a>
+

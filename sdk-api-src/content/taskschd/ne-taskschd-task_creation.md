@@ -44,6 +44,7 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
+ - _TASK_CREATION
  - TASK_CREATION
 ---
 
@@ -87,3 +88,4 @@ The Task Scheduler service creates the task, but ignores the registration trigge
 ## -see-also
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
+

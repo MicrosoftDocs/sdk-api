@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.GetTime
+ - WBEMTime::GetTime
 ---
 
 # WBEMTime::GetTime
@@ -68,3 +68,4 @@ Returns the time as a GMT <b>FILETIME</b> structure. If the time is invalid, it 
 ## -remarks
 
 The method is provided to assist users in debugging.
+

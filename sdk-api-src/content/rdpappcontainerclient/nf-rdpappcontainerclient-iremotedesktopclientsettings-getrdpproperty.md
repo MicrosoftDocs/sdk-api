@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
- - IRemoteDesktopClientSettings.GetRdpProperty
+ - IRemoteDesktopClientSettings::GetRdpProperty
 ---
 
 # IRemoteDesktopClientSettings::GetRdpProperty
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings">IRemoteDesktopClientSettings</a>
+

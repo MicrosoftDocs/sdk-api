@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyWaveSupport.IsFullDuplex
+ - ITLegacyWaveSupport::IsFullDuplex
 ---
 
 # ITLegacyWaveSupport::IsFullDuplex
@@ -89,3 +89,4 @@ Method succeeded.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacywavesupport">ITLegacyWaveSupport</a>
+

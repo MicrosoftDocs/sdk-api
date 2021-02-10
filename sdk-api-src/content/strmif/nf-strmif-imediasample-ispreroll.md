@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.IsPreroll
+ - IMediaSample::IsPreroll
 ---
 
 # IMediaSample::IsPreroll
@@ -70,3 +70,4 @@ Preroll samples are processed but not displayed. They are located in the media s
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
+

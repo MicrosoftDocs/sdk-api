@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetProxySettings
+ - IBackgroundCopyJob::SetProxySettings
 ---
 
 # IBackgroundCopyJob::SetProxySettings
@@ -182,3 +182,4 @@ BITS uses the Internet Explorer proxy settings of the user if an application doe
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getproxysettings">IBackgroundCopyJob::GetProxySettings</a>
+

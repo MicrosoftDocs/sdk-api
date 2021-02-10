@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush.ResetTransform
+ - TextureBrush::ResetTransform
 ---
 
 # TextureBrush::ResetTransform
@@ -152,3 +152,4 @@ VOID Example_ResetTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

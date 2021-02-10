@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _PPP_IPCP_INFO2
  - PPP_IPCP_INFO2
 ---
 
@@ -104,3 +105,4 @@ Specifies IPCP options for the remote peer. Currently, the only option is PPP_IP
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

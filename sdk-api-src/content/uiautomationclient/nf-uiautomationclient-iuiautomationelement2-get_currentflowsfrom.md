@@ -42,9 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement2.CurrentFlowsFrom
- - IUIAutomationElement2.get_CurrentFlowsFrom
- - IUIAutomationElement2.put_CurrentFlowsFrom
+ - IUIAutomationElement2::get_CurrentFlowsFrom
 ---
 
 # IUIAutomationElement2::get_CurrentFlowsFrom
@@ -69,3 +67,4 @@ This property maps to the Microsoft Accessible Rich Internet Applications (ARIA)
 
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>
+

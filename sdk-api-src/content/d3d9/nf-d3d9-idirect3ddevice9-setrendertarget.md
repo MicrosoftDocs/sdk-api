@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetRenderTarget
+ - IDirect3DDevice9::SetRenderTarget
 ---
 
 # IDirect3DDevice9::SetRenderTarget
@@ -103,3 +103,4 @@ Cube textures differ from other surfaces in that they are collections of surface
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+

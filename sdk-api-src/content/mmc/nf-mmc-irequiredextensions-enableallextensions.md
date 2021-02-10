@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IRequiredExtensions.EnableAllExtensions
+ - IRequiredExtensions::EnableAllExtensions
 ---
 
 # IRequiredExtensions::EnableAllExtensions
@@ -74,3 +74,4 @@ If all extensions are requested, they are loaded in the order in which they are 
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">IRequiredExtensions::GetFirstExtension</a>
+

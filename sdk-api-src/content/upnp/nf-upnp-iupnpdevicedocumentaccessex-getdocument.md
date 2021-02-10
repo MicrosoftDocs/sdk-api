@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceDocumentAccessEx.GetDocument
+ - IUPnPDeviceDocumentAccessEx::GetDocument
 ---
 
 # IUPnPDeviceDocumentAccessEx::GetDocument
@@ -72,3 +72,4 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicedocumentaccessex">IUPnPDeviceDocumentAccessEx</a>
+

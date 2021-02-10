@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - ICCSubStreamFiltering.put_SubstreamTypes
+ - ICCSubStreamFiltering::put_SubstreamTypes
 ---
 
 # ICCSubStreamFiltering::put_SubstreamTypes
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-iccsubstreamfiltering">ICCSubStreamFiltering Interface</a>
+

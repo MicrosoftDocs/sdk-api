@@ -44,6 +44,7 @@ api_type:
 api_location:
  - PhotoAcquire.h
 api_name:
+ - tagERROR_ADVISE_MESSAGE_TYPE
  - ERROR_ADVISE_MESSAGE_TYPE
 ---
 
@@ -83,3 +84,4 @@ Specifies that the error that occurred requires an OK response. The <i>pnErrorAd
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>
+

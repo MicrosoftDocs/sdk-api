@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MF_TOPONODE_FLUSH_MODE
  - MF_TOPONODE_FLUSH_MODE
 ---
 
@@ -75,3 +76,4 @@ The transform is never flushed during streaming. It is flushed only when the obj
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

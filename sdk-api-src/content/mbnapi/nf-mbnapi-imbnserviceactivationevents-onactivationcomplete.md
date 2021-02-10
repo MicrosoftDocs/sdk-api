@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnServiceActivationEvents.OnActivationComplete
+ - IMbnServiceActivationEvents::OnActivationComplete
 ---
 
 # IMbnServiceActivationEvents::OnActivationComplete
@@ -179,3 +179,4 @@ Successful service activation will also result in a change to the  ready state o
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents">IMbnServiceActivationEvents</a>
+

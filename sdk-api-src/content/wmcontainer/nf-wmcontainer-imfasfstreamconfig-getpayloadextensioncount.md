@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamConfig.GetPayloadExtensionCount
+ - IMFASFStreamConfig::GetPayloadExtensionCount
 ---
 
 # IMFASFStreamConfig::GetPayloadExtensionCount
@@ -88,3 +88,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextension">IMFASFStreamConfig::GetPayloadExtension</a>
+

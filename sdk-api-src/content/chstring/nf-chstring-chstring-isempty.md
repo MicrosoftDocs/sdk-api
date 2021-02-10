@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.IsEmpty
- - ?IsEmpty@CHString@@QBEHXZ
- - ?IsEmpty@CHString@@QEBAHXZ
+ - CHString::IsEmpty
 ---
 
 # CHString::IsEmpty
@@ -66,3 +64,4 @@ The <b>IsEmpty</b> method tests a <a href="/windows/desktop/WmiSdk/chstring">CHS
 ## -returns
 
 If the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string has a length of zero, the <b>IsEmpty</b> method returns a nonzero value. If the <b>CHString</b> string has a nonzero length, the method returns zero.
+

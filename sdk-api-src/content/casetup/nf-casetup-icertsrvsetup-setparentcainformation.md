@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup.SetParentCAInformation
+ - ICertSrvSetup::SetParentCAInformation
 ---
 
 # ICertSrvSetup::SetParentCAInformation
@@ -68,3 +68,4 @@ For more information about setup properties, see <a href="/windows/win32/api/cas
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
+

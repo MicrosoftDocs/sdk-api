@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage3.SetMetadata
+ - IMDSPStorage3::SetMetadata
 ---
 
 # IMDSPStorage3::SetMetadata
@@ -115,3 +115,4 @@ A service provider calls <b>IWMDMMetaData::QueryByName</b> or <b>IWMDMMetaData::
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyname">IWMDMMetaData::QueryByName</a>
+

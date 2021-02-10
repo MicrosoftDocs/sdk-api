@@ -9,6 +9,8 @@ tech.root: dlgbox
 f1_keywords:
  - commdlg
  - commdlg/commdlg
+api_name:
+ - commdlg
 ---
 
 # Commdlg.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsServiceOperations.SetPassword
+ - IADsServiceOperations::SetPassword
 ---
 
 # IADsServiceOperations::SetPassword
@@ -159,3 +159,4 @@ Cleanup:
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
+

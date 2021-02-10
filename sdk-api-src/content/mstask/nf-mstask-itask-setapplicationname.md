@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask.SetApplicationName
+ - ITask::SetApplicationName
 ---
 
 # ITask::SetApplicationName
@@ -126,3 +126,4 @@ For an example of how to set the application name, see <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+

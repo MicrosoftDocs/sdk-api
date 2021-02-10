@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_DceInfo
+ - PSecPkgContext_DceInfo
  - SecPkgContext_DceInfo
 ---
 
@@ -70,3 +72,4 @@ Pointer to package-specific authorization data.
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
+

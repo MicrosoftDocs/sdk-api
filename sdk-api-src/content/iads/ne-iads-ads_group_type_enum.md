@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0023_0001
  - ADS_GROUP_TYPE_ENUM
 ---
 
@@ -180,3 +181,4 @@ Set grp = Nothing
 
 <a href="/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
+

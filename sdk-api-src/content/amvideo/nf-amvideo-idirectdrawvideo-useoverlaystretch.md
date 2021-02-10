@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo.UseOverlayStretch
+ - IDirectDrawVideo::UseOverlayStretch
 ---
 
 # IDirectDrawVideo::UseOverlayStretch
@@ -76,3 +76,4 @@ If <i>UseOverlayStretch</i> is set to OATRUE (on, the default), DirectShow will 
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
+

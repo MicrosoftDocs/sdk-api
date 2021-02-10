@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OleUIInsertObjectA
  - oledlg/OleUIInsertObjectA
+ - OleUIInsertObject
+ - oledlg/OleUIInsertObject
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - OleDlg.dll
 api_name:
- - OleUIInsertObject
  - OleUIInsertObjectA
- - OleUIInsertObjectW
+ - OleUIInsertObject
 ---
 
 # OleUIInsertObjectA function
@@ -476,3 +477,4 @@ To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Pas
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
+

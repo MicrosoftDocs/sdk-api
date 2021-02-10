@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellPropSheetExt.ReplacePage
+ - IShellPropSheetExt::ReplacePage
 ---
 
 # IShellPropSheetExt::ReplacePage
@@ -83,3 +83,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 To replace a page, a property sheet handler fills a <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure, calls <a href="/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>, and then calls the function specified by <i>pfnReplacePage</i>.
+

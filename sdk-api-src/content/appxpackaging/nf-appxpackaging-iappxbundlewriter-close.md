@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleWriter.Close
+ - IAppxBundleWriter::Close
 ---
 
 # IAppxBundleWriter::Close
@@ -81,3 +81,4 @@ The writer is closed.
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>
+

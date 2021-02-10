@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.ReleaseMedia
+ - IDiscFormat2RawCD::ReleaseMedia
 ---
 
 # IDiscFormat2RawCD::ReleaseMedia
@@ -106,3 +106,4 @@ IDiscFormat2RawCD::CancelWrite
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia">IDiscFormat2RawCD::PrepareMedia</a>
+

@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.WBEMTime
- - ??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z
- - ??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z
+ - WBEMTime::WBEMTime
 ---
 
 # WBEMTime::WBEMTime(const SYSTEMTIME &)
@@ -66,3 +64,4 @@ The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> overload class const
 ### -param st [ref]
 
 MFC <b>SYSTEMTIME</b> structure that represents a date and time and using individual members for the month, day, year, weekday, hour, minute, second, and millisecond.
+

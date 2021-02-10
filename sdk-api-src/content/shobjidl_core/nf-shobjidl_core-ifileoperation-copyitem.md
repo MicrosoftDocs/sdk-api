@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.CopyItem
+ - IFileOperation::CopyItem
 ---
 
 # IFileOperation::CopyItem
@@ -201,3 +201,4 @@ HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-precopyitem">PreCopyItem</a>
+

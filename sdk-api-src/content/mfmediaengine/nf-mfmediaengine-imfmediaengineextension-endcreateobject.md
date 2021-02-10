@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineExtension.EndCreateObject
+ - IMFMediaEngineExtension::EndCreateObject
 ---
 
 # IMFMediaEngineExtension::EndCreateObject
@@ -73,3 +73,4 @@ The Media Engine calls this method to complete the <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension">IMFMediaEngineExtension</a>
+

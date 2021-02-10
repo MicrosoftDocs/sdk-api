@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - AzAuthorizationStore.DeletePolicyAdministratorName
- - IAzAuthorizationStore.DeletePolicyAdministratorName
+ - IAzAuthorizationStore::DeletePolicyAdministratorName
 ---
 
 # IAzAuthorizationStore::DeletePolicyAdministratorName
@@ -83,3 +82,4 @@ Policy administrators for an object can perform the following tasks:
 <li>Create child objects of the object</li>
 </ul>
 To view the list of policy administrators in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministratorsname">PolicyAdministratorsName</a> property.
+

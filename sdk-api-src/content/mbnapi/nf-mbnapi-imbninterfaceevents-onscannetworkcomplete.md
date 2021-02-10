@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnScanNetworkComplete
+ - IMbnInterfaceEvents::OnScanNetworkComplete
 ---
 
 # IMbnInterfaceEvents::OnScanNetworkComplete
@@ -106,3 +106,4 @@ If multiple applications registered for notifications, then this method will be 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>
+

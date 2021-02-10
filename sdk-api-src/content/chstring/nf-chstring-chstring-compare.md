@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.Compare
- - ?Compare@CHString@@QBEHPBG@Z
- - ?Compare@CHString@@QEBAHPEBG@Z
+ - CHString::Compare
 ---
 
 # CHString::Compare
@@ -100,3 +98,4 @@ assert( s1.Compare( L"abc" ) == 0 ); // Compare with LPCWSTR string.
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-comparenocase">CHString::CompareNoCase</a>
+

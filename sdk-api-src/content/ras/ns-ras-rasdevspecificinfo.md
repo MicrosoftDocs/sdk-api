@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ras.h
 api_name:
+ - tagRASDEVSPECIFICINFO
+ - PRASDEVSPECIFICINFO
  - RASDEVSPECIFICINFO
 ---
 
@@ -77,3 +79,4 @@ A pointer to a BLOB that contains the authentication cookie.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
+

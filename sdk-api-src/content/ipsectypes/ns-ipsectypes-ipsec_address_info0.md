@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_ADDRESS_INFO0_
  - IPSEC_ADDRESS_INFO0
 ---
 
@@ -79,3 +80,4 @@ Array of IPv6 local addresses to indicate to peer.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

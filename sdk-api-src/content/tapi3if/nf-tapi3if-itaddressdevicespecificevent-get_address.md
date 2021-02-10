@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressDeviceSpecificEvent.get_Address
+ - ITAddressDeviceSpecificEvent::get_Address
 ---
 
 # ITAddressDeviceSpecificEvent::get_Address
@@ -113,3 +113,4 @@ The <i>ppAddress</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressdevicespecificevent">ITAddressDeviceSpecificEvent</a>
+

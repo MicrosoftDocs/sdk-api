@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
+ - _EapCredentialType
  - EapCredentialType
 ---
 
@@ -91,3 +92,4 @@ The EAP method uses a SIM for authentication. This is passed as an <a href="/win
 
 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a>
+

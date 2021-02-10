@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_COMPARISON_FLAG
  - WBEM_COMPARISON_FLAG
 ---
 
@@ -84,3 +85,4 @@ Compare string values in a case-insensitive manner. This applies both to strings
 
 Ignore qualifier flavors. This flag still takes qualifier values into account, but ignores flavor distinctions such as propagation rules and override restrictions (for more information, see 
 <a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>).
+

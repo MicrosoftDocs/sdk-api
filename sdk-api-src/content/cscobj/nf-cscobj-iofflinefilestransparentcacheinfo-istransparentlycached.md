@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesTransparentCacheInfo.IsTransparentlyCached
+ - IOfflineFilesTransparentCacheInfo::IsTransparentlyCached
 ---
 
 # IOfflineFilesTransparentCacheInfo::IsTransparentlyCached
@@ -74,3 +74,4 @@ A transparently cached item is cached locally. However, it can be accessed only 
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilestransparentcacheinfo">IOfflineFilesTransparentCacheInfo</a>
+

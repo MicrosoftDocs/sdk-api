@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTasks.Item
- - IAzTasks.get_Item
- - AzTasks.Item
+ - IAzTasks::get_Item
 ---
 
 # IAzTasks::get_Item
@@ -57,3 +55,4 @@ The <b>Item</b> property retrieves the <a href="/windows/desktop/api/azroles/nn-
 This property is read-only.
 
 ## -parameters
+

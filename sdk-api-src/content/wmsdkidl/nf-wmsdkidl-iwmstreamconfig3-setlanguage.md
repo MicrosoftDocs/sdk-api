@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig3.SetLanguage
+ - IWMStreamConfig3::SetLanguage
 ---
 
 # IWMStreamConfig3::SetLanguage
@@ -78,3 +78,4 @@ The new value will not take effect in the profile until you call <a href="/windo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig3-getlanguage">IWMStreamConfig3::GetLanguage</a>
+

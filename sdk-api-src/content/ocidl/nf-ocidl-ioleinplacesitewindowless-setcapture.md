@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.SetCapture
+ - IOleInPlaceSiteWindowless::SetCapture
 ---
 
 # IOleInPlaceSiteWindowless::SetCapture
@@ -102,3 +102,4 @@ Objects can also use <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesit
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a>
+

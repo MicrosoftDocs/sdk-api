@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentHasKeyboardFocus
- - IUIAutomationElement.get_CurrentHasKeyboardFocus
+ - IUIAutomationElement::get_CurrentHasKeyboardFocus
 ---
 
 # IUIAutomationElement::get_CurrentHasKeyboardFocus
@@ -72,3 +71,4 @@ This property is read-only.
 
 
 <b>Reference</b>
+

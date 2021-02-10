@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0048_0004
  - ADS_FLAGTYPE_ENUM
 ---
 
@@ -76,3 +77,4 @@ The <b>InheritedObjectType</b> field is present in the ACE.
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+

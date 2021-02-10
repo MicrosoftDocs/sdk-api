@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstance.GetCategory
+ - IFunctionInstance::GetCategory
 ---
 
 # IFunctionInstance::GetCategory
@@ -106,3 +106,4 @@ The category and subcategory of a function instance always refer to the provider
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>
+

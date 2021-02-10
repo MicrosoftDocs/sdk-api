@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SessDirPublicTypes.h
 api_name:
+ - _TSSESSION_STATE
  - TSSESSION_STATE
 ---
 
@@ -105,3 +106,4 @@ WinStation is initializing.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
+

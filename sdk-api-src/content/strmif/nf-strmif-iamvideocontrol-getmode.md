@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoControl.GetMode
+ - IAMVideoControl::GetMode
 ---
 
 # IAMVideoControl::GetMode
@@ -78,3 +78,4 @@ Possible modes of operation include one or more of the following: flipping the p
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>
+

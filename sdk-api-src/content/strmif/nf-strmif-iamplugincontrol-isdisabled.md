@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMPluginControl.IsDisabled
+ - IAMPluginControl::IsDisabled
 ---
 
 # IAMPluginControl::IsDisabled
@@ -100,3 +100,4 @@ The specified CLSID is not in the blocked list.
 
 
 <a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem.GetRestriction
+ - ISettingsItem::GetRestriction
 ---
 
 # ISettingsItem::GetRestriction
@@ -109,3 +109,4 @@ Indicates that the requested restriction facet is not defined for this item.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
+

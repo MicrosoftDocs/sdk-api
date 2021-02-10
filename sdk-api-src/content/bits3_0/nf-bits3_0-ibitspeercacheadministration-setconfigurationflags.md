@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.SetConfigurationFlags
+ - IBitsPeerCacheAdministration::SetConfigurationFlags
 ---
 
 # IBitsPeerCacheAdministration::SetConfigurationFlags
@@ -149,3 +149,4 @@ A job determines if it downloads content from a peer or serves its content to pe
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getconfigurationflags">IBitsPeerCacheAdministration::GetConfigurationFlags</a>
+

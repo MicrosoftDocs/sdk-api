@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.Notify
+ - IWMPContentPartner::Notify
 ---
 
 # IWMPContentPartner::Notify
@@ -97,3 +97,4 @@ The data type for <i>pContext</i> is <b>VT_EMPTY</b> for all notifications excep
 
 
 <a href="/windows/desktop/api/contentpartner/ne-contentpartner-wmppartnernotification">WMPPartnerNotification</a>
+

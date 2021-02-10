@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Appmgmt.h
 api_name:
+ - _INSTALLDATA
+ - PINSTALLDATA
  - INSTALLDATA
 ---
 
@@ -89,3 +91,4 @@ An <a href="/windows/desktop/api/appmgmt/ns-appmgmt-installspec">INSTALLSPEC</a>
 
 
 <a href="/windows/desktop/api/appmgmt/nf-appmgmt-uninstallapplication">UninstallApplication</a>
+

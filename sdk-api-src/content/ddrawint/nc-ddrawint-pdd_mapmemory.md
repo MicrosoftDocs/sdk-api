@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdMapMemory
+ - PDD_MAPMEMORY
 ---
 
 ## -description
@@ -102,3 +102,4 @@ The display driver must call upon the <a href="/windows-hardware/drivers/display
 
 
 <a href="/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_unshare_video_memory">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
+

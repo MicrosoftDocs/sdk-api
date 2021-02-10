@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSaveJob.GetProgress
+ - IMFSaveJob::GetProgress
 ---
 
 # IMFSaveJob::GetProgress
@@ -84,3 +84,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsavejob">IMFSaveJob</a>
+

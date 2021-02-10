@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge.CloseDatabase
+ - IMsmMerge::CloseDatabase
 ---
 
 # IMsmMerge::CloseDatabase
@@ -127,3 +127,4 @@ This function closes the currently open database. Closing a database clears all 
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

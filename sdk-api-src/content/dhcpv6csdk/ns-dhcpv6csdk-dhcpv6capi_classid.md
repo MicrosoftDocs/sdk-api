@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpv6csdk.h
 api_name:
+ - _DHCPV6CAPI_CLASSID
+ - PDHCPV6CAPI_CLASSID
  - DHCPV6CAPI_CLASSID
 ---
 

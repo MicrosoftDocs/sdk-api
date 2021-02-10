@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SCardIntroduceReaderA
  - winscard/SCardIntroduceReaderA
+ - SCardIntroduceReader
+ - winscard/SCardIntroduceReader
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardIntroduceReader
  - SCardIntroduceReaderA
- - SCardIntroduceReaderW
+ - SCardIntroduceReader
 ---
 
 # SCardIntroduceReaderA function
@@ -188,3 +189,4 @@ lReturn = SCardFreeMemory( hContext, pbAttr );
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a>
+

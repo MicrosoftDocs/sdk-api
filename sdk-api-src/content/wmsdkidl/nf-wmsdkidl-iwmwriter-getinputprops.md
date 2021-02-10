@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter.GetInputProps
+ - IWMWriter::GetInputProps
 ---
 
 # IWMWriter::GetInputProps
@@ -111,3 +111,4 @@ Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer, u
 
 
 <a href="/windows/desktop/wmformat/to-identify-inputs-by-number">To Identify Inputs By Number</a>
+

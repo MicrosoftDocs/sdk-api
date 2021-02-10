@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - tsgauthenticationengine
  - tsgauthenticationengine/tsgauthenticationengine
+api_name:
+ - tsgauthenticationengine
 ---
 
 # Tsgauthenticationengine.h header

@@ -43,7 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.Refresh
+ - IInkEdit::Refresh
 ---
 
 # IInkEdit::Refresh
@@ -66,3 +66,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

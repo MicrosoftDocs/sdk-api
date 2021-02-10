@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagPOINTFX
+ - LPPOINTFX
  - POINTFX
 ---
 
@@ -89,3 +91,4 @@ The <b>POINTFX</b> structure is a member of the <a href="/windows/desktop/api/wi
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_ECC_SIGNATURE
+ - PCERT_ECC_SIGNATURE
  - CERT_ECC_SIGNATURE
 ---
 
@@ -69,3 +71,4 @@ The s value of the ECDSA signature. This value is in little-endian order.
 ## -remarks
 
 Before encoding, a leading zero byte will be inserted for the <b>r</b> and <b>s</b> members. After decoding, a leading zero byte will be removed from the <b>r</b> and <b>s</b> members if the leading zero is present.
+

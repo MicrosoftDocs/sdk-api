@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VbInterf.h
 api_name:
- - IGetOleObject.GetOleObject
+ - IGetOleObject::GetOleObject
 ---
 
 # IGetOleObject::GetOleObject
@@ -74,3 +74,4 @@ This method supports the standard return values <b>E_INVALIDARG</b>,
 ## -see-also
 
 <a href="/windows/desktop/api/vbinterf/nn-vbinterf-igetoleobject">IGetOleObject</a>
+

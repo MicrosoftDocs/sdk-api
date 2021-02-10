@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _HARDWARE_COUNTER_TYPE
+ - PHARDWARE_COUNTER_TYPE
  - HARDWARE_COUNTER_TYPE
 ---
 
@@ -69,3 +71,4 @@ The maximum enumeration value for this enumeration.
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ns-winnt-hardware_counter_data">HARDWARE_COUNTER_DATA</a>
+

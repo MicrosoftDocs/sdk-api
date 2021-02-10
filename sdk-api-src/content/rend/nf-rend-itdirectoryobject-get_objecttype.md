@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObject.get_ObjectType
+ - ITDirectoryObject::get_ObjectType
 ---
 
 # ITDirectoryObject::get_ObjectType
@@ -103,3 +103,4 @@ Invalid pointer.
 
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
+

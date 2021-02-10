@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkLineInfo.SetCandidate
+ - IInkLineInfo::SetCandidate
 ---
 
 # IInkLineInfo::SetCandidate
@@ -118,3 +118,4 @@ The <i>candidate</i> list can only be extended by one new entry at a time, at th
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
+

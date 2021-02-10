@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICategoryProvider.GetCategoryForSCID
+ - ICategoryProvider::GetCategoryForSCID
 ---
 
 # ICategoryProvider::GetCategoryForSCID
@@ -71,3 +71,4 @@ When this method returns, contains a pointer to a GUID that represents the categ
 Type: <b>HRESULT</b>
 
 Returns either S_OK on success or S_FALSE on failure.
+

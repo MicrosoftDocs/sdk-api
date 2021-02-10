@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _SCHANNEL_ALG
+ - PSCHANNEL_ALG
  - SCHANNEL_ALG
 ---
 
@@ -116,3 +118,4 @@ This flag can be set to INTERNATIONAL_USAGE (0x00000001), indicating that derive
 ### -field dwReserved
 
 Reserved for future use. Should be set to zero.
+

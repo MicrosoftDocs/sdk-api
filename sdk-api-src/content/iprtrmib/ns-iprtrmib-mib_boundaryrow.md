@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iprtrmib.h
 api_name:
+ - PMIB_BOUNDARYROW
  - MIB_BOUNDARYROW
 ---
 

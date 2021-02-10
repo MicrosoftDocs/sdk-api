@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - ISelector.get_NumSources
+ - ISelector::get_NumSources
 ---
 
 # ISelector::get_NumSources
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-iselector">ISelector Interface</a>
+

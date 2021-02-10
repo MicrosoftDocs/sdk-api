@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PathUnExpandEnvStringsA
  - shlwapi/PathUnExpandEnvStringsA
+ - PathUnExpandEnvStrings
+ - shlwapi/PathUnExpandEnvStrings
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - KernelBase.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathUnExpandEnvStrings
  - PathUnExpandEnvStringsA
- - PathUnExpandEnvStringsW
+ - PathUnExpandEnvStrings
 ---
 
 # PathUnExpandEnvStringsA function
@@ -137,3 +138,4 @@ The environment variables listed in the above table might not all be set on all 
 ## -see-also
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-doenvironmentsubsta">DoEnvironmentSubst</a>
+

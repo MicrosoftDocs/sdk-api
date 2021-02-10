@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D9Caps.h
 api_name:
+ - _D3DVSHADERCAPS2_0
  - D3DVSHADERCAPS2_0
 ---
 
@@ -91,3 +92,4 @@ The depth of nesting of the <a href="/windows/desktop/direct3dhlsl/loop---vs">lo
 
 
 <a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-structures">Direct3D Structures</a>
+

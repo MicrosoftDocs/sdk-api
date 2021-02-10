@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor.Complete
+ - IInertiaProcessor::Complete
 ---
 
 # IInertiaProcessor::Complete
@@ -95,3 +95,4 @@ The <b>Complete</b> method raises the <a href="/windows/win32/api/manipulations/
 
 
 <a href="/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
+

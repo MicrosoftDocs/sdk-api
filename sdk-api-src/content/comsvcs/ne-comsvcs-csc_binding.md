@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - tagCSC_Binding
  - CSC_Binding
 ---
 
@@ -81,3 +82,4 @@ This enumeration is used only to set the thread pool binding for <a href="/windo
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicethreadpoolconfig-setbindinginfo">IServiceThreadPoolConfig::SetBindingInfo</a>
+

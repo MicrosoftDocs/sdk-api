@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
+ - __MIDL___MIDL_itf_termmgr_0000_0000_0001
  - TMGR_DIRECTION
 ---
 
@@ -76,3 +77,4 @@ The terminal can handle both directions of a media stream.
 
 
 <a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_direction">ITPluggableTerminalClassRegistration::put_Direction</a>
+

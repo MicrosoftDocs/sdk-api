@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.FillClosedCurve
+ - Graphics::FillClosedCurve
 ---
 
 # Graphics::FillClosedCurve(IN const Brush,IN const Point,IN INT)
@@ -116,3 +116,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
+

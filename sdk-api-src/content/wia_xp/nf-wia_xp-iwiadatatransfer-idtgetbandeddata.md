@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDataTransfer.idtGetBandedData
+ - IWiaDataTransfer::idtGetBandedData
 ---
 
 # IWiaDataTransfer::idtGetBandedData
@@ -119,3 +119,4 @@ Optionally, the application can pass in a pointer to a block of memory that <b>I
 Applications can improve performance by using double buffering. To do this, applications must set the <b>bDoubleBuffer</b> member of the <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_data_transfer_info">WIA_DATA_TRANSFER_INFO</a> structure to <b>TRUE</b>. The <b>IWiaDataTransfer::idtGetBandedData</b> method will divide the data buffer in half. When one half of the buffer is full, <b>IWiaDataTransfer::idtGetBandedData</b> will send a notification to the application using the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatacallback">IWiaDataCallback</a> pointer passed in through the <i>pIWiaDataCallback</i> parameter. While the application is retrieving the data from the full half of the buffer, the device driver can fill the other half with data.
 
 The format of the data transfer is determined by the values of the item's <a href="/windows/desktop/wia/-wia-wiaitempropcommonitem">WIA_IPA_FORMAT</a> and <b>WIA_IPA_TYMED</b> properties. The application sets these properties with calls to the <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">IWiaPropertyStorage::WriteMultiple</a> method.
+

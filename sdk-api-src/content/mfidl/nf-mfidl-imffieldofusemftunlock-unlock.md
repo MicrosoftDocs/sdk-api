@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFFieldOfUseMFTUnlock.Unlock
+ - IMFFieldOfUseMFTUnlock::Unlock
 ---
 
 # IMFFieldOfUseMFTUnlock::Unlock
@@ -73,3 +73,4 @@ This method authenticates the caller, using a private communication channel betw
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock">IMFFieldOfUseMFTUnlock</a>
+

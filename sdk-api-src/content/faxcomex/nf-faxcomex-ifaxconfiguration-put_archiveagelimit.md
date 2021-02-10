@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration.ArchiveAgeLimit
- - IFaxConfiguration.get_ArchiveAgeLimit
- - IFaxConfiguration.put_ArchiveAgeLimit
+ - IFaxConfiguration::put_ArchiveAgeLimit
 ---
 
 # IFaxConfiguration::put_ArchiveAgeLimit
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
+

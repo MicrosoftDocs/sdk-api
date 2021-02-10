@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmnetsourcecreator
  - wmnetsourcecreator/wmnetsourcecreator
+api_name:
+ - wmnetsourcecreator
 ---
 
 # Wmnetsourcecreator.h header

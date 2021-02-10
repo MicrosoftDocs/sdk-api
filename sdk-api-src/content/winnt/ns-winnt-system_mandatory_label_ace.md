@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _SYSTEM_MANDATORY_LABEL_ACE
+ - PSYSTEM_MANDATORY_LABEL_ACE
  - SYSTEM_MANDATORY_LABEL_ACE
 ---
 
@@ -153,3 +155,4 @@ High integrity level.
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+

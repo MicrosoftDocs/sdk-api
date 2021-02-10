@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable.GetPreviousValue
+ - IUIAnimationVariable::GetPreviousValue
 ---
 
 # IUIAnimationVariable::GetPreviousValue
@@ -85,3 +85,4 @@ The results can be affected by the lower and upper bounds determined by <a href=
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setupperbound">IUIAnimationVariable::SetUpperBound</a>
+

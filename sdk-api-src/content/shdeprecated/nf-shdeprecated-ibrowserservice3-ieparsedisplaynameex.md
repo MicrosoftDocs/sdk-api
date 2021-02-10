@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService3.IEParseDisplayNameEx
+ - IBrowserService3::IEParseDisplayNameEx
 ---
 
 # IBrowserService3::IEParseDisplayNameEx
@@ -94,3 +94,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method replaces <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-ieparsedisplayname">IEParseDisplayName</a>.
+

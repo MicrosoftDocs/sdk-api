@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDevMgr.RegisterEventCallbackProgram
+ - IWiaDevMgr::RegisterEventCallbackProgram
 ---
 
 # IWiaDevMgr::RegisterEventCallbackProgram
@@ -134,3 +134,4 @@ An application can find whether an event is an action type or notification type 
 Programs should only use the <b>IWiaDevMgr::RegisterEventCallbackProgram</b> method for backward compatibility with applications not written for the WIA architecture. New applications should use the Component Object Model (COM) interfaces provided by the WIA architecture. Specifically, they should call <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface">IWiaDevMgr::RegisterEventCallbackInterface</a> or <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackclsid">IWiaDevMgr::RegisterEventCallbackCLSID</a> to register for device events.
 
 Typically, this method is called by an install program or a script. The install program or script registers the application to receive WIA device events. When the event occurs, the application will be started by the WIA run-time system.
+

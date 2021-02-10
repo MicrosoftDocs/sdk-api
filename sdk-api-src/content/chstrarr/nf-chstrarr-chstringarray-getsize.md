@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray.GetSize
- - ?GetSize@CHStringArray@@QEBAHXZ
+ - CHStringArray::GetSize
 ---
 
 # CHStringArray::GetSize
@@ -81,3 +80,4 @@ If the <b>GetSize</b> method is successful, it returns the number of elements in
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">CHStringArray::SetSize</a>
+

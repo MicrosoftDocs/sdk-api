@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDAddress.Deserialize
+ - IWSDAddress::Deserialize
 ---
 
 # IWSDAddress::Deserialize
@@ -105,3 +105,4 @@ Insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>
+

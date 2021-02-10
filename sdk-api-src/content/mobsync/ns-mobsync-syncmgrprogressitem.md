@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
+ - _tagSYNCMGRPROGRESSITEM
+ - LPSYNCMGRPROGRESSITEM
  - SYNCMGRPROGRESSITEM
 ---
 
@@ -97,3 +99,4 @@ An integer that indicates the maximum progress value.
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _ROOT_INFO_LUID
+ - PROOT_INFO_LUID
  - ROOT_INFO_LUID
 ---
 
@@ -69,3 +71,4 @@ High-order bits.
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
+

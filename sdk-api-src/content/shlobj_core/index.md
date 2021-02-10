@@ -9,6 +9,8 @@ tech.root: lwef
 f1_keywords:
  - shlobj_core
  - shlobj_core/shlobj_core
+api_name:
+ - shlobj_core
 ---
 
 # Shlobj_Core.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetType
+ - ID2D1Properties::GetType
 ---
 
 # ID2D1Properties::GetType
@@ -85,3 +85,4 @@ If the property does not exist, the method returns <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+

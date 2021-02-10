@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration.UseArchive
- - IFaxConfiguration.get_UseArchive
- - IFaxConfiguration.put_UseArchive
+ - IFaxConfiguration::put_UseArchive
 ---
 
 # IFaxConfiguration::put_UseArchive
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
+

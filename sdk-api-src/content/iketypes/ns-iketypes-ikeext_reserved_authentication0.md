@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_RESERVED_AUTHENTICATION0__
  - IKEEXT_RESERVED_AUTHENTICATION0
 ---
 
@@ -82,3 +83,4 @@ Reserved for internal use.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

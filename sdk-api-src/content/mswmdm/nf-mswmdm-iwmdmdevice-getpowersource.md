@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice.GetPowerSource
+ - IWMDMDevice::GetPowerSource
 ---
 
 # IWMDMDevice::GetPowerSource
@@ -108,3 +108,4 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
+

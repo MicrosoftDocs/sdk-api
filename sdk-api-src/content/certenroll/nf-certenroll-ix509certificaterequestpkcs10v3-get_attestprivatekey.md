@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509CertificateRequestPkcs10V3.AttestPrivateKey
- - IX509CertificateRequestPkcs10V3.get_AttestPrivateKey
- - IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
+ - IX509CertificateRequestPkcs10V3::get_AttestPrivateKey
 ---
 
 # IX509CertificateRequestPkcs10V3::get_AttestPrivateKey
@@ -62,3 +60,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>
+

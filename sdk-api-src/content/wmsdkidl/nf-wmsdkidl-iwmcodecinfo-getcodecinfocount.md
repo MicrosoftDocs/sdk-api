@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecInfo.GetCodecInfoCount
+ - IWMCodecInfo::GetCodecInfoCount
 ---
 
 # IWMCodecInfo::GetCodecInfoCount
@@ -143,3 +143,4 @@ The Windows Media Format SDK provides codecs only for audio and video. If you sp
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">IWMCodecInfo::GetCodecFormatCount</a>
+

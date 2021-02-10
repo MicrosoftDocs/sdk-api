@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateDirectoryTransactedW
  - winbase/CreateDirectoryTransactedW
+ - CreateDirectoryTransacted
+ - winbase/CreateDirectoryTransacted
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateDirectoryTransacted
- - CreateDirectoryTransactedA
  - CreateDirectoryTransactedW
+ - CreateDirectoryTransacted
 ---
 
 # CreateDirectoryTransactedW function
@@ -270,3 +271,4 @@ SMB 3.0 does not support TxF.
 
 
 <a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes.ClearThreshold
+ - ImageAttributes::ClearThreshold
 ---
 
 # ImageAttributes::ClearThreshold
@@ -114,3 +114,4 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
+

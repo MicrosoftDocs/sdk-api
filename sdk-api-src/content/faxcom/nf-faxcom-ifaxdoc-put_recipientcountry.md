@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.RecipientCountry
- - IFaxDoc.get_RecipientCountry
- - IFaxDoc.put_RecipientCountry
+ - IFaxDoc::put_RecipientCountry
 ---
 
 # IFaxDoc::put_RecipientCountry
@@ -79,3 +77,4 @@ The <b>get_RecipientCountry</b> method allocates the memory required for the buf
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

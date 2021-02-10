@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo.CreateInstance
+ - ITypeInfo::CreateInstance
 ---
 
 # ITypeInfo::CreateInstance
@@ -132,3 +132,4 @@ For types that describe a component object class (coclass), <b>CreateInstance</b
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
+

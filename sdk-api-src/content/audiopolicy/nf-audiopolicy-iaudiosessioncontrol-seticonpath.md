@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl.SetIconPath
+ - IAudioSessionControl::SetIconPath
 ---
 
 # IAudioSessionControl::SetIconPath
@@ -123,3 +123,4 @@ The client can retrieve the display icon for the session by calling the <a href=
 
 
 <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-geticonpath">IAudioSessionControl::GetIconPath</a>
+

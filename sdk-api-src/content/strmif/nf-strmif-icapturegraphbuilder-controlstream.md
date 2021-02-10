@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - ICaptureGraphBuilder.ControlStream
+ - ICaptureGraphBuilder::ControlStream
 ---
 
 # ICaptureGraphBuilder::ControlStream
@@ -105,3 +105,4 @@ This method sends one notification for each filter found with a pin of the speci
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
+

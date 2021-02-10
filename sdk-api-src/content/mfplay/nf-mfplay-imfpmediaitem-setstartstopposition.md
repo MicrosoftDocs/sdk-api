@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaItem.SetStartStopPosition
+ - IMFPMediaItem::SetStartStopPosition
 ---
 
 # IMFPMediaItem::SetStartStopPosition
@@ -230,3 +230,4 @@ done:
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

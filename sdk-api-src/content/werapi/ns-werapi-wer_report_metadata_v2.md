@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Werapi.h
 api_name:
+ - _WER_REPORT_METADATA_V2
+ - PWER_REPORT_METADATA_V2
  - WER_REPORT_METADATA_V2
 ---
 
@@ -107,3 +109,4 @@ The cab identity value assigned by WER. Use this value to find the corresponding
 ## -see-also
 
 <a href="/windows/desktop/api/werapi/nf-werapi-werstorequeryreportmetadatav2">WerStoreQueryReportMetadataV2</a>
+

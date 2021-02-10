@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrConflictItems.GetCount
+ - ISyncMgrConflictItems::GetCount
 ---
 
 # ISyncMgrConflictItems::GetCount

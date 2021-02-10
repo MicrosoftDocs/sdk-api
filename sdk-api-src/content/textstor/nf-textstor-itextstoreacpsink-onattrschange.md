@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACPSink.OnAttrsChange
+ - ITextStoreACPSink::OnAttrsChange
 ---
 
 # ITextStoreACPSink::OnAttrsChange
@@ -113,3 +113,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
+

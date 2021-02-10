@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.CurrentIsModal
- - IUIAutomationWindowPattern.get_CurrentIsModal
+ - IUIAutomationWindowPattern::get_CurrentIsModal
 ---
 
 # IUIAutomationWindowPattern::get_CurrentIsModal
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationwindowpattern">IUIAutomationWindowPattern</a>
+

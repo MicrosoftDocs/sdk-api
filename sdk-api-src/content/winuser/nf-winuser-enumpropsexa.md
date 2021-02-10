@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumPropsExA
  - winuser/EnumPropsExA
+ - EnumPropsEx
+ - winuser/EnumPropsEx
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - minuser.dll
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - EnumPropsEx
  - EnumPropsExA
- - EnumPropsExW
+ - EnumPropsEx
 ---
 
 # EnumPropsExA function
@@ -115,3 +116,4 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-properties">Li
 
 
 <a href="/windows/desktop/winmsg/window-properties">Window Properties</a>
+

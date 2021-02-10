@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap.ApplyEffect
+ - Bitmap::ApplyEffect
 ---
 
 # Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap)
@@ -148,3 +148,4 @@ VOID Example_BrightnessContrastApplyEffect2(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect Methods</a>
+

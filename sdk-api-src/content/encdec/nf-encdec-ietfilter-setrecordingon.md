@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IETFilter.SetRecordingOn
+ - IETFilter::SetRecordingOn
 ---
 
 # IETFilter::SetRecordingOn
@@ -87,3 +87,4 @@ The <b>SetRecordingOn</b> method enables the Video Control to enforce copy prote
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilter">IETFilter Interface</a>
+

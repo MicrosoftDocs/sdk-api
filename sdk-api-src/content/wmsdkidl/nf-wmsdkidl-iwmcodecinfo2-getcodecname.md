@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecInfo2.GetCodecName
+ - IWMCodecInfo2::GetCodecName
 ---
 
 # IWMCodecInfo2::GetCodecName
@@ -130,3 +130,4 @@ You should make two calls to <b>GetCodecName</b>. On the first call, pass <b>NUL
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2">IWMCodecInfo2 Interface</a>
+

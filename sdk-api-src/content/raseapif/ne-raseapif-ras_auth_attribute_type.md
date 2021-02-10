@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Raseapif.h
 api_name:
+ - _RAS_AUTH_ATTRIBUTE_TYPE_
  - RAS_AUTH_ATTRIBUTE_TYPE
 ---
 
@@ -688,3 +689,4 @@ The value field in
 
 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>
+

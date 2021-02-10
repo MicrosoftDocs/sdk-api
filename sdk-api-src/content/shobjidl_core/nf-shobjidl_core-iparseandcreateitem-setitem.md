@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IParseAndCreateItem.SetItem
+ - IParseAndCreateItem::SetItem
 ---
 
 # IParseAndCreateItem::SetItem
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem">IParseAndCreateItem</a>
+

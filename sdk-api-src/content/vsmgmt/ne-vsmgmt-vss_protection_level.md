@@ -46,6 +46,8 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
+ - _VSS_PROTECTION_LEVEL
+ - PVSS_PROTECTION_LEVEL
  - VSS_PROTECTION_LEVEL
 ---
 
@@ -99,3 +101,4 @@ When a volume is in shadow copy protection mode, requesters must set shadow copy
 
 
 <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a>
+

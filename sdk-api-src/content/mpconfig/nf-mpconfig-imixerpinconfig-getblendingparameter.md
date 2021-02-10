@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig.GetBlendingParameter
+ - IMixerPinConfig::GetBlendingParameter
 ---
 
 # IMixerPinConfig::GetBlendingParameter
@@ -118,3 +118,4 @@ A value of zero indicates that the secondary stream is invisible; a value of 255
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setblendingparameter">IMixerPinConfig::SetBlendingParameter</a>
+

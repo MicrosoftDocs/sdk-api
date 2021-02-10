@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 66d3f701-735c-4dca-b7b6-47a17d63c23e
 ms.date: 12/05/2018
 ms.keywords: FreePrivateData, FreePrivateData method [DirectDraw], FreePrivateData method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],FreePrivateData method, IDirectDrawSurface7.FreePrivateData, IDirectDrawSurface7::FreePrivateData, ddraw/IDirectDrawSurface7::FreePrivateData, directdraw.idirectdrawsurface7_freeprivatedata
-f1_keywords:
-- ddraw/IDirectDrawSurface7.FreePrivateData
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.FreePrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::FreePrivateData
+ - ddraw/IDirectDrawSurface7::FreePrivateData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7::FreePrivateData
 ---
 
 ## -description
@@ -77,3 +78,4 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+

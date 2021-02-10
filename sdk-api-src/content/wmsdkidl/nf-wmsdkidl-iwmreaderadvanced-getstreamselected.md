@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetStreamSelected
+ - IWMReaderAdvanced::GetStreamSelected
 ---
 
 # IWMReaderAdvanced::GetStreamSelected
@@ -135,3 +135,4 @@ The reader object has not opened a file yet.
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection">WMT_STREAM_SELECTION</a>
+

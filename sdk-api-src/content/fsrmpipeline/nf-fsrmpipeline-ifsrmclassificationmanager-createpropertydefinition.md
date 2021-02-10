@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.CreatePropertyDefinition
- - IFsrmClassificationManager2.CreatePropertyDefinition
- - FsrmClassificationManager.CreatePropertyDefinition
+ - IFsrmClassificationManager::CreatePropertyDefinition
 ---
 
 # IFsrmClassificationManager::CreatePropertyDefinition
@@ -105,3 +103,4 @@ You cannot delete a property that is referenced by a rule or report job.
 
 
 <b>MSFT_FSRMClassification</b>
+

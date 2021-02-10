@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationValuePattern.CachedIsReadOnly
- - IUIAutomationValuePattern.get_CachedIsReadOnly
+ - IUIAutomationValuePattern::get_CachedIsReadOnly
 ---
 
 # IUIAutomationValuePattern::get_CachedIsReadOnly
@@ -64,3 +63,4 @@ This property must be <b>TRUE</b> for <a href="/windows/desktop/api/uiautomation
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvaluepattern">IUIAutomationValuePattern</a>
+

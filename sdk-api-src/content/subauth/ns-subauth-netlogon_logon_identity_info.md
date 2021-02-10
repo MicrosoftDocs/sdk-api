@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Subauth.h
 api_name:
+ - _NETLOGON_LOGON_IDENTITY_INFO
+ - PNETLOGON_LOGON_IDENTITY_INFO
  - NETLOGON_LOGON_IDENTITY_INFO
 ---
 
@@ -105,3 +107,4 @@ Pointer to a
 ### -field Workstation
 
 Pointer to a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> identifying the workstation from which the user is attempting to log on. <b>NULL</b> indicates that the workstation identity is unknown.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.GetClientSite
+ - IOleObject::GetClientSite
 ---
 
 # IOleObject::GetClientSite
@@ -76,3 +76,4 @@ The returned client-site pointer will be <b>NULL</b> if an embedded object has n
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.SetMute
+ - IAudioEndpointVolume::SetMute
 ---
 
 # IAudioEndpointVolume::SetMute
@@ -99,3 +99,4 @@ For a code example that calls <b>SetMute</b>, see <a href="/windows/desktop/Core
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify">IAudioEndpointVolumeCallback::OnNotify</a>
+

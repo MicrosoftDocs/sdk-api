@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo.AddFuncDesc
+ - ICreateTypeInfo::AddFuncDesc
 ---
 
 # ICreateTypeInfo::AddFuncDesc
@@ -167,3 +167,4 @@ The get and put accessor functions for the same property must have the same disp
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
+

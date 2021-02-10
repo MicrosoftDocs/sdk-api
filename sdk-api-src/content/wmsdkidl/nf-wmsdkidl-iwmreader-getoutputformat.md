@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader.GetOutputFormat
+ - IWMReader::GetOutputFormat
 ---
 
 # IWMReader::GetOutputFormat
@@ -84,3 +84,4 @@ This method is synchronous and does not result in any messages being sent to the
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
+

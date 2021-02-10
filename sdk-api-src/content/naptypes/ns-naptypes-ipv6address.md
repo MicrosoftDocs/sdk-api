@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
+ - tagIpv6Address
  - Ipv6Address
 ---
 
@@ -67,3 +68,4 @@ An array that contains an IPv6 network address in network byte order.
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
+

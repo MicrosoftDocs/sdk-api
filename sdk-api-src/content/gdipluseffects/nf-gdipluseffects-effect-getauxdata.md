@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Effect.GetAuxData
+ - Effect::GetAuxData
 ---
 
 # Effect::GetAuxData
@@ -146,3 +146,4 @@ for(UINT j = 0; j < 256; ++j)
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-useauxdata">Effect::UseAuxData</a>
+

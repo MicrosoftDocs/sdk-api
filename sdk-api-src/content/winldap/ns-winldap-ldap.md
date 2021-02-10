@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
+ - ldap
+ - PLDAP
  - LDAP
 ---
 
@@ -97,3 +99,4 @@ Although this is an opaque data type, it is documented in Winldap.h. This is pri
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.put_DoNotFinalizeMedia
+ - IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia
 ---
 
 # IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia
@@ -129,3 +129,4 @@ This property is useful to create a multi-session CD with audio in the first ses
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia">IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia</a>
+

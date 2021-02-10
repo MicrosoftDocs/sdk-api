@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Pla.h
 api_name:
+ - __MIDL___MIDL_itf_pla_0001_0043_0012
  - FolderActionSteps
 ---
 
@@ -83,3 +84,4 @@ Specify one or more actions. The data manager applies the actions in the order i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>
+

@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.operator=
- - ??4WBEMTime@@QAEABV0@QAG@Z
- - ??4WBEMTime@@QEAAAEBV0@QEAG@Z
+ - WBEMTime::operator=
 ---
 
 # WBEMTime::operator-assign(const tm &)
@@ -66,3 +64,4 @@ The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class assignment ope
 ### -param tmin [ref]
 
 <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
+

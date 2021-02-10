@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.GetSupportedKeySpec
- - ICEnroll3.GetSupportedKeySpec
- - CEnroll.GetSupportedKeySpec
+ - ICEnroll3::GetSupportedKeySpec
 ---
 
 # ICEnroll3::GetSupportedKeySpec
@@ -113,3 +111,4 @@ else
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+

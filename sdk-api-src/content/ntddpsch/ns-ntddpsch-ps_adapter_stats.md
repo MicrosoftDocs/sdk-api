@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntddpsch.h
 api_name:
+ - _PS_ADAPTER_STATS
+ - PPS_ADAPTER_STATS
  - PS_ADAPTER_STATS
 ---
 
@@ -96,3 +98,4 @@ Maximum number of simultaneous flows.
 
 
 <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
+

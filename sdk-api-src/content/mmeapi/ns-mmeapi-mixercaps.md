@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
+ - tMIXERCAPS
+ - PMIXERCAPS
  - MIXERCAPS
 ---
 
@@ -93,3 +95,4 @@ Audio Mixers
 
 
 <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea">MIXERLINE</a>
+

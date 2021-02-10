@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADs.Get
+ - IADs::Get
 ---
 
 # IADs::Get
@@ -291,3 +291,4 @@ if ( pSvc )
 
 <a href="/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
+

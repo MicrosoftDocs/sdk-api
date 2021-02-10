@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - AzAuthorizationStore.SetProperty
- - IAzAuthorizationStore.SetProperty
+ - IAzAuthorizationStore::SetProperty
 ---
 
 # IAzAuthorizationStore::SetProperty
@@ -237,3 +236,4 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 ## -remarks
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
+

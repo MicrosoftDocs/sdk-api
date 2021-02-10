@@ -42,9 +42,7 @@ api_type:
 api_location:
  - WkspRt.exe
 api_name:
- - IWorkspace2.StartRemoteApplicationEx
- - IWorkspace3.StartRemoteApplicationEx
- - Workspace.StartRemoteApplicationEx
+ - IWorkspace2::StartRemoteApplicationEx
 ---
 
 # IWorkspace2::StartRemoteApplicationEx
@@ -104,3 +102,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>
+

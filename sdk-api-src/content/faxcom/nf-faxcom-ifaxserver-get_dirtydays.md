@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer.DirtyDays
- - IFaxServer.get_DirtyDays
- - IFaxServer.put_DirtyDays
- - IFaxServer.get_DirtyDays
- - IFaxServer.put_DirtyDays
+ - IFaxServer::get_DirtyDays
 ---
 
 # IFaxServer::get_DirtyDays
@@ -81,3 +77,4 @@ A transmission might not be sent for various reasons. Examples are if an invalid
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
+

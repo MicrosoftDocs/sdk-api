@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizer.CreateRecognizerContext
+ - IInkRecognizer::CreateRecognizerContext
 ---
 
 # IInkRecognizer::CreateRecognizerContext
@@ -110,3 +110,4 @@ An exception occurred inside the method.
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+

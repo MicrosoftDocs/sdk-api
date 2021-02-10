@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker.Reduce
+ - IMoniker::Reduce
 ---
 
 # IMoniker::Reduce
@@ -189,3 +189,4 @@ If the current moniker can be reduced, your implementation must not reduce the m
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+

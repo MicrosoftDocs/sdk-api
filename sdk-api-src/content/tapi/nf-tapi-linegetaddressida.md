@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineGetAddressIDA
  - tapi/lineGetAddressIDA
+ - lineGetAddressID
+ - tapi/lineGetAddressID
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGetAddressID
  - lineGetAddressIDA
- - lineGetAddressIDW
+ - lineGetAddressID
 ---
 
 # lineGetAddressIDA function
@@ -111,3 +112,4 @@ The
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
+

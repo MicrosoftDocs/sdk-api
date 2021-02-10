@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RadialControllerInterop.h
 api_name:
- - IRadialControllerConfigurationInterop.GetForWindow
+ - IRadialControllerConfigurationInterop::GetForWindow
 ---
 
 # IRadialControllerConfigurationInterop::GetForWindow
@@ -93,3 +93,4 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice.get_ModelURL
+ - IUPnPDevice::get_ModelURL
 ---
 
 # IUPnPDevice::get_ModelURL
@@ -78,3 +78,4 @@ This property is optional and <i>pbstr</i> can be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelnumber">IUPnPDevice::ModelNumber</a>
+

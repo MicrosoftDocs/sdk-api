@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _CLAIM_SECURITY_ATTRIBUTE_V1
+ - PCLAIM_SECURITY_ATTRIBUTE_V1
  - CLAIM_SECURITY_ATTRIBUTE_V1
 ---
 
@@ -262,3 +264,4 @@ Pointer to an array of <b>ValueCount</b> members where each member is  an octet 
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attributes_information">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>
+

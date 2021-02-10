@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF.Mount
+ - IVdsVolumeMF::Mount
 ---
 
 # IVdsVolumeMF::Mount
@@ -106,3 +106,4 @@ The pack containing the volume is not accessible.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumemf">IVdsVolumeMF</a>
+

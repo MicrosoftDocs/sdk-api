@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.ContainerNamePrefix
- - IX509PrivateKey.get_ContainerNamePrefix
- - IX509PrivateKey.put_ContainerNamePrefix
+ - IX509PrivateKey::put_ContainerNamePrefix
 ---
 
 # IX509PrivateKey::put_ContainerNamePrefix
@@ -65,3 +63,4 @@ A prefix can contain any string limited to the maximum length of the key contain
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

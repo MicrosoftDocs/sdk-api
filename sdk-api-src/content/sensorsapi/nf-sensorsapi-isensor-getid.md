@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor.GetID
+ - ISensor::GetID
 ---
 
 # ISensor::GetID
@@ -115,3 +115,4 @@ You can use an ID to retrieve a pointer to a particular sensor by calling <a hre
 
 
 <a href="/windows/desktop/SensorsAPI/about-sensor-constants">Sensor Constants</a>
+

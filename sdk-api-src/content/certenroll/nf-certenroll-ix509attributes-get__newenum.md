@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Attributes._NewEnum
- - IX509Attributes.get__NewEnum
+ - IX509Attributes::get__NewEnum
 ---
 
 # IX509Attributes::get__NewEnum
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
+

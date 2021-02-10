@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - intshcut
  - intshcut/intshcut
+api_name:
+ - intshcut
 ---
 
 # Intshcut.h header

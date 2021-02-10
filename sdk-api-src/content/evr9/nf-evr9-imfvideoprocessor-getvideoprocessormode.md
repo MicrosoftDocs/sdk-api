@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoProcessor.GetVideoProcessorMode
+ - IMFVideoProcessor::GetVideoProcessorMode
 ---
 
 # IMFVideoProcessor::GetVideoProcessorMode
@@ -110,3 +110,4 @@ The application has not specified a preferred video processor mode.
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
+

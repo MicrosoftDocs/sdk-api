@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.RatingsUnblocked
+ - IMSVidStreamBufferSourceEvent::RatingsUnblocked
 ---
 
 # IMSVidStreamBufferSourceEvent::RatingsUnblocked
@@ -66,3 +66,4 @@ Return S_OK or an error code.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent Interface</a>
+

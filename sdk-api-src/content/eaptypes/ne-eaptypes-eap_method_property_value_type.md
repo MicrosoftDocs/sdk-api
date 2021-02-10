@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EapTypes.h
 api_name:
+ - _EAP_METHOD_PROPERTY_VALUE_TYPE
  - EAP_METHOD_PROPERTY_VALUE_TYPE
 ---
 
@@ -81,3 +82,4 @@ The method property value is a pointer to a value of type  <b>BYTE</b>.
 
 
 <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a>
+

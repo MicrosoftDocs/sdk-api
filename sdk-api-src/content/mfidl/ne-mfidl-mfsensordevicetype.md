@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - __MIDL___MIDL_itf_mfidl_0000_0110_0001
  - MFSensorDeviceType
 ---
 
@@ -73,3 +74,4 @@ The sensor device is a custom media source.
 The sensor device is a legacy frame provider.
 
 ### -field MFSensorDeviceType_SensorTransform
+

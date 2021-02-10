@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode.GetInputPrefType
+ - IMFTopologyNode::GetInputPrefType
 ---
 
 # IMFTopologyNode::GetInputPrefType
@@ -131,3 +131,4 @@ The preferred input type provides a hint to the topology loader. In a fully reso
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

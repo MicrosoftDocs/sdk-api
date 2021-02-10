@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _FONTOBJ
  - FONTOBJ
 ---
 
@@ -368,3 +369,4 @@ A driver can be both a producer and a consumer. For example, a printer driver ca
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
+

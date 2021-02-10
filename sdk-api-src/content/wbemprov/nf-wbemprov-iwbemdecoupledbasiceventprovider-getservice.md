@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wmidcprv.dll
 api_name:
- - IWbemDecoupledBasicEventProvider.GetService
- - WbemDecoupledBasicEventProvider.GetService
+ - IWbemDecoupledBasicEventProvider::GetService
 ---
 
 # IWbemDecoupledBasicEventProvider::GetService

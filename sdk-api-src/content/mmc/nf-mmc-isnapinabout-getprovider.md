@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - ISnapinAbout.GetProvider
+ - ISnapinAbout::GetProvider
 ---
 
 # ISnapinAbout::GetProvider
@@ -70,3 +70,4 @@ Memory for out parameters must be allocated using the COM API function
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
+

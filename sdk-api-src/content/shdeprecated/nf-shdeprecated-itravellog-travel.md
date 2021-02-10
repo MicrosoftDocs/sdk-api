@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - ITravelLog.Travel
+ - ITravelLog::Travel
 ---
 
 # ITravelLog::Travel
@@ -76,3 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Calling <b>ITravelLog::Travel</b> has the same result as calling <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-invoke">Invoke</a>.
+

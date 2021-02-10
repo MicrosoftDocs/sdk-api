@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocParser.GetTocByIndex
+ - ITocParser::GetTocByIndex
 ---
 
 # ITocParser::GetTocByIndex
@@ -91,3 +91,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationCompositor.RemoveContent
+ - IDirectManipulationCompositor::RemoveContent
 ---
 
 # IDirectManipulationCompositor::RemoveContent
@@ -69,3 +69,4 @@ This method removes content added with <a href="/previous-versions/windows/deskt
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
+

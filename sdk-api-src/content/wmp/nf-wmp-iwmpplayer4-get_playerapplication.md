@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer4.get_playerApplication
+ - IWMPPlayer4::get_playerApplication
 ---
 
 # IWMPPlayer4::get_playerApplication
@@ -101,3 +101,4 @@ This method is only accessible in C++ code or in script code in skins through th
 
 
 <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
+

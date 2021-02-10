@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSession.CreateUpdateDownloader
+ - IUpdateSession::CreateUpdateDownloader
 ---
 
 # IUpdateSession::CreateUpdateDownloader
@@ -100,3 +100,4 @@ An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownlo
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
+

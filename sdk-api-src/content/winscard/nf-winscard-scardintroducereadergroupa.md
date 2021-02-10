@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SCardIntroduceReaderGroupA
  - winscard/SCardIntroduceReaderGroupA
+ - SCardIntroduceReaderGroup
+ - winscard/SCardIntroduceReaderGroup
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardIntroduceReaderGroup
  - SCardIntroduceReaderGroupA
- - SCardIntroduceReaderGroupW
+ - SCardIntroduceReaderGroup
 ---
 
 # SCardIntroduceReaderGroupA function
@@ -204,3 +205,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a>
+

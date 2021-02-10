@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CurrentMinimum
- - IUIAutomationRangeValuePattern.get_CurrentMinimum
+ - IUIAutomationRangeValuePattern::get_CurrentMinimum
 ---
 
 # IUIAutomationRangeValuePattern::get_CurrentMinimum

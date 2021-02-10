@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUBYTEN4.XMUBYTEN4
+ - XMUBYTEN4::XMUBYTEN4
 ---
 
 # XMUBYTEN4::XMUBYTEN4(uint8_t,uint8_t,uint8_t,uint8_t)
@@ -110,3 +110,4 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 
 
 <a href="/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>
+

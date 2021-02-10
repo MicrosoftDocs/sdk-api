@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextTrack.GetTrackKind
+ - IMFTimedTextTrack::GetTrackKind
 ---
 
 # IMFTimedTextTrack::GetTrackKind
@@ -63,3 +63,4 @@ Returns a <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
+

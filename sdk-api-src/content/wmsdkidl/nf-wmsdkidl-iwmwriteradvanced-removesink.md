@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.RemoveSink
+ - IWMWriterAdvanced::RemoveSink
 ---
 
 # IWMWriterAdvanced::RemoveSink
@@ -116,3 +116,4 @@ The writer is not in a configurable state.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsink">IWMWriterAdvanced::GetSink</a>
+

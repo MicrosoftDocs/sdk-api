@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_RECT.CD3D11_RECT
+ - CD3D11_RECT::CD3D11_RECT
 ---
 
 # CD3D11_RECT::CD3D11_RECT(LONG,LONG,LONG,LONG)
@@ -82,3 +82,4 @@ The y-coordinate of the lower-right corner of the rectangle.
 ## -see-also
 
 <a href="/windows/win32/api/d3d11/ns-d3d11-cd3d11_rect">CD3D11_RECT</a>
+

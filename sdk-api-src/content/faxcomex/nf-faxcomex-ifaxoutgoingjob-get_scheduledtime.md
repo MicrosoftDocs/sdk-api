@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.ScheduledTime
- - IFaxOutgoingJob.get_ScheduledTime
- - IFaxOutgoingJob.get_ScheduledTime
+ - IFaxOutgoingJob::get_ScheduledTime
 ---
 
 # IFaxOutgoingJob::get_ScheduledTime
@@ -65,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob">IFaxOutgoingJob</a>
+

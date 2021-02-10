@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - IEnumCATEGORYINFO.Reset
+ - IEnumCATEGORYINFO::Reset
 ---
 
 # IEnumCATEGORYINFO::Reset
@@ -65,3 +65,4 @@ There is no guarantee that the same set of objects will be enumerated after the 
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-ienumcategoryinfo">IEnumCATEGORYINFO</a>
+

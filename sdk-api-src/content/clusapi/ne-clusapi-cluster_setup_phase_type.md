@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUSTER_SETUP_PHASE_TYPE
  - CLUSTER_SETUP_PHASE_TYPE
 ---
 
@@ -83,3 +84,4 @@ Indicates the end of a setup phase. Called once at the end of every setup phase.
 
 
 <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
+

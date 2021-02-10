@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfsharingengine.h
 api_name:
- - IMFImageSharingEngineClassFactory.CreateInstanceFromUDN
+ - IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
 ---
 
 # IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengineclassfactory">IMFImageSharingEngineClassFactory</a>
+

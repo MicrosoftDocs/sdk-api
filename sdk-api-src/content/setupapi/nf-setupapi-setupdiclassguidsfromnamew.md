@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiClassGuidsFromNameW
  - setupapi/SetupDiClassGuidsFromNameW
+ - SetupDiClassGuidsFromName
+ - setupapi/SetupDiClassGuidsFromName
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiClassGuidsFromName
  - SetupDiClassGuidsFromNameW
+ - SetupDiClassGuidsFromName
 ---
 
 # SetupDiClassGuidsFromNameW function
@@ -94,3 +96,4 @@ Call <b>SetupDiClassGuidsFromNameEx</b> to retrieve the class GUIDs for a class 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguida">SetupDiClassNameFromGuid</a>
+

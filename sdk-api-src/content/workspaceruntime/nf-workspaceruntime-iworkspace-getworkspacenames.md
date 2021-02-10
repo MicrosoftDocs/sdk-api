@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspace.GetWorkspaceNames
- - IWorkspace2.GetWorkspaceNames
- - IWorkspace3.GetWorkspaceNames
- - Workspace.GetWorkspaceNames
+ - IWorkspace::GetWorkspaceNames
 ---
 
 # IWorkspace::GetWorkspaceNames
@@ -76,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>
+

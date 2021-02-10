@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0002
+ - PADS_OCTET_STRING
  - ADS_OCTET_STRING
 ---
 
@@ -74,3 +76,4 @@ Memory for the byte array must be allocated separately.
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
+

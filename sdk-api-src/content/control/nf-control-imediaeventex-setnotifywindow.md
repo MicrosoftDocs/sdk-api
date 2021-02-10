@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEventEx.SetNotifyWindow
+ - IMediaEventEx::SetNotifyWindow
 ---
 
 # IMediaEventEx::SetNotifyWindow
@@ -84,3 +84,4 @@ When the window receives the message, it should call the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx Interface</a>
+

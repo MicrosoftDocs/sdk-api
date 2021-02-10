@@ -43,7 +43,6 @@ api_location:
  - Wbemsvc.dll
 api_name:
  - IWbemBackupRestore
- - WbemBackupRestore
 ---
 
 # IWbemBackupRestore interface
@@ -75,3 +74,4 @@ For computers running Windows, any local user can make these calls,  but remote 
 
 <a href="/windows/desktop/WmiSdk/com-api-for-wmi">COM API for
     WMI</a>
+

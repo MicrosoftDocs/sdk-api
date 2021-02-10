@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSource2.get_AudioCounter
+ - IMSVidStreamBufferSource2::get_AudioCounter
 ---
 
 # IMSVidStreamBufferSource2::get_AudioCounter
@@ -92,3 +92,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_videocounter">get_VideoCounter</a>
+

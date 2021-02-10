@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.IsIndexed
- - IEnumCERTVIEWCOLUMN.IsIndexed
+ - IEnumCERTVIEWCOLUMN::IsIndexed
 ---
 
 # IEnumCERTVIEWCOLUMN::IsIndexed
@@ -112,3 +111,4 @@ if (S_OK == hr)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>
+

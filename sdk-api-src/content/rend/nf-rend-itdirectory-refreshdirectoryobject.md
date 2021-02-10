@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory.RefreshDirectoryObject
+ - ITDirectory::RefreshDirectoryObject
 ---
 
 # ITDirectory::RefreshDirectoryObject
@@ -112,3 +112,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+

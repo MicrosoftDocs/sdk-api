@@ -44,6 +44,7 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
+ - IKEEXT_POLICY2_
  - IKEEXT_POLICY2
 ---
 
@@ -179,3 +180,4 @@ The number of seconds for which IKEv2 SA negotiation packets will be retransmitt
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

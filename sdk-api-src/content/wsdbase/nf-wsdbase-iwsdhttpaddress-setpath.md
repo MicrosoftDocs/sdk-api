@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDHttpAddress.SetPath
+ - IWSDHttpAddress::SetPath
 ---
 
 # IWSDHttpAddress::SetPath
@@ -110,3 +110,4 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a>
+

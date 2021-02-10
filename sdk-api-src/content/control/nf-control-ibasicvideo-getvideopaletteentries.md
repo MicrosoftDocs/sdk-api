@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo.GetVideoPaletteEntries
+ - IBasicVideo::GetVideoPaletteEntries
 ---
 
 # IBasicVideo::GetVideoPaletteEntries
@@ -133,3 +133,4 @@ The Video Renderer's input pin is not connected.
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
+

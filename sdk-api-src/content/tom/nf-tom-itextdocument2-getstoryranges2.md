@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2.GetStoryRanges2
+ - ITextDocument2::GetStoryRanges2
 ---
 
 # ITextDocument2::GetStoryRanges2
@@ -73,3 +73,4 @@ Call this method only if the <a href="/windows/desktop/api/tom/nf-tom-itextdocum
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
+

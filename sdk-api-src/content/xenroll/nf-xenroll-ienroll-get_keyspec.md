@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.KeySpec
- - IEnroll.get_KeySpec
- - IEnroll.put_KeySpec
+ - IEnroll::get_KeySpec
 ---
 
 # IEnroll::get_KeySpec
@@ -86,3 +84,4 @@ The <b>KeySpec</b> property affects the behavior of the following methods:
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

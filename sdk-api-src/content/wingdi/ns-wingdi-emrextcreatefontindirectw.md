@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMREXTCREATEFONTINDIRECTW
+ - PEMREXTCREATEFONTINDIRECTW
  - EMREXTCREATEFONTINDIRECTW
 ---
 
@@ -81,3 +83,4 @@ Logical font.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+

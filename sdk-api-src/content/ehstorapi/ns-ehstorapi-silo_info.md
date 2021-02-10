@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
+ - _SILO_INFO
  - SILO_INFO
 ---
 

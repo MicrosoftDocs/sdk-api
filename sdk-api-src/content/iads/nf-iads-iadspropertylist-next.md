@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyList.Next
+ - IADsPropertyList::Next
 ---
 
 # IADsPropertyList::Next
@@ -148,3 +148,4 @@ IADsPropertyEntry* GetNextEntry(IADsPropertyList* pList)
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

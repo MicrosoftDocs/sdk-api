@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem.CreateSettingByPath
+ - ISettingsItem::CreateSettingByPath
 ---
 
 # ISettingsItem::CreateSettingByPath
@@ -147,3 +147,4 @@ Indicates that the path contains an unrecognized XML escape sequence.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertView2.OpenConnection
- - ICertView.OpenConnection
- - CCertView.OpenConnection
+ - ICertView::OpenConnection
 ---
 
 # ICertView::OpenConnection
@@ -140,3 +138,4 @@ error:
 
 
 <a href="/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a>
+

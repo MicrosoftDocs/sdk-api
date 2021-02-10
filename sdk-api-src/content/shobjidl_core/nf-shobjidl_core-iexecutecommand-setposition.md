@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExecuteCommand.SetPosition
+ - IExecuteCommand::SetPosition
 ---
 
 # IExecuteCommand::SetPosition
@@ -65,3 +65,4 @@ The screen coordinates at which the user right-clicked to invoke the shortcut me
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

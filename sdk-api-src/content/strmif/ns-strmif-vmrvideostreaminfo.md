@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - _VMRVIDEOSTREAMINFO
  - VMRVIDEOSTREAMINFO
 ---
 
@@ -90,3 +91,4 @@ Specifies the position of the image in composition space.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

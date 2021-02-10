@@ -46,6 +46,8 @@ api_type:
 api_location:
  - cfg.h
 api_name:
+ - _PNP_VETO_TYPE
+ - PPNP_VETO_TYPE
  - PNP_VETO_TYPE
 ---
 
@@ -264,3 +266,4 @@ A Windows service name.
 
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_device_eject_exw">CM_Request_Device_Eject_Ex</a>
+

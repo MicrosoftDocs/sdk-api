@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
+ - _CONNECTION_INFO_1
+ - PCONNECTION_INFO_1
  - CONNECTION_INFO_1
 ---
 
@@ -186,3 +188,4 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 
 
 <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
+

@@ -9,6 +9,8 @@ tech.root: buses
 f1_keywords:
  - winusbio
  - winusbio/winusbio
+api_name:
+ - winusbio
 ---
 
 # Winusbio.h header

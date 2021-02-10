@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font.Font
+ - Font::Font
 ---
 
 # Font::Font(IN HDC,IN const HFONT)

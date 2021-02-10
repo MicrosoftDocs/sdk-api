@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
+ - PBANDINFOSFB
  - BANDINFOSFB
 ---
 
@@ -223,3 +224,4 @@ A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ish
 Type: <b>PIDLIST_ABSOLUTE</b>
 
 A PIDL.
+

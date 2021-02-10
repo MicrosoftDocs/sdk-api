@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageSiloAction.Invoke
+ - IEnhancedStorageSiloAction::Invoke
 ---
 
 # IEnhancedStorageSiloAction::Invoke
@@ -79,3 +79,4 @@ The action was invoked successfully.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a>
+

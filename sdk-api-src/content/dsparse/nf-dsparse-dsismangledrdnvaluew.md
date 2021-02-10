@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsIsMangledRdnValueW
  - dsparse/DsIsMangledRdnValueW
+ - DsIsMangledRdnValue
+ - dsparse/DsIsMangledRdnValue
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsIsMangledRdnValue
- - DsIsMangledRdnValueA
  - DsIsMangledRdnValueW
+ - DsIsMangledRdnValue
 ---
 
 # DsIsMangledRdnValueW function
@@ -94,3 +95,4 @@ This function determines if the given relative distinguished name value is mangl
 
 
 <a href="/windows/desktop/api/dsparse/nf-dsparse-dsismangleddna">DsIsMangledDn</a>
+

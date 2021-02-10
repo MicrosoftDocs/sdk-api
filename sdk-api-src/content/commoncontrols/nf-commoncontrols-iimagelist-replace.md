@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList.Replace
+ - IImageList::Replace
 ---
 
 # IImageList::Replace
@@ -83,3 +83,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <b>IImageList::Replace</b> copies the bitmap to an internal data structure. You must use <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> to delete <i>hbmImage</i> and <i>hbmMask</i> after the method returns.
 
 To use <b>IImageList::Replace</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

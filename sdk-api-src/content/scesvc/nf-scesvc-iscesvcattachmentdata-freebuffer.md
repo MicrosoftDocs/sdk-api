@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsecedit.dll
 api_name:
- - ISceSvcAttachmentData.FreeBuffer
+ - ISceSvcAttachmentData::FreeBuffer
 ---
 
 # ISceSvcAttachmentData::FreeBuffer
@@ -74,3 +74,4 @@ You should call this method to free the data buffer returned by
 
 
 <a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-getdata">ISceSvcAttachmentData::GetData</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.SaveAdd
+ - Image::SaveAdd
 ---
 
 # Image::SaveAdd(IN Image,IN const EncoderParameters)
@@ -110,3 +110,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
+

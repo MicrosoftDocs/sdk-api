@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetInheritanceSourceW
  - aclapi/GetInheritanceSourceW
+ - GetInheritanceSource
+ - aclapi/GetInheritanceSource
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Advapi32.dll
 api_name:
- - GetInheritanceSource
- - GetInheritanceSourceA
  - GetInheritanceSourceW
+ - GetInheritanceSource
 ---
 
 # GetInheritanceSourceW function
@@ -119,3 +120,4 @@ This function does not handle race conditions. If your thread calls this functio
 ## -see-also
 
 <a href="/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>
+

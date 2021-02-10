@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - ktmtypes
  - ktmtypes/ktmtypes
+api_name:
+ - ktmtypes
 ---
 
 # Ktmtypes.h header

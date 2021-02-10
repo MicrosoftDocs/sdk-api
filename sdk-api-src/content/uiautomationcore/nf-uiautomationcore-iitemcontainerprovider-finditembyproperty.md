@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IItemContainerProvider.FindItemByProperty
+ - IItemContainerProvider::FindItemByProperty
 ---
 
 # IItemContainerProvider::FindItemByProperty
@@ -109,3 +109,4 @@ items. In this case, <i>value</i> should be VT_EMPTY.
 
 
 <b>Reference</b>
+

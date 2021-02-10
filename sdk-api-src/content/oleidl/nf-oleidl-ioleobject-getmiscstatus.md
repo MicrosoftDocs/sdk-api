@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.GetMiscStatus
+ - IOleObject::GetMiscStatus
 ---
 
 # IOleObject::GetMiscStatus
@@ -139,3 +139,4 @@ Implementation normally consists of delegating the call to the default handler.
 
 
 <a href="/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a>
+

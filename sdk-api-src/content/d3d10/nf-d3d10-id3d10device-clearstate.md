@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d10.h
 api_name:
- - ID3D10Device.ClearState
+ - ID3D10Device::ClearState
 ---
 
 # ID3D10Device::ClearState
@@ -57,3 +57,4 @@ Restore all default device settings; return the device to the state it was in wh
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

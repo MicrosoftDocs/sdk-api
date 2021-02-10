@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem.get__NewEnum
+ - IFsiDirectoryItem::get__NewEnum
 ---
 
 # IFsiDirectoryItem::get__NewEnum
@@ -110,3 +110,4 @@ To retrieve a single item, see the <a href="/windows/desktop/api/imapi2fs/nf-ima
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_enumfsiitems">IFsiDirectoryItem::get_EnumFsiItems</a>
+

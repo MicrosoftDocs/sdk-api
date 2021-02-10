@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
+ - _WLX_PROFILE_V2_0
+ - PWLX_PROFILE_V2_0
  - WLX_PROFILE_V2_0
 ---
 
@@ -133,3 +135,4 @@ Your GINA DLL may use two structures to provide profile information: <b>WLX_PROF
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a>
+

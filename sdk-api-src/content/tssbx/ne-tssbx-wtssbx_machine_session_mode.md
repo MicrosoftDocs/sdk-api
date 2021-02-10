@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
+ - __MIDL_IWTSSBPlugin_0002
  - WTSSBX_MACHINE_SESSION_MODE
 ---
 

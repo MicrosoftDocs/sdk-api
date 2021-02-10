@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdGetDriverInfo
+ - PDD_GETDRIVERINFO
 ---
 
 ## -description
@@ -117,3 +117,4 @@ Do not assume anything about the number of times DirectDraw will call the driver
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+

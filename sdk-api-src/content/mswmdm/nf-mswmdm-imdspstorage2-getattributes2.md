@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage2.GetAttributes2
+ - IMDSPStorage2::GetAttributes2
 ---
 
 # IMDSPStorage2::GetAttributes2
@@ -95,3 +95,4 @@ This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOT
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-setattributes2">IMDSPStorage2::SetAttributes2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IEnumerableView.SetEnumReadyCallback
+ - IEnumerableView::SetEnumReadyCallback
 ---
 
 # IEnumerableView::SetEnumReadyCallback
@@ -65,3 +65,4 @@ A pointer to the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ienumreadyca
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
+

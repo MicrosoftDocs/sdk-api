@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_event_record_change_data_tag
+ - PPEER_EVENT_RECORD_CHANGE_DATA
  - PEER_EVENT_RECORD_CHANGE_DATA
 ---
 
@@ -89,3 +91,4 @@ Specifies the unique  record type of a changed record.
 
 
 <a href="/windows/desktop/api/p2p/ne-p2p-peer_record_change_type">PEER_RECORD_CHANGE_TYPE</a>
+

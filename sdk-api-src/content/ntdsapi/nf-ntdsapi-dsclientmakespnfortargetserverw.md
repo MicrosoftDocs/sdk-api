@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsClientMakeSpnForTargetServerW
  - ntdsapi/DsClientMakeSpnForTargetServerW
+ - DsClientMakeSpnForTargetServer
+ - ntdsapi/DsClientMakeSpnForTargetServer
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsClientMakeSpnForTargetServer
- - DsClientMakeSpnForTargetServerA
  - DsClientMakeSpnForTargetServerW
+ - DsClientMakeSpnForTargetServer
 ---
 
 # DsClientMakeSpnForTargetServerW function
@@ -103,3 +104,4 @@ The instance name portion (second position) is always set to default. The port a
 
 
 <a href="/windows/desktop/api/dsparse/nf-dsparse-dsmakespna">DsMakeSpn</a>
+

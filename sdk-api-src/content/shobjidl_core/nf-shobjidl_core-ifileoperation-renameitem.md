@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.RenameItem
+ - IFileOperation::RenameItem
 ---
 
 # IFileOperation::RenameItem
@@ -103,3 +103,4 @@ This method does not rename the item, it merely declares the item to be renamed.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-prerenameitem">PreRenameItem</a>
+

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance.GetWCHAR
+ - CInstance::GetWCHAR
 ---
 
 # CInstance::GetWCHAR
@@ -84,3 +84,4 @@ It is the responsibility of the implementer to free the memory occupied by the <
 
 
 Use <b>free</b> rather than <b>delete</b> because the provider framework allocates the string using <b>malloc</b> and does not use the <b>new</b> operator.
+

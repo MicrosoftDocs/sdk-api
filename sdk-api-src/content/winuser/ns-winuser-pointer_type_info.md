@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagPOINTER_TYPE_INFO
+ - PPOINTER_TYPE_INFO
  - POINTER_TYPE_INFO
 ---
 

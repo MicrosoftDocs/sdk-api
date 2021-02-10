@@ -43,7 +43,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsPathname
- - Pathname
 ---
 
 # IADsPathname interface
@@ -114,3 +113,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPathname</b> interface in
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

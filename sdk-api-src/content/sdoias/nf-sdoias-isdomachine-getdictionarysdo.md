@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoMachine.GetDictionarySDO
- - SdoMachine.GetDictionarySDO
+ - ISdoMachine::GetDictionarySDO
 ---
 
 # ISdoMachine::GetDictionarySDO
@@ -82,3 +81,4 @@ Before calling this method, use the
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
+

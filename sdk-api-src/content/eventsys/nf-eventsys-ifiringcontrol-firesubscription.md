@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IFiringControl.FireSubscription
+ - IFiringControl::FireSubscription
 ---
 
 # IFiringControl::FireSubscription
@@ -80,3 +80,4 @@ The <b>FireSubscription</b> method fires an event to the subscriber associated w
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a>
+

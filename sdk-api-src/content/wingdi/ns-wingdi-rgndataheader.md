@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - _RGNDATAHEADER
+ - PRGNDATAHEADER
  - RGNDATAHEADER
 ---
 
@@ -97,3 +99,4 @@ A bounding rectangle for the region in logical units.
 
 
 <a href="/windows/desktop/gdi/regions">Regions Overview</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Npapi.h
 api_name:
+ - _NOTIFYCANCEL
+ - LPNOTIFYCANCEL
  - NOTIFYCANCEL
 ---
 
@@ -79,3 +81,4 @@ Currently, the only flag supported is CONNECT_UPDATE_PROFILE, which indicates wh
 ### -field fForce
 
 Indicates whether the disconnect should continue even if there are open files or jobs on the connection. If this field is <b>TRUE</b>, the connection is canceled regardless of open files or jobs. If this field is <b>FALSE</b>, the connection will not be canceled if there are open files or jobs.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTogglePattern.Toggle
+ - IUIAutomationTogglePattern::Toggle
 ---
 
 # IUIAutomationTogglePattern::Toggle
@@ -63,3 +63,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 A control cycles through its states in this order: <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState_On</a>, <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState_Off</a> and, if supported, <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-togglestate">ToggleState_Indeterminate</a>.
+

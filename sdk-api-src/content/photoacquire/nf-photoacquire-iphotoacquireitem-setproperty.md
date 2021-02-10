@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.SetProperty
+ - IPhotoAcquireItem::SetProperty
 ---
 
 # IPhotoAcquireItem::SetProperty
@@ -96,3 +96,4 @@ The property is stored in memory, but is not written to the file.
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
+

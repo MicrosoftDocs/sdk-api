@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Bitmap1.GetColorContext
+ - ID2D1Bitmap1::GetColorContext
 ---
 
 # ID2D1Bitmap1::GetColorContext
@@ -67,3 +67,4 @@ If the bitmap was created without specifying a color context, the returned conte
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
+

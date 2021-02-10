@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFCollection.RemoveElement
+ - IMFCollection::RemoveElement
 ---
 
 # IMFCollection::RemoveElement
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>
+

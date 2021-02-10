@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnReconversion.Reconvert
+ - ITfFnReconversion::Reconvert
 ---
 
 # ITfFnReconversion::Reconvert
@@ -130,3 +130,4 @@ If this method causes some type of user interface to be displayed, such as a dia
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
+

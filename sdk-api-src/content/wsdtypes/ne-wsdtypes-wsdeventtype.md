@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsdtypes.h
 api_name:
+ - _WSDEventType
  - WSDEventType
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumLocation.Next
+ - IEnumLocation::Next
 ---
 
 # IEnumLocation::Next
@@ -128,3 +128,4 @@ Insufficient memory exists to perform the operation.
 TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlocationinfo">ITLocationInfo</a> interface returned by <b>IEnumLocation::Next</b>. The application must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
 <b>ITLocationInfo</b> interface to free resources associated with it.
+

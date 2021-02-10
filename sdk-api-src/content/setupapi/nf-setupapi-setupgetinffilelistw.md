@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupGetInfFileListW
  - setupapi/SetupGetInfFileListW
+ - SetupGetInfFileList
+ - setupapi/SetupGetInfFileList
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupGetInfFileList
- - SetupGetInfFileListA
  - SetupGetInfFileListW
+ - SetupGetInfFileList
 ---
 
 # SetupGetInfFileListW function
@@ -138,3 +139,4 @@ If multiple INF file styles are returned by this function, the style of a partic
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a>
+

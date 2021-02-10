@@ -9,6 +9,8 @@ tech.root: controls
 f1_keywords:
  - tom
  - tom/tom
+api_name:
+ - tom
 ---
 
 # Tom.h header

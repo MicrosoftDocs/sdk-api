@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0_
  - FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0
 ---
 
@@ -77,3 +78,4 @@ See [FWPM_PROVIDER_CONTEXT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwp
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IRowsetEvents.OnRowsetEvent
+ - IRowsetEvents::OnRowsetEvent
 ---
 
 # IRowsetEvents::OnRowsetEvent
@@ -111,3 +111,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
+

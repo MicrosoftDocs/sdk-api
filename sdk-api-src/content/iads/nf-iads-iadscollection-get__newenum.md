@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsCollection.get__NewEnum
+ - IADsCollection::get__NewEnum
 ---
 
 # IADsCollection::get__NewEnum
@@ -194,3 +194,4 @@ Cleanup:
 
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+

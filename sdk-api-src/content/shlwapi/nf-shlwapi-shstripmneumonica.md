@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHStripMneumonicA
  - shlwapi/SHStripMneumonicA
+ - SHStripMneumonic
+ - shlwapi/SHStripMneumonic
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - SHStripMneumonic
  - SHStripMneumonicA
- - SHStripMneumonicW
+ - SHStripMneumonic
 ---
 
 # SHStripMneumonicA function
@@ -112,3 +113,4 @@ The function supports the following mnemonic formats.
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
+

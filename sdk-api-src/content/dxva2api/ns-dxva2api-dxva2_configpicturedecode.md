@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_ConfigPictureDecode
  - DXVA2_ConfigPictureDecode
 ---
 
@@ -198,3 +199,4 @@ Contains decoder-specific configuration information.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

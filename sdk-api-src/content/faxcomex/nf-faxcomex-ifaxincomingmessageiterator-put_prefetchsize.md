@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessageIterator.PrefetchSize
- - IFaxIncomingMessageIterator.get_PrefetchSize
- - IFaxIncomingMessageIterator.put_PrefetchSize
+ - IFaxIncomingMessageIterator::put_PrefetchSize
 ---
 
 # IFaxIncomingMessageIterator::put_PrefetchSize
@@ -75,3 +73,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-prefetchsize">PrefetchSize</a>
+

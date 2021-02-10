@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _POLICY_AUDIT_EVENTS_INFO
+ - PPOLICY_AUDIT_EVENTS_INFO
  - POLICY_AUDIT_EVENTS_INFO
 ---
 
@@ -153,3 +155,4 @@ LSA Policy defines a mask for the valid event auditing options. The POLICY_AUDIT
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
+

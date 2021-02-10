@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerTarget.ReleaseFromReferenceTracker
+ - IReferenceTrackerTarget::ReleaseFromReferenceTracker
 ---
 
 # IReferenceTrackerTarget::xaml
@@ -57,3 +57,4 @@ Releases the XAML object reference marked in a previous call to <a href="/window
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget">IReferenceTrackerTarget</a>
+

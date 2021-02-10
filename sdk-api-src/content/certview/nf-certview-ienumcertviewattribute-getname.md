@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWATTRIBUTE.GetName
- - IEnumCERTVIEWATTRIBUTE.GetName
+ - IEnumCERTVIEWATTRIBUTE::GetName
 ---
 
 # IEnumCERTVIEWATTRIBUTE::GetName
@@ -124,3 +123,4 @@ if (NULL != bstrAttribName)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-skip">IEnumCERTVIEWATTRIBUTE::Skip</a>
+

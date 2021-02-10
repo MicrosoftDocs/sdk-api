@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1
+ - IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
 ---
 
 # IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
@@ -90,3 +90,4 @@ Use this method to create a remote dictionary from a stream whose contents could
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
+

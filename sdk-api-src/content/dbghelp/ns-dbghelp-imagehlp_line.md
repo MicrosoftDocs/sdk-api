@@ -46,9 +46,8 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - IMAGEHLP_LINE64
- - IMAGEHLP_LINE64
- - IMAGEHLP_LINEW64
+ - _IMAGEHLP_LINE
+ - PIMAGEHLP_LINE
  - IMAGEHLP_LINE
 ---
 
@@ -125,3 +124,4 @@ typedef struct _IMAGEHLP_LINEW {
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetlineprev">SymGetLinePrev64</a>
+

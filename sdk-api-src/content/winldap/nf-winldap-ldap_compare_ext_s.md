@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_compare_ext_s
- - ldap_compare_ext_sA
- - ldap_compare_ext_sW
 ---
 
 # ldap_compare_ext_s function
@@ -124,3 +122,4 @@ Multithreading: Calls to <b>ldap_compare_ext_s</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s">ldap_compare_s</a>
+

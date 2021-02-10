@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDEndpointProxy.GetFaultInfo
+ - IWSDEndpointProxy::GetFaultInfo
 ---
 
 # IWSDEndpointProxy::GetFaultInfo
@@ -99,3 +99,4 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
+

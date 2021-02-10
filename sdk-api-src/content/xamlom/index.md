@@ -9,6 +9,8 @@ tech.root: xaml_diagnostics
 f1_keywords:
  - xamlom
  - xamlom/xamlom
+api_name:
+ - xamlom
 ---
 
 # Xamlom.h header

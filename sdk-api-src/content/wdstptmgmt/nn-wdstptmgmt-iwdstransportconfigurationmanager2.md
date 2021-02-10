@@ -43,8 +43,6 @@ api_location:
  - Wdstptmgmt.dll
 api_name:
  - IWdsTransportConfigurationManager2
- - IWdsTransportConfigurationManager2.MulticastSessionPolicy
- - IWdsTransportConfigurationManager2.get_MulticastSessionPolicy
 ---
 
 # IWdsTransportConfigurationManager2 interface
@@ -59,3 +57,4 @@ A client application can obtain an interface pointer to an instance of the <b>IW
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a>
+

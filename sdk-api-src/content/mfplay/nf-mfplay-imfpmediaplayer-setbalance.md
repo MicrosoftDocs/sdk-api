@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.SetBalance
+ - IMFPMediaPlayer::SetBalance
 ---
 
 # IMFPMediaPlayer::SetBalance
@@ -138,3 +138,4 @@ If you call this method before playback starts, the setting is applied when play
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

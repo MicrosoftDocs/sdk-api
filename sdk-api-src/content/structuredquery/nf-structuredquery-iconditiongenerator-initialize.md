@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionGenerator.Initialize
+ - IConditionGenerator::Initialize
 ---
 
 # IConditionGenerator::Initialize
@@ -97,3 +97,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>Reference</b>
+

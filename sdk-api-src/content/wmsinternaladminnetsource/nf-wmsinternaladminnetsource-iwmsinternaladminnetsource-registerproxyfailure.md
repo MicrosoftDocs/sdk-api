@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource.RegisterProxyFailure
+ - IWMSInternalAdminNetSource::RegisterProxyFailure
 ---
 
 # IWMSInternalAdminNetSource::RegisterProxyFailure
@@ -72,3 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
+

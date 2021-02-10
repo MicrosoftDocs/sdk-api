@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinSafer.h
 api_name:
+ - _SAFER_HASH_IDENTIFICATION
+ - PSAFER_HASH_IDENTIFICATION
  - SAFER_HASH_IDENTIFICATION
 ---
 
@@ -89,3 +91,4 @@ The size of the original file in bytes.
 ### -field dwSaferFlags
 
 Reserved for future use.
+

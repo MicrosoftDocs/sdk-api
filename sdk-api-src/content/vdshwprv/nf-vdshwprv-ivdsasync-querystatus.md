@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAsync.QueryStatus
+ - IVdsAsync::QueryStatus
 ---
 
 # IVdsAsync::QueryStatus
@@ -113,3 +113,4 @@ The <b>QueryStatus</b> method does not wait for
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
+

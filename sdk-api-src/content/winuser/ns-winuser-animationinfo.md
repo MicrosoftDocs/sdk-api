@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagANIMATIONINFO
+ - LPANIMATIONINFO
  - ANIMATIONINFO
 ---
 
@@ -70,3 +72,4 @@ If this member is nonzero, minimize and restore animation is enabled; otherwise 
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

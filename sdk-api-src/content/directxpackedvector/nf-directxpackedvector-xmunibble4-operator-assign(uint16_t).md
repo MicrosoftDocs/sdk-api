@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4.operator =
+ - XMUNIBBLE4::operator=
 ---
 
 # XMUNIBBLE4::operator-assign(uint16_t)

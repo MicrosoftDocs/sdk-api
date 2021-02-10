@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.GetMiterLimit
+ - Pen::GetMiterLimit
 ---
 
 # Pen::GetMiterLimit
@@ -96,3 +96,4 @@ REAL miterLimit = pen.GetMiterLimit();
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+

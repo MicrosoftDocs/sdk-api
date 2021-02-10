@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMEnumStorage.Next
+ - IWMDMEnumStorage::Next
 ---
 
 # IWMDMEnumStorage::Next
@@ -171,3 +171,4 @@ e_Exit:
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage Interface</a>
+

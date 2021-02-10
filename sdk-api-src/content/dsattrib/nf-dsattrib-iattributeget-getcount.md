@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dsattrib.h
 api_name:
- - IAttributeGet.GetCount
+ - IAttributeGet::GetCount
 ---
 
 # IAttributeGet::GetCount
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeget">IAttributeGet Interface</a>
+

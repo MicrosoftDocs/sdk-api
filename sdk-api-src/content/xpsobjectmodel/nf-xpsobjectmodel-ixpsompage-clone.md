@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage.Clone
+ - IXpsOMPage::Clone
 ---
 
 # IXpsOMPage::Clone
@@ -119,3 +119,4 @@ The owner of the new interface is <b>NULL</b>.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

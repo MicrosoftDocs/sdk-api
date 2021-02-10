@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IEnumWIA_FORMAT_INFO.GetCount
+ - IEnumWIA_FORMAT_INFO::GetCount
 ---
 
 # IEnumWIA_FORMAT_INFO::GetCount

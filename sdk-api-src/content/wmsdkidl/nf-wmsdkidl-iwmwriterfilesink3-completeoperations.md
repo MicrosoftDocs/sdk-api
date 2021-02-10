@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.CompleteOperations
+ - IWMWriterFileSink3::CompleteOperations
 ---
 
 # IWMWriterFileSink3::CompleteOperations
@@ -72,3 +72,4 @@ This method is called when writes are performed as a result of calls to <a href=
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setunbufferedio">IWMWriterFileSink3::SetUnbufferedIO</a>
+

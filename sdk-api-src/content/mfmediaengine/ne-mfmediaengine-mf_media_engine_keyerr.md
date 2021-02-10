@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
+ - _MF_MEDIA_ENGINE_KEYERR
  - MF_MEDIA_ENGINE_KEYERR
 ---
 
@@ -87,3 +88,4 @@ An error with the domain occurred.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

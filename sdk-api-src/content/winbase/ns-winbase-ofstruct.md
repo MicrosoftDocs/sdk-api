@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _OFSTRUCT
+ - LPOFSTRUCT
  - OFSTRUCT
 ---
 
@@ -87,3 +89,4 @@ The path and file name of the file.
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
+

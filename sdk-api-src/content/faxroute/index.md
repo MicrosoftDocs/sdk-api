@@ -9,6 +9,8 @@ tech.root: fax
 f1_keywords:
  - faxroute
  - faxroute/faxroute
+api_name:
+ - faxroute
 ---
 
 # Faxroute.h header

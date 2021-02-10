@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device.CheckCounter
+ - ID3D10Device::CheckCounter
 ---
 
 # ID3D10Device::CheckCounter
@@ -122,3 +122,4 @@ Length parameters can be <b>NULL</b>, which indicates the application is not int
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

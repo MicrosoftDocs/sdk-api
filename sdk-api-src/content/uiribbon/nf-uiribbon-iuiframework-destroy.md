@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIFramework.Destroy
+ - IUIFramework::Destroy
 ---
 
 # IUIFramework::Destroy
@@ -75,3 +75,4 @@ If  <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize">
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+

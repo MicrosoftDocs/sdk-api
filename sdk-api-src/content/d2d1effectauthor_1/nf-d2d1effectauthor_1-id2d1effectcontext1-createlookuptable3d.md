@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2D1.dll
 api_name:
- - ID2D1EffectContext1.CreateLookupTable3D
+ - ID2D1EffectContext1::CreateLookupTable3D
 ---
 
 # ID2D1EffectContext1::CreateLookupTable3D
@@ -101,3 +101,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor_1/nn-d2d1effectauthor_1-id2d1effectcontext1">ID2D1EffectContext1</a>
+

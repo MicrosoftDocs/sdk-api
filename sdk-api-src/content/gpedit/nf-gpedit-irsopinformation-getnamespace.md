@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IRSOPInformation.GetNameSpace
+ - IRSOPInformation::GetNamespace
 ---
 
 # IRSOPInformation::GetNamespace
@@ -102,3 +102,4 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-irsopinformation">IRSOPInformation</a>
+

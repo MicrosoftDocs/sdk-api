@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRoleDefinition.DeleteRoleDefinition
+ - IAzRoleDefinition::DeleteRoleDefinition
 ---
 
 # IAzRoleDefinition::DeleteRoleDefinition
@@ -67,3 +67,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 If there are any references to an <a href="/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> object that has been deleted from the cache, the <b>IAzRoleDefinition</b> object can no longer be used. In C++, you must release references to deleted <b>IAzRoleDefinition</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+

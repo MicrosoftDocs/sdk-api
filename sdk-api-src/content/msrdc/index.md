@@ -9,6 +9,8 @@ tech.root: rdc
 f1_keywords:
  - msrdc
  - msrdc/msrdc
+api_name:
+ - msrdc
 ---
 
 # Msrdc.h header

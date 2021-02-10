@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.LastAccessTime
- - IFsrmPropertyBag.get_LastAccessTime
+ - IFsrmPropertyBag::get_LastAccessTime
 ---
 
 # IFsrmPropertyBag::get_LastAccessTime
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
+

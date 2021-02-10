@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_ID
+ - PCERT_ID
  - CERT_ID
 ---
 
@@ -114,3 +116,4 @@ A
 ### -field DUMMYUNIONNAME.HashId
 
 A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> that contains a SHA1 <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the certificate to be used as a unique identifier of the certificate.
+

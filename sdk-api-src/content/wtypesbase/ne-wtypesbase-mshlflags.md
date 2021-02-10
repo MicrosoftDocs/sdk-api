@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wtypesbase.h
 api_name:
+ - tagMSHLFLAGS
  - MSHLFLAGS
 ---
 
@@ -99,3 +100,4 @@ Adding this flag to an original object marshaling (as opposed to marshaling a pr
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
+

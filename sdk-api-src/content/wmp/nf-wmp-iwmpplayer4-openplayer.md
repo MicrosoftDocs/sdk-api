@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer4.openPlayer
+ - IWMPPlayer4::openPlayer
 ---
 
 # IWMPPlayer4::openPlayer
@@ -95,3 +95,4 @@ If this method is called from a Windows Media Player ActiveX control embedded in
 
 
 <a href="/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-switchtoplayerapplication">IWMPPlayerAppication::switchToPlayerApplication</a>
+

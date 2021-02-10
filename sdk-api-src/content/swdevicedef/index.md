@@ -9,6 +9,8 @@ tech.root: swdevice
 f1_keywords:
  - swdevicedef
  - swdevicedef/swdevicedef
+api_name:
+ - swdevicedef
 ---
 
 # Swdevicedef.h header

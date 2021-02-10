@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetServiceKeyNameW
  - winsvc/GetServiceKeyNameW
+ - GetServiceKeyName
+ - winsvc/GetServiceKeyName
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-Ms-Win-Service-Core-L1-1-2.dll
  - SecHost.dll
 api_name:
- - GetServiceKeyName
- - GetServiceKeyNameA
  - GetServiceKeyNameW
+ - GetServiceKeyName
 ---
 
 # GetServiceKeyNameW function
@@ -115,3 +116,4 @@ To map the service name to the display name, use the
 
 
 <a href="/windows/desktop/Services/service-functions">Service Functions</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LogonUserExA
  - winbase/LogonUserExA
+ - LogonUserEx
+ - winbase/LogonUserEx
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Security-Logon-L1-1-1.dll
 api_name:
- - LogonUserEx
  - LogonUserExA
- - LogonUserExW
+ - LogonUserEx
 ---
 
 # LogonUserExA function
@@ -291,3 +292,4 @@ If the <b>LogonUserEx</b> call is successful, the system notifies network provid
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-quota_limits">QUOTA_LIMITS</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_SUPPLIED_CREDENTIAL
+ - PSECPKG_SUPPLIED_CREDENTIAL
  - SECPKG_SUPPLIED_CREDENTIAL
 ---
 
@@ -81,3 +83,4 @@ The credentials in the <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth
 ### -field CredFlags
 
 The authentication identity flags.
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagTITLEBARINFO
+ - PTITLEBARINFO
  - TITLEBARINFO
 ---
 
@@ -189,3 +191,4 @@ The element is in the pressed state.
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

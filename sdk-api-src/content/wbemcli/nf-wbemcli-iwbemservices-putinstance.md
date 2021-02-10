@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.PutInstance
+ - IWbemServices::PutInstance
 ---
 
 # IWbemServices::PutInstance
@@ -171,3 +171,4 @@ Calling
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
+

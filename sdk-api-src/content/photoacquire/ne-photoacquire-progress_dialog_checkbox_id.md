@@ -44,6 +44,7 @@ api_type:
 api_location:
  - PhotoAcquire.h
 api_name:
+ - tagPROGRESS_DIALOG_CHECKBOX_ID
  - PROGRESS_DIALOG_CHECKBOX_ID
 ---
 
@@ -63,3 +64,4 @@ Specifies PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT .
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
+

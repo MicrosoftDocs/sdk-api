@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider.ScrollIntoView
+ - ITextRangeProvider::ScrollIntoView
 ---
 
 # ITextRangeProvider::ScrollIntoView
@@ -92,3 +92,4 @@ If the text range is hidden, the text control will scroll only if the hidden tex
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

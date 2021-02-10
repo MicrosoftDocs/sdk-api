@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.Recognizer
- - IInkRecognizerContext.get_Recognizer
- - InkRecognizerContext.get_Recognizer
+ - IInkRecognizerContext::get_Recognizer
 ---
 
 # IInkRecognizerContext::get_Recognizer
@@ -72,3 +70,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+

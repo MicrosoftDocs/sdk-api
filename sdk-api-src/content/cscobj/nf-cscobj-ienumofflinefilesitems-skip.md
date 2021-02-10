@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IEnumOfflineFilesItems.Skip
+ - IEnumOfflineFilesItems::Skip
 ---
 
 # IEnumOfflineFilesItems::Skip
@@ -66,3 +66,4 @@ Returns <b>S_OK</b> if the number of elements skipped is <i>celt</i>; S_FALSE if
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilesitems">IEnumOfflineFilesItems</a>
+

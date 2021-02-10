@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Appmgmt.h
 api_name:
+ - _MANAGEDAPPLICATION
+ - PMANAGEDAPPLICATION
  - MANAGEDAPPLICATION
 ---
 
@@ -151,3 +153,4 @@ This parameter is <b>TRUE</b> if the application is currently installed and  is 
 
 
 <a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
+

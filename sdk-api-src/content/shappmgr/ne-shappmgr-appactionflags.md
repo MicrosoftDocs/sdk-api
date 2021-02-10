@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
+ - _tagAppActionFlags
  - APPACTIONFLAGS
 ---
 
@@ -95,3 +96,4 @@ Obsolete.
 ## -remarks
 
 The Add or Remove Programs application in Control Panel uses only <b><b>APPACTION_INSTALL</b></b> and <b><b>APPACTION_ADDLATER</b></b> for published applications.
+

@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.GetStream
- - IWMProfile2.GetStream
- - IWMProfile3.GetStream
+ - IWMProfile::GetStream
 ---
 
 # IWMProfile::GetStream
@@ -131,3 +129,4 @@ You can use this method in conjunction with <a href="/windows/desktop/api/wmsdki
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getstreambynumber">IWMProfile::GetStreamByNumber</a>
+

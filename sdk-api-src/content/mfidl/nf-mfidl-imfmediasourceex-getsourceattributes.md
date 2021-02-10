@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFMediaSourceEx.GetSourceAttributes
+ - IMFMediaSourceEx::GetSourceAttributes
 ---
 
 # IMFMediaSourceEx::GetSourceAttributes
@@ -98,3 +98,4 @@ Use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFA
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>
+

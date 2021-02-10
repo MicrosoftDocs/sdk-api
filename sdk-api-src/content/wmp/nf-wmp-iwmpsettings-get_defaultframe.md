@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings.get_defaultFrame
+ - IWMPSettings::get_defaultFrame
 ---
 
 # IWMPSettings::get_defaultFrame
@@ -99,3 +99,4 @@ This method is ignored when using the Netscape Navigator Java applet. In Navigat
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_defaultframe">IWMPSettings::put_defaultFrame</a>
+

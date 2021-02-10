@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeDisplay.SetTCDisplayEnable
+ - IAMTimecodeDisplay::SetTCDisplayEnable
 ---
 
 # IAMTimecodeDisplay::SetTCDisplayEnable
@@ -78,3 +78,4 @@ This method is not intended for rendering characters inside a filter graph, it i
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplayenable">IAMTimecodeDisplay::GetTCDisplayEnable</a>
+

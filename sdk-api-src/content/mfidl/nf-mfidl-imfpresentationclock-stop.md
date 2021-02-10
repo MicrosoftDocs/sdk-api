@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationClock.Stop
+ - IMFPresentationClock::Stop
 ---
 
 # IMFPresentationClock::Stop
@@ -112,3 +112,4 @@ The presentation clock initiates the state change by calling <a href="/windows/d
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

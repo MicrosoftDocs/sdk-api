@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_CREATEPALETTEDATA
+ - PDD_CREATEPALETTEDATA
  - DD_CREATEPALETTEDATA
 ---
 
@@ -85,3 +87,4 @@ Specifies a BOOL value that is set to <b>TRUE</b> to indicate that this process 
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createpalette">DdCreatePalette</a>
+

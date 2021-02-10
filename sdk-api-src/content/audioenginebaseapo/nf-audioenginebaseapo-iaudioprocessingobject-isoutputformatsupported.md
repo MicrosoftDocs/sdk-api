@@ -43,7 +43,7 @@ api_location:
  - Audioenginebaseapo.idl
  - Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.IsOutputFormatSupported
+ - IAudioProcessingObject::IsOutputFormatSupported
 ---
 
 # IAudioProcessingObject::IsOutputFormatSupported
@@ -133,3 +133,4 @@ There are differences in the implementation of the <code>IsOutputFormatSupported
 
 
 <a href="/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>
+

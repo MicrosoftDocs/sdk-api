@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMMetaData.GetItemCount
+ - IWMDMMetaData::GetItemCount
 ---
 
 # IWMDMMetaData::GetItemCount
@@ -167,3 +167,4 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
 
 
 <a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
+

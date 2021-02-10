@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcOptions.Query
+ - IRpcOptions::Query
 ---
 
 # IRpcOptions::Query
@@ -106,3 +106,4 @@ The possible values of the COMBND_SERVER_LOCALITY property, which describes the 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a>
+

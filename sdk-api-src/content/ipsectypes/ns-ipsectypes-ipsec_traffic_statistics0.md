@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_TRAFFIC_STATISTICS0_
  - IPSEC_TRAFFIC_STATISTICS0
 ---
 
@@ -84,3 +85,4 @@ Specifies offload byte count.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

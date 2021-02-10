@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame.GetIIDAndMethod
+ - ICallFrame::GetIIDAndMethod
 ---
 
 # ICallFrame::GetIIDAndMethod
@@ -98,3 +98,4 @@ An unexpected error has occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

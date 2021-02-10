@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFStreamSink.ProcessSample
+ - IMFStreamSink::ProcessSample
 ---
 
 # IMFStreamSink::ProcessSample
@@ -198,3 +198,4 @@ Not every media sink returns an error code in these situations.
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
+

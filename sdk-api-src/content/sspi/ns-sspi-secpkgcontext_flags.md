@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_Flags
+ - PSecPkgContext_Flags
  - SecPkgContext_Flags
 ---
 
@@ -61,3 +63,4 @@ The <b>SecPkgContext_Flags</b> structure contains information about the flags in
 ### -field Flags
 
 Flag values for the current security context. These values correspond to the flags negotiated by the <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> and <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> functions.
+

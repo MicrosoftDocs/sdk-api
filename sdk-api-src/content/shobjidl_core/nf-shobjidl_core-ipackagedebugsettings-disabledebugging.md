@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.DisableDebugging
+ - IPackageDebugSettings::DisableDebugging
 ---
 
 # IPackageDebugSettings::DisableDebugging
@@ -73,3 +73,4 @@ This method has no effect if the <a href="/previous-versions/hh438395(v=vs.85)">
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
+

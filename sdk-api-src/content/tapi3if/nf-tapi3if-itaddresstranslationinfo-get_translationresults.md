@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressTranslationInfo.get_TranslationResults
+ - ITAddressTranslationInfo::get_TranslationResults
 ---
 
 # ITAddressTranslationInfo::get_TranslationResults
@@ -116,3 +116,4 @@ Corresponds to the <b>dwTranslateResults</b> member of TAPI 2's
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
+

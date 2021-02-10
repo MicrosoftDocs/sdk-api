@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidFilePlayback.put_FileName
+ - IMSVidFilePlayback::put_FileName
 ---
 
 # IMSVidFilePlayback::put_FileName
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback Interface</a>
+

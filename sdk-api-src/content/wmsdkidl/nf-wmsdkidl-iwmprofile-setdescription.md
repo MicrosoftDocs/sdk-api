@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.SetDescription
- - IWMProfile2.SetDescription
- - IWMProfile3.SetDescription
+ - IWMProfile::SetDescription
 ---
 
 # IWMProfile::SetDescription
@@ -112,3 +110,4 @@ The <i>pwszDescription</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getdescription">IWMProfile::GetDescription</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IStringTable.DeleteString
+ - IStringTable::DeleteString
 ---
 
 # IStringTable::DeleteString
@@ -77,3 +77,4 @@ Strings in the string table are reference counted. For example, adding the strin
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-istringtable-deleteallstrings">IStringTable::DeleteAllStrings</a>
+

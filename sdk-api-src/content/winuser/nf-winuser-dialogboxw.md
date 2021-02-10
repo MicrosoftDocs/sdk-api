@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DialogBoxW
  - winuser/DialogBoxW
+ - DialogBox
+ - winuser/DialogBox
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DialogBox
- - DialogBoxA
  - DialogBoxW
+ - DialogBox
 ---
 
 # DialogBoxW macro
@@ -152,3 +153,4 @@ For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creatin
 
 
 <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
+

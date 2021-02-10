@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsComputerOperations.Shutdown
+ - IADsComputerOperations::Shutdown
 ---
 
 # IADsComputerOperations::Shutdown
@@ -71,3 +71,4 @@ For other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">A
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadscomputeroperations">IADsComputerOperations</a>
+

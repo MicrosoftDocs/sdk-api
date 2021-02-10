@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDevice.GetId
+ - IMMDevice::GetId
 ---
 
 # IMMDevice::GetId
@@ -113,3 +113,4 @@ For code examples that call the <b>GetId</b> method, see the following topics:
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a>
+

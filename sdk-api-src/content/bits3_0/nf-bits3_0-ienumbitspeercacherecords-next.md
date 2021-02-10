@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IEnumBitsPeerCacheRecords.Next
+ - IEnumBitsPeerCacheRecords::Next
 ---
 
 # IEnumBitsPeerCacheRecords::Next
@@ -104,3 +104,4 @@ Returned less than the number of requested elements.
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a>
+

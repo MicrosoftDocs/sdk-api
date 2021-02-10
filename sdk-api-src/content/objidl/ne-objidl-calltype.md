@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
+ - tagCALLTYPE
  - CALLTYPE
 ---
 
@@ -79,3 +80,4 @@ An asynchronous call has arrived with a new logical thread identifier and the ob
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>
+

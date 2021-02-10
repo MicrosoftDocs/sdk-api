@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Quartz.dll
 api_name:
- - IDvdControl.ParentalLevelSelect
+ - IDvdControl::ParentalLevelSelect
 ---
 
 # IDvdControl::ParentalLevelSelect
@@ -114,3 +114,4 @@ To disable parental management, pass 0xffffffff for <i>ulParentalLevel</i>. If p
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-parentalcountryselect">IDvdControl::ParentalCountrySelect</a>
+

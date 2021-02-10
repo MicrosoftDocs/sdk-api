@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGuids.lib
  - PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector.GetProperty
+ - IPortableDeviceConnector::GetProperty
 ---
 
 # IPortableDeviceConnector::GetProperty
@@ -150,3 +150,4 @@ __out BOOL* pIsConnected)
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wtypes.h
 api_name:
+ - _tagpropertykey
  - PROPERTYKEY
 ---
 
@@ -85,3 +86,4 @@ typedef PROPERTYKEY SHCOLUMNID;
 
 
 <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> can be considered a legacy structure with <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> being the new, preferred form. <b>PROPERTYKEY</b> has a broader purpose than <b>SHCOLUMNID</b>, and the new name is more descriptive of its uses.
+

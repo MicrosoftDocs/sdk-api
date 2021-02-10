@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDevMgr.RegisterEventCallbackCLSID
+ - IWiaDevMgr::RegisterEventCallbackCLSID
 ---
 
 # IWiaDevMgr::RegisterEventCallbackCLSID
@@ -137,3 +137,4 @@ If the application is not a registered Component Object Model (COM) component an
 
 <div class="alert"><b>Note</b>  In a multi-threaded application, there is no guarantee that the event notification callback will come in on the same thread that registered the callback.</div>
 <div> </div>
+

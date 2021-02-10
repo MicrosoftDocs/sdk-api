@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync.BeginQueryStateVariable
+ - IUPnPServiceAsync::BeginQueryStateVariable
 ---
 
 # IUPnPServiceAsync::BeginQueryStateVariable
@@ -119,3 +119,4 @@ Event subscription should be completed before querying any evented state variabl
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-cancelasyncoperation">IUPnPServiceAsync::CancelAsyncOperation</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
+ - _DDSURFACEDATA
+ - LPDDSURFACEDATA
  - DDSURFACEDATA
 ---
 
@@ -605,3 +607,4 @@ Are reserved for use by the miniport driver.
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
+

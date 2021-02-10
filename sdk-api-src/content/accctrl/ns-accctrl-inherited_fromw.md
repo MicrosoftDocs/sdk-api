@@ -46,8 +46,8 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - INHERITED_FROM
- - INHERITED_FROMA
+ - _INHERITED_FROMW
+ - PINHERITED_FROMW
  - INHERITED_FROMW
 ---
 
@@ -80,3 +80,4 @@ Name of the ancestor from which the ACE was inherited. For an explicit ACE, set 
 
 > [!NOTE]
 > The accctrl.h header defines INHERITED_FROM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

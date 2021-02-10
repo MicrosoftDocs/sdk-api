@@ -42,10 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget.TargetLoad
- - ITsSbTarget.get_TargetLoad
- - ITsSbTargetEx.TargetLoad
- - ITsSbTargetEx.get_TargetLoad
+ - ITsSbTarget::get_TargetLoad
 ---
 
 # ITsSbTarget::get_TargetLoad
@@ -72,3 +69,4 @@ This property is available on Windows Server 2012 R2 with <a href="https://sup
 
 
 <a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
+

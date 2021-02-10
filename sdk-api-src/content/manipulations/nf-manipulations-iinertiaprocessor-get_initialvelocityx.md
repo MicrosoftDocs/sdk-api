@@ -42,9 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor.InitialVelocityX
- - IInertiaProcessor.get_InitialVelocityX
- - IInertiaProcessor.put_InitialVelocityX
+ - IInertiaProcessor::get_InitialVelocityX
 ---
 
 # IInertiaProcessor::get_InitialVelocityX
@@ -88,3 +86,4 @@ Call this function to set the initial state of inertia. You would call this func
 
 
 <a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
+

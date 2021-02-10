@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
+ - _RTM_REGN_PROFILE
+ - PRTM_REGN_PROFILE
  - RTM_REGN_PROFILE
 ---
 
@@ -83,3 +85,4 @@ Number of views.
 ## -see-also
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>
+

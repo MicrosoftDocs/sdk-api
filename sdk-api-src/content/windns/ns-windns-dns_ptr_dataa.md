@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_PTR_DATA
+ - PDNS_PTR_DATAA
+ - DNS_PTR_DATAA
 ---
 
 # DNS_PTR_DATAA structure

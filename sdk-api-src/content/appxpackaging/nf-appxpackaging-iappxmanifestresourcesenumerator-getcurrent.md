@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestResourcesEnumerator.GetCurrent
+ - IAppxManifestResourcesEnumerator::GetCurrent
 ---
 
 # IAppxManifestResourcesEnumerator::GetCurrent
@@ -93,3 +93,4 @@ The enumerator returned can be empty. In this case, a call to  <a href="/windows
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestresourcesenumerator">IAppxManifestResourcesEnumerator</a>
+

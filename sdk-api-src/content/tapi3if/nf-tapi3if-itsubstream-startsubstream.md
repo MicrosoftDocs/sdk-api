@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITSubStream.StartSubStream
+ - ITSubStream::StartSubStream
 ---
 
 # ITSubStream::StartSubStream
@@ -117,3 +117,4 @@ This operation is not supported.
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

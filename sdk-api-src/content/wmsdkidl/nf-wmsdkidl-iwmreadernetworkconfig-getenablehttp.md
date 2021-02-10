@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetEnableHTTP
+ - IWMReaderNetworkConfig::GetEnableHTTP
 ---
 
 # IWMReaderNetworkConfig::GetEnableHTTP
@@ -101,3 +101,4 @@ NULL or invalid argument passed in.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenablehttp">IWMReaderNetworkConfig::SetEnableHTTP</a>
+

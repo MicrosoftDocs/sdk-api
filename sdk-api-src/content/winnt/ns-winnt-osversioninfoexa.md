@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - OSVERSIONINFOEX
+ - _OSVERSIONINFOEXA
+ - POSVERSIONINFOEXA
  - OSVERSIONINFOEXA
- - OSVERSIONINFOEXW
 ---
 
 # OSVERSIONINFOEXA structure
@@ -537,3 +537,4 @@ For an example, see
 
 
 <a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper APIs</a>
+

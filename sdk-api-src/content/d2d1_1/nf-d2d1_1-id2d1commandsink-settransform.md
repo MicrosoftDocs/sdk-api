@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.SetTransform
+ - ID2D1CommandSink::SetTransform
 ---
 
 # ID2D1CommandSink::SetTransform
@@ -81,3 +81,4 @@ The transform will be applied to the corresponding device context.
 
 
 <a href="/windows/desktop/Direct2D/id2d1rendertarget-settransform">ID2D1RenderTarget::SetTransform</a>
+

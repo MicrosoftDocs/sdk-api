@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement3.CurrentIsPeripheral
- - IUIAutomationElement3.get_CurrentIsPeripheral
+ - IUIAutomationElement3::get_CurrentIsPeripheral
 ---
 
 # IUIAutomationElement3::get_CurrentIsPeripheral
@@ -88,3 +87,4 @@ When client applications that are assistive technologies handle one of these eve
 
 
 <b>Reference</b>
+

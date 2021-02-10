@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMC_ADD_ATTRIBUTES_INFO
+ - PCMC_ADD_ATTRIBUTES_INFO
  - CMC_ADD_ATTRIBUTES_INFO
 ---
 
@@ -78,3 +80,4 @@ Count of the elements in the <b>rgAttribute</b> array.
 
 Array of pointers to the 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> certificate attributes to be added.
+

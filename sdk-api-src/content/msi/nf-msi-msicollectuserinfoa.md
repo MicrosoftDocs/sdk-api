@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiCollectUserInfoA
  - msi/MsiCollectUserInfoA
+ - MsiCollectUserInfo
+ - msi/MsiCollectUserInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiCollectUserInfo
  - MsiCollectUserInfoA
- - MsiCollectUserInfoW
+ - MsiCollectUserInfo
 ---
 
 # MsiCollectUserInfoA function
@@ -150,3 +151,4 @@ The
 
 
 <a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEventTrigger.Subscription
- - IEventTrigger.get_Subscription
- - IEventTrigger.put_Subscription
+ - IEventTrigger::get_Subscription
 ---
 
 # IEventTrigger::get_Subscription
@@ -86,3 +84,4 @@ The following query string defines a subscription to all level 2 events in the S
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

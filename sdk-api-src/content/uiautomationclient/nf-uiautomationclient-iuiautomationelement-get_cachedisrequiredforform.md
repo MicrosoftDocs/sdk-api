@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedIsRequiredForForm
- - IUIAutomationElement.get_CachedIsRequiredForForm
+ - IUIAutomationElement::get_CachedIsRequiredForForm
 ---
 
 # IUIAutomationElement::get_CachedIsRequiredForForm
@@ -72,3 +71,4 @@ This property is read-only.
 
 
 <b>Reference</b>
+

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJob4.GetPeerCachingFlags
+ - IBackgroundCopyJob4::GetPeerCachingFlags
 ---
 
 # IBackgroundCopyJob4::GetPeerCachingFlags
@@ -144,3 +144,4 @@ BITS can download from peers only if peercaching is enabled both at the computer
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
+

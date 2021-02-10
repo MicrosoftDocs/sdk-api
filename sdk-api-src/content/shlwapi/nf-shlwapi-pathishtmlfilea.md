@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PathIsHTMLFileA
  - shlwapi/PathIsHTMLFileA
+ - PathIsHTMLFile
+ - shlwapi/PathIsHTMLFile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - PathIsHTMLFile
  - PathIsHTMLFileA
- - PathIsHTMLFileW
+ - PathIsHTMLFile
 ---
 
 # PathIsHTMLFileA macro

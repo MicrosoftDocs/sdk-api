@@ -47,8 +47,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - GetObject
- - GetObjectA
- - GetObjectW
 ---
 
 # GetObject function
@@ -249,3 +247,4 @@ For an example, see <a href="/windows/desktop/gdi/storing-an-image">Storing an I
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider.Suggest
+ - ISpellCheckProvider::Suggest
 ---
 
 # ISpellCheckProvider::Suggest
@@ -124,3 +124,4 @@ Successful.
 
 
 <a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
+

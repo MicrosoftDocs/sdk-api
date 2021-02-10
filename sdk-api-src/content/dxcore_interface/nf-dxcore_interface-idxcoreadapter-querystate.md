@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapter::QueryState
+f1_keywords:
+ - IDXCoreAdapter::QueryState
+ - dxcore_interface/IDXCoreAdapter::QueryState
 ---
 
 ## -description
@@ -45,12 +48,6 @@ api_name:
 Retrieves the current state of the specified item on the adapter. Before calling **QueryState** for a property type, call [IsQueryStateSupported](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported) to confirm that querying the state kind is available for this adapter and operating system (OS).
 
 ## -parameters
-
-### -param state
-
-Type: **[DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate)**
-
-The kind of state item on the adapter whose state you wish to retrieve. See the table in [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind.
 
 ### -param inputStateDetailsSize
 
@@ -90,6 +87,12 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 |E_INVALIDARG|An insufficient buffer size is provided for *outputBuffer* (or for *inputStateDetails* where an input state details buffer is necessary).|
 |E_POINTER|`nullptr` was provided for *outputBuffer* (or for *inputStateDetails* where an input state details buffer is necessary).|
 
+## -param state
+
+Type: **[DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate)**
+
+The kind of state item on the adapter whose state you wish to retrieve. See the table in [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind.
+
 ## -remarks
 
 See [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind, and what inputs and outputs are used. This function zeros out the *outputBuffer* buffer prior to filling it in.
@@ -97,3 +100,4 @@ See [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

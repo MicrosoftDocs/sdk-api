@@ -9,6 +9,8 @@ tech.root: multimedia
 f1_keywords:
  - mmeapi
  - mmeapi/mmeapi
+api_name:
+ - mmeapi
 ---
 
 # Mmeapi.h header

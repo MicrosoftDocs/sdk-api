@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDAsyncCallback.AsyncOperationComplete
+ - IWSDAsyncCallback::AsyncOperationComplete
 ---
 
 # IWSDAsyncCallback::AsyncOperationComplete
@@ -91,3 +91,4 @@ The value returned by <b>AsyncOperationComplete</b> is ignored.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a>
+

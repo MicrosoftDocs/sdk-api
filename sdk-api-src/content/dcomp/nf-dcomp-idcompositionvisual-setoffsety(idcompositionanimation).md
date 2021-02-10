@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual.SetOffsetY
+ - IDCompositionVisual::SetOffsetY
 ---
 
 # IDCompositionVisual::SetOffsetY(IDCompositionAnimation)
@@ -83,3 +83,4 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
+

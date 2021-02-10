@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.ReservedMixedAttributeValue
- - IUIAutomation.get_ReservedMixedAttributeValue
+ - IUIAutomation::get_ReservedMixedAttributeValue
 ---
 
 # IUIAutomation::get_ReservedMixedAttributeValue
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-textattributes">UI Automation Text Attributes</a>
+

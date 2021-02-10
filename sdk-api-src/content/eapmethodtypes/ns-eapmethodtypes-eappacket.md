@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eapmethodtypes.h
 api_name:
+ - tagEapPacket
  - EapPacket
 ---
 
@@ -79,3 +80,4 @@ The packet message data. This opaque data block continues after the first byte f
 
 
 <a href="/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a>
+

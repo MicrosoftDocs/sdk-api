@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPinManagerEvents.OnPinListAvailable
+ - IMbnPinManagerEvents::OnPinListAvailable
 ---
 
 # IMbnPinManagerEvents::OnPinListAvailable
@@ -72,3 +72,4 @@ This method is called by the Mobile Broadband service to notify an application w
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents">IMbnPinManagerEvents</a>
+

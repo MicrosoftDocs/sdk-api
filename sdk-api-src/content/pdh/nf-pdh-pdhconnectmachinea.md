@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhConnectMachineA
  - pdh/PdhConnectMachineA
+ - PdhConnectMachine
+ - pdh/PdhConnectMachine
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhConnectMachine
  - PdhConnectMachineA
- - PdhConnectMachineW
+ - PdhConnectMachine
 ---
 
 # PdhConnectMachineA function
@@ -114,3 +115,4 @@ However, you can use this function if you want to include more than the local co
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhenummachinesa">PdhEnumMachines</a>
+

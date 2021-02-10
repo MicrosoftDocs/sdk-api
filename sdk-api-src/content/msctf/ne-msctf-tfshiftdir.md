@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
+ - __MIDL_ITfRange_0002
  - TfShiftDir
 ---
 
@@ -73,3 +74,4 @@ Specifies that the anchor will be moved to the region immediately following the 
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstartregion">ITfRange::ShiftStartRegion
       </a>
+

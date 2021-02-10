@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.CollectionMode
- - IInkPicture.get_CollectionMode
- - IInkPicture.put_CollectionMode
- - InkPicture.get_CollectionMode
- - InkPicture.put_CollectionMode
+ - IInkPicture::get_CollectionMode
 ---
 
 # IInkPicture::get_CollectionMode
@@ -84,3 +80,4 @@ For further details about this property, refer to the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+

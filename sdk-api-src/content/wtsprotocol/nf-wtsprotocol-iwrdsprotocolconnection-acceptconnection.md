@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.AcceptConnection
+ - IWRdsProtocolConnection::AcceptConnection
 ---
 
 # IWRdsProtocolConnection::AcceptConnection
@@ -63,3 +63,4 @@ Upon receiving an error, the Remote Desktop Services service will drop the conne
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
+

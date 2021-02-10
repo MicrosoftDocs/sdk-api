@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsMakePasswordCredentialsA
  - ntdsapi/DsMakePasswordCredentialsA
+ - DsMakePasswordCredentials
+ - ntdsapi/DsMakePasswordCredentials
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - KernelBase.dll
  - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsMakePasswordCredentials
  - DsMakePasswordCredentialsA
- - DsMakePasswordCredentialsW
+ - DsMakePasswordCredentials
 ---
 
 # DsMakePasswordCredentialsA function
@@ -119,3 +120,4 @@ When the handle returned in <i>pAuthIdentity</i> is passed to <a href="/windows/
 
 
 <a href="/windows/desktop/Rpc/rpc-auth-identity-handle">RPC_AUTH_IDENTITY_HANDLE</a>
+

@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo.GetAttributeCount
- - IWMHeaderInfo2.GetAttributeCount
- - IWMHeaderInfo3.GetAttributeCount
+ - IWMHeaderInfo::GetAttributeCount
 ---
 
 # IWMHeaderInfo::GetAttributeCount
@@ -157,3 +155,4 @@ Attributes in MP3 files cannot be specific to a particular stream. For MP3 files
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute">IWMHeaderInfo::SetAttribute</a>
+

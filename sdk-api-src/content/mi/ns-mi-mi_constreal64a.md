@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ConstReal64A
  - MI_ConstReal64A
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactPropertyCollection.GetPropertyName
+ - IContactPropertyCollection::GetPropertyName
 ---
 
 # IContactPropertyCollection::GetPropertyName
@@ -108,3 +108,4 @@ Query is successful.
 </td>
 </tr>
 </table>
+

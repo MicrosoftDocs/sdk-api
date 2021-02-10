@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmap.Lock
+ - IWICBitmap::Lock
 ---
 
 # IWICBitmap::Lock
@@ -181,3 +181,4 @@ In the following example, an <a href="/windows/desktop/api/wincodec/nn-wincodec-
     return hr;
 
 ```
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUICommandHandler.Execute
+ - IUICommandHandler::Execute
 ---
 
 # IUICommandHandler::Execute
@@ -103,3 +103,4 @@ Each Command in a View must be bound to a new or existing Command handler in the
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+

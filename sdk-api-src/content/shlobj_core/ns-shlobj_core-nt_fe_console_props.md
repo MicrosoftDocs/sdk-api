@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - LPNT_FE_CONSOLE_PROPS
  - NT_FE_CONSOLE_PROPS
 ---
 
@@ -69,3 +70,4 @@ The <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header">DAT
 Type: <b>UINT</b>
 
 The console's code page.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCatalogManager.GetQueryHelper
+ - ISearchCatalogManager::GetQueryHelper
 ---
 
 # ISearchCatalogManager::GetQueryHelper
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 After the <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> interface is created, use the put... methods for this interface to change settings. Settings for the <b>ISearchQueryHelper</b> object are relevant only until the settings are changed again or the item is released. When the item is next created, settings are set to default values.
+

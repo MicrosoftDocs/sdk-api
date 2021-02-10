@@ -44,8 +44,7 @@ api_type:
 api_location:
  - dimm.h
 api_name:
- - LOGFONT
- - LOGFONTA
+ - __MIDL___MIDL_itf_dimm_0000_0000_0004
  - LOGFONTW
 ---
 
@@ -480,3 +479,4 @@ This structure first appeared in Shtypes.idl and Shtypes.h in Windows Vista, fo
 
 
 <a href="/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setfont">IVisualProperties::SetFont</a>
+

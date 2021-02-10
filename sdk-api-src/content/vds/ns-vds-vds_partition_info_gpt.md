@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_PARTITION_INFO_GPT
  - VDS_PARTITION_INFO_GPT
 ---
 
@@ -101,3 +102,4 @@ For information about partition types and attributes, see <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
+

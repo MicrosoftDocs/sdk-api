@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage.SetMaxMediaBlocksFromDevice
+ - IFileSystemImage::SetMaxMediaBlocksFromDevice
 ---
 
 # IFileSystemImage::SetMaxMediaBlocksFromDevice
@@ -96,3 +96,4 @@ Internal error occurred: <i>%1!ls!</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+

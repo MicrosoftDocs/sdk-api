@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT_IPSEC_KERNEL_DROP0_
  - FWPM_NET_EVENT_IPSEC_KERNEL_DROP0
 ---
 
@@ -79,3 +80,4 @@ Layer ID that corresponds to the IPsec callout filter.  This will be available o
 ## -remarks
 
 <b>FWPM_NET_EVENT_IPSEC_KERNEL_DROP0</b> is a specific implementation of FWPM_NET_EVENT_IPSEC_KERNEL_DROP. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+

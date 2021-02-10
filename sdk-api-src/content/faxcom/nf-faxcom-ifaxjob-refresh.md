@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.Refresh
- - IFaxJob.Refresh
+ - IFaxJob::Refresh
 ---
 
 # IFaxJob::Refresh
@@ -82,3 +81,4 @@ It is recommended that you limit calls to this method because frequent calls to 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
+

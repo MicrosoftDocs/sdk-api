@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMixerBitmap.UpdateAlphaBitmapParameters
+ - IVMRMixerBitmap::UpdateAlphaBitmapParameters
 ---
 
 # IVMRMixerBitmap::UpdateAlphaBitmapParameters
@@ -82,3 +82,4 @@ The filter graph must be running for the changes to take effect. This method doe
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>
+

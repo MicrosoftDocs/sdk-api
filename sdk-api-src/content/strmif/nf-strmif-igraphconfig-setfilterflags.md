@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphConfig.SetFilterFlags
+ - IGraphConfig::SetFilterFlags
 ---
 
 # IGraphConfig::SetFilterFlags
@@ -146,3 +146,4 @@ The AM_FILTER_FLAGS_REMOVABLE flag changes the behavior of the <a href="/windows
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
+

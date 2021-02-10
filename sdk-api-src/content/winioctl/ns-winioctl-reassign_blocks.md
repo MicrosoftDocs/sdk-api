@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _REASSIGN_BLOCKS
+ - PREASSIGN_BLOCKS
  - REASSIGN_BLOCKS
 ---
 
@@ -101,3 +103,4 @@ For device compatibility, the
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks_ex">REASSIGN_BLOCKS_EX</a>
+

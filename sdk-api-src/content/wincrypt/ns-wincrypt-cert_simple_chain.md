@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_SIMPLE_CHAIN
+ - PCERT_SIMPLE_CHAIN
  - CERT_SIMPLE_CHAIN
 ---
 
@@ -102,3 +104,4 @@ The age of a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation li
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>
+

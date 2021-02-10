@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMREBAR
+ - LPNMREBAR
  - NMREBAR
 ---
 
@@ -138,3 +140,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined value associated with the band. This member is only valid if 
 					<b>dwMask</b> contains RBNM_LPARAM.
+

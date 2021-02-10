@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IMultiInterfacePublisherFilter.Initialize
+ - IMultiInterfacePublisherFilter::Initialize
 ---
 
 # IMultiInterfacePublisherFilter::Initialize
@@ -69,3 +69,4 @@ The publisher filter uses the pointer passed in <i>pIEC</i> to obtain a list of 
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
+

@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_FTSET_INFO
+ - PCLUS_FTSET_INFO
 ---
 
 # CLUS_FTSET_INFO structure
@@ -71,3 +72,4 @@ The type of fault tolerance that is supported by the FT set.
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

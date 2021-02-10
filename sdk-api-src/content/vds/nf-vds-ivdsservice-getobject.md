@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.GetObject
+ - IVdsService::GetObject
 ---
 
 # IVdsService::GetObject
@@ -120,3 +120,4 @@ VDS notifications return an object identifier instead of an object pointer. Call
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_object_type">VDS_OBJECT_TYPE</a>
+

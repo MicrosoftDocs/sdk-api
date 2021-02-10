@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - IntlStrEqNIA
  - shlwapi/IntlStrEqNIA
+ - IntlStrEqNI
+ - shlwapi/IntlStrEqNI
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - IntlStrEqNI
  - IntlStrEqNIA
- - IntlStrEqNIW
+ - IntlStrEqNI
 ---
 
 # IntlStrEqNIA macro
@@ -89,3 +90,4 @@ This function retrieves the thread locale and uses <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-intlstreqworkera">IntlStrEqWorker</a>
+

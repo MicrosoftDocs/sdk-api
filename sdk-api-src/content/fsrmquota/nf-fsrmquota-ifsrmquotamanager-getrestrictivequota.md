@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.GetRestrictiveQuota
- - IFsrmQuotaManagerEx.GetRestrictiveQuota
- - FsrmQuotaManager.GetRestrictiveQuota
+ - IFsrmQuotaManager::GetRestrictiveQuota
 ---
 
 # IFsrmQuotaManager::GetRestrictiveQuota
@@ -93,3 +91,4 @@ The most restrictive quota is the one with the lowest quota limit. If a quota hi
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

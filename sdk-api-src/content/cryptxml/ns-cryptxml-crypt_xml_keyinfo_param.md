@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_KEYINFO_PARAM
  - CRYPT_XML_KEYINFO_PARAM
 ---
 
@@ -87,3 +88,4 @@ The number of elements in the array pointed to by the <b>rgCRL</b> member.
 ### -field rgCRL
 
 A pointer to an array of <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_BLOB</a> structures that are used to populate the <b>X509CRL</b> elements.
+

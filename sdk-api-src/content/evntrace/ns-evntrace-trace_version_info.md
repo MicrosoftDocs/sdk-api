@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
+ - _TRACE_VERSION_INFO
+ - PTRACE_VERSION_INFO
  - TRACE_VERSION_INFO
 ---
 
@@ -69,3 +71,4 @@ Not used.
 ## -see-also
 
 <a href="/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>
+

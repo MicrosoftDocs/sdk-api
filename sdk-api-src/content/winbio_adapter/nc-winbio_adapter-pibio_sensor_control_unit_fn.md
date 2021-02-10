@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterControlUnit
+ - PIBIO_SENSOR_CONTROL_UNIT_FN
 ---
 
 # PIBIO_SENSOR_CONTROL_UNIT_FN callback function
@@ -365,3 +365,4 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio/nf-winbio-winbiocontrolunit">WinBioControlUnit</a>
+

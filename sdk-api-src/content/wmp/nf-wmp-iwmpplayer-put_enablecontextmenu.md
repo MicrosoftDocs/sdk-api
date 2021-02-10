@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer.put_enableContextMenu
+ - IWMPPlayer::put_enableContextMenu
 ---
 
 # IWMPPlayer::put_enableContextMenu
@@ -101,3 +101,4 @@ During full-screen playback, Windows Media Player hides the mouse cursor when th
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enabled">IWMPPlayer::put_enabled</a>
+

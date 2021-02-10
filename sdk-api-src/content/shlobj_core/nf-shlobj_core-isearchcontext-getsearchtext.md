@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ISearchContext.GetSearchText
+ - ISearchContext::GetSearchText
 ---
 
 # ISearchContext::GetSearchText
@@ -65,3 +65,4 @@ The <b>BSTR</b> that receives the text in the Address bar.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

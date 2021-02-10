@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.GetVideoService
+ - IDirect3DDeviceManager9::GetVideoService
 ---
 
 # IDirect3DDeviceManager9::GetVideoService
@@ -209,3 +209,4 @@ HRESULT GetVideoProcessorService(
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferSource.RenameItem
+ - ITransferSource::RenameItem
 ---
 
 # ITransferSource::RenameItem
@@ -189,3 +189,4 @@ Operation requires elevated privileges.
 </td>
 </tr>
 </table>
+

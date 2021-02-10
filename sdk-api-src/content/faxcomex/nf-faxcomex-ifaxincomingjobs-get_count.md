@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJobs.Count
- - IFaxIncomingJobs.get_Count
+ - IFaxIncomingJobs::get_Count
 ---
 
 # IFaxIncomingJobs::get_Count
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
+

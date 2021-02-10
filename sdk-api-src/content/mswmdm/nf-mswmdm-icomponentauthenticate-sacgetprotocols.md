@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IComponentAuthenticate.SACGetProtocols
+ - IComponentAuthenticate::SACGetProtocols
 ---
 
 # IComponentAuthenticate::SACGetProtocols
@@ -117,3 +117,4 @@ STDMETHODIMP CMyServiceProvider::SACGetProtocols(
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>
+

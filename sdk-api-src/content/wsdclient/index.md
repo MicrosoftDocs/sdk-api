@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - wsdclient
  - wsdclient/wsdclient
+api_name:
+ - wsdclient
 ---
 
 # Wsdclient.h header

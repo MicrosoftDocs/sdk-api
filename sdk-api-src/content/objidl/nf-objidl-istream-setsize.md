@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream.SetSize
+ - IStream::SetSize
 ---
 
 # IStream::SetSize
@@ -84,3 +84,4 @@ Calling <b>IStream::SetSize</b> can be an effective way to obtain a large chunk 
 
 
 <a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
+

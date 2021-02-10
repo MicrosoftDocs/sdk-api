@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DISK_EX_INT13_INFO
+ - PDISK_EX_INT13_INFO
  - DISK_EX_INT13_INFO
 ---
 
@@ -92,3 +94,4 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-disk_detection_info">DISK_DETECTION_INFO</a>
+

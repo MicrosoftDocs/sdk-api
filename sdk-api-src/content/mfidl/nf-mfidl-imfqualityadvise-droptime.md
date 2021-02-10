@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFQualityAdvise.DropTime
+ - IMFQualityAdvise::DropTime
 ---
 
 # IMFQualityAdvise::DropTime
@@ -103,3 +103,4 @@ If a component does not support this method, it should return MF_E_DROPTIME_NOT_
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
+

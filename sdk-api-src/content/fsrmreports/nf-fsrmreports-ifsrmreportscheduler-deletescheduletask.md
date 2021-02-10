@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportScheduler.DeleteScheduleTask
- - FsrmReportScheduler.DeleteScheduleTask
+ - IFsrmReportScheduler::DeleteScheduleTask
 ---
 
 # IFsrmReportScheduler::DeleteScheduleTask
@@ -75,3 +74,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>
+

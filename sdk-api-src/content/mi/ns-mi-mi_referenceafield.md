@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ReferenceAField
  - MI_ReferenceAField
 ---
 
@@ -91,3 +92,4 @@ Used while adding and setting properties on an <a href="/windows/desktop/api/mi/
 #### MI_FLAG_ADOPT ((1 << 31))
 
 Used while adding and setting properties on an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
+

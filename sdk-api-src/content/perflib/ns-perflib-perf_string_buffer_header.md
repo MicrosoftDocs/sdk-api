@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
+ - _STRING_BUFFER_HEADER
+ - PPERF_STRING_BUFFER_HEADER
  - PERF_STRING_BUFFER_HEADER
 ---
 
@@ -83,3 +85,4 @@ The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistra
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>
+

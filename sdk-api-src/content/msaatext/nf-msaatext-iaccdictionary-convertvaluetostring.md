@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccDictionary.ConvertValueToString
+ - IAccDictionary::ConvertValueToString
 ---
 
 # IAccDictionary::ConvertValueToString
@@ -96,3 +96,4 @@ If successful, returns S_OK.
 ## -remarks
 
 If the <i>Term</i> parameter can be true or false, <b>ConvertValueToString</b> will return a localized string or <b>TRUE</b> or <b>FALSE</b>. If the <i>Term</i> parameter represents a color, <b>ConvertValueToString</b> will return a string for the closest color name. If the <i>Term</i> parameter is not found in the dictionary, then <i>pbstrResult</i> will be <b>NULL</b>.
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - VdsLun.h
 api_name:
+ - _VDS_INTERCONNECT
  - VDS_INTERCONNECT
 ---
 
@@ -96,3 +97,4 @@ The <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
+

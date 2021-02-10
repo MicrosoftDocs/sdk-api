@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.SetDesiredPacketDescription
+ - IRealTimeStylus::SetDesiredPacketDescription
 ---
 
 # IRealTimeStylus::SetDesiredPacketDescription
@@ -168,3 +168,4 @@ if (SUCCEEDED(g_pRealTimeStylus->GetDesiredPacketDescription(&ulProperties, &pGu
 
 
 <b>RealTimeStylus Class</b>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItem.GetPolicies
+ - ISyncMgrSyncItem::GetPolicies
 ---
 
 # ISyncMgrSyncItem::GetPolicies
@@ -91,3 +91,4 @@ STDMETHODIMP CMyDeviceSyncItem::GetPolicies(
 }
 
 ```
+

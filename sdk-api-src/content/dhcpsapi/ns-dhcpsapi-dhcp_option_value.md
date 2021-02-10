@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_OPTION_VALUE
+ - LPDHCP_OPTION_VALUE
  - DHCP_OPTION_VALUE
 ---
 
@@ -73,3 +75,4 @@ The <b>DHCP_OPTION_VALUE</b> structure defines a DHCP  option value (just the op
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetoptionvalue">DhcpGetOptionValue</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent.ShareResources
+ - IMFMediaEngineProtectedContent::ShareResources
 ---
 
 # IMFMediaEngineProtectedContent::ShareResources
@@ -69,3 +69,4 @@ In frame-server mode, this method enables the Media Engine to share protected co
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent">IMFMediaEngineProtectedContent</a>
+

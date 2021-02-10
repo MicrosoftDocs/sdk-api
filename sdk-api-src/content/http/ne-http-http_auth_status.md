@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_AUTH_STATUS
+ - PHTTP_AUTH_STATUS
  - HTTP_AUTH_STATUS
 ---
 
@@ -90,3 +92,4 @@ Authentication for the authentication type listed in the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
+

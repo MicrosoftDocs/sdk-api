@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
+ - _DDENABLEIRQINFO
+ - PDDENABLEIRQINFO
  - DDENABLEIRQINFO
 ---
 
@@ -306,3 +308,4 @@ The <b>dwIRQSources</b> member of this structure does not use the DDIRQ_BUSMASTE
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>
+

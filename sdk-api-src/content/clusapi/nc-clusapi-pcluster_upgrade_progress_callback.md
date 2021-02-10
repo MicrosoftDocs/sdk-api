@@ -42,7 +42,7 @@ api_type:
 api_location:
  - clusapi.h
 api_name:
- - ClusterUpgradeProgressCallback
+ - PCLUSTER_UPGRADE_PROGRESS_CALLBACK
 ---
 
 # PCLUSTER_UPGRADE_PROGRESS_CALLBACK callback function
@@ -104,3 +104,4 @@ The operation was not successful.
 
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>
+

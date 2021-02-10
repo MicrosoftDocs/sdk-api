@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - namedpipeapi
  - namedpipeapi/namedpipeapi
+api_name:
+ - namedpipeapi
 ---
 
 # Namedpipeapi.h header

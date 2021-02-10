@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - ExtractIconA
  - shellapi/ExtractIconA
+ - ExtractIcon
+ - shellapi/ExtractIcon
 dev_langs:
  - c++
 topic_type:
@@ -44,10 +47,8 @@ api_location:
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - ExtractIcon
  - ExtractIconA
- - ExtractIconW
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
+ - ExtractIcon
 ---
 
 # ExtractIconA function
@@ -115,3 +116,4 @@ When it is no longer needed, you must destroy the icon handle returned by <b>Ext
 
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>
+

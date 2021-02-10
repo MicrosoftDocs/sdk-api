@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.IsDiscontinuity
+ - IMediaSample::IsDiscontinuity
 ---
 
 # IMediaSample::IsDiscontinuity
@@ -70,3 +70,4 @@ A discontinuity occurs when a filter seeks to a different place in the stream, o
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
+

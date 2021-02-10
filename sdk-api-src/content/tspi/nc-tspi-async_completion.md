@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tspi.h
 api_name:
- - CompletionProc
+ - ASYNC_COMPLETION
 ---
 
 # ASYNC_COMPLETION callback function
@@ -93,3 +93,4 @@ This does not have any direct correspondence at the TAPI level because at that l
 
 
 <a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>
+

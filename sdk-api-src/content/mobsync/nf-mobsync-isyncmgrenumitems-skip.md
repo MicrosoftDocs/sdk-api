@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrEnumItems.Skip
+ - ISyncMgrEnumItems::Skip
 ---
 
 # ISyncMgrEnumItems::Skip
@@ -65,3 +65,4 @@ The number of items to skip.
 Type: <b>HRESULT</b>
 
 Return S_OK if the method succeeds.
+

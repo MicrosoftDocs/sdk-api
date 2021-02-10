@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - LPNMPGCALCSIZE
  - NMPGCALCSIZE
 ---
 
@@ -109,3 +110,4 @@ Receives the desired width of the scrollable area, in pixels.
 Type: <b>int</b>
 
 Receives the desired height of the scrollable area, in pixels.
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVfwCompressDialogs.ShowDialog
+ - IAMVfwCompressDialogs::ShowDialog
 ---
 
 # IAMVfwCompressDialogs::ShowDialog
@@ -83,3 +83,4 @@ The VfwCompressDialog_QueryConfig and VfwCompressDialog_QueryAbout members of th
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcompressdialogs">IAMVfwCompressDialogs Interface</a>
+

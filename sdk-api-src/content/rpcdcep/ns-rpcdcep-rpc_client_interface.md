@@ -46,6 +46,8 @@ api_type:
 api_location:
  - RpcdceP.h
 api_name:
+ - _RPC_CLIENT_INTERFACE
+ - PRPC_CLIENT_INTERFACE
  - RPC_CLIENT_INTERFACE
 ---
 

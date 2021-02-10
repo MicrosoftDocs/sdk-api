@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.Present
+ - IDirect3DDevice9::Present
 ---
 
 # IDirect3DDevice9::Present
@@ -106,3 +106,4 @@ If necessary, a stretch operation is applied to transfer the pixels within the s
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-reset">Reset</a>
+

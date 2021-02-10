@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ntddmou.h
 api_name:
+ - _MOUSE_INPUT_DATA
+ - PMOUSE_INPUT_DATA
  - MOUSE_INPUT_DATA
 ---
 
@@ -291,3 +293,4 @@ In response to <a href="/previous-versions/ff542215(v=vs.85)">IRP_MJ_READ (Moucl
 
 
 <a href="/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>
+

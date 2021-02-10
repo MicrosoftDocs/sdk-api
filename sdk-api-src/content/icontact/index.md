@@ -9,6 +9,8 @@ tech.root: wincontacts
 f1_keywords:
  - icontact
  - icontact/icontact
+api_name:
+ - icontact
 ---
 
 # Icontact.h header

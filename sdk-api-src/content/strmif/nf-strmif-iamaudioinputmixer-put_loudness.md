@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer.put_Loudness
+ - IAMAudioInputMixer::put_Loudness
 ---
 
 # IAMAudioInputMixer::put_Loudness
@@ -95,3 +95,4 @@ Loudness boosts the bass of low volume signals before they are recorded, to comp
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_loudness">IAMAudioInputMixer::get_Loudness</a>
+

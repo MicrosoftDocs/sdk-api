@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProviderEx.ResyncLuns
+ - IVssHardwareSnapshotProviderEx::ResyncLuns
 ---
 
 # IVssHardwareSnapshotProviderEx::ResyncLuns
@@ -148,3 +148,4 @@ This method cannot be called in WinPE, and it cannot be called in Safe mode. Bef
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotproviderex">IVssHardwareSnapshotProviderEx</a>
+

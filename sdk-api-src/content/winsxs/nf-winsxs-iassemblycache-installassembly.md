@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sxs.dll
 api_name:
- - IAssemblyCache.InstallAssembly
+ - IAssemblyCache::InstallAssembly
 ---
 
 # IAssemblyCache::InstallAssembly
@@ -134,3 +134,4 @@ The method did not succeed.
 ## -see-also
 
 <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
+

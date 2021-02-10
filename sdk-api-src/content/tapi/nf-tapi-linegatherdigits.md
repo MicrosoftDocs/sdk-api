@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGatherDigits
- - lineGatherDigitsA
- - lineGatherDigitsW
 ---
 
 # lineGatherDigits function
@@ -156,3 +154,4 @@ If the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linemonitordigits">lineMonitorDigits</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioClient.GetMaxDynamicObjectCount
+ - ISpatialAudioClient::GetMaxDynamicObjectCount
 ---
 
 # ISpatialAudioClient::GetMaxDynamicObjectCount
@@ -73,3 +73,4 @@ When Windows Sonic is not available (for instance, when playing to embedded lapt
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
+

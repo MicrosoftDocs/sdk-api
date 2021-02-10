@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.operator+=
+ - WBEMTime::operator+=
 ---
 
 # WBEMTime::operator-add-assign
@@ -64,3 +64,4 @@ The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class add-and-assign
 ### -param ts [ref]
 
 Reference to the <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object, whose time is added to the specified object.
+

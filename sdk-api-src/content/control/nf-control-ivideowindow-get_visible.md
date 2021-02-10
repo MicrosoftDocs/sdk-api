@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.get_Visible
+ - IVideoWindow::get_Visible
 ---
 
 # IVideoWindow::get_Visible
@@ -118,3 +118,4 @@ This method checks for the WS_VISIBLE style bit, by calling the Windows <b>IsWin
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_visible">IVideoWindow::put_Visible</a>
+

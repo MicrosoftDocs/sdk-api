@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.SetName
- - IWMProfile2.SetName
- - IWMProfile3.SetName
+ - IWMProfile::SetName
 ---
 
 # IWMProfile::SetName
@@ -116,3 +114,4 @@ Profiles have names and descriptions, for use when displaying lists of profiles.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getname">IWMProfile::GetName</a>
+

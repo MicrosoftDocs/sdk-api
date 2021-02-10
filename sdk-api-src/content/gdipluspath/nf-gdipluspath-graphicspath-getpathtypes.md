@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.GetPathTypes
+ - GraphicsPath::GetPathTypes
 ---
 
 # GraphicsPath::GetPathTypes
@@ -139,3 +139,4 @@ path.GetPathTypes(pTypes, num);
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

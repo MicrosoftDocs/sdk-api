@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPMPHost.CreateObjectByCLSID
+ - IMFPMPHost::CreateObjectByCLSID
 ---
 
 # IMFPMPHost::CreateObjectByCLSID
@@ -90,3 +90,4 @@ You can use the <i>pStream</i> parameter to initialize the object after it is cr
 
 
 <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
+

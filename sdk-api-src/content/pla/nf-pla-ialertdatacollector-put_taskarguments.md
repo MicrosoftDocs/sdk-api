@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IAlertDataCollector.TaskArguments
- - IAlertDataCollector.get_TaskArguments
- - IAlertDataCollector.put_TaskArguments
+ - IAlertDataCollector::put_TaskArguments
 ---
 
 # IAlertDataCollector::put_TaskArguments
@@ -101,3 +99,4 @@ Typically, if you use the substitution variables, you specify them in <a href="/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
+

@@ -50,8 +50,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - GetTempFileName
- - GetTempFileNameA
- - GetTempFileNameW
 ---
 
 # GetTempFileName function
@@ -263,3 +261,4 @@ For an example, see
 
 
 <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
+

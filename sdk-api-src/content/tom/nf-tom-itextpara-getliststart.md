@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.GetListStart
+ - ITextPara::GetListStart
 ---
 
 # ITextPara::GetListStart
@@ -137,3 +137,4 @@ For a discussion on which sequence to use, see the <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

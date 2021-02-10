@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView2.GetView
+ - IShellView2::GetView
 ---
 
 # IShellView2::GetView
@@ -130,3 +130,4 @@ The priority of these assorted views can be generally said to be the following:
 <li>Previous view</li>
 </ol>
 The priority of the previous view can be higher if the <b>Remember each folder's view settings</b> option is not selected in <b>Folder Options</b>. Other factors such as policies can also come into play, so the list above should be viewed only as a very broad guideline.
+

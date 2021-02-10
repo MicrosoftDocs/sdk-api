@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagUseNoAuthentication
+ - IWSManEx::SessionFlagUseNoAuthentication
 ---
 
 # IWSManEx::SessionFlagUseNoAuthentication
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinRM/wsman-sessionflagusenoauthentication">WSMan.SessionFlagUseNoAuthentication</a>
+

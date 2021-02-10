@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectBase.GetBuffer
+ - ISpatialAudioObjectBase::GetBuffer
 ---
 
 # ISpatialAudioObjectBase::GetBuffer
@@ -114,3 +114,4 @@ The pointers retrieved by <b>GetBuffer</b> should not be used after
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+

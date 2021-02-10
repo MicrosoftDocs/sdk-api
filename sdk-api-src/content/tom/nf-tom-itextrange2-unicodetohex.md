@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.UnicodeToHex
+ - ITextRange2::UnicodeToHex
 ---
 
 # ITextRange2::UnicodeToHex
@@ -84,3 +84,4 @@ Some Unicode surrogates for hex values from 0x10000 up to 0x10FFFF are for inter
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+

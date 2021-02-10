@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidInputDevices.Add
+ - IMSVidInputDevices::Add
 ---
 
 # IMSVidInputDevices::Add
@@ -120,3 +120,4 @@ NULL pointer argument.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevices-remove">IMSVidInputDevices::Remove</a>
+

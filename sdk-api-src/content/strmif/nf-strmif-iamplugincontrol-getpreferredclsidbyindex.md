@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMPluginControl.GetPreferredClsidByIndex
+ - IAMPluginControl::GetPreferredClsidByIndex
 ---
 
 # IAMPluginControl::GetPreferredClsidByIndex
@@ -107,3 +107,4 @@ The <i>index</i> parameter is out of range.
 
 
 <a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
+

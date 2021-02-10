@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeClientId.UserSamName
- - IX509AttributeClientId.get_UserSamName
+ - IX509AttributeClientId::get_UserSamName
 ---
 
 # IX509AttributeClientId::get_UserSamName
@@ -76,3 +75,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributecl
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a>
+

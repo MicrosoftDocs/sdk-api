@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_ATTRIB_ARRAY
+ - PDHCP_ATTRIB_ARRAY
  - DHCP_ATTRIB_ARRAY
 ---
 
@@ -69,3 +71,4 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_att
 ### -field DhcpAttribs.size_is
 
 ### -field DhcpAttribs.size_is.NumElements
+

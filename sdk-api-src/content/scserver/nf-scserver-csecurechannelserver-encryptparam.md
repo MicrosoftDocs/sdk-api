@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelServer.EncryptParam
+ - CSecureChannelServer::EncryptParam
 ---
 
 # CSecureChannelServer::EncryptParam
@@ -190,3 +190,4 @@ Error:
 
 
 <a href="/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a>
+

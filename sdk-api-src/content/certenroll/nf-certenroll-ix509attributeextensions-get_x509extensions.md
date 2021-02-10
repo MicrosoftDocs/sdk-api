@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeExtensions.X509Extensions
- - IX509AttributeExtensions.get_X509Extensions
+ - IX509AttributeExtensions::get_X509Extensions
 ---
 
 # IX509AttributeExtensions::get_X509Extensions
@@ -72,3 +71,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributeex
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
+

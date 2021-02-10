@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiItem.FileSystemName
+ - IFsiItem::FileSystemName
 ---
 
 # IFsiItem::FileSystemName
@@ -102,3 +102,4 @@ Value: 0xC0AAB101
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
+

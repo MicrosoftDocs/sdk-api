@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStrokeBuilder.CreateStroke
+ - IStrokeBuilder::CreateStroke
 ---
 
 # IStrokeBuilder::CreateStroke
@@ -115,3 +115,4 @@ To retrieve the scale parameters, use <a href="/windows/desktop/api/rtscom/nf-rt
 
 
 <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider.AddToSelection
+ - ITextRangeProvider::AddToSelection
 ---
 
 # ITextRangeProvider::AddToSelection
@@ -86,3 +86,4 @@ If this method is called on a degenerate text range, the text insertion point mo
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

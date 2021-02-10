@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor.GetRedirectedURL
+ - IUrlAccessor::GetRedirectedURL
 ---
 
 # IUrlAccessor::GetRedirectedURL
@@ -87,3 +87,4 @@ File URLs are not redirected. This method applies only to a content source of HT
             
 
 If this method is implemented, the URL that is passed to <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-createaccessor">ISearchProtocol::CreateAccessor</a> will be redirected to the value returned by this method. All subsequent relative URL links will be processed based on the redirected URL.
+

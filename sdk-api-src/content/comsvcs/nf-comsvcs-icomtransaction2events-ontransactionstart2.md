@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComTransaction2Events.OnTransactionStart2
+ - IComTransaction2Events::OnTransactionStart2
 ---
 
 # IComTransaction2Events::OnTransactionStart2
@@ -81,3 +81,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomtransaction2events">IComTransaction2Events</a>
+

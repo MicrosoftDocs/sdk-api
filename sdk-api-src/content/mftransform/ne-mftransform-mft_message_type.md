@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
+ - _MFT_MESSAGE_TYPE
  - MFT_MESSAGE_TYPE
 ---
 
@@ -151,3 +152,4 @@ Some messages require specific actions from the MFT. These events have "MESSAGE"
 
 
 <a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+

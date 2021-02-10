@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_URL_INFO
+ - PCRYPT_URL_INFO
  - CRYPT_URL_INFO
 ---
 

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_SENDER_DETAILS
  - WSMAN_SENDER_DETAILS
 ---
 
@@ -131,3 +132,4 @@ Specifies the identity token of the user if a Windows security token is availabl
 ### -field httpURL
 
 Specifies the HTTP URL of the inbound request.
+

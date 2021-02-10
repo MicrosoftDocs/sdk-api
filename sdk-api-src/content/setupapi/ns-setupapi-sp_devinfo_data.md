@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_DEVINFO_DATA
+ - PSP_DEVINFO_DATA
  - SP_DEVINFO_DATA
 ---
 
@@ -85,3 +87,4 @@ An SP_DEVINFO_DATA structure identifies a device in a device information set. Fo
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_list_detail_data_a">SP_DEVINFO_LIST_DETAIL_DATA</a>
+

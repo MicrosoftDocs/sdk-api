@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesItem.IsMarkedForDeletion
+ - IOfflineFilesItem::IsMarkedForDeletion
 ---
 
 # IOfflineFilesItem::IsMarkedForDeletion
@@ -72,3 +72,4 @@ Clients should normally treat such items as if they do not exist in the cache.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitem">IOfflineFilesItem</a>
+

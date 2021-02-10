@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfileMgr.ReleaseInputProcessor
+ - ITfInputProcessorProfileMgr::ReleaseInputProcessor
 ---
 
 # ITfInputProcessorProfileMgr::ReleaseInputProcessor
@@ -122,3 +122,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA
  - DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA
 ---
 
@@ -118,3 +119,4 @@ Typically, an application would use this feature as follows:
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

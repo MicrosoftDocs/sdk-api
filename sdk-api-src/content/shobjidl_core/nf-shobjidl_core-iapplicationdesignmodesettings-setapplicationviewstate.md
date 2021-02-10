@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Twinapi.dll
 api_name:
- - IApplicationDesignModeSettings.SetApplicationViewState
+ - IApplicationDesignModeSettings::SetApplicationViewState
 ---
 
 # IApplicationDesignModeSettings::SetApplicationViewState
@@ -88,3 +88,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>
+

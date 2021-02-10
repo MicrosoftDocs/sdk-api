@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISharedPropertyGroupManager.get_Group
+ - ISharedPropertyGroupManager::get_Group
 ---
 
 # ISharedPropertyGroupManager::get_Group
@@ -99,3 +99,4 @@ The shared property group with the name specified in the <i>Name</i> parameter d
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroupmanager">ISharedPropertyGroupManager</a>
+

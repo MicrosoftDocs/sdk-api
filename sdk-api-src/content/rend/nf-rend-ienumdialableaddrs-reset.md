@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - IEnumDialableAddrs.Reset
+ - IEnumDialableAddrs::Reset
 ---
 
 # IEnumDialableAddrs::Reset
@@ -83,3 +83,4 @@ Method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
+

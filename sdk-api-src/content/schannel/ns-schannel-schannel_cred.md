@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
+ - _SCHANNEL_CRED
+ - PSCHANNEL_CRED
  - SCHANNEL_CRED
 ---
 
@@ -693,3 +695,4 @@ When Schannel checks the revocation status of a certificate chain, these flags i
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querysecuritycontexttoken">QuerySecurityContextToken</a>
+

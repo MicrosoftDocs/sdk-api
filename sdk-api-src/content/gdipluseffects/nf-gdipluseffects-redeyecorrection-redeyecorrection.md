@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - RedEyeCorrection.RedEyeCorrection
+ - RedEyeCorrection::RedEyeCorrection
 ---
 
 # RedEyeCorrection::RedEyeCorrection
@@ -66,3 +66,4 @@ Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyec
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-redeyecorrectionparams">RedEyeCorrectionParams</a>
+

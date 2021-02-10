@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _MSV1_0_SUPPLEMENTAL_CREDENTIAL
+ - PMSV1_0_SUPPLEMENTAL_CREDENTIAL
  - MSV1_0_SUPPLEMENTAL_CREDENTIAL
 ---
 
@@ -110,3 +112,4 @@ Contains the  LM password. The size of this array is defined by the constant <b>
 ### -field NtPassword
 
 A string that contains the Windows password. The size of this array is defined by the constant <b>MSV1_0_OWF_PASSWORD_LENGTH</b>. When you have finished using the password, remove the sensitive information from memory by calling <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a>.
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.LinearGradientBrush
+ - LinearGradientBrush::LinearGradientBrush
 ---
 
 # LinearGradientBrush::LinearGradientBrush(IN const RectF &,IN const Color &,IN const Color &,IN LinearGradientMode)
@@ -131,3 +131,4 @@ The mode affects the boundaries of the gradient:
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor.GetEventInterest
+ - ISensor::GetEventInterest
 ---
 
 # ISensor::GetEventInterest
@@ -106,3 +106,4 @@ Each sensor event is represented by a <b>GUID</b>. This method returns the list 
 
 
 <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest">SetEventInterest</a>
+

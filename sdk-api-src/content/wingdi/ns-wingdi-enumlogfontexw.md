@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - ENUMLOGFONTEX
- - ENUMLOGFONTEXA
+ - tagENUMLOGFONTEXW
+ - LPENUMLOGFONTEXW
  - ENUMLOGFONTEXW
 ---
 
@@ -100,3 +100,4 @@ The script, that is, the character set, of the font. For example, Cyrillic.
 
 > [!NOTE]
 > The wingdi.h header defines ENUMLOGFONTEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

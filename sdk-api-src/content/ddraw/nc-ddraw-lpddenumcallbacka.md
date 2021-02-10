@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 7F86FA67-C13B-49EE-8D17-9F54E5060A85
 ms.date: 12/05/2018
 ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDDENUMCALLBACK, LPDDENUMCALLBACK callback, LPDDENUMCALLBACKA, LPDDENUMCALLBACKW, ddraw/DDEnumCallback, directdraw.ddenumcallback
-f1_keywords:
-- ddraw/DDEnumCallback
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ddraw.h
-api_name:
-- DDEnumCallback
-- lpddenumcallbacka
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPDDENUMCALLBACKA
+ - ddraw/LPDDENUMCALLBACKA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ddraw.h
+api_name:
+ - LPDDENUMCALLBACKA
 ---
 
 # LPDDENUMCALLBACKA callback function
@@ -50,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>DDEnumCallback</i> function is an application-defined callback function for the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawenumeratew">DirectDrawEnumerate</a> function.
 
-
-
-
 ## -parameters
-
 
 ### -param Arg1
 
@@ -92,3 +87,4 @@ If UNICODE is defined, the string values are returned as type LPWSTR, rather tha
 
 > [!NOTE]
 > The ddraw.h header defines LPDDENUMCALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

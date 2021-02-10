@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_SUB_SYSTEM_PROP2
+ - PVDS_SUB_SYSTEM_PROP2
  - VDS_SUB_SYSTEM_PROP2
 ---
 
@@ -167,3 +169,4 @@ The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem2-getpropert
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IInvokeProvider.Invoke
+ - IInvokeProvider::Invoke
 ---
 
 # IInvokeProvider::Invoke
@@ -91,3 +91,4 @@ The event should be raised before servicing the Invoke request
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

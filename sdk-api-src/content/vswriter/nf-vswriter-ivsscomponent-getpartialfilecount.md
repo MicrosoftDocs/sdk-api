@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetPartialFileCount
+ - IVssComponent::GetPartialFileCount
 ---
 
 # IVssComponent::GetPartialFileCount
@@ -119,3 +119,4 @@ The caller is out of memory or other system resources.
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a>
+

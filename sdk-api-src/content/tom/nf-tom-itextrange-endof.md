@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.EndOf
+ - ITextRange::EndOf
 ---
 
 # ITextRange::EndOf
@@ -156,3 +156,4 @@ For comparison, the <a href="/windows/desktop/api/tom/nf-tom-itextrange-startof"
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

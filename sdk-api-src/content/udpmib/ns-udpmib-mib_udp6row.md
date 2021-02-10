@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Udpmib.h
 api_name:
+ - _MIB_UDP6ROW
+ - PMIB_UDP6ROW
  - MIB_UDP6ROW
 ---
 
@@ -136,3 +138,4 @@ The <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table">MIB_UDP6TABLE<
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
+

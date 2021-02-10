@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.EnumerateScopeRules
+ - ISearchCrawlScopeManager::EnumerateScopeRules
 ---
 
 # ISearchCrawlScopeManager::EnumerateScopeRules
@@ -69,3 +69,4 @@ Returns S_OK if successful, S_FALSE if there are no rules to enumerate, or an er
 ## -remarks
 
 <b>Windows 7 and later</b>: Check out the <a href="/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+

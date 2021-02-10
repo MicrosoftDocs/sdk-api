@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
+ - _RASPROJECTION_INFO_TYPE
  - RASPROJECTION_INFO_TYPE
 ---
 
@@ -75,3 +76,4 @@ Represents a <a href="/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory.get_DirectoryType
+ - ITDirectory::get_DirectoryType
 ---
 
 # ITDirectory::get_DirectoryType
@@ -103,3 +103,4 @@ The <i>pDirectoryType</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+

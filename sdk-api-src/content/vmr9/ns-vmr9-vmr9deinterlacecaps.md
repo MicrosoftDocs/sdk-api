@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - _VMR9DeinterlaceCaps
  - VMR9DeinterlaceCaps
 ---
 
@@ -79,3 +80,4 @@ Bitwise combination of flags from the <a href="/previous-versions/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ServerFT
  - MI_ServerFT
 ---
 
@@ -61,3 +62,4 @@ Gets the system name for the server.
 ### -field GetVersion
 
 Gets the value of the <b>MI_VERSION</b> macro used when compiling the server.
+

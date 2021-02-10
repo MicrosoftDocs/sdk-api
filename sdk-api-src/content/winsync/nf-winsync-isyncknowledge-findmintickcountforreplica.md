@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge.FindMinTickCountForReplica
+ - ISyncKnowledge::FindMinTickCountForReplica
 ---
 
 # ISyncKnowledge::FindMinTickCountForReplica
@@ -95,3 +95,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

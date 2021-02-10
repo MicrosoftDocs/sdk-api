@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsMaintenance.PulseMaintenance
+ - IVdsMaintenance::PulseMaintenance
 ---
 
 # IVdsMaintenance::PulseMaintenance
@@ -166,3 +166,4 @@ If the operation is already running, this method causes it to pulse the specifie
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>
+

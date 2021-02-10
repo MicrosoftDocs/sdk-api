@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1539
+ - PSERVER_INFO_1539
  - SERVER_INFO_1539
 ---
 
@@ -78,3 +80,4 @@ Specifies whether the server processes raw SMBs. If enabled, this member allows 
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

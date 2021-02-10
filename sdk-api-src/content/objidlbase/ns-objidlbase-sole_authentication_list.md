@@ -46,6 +46,8 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
+ - tagSOLE_AUTHENTICATION_LIST
+ - PSOLE_AUTHENTICATION_LIST
  - SOLE_AUTHENTICATION_LIST
 ---
 
@@ -69,3 +71,4 @@ An array of <a href="/windows/desktop/api/objidl/ns-objidl-sole_authentication_i
 ## -see-also
 
 <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
+ - _USBUSER_POWER_INFO_REQUEST
+ - PUSBUSER_POWER_INFO_REQUEST
  - USBUSER_POWER_INFO_REQUEST
 ---
 
@@ -77,3 +79,4 @@ The <b>USBUSER_POWER_INFO_REQUEST</b> structure is used in conjunction with the 
 
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdCmd.WaitForEnd
+ - IDvdCmd::WaitForEnd
 ---
 
 # IDvdCmd::WaitForEnd
@@ -74,3 +74,4 @@ Returns S_OK if successful or an <b>HRESULT</b> error code otherwise.
 
 
 <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
+

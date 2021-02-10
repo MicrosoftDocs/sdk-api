@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.KeyPress
+ - IWMPEvents::KeyPress
 ---
 
 # IWMPEvents::KeyPress
@@ -65,3 +65,4 @@ This event occurs when the keystroke results in any printable keyboard character
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WTSQueryListenerConfigA
  - wtsapi32/WTSQueryListenerConfigA
+ - WTSQueryListenerConfig
+ - wtsapi32/WTSQueryListenerConfig
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wtsapi32.dll
 api_name:
- - WTSQueryListenerConfig
  - WTSQueryListenerConfigA
- - WTSQueryListenerConfigW
+ - WTSQueryListenerConfig
 ---
 
 # WTSQueryListenerConfigA function
@@ -101,3 +102,4 @@ This function does not retrieve the security descriptor for the listener. To ret
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtslistenerconfiga">WTSLISTENERCONFIG</a>
+

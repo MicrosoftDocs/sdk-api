@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasDialDlgW
  - rasdlg/RasDialDlgW
+ - RasDialDlg
+ - rasdlg/RasDialDlg
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Rasdlg.dll
  - Ext-MS-Win-ras-rasdlg-l1-1-0.dll
 api_name:
- - RasDialDlg
- - RasDialDlgA
  - RasDialDlgW
+ - RasDialDlg
 ---
 
 # RasDialDlgW function
@@ -211,3 +212,4 @@ DWORD __cdecl wmain(){
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

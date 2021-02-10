@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPathMapper.GetSharePathsForLocalPath
- - FsrmPathMapper.GetSharePathsForLocalPath
+ - IFsrmPathMapper::GetSharePathsForLocalPath
 ---
 
 # IFsrmPathMapper::GetSharePathsForLocalPath
@@ -82,3 +81,4 @@ When you get the path property for a quota, the path is the local path. You use 
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmpathmapper">IFsrmPathMapper</a>
+

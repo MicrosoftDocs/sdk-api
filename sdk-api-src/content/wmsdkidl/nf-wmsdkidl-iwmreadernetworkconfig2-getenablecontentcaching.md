@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.GetEnableContentCaching
+ - IWMReaderNetworkConfig2::GetEnableContentCaching
 ---
 
 # IWMReaderNetworkConfig2::GetEnableContentCaching
@@ -105,3 +105,4 @@ This method applies only to content being streamed from a server running Windows
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablecontentcaching">IWMReaderNetworkConfig2::SetEnableContentCaching</a>
+

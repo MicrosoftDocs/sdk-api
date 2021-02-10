@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader2.SetRangeByFrameEx
+ - IWMSyncReader2::SetRangeByFrameEx
 ---
 
 # IWMSyncReader2::SetRangeByFrameEx
@@ -90,3 +90,4 @@ The file must be frame-indexed. If the call is successful, all streams are synch
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">IWMSyncReader::SetRangeByFrame</a>
+

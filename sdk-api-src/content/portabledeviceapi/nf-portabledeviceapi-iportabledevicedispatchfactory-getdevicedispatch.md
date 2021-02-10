@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGuids.lib
  - PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceDispatchFactory.GetDeviceDispatch
+ - IPortableDeviceDispatchFactory::GetDeviceDispatch
 ---
 
 # IPortableDeviceDispatchFactory::GetDeviceDispatch
@@ -102,3 +102,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/wpdauto/instantiating-the-wpd-automation-factory-interface">Instantiating the WPD Automation Factory Interface</a>
+

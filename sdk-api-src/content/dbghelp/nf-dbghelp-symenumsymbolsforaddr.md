@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymEnumSymbolsForAddr
- - SymEnumSymbolsForAddr
- - SymEnumSymbolsForAddrW
 ---
 
 # SymEnumSymbolsForAddr function
@@ -94,3 +92,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
+

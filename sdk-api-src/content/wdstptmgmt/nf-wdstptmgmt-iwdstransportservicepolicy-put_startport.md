@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.StartPort
- - IWdsTransportServicePolicy.get_StartPort
- - IWdsTransportServicePolicy.put_StartPort
+ - IWdsTransportServicePolicy::put_StartPort
 ---
 
 # IWdsTransportServicePolicy::put_StartPort
@@ -65,3 +63,4 @@ When setting the UDP start port, this property validates that it is a valid valu
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a>
+

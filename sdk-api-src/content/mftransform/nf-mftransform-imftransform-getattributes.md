@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTransform.GetAttributes
+ - IMFTransform::GetAttributes
 ---
 
 # IMFTransform::GetAttributes
@@ -113,3 +113,4 @@ Implementation of this method is optional unless the MFT needs to support a part
 
 
 <a href="/windows/desktop/medfound/transform-attributes">Transform Attributes</a>
+

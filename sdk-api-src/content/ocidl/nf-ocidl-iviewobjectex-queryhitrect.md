@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IViewObjectEx.QueryHitRect
+ - IViewObjectEx::QueryHitRect
 ---
 
 # IViewObjectEx::QueryHitRect
@@ -112,3 +112,4 @@ An object supporting <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex"
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
+

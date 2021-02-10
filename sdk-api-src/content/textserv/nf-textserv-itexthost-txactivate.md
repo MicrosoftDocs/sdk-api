@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost.TxActivate
+ - ITextHost::TxActivate
 ---
 
 # ITextHost::TxActivate
@@ -116,3 +116,4 @@ This function returns an opaque handle in
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

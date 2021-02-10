@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _QuarantineStatus
  - QuarantineStatus
 ---
 
@@ -103,3 +104,4 @@ The <b>QuarantineStatus</b> enumeration is used in the <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>
+

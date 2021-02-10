@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetTextMetricsA
  - wingdi/GetTextMetricsA
+ - GetTextMetrics
+ - wingdi/GetTextMetrics
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetTextMetrics
  - GetTextMetricsA
- - GetTextMetricsW
+ - GetTextMetrics
 ---
 
 # GetTextMetricsA function
@@ -120,3 +121,4 @@ For an example, see "Displaying Keyboard Input" in <a href="/windows/desktop/inp
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a>
+

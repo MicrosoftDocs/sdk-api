@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector.SupportHighContrastInk
- - IInkCollector.get_SupportHighContrastInk
- - IInkCollector.put_SupportHighContrastInk
- - InkCollector.get_SupportHighContrastInk
- - InkCollector.put_SupportHighContrastInk
+ - IInkCollector::put_SupportHighContrastInk
 ---
 
 # IInkCollector::put_SupportHighContrastInk
@@ -88,3 +84,4 @@ Real-time ink application uses the COLOR_WINDOWTEXT color when the system is in 
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastselectionui">SupportHighContrastSelectionUI Property [InkOverlay Class]</a>
+

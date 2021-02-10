@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
+ - IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler
 ---
 
 # IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler
@@ -95,3 +95,4 @@ For editable text elements, such as <a href="/windows/desktop/controls/edit-cont
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationeventhandlergroup">IUIAutomationEventHandlerGroup</a>
+

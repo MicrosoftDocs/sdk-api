@@ -43,9 +43,6 @@ api_location:
  - Mergemod.dll
 api_name:
  - IMsmDependency
- - IMsmDependency.get_Module
- - IMsmDependency.get_Language
- - IMsmDependency.get_Version
 ---
 
 # IMsmDependency interface
@@ -70,3 +67,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmDependency</b> interface 
 
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

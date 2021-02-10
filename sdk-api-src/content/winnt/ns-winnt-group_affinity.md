@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _GROUP_AFFINITY
+ - PGROUP_AFFINITY
  - GROUP_AFFINITY
 ---
 
@@ -81,3 +83,4 @@ This member is reserved.
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a>
+

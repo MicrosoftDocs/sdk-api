@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageDataFactory.CreateImageFromStream
+ - IShellImageDataFactory::CreateImageFromStream
 ---
 
 # IShellImageDataFactory::CreateImageFromStream
@@ -115,3 +115,4 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 ## -remarks
 
 If <i>pStream</i> is <b>NULL</b> or an invalid pointer, later calls to <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a> will cause an access violation.
+

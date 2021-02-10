@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHGetValueA
  - shlwapi/SHGetValueA
+ - SHGetValue
+ - shlwapi/SHGetValue
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-ShCore-Registry-l1-1-0.dll
  - API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
- - SHGetValue
  - SHGetValueA
- - SHGetValueW
+ - SHGetValue
 ---
 
 # SHGetValueA function
@@ -136,3 +137,4 @@ If your application must set/retrieve a series of values in the same key, it is 
 
 > [!NOTE]
 > The shlwapi.h header defines SHGetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

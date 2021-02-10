@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - IMpeg2Data.GetStreamOfSections
+ - IMpeg2Data::GetStreamOfSections
 ---
 
 # IMpeg2Data::GetStreamOfSections
@@ -123,3 +123,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data Interface</a>
+

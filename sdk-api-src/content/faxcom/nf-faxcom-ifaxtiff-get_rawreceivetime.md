@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff.RawReceiveTime
- - IFaxTiff.get_RawReceiveTime
+ - IFaxTiff::get_RawReceiveTime
 ---
 
 # IFaxTiff::get_RawReceiveTime
@@ -92,3 +91,4 @@ The <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-receiveti
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-receivetime-vb">IFaxTiff::get_ReceiveTime</a>
+

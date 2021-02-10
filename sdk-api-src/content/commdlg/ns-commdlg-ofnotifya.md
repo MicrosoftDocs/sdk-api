@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
- - OFNOTIFY
+ - _OFNOTIFYA
+ - LPOFNOTIFYA
  - OFNOTIFYA
- - OFNOTIFYW
 ---
 
 # OFNOTIFYA structure
@@ -136,3 +136,4 @@ Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>O
 
 
 <b>Reference</b>
+

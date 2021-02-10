@@ -44,6 +44,7 @@ api_type:
 api_location:
  - waasapitypes.h
 api_name:
+ - tagUpdateAssessmentStatus
  - UpdateAssessmentStatus
 ---
 
@@ -112,3 +113,4 @@ The device is not on the latest feature update due to the device's Windows Updat
 ## -remarks
 
 This enumeration is used most often with the <a href="/windows/desktop/api/waasapitypes/ns-waasapitypes-updateassessment">UpdateAssessment</a>  and <a href="/windows/desktop/api/waasapitypes/ns-waasapitypes-osupdateassessment">OSUpdateAssessment</a> structures, which are in turn used with the <a href="/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a> method for <a href="/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor">IWaaSAssessor</a>.
+

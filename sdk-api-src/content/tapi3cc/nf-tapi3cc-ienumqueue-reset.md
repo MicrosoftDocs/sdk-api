@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumQueue.Reset
+ - IEnumQueue::Reset
 ---
 
 # IEnumQueue::Reset

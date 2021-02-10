@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PathUnmakeSystemFolderW
  - shlwapi/PathUnmakeSystemFolderW
+ - PathUnmakeSystemFolder
+ - shlwapi/PathUnmakeSystemFolder
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - PathUnmakeSystemFolder
- - PathUnmakeSystemFolderA
  - PathUnmakeSystemFolderW
+ - PathUnmakeSystemFolder
 ---
 
 # PathUnmakeSystemFolderW function

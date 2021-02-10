@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.Transparency
- - IInkDrawingAttributes.get_Transparency
- - IInkDrawingAttributes.put_Transparency
- - InkDrawingAttributes.get_Transparency
- - InkDrawingAttributes.put_Transparency
+ - IInkDrawingAttributes::put_Transparency
 ---
 
 # IInkDrawingAttributes::put_Transparency
@@ -91,3 +87,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
+

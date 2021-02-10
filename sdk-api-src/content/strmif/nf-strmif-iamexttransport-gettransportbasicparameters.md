@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.GetTransportBasicParameters
+ - IAMExtTransport::GetTransportBasicParameters
 ---
 
 # IAMExtTransport::GetTransportBasicParameters
@@ -209,3 +209,4 @@ To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
+

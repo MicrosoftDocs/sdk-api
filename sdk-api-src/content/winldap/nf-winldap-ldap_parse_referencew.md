@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_parse_referenceW
  - winldap/ldap_parse_referenceW
+ - ldap_parse_reference
+ - winldap/ldap_parse_reference
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_parse_reference
- - ldap_parse_referenceA
  - ldap_parse_referenceW
+ - ldap_parse_reference
 ---
 
 # ldap_parse_referenceW function
@@ -104,3 +105,4 @@ When it is no longer needed, free the <i>Referrals</i> pointer by calling
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
+

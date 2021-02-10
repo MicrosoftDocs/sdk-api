@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_MASK_GEN_ALGORITHM
+ - PCRYPT_MASK_GEN_ALGORITHM
  - CRYPT_MASK_GEN_ALGORITHM
 ---
 
@@ -91,3 +93,4 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier"
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsa_ssa_pss_parameters">CRYPT_RSA_SSA_PSS_PARAMETERS</a>
+

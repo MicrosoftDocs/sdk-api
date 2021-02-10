@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAnalogTuner2.get_NumAuxInputs
+ - IMSVidAnalogTuner2::get_NumAuxInputs
 ---
 
 # IMSVidAnalogTuner2::get_NumAuxInputs
@@ -107,3 +107,4 @@ The first S-video input is channel 0 and the first composite input is channel 1.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner2">IMSVidAnalogTuner2 Interface</a>
+

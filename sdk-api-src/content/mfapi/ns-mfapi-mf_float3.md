@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - _MF_FLOAT3
  - MF_FLOAT3
 ---
 
@@ -71,3 +72,4 @@ Z component of the vector.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample.SetMediaTime
+ - IAMMediaTypeSample::SetMediaTime
 ---
 
 # IAMMediaTypeSample::SetMediaTime
@@ -71,3 +71,4 @@ Returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
+

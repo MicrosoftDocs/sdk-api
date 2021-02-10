@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objbase.h
 api_name:
+ - tagCOMSD
  - COMSD
 ---
 
@@ -75,3 +76,4 @@ Machine-wide access limits.
 ## -see-also
 
 <a href="/windows/desktop/api/objbase/nf-objbase-cogetsystemsecuritypermissions">CoGetSystemSecurityPermissions</a>
+

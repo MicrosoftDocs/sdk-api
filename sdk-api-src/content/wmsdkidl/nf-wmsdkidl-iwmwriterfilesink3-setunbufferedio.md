@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.SetUnbufferedIO
+ - IWMWriterFileSink3::SetUnbufferedIO
 ---
 
 # IWMWriterFileSink3::SetUnbufferedIO
@@ -113,3 +113,4 @@ This method dynamically allocates a set of buffers to prepare data for unbuffere
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-getunbufferedio">IWMWriterFileSink3::GetUnbufferedIO</a>
+

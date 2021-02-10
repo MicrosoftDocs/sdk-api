@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - ITuneRequestInfo.GetPreviousProgram
+ - ITuneRequestInfo::GetPreviousProgram
 ---
 
 # ITuneRequestInfo::GetPreviousProgram
@@ -106,3 +106,4 @@ This method might be used by a custom Guide Store Loader to enumerate the availa
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
+

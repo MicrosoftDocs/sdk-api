@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.DeleteMemberName
- - AzApplicationGroup.DeleteMemberName
+ - IAzApplicationGroup::DeleteMemberName
 ---
 
 # IAzApplicationGroup::DeleteMemberName
@@ -66,3 +65,4 @@ Reserved for future use.
 ## -remarks
 
 To view the list of account names of  accounts that belong to this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property.
+

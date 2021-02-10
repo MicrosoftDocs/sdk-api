@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.SetSkipDuration
+ - IUIAnimationStoryboard2::SetSkipDuration
 ---
 
 # IUIAnimationStoryboard2::SetSkipDuration
@@ -79,3 +79,4 @@ This diagram shows a skip duration, or offset, for a storyboard.
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay">SetLongestAcceptableDelay</a>
+

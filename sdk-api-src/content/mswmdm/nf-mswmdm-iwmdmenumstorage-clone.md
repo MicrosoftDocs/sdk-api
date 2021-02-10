@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMEnumStorage.Clone
+ - IWMDMEnumStorage::Clone
 ---
 
 # IWMDMEnumStorage::Clone
@@ -77,3 +77,4 @@ Using this function, a client can record a particular point in the enumeration s
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage Interface</a>
+

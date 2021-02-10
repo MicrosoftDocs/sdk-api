@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.BackColor
- - IInkEdit.get_BackColor
- - IInkEdit.put_BackColor
- - InkEdit.get_BackColor
- - InkEdit.put_BackColor
+ - IInkEdit::put_BackColor
 ---
 
 # IInkEdit::put_BackColor
@@ -68,3 +64,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriterEx.InitializeEx
+ - CVssWriterEx::InitializeEx
 ---
 
 # CVssWriterEx::InitializeEx
@@ -238,3 +238,4 @@ The <i>wszWriterInstanceName</i> parameter allows a multi-instance writer to spe
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getversion">IVssExamineWriterMetadataEx2::GetVersion</a>
+

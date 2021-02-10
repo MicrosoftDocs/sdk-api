@@ -45,7 +45,7 @@ api_location:
  - Ncprov.dll
  - Wbemcore.dll
 api_name:
- - IWbemQualifierSet.Put
+ - IWbemQualifierSet::Put
 ---
 
 # IWbemQualifierSet::Put
@@ -115,3 +115,4 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 ## -see-also
 
 <a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
+

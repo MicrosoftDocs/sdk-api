@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1009
+ - PUSER_INFO_1009
  - USER_INFO_1009
 ---
 
@@ -80,3 +82,4 @@ Pointer to a Unicode string specifying the path for the user's logon script file
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

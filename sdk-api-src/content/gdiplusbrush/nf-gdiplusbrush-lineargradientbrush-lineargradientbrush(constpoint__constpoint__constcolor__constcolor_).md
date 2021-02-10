@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusbrush.h
 api_name:
- - LinearGradientBrush.LinearGradientBrush
+ - LinearGradientBrush::LinearGradientBrush
 ---
 
 ## -description

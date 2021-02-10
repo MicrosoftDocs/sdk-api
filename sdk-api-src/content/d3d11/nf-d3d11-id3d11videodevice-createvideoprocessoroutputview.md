@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoDevice.CreateVideoProcessorOutputView
+ - ID3D11VideoDevice::CreateVideoProcessorOutputView
 ---
 
 # ID3D11VideoDevice::CreateVideoProcessorOutputView
@@ -103,3 +103,4 @@ If stereo output is enabled, the output view must have 2 array elements.  Otherw
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
+

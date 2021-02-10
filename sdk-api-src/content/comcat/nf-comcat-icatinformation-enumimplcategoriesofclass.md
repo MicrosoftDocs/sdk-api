@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - ICatInformation.EnumImplCategoriesOfClass
+ - ICatInformation::EnumImplCategoriesOfClass
 ---
 
 # ICatInformation::EnumImplCategoriesOfClass
@@ -69,3 +69,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
+

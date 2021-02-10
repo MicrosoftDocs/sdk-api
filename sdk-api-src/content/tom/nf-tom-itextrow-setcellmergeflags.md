@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.SetCellMergeFlags
+ - ITextRow::SetCellMergeFlags
 ---
 
 # ITextRow::SetCellMergeFlags
@@ -102,3 +102,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-getcellmergeflags">ITextRow::GetCellMergeFlags</a>
+

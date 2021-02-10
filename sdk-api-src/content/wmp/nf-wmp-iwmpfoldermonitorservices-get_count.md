@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPFolderMonitorServices.get_count
+ - IWMPFolderMonitorServices::get_count
 ---
 
 # IWMPFolderMonitorServices::get_count
@@ -89,3 +89,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices">IWMPFolderMonitorServices Interface</a>
+

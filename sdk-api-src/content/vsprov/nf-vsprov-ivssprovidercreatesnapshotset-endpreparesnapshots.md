@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet.EndPrepareSnapshots
+ - IVssProviderCreateSnapshotSet::EndPrepareSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::EndPrepareSnapshots
@@ -165,3 +165,4 @@ If any other value is returned, VSS will write an event to the event log and con
 
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
+

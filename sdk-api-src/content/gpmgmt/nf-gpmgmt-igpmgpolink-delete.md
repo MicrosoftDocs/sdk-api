@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPOLink.Delete
- - GPMGPOLink.Delete
+ - IGPMGPOLink::Delete
 ---
 
 # IGPMGPOLink::Delete
@@ -66,3 +65,4 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a>
+

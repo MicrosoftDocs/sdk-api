@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_CREDENTIAL_PAIR0_
  - IKEEXT_CREDENTIAL_PAIR0
 ---
 
@@ -76,3 +77,4 @@ See [IKEEXT_CREDENTIAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_creden
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

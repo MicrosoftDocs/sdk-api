@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertView2.SetTable
- - ICertView.SetTable
- - CCertView.SetTable
+ - ICertView2::SetTable
 ---
 
 # ICertView2::SetTable
@@ -141,3 +139,4 @@ if (FAILED(hr))
     exit(1);  // Or other error action.
 }
 ```
+

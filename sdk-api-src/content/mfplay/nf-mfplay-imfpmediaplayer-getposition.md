@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.GetPosition
+ - IMFPMediaPlayer::GetPosition
 ---
 
 # IMFPMediaPlayer::GetPosition
@@ -187,3 +187,4 @@ HRESULT GetPositionHNS(
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_ORIGIN
+ - PTOKEN_ORIGIN
  - TOKEN_ORIGIN
 ---
 
@@ -65,3 +67,4 @@ The <b>TOKEN_ORIGIN</b> structure contains information about  the origin of the 
 ## -see-also
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxSwitchDesktopToWinlogon
+ - PWLX_SWITCH_DESKTOP_TO_WINLOGON
 ---
 
 # PWLX_SWITCH_DESKTOP_TO_WINLOGON callback function
@@ -69,3 +69,4 @@ The <b>WlxSwitchDesktopToWinlogon</b> function returns zero if the function call
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+

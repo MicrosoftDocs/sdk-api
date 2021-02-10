@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost2.TxGetHorzExtent
+ - ITextHost2::TxGetHorzExtent
 ---
 
 # ITextHost2::TxGetHorzExtent
@@ -73,3 +73,4 @@ A rich edit control doesn't use the return value; instead, they get the scroll w
 ## -see-also
 
 <a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
+

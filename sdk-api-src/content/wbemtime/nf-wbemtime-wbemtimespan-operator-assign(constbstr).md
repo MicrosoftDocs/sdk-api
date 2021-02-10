@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan.operator=
+ - WBEMTimeSpan::operator=
 ---
 
 # WBEMTimeSpan::operator-assign
@@ -71,3 +71,4 @@ TBD
 #### - t
 
 <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/interval-format">Interval Format</a>.
+

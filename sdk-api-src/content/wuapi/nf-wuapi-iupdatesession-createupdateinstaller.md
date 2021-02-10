@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSession.CreateUpdateInstaller
+ - IUpdateSession::CreateUpdateInstaller
 ---
 
 # IUpdateSession::CreateUpdateInstaller
@@ -100,3 +100,4 @@ An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstall
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
+

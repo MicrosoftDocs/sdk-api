@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CFrameworkQuery.AllPropertiesAreRequired
+ - CFrameworkQuery::AllPropertiesAreRequired
 ---
 
 # CFrameworkQuery::AllPropertiesAreRequired
@@ -64,3 +64,4 @@ The <b>AllPropertiesAreRequired</b> method indicates whether all of the properti
 ## -returns
 
 Returns <b>TRUE</b> if all properties are required and <b>FALSE</b> if only a subset of the properties are required.
+

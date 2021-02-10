@@ -43,9 +43,7 @@ api_location:
  - Certidl.lib
  - Certidl.dll
 api_name:
- - ICertPolicy2.GetDescription
- - ICertPolicy.GetDescription
- - CCertPolicy.GetDescription
+ - ICertPolicy::GetDescription
 ---
 
 # ICertPolicy::GetDescription
@@ -116,3 +114,4 @@ STDMETHODIMP CCertPolicy::GetDescription(
 
 
 <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
+

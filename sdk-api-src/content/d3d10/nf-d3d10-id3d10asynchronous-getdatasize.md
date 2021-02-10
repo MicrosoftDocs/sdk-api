@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Asynchronous.GetDataSize
+ - ID3D10Asynchronous::GetDataSize
 ---
 
 # ID3D10Asynchronous::GetDataSize
@@ -64,3 +64,4 @@ Size of the data (in bytes) that is output when calling GetData.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous Interface</a>
+

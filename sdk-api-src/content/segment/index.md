@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - segment
  - segment/segment
+api_name:
+ - segment
 ---
 
 # Segment.h header

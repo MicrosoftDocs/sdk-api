@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaLogEx.hResultEx
+ - IWiaLogEx::hResultEx
 ---
 
 # IWiaLogEx::hResultEx

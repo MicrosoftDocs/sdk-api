@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.Pen
+ - Pen::Pen
 ---
 
 # Pen::Pen(IN const Color &,IN REAL)
@@ -105,3 +105,4 @@ Pen pen(Color(255,255,0,0), 4.0f);
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>
+

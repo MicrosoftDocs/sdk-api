@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _VOLUME_DISK_EXTENTS
+ - PVOLUME_DISK_EXTENTS
  - VOLUME_DISK_EXTENTS
 ---
 
@@ -80,3 +82,4 @@ An array of <a href="/windows/desktop/api/winioctl/ns-winioctl-disk_extent">DISK
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
+

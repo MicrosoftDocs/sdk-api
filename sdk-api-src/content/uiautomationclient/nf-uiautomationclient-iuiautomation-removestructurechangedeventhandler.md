@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.RemoveStructureChangedEventHandler
+ - IUIAutomation::RemoveStructureChangedEventHandler
 ---
 
 # IUIAutomation::RemoveStructureChangedEventHandler
@@ -101,3 +101,4 @@ access violation if an event is delivered late.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removepropertychangedeventhandler">RemovePropertyChangedEventHandler</a>
+

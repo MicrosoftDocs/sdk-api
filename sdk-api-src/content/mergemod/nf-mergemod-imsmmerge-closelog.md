@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge.CloseLog
+ - IMsmMerge::CloseLog
 ---
 
 # IMsmMerge::CloseLog
@@ -107,3 +107,4 @@ The function succeeded.
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

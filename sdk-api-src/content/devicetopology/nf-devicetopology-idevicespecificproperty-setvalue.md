@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceSpecificProperty.SetValue
+ - IDeviceSpecificProperty::SetValue
 ---
 
 # IDeviceSpecificProperty::SetValue
@@ -113,3 +113,4 @@ Out of memory.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicespecificproperty">IDeviceSpecificProperty Interface</a>
+

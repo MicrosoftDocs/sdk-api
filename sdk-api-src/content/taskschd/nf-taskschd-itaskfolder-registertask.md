@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskFolder.RegisterTask
+ - ITaskFolder::RegisterTask
 ---
 
 # ITaskFolder::RegisterTask
@@ -382,3 +382,4 @@ If a task defines a network that does not exist in the <a href="/windows/desktop
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

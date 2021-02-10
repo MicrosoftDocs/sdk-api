@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.SubmittedTime
- - IFaxStatus.get_SubmittedTime
+ - IFaxStatus::get_SubmittedTime
 ---
 
 # IFaxStatus::get_SubmittedTime
@@ -88,3 +87,4 @@ You can use the <b>SubmittedTime</b> property of a <a href="/previous-versions/w
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxstatus-get-starttime-vb">IFaxStatus::get_StartTime</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJobs.get_Item
+ - IFaxOutgoingJobs::get_Item
 ---
 
 # IFaxOutgoingJobs::get_Item
@@ -88,3 +88,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
+

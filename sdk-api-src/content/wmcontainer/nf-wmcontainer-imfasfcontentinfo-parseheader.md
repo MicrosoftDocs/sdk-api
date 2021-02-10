@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFContentInfo.ParseHeader
+ - IMFASFContentInfo::ParseHeader
 ---
 
 # IMFASFContentInfo::ParseHeader
@@ -161,3 +161,4 @@ The first call to <b>ParseHeader</b> reads everything up to and including Rerser
 
 
 <a href="/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>
+

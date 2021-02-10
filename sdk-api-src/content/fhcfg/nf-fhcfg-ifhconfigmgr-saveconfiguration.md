@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr.SaveConfiguration
- - FhConfigMgr.SaveConfiguration
+ - IFhConfigMgr::SaveConfiguration
 ---
 
 # IFhConfigMgr::SaveConfiguration
@@ -81,3 +80,4 @@ This method can be called as many times as needed during the lifetime of an <a h
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-loadconfiguration">IFhConfigMgr::LoadConfiguration</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_ENGINE_OPTION_
  - FWPM_ENGINE_OPTION
 ---
 
@@ -109,3 +110,4 @@ Maximum value for testing purposes.
 
 
 <a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
+

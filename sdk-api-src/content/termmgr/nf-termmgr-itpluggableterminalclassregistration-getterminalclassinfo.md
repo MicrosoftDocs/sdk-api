@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalClassRegistration.GetTerminalClassInfo
+ - ITPluggableTerminalClassRegistration::GetTerminalClassInfo
 ---
 
 # ITPluggableTerminalClassRegistration::GetTerminalClassInfo
@@ -66,3 +66,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalclassregistration">ITPluggableTerminalClassRegistration</a>
+

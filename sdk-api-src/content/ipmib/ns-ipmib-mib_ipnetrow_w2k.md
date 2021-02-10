@@ -47,7 +47,9 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - MIB_IPNETROW
+ - _MIB_IPNETROW_W2K
+ - PMIB_IPNETROW_W2K
+ - MIB_IPNETROW_W2K
 ---
 
 # MIB_IPNETROW_W2K structure
@@ -162,3 +164,4 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a>
+

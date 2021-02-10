@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Websocket.h
 api_name:
+ - _WEB_SOCKET_HTTP_HEADER
+ - PWEB_SOCKET_HTTP_HEADER
  - WEB_SOCKET_HTTP_HEADER
 ---
 
@@ -97,3 +99,4 @@ Length, in characters,  of the HTTP value pointed to by <b>pcValue</b>.
 
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a>
+

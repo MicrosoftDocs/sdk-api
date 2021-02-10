@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Werapi.h
 api_name:
+ - _WER_EXCEPTION_INFORMATION
+ - PWER_EXCEPTION_INFORMATION
  - WER_EXCEPTION_INFORMATION
 ---
 
@@ -69,3 +71,4 @@ A process (calling process) can provide error reporting functionality for anothe
 ## -see-also
 
 <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>
+

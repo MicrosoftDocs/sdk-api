@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMC_TAGGED_REQUEST
+ - PCMC_TAGGED_REQUEST
  - CMC_TAGGED_REQUEST
 ---
 
@@ -73,3 +75,4 @@ A pointer to a
 ## -remarks
 
 Additional members of the union may be defined in future versions.
+

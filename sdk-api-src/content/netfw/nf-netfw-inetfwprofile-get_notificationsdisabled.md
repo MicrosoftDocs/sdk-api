@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwProfile.NotificationsDisabled
- - INetFwProfile.get_NotificationsDisabled
- - INetFwProfile.put_NotificationsDisabled
+ - INetFwProfile::get_NotificationsDisabled
 ---
 
 # INetFwProfile::get_NotificationsDisabled
@@ -64,3 +62,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
+

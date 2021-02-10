@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleConnector.HostingProcessPid
- - IFsrmPipelineModuleConnector.get_HostingProcessPid
- - FsrmPipelineModuleConnector.HostingProcessPid
+ - IFsrmPipelineModuleConnector::get_HostingProcessPid
 ---
 
 # IFsrmPipelineModuleConnector::get_HostingProcessPid
@@ -67,3 +65,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleconnector">IFsrmPipelineModuleConnector</a>
+

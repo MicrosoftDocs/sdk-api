@@ -9,6 +9,8 @@ tech.root: wes
 f1_keywords:
  - winevt
  - winevt/winevt
+api_name:
+ - winevt
 ---
 
 # Winevt.h header

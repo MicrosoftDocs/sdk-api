@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagCOLORSCHEME
+ - LPCOLORSCHEME
  - COLORSCHEME
 ---
 
@@ -77,3 +79,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that represents the shadow color of the buttons. Use 
 					<b>CLR_DEFAULT</b> for the default shadow color.
+

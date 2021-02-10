@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmprealestate
  - wmprealestate/wmprealestate
+api_name:
+ - wmprealestate
 ---
 
 # Wmprealestate.h header

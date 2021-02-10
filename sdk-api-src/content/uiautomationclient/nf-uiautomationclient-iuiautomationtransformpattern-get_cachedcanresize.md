@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern.CachedCanResize
- - IUIAutomationTransformPattern.get_CachedCanResize
+ - IUIAutomationTransformPattern::get_CachedCanResize
 ---
 
 # IUIAutomationTransformPattern::get_CachedCanResize
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-resize">IUIAutomationTransformPattern::Resize</a>
+

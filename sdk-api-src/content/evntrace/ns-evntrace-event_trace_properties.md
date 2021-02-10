@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
+ - _EVENT_TRACE_PROPERTIES
+ - PEVENT_TRACE_PROPERTIES
  - EVENT_TRACE_PROPERTIES
 ---
 
@@ -666,3 +668,4 @@ To view session statistics, such as <b>EventsLost</b> while the session is runni
 
 
 <a href="/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>
+

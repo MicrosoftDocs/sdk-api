@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - _CatalogStatus
  - CatalogStatus
 ---
 
@@ -83,3 +84,4 @@ Indexer is processing the notification queue. This is done before resuming any c
 ### -field CATALOG_STATUS_SHUTTING_DOWN
 
 Indexer is shutting down and is not indexing.  Indexer can't be queried.
+

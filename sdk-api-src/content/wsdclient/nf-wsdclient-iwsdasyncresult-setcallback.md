@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDAsyncResult.SetCallback
+ - IWSDAsyncResult::SetCallback
 ---
 
 # IWSDAsyncResult::SetCallback
@@ -109,3 +109,4 @@ The <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-async
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
+

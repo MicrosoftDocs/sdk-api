@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.SmimeCapabilities
- - IX509CertificateRequestPkcs10.get_SmimeCapabilities
- - IX509CertificateRequestPkcs10.put_SmimeCapabilities
+ - IX509CertificateRequestPkcs10::put_SmimeCapabilities
 ---
 
 # IX509CertificateRequestPkcs10::put_SmimeCapabilities
@@ -69,3 +67,4 @@ If you did not set the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+

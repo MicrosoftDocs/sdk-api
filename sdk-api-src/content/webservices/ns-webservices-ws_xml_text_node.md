@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_TEXT_NODE
  - WS_XML_TEXT_NODE
 ---
 
@@ -63,3 +64,4 @@ The base type for all types that derive from <a href="/windows/desktop/api/webse
 ### -field text
 
 The text content.
+

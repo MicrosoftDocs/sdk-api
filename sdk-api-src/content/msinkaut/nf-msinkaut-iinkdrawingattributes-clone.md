@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.Clone
+ - IInkDrawingAttributes::Clone
 ---
 
 # IInkDrawingAttributes::Clone
@@ -171,3 +171,4 @@ In most scenarios, the duplicate object is an exact copy of the original object,
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes">ModifyDrawingAttributes Method</a>
+

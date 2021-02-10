@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImageResult.get_ProgressItems
+ - IFileSystemImageResult::get_ProgressItems
 ---
 
 # IFileSystemImageResult::get_ProgressItems
@@ -106,3 +106,4 @@ Value: 0x8007000E
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
+

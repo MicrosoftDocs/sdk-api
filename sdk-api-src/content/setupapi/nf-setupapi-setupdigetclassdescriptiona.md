@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetClassDescriptionA
  - setupapi/SetupDiGetClassDescriptionA
+ - SetupDiGetClassDescription
+ - setupapi/SetupDiGetClassDescription
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetClassDescription
  - SetupDiGetClassDescriptionA
+ - SetupDiGetClassDescription
 ---
 
 # SetupDiGetClassDescriptionA function
@@ -98,3 +100,4 @@ Call <b>SetupDiGetClassDescriptionEx</b> to retrieve the description of a setup 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetinfclassa">SetupDiGetINFClass</a>
+

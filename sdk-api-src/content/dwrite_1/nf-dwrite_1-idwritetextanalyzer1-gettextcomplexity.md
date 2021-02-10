@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteTextAnalyzer1.GetTextComplexity
+ - IDWriteTextAnalyzer1::GetTextComplexity
 ---
 
 # IDWriteTextAnalyzer1::GetTextComplexity

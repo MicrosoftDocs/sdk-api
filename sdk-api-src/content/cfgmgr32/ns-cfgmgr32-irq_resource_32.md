@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Cfgmgr32.h
 api_name:
- - IRQ_RESOURCE
+ - IRQ_Resource_32_s
+ - PIRQ_RESOURCE_32
+ - IRQ_RESOURCE_32
 ---
 
 # IRQ_RESOURCE_32 structure
@@ -81,3 +83,4 @@ An [IRQ_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range) array.
 
 
 [IRQ_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport2.GetVersionString
+ - IMetaDataImport2::GetVersionString
 ---
 
 # IMetaDataImport2::GetVersionString
@@ -77,3 +77,4 @@ The <b>GetVersionString</b> method gets the built-for version of the current met
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>
+

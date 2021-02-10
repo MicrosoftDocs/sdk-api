@@ -9,6 +9,8 @@ tech.root: debug
 f1_keywords:
  - webapplication
  - webapplication/webapplication
+api_name:
+ - webapplication
 ---
 
 # Webapplication.h header

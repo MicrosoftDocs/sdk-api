@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
+ - _QOS_DESTADDR
+ - LPQOS_DESTADDR
  - QOS_DESTADDR
 ---
 
@@ -83,3 +85,4 @@ Length of the <b>SocketAddress</b> structure.
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
+

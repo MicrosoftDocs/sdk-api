@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetName
+ - IDiskQuotaUser::GetName
 ---
 
 # IDiskQuotaUser::GetName
@@ -122,3 +122,4 @@ Failure to obtain an exclusive lock.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
+

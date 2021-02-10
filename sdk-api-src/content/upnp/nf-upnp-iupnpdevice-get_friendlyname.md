@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice.get_FriendlyName
+ - IUPnPDevice::get_FriendlyName
 ---
 
 # IUPnPDevice::get_FriendlyName
@@ -75,3 +75,4 @@ It is possible for multiple devices to have the same display name. To determine 
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename">UniqueDeviceName</a>
+

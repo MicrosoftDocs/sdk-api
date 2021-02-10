@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.SetMuteDebugOutput
+ - ID3D10InfoQueue::SetMuteDebugOutput
 ---
 
 # ID3D10InfoQueue::SetMuteDebugOutput
@@ -67,3 +67,4 @@ This will stop messages that pass the storage filter from being printed out in t
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>
+

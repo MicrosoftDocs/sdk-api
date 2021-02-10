@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.QueryControllers
+ - IVdsSubSystem::QueryControllers
 ---
 
 # IVdsSubSystem::QueryControllers
@@ -161,3 +161,4 @@ If the subsystem has no controllers, this method returns an empty enumeration ob
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
+

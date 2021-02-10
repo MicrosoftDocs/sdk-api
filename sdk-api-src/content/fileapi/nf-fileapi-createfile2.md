@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateFile2
  - fileapi/CreateFile2
+ - CreateFile
+ - fileapi/CreateFile
 dev_langs:
  - c++
 topic_type:
@@ -48,6 +50,7 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - CreateFile2
+ - CreateFile
 ---
 
 # CreateFile2 function
@@ -953,3 +956,4 @@ For more information, see <a href="/windows/desktop/ipc/pipes">Pipes</a>.
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
+

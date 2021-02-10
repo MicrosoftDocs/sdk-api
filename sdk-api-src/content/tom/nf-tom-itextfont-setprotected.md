@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.SetProtected
+ - ITextFont::SetProtected
 ---
 
 # ITextFont::SetProtected
@@ -179,3 +179,4 @@ In general, Text Object Model (TOM) methods that attempt to change the formattin
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

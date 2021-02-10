@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CryptVerifySignatureW
  - wincrypt/CryptVerifySignatureW
+ - CryptVerifySignature
+ - wincrypt/CryptVerifySignature
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Security-cryptoapi-l1-1-0.dll
  - cryptsp.dll
 api_name:
- - CryptVerifySignature
- - CryptVerifySignatureA
  - CryptVerifySignatureW
+ - CryptVerifySignature
 ---
 
 # CryptVerifySignatureW function
@@ -292,3 +293,4 @@ For an example that uses the <b>CryptVerifySignature</b> function, see <a href="
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
+

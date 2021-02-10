@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.dll
 api_name:
- - IMILBitmapEffectConnector.IsConnected
+ - IMILBitmapEffectConnector::IsConnected
 ---
 
 # IMILBitmapEffectConnector::IsConnected

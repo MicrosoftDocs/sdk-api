@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponentEx.GetAuthoritativeRestore
+ - IVssComponentEx::GetAuthoritativeRestore
 ---
 
 # IVssComponentEx::GetAuthoritativeRestore
@@ -122,3 +122,4 @@ For more
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
+

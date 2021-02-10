@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspace.StartRemoteApplication
- - IWorkspace2.StartRemoteApplication
- - IWorkspace3.StartRemoteApplication
- - Workspace.StartRemoteApplication
+ - IWorkspace::StartRemoteApplication
 ---
 
 # IWorkspace::StartRemoteApplication
@@ -93,3 +90,4 @@ When a custom client calls the <b>StartRemoteApplication</b> method, the workspa
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>
+

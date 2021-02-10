@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_21
+ - PUSER_INFO_21
  - USER_INFO_21
 ---
 
@@ -78,3 +80,4 @@ Specifies a one-way encrypted LAN Manager 2.<i>x</i>-compatible password.
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

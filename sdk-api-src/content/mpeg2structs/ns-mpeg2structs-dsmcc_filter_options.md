@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
+ - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0016
  - DSMCC_FILTER_OPTIONS
 ---
 
@@ -139,3 +140,4 @@ Specifies the number of blocks in the module. Applies only to DDB messages.
 
 
 <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER Structure</a>
+

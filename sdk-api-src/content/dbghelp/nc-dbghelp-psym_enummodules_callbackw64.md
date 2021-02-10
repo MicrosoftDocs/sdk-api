@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - SymEnumerateModulesProc64
+ - PSYM_ENUMMODULES_CALLBACKW64
 ---
 
 # PSYM_ENUMMODULES_CALLBACKW64 callback function
@@ -104,3 +104,4 @@ typedef BOOL
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a>
+

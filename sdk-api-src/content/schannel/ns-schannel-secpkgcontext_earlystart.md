@@ -46,9 +46,9 @@ api_type:
 api_location:
  - schannel.h
 api_name:
+ - _SecPkgContext_EarlyStart
+ - PSecPkgContext_EarlyStart
  - SecPkgContext_EarlyStart
- - SecPkgContext_EarlyStartA
- - SecPkgContext_EarlyStartW
 ---
 
 # SecPkgContext_EarlyStart structure
@@ -65,3 +65,4 @@ See  the <a href="/windows/desktop/winmsg/windows">Building a faster and more se
 ### -field dwEarlyStartFlags
 
 Determines whether to attempt client-side False Start. Set the value to <b>ENABLE_TLS_CLIENT_EARLY_START</b> (1) to use False Start.
+

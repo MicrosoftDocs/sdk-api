@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectImpl.IsInPlaceModificationAllowed
+ - IMILBitmapEffectImpl::IsInPlaceModificationAllowed
 ---
 
 # IMILBitmapEffectImpl::IsInPlaceModificationAllowed
@@ -71,3 +71,4 @@ A pointer that receives <code>TRUE</code> if in-place modifications are allowed;
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

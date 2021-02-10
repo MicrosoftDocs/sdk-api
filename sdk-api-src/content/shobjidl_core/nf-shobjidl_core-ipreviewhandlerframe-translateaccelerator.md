@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPreviewHandlerFrame.TranslateAccelerator
+ - IPreviewHandlerFrame::TranslateAccelerator
 ---
 
 # IPreviewHandlerFrame::TranslateAccelerator
@@ -70,3 +70,4 @@ If the keyboard shortcut is one that the host intends to handle, the host will p
 
 <div class="alert"><b>Note</b>  This method is only called by a preview handler in response to an <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-translateaccelerator">TranslateAccelerator</a> call.</div>
 <div> </div>
+

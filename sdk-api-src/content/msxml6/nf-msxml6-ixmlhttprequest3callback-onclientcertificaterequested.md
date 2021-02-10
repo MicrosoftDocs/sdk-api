@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest3Callback.OnClientCertificateRequested
+ - IXMLHTTPRequest3Callback::OnClientCertificateRequested
 ---
 
 # IXMLHTTPRequest3Callback::OnClientCertificateRequested
@@ -86,3 +86,4 @@ Returns <b>S_OK</b> on success.
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
+

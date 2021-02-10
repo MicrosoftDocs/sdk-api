@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextChildPattern.TextRange
- - IUIAutomationTextChildPattern.get_TextRange
+ - IUIAutomationTextChildPattern::get_TextRange
 ---
 
 # IUIAutomationTextChildPattern::get_TextRange
@@ -64,3 +63,4 @@ This property is equivalent to  specifying this child element in a call to the <
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextchildpattern">IUIAutomationTextChildPattern</a>
+

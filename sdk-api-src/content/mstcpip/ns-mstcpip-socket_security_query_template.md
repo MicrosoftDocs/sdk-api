@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
+ - _SOCKET_SECURITY_QUERY_TEMPLATE
  - SOCKET_SECURITY_QUERY_TEMPLATE
 ---
 
@@ -105,3 +106,4 @@ Currently, the only type of security protocol that is supported is IPsec. So spe
 
 
 <a href="/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_NODE_POSITION
  - WS_XML_NODE_POSITION
 ---
 
@@ -75,3 +76,4 @@ The xml buffer to which the position refers.
 ### -field node
 
 An internal handle to the node.
+

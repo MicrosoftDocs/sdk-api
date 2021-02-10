@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_COMPARE
  - OFFLINEFILES_COMPARE
 ---
 
@@ -83,3 +84,4 @@ Check whether the item value is greater than or equal to the filter value.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">IOfflineFilesItemFilter::GetTimeFilter</a>
+

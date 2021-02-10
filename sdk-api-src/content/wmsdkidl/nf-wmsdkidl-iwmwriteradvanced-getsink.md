@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.GetSink
+ - IWMWriterAdvanced::GetSink
 ---
 
 # IWMWriterAdvanced::GetSink
@@ -121,3 +121,4 @@ You can use <b>GetSink</b> to gain access to the file sink that is automatically
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControl.FreezeEvents
+ - IOleControl::FreezeEvents
 ---
 
 # IOleControl::FreezeEvents
@@ -72,3 +72,4 @@ As with <a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-onambientproper
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ImmSetCompositionStringA
  - immdev/ImmSetCompositionStringA
+ - ImmSetCompositionString
+ - immdev/ImmSetCompositionString
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-imm-l1-1-0.dll
  - ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmSetCompositionString
  - ImmSetCompositionStringA
- - ImmSetCompositionStringW
+ - ImmSetCompositionString
 ---
 
 # ImmSetCompositionStringA function
@@ -183,3 +184,4 @@ When the IME completes the changes, it sends a <a href="/windows/desktop/Intl/wm
 
 
 <a href="/windows/desktop/Intl/wm-ime-composition">WM_IME_COMPOSITION</a>
+

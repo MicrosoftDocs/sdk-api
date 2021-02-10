@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.Connect
+ - ICOMAdminCatalog::Connect
 ---
 
 # ICOMAdminCatalog::Connect
@@ -77,3 +77,4 @@ When you use the <b>Connect</b> method, the <a href="/windows/desktop/api/comadm
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

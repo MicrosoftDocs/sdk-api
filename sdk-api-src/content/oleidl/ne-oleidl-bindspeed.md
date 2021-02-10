@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Oleidl.h
 api_name:
+ - tagBINDSPEED
  - BINDSPEED
 ---
 
@@ -99,3 +100,4 @@ Implementations of <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontai
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">IOleItemContainer::GetObject</a>
+

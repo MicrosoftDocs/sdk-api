@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mpeg2psiparser.h
 api_name:
- - ICAT.RegisterForWhenCurrent
+ - ICAT::RegisterForWhenCurrent
 ---
 
 # ICAT::RegisterForWhenCurrent
@@ -125,3 +125,4 @@ This method applies only to <i>next</i> tables. Otherwise, the method returns E_
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
+

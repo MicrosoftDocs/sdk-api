@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - _WMT_FILESINK_DATA_UNIT
  - WMT_FILESINK_DATA_UNIT
 ---
 
@@ -83,3 +84,4 @@ Pointer to an array of <a href="/previous-versions/windows/desktop/api/wmsdkidl/
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

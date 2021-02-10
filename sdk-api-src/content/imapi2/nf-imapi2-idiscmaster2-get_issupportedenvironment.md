@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscMaster2.get_IsSupportedEnvironment
+ - IDiscMaster2::get_IsSupportedEnvironment
 ---
 
 # IDiscMaster2::get_IsSupportedEnvironment
@@ -91,3 +91,4 @@ The environment must contain at least one type-5 optical device.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
+

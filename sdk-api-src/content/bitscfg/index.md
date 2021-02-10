@@ -9,6 +9,8 @@ tech.root: bits
 f1_keywords:
  - bitscfg
  - bitscfg/bitscfg
+api_name:
+ - bitscfg
 ---
 
 # Bitscfg.h header

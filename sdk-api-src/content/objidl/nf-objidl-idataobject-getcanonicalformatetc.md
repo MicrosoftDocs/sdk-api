@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject.GetCanonicalFormatEtc
+ - IDataObject::GetCanonicalFormatEtc
 ---
 
 # IDataObject::GetCanonicalFormatEtc
@@ -176,3 +176,4 @@ For data objects that never provide device-specific renderings, the simplest imp
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+

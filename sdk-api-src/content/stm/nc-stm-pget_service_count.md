@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - GetServiceCount
+ - PGET_SERVICE_COUNT
 ---
 
 # PGET_SERVICE_COUNT callback function
@@ -108,3 +108,4 @@ No services are available in the table or the operation failed. Call
 
 
 <a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
+

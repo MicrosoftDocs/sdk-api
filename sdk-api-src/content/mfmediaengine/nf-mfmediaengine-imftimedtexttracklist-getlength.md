@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextTrackList.GetLength
+ - IMFTimedTextTrackList::GetLength
 ---
 
 # IMFTimedTextTrackList::GetLength
@@ -63,3 +63,4 @@ Returns the length, in tracks, of the timed-text-track list.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttracklist">IMFTimedTextTrackList</a>
+

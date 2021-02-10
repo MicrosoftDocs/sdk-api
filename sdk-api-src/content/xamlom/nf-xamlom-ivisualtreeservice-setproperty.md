@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IVisualTreeService.SetProperty
+ - IVisualTreeService::SetProperty
 ---
 
 # IVisualTreeService::SetProperty
@@ -80,3 +80,4 @@ The caller of <b>SetProperty</b> must know the index of the property to be set b
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>
+

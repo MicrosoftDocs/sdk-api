@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_ENVELOPED_ENCODE_INFO
+ - PCMSG_ENVELOPED_ENCODE_INFO
  - CMSG_ENVELOPED_ENCODE_INFO
 ---
 
@@ -239,3 +241,4 @@ Optional. An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_a
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+

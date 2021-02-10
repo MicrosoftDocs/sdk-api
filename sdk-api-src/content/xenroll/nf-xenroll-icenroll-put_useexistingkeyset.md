@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.UseExistingKeySet
- - ICEnroll4.get_UseExistingKeySet
- - ICEnroll4.put_UseExistingKeySet
- - ICEnroll3.UseExistingKeySet
- - ICEnroll3.get_UseExistingKeySet
- - ICEnroll3.put_UseExistingKeySet
- - ICEnroll2.UseExistingKeySet
- - ICEnroll2.get_UseExistingKeySet
- - ICEnroll2.put_UseExistingKeySet
- - ICEnroll.UseExistingKeySet
- - ICEnroll.get_UseExistingKeySet
- - ICEnroll.put_UseExistingKeySet
- - CEnroll.UseExistingKeySet
+ - ICEnroll::put_UseExistingKeySet
 ---
 
 # ICEnroll::put_UseExistingKeySet
@@ -113,3 +101,4 @@ if (FAILED( hr ))
 else
     printf( "UseExistingKeySet set to TRUE\n" );
 ```
+

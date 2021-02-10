@@ -44,6 +44,7 @@ api_type:
 api_location:
  - DSAdmin.h
 api_name:
+ - LPDSA_NEWOBJ_DISPINFO
  - DSA_NEWOBJ_DISPINFO
 ---
 
@@ -75,3 +76,4 @@ Pointer to a null-terminated Unicode string that contains the display name, or c
 ## -see-also
 
 <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a>
+

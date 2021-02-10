@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode
+ - IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode
 ---
 
 # IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode
@@ -127,3 +127,4 @@ For DVD+R and DVD+DL media, this property will also affect the media closing ope
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode</a>
+

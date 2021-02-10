@@ -44,6 +44,7 @@ api_type:
 api_location:
  - slpublic.h
 api_name:
+ - _tagSLIDTYPE
  - SLIDTYPE
 ---
 

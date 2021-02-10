@@ -45,8 +45,6 @@ api_location:
  - winmmbase.dll
 api_name:
  - mixerGetControlDetails
- - mixerGetControlDetailsA
- - mixerGetControlDetailsW
 ---
 
 # mixerGetControlDetails function
@@ -219,3 +217,4 @@ All members of the <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrolde
 
 
 <a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
+

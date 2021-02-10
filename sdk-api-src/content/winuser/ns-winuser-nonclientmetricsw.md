@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - NONCLIENTMETRICS
- - NONCLIENTMETRICSA
+ - tagNONCLIENTMETRICSW
+ - PNONCLIENTMETRICSW
  - NONCLIENTMETRICSW
 ---
 
@@ -147,3 +147,4 @@ If the <b>iPaddedBorderWidth</b> member of the <a href="/windows/desktop/api/win
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

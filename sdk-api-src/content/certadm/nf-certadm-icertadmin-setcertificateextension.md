@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.SetCertificateExtension
- - ICertAdmin.SetCertificateExtension
- - CCertAdmin.SetCertificateExtension
+ - ICertAdmin::SetCertificateExtension
 ---
 
 # ICertAdmin::SetCertificateExtension
@@ -197,3 +195,4 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - UxTheme.h
 api_name:
+ - _INTLIST
+ - PINTLIST
  - INTLIST
 ---
 
@@ -73,3 +75,4 @@ List of integers. The constant MAX_INTLIST_COUNT, by definition, is equal to 402
 ## -remarks
 
 The lists are returned by <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemeintlist">GetThemeIntList</a>.
+

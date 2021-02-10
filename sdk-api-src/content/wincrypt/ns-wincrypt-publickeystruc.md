@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - BLOBHEADER
+ - _PUBLICKEYSTRUC
+ - PUBLICKEYSTRUC
 ---
 
 # PUBLICKEYSTRUC structure
@@ -189,3 +190,4 @@ PLAINTEXTBLOBs can be used with any algorithm or type of key combination support
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-rsapubkey">RSAPUBKEY</a>
+

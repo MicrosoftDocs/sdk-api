@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceManager.RegisterGroup
+ - IResourceManager::RegisterGroup
 ---
 
 # IResourceManager::RegisterGroup
@@ -144,3 +144,4 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
+

@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_WWN
  - VDS_WWN
 ---
 
@@ -73,3 +74,4 @@ An array of 8 bytes that together specify the 64-bit WWN value. The first elemen
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a>
+

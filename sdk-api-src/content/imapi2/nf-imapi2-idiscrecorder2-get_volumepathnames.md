@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2.get_VolumePathNames
+ - IDiscRecorder2::get_VolumePathNames
 ---
 
 # IDiscRecorder2::get_VolumePathNames
@@ -115,3 +115,4 @@ Value: 0x8007000E
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_legacydevicenumber">IDiscRecorder2::get_LegacyDeviceNumber</a>
+

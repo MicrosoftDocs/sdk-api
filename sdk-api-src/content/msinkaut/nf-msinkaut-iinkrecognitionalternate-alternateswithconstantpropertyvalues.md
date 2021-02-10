@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.AlternatesWithConstantPropertyValues
+ - IInkRecognitionAlternate::AlternatesWithConstantPropertyValues
 ---
 
 # IInkRecognitionAlternate::AlternatesWithConstantPropertyValues
@@ -182,3 +182,4 @@ The <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates Property</a>
+

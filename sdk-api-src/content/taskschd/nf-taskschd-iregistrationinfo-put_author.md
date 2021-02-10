@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegistrationInfo.Author
- - IRegistrationInfo.get_Author
- - IRegistrationInfo.put_Author
+ - IRegistrationInfo::put_Author
 ---
 
 # IRegistrationInfo::put_Author
@@ -71,3 +69,4 @@ When setting this property value, the value can be text that is retrieved from a
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

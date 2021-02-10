@@ -9,6 +9,8 @@ tech.root: dshow
 f1_keywords:
  - control
  - control/control
+api_name:
+ - control
 ---
 
 # Control.h header

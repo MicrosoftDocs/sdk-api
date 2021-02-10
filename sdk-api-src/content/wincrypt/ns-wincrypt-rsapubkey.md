@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _RSAPUBKEY
  - RSAPUBKEY
 ---
 
@@ -85,3 +86,4 @@ The public exponent.
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.SendMessage
+ - IWMPContentPartner::SendMessage
 ---
 
 # IWMPContentPartner::SendMessage
@@ -93,3 +93,4 @@ The plug-in must call <a href="/windows/desktop/api/contentpartner/nf-contentpar
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+

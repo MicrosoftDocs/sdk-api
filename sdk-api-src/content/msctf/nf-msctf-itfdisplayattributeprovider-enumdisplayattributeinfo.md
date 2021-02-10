@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imjpcic.dll
 api_name:
- - ITfDisplayAttributeProvider.EnumDisplayAttributeInfo
+ - ITfDisplayAttributeProvider::EnumDisplayAttributeInfo
 ---
 
 # ITfDisplayAttributeProvider::EnumDisplayAttributeInfo
@@ -121,3 +121,4 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeprovider">ITfDisplayAttributeProvider</a>
+

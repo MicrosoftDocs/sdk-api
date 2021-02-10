@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents2.CacheEvictEnd
+ - IOfflineFilesEvents2::CacheEvictEnd
 ---
 
 # IOfflineFilesEvents2::CacheEvictEnd
@@ -62,3 +62,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents2">IOfflineFilesEvents2</a>
+

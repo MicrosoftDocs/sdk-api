@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.AddFocusChangedEventHandler
+ - IUIAutomation::AddFocusChangedEventHandler
 ---
 
 # IUIAutomation::AddFocusChangedEventHandler
@@ -138,3 +138,4 @@ HRESULT AddFocusHandler(IUIAutomation* pAutomation)
 
 
 <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>
+

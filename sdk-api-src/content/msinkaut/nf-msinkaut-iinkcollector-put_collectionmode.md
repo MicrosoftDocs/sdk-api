@@ -43,13 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector.CollectionMode
- - IInkCollector.get_CollectionMode
- - IInkCollector.put_CollectionMode
- - put_CollectionMode
- - IInkCollector.put_CollectionMode
- - InkCollector.get_CollectionMode
- - InkCollector.put_CollectionMode
+ - IInkCollector::put_CollectionMode
 ---
 
 # IInkCollector::put_CollectionMode
@@ -131,3 +125,4 @@ When <b>CollectionMode</b> is set to <a href="/windows/desktop/api/msinkaut/ne-m
 
 
 <a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
+

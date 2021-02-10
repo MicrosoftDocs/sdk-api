@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectControl.Deactivate
+ - ObjectControl::Deactivate
 ---
 
 # ObjectControl::Deactivate
@@ -71,3 +71,4 @@ COM+ expressly forbids calling into an object that exposes <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontrol">ObjectControl</a>
+

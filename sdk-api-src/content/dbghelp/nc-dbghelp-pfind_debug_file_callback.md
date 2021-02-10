@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - FindDebugInfoFileProc
+ - PFIND_DEBUG_FILE_CALLBACK
 ---
 
 # PFIND_DEBUG_FILE_CALLBACK callback function
@@ -96,3 +96,4 @@ One way to verify the symbol file is to compare its timestamp to the timestamp i
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a>
+

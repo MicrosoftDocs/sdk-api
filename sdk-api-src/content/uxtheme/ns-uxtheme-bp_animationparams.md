@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
+ - _BP_ANIMATIONPARAMS
+ - PBP_ANIMATIONPARAMS
  - BP_ANIMATIONPARAMS
 ---
 
@@ -81,3 +83,4 @@ Animation style.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Length of the animation, in milliseconds.
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_ID_List_SizeA
  - cfgmgr32/CM_Get_Device_ID_List_SizeA
+ - CM_Get_Device_ID_List_Size
+ - cfgmgr32/CM_Get_Device_ID_List_Size
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Devices-Config-L1-1-0.dll
  - API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Get_Device_ID_List_Size
  - CM_Get_Device_ID_List_SizeA
- - CM_Get_Device_ID_List_SizeW
+ - CM_Get_Device_ID_List_Size
 ---
 
 # CM_Get_Device_ID_List_SizeA function
@@ -92,3 +93,4 @@ For information about device instance IDs, see <a href="/windows-hardware/driver
 ## -see-also
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_size_exw">CM_Get_Device_ID_List_Size_Ex</a>
+

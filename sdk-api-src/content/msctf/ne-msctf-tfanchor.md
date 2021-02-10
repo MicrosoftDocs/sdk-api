@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
+ - __MIDL___MIDL_itf_msctf_0000_0000_0001
  - TfAnchor
 ---
 
@@ -77,3 +78,4 @@ A range refers to a span of text in a document. Each range is delimited by a sta
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND
       </a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymLoadModuleExW
  - dbghelp/SymLoadModuleExW
+ - SymLoadModuleEx
+ - dbghelp/SymLoadModuleEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymLoadModuleEx
- - SymLoadModuleEx
  - SymLoadModuleExW
+ - SymLoadModuleEx
 ---
 
 # SymLoadModuleExW function
@@ -173,3 +174,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a>
+

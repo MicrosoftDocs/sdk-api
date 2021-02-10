@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - BROWSERFRAMEOPTIONS
+ - _BROWSERFRAMEOPTIONS
 ---
 
 # _BROWSERFRAMEOPTIONS enumeration
@@ -137,3 +137,4 @@ Return all values.
 ## -remarks
 
 These constants are defined in the Shobjidl.h file beginning in Windows Vista.
+

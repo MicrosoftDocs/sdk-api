@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1013
+ - PUSER_INFO_1013
  - USER_INFO_1013
 ---
 
@@ -84,3 +86,4 @@ The system components that use this member are services for Macintosh, file and 
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

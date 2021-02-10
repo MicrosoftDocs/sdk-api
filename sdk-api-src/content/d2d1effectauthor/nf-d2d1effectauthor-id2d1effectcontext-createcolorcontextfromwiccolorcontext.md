@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1.dll
 api_name:
- - ID2D1EffectContext.CreateColorContextFromWicColorContext
+ - ID2D1EffectContext::CreateColorContextFromWicColorContext
 ---
 
 # ID2D1EffectContext::CreateColorContextFromWicColorContext
@@ -106,3 +106,4 @@ The new color context can be used in <a href="/windows/desktop/api/d2d1_1/ns-d2d
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
+

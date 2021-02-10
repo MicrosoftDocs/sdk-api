@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CachedHelp
- - IUIAutomationLegacyIAccessiblePattern.get_CachedHelp
+ - IUIAutomationLegacyIAccessiblePattern::get_CachedHelp
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedHelp

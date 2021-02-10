@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DISK_GROW_PARTITION
+ - PDISK_GROW_PARTITION
  - DISK_GROW_PARTITION
 ---
 
@@ -72,3 +74,4 @@ The number of bytes by which the partition is to be enlarged (positive value) or
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>
+

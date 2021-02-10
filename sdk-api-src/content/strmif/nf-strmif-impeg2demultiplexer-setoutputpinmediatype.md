@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMpeg2Demultiplexer.SetOutputPinMediaType
+ - IMpeg2Demultiplexer::SetOutputPinMediaType
 ---
 
 # IMpeg2Demultiplexer::SetOutputPinMediaType
@@ -80,3 +80,4 @@ The media type is not interpreted in any way by the Demultiplexer filter. It is 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-impeg2demultiplexer">IMpeg2Demultiplexer Interface</a>
+

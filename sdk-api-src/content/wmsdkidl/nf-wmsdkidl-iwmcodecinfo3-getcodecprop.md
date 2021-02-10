@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecInfo3.GetCodecProp
+ - IWMCodecInfo3::GetCodecProp
 ---
 
 # IWMCodecInfo3::GetCodecProp
@@ -179,3 +179,4 @@ You should make two calls to <b>GetCodecProp</b> for each property you want to r
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3 Interface</a>
+

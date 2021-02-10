@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - errhandlingapi
  - errhandlingapi/errhandlingapi
+api_name:
+ - errhandlingapi
 ---
 
 # Errhandlingapi.h header

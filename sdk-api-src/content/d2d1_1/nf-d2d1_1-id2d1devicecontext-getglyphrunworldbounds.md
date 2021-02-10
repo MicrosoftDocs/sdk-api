@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext.GetGlyphRunWorldBounds
+ - ID2D1DeviceContext::GetGlyphRunWorldBounds
 ---
 
 # ID2D1DeviceContext::GetGlyphRunWorldBounds
@@ -111,3 +111,4 @@ The image bounds reflect the current DPI, unit mode, and world transform of the 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
+

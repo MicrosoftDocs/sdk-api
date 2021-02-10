@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk.ClearFlags
+ - IVdsDisk::ClearFlags
 ---
 
 # IVdsDisk::ClearFlags
@@ -122,3 +122,4 @@ The flag is not supported. Neither the basic provider nor the dynamic provider s
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
+

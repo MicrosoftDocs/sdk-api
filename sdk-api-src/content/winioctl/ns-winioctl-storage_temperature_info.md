@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoctl.h
 api_name:
+ - _STORAGE_TEMPERATURE_INFO
+ - PSTORAGE_TEMPERATURE_INFO
  - STORAGE_TEMPERATURE_INFO
 ---
 
@@ -108,3 +110,4 @@ Reserved for future use.
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMap.Count
- - IValueMap.get_Count
+ - IValueMap::get_Count
 ---
 
 # IValueMap::get_Count
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
+

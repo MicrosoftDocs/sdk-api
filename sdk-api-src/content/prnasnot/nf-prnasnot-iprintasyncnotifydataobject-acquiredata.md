@@ -42,7 +42,7 @@ api_type:
 api_location:
  - prnasnot.dll
 api_name:
- - IPrintAsyncNotifyDataObject.AcquireData
+ - IPrintAsyncNotifyDataObject::AcquireData
 ---
 
 # IPrintAsyncNotifyDataObject::AcquireData
@@ -91,3 +91,4 @@ When the Print Spooler fails, it creates an <a href="/windows/desktop/api/prnasn
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
+ - tagAPPLETCFG
+ - LPIMEAPPLETCFG
  - IMEAPPLETCFG
 ---
 
@@ -171,3 +173,4 @@ Reserved.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/hh851787(v=vs.85)">IImePadApplet::GetAppletCfg</a>
+

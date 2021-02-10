@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - clfsw32
  - clfsw32/clfsw32
+api_name:
+ - clfsw32
 ---
 
 # Clfsw32.h header

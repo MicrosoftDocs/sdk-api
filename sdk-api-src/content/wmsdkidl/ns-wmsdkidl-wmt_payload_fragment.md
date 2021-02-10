@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - _WMT_PAYLOAD_FRAGMENT
  - WMT_PAYLOAD_FRAGMENT
 ---
 
@@ -67,3 +68,4 @@ A <b>WMT_BUFFER_SEGMENT</b> structure specifying the buffer segment containing t
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

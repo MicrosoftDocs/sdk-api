@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - mfcaptureengine
  - mfcaptureengine/mfcaptureengine
+api_name:
+ - mfcaptureengine
 ---
 
 # Mfcaptureengine.h header

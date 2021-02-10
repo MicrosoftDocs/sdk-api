@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject.DAdvise
+ - IDataObject::DAdvise
 ---
 
 # IDataObject::DAdvise
@@ -206,3 +206,4 @@ To simplify the implementation of <b>DAdvise</b> and the other notification meth
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+

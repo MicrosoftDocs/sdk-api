@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetValue
+ - ID2D1Properties::GetValue
 ---
 
 # ID2D1Properties::GetValue(U)
@@ -92,3 +92,4 @@ Returns the value requested.
 �
 
 �
+

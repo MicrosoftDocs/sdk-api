@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_parse_sort_controlW
  - winldap/ldap_parse_sort_controlW
+ - ldap_parse_sort_control
+ - winldap/ldap_parse_sort_control
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_parse_sort_control
- - ldap_parse_sort_controlA
  - ldap_parse_sort_controlW
+ - ldap_parse_sort_control
 ---
 
 # ldap_parse_sort_controlW function
@@ -109,3 +110,4 @@ If the sort operation failed, the server may return the name of the attribute th
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_result">ldap_parse_result</a>
+

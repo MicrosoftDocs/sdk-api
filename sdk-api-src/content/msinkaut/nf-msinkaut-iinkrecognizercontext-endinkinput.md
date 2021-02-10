@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.EndInkInput
+ - IInkRecognizerContext::EndInkInput
 ---
 
 # IInkRecognizerContext::EndInkInput
@@ -131,3 +131,4 @@ Incremental recognition is the ability of the recognizer to process only a small
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+

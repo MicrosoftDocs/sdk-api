@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tvratings.h
 api_name:
- - IXDSToRat.Init
+ - IXDSToRat::Init
 ---
 
 # IXDSToRat::Init
@@ -83,3 +83,4 @@ The XDS Codec filter calls this method on startup or after a discontinuity, such
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ixdstorat">IXDSToRat Interface</a>
+

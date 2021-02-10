@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
+ - script_glyphprop
  - SCRIPT_GLYPHPROP
 ---
 
@@ -87,3 +88,4 @@ Reserved.
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

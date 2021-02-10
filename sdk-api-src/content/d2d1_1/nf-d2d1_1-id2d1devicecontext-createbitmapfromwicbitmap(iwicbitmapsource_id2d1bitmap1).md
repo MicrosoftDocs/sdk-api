@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - CreateBitmapFromWicBitmap.CreateBitmapFromWicBitmap
+ - ID2D1DeviceContext::CreateBitmapFromWicBitmap
 ---
 
 # ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1)
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSinkEvent.WriteFailure
+ - IMSVidStreamBufferSinkEvent::WriteFailure
 ---
 
 # IMSVidStreamBufferSinkEvent::WriteFailure
@@ -66,3 +66,4 @@ Returns S_OK or an error code.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent">IMSVidStreamBufferSinkEvent Interface</a>
+

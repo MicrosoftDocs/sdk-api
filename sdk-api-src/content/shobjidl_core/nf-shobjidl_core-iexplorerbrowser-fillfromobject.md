@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser.FillFromObject
+ - IExplorerBrowser::FillFromObject
 ---
 
 # IExplorerBrowser::FillFromObject
@@ -93,3 +93,4 @@ To manipulate items in the results folder directly, call <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>
+

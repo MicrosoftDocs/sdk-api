@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IAdviseSink.OnViewChange
+ - IAdviseSink::OnViewChange
 ---
 
 # IAdviseSink::OnViewChange
@@ -77,3 +77,4 @@ The <i>lindex</i> parameter represents the part of the aspect that is of interes
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>
+

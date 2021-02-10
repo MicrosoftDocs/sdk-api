@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCredentialCache.SetUserOptions
+ - IMFNetCredentialCache::SetUserOptions
 ---
 
 # IMFNetCredentialCache::SetUserOptions
@@ -92,3 +92,4 @@ If no flags are specified, the credentials are cached in memory. This method can
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
+

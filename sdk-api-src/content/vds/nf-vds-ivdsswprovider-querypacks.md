@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSwProvider.QueryPacks
+ - IVdsSwProvider::QueryPacks
 ---
 
 # IVdsSwProvider::QueryPacks
@@ -94,3 +94,4 @@ The method completed successfully.
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsswprovider-createpack">IVdsSwProvider::CreatePack</a>
+

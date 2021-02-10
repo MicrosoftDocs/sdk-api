@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRWindowlessControl.SetColorKey
+ - IVMRWindowlessControl::SetColorKey
 ---
 
 # IVMRWindowlessControl::SetColorKey
@@ -100,3 +100,4 @@ Color key control is only meaningful when the VMR is using an overlay surface.
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

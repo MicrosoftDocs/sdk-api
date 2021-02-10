@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoCollection.IsNameUnique
+ - ISdoCollection::IsNameUnique
 ---
 
 # ISdoCollection::IsNameUnique
@@ -92,3 +92,4 @@ Neither of the parameters may be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
+

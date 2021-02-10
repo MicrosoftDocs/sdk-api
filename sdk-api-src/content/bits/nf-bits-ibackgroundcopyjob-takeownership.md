@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.TakeOwnership
+ - IBackgroundCopyJob::TakeOwnership
 ---
 
 # IBackgroundCopyJob::TakeOwnership
@@ -143,3 +143,4 @@ If the job specifies <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyj
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getowner">IBackgroundCopyJob::GetOwner</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogCustomize.EnableOpenDropDown
+ - IFileDialogCustomize::EnableOpenDropDown
 ---
 
 # IFileDialogCustomize::EnableOpenDropDown
@@ -71,3 +71,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The Open or Save button label takes on the text of the first item in the drop-down. This overrides any label set by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setokbuttonlabel">IFileDialog::SetOkButtonLabel</a>.
 
  Use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addcontrolitem">IFileDialogCustomize::AddControlItem</a> to add items to the drop-down.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetPropertyCount
+ - ID2D1Properties::GetPropertyCount
 ---
 
 # ID2D1Properties::GetPropertyCount
@@ -71,3 +71,4 @@ This method returns the number of custom properties on the <a href="/windows/des
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+

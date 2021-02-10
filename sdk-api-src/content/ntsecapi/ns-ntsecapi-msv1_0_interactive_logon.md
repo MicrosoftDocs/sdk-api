@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _MSV1_0_INTERACTIVE_LOGON
+ - PMSV1_0_INTERACTIVE_LOGON
  - MSV1_0_INTERACTIVE_LOGON
 ---
 
@@ -86,3 +88,4 @@ The <b>Buffer</b> member of the <a href="/windows/desktop/api/subauth/ns-subauth
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntcons.h
 api_name:
+ - _EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
+ - PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
  - EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 ---
 
@@ -69,3 +71,4 @@ A GUID that uniquely identifies the parent activity to which this activity is re
 
 
 <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
+

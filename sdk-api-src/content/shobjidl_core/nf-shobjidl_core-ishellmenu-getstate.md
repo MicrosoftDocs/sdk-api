@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellMenu.GetState
+ - IShellMenu::GetState
 ---
 
 # IShellMenu::GetState
@@ -65,3 +65,4 @@ When this method returns, contains a pointer to an <a href="/windows/desktop/api
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

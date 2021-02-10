@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_SERVICE_FLAG
  - VDS_SERVICE_FLAG
 ---
 
@@ -132,3 +133,4 @@ This enumeration provides the values for the <i>ulFlags</i> member of the
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_service_prop">VDS_SERVICE_PROP</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSMan.CommandLine
- - IWSMan.get_CommandLine
+ - IWSMan::get_CommandLine
 ---
 
 # IWSMan::get_CommandLine
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
+

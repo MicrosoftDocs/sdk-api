@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WSAGetServiceClassInfoW
  - winsock2/WSAGetServiceClassInfoW
+ - WSAGetServiceClassInfo
+ - winsock2/WSAGetServiceClassInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSAGetServiceClassInfo
- - WSAGetServiceClassInfoA
  - WSAGetServiceClassInfoW
+ - WSAGetServiceClassInfo
 ---
 
 # WSAGetServiceClassInfoW function
@@ -214,3 +215,4 @@ The
 
 
 <a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+

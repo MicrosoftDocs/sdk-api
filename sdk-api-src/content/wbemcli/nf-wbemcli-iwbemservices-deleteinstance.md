@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.DeleteInstance
+ - IWbemServices::DeleteInstance
 ---
 
 # IWbemServices::DeleteInstance
@@ -149,3 +149,4 @@ If ClassX, ClassA, and ClassB are all abstract and the <i>strObjectPath</i> para
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
+

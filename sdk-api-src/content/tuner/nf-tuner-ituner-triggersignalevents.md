@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner.TriggerSignalEvents
+ - ITuner::TriggerSignalEvents
 ---
 
 # ITuner::TriggerSignalEvents
@@ -73,3 +73,4 @@ Multiple event sink objects can wait for the tuner to raise an event that occurs
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
+

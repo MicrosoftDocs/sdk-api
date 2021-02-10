@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_MODE_PAGE_TYPE
+ - PIMAPI_MODE_PAGE_TYPE
  - IMAPI_MODE_PAGE_TYPE
 ---
 
@@ -108,3 +110,4 @@ Note that the range of mode page type values is 0x0000 to 0xFFFF. This enumerati
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
+

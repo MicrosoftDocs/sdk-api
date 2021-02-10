@@ -43,8 +43,6 @@ api_location:
  - Ws2_32.dll
 api_name:
  - FreeAddrInfoEx
- - FreeAddrInfoEx
- - FreeAddrInfoExW
 ---
 
 # FreeAddrInfoEx function
@@ -88,3 +86,4 @@ When UNICODE or _UNICODE is defined, <b>FreeAddrInfoEx</b> is defined to <b>Free
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>
+

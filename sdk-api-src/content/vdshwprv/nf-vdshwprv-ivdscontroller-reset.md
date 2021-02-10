@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsController.Reset
+ - IVdsController::Reset
 ---
 
 # IVdsController::Reset
@@ -131,3 +131,4 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
+

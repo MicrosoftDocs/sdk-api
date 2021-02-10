@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetMappedFileNameA
  - psapi/GetMappedFileNameA
+ - GetMappedFileName
+ - psapi/GetMappedFileName
 dev_langs:
  - c++
 topic_type:
@@ -47,12 +49,8 @@ api_location:
  - API-MS-Win-Core-PsAPI-L1-1-0.dll
  - KernelBase.dll
 api_name:
- - GetMappedFileName
  - GetMappedFileNameA
- - GetMappedFileNameW
- - K32GetMappedFileName
- - K32GetMappedFileNameW
- - K32GetMappedFileNameA
+ - GetMappedFileName
 ---
 
 # GetMappedFileNameA function
@@ -191,3 +189,4 @@ For an example, see
 
 
 <a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
+

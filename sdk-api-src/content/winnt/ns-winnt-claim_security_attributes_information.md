@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _CLAIM_SECURITY_ATTRIBUTES_INFORMATION
+ - PCLAIM_SECURITY_ATTRIBUTES_INFORMATION
  - CLAIM_SECURITY_ATTRIBUTES_INFORMATION
 ---
 
@@ -77,3 +79,4 @@ The actual attribute.
 ### -field Attribute.pAttributeV1
 
 Pointer to an array that contains the <b>AttributeCount</b> member of the <a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_v1">CLAIM_SECURITY_ATTRIBUTE_V1</a> structure.
+

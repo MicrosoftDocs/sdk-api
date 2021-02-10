@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IXDSCodec.GetXDSPacket
+ - IXDSCodec::GetXDSPacket
 ---
 
 # IXDSCodec::GetXDSPacket
@@ -122,3 +122,4 @@ The returned <b>BSTR</b> contains binary data which might include embedded NULL 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>
+

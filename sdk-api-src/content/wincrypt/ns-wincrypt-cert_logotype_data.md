@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_LOGOTYPE_DATA
+ - PCERT_LOGOTYPE_DATA
  - CERT_LOGOTYPE_DATA
 ---
 
@@ -77,3 +79,4 @@ An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_aud
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_info">CERT_LOGOTYPE_INFO</a>
+

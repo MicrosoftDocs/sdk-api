@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.SetRange
+ - IWMSyncReader::SetRange
 ---
 
 # IWMSyncReader::SetRange
@@ -135,3 +135,4 @@ The start time you specify might not be the presentation time of the first sampl
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">IWMSyncReader::SetRangeByFrame</a>
+

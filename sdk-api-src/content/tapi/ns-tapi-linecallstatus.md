@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linecallstatus_tag
+ - LPLINECALLSTATUS
  - LINECALLSTATUS
 ---
 
@@ -216,3 +218,4 @@ The members <b>dwCallFeatures2</b> and <b>tStateEntryTime</b> are available only
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>
+

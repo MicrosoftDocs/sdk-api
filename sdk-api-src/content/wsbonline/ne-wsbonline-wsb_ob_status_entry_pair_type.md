@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsbOnline.h
 api_name:
+ - _WSB_OB_STATUS_ENTRY_PAIR_TYPE
  - WSB_OB_STATUS_ENTRY_PAIR_TYPE
 ---
 
@@ -87,3 +88,4 @@ The maximum enumeration value for this enumeration.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/wsb/windows-server-backup-api-enumerations">Cloud Backup Provider API Enumerations</a>
+

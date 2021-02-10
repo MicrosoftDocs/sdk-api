@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTablePattern.CachedRowOrColumnMajor
- - IUIAutomationTablePattern.get_CachedRowOrColumnMajor
+ - IUIAutomationTablePattern::get_CachedRowOrColumnMajor
 ---
 
 # IUIAutomationTablePattern::get_CachedRowOrColumnMajor
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtablepattern">IUIAutomationTablePattern</a>
+

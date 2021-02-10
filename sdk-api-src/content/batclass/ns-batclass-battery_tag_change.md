@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
+ - _BATTERY_TAG_CHANGE
+ - PBATTERY_TAG_CHANGE
  - BATTERY_TAG_CHANGE
 ---
 

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_ADD_BINDING_CACHE_ENTRY_REQUEST
+ - PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST
  - KERB_ADD_BINDING_CACHE_ENTRY_REQUEST
 ---
 
@@ -102,3 +104,4 @@ The address is a NetBIOS name of the domain controller, for example, "\\phoenix"
 </td>
 </tr>
 </table>
+

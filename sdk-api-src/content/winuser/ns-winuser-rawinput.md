@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagRAWINPUT
+ - PRAWINPUT
  - RAWINPUT
 ---
 
@@ -131,3 +133,4 @@ Raw input is available only when the application calls <a href="/windows/desktop
 
 
 <b>Reference</b>
+

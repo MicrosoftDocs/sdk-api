@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents.NotifyPnPActivity
+ - IDiscMasterProgressEvents::NotifyPnPActivity
 ---
 
 # IDiscMasterProgressEvents::NotifyPnPActivity
@@ -66,3 +66,4 @@ An application should respond by calling
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tiptsf.dll
 api_name:
- - ITfCandidateList.GetCandidate
+ - ITfCandidateList::GetCandidate
 ---
 
 # ITfCandidateList::GetCandidate
@@ -125,3 +125,4 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString
       </a>
+

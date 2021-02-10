@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.QueryCapability
+ - IWICBitmapDecoder::QueryCapability
 ---
 
 # IWICBitmapDecoder::QueryCapability
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Custom decoder implementations should save the current position of the specified <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, read whatever information is necessary in order to determine which capabilities it can provide for the supplied stream, and restore the stream position.
+

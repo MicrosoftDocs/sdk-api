@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
+ - IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm
 ---
 
 # IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm
@@ -131,3 +131,4 @@ The pointer <i>pAuth</i> is invalid.
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11cipheralgorithm">IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm</a>
+

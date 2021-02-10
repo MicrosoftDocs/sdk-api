@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IIPDVDec.get_IPDisplay
+ - IIPDVDec::get_IPDisplay
 ---
 
 # IIPDVDec::get_IPDisplay
@@ -70,3 +70,4 @@ Returns S_OK.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iipdvdec">IIPDVDec Interface</a>
+

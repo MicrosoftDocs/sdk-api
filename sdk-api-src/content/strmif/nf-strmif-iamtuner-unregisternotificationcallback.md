@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner.UnRegisterNotificationCallBack
+ - IAMTuner::UnRegisterNotificationCallBack
 ---
 
 # IAMTuner::UnRegisterNotificationCallBack
@@ -74,3 +74,4 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

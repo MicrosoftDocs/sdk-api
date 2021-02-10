@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.GetFocusScales
+ - PathGradientBrush::GetFocusScales
 ---
 
 # PathGradientBrush::GetFocusScales
@@ -153,3 +153,4 @@ VOID Example_GetFocusScales(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setfocusscales">PathGradientBrush::SetFocusScales</a>
+

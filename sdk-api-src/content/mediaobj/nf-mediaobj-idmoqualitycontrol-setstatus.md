@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IDMOQualityControl.SetStatus
+ - IDMOQualityControl::SetStatus
 ---
 
 # IDMOQualityControl::SetStatus
@@ -101,3 +101,4 @@ By default, quality control is disabled.
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol">IDMOQualityControl Interface</a>
+

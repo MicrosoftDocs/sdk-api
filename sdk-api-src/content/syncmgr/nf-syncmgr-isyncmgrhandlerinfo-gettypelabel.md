@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandlerInfo.GetTypeLabel
+ - ISyncMgrHandlerInfo::GetTypeLabel
 ---
 
 # ISyncMgrHandlerInfo::GetTypeLabel
@@ -99,3 +99,4 @@ STDMETHODIMP CMyDeviceHandler::GetTypeLabel(__out LPWSTR *ppszTypeLabel)
 }
 
 ```
+

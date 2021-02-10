@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.FindFirst
+ - IUIAutomationElement::FindFirst
 ---
 
 # IUIAutomationElement::FindFirst
@@ -117,3 +117,4 @@ This function ignores elements in the raw tree. Call <a href="/windows/desktop/a
 
 
 <b>Reference</b>
+

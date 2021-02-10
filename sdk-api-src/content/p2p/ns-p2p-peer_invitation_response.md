@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_invitation_response_tag
+ - PPEER_INVITATION_RESPONSE
  - PEER_INVITATION_RESPONSE
 ---
 
@@ -77,3 +79,4 @@ Any extended information that is part of the response. This can include an error
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

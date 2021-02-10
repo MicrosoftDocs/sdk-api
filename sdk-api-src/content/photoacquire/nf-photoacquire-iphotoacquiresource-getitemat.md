@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSource.GetItemAt
+ - IPhotoAcquireSource::GetItemAt
 ---
 
 # IPhotoAcquireSource::GetItemAt
@@ -92,3 +92,4 @@ Before calling this method, call <a href="/windows/desktop/api/photoacquire/nf-p
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
+

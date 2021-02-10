@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IEnumTuneRequests.Skip
+ - IEnumTuneRequests::Skip
 ---
 
 # IEnumTuneRequests::Skip
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumtunerequests">IEnumTuneRequests Interface</a>
+

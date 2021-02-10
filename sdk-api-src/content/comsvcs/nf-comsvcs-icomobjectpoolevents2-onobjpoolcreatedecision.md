@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComObjectPoolEvents2.OnObjPoolCreateDecision
+ - IComObjectPoolEvents2::OnObjPoolCreateDecision
 ---
 
 # IComObjectPoolEvents2::OnObjPoolCreateDecision
@@ -89,3 +89,4 @@ When a component is configured for object pooling, the pool is populated with ob
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomobjectpoolevents2">IComObjectPoolEvents2</a>
+

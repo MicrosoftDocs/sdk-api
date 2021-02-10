@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider.IsPathSupported
+ - IVssFileShareSnapshotProvider::IsPathSupported
 ---
 
 # IVssFileShareSnapshotProvider::IsPathSupported
@@ -176,3 +176,4 @@ The VSS coordinator calls this method as part of <a href="/windows/desktop/api/v
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
+

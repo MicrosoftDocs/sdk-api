@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shidfact.h
 api_name:
- - CItemIDFactory.IsDelegateFolder
+ - CItemIDFactory::IsDelegateFolder
 ---
 
 # CItemIDFactory::IsDelegateFolder
@@ -61,3 +61,4 @@ Returns <b>TRUE</b> if this factory is a delegate folder, otherwise <b>FALSE</b>
 ## -see-also
 
 <a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
+

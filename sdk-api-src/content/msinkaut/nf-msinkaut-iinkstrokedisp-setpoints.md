@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.SetPoints
+ - IInkStrokeDisp::SetPoints
 ---
 
 # IInkStrokeDisp::SetPoints
@@ -145,3 +145,4 @@ In order to draw the stroke after calling <b>SetPoints</b>, call the <a href="/w
 
 
 <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ItemSelectionConstants Enumeration</a>
+

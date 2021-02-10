@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform.GetStreamIDs
+ - IMFDeviceTransform::GetStreamIDs
 ---
 
 # IMFDeviceTransform::GetStreamIDs
@@ -131,3 +131,4 @@ By convention, if an MFT has exactly one fixed input stream and one fixed output
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
+

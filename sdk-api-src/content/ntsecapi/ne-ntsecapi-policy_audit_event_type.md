@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _POLICY_AUDIT_EVENT_TYPE
+ - PPOLICY_AUDIT_EVENT_TYPE
  - POLICY_AUDIT_EVENT_TYPE
 ---
 
@@ -121,3 +123,4 @@ The <b>POLICY_AUDIT_EVENT_TYPE</b> enumeration may expand in future versions of 
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
+

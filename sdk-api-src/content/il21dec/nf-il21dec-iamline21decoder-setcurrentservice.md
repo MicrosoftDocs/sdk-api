@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLine21Decoder.SetCurrentService
+ - IAMLine21Decoder::SetCurrentService
 ---
 
 # IAMLine21Decoder::SetCurrentService
@@ -93,3 +93,4 @@ Member of the <a href="/previous-versions/windows/desktop/api/il21dec/ne-il21dec
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getcurrentservice">IAMLine21Decoder::GetCurrentService</a>
+

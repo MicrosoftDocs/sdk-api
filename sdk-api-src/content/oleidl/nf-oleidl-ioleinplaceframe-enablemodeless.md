@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceFrame.EnableModeless
+ - IOleInPlaceFrame::EnableModeless
 ---
 
 # IOleInPlaceFrame::EnableModeless
@@ -69,3 +69,4 @@ This method returns S_OK if the dialog box was either enabled or disabled succes
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>
+

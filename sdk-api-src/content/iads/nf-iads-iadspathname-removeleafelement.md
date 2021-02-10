@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPathname.RemoveLeafElement
+ - IADsPathname::RemoveLeafElement
 ---
 
 # IADsPathname::RemoveLeafElement
@@ -67,3 +67,4 @@ For more information and  other return values, see  <a href="/windows/desktop/AD
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
+

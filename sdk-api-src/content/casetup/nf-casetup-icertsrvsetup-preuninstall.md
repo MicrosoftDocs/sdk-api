@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup.PreUnInstall
+ - ICertSrvSetup::PreUnInstall
 ---
 
 # ICertSrvSetup::PreUnInstall
@@ -65,3 +65,4 @@ The <b>PreUnInstall</b> method should be called before performing a role-specifi
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
+

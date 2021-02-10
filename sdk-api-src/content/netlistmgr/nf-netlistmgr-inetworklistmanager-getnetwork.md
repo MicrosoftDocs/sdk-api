@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkListManager.GetNetwork
+ - INetworkListManager::GetNetwork
 ---
 
 # INetworkListManager::GetNetwork
@@ -98,3 +98,4 @@ The GUID is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge.Clone
+ - ISyncKnowledge::Clone
 ---
 
 # ISyncKnowledge::Clone
@@ -103,3 +103,4 @@ The cloned knowledge object can be used independently of the original.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

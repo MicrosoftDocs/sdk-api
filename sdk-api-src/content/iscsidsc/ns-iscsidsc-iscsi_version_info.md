@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
+ - PISCSI_VERSION_INFO
  - ISCSI_VERSION_INFO
 ---
 

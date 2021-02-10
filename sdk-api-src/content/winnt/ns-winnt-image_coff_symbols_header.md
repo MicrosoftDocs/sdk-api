@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _IMAGE_COFF_SYMBOLS_HEADER
+ - PIMAGE_COFF_SYMBOLS_HEADER
  - IMAGE_COFF_SYMBOLS_HEADER
 ---
 
@@ -93,3 +95,4 @@ The relative virtual address of the last byte of data.
 ## -see-also
 
 <a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
+

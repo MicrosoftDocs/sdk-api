@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRSETCOLORADJUSTMENT
+ - PEMRSETCOLORADJUSTMENT
  - EMRSETCOLORADJUSTMENT
 ---
 
@@ -77,3 +79,4 @@ A <a href="/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMEN
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setcoloradjustment">SetColorAdjustment</a>
+

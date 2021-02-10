@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateScalableFontResourceA
  - wingdi/CreateScalableFontResourceA
+ - CreateScalableFontResource
+ - wingdi/CreateScalableFontResource
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - CreateScalableFontResource
  - CreateScalableFontResourceA
- - CreateScalableFontResourceW
+ - CreateScalableFontResource
 ---
 
 # CreateScalableFontResourceA function
@@ -154,3 +155,4 @@ When a path is specified in the <i>lpszFontFile</i> parameter and <b>NULL</b> is
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+

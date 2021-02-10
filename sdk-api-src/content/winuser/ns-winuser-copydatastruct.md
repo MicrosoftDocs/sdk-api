@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagCOPYDATASTRUCT
+ - PCOPYDATASTRUCT
  - COPYDATASTRUCT
 ---
 
@@ -79,3 +81,4 @@ The data to be passed to the receiving application. This member can be <b>NULL</
 ## -see-also
 
 <a href="/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a>
+

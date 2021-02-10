@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - DeleteStaticService
+ - PDELETE_STATIC_SERVICE
 ---
 
 # PDELETE_STATIC_SERVICE callback function
@@ -120,3 +120,4 @@ One of the  parameters is invalid.
 
 
 <a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
+

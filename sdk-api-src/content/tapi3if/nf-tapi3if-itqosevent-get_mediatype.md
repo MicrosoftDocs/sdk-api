@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQOSEvent.get_MediaType
+ - ITQOSEvent::get_MediaType
 ---
 
 # ITQOSEvent::get_MediaType
@@ -111,3 +111,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a>
+

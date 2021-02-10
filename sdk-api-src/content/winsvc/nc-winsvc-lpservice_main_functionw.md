@@ -42,8 +42,6 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - LPSERVICE_MAIN_FUNCTION
- - LPSERVICE_MAIN_FUNCTIONA
  - LPSERVICE_MAIN_FUNCTIONW
 ---
 
@@ -142,3 +140,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a>
+

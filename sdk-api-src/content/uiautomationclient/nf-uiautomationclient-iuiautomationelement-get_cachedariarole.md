@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedAriaRole
- - IUIAutomationElement.get_CachedAriaRole
+ - IUIAutomationElement::get_CachedAriaRole
 ---
 
 # IUIAutomationElement::get_CachedAriaRole
@@ -88,3 +87,4 @@ This property is read-only.
 
 
 <a href="https://www.w3.org/WAI/intro/aria">WAI-ARIA Overview</a>
+

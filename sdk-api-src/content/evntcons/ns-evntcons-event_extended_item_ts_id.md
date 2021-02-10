@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntcons.h
 api_name:
+ - _EVENT_EXTENDED_ITEM_TS_ID
+ - PEVENT_EXTENDED_ITEM_TS_ID
  - EVENT_EXTENDED_ITEM_TS_ID
 ---
 
@@ -65,3 +67,4 @@ Identifies the terminal session that logged the event.
 ## -see-also
 
 <a href="/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+

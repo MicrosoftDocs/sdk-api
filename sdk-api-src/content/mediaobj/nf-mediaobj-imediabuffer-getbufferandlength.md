@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaBuffer.GetBufferAndLength
+ - IMediaBuffer::GetBufferAndLength
 ---
 
 # IMediaBuffer::GetBufferAndLength
@@ -109,3 +109,4 @@ The value returned in the <i>pcbLength</i> parameter is the size of the valid da
 
 
 <a href="/windows/desktop/DirectShow/implementing-imediabuffer">Implementing IMediaBuffer</a>
+

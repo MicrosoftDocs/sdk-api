@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tom.h
 api_name:
- - ITextStory.SetProperty
+ - ITextStory::SetProperty
 ---
 
 # ITextStory::SetProperty
@@ -79,3 +79,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextstory-getproperty">ITextStory::GetProperty</a>
+

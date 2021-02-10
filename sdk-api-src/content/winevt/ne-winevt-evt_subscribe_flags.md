@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_SUBSCRIBE_FLAGS
  - EVT_SUBSCRIBE_FLAGS
 ---
 
@@ -93,3 +94,4 @@ The EvtSubscribeToFutureEvents, EvtSubscribeStartAtOldestRecord, and EvtSubscrib
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmalert.h
 api_name:
+ - _PRINT_OTHER_INFO
+ - PPRINT_OTHER_INFO
  - PRINT_OTHER_INFO
 ---
 
@@ -322,3 +324,4 @@ See
 
 
 <a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
+

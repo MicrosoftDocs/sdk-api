@@ -9,6 +9,8 @@ tech.root: powermeter
 f1_keywords:
  - emi
  - emi/emi
+api_name:
+ - emi
 ---
 
 # Emi.h header

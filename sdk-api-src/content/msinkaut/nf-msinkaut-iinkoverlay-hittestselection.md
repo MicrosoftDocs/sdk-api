@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.HitTestSelection
+ - IInkOverlay::HitTestSelection
 ---
 
 # IInkOverlay::HitTestSelection
@@ -197,3 +197,4 @@ The west side sizing handle was hit.
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult Enumeration</a>
+

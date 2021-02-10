@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor.GetEnd
+ - ITextStoreAnchor::GetEnd
 ---
 
 # ITextStoreAnchor::GetEnd
@@ -132,3 +132,4 @@ The caller does not have a read-only lock.
 
 <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-gettext">ITextStoreAnchor::GetText
       </a>
+

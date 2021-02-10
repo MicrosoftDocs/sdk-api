@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore.put_currentPlaylist
+ - IWMPCore::put_currentPlaylist
 ---
 
 # IWMPCore::put_currentPlaylist
@@ -97,3 +97,4 @@ You can retrieve an <b>IWMPMedia</b> interface for a given media object by invok
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+

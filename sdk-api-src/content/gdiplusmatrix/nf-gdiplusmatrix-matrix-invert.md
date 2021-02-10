@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix.Invert
+ - Matrix::Invert
 ---
 
 # Matrix::Invert
@@ -118,3 +118,4 @@ VOID Example_Invert(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

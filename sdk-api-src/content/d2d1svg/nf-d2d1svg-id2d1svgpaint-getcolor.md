@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgPaint.GetColor
+ - ID2D1SvgPaint::GetColor
 ---
 
 # ID2D1SvgPaint::GetColor
@@ -63,3 +63,4 @@ The paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpaint">ID2D1SvgPaint</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - SymbolServerCallback
+ - PSYMBOLSERVERCALLBACKPROC
 ---
 
 # PSYMBOLSERVERCALLBACKPROC callback function
@@ -139,3 +139,4 @@ To indicate failure, return <b>FALSE</b> and call the
 
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>
+

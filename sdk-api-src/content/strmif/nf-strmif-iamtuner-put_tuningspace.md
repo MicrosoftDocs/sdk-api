@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner.put_TuningSpace
+ - IAMTuner::put_TuningSpace
 ---
 
 # IAMTuner::put_TuningSpace
@@ -74,3 +74,4 @@ As TV tuners move into portable systems, you must retain locale-specific mapping
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel.Visible
- - IPenInputPanel.get_Visible
- - PenInputPanel.get_Visible
+ - IPenInputPanel::get_Visible
 ---
 
 # IPenInputPanel::get_Visible
@@ -74,3 +72,4 @@ You can set the <b>Visible</b> property to <b>VARIANT_TRUE</b> only when the att
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
+

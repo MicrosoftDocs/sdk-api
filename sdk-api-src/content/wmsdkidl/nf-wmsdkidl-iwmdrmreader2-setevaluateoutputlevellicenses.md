@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader2.SetEvaluateOutputLevelLicenses
+ - IWMDRMReader2::SetEvaluateOutputLevelLicenses
 ---
 
 # IWMDRMReader2::SetEvaluateOutputLevelLicenses
@@ -96,3 +96,4 @@ If you do not call this method, the reader object will not open DRM-protected fi
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>
+

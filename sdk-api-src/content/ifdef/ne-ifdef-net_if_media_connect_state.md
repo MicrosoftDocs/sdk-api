@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ifdef.h
 api_name:
+ - _NET_IF_MEDIA_CONNECT_STATE
+ - PNET_IF_MEDIA_CONNECT_STATE
  - NET_IF_MEDIA_CONNECT_STATE
 ---
 
@@ -81,3 +83,4 @@ The NDIS_MEDIA_CONNECT_STATE enumeration type, used to describe NDIS interface p
 ```
 typedef NET_IF_MEDIA_CONNECT_STATE NDIS_MEDIA_CONNECT_STATE, *PNDIS_MEDIA_CONNECT_STATE;
 ```
+

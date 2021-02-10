@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetSetCookieExW
  - wininet/InternetSetCookieExW
+ - InternetSetCookieEx
+ - wininet/InternetSetCookieEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetSetCookieEx
- - InternetSetCookieExA
  - InternetSetCookieExW
+ - InternetSetCookieEx
 ---
 
 # InternetSetCookieExW function
@@ -178,3 +179,4 @@ Returns a member of the <a href="/windows/win32/api/wininet/ne-wininet-internet_
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - CLFS_INFORMATION
+ - _CLS_INFORMATION
+ - PCLS_INFORMATION
+ - CLS_INFORMATION
 ---
 
 # CLS_INFORMATION structure
@@ -135,3 +137,4 @@ The unique identifier for a log.
 ## -see-also
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogfileinformation">GetLogFileInformation</a>
+

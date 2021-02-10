@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.BeginStateBlock
+ - IDirect3DDevice9::BeginStateBlock
 ---
 
 # IDirect3DDevice9::BeginStateBlock
@@ -160,3 +160,4 @@ The ordering of state changes in a state block is not guaranteed. If the same st
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endstateblock">IDirect3DDevice9::EndStateBlock</a>
+

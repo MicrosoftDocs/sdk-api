@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRSETVIEWPORTEXTEX
+ - PEMRSETVIEWPORTEXTEX
  - EMRSETVIEWPORTEXTEX
 ---
 
@@ -73,3 +75,4 @@ Horizontal and vertical extents. For <b>SetViewportExtEx</b>, the extents are in
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+

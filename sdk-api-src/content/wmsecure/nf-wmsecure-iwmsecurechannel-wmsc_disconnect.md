@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsecure.h
 api_name:
- - IWMSecureChannel.WMSC_Disconnect
+ - IWMSecureChannel::WMSC_Disconnect
 ---
 
 # IWMSecureChannel::WMSC_Disconnect
@@ -64,3 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel">IWMSecureChannel</a>
+

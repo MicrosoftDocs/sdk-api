@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CertSelectCertificateA
  - cryptdlg/CertSelectCertificateA
+ - CertSelectCertificate
+ - cryptdlg/CertSelectCertificate
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - CryptDlg.dll
 api_name:
- - CertSelectCertificate
  - CertSelectCertificateA
- - CertSelectCertificateW
+ - CertSelectCertificate
 ---
 
 # CertSelectCertificateA function
@@ -76,3 +77,4 @@ If the function fails, the return value is <b>FALSE</b>. For extended error info
 
 > [!NOTE]
 > The cryptdlg.h header defines CertSelectCertificate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -46,7 +46,8 @@ api_type:
 api_location:
  - Cpl.h
 api_name:
- - NEWCPLINFO
+ - tagNEWCPLINFOA
+ - LPNEWCPLINFOA
  - NEWCPLINFOA
 ---
 
@@ -114,3 +115,4 @@ The <a href="/windows/desktop/api/cpl/nc-cpl-applet_proc">CPlApplet</a> function
 ## -see-also
 
 <a href="/windows/desktop/api/cpl/ns-cpl-cplinfo">CPLINFO</a>
+

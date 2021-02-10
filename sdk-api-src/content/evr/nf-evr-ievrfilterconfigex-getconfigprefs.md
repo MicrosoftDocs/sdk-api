@@ -42,7 +42,7 @@ api_type:
 api_location:
  - evr.h
 api_name:
- - IEVRFilterConfigEx.GetConfigPrefs
+ - IEVRFilterConfigEx::GetConfigPrefs
 ---
 
 # IEVRFilterConfigEx::GetConfigPrefs
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
+

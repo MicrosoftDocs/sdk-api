@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Documenttarget.h
 api_name:
- - IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob
+ - IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob
 ---
 
 # IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob
@@ -88,3 +88,4 @@ If the <b>CreateDocumentPackageTargetForPrintJob</b> method completes successful
 
 
 <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory">IPrintDocumentPackageTargetFactory</a>
+

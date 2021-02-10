@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPLibraryServices.getLibraryByType
+ - IWMPLibraryServices::getLibraryByType
 ---
 
 # IWMPLibraryServices::getLibraryByType
@@ -105,3 +105,4 @@ There is only one local library and disc libraries are available only on data CD
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a>
+

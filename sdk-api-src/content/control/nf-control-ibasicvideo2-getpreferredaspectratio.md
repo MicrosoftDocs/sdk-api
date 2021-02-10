@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo2.GetPreferredAspectRatio
+ - IBasicVideo2::GetPreferredAspectRatio
 ---
 
 # IBasicVideo2::GetPreferredAspectRatio
@@ -114,3 +114,4 @@ The renderer does not implement <b>IBasicVideo2</b>.
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo2">IBasicVideo2 Interface</a>
+

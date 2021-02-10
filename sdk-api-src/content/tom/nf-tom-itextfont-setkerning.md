@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.SetKerning
+ - ITextFont::SetKerning
 ---
 
 # ITextFont::SetKerning
@@ -140,3 +140,4 @@ If this value is zero, kerning is turned off. Positive values turn on pair kerni
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

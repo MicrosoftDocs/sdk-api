@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Unknwn.h
 api_name:
- - IClassFactory.CreateInstance
+ - IClassFactory::CreateInstance
 ---
 
 ## -description
@@ -134,3 +134,4 @@ To avoid returning an error, applications that support multiple classes with sin
 <a href="/windows/desktop/api/combaseapi/nf-combaseapi-corevokeclassobject">CoRevokeClassObject</a>
 
 <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
+

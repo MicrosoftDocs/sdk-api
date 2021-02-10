@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccDictionary.GetLocalizedString
+ - IAccDictionary::GetLocalizedString
 ---
 
 # IAccDictionary::GetLocalizedString
@@ -90,3 +90,4 @@ If successful, returns S_OK.
 ## -remarks
 
 This method returns the names of a property in the language specified by <i>lcid</i>. If that language is not on the system, Microsoft Active Accessibility finds the best match and returns the string in that language. If the <i>Term</i> parameter is not found in the dictionary, the <i>pResult</i> will be <b>NULL</b>.
+

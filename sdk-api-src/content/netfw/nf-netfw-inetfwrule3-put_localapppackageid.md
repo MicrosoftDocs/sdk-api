@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule3.LocalAppPackageId
- - INetFwRule3.get_LocalAppPackageId
- - INetFwRule3.put_LocalAppPackageId
+ - INetFwRule3::put_LocalAppPackageId
 ---
 
 # INetFwRule3::put_LocalAppPackageId
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
+

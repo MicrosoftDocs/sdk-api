@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.ConnectivityInfo
- - IRDPSRAPIAttendee.get_ConnectivityInfo
- - RDPSRAPIAttendee.ConnectivityInfo
+ - IRDPSRAPIAttendee::get_ConnectivityInfo
 ---
 
 # IRDPSRAPIAttendee::get_ConnectivityInfo
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdSetOverlayPosition
+ - PDD_SURFCB_SETOVERLAYPOSITION
 ---
 
 ## -description
@@ -68,3 +68,4 @@ When the overlay is invisible, the driver should set an error code in the <b>ddR
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRateControl.SetRate
+ - IMFRateControl::SetRate
 ---
 
 # IMFRateControl::SetRate
@@ -181,3 +181,4 @@ When the Media Session completes a call to <b>SetRate</b>, it sends the <a href=
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol">IMFRateControl</a>
+

@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CHANGER_EXCHANGE_MEDIUM
+ - PCHANGER_EXCHANGE_MEDIUM
  - CHANGER_EXCHANGE_MEDIUM
 ---
 
@@ -95,3 +97,4 @@ If this member is <b>TRUE</b>, the medium at <b>Destination2</b> should be flipp
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_exchange_medium">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
+

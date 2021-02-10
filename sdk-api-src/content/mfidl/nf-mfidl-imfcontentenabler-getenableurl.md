@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentEnabler.GetEnableURL
+ - IMFContentEnabler::GetEnableURL
 ---
 
 # IMFContentEnabler::GetEnableURL
@@ -132,3 +132,4 @@ The purpose of the URL depends on the content enabler type, which is obtained by
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectGroup.GetInteriorInputConnector
+ - IMILBitmapEffectGroup::GetInteriorInputConnector
 ---
 
 # IMILBitmapEffectGroup::GetInteriorInputConnector
@@ -71,3 +71,4 @@ A pointer that receives a pointer to the desired effects input connector.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

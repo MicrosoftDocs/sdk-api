@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IQuerySolution.GetErrors
+ - IQuerySolution::GetErrors
 ---
 
 # IQuerySolution::GetErrors
@@ -79,3 +79,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
       
 
 The valid values for <i>riid</i> are __uuidof(IEnumUnknown) and __uuidof(IEnumVARIANT).
+

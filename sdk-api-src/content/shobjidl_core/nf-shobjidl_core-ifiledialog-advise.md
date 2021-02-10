@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialog.Advise
+ - IFileDialog::Advise
 ---
 
 # IFileDialog::Advise
@@ -71,3 +71,4 @@ A pointer to a <b>DWORD</b> that receives a value identiying this event handler.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

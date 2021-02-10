@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagMENUBARINFO
+ - PMENUBARINFO
  - MENUBARINFO
 ---
 
@@ -113,3 +115,4 @@ If the menu item has the focus, this member is <b>TRUE</b>. Otherwise, the membe
 
 
 <b>Reference</b>
+

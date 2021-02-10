@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion.SetType
+ - IWMMutualExclusion::SetType
 ---
 
 # IWMMutualExclusion::SetType
@@ -105,3 +105,4 @@ If you create a multiple bit rate audio file, you may encounter problems streami
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-gettype">IWMMutualExclusion::GetType</a>
+

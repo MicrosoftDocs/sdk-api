@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _MSV1_0_SUBAUTH_REQUEST
+ - PMSV1_0_SUBAUTH_REQUEST
  - MSV1_0_SUBAUTH_REQUEST
 ---
 
@@ -76,3 +78,4 @@ Indicates the length, in bytes, of the buffer passed to the subauthentication pa
 ### -field SubAuthSubmitBuffer
 
 Containing the data to pass to the subauthentication package. The format and content of this data is specific to the subauthentication package. For more information, see the documentation for specific subauthentication packages.
+

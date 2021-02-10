@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_FEATURE_PAGE_TYPE
+ - PIMAPI_FEATURE_PAGE_TYPE
  - IMAPI_FEATURE_PAGE_TYPE
 ---
 
@@ -324,3 +326,4 @@ Other values not defined here may exist. Consumers of this enumeration should no
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
+

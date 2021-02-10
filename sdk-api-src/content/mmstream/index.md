@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - mmstream
  - mmstream/mmstream
+api_name:
+ - mmstream
 ---
 
 # Mmstream.h header

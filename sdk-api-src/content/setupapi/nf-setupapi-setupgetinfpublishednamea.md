@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupGetInfPublishedNameA
  - setupapi/SetupGetInfPublishedNameA
+ - SetupGetInfPublishedName
+ - setupapi/SetupGetInfPublishedName
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupGetInfPublishedName
  - SetupGetInfPublishedNameA
+ - SetupGetInfPublishedName
 ---
 
 # SetupGetInfPublishedNameA function
@@ -98,3 +100,4 @@ Call the <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfdriversto
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfdriverstorelocationa">SetupGetInfDriverStoreLocation</a>
+

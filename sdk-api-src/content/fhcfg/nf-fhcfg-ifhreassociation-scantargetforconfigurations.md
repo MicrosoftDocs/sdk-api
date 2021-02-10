@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhReassociation.ScanTargetForConfigurations
- - FhReassociation.ScanTargetForConfigurations
+ - IFhReassociation::ScanTargetForConfigurations
 ---
 
 # IFhReassociation::ScanTargetForConfigurations
@@ -81,3 +80,4 @@ For network shares, the <i>TargetUrl</i> parameter contains the full path of the
 
 
 <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>
+

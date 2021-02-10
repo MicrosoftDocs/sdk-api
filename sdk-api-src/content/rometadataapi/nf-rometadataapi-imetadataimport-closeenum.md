@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.CloseEnum
+ - IMetaDataImport::CloseEnum
 ---
 
 # IMetaDataImport::CloseEnum
@@ -65,3 +65,4 @@ The handle specified by <i>hEnum</i> is obtained from a previous <b>Enum</b><i>N
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

@@ -9,6 +9,8 @@ tech.root: wmi
 f1_keywords:
  - refptrco
  - refptrco/refptrco
+api_name:
+ - refptrco
 ---
 
 # Refptrco.h header

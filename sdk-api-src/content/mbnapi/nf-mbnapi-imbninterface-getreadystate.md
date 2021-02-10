@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface.GetReadyState
+ - IMbnInterface::GetReadyState
 ---
 
 # IMbnInterface::GetReadyState
@@ -105,3 +105,4 @@ The device's SMS subsystem may not be ready when it reports <b>MBN_READY_STATE_I
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
+

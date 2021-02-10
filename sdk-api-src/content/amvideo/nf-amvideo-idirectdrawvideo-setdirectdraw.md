@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo.SetDirectDraw
+ - IDirectDrawVideo::SetDirectDraw
 ---
 
 # IDirectDrawVideo::SetDirectDraw
@@ -76,3 +76,4 @@ This method was created because only one instance of <b>IDirectDraw</b> could be
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
+

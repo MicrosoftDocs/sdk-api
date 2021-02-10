@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IWbemObjectSink.Indicate
- - IWbemObjectSinkEx.Indicate
+ - IWbemObjectSink::Indicate
 ---
 
 # IWbemObjectSink::Indicate
@@ -105,3 +104,4 @@ When an event provider calls
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">IWbemServices::ExecQueryAsync</a>
+

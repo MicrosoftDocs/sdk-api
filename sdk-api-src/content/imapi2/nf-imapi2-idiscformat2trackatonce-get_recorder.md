@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_Recorder
+ - IDiscFormat2TrackAtOnce::get_Recorder
 ---
 
 # IDiscFormat2TrackAtOnce::get_Recorder
@@ -89,3 +89,4 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_recorder">IDiscFormat2TrackAtOnce::put_Recorder</a>
+

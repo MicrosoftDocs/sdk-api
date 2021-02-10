@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_ENROLLMENT_NAME_VALUE_PAIR
+ - PCRYPT_ENROLLMENT_NAME_VALUE_PAIR
  - CRYPT_ENROLLMENT_NAME_VALUE_PAIR
 ---
 

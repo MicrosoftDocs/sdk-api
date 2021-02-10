@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.SetSnapInterval
+ - IDirectManipulationPrimaryContent::SetSnapInterval
 ---
 
 # IDirectManipulationPrimaryContent::SetSnapInterval
@@ -104,3 +104,4 @@ hr = pContent->SetSnapInterval(DIRECTMANIPULATION_MOTION_TRANSLATEX, 45.0f, 0.0f
 
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnappoints">SetSnapPoints</a>
+

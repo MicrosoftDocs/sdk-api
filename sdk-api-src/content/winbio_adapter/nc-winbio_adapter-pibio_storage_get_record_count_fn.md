@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - StorageAdapterGetRecordCount
+ - PIBIO_STORAGE_GET_RECORD_COUNT_FN
 ---
 
 # PIBIO_STORAGE_GET_RECORD_COUNT_FN callback function
@@ -180,3 +180,4 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_subject_fn">StorageAdapterQueryBySubject</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects2.Create
+ - IWMPEffects2::Create
 ---
 
 # IWMPEffects2::Create
@@ -75,3 +75,4 @@ If you create a visualization for Windows Media Player using the Direct3D® comp
 
 
 <a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">IWMPEffects2::Destroy</a>
+

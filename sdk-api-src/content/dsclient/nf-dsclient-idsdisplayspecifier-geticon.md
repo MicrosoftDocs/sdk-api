@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.GetIcon
+ - IDsDisplaySpecifier::GetIcon
 ---
 
 # IDsDisplaySpecifier::GetIcon
@@ -121,3 +121,4 @@ Returns a handle to the icon, if successful, or <b>NULL</b> otherwise. The calle
 
 
 <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
+

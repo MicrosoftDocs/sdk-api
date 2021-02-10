@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xpsobjectmodel_1.h
 api_name:
- - IXpsDocumentPackageTarget.GetXpsOMPackageWriter
+ - IXpsDocumentPackageTarget::GetXpsOMPackageWriter
 ---
 
 # IXpsDocumentPackageTarget::GetXpsOMPackageWriter
@@ -77,3 +77,4 @@ This method returns an HRESULT value. If the method call fails, it returns the a
 
 
 <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
+

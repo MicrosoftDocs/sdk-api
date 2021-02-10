@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_TASK_DISPLAY_TYPE
  - MMC_TASK_DISPLAY_TYPE
 ---
 
@@ -105,3 +106,4 @@ The image displayed for the task or background is a nontransparent bitmap image.
 
 The bitmap image is specified by an 
 <a href="/windows/desktop/api/mmc/ns-mmc-mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects2.NotifyNewMedia
+ - IWMPEffects2::NotifyNewMedia
 ---
 
 # IWMPEffects2::NotifyNewMedia
@@ -65,3 +65,4 @@ This method returns an <b>HRESULT</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetProxySettings
+ - IWMReaderNetworkConfig::SetProxySettings
 ---
 
 # IWMReaderNetworkConfig::SetProxySettings
@@ -121,3 +121,4 @@ Setting the protocol to WMT_PROXY_SETTING_MANUAL causes the reader to use the pr
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_proxy_settings">WMT_PROXY_SETTINGS</a>
+

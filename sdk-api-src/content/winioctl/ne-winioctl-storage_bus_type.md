@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_BUS_TYPE
+ - PSTORAGE_BUS_TYPE
  - STORAGE_BUS_TYPE
 ---
 

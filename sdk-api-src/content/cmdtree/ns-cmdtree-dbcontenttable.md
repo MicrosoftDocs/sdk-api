@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBCONTENTTABLE
  - DBCONTENTTABLE
 ---
 
@@ -66,3 +67,4 @@ machine on which to process query
 ### -field pwszCatalog
 
 catalog over which to process query
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ImmSetCompositionFontA
  - immdev/ImmSetCompositionFontA
+ - ImmSetCompositionFont
+ - immdev/ImmSetCompositionFont
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-imm-l1-1-0.dll
  - ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmSetCompositionFont
  - ImmSetCompositionFontA
- - ImmSetCompositionFontW
+ - ImmSetCompositionFont
 ---
 
 # ImmSetCompositionFontA function
@@ -92,3 +93,4 @@ This function causes a <a href="/windows/desktop/Intl/imn-setcompositionfont">IM
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+

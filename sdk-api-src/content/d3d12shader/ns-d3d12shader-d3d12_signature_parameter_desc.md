@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
+ - _D3D12_SIGNATURE_PARAMETER_DESC
  - D3D12_SIGNATURE_PARAMETER_DESC
 ---
 
@@ -105,3 +106,4 @@ Get a shader-signature from a shader or an effect by calling APIs such as <a hre
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
+

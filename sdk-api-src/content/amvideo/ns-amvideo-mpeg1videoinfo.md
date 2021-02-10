@@ -44,6 +44,7 @@ api_type:
 api_location:
  - amvideo.h
 api_name:
+ - tagMPEG1VIDEOINFO
  - MPEG1VIDEOINFO
 ---
 
@@ -75,3 +76,4 @@ Start of an array that contains the sequence header, including quantization matr
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

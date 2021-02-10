@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoCollection.get__NewEnum
+ - ISdoCollection::get__NewEnum
 ---
 
 # ISdoCollection::get__NewEnum
@@ -80,3 +80,4 @@ Initialize the SDO before calling this method.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
+

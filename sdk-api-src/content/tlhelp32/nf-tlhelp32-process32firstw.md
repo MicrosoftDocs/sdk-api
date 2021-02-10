@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - Process32FirstW
  - tlhelp32/Process32FirstW
+ - Process32First
+ - tlhelp32/Process32First
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
- - Process32First
- - Process32First
  - Process32FirstW
+ - Process32First
 ---
 
 # Process32FirstW function
@@ -120,3 +121,4 @@ For an example, see
 
 
 <a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
+

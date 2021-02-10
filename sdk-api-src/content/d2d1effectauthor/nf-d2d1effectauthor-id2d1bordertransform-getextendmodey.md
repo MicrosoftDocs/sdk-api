@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1BorderTransform.GetExtendModeY
+ - ID2D1BorderTransform::GetExtendModeY
 ---
 
 # ID2D1BorderTransform::GetExtendModeY
@@ -64,3 +64,4 @@ This method returns the extend mode in the y direction.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1bordertransform">ID2D1BorderTransform</a>
+

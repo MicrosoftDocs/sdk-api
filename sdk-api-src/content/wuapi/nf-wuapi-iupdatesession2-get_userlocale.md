@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSession2.UserLocale
- - IUpdateSession2.get_UserLocale
- - IUpdateSession2.put_UserLocale
+ - IUpdateSession2::get_UserLocale
 ---
 
 # IUpdateSession2::get_UserLocale
@@ -72,3 +70,4 @@ A search from an <b>UpdateSearch</b> object that was created from the <b>UpdateS
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>
+

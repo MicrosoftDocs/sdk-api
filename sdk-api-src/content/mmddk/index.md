@@ -9,6 +9,8 @@ tech.root: multimedia
 f1_keywords:
  - mmddk
  - mmddk/mmddk
+api_name:
+ - mmddk
 ---
 
 # Mmddk.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl.Resume
+ - IDvdControl::Resume
 ---
 
 # IDvdControl::Resume
@@ -75,3 +75,4 @@ This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu or
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
+

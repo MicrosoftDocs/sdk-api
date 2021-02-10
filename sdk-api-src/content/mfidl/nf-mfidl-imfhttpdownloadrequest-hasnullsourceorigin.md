@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.HasNullSourceOrigin
+ - IMFHttpDownloadRequest::HasNullSourceOrigin
 ---
 
 # IMFHttpDownloadRequest::HasNullSourceOrigin
@@ -102,3 +102,4 @@ The <i>pfNullSourceOrigin</i> parameter should be set to TRUE if <b>HasNullSourc
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
+

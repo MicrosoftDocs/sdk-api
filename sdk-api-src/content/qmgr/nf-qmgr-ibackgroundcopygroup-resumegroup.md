@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.ResumeGroup
+ - IBackgroundCopyGroup::ResumeGroup
 ---
 
 # IBackgroundCopyGroup::ResumeGroup
@@ -81,3 +81,4 @@ Successfully resumed the group in the download queue.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
+

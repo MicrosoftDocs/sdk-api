@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DDevice9Video.GetContentProtectionCaps
+ - IDirect3DDevice9Video::GetContentProtectionCaps
 ---
 
 # IDirect3DDevice9Video::GetContentProtectionCaps
@@ -86,3 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video">IDirect3DDevice9Video</a>
+

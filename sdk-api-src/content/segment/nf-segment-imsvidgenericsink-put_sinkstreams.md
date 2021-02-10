@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidGenericSink.put_SinkStreams
+ - IMSVidGenericSink::put_SinkStreams
 ---
 
 # IMSVidGenericSink::put_SinkStreams
@@ -70,3 +70,4 @@ Returns E_NOTIMPL.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink Interface</a>
+

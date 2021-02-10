@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject.GetMe
+ - IWABObject::GetMe
 ---
 
 # IWABObject::GetMe
@@ -143,3 +143,4 @@ information will be displayed to the user so that the user has the option
 of changing it as necessary.
 </div>
 <div> </div>
+

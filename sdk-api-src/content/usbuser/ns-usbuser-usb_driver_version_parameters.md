@@ -46,6 +46,8 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
+ - _USB_DRIVER_VERSION_PARAMETERS
+ - PUSB_DRIVER_VERSION_PARAMETERS
  - USB_DRIVER_VERSION_PARAMETERS
 ---
 
@@ -93,3 +95,4 @@ The <b>USB_DRIVER_VERSION_PARAMETERS</b> structure is used with the USBUSER_GET_
 
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+

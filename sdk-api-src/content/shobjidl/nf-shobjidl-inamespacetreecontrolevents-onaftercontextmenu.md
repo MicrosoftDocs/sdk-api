@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnAfterContextMenu
+ - INameSpaceTreeControlEvents::OnAfterContextMenu
 ---
 
 # INameSpaceTreeControlEvents::OnAfterContextMenu
@@ -95,3 +95,4 @@ This method allows client to completely replace the context menu. This method wi
 
 
 <a href="/windows/desktop/api/shobjidl/ne-shobjidl-nstcstyle2">NSTCSTYLE2</a>
+

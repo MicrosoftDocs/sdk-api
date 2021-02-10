@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRGDICOMMENT
+ - PEMRGDICOMMENT
  - EMRGDICOMMENT
 ---
 
@@ -77,3 +79,4 @@ Application-specific data.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+

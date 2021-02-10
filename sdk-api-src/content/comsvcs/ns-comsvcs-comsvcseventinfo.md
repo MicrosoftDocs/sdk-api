@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - __MIDL___MIDL_itf_autosvcs_0000_0013_0001
  - COMSVCSEVENTINFO
 ---
 
@@ -183,3 +184,4 @@ The fully qualified name of the computer where the event originated.
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomuserevent">IComUserEvent</a>
+

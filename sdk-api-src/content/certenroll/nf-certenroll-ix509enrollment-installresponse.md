@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment.InstallResponse
+ - IX509Enrollment::InstallResponse
 ---
 
 # IX509Enrollment::InstallResponse
@@ -200,3 +200,4 @@ If you call this method from the web, you can specify only <b>AllowNone</b> or <
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
+

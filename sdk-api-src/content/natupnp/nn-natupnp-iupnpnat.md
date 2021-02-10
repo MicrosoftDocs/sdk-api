@@ -43,7 +43,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - IUPnPNAT
- - IUPnPNAT.get_DynamicPortMappingCollection
 ---
 
 # IUPnPNAT interface
@@ -65,3 +64,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPNAT</b> interface inheri
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
+

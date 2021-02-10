@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView.ApplyViewState
+ - IOleDocumentView::ApplyViewState
 ---
 
 # IOleDocumentView::ApplyViewState
@@ -106,3 +106,4 @@ Typically, this function is called after an existing view has been created in th
 
 
 <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>
+

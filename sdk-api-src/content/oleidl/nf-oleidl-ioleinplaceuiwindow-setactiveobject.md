@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceUIWindow.SetActiveObject
+ - IOleInPlaceUIWindow::SetActiveObject
 ---
 
 # IOleInPlaceUIWindow::SetActiveObject
@@ -109,3 +109,4 @@ The Microsoft Windows User Interface Design Guide recommends that an in-place co
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olesetmenudescriptor">OleSetMenuDescriptor</a>
+

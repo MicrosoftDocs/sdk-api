@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - docobj
  - docobj/docobj
+api_name:
+ - docobj
 ---
 
 # Docobj.h header

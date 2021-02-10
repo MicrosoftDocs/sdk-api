@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice.Connect
+ - IWCNDevice::Connect
 ---
 
 # IWCNDevice::Connect
@@ -115,3 +115,4 @@ After calling this method you may not call any other <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
+

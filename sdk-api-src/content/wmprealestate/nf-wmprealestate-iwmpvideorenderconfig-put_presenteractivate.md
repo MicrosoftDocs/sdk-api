@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPVideoRenderConfig.put_presenterActivate
+ - IWMPVideoRenderConfig::put_presenterActivate
 ---
 
 # IWMPVideoRenderConfig::put_presenterActivate
@@ -95,3 +95,4 @@ The EVR, custom presenters, activation objects, and the <b>IMFActivate</b> inter
 ## -see-also
 
 <a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpvideorenderconfig">IWMPVideoRenderConfig Interface</a>
+

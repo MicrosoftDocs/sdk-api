@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl.GetPreviewHeight
+ - IMathInputControl::GetPreviewHeight
 ---
 
 # IMathInputControl::GetPreviewHeight
@@ -77,3 +77,4 @@ Manually resizing the control can affect the height of the result-preview area.
 
 
 <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setpreviewheight">SetPreviewHeight</a>
+

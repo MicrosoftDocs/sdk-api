@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSaveJob.CancelSave
+ - IMFSaveJob::CancelSave
 ---
 
 # IMFSaveJob::CancelSave
@@ -80,3 +80,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsavejob">IMFSaveJob</a>
+

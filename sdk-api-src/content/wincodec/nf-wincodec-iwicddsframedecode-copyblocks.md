@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDdsFrameDecode.CopyBlocks
+ - IWICDdsFrameDecode::CopyBlocks
 ---
 
 # IWICDdsFrameDecode::CopyBlocks
@@ -99,3 +99,4 @@ If the texture uses a block-compressed <a href="/windows/desktop/api/dxgiformat/
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicddsframedecode">IWICDdsFrameDecode</a>
+

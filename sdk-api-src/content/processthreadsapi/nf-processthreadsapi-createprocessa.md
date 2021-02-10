@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateProcessA
  - processthreadsapi/CreateProcessA
+ - CreateProcess
+ - processthreadsapi/CreateProcess
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - api-ms-win-downlevel-kernel32-l1-1-0.dll
  - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - CreateProcess
  - CreateProcessA
- - CreateProcessW
+ - CreateProcess
 ---
 
 # CreateProcessA function
@@ -353,3 +354,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a>
+

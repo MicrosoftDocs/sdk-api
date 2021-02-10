@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleParentUndoUnit.GetParentState
+ - IOleParentUndoUnit::GetParentState
 ---
 
 # IOleParentUndoUnit::GetParentState
@@ -73,3 +73,4 @@ When checking for a normal state, use the UAS_MASK value to mask unused bits in 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>
+

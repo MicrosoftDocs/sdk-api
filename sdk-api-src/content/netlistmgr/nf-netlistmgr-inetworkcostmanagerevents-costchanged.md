@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkCostManagerEvents.CostChanged
+ - INetworkCostManagerEvents::CostChanged
 ---
 
 # INetworkCostManagerEvents::CostChanged
@@ -69,3 +69,4 @@ Returns S_OK on success.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanagerevents">INetworkCostManagerEvents</a>
+

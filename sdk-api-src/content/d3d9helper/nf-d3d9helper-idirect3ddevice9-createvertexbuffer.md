@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.CreateVertexBuffer
+ - IDirect3DDevice9::CreateVertexBuffer
 ---
 
 # IDirect3DDevice9::CreateVertexBuffer
@@ -143,3 +143,4 @@ Non-FVF buffers can be used to interleave data during multipass rendering or mul
 
 
 <a href="/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
+

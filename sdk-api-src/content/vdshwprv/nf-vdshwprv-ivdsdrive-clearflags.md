@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDrive.ClearFlags
+ - IVdsDrive::ClearFlags
 ---
 
 # IVdsDrive::ClearFlags
@@ -163,3 +163,4 @@ Use <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setflags">IVdsD
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Deviceaccess.lib
  - Deviceaccess.dll
 api_name:
- - ICreateDeviceAccessAsync.Wait
+ - ICreateDeviceAccessAsync::Wait
 ---
 
 # ICreateDeviceAccessAsync::Wait
@@ -106,3 +106,4 @@ The operation has already closed when this method was called.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>
+

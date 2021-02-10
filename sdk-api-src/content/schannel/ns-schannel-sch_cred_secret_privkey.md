@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
+ - _SCH_CRED_SECRET_PRIVKEY
+ - PSCH_CRED_SECRET_PRIVKEY
  - SCH_CRED_SECRET_PRIVKEY
 ---
 
@@ -75,3 +77,4 @@ Number of bytes in the encrypted private key.
 ### -field pszPassword
 
 Pointer to a null-terminated string that Schannel uses to decrypt the private key.
+

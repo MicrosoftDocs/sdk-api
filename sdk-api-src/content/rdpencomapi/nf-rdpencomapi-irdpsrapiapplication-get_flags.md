@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIApplication.Flags
- - IRDPSRAPIApplication.get_Flags
- - RDPSRAPIApplication.Flags
+ - IRDPSRAPIApplication::get_Flags
 ---
 
 # IRDPSRAPIApplication::get_Flags
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a>
+

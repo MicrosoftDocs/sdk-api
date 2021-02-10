@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data.get_TotalSectorsOnMedia
+ - IDiscFormat2Data::get_TotalSectorsOnMedia
 ---
 
 # IDiscFormat2Data::get_TotalSectorsOnMedia
@@ -366,3 +366,4 @@ This value does not necessarily reflect the total usable sectors on the media, n
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_freesectorsonmedia">IDiscFormat2Data::get_FreeSectorsOnMedia</a>
+

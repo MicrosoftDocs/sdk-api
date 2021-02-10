@@ -46,6 +46,8 @@ api_type:
 api_location:
  - evntrace.h
 api_name:
+ - _ETW_TRACE_PARTITION_INFORMATION
+ - PETW_TRACE_PARTITION_INFORMATION
  - ETW_TRACE_PARTITION_INFORMATION
 ---
 
@@ -121,3 +123,4 @@ For events originating from applications running with  <a href="/windows/desktop
 </td>
 </tr>
 </table>
+

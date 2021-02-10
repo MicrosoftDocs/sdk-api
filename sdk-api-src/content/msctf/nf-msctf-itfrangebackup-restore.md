@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfRangeBackup.Restore
+ - ITfRangeBackup::Restore
 ---
 
 # ITfRangeBackup::Restore
@@ -150,3 +150,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/TSF/ranges">Ranges: Clones and Backups</a>
+

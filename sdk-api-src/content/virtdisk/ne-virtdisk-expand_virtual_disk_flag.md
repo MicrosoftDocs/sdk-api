@@ -45,6 +45,7 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _EXPAND_VIRTUAL_DISK_FLAG
  - EXPAND_VIRTUAL_DISK_FLAG
 ---
 
@@ -66,3 +67,4 @@ Contains virtual hard disk (VHD) expand request flags.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

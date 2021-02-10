@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - AddInterface
+ - PADD_INTERFACE
 ---
 
 # PADD_INTERFACE callback function
@@ -197,3 +197,4 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, an interface with t
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
+

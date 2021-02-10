@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.SetCreator
+ - IScheduledWorkItem::SetCreator
 ---
 
 # IScheduledWorkItem::SetCreator
@@ -116,3 +116,4 @@ Programs must call the <b>IPersistFile::Save</b> method after calling <b>SetCrea
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getcreator">IScheduledWorkItem::GetCreator</a>
+

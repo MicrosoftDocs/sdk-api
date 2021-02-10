@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Swdevicedef.h
 api_name:
+ - _SW_DEVICE_CREATE_INFO
+ - PSW_DEVICE_CREATE_INFO
  - SW_DEVICE_CREATE_INFO
 ---
 
@@ -179,3 +181,4 @@ You can only specify this info at creation time, and you can't later call the So
 ## -see-also
 
 <a href="/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>
+

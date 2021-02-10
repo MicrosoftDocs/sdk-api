@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_CD_TRACK_DIGITAL_COPY_SETTING
+ - PIMAPI_CD_TRACK_DIGITAL_COPY_SETTING
  - IMAPI_CD_TRACK_DIGITAL_COPY_SETTING
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentServerSetup.GetProperty
+ - ICertificateEnrollmentServerSetup::GetProperty
 ---
 
 # ICertificateEnrollmentServerSetup::GetProperty
@@ -154,3 +154,4 @@ The <b>ENUM_CESSETUPPROP_SSLCERTHASH</b> property contains the hash (<b>VT_BSTR<
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
+

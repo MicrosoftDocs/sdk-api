@@ -42,9 +42,6 @@ api_type:
 api_location:
  - Dnsapi.dll
 api_name:
- - DnsQuery
- - DnsQuery_A
- - DnsQuery_W
  - DnsQuery_UTF8
 ---
 
@@ -118,3 +115,4 @@ Consider the following scenario, in which multiple returned records require addi
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsrecordlistfree">DnsRecordListFree</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagPIXELFORMATDESCRIPTOR
+ - PPIXELFORMATDESCRIPTOR
  - PIXELFORMATDESCRIPTOR
 ---
 
@@ -299,3 +301,4 @@ Please notice carefully, as documented above, that certain pixel format properti
 
 
 <a href="/windows/desktop/OpenGL/structures">Structures</a>
+

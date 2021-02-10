@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemInputPin.GetAllocator
+ - IMemInputPin::GetAllocator
 ---
 
 # IMemInputPin::GetAllocator
@@ -105,3 +105,4 @@ If this method succeeds, the <b>IMemAllocator</b> interface has an outstanding r
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
+

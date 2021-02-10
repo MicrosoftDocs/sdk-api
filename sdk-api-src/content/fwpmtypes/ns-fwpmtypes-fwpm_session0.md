@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_SESSION0_
  - FWPM_SESSION0
 ---
 
@@ -147,3 +148,4 @@ The members <b>processId</b>, <b>sid</b>,  <b>username</b>, and <b>kernelMode</b
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

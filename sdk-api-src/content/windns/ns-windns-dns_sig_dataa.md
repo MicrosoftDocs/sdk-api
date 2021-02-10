@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_RRSIG_DATA
+ - PDNS_SIG_DATAA
+ - DNS_SIG_DATAA
 ---
 
 # DNS_SIG_DATAA structure
@@ -181,3 +182,4 @@ The
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

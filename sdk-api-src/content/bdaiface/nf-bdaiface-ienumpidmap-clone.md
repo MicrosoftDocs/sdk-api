@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumPIDMap.Clone
+ - IEnumPIDMap::Clone
 ---
 
 # IEnumPIDMap::Clone
@@ -114,3 +114,4 @@ The caller must release the returned <b>IEnumPIDMap</b> interface.
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ienumpidmap">IEnumPIDMap Interface</a>
+

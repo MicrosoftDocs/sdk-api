@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTVAudio.get_TVAudioMode
+ - IAMTVAudio::get_TVAudioMode
 ---
 
 # IAMTVAudio::get_TVAudioMode
@@ -132,3 +132,4 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
+

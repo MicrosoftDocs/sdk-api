@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.GetBlend
+ - LinearGradientBrush::GetBlend
 ---
 
 # LinearGradientBrush::GetBlend
@@ -168,3 +168,4 @@ VOID Example_GetBlend(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+

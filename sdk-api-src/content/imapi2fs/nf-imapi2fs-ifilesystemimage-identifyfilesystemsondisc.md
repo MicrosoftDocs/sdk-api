@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage.IdentifyFileSystemsOnDisc
+ - IFileSystemImage::IdentifyFileSystemsOnDisc
 ---
 
 # IFileSystemImage::IdentifyFileSystemsOnDisc
@@ -101,3 +101,4 @@ Client applications can call <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
+

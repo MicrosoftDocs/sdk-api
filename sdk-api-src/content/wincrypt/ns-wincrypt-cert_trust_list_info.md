@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_TRUST_LIST_INFO
+ - PCERT_TRUST_LIST_INFO
  - CERT_TRUST_LIST_INFO
 ---
 
@@ -77,3 +79,4 @@ A pointer to a CTL context.
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a>
+

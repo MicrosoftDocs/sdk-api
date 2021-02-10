@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.SetAutoReconnectLimit
+ - IWMReaderNetworkConfig2::SetAutoReconnectLimit
 ---
 
 # IWMReaderNetworkConfig2::SetAutoReconnectLimit
@@ -100,3 +100,4 @@ mms://MyServer/MyVideo.wmv?WMReconnect=5
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getautoreconnectlimit">IWMReaderNetworkConfig2::GetAutoReconnectLimit</a>
+

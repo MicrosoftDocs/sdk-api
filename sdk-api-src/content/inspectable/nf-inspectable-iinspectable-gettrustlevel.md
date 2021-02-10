@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Inspectable.h
 api_name:
- - IInspectable.GetTrustLevel
- - IInputPaneInterop.GetTrustLevel
+ - IInspectable::GetTrustLevel
 ---
 
 # IInspectable::GetTrustLevel
@@ -74,3 +73,4 @@ This method always returns <b>S_OK</b>.
 
 
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
+

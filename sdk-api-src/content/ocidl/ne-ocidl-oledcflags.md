@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagOLEDCFLAGS
  - OLEDCFLAGS
 ---
 
@@ -71,3 +72,4 @@ Indicates that the object prefers to draw into an offscreen device context that 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-getdc">IOleInPlaceSiteWindowless::GetDC</a>
+

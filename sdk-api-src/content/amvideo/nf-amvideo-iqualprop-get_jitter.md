@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IQualProp.get_Jitter
+ - IQualProp::get_Jitter
 ---
 
 # IQualProp::get_Jitter
@@ -70,3 +70,4 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-iqualprop">IQualProp Interface</a>
+

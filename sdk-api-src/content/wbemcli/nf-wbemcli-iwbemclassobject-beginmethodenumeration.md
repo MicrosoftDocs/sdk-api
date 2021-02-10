@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.BeginMethodEnumeration
+ - IWbemClassObject::BeginMethodEnumeration
 ---
 
 # IWbemClassObject::BeginMethodEnumeration
@@ -100,3 +100,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-nextmethod">IWbemClassObject::NextMethod</a>
+

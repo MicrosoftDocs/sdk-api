@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.SetServer
+ - IDsDisplaySpecifier::SetServer
 ---
 
 # IDsDisplaySpecifier::SetServer
@@ -107,3 +107,4 @@ The server data is cached by the <a href="/windows/desktop/api/dsclient/nn-dscli
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier">IDsDisplaySpecifier::GetDisplaySpecifier</a>
+

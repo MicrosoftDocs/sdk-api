@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList.GetDataSize
+ - IITPropList::GetDataSize
 ---
 
 # IITPropList::GetDataSize
@@ -117,3 +117,4 @@ Invalid header buffer.
 
 
 <a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getheadersize">IITPropList::GetHeaderSize</a>
+

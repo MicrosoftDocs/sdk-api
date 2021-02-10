@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICreateDevEnum.CreateClassEnumerator
+ - ICreateDevEnum::CreateClassEnumerator
 ---
 
 # ICreateDevEnum::CreateClassEnumerator
@@ -179,3 +179,4 @@ Use the <b>IEnumMoniker</b> interface to enumerate monikers that represent the f
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum Interface</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.GetCompoundArray
+ - Pen::GetCompoundArray
 ---
 
 # Pen::GetCompoundArray
@@ -111,3 +111,4 @@ Status stat = pen.GetCompoundArray(distances, count);
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+

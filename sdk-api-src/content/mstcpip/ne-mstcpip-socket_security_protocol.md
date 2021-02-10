@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
+ - _SOCKET_SECURITY_PROTOCOL
  - SOCKET_SECURITY_PROTOCOL
 ---
 
@@ -131,3 +132,4 @@ In addition to identifying the security protocol, this type is also used to deci
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
+

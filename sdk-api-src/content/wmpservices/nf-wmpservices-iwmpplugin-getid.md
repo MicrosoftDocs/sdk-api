@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPPlugin.GetID
+ - IWMPPlugin::GetID
 ---
 
 # IWMPPlugin::GetID
@@ -69,3 +69,4 @@ For more information on the <b>GUID</b> structure, see the Platform SDK.
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
+

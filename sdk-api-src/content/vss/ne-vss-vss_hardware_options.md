@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_HARDWARE_OPTIONS
+ - PVSS_HARDWARE_OPTIONS
  - VSS_HARDWARE_OPTIONS
 ---
 
@@ -93,3 +95,4 @@ The provider must mask shadow copy LUNs from this computer. For more information
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">IVssHardwareSnapshotProviderEx::OnLunStateChange</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual.SetBitmapInterpolationMode
+ - IDCompositionVisual::SetBitmapInterpolationMode
 ---
 
 # IDCompositionVisual::SetBitmapInterpolationMode
@@ -81,3 +81,4 @@ If the <i>interpolationMode</i> parameter is anything other than <a href="/windo
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
+

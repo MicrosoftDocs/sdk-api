@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedText.IsInBandEnabled
+ - IMFTimedText::IsInBandEnabled
 ---
 
 # IMFTimedText::IsInBandEnabled
@@ -63,3 +63,4 @@ Returns whether inband mode is enabled. If <b>TRUE</b>, inband mode is enabled. 
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>
+

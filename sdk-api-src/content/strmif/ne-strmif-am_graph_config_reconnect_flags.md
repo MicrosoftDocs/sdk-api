@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - _AM_GRAPH_CONFIG_RECONNECT_FLAGS
  - AM_GRAPH_CONFIG_RECONNECT_FLAGS
 ---
 
@@ -79,3 +80,4 @@ When inserting additional filters into the graph, use only filters currently in 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a>
+

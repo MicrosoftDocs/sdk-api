@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Gpmgmt.h
 api_name:
+ - __MIDL___MIDL_itf_gpmgmt_0000_0000_0002
  - GPMPermissionType
 ---
 

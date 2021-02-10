@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.EnumManifestResources
+ - IMetaDataAssemblyImport::EnumManifestResources
 ---
 
 # IMetaDataAssemblyImport::EnumManifestResources
@@ -93,3 +93,4 @@ The number of <b>mdManifestResource</b> tokens actually placed in <i>rManifestRe
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
+

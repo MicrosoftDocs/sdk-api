@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WLAN_CONNECTION_PARAMETERS
+ - PWLAN_CONNECTION_PARAMETERS
  - WLAN_CONNECTION_PARAMETERS
 ---
 
@@ -151,3 +153,4 @@ discovery profile will be persisted and attempt to overwrite an existing profile
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a>
+

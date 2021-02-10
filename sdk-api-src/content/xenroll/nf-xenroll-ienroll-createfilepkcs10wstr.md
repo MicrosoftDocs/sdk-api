@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.createFilePKCS10WStr
+ - IEnroll::createFilePKCS10WStr
 ---
 
 # IEnroll::createFilePKCS10WStr
@@ -80,3 +80,4 @@ By default, the Microsoft Base Cryptographic Provider is used, and a unique sign
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

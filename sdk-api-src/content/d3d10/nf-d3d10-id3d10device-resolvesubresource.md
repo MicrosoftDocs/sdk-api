@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d10.h
 api_name:
- - ID3D10Device.ResolveSubresource
+ - ID3D10Device::ResolveSubresource
 ---
 
 # ID3D10Device::ResolveSubresource
@@ -113,3 +113,4 @@ The source and destination must have compatible formats. There are three scenari
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

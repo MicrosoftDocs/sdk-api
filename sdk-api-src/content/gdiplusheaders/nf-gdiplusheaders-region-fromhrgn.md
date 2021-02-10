@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region.FromHRGN
+ - Region::FromHRGN
 ---
 
 # Region::FromHRGN
@@ -67,3 +67,4 @@ Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">
 
 This method returns a pointer to the new 
 						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object.
+

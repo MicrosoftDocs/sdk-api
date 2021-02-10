@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList.GetRemovedDestinations
+ - ICustomDestinationList::GetRemovedDestinations
 ---
 
 # ICustomDestinationList::GetRemovedDestinations
@@ -97,3 +97,4 @@ A call to <b>GetRemovedDestinations</b> does not clear the removed destinations 
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+

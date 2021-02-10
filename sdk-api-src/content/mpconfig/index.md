@@ -9,6 +9,8 @@ tech.root: virtual
 f1_keywords:
  - mpconfig
  - mpconfig/mpconfig
+api_name:
+ - mpconfig
 ---
 
 # Mpconfig.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfDisplayAttributeInfo.Clone
+ - IEnumTfDisplayAttributeInfo::Clone
 ---
 
 # IEnumTfDisplayAttributeInfo::Clone
@@ -92,3 +92,4 @@ The method is not implemented.
 </table>
 
 ## -see-also
+

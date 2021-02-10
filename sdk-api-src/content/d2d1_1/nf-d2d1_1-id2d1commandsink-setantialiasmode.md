@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.SetAntialiasMode
+ - ID2D1CommandSink::SetAntialiasMode
 ---
 
 # ID2D1CommandSink::SetAntialiasMode
@@ -77,3 +77,4 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">ID2D1RenderTarget::SetAntialiasMode</a>
+

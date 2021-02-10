@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.ImportSnapshots
+ - IVssBackupComponents::ImportSnapshots
 ---
 
 # IVssBackupComponents::ImportSnapshots
@@ -187,3 +187,4 @@ For more information on importing shadow copies, see
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">IVssBackupComponents::InitializeForBackup</a>
+

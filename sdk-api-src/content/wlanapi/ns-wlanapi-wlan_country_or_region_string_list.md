@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WLAN_COUNTRY_OR_REGION_STRING_LIST
+ - PWLAN_COUNTRY_OR_REGION_STRING_LIST
  - WLAN_COUNTRY_OR_REGION_STRING_LIST
 ---
 
@@ -75,3 +77,4 @@ A list of supported country or region strings. In Windows, a <b>DOT11_COUNTRY_OR
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
+

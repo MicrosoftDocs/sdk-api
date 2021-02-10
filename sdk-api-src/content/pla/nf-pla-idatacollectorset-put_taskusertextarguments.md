@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.TaskUserTextArguments
- - IDataCollectorSet.get_TaskUserTextArguments
- - IDataCollectorSet.put_TaskUserTextArguments
+ - IDataCollectorSet::put_TaskUserTextArguments
 ---
 
 # IDataCollectorSet::put_TaskUserTextArguments
@@ -90,3 +88,4 @@ PLA provides the following substitution variables that you can include in your a
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a>
+

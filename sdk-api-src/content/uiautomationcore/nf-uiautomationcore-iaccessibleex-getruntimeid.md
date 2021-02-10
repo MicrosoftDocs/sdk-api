@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IAccessibleEx.GetRuntimeId
+ - IAccessibleEx::GetRuntimeId
 ---
 
 # IAccessibleEx::GetRuntimeId
@@ -87,3 +87,4 @@ The MSAA-to-UIA Proxy uses the runtime identifier (together with the window hand
 
 
 <b>Reference</b>
+

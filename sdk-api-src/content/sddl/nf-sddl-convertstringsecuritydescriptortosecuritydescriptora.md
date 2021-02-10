@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ConvertStringSecurityDescriptorToSecurityDescriptorA
  - sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA
+ - ConvertStringSecurityDescriptorToSecurityDescriptor
+ - sddl/ConvertStringSecurityDescriptorToSecurityDescriptor
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - API-MS-Win-Security-sddl-l1-1-0.dll
 api_name:
- - ConvertStringSecurityDescriptorToSecurityDescriptor
  - ConvertStringSecurityDescriptorToSecurityDescriptorA
- - ConvertStringSecurityDescriptorToSecurityDescriptorW
+ - ConvertStringSecurityDescriptorToSecurityDescriptor
 ---
 
 # ConvertStringSecurityDescriptorToSecurityDescriptorA function
@@ -166,3 +167,4 @@ and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="/w
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+

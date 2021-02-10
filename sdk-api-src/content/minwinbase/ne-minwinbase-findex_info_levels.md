@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _FINDEX_INFO_LEVELS
  - FINDEX_INFO_LEVELS
 ---
 
@@ -83,3 +84,4 @@ This value is used for validation. Supported values are less than this value.
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
+

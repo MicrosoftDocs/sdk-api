@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.SetProperties
+ - IFileOperation::SetProperties
 ---
 
 # IFileOperation::SetProperties
@@ -77,3 +77,4 @@ This method does not set the new property values, it merely declares them. To se
 <li>Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitem">IFileOperation::ApplyPropertiesToItem</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitems">IFileOperation::ApplyPropertiesToItems</a> to declare the item or items whose properties are to be set.</li>
 <li>Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> to apply the properties to the item or items.</li>
 </ol>
+

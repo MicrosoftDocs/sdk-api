@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_CLIENT_INFO
+ - PSECPKG_CLIENT_INFO
  - SECPKG_CLIENT_INFO
 ---
 
@@ -88,3 +90,4 @@ The client is restricted in its ability to access securable objects or perform p
 ### -field ImpersonationLevel
 
 ### -field ClientToken
+

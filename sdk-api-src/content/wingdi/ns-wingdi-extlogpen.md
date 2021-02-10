@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEXTLOGPEN
+ - PEXTLOGPEN
  - EXTLOGPEN
 ---
 
@@ -318,3 +320,4 @@ If <b>elpWidth</b> specifies geometric lines, the lengths are in logical units. 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
+

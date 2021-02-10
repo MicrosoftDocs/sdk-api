@@ -42,9 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia.get_imageSourceHeight
- - IWMPMedia2.get_imageSourceHeight
- - IWMPMedia3.get_imageSourceHeight
+ - IWMPMedia::get_imageSourceHeight
 ---
 
 # IWMPMedia::get_imageSourceHeight
@@ -91,3 +89,4 @@ Before calling this method, you must have read access to the library. For more i
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
+

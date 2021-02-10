@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinSvc.h
 api_name:
+ - _SERVICE_LAUNCH_PROTECTED_INFO
+ - PSERVICE_LAUNCH_PROTECTED_INFO
  - SERVICE_LAUNCH_PROTECTED_INFO
 ---
 
@@ -108,3 +110,4 @@ Once the service is launched as protected, other unprotected processes will not 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity">SetServiceObjectSecurity</a>
 </li>
 </ul>
+

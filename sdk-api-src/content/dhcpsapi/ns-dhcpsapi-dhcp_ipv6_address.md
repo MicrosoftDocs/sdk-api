@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_IPV6_ADDRESS
+ - LPDHCP_IPV6_ADDRESS
  - DHCP_IPV6_ADDRESS
 ---
 

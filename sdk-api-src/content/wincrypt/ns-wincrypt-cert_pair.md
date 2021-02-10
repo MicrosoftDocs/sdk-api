@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_PAIR
+ - PCERT_PAIR
  - CERT_PAIR
 ---
 
@@ -65,3 +67,4 @@ An optional <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)
 ### -field Reverse
 
 An optional <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structure that contains a certificate. If the <b>cbData</b> member of <b>Reverse</b> is zero, the certificate may be empty.
+

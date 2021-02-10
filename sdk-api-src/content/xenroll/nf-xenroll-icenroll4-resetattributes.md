@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.resetAttributes
- - CEnroll.resetAttributes
+ - ICEnroll4::resetAttributes
 ---
 
 # ICEnroll4::resetAttributes
@@ -66,3 +65,4 @@ The <b>resetAttributes</b> method removes all attributes from the request.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
 <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

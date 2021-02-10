@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PUSN_JOURNAL_DATA_V2
  - USN_JOURNAL_DATA_V2
 ---
 
@@ -159,3 +160,4 @@ File size threshold to start tracking range for files with equal or larger size.
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

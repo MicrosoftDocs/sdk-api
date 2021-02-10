@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiEnumProductsExA
  - msi/MsiEnumProductsExA
+ - MsiEnumProductsEx
+ - msi/MsiEnumProductsEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiEnumProductsEx
  - MsiEnumProductsExA
- - MsiEnumProductsExW
+ - MsiEnumProductsEx
 ---
 
 # MsiEnumProductsExA function
@@ -308,3 +309,4 @@ Use <a href="/windows/desktop/api/msi/nf-msi-msigetproductinfoexa">MsiGetProduct
 
 
 <a href="/windows/desktop/Msi/removing-patches">Removing Patches</a>
+

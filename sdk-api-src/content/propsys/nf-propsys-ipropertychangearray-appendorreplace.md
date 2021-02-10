@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyChangeArray.AppendOrReplace
+ - IPropertyChangeArray::AppendOrReplace
 ---
 
 # IPropertyChangeArray::AppendOrReplace
@@ -65,3 +65,4 @@ A pointer to the interface that contains the change
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
+

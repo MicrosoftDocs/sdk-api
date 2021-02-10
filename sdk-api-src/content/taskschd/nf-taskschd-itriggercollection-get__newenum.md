@@ -42,8 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITriggerCollection._NewEnum
- - ITriggerCollection.get__NewEnum
+ - ITriggerCollection::get__NewEnum
 ---
 
 # ITriggerCollection::get__NewEnum
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

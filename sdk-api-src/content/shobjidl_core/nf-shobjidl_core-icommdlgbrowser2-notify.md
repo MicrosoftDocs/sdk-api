@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICommDlgBrowser2.Notify
+ - ICommDlgBrowser2::Notify
 ---
 
 # ICommDlgBrowser2::Notify
@@ -87,3 +87,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>
+

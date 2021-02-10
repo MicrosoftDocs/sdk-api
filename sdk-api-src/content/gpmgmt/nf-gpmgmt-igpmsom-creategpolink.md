@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMSOM.CreateGPOLink
- - GPMSOM.CreateGPOLink
+ - IGPMSOM::CreateGPOLink
 ---
 
 ## -description
@@ -91,3 +90,4 @@ Attempting to link a GPO to a particular SOM multiple times causes the method to
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
+

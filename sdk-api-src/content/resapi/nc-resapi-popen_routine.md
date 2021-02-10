@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - Open
+ - POPEN_ROUTINE
 ---
 
 # POPEN_ROUTINE callback function
@@ -113,3 +113,4 @@ See <a href="/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>
+

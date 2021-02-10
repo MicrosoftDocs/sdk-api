@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2.ProjectOntoColumnSet
+ - ISyncKnowledge2::ProjectOntoColumnSet
 ---
 
 # ISyncKnowledge2::ProjectOntoColumnSet
@@ -132,3 +132,4 @@ The format of the change unit IDs that is contained in <i>ppColumns</i> is not o
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
+

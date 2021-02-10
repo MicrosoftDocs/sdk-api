@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
- - ID3D10ShaderReflection.GetOutputParameterDesc
+ - ID3D10ShaderReflection::GetOutputParameterDesc
 ---
 
 # ID3D10ShaderReflection::GetOutputParameterDesc
@@ -79,3 +79,4 @@ An output-parameter description is also called a shader signature. The shader si
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection Interface</a>
+

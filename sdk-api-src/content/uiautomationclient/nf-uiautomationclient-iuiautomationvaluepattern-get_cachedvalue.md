@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationValuePattern.CachedValue
- - IUIAutomationValuePattern.get_CachedValue
+ - IUIAutomationValuePattern::get_CachedValue
 ---
 
 # IUIAutomationValuePattern::get_CachedValue
@@ -66,3 +65,4 @@ This property does not support the retrieval of formatting information or substr
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvaluepattern">IUIAutomationValuePattern</a>
+

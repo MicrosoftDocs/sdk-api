@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFVideoMediaType.GetVideoFormat
+ - IMFVideoMediaType::GetVideoFormat
 ---
 
 # IMFVideoMediaType::GetVideoFormat
@@ -74,3 +74,4 @@ There are no guarantees about how long the returned pointer is valid.
 
 
 <a href="/windows/desktop/medfound/media-types">Media Types</a>
+

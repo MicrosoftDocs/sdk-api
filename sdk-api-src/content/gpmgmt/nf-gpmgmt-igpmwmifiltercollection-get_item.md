@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMWMIFilterCollection.Item
- - IGPMWMIFilterCollection.get_Item
- - GPMWMIFilterCollection.Item
+ - IGPMWMIFilterCollection::get_Item
 ---
 
 # IGPMWMIFilterCollection::get_Item
@@ -65,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
+

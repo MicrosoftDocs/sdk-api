@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _POLICYPROPERTIES
  - POLICYPROPERTIES
 ---
 
@@ -116,3 +117,4 @@ To create a new policy, you must specify a unique name for the policy, a profile
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-conditionproperties">CONDITIONPROPERTIES</a>
+

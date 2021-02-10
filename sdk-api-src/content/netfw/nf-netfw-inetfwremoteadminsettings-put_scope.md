@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwRemoteAdminSettings.Scope
- - INetFwRemoteAdminSettings.get_Scope
- - INetFwRemoteAdminSettings.put_Scope
+ - INetFwRemoteAdminSettings::put_Scope
 ---
 
 # INetFwRemoteAdminSettings::put_Scope
@@ -83,3 +81,4 @@ To create a custom scope, use the <a href="/previous-versions/windows/desktop/ap
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwremoteadminsettings-get_remoteaddresses">RemoteAddresses</a>
+

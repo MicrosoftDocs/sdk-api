@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress.Forward
+ - ITAddress::Forward
 ---
 
 # ITAddress::Forward
@@ -187,3 +187,4 @@ Forward method is, in part, a COM wrapper for the TAPI 2.1
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineforward">LineForward</a>
+

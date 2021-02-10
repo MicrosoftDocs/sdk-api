@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTransform.ProcessOutput
+ - IMFTransform::ProcessOutput
 ---
 
 # IMFTransform::ProcessOutput
@@ -273,3 +273,4 @@ The previous remarks describe the <i>synchronous</i> processing model. To suppor
 
 
 <a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureExchange.TransferContainerData
+ - ISCPSecureExchange::TransferContainerData
 ---
 
 # ISCPSecureExchange::TransferContainerData
@@ -176,3 +176,4 @@ The <b>TransferComplete</b> method is called by Windows Media Device Manager to 
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
+

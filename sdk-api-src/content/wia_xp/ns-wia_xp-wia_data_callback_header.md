@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wia_xp.h
 api_name:
+ - _WIA_DATA_CALLBACK_HEADER
+ - PWIA_DATA_CALLBACK_HEADER
  - WIA_DATA_CALLBACK_HEADER
 ---
 
@@ -81,3 +83,4 @@ Specifies the size in bytes of the buffer needed for a complete data transfer. T
 Type: <b>LONG</b>
 
 Specifies the page count. Indicates the number of callbacks to the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback">IWiaDataCallback::BandedDataCallback</a> method with the <i>lMessage</i>  parameter set to IT_MSG_NEW_PAGE.
+

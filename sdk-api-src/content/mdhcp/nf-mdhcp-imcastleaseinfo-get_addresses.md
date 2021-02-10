@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.get_Addresses
+ - IMcastLeaseInfo::get_Addresses
 ---
 
 # IMcastLeaseInfo::get_Addresses
@@ -129,3 +129,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+

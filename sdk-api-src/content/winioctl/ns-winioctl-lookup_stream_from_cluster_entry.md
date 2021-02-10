@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _LOOKUP_STREAM_FROM_CLUSTER_ENTRY
+ - PLOOKUP_STREAM_FROM_CLUSTER_ENTRY
  - LOOKUP_STREAM_FROM_CLUSTER_ENTRY
 ---
 
@@ -199,3 +201,4 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

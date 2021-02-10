@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputNumberForStream
+ - IWMSyncReader::GetOutputNumberForStream
 ---
 
 # IWMSyncReader::GetOutputNumberForStream
@@ -105,3 +105,4 @@ More than one stream can be encompassed by an output, as in the case of multiple
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
+

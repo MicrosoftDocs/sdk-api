@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - ITravelLog.GetTravelEntry
+ - ITravelLog::GetTravelEntry
 ---
 
 # ITravelLog::GetTravelEntry
@@ -82,3 +82,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>ITravelLog::GetTravelEntry</b> is often used to discover whether the <b>Back</b> and <b>Forward</b> buttons should be enabled in the browser window.
+

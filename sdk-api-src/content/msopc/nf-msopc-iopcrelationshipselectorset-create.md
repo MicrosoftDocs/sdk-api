@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcRelationshipSelectorSet.Create
+ - IOpcRelationshipSelectorSet::Create
 ---
 
 # IOpcRelationshipSelectorSet::Create
@@ -168,3 +168,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

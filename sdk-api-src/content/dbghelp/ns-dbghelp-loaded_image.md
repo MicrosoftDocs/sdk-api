@@ -46,6 +46,8 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _LOADED_IMAGE
+ - PLOADED_IMAGE
  - LOADED_IMAGE
 ---
 
@@ -320,3 +322,4 @@ typedef struct _LIST_ENTRY {
 
 
 <a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>
+

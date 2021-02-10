@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d10_1shader.h
 api_name:
+ - _D3D10_SHADER_DEBUG_INPUT_INFO
  - D3D10_SHADER_DEBUG_INPUT_INFO
 ---
 
@@ -99,3 +100,4 @@ The <b>D3D10_SHADER_DEBUG_INPUT_INFO</b> structure is used with the <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
+

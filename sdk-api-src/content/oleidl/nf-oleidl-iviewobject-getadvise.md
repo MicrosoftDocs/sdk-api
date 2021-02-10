@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IViewObject.GetAdvise
+ - IViewObject::GetAdvise
 ---
 
 # IViewObject::GetAdvise
@@ -85,3 +85,4 @@ This method returns S_OK on success.
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>
+

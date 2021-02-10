@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.OriginalScheduledTime
- - IFaxOutgoingJob.get_OriginalScheduledTime
- - IFaxOutgoingJob.get_OriginalScheduledTime
+ - IFaxOutgoingJob::get_OriginalScheduledTime
 ---
 
 # IFaxOutgoingJob::get_OriginalScheduledTime
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
+

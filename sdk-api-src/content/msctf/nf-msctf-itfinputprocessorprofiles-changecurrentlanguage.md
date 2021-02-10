@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.ChangeCurrentLanguage
+ - ITfInputProcessorProfiles::ChangeCurrentLanguage
 ---
 
 # ITfInputProcessorProfiles::ChangeCurrentLanguage

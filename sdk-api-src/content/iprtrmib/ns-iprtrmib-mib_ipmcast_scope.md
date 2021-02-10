@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iprtrmib.h
 api_name:
+ - _MIB_IPMCAST_SCOPE
+ - PMIB_IPMCAST_SCOPE
  - MIB_IPMCAST_SCOPE
 ---
 

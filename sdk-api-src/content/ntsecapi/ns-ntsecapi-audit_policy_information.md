@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _AUDIT_POLICY_INFORMATION
+ - PAUDIT_POLICY_INFORMATION
  - AUDIT_POLICY_INFORMATION
 ---
 
@@ -232,3 +234,4 @@ A <b>GUID</b> structure that specifies an audit-policy category.
 
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a>
+

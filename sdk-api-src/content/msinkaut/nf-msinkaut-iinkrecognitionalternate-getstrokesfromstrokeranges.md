@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.GetStrokesFromStrokeRanges
+ - IInkRecognitionAlternate::GetStrokesFromStrokeRanges
 ---
 
 # IInkRecognitionAlternate::GetStrokesFromStrokeRanges
@@ -152,3 +152,4 @@ The stroke ranges are valid until the <a href="/windows/desktop/tablet/inkdisp-c
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

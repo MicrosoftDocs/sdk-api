@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_AutoStopRingOnOffHook
+ - ITAutomatedPhoneControl::get_AutoStopRingOnOffHook
 ---
 
 # ITAutomatedPhoneControl::get_AutoStopRingOnOffHook
@@ -83,3 +83,4 @@ The <b>AutoStopRingOnOffHook</b> property functions only when the value of the <
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_phonehandlingenabled">put_PhoneHandlingEnabled</a>
+

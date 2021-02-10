@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_Real64A
  - MI_Real64A
 ---
 
@@ -67,3 +68,4 @@ The number of items in the array.
 ## -remarks
 
 This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="/windows/win32/wmisdk/key-qualifier">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.
+

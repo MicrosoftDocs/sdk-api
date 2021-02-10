@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceNativeWithD2D.SetDevice
+ - ISurfaceImageSourceNativeWithD2D::SetDevice
 ---
 
 # ISurfaceImageSourceNativeWithD2D::xaml
@@ -77,3 +77,4 @@ This method fails when the SurfaceImageSource is larger than the maximum texture
 
 
 <a href="/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
+

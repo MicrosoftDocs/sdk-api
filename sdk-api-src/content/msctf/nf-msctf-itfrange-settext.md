@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.SetText
+ - ITfRange::SetText
 ---
 
 # ITfRange::SetText
@@ -193,3 +193,4 @@ For inserting text, the <a href="/windows/desktop/api/msctf/nf-msctf-itfinsertat
 
 
 <a href="/windows/desktop/TSF/text-stores">Text Stores</a>
+

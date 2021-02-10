@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual3.SetTransform
+ - IDCompositionVisual3::SetTransform
 ---
 
 # IDCompositionVisual3::SetTransform(IDCompositionTransform3D)
@@ -123,3 +123,4 @@ If the OffsetX and OffsetY properties are set to 0, and the Transform property i
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449171(v=vs.85)">IDCompositionVisual::SetOffsetY</a>
+

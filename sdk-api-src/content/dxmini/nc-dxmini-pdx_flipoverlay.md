@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - DxFlipOverlay
+ - PDX_FLIPOVERLAY
 ---
 
 ## -description
@@ -74,3 +74,4 @@ If a hardware video port is not used and the client still wants the overlay to b
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddflipoverlayinfo">DDFLIPOVERLAYINFO</a>
+

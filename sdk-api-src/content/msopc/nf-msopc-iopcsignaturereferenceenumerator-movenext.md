@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureReferenceEnumerator.MoveNext
+ - IOpcSignatureReferenceEnumerator::MoveNext
 ---
 
 # IOpcSignatureReferenceEnumerator::MoveNext
@@ -189,3 +189,4 @@ The enumerator is invalid because the underlying set has changed.
 
 
 <b>Reference</b>
+

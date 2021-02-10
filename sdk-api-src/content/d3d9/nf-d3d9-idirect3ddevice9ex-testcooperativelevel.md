@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.TestCooperativeLevel
+ - IDirect3DDevice9Ex::TestCooperativeLevel
 ---
 
 # IDirect3DDevice9Ex::TestCooperativeLevel
@@ -66,3 +66,4 @@ Always returns D3D_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
+

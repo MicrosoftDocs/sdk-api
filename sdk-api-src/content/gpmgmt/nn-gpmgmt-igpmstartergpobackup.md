@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMStarterGPOBackup
- - GPMStarterGPOBackup
 ---
 
 # IGPMStarterGPOBackup interface
@@ -78,3 +77,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPOBackup</b> inte
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMStarterGPOBackupCollection</a>
+

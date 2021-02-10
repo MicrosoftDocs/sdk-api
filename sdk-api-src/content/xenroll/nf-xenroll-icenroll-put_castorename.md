@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.CAStoreName
- - ICEnroll4.get_CAStoreName
- - ICEnroll4.put_CAStoreName
- - ICEnroll3.CAStoreName
- - ICEnroll3.get_CAStoreName
- - ICEnroll3.put_CAStoreName
- - ICEnroll2.CAStoreName
- - ICEnroll2.get_CAStoreName
- - ICEnroll2.put_CAStoreName
- - ICEnroll.CAStoreName
- - ICEnroll.get_CAStoreName
- - ICEnroll.put_CAStoreName
- - CEnroll.CAStoreName
+ - ICEnroll::put_CAStoreName
 ---
 
 # ICEnroll::put_CAStoreName
@@ -116,3 +104,4 @@ if ( FAILED ( hr ) )
 else
     printf( "CAStoreName was set to : %ws\n", bstrNewName );
 ```
+

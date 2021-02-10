@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Websocket.h
 api_name:
+ - _WEB_SOCKET_BUFFER
+ - PWEB_SOCKET_BUFFER
  - WEB_SOCKET_BUFFER
 ---
 
@@ -112,3 +114,4 @@ Application must use the <b>Data</b> struct for all buffer types except <b>WEB_S
 
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
+

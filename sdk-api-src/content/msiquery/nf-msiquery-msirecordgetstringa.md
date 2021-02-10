@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiRecordGetStringA
  - msiquery/MsiRecordGetStringA
+ - MsiRecordGetString
+ - msiquery/MsiRecordGetString
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiRecordGetString
  - MsiRecordGetStringA
- - MsiRecordGetStringW
+ - MsiRecordGetString
 ---
 
 # MsiRecordGetStringA function
@@ -97,3 +98,4 @@ If <b>ERROR_MORE_DATA</b> is returned, the parameter which is a pointer gives th
 
 
 <a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPPropertyCollection.Item
- - IOCSPPropertyCollection.get_Item
+ - IOCSPPropertyCollection::get_Item
 ---
 
 # IOCSPPropertyCollection::get_Item
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSequencerSource.AppendTopology
+ - IMFSequencerSource::AppendTopology
 ---
 
 # IMFSequencerSource::AppendTopology
@@ -137,3 +137,4 @@ The application must indicate to the sequencer when it has queued the last topol
 
 
 <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopologynode">MFCreateTopologyNode</a>
+

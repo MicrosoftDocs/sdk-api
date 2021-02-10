@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.put_Mode
+ - IAMExtTransport::put_Mode
 ---
 
 # IAMExtTransport::put_Mode
@@ -172,3 +172,4 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mode">IAMExtTransport::get_Mode</a>
+

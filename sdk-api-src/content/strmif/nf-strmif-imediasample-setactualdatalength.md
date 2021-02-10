@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.SetActualDataLength
+ - IMediaSample::SetActualDataLength
 ---
 
 # IMediaSample::SetActualDataLength
@@ -99,3 +99,4 @@ Length specified in <i>lLen</i> is larger than the buffer size.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagWINDOWINFO
+ - PWINDOWINFO
  - WINDOWINFO
 ---
 
@@ -141,3 +143,4 @@ The Windows version of the application that created the window.
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

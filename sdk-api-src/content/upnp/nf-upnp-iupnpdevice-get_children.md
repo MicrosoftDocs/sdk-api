@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice.get_Children
+ - IUPnPDevice::get_Children
 ---
 
 # IUPnPDevice::get_Children
@@ -85,3 +85,4 @@ To determine if a device has any children (but not the actual number of children
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - ISearchBoxInfo.GetCondition
+ - ISearchBoxInfo::GetCondition
 ---
 
 # ISearchBoxInfo::GetCondition
@@ -81,3 +81,4 @@ We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, t
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-isearchboxinfo">ISearchBoxInfo</a>
+

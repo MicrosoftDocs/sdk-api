@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdDestroySurface
+ - PDD_SURFCB_DESTROYSURFACE
 ---
 
 ## -description
@@ -80,3 +80,4 @@ For a driver-managed surface, if the surface is persistent (that is, the DDSCAPS
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>
+

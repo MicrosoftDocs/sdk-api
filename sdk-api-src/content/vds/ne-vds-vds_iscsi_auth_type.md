@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_ISCSI_AUTH_TYPE
  - VDS_ISCSI_AUTH_TYPE
 ---
 
@@ -81,3 +82,4 @@ Mutual CHAP authentication is performed (target authenticates initiator and init
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-logintotarget">IVdsIscsiInitiatorAdapter::LoginToTarget</a>
+

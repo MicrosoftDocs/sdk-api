@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
+ - _SecPkgContext_EapKeyBlock
+ - PSecPkgContext_EapKeyBlock
  - SecPkgContext_EapKeyBlock
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
+ - IUIAutomationObjectModelPattern::GetUnderlyingObjectModel
 ---
 
 # IUIAutomationObjectModelPattern::GetUnderlyingObjectModel
@@ -73,3 +73,4 @@ Client applications can use the object model to directly access the content of t
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationobjectmodelpattern">IUIAutomationObjectModelPattern</a>
+

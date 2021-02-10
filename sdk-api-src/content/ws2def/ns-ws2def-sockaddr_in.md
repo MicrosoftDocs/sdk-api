@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ws2def.h
 api_name:
+ - sockaddr_in
+ - PSOCKADDR_IN
  - SOCKADDR_IN
 ---
 
@@ -97,3 +99,4 @@ All of the data in the SOCKADDR_IN structure, except for the address family, mus
 
 
 [SOCKADDR_STORAGE](./ns-ws2def-sockaddr_storage_lh.md)
+

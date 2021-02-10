@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPDVD.get_isAvailable
+ - IWMPDVD::get_isAvailable
 ---
 
 # IWMPDVD::get_isAvailable
@@ -144,3 +144,4 @@ Every DVD is authored differently. The methods available during DVD playback and
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu">IWMPDVD::topMenu</a>
+

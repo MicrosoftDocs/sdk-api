@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTransform.GetOutputCurrentType
+ - IMFTransform::GetOutputCurrentType
 ---
 
 # IMFTransform::GetOutputCurrentType
@@ -128,3 +128,4 @@ The MFT should return a clone of the media  type, not a pointer to the original 
 
 
 <a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+

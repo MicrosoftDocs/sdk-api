@@ -46,6 +46,8 @@ api_type:
 api_location:
  - TxfW32.h
 api_name:
+ - _TXF_LOG_RECORD_WRITE
+ - PTXF_LOG_RECORD_WRITE
  - TXF_LOG_RECORD_WRITE
 ---
 
@@ -119,3 +121,4 @@ If the write operation goes beyond the end of the file, the file is being extend
 
 
 <a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
+

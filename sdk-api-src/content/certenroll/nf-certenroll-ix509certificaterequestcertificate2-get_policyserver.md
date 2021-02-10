@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateRequestCertificate2.PolicyServer
- - IX509CertificateRequestCertificate2.get_PolicyServer
+ - IX509CertificateRequestCertificate2::get_PolicyServer
 ---
 
 # IX509CertificateRequestCertificate2::get_PolicyServer
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate2">IX509CertificateRequestCertificate2</a>
+

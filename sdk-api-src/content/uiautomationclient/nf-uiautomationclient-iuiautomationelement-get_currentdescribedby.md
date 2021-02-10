@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentDescribedBy
- - IUIAutomationElement.get_CurrentDescribedBy
+ - IUIAutomationElement::get_CurrentDescribedBy
 ---
 
 # IUIAutomationElement::get_CurrentDescribedBy
@@ -76,3 +75,4 @@ This property maps to the Accessible Rich Internet Applications (ARIA) <b>descri
 
 
 <b>Reference</b>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderTypeNegotiation.TryOutputProps
+ - IWMReaderTypeNegotiation::TryOutputProps
 ---
 
 # IWMReaderTypeNegotiation::TryOutputProps
@@ -146,3 +146,4 @@ This method is usually used to test different output properties to find out if t
 
 
 <a href="/windows/desktop/wmformat/inputs-streams-and-outputs">Inputs, Streams and Outputs</a>
+

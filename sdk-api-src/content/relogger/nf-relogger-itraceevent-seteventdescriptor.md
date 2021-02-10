@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceEvent.SetEventDescriptor
+ - ITraceEvent::SetEventDescriptor
 ---
 
 # ITraceEvent::SetEventDescriptor
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
+

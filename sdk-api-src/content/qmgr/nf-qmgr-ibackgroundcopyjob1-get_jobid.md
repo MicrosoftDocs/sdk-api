@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1.get_JobID
+ - IBackgroundCopyJob1::get_JobID
 ---
 
 # IBackgroundCopyJob1::get_JobID
@@ -85,3 +85,4 @@ Successfully retrieved the GUID that identifies the job.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
+

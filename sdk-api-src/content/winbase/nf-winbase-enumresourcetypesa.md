@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumResourceTypesA
  - winbase/EnumResourceTypesA
+ - EnumResourceTypes
+ - winbase/EnumResourceTypes
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - EnumResourceTypes
  - EnumResourceTypesA
- - EnumResourceTypesW
+ - EnumResourceTypes
 ---
 
 # EnumResourceTypesA function
@@ -136,3 +137,4 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 <a href="/windows/desktop/menurc/resources">Resources</a>
+

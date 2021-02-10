@@ -43,7 +43,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsPropertyValue
- - PropertyValue
 ---
 
 # IADsPropertyValue interface
@@ -94,3 +93,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyValue</b> interfa
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

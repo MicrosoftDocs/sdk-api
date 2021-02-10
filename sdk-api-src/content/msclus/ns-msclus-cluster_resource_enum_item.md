@@ -47,6 +47,8 @@ api_location:
  - ClusApi.h
  - MsClus.h
 api_name:
+ - _CLUSTER_RESOURCE_ENUM_ITEM
+ - PCLUSTER_RESOURCE_ENUM_ITEM
  - CLUSTER_RESOURCE_ENUM_ITEM
 ---
 
@@ -111,8 +113,6 @@ The size, in bytes, of the <b>pRoProperties</b> field.
 
 A pointer to a list of names of read-only common properties.
 
-
-
 ## -see-also
 
 <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a>
@@ -120,3 +120,4 @@ A pointer to a list of names of read-only common properties.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
+

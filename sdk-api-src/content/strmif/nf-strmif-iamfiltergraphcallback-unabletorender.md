@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMFilterGraphCallback.UnableToRender
+ - IAMFilterGraphCallback::UnableToRender
 ---
 
 # IAMFilterGraphCallback::UnableToRender
@@ -76,3 +76,4 @@ This method uses the thiscall calling convention, rather than __stdcall.
 
 
 <a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
+

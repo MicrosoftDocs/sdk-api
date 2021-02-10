@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - __MIDL___MIDL_itf_vmr9_0000_0013_0001
  - VMR9DeinterlacePrefs
 ---
 
@@ -79,3 +80,4 @@ Bitwise OR of the previous flags. This value is used internally by the VMR, and 
 
 
 <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrdeinterlacecontrol9">IVMRDeinterlaceControl9 Interface</a>
+

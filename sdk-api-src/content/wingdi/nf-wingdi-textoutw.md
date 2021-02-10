@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - TextOutW
  - wingdi/TextOutW
+ - TextOut
+ - wingdi/TextOut
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - TextOut
- - TextOutA
  - TextOutW
+ - TextOut
 ---
 
 # TextOutW function
@@ -271,3 +272,4 @@ For an example, see <a href="/windows/desktop/gdi/enumerating-the-installed-font
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut</a>
+

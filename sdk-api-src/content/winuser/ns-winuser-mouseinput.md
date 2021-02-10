@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagMOUSEINPUT
+ - PMOUSEINPUT
  - MOUSEINPUT
 ---
 
@@ -339,3 +341,4 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
+

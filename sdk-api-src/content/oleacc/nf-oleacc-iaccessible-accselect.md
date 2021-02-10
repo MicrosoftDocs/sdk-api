@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.accSelect
+ - IAccessible::accSelect
 ---
 
 # IAccessible::accSelect
@@ -166,3 +166,4 @@ HRESULT SelectItemAtPoint(POINT point)
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
+

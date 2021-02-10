@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagQualityMessageType
  - QualityMessageType
 ---
 
@@ -67,3 +68,4 @@ Downstream filter needs less data.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

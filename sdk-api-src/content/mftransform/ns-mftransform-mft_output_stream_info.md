@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
+ - _MFT_OUTPUT_STREAM_INFO
  - MFT_OUTPUT_STREAM_INFO
 ---
 
@@ -83,3 +84,4 @@ After you set a media type on all of the input and output streams (not including
 
 
 <a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+

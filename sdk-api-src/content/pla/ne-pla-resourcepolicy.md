@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Pla.h
 api_name:
+ - __MIDL___MIDL_itf_pla_0001_0043_0010
  - ResourcePolicy
 ---
 
@@ -67,3 +68,4 @@ Delete folders from oldest to newest.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_resourcepolicy">IDataManager::ResourcePolicy</a>
+

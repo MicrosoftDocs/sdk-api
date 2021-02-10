@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _MSV1_0_LM20_LOGON
+ - PMSV1_0_LM20_LOGON
  - MSV1_0_LM20_LOGON
 ---
 
@@ -346,3 +348,4 @@ If the <b>UserName</b>, <b>CaseSensitiveChallengeResponse</b>, and <b>CaseInsens
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>
+

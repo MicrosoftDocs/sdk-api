@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Traffic.h
 api_name:
+ - _TC_IFC_DESCRIPTOR
+ - PTC_IFC_DESCRIPTOR
  - TC_IFC_DESCRIPTOR
 ---
 
@@ -80,3 +82,4 @@ Network address list descriptor.
 ## -see-also
 
 <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+

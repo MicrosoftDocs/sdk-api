@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputSetting
+ - IWMSyncReader::GetOutputSetting
 ---
 
 # IWMSyncReader::GetOutputSetting
@@ -164,3 +164,4 @@ If you pass a buffer as <i>pValue</i> that is not large enough to contain the da
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">IWMSyncReader::SetOutputSetting</a>
+

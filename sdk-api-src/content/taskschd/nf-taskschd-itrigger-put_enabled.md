@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITrigger.Enabled
- - ITrigger.get_Enabled
- - ITrigger.put_Enabled
+ - ITrigger::put_Enabled
 ---
 
 # ITrigger::put_Enabled
@@ -69,3 +67,4 @@ When reading or writing XML for a task, the enabled property is specified using 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RemoveFontResourceA
  - wingdi/RemoveFontResourceA
+ - RemoveFontResource
+ - wingdi/RemoveFontResource
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - RemoveFontResource
  - RemoveFontResourceA
- - RemoveFontResourceW
+ - RemoveFontResource
 ---
 
 # RemoveFontResourceA function
@@ -120,3 +121,4 @@ while( i-- )
 
 
 <a href="/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
+

@@ -43,8 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplications.Count
- - INetFwAuthorizedApplications.get_Count
+ - INetFwAuthorizedApplications::get_Count
 ---
 
 # INetFwAuthorizedApplications::get_Count
@@ -63,3 +62,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications">INetFwAuthorizedApplications</a>
+

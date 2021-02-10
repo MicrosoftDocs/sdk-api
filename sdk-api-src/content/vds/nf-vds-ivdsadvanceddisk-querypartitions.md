@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk.QueryPartitions
+ - IVdsAdvancedDisk::QueryPartitions
 ---
 
 # IVdsAdvancedDisk::QueryPartitions
@@ -116,3 +116,4 @@ If the disk contains extended partitions, this method returns only the first ext
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a>
+

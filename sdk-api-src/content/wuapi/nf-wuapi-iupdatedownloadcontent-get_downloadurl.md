@@ -43,8 +43,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateDownloadContent.DownloadUrl
- - IUpdateDownloadContent.get_DownloadUrl
+ - IUpdateDownloadContent::get_DownloadUrl
 ---
 
 # IUpdateDownloadContent::get_DownloadUrl
@@ -61,3 +60,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent">IUpdateDownloadContent</a>
+

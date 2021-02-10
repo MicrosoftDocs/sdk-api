@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - _VMR9VideoStreamInfo
  - VMR9VideoStreamInfo
 ---
 
@@ -95,3 +96,4 @@ The video interlacing format, specified as a member of the <a href="/previous-ve
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

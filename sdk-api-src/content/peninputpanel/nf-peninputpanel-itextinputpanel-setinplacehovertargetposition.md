@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.SetInPlaceHoverTargetPosition
+ - ITextInputPanel::SetInPlaceHoverTargetPosition
 ---
 
 # ITextInputPanel::SetInPlaceHoverTargetPosition
@@ -145,3 +145,4 @@ void CCOMTIPDlg::OnEnSetfocusEdit2()
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility">ITextInputPanel::SetInPlaceVisibility Method</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - IPrintDialogCallback.HandleMessage
+ - IPrintDialogCallback::HandleMessage
 ---
 
 # IPrintDialogCallback::HandleMessage
@@ -163,3 +163,4 @@ You can subclass the standard controls of the child dialog box in the lower port
 
 
 <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
+

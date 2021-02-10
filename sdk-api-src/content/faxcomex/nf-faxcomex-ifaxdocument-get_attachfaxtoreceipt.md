@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument.AttachFaxToReceipt
- - IFaxDocument.get_AttachFaxToReceipt
- - IFaxDocument.put_AttachFaxToReceipt
+ - IFaxDocument::get_AttachFaxToReceipt
 ---
 
 # IFaxDocument::get_AttachFaxToReceipt
@@ -75,3 +73,4 @@ When a fax consisting only of a cover page is sent to multiple recipients, you c
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecPrivateData.GetPrivateData
+ - IWMCodecPrivateData::GetPrivateData
 ---
 
 # IWMCodecPrivateData::GetPrivateData
@@ -95,3 +95,4 @@ After retrieving the private data, allocate a buffer the size of VIDEOINFOHEADER
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata">IWMCodecPrivateData Interface</a>
+

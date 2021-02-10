@@ -42,7 +42,6 @@ api_type:
 api_location:
  - MsClus.dll
 api_name:
- - ClusPartitionEx
  - ISClusPartitionEx
 ---
 
@@ -150,3 +149,4 @@ Gets the volume <b>GUID</b> of the partition.
 
 
 <a href="/previous-versions/windows/desktop/mscs/disk-management-objects">Disk Management Objects</a>
+

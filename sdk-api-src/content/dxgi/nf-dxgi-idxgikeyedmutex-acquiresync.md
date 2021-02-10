@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIKeyedMutex.AcquireSync
+ - IDXGIKeyedMutex::AcquireSync
 ---
 
 # IDXGIKeyedMutex::AcquireSync
@@ -157,3 +157,4 @@ pDXGIKeyedMutex->ReleaseSync(1);
 
 
 <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a>
+

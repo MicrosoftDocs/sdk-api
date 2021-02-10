@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10_1Shader.h
 api_name:
- - ID3D10ShaderReflection1.GetBitwiseInstructionCount
+ - ID3D10ShaderReflection1::GetBitwiseInstructionCount
 ---
 
 # ID3D10ShaderReflection1::GetBitwiseInstructionCount
@@ -73,3 +73,4 @@ This method requires Windows Vista Service Pack 1.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10_1shader/nn-d3d10_1shader-id3d10shaderreflection1">ID3D10ShaderReflection1 Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IIPDVDec.put_IPDisplay
+ - IIPDVDec::put_IPDisplay
 ---
 
 # IIPDVDec::put_IPDisplay
@@ -74,3 +74,4 @@ This method will fail if the filter is already streaming media data.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iipdvdec">IIPDVDec Interface</a>
+

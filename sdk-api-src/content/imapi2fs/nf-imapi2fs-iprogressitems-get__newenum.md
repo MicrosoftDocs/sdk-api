@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IProgressItems.get__NewEnum
+ - IProgressItems::get__NewEnum
 ---
 
 # IProgressItems::get__NewEnum
@@ -114,3 +114,4 @@ To retrieve a single item, see the <a href="/windows/desktop/api/imapi2fs/nf-ima
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
+

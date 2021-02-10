@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbProvider.UnRegisterForNotification
+ - ITsSbProvider::UnRegisterForNotification
 ---
 
 # ITsSbProvider::UnRegisterForNotification
@@ -91,3 +91,4 @@ Plug-ins can use the <b>UnRegisterForNotification</b> method to cancel previous 
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>
+

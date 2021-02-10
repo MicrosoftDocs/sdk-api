@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ICreateProcessInputs.AddStartupFlags
+ - ICreateProcessInputs::AddStartupFlags
 ---
 
 # ICreateProcessInputs::AddStartupFlags
@@ -81,3 +81,4 @@ Any creation flags that were previously set will remain set. This method does no
 
 
 <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>
+

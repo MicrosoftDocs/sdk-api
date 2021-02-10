@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.RSGetScissorRects
+ - ID3D11DeviceContext::RSGetScissorRects
 ---
 
 # ID3D11DeviceContext::RSGetScissorRects
@@ -70,3 +70,4 @@ An array of scissor rectangles (see <a href="/windows/desktop/direct3d11/d3d11-r
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

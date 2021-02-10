@@ -45,6 +45,7 @@ api_location:
  - Tcpmib.h
  - Iprtrmib.h
 api_name:
+ - PTCP_CONNECTION_OFFLOAD_STATE
  - TCP_CONNECTION_OFFLOAD_STATE
 ---
 
@@ -106,3 +107,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
+

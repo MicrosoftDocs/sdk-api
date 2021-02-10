@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4.resetExtensions
+ - IEnroll4::resetExtensions
 ---
 
 # IEnroll4::resetExtensions
@@ -59,3 +59,4 @@ The <b>resetExtensions</b> method removes all extensions from the request. This 
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

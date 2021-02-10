@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
+ - tagAddServiceFlag
  - AddServiceFlag
 ---
 
@@ -75,3 +76,4 @@ For info about how  <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicem
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager2-addservice2">IUpdateServiceManager2::AddService2</a>
+

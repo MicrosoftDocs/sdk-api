@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - WTS_SERVER_INFO
- - WTS_SERVER_INFOA
+ - _WTS_SERVER_INFOW
+ - PWTS_SERVER_INFOW
  - WTS_SERVER_INFOW
 ---
 
@@ -72,3 +72,4 @@ Name of the server.
 
 > [!NOTE]
 > The wtsapi32.h header defines WTS_SERVER_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

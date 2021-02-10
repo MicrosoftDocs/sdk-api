@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1518
+ - PSERVER_INFO_1518
  - SERVER_INFO_1518
 ---
 
@@ -78,3 +80,4 @@ Specifies whether the server is visible to LAN Manager 2.<i>x</i> clients.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

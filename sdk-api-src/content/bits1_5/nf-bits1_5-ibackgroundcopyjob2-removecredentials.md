@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.RemoveCredentials
+ - IBackgroundCopyJob2::RemoveCredentials
 ---
 
 # IBackgroundCopyJob2::RemoveCredentials
@@ -108,3 +108,4 @@ No credentials have been set using the given <i>Target</i> and <i>Scheme</i> pai
 
 
 <a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">IBackgroundCopyJob2::SetCredentials</a>
+

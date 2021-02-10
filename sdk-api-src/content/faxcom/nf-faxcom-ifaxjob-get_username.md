@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.UserName
- - IFaxJob.get_UserName
+ - IFaxJob::get_UserName
 ---
 
 # IFaxJob::get_UserName
@@ -83,3 +82,4 @@ You can use the <b>IFaxJob::get_UserName</b> property to retrieve the name of th
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
+

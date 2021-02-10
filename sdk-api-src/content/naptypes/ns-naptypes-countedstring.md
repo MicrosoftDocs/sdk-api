@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
+ - tagCountedString
  - CountedString
 ---
 
@@ -74,3 +75,4 @@ A pointer to a null-terminated wide character string of size <b>length</b> + 1.
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
+

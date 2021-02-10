@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - _adsvalue
+ - PADSVALUE
  - ADSVALUE
 ---
 
@@ -276,3 +278,4 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
+

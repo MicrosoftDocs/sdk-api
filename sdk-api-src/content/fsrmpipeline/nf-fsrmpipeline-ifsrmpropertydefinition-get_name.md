@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition.Name
- - IFsrmPropertyDefinition.get_Name
- - IFsrmPropertyDefinition.put_Name
+ - IFsrmPropertyDefinition::get_Name
 ---
 
 # IFsrmPropertyDefinition::get_Name
@@ -73,3 +71,4 @@ You cannot change the name after you commit the definition.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSystem.Query
+ - IEventSystem::Query
 ---
 
 # IEventSystem::Query
@@ -157,3 +157,4 @@ Following are some examples of valid query criteria:
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
+

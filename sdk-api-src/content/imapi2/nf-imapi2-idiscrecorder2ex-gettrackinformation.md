@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetTrackInformation
+ - IDiscRecorder2Ex::GetTrackInformation
 ---
 
 # IDiscRecorder2Ex::GetTrackInformation
@@ -385,3 +385,4 @@ Value: 0xC0AA0210
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+

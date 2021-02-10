@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_RST.GetRecordOriginalNetworkId
+ - IDVB_RST::GetRecordOriginalNetworkId
 ---
 
 # IDVB_RST::GetRecordOriginalNetworkId
@@ -114,3 +114,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_rst">IDVB_RST Interface</a>
+

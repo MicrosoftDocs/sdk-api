@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferAdviseSink.ConfirmOverwrite
+ - ITransferAdviseSink::ConfirmOverwrite
 ---
 
 # ITransferAdviseSink::ConfirmOverwrite
@@ -106,3 +106,4 @@ The user clicked <b>Cancel</b>. Stops processing of the current document and end
 </td>
 </tr>
 </table>
+

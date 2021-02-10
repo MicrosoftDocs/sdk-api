@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGPEInformation.GetName
+ - IGPEInformation::GetName
 ---
 
 # IGPEInformation::GetName
@@ -89,3 +89,4 @@ To retrieve the GPO's friendly name, which is suitable for display, you can call
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmConfigurableItem.get_DisplayName
+ - IMsmConfigurableItem::get_DisplayName
 ---
 
 # IMsmConfigurableItem::get_DisplayName
@@ -146,3 +146,4 @@ The function failed.
 
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

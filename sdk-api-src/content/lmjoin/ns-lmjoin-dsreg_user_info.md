@@ -46,6 +46,8 @@ api_type:
 api_location:
  - lmjoin.h
 api_name:
+ - _DSREG_USER_INFO
+ - PDSREG_USER_INFO
  - DSREG_USER_INFO
 ---
 

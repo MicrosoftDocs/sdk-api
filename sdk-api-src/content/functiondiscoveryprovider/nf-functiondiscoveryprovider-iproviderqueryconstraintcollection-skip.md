@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderQueryConstraintCollection.Skip
+ - IProviderQueryConstraintCollection::Skip
 ---
 
 # IProviderQueryConstraintCollection::Skip
@@ -85,3 +85,4 @@ This method works from the beginning of the collection regardless of any get ite
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>
+

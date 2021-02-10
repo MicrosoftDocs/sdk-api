@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.SetFlags
+ - IVdsService::SetFlags
 ---
 
 # IVdsService::SetFlags
@@ -106,3 +106,4 @@ Beginning with Windows 8 and Windows Server 2012, the <b>VDS_SVF_AUTO_MOUNT_OF
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_service_flag">VDS_SERVICE_FLAG</a>
+

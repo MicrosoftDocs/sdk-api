@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mswsock.h
 api_name:
+ - _RIO_NOTIFICATION_COMPLETION_TYPE
+ - PRIO_NOTIFICATION_COMPLETION_TYPE
  - RIO_NOTIFICATION_COMPLETION_TYPE
 ---
 
@@ -101,3 +103,4 @@ If the <b>Type</b> member of the <a href="/windows/desktop/api/mswsock/ns-mswsoc
 
 
 <a href="/windows/desktop/api/mswsock/ns-mswsock-rio_notification_completion">RIO_NOTIFICATION_COMPLETION</a>
+

@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - identitystore
  - identitystore/identitystore
+api_name:
+ - identitystore
 ---
 
 # Identitystore.h header

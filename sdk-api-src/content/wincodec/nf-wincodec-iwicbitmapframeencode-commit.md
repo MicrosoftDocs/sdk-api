@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.Commit
+ - IWICBitmapFrameEncode::Commit
 ---
 
 # IWICBitmapFrameEncode::Commit
@@ -74,3 +74,4 @@ To finalize the image, both the frame <b>Commit</b> and the encoder <a href="/wi
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a>
+

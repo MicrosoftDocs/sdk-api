@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ocidl.h
 api_name:
+ - tagCONNECTDATA
+ - PCONNECTDATA
  - CONNECTDATA
 ---
 
@@ -73,3 +75,4 @@ Connection where this value is the same token that is returned originally from c
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
+

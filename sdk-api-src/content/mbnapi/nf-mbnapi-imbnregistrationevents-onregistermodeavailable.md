@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRegistrationEvents.OnRegisterModeAvailable
+ - IMbnRegistrationEvents::OnRegisterModeAvailable
 ---
 
 # IMbnRegistrationEvents::OnRegisterModeAvailable
@@ -72,3 +72,4 @@ The <b>OnRegisterModeAvailable</b> method is called by the Mobile Broadband serv
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>
+

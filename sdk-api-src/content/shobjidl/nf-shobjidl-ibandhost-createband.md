@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IBandHost.CreateBand
+ - IBandHost::CreateBand
 ---
 
 # IBandHost::CreateBand

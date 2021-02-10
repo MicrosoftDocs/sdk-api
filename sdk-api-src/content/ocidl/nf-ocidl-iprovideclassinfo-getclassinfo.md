@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IProvideClassInfo.GetClassInfo
+ - IProvideClassInfo::GetClassInfo
 ---
 
 # IProvideClassInfo::GetClassInfo
@@ -103,3 +103,4 @@ This method must be implemented; E_NOTIMPL is not an acceptable return value.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo">IProvideClassInfo</a>
+

@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 2c33c46b-6cd7-4ee7-976c-a81f9d92b379
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [DirectDraw], GetPixelFormat method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPixelFormat method, IDirectDrawSurface7.GetPixelFormat, IDirectDrawSurface7::GetPixelFormat, ddraw/IDirectDrawSurface7::GetPixelFormat, directdraw.idirectdrawsurface7_getpixelformat
-f1_keywords:
-- ddraw/IDirectDrawSurface7.GetPixelFormat
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.GetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::GetPixelFormat
+ - ddraw/IDirectDrawSurface7::GetPixelFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7::GetPixelFormat
 ---
 
 ## -description
@@ -73,3 +74,4 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+

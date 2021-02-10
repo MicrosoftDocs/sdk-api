@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDServiceProxy.GetEndpointProxy
+ - IWSDServiceProxy::GetEndpointProxy
 ---
 
 # IWSDServiceProxy::GetEndpointProxy
@@ -98,3 +98,4 @@ The endpoint proxy is provided if a fault was received for a prior request. The 
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
+ - _PERF_COUNTERSET_REG_INFO
+ - PPERF_COUNTERSET_REG_INFO
  - PERF_COUNTERSET_REG_INFO
 ---
 
@@ -187,3 +189,4 @@ Not implemented.
 
 The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to
 <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <b>PERF_COUNTERSET_REG_INFO</b> block.
+

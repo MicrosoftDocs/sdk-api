@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
+ - tagHSZPAIR
+ - PHSZPAIR
  - HSZPAIR
 ---
 
@@ -73,3 +75,4 @@ A handle to the topic name.
 ## -see-also
 
 <a href="/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
+

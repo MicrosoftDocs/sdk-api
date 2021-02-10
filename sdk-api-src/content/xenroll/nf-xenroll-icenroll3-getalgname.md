@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.GetAlgName
- - ICEnroll3.GetAlgName
- - CEnroll.GetAlgName
+ - ICEnroll3::GetAlgName
 ---
 
 # ICEnroll3::GetAlgName
@@ -121,3 +119,4 @@ if ( NULL != bstrAlgName )
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+

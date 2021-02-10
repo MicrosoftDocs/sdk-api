@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.AddMutualExclusion
- - IWMProfile2.AddMutualExclusion
- - IWMProfile3.AddMutualExclusion
+ - IWMProfile::AddMutualExclusion
 ---
 
 # IWMProfile::AddMutualExclusion
@@ -142,3 +140,4 @@ A stream number in the mutual exclusion object being added is not part of the pr
 
 
 <a href="/windows/desktop/wmformat/mutual-exclusion">Mutual Exclusion</a>
+

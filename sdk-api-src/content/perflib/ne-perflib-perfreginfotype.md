@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
+ - _PerfRegInfoType
  - PerfRegInfoType
 ---
 
@@ -123,3 +124,4 @@ Gets the English  names of the performance counters in the counter set as a <a h
 ## -see-also
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - lsalookup.h
 api_name:
+ - _LSA_TRUST_INFORMATION
+ - PLSA_TRUST_INFORMATION
  - LSA_TRUST_INFORMATION
 ---
 
@@ -81,3 +83,4 @@ The <a href="/previous-versions/windows/desktop/legacy/ms722475(v=vs.85)">TRUSTE
 
 
 <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
+

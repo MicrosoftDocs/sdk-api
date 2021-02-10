@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition.get_PrerollTime
+ - IMediaPosition::get_PrerollTime
 ---
 
 # IMediaPosition::get_PrerollTime
@@ -116,3 +116,4 @@ If no filter in the graph implements this method, the Filter Graph Manager sets 
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
+

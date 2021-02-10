@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit.EnumerateAttributesSetup
- - CCertServerExit.EnumerateAttributesSetup
+ - ICertServerExit::EnumerateAttributesSetup
 ---
 
 # ICertServerExit::EnumerateAttributesSetup
@@ -92,3 +91,4 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributes">ICertServerExit::EnumerateAttributes</a>
+

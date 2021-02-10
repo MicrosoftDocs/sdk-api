@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlwapi.h
 api_name:
- - SFBS_FLAGS
+ - tagSFBS_FLAGS
 ---
 
 # tagSFBS_FLAGS enumeration
@@ -61,3 +61,4 @@ Round to the nearest displayed digit.
 ### -field SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS
 
 Discard undisplayed digits.
+

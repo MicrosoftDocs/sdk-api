@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.EnumPeers
+ - IBitsPeerCacheAdministration::EnumPeers
 ---
 
 # IBitsPeerCacheAdministration::EnumPeers
@@ -74,3 +74,4 @@ This method returns S_OK on success or one of the standard COM <b>HRESULT</b> va
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-discoverpeers">IBitsPeerCacheAdministration::DiscoverPeers</a>
+

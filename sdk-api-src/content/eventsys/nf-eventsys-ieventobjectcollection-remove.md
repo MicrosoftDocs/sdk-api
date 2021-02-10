@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEventObjectCollection.Remove
+ - IEventObjectCollection::Remove
 ---
 
 # IEventObjectCollection::Remove
@@ -65,3 +65,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>
+

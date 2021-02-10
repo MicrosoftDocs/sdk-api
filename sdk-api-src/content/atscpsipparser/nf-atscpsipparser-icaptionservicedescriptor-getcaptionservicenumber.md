@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ICaptionServiceDescriptor.GetCaptionServiceNumber
+ - ICaptionServiceDescriptor::GetCaptionServiceNumber
 ---
 
 # ICaptionServiceDescriptor::GetCaptionServiceNumber
@@ -125,3 +125,4 @@ The <i>bIndex</i> parameter is out of range.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-icaptionservicedescriptor">ICaptionServiceDescriptor Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_SMART_CARD_UNLOCK_LOGON
+ - PKERB_SMART_CARD_UNLOCK_LOGON
  - KERB_SMART_CARD_UNLOCK_LOGON
 ---
 
@@ -69,3 +71,4 @@ A <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that con
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_smart_card_logon">KERB_SMART_CARD_LOGON</a>
+

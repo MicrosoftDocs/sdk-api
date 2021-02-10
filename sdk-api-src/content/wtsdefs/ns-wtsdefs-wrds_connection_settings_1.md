@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WRDS_CONNECTION_SETTINGS_1
+ - PWRDS_CONNECTION_SETTINGS_1
  - WRDS_CONNECTION_SETTINGS_1
 ---
 
@@ -399,3 +401,4 @@ The size, in bytes, of the <b>ContextData</b> array.
 ### -field ContextData
 
 An array of bytes that contains contextual data for the connection. The size of this array is specified in the <b>ContextSize</b> member.
+

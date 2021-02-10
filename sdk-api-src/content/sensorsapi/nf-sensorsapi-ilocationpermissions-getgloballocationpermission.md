@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ILocationPermissions.GetGlobalLocationPermission
+ - ILocationPermissions::GetGlobalLocationPermission
 ---
 
 # ILocationPermissions::GetGlobalLocationPermission
@@ -100,3 +100,4 @@ For more information on location settings in Windows 8 see <a href="/previous-v
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions">ILocationPermissions</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wtypesbase.h
 api_name:
+ - tagMSHCTX
  - MSHCTX
 ---
 
@@ -101,3 +102,4 @@ Create a new context in the current apartment.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo">IStdMarshalInfo</a>
+

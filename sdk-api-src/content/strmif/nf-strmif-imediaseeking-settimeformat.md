@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking.SetTimeFormat
+ - IMediaSeeking::SetTimeFormat
 ---
 
 # IMediaSeeking::SetTimeFormat
@@ -146,3 +146,4 @@ The default time format is <a href="/windows/desktop/DirectShow/reference-time">
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-querypreferredformat">IMediaSeeking::QueryPreferredFormat</a>
+

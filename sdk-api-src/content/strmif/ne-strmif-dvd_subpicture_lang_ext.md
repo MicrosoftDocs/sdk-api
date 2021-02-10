@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_SUBPICTURE_LANG_EXT
  - DVD_SUBPICTURE_LANG_EXT
 ---
 
@@ -111,3 +112,4 @@ Indicates that the specified stream contains director's comments for children.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultsubpicturelanguage">IDvdInfo2::GetDefaultSubpictureLanguage</a>
+

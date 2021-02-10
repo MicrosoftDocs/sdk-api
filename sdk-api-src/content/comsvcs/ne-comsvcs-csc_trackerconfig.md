@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - tagCSC_TrackerConfig
  - CSC_TrackerConfig
 ---
 
@@ -85,3 +86,4 @@ The tracker property is a reporting mechanism used by monitoring code to watch w
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetrackerconfig-trackerconfig">IServiceTrackerConfig::TrackerConfig</a>
+

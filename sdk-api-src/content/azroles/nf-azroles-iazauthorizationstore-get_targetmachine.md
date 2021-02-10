@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore.TargetMachine
- - IAzAuthorizationStore.get_TargetMachine
- - AzAuthorizationStore.TargetMachine
+ - IAzAuthorizationStore::get_TargetMachine
 ---
 
 # IAzAuthorizationStore::get_TargetMachine

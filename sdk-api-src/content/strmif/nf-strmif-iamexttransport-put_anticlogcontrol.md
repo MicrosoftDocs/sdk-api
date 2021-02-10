@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.put_AntiClogControl
+ - IAMExtTransport::put_AntiClogControl
 ---
 
 # IAMExtTransport::put_AntiClogControl
@@ -103,3 +103,4 @@ Use this method to unclog video heads on VCRs that have an automatic head-cleani
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_anticlogcontrol">IAMExtTransport::get_AntiClogControl</a>
+

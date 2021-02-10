@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _PROPERTY_FLAGS
  - PROPERTY_FLAGS
 ---
 
@@ -97,3 +98,4 @@ Indicates that the <b>Type</b> is described with a custom schema.
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a>
+

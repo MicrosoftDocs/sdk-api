@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost.TxGetPropertyBits
+ - ITextHost::TxGetPropertyBits
 ---
 
 # ITextHost::TxGetPropertyBits
@@ -85,3 +85,4 @@ This call is valid at any time, for any combination of requested property bits.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
+

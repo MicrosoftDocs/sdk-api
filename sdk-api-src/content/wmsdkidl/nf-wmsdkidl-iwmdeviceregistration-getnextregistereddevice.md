@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDeviceRegistration.GetNextRegisteredDevice
+ - IWMDeviceRegistration::GetNextRegisteredDevice
 ---
 
 # IWMDeviceRegistration::GetNextRegisteredDevice
@@ -114,3 +114,4 @@ To enumerate registered devices of a given type, begin by calling <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>
+

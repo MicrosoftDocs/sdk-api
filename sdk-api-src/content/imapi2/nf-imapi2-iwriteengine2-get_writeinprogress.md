@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2.get_WriteInProgress
+ - IWriteEngine2::get_WriteInProgress
 ---
 
 # IWriteEngine2::get_WriteInProgress
@@ -93,3 +93,4 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection">IWriteEngine2::WriteSection</a>
+

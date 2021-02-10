@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.SetThumbnail
+ - IWICBitmapEncoder::SetThumbnail
 ---
 
 # IWICBitmapEncoder::SetThumbnail
@@ -68,3 +68,4 @@ Returns S_OK if successful, or an error value otherwise.
             
 
 Returns WINCODEC_ERR_UNSUPPORTEDOPERATION if the feature is not supported by the encoder.
+

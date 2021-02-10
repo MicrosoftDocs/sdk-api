@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIStream.FindSample
+ - IAVIStream::FindSample
 ---
 
 # IAVIStream::FindSample
@@ -125,3 +125,4 @@ LONG FindSample(LONG lPos, LONG lFlags)
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+

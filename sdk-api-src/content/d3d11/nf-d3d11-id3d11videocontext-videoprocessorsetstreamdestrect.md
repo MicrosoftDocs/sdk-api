@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamDestRect
+ - ID3D11VideoContext::VideoProcessorSetStreamDestRect
 ---
 
 # ID3D11VideoContext::VideoProcessorSetStreamDestRect
@@ -79,3 +79,4 @@ The default destination rectangle is an empty rectangle (0, 0, 0, 0). If this me
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
+

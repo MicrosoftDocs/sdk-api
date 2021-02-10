@@ -44,8 +44,7 @@ api_type:
 api_location:
  - TlHelp32.h
 api_name:
- - MODULEENTRY32
- - MODULEENTRY32
+ - tagMODULEENTRY32W
  - MODULEENTRY32W
 ---
 
@@ -124,3 +123,4 @@ For an example that uses <b>MODULEENTRY32</b>, see <a href="/windows/desktop/Too
 
 
 <a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-module32next">Module32Next</a>
+

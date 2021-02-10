@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfRanges.Next
+ - IEnumTfRanges::Next
 ---
 
 # IEnumTfRanges::Next
@@ -113,3 +113,4 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfRanges interface](nn-msctf-ienumtfranges.md), [ITfRange interface](nn-msctf-itfrange.md)
+

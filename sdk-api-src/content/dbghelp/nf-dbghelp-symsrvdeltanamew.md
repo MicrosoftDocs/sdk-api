@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymSrvDeltaNameW
  - dbghelp/SymSrvDeltaNameW
+ - SymSrvDeltaName
+ - dbghelp/SymSrvDeltaName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymSrvDeltaName
- - SymSrvDeltaName
  - SymSrvDeltaNameW
+ - SymSrvDeltaName
 ---
 
 # SymSrvDeltaNameW function
@@ -109,3 +110,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 ## -see-also
 
 <a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+

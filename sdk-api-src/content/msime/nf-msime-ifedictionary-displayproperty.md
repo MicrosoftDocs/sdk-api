@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msime.h
 api_name:
- - IFEDictionary.DisplayProperty
+ - IFEDictionary::DisplayProperty
 ---
 
 # IFEDictionary::DisplayProperty
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+

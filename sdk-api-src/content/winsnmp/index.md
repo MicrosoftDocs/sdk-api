@@ -9,6 +9,8 @@ tech.root: snmp
 f1_keywords:
  - winsnmp
  - winsnmp/winsnmp
+api_name:
+ - winsnmp
 ---
 
 # Winsnmp.h header

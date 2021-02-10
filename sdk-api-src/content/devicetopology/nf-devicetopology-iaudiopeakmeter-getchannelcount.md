@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IAudioPeakMeter.GetChannelCount
+ - IAudioPeakMeter::GetChannelCount
 ---
 
 # IAudioPeakMeter::GetChannelCount
@@ -83,3 +83,4 @@ Pointer <i>pcChannels</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter Interface</a>
+

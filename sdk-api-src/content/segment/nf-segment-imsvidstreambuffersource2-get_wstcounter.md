@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSource2.get_WSTCounter
+ - IMSVidStreamBufferSource2::get_WSTCounter
 ---
 
 # IMSVidStreamBufferSource2::get_WSTCounter
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersource2">IMSVidStreamBufferSource2 Interface</a>
+

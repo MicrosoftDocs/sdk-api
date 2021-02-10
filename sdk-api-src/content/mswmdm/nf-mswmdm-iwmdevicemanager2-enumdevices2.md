@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDeviceManager2.EnumDevices2
+ - IWMDeviceManager2::EnumDevices2
 ---
 
 # IWMDeviceManager2::EnumDevices2
@@ -129,3 +129,4 @@ if (hr == S_OK)
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
+

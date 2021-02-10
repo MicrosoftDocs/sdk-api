@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass
+ - IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass
 ---
 
 # IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass
@@ -103,3 +103,4 @@ The <i>pwszClass</i> buffer is too small to receive the class name.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
+

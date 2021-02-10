@@ -9,6 +9,8 @@ tech.root: imapi
 f1_keywords:
  - imapi2fs
  - imapi2fs/imapi2fs
+api_name:
+ - imapi2fs
 ---
 
 # Imapi2Fs.h header

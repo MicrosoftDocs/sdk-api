@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_MANDATORY_LABEL
+ - PTOKEN_MANDATORY_LABEL
  - TOKEN_MANDATORY_LABEL
 ---
 
@@ -65,3 +67,4 @@ A <a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRI
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
+

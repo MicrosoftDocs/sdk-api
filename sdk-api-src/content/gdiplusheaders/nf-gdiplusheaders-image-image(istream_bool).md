@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.Image
+ - Image::Image
 ---
 
 # Image::Image(IN IStream,IN BOOL)
@@ -110,3 +110,4 @@ Specifies that color correction is not enabled
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-bitmaps-use">Loading and Displaying Bitmaps</a>
+

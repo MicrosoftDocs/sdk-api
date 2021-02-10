@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.StopBackgroundRecognition
+ - IInkRecognizerContext::StopBackgroundRecognition
 ---
 
 # IInkRecognizerContext::StopBackgroundRecognition
@@ -116,3 +116,4 @@ Call this method only if you process the ink asynchronously.
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+

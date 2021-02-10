@@ -9,6 +9,8 @@ tech.root: gdi
 f1_keywords:
  - prntvpt
  - prntvpt/prntvpt
+api_name:
+ - prntvpt
 ---
 
 # Prntvpt.h header

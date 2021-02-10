@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_watch_permission_tag
  - PEER_WATCH_PERMISSION
 ---
 
@@ -67,3 +68,4 @@ The peer contact can receive presence updates.
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
+

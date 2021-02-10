@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter.ParseData
+ - IMFASFSplitter::ParseData
 ---
 
 # IMFASFSplitter::ParseData
@@ -143,3 +143,4 @@ The splitter might hold a reference count on the input buffer. Therefore, do not
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
+

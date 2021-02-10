@@ -42,9 +42,7 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
- - IRemoteDesktopClientTouchPointer.EventsEnabled
- - IRemoteDesktopClientTouchPointer.get_EventsEnabled
- - IRemoteDesktopClientTouchPointer.put_EventsEnabled
+ - IRemoteDesktopClientTouchPointer::get_EventsEnabled
 ---
 
 # IRemoteDesktopClientTouchPointer::get_EventsEnabled
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">IRemoteDesktopClientTouchPointer</a>
+

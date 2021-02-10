@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.EnumMethodSemantics
+ - IMetaDataImport::EnumMethodSemantics
 ---
 
 # IMetaDataImport::EnumMethodSemantics
@@ -97,3 +97,4 @@ The number of events or properties returned in <i>rgEventProp</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

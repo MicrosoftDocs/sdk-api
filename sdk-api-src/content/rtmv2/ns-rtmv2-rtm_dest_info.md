@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
+ - _RTM_DEST_INFO
+ - PRTM_DEST_INFO
  - RTM_DEST_INFO
 ---
 
@@ -170,3 +172,4 @@ Handle to the route that is in a hold-down state in each of the supported views.
 
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasedests">RtmReleaseDests</a>
+

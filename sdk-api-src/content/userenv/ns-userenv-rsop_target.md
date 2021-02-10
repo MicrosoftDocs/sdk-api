@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Userenv.h
 api_name:
+ - _RSOP_TARGET
+ - PRSOP_TARGET
  - RSOP_TARGET
 ---
 
@@ -112,3 +114,4 @@ Specifies the WMI services pointer to the namespace to which the planning mode p
 
 
 <a href="/windows/desktop/api/userenv/nf-userenv-rsopfileaccesscheck">RSoPFileAccessCheck</a>
+

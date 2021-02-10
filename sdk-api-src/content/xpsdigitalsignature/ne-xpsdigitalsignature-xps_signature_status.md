@@ -44,6 +44,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
+ - __MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0001
  - XPS_SIGNATURE_STATUS
 ---
 

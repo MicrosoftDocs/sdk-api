@@ -45,6 +45,7 @@ api_location:
  - Ntsecapi.h
 api_name:
  - KERB_CRYPTO_KEY
+ - PKERB_CRYPTO_KEY
 ---
 
 # KERB_CRYPTO_KEY structure
@@ -137,3 +138,4 @@ Specifies the length, in bytes, of the cryptographic <a href="/windows/desktop/S
 ### -field Value
 
 Contains the cryptographic session key.
+

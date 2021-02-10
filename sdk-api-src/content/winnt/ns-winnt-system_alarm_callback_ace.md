@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _SYSTEM_ALARM_CALLBACK_ACE
+ - PSYSTEM_ALARM_CALLBACK_ACE
  - SYSTEM_ALARM_CALLBACK_ACE
 ---
 
@@ -76,3 +78,4 @@ The first <b>DWORD</b> of a trustee's ACE. This ACE can be appended with applica
 ## -remarks
 
 ACE structures must be aligned on <b>DWORD</b> boundaries. All Windows memory-management functions return <b>DWORD</b>-aligned handles to memory.
+

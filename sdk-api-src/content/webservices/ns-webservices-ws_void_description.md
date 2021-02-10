@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_VOID_DESCRIPTION
  - WS_VOID_DESCRIPTION
 ---
 
@@ -67,3 +68,4 @@ This type description is only required when <a href="/windows/win32/api/webservi
 ### -field size
 
 The size of the field.
+

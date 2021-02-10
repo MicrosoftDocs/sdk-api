@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceTopology.GetPartById
+ - IDeviceTopology::GetPartById
 ---
 
 # IDeviceTopology::GetPartById
@@ -126,3 +126,4 @@ A local ID is a number that uniquely identifies a part among all the parts in a 
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getlocalid">IPart::GetLocalId</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagTTPOLYGONHEADER
+ - LPTTPOLYGONHEADER
  - TTPOLYGONHEADER
 ---
 
@@ -89,3 +91,4 @@ Each <b>TTPOLYGONHEADER</b> structure is followed by one or more <a href="/windo
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a>
+

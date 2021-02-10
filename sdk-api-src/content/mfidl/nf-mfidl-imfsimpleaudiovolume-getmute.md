@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSimpleAudioVolume.GetMute
+ - IMFSimpleAudioVolume::GetMute
 ---
 
 # IMFSimpleAudioVolume::GetMute
@@ -114,3 +114,4 @@ Calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmas
 
 
 <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
+

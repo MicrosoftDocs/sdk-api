@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsControllerPort.Reset
+ - IVdsControllerPort::Reset
 ---
 
 # IVdsControllerPort::Reset
@@ -136,3 +136,4 @@ This operation is not supported by this provider.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontrollerport">IVdsControllerPort</a>
+

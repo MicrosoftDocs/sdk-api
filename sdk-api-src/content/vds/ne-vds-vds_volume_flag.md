@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_VOLUME_FLAG
  - VDS_VOLUME_FLAG
 ---
 
@@ -256,3 +257,4 @@ To create a boot volume on a dynamic disk, you must set the <b>VDS_VF_INSTALLABL
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>
+

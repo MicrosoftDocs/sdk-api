@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDescriptionDocument.Abort
+ - IUPnPDescriptionDocument::Abort
 ---
 
 # IUPnPDescriptionDocument::Abort
@@ -67,3 +67,4 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>
+

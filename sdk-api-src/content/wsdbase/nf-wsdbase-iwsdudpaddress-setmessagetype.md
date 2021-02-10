@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpAddress.SetMessageType
+ - IWSDUdpAddress::SetMessageType
 ---
 
 # IWSDUdpAddress::SetMessageType
@@ -88,3 +88,4 @@ Method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
+

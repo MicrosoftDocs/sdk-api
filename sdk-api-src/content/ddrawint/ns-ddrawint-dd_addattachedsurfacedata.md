@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_ADDATTACHEDSURFACEDATA
+ - PDD_ADDATTACHEDSURFACEDATA
  - DD_ADDATTACHEDSURFACEDATA
 ---
 
@@ -81,3 +83,4 @@ Unused on Microsoft Windows 2000 and later.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_addattachedsurface">DdAddAttachedSurface</a>
+

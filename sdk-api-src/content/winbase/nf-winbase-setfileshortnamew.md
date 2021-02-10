@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetFileShortNameW
  - winbase/SetFileShortNameW
+ - SetFileShortName
+ - winbase/SetFileShortName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - SetFileShortName
- - SetFileShortNameA
  - SetFileShortNameW
+ - SetFileShortName
 ---
 
 # SetFileShortNameW function
@@ -192,3 +193,4 @@ SMB 3.0 does not support short names on shares with continuous availability capa
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
+

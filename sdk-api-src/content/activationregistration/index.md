@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - activationregistration
  - activationregistration/activationregistration
+api_name:
+ - activationregistration
 ---
 
 # Activationregistration.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationContent.GetTag
+ - IDirectManipulationContent::GetTag
 ---
 
 # IDirectManipulationContent::GetTag
@@ -98,3 +98,4 @@ HRESULT hr = pContent->GetTag(IID_PPV_ARGS(&pObject), &id);
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
+

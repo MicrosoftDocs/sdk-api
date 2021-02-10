@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - certif
  - certif/certif
+api_name:
+ - certif
 ---
 
 # Certif.h header

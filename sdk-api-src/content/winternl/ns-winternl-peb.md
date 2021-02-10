@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winternl.h
 api_name:
+ - _PEB
+ - PPEB
  - PEB
 ---
 
@@ -153,3 +155,4 @@ The syntax for this structure on 64-bit Windows is as follows:
 
 
 <a href="/windows/desktop/ProcThread/zwqueryinformationprocess">ZwQueryInformationProcess</a>
+

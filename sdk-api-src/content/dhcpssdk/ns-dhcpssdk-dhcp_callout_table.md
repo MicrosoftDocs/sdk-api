@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
+ - _DHCP_CALLOUT_TABLE
+ - LPDHCP_CALLOUT_TABLE
  - DHCP_CALLOUT_TABLE
 ---
 
@@ -150,3 +152,4 @@ It is not necessary to implement all hooks available from Microsoft DHCP Server.
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_entry_point_func">DhcpServerCalloutEntry</a>
+

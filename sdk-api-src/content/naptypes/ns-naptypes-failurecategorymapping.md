@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
+ - tagFailureCategoryMapping
  - FailureCategoryMapping
 ---
 
@@ -86,3 +87,4 @@ By default, all categories map to non-compliant (FALSE).
 ## -see-also
 
 <a href="/windows/desktop/api/naptypes/ne-naptypes-failurecategory">FailureCategory</a>
+

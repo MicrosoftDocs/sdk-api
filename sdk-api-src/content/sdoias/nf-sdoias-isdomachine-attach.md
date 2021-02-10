@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoMachine.Attach
- - SdoMachine.Attach
+ - ISdoMachine::Attach
 ---
 
 # ISdoMachine::Attach
@@ -81,3 +80,4 @@ Use the
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getattachedcomputer">ISdoMachine::GetAttachedComputer</a>
+

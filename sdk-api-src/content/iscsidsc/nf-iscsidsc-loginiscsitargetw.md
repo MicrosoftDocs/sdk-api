@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LoginIScsiTargetW
  - iscsidsc/LoginIScsiTargetW
+ - LoginIScsiTarget
+ - iscsidsc/LoginIScsiTarget
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - LoginIscsiTarget
- - LoginIscsiTargetA
- - LoginIscsiTargetW
+ - LoginIScsiTargetW
+ - LoginIScsiTarget
 ---
 
 # LoginIScsiTargetW function
@@ -235,3 +236,4 @@ The <b>LoginIscsiTarget</b> function either establishes a single login session w
 
 
 <a href="/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentStructureResource.SetContent
+ - IXpsOMDocumentStructureResource::SetContent
 ---
 
 # IXpsOMDocumentStructureResource::SetContent
@@ -93,3 +93,4 @@ Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdoc
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

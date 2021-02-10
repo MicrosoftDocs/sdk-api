@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winscard.h
 api_name:
+ - _SCARD_ATRMASK
+ - PSCARD_ATRMASK
  - SCARD_ATRMASK
 ---
 
@@ -70,3 +72,4 @@ An array of <b>BYTE</b> values for the ATR of the card with extra alignment byte
 ### -field rgbMask
 
 An array of <b>BYTE</b> values for the mask for the ATR with extra alignment bytes.
+

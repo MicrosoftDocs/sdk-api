@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_event_presence_changed_data_tag
+ - PPEER_EVENT_PRESENCE_CHANGED_DATA
  - PEER_EVENT_PRESENCE_CHANGED_DATA
 ---
 
@@ -89,3 +91,4 @@ Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_presence_info">PEER_P
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

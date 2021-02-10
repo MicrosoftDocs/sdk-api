@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstanceCollection.Get
+ - IFunctionInstanceCollection::Get
 ---
 
 # IFunctionInstanceCollection::Get
@@ -126,3 +126,4 @@ The method is unable to allocate the memory required to perform this operation.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
+

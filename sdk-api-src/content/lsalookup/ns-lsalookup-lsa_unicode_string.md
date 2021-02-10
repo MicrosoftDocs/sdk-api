@@ -46,6 +46,8 @@ api_type:
 api_location:
  - lsalookup.h
 api_name:
+ - _LSA_UNICODE_STRING
+ - PLSA_UNICODE_STRING
  - LSA_UNICODE_STRING
 ---
 
@@ -77,3 +79,4 @@ Pointer to a wide character string. Note that the strings returned by the variou
 ### -field Buffer.length_is
 
 ### -field Buffer.length_is.Length/2
+

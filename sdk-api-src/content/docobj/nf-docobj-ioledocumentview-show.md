@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView.Show
+ - IOleDocumentView::Show
 ---
 
 # IOleDocumentView::Show
@@ -144,3 +144,4 @@ All views of a document object must at least support in-place activation; E_NOTI
 
 
 <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a>
+

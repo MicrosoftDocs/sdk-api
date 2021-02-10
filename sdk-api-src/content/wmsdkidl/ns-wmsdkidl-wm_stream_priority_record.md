@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - _WMStreamPrioritizationRecord
  - WM_STREAM_PRIORITY_RECORD
 ---
 
@@ -75,3 +76,4 @@ Flag indicating whether the listed stream is mandatory. Mandatory streams will n
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

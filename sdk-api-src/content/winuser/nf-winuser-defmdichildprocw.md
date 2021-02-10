@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DefMDIChildProcW
  - winuser/DefMDIChildProcW
+ - DefMDIChildProc
+ - winuser/DefMDIChildProc
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DefMDIChildProc
- - DefMDIChildProcA
  - DefMDIChildProcW
+ - DefMDIChildProc
 ---
 
 # DefMDIChildProcW function
@@ -202,3 +203,4 @@ When an application's window procedure does not handle a message, it typically p
 
 
 <a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
+

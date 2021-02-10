@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSimpleAudioVolume.GetMasterVolume
+ - IMFSimpleAudioVolume::GetMasterVolume
 ---
 
 # IMFSimpleAudioVolume::GetMasterVolume
@@ -114,3 +114,4 @@ If an external event changes the master volume, the audio renderer sends an <a h
 
 
 <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DNS_WIRE_RECORD
+ - PDNS_WIRE_RECORD
  - DNS_WIRE_RECORD
 ---
 
@@ -85,3 +87,4 @@ When constructing a DNS message, the <b>DNS_WIRE_RECORD</b> structure is immedia
 
 
 <a href="/windows/desktop/api/windns/ns-windns-dns_wire_question">DNS_WIRE_QUESTION</a>
+

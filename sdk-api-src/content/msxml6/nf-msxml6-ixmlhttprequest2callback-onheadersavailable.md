@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback.OnHeadersAvailable
+ - IXMLHTTPRequest2Callback::OnHeadersAvailable
 ---
 
 # IXMLHTTPRequest2Callback::OnHeadersAvailable
@@ -99,3 +99,4 @@ To view an individual response header, call the <a href="/previous-versions/wind
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
+

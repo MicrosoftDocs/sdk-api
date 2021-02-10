@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Set_Class_PropertyW
  - cfgmgr32/CM_Set_Class_PropertyW
+ - CM_Set_Class_Property
+ - cfgmgr32/CM_Set_Class_Property
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +48,8 @@ api_location:
  - API-Ms-Win-Devices-Config-L1-1-1.dll
  - CfgMgr32.dll
 api_name:
- - CM_Set_Class_Property
  - CM_Set_Class_PropertyW
+ - CM_Set_Class_Property
 ---
 
 # CM_Set_Class_PropertyW function
@@ -108,3 +110,4 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyw">SetupDiSetClassProperty</a>
+

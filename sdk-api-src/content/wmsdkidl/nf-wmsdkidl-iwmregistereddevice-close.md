@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.Close
+ - IWMRegisteredDevice::Close
 ---
 
 # IWMRegisteredDevice::Close
@@ -88,3 +88,4 @@ Although this method returns immediately, it does not release resources associat
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-open">IWMRegisteredDevice::Open</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetCountry
- - lineGetCountryA
- - lineGetCountryW
 ---
 
 # lineGetCountry function
@@ -99,3 +97,4 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _IMAGE_DEBUG_INFORMATION
+ - PIMAGE_DEBUG_INFORMATION
  - IMAGE_DEBUG_INFORMATION
 ---
 
@@ -443,3 +445,4 @@ typedef struct _LIST_ENTRY {
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - VdsLun.h
 api_name:
+ - _VDS_LUN_INFORMATION
  - VDS_LUN_INFORMATION
 ---
 
@@ -175,3 +176,4 @@ To get the LUN object, use the <a href="/windows/desktop/api/vds/nf-vds-ivdsserv
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
+

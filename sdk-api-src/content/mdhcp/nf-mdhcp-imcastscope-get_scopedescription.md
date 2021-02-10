@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastScope.get_ScopeDescription
+ - IMcastScope::get_ScopeDescription
 ---
 
 # IMcastScope::get_ScopeDescription
@@ -114,3 +114,4 @@ The application must use
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
+

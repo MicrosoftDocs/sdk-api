@@ -9,6 +9,8 @@ tech.root: eap
 f1_keywords:
  - raseapif
  - raseapif/raseapif
+api_name:
+ - raseapif
 ---
 
 # Raseapif.h header

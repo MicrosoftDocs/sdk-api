@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityFileIdTable.Lookup
+ - ISimilarityFileIdTable::Lookup
 ---
 
 # ISimilarityFileIdTable::Lookup
@@ -71,3 +71,4 @@ This method can also return the following error code.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
+

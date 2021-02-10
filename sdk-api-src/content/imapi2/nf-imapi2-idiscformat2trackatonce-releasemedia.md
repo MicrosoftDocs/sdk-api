@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.ReleaseMedia
+ - IDiscFormat2TrackAtOnce::ReleaseMedia
 ---
 
 # IDiscFormat2TrackAtOnce::ReleaseMedia
@@ -379,3 +379,4 @@ This method release the lock set when you called the <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">IDiscFormat2TrackAtOnce::CancelAddTrack</a>
+

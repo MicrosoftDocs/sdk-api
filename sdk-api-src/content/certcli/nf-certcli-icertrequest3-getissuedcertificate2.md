@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest3.GetIssuedCertificate2
- - CCertRequest.GetIssuedCertificate2
+ - ICertRequest3::GetIssuedCertificate2
 ---
 
 # ICertRequest3::GetIssuedCertificate2
@@ -168,3 +167,4 @@ The return value is a <b>Long</b> that represents the certificate's disposition.
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
+

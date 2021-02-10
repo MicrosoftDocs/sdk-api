@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.CharacterAutoCompletionMode
- - IInkRecognizerContext.get_CharacterAutoCompletionMode
- - IInkRecognizerContext.put_CharacterAutoCompletionMode
- - InkRecognizerContext.get_CharacterAutoCompletion
- - InkRecognizerContext.put_CharacterAutoCompletion
+ - IInkRecognizerContext::get_CharacterAutoCompletionMode
 ---
 
 # IInkRecognizerContext::get_CharacterAutoCompletionMode
@@ -90,3 +86,4 @@ Some recognizers do not support character Autocomplete. The <a href="/windows/de
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+

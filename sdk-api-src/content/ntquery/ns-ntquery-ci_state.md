@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntquery.h
 api_name:
+ - _CI_STATE
  - CI_STATE
 ---
 
@@ -130,3 +131,4 @@ When using this structure, all members are output values. The <b>cbStruct</b> me
 
 
 <a href="/previous-versions/windows/desktop/indexsrv/ci-state-constants">CI_STATE_* Constants</a>
+

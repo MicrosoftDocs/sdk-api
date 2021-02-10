@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _FILE_ALLOCATED_RANGE_BUFFER
+ - PFILE_ALLOCATED_RANGE_BUFFER
  - FILE_ALLOCATED_RANGE_BUFFER
 ---
 
@@ -74,3 +76,4 @@ The size of the range, in bytes.
 
 
 <a href="/windows/desktop/FileIO/sparse-files">Sparse Files</a>
+

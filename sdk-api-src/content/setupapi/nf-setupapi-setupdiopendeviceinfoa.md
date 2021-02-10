@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiOpenDeviceInfoA
  - setupapi/SetupDiOpenDeviceInfoA
+ - SetupDiOpenDeviceInfo
+ - setupapi/SetupDiOpenDeviceInfo
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiOpenDeviceInfo
  - SetupDiOpenDeviceInfoA
+ - SetupDiOpenDeviceInfo
 ---
 
 # SetupDiOpenDeviceInfoA function
@@ -124,3 +126,4 @@ If the new device information element is successfully opened but the caller-supp
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat.GenericTypographic
+ - StringFormat::GenericTypographic
 ---
 
 # StringFormat::GenericTypographic
@@ -146,3 +146,4 @@ VOID Example_GenericTypographic(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a>
+

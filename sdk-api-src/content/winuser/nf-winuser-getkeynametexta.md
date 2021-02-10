@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetKeyNameTextA
  - winuser/GetKeyNameTextA
+ - GetKeyNameText
+ - winuser/GetKeyNameText
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - GetKeyNameText
  - GetKeyNameTextA
- - GetKeyNameTextW
+ - GetKeyNameText
 ---
 
 # GetKeyNameTextA function
@@ -140,3 +141,4 @@ The format of the key-name string depends on the current keyboard layout. The ke
 ## -see-also
 
 <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+

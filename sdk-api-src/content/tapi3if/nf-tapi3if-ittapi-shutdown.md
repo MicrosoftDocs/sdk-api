@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI.Shutdown
+ - ITTAPI::Shutdown
 ---
 
 # ITTAPI::Shutdown
@@ -112,3 +112,4 @@ One reason why
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
+

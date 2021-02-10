@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursor.Inverted
- - IInkCursor.get_Inverted
- - IInkCursor.get_Inverted
+ - IInkCursor::get_Inverted
 ---
 
 # IInkCursor::get_Inverted
@@ -77,3 +75,4 @@ Whether or not you use the <b>Inverted</b> property is entirely up to the needs 
 
 
 <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
+

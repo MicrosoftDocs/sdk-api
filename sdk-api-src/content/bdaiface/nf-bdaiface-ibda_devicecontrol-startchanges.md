@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_DeviceControl.StartChanges
+ - IBDA_DeviceControl::StartChanges
 ---
 
 # IBDA_DeviceControl::StartChanges
@@ -69,3 +69,4 @@ The device filter validates and accumulates all changes requested after <b>Start
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_devicecontrol">IBDA_DeviceControl Interface</a>
+

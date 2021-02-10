@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.MediaChange
+ - IWMPEvents::MediaChange
 ---
 
 # IWMPEvents::MediaChange
@@ -65,3 +65,4 @@ Pointer to an <b>IDispatch</b> interface that identifies the item that changed.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

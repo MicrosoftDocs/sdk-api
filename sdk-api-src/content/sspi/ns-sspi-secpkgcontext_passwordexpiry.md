@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_PasswordExpiry
+ - PSecPkgContext_PasswordExpiry
  - SecPkgContext_PasswordExpiry
 ---
 
@@ -61,3 +63,4 @@ The <b>SecPkgContext_PasswordExpiry</b> structure contains information about the
 ### -field tsPasswordExpires
 
 A <a href="/windows/desktop/SecAuthN/timestamp">TimeStamp</a> variable that indicates when the credentials for the security context expire. For password-based packages, this variable indicates when the password expires. For <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a>, this variable indicates when the ticket expires.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.SetTag
+ - IUIAnimationStoryboard::SetTag
 ---
 
 # IUIAnimationStoryboard::SetTag
@@ -100,3 +100,4 @@ A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>ob
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-gettag">IUIAnimationStoryboard::GetTag</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.ui.composition.interop.h
 api_name:
- - ICompositorInterop.CreateCompositionSurfaceForHandle
+ - ICompositorInterop::CreateCompositionSurfaceForHandle
 ---
 
 # ICompositorInterop::composition
@@ -75,3 +75,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositorinterop">ICompositorInterop</a>
+

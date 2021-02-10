@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethod.ExtensionImageName
- - IFaxInboundRoutingMethod.get_ExtensionImageName
- - IFaxInboundRoutingMethod.get_ExtensionImageName
+ - IFaxInboundRoutingMethod::get_ExtensionImageName
 ---
 
 # IFaxInboundRoutingMethod::get_ExtensionImageName
@@ -73,3 +71,4 @@ The path can include valid environment variables, for example, <code>%SYSTEMDRIV
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
+

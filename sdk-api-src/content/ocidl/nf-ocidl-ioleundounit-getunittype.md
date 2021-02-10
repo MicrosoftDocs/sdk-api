@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoUnit.GetUnitType
+ - IOleUndoUnit::GetUnitType
 ---
 
 # IOleUndoUnit::GetUnitType
@@ -75,3 +75,4 @@ Note that the undo manager and parent undo units do not have the option of accep
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
+

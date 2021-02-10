@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_PARTITION_INFO
+ - PCLUS_PARTITION_INFO
 ---
 
 # CLUS_PARTITION_INFO structure
@@ -181,3 +182,4 @@ See
 
 
 <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a>
+

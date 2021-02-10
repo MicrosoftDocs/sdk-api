@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumDirTreeW
  - dbghelp/EnumDirTreeW
+ - EnumDirTree
+ - dbghelp/EnumDirTree
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - EnumDirTree
- - EnumDirTree
  - EnumDirTreeW
+ - EnumDirTree
 ---
 
 # EnumDirTreeW function
@@ -116,3 +117,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-penumdirtree_callback">EnumDirTreeProc</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - CLFS_CONTAINER_INFORMATION
+ - _CLS_CONTAINER_INFORMATION
+ - PCLS_CONTAINER_INFORMATION
+ - CLS_CONTAINER_INFORMATION
 ---
 
 # CLS_CONTAINER_INFORMATION structure
@@ -193,3 +195,4 @@ The logical container identifier that  changes every time the container is recyc
 
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a>
+

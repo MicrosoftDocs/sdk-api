@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
+ - _MIB_IF_TABLE2
+ - PMIB_IF_TABLE2
  - MIB_IF_TABLE2
 ---
 
@@ -93,3 +95,4 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a>
+

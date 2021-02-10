@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMREBARCHILDSIZE
+ - LPNMREBARCHILDSIZE
  - NMREBARCHILDSIZE
 ---
 
@@ -90,3 +92,4 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the new size of the band.
+

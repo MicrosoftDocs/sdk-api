@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.RecipientState
- - IFaxDoc.get_RecipientState
- - IFaxDoc.put_RecipientState
+ - IFaxDoc::get_RecipientState
 ---
 
 # IFaxDoc::get_RecipientState
@@ -63,3 +61,4 @@ This property is read/write.
 The fax recipient's state name or state abbreviation can appear on the cover page.
 
 The <b>get_RecipientState</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
+

@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - playtomanagerinterop
  - playtomanagerinterop/playtomanagerinterop
+api_name:
+ - playtomanagerinterop
 ---
 
 # Playtomanagerinterop.h header

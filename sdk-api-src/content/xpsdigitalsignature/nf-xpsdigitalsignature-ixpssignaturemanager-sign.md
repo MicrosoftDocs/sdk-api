@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.Sign
+ - IXpsSignatureManager::Sign
 ---
 
 # IXpsSignatureManager::Sign
@@ -167,3 +167,4 @@ This method will succeed  even if the new signature breaks existing signatures.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

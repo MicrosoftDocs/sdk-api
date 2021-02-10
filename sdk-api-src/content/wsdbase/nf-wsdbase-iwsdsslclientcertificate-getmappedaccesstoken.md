@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDSSLClientCertificate.GetMappedAccessToken
+ - IWSDSSLClientCertificate::GetMappedAccessToken
 ---
 
 # IWSDSSLClientCertificate::GetMappedAccessToken
@@ -98,3 +98,4 @@ If the client certificate was successfully mapped to an operating system user ac
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsslclientcertificate">IWSDSSLClientCertificate</a>
+

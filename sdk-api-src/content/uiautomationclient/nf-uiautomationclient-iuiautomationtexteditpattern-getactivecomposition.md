@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextEditPattern.GetActiveComposition
+ - IUIAutomationTextEditPattern::GetActiveComposition
 ---
 
 # IUIAutomationTextEditPattern::GetActiveComposition
@@ -77,3 +77,4 @@ Active composition is relevant to Input Method Editors (IMEs).
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

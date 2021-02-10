@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.SetChar
+ - ITextRange::SetChar
 ---
 
 # ITextRange::SetChar
@@ -149,3 +149,4 @@ The <i>Char</i> property, which can do most things that a characters collection 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

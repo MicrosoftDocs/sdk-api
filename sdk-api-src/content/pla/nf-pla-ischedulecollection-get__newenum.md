@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IScheduleCollection._NewEnum
- - IScheduleCollection.get__NewEnum
+ - IScheduleCollection::get__NewEnum
 ---
 
 # IScheduleCollection::get__NewEnum
@@ -68,3 +67,4 @@ The items of the enumeration are variants whose type is VT_UNKNOWN. To query for
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
+

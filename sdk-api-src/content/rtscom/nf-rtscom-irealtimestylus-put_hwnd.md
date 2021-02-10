@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.HWND
- - IRealTimeStylus.get_HWND
- - IRealTimeStylus.put_HWND
- - IRealTimeStylus.get_HWND
- - IRealTimeStylus.put_HWND
+ - IRealTimeStylus::put_HWND
 ---
 
 # IRealTimeStylus::put_HWND
@@ -83,3 +79,4 @@ The HRESULT E_INVALIDOPERATION is returned when you attempt set this property on
 
 
 <a href="/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
+

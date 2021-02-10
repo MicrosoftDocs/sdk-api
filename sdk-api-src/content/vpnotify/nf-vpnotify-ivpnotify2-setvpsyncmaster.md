@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVPNotify2.SetVPSyncMaster
+ - IVPNotify2::SetVPSyncMaster
 ---
 
 # IVPNotify2::SetVPSyncMaster
@@ -74,3 +74,4 @@ Include Vptype.h before Vpnotify.h.
 
 
 <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2">IVPNotify2 Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary.LoadLibraryFromItem
+ - IShellLibrary::LoadLibraryFromItem
 ---
 
 # IShellLibrary::LoadLibraryFromItem
@@ -173,3 +173,4 @@ __inline HRESULT SHLoadLibraryFromParsingName(
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJob5.GetProperty
+ - IBackgroundCopyJob5::GetProperty
 ---
 
 # IBackgroundCopyJob5::GetProperty
@@ -92,3 +92,4 @@ Success
 
 
 <a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyjob5-setproperty">IBackgroundCopyJob5::SetProperty</a>
+

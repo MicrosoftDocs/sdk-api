@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.ClearStylusQueues
+ - IRealTimeStylus::ClearStylusQueues
 ---
 
 # IRealTimeStylus::ClearStylusQueues
@@ -97,3 +97,4 @@ void CCOMRTSDlg::OnBnClickedButtonClearTestArea()
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+

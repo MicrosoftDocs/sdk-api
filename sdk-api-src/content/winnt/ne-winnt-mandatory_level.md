@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _MANDATORY_LEVEL
+ - PMANDATORY_LEVEL
  - MANDATORY_LEVEL
 ---
 

@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT4X3.operator =
+ - XMFLOAT4X3::operator=
 ---
 
 ## -description
@@ -68,3 +68,4 @@ The current instance of <code>XMFLOAT4X3</code> whose vector component data has 
 <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
 
 <a href="https://msdn.microsoft.com/bcf2420c-cd66-4a50-9222-d74039867871">XMFLOAT4X3 Operators</a>
+

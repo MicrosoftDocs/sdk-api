@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IAnchor.Compare
+ - IAnchor::Compare
 ---
 
 # IAnchor::Compare
@@ -163,3 +163,4 @@ The value 0 is returned for <i>*plResult</i> only when the two anchors are in a 
 
 
 <a href="/windows/desktop/TSF/ranges">Regions</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _TEMPLATE_FLAGS
  - TEMPLATE_FLAGS
 ---
 
@@ -70,3 +71,4 @@ The layout of the event data is determined by the XML fragment included in the e
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_BYTE_RANGE
+ - PHTTP_BYTE_RANGE
  - HTTP_BYTE_RANGE
 ---
 
@@ -74,3 +76,4 @@ Size, in bytes, of the range. If this member is HTTP_BYTE_RANGE_TO_EOF, the rang
 
 
 <a href="/windows/desktop/api/http/nf-http-httpreadfragmentfromcache">HttpReadFragmentFromCache</a>
+

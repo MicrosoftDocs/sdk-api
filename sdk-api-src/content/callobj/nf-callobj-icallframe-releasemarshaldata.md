@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame.ReleaseMarshalData
+ - ICallFrame::ReleaseMarshalData
 ---
 
 # ICallFrame::ReleaseMarshalData
@@ -116,3 +116,4 @@ This method can function correctly on both marshaled [in] and [out] parameters.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandler.Synchronize
+ - ISyncMgrHandler::Synchronize
 ---
 
 # ISyncMgrHandler::Synchronize
@@ -246,3 +246,4 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
 }
 
 ```
+

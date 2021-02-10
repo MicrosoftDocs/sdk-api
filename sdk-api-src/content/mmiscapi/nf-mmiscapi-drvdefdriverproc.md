@@ -45,7 +45,7 @@ api_location:
  - winmmbase.dll
  - API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - DefDriverProc
+ - DrvDefDriverProc
 ---
 
 # DrvDefDriverProc function
@@ -80,3 +80,4 @@ Driver message value.
 ## -returns
 
 Returns nonzero if successful or zero otherwise.
+

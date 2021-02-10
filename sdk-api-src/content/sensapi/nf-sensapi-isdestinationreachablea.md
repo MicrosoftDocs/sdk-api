@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - IsDestinationReachableA
  - sensapi/IsDestinationReachableA
+ - IsDestinationReachable
+ - sensapi/IsDestinationReachable
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Sensapi.dll
 api_name:
- - IsDestinationReachable
  - IsDestinationReachableA
- - IsDestinationReachableW
+ - IsDestinationReachable
 ---
 
 # IsDestinationReachableA function
@@ -140,3 +141,4 @@ Starting with applications designed for Windows Vista and Windows Server 2008,
 
 
 <a href="/windows/desktop/api/sensapi/ns-sensapi-qocinfo">QOCINFO</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextEditProvider.GetActiveComposition
+ - ITextEditProvider::GetActiveComposition
 ---
 
 # ITextEditProvider::GetActiveComposition
@@ -97,3 +97,4 @@ Follow the guidance given in <a href="/windows/desktop/WinAuto/textedit-control-
 
 
 <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisetextedittextchangedevent">UiaRaiseTextEditTextChangedEvent</a>
+

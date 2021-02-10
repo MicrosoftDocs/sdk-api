@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_start_tls_sA
  - winldap/ldap_start_tls_sA
+ - ldap_start_tls_s
+ - winldap/ldap_start_tls_s
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_start_tls_s
  - ldap_start_tls_sA
- - ldap_start_tls_sW
+ - ldap_start_tls_s
 ---
 
 # ldap_start_tls_sA function
@@ -103,3 +104,4 @@ For more information about start-stop TLS encryption, see <a href="/previous-ver
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_stop_tls_s">ldap_stop_tls_s</a>
+

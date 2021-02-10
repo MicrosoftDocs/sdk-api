@@ -9,6 +9,8 @@ tech.root: search
 f1_keywords:
  - filtereg
  - filtereg/filtereg
+api_name:
+ - filtereg
 ---
 
 # Filtereg.h header

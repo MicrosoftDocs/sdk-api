@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentVideoAttributes
+ - IDvdInfo2::GetCurrentVideoAttributes
 ---
 
 # IDvdInfo2::GetCurrentVideoAttributes

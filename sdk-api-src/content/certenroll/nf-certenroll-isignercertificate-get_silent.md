@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificate.Silent
- - ISignerCertificate.get_Silent
- - ISignerCertificate.put_Silent
+ - ISignerCertificate::get_Silent
 ---
 
 # ISignerCertificate::get_Silent
@@ -83,3 +81,4 @@ Call this property to specify a value before calling the <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
+

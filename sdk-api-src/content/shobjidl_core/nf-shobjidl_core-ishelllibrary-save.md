@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary.Save
+ - IShellLibrary::Save
 ---
 
 # IShellLibrary::Save
@@ -153,3 +153,4 @@ __inline HRESULT SHSaveLibraryInFolderPath(
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
+

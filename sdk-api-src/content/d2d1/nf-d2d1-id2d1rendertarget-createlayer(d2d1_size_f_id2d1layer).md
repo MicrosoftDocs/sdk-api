@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget.CreateLayer
+ - ID2D1RenderTarget::CreateLayer
 ---
 
 ## -description
@@ -82,3 +82,4 @@ For an example on how to use [CreateLayer](./nf-d2d1-id2d1rendertarget-createlay
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 <a href="/windows/win32/Direct2D/direct2d-layers-overview">Layers Overview</a>
+

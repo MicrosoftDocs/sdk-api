@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _CRYPT_PROVIDER_REF
+ - PCRYPT_PROVIDER_REF
  - CRYPT_PROVIDER_REF
 ---
 
@@ -93,3 +95,4 @@ A pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_ref">C
 
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_refs">CRYPT_PROVIDER_REFS</a>
+

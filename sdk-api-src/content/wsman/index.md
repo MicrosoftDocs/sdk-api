@@ -9,6 +9,8 @@ tech.root: winrm
 f1_keywords:
  - wsman
  - wsman/wsman
+api_name:
+ - wsman
 ---
 
 # Wsman.h header

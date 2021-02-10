@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tcpestats.h
 api_name:
+ - PTCP_ESTATS_TYPE
  - TCP_ESTATS_TYPE
 ---
 
@@ -217,3 +218,4 @@ The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestat
 
 
 <a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_syn_opts_ros_v0">TCP_ESTATS_SYN_OPTS_ROS_v0</a>
+

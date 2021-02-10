@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_PARTITION_PROP
  - VDS_PARTITION_PROP
 ---
 
@@ -118,3 +119,4 @@ The <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproper
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
+

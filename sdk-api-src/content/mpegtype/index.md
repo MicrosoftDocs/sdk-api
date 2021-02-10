@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - mpegtype
  - mpegtype/mpegtype
+api_name:
+ - mpegtype
 ---
 
 # Mpegtype.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IPipeByte.Pull
+ - IPipeByte::Pull
 ---
 
 # IPipeByte::Pull
@@ -77,3 +77,4 @@ When the <b>Pull</b> method is called, data is requested from the provider of th
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipipebyte">IPipeByte</a>
+

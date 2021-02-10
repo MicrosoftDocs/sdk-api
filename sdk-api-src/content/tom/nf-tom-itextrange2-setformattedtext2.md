@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.SetFormattedText2
+ - ITextRange2::SetFormattedText2
 ---
 
 # ITextRange2::SetFormattedText2
@@ -113,3 +113,4 @@ Insufficient memory.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getformattedtext2">ITextRange2::GetFormattedText2</a>
+

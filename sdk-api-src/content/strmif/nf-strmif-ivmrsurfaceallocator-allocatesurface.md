@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator.AllocateSurface
+ - IVMRSurfaceAllocator::AllocateSurface
 ---
 
 # IVMRSurfaceAllocator::AllocateSurface
@@ -132,3 +132,4 @@ When implementing this method in a custom allocator-presenter, you must examine 
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

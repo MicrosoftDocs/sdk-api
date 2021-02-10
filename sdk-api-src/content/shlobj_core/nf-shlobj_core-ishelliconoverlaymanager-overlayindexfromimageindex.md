@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlayManager.OverlayIndexFromImageIndex
+ - IShellIconOverlayManager::OverlayIndexFromImageIndex
 ---
 
 # IShellIconOverlayManager::OverlayIndexFromImageIndex
@@ -114,3 +114,4 @@ An error occurred or the image was not found.
 
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager">IShellIconOverlayManager</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSynchronizedInputPattern.StartListening
+ - IUIAutomationSynchronizedInputPattern::StartListening
 ---
 
 # IUIAutomationSynchronizedInputPattern::StartListening
@@ -77,3 +77,4 @@ If the provider is already listening for input, this method returns <b>E_INVALID
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationsynchronizedinputpattern">IUIAutomationSynchronizedInputPattern</a>
+

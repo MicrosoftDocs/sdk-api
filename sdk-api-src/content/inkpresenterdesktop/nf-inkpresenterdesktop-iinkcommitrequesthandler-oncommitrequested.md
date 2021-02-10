@@ -42,7 +42,7 @@ api_type:
 api_location:
  - InkPresenterDesktop.h
 api_name:
- - IInkCommitRequestHandler.OnCommitRequested
+ - IInkCommitRequestHandler::OnCommitRequested
 ---
 
 # IInkCommitRequestHandler::OnCommitRequested
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 <a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
+

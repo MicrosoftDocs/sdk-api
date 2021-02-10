@@ -9,6 +9,8 @@ tech.root: wmdm
 f1_keywords:
  - scclient
  - scclient/scclient
+api_name:
+ - scclient
 ---
 
 # Scclient.h header

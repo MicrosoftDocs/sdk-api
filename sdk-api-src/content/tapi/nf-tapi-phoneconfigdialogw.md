@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - phoneConfigDialogW
  - tapi/phoneConfigDialogW
+ - phoneConfigDialog
+ - tapi/phoneConfigDialog
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - phoneConfigDialog
- - phoneConfigDialogA
  - phoneConfigDialogW
+ - phoneConfigDialog
 ---
 
 # phoneConfigDialogW function
@@ -100,3 +101,4 @@ The <i>lpszDeviceClass</i> parameter should be "tapi/phone", "", or <b>NULL</b> 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>
+

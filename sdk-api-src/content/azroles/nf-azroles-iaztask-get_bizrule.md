@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask.BizRule
- - IAzTask.get_BizRule
- - IAzTask.put_BizRule
- - AzTask.BizRule
+ - IAzTask::get_BizRule
 ---
 
 # IAzTask::get_BizRule
@@ -78,3 +75,4 @@ An <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object 
 
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>
+

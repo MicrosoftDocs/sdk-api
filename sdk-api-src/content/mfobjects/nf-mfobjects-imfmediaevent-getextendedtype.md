@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaEvent.GetExtendedType
+ - IMFMediaEvent::GetExtendedType
 ---
 
 # IMFMediaEvent::GetExtendedType
@@ -101,3 +101,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
+

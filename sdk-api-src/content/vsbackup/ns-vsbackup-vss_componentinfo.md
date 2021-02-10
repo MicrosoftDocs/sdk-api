@@ -44,6 +44,7 @@ api_type:
 api_location:
  - VsBackup.h
 api_name:
+ - _VSS_COMPONENTINFO
  - VSS_COMPONENTINFO
 ---
 
@@ -282,3 +283,4 @@ Because <b>VSS_COMPONENTINFO</b> is allocated and
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
+

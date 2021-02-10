@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSample.GetSampleFlags
+ - IMFSample::GetSampleFlags
 ---
 
 # IMFSample::GetSampleFlags
@@ -99,3 +99,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/medfound/media-samples">Media Samples</a>
+

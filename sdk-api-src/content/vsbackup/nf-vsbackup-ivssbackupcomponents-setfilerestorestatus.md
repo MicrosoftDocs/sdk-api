@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.SetFileRestoreStatus
+ - IVssBackupComponents::SetFileRestoreStatus
 ---
 
 # IVssBackupComponents::SetFileRestoreStatus
@@ -202,3 +202,4 @@ This method should be called between calls to
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
+

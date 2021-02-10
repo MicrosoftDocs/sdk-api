@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - msxml
  - msxml/msxml
+api_name:
+ - msxml
 ---
 
 # Msxml.h header

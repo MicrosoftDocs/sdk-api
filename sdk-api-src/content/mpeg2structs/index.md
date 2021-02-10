@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - mpeg2structs
  - mpeg2structs/mpeg2structs
+api_name:
+ - mpeg2structs
 ---
 
 # Mpeg2Structs.h header

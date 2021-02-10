@@ -45,6 +45,7 @@ api_location:
  - windns.h
 api_name:
  - _MDNS_QUERY_REQUEST
+ - PMDNS_QUERY_REQUEST
  - MDNS_QUERY_REQUEST
 ---
 
@@ -97,3 +98,4 @@ Reserved. Do not use.
 ## -remarks
 
 ## -see-also
+

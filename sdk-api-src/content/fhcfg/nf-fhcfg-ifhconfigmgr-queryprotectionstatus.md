@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr.QueryProtectionStatus
- - FhConfigMgr.QueryProtectionStatus
+ - IFhConfigMgr::QueryProtectionStatus
 ---
 
 # IFhConfigMgr::QueryProtectionStatus
@@ -257,3 +256,4 @@ If the target is full or disconnected, the File History feature will provide a d
 
 
 <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
+

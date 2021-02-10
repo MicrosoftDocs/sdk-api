@@ -45,6 +45,7 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _DETACH_VIRTUAL_DISK_FLAG
  - DETACH_VIRTUAL_DISK_FLAG
 ---
 
@@ -68,3 +69,4 @@ No flags. Use system defaults.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

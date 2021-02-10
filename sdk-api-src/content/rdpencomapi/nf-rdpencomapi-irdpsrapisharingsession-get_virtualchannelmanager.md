@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.VirtualChannelManager
- - IRDPSRAPISharingSession2.get_VirtualChannelManager
- - IRDPSRAPISharingSession.VirtualChannelManager
- - IRDPSRAPISharingSession.get_VirtualChannelManager
- - RDPSession.VirtualChannelManager
+ - IRDPSRAPISharingSession::get_VirtualChannelManager
 ---
 
 # IRDPSRAPISharingSession::get_VirtualChannelManager
@@ -67,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
+

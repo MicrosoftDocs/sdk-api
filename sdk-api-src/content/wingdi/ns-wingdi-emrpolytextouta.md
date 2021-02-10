@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRPOLYTEXTOUTA
+ - PEMRPOLYTEXTOUTA
  - EMRPOLYTEXTOUTA
 ---
 
@@ -93,3 +95,4 @@ Number of strings.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+

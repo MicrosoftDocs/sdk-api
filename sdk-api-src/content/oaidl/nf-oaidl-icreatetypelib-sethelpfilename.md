@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib.SetHelpFileName
+ - ICreateTypeLib::SetHelpFileName
 ---
 
 # ICreateTypeLib::SetHelpFileName
@@ -139,3 +139,4 @@ The <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getd
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
+

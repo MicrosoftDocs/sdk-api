@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyManager.CreateJob
+ - IBackgroundCopyManager::CreateJob
 ---
 
 # IBackgroundCopyManager::CreateJob
@@ -159,3 +159,4 @@ For an example that creates a new job, see
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
+

@@ -44,9 +44,8 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - LPSHFOLDERCUSTOMSETTINGS
  - SHFOLDERCUSTOMSETTINGS
- - SHFOLDERCUSTOMSETTINGSA
- - SHFOLDERCUSTOMSETTINGSW
 ---
 
 # SHFOLDERCUSTOMSETTINGS structure
@@ -193,3 +192,4 @@ If the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercu
 ## -remarks
 
 In Windows XP Service Pack 2 (SP2) and earlier versions, this structure supported both ANSI and Unicode strings. In Windows Vista and later versions, only Unicode strings are supported.
+

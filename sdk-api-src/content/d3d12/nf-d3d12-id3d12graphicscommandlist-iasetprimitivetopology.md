@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.IASetPrimitiveTopology
+ - ID3D12GraphicsCommandList::IASetPrimitiveTopology
 ---
 
 # ID3D12GraphicsCommandList::IASetPrimitiveTopology
@@ -67,3 +67,4 @@ The type of primitive and ordering of the primitive data (see <a href="/windows/
 
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandlerInfo.GetType
+ - ISyncMgrHandlerInfo::GetType
 ---
 
 # ISyncMgrHandlerInfo::GetType
@@ -85,3 +85,4 @@ STDMETHODIMP CMyDeviceHandler::GetType(__out SYNCMGR_HANDLER_TYPE *pnType)
     return S_OK;
 
 ```
+

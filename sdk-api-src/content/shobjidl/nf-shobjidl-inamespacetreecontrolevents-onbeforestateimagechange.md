@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnBeforeStateImageChange
+ - INameSpaceTreeControlEvents::OnBeforeStateImageChange
 ---
 
 # INameSpaceTreeControlEvents::OnBeforeStateImageChange
@@ -77,3 +77,4 @@ If this method returns S_OK, the client has processed the event and no further a
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IKnownFolder.GetFolderDefinition
+ - IKnownFolder::GetFolderDefinition
 ---
 
 # IKnownFolder::GetFolderDefinition
@@ -79,3 +79,4 @@ To call this method, the caller must have at least User privileges.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
+

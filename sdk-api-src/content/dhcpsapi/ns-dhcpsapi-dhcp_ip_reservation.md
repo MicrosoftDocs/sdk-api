@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_IP_RESERVATION
+ - LPDHCP_IP_RESERVATION
  - DHCP_IP_RESERVATION
 ---
 
@@ -77,3 +79,4 @@ The <b>DHCP_IP_RESERVATION</b> structure defines a client IP reservation.
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a>
+

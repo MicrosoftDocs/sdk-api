@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3.AddAttribute
+ - IWMHeaderInfo3::AddAttribute
 ---
 
 # IWMHeaderInfo3::AddAttribute
@@ -176,3 +176,4 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
+

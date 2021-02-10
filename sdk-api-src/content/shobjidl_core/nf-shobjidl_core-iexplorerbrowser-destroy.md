@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser.Destroy
+ - IExplorerBrowser::Destroy
 ---
 
 # IExplorerBrowser::Destroy
@@ -63,3 +63,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If method <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-initialize">IExplorerBrowser::Initialize</a> was called., then method <b>IExplorerBrowser::Destroy</b> must be called to free resources. Failure to call <b>IExplorerBrowser::Destroy</b> may cause a memory leak.
+

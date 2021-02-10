@@ -9,6 +9,8 @@ tech.root: direct2d
 f1_keywords:
  - d2d1effectauthor_1
  - d2d1effectauthor_1/d2d1effectauthor_1
+api_name:
+ - d2d1effectauthor_1
 ---
 
 # D2D1Effectauthor_1.h header

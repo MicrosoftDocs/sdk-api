@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationNotificationEventHandler.HandleNotificationEvent
+ - IUIAutomationNotificationEventHandler::HandleNotificationEvent
 ---
 
 # IUIAutomationNotificationEventHandler::HandleNotificationEvent
@@ -85,3 +85,4 @@ This method is implemented by the application to handle events that it has subsc
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationnotificationeventhandler">IUIAutomationNotificationEventHandler</a>
+

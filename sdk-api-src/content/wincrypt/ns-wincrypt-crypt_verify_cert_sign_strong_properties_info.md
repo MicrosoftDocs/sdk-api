@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
+ - PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
  - CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 ---
 
@@ -73,3 +75,4 @@ This structure is returned by the <a href="/windows/desktop/api/wincrypt/nf-winc
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex">CryptVerifyCertificateSignatureEx</a>
+

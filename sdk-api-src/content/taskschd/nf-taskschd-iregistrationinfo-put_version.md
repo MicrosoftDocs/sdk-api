@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegistrationInfo.Version
- - IRegistrationInfo.get_Version
- - IRegistrationInfo.put_Version
+ - IRegistrationInfo::put_Version
 ---
 
 # IRegistrationInfo::put_Version
@@ -69,3 +67,4 @@ When reading or writing XML for a task, the version number of the task is specif
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

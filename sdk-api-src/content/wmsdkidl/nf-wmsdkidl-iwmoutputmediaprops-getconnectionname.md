@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMOutputMediaProps.GetConnectionName
+ - IWMOutputMediaProps::GetConnectionName
 ---
 
 # IWMOutputMediaProps::GetConnectionName
@@ -132,3 +132,4 @@ This connection name is used to match stream numbers to output numbers. All stre
 
 
 <a href="/windows/desktop/wmformat/inputs-streams-and-outputs">Inputs, Streams and Outputs</a>
+

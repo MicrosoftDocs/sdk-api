@@ -9,6 +9,8 @@ tech.root: tapi3
 f1_keywords:
  - mdhcp
  - mdhcp/mdhcp
+api_name:
+ - mdhcp
 ---
 
 # Mdhcp.h header

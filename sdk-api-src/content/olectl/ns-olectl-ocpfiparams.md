@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Olectl.h
 api_name:
+ - tagOCPFIPARAMS
+ - LPOCPFIPARAMS
  - OCPFIPARAMS
 ---
 
@@ -117,3 +119,4 @@ Property that is highlighted when the dialog box is made visible.
 
 
 <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a>
+

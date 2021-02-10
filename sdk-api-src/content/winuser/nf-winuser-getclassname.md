@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - GetClassName
  - winuser/GetClassName
@@ -51,9 +52,6 @@ api_location:
  - ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
  - GetClassName
- - GetClassNameA
- - GetClassNameW
-req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetClassName function
@@ -94,3 +92,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -see-also
 
 [FindWindowA function](nf-winuser-findwindowa.md), [GetClassInfoA function](nf-winuser-getclassinfoa.md), [GetClassLongA function](nf-winuser-getclasslonga.md), [GetClassWord function](nf-winuser-getclassword.md), [Window Classes](/windows/desktop/winmsg/window-classes)
+

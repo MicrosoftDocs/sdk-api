@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
- - capControlCallback
+ - CAPCONTROLCALLBACK
 ---
 
 # CAPCONTROLCALLBACK callback function
@@ -81,3 +81,4 @@ The first message sent to the callback procedure sets the <i>nState</i> paramete
 
 
 <a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
+

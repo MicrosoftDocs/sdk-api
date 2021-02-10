@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Enumerate_EnumeratorsW
  - cfgmgr32/CM_Enumerate_EnumeratorsW
+ - CM_Enumerate_Enumerators
+ - cfgmgr32/CM_Enumerate_Enumerators
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Enumerate_Enumerators
  - CM_Enumerate_EnumeratorsW
+ - CM_Enumerate_Enumerators
 ---
 
 # CM_Enumerate_EnumeratorsW function
@@ -85,3 +87,4 @@ After enumerator names have been obtained, the names can be used as input to <a 
 ## -see-also
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_enumerators_exw">CM_Enumerate_Enumerators_Ex</a>
+

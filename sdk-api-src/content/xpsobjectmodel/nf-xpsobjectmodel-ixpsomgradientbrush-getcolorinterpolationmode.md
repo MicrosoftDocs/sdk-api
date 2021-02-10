@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGradientBrush.GetColorInterpolationMode
+ - IXpsOMGradientBrush::GetColorInterpolationMode
 ---
 
 # IXpsOMGradientBrush::GetColorInterpolationMode
@@ -106,3 +106,4 @@ The method succeeded.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a>
+

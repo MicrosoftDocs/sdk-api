@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateMutexW
  - synchapi/CreateMutexW
+ - CreateMutex
+ - synchapi/CreateMutex
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - CreateMutex
- - CreateMutexA
  - CreateMutexW
+ - CreateMutex
 ---
 
 # CreateMutexW function
@@ -193,3 +194,4 @@ For an example that uses
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PrivateFontCollection.AddMemoryFont
+ - PrivateFontCollection::AddMemoryFont
 ---
 
 # PrivateFontCollection::AddMemoryFont
@@ -97,3 +97,4 @@ The operating system requires elevated privileges to assure that all installed f
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
+

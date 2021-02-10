@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk.DeleteDriveLetter
+ - IVdsAdvancedDisk::DeleteDriveLetter
 ---
 
 # IVdsAdvancedDisk::DeleteDriveLetter
@@ -122,3 +122,4 @@ VDS implements this method.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsadvanceddisk">IVdsAdvancedDisk</a>
+

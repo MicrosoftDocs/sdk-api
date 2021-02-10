@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPClosedCaption.get_SAMILang
+ - IWMPClosedCaption::get_SAMILang
 ---
 
 # IWMPClosedCaption::get_SAMILang
@@ -109,3 +109,4 @@ The value you specify using <b>put_SAMILang</b> must match the <b>Name</b> attri
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samilang">IWMPClosedCaption::put_SAMILang</a>
+

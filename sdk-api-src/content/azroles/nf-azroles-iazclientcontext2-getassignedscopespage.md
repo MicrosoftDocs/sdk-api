@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext2.GetAssignedScopesPage
+ - IAzClientContext2::GetAssignedScopesPage
 ---
 
 # IAzClientContext2::GetAssignedScopesPage
@@ -99,3 +99,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 If multiple threads access the same authorization store, a call to the  <b>GetAssignedScopesPage</b> method on one of the threads might not return accurate results if the other thread modifies the store.
 
 In  JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> values must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
+

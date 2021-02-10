@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.CreateObjectWithPropertiesAndData
+ - IPortableDeviceContent::CreateObjectWithPropertiesAndData
 ---
 
 # IPortableDeviceContent::CreateObjectWithPropertiesAndData
@@ -134,3 +134,4 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/transferring-an-image-or-music-file-to-the-device">Transferring an Image or Music File to the Device</a>
+

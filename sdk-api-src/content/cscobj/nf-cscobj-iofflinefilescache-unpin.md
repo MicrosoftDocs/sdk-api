@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.Unpin
+ - IOfflineFilesCache::Unpin
 ---
 
 # IOfflineFilesCache::Unpin
@@ -219,3 +219,4 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
+

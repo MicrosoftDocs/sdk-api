@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.h
 api_name:
- - ID3D12CommandQueue.ExecuteCommandLists
+ - ID3D12CommandQueue::ExecuteCommandLists
 ---
 
 ## -description
@@ -137,3 +137,4 @@ Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
+

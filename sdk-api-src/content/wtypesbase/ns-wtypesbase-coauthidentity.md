@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wtypesbase.h
 api_name:
+ - _COAUTHIDENTITY
  - COAUTHIDENTITY
 ---
 
@@ -123,3 +124,4 @@ This structure is equivalenet to the <a href="/windows/desktop/api/sspi/ns-sspi-
 ## -see-also
 
 <a href="/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo">COAUTHINFO</a>
+

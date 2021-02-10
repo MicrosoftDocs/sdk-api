@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2.ContainsKnowledgeForChangeUnit
+ - ISyncKnowledge2::ContainsKnowledgeForChangeUnit
 ---
 
 # ISyncKnowledge2::ContainsKnowledgeForChangeUnit
@@ -135,3 +135,4 @@ Another way to obtain the same result is to pass <i>pbItemId</i> and <i>pbChange
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
+

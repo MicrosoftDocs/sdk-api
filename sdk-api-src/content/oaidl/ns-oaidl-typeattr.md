@@ -46,6 +46,8 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
+ - tagTYPEATTR
+ - LPTYPEATTR
  - TYPEATTR
 ---
 
@@ -129,3 +131,4 @@ If <b>typekind</b> is TKIND_ALIAS, specifies the type for which this type is an 
 ### -field idldescType
 
 The IDL attributes of the described type.
+

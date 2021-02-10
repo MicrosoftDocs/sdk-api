@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_group_status_tag
  - PEER_GROUP_STATUS
 ---
 
@@ -71,3 +72,4 @@ The peer group has at least one connection.
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupgetstatus">PeerGroupGetStatus</a>
+

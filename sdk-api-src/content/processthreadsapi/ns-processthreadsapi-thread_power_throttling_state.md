@@ -44,6 +44,7 @@ api_type:
 api_location:
  - processthreadsapi.h
 api_name:
+ - _THREAD_POWER_THROTTLING_STATE
  - THREAD_POWER_THROTTLING_STATE
 ---
 
@@ -79,3 +80,4 @@ Manages the power throttling mechanism on/off state.
 | Value | Meaning |
 | ---   | ---     |
 | THREAD_POWER_THROTTLING_EXECUTION_SPEED | Manages the execution speed of the thread. |
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2PsiParser.h
 api_name:
- - IPMT.GetRecordDescriptorByTag
+ - IPMT::GetRecordDescriptorByTag
 ---
 
 # IPMT::GetRecordDescriptorByTag
@@ -143,3 +143,4 @@ If the value of <i>pdwCookie</i> is not <b>NULL</b>, the method returns either M
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
+

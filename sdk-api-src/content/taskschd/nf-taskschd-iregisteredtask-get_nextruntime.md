@@ -42,8 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask.NextRunTime
- - IRegisteredTask.get_NextRunTime
+ - IRegisteredTask::get_NextRunTime
 ---
 
 # IRegisteredTask::get_NextRunTime
@@ -68,3 +67,4 @@ If the registered task contains triggers that are individually disabled, these t
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

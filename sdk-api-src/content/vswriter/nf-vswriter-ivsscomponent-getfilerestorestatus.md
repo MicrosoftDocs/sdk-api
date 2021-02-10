@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetFileRestoreStatus
+ - IVssComponent::GetFileRestoreStatus
 ---
 
 # IVssComponent::GetFileRestoreStatus
@@ -147,3 +147,4 @@ The status returned is undefined if this method is applied to a component that h
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a>
+

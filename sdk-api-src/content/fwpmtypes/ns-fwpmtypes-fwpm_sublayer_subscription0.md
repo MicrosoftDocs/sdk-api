@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_SUBLAYER_SUBSCRIPTION0_
  - FWPM_SUBLAYER_SUBSCRIPTION0
 ---
 
@@ -113,3 +114,4 @@ If
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

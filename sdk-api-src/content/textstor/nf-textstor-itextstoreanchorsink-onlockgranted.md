@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnLockGranted
+ - ITextStoreAnchorSink::OnLockGranted
 ---
 
 # ITextStoreAnchorSink::OnLockGranted
@@ -159,3 +159,4 @@ If a synchronous lock request is made from within <b>ITextStoreAnchor::RequestLo
 
 <a href="/windows/desktop/TSF/ts-lf--constants">TS_LF_* Constants
       </a>
+

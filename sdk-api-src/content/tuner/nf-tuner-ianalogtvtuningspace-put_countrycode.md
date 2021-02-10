@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IAnalogTVTuningSpace.put_CountryCode
+ - IAnalogTVTuningSpace::put_CountryCode
 ---
 
 # IAnalogTVTuningSpace::put_CountryCode
@@ -69,3 +69,4 @@ The tuner can use the country/region code to locate a likely channel for frequen
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MF_QUALITY_ADVISE_FLAGS
  - MF_QUALITY_ADVISE_FLAGS
 ---
 
@@ -71,3 +72,4 @@ If the decoder sets the <b>MF_QUALITY_CANNOT_KEEP_UP</b> flag, the quality manag
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

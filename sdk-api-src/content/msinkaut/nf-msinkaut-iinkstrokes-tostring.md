@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokes.ToString
+ - IInkStrokes::ToString
 ---
 
 # IInkStrokes::ToString
@@ -170,3 +170,4 @@ No recognizers are installed, the recognizers registry key is corrupted, or your
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

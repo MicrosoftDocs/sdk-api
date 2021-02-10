@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistFile.Load
+ - IPersistFile::Load
 ---
 
 # IPersistFile::Load
@@ -123,3 +123,4 @@ When the object has been loaded, your implementation should register the object 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
+

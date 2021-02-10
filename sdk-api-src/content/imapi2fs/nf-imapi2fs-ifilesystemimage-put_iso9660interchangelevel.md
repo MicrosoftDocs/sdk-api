@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage.put_ISO9660InterchangeLevel
+ - IFileSystemImage::put_ISO9660InterchangeLevel
 ---
 
 # IFileSystemImage::put_ISO9660InterchangeLevel
@@ -99,3 +99,4 @@ This property is meaningful only if you specified FsiFileSystemISO9660 when call
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a>
+

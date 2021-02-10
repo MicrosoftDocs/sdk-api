@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation.ConnectionString
- - IRDPSRAPIInvitation.get_ConnectionString
- - RDPSRAPIInvitation.ConnectionString
+ - IRDPSRAPIInvitation::get_ConnectionString
 ---
 
 # IRDPSRAPIInvitation::get_ConnectionString
@@ -65,3 +63,4 @@ The ticket string is set when calling the <a href="/windows/desktop/api/rdpencom
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
+

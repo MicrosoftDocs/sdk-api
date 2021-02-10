@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_INFO_V5
+ - LPDHCP_CLIENT_INFO_V5
  - DHCP_CLIENT_INFO_V5
 ---
 
@@ -222,3 +224,4 @@ The <b>DHCP_CLIENT_INFO_V5</b> structure is returned by the <a href="/previous-v
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetclientsv5">DhcpEnumSubnetClientsV5</a>
+

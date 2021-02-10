@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _tagCOMPONENT
  - COMPONENT
 ---
 
@@ -175,3 +176,4 @@ A <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPST
 Type: <b><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a></b>
 
 A <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a> structure with the restored state of the component.
+

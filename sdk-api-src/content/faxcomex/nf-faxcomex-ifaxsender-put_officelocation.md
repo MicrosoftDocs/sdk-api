@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSender.OfficeLocation
- - IFaxSender.get_OfficeLocation
- - IFaxSender.put_OfficeLocation
- - IFaxSender.get_OfficeLocation
- - IFaxSender.put_OfficeLocation
+ - IFaxSender::put_OfficeLocation
 ---
 
 # IFaxSender::put_OfficeLocation
@@ -71,3 +67,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

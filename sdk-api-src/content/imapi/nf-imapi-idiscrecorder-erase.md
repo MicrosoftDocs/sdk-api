@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscRecorder.Erase
+ - IDiscRecorder::Erase
 ---
 
 # IDiscRecorder::Erase
@@ -71,3 +71,4 @@ The quick option erases only the PMA, first session TOC, and the pre-gap of the 
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
+

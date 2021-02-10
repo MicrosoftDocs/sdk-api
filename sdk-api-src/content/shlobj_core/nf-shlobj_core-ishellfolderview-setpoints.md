@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlobj_core.h
 api_name:
- - IShellFolderView.SetPoints
+ - IShellFolderView::SetPoints
 ---
 
 # IShellFolderView::SetPoints
@@ -71,3 +71,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This call is not needed if the drag-and-drop operation was originated by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterAcceptSampleData
+ - PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN
 ---
 
 # PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback function
@@ -289,3 +289,4 @@ cleanup:
 
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.get_internetMediaSharingSecurityGroup
+ - IWindowsMediaLibrarySharingServices::get_internetMediaSharingSecurityGroup
 ---
 
 # IWindowsMediaLibrarySharingServices::get_internetMediaSharingSecurityGroup
@@ -83,3 +83,4 @@ The method succeeded.
 ## -remarks
 
 The Internet media sharing security group applies only to Windows Home Server. Applications running on other versions of Windows can call <a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_internetmediasharingsecuritygroup">put_internetMediaSharingSecurityGroup</a> and <b>get_internetMediaSharingSecurityGroup</b>, but the calls will have no effect.
+

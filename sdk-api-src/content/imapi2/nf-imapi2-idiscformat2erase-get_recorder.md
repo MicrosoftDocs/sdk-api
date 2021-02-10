@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Erase.get_Recorder
+ - IDiscFormat2Erase::get_Recorder
 ---
 
 # IDiscFormat2Erase::get_Recorder
@@ -89,3 +89,4 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_recorder">IDiscFormat2Erase::put_Recorder</a>
+

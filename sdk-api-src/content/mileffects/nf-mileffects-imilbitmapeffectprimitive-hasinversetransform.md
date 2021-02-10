@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive.HasInverseTransform
+ - IMILBitmapEffectPrimitive::HasInverseTransform
 ---
 
 # IMILBitmapEffectPrimitive::HasInverseTransform

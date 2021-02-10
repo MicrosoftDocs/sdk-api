@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile.Metafile
+ - Metafile::Metafile
 ---
 
 # Metafile::Metafile(IN HENHMETAFILE,IN BOOL)
@@ -90,3 +90,4 @@ This constructor allows GDI+ to own the windows handle to the metafile, which sh
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>
+

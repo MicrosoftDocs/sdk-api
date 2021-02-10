@@ -44,6 +44,7 @@ api_type:
 api_location:
  - tspubplugincom.h
 api_name:
+ - __MIDL_ItsPubPlugin_0001
  - pluginResource
 ---
 
@@ -119,3 +120,4 @@ This member is reserved. Set it to <b>NULL</b>.
 
 
 <a href="/windows/desktop/TermServ/remoteapp-and-desktop-connection-management-service-structures">RemoteApp and Desktop Connection Management Service Structures</a>
+

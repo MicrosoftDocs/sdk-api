@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_RESPONSE_INFO_TYPE
  - HTTP_RESPONSE_INFO_TYPE
 ---
 
@@ -80,3 +81,4 @@ Pointer to an <a href="/windows/desktop/api/http/ns-http-http_channel_bind_info"
 
 
 <a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a>
+

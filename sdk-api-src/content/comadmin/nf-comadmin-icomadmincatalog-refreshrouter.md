@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.RefreshRouter
+ - ICOMAdminCatalog::RefreshRouter
 ---
 
 # ICOMAdminCatalog::RefreshRouter

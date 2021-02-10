@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList1.SetDebugParameter
+ - ID3D12DebugCommandList1::SetDebugParameter
 ---
 
 # ID3D12DebugCommandList1::SetDebugParameter
@@ -93,3 +93,4 @@ Resetting a command list restores the debug parameters to the default values.  T
 
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist1">ID3D12DebugCommandList1</a>
+

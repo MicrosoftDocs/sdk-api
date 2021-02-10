@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.CreateServiceForApplication
+ - ICOMAdminCatalog2::CreateServiceForApplication
 ---
 
 # ICOMAdminCatalog2::CreateServiceForApplication
@@ -97,3 +97,4 @@ A service created by this method can be removed using the <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
+

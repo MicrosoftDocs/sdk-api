@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzApplicationGroup2.BizRule
- - IAzApplicationGroup2.get_BizRule
- - IAzApplicationGroup2.put_BizRule
+ - IAzApplicationGroup2::get_BizRule
 ---
 
 # IAzApplicationGroup2::get_BizRule

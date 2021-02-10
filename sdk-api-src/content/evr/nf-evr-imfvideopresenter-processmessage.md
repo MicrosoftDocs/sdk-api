@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoPresenter.ProcessMessage
+ - IMFVideoPresenter::ProcessMessage
 ---
 
 # IMFVideoPresenter::ProcessMessage
@@ -103,3 +103,4 @@ The video renderer has been shut down.
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - AzAuthorizationStore.CreateApplicationGroup
- - IAzAuthorizationStore.CreateApplicationGroup
+ - IAzAuthorizationStore::CreateApplicationGroup
 ---
 
 # IAzAuthorizationStore::CreateApplicationGroup
@@ -78,3 +77,4 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">IAzApplicationGroup::Submit</a> method to persist any changes made to the returned object.
 
 The returned <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object is an immediate child object of the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.
+

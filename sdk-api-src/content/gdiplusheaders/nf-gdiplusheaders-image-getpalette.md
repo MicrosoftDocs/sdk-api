@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.GetPalette
+ - Image::GetPalette
 ---
 
 # Image::GetPalette
@@ -109,3 +109,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

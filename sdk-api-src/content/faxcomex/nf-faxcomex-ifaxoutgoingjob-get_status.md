@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.Status
- - IFaxOutgoingJob.get_Status
- - IFaxOutgoingJob.get_Status
+ - IFaxOutgoingJob::get_Status
 ---
 
 # IFaxOutgoingJob::get_Status
@@ -69,3 +67,4 @@ For more information, see <a href="/previous-versions/windows/desktop/api/faxcom
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob">IFaxOutgoingJob</a>
+

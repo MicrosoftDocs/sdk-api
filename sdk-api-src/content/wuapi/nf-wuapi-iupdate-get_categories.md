@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.Categories
- - IUpdate.get_Categories
+ - IUpdate::get_Categories
 ---
 
 # IUpdate::get_Categories
@@ -68,3 +67,4 @@ Because there is a <b>Categories</b> property of <a href="/windows/desktop/api/w
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

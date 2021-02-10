@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlobj_core.h
 api_name:
- - IShellFolderView.GetObjectCount
+ - IShellFolderView::GetObjectCount
 ---
 
 # IShellFolderView::GetObjectCount
@@ -67,3 +67,4 @@ When this method returns, contains a pointer to the number of items displayed in
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

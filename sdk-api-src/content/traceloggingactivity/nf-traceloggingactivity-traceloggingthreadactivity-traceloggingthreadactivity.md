@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingThreadActivity.TraceLoggingThreadActivity
+ - TraceLoggingThreadActivity::TraceLoggingThreadActivity
 ---
 
 # TraceLoggingThreadActivity::TraceLoggingThreadActivity
@@ -86,3 +86,4 @@ Initializes a new instance of the  <a href="/windows/desktop/api/traceloggingact
 
 
 <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity-r1">TraceLoggingThreadActivity</a>
+

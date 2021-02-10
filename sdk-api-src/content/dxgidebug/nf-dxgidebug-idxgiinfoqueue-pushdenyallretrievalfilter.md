@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PushDenyAllRetrievalFilter
+ - IDXGIInfoQueue::PushDenyAllRetrievalFilter
 ---
 
 # IDXGIInfoQueue::PushDenyAllRetrievalFilter
@@ -72,3 +72,4 @@ A deny-all retrieval filter prevents all messages from passing through.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
+

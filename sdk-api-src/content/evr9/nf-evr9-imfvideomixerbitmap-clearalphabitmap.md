@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoMixerBitmap.ClearAlphaBitmap
+ - IMFVideoMixerBitmap::ClearAlphaBitmap
 ---
 
 # IMFVideoMixerBitmap::ClearAlphaBitmap
@@ -95,3 +95,4 @@ No bitmap is currently set.
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>
+

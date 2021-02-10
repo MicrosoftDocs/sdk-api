@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidEncoder.get_VideoEncoderInterface
+ - IMSVidEncoder::get_VideoEncoderInterface
 ---
 
 # IMSVidEncoder::get_VideoEncoderInterface
@@ -69,3 +69,4 @@ If the method succeeds, the caller must release the <b>IUnknown</b> interface.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidencoder">IMSVidEncoder Interface</a>
+

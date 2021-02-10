@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer.get_Enable
+ - IAMAudioInputMixer::get_Enable
 ---
 
 # IAMAudioInputMixer::get_Enable
@@ -135,3 +135,4 @@ This method applies to specific input pins on the <a href="/windows/desktop/Dire
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_enable">IAMAudioInputMixer::put_Enable</a>
+

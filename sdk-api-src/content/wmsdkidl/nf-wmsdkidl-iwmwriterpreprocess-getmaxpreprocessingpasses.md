@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess.GetMaxPreprocessingPasses
+ - IWMWriterPreprocess::GetMaxPreprocessingPasses
 ---
 
 # IWMWriterPreprocess::GetMaxPreprocessingPasses
@@ -131,3 +131,4 @@ If no preprocessing is supported for the specified input, <i>pdwMaxNumPasses</i>
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
+

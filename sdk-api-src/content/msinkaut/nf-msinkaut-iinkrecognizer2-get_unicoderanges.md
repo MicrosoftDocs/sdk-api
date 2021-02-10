@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizer2.get_UnicodeRanges
+ - IInkRecognizer2::get_UnicodeRanges
 ---
 
 # IInkRecognizer2::get_UnicodeRanges
@@ -66,3 +66,4 @@ This method can return one of these values.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer2">IInkRecognizer2 Interface</a>
+

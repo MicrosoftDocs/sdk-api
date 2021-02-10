@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Pla.h
 api_name:
+ - __MIDL___MIDL_itf_pla_0001_0043_0006
  - StreamMode
 ---
 
@@ -75,3 +76,4 @@ For details, see the <a href="/windows/desktop/ETW/logging-mode-constants">EVENT
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_streammode">ITraceDataCollector::StreamMode</a>
+

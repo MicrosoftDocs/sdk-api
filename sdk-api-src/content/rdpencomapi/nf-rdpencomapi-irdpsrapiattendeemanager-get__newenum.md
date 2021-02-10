@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendeeManager._NewEnum
- - IRDPSRAPIAttendeeManager.get__NewEnum
- - RDPSRAPIAttendeeManager._NewEnum
+ - IRDPSRAPIAttendeeManager::get__NewEnum
 ---
 
 # IRDPSRAPIAttendeeManager::get__NewEnum
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.EnumTypeDefs
+ - IMetaDataImport::EnumTypeDefs
 ---
 
 # IMetaDataImport::EnumTypeDefs
@@ -97,3 +97,4 @@ The TypeDef token represents a type such as a class or an interface, as well as 
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

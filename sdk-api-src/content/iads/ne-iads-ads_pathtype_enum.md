@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0088_0001
  - ADS_PATHTYPE_ENUM
 ---
 
@@ -83,3 +84,4 @@ Indicates that the security descriptor will be retrieved or set on a registry ke
 
 
 <a href="/windows/desktop/ADSI/security-descriptors-on-files-and-registry-keys">Security Descriptors on Files and Registry Keys</a>
+

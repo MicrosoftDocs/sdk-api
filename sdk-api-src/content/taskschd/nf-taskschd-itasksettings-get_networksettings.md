@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings.NetworkSettings
- - ITaskSettings.get_NetworkSettings
- - ITaskSettings.put_NetworkSettings
+ - ITaskSettings::get_NetworkSettings
 ---
 
 # ITaskSettings::get_NetworkSettings
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+

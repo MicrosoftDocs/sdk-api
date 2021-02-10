@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetRectangleIntersections
+ - IInkStrokeDisp::GetRectangleIntersections
 ---
 
 # IInkStrokeDisp::GetRectangleIntersections
@@ -148,3 +148,4 @@ If the stroke begins within the test rectangle, the first index is set to -1. If
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+

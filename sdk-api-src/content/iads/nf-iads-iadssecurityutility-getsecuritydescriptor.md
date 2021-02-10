@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsSecurityUtility.GetSecurityDescriptor
+ - IADsSecurityUtility::GetSecurityDescriptor
 ---
 
 # IADsSecurityUtility::GetSecurityDescriptor
@@ -133,3 +133,4 @@ Returns <b>S_OK</b> if successful or a COM or Win32 error code otherwise. Possib
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">SetSecurityDescriptor</a>
+

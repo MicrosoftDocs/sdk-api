@@ -9,6 +9,8 @@ tech.root: htmlhelp
 f1_keywords:
  - infotech
  - infotech/infotech
+api_name:
+ - infotech
 ---
 
 # Infotech.h header

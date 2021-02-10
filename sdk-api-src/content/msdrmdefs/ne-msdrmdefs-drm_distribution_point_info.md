@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
+ - _DRM_DISTRIBUTION_POINT_INFO
  - DRM_DISTRIBUTION_POINT_INFO
 ---
 
@@ -116,3 +117,4 @@ Retrieves information about the nonsilent end-user license acquisition URL in th
 [AD RMS Enumerations](/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations)
 
 [DRMGetIssuanceLicenseInfo](/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetissuancelicenseinfo)
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITrigger.Repetition
- - ITrigger.get_Repetition
- - ITrigger.put_Repetition
+ - ITrigger::put_Repetition
 ---
 
 # ITrigger::put_Repetition
@@ -80,3 +78,4 @@ For more information and example code for this property, see <a href="/windows/d
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

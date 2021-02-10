@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - QUERY_SERVICE_CONFIG
- - QUERY_SERVICE_CONFIGA
+ - _QUERY_SERVICE_CONFIGW
+ - LPQUERY_SERVICE_CONFIGW
  - QUERY_SERVICE_CONFIGW
 ---
 
@@ -363,3 +363,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDServiceProxy.EndGetMetadata
+ - IWSDServiceProxy::EndGetMetadata
 ---
 
 # IWSDServiceProxy::EndGetMetadata
@@ -91,3 +91,4 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
+

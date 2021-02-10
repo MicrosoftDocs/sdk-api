@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.Empty
- - ?Empty@CHString@@QAEXXZ
- - ?Empty@CHString@@QEAAXXZ
+ - CHString::Empty
 ---
 
 # CHString::Empty
@@ -70,3 +68,4 @@ The <b>Empty</b> method makes the <a href="/windows/desktop/WmiSdk/chstring">CHS
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-isempty">CHString::IsEmpty</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.SetRestoreOptions
+ - IVssBackupComponents::SetRestoreOptions
 ---
 
 # IVssBackupComponents::SetRestoreOptions
@@ -208,3 +208,4 @@ The exact syntax and content of the restore options set by the <i>wszRestoreOpti
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
+

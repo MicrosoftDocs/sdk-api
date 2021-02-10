@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateDownloader.Updates
- - IUpdateDownloader.get_Updates
- - IUpdateDownloader.put_Updates
+ - IUpdateDownloader::put_Updates
 ---
 
 # IUpdateDownloader::put_Updates
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _TRUSTED_DOMAIN_FULL_INFORMATION
+ - PTRUSTED_DOMAIN_FULL_INFORMATION
  - TRUSTED_DOMAIN_FULL_INFORMATION
 ---
 
@@ -93,3 +95,4 @@ A
 
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a>
+

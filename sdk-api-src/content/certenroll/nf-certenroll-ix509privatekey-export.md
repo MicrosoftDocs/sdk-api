@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.Export
+ - IX509PrivateKey::Export
 ---
 
 # IX509PrivateKey::Export
@@ -126,3 +126,4 @@ The key was created by a CryptoAPI CSP and you specified a value other than BCRY
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

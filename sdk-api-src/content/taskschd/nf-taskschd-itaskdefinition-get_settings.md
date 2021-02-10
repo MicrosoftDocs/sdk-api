@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskDefinition.Settings
- - ITaskDefinition.get_Settings
- - ITaskDefinition.put_Settings
+ - ITaskDefinition::get_Settings
 ---
 
 # ITaskDefinition::get_Settings
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
+

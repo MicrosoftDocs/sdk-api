@@ -44,6 +44,7 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
+ - __MIDL___MIDL_itf_UIAnimation_0000_0000_0004
  - UI_ANIMATION_REPEAT_MODE
 ---
 

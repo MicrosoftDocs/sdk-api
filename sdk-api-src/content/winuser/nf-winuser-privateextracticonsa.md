@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - PrivateExtractIconsA
  - winuser/PrivateExtractIconsA
+ - PrivateExtractIcons
+ - winuser/PrivateExtractIcons
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - PrivateExtractIcons
  - PrivateExtractIconsA
- - PrivateExtractIconsW
-req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
+ - PrivateExtractIcons
 ---
 
 # PrivateExtractIconsA function
@@ -179,3 +180,4 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 <b>Reference</b>
+

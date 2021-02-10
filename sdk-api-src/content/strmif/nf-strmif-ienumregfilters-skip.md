@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IEnumRegFilters.Skip
+ - IEnumRegFilters::Skip
 ---
 
 # IEnumRegFilters::Skip
@@ -71,3 +71,4 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumregfilters">IEnumRegFilters Interface</a>
+

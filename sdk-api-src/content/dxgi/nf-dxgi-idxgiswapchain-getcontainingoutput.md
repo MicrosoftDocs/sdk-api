@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISwapChain.GetContainingOutput
+ - IDXGISwapChain::GetContainingOutput
 ---
 
 # IDXGISwapChain::GetContainingOutput
@@ -84,3 +84,4 @@ To determine the output corresponding to such a swap chain, you should call <a h
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
+

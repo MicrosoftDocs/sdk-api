@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
+ - _CRYPT_PROVIDER_DATA
+ - PCRYPT_PROVIDER_DATA
  - CRYPT_PROVIDER_DATA
 ---
 
@@ -253,3 +255,4 @@ A <b>DWORD</b> value that specifies state data that is passed between a trust pr
 ### -field pSigState
 
 ### -field pSigSettings
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _POWER_PLATFORM_ROLE
+ - PPOWER_PLATFORM_ROLE
  - POWER_PLATFORM_ROLE
 ---
 
@@ -109,3 +111,4 @@ Values equal to or greater than this value indicate an out of range value.
 
 
 <a href="/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a>
+

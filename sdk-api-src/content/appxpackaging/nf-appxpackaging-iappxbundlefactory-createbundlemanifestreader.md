@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleFactory.CreateBundleManifestReader
+ - IAppxBundleFactory::CreateBundleManifestReader
 ---
 
 # IAppxBundleFactory::CreateBundleManifestReader
@@ -93,3 +93,4 @@ The <i>inputStream</i> does not contain syntactically valid XML for the manifest
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a>
+

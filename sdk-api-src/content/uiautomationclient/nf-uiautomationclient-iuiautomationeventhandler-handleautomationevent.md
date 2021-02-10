@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationEventHandler.HandleAutomationEvent
+ - IUIAutomationEventHandler::HandleAutomationEvent
 ---
 
 # IUIAutomationEventHandler::HandleAutomationEvent
@@ -82,3 +82,4 @@ Adjusting an event handler from within this method is not supported.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationeventhandler">IUIAutomationEventHandler</a>
+

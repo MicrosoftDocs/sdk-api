@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winusbio.h
 api_name:
+ - _WINUSB_PIPE_INFORMATION_EX
+ - PWINUSB_PIPE_INFORMATION_EX
  - WINUSB_PIPE_INFORMATION_EX
 ---
 
@@ -89,3 +91,4 @@ The maximum number of bytes that can be transmitted in single interval.  This va
 
 
 <a href="/windows/desktop/api/winusb/nf-winusb-winusb_querypipe">WinUsb_QueryPipe</a>
+

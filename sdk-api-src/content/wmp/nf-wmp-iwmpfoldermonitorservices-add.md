@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPFolderMonitorServices.add
+ - IWMPFolderMonitorServices::add
 ---
 
 # IWMPFolderMonitorServices::add
@@ -93,3 +93,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-remove">IWMPFolderMonitorServices::remove</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.MajorVersion
- - IFaxServer.get_MajorVersion
- - IFaxServer.get_MajorVersion
+ - IFaxServer::get_MajorVersion
 ---
 
 # IFaxServer::get_MajorVersion
@@ -73,3 +71,4 @@ The format for the fax service build number is MajorVersion.MinorVersion.MajorBu
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-retrieving-server-properties">Visual Basic Example</a>
+

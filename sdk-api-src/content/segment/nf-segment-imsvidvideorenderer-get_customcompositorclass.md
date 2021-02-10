@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer.get_CustomCompositorClass
+ - IMSVidVideoRenderer::get_CustomCompositorClass
 ---
 
 # IMSVidVideoRenderer::get_CustomCompositorClass
@@ -79,3 +79,4 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IAnchor.SetGravity
+ - IAnchor::SetGravity
 ---
 
 # IAnchor::SetGravity
@@ -95,3 +95,4 @@ The method was successful.
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
+

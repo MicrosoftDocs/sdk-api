@@ -42,11 +42,7 @@ api_type:
 api_location:
  - rtscom.h
 api_name:
- - IRealTimeStylus3.MultiTouchEnabled
- - IRealTimeStylus3.get_MultiTouchEnabled
- - IRealTimeStylus3.put_MultiTouchEnabled
- - IRealTimeStylus3.get_MultiTouchEnabled
- - IRealTimeStylus3.put_MultiTouchEnabled
+ - IRealTimeStylus3::get_MultiTouchEnabled
 ---
 
 # IRealTimeStylus3::get_MultiTouchEnabled
@@ -130,3 +126,4 @@ The following example shows how to explicitly set the TABLET_ENABLE_MULTITOUCHDA
 ## -see-also
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a>
+

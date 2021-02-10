@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
+ - PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
  - HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
 ---
 
@@ -87,3 +89,4 @@ The realm allows the  server to be partitioned into a set of protection spaces, 
 
 
 <a href="/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
+

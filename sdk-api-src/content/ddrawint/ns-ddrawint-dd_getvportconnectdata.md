@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_GETVPORTCONNECTDATA
+ - PDD_GETVPORTCONNECTDATA
  - DD_GETVPORTCONNECTDATA
 ---
 
@@ -93,3 +95,4 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getvportconnect">DdVideoPortGetConnectInfo</a>
+

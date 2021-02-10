@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.Delete
+ - ITextRange::Delete
 ---
 
 # ITextRange::Delete
@@ -165,3 +165,4 @@ Deleting the end-of-paragraph mark (CR) results in the special behavior of the M
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
+ - tagOLEVERBATTRIB
  - OLEVERBATTRIB
 ---
 
@@ -79,3 +80,4 @@ Values are used in the enumerator (which supports the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a>
+

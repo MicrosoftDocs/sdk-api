@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - mftransform
  - mftransform/mftransform
+api_name:
+ - mftransform
 ---
 
 # Mftransform.h header

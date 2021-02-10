@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data.put_ForceMediaToBeClosed
+ - IDiscFormat2Data::put_ForceMediaToBeClosed
 ---
 
 # IDiscFormat2Data::put_ForceMediaToBeClosed
@@ -99,3 +99,4 @@ Note that the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-pu
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_forcemediatobeclosed">IDiscFormat2Data::get_ForceMediaToBeClosed</a>
+

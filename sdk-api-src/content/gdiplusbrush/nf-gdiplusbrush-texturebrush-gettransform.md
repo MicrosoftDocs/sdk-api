@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush.GetTransform
+ - TextureBrush::GetTransform
 ---
 
 # TextureBrush::GetTransform
@@ -140,3 +140,4 @@ VOID Example_GetTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList.Remove
+ - IImageList::Remove
 ---
 
 # IImageList::Remove
@@ -72,3 +72,4 @@ When an image is removed, the indexes of the remaining images adjust so that the
 		
 
 To use <b>IImageList::Remove</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

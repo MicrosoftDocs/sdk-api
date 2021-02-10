@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdQueryDirectDrawObject
- - GdiEntry2
 ---
 
 # DdQueryDirectDrawObject function
@@ -123,3 +122,4 @@ DirectDraw and
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

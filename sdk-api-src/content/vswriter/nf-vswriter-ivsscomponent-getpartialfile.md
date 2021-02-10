@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetPartialFile
+ - IVssComponent::GetPartialFile
 ---
 
 # IVssComponent::GetPartialFile
@@ -207,3 +207,4 @@ A requester would use the ranges information returned by
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>
+

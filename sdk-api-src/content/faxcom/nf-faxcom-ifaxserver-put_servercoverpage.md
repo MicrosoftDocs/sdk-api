@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer.ServerCoverpage
- - IFaxServer.get_ServerCoverpage
- - IFaxServer.put_ServerCoverpage
- - IFaxServer.get_ServerCoverpage
- - IFaxServer.put_ServerCoverpage
+ - IFaxServer::put_ServerCoverpage
 ---
 
 # IFaxServer::put_ServerCoverpage
@@ -87,3 +83,4 @@ If you set the <b>ServerCoverpage</b> property equal to <b>TRUE</b>, users will 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-cover-page">Sending a Cover Page</a>
+

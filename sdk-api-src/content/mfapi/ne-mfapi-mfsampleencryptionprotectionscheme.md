@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - _MFSampleEncryptionProtectionScheme
  - MFSampleEncryptionProtectionScheme
 ---
 
@@ -68,3 +69,4 @@ The encryption scheme is Cipher Block Chaining (CBC).
 ## -remarks
 
 The encryption scheme for a sample is specified using the <a href="/windows/desktop/medfound/mfsampleextension-encryption-protectionscheme">MFSampleExtension_Encryption_ProtectionScheme</a> attribute.
+

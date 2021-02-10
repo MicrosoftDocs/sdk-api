@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileIsInUse.GetSwitchToHWND
+ - IFileIsInUse::GetSwitchToHWND
 ---
 
 # IFileIsInUse::GetSwitchToHWND
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Only files that return the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getcapabilities">capability flag</a> OF_CAP_CANSWITCHTO can be switched to.
+

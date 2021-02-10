@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx.GetMessageDrain
+ - IFullScreenVideoEx::GetMessageDrain
 ---
 
 # IFullScreenVideoEx::GetMessageDrain
@@ -107,3 +107,4 @@ Applications do not need to use this method. Use the <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
+

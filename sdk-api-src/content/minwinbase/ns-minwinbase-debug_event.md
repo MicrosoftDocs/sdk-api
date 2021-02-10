@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _DEBUG_EVENT
+ - LPDEBUG_EVENT
  - DEBUG_EVENT
 ---
 
@@ -321,3 +323,4 @@ If the <a href="/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">Wai
 
 
 <a href="/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>
+

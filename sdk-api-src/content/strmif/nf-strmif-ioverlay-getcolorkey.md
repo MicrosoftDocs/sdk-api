@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlay.GetColorKey
+ - IOverlay::GetColorKey
 ---
 
 # IOverlay::GetColorKey
@@ -76,3 +76,4 @@ If no color key is currently being used, this method returns VFW_E_NO_COLOR_KEY_
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
+

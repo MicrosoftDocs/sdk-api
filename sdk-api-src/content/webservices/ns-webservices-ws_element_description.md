@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_ELEMENT_DESCRIPTION
  - WS_ELEMENT_DESCRIPTION
 ---
 
@@ -77,3 +78,4 @@ Not all types support being read and written as an element.  If the
 
 Additional information about the type.  Each type has a different description
                     structure.  This may be <b>NULL</b>, depending on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>.
+

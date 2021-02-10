@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFactory3.CreateFontFaceReference
+ - IDWriteFactory3::CreateFontFaceReference
 ---
 
 # IDWriteFactory3::CreateFontFaceReference(IDWriteFontFile,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)

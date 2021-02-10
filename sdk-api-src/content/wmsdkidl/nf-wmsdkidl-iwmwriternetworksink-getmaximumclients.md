@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink.GetMaximumClients
+ - IWMWriterNetworkSink::GetMaximumClients
 ---
 
 # IWMWriterNetworkSink::GetMaximumClients
@@ -101,3 +101,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-setmaximumclients">IWMWriterNetworkSink::SetMaximumClients</a>
+

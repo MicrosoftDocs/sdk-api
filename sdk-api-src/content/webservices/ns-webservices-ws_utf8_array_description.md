@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_UTF8_ARRAY_DESCRIPTION
  - WS_UTF8_ARRAY_DESCRIPTION
 ---
 
@@ -65,3 +66,4 @@ Specifies the minimum number of bytes of UTF8 character data.
 ### -field maxByteCount
 
 Specifies the maximum number of bytes of UTF8 character data.
+

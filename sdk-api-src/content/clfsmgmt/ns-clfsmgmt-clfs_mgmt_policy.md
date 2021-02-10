@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Clfsmgmt.h
 api_name:
+ - _CLFS_MGMT_POLICY
+ - PCLFS_MGMT_POLICY
  - CLFS_MGMT_POLICY
 ---
 
@@ -184,3 +186,4 @@ Specifies the extension given to the container file.
 ## -see-also
 
 <a href="/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
+

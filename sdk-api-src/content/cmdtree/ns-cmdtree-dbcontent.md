@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBCONTENT
  - DBCONTENT
 ---
 
@@ -80,3 +81,4 @@ locale
 For valid values of the <b>dwGenerateMethod</b> member, see <a href="/previous-versions/windows/desktop/indexsrv/generate-method-constants">Generate Method Constants</a>.
 
 For more information on the DBOP_content operator, see <a href="/previous-versions/windows/desktop/indexsrv/content-search-operators">Content Search Operators</a>.
+

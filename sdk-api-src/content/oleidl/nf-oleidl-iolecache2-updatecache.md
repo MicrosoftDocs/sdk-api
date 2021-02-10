@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCache2.UpdateCache
+ - IOleCache2::UpdateCache
 ---
 
 # IOleCache2::UpdateCache
@@ -259,3 +259,4 @@ Some of the caches were updated.
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
+

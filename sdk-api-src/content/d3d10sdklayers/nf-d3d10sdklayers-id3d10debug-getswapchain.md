@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10Debug.GetSwapChain
+ - ID3D10Debug::GetSwapChain
 ---
 
 # ID3D10Debug::GetSwapChain
@@ -73,3 +73,4 @@ The swap chain retrieved by this method will only be used if D3D10_DEBUG_FEATURE
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10debug">ID3D10Debug Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_AUTHENTICATION_METHOD1_
  - IKEEXT_AUTHENTICATION_METHOD1
 ---
 
@@ -106,3 +107,4 @@ See [IKEEXT_EAP_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md) fo
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

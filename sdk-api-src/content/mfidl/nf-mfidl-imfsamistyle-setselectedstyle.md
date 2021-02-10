@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSAMIStyle.SetSelectedStyle
+ - IMFSAMIStyle::SetSelectedStyle
 ---
 
 # IMFSAMIStyle::SetSelectedStyle
@@ -70,3 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>
+

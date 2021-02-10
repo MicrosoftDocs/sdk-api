@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMExtendedErrorInfo.get_ErrorCode
+ - IAMExtendedErrorInfo::get_ErrorCode
 ---
 
 # IAMExtendedErrorInfo::get_ErrorCode
@@ -65,3 +65,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamextendederrorinfo">IAMExtendedErrorInfo Interface</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - SOUNDSENTRY
+ - tagSOUNDSENTRYA
+ - LPSOUNDSENTRYA
+ - SOUNDSENTRYA
 ---
 
 # SOUNDSENTRYA structure
@@ -370,3 +372,4 @@ An application uses a <b>SOUNDSENTRY</b> structure when calling the <a href="/wi
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

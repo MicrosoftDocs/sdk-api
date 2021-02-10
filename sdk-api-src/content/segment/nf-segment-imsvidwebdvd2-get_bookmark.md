@@ -42,9 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidWebDVD2.Bookmark
- - IMSVidWebDVD2.get_Bookmark
- - IMSVidWebDVD2.put_Bookmark
+ - IMSVidWebDVD2::get_Bookmark
 ---
 
 # IMSVidWebDVD2::get_Bookmark
@@ -63,3 +61,4 @@ Saves or loads the playback position and state information for a DVD.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidwebdvd2">IMSVidWebDVD2</a>
+

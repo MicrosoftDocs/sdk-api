@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectContext.SetAbort
+ - ObjectContext::SetAbort
 ---
 
 # ObjectContext::SetAbort
@@ -96,3 +96,4 @@ You can call <b>SetAbort</b> in error handlers to ensure that a transaction abor
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
+

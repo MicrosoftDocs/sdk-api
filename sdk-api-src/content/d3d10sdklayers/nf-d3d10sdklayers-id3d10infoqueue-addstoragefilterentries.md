@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.AddStorageFilterEntries
+ - ID3D10InfoQueue::AddStorageFilterEntries
 ---
 
 # ID3D10InfoQueue::AddStorageFilterEntries
@@ -73,3 +73,4 @@ A storage filter defines a grouping of debug messages that should be allowed int
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>
+

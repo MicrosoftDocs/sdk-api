@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.Play
+ - IMFMediaEngine::Play
 ---
 
 # IMFMediaEngine::Play
@@ -67,3 +67,4 @@ The method completes asynchronously. When the operation starts, the Media Engine
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

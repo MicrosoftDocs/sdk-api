@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - wsddisco
  - wsddisco/wsddisco
+api_name:
+ - wsddisco
 ---
 
 # Wsddisco.h header

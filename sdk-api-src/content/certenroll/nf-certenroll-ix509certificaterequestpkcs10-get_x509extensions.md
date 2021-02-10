@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.X509Extensions
- - IX509CertificateRequestPkcs10.get_X509Extensions
+ - IX509CertificateRequestPkcs10::get_X509Extensions
 ---
 
 # IX509CertificateRequestPkcs10::get_X509Extensions
@@ -80,3 +79,4 @@ You must initialize the <a href="/windows/desktop/api/certenroll/nn-certenroll-i
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+

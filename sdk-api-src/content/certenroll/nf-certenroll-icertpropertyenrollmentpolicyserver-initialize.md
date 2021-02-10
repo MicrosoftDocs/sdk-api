@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer.Initialize
+ - ICertPropertyEnrollmentPolicyServer::Initialize
 ---
 
 # ICertPropertyEnrollmentPolicyServer::Initialize
@@ -258,3 +258,4 @@ There was insufficient memory available to a string value.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
+

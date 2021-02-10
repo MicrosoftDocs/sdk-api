@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext.UserGuid
- - IAzClientContext.get_UserGuid
- - AzClientContext.UserGuid
+ - IAzClientContext::get_UserGuid
 ---
 
 # IAzClientContext::get_UserGuid
@@ -63,3 +61,4 @@ This property is read-only.
 The GUID client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameUniqueId</b> specified for the <i>NameFormat</i> parameter. 
 
 An example of a  client name in GUID format is "{4fa050f0-f561-11cf-bdd9-00aa003a77b6}Ben Smith".
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
+ - _DXVA_COPPStatusHDCPKeyData
  - DXVA_COPPStatusHDCPKeyData
 ---
 
@@ -87,3 +88,4 @@ Reserved. Must be zero.
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
+

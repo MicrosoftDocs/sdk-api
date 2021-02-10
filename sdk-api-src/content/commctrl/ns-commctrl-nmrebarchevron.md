@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMREBARCHEVRON
+ - LPNMREBARCHEVRON
  - NMREBARCHEVRON
 ---
 
@@ -96,3 +98,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 An application-defined value. If the <a href="/windows/desktop/Controls/rbn-chevronpushed">RBN_CHEVRONPUSHED</a> notification was sent as a result of an <a href="/windows/desktop/Controls/rb-pushchevron">RB_PUSHCHEVRON</a> message, this member contains the message's 
 					<i>lAppValue</i> value. Otherwise, it is set to zero.
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
+ - tMIXERCONTROLDETAILS
+ - PMIXERCONTROLDETAILS
  - MIXERCONTROLDETAILS
 ---
 
@@ -252,3 +254,4 @@ If the control is a MIXERCONTROL_CONTROLTYPE_CUSTOM control, this member must po
 
 
 <a href="/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
+

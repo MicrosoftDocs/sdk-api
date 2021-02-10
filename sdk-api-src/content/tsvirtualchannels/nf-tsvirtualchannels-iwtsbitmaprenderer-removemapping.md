@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tsvirtualchannels.h
 api_name:
- - IWTSBitmapRenderer.RemoveMapping
+ - IWTSBitmapRenderer::RemoveMapping
 ---
 
 # IWTSBitmapRenderer::RemoveMapping
@@ -61,3 +61,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderer">IWTSBitmapRenderer</a>
+

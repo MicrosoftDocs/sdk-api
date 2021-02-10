@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IConfigInterleaving.put_Interleaving
+ - IConfigInterleaving::put_Interleaving
 ---
 
 # IConfigInterleaving::put_Interleaving
@@ -86,3 +86,4 @@ If you do not call this method, the default value for <i>prtInterleave</i> is 10
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-get_interleaving">IConfigInterleaving::get_Interleaving</a>
+

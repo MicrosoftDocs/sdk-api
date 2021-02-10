@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Device1.SetRenderingPriority
+ - ID2D1Device1::SetRenderingPriority
 ---
 
 # ID2D1Device1::SetRenderingPriority
@@ -92,3 +92,4 @@ Calling this method affects the rendering priority of all device contexts associ
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>
+

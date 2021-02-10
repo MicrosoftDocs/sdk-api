@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _REASSIGN_BLOCKS_EX
+ - PREASSIGN_BLOCKS_EX
  - REASSIGN_BLOCKS_EX
 ---
 
@@ -95,3 +97,4 @@ The <b>REASSIGN_BLOCKS_EX</b> structure supports drives
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a>
+

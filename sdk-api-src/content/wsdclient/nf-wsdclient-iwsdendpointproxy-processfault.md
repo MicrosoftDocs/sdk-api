@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDEndpointProxy.ProcessFault
+ - IWSDEndpointProxy::ProcessFault
 ---
 
 # IWSDEndpointProxy::ProcessFault
@@ -105,3 +105,4 @@ The fault was not stored in memory.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
+

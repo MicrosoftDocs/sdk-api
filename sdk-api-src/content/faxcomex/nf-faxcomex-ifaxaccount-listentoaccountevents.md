@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccount.ListenToAccountEvents
- - IFaxAccount.ListenToAccountEvents
+ - IFaxAccount::ListenToAccountEvents
 ---
 
 # IFaxAccount::ListenToAccountEvents
@@ -74,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>
+

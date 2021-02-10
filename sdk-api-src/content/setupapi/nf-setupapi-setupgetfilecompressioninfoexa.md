@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupGetFileCompressionInfoExA
  - setupapi/SetupGetFileCompressionInfoExA
+ - SetupGetFileCompressionInfoEx
+ - setupapi/SetupGetFileCompressionInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupGetFileCompressionInfoEx
  - SetupGetFileCompressionInfoExA
- - SetupGetFileCompressionInfoExW
+ - SetupGetFileCompressionInfoEx
 ---
 
 # SetupGetFileCompressionInfoExA function
@@ -145,3 +146,4 @@ Because
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdecompressorcopyfilea">SetupDecompressOrCopyFile</a>
+

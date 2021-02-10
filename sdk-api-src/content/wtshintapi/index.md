@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - wtshintapi
  - wtshintapi/wtshintapi
+api_name:
+ - wtshintapi
 ---
 
 # Wtshintapi.h header

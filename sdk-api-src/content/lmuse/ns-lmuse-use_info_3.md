@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmuse.h
 api_name:
+ - _USE_INFO_3
+ - PUSE_INFO_3
  - USE_INFO_3
 ---
 
@@ -119,3 +121,4 @@ No explicit credentials are supplied in the call to <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/NetMgmt/use-functions">Use functions</a>
+

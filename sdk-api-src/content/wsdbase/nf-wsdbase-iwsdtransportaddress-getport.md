@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDTransportAddress.GetPort
+ - IWSDTransportAddress::GetPort
 ---
 
 # IWSDTransportAddress::GetPort
@@ -99,3 +99,4 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
+

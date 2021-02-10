@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.GetNextItem
+ - INameSpaceTreeControl::GetNextItem
 ---
 
 # INameSpaceTreeControl::GetNextItem
@@ -129,3 +129,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If there is no next item for the type selected, this function returns E_FAIL with <b>NULL</b> for the returned item, <i>ppsiNext</i>.
+

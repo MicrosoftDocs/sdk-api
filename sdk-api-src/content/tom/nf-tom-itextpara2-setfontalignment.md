@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara2.SetFontAlignment
+ - ITextPara2::SetFontAlignment
 ---
 
 # ITextPara2::SetFontAlignment
@@ -95,3 +95,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextpara2-getfontalignment">ITextPara2::GetFontAlignment</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDAsyncResult.HasCompleted
+ - IWSDAsyncResult::HasCompleted
 ---
 
 # IWSDAsyncResult::HasCompleted
@@ -99,3 +99,4 @@ A failed asynchronous operation is treated as a completed asynchronous operation
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
+

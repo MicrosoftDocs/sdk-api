@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - userenv
  - userenv/userenv
+api_name:
+ - userenv
 ---
 
 # Userenv.h header

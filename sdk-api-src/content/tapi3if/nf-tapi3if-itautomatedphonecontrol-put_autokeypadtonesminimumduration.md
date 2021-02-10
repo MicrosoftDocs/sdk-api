@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.put_AutoKeypadTonesMinimumDuration
+ - ITAutomatedPhoneControl::put_AutoKeypadTonesMinimumDuration
 ---
 
 # ITAutomatedPhoneControl::put_AutoKeypadTonesMinimumDuration
@@ -78,3 +78,4 @@ The <b>AutoKeypadTonesMinimumDuration</b> property is valid only if the value of
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_autokeypadtones">put_AutoKeypadTones</a>
+

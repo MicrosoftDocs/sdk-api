@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPPlugin.Init
+ - IWMPPlugin::Init
 ---
 
 # IWMPPlugin::Init
@@ -71,3 +71,4 @@ It is possible at any given time that multiple instances of Windows Media Player
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
+

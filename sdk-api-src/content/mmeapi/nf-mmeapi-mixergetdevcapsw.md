@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - mixerGetDevCapsW
  - mmeapi/mixerGetDevCapsW
+ - mixerGetDevCaps
+ - mmeapi/mixerGetDevCaps
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-mm-mme-l1-1-0.dll
  - winmmbase.dll
 api_name:
- - mixerGetDevCaps
- - mixerGetDevCapsA
  - mixerGetDevCapsW
+ - mixerGetDevCaps
 ---
 
 # mixerGetDevCapsW function
@@ -136,3 +137,4 @@ This function also accepts a mixer device handle returned by the <a href="/previ
 
 
 <a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
+

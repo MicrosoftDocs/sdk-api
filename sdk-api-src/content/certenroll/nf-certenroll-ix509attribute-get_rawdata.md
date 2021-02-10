@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Attribute.RawData
- - IX509Attribute.get_RawData
+ - IX509Attribute::get_RawData
 ---
 
 # IX509Attribute::get_RawData
@@ -72,3 +71,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-i
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
+

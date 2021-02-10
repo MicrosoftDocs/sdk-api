@@ -45,6 +45,7 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
+ - PICMP6_TYPE
  - ICMP6_TYPE
 ---
 

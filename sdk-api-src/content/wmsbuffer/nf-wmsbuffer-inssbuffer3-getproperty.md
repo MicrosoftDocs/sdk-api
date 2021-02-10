@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSSBuffer3.GetProperty
+ - INSSBuffer3::GetProperty
 ---
 
 # INSSBuffer3::GetProperty
@@ -120,3 +120,4 @@ The property specified as <i>guidBufferProperty</i> is not set in this buffer ob
 
 
 <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>
+

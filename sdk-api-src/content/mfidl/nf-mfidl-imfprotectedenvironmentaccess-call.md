@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfidl.h
 api_name:
- - IMFProtectedEnvironmentAccess.Call
+ - IMFProtectedEnvironmentAccess::Call
 ---
 
 # IMFProtectedEnvironmentAccess::Call
@@ -103,3 +103,4 @@ See  <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreateprotectedenvironmentac
 
 
 <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreateprotectedenvironmentaccess">MFCreateProtectedEnvironmentAccess</a>
+

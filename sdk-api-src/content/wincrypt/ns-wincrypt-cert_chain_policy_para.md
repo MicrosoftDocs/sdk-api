@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_CHAIN_POLICY_PARA
+ - PCERT_CHAIN_POLICY_PARA
  - CERT_CHAIN_POLICY_PARA
 ---
 
@@ -339,3 +341,4 @@ Also check for the Microsoft test roots in addition to the Microsoft public root
 ### -field pvExtraPolicyPara
 
 The address of a pszPolicyOID-specific structure that provides additional validity policy conditions.
+

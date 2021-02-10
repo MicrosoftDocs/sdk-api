@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.Factoid
- - IInkEdit.get_Factoid
- - IInkEdit.put_Factoid
- - InkEdit.get_Factoid
- - InkEdit.put_Factoid
+ - IInkEdit::put_Factoid
 ---
 
 # IInkEdit::put_Factoid
@@ -88,3 +84,4 @@ For more information about factoids and how to use them, see <a href="/windows/d
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

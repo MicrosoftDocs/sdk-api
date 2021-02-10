@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineNeedKeyNotify.NeedKey
+ - IMFMediaEngineNeedKeyNotify::NeedKey
 ---
 
 # IMFMediaEngineNeedKeyNotify::NeedKey
@@ -65,3 +65,4 @@ The count in bytes of <i>initData</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineneedkeynotify">IMFMediaEngineNeedKeyNotify</a>
+

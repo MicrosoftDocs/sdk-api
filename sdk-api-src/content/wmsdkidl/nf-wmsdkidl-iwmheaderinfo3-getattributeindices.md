@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3.GetAttributeIndices
+ - IWMHeaderInfo3::GetAttributeIndices
 ---
 
 # IWMHeaderInfo3::GetAttributeIndices
@@ -143,3 +143,4 @@ Index values obtained by using this method are given in descending order by inde
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
+

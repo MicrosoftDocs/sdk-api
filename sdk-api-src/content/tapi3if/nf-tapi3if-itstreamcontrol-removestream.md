@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStreamControl.RemoveStream
+ - ITStreamControl::RemoveStream
 ---
 
 # ITStreamControl::RemoveStream
@@ -117,3 +117,4 @@ Stream creation or removal may involve interaction with a remote endpoint, resul
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItemArray.GetPropertyStore
+ - IShellItemArray::GetPropertyStore
 ---
 
 # IShellItemArray::GetPropertyStore
@@ -104,3 +104,4 @@ Calls to <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystorecapabili
 Calling applications may achieve other aggregation behaviors by accessing the individual shell items and their property stores directly.  See <a href="/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)">IPropertyStore::GetCount</a>, <a href="/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)">IPropertyStore::GetAt</a>, and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">GetPropertyStore</a>.
 
 Writing to an array of shell items is supported via the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> API.
+

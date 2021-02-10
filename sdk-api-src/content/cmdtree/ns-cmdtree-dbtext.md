@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBTEXT
  - DBTEXT
 ---
 
@@ -76,3 +77,4 @@ lGUID of the language and dialect
 ## -remarks
 
 For additional information about the <i>guidDialect</i> parameter, see the description of DBOP_text_command in <a href="/previous-versions/windows/desktop/indexsrv/special-operators">Special Operators</a>.
+

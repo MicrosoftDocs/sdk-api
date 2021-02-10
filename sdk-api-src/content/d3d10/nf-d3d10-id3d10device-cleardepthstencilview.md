@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device.ClearDepthStencilView
+ - ID3D10Device::ClearDepthStencilView
 ---
 
 # ID3D10Device::ClearDepthStencilView
@@ -95,3 +95,4 @@ Unlike Direct3D 9, the full extent of the resource view is always cleared. Viewp
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

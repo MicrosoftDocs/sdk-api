@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - sessdirpublictypes
  - sessdirpublictypes/sessdirpublictypes
+api_name:
+ - sessdirpublictypes
 ---
 
 # Sessdirpublictypes.h header

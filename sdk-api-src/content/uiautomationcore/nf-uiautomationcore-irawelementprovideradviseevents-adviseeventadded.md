@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderAdviseEvents.AdviseEventAdded
+ - IRawElementProviderAdviseEvents::AdviseEventAdded
 ---
 
 # IRawElementProviderAdviseEvents::AdviseEventAdded
@@ -96,3 +96,4 @@ It is important for UI Automation providers to treat the <b>IRawElementProviderA
 
 
 <b>Reference</b>
+

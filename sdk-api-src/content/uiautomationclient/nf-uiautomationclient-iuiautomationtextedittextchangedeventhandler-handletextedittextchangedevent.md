@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
+ - IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent
 ---
 
 # IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent
@@ -97,3 +97,4 @@ The event data contains different payloads for each text-edit change type:
 
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextedittextchangedeventhandler">IUIAutomationTextEditTextChangedEventHandler</a>
+

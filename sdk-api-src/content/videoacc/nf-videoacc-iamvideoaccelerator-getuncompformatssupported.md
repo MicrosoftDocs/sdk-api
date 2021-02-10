@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator.GetUncompFormatsSupported
+ - IAMVideoAccelerator::GetUncompFormatsSupported
 ---
 
 # IAMVideoAccelerator::GetUncompFormatsSupported
@@ -121,3 +121,4 @@ The driver should return the formats in decreasing order of preference, with the
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
+

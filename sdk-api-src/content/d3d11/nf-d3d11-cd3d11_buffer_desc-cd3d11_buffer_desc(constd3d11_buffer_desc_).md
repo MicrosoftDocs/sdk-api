@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_BUFFER_DESC.CD3D11_BUFFER_DESC
+ - CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC
 ---
 
 # CD3D11_BUFFER_DESC::CD3D11_BUFFER_DESC(const D3D11_BUFFER_DESC &)
@@ -64,3 +64,4 @@ Address of the <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/ns-d3d11-cd3d11_buffer_desc">CD3D11_BUFFER_DESC</a>
+

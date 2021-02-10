@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Davclnt.h
 api_name:
+ - _DAV_CALLBACK_AUTH_UNP
+ - PDAV_CALLBACK_AUTH_UNP
  - DAV_CALLBACK_AUTH_UNP
 ---
 
@@ -87,3 +89,4 @@ The <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred
 
 
 <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>
+

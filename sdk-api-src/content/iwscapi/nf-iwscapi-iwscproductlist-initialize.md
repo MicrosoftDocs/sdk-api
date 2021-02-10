@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wscapi.dll
 api_name:
- - IWSCProductList.Initialize
+ - IWSCProductList::Initialize
 ---
 
 # IWSCProductList::Initialize
@@ -108,3 +108,4 @@ Once the client gets an <a href="/windows/desktop/api/iwscapi/nn-iwscapi-iwscpro
 ## -see-also
 
 <a href="/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a>
+

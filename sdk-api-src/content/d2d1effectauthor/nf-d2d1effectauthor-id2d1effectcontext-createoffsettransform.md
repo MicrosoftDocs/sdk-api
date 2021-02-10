@@ -43,7 +43,7 @@ api_location:
  - D2D1.lib
  - D2D1.dll
 api_name:
- - ID2D1EffectContext.CreateOffsetTransform
+ - ID2D1EffectContext::CreateOffsetTransform
 ---
 
 # ID2D1EffectContext::CreateOffsetTransform
@@ -103,3 +103,4 @@ An offset transform is used to offset an input bitmap without having to insert a
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
+

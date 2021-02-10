@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGPolicyEngine.h
 api_name:
- - ITSGAccountingEngine.DoAccounting
+ - ITSGAccountingEngine::DoAccounting
 ---
 
 # ITSGAccountingEngine::DoAccounting
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgaccountingengine">ITSGAccountingEngine</a>
+

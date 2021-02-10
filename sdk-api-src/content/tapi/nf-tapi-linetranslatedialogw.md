@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineTranslateDialogW
  - tapi/lineTranslateDialogW
+ - lineTranslateDialog
+ - tapi/lineTranslateDialog
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineTranslateDialog
- - lineTranslateDialogA
  - lineTranslateDialogW
+ - lineTranslateDialog
 ---
 
 # lineTranslateDialogW function
@@ -130,3 +131,4 @@ If any function related to address translation (for example,
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
+

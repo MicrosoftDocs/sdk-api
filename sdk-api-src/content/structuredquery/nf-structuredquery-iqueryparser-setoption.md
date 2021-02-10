@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IQueryParser.SetOption
+ - IQueryParser::SetOption
 ---
 
 # IQueryParser::SetOption
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 For more information, see <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>.
+

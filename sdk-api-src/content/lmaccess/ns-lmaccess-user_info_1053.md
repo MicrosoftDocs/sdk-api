@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1053
+ - PUSER_INFO_1053
  - USER_INFO_1053
 ---
 
@@ -80,3 +82,4 @@ Specifies the drive letter to assign to the user's home directory for logon purp
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

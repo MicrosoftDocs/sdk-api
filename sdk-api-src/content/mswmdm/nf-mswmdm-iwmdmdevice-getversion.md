@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice.GetVersion
+ - IWMDMDevice::GetVersion
 ---
 
 # IWMDMDevice::GetVersion
@@ -77,3 +77,4 @@ The format of the version number is determined by the manufacturer.
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
+

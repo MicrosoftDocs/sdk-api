@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.ReportEnabled
- - IFsrmFileManagementJob.get_ReportEnabled
- - IFsrmFileManagementJob.put_ReportEnabled
+ - IFsrmFileManagementJob::put_ReportEnabled
 ---
 
 # IFsrmFileManagementJob::put_ReportEnabled
@@ -78,3 +76,4 @@ Controls reporting regardless of whether the file management job was scheduled (
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Extension.RawData
- - IX509Extension.get_RawData
+ - IX509Extension::get_RawData
 ---
 
 # IX509Extension::get_RawData
@@ -64,3 +63,4 @@ A certificate extension is defined by an <a href="/windows/desktop/SecGloss/a-gl
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
+

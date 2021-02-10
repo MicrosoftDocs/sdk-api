@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - DxFlipVideoPort
+ - PDX_FLIPVIDEOPORT
 ---
 
 ## -description
@@ -74,3 +74,4 @@ The <b>dwFlipVPFlags</b> member of the DDFLIPVIDEOPORTINFO structure at <i>FlipV
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddflipvideoportinfo">DDFLIPVIDEOPORTINFO</a>
+

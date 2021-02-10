@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - QueryServiceLockStatusW
  - winsvc/QueryServiceLockStatusW
+ - QueryServiceLockStatus
+ - winsvc/QueryServiceLockStatus
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Advapi32.dll
 api_name:
- - QueryServiceLockStatus
- - QueryServiceLockStatusA
  - QueryServiceLockStatusW
+ - QueryServiceLockStatus
 ---
 
 # QueryServiceLockStatusW function
@@ -166,3 +167,4 @@ A process calls the
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-unlockservicedatabase">UnlockServiceDatabase</a>
+

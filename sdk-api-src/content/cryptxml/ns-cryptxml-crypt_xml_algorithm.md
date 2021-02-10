@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_ALGORITHM
+ - PCRYPT_XML_ALGORITHM
  - CRYPT_XML_ALGORITHM
 ---
 
@@ -79,3 +81,4 @@ Optional.  The XML encoded element.
 
 
 <a href="/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
+ - _SP_ALTPLATFORM_INFO_V1
+ - PSP_ALTPLATFORM_INFO_V1
  - SP_ALTPLATFORM_INFO_V1
 ---
 
@@ -127,3 +129,4 @@ Must be set to zero.
 
 
 <a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
+

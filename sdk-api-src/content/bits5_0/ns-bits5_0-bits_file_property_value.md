@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bits5_0.h
 api_name:
+ - __MIDL___MIDL_itf_bits5_0_0000_0000_0002
  - BITS_FILE_PROPERTY_VALUE
 ---
 
@@ -69,3 +70,4 @@ This value is used when using the property ID
 
 
 <a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">IBackgroundCopyFile5.SetProperty</a>
+

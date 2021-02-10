@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITACDGroup.get_Name
+ - ITACDGroup::get_Name
 ---
 
 # ITACDGroup::get_Name
@@ -111,3 +111,4 @@ The application must free <i>ppName</i> through
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
+

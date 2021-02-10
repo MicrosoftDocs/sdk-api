@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStats.Reset
+ - IAMStats::Reset
 ---
 
 # IAMStats::Reset
@@ -66,3 +66,4 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code.
 
 
 <a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
+

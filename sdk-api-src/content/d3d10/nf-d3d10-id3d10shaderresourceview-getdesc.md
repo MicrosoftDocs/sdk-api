@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d10.h
 api_name:
- - ID3D10ShaderResourceView.GetDesc
+ - ID3D10ShaderResourceView::GetDesc
 ---
 
 # ID3D10ShaderResourceView::GetDesc
@@ -63,3 +63,4 @@ A pointer to a <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_shader_resourc
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">ID3D10ShaderResourceView Interface</a>
+

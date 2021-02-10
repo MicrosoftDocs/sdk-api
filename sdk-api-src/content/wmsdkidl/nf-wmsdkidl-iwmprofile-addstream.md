@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.AddStream
- - IWMProfile2.AddStream
- - IWMProfile3.AddStream
+ - IWMProfile::AddStream
 ---
 
 # IWMProfile::AddStream
@@ -163,3 +161,4 @@ When a stream is added, its configuration is copied into the profile. A maximum 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
+

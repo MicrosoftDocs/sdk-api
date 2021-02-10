@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_FILTER_GLOBAL_INFO
+ - LPDHCP_FILTER_GLOBAL_INFO
  - DHCP_FILTER_GLOBAL_INFO
 ---
 

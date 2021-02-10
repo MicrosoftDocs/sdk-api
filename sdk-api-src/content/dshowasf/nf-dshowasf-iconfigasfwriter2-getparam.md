@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter2.GetParam
+ - IConfigAsfWriter2::GetParam
 ---
 
 # IConfigAsfWriter2::GetParam
@@ -77,3 +77,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>
+

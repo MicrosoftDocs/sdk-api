@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceManager.NotifyAcquire
+ - IResourceManager::NotifyAcquire
 ---
 
 # IResourceManager::NotifyAcquire
@@ -144,3 +144,4 @@ Use this method after an <a href="/windows/desktop/api/strmif/nf-strmif-iresourc
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1SpriteBatch.SetSprites
+ - ID2D1SpriteBatch::SetSprites
 ---
 
 # ID2D1SpriteBatch::SetSprites
@@ -143,3 +143,4 @@ Returns S_OK on success. Returns E_INVALIDARG if an invalid value was passed to 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1spritebatch">ID2D1SpriteBatch</a>
+

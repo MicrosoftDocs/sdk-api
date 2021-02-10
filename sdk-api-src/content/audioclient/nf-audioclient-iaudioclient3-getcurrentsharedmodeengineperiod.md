@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioclient.h
 api_name:
- - IAudioClient3.GetCurrentSharedModeEnginePeriod
+ - IAudioClient3::GetCurrentSharedModeEnginePeriod
 ---
 
 # IAudioClient3::GetCurrentSharedModeEnginePeriod
@@ -82,3 +82,4 @@ This method returns <b>S_OK</b> to indicate that it has completed successfully. 
 ## -see-also
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
+

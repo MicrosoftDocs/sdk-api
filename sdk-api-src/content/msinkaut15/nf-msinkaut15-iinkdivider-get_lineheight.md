@@ -43,11 +43,7 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivider.LineHeight
- - IInkDivider.get_LineHeight
- - IInkDivider.put_LineHeight
- - InkDivider.get_LineHeight
- - InkDivider.put_LineHeight
+ - IInkDivider::get_LineHeight
 ---
 
 # IInkDivider::get_LineHeight
@@ -82,3 +78,4 @@ Setting the <b>LineHeight</b> property after strokes have been assigned to the <
 
 
 <a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes">Strokes Property [InkDivider Class]</a>
+

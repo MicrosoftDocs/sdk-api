@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.EvictManagedResources
+ - IDirect3DDevice9::EvictManagedResources
 ---
 
 # IDirect3DDevice9::EvictManagedResources
@@ -68,3 +68,4 @@ This function causes only the D3DPOOL_DEFAULT copy of resources to be evicted. T
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+

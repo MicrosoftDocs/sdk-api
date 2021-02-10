@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.SenderHomePhone
- - IFaxDoc.get_SenderHomePhone
- - IFaxDoc.put_SenderHomePhone
+ - IFaxDoc::put_SenderHomePhone
 ---
 
 # IFaxDoc::put_SenderHomePhone
@@ -79,3 +77,4 @@ The <b>get_SenderHomePhone</b> method allocates the memory required for the buff
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

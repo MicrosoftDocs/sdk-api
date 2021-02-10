@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetModuleFileNameExA
  - psapi/GetModuleFileNameExA
+ - GetModuleFileNameEx
+ - psapi/GetModuleFileNameEx
 dev_langs:
  - c++
 topic_type:
@@ -48,12 +50,8 @@ api_location:
  - API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
  - API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
- - GetModuleFileNameEx
  - GetModuleFileNameExA
- - GetModuleFileNameExW
- - K32GetModuleFileNameEx
- - K32GetModuleFileNameExW
- - K32GetModuleFileNameExA
+ - GetModuleFileNameEx
 ---
 
 # GetModuleFileNameExA function
@@ -158,3 +156,4 @@ For an example, see
 
 
 <a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
+

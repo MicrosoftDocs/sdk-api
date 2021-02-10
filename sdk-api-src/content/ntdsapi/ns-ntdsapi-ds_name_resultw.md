@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - DS_NAME_RESULT
- - DS_NAME_RESULTA
+ - PDS_NAME_RESULTW
  - DS_NAME_RESULTW
 ---
 
@@ -86,3 +85,4 @@ Contains an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_re
 
 > [!NOTE]
 > The ntdsapi.h header defines DS_NAME_RESULT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

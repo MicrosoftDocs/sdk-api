@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription.GetPropertyKey
+ - IPropertyDescription::GetPropertyKey
 ---
 
 # IPropertyDescription::GetPropertyKey
@@ -76,3 +76,4 @@ The information retrieved by this method comes from the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
+

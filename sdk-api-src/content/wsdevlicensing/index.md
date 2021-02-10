@@ -9,6 +9,8 @@ tech.root: devlic
 f1_keywords:
  - wsdevlicensing
  - wsdevlicensing/wsdevlicensing
+api_name:
+ - wsdevlicensing
 ---
 
 # Wsdevlicensing.h header

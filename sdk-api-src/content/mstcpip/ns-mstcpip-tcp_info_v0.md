@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
+ - _TCP_INFO_v0
+ - PTCP_INFO_v0
  - TCP_INFO_v0
 ---
 
@@ -147,3 +149,4 @@ To get an instance of this structure,  call the
 
 
 <a href="/windows/desktop/api/mstcpip/ne-mstcpip-tcpstate">TCPSTATE</a>
+

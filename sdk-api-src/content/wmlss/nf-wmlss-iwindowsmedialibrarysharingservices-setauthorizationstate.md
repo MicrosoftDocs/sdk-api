@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.setAuthorizationState
+ - IWindowsMediaLibrarySharingServices::setAuthorizationState
 ---
 
 # IWindowsMediaLibrarySharingServices::setAuthorizationState
@@ -91,3 +91,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-setdefaultauthorization">IWindowsMediaLibrarySharingServices::setDefaultAuthorization</a>
+

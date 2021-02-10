@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMNetShowConfig.get_HTTPProxyHost
+ - IAMNetShowConfig::get_HTTPProxyHost
 ---
 
 # IAMNetShowConfig::get_HTTPProxyHost
@@ -73,3 +73,4 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 <a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_httpproxyport">IAMNetShowConfig::get_HTTPProxyPort</a>
+

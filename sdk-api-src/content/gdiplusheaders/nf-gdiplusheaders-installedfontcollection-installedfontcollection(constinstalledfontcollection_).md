@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - InstalledFontCollection.InstalledFontCollection
+ - InstalledFontCollection::InstalledFontCollection
 ---
 
 # InstalledFontCollection::InstalledFontCollection(const InstalledFontCollection &)
@@ -66,3 +66,4 @@ Creates an <b>InstalledFontCollection::InstalledFontCollection</b> object.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
+

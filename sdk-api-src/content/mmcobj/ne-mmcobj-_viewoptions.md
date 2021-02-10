@@ -46,6 +46,8 @@ api_type:
 api_location:
  - MmcObj.h
 api_name:
+ - ViewOptions
+ - PVIEWOPTIONS
  - _ViewOptions
 ---
 
@@ -86,3 +88,4 @@ The view is added as temporary (without persistence capability).
 
 
 <a href="/previous-versions/windows/desktop/mmc/views-add">Views.Add</a>
+

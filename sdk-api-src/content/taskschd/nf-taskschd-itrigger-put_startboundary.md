@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITrigger.StartBoundary
- - ITrigger.get_StartBoundary
- - ITrigger.put_StartBoundary
+ - ITrigger::put_StartBoundary
 ---
 
 # ITrigger::put_StartBoundary
@@ -71,3 +69,4 @@ When reading or writing XML for a task, the trigger start boundary is specified 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

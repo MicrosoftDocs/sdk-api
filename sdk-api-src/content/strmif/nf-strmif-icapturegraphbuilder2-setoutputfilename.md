@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2.SetOutputFileName
+ - ICaptureGraphBuilder2::SetOutputFileName
 ---
 
 # ICaptureGraphBuilder2::SetOutputFileName
@@ -151,3 +151,4 @@ If the method succeeds, the <b>IBaseFilter</b> interface returned in the <i>ppf<
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
+

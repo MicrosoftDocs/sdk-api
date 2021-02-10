@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrEnumItems.Next
+ - ISyncMgrEnumItems::Next
 ---
 
 # ISyncMgrEnumItems::Next
@@ -81,3 +81,4 @@ Return S_OK if the method succeeds.
 ## -remarks
 
 E_NOTIMPL is not allowed as a return value. If an error value is returned, no entries in the <i>rgelt</i> array are valid on exit and require no release.
+

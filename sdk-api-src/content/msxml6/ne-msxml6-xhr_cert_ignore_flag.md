@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
+ - _XHR_CERT_IGNORE_FLAG
  - XHR_CERT_IGNORE_FLAG
 ---
 
@@ -83,3 +84,4 @@ Ignore all server certificate errors.
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
+

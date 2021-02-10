@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
- - ITMSPAddress.Shutdown
+ - ITMSPAddress::Shutdown
 ---
 
 # ITMSPAddress::Shutdown
@@ -101,3 +101,4 @@ This method releases the terminals and releases the Terminal Manager. It release
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

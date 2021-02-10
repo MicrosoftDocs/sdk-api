@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyKeyProvInfo.PrivateKey
- - ICertPropertyKeyProvInfo.get_PrivateKey
+ - ICertPropertyKeyProvInfo::get_PrivateKey
 ---
 
 # ICertPropertyKeyProvInfo::get_PrivateKey
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a>
+

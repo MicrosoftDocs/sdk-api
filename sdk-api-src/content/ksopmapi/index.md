@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - ksopmapi
  - ksopmapi/ksopmapi
+api_name:
+ - ksopmapi
 ---
 
 # Ksopmapi.h header

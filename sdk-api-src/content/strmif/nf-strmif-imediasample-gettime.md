@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.GetTime
+ - IMediaSample::GetTime
 ---
 
 # IMediaSample::GetTime
@@ -118,3 +118,4 @@ Both time values are relative to the stream time. For more information, see <a h
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
+

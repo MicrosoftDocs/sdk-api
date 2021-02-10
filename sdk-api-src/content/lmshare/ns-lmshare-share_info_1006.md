@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
+ - _SHARE_INFO_1006
+ - PSHARE_INFO_1006
  - SHARE_INFO_1006
 ---
 
@@ -77,3 +79,4 @@ Specifies a DWORD value that indicates the maximum number of concurrent connecti
 
 
 <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
+

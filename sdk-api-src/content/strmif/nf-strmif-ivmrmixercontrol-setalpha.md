@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMixerControl.SetAlpha
+ - IVMRMixerControl::SetAlpha
 ---
 
 # IVMRMixerControl::SetAlpha
@@ -104,3 +104,4 @@ The alpha value specified can be between 0.0 (fully transparent) and 1.0 (full o
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

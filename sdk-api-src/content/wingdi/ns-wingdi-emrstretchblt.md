@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRSTRETCHBLT
+ - PEMRSTRETCHBLT
  - EMRSTRETCHBLT
 ---
 
@@ -153,3 +155,4 @@ Height of the source rectangle, in logical units.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
+

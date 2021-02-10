@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RtlIpv6StringToAddressExW
  - ip2string/RtlIpv6StringToAddressExW
+ - RtlIpv6StringToAddressEx
+ - ip2string/RtlIpv6StringToAddressEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdll.dll
 api_name:
- - RtlIpv6StringToAddressEx
- - RtlIpv6StringToAddressEx
  - RtlIpv6StringToAddressExW
+ - RtlIpv6StringToAddressEx
 ---
 
 # RtlIpv6StringToAddressExW function
@@ -195,3 +196,4 @@ An import library containing the <b>RtlIpv6StringToAddressEx</b> function is not
 
 
 <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.QueryUnallocatedDisks
+ - IVdsService::QueryUnallocatedDisks
 ---
 
 # IVdsService::QueryUnallocatedDisks
@@ -114,3 +114,4 @@ If the disk status is <b>VDS_DS_OFFLINE</b>, try to bring the disk online by cal
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
+

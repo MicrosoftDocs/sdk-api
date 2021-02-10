@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterDetach
+ - PIBIO_SENSOR_DETACH_FN
 ---
 
 # PIBIO_SENSOR_DETACH_FN callback function
@@ -201,3 +201,4 @@ SensorAdapterDetach(
 
 
 <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a>
+

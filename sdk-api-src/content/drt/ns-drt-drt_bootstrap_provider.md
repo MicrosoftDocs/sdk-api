@@ -46,6 +46,8 @@ api_type:
 api_location:
  - drt.h
 api_name:
+ - drt_bootstrap_provider_tag
+ - PDRT_BOOTSTRAP_PROVIDER
  - DRT_BOOTSTRAP_PROVIDER
 ---
 
@@ -198,3 +200,4 @@ This function deregisters an endpoint with the bootstrapping mechanism.  As a re
 #### pvContext
 
 Contains the <b>pvContext</b> value from <b>DRT_BOOTSTRAP_PROVIDER</b>.
+

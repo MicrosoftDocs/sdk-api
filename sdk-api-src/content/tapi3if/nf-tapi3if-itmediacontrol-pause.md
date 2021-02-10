@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITMediaControl.Pause
+ - ITMediaControl::Pause
 ---
 
 # ITMediaControl::Pause
@@ -66,3 +66,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-stop">Stop</a>
+

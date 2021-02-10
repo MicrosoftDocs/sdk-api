@@ -42,7 +42,7 @@ api_type:
 api_location:
  - playtomanagerinterop.h
 api_name:
- - IPlayToManagerInterop.GetForWindow
+ - IPlayToManagerInterop::GetForWindow
 ---
 
 # IPlayToManagerInterop::GetForWindow
@@ -85,3 +85,4 @@ You can use the <b>GetForWindow</b> method to get the <a href="/uwp/api/windows.
 
 
 <a href="/uwp/api/windows.media.playto.playtomanager">PlayToManager</a>
+

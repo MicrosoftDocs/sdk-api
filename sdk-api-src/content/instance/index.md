@@ -9,6 +9,8 @@ tech.root: wmi
 f1_keywords:
  - instance
  - instance/instance
+api_name:
+ - instance
 ---
 
 # Instance.h header

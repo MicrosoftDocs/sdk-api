@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBlockMapBlock.GetCompressedSize
+ - IAppxBlockMapBlock::GetCompressedSize
 ---
 
 # IAppxBlockMapBlock::GetCompressedSize
@@ -75,3 +75,4 @@ The <i>size</i> value corresponds to the <b>Size</b> attribute of the <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a>
+

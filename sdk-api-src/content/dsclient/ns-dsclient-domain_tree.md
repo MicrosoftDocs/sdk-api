@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Dsclient.h
 api_name:
- - DOMAINTREE
+ - PDOMAIN_TREE
+ - DOMAIN_TREE
 ---
 
 # DOMAIN_TREE structure
@@ -88,3 +89,4 @@ For more information about how to access and use the data in this structure, see
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a>
+

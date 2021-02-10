@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeyEventSink.OnKeyDown
+ - ITfKeyEventSink::OnKeyDown
 ---
 
 # ITfKeyEventSink::OnKeyDown
@@ -99,3 +99,4 @@ The method was successful.
 
 
 <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+

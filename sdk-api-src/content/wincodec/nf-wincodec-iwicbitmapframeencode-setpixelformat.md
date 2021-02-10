@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.SetPixelFormat
+ - IWICBitmapFrameEncode::SetPixelFormat
 ---
 
 # IWICBitmapFrameEncode::SetPixelFormat
@@ -106,3 +106,4 @@ The encoder might not support the requested pixel format. If not, <b>SetPixelFor
 
 
 <a href="/windows/desktop/wic/-wic-codec-native-pixel-formats">Native Pixel Formats</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorDataReport.GetTimestamp
+ - ISensorDataReport::GetTimestamp
 ---
 
 # ISensorDataReport::GetTimestamp
@@ -109,3 +109,4 @@ Time stamps use Universal Coordinated Time (UTC).
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
+

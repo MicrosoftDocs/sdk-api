@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.Text
- - IX509EnrollmentStatus.get_Text
- - IX509EnrollmentStatus.put_Text
+ - IX509EnrollmentStatus::get_Text
 ---
 
 # IX509EnrollmentStatus::get_Text
@@ -65,3 +63,4 @@ You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enr
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
+

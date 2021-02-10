@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICFormatConverter.CanConvert
+ - IWICFormatConverter::CanConvert
 ---
 
 # IWICFormatConverter::CanConvert
@@ -85,3 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/wic/-wic-codec-native-pixel-formats">Native Pixel Formats</a>
+

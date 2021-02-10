@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
+ - _WSAOVERLAPPED
+ - LPWSAOVERLAPPED
  - WSAOVERLAPPED
 ---
 
@@ -141,3 +143,4 @@ Reserved for use by service providers.
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>
+

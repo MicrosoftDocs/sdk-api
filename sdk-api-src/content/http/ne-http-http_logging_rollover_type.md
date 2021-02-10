@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_LOGGING_ROLLOVER_TYPE
+ - PHTTP_LOGGING_ROLLOVER_TYPE
  - HTTP_LOGGING_ROLLOVER_TYPE
 ---
 
@@ -210,3 +212,4 @@ The following table lists time element characters and what they represent. <tabl
 
 
 <a href="/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
+

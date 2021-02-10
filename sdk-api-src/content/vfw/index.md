@@ -9,6 +9,8 @@ tech.root: multimedia
 f1_keywords:
  - vfw
  - vfw/vfw
+api_name:
+ - vfw
 ---
 
 # Vfw.h header

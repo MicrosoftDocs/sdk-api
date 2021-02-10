@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapterList::GetAdapter
+f1_keywords:
+ - IDXCoreAdapterList::GetAdapter
+ - dxcore_interface/IDXCoreAdapterList::GetAdapter
 ---
 
 ## -description
@@ -84,3 +87,4 @@ Multiple calls passing an index that represents the same adapter return identica
 ## -see-also
 
 [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

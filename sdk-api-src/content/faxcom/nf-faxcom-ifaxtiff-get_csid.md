@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff.Csid
- - IFaxTiff.get_Csid
+ - IFaxTiff::get_Csid
 ---
 
 # IFaxTiff::get_Csid
@@ -86,3 +85,4 @@ The <b>get_Csid</b> method allocates the memory required for the buffer pointed 
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

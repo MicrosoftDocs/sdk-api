@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMINT4.XMINT4
+ - XMINT4::XMINT4
 ---
 
 # XMINT4::XMINT4(int32_t,int32_t,int32_t,int32_t)
@@ -109,3 +109,4 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmint4-xmint4(constint32_t)">XMINT4 Constructors</a>
+

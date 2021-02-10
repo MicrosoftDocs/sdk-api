@@ -43,7 +43,7 @@ api_location:
  - d3dcsx.lib
  - d3dcsx.dll
 api_name:
- - ID3DX11FFT.ForwardTransform
+ - ID3DX11FFT::ForwardTransform
 ---
 
 # ID3DX11FFT::ForwardTransform
@@ -85,3 +85,4 @@ The format of complex data is interleaved components (for example, (Real0, Imag0
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11fft">ID3DX11FFT</a>
+

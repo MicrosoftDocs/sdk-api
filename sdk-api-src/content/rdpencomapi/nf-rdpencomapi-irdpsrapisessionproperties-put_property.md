@@ -42,10 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPISessionProperties.Property
- - IRDPSRAPISessionProperties.get_Property
- - IRDPSRAPISessionProperties.put_Property
- - RDPSRAPISessionProperties.Property
+ - IRDPSRAPISessionProperties::put_Property
 ---
 
 # IRDPSRAPISessionProperties::put_Property
@@ -291,3 +288,4 @@ This property is valid for the sharer side only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisessionproperties">IRDPSRAPISessionProperties</a>
+

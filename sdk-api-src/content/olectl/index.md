@@ -9,6 +9,8 @@ tech.root: automat
 f1_keywords:
  - olectl
  - olectl/olectl
+api_name:
+ - olectl
 ---
 
 # Olectl.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteTextAnalysisSource.GetLocaleName
+ - IDWriteTextAnalysisSource::GetLocaleName
 ---
 
 # IDWriteTextAnalysisSource::GetLocaleName

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
+ - tagUpdateLockdownOption
  - UpdateLockdownOption
 ---
 
@@ -208,3 +209,4 @@ In the following table, the first column lists the interfaces that  implement th
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatelockdown-lockdown">IUpdateLockdown::LockDown</a>
+

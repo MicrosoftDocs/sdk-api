@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_LUN_NOTIFICATION
  - VDS_LUN_NOTIFICATION
 ---
 
@@ -140,3 +141,4 @@ To get the LUN object, use the <a href="/windows/desktop/api/vds/nf-vds-ivdsserv
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
+

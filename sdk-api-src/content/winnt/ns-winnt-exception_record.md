@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _EXCEPTION_RECORD
  - EXCEPTION_RECORD
 ---
 
@@ -381,3 +382,4 @@ typedef struct _EXCEPTION_RECORD64 {
 
 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>
+

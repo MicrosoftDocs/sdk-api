@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
+ - tagSMDATA
+ - LPSMDATA
  - SMDATA
 ---
 
@@ -125,3 +127,4 @@ A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-is
 Type: <b>void*</b>
 
 A pointer to a user-defined data structure.
+

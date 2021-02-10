@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccDictionary.LookupMnemonicTerm
+ - IAccDictionary::LookupMnemonicTerm
 ---
 
 # IAccDictionary::LookupMnemonicTerm
@@ -78,3 +78,4 @@ If successful, returns S_OK.
 ## -remarks
 
 If the <i>bstrMnemonic</i> parameter is not found in the dictionary, then <i>pTerm</i> will be <b>NULL</b>.
+

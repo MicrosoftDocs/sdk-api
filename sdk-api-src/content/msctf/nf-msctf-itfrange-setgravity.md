@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.SetGravity
+ - ITfRange::SetGravity
 ---
 
 # ITfRange::SetGravity
@@ -133,3 +133,4 @@ The cookie in <i>ec</i> is invalid.
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a>
+

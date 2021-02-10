@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
+ - _PERFORMANCE_INFORMATION
+ - PPERFORMANCE_INFORMATION
  - PERFORMANCE_INFORMATION
 ---
 
@@ -121,3 +123,4 @@ The current number of threads.
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
+

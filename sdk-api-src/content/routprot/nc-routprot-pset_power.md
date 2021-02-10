@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - SetPower
+ - PSET_POWER
 ---
 
 # PSET_POWER callback function
@@ -66,3 +66,4 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pquery_power">QueryPower</a>
+

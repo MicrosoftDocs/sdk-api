@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetEnableTCP
+ - IWMReaderNetworkConfig::GetEnableTCP
 ---
 
 # IWMReaderNetworkConfig::GetEnableTCP
@@ -109,3 +109,4 @@ NULL or invalid argument passed in.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp">IWMReaderNetworkConfig::SetEnableUDP</a>
+

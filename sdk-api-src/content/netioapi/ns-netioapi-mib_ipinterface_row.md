@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
+ - _MIB_IPINTERFACE_ROW
+ - PMIB_IPINTERFACE_ROW
  - MIB_IPINTERFACE_ROW
 ---
 
@@ -496,3 +498,4 @@ To view an example that retrieves the <a href="/windows/desktop/api/netioapi/ns-
 
 
 <a href="/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a>
+

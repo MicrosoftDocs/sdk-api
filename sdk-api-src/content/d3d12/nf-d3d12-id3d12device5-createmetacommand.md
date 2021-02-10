@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Device5.CreateMetaCommand
+ - ID3D12Device5::CreateMetaCommand
 ---
 
 ## -description

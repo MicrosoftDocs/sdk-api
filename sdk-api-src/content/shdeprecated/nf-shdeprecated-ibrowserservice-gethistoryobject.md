@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService.GetHistoryObject
+ - IBrowserService::GetHistoryObject
 ---
 
 # IBrowserService::GetHistoryObject
@@ -87,3 +87,4 @@ If <i>pstm</i> is not <b>NULL</b>, you can call <a href="/windows/desktop/api/un
 <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> and <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> can be passed to <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768216(v=vs.85)">IPersistHistory::LoadHistory</a>.
 
 The calling application must release all three pointers if non-<b>NULL</b>.
+

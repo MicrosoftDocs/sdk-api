@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage4.GetReferences
+ - IWMDMStorage4::GetReferences
 ---
 
 # IWMDMStorage4::GetReferences
@@ -122,3 +122,4 @@ if (pStorage4 != NULL)
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-setreferences">IWMDMStorage4::SetReferences</a>
+

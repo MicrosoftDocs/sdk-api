@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_CREATE_CONTEXT_PARA
+ - PCERT_CREATE_CONTEXT_PARA
  - CERT_CREATE_CONTEXT_PARA
 ---
 
@@ -89,3 +91,4 @@ This member is only present for a <b>CERT_STORE_CTL_CONTEXT</b> when the <b>CERT
 
 
 <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_create_context_sort_func">PFN_CERT_CREATE_CONTEXT_SORT_FUNC</a>
+

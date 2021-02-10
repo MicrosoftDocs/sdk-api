@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
+ - LPINTERNET_SCHEME
  - INTERNET_SCHEME
 ---
 
@@ -133,3 +134,4 @@ Highest known scheme value.
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a>
+

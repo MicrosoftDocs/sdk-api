@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.CompareTo
+ - IWbemClassObject::CompareTo
 ---
 
 # IWbemClassObject::CompareTo
@@ -124,3 +124,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_comparison_flag">WBEM_COMPARISON_FLAG</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspStatuses.ItemByProvider
- - ICspStatuses.get_ItemByProvider
+ - ICspStatuses::get_ItemByProvider
 ---
 
 # ICspStatuses::get_ItemByProvider
@@ -72,3 +71,4 @@ To use this property to iterate through the collection, perform the following st
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
+

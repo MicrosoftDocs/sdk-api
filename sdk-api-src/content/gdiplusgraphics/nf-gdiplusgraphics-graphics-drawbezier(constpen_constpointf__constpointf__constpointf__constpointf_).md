@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawBezier
+ - Graphics::DrawBezier
 ---
 
 # Graphics::DrawBezier(IN const Pen,IN const PointF &,IN const PointF &,IN const PointF &,IN const PointF &)
@@ -160,3 +160,4 @@ VOID Example_DrawBezier2(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

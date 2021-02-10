@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance.Setbool
- - ?Setbool@CInstance@@QAE_NPBG_N@Z
- - ?Setbool@CInstance@@QEAA_NPEBG_N@Z
+ - CInstance::Setbool
 ---
 
 # CInstance::Setbool
@@ -74,3 +72,4 @@ Value assigned to the Boolean property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a non-Boolean property or a property that does not exist. More information is available in the log file, Framework.log.
+

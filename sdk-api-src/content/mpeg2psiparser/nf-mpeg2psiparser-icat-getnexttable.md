@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mpeg2psiparser.h
 api_name:
- - ICAT.GetNextTable
+ - ICAT::GetNextTable
 ---
 
 # ICAT::GetNextTable
@@ -118,3 +118,4 @@ This method applies only to current tables. Otherwise, the method returns E_ACCE
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
+

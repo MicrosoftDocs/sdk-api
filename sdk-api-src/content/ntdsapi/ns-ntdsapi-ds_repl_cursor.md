@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - _DS_REPL_CURSOR
  - DS_REPL_CURSOR
 ---
 
@@ -76,3 +77,4 @@ Contains the maximum update sequence number to which the destination server can 
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
+

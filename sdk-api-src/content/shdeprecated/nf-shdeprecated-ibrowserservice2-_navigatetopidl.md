@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2._NavigateToPidl
+ - IBrowserService2::_NavigateToPidl
 ---
 
 # IBrowserService2::_NavigateToPidl
@@ -146,3 +146,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-navigatetopidl">NavigateToPidl</a>
+

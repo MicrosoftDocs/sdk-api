@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
+ - tag_SCRIPT_VISATTR
  - SCRIPT_VISATTR
 ---
 
@@ -176,3 +177,4 @@ Reserved; for use by shaping engines.
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnEndEditTransaction
+ - ITextStoreAnchorSink::OnEndEditTransaction
 ---
 
 # ITextStoreAnchorSink::OnEndEditTransaction
@@ -108,3 +108,4 @@ Use of edit transactions is optional.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction
       </a>
+

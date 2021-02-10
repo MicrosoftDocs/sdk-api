@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices.TxSetText
+ - ITextServices::TxSetText
 ---
 
 # ITextServices::TxSetText
@@ -127,3 +127,4 @@ Two alternate approaches to setting text are <a href="/windows/desktop/winmsg/wm
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

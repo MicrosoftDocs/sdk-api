@@ -45,6 +45,7 @@ api_location:
  - windns.h
 api_name:
  - _DNS_SERVICE_BROWSE_REQUEST
+ - PDNS_SERVICE_BROWSE_REQUEST
  - DNS_SERVICE_BROWSE_REQUEST
 ---
 

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWatermarkInfo.GetWatermarkEntryCount
+ - IWMWatermarkInfo::GetWatermarkEntryCount
 ---
 
 # IWMWatermarkInfo::GetWatermarkEntryCount
@@ -98,3 +98,4 @@ No watermarking DMOs are provided with the Windows Media Format SDK. You can ins
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwatermarkinfo-getwatermarkentry">IWMWatermarkInfo::GetWatermarkEntry</a>
+

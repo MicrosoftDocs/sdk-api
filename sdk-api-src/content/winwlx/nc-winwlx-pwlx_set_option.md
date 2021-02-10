@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxSetOption
+ - PWLX_SET_OPTION
 ---
 
 # PWLX_SET_OPTION callback function
@@ -131,3 +131,4 @@ Use
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertProperty.SetValueOnCertificate
+ - ICertProperty::SetValueOnCertificate
 ---
 
 # ICertProperty::SetValueOnCertificate
@@ -125,3 +125,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-in
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
+

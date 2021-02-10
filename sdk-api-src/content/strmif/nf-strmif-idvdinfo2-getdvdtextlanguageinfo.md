@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetDVDTextLanguageInfo
+ - IDvdInfo2::GetDVDTextLanguageInfo
 ---
 
 # IDvdInfo2::GetDVDTextLanguageInfo
@@ -145,3 +145,4 @@ To get a particular text string, call <a href="/windows/desktop/api/strmif/nf-st
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
+

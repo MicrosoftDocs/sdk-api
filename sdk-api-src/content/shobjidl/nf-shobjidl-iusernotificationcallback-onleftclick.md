@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IUserNotificationCallback.OnLeftClick
+ - IUserNotificationCallback::OnLeftClick
 ---
 
 # IUserNotificationCallback::OnLeftClick
@@ -65,3 +65,4 @@ Takes a pointer to the <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

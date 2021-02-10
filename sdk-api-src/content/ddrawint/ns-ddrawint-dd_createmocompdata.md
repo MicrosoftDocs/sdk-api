@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_CREATEMOCOMPDATA
+ - PDD_CREATEMOCOMPDATA
  - DD_CREATEMOCOMPDATA
 ---
 
@@ -97,3 +99,4 @@ Specifies the location in which the driver writes the return value of the <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_create">DdMoCompCreate</a>
+

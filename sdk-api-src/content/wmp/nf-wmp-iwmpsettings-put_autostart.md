@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings.put_autoStart
+ - IWMPSettings::put_autoStart
 ---
 
 # IWMPSettings::put_autoStart
@@ -109,3 +109,4 @@ You should set <b>put_autoStart</b> to <b>FALSE</b> immediately before you set <
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_autostart">IWMPSettings::get_autoStart</a>
+

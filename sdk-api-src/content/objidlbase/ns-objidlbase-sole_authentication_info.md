@@ -46,6 +46,8 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
+ - tagSOLE_AUTHENTICATION_INFO
+ - PSOLE_AUTHENTICATION_INFO
  - SOLE_AUTHENTICATION_INFO
 ---
 
@@ -89,3 +91,4 @@ For authentication services not registered with DCOM, <b>pAuthInfo</b> must be s
 
 
 <a href="/windows/desktop/api/objidl/ns-objidl-sole_authentication_list">SOLE_AUTHENTICATION_LIST</a>
+

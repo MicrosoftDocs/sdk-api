@@ -9,6 +9,8 @@ tech.root: tablet
 f1_keywords:
  - inked
  - inked/inked
+api_name:
+ - inked
 ---
 
 # Inked.h header

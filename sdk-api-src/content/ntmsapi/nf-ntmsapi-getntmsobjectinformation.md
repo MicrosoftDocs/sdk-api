@@ -43,8 +43,6 @@ api_location:
  - Ntmsapi.dll
 api_name:
  - GetNtmsObjectInformation
- - GetNtmsObjectInformationA
- - GetNtmsObjectInformationW
 ---
 
 # GetNtmsObjectInformation function
@@ -250,3 +248,4 @@ The following is the list of objects that require special access rights.
 
 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>
+

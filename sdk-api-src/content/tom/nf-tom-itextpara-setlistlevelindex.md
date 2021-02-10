@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.SetListLevelIndex
+ - ITextPara::SetListLevelIndex
 ---
 
 # ITextPara::SetListLevelIndex
@@ -151,3 +151,4 @@ Setting the list level index does not automatically change a list's indentation 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

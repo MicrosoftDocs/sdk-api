@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComMethodEvents.OnMethodCall
+ - IComMethodEvents::OnMethodCall
 ---
 
 # IComMethodEvents::OnMethodCall
@@ -81,3 +81,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icommethodevents">IComMethodEvents</a>
+

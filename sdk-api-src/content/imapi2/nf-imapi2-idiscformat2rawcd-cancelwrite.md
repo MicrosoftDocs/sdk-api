@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.CancelWrite
+ - IDiscFormat2RawCD::CancelWrite
 ---
 
 # IDiscFormat2RawCD::CancelWrite
@@ -108,3 +108,4 @@ This method leaves the media in an indeterminate state. For rewriteable media, y
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+

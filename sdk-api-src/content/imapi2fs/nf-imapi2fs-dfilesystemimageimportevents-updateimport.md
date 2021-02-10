@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - DFileSystemImageImportEvents.UpdateImport
+ - DFileSystemImageImportEvents::UpdateImport
 ---
 
 # DFileSystemImageImportEvents::UpdateImport
@@ -113,3 +113,4 @@ If the <i>currentItem</i> is a directory, it contains a back slash '\' at the en
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageimportevents">DFileSystemImageImportEvents</a>
+

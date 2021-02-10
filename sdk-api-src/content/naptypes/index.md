@@ -9,6 +9,8 @@ tech.root: nap
 f1_keywords:
  - naptypes
  - naptypes/naptypes
+api_name:
+ - naptypes
 ---
 
 # Naptypes.h header

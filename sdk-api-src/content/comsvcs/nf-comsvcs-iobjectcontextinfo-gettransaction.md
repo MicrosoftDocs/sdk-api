@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectContextInfo.GetTransaction
+ - IObjectContextInfo::GetTransaction
 ---
 
 # IObjectContextInfo::GetTransaction
@@ -95,3 +95,4 @@ The object is not executing in a transaction. The <i>pptrans</i> parameter is <b
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
+ - _CMINVOKECOMMANDINFO
  - CMINVOKECOMMANDINFO
 ---
 
@@ -209,3 +210,4 @@ An icon to use for any application activated by the command. If the <b>fMask</b>
 ## -remarks
 
 Although the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <b>CMINVOKECOMMANDINFO</b> structure for the <i>pici</i> parameter, it can also accept a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed.
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.Name
- - IFsrmPipelineModuleDefinition.get_Name
- - IFsrmPipelineModuleDefinition.put_Name
+ - IFsrmPipelineModuleDefinition::get_Name
 ---
 
 # IFsrmPipelineModuleDefinition::get_Name
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
+

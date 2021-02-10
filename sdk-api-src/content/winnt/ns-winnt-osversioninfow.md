@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - OSVERSIONINFO
- - OSVERSIONINFOA
+ - _OSVERSIONINFOW
+ - POSVERSIONINFOW
  - OSVERSIONINFOW
 ---
 
@@ -252,3 +252,4 @@ For an example, see
 
 
 <a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper APIs</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.SetKeepTogether
+ - ITextPara::SetKeepTogether
 ---
 
 # ITextPara::SetKeepTogether
@@ -191,3 +191,4 @@ This property corresponds to the PFE_KEEP effect described in the <a href="/wind
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

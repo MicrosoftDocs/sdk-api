@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_sslinit
- - ldap_sslinitA
- - ldap_sslinitW
 ---
 
 # ldap_sslinit function
@@ -113,3 +111,4 @@ Microsoft implements security features, like SSL, through its SSPI capabilities.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
+

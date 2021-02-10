@@ -43,11 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMBackupCollection
- - IGPMBackupCollection.Count
- - IGPMBackupCollection.get_Count
- - IGPMBackupCollection.Item
- - IGPMBackupCollection.get_Item
- - GPMBackupCollection
 ---
 
 # IGPMBackupCollection interface
@@ -87,3 +82,4 @@ For more information, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>
+

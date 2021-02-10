@@ -44,7 +44,7 @@ api_location:
  - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - WerUnRegisterCustomMetadata
+ - WerUnregisterCustomMetadata
 ---
 
 # WerUnregisterCustomMetadata function
@@ -104,3 +104,4 @@ WER could not find the metadata item to remove.
 
 
 <a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+

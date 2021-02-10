@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoMixerBitmap.GetAlphaBitmapParameters
+ - IMFVideoMixerBitmap::GetAlphaBitmapParameters
 ---
 
 # IMFVideoMixerBitmap::GetAlphaBitmapParameters
@@ -103,3 +103,4 @@ This method returns the current values of all the blending parameters, not just 
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>
+

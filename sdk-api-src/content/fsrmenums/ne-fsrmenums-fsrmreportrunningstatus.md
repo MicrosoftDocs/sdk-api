@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmReportRunningStatus
  - FsrmReportRunningStatus
 ---
 
@@ -75,3 +76,4 @@ The report job is running.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_runningstatus">IFsrmReportJob::RunningStatus</a>
+

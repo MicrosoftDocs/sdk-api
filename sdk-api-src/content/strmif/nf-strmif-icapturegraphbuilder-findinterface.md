@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - ICaptureGraphBuilder.FindInterface
+ - ICaptureGraphBuilder::FindInterface
 ---
 
 # ICaptureGraphBuilder::FindInterface
@@ -91,3 +91,4 @@ If <i>pCategory</i> equals &amp;LOOK_DOWNSTREAM_ONLY, then the graph builder wil
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
+

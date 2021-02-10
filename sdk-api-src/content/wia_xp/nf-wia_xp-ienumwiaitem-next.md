@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IEnumWiaItem.Next
+ - IEnumWiaItem::Next
 ---
 
 # IEnumWiaItem::Next
@@ -88,3 +88,4 @@ To obtain the list of pointers, the application passes an array of <a href="/win
 Until the enumeration process completes, the <b>IEnumWiaItem::Next</b> method returns S_OK. Each time it does, it sets the value pointed to by <i>pceltFetched</i> to the number of items it inserted into the array. When <b>IEnumWiaItem::Next</b> finishes the process of enumerating <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects, it returns S_FALSE and sets the memory location pointed to by <i>pceltFetched</i> to zero.
 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
+ - _D3D12_SHADER_VARIABLE_DESC
  - D3D12_SHADER_VARIABLE_DESC
 ---
 
@@ -101,3 +102,4 @@ Get a shader-variable description using reflection by calling <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
+

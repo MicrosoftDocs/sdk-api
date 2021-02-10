@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _RAS_CONNECTION_3
+ - PRAS_CONNECTION_3
  - RAS_CONNECTION_3
 ---
 
@@ -127,3 +129,4 @@ A FILETIME structure that specifies the time required for the connection to come
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

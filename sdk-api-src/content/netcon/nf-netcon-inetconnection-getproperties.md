@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetConnection.GetProperties
+ - INetConnection::GetProperties
 ---
 
 # INetConnection::GetProperties
@@ -179,3 +179,4 @@ The calling application should free the memory occupied by the
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+

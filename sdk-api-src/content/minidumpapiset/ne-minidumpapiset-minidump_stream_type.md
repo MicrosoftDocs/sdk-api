@@ -44,6 +44,7 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_STREAM_TYPE
  - MINIDUMP_STREAM_TYPE
 ---
 
@@ -262,3 +263,4 @@ The <b>StreamType</b> member of the
 
 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream">MINIDUMP_USER_STREAM</a>
+

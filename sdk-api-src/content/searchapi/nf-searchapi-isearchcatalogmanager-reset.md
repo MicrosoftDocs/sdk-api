@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCatalogManager.Reset
+ - ISearchCatalogManager::Reset
 ---
 
 # ISearchCatalogManager::Reset

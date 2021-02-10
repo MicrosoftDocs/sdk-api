@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IHolder.TrackResource
+ - IHolder::TrackResource
 ---
 
 # IHolder::TrackResource
@@ -130,3 +130,4 @@ This resource is eventually destroyed after both of the following are true:
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
+

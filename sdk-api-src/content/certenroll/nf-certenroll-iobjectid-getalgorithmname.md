@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IObjectId.GetAlgorithmName
+ - IObjectId::GetAlgorithmName
 ---
 
 # IObjectId::GetAlgorithmName
@@ -132,3 +132,4 @@ If you set the <i>GroupId</i> parameter to anything other than <b>XCN_CRYPT_PUBK
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>
+

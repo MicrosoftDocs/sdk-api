@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.EnumFiles
+ - IBackgroundCopyJob::EnumFiles
 ---
 
 # IBackgroundCopyJob::EnumFiles
@@ -71,3 +71,4 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 <a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a>
+

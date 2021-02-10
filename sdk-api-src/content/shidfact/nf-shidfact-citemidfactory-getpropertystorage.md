@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shidfact.h
 api_name:
- - CItemIDFactory.GetPropertyStorage
+ - CItemIDFactory::GetPropertyStorage
 ---
 
 # CItemIDFactory::GetPropertyStorage
@@ -69,3 +69,4 @@ If this method succeeds, it returns a read only pointer to the serialized proper
 ## -see-also
 
 <a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
+

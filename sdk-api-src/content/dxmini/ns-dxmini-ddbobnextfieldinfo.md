@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
+ - _DDBOBNEXTFIELDINFO
+ - PDDBOBNEXTFIELDINFO
  - DDBOBNEXTFIELDINFO
 ---
 
@@ -69,3 +71,4 @@ Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURF
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_bobnextfield">DxBobNextField</a>
+

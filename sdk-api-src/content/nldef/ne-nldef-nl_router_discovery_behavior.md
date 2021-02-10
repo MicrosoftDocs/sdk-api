@@ -44,6 +44,7 @@ api_type:
 api_location:
  - nldef.h
 api_name:
+ - _NL_ROUTER_DISCOVERY_BEHAVIOR
  - NL_ROUTER_DISCOVERY_BEHAVIOR
 ---
 

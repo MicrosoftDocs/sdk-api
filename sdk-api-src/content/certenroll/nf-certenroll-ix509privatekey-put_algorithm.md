@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.Algorithm
- - IX509PrivateKey.get_Algorithm
- - IX509PrivateKey.put_Algorithm
+ - IX509PrivateKey::put_Algorithm
 ---
 
 # IX509PrivateKey::put_Algorithm
@@ -65,3 +63,4 @@ This property is automatically set when the <a href="/windows/desktop/api/certen
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Comcat.h
 api_name:
+ - tagCATEGORYINFO
+ - LPCATEGORYINFO
  - CATEGORYINFO
 ---
 
@@ -73,3 +75,4 @@ The description of the category (cannot exceed 128 characters).
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
+

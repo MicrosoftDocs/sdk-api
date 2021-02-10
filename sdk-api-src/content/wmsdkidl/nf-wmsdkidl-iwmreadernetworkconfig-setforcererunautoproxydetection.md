@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetForceRerunAutoProxyDetection
+ - IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection
 ---
 
 # IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection
@@ -107,3 +107,4 @@ Setting <i>fForceRerunDetection</i> to True applies to all protocols when the au
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getforcererunautoproxydetection">IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection</a>
+

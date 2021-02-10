@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_AH_DROP_PACKET_STATISTICS0_
  - IPSEC_AH_DROP_PACKET_STATISTICS0
 ---
 
@@ -79,3 +80,4 @@ Number of inbound drops for packets received on SAs that were not fully initiali
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

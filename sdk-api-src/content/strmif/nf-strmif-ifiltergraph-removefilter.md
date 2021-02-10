@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph.RemoveFilter
+ - IFilterGraph::RemoveFilter
 ---
 
 # IFilterGraph::RemoveFilter
@@ -114,3 +114,4 @@ The Filter Graph Manager notifies the filter that it is being removed by calling
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - PDNS_KEY_DATA
  - DNS_KEY_DATA
 ---
 
@@ -176,3 +177,4 @@ The value of the <b>wFlags</b> member for <a href="/previous-versions/windows/de
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

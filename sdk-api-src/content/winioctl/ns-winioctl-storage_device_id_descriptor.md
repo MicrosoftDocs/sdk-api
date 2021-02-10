@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_DEVICE_ID_DESCRIPTOR
+ - PSTORAGE_DEVICE_ID_DESCRIPTOR
  - STORAGE_DEVICE_ID_DESCRIPTOR
 ---
 
@@ -101,3 +103,4 @@ The device ID descriptor consists of an array of device IDs taken from the SCSI-
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
+

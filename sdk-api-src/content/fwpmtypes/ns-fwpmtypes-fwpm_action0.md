@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_ACTION0_
  - FWPM_ACTION0
 ---
 
@@ -150,3 +151,4 @@ Available when the action invokes a callout, that is, <b>type</b> contains  <b>F
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

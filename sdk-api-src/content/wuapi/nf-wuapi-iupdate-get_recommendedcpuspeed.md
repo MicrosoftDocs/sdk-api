@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.RecommendedCPUSpeed
- - IUpdate.get_RecommendedCPUSpeed
+ - IUpdate::get_RecommendedCpuSpeed
 ---
 
 # IUpdate::get_RecommendedCpuSpeed
@@ -74,3 +73,4 @@ The following properties of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iup
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

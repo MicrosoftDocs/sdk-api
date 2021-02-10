@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyRequestOriginator.RequestOriginator
- - ICertPropertyRequestOriginator.get_RequestOriginator
+ - ICertPropertyRequestOriginator::get_RequestOriginator
 ---
 
 # ICertPropertyRequestOriginator::get_RequestOriginator
@@ -64,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyreq
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrequestoriginator">ICertPropertyRequestOriginator</a>
+

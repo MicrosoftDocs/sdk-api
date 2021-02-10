@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMAnalogVideoEncoder.get_TVFormat
+ - IAMAnalogVideoEncoder::get_TVFormat
 ---
 
 # IAMAnalogVideoEncoder::get_TVFormat
@@ -75,3 +75,4 @@ Possible values and their meaning are defined in the [AnalogVideoStandard](/wind
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideoencoder">IAMAnalogVideoEncoder Interface</a>
+

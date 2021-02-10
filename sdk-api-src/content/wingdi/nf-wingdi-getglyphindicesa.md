@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetGlyphIndicesA
  - wingdi/GetGlyphIndicesA
+ - GetGlyphIndices
+ - wingdi/GetGlyphIndices
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetGlyphIndices
  - GetGlyphIndicesA
- - GetGlyphIndicesW
+ - GetGlyphIndices
 ---
 
 # GetGlyphIndicesA function
@@ -126,3 +127,4 @@ This function attempts to identify a single-glyph representation for each charac
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontunicoderanges">GetFontUnicodeRanges</a>
+

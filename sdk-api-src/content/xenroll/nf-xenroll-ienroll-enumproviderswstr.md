@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.enumProvidersWStr
+ - IEnroll::enumProvidersWStr
 ---
 
 # IEnroll::enumProvidersWStr
@@ -85,3 +85,4 @@ The <b>enumProvidersWStr</b> method  calls the
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

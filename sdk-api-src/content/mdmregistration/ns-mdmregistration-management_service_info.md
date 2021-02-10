@@ -46,6 +46,8 @@ api_type:
 api_location:
  - MDMRegistration.h
 api_name:
+ - _MANAGEMENT_SERVICE_INFO
+ - PMANAGEMENT_SERVICE_INFO
  - MANAGEMENT_SERVICE_INFO
 ---
 
@@ -73,3 +75,4 @@ The URI of the Authentication service.
 
 
 <a href="/windows/desktop/MDMReg/mdm-registration-structures">MDM Registration Structures</a>
+

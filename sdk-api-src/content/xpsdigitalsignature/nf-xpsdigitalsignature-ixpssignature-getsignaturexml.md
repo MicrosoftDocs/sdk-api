@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignature.GetSignatureXml
+ - IXpsSignature::GetSignatureXml
 ---
 
 # IXpsSignature::GetSignatureXml
@@ -122,3 +122,4 @@ This method allocates the memory buffer whose pointer is returned in <i>signatur
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

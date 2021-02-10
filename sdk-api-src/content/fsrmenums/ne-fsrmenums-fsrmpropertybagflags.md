@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmPropertyBagFlags
  - FsrmPropertyBagFlags
 ---
 
@@ -75,3 +76,4 @@ The properties in the property bag may only be partially classified because a fa
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_propertybagflags">IFsrmPropertyBag::PropertyBagFlags</a>
+

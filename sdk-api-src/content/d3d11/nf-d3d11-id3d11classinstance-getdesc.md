@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11ClassInstance.GetDesc
+ - ID3D11ClassInstance::GetDesc
 ---
 
 # ID3D11ClassInstance::GetDesc
@@ -87,3 +87,4 @@ An instance does not replace the importance of reflection for a particular shade
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a>
+

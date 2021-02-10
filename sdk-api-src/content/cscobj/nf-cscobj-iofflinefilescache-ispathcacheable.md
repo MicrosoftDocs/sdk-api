@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.IsPathCacheable
+ - IOfflineFilesCache::IsPathCacheable
 ---
 
 # IOfflineFilesCache::IsPathCacheable
@@ -144,3 +144,4 @@ These settings are configured as attributes of the shared folder on the server b
 
 
 <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Ws2ipdef.h
 api_name:
- - SOCKADDR_IN6
+ - sockaddr_in6
+ - PSOCKADDR_IN6_LH
+ - SOCKADDR_IN6_LH
 ---
 
 # SOCKADDR_IN6_LH structure
@@ -196,3 +198,4 @@ The size of the SOCKADDR_IN6 structure is too large to fit in the memory space t
 
 
 [SOCKADDR_STORAGE](../ws2def/ns-ws2def-sockaddr_storage_lh.md)
+

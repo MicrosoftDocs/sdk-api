@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel.EnableTsf
+ - IPenInputPanel::EnableTsf
 ---
 
 # IPenInputPanel::EnableTsf
@@ -152,3 +152,4 @@ If successful, text is sent to the attached control through TSF. Furthermore, if
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
+

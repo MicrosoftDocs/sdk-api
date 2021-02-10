@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcProtseqVectorFreeW
  - rpcdce/RpcProtseqVectorFreeW
+ - RpcProtseqVectorFree
+ - rpcdce/RpcProtseqVectorFree
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcProtseqVectorFree
- - RpcProtseqVectorFreeA
  - RpcProtseqVectorFreeW
+ - RpcProtseqVectorFree
 ---
 
 # RpcProtseqVectorFreeW function
@@ -110,3 +111,4 @@ A server obtains a vector of protocol sequences by calling
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_LOGOTYPE_AUDIO_INFO
+ - PCERT_LOGOTYPE_AUDIO_INFO
  - CERT_LOGOTYPE_AUDIO_INFO
 ---
 
@@ -121,3 +123,4 @@ The address of a null-terminated IA5 string that contains the RFC 3066 language 
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_audio">CERT_LOGOTYPE_AUDIO</a>
+

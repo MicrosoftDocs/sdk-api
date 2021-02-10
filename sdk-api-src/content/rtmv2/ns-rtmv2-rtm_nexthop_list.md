@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
+ - _RTM_NEXTHOP_LIST
+ - PRTM_NEXTHOP_LIST
  - RTM_NEXTHOP_LIST
 ---
 
@@ -70,3 +72,4 @@ Array of next-hop handles.
 ## -see-also
 
 <a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>
+

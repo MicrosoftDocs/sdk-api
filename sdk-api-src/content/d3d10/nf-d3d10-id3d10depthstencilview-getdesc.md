@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10DepthStencilView.GetDesc
+ - ID3D10DepthStencilView::GetDesc
 ---
 
 # ID3D10DepthStencilView::GetDesc
@@ -64,3 +64,4 @@ Pointer to a depth-stencil-view description (see <a href="/windows/desktop/api/d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10depthstencilview">ID3D10DepthStencilView Interface</a>
+

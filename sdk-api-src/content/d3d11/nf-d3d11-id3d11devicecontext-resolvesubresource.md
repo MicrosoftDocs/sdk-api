@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.ResolveSubresource
+ - ID3D11DeviceContext::ResolveSubresource
 ---
 
 # ID3D11DeviceContext::ResolveSubresource
@@ -122,3 +122,4 @@ For example, given the DXGI_FORMAT_R16G16B16A16_TYPELESS format:
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

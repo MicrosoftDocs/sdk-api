@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcCertGeneratePrincipalName
- - RpcCertGeneratePrincipalNameA
- - RpcCertGeneratePrincipalNameW
 ---
 
 # RpcCertGeneratePrincipalName function
@@ -91,3 +89,4 @@ Your application must call
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

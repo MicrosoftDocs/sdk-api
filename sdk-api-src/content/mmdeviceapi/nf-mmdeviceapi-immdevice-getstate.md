@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDevice.GetState
+ - IMMDevice::GetState
 ---
 
 # IMMDevice::GetState
@@ -91,3 +91,4 @@ Parameter <i>pdwState</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
+

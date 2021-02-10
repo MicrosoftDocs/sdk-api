@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_FILTER_CHANGE_CODE
  - MMC_FILTER_CHANGE_CODE
 ---
 
@@ -82,3 +83,4 @@ The filter value of a column in a result view filter list has changed. The <i>pa
 
 
 <a href="/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>
+

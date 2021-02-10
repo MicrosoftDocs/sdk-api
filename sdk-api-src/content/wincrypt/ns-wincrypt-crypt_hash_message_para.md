@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_HASH_MESSAGE_PARA
+ - PCRYPT_HASH_MESSAGE_PARA
  - CRYPT_HASH_MESSAGE_PARA
 ---
 
@@ -106,3 +108,4 @@ Not currently used, and must be set to <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagehash">CryptVerifyMessageHash</a>
+

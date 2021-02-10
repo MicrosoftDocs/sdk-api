@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - L2TP_CONFIG_PARAMS
- - L2TP_CONFIG_PARAMS0
+ - _L2TP_CONFIG_PARAMS1
+ - PL2TP_CONFIG_PARAMS1
  - L2TP_CONFIG_PARAMS1
 ---
 
@@ -154,3 +154,4 @@ If set, routing is enabled on the device.
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
+

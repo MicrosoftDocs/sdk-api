@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPTNET_URL_CACHE_PRE_FETCH_INFO
+ - PCRYPTNET_URL_CACHE_PRE_FETCH_INFO
  - CRYPTNET_URL_CACHE_PRE_FETCH_INFO
 ---
 
@@ -230,3 +232,4 @@ NextPublishTime
 </td>
 </tr>
 </table>
+

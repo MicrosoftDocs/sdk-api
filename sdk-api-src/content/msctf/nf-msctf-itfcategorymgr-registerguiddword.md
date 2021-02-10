@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfCategoryMgr.RegisterGUIDDWORD
+ - ITfCategoryMgr::RegisterGUIDDWORD
 ---
 
 # ITfCategoryMgr::RegisterGUIDDWORD

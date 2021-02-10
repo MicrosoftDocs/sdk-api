@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
+ - PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR
  - MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
 ---
 

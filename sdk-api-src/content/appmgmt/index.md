@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - appmgmt
  - appmgmt/appmgmt
+api_name:
+ - appmgmt
 ---
 
 # Appmgmt.h header

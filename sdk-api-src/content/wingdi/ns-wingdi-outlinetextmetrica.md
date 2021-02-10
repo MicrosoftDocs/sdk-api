@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - OUTLINETEXTMETRIC
+ - _OUTLINETEXTMETRICA
+ - POUTLINETEXTMETRICA
  - OUTLINETEXTMETRICA
- - OUTLINETEXTMETRICW
 ---
 
 # OUTLINETEXTMETRICA structure
@@ -251,3 +251,4 @@ Note, <b>OUTLINETEXTMETRIC</b> is defined using the current pack setting. To avo
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a>
+

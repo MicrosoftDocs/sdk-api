@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - azroles
  - azroles/azroles
+api_name:
+ - azroles
 ---
 
 # Azroles.h header

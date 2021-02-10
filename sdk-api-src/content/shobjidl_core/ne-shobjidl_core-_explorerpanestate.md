@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - EXPLORERPANESTATE
+ - _EXPLORERPANESTATE
 ---
 
 # _EXPLORERPANESTATE enumeration
@@ -77,3 +77,4 @@ Ignore any persisted state from the user, but the user can still modify the stat
 ### -field EPS_FORCE
 
 Users cannot modify the state, that is, they do not have the ability to show or hide the given pane. This option implies EPS_INITIALSTATE.
+

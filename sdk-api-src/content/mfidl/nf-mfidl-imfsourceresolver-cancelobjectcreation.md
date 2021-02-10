@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSourceResolver.CancelObjectCreation
+ - IMFSourceResolver::CancelObjectCreation
 ---
 
 # IMFSourceResolver::CancelObjectCreation
@@ -78,3 +78,4 @@ You can use this method to cancel a previous call to <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/medfound/source-resolver">Source Resolver</a>
+

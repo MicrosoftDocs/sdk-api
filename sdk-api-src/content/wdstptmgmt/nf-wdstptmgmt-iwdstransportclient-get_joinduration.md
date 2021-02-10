@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportClient.JoinDuration
- - IWdsTransportClient.get_JoinDuration
+ - IWdsTransportClient::get_JoinDuration
 ---
 
 # IWdsTransportClient::get_JoinDuration
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportclient">IWdsTransportClient</a>
+

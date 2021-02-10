@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EapAuthenticatorActionDefine.h
 api_name:
+ - _EAP_METHOD_AUTHENTICATOR_RESULT
  - EAP_METHOD_AUTHENTICATOR_RESULT
 ---
 
@@ -71,3 +72,4 @@ A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute
 ## -see-also
 
 [EAPHost Authenticator Method Structures](/windows/win32/eaphost/eap-host-authenticator-method-structures)
+

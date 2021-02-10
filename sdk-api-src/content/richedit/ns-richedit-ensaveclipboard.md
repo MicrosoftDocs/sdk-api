@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _ensaveclipboard
  - ENSAVECLIPBOARD
 ---
 
@@ -78,3 +79,4 @@ Number of characters on the clipboard.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/e8b95e80-6494-4153-8e78-ede9ed17c66f">EN_SAVECLIPBOARD</a>
+

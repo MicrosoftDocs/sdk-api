@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.MsrcSeverity
- - IUpdate.get_MsrcSeverity
+ - IUpdate::get_MsrcSeverity
 ---
 
 # IUpdate::get_MsrcSeverity
@@ -113,3 +112,4 @@ A security issue whose exploitation is extremely difficult, or whose impact is m
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

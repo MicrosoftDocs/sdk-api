@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetTextFaceA
  - wingdi/GetTextFaceA
+ - GetTextFace
+ - wingdi/GetTextFace
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Font-L1-1-3.dll
  - GDI32Full.dll
 api_name:
- - GetTextFace
  - GetTextFaceA
- - GetTextFaceW
+ - GetTextFace
 ---
 
 # GetTextFaceA function
@@ -115,3 +116,4 @@ If the name is longer than the number of characters specified by the <i>nCount</
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a>
+

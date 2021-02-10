@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderHwndOverride.GetOverrideProviderForHwnd
+ - IRawElementProviderHwndOverride::GetOverrideProviderForHwnd
 ---
 
 # IRawElementProviderHwndOverride::GetOverrideProviderForHwnd
@@ -91,3 +91,4 @@ If the returned provider implements <a href="/windows/desktop/api/uiautomationco
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhwndoverride">IRawElementProviderHwndOverride</a>
+

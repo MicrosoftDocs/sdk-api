@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItem.DeviceCommand
+ - IWiaItem::DeviceCommand
 ---
 
 # IWiaItem::DeviceCommand
@@ -85,3 +85,4 @@ Applications use this method to send WIA commands to hardware devices.
 When the application sends the WIA_CMD_TAKE_PICTURE command to the device, <b>IWiaItem::DeviceCommand</b>, the WIA run-time system creates the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> object to represent the image. The <b>IWiaItem::DeviceCommand</b> method stores the address of the interface in the <i>pIWiaItem</i>  parameter. 
 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>pIWiaItem</i> parameter.
+

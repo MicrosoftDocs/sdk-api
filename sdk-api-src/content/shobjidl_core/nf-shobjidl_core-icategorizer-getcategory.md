@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICategorizer.GetCategory
+ - ICategorizer::GetCategory
 ---
 
 # ICategorizer::GetCategory

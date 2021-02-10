@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterUIInfo.GetFont
+ - IGetClusterUIInfo::GetFont
 ---
 
 # IGetClusterUIInfo::GetFont
@@ -72,3 +72,4 @@ The <b>GetFont</b> method returns the font handle
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusteruiinfo">IGetClusterUIInfo</a>
+

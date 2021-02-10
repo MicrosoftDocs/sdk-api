@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfMouseTracker.UnadviseMouseSink
+ - ITfMouseTracker::UnadviseMouseSink
 ---
 
 # ITfMouseTracker::UnadviseMouseSink
@@ -110,3 +110,4 @@ The context owner does not support mouse event sinks.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
       </a>
+

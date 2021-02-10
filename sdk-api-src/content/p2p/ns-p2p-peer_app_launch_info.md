@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_app_launch_info_tag
+ - PPEER_APP_LAUNCH_INFO
  - PEER_APP_LAUNCH_INFO
 ---
 
@@ -85,3 +87,4 @@ Pointer to the <a href="/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_IN
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

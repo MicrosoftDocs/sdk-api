@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - GetClassInfoW
  - winuser/GetClassInfoW
+ - GetClassInfo
+ - winuser/GetClassInfo
 dev_langs:
  - c++
 topic_type:
@@ -50,10 +53,8 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
  - ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - GetClassInfo
- - GetClassInfoA
  - GetClassInfoW
-req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
+ - GetClassInfo
 ---
 
 # GetClassInfoW function
@@ -138,3 +139,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 > [!NOTE]
 > The winuser.h header defines GetClassInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

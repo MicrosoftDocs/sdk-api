@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
+ - _LUID
+ - PLUID
  - LUID
 ---
 
@@ -73,3 +75,4 @@ HighPart of the video port identifier.
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation">IKsJackSinkInformation::GetJackSinkInformation</a>
+

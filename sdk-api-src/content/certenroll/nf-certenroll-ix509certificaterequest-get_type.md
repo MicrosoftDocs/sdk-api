@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest.Type
- - IX509CertificateRequest.get_Type
+ - IX509CertificateRequest::get_Type
 ---
 
 # IX509CertificateRequest::get_Type
@@ -84,3 +83,4 @@ You can use this property with the <a href="/windows/desktop/api/certenroll/nf-c
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

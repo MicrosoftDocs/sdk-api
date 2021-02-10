@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IExtractImage.Extract
+ - IExtractImage::Extract
 ---
 
 # IExtractImage::Extract
@@ -69,3 +69,4 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 ## -remarks
 
 You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation">IExtractImage::GetLocation</a> prior to calling <b>Extract</b>.
+

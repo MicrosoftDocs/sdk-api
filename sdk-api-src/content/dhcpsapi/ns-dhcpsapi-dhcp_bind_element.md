@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_BIND_ELEMENT
+ - LPDHCP_BIND_ELEMENT
  - DHCP_BIND_ELEMENT
 ---
 
@@ -111,3 +113,4 @@ Specifies the network interface device ID.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bind_element_array">DHCP_BIND_ELEMENT_ARRAY</a>
+

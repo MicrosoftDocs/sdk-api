@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IServerSecurity.IsImpersonating
+ - IServerSecurity::IsImpersonating
 ---
 
 # IServerSecurity::IsImpersonating
@@ -61,3 +61,4 @@ If the thread is currently impersonating, the return value is <b>TRUE</b>. Other
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
+

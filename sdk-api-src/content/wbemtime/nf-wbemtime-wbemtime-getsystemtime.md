@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.GetSYSTEMTIME
- - ?GetSYSTEMTIME@WBEMTime@@QBEHPAU_SYSTEMTIME@@@Z
- - ?GetSYSTEMTIME@WBEMTime@@QEBAHPEAU_SYSTEMTIME@@@Z
+ - WBEMTime::GetSYSTEMTIME
 ---
 
 # WBEMTime::GetSYSTEMTIME
@@ -72,3 +70,4 @@ Pointer to a MFC <b>SYSTEMTIME</b> structure. The <b>SYSTEMTIME</b> structure re
 The method returns <b>TRUE</b> if the time is valid.
 
 The method returns <b>FALSE</b> if the time is INVALID_TIME. In this case, the value of <i>pst</i> is indeterminate.
+

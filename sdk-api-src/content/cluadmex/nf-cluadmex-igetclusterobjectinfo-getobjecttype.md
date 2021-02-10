@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterObjectInfo.GetObjectType
+ - IGetClusterObjectInfo::GetObjectType
 ---
 
 # IGetClusterObjectInfo::GetObjectType
@@ -89,3 +89,4 @@ If <b>GetObjectType</b> is not
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterobjectinfo">IGetClusterObjectInfo</a>
+

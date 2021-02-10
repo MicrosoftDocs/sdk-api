@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_BAT.ConvertNextToCurrent
+ - IDVB_BAT::ConvertNextToCurrent
 ---
 
 # IDVB_BAT::ConvertNextToCurrent
@@ -121,3 +121,4 @@ This method applies only to <i>next</i> tables that have become current. Before 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_bat">IDVB_BAT Interface</a>
+

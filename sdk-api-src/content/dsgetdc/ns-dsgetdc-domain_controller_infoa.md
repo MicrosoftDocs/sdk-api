@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Dsgetdc.h
 api_name:
- - DOMAIN_CONTROLLER_INFO
+ - _DOMAIN_CONTROLLER_INFOA
+ - PDOMAIN_CONTROLLER_INFOA
  - DOMAIN_CONTROLLER_INFOA
- - DOMAIN_CONTROLLER_INFOW
 ---
 
 # DOMAIN_CONTROLLER_INFOA structure
@@ -211,3 +211,4 @@ Pointer to a null-terminated string that specifies the name of the site that the
 
 > [!NOTE]
 > The dsgetdc.h header defines DOMAIN_CONTROLLER_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration.CACertificate
- - IOCSPCAConfiguration.get_CACertificate
+ - IOCSPCAConfiguration::get_CACertificate
 ---
 
 # IOCSPCAConfiguration::get_CACertificate
@@ -64,3 +63,4 @@ The <i>pVal</i> certificate corresponds to the certificate used in the <i>varCAC
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPCAConfiguration</a>
+

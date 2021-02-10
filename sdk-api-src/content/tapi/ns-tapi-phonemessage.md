@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - phonemessage_tag
+ - LPPHONEMESSAGE
  - PHONEMESSAGE
 ---
 
@@ -97,3 +99,4 @@ For information about parameter values passed in this structure, see
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.IsVisible
+ - GraphicsPath::IsVisible
 ---
 
 # GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics)
@@ -115,3 +115,4 @@ If the test point lies in the interior of this path, this method returns <b>TRUE
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+

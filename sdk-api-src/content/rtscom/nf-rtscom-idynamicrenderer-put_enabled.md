@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer.Enabled
- - IDynamicRenderer.get_Enabled
- - IDynamicRenderer.put_Enabled
- - IDynamicRenderer.get_Enabled
- - IDynamicRenderer.put_Enabled
+ - IDynamicRenderer::put_Enabled
 ---
 
 # IDynamicRenderer::put_Enabled
@@ -77,3 +73,4 @@ The changes to this property are applied between strokes as they are starting or
 
 
 <a href="/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
+

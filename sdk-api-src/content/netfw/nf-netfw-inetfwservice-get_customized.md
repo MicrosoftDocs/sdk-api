@@ -43,8 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwService.Customized
- - INetFwService.get_Customized
+ - INetFwService::get_Customized
 ---
 
 # INetFwService::get_Customized
@@ -70,3 +69,4 @@ If a service has been customized, the values
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservice">INetFwService</a>
+

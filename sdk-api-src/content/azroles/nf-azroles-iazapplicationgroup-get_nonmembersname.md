@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.NonMembersName
- - IAzApplicationGroup.get_NonMembersName
- - AzApplicationGroup.NonMembersName
+ - IAzApplicationGroup::get_NonMembersName
 ---
 
 # IAzApplicationGroup::get_NonMembersName
@@ -67,3 +65,4 @@ Denying membership to an account in an application group does not prevent that a
 This property is ignored unless the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a> property is AZ_GROUPTYPE_BASIC.
 
 In JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
+

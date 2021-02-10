@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr.GetBackupStatus
- - FhConfigMgr.GetBackupStatus
+ - IFhConfigMgr::GetBackupStatus
 ---
 
 # IFhConfigMgr::GetBackupStatus
@@ -81,3 +80,4 @@ Receives the backup status value. See the <a href="/windows/desktop/api/fhcfg/ne
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">IFhConfigMgr::SetBackupStatus</a>
+

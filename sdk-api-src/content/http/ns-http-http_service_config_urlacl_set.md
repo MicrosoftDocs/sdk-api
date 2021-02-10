@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_SERVICE_CONFIG_URLACL_SET
+ - PHTTP_SERVICE_CONFIG_URLACL_SET
  - HTTP_SERVICE_CONFIG_URLACL_SET
 ---
 
@@ -86,3 +88,4 @@ An
 
 
 <a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_param">HTTP_SERVICE_CONFIG_URLACL_PARAM</a>
+

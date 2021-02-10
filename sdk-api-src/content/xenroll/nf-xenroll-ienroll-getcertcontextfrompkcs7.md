@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.getCertContextFromPKCS7
- - IEnroll2.getCertContextFromPKCS7
+ - IEnroll::getCertContextFromPKCS7
 ---
 
 # IEnroll::getCertContextFromPKCS7
@@ -76,3 +75,4 @@ The return value is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-win
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
+

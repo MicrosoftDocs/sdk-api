@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linecalllist_tag
+ - LPLINECALLLIST
  - LINECALLLIST
 ---
 
@@ -96,3 +98,4 @@ This structure may not be extended.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a>
+

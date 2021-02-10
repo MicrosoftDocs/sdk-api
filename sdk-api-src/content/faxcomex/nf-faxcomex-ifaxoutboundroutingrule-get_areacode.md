@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRule.AreaCode
- - IFaxOutboundRoutingRule.get_AreaCode
+ - IFaxOutboundRoutingRule::get_AreaCode
 ---
 
 # IFaxOutboundRoutingRule::get_AreaCode
@@ -74,3 +73,4 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
+

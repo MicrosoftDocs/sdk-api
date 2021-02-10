@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTasks.Count
- - IAzTasks.get_Count
- - AzTasks.Count
+ - IAzTasks::get_Count
 ---
 
 # IAzTasks::get_Count
@@ -61,3 +59,4 @@ This property is read-only.
 ## -remarks
 
 The <b>Count</b> property can be used to specify the last <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object in a collection when retrieving a specific <b>IAzTask</b> object using the  <a href="/windows/desktop/api/azroles/nf-azroles-iaztasks-get_item">IAzTasks.Item</a> property.
+

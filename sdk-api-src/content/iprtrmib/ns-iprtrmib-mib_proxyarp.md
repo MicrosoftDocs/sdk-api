@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iprtrmib.h
 api_name:
+ - _MIB_PROXYARP
+ - PMIB_PROXYARP
  - MIB_PROXYARP
 ---
 
@@ -78,3 +80,4 @@ The index of the interface on which to act as a proxy for the address specified 
 
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteproxyarpentry">DeleteProxyArpEntry</a>
+

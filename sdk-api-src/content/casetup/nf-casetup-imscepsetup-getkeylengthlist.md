@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup.GetKeyLengthList
+ - IMSCEPSetup::GetKeyLengthList
 ---
 
 # IMSCEPSetup::GetKeyLengthList
@@ -69,3 +69,4 @@ A pointer to a  <b>VARIANT</b> array of <b>VT_UI4</b> types that correspond to t
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
+

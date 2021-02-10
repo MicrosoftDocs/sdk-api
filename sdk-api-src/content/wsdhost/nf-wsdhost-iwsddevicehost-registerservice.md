@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost.RegisterService
+ - IWSDDeviceHost::RegisterService
 ---
 
 # IWSDDeviceHost::RegisterService
@@ -98,3 +98,4 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
+

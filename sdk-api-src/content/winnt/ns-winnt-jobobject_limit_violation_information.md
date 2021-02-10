@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _JOBOBJECT_LIMIT_VIOLATION_INFORMATION
+ - PJOBOBJECT_LIMIT_VIOLATION_INFORMATION
  - JOBOBJECT_LIMIT_VIOLATION_INFORMATION
 ---
 
@@ -323,3 +325,4 @@ To retrieve information about the limits that were exceeded, the application mon
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+

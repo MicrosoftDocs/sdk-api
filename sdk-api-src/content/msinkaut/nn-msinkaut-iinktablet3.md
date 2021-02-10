@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablet3 Interface
+ - IInkTablet3
 ---
 
 # IInkTablet3 interface

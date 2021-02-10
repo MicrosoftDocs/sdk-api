@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile.Metafile
+ - Metafile::Metafile
 ---
 
 # Metafile::Metafile(IN IStream)
@@ -72,3 +72,4 @@ Pointer to a COM <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStrea
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+

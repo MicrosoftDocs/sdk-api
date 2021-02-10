@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext.CreateColorContext
+ - ID2D1DeviceContext::CreateColorContext
 ---
 
 # ID2D1DeviceContext::CreateColorContext
@@ -124,3 +124,4 @@ When <i>space</i> is <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_s
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageGlobals.GetSerialNumber
+ - IWMDMStorageGlobals::GetSerialNumber
 ---
 
 # IWMDMStorageGlobals::GetSerialNumber
@@ -108,3 +108,4 @@ The following C++ code retrieves the serial number of the root storage object, a
 
 
 <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
+

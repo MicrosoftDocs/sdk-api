@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetEnableHTTP
+ - IWMReaderNetworkConfig::SetEnableHTTP
 ---
 
 # IWMReaderNetworkConfig::SetEnableHTTP
@@ -105,3 +105,4 @@ This setting applies only to a protocol rollover or MMS:// URL. Even if this set
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenablehttp">IWMReaderNetworkConfig::GetEnableHTTP</a>
+

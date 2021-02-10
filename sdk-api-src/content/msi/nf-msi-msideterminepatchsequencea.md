@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDeterminePatchSequenceA
  - msi/MsiDeterminePatchSequenceA
+ - MsiDeterminePatchSequence
+ - msi/MsiDeterminePatchSequence
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiDeterminePatchSequence
  - MsiDeterminePatchSequenceA
- - MsiDeterminePatchSequenceW
+ - MsiDeterminePatchSequence
 ---
 
 # MsiDeterminePatchSequenceA function
@@ -328,3 +329,4 @@ If the function fails, the <a href="/windows/desktop/api/msi/ns-msi-msipatchsequ
 
 
 <a href="/windows/desktop/Msi/productcode">ProductCode</a>
+

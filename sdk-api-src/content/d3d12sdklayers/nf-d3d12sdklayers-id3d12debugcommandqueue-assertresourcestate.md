@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandQueue.AssertResourceState
+ - ID3D12DebugCommandQueue::AssertResourceState
 ---
 
 # ID3D12DebugCommandQueue::AssertResourceState
@@ -86,3 +86,4 @@ This method is very similar to <a href="/windows/desktop/api/d3d12sdklayers/nf-d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandqueue">ID3D12DebugCommandQueue</a>
+

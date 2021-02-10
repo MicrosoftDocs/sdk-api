@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.Restart
- - IFaxOutgoingJob.Restart
+ - IFaxOutgoingJob::Restart
 ---
 
 # IFaxOutgoingJob::Restart
@@ -76,3 +75,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
+

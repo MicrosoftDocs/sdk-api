@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled
+ - IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled
 ---
 
 # IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled
@@ -89,3 +89,4 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_bufferunderrunfreedisabled">IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled</a>
+

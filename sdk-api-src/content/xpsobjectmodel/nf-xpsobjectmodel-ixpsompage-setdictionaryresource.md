@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage.SetDictionaryResource
+ - IXpsOMPage::SetDictionaryResource
 ---
 
 # IXpsOMPage::SetDictionaryResource
@@ -178,3 +178,4 @@ Neither <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompag
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

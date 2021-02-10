@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_KERBEROS_AUTHENTICATION0__
  - IKEEXT_KERBEROS_AUTHENTICATION0
 ---
 
@@ -93,3 +94,4 @@ Applicable only to  AuthIP.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

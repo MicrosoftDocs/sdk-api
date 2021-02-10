@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcBindingFromStringBindingA
  - rpcdce/RpcBindingFromStringBindingA
+ - RpcBindingFromStringBinding
+ - rpcdce/RpcBindingFromStringBinding
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcBindingFromStringBinding
  - RpcBindingFromStringBindingA
- - RpcBindingFromStringBindingW
+ - RpcBindingFromStringBinding
 ---
 
 # RpcBindingFromStringBindingA function
@@ -212,3 +213,4 @@ When an application is finished using the <i>Binding</i> parameter, the applicat
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingcompose">RpcStringBindingCompose</a>
+

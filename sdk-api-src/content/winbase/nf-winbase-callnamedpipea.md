@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CallNamedPipeA
  - winbase/CallNamedPipeA
+ - CallNamedPipe
+ - winbase/CallNamedPipe
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - Kernel32Legacy.dll
  - KernelBase.dll
 api_name:
- - CallNamedPipe
  - CallNamedPipeA
- - CallNamedPipeW
+ - CallNamedPipe
 ---
 
 # CallNamedPipeA function
@@ -183,3 +184,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-waitnamedpipea">WaitNamedPipe</a>
+

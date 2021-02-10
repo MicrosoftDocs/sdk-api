@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - ISchemaProvider.LookupAuthoredNamedEntity
+ - ISchemaProvider::LookupAuthoredNamedEntity
 ---
 
 # ISchemaProvider::LookupAuthoredNamedEntity
@@ -99,3 +99,4 @@ Returns S_OK if the token sequence beginning at position <i>cTokensBegin</i> den
 ## -remarks
 
 The method finds only named entities authored with keywords in the schema, not named entities recognized by an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object.
+

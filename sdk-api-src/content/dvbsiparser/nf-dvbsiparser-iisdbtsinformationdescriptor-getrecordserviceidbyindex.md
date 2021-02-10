@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex
+ - IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex
 ---
 
 # IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getrecordnumberofservices">IIsdbTSInformationDescriptor::GetRecordNumberOfServices</a>
+

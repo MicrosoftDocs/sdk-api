@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - ws2spi
  - ws2spi/ws2spi
+api_name:
+ - ws2spi
 ---
 
 # Ws2Spi.h header

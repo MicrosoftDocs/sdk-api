@@ -42,8 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma.Timestamp
- - IMbnSmsReadMsgTextCdma.get_Timestamp
+ - IMbnSmsReadMsgTextCdma::get_Timestamp
 ---
 
 # IMbnSmsReadMsgTextCdma::get_Timestamp
@@ -121,3 +120,4 @@ The following table defines the format of the timestamp string.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a>
+

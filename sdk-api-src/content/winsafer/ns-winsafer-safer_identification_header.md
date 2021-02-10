@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinSafer.h
 api_name:
+ - _SAFER_IDENTIFICATION_HEADER
+ - PSAFER_IDENTIFICATION_HEADER
  - SAFER_IDENTIFICATION_HEADER
 ---
 
@@ -137,3 +139,4 @@ The GUID of the identification.
 ### -field LastModified
 
 The date and time of the last change to this identification.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent.get_State
+ - ITAgent::get_State
 ---
 
 # ITAgent::get_State
@@ -115,3 +115,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">put_State</a>
+

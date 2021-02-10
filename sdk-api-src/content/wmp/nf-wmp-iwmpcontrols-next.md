@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls.next
+ - IWMPControls::next
 ---
 
 # IWMPControls::next
@@ -95,3 +95,4 @@ When playing a DVD, this method skips to the next logical chapter in the playbac
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-stop">IWMPControls::stop</a>
+

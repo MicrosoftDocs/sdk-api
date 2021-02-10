@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2.GetProperty
+ - ITextFont2::GetProperty
 ---
 
 # ITextFont2::GetProperty
@@ -84,3 +84,4 @@ Property IDs are defined by the Text Object Model (TOM).  Here are how some of t
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-setproperty">ITextFont2::SetProperty</a>
+

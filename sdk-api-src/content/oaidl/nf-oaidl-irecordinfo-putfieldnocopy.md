@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IRecordInfo.PutFieldNoCopy
+ - IRecordInfo::PutFieldNoCopy
 ---
 
 # IRecordInfo::PutFieldNoCopy
@@ -108,3 +108,4 @@ One or more of the arguments is not valid.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin.QueryInternalConnections
+ - IPin::QueryInternalConnections
 ---
 
 # IPin::QueryInternalConnections
@@ -126,3 +126,4 @@ This method has another use that is now deprecated: The <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
+

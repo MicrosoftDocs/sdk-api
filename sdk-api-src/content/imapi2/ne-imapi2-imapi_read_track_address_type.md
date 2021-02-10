@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_READ_TRACK_ADDRESS_TYPE
+ - PIMAPI_READ_TRACK_ADDRESS_TYPE
  - IMAPI_READ_TRACK_ADDRESS_TYPE
 ---
 

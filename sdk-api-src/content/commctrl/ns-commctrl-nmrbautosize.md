@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMRBAUTOSIZE
+ - LPNMRBAUTOSIZE
  - NMRBAUTOSIZE
 ---
 
@@ -84,3 +86,4 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the rectangle to which the rebar control actually sized itself.
+

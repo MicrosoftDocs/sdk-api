@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Open_Device_Interface_KeyA
  - cfgmgr32/CM_Open_Device_Interface_KeyA
+ - CM_Open_Device_Interface_Key
+ - cfgmgr32/CM_Open_Device_Interface_Key
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Devices-Config-L1-1-1.dll
  - CfgMgr32.dll
 api_name:
- - CM_Open_Device_Interface_Key
  - CM_Open_Device_Interface_KeyA
- - CM_Open_Device_Interface_KeyW
+ - CM_Open_Device_Interface_Key
 ---
 
 # CM_Open_Device_Interface_KeyA function
@@ -112,3 +113,4 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfaceregkey">SetupDiOpenDeviceInterfaceRegKey</a>
+

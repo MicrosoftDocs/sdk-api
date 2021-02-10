@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVDisk.Open
+ - IVdsVDisk::Open
 ---
 
 # IVdsVDisk::Open

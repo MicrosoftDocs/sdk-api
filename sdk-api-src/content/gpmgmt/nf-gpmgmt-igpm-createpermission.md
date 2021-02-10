@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM.CreatePermission
- - GPM.CreatePermission
+ - IGPM::CreatePermission
 ---
 
 # IGPM::CreatePermission
@@ -203,3 +202,4 @@ How <a href="/windows/desktop/AD/how-security-groups-are-used-in-access-control"
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
+

@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - MessageBoxA
  - winuser/MessageBoxA
+ - MessageBox
+ - winuser/MessageBox
 dev_langs:
  - c++
 topic_type:
@@ -45,10 +48,8 @@ api_location:
  - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - MessageBox
  - MessageBoxA
- - MessageBoxW
-req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
+ - MessageBox
 ---
 
 # MessageBoxA function
@@ -728,3 +729,4 @@ For another message box example, see <a href="/windows/desktop/dlgbox/using-dial
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
+

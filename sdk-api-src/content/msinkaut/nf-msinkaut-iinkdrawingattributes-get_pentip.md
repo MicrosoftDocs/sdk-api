@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.PenTip
- - IInkDrawingAttributes.get_PenTip
- - IInkDrawingAttributes.put_PenTip
- - InkDrawingAttributes.get_PenTip
- - InkDrawingAttributes.put_PenTip
+ - IInkDrawingAttributes::get_PenTip
 ---
 
 # IInkDrawingAttributes::get_PenTip
@@ -90,3 +86,4 @@ To create a square pen tip, set the <b>PenTip</b> property to <a href="/windows/
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width Property [InkDrawingAttributes Class]</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - ICatRegister.RegisterCategories
+ - ICatRegister::RegisterCategories
 ---
 
 # ICatRegister::RegisterCategories
@@ -102,3 +102,4 @@ This method can only be called by the owner of a category, usually as part of th
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
+

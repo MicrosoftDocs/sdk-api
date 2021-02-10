@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDFLIPVIDEOPORT
+ - LPDDFLIPVIDEOPORT
  - DDFLIPVIDEOPORT
 ---
 
@@ -112,3 +114,4 @@ Flips the normal video surface.
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

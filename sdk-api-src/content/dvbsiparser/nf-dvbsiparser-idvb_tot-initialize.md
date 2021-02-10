@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_TOT.Initialize
+ - IDVB_TOT::Initialize
 ---
 
 # IDVB_TOT::Initialize
@@ -121,3 +121,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_tot">IDVB_TOT Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MF_TRANSCODE_TOPOLOGYMODE_FLAGS
  - MF_TRANSCODE_TOPOLOGYMODE_FLAGS
 ---
 
@@ -67,3 +68,4 @@ The topology loader may insert hardware-based transforms into the transcode topo
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

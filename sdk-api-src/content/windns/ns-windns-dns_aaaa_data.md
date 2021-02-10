@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - PDNS_AAAA_DATA
  - DNS_AAAA_DATA
 ---
 

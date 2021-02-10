@@ -43,8 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwPolicy.CurrentProfile
- - INetFwPolicy.get_CurrentProfile
+ - INetFwPolicy::get_CurrentProfile
 ---
 
 # INetFwPolicy::get_CurrentProfile
@@ -79,3 +78,4 @@ On Windows 7, the netsh context <b>current</b> maps to all currently active pro
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
+

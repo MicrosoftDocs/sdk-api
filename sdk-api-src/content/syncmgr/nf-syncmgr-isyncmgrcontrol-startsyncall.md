@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrControl.StartSyncAll
+ - ISyncMgrControl::StartSyncAll
 ---
 
 # ISyncMgrControl::StartSyncAll
@@ -101,3 +101,4 @@ void CMyDeviceHandler::MiscProc(...)
 }
 
 ```
+

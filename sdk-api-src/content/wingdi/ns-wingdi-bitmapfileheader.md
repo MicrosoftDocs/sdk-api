@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagBITMAPFILEHEADER
+ - LPBITMAPFILEHEADER
  - BITMAPFILEHEADER
 ---
 
@@ -97,3 +99,4 @@ A <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> or <
 
 
 <a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+

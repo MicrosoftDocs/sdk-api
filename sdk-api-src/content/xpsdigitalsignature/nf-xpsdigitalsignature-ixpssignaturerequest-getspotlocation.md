@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest.GetSpotLocation
+ - IXpsSignatureRequest::GetSpotLocation
 ---
 
 # IXpsSignatureRequest::GetSpotLocation
@@ -141,3 +141,4 @@ The location  of the signing spot is specified in XPS units from the upper-left 
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WRDS_SETTING_TYPE
+ - PWRDS_SETTING_TYPE
  - WRDS_SETTING_TYPE
 ---
 
@@ -73,3 +75,4 @@ The settings apply to group policy for the user.
 ### -field WRDS_SETTING_TYPE_SAM
 
 The settings apply to the user security accounts manager (SAM).
+

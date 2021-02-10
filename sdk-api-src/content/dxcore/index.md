@@ -7,9 +7,15 @@ ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dxcore
+api_name:
+ - dxcore
+f1_keywords:
+ - dxcore
+ - dxcore/dxcore
 ---
 
 # dxcore.h header
+
 
 ## -description
 

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
+ - _FILE_INFO_3
+ - PFILE_INFO_3
  - FILE_INFO_3
 ---
 
@@ -144,3 +146,4 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

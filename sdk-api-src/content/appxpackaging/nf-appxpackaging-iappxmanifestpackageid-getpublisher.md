@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageId.GetPublisher
+ - IAppxManifestPackageId::GetPublisher
 ---
 
 # IAppxManifestPackageId::GetPublisher
@@ -75,3 +75,4 @@ The caller must free the memory allocated for <i>publisher</i> using the <a href
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
+

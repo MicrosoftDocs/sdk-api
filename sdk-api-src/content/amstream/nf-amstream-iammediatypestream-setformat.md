@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeStream.SetFormat
+ - IAMMediaTypeStream::SetFormat
 ---
 
 # IAMMediaTypeStream::SetFormat
@@ -100,3 +100,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
+

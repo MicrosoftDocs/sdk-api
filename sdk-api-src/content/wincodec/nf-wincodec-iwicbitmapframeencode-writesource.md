@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.WriteSource
+ - IWICBitmapFrameEncode::WriteSource
 ---
 
 # IWICBitmapFrameEncode::WriteSource
@@ -103,3 +103,4 @@ Starting with Windows 8.1, the source rect must be at least the dimensions set 
 
 
 <a href="/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
+

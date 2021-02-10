@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IHolder.UntrackResource
+ - IHolder::UntrackResource
 ---
 
 # IHolder::UntrackResource
@@ -117,3 +117,4 @@ The method failed.
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
+

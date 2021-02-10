@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ReportIScsiTargetPortalsA
  - iscsidsc/ReportIScsiTargetPortalsA
+ - ReportIScsiTargetPortals
+ - iscsidsc/ReportIScsiTargetPortals
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - ReportIscsiTargetPortals
- - ReportIscsiTargetPortalsA
- - ReportIscsiTargetPortalsW
+ - ReportIScsiTargetPortalsA
+ - ReportIScsiTargetPortals
 ---
 
 # ReportIScsiTargetPortalsA function

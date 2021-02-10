@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2Crossbar.EnableDefaultMode
+ - ISBE2Crossbar::EnableDefaultMode
 ---
 
 # ISBE2Crossbar::EnableDefaultMode
@@ -124,3 +124,4 @@ If no preferred language is set, Windows Media Center is either not present or n
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
+

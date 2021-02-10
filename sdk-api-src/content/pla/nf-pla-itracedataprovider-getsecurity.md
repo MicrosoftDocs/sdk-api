@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProvider.GetSecurity
+ - ITraceDataProvider::GetSecurity
 ---
 
 # ITraceDataProvider::GetSecurity
@@ -73,3 +73,4 @@ Returns S_OK if successful.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-setsecurity">ITraceDataProvider::SetSecurity</a>
+

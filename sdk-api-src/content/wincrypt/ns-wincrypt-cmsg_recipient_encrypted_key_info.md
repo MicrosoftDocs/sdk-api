@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_RECIPIENT_ENCRYPTED_KEY_INFO
+ - PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO
  - CMSG_RECIPIENT_ENCRYPTED_KEY_INFO
 ---
 
@@ -74,3 +76,4 @@ Optional. When present, this member specifies which of the recipient's previousl
 
 Optional pointer to a 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure containing additional information. Only applicable to KEYID choice in the <b>RecipientId </b><a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure.
+

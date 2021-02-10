@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfFnGetPreferredTouchKeyboardLayout.GetLayout
+ - ITfFnGetPreferredTouchKeyboardLayout::GetLayout
 ---
 
 # ITfFnGetPreferredTouchKeyboardLayout::GetLayout
@@ -151,3 +151,4 @@ There is no way to request support for other layouts, or to add new touch optimi
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffngetpreferredtouchkeyboardlayout">ITfFnGetPreferredTouchKeyboardLayout</a>
+

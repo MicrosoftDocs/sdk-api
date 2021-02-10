@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_ATTRIBUTE_DESCRIPTION
  - WS_ATTRIBUTE_DESCRIPTION
 ---
 
@@ -77,3 +78,4 @@ Not all types support being read and written as attributes.  If the
 
 Additional information about the type.  Each type has a different description
                     structure.  This may be <b>NULL</b>, depending on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>.
+

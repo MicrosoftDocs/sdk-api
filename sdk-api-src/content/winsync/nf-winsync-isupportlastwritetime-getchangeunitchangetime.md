@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISupportLastWriteTime.GetChangeUnitChangeTime
+ - ISupportLastWriteTime::GetChangeUnitChangeTime
 ---
 
 # ISupportLastWriteTime::GetChangeUnitChangeTime
@@ -99,3 +99,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isupportlastwritetime">ISupportLastWriteTime Interface</a>
+

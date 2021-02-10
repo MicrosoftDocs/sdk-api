@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SECURITY_CONSTRAINTS
  - WS_SECURITY_CONSTRAINTS
 ---
 
@@ -102,3 +103,4 @@ The number of elements specified in the securityBindingConstraints
                 
 
 If this value is 0, then the securityBindingConstraints array may be <b>NULL</b>.
+

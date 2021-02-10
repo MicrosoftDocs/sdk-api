@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageId2.GetArchitecture2
+ - IAppxManifestPackageId2::GetArchitecture2
 ---
 
 # IAppxManifestPackageId2::GetArchitecture2
@@ -75,3 +75,4 @@ If no architecture is defined in the manifest, this method returns the <b>APPX_P
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid2">IAppxManifestPackageId2</a>
+

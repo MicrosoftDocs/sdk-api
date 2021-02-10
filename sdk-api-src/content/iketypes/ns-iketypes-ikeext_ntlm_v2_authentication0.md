@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_NTLM_V2_AUTHENTICATION0__
  - IKEEXT_NTLM_V2_AUTHENTICATION0
 ---
 
@@ -84,3 +85,4 @@ Refuse connections if the peer is using explicit credentials.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

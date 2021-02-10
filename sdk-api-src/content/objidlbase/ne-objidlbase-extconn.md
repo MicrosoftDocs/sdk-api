@@ -44,6 +44,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
+ - tagEXTCONN
  - EXTCONN
 ---
 
@@ -75,3 +76,4 @@ This value is not used.
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">IExternalConnection::ReleaseConnection</a>
+

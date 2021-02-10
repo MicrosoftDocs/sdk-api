@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor.SetEventSink
+ - ISensor::SetEventSink
 ---
 
 # ISensor::SetEventSink
@@ -94,3 +94,4 @@ For an example of how to set the event sink, see <a href="/windows/desktop/Senso
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
+

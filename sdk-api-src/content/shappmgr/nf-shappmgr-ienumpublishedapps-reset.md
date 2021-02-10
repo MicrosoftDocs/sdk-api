@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - IEnumPublishedApps.Reset
+ - IEnumPublishedApps::Reset
 ---
 
 # IEnumPublishedApps::Reset
@@ -95,3 +95,4 @@ This method only returns S_OK.
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
+

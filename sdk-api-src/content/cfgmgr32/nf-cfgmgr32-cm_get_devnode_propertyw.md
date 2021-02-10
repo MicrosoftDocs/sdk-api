@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_DevNode_PropertyW
  - cfgmgr32/CM_Get_DevNode_PropertyW
+ - CM_Get_DevNode_Property
+ - cfgmgr32/CM_Get_DevNode_Property
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-Ms-Win-Devices-Config-L1-1-0.dll
  - API-Ms-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Get_DevNode_Property
- - CM_Get_DevNode_Property
  - CM_Get_DevNode_PropertyW
+ - CM_Get_DevNode_Property
 ---
 
 # CM_Get_DevNode_PropertyW function
@@ -93,3 +94,4 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertyw">SetupDiGetDeviceProperty</a>
+

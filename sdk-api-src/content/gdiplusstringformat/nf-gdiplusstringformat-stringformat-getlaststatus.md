@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat.GetLastStatus
+ - StringFormat::GetLastStatus
 ---
 
 # StringFormat::GetLastStatus
@@ -110,3 +110,4 @@ else
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationCacheRequest.TreeScope
- - IUIAutomationCacheRequest.get_TreeScope
- - IUIAutomationCacheRequest.put_TreeScope
+ - IUIAutomationCacheRequest::get_TreeScope
 ---
 
 # IUIAutomationCacheRequest::get_TreeScope
@@ -81,3 +79,4 @@ When an element is retrieved, caching can be performed  for only the element its
 
 
 <b>Reference</b>
+

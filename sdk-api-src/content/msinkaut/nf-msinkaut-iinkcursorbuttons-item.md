@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursorButtons.Item
+ - IInkCursorButtons::Item
 ---
 
 # IInkCursorButtons::Item
@@ -210,3 +210,4 @@ The <b>Item</b> method takes an input argument of type VARIANT. However, the sub
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbuttons">IInkCursorButtons Interface</a>
+

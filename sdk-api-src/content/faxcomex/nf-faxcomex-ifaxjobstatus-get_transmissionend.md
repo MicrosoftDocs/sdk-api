@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxJobStatus.TransmissionEnd
- - IFaxJobStatus.get_TransmissionEnd
- - IFaxJobStatus.get_TransmissionEnd
+ - IFaxJobStatus::get_TransmissionEnd
 ---
 
 # IFaxJobStatus::get_TransmissionEnd
@@ -73,3 +71,4 @@ The property is not valid as long as the fax is still being received by the fax 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Visual Basic Example</a>
+

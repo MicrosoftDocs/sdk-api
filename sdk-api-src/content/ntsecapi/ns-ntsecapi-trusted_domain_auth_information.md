@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _TRUSTED_DOMAIN_AUTH_INFORMATION
+ - PTRUSTED_DOMAIN_AUTH_INFORMATION
  - TRUSTED_DOMAIN_AUTH_INFORMATION
 ---
 
@@ -107,3 +109,4 @@ Pointer to an array of <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_au
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
+

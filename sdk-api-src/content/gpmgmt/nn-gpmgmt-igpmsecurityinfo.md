@@ -43,9 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMSecurityInfo
- - IGPMSecurityInfo.Item
- - IGPMSecurityInfo.get_Item
- - GPMSecurityInfo
 ---
 
 # IGPMSecurityInfo interface
@@ -194,3 +191,4 @@ For more information about policy-related permissions, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
+

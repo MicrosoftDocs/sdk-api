@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StringCbCatNA
  - strsafe/StringCbCatNA
+ - StringCbCatN
+ - strsafe/StringCbCatN
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCbCatN
  - StringCbCatNA
- - StringCbCatNW
+ - StringCbCatN
 ---
 
 # StringCbCatNA function
@@ -193,3 +194,4 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="/wi
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatna">StringCchCatN</a>
+

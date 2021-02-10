@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcBindingSetAuthInfoW
  - rpcdce/RpcBindingSetAuthInfoW
+ - RpcBindingSetAuthInfo
+ - rpcdce/RpcBindingSetAuthInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcBindingSetAuthInfo
- - RpcBindingSetAuthInfoA
  - RpcBindingSetAuthInfoW
+ - RpcBindingSetAuthInfo
 ---
 
 # RpcBindingSetAuthInfoW function
@@ -207,3 +208,4 @@ Due to varying requirements of different versions of Microsoft RPC, Microsoft re
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>
+

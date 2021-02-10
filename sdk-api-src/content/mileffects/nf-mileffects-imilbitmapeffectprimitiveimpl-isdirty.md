@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitiveImpl.IsDirty
+ - IMILBitmapEffectPrimitiveImpl::IsDirty
 ---
 
 # IMILBitmapEffectPrimitiveImpl::IsDirty

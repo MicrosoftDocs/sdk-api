@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler
+ - IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
 ---
 
 # IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
@@ -74,3 +74,4 @@ If the update handler is already connected to the timer, this method returns <b>
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimerupdatehandler-cleartimerclienteventhandler">IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler</a>
+

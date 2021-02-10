@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1008
+ - PUSER_INFO_1008
  - USER_INFO_1008
 ---
 
@@ -305,3 +307,4 @@ This is a permit to trust account for a domain that trusts other domains.
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

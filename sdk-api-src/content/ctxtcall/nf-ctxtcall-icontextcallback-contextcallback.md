@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctxtcall.h
 api_name:
- - IContextCallback.ContextCallback
+ - IContextCallback::ContextCallback
 ---
 
 # IContextCallback::ContextCallback
@@ -91,3 +91,4 @@ If <i>riid</i> is set to IID_ICallbackWithNoReentrancyToApplicationSTA, the func
 ## -see-also
 
 <a href="/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>
+

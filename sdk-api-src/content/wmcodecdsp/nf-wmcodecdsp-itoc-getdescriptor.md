@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - IToc.GetDescriptor
+ - IToc::GetDescriptor
 ---
 
 # IToc::GetDescriptor
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
+

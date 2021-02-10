@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrEventStore.GetEventEnumerator
+ - ISyncMgrEventStore::GetEventEnumerator
 ---
 
 # ISyncMgrEventStore::GetEventEnumerator
@@ -87,3 +87,4 @@ STDMETHODIMP CMyDeviceEventStore::GetEventEnumerator(
 }
 
 ```
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiometadata.h
 api_name:
- - ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataWriter
+ - ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
 ---
 
 # ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataWriter
@@ -87,3 +87,4 @@ The provided pointer  is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataclient">ISpatialAudioMetadataClient</a>
+

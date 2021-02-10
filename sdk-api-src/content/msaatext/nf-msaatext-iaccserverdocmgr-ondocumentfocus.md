@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccServerDocMgr.OnDocumentFocus
+ - IAccServerDocMgr::OnDocumentFocus
 ---
 
 # IAccServerDocMgr::OnDocumentFocus
@@ -72,3 +72,4 @@ If successful, returns S_OK.
 ## -remarks
 
 This can be null indicating that no document has focus.
+

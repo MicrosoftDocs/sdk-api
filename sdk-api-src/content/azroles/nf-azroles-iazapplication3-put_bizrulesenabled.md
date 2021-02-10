@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication3.BizRulesEnabled
- - IAzApplication3.get_BizRulesEnabled
- - IAzApplication3.put_BizRulesEnabled
+ - IAzApplication3::put_BizRulesEnabled
 ---
 
 # IAzApplication3::put_BizRulesEnabled

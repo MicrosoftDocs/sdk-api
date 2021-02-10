@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.ProcessAdminPinPolicy
+ - IOfflineFilesCache::ProcessAdminPinPolicy
 ---
 
 # IOfflineFilesCache::ProcessAdminPinPolicy
@@ -74,3 +74,4 @@ The "administratively assigned offline files" group policy provides a way for ad
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
+

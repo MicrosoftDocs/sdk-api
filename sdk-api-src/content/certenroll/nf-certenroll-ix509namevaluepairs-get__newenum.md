@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509NameValuePairs._NewEnum
- - IX509NameValuePairs.get__NewEnum
+ - IX509NameValuePairs::get__NewEnum
 ---
 
 # IX509NameValuePairs::get__NewEnum
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a>
+

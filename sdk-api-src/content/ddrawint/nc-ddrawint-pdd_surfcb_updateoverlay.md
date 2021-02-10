@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdUpdateOverlay
+ - PDD_SURFCB_UPDATEOVERLAY
 ---
 
 ## -description
@@ -84,3 +84,4 @@ Note that <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">Dd
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setoverlayposition">DdSetOverlayPosition</a>
+

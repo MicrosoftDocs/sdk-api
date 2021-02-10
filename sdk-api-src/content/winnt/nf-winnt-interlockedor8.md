@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InterlockedOr8
  - winnt/InterlockedOr8
+ - InterlockedOr
+ - winnt/InterlockedOr
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - Winnt.h
 api_name:
  - InterlockedOr8
+ - InterlockedOr
 ---
 
 # InterlockedOr8 function

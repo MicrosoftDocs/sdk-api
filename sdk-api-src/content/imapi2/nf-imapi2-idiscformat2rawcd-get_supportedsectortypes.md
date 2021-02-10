@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_SupportedSectorTypes
+ - IDiscFormat2RawCD::get_SupportedSectorTypes
 ---
 
 # IDiscFormat2RawCD::get_SupportedSectorTypes
@@ -351,3 +351,4 @@ Value: 0xC0AA0210
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedsectortype">IDiscFormat2RawCD::get_RequestedSectorType</a>
+

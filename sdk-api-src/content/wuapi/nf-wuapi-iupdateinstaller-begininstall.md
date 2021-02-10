@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller.BeginInstall
+ - IUpdateInstaller::BeginInstall
 ---
 
 # IUpdateInstaller::BeginInstall
@@ -130,3 +130,4 @@ When you use any asynchronous WUA API in your app, you might need to implement a
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
+

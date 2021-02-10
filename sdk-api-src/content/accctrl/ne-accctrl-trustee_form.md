@@ -44,6 +44,7 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
+ - _TRUSTEE_FORM
  - TRUSTEE_FORM
 ---
 
@@ -98,3 +99,4 @@ The <b>ptstrName</b> member is a pointer to an
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
+

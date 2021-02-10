@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiUseFeatureExW
  - msi/MsiUseFeatureExW
+ - MsiUseFeatureEx
+ - msi/MsiUseFeatureEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiUseFeatureEx
- - MsiUseFeatureExA
  - MsiUseFeatureExW
+ - MsiUseFeatureEx
 ---
 
 # MsiUseFeatureExW function
@@ -174,3 +175,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
+

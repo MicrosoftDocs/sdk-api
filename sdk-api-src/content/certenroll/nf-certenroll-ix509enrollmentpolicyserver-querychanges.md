@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.QueryChanges
+ - IX509EnrollmentPolicyServer::QueryChanges
 ---
 
 # IX509EnrollmentPolicyServer::QueryChanges
@@ -116,3 +116,4 @@ The <b>QueryChanges</b> method is relevant only when you specify <b>LoadOptionRe
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls3.get_audioLanguageCount
+ - IWMPControls3::get_audioLanguageCount
 ---
 
 # IWMPControls3::get_audioLanguageCount
@@ -109,3 +109,4 @@ For Windows Media-based content, properties and methods related to language sele
 
 
 <a href="/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguageindex">IWMPControls3::get_currentAudioLanguageIndex</a>
+

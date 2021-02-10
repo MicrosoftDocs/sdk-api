@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - ID2D1Ink.AddSegments
+ - ID2D1Ink::AddSegments
 ---
 
 # ID2D1Ink::AddSegments
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1ink">ID2D1Ink</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
- - IRemoteDesktopClient.TouchPointer
- - IRemoteDesktopClient.get_TouchPointer
+ - IRemoteDesktopClient::get_TouchPointer
 ---
 
 # IRemoteDesktopClient::get_TouchPointer
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient">IRemoteDesktopClient</a>
+

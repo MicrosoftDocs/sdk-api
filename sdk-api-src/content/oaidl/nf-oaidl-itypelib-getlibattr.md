@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib.GetLibAttr
+ - ITypeLib::GetLibAttr
 ---
 
 # ITypeLib::GetLibAttr
@@ -112,3 +112,4 @@ Use <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-rele
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
+

@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - transportsettingcommon
  - transportsettingcommon/transportsettingcommon
+api_name:
+ - transportsettingcommon
 ---
 
 # Transportsettingcommon.h header

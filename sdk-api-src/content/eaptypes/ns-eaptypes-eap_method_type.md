@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
+ - _EAP_METHOD_TYPE
  - EAP_METHOD_TYPE
 ---
 
@@ -71,3 +72,4 @@ The numeric ID for the author of the EAP method.
 
 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a>
+

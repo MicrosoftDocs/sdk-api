@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellExtInit.Initialize
+ - IShellExtInit::Initialize
 ---
 
 # IShellExtInit::Initialize
@@ -88,3 +88,4 @@ For property sheet extensions, <i>pidlFolder</i> is <b>NULL</b>, <i>pdtobj</i> i
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 This is the first method that the Shell calls after it creates an instance of a property sheet extension, shortcut menu extension, or drag-and-drop handler.
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssAsync.Wait
+ - IVssAsync::Wait
 ---
 
 # IVssAsync::Wait
@@ -137,3 +137,4 @@ This method can succeed even if the method that returns it failed.
 
 
 <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingOrientedBox.BoundingOrientedBox
+ - BoundingOrientedBox::BoundingOrientedBox
 ---
 
 # BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &)

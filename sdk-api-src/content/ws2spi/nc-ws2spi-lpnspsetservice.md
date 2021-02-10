@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - NSPSetService
+ - LPNSPSETSERVICE
 ---
 
 # LPNSPSETSERVICE callback function

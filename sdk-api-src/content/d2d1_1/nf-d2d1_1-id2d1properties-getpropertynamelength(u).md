@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetPropertyNameLength
+ - ID2D1Properties::GetPropertyNameLength
 ---
 
 # ID2D1Properties::GetPropertyNameLength(U)
@@ -95,3 +95,4 @@ The value returned by this method can be used to ensure that the buffer size for
 �
 
 �
+

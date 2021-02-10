@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost2.TxGetPalette
+ - ITextHost2::TxGetPalette
 ---
 
 # ITextHost2::TxGetPalette
@@ -67,3 +67,4 @@ Returns the color palette, or <b>NULL</b> if the control uses the system default
 
 
 <a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
+

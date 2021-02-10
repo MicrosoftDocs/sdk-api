@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetSupportedProtocolName
+ - IWMReaderNetworkConfig::GetSupportedProtocolName
 ---
 
 # IWMReaderNetworkConfig::GetSupportedProtocolName
@@ -116,3 +116,4 @@ This method only returns a list of protocols that are used to receive content fr
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - IEnumSyncProviderConfigUIInfos.Skip
+ - IEnumSyncProviderConfigUIInfos::Skip
 ---
 
 # IEnumSyncProviderConfigUIInfos::Skip
@@ -98,3 +98,4 @@ If the end of the collection is reached before the number of items to skip is re
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>
+

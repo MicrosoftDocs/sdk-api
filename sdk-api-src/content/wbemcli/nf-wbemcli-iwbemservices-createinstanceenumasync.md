@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.CreateInstanceEnumAsync
+ - IWbemServices::CreateInstanceEnumAsync
 ---
 
 # IWbemServices::CreateInstanceEnumAsync
@@ -226,3 +226,4 @@ In the previous example, the instance provider acquires a thread from WMI to per
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum">IWbemServices::CreateInstanceEnum</a>
+

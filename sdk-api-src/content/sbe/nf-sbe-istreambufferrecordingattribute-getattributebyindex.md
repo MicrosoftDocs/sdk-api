@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecordingAttribute.GetAttributeByIndex
+ - IStreamBufferRecordingAttribute::GetAttributeByIndex
 ---
 
 # IStreamBufferRecordingAttribute::GetAttributeByIndex
@@ -118,3 +118,4 @@ One or both of the buffers is too small.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordingattribute">IStreamBufferRecordingAttribute Interface</a>
+

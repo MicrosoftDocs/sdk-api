@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _GET_FILEEX_INFO_LEVELS
  - GET_FILEEX_INFO_LEVELS
 ---
 
@@ -86,3 +87,4 @@ One greater than the maximum value. Valid values for this enumeration will be le
 
 
 <a href="/windows/desktop/api/fileapi/ns-fileapi-win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a>
+

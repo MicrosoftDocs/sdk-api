@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECURITY_USER_DATA
+ - PSECURITY_USER_DATA
  - SECURITY_USER_DATA
 ---
 
@@ -74,3 +76,4 @@ The name of the server that logged the user on.
 ### -field pSid
 
 The <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the user.
+

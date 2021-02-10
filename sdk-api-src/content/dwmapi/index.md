@@ -9,6 +9,8 @@ tech.root: dwm
 f1_keywords:
  - dwmapi
  - dwmapi/dwmapi
+api_name:
+ - dwmapi
 ---
 
 # Dwmapi.h header

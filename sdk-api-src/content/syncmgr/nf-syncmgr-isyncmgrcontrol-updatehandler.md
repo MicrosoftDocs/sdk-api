@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrControl.UpdateHandler
+ - ISyncMgrControl::UpdateHandler
 ---
 
 # ISyncMgrControl::UpdateHandler
@@ -107,3 +107,4 @@ void CMyDeviceHandler::MiscProc(...)
 }
 
 ```
+

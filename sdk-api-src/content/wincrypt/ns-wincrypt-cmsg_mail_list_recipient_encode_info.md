@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO
+ - PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO
  - CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO
 ---
 
@@ -101,3 +103,4 @@ Optional <b>FILETIME</b> value. When present, specifies a single key encryption 
 
 Optional pointer to a 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure that contains encryption attributes.
+

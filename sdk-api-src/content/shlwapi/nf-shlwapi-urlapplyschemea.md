@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UrlApplySchemeA
  - shlwapi/UrlApplySchemeA
+ - UrlApplyScheme
+ - shlwapi/UrlApplyScheme
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - UrlApplyScheme
  - UrlApplySchemeA
- - UrlApplySchemeW
+ - UrlApplyScheme
 ---
 
 # UrlApplySchemeA function

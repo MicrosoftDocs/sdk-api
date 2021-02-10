@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IErrorInfo.GetGUID
+ - IErrorInfo::GetGUID
 ---
 
 # IErrorInfo::GetGUID
@@ -73,3 +73,4 @@ This GUID does not necessarily represent the source of the error. The source is 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.Terminate
+ - IScheduledWorkItem::Terminate
 ---
 
 # IScheduledWorkItem::Terminate
@@ -122,3 +122,4 @@ For an example of how to retrieve the task status and terminate a task, see <a h
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+

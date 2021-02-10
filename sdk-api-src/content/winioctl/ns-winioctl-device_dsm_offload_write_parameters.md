@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
+ - PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
  - DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 ---
 
@@ -95,3 +97,4 @@ The starting offset to copy from the range bound to the token
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
+

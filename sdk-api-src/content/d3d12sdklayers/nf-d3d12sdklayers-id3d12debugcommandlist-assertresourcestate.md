@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList.AssertResourceState
+ - ID3D12DebugCommandList::AssertResourceState
 ---
 
 # ID3D12DebugCommandList::AssertResourceState
@@ -81,3 +81,4 @@ This method returns true if the resource or subresource is in the specified stat
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist">ID3D12DebugCommandList</a>
+

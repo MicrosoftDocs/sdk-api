@@ -44,6 +44,7 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - PDFS_NAMESPACE_VERSION_ORIGIN
  - DFS_NAMESPACE_VERSION_ORIGIN
 ---
 
@@ -79,3 +80,4 @@ The version information specifies the maximum version that the AD DS domain can 
 
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsupportednamespaceversion">NetDfsGetSupportedNamespaceVersion</a>
+

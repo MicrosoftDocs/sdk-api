@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.CriticalExtensions
- - IX509CertificateRequestPkcs10.get_CriticalExtensions
+ - IX509CertificateRequestPkcs10::get_CriticalExtensions
 ---
 
 # IX509CertificateRequestPkcs10::get_CriticalExtensions
@@ -82,3 +81,4 @@ The extension criticality indicates to an application that uses certificates whe
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+

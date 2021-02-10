@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls.get_currentItem
+ - IWMPControls::get_currentItem
 ---
 
 # IWMPControls::get_currentItem
@@ -99,3 +99,4 @@ This method works only with items in the current playlist.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
+

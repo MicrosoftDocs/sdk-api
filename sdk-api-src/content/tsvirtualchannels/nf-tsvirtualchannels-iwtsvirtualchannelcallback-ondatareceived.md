@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannelCallback.OnDataReceived
+ - IWTSVirtualChannelCallback::OnDataReceived
 ---
 
 # IWTSVirtualChannelCallback::OnDataReceived
@@ -71,3 +71,4 @@ Returns <b>S_OK</b> on success. Results in no action if the call fails.
 ## -see-also
 
 <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>
+

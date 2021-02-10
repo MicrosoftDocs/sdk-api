@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - NSP_ROUTINE, FAR * LPNSP_ROUTINE
+ - _NSP_ROUTINE
+ - LPNSP_ROUTINE
+ - NSP_ROUTINE
 ---
 
 # NSP_ROUTINE structure

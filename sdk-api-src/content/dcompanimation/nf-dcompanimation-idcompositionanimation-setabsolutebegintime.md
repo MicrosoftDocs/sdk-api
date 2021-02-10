@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionAnimation.SetAbsoluteBeginTime
+ - IDCompositionAnimation::SetAbsoluteBeginTime
 ---
 
 # IDCompositionAnimation::SetAbsoluteBeginTime
@@ -87,3 +87,4 @@ This method does not control when animations take effect; it only affects how an
 ## -see-also
 
 <a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>
+

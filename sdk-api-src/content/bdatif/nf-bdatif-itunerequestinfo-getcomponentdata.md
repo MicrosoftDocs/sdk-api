@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - ITuneRequestInfo.GetComponentData
+ - ITuneRequestInfo::GetComponentData
 ---
 
 # ITuneRequestInfo::GetComponentData
@@ -102,3 +102,4 @@ The Network Provider calls this method after the tuner has tuned to the specifie
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
+

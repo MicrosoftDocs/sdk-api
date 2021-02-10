@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _LSA_FOREST_TRUST_DOMAIN_INFO
+ - PLSA_FOREST_TRUST_DOMAIN_INFO
  - LSA_FOREST_TRUST_DOMAIN_INFO
 ---
 
@@ -69,3 +71,4 @@ Pointer to the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a>
 ### -field NetbiosName
 
 <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the NetBIOS name of the domain.
+

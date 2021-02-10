@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IRangeValueProvider.Minimum
- - IRangeValueProvider.get_Minimum
+ - IRangeValueProvider::get_Minimum
 ---
 
 # IRangeValueProvider::get_Minimum
@@ -64,3 +63,4 @@ This value should be less than [Maximum](nf-uiautomationcore-irangevalueprovider
 ## -see-also
 
 [IRangeValueProvider interface](nn-uiautomationcore-irangevalueprovider.md), [UI Automation Providers Overview](/windows/desktop/WinAuto/uiauto-providersoverview)
+

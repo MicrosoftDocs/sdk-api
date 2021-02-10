@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSwProvider.CreatePack
+ - IVdsSwProvider::CreatePack
 ---
 
 # IVdsSwProvider::CreatePack
@@ -110,3 +110,4 @@ Use this method to create a pack before calling the <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsswprovider">IVdsSwProvider</a>
+

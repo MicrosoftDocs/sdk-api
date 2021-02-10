@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpUserModeInitialize
+ - SpUserModeInitializeFn
 ---
 
 # SpUserModeInitializeFn callback function
@@ -89,3 +89,4 @@ The <i>ppTables</i> parameter should contain one
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IQueryInfo.GetInfoFlags
+ - IQueryInfo::GetInfoFlags
 ---
 
 # IQueryInfo::GetInfoFlags
@@ -69,3 +69,4 @@ Returns S_OK if <i>pdwFlags</i> returns any flag values, or a COM-defined error 
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo">IQueryInfo</a>
+

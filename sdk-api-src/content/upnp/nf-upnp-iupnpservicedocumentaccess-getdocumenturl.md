@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceDocumentAccess.GetDocumentURL
+ - IUPnPServiceDocumentAccess::GetDocumentURL
 ---
 
 # IUPnPServiceDocumentAccess::GetDocumentURL
@@ -69,3 +69,4 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpservicedocumentaccess-getdocument">IUPnPServiceDocumentAccess:GetDocument</a>
+

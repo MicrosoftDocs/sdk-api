@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagCOMPAREITEMSTRUCT
+ - PCOMPAREITEMSTRUCT
  - COMPAREITEMSTRUCT
 ---
 
@@ -133,3 +135,4 @@ The locale identifier. To create a locale identifier, use the <a href="/windows/
 
 
 <a href="/windows/desktop/Controls/wm-compareitem">WM_COMPAREITEM</a>
+

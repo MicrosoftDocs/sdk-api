@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunningObjectTable.Revoke
+ - IRunningObjectTable::Revoke
 ---
 
 # IRunningObjectTable::Revoke
@@ -80,3 +80,4 @@ If you are writing a server application, you must revoke an object's registratio
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
+

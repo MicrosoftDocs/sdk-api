@@ -9,6 +9,8 @@ tech.root: hid
 f1_keywords:
  - ntddmou
  - ntddmou/ntddmou
+api_name:
+ - ntddmou
 ---
 
 # Ntddmou.h header

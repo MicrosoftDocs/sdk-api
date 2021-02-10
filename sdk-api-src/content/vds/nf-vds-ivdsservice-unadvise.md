@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.Unadvise
+ - IVdsService::Unadvise
 ---
 
 # IVdsService::Unadvise
@@ -130,3 +130,4 @@ The <b>Unadvise</b> method might not return immediately, because it waits for a 
 
 
 <a href="/windows/desktop/VDS/vds-notification-model">VDS Notifications</a>
+

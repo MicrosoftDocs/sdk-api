@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linecallparams_tag
+ - LPLINECALLPARAMS
  - LINECALLPARAMS
 ---
 
@@ -328,3 +330,4 @@ The members <b>dwPredictiveAutoTransferStates</b> through <b>dwCallingPartyIDOff
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
+

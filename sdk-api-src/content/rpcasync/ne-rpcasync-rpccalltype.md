@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
+ - tagRpcCallType
  - RpcCallType
 ---
 
@@ -75,3 +76,4 @@ The remote procedure call has guaranteed execution.
 ## -see-also
 
 <a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a>
+

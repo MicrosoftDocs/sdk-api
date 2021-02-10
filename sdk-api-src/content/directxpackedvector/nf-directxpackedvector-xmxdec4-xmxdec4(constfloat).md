@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMXDEC4.XMXDEC4
+ - XMXDEC4::XMXDEC4
 ---
 
 # XMXDEC4::XMXDEC4(const float)
@@ -97,3 +97,4 @@ instance.v =  ( (int32_t)_w1 << 30) |
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
 
 <a href="/windows/desktop/dxmath/xmxdec4-ctor">XMXDEC4 Constructors</a>
+

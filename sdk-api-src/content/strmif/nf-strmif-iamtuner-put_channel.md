@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner.put_Channel
+ - IAMTuner::put_Channel
 ---
 
 # IAMTuner::put_Channel
@@ -82,3 +82,4 @@ This method handles the channel-to-frequency function call that converts the TV 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

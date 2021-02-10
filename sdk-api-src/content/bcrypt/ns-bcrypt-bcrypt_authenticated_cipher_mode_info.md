@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
+ - PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
  - BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
 ---
 
@@ -217,3 +219,4 @@ Indicates that this <b>BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</b> structure is be
 ## -remarks
 
 The size of this structure is different between 64-bit and 32-bit operating systems.  On 64-bit operating systems, the size is different between 64-bit and 32-bit processes.  Instances of this structure must not be shared across threads or passed between processes.
+

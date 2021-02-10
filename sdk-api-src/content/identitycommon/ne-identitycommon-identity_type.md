@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Identitycommon.h
 api_name:
+ - _IdentityType
  - IDENTITY_TYPE
 ---
 
@@ -63,3 +64,4 @@ Enumerate all identities.
 ### -field IDENTITIES_ME_ONLY
 
 Enumerate only identities associated with the current user.
+

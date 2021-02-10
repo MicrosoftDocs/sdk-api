@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3.DeleteAttribute
+ - IWMHeaderInfo3::DeleteAttribute
 ---
 
 # IWMHeaderInfo3::DeleteAttribute
@@ -118,3 +118,4 @@ When deleting multiple attributes, you should do so in descending order by index
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
+

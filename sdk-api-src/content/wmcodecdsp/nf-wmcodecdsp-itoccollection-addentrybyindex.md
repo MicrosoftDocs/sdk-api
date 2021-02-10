@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocCollection.AddEntryByIndex
+ - ITocCollection::AddEntryByIndex
 ---
 
 # ITocCollection::AddEntryByIndex
@@ -95,3 +95,4 @@ In the context of an <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoccollection">ITocCollection</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.SetPropertyItem
+ - Image::SetPropertyItem
 ---
 
 # Image::SetPropertyItem
@@ -161,3 +161,4 @@ INT main()
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-reading-and-writing-metadata-use">Reading and Writing Metadata</a>
+

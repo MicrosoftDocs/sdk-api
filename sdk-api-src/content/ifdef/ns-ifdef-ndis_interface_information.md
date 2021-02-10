@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ifdef.h
 api_name:
+ - _NDIS_INTERFACE_INFORMATION
+ - PNDIS_INTERFACE_INFORMATION
  - NDIS_INTERFACE_INFORMATION
 ---
 
@@ -404,3 +406,4 @@ To register as an interface provider, an NDIS driver calls the
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-xmit-link-speed">OID_GEN_XMIT_LINK_SPEED</a>
+

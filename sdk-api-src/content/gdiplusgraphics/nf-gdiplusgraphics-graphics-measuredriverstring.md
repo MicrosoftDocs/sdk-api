@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.MeasureDriverString
+ - Graphics::MeasureDriverString
 ---
 
 # Graphics::MeasureDriverString
@@ -132,3 +132,4 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - RendezvousSession.tlb
 api_name:
- - IRendezvousSession.State
- - IRendezvousSession.get_State
+ - IRendezvousSession::get_State
 ---
 
 # IRendezvousSession::get_State

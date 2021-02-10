@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMultiMediaStream.OpenFile
+ - IAMMultiMediaStream::OpenFile
 ---
 
 # IAMMultiMediaStream::OpenFile
@@ -144,3 +144,4 @@ The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video 
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
+

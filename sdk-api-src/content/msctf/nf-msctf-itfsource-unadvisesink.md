@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfSource.UnadviseSink
+ - ITfSource::UnadviseSink
 ---
 
 # ITfSource::UnadviseSink
@@ -110,3 +110,4 @@ The advise sink cannot be found.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
+

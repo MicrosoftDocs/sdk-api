@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
+ - tagOLECLOSE
  - OLECLOSE
 ---
 
@@ -71,3 +72,4 @@ If the object is dirty, the <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleo
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
+

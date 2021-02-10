@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapter::SetState
+f1_keywords:
+ - IDXCoreAdapter::SetState
+ - dxcore_interface/IDXCoreAdapter::SetState
 ---
 
 ## -description
@@ -45,12 +48,6 @@ api_name:
 Sets the state of the specified item on the adapter. Before calling **SetState** for a property type, call [IsSetStateSupported](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-issetstatesupported) to confirm that setting the state kind is available for this adapter and operating system (OS).
 
 ## -parameters
-
-### -param state
-
-Type: **[DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate)**
-
-The kind of state item on the adapter whose state you wish to set. See the table in [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind.
 
 ### -param inputStateDetailsSize
 
@@ -90,6 +87,13 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 |E_INVALIDARG|An insufficient buffer size is provided for *inputData* (or for *inputStateDetails* where an input state details buffer is necessary).|
 |E_POINTER|`nullptr` was provided for *inputData* (or for *inputStateDetails* where an input state details buffer is necessary).|
 
+## -param state
+
+Type: **[DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate)**
+
+The kind of state item on the adapter whose state you wish to set. See the table in [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind.
+
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

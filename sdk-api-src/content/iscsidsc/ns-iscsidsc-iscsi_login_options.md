@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
+ - PISCSI_LOGIN_OPTIONS
  - ISCSI_LOGIN_OPTIONS
 ---
 
@@ -259,3 +260,4 @@ If the authentication protocol requires that these two values be strings, they m
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIScsiTarget</a>
+

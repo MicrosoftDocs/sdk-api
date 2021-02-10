@@ -44,6 +44,7 @@ api_type:
 api_location:
  - vptype.h
 api_name:
+ - _AMVP_MODE
  - AMVP_MODE
 ---
 
@@ -87,3 +88,4 @@ Noninterleaved bob. Bob mode in which resources are not allocated to switch to w
 
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

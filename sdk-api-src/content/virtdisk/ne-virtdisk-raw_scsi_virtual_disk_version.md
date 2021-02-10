@@ -45,6 +45,7 @@ api_location:
  - virtdisk.h
  - vdssys.h
 api_name:
+ - _RAW_SCSI_VIRTUAL_DISK_VERSION
  - RAW_SCSI_VIRTUAL_DISK_VERSION
 ---
 

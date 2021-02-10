@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGradientBrush.GetSpreadMethod
+ - IXpsOMGradientBrush::GetSpreadMethod
 ---
 
 # IXpsOMGradientBrush::GetSpreadMethod
@@ -118,3 +118,4 @@ For more information about different types of spread methods, see <a href="/wind
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a>
+

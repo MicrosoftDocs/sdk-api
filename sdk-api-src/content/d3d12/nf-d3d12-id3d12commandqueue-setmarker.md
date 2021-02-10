@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.h
 api_name:
- - ID3D12CommandQueue.SetMarker
+ - ID3D12CommandQueue::SetMarker
 ---
 
 # ID3D12CommandQueue::SetMarker
@@ -82,3 +82,4 @@ To insert instrumentation markers at the current location within a D3D12 command
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
+

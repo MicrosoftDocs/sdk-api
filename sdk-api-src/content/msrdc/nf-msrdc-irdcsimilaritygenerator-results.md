@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcSimilarityGenerator.Results
+ - IRdcSimilarityGenerator::Results
 ---
 
 # IRdcSimilarityGenerator::Results
@@ -67,3 +67,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsimilaritygenerator">IRdcSimilarityGenerator</a>
+

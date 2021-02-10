@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsbOnline.h
 api_name:
+ - _WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
  - WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 ---
 
@@ -71,3 +72,4 @@ Specifies the type of the value for the parameter.
 
 
 <a href="/windows/desktop/api/wsbonline/ne-wsbonline-wsb_ob_status_entry_pair_type">WSB_OB_STATUS_ENTRY_PAIR_TYPE</a>
+

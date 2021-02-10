@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentSession.get_State
+ - ITAgentSession::get_State
 ---
 
 # ITAgentSession::get_State
@@ -115,3 +115,4 @@ The <i>pSessionState</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itagentsession-put_state">put_State</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - networkisolation.h
 api_name:
+ - _INET_FIREWALL_AC_BINARIES
+ - PINET_FIREWALL_AC_BINARIES
  - INET_FIREWALL_AC_BINARIES
 ---
 

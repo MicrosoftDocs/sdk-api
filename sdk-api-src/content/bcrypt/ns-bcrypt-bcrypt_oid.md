@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_OID
  - BCRYPT_OID
 ---
 
@@ -71,3 +72,4 @@ The address of a buffer that contains the OID.
 
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oid_list">BCRYPT_OID_LIST</a>
+

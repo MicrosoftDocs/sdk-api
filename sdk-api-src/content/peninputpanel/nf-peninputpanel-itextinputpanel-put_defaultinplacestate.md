@@ -42,11 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.DefaultInPlaceState
- - ITextInputPanel.get_DefaultInPlaceState
- - ITextInputPanel.put_DefaultInPlaceState
- - ITextInputPanel.get_DefaultInPlaceState
- - ITextInputPanel.put_DefaultInPlaceState
+ - ITextInputPanel::put_DefaultInPlaceState
 ---
 
 # ITextInputPanel::put_DefaultInPlaceState
@@ -123,3 +119,4 @@ if (SUCCEEDED(CoInitialize(NULL)))
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
+

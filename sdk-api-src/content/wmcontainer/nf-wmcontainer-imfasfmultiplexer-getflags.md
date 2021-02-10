@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMultiplexer.GetFlags
+ - IMFASFMultiplexer::GetFlags
 ---
 
 # IMFASFMultiplexer::GetFlags
@@ -88,3 +88,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.GetFriendlyClassName
+ - IDsDisplaySpecifier::GetFriendlyClassName
 ---
 
 # IDsDisplaySpecifier::GetFriendlyClassName
@@ -81,3 +81,4 @@ If no friendly name is set in the display specifiers for the object class, this 
 
 
 <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
+

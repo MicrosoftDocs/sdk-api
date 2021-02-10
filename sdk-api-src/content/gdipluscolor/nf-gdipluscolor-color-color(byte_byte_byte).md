@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color.Color
+ - Color::Color
 ---
 
 # Color::Color(IN BYTE,IN BYTE,IN BYTE)
@@ -80,3 +80,4 @@ Byte that specifies the blue component.
 
 
 <a href="/previous-versions/ms536243(v=vs.85)">Color Constructors</a>
+

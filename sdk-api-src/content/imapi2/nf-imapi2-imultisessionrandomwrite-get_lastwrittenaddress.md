@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IMultisessionRandomWrite.get_LastWrittenAddress
+ - IMultisessionRandomWrite::get_LastWrittenAddress
 ---
 
 # IMultisessionRandomWrite::get_LastWrittenAddress
@@ -370,3 +370,4 @@ This property can be used for wear-out leveling on the media. The property is re
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>
+

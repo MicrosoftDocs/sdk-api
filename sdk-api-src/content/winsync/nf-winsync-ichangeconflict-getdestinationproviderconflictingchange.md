@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IChangeConflict.GetDestinationProviderConflictingChange
+ - IChangeConflict::GetDestinationProviderConflictingChange
 ---
 
 # IChangeConflict::GetDestinationProviderConflictingChange
@@ -105,3 +105,4 @@ The change from the destination provider does not exist.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeconflict">IChangeConflict Interface</a>
+

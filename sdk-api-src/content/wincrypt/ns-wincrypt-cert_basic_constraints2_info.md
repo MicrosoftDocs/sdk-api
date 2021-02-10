@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_BASIC_CONSTRAINTS2_INFO
+ - PCERT_BASIC_CONSTRAINTS2_INFO
  - CERT_BASIC_CONSTRAINTS2_INFO
 ---
 
@@ -75,3 +77,4 @@ Boolean indicating whether the <b>dwPathLenConstraint</b> field limits the maxim
 ### -field dwPathLenConstraint
 
 Maximum number of CA certificates that can follow this certificate in a certification path. A value of zero indicates that the subject of this certificate can issue certificates only to end entities and not to other CAs. Used only if both <b>fCA</b> and <b>fPathLenConstraint</b> are <b>TRUE</b>.
+

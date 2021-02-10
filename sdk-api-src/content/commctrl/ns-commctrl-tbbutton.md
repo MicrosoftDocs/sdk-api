@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - _TBBUTTON
+ - PTBBUTTON
  - TBBUTTON
 ---
 
@@ -104,3 +106,4 @@ Zero-based index of the button string, or a pointer to a string buffer that cont
 ## -remarks
 
 The <b>iString</b> member can return either a string pointer or an index. You can use the <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a> macro to determine which is returned.
+

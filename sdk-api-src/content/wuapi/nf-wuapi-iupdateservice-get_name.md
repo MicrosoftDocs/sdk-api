@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateService.Name
- - IUpdateService.get_Name
+ - IUpdateService::get_Name
 ---
 
 # IUpdateService::get_Name
@@ -64,3 +63,4 @@ The localized properties of an update are returned in the language that correspo
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
+

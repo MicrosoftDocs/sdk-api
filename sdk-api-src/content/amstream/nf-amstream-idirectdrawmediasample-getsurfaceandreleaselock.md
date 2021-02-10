@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawMediaSample.GetSurfaceAndReleaseLock
+ - IDirectDrawMediaSample::GetSurfaceAndReleaseLock
 ---
 
 # IDirectDrawMediaSample::GetSurfaceAndReleaseLock
@@ -78,3 +78,4 @@ The caller should release the returned surface pointer, except when calling the 
 
 
 <a href="/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample">IDirectDrawMediaSample Interface</a>
+

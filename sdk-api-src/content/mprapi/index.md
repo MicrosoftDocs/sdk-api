@@ -9,6 +9,8 @@ tech.root: rras
 f1_keywords:
  - mprapi
  - mprapi/mprapi
+api_name:
+ - mprapi
 ---
 
 # Mprapi.h header

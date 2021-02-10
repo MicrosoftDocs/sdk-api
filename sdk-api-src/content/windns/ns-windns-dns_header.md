@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DNS_HEADER
+ - PDNS_HEADER
  - DNS_HEADER
 ---
 
@@ -324,3 +326,4 @@ Reserved. Do not use.
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

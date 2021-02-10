@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStreamBuffering.StopBuffering
+ - IMFByteStreamBuffering::StopBuffering
 ---
 
 # IMFByteStreamBuffering::StopBuffering
@@ -95,3 +95,4 @@ If the byte stream is currently buffering data, it stops and sends an <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
+

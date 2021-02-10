@@ -46,6 +46,8 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
+ - tagOIFI
+ - LPOLEINPLACEFRAMEINFO
  - OLEINPLACEFRAMEINFO
 ---
 
@@ -89,3 +91,4 @@ When an object is being in-place activated, its server calls the container's <a 
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>
+

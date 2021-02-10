@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
+ - __MIDL___MIDL_itf_msopc_0001_0076_0002
  - OPC_RELATIONSHIP_SELECTOR
 ---
 
@@ -107,3 +108,4 @@ The <i>selectionCriterion</i> parameter is a relationship type.
 
 
 <b>Reference</b>
+

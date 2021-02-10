@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WSADuplicateSocketW
  - winsock2/WSADuplicateSocketW
+ - WSADuplicateSocket
+ - winsock2/WSADuplicateSocket
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSADuplicateSocket
- - WSADuplicateSocketA
  - WSADuplicateSocketW
+ - WSADuplicateSocket
 ---
 
 # WSADuplicateSocketW function
@@ -289,3 +290,4 @@ Notification on shared sockets is subject to the usual constraints of
 
 
 <a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+

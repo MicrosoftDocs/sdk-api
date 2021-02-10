@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - wrdsgraphicschannels
  - wrdsgraphicschannels/wrdsgraphicschannels
+api_name:
+ - wrdsgraphicschannels
 ---
 
 # Wrdsgraphicschannels.h header

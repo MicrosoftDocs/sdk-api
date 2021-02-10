@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject.Flush
+ - IMediaObject::Flush
 ---
 
 # IMediaObject::Flush
@@ -75,3 +75,4 @@ When the method returns, every input stream accepts data. Output streams cannot 
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
+

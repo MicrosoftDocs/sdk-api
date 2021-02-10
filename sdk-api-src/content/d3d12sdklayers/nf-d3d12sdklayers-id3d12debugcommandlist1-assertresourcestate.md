@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList1.AssertResourceState
+ - ID3D12DebugCommandList1::AssertResourceState
 ---
 
 # ID3D12DebugCommandList1::AssertResourceState
@@ -89,3 +89,4 @@ This API is for debug validation only and does not affect the actual runtime or 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist1">ID3D12DebugCommandList1</a>
+

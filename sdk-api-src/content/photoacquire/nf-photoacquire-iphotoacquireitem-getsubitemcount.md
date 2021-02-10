@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.GetSubItemCount
+ - IPhotoAcquireItem::GetSubItemCount
 ---
 
 # IPhotoAcquireItem::GetSubItemCount
@@ -88,3 +88,4 @@ If an error occurs, <i>pnCount</i> will be set to <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
+

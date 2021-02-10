@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsAdmin.h
 api_name:
- - IVssAdmin.AbortAllSnapshotsInProgress
+ - IVssAdmin::AbortAllSnapshotsInProgress
 ---
 
 # IVssAdmin::AbortAllSnapshotsInProgress

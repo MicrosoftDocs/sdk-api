@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack.Recover
+ - IVdsPack::Recover
 ---
 
 # IVdsPack::Recover
@@ -116,3 +116,4 @@ Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdspack">IVdsPack</a>
+

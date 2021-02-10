@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.put_CLSID
+ - ITPluggableTerminalSuperclassRegistration::put_CLSID
 ---
 
 # ITPluggableTerminalSuperclassRegistration::put_CLSID
@@ -110,3 +110,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_clsid">get_CLSID</a>
+

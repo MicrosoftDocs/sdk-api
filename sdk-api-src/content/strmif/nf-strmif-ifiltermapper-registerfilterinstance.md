@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IFilterMapper.RegisterFilterInstance
+ - IFilterMapper::RegisterFilterInstance
 ---
 
 # IFilterMapper::RegisterFilterInstance
@@ -85,3 +85,4 @@ The filter itself must have already been registered.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper Interface</a>
+

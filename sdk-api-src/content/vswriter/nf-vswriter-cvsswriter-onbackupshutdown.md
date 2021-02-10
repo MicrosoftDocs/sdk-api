@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter.OnBackupShutdown
+ - CVssWriter::OnBackupShutdown
 ---
 
 # CVssWriter::OnBackupShutdown
@@ -118,3 +118,4 @@ If this method calls the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvss
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">IVssBackupComponents::BackupComplete</a>
+

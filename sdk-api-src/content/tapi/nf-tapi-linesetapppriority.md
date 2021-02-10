@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineSetAppPriority
- - lineSetAppPriorityA
- - lineSetAppPriorityW
 ---
 
 # lineSetAppPriority function
@@ -114,3 +112,4 @@ The Priorities set with <b>lineSetAppPriority</b> will persist across restarts o
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
+

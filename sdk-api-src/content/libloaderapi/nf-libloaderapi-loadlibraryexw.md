@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LoadLibraryExW
  - libloaderapi/LoadLibraryExW
+ - LoadLibraryEx
+ - libloaderapi/LoadLibraryEx
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - API-MS-Win-Core-Libraryloader-l1-2-1.dll
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - LoadLibraryEx
- - LoadLibraryExA
  - LoadLibraryExW
+ - LoadLibraryEx
 ---
 
 # LoadLibraryExW function
@@ -698,3 +699,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.NotifyOwnerMessage
+ - IVideoWindow::NotifyOwnerMessage
 ---
 
 # IVideoWindow::NotifyOwnerMessage
@@ -125,3 +125,4 @@ The Filter Graph Manager calls this method to pass various messages to the rende
 
 
 <a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - IP_PER_ADAPTER_INFO
+ - _IP_PER_ADAPTER_INFO_W2KSP1
+ - PIP_PER_ADAPTER_INFO_W2KSP1
+ - IP_PER_ADAPTER_INFO_W2KSP1
 ---
 
 # IP_PER_ADAPTER_INFO_W2KSP1 structure
@@ -95,3 +97,4 @@ APIPA enables automatic IP address configuration on networks without DHCP server
 
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
+

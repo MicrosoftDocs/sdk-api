@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - BatteryMiniSetStatusNotify
+ - BCLASS_SET_STATUS_NOTIFY_CALLBACK
 ---
 
 # BCLASS_SET_STATUS_NOTIFY_CALLBACK callback function
@@ -127,3 +127,4 @@ Some batteries might be unable to distinguish the precise capacities requested b
 
 
 <a href="/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a>
+

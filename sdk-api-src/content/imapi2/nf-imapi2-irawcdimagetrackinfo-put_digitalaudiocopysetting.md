@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IRawCDImageTrackInfo.put_DigitalAudioCopySetting
+ - IRawCDImageTrackInfo::put_DigitalAudioCopySetting
 ---
 
 # IRawCDImageTrackInfo::put_DigitalAudioCopySetting
@@ -75,3 +75,4 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-irawcdimagetrackinfo">IRawCDImageTrackInfo</a>
+

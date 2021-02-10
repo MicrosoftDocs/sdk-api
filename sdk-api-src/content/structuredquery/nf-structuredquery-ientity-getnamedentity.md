@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IEntity.GetNamedEntity
+ - IEntity::GetNamedEntity
 ---
 
 # IEntity::GetNamedEntity
@@ -71,3 +71,4 @@ Receives a pointer to the <a href="/windows/desktop/api/structuredquery/nn-struc
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or S_False if the named entity cannot be found.
+

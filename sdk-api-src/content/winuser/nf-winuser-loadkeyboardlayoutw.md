@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LoadKeyboardLayoutW
  - winuser/LoadKeyboardLayoutW
+ - LoadKeyboardLayout
+ - winuser/LoadKeyboardLayout
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - LoadKeyboardLayout
- - LoadKeyboardLayoutA
  - LoadKeyboardLayoutW
+ - LoadKeyboardLayout
 ---
 
 # LoadKeyboardLayoutW function
@@ -221,3 +222,4 @@ An application can and will typically load the default input locale identifier o
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a>
+

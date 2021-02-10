@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
+ - _DHCP_SERVER_OPTIONS
+ - LPDHCP_SERVER_OPTIONS
  - DHCP_SERVER_OPTIONS
 ---
 

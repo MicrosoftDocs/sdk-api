@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
+ - _BP_ANIMATIONSTYLE
  - BP_ANIMATIONSTYLE
 ---
 
@@ -71,3 +72,4 @@ Cubic fade animation. Not implemented in Windows Vista.
 ### -field BPAS_SINE
 
 Sinusoid fade animation. Not implemented in Windows Vista.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetwork.GetProfileName
+ - IDot11AdHocNetwork::GetProfileName
 ---
 
 # IDot11AdHocNetwork::GetProfileName
@@ -137,3 +137,4 @@ A pointer passed as a parameter is not valid.
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-hasprofile">IDot11AdHocNetwork::HasProfile</a>
+

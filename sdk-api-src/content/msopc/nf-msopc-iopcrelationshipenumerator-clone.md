@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcRelationshipEnumerator.Clone
+ - IOpcRelationshipEnumerator::Clone
 ---
 
 # IOpcRelationshipEnumerator::Clone
@@ -145,3 +145,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

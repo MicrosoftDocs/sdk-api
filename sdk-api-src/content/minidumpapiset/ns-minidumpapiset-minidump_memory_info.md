@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_MEMORY_INFO
+ - PMINIDUMP_MEMORY_INFO
  - MINIDUMP_MEMORY_INFO
 ---
 
@@ -182,3 +184,4 @@ A variable for alignment.
 ## -see-also
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>
+

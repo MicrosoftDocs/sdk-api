@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3DCommon.h
 api_name:
+ - _D3D_CBUFFER_TYPE
  - D3D_CBUFFER_TYPE
 ---
 
@@ -99,3 +100,4 @@ A buffer containing binding information.
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
+

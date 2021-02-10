@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSCInstallNamespace32
+ - WSCInstallNameSpace32
 ---
 
 # WSCInstallNameSpace32 function

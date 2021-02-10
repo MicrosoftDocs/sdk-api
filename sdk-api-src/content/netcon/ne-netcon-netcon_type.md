@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NetCon.h
 api_name:
+ - tagNETCON_TYPE
  - NETCON_TYPE
 ---
 
@@ -102,3 +103,4 @@ The connection is a bridged connection.
 
 
 <a href="/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a>
+

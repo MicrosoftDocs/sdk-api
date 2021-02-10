@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendTaskPad.EnumTasks
+ - IExtendTaskPad::EnumTasks
 ---
 
 # IExtendTaskPad::EnumTasks
@@ -84,3 +84,4 @@ IEnumTASK interface.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
+

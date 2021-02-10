@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CryptGetSignerCertificateCallback
+ - PFN_CRYPT_GET_SIGNER_CERTIFICATE
 ---
 
 # PFN_CRYPT_GET_SIGNER_CERTIFICATE callback function
@@ -86,3 +86,4 @@ If a signer certificate is found, the function returns a pointer to a read-only 
 ## -remarks
 
 If the message does not contain content or signers, the function is called with <i>pSignerId</i> set to <b>NULL</b>.
+

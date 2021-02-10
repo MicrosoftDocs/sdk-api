@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.OnDocWindowActivate
+ - IOleInPlaceActiveObject::OnDocWindowActivate
 ---
 
 # IOleInPlaceActiveObject::OnDocWindowActivate
@@ -83,3 +83,4 @@ While executing <b>IOleInPlaceActiveObject::OnDocWindowActivate</b>, do not make
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IConfigurationDataCollector.ManagementQueries
- - IConfigurationDataCollector.get_ManagementQueries
- - IConfigurationDataCollector.put_ManagementQueries
+ - IConfigurationDataCollector::get_ManagementQueries
 ---
 
 # IConfigurationDataCollector::get_ManagementQueries
@@ -65,3 +63,4 @@ For details on writing WMI queries, see <a href="/windows/desktop/WmiSdk/wql-sql
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
+

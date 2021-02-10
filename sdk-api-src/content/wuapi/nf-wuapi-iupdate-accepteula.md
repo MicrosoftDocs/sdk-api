@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.AcceptEula
+ - IUpdate::AcceptEula
 ---
 
 # IUpdate::AcceptEula
@@ -105,3 +105,4 @@ The Microsoft Software License Terms for the update could not be located.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

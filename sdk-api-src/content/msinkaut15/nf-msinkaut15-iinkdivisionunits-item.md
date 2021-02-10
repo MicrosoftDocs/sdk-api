@@ -43,7 +43,7 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnits.Item
+ - IInkDivisionUnits::Item
 ---
 
 # IInkDivisionUnits::Item
@@ -140,3 +140,4 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits Interface</a>
+

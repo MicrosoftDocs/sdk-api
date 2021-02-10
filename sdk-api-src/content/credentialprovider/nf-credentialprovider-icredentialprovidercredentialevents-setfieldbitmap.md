@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.SetFieldBitmap
+ - ICredentialProviderCredentialEvents::SetFieldBitmap
 ---
 
 # ICredentialProviderCredentialEvents::SetFieldBitmap
@@ -77,3 +77,4 @@ The new tile image.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureCustomObjectEnumerator.MovePrevious
+ - IOpcSignatureCustomObjectEnumerator::MovePrevious
 ---
 
 # IOpcSignatureCustomObjectEnumerator::MovePrevious
@@ -189,3 +189,4 @@ The current position already precedes the first item of the enumerator.
 
 
 <b>Reference</b>
+

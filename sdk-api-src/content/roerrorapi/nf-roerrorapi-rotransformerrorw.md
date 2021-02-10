@@ -45,7 +45,6 @@ api_location:
  - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
  - RoTransformErrorW
- - WinRTTransformErrorW
 ---
 
 # RoTransformErrorW function
@@ -151,3 +150,4 @@ The behavior of the  <b>RoTransformErrorW</b> function is otherwise the same as 
 
 
 <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>
+

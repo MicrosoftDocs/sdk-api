@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdMoCompBeginFrame
+ - PDD_MOCOMPCB_BEGINFRAME
 ---
 
 ## -description
@@ -68,3 +68,4 @@ DirectDraw ensures that begin and end frames will be properly paired.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a>
+

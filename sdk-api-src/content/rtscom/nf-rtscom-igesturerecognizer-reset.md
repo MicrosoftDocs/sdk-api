@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IGestureRecognizer.Reset
+ - IGestureRecognizer::Reset
 ---
 
 # IGestureRecognizer::Reset
@@ -77,3 +77,4 @@ Removes any past strokes from consideration for gestures. If Reset is called whi
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-get_enabled">IGestureRecognizer::Enabled Property</a>
+

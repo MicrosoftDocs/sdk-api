@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPerChannelDbLevel.GetLevelRange
+ - IPerChannelDbLevel::GetLevelRange
 ---
 
 # IPerChannelDbLevel::GetLevelRange
@@ -110,3 +110,4 @@ Pointer <i>pfminLevelDB</i>, <i>pfmaxLevelDB</i>, or <i>pfmaxLevelDB</i> is <b>N
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount">IPerChannelDbLevel::GetChannelCount</a>
+

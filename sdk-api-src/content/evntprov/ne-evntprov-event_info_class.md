@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Evntprov.h
 api_name:
+ - _EVENT_INFO_CLASS
  - EVENT_INFO_CLASS
 ---
 
@@ -81,3 +82,4 @@ Maximum value for testing purposes.
 
 
 <a href="/windows/desktop/ETW/provider-traits">Provider Traits</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IGetAppTrackerData.GetTrackerDataAsCollectionObject
+ - IGetAppTrackerData::GetTrackerDataAsCollectionObject
 ---
 
 # IGetAppTrackerData::GetTrackerDataAsCollectionObject
@@ -77,3 +77,4 @@ Note that the collection object returned by this method does not contain all tra
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
+

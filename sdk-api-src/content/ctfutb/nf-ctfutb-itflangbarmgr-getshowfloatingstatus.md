@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarMgr.GetShowFloatingStatus
+ - ITfLangBarMgr::GetShowFloatingStatus
 ---
 
 # ITfLangBarMgr::GetShowFloatingStatus
@@ -110,3 +110,4 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-showfloating">ITfLangBarMgr::ShowFloating
       </a>
+

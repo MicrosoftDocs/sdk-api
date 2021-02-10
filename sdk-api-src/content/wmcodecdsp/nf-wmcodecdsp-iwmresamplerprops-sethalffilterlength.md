@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMResamplerProps.SetHalfFilterLength
+ - IWMResamplerProps::SetHalfFilterLength
 ---
 
 # IWMResamplerProps::SetHalfFilterLength
@@ -87,3 +87,4 @@ This method is equivalent to setting the <a href="/windows/desktop/medfound/mfpk
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops">IWMResamplerProps Interface</a>
+

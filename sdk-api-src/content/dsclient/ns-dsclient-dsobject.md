@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dsclient.h
 api_name:
+ - LPDSOBJECT
  - DSOBJECT
 ---
 
@@ -139,3 +140,4 @@ pwszClass = (LPWSTR)((LPBYTE)pdsObjNames +
 
 
 <a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
+

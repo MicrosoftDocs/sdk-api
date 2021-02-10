@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession.Shutdown
+ - IMFMediaSession::Shutdown
 ---
 
 # IMFMediaSession::Shutdown
@@ -86,3 +86,4 @@ After this method is called, other <a href="/windows/desktop/api/mfidl/nn-mfidl-
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
+

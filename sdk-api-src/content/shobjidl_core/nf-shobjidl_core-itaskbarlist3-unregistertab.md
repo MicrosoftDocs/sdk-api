@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Explorerframe.dll
 api_name:
- - ITaskbarList3.UnregisterTab
+ - ITaskbarList3::UnregisterTab
 ---
 
 # ITaskbarList3::UnregisterTab
@@ -97,3 +97,4 @@ It is the responsibility of the calling application to free <i>hwndTab</i> throu
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+

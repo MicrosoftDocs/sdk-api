@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIDeviceSubObject.GetDevice
+ - IDXGIDeviceSubObject::GetDevice
 ---
 
 # IDXGIDeviceSubObject::GetDevice
@@ -84,3 +84,4 @@ The type of interface that is returned can be any interface published by the dev
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevicesubobject">IDXGIDeviceSubObject</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLDevice.CreateBindingTable
+ - IDMLDevice::CreateBindingTable
 ---
 
 # IDMLDevice::CreateBindingTable
@@ -106,3 +106,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 
 [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)
+

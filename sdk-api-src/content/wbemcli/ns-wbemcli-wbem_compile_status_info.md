@@ -43,6 +43,7 @@ api_type:
 api_location:
  - 
 api_name:
+ - tag_CompileStatusInfo
  - WBEM_COMPILE_STATUS_INFO
 ---
 
@@ -122,3 +123,4 @@ The   <i>ObjectNum</i>, <i>FirstLine</i>, and <i>LastLine</i> parameters only co
 
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
+

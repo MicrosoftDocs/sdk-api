@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportCacheable.Discard
+ - IWdsTransportCacheable::Discard
 ---
 
 # IWdsTransportCacheable::Discard
@@ -63,3 +63,4 @@ Unlike <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcache
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
+

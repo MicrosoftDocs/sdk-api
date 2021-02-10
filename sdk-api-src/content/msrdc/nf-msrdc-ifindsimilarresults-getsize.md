@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IFindSimilarResults.GetSize
+ - IFindSimilarResults::GetSize
 ---
 
 # IFindSimilarResults::GetSize
@@ -67,3 +67,4 @@ This method always returns <b>S_OK</b>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a>
+

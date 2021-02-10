@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.AddAppNonMember
- - AzApplicationGroup.AddAppNonMember
+ - IAzApplicationGroup::AddAppNonMember
 ---
 
 # IAzApplicationGroup::AddAppNonMember
@@ -70,3 +69,4 @@ To view the list of application groups that are refused membership in this appli
 Denying membership to an account in an application group does not prevent that account from being assigned to a role through a different application group, nor from being granted permission to a resource through assignment to any other role.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
+

@@ -45,6 +45,7 @@ api_location:
  - windns.h
 api_name:
  - _MDNS_QUERY_HANDLE
+ - PMDNS_QUERY_HANDLE
  - MDNS_QUERY_HANDLE
 ---
 

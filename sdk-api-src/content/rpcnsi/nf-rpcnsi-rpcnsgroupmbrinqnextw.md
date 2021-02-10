@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsGroupMbrInqNextW
  - rpcnsi/RpcNsGroupMbrInqNextW
+ - RpcNsGroupMbrInqNext
+ - rpcnsi/RpcNsGroupMbrInqNext
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsGroupMbrInqNext
- - RpcNsGroupMbrInqNextA
  - RpcNsGroupMbrInqNextW
+ - RpcNsGroupMbrInqNext
 ---
 
 # RpcNsGroupMbrInqNextW function
@@ -166,3 +167,4 @@ The order in which group members are returned can be different for each viewing 
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

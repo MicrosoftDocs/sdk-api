@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage3.CreateEmptyMetadataObject
+ - IWMDMStorage3::CreateEmptyMetadataObject
 ---
 
 # IWMDMStorage3::CreateEmptyMetadataObject
@@ -188,3 +188,4 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
 
 
 <a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
+

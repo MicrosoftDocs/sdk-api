@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IChangeConflict.SetResolveActionForChangeUnit
+ - IChangeConflict::SetResolveActionForChangeUnit
 ---
 
 # IChangeConflict::SetResolveActionForChangeUnit
@@ -123,3 +123,4 @@ By setting this action in an event handler for <a href="/previous-versions/windo
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
+

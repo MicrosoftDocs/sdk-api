@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2.CreateAnimationVariable
+ - IUIAnimationManager2::CreateAnimationVariable
 ---
 
 # IUIAnimationManager2::CreateAnimationVariable
@@ -75,3 +75,4 @@ An animation variable is typically created to represent each visual characterist
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">IUIAnimationManager2</a>
+

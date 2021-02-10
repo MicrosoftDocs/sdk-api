@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice.get_UPC
+ - IUPnPDevice::get_UPC
 ---
 
 # IUPnPDevice::get_UPC
@@ -77,3 +77,4 @@ It is possible for multiple devices to have the same product code. To determine 
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename">IUPnPDevice::UniqueDeviceName</a>
+

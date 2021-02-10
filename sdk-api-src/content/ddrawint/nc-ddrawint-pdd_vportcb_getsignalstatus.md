@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdVideoPortGetSignalStatus
+ - PDD_VPORTCB_GETSIGNALSTATUS
 ---
 
 ## -description
@@ -68,3 +68,4 @@ The driver should determine whether a valid signal is coming in to the hardware 
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a>
+

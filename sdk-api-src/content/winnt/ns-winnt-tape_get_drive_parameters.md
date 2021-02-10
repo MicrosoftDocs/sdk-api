@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TAPE_GET_DRIVE_PARAMETERS
+ - PTAPE_GET_DRIVE_PARAMETERS
  - TAPE_GET_DRIVE_PARAMETERS
 ---
 
@@ -685,3 +687,4 @@ Indicates the number of bytes between the end-of-tape warning and the physical e
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
+

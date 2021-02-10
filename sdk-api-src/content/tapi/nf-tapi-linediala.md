@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineDialA
  - tapi/lineDialA
+ - lineDial
+ - tapi/lineDial
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineDial
  - lineDialA
- - lineDialW
+ - lineDial
 ---
 
 # lineDialA function
@@ -141,3 +142,4 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
+

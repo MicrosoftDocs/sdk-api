@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor.GetSecurityDescriptor
+ - IUrlAccessor::GetSecurityDescriptor
 ---
 
 # IUrlAccessor::GetSecurityDescriptor
@@ -99,3 +99,4 @@ If the URL does not contain a user SID, then the protocol handler is invoked in 
 
 
 <a href="/windows/desktop/search/-search-prth-error-constants">Search Protocol Handler Error Messages</a>
+

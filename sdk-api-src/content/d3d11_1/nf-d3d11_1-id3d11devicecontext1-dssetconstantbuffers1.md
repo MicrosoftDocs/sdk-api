@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext1.DSSetConstantBuffers1
+ - ID3D11DeviceContext1::DSSetConstantBuffers1
 ---
 
 # ID3D11DeviceContext1::DSSetConstantBuffers1
@@ -160,3 +160,4 @@ If you change multiple constant buffers, set the first and last constant buffers
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
+

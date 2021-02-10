@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
- - PDH_COUNTER_PATH_ELEMENTS
+ - _PDH_COUNTER_PATH_ELEMENTS_A
+ - PPDH_COUNTER_PATH_ELEMENTS_A
  - PDH_COUNTER_PATH_ELEMENTS_A
- - PDH_COUNTER_PATH_ELEMENTS_W
 ---
 
 # PDH_COUNTER_PATH_ELEMENTS_A structure
@@ -98,3 +98,4 @@ When you allocate memory for this structure, allocate enough memory for the memb
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhparsecounterpatha">PdhParseCounterPath</a>
+

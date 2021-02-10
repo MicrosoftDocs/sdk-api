@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertySetStorage.Create
+ - IPropertySetStorage::Create
 ---
 
 # IPropertySetStorage::Create
@@ -137,3 +137,4 @@ This method is subject to the constraints of the underlying <a href="/windows/de
 
 
 <a href="/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
+

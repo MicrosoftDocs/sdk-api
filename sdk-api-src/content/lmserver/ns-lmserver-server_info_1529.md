@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1529
+ - PSERVER_INFO_1529
  - SERVER_INFO_1529
 ---
 
@@ -78,3 +80,4 @@ Specifies the minimum number of free receive work items the server requires befo
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

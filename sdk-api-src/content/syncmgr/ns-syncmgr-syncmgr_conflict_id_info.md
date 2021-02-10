@@ -45,6 +45,7 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_CONFLICT_ID_INFO
+ - PSYNCMGR_CONFLICT_ID_INFO
 ---
 
 # SYNCMGR_CONFLICT_ID_INFO structure

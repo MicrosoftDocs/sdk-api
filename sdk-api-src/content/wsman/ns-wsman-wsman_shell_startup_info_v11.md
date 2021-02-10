@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
- - WSMAN_SHELL_STARTUP_INFO
+ - _WSMAN_SHELL_STARTUP_INFO_V11
+ - WSMAN_SHELL_STARTUP_INFO_V11
 ---
 
 # WSMAN_SHELL_STARTUP_INFO_V11 structure
@@ -96,3 +97,4 @@ A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_environment_va
 #### - workingDirectory
 
 Specifies the starting directory for a shell. It is  used with any execution command. If this member is a <b>NULL</b> value, a default directory will be used by the remote machine when executing the command. An empty value is treated by the underlying protocol as an omitted value.
+

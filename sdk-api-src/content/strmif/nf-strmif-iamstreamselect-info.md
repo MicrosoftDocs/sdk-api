@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStreamSelect.Info
+ - IAMStreamSelect::Info
 ---
 
 # IAMStreamSelect::Info
@@ -181,3 +181,4 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamselect">IAMStreamSelect Interface</a>
+

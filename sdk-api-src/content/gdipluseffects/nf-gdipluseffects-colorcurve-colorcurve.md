@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ColorCurve.ColorCurve
+ - ColorCurve::ColorCurve
 ---
 
 # ColorCurve::ColorCurve
@@ -74,3 +74,4 @@ Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcu
 
 
 <a href="/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curvechannel">CurveChannel</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider.LocateLuns
+ - IVssHardwareSnapshotProvider::LocateLuns
 ---
 
 # IVssHardwareSnapshotProvider::LocateLuns
@@ -164,3 +164,4 @@ This method cannot be used to map shadow copy LUNs as read-only.
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
+

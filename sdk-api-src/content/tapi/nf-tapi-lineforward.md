@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineForward
- - lineForwardA
- - lineForwardW
 ---
 
 # lineForward function
@@ -145,3 +143,4 @@ Invoking
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+

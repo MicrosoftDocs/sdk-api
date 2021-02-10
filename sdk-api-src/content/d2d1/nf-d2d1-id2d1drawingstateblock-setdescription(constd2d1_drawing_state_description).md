@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DrawingStateBlock.SetDescription
+ - ID2D1DrawingStateBlock::SetDescription
 ---
 
 # ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION)

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
- - ID3D10ShaderReflectionType.GetDesc
+ - ID3D10ShaderReflectionType::GetDesc
 ---
 
 # ID3D10ShaderReflectionType::GetDesc
@@ -69,3 +69,4 @@ Returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectiontype">ID3D10ShaderReflectionType Interface</a>
+

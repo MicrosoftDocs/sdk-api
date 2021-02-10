@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - LPEXP_SZ_LINK
  - EXP_SZ_LINK
 ---
 
@@ -91,3 +92,4 @@ The null-terminated ANSI string with the path of the target or icon.
 Type: <b>WCHAR[MAX_PATH]</b>
 
 The null-terminated Unicode string with the path of the target or icon.
+

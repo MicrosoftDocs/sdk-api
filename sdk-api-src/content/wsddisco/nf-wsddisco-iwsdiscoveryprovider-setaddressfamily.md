@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDiscoveryProvider.SetAddressFamily
+ - IWSDiscoveryProvider::SetAddressFamily
 ---
 
 # IWSDiscoveryProvider::SetAddressFamily
@@ -162,3 +162,4 @@ This method can be called only once on a provider. This method must be called be
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
+

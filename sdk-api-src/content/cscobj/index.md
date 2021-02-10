@@ -9,6 +9,8 @@ tech.root: of
 f1_keywords:
  - cscobj
  - cscobj/cscobj
+api_name:
+ - cscobj
 ---
 
 # Cscobj.h header

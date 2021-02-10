@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IEnumWbemClassObject.Next
+ - IEnumWbemClassObject::Next
 ---
 
 # IEnumWbemClassObject::Next
@@ -154,3 +154,4 @@ HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
 
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a>
+

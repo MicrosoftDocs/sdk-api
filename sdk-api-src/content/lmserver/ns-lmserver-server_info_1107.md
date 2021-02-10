@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1107
+ - PSERVER_INFO_1107
  - SERVER_INFO_1107
 ---
 
@@ -78,3 +80,4 @@ Specifies the number of users who can attempt to log on to the system server. No
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

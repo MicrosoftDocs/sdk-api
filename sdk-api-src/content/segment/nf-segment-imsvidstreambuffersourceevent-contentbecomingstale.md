@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.ContentBecomingStale
+ - IMSVidStreamBufferSourceEvent::ContentBecomingStale
 ---
 
 # IMSVidStreamBufferSourceEvent::ContentBecomingStale
@@ -70,3 +70,4 @@ This event corresponds to the STREAMBUFFER_EC_CONTENT_BECOMING_STALE event in th
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent Interface</a>
+

@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - il21dec
  - il21dec/il21dec
+api_name:
+ - il21dec
 ---
 
 # Il21Dec.h header

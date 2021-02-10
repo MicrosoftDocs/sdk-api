@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication.AuthzInterfaceClsid
- - IAzApplication.get_AuthzInterfaceClsid
- - IAzApplication.put_AuthzInterfaceClsid
- - AzApplication.AuthzInterfaceClsid
+ - IAzApplication::put_AuthzInterfaceClsid
 ---
 
 # IAzApplication::put_AuthzInterfaceClsid

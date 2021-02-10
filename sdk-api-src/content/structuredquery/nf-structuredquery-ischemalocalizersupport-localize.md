@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - ISchemaLocalizerSupport.Localize
+ - ISchemaLocalizerSupport::Localize
 ---
 
 # ISchemaLocalizerSupport::Localize
@@ -71,3 +71,4 @@ Returns a null-terminated Unicode string that is the localized string. The calli
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or S_FALSE otherwise.
+

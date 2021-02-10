@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit.EnumerateExtensionsClose
- - CCertServerExit.EnumerateExtensionsClose
+ - ICertServerExit::EnumerateExtensionsClose
 ---
 
 # ICertServerExit::EnumerateExtensionsClose
@@ -64,3 +63,4 @@ All applications that use <a href="/windows/desktop/api/certif/nf-certif-icertse
 
 
 <a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_100
+ - PSERVER_INFO_100
  - SERVER_INFO_100
 ---
 
@@ -159,3 +161,4 @@ A pointer to a Unicode string that specifies the name of the server.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

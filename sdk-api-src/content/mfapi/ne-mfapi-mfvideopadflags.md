@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - _MFVideoPadFlags
  - MFVideoPadFlags
 ---
 
@@ -75,3 +76,4 @@ Use these flags with the <a href="/windows/desktop/medfound/mf-mt-pad-control-fl
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

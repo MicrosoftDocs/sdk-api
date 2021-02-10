@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_ACCESS_INFORMATION
+ - PTOKEN_ACCESS_INFORMATION
  - TOKEN_ACCESS_INFORMATION
 ---
 
@@ -122,3 +124,4 @@ Reserved. Must be set to <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsBindingLookupBeginA
  - rpcnsi/RpcNsBindingLookupBeginA
+ - RpcNsBindingLookupBegin
+ - rpcnsi/RpcNsBindingLookupBegin
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsBindingLookupBegin
  - RpcNsBindingLookupBeginA
- - RpcNsBindingLookupBeginW
+ - RpcNsBindingLookupBegin
 ---
 
 # RpcNsBindingLookupBeginA function
@@ -237,3 +238,4 @@ When finished locating binding handles, the client application calls the
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_EVENT_NOTIFY
+ - PSECPKG_EVENT_NOTIFY
  - SECPKG_EVENT_NOTIFY
 ---
 
@@ -78,3 +80,4 @@ The event details.
 ### -field PackageParameter
 
 Information specified as the <i>Parameter</i> value when <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a> is called to register for notification.
+

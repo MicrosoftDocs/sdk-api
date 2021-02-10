@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportClient.Session
- - IWdsTransportClient.get_Session
+ - IWdsTransportClient::get_Session
 ---
 
 # IWdsTransportClient::get_Session
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsession">IWdsTransportSession</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoCollection.Remove
+ - ISdoCollection::Remove
 ---
 
 # ISdoCollection::Remove
@@ -79,3 +79,4 @@ If the method fails, the return value is one of the following error codes.
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-removeall">ISdoCollection::RemoveAll</a>
+

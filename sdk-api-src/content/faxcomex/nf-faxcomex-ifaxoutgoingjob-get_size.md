@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.Size
- - IFaxOutgoingJob.get_Size
- - IFaxOutgoingJob.get_Size
+ - IFaxOutgoingJob::get_Size
 ---
 
 # IFaxOutgoingJob::get_Size
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
+

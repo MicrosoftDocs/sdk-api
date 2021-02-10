@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymGetSourceFile
- - SymGetSourceFile
- - SymGetSourceFileW
 ---
 
 # SymGetSourceFile function
@@ -105,3 +103,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/Debug/source-server-and-source-indexing">Source Server</a>
+

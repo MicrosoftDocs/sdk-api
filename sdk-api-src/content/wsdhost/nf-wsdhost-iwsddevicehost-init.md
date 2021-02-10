@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost.Init
+ - IWSDDeviceHost::Init
 ---
 
 # IWSDDeviceHost::Init
@@ -172,3 +172,4 @@ This method is called by <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcre
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
+

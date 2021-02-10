@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEx.EnumerationFlagNonXmlText
+ - IWSManEx::EnumerationFlagNonXmlText
 ---
 
 # IWSManEx::EnumerationFlagNonXmlText
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
+

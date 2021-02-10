@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objsel.h
 api_name:
+ - _DSOP_UPLEVEL_FILTER_FLAGS
  - DSOP_UPLEVEL_FILTER_FLAGS
 ---
 
@@ -170,3 +171,4 @@ For more information about group types and scope, see <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
+

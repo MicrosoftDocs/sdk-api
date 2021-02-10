@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Txlogpub.h
 api_name:
- - ILog.GetLogLimits
+ - ILog::GetLogLimits
 ---
 
 # ILog::GetLogLimits
@@ -73,3 +73,4 @@ The limits returned by this method may include records that have not yet been wr
 ## -see-also
 
 <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
+

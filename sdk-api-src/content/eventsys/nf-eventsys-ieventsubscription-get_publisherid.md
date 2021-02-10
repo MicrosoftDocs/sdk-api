@@ -42,9 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription.PublisherID
- - IEventSubscription.get_PublisherID
- - IEventSubscription.put_PublisherID
+ - IEventSubscription::get_PublisherID
 ---
 
 # IEventSubscription::get_PublisherID
@@ -65,3 +63,4 @@ Specifying a <b>PublisherID</b> property does not guarantee that a subscriber wi
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
+ - IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
 ---
 
 # IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
@@ -161,3 +161,4 @@ The precise meaning of the STG_E_ACCESSDENIED return value is implementation-spe
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
+

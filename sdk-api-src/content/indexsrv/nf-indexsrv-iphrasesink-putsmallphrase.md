@@ -42,7 +42,7 @@ api_type:
 api_location:
  - indexsrv.h
 api_name:
- - IPhraseSink.PutSmallPhrase
+ - IPhraseSink::PutSmallPhrase
 ---
 
 # IPhraseSink::PutSmallPhrase
@@ -86,3 +86,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a>
+

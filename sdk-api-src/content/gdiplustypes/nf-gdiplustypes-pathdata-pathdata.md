@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathData.PathData
+ - PathData::PathData
 ---
 
 ## -description
@@ -69,3 +69,4 @@ Constructs a <b>PathData</b> object. The <b>Count</b> data member is initialized
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

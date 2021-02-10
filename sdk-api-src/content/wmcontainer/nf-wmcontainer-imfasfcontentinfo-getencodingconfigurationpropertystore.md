@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFContentInfo.GetEncodingConfigurationPropertyStore
+ - IMFASFContentInfo::GetEncodingConfigurationPropertyStore
 ---
 
 # IMFASFContentInfo::GetEncodingConfigurationPropertyStore
@@ -96,3 +96,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/setting-properties-in-the-contentinfo-object">Setting Properties in the ContentInfo Object</a>
+

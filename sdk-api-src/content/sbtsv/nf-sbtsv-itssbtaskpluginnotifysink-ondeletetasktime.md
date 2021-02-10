@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTaskPluginNotifySink.OnDeleteTaskTime
+ - ITsSbTaskPluginNotifySink::OnDeleteTaskTime
 ---
 
 # ITsSbTaskPluginNotifySink::OnDeleteTaskTime
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskpluginnotifysink">ITsSbTaskPluginNotifySink</a>
+

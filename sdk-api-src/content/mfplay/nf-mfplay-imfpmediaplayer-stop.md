@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.Stop
+ - IMFPMediaPlayer::Stop
 ---
 
 # IMFPMediaPlayer::Stop
@@ -104,3 +104,4 @@ The current media item is still valid. After playback stops, the playback positi
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

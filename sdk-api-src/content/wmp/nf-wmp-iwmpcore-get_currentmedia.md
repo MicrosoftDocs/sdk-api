@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore.get_currentMedia
+ - IWMPCore::get_currentMedia
 ---
 
 # IWMPCore::get_currentMedia
@@ -91,3 +91,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_currentmedia">IWMPMedia::put_currentMedia</a>
+

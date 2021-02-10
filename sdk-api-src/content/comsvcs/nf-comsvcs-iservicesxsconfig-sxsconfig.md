@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceSxsConfig.SxsConfig
+ - IServiceSxsConfig::SxsConfig
 ---
 
 # IServiceSxsConfig::SxsConfig
@@ -69,3 +69,4 @@ The <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicesxsconfig-sxsdirect
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicesxsconfig">IServiceSxsConfig</a>
+

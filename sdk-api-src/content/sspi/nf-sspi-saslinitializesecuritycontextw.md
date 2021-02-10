@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SaslInitializeSecurityContextW
  - sspi/SaslInitializeSecurityContextW
+ - SaslInitializeSecurityContext
+ - sspi/SaslInitializeSecurityContext
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - SaslInitializeSecurityContext
- - SaslInitializeSecurityContextA
  - SaslInitializeSecurityContextW
+ - SaslInitializeSecurityContext
 ---
 
 # SaslInitializeSecurityContextW function
@@ -261,3 +262,4 @@ No Token buffer is located in the <i>pOutput</i> parameter, or the message faile
 
 > [!NOTE]
 > The sspi.h header defines SaslInitializeSecurityContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetStrokeThickness
+ - IXpsOMPath::SetStrokeThickness
 ---
 
 # IXpsOMPath::SetStrokeThickness
@@ -108,3 +108,4 @@ The stroke is drawn on top of the boundary of the path's geometry, such that one
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestMainPackageDependenciesEnumerator.GetCurrent
+ - IAppxManifestMainPackageDependenciesEnumerator::GetCurrent
 ---
 
 # IAppxManifestMainPackageDependenciesEnumerator::GetCurrent
@@ -83,3 +83,4 @@ The enumerator has passed the last item in the collection.
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestmainpackagedependenciesenumerator">IAppxManifestMainPackageDependenciesEnumerator</a>
+

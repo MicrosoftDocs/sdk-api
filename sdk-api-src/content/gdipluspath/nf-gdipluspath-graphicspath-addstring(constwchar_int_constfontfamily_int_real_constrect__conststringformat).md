@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.AddString
+ - GraphicsPath::AddString
 ---
 
 # GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Rect &,IN const StringFormat)
@@ -181,3 +181,4 @@ VOID Example_AddString(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
+

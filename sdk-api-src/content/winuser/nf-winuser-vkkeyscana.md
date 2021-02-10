@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - VkKeyScanA
  - winuser/VkKeyScanA
+ - VkKeyScan
+ - winuser/VkKeyScan
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - VkKeyScan
  - VkKeyScanA
- - VkKeyScanW
+ - VkKeyScan
 ---
 
 # VkKeyScanA function
@@ -211,3 +212,4 @@ Translations for the numeric keypad (<b>VK_NUMPAD0</b> through <b>VK_DIVIDE</b>)
 
 
 <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+

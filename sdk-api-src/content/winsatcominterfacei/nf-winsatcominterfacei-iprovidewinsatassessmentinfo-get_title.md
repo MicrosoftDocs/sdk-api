@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IProvideWinSATAssessmentInfo.Title
- - IProvideWinSATAssessmentInfo.get_Title
+ - IProvideWinSATAssessmentInfo::get_Title
 ---
 
 # IProvideWinSATAssessmentInfo::get_Title
@@ -73,3 +72,4 @@ For an example, see the <a href="/windows/desktop/api/winsatcominterfacei/nf-win
 ## -see-also
 
 <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a>
+

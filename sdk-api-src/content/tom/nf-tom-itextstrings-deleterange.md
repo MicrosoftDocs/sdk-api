@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStrings.DeleteRange
+ - ITextStrings::DeleteRange
 ---
 
 # ITextStrings::DeleteRange
@@ -102,3 +102,4 @@ If the text selected by the range is not completely contained by the string, the
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
+

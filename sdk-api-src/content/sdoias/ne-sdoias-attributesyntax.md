@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _ATTRIBUTESYNTAX
  - ATTRIBUTESYNTAX
 ---
 
@@ -100,3 +101,4 @@ The attribute is an IPv6 address.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-attributeinfo">ATTRIBUTEINFO</a>
+

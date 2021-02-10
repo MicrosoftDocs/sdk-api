@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_DRIVE_LETTER_PROP
+ - PVDS_DRIVE_LETTER_PROP
  - VDS_DRIVE_LETTER_PROP
 ---
 
@@ -91,3 +93,4 @@ The <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-querydriveletters">IVds
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_drive_letter_flag">VDS_DRIVE_LETTER_FLAG</a>
+

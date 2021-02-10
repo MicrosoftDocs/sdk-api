@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmReportGenerationContext
  - FsrmReportGenerationContext
 ---
 
@@ -83,3 +84,4 @@ The report will run in response to a quota or file screen event.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setoutputdirectory">IFsrmReportManager::SetOutputDirectory</a>
+

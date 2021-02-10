@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.SelBold
- - IInkEdit.get_SelBold
- - IInkEdit.put_SelBold
- - InkEdit.get_SelBold
- - InkEdit.put_SelBold
+ - IInkEdit::get_SelBold
 ---
 
 # IInkEdit::get_SelBold
@@ -74,3 +70,4 @@ If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-con
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

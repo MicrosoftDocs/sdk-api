@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidPlayback.get_CurrentPosition
+ - IMSVidPlayback::get_CurrentPosition
 ---
 
 # IMSVidPlayback::get_CurrentPosition
@@ -133,3 +133,4 @@ Call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-im
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
+

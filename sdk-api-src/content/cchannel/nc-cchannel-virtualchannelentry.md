@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Cchannel.h
 api_name:
- - VirtualChannelEntry
+ - VIRTUALCHANNELENTRY
 ---
 
 # VIRTUALCHANNELENTRY callback function
@@ -77,3 +77,4 @@ Return <b>FALSE</b> if an error occurs. In this case, Remote Desktop Services un
 
 
 <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>
+

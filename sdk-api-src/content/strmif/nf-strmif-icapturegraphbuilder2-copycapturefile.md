@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2.CopyCaptureFile
+ - ICaptureGraphBuilder2::CopyCaptureFile
 ---
 
 # ICaptureGraphBuilder2::CopyCaptureFile
@@ -163,3 +163,4 @@ To display the progress of the copy operation, implement the <a href="/windows/d
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
+

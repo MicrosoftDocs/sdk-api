@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TAPE_PREPARE
+ - PTAPE_PREPARE
  - TAPE_PREPARE
 ---
 

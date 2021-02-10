@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_HANDLE_DESCRIPTOR
+ - PMINIDUMP_HANDLE_DESCRIPTOR
  - MINIDUMP_HANDLE_DESCRIPTOR
 ---
 
@@ -100,3 +102,4 @@ The first descriptor in the handle data stream follows the header,
 
 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a>
+

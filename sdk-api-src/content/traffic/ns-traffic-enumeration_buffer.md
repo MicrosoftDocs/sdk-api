@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Traffic.h
 api_name:
+ - _ENUMERATION_BUFFER
+ - PENUMERATION_BUFFER
  - ENUMERATION_BUFFER
 ---
 
@@ -110,3 +112,4 @@ sizeof(TC_GEN_FILTER) + 2 * [the pattern size of the current
 
 
 <a href="/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a>
+

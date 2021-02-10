@@ -46,6 +46,8 @@ api_type:
 api_location:
  - tpcshrd.h
 api_name:
+ - _PROPERTY_UNITS
+ - PPROPERTY_UNITS
  - PROPERTY_UNITS
 ---
 
@@ -111,3 +113,4 @@ The property value is in grams.
 ## -see-also
 
 <a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-property_metrics">PROPERTY_METRICS Structure</a>
+

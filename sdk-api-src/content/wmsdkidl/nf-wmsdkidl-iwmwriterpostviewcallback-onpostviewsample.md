@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMWriterPostViewCallback.OnPostViewSample
+ - IWMWriterPostViewCallback::OnPostViewSample
 ---
 
 # IWMWriterPostViewCallback::OnPostViewSample
@@ -118,3 +118,4 @@ Postview data is available only for video.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostviewcallback">IWMWriterPostViewCallback Interface</a>
+

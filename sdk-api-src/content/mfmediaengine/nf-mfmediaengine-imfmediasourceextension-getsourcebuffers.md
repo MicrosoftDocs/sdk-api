@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaSourceExtension.GetSourceBuffers
+ - IMFMediaSourceExtension::GetSourceBuffers
 ---
 
 # IMFMediaSourceExtension::GetSourceBuffers
@@ -61,3 +61,4 @@ The collection of source buffers.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
+

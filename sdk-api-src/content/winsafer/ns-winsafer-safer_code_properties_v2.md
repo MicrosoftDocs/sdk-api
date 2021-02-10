@@ -46,7 +46,9 @@ api_type:
 api_location:
  - WinSafer.h
 api_name:
- - SAFER_CODE_PROPERTIES
+ - _SAFER_CODE_PROPERTIES_V2
+ - PSAFER_CODE_PROPERTIES_V2
+ - SAFER_CODE_PROPERTIES_V2
 ---
 
 # SAFER_CODE_PROPERTIES_V2 structure
@@ -293,3 +295,4 @@ The package version property. For use by Windows Store apps.
 The package is a framework package. For use by Windows Store apps.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This member is not available.
+

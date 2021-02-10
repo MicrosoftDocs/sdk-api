@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _LSA_ENUMERATION_INFORMATION
+ - PLSA_ENUMERATION_INFORMATION
  - LSA_ENUMERATION_INFORMATION
 ---
 
@@ -66,3 +68,4 @@ Pointer to a SID.
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright">LsaEnumerateAccountsWithUserRight</a>
+

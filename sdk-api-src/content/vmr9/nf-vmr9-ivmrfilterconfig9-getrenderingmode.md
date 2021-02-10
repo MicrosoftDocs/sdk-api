@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRFilterConfig9.GetRenderingMode
+ - IVMRFilterConfig9::GetRenderingMode
 ---
 
 # IVMRFilterConfig9::GetRenderingMode
@@ -99,3 +99,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

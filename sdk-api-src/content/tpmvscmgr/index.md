@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - tpmvscmgr
  - tpmvscmgr/tpmvscmgr
+api_name:
+ - tpmvscmgr
 ---
 
 # Tpmvscmgr.h header

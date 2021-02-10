@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices.ClearProps
+ - IAccPropServices::ClearProps
 ---
 
 # IAccPropServices::ClearProps
@@ -95,3 +95,4 @@ May return other error codes under exceptional error conditions such as low memo
 See the support section for a list of supported properties and their expected types.
 
 Clearing the annotation for a property will cause any associated resources to be released. If a callback property server was used (see <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>), it will be released.
+

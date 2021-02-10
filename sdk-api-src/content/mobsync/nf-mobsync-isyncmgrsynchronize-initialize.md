@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.Initialize
+ - ISyncMgrSynchronize::Initialize
 ---
 
 # ISyncMgrSynchronize::Initialize
@@ -139,3 +139,4 @@ The <i>lpCookie</i> parameter is <b>NULL</b> unless a handling application invok
 
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">UpdateItems</a>
+

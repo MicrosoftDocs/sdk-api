@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl.Dial
+ - ITBasicCallControl::Dial
 ---
 
 # ITBasicCallControl::Dial
@@ -160,3 +160,4 @@ The
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>
+

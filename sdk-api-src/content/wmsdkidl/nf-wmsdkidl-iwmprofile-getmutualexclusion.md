@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.GetMutualExclusion
- - IWMProfile2.GetMutualExclusion
- - IWMProfile3.GetMutualExclusion
+ - IWMProfile::GetMutualExclusion
 ---
 
 # IWMProfile::GetMutualExclusion
@@ -139,3 +137,4 @@ You can use this method in conjunction with <a href="/windows/desktop/api/wmsdki
 
 
 <a href="/windows/desktop/wmformat/mutual-exclusion">Mutual Exclusion</a>
+

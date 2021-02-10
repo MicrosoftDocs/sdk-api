@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSimpleProgress.ItemResult
+ - IOfflineFilesSimpleProgress::ItemResult
 ---
 
 # IOfflineFilesSimpleProgress::ItemResult
@@ -74,3 +74,4 @@ The return value is ignored.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessimpleprogress">IOfflineFilesSimpleProgress</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_DISK_PROP2
+ - PVDS_DISK_PROP2
  - VDS_DISK_PROP2
 ---
 
@@ -272,3 +274,4 @@ The following table contains examples of location paths.
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateRequestCertificate2.InitializeFromTemplate
+ - IX509CertificateRequestCertificate2::InitializeFromTemplate
 ---
 
 # IX509CertificateRequestCertificate2::InitializeFromTemplate
@@ -168,3 +168,4 @@ If the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificatere
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate2">IX509CertificateRequestCertificate2</a>
+

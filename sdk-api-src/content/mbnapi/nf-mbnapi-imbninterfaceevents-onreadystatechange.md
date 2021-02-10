@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnReadyStateChange
+ - IMbnInterfaceEvents::OnReadyStateChange
 ---
 
 # IMbnInterfaceEvents::OnReadyStateChange
@@ -72,3 +72,4 @@ An application can call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbni
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>
+

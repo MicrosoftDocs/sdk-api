@@ -47,6 +47,8 @@ api_location:
  - Ws2def.h
  - Ws2tcpip.h
 api_name:
+ - addrinfoW
+ - PADDRINFOW
  - ADDRINFOW
 ---
 
@@ -714,3 +716,4 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
+

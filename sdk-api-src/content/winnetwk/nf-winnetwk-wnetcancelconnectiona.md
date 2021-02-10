@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WNetCancelConnectionA
  - winnetwk/WNetCancelConnectionA
+ - WNetCancelConnection
+ - winnetwk/WNetCancelConnection
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetCancelConnection
  - WNetCancelConnectionA
- - WNetCancelConnectionW
+ - WNetCancelConnection
 ---
 
 # WNetCancelConnectionA function
@@ -195,3 +196,4 @@ There are open files, and the <i>fForce</i> parameter is <b>FALSE</b>.
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
+

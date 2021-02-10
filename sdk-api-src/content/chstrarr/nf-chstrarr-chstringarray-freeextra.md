@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray.FreeExtra
+ - CHStringArray::FreeExtra
 ---
 
 # CHStringArray::FreeExtra
@@ -72,3 +72,4 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-removeall">CHStringArray::RemoveAll</a>
+

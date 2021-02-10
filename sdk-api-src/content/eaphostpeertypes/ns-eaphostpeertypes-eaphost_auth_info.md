@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaphostpeertypes.h
 api_name:
+ - _EAPHOST_AUTH_INFO
  - EAPHOST_AUTH_INFO
 ---
 
@@ -79,3 +80,4 @@ A reason code that specifies the reason the error in <b>dwErrorCode</b> was rais
 
 
 <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus">EapHostPeerGetAuthStatus</a>
+

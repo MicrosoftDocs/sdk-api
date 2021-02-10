@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2.GetActiveView
+ - ITextStoreACP2::GetActiveView
 ---
 
 # ITextStoreACP2::GetActiveView
@@ -70,3 +70,4 @@ This method has no return values.
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
+

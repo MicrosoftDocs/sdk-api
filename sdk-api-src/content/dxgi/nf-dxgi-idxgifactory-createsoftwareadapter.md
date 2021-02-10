@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIFactory.CreateSoftwareAdapter
+ - IDXGIFactory::CreateSoftwareAdapter
 ---
 
 # IDXGIFactory::CreateSoftwareAdapter
@@ -84,3 +84,4 @@ The typical calling scenario is to call <a href="/windows/desktop/api/libloadera
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
+

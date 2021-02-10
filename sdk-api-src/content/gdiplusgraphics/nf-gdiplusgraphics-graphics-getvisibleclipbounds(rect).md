@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.GetVisibleClipBounds
+ - Graphics::GetVisibleClipBounds
 ---
 
 # Graphics::GetVisibleClipBounds(OUT Rect)
@@ -92,3 +92,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+

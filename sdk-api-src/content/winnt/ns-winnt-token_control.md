@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_CONTROL
+ - PTOKEN_CONTROL
  - TOKEN_CONTROL
 ---
 
@@ -117,3 +119,4 @@ Specifies a <a href="/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOU
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
+

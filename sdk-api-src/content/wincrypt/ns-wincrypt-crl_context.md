@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRL_CONTEXT
+ - PCRL_CONTEXT
  - CRL_CONTEXT
 ---
 
@@ -116,3 +118,4 @@ A handle to the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlfromstore">CertGetCRLFromStore</a>
+

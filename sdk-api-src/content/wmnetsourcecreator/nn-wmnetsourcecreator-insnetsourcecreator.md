@@ -43,11 +43,6 @@ api_location:
  - wmnetsourcecreator.h
 api_name:
  - INSNetSourceCreator
- - INSNetSourceCreator.CreateNetSource
- - INSNetSourceCreator.GetNetSourceProperties
- - INSNetSourceCreator.GetNetSourceSharedNamespace
- - INSNetSourceCreator.GetNumProtocolsSupported
- - INSNetSourceCreator.GetProtocolName
 ---
 
 # INSNetSourceCreator interface
@@ -69,3 +64,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSNetSourceCreator</b> inter
 ## -see-also
 
 <a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
+

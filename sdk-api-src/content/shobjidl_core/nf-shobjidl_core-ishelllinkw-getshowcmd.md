@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLink.GetShowCmd
- - IShellLinkA.GetShowCmd
- - IShellLinkW.GetShowCmd
+ - IShellLinkW::GetShowCmd
 ---
 
 # IShellLinkW::GetShowCmd
@@ -120,3 +118,4 @@ The show command is used to set the initial show state of the corresponding obje
 
 
 <b>IShellLinkW</b>
+

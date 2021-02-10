@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.SetInterpolationColors
+ - PathGradientBrush::SetInterpolationColors
 ---
 
 # PathGradientBrush::SetInterpolationColors
@@ -148,3 +148,4 @@ VOID Example_SetInterpColors(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a>
+

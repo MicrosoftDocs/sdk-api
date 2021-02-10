@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork.get_receivedPackets
+ - IWMPNetwork::get_receivedPackets
 ---
 
 # IWMPNetwork::get_receivedPackets
@@ -87,3 +87,4 @@ Each time playback is stopped and restarted, the value retrieved from this metho
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
+

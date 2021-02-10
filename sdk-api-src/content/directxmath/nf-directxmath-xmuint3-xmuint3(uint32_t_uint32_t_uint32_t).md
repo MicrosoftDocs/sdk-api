@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMUINT3.XMUINT3
+ - XMUINT3::XMUINT3
 ---
 
 # XMUINT3::XMUINT3(uint32_t,uint32_t,uint32_t)
@@ -97,3 +97,4 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)">XMUINT3 Constructors</a>
+

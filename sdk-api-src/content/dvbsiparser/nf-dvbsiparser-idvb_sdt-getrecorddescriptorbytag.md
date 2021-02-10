@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_SDT.GetRecordDescriptorByTag
+ - IDVB_SDT::GetRecordDescriptorByTag
 ---
 
 # IDVB_SDT::GetRecordDescriptorByTag
@@ -148,3 +148,4 @@ If the value of <i>pdwCookie</i> is not <b>NULL</b>, the method returns either M
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT Interface</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxRoutingMethod.ImageName
- - IFaxRoutingMethod.get_ImageName
+ - IFaxRoutingMethod::get_ImageName
 ---
 
 # IFaxRoutingMethod::get_ImageName
@@ -82,3 +81,4 @@ A fax client application can use the <b>IFaxRoutingMethod::get_ImageName</b> pro
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmError.get_Type
+ - IMsmError::get_Type
 ---
 
 # IMsmError::get_Type
@@ -259,3 +259,4 @@ The function succeeded.
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagENHMETAHEADER
+ - PENHMETAHEADER
  - ENHMETAHEADER
 ---
 
@@ -166,3 +168,4 @@ The size of the reference device, in micrometers.
 
 
 <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>
+

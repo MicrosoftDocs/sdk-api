@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle.GetClipboardData
+ - IRichEditOle::GetClipboardData
 ---
 
 # IRichEditOle::GetClipboardData
@@ -119,3 +119,4 @@ There was not enough memory to do the operation.
 
 
 <b>Reference</b>
+

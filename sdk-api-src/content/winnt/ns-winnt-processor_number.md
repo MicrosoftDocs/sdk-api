@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _PROCESSOR_NUMBER
+ - PPROCESSOR_NUMBER
  - PROCESSOR_NUMBER
 ---
 
@@ -73,3 +75,4 @@ This parameter is reserved.
 ## -see-also
 
 <a href="/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
+

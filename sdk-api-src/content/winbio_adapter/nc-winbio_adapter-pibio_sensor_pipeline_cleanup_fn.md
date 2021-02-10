@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterPipelineCleanup
+ - PIBIO_SENSOR_PIPELINE_CLEANUP_FN
 ---
 
 # PIBIO_SENSOR_PIPELINE_CLEANUP_FN callback function
@@ -87,3 +87,4 @@ The Sensor Adapter should return <b>S_OK</b> if it doesn’t need to perform any
 When this routine is called, the Engine and Storage adapters are still available.
 
 This method executes in the context of an arbitrary RPC server thread.
+

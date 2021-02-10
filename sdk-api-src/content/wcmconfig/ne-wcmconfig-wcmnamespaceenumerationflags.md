@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WcmConfig.h
 api_name:
+ - __MIDL___MIDL_itf_wcmconfig_0000_0000_0002
  - WcmNamespaceEnumerationFlags
 ---
 

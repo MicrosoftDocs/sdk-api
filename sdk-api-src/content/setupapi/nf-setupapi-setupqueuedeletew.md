@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupQueueDeleteW
  - setupapi/SetupQueueDeleteW
+ - SetupQueueDelete
+ - setupapi/SetupQueueDelete
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupQueueDelete
- - SetupQueueDeleteA
  - SetupQueueDeleteW
+ - SetupQueueDelete
 ---
 
 # SetupQueueDeleteW function
@@ -109,3 +110,4 @@ Because delete operations are assumed to take place on fixed media, the user wil
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuerenamea">SetupQueueRename</a>
+

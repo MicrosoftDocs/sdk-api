@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoCompression.OverrideKeyFrame
+ - IAMVideoCompression::OverrideKeyFrame
 ---
 
 # IAMVideoCompression::OverrideKeyFrame
@@ -103,3 +103,4 @@ If the filter supports this method, you can use it to override the normal key-fr
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideocompression">IAMVideoCompression Interface</a>
+

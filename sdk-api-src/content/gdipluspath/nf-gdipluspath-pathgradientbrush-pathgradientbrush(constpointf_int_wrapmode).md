@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.PathGradientBrush
+ - PathGradientBrush::PathGradientBrush
 ---
 
 # PathGradientBrush::PathGradientBrush(IN const PointF,IN INT,IN WrapMode)
@@ -100,3 +100,4 @@ Optional. Element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusen
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

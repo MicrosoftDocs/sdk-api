@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netplwiz.dll
 api_name:
- - IPublishingWizard.GetTransferManifest
+ - IPublishingWizard::GetTransferManifest
 ---
 
 # IPublishingWizard::GetTransferManifest
@@ -108,3 +108,4 @@ The transfer manifest is not created until the wizard is actually displayed. For
 
 
 <a href="/windows/desktop/lwef/pubwiz-manifest">Using the Transfer Manifest</a>
+

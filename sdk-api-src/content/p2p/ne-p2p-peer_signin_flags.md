@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_signin_flags_tag
  - PEER_SIGNIN_FLAGS
 ---
 
@@ -75,3 +76,4 @@ The peer can publish presence, applications, and objects to all contacts in a pe
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
+

@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_PATH_INFO
  - VDS_PATH_INFO
 ---
 
@@ -124,3 +125,4 @@ A pointer to a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_ipaddress"
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>
+

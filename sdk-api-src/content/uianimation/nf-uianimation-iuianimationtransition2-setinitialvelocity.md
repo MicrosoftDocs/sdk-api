@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.SetInitialVelocity
+ - IUIAnimationTransition2::SetInitialVelocity
 ---
 
 # IUIAnimationTransition2::SetInitialVelocity
@@ -65,3 +65,4 @@ Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href=
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a>
+

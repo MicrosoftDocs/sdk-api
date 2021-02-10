@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
+ - tagWCN_VALUE_TYPE_AUTHENTICATION_TYPE
  - WCN_VALUE_TYPE_AUTHENTICATION_TYPE
 ---
 
@@ -104,3 +105,4 @@ Specifies WPAPSK/WPA2PSK mixed-mode encryption.
 ## -see-also
 
 <a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
+

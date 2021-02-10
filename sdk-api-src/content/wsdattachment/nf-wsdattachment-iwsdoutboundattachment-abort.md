@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDOutboundAttachment.Abort
+ - IWSDOutboundAttachment::Abort
 ---
 
 # IWSDOutboundAttachment::Abort
@@ -106,3 +106,4 @@ The <b>Abort</b> method may be called when a <a href="/windows/desktop/api/wsdat
 
 
 <a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">IWSDOutboundAttachment::Write</a>
+

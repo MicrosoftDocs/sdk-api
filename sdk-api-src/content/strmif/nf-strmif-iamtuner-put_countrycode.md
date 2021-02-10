@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner.put_CountryCode
+ - IAMTuner::put_CountryCode
 ---
 
 # IAMTuner::put_CountryCode
@@ -76,3 +76,4 @@ Because channels in different countries/regions map to different frequencies, wo
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

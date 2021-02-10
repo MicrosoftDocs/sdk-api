@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControl2.SetControlStyle
+ - INameSpaceTreeControl2::SetControlStyle
 ---
 
 # INameSpaceTreeControl2::SetControlStyle
@@ -87,3 +87,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a>
+

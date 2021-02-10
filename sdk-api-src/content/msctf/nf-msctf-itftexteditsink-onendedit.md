@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imekrcic.dll
 api_name:
- - ITfTextEditSink.OnEndEdit
+ - ITfTextEditSink::OnEndEdit
 ---
 
 # ITfTextEditSink::OnEndEdit
@@ -109,3 +109,4 @@ A text service can use the <i>ecReadOnly</i> parameter only to view the context.
 
 <a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie
       </a>
+

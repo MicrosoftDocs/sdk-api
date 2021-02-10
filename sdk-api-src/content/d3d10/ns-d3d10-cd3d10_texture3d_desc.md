@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10.h
 api_name:
- - D3D10_TEXTURE3D_DESC
+ - CD3D10_TEXTURE3D_DESC
 ---
 
 ## -description
@@ -94,3 +94,4 @@ The device restricts the size of subsampled, block compressed (see <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource structures</a>
+

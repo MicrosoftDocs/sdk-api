@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertySetStorage.Open
+ - IPropertySetStorage::Open
 ---
 
 # IPropertySetStorage::Open
@@ -150,3 +150,4 @@ This method is subject to the constraints of the underlying <a href="/windows/de
 
 
 <a href="/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
+

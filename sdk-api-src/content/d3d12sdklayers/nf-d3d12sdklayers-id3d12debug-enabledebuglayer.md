@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12Debug.EnableDebugLayer
+ - ID3D12Debug::EnableDebugLayer
 ---
 
 # ID3D12Debug::EnableDebugLayer
@@ -78,3 +78,4 @@ Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug">ID3D12Debug</a>
+

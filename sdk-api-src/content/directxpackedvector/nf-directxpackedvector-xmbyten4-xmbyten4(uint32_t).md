@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMBYTEN4.XMBYTEN4
+ - XMBYTEN4::XMBYTEN4
 ---
 
 # XMBYTEN4::XMBYTEN4(uint32_t)
@@ -110,3 +110,4 @@ The last 8 bits (bits 24-31) of <b>Packed</b> assigned, as an signed
 
 
 <a href="/windows/desktop/dxmath/xmbyten4-ctor">XMBYTEN4 Constructors</a>
+

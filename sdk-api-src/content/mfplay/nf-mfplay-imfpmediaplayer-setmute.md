@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.SetMute
+ - IMFPMediaPlayer::SetMute
 ---
 
 # IMFPMediaPlayer::SetMute
@@ -79,3 +79,4 @@ This method does not mute the entire audio session to which the player belongs. 
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

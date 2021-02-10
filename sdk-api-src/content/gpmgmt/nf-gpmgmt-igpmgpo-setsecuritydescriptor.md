@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO.SetSecurityDescriptor
- - GPMGPO.SetSecurityDescriptor
+ - IGPMGPO::SetSecurityDescriptor
 ---
 
 ## -description
@@ -96,3 +95,4 @@ For more information about ACLs and the security model for controlling access to
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
+

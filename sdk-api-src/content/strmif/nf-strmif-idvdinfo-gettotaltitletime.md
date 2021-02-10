@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo.GetTotalTitleTime
+ - IDvdInfo::GetTotalTitleTime
 ---
 
 # IDvdInfo::GetTotalTitleTime
@@ -128,3 +128,4 @@ The method is restricted to simple linear movies by design.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
+

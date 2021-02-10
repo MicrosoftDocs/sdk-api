@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_get_valuesW
  - winldap/ldap_get_valuesW
+ - ldap_get_values
+ - winldap/ldap_get_values
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_get_values
- - ldap_get_valuesA
  - ldap_get_valuesW
+ - ldap_get_values
 ---
 
 # ldap_get_valuesW function
@@ -129,3 +130,4 @@ Certain LDAP servers place limits on the number of attribute string values that 
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetEASEventCode
+ - ISCTE_EAS::GetEASEventCode
 ---
 
 # ISCTE_EAS::GetEASEventCode
@@ -98,3 +98,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
+

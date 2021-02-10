@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSourceListAddSourceA
  - msi/MsiSourceListAddSourceA
+ - MsiSourceListAddSource
+ - msi/MsiSourceListAddSource
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSourceListAddSource
  - MsiSourceListAddSourceA
- - MsiSourceListAddSourceW
+ - MsiSourceListAddSource
 ---
 
 # MsiSourceListAddSourceA function
@@ -234,3 +235,4 @@ This function can  not modify a non-managed installation for any user besides th
 
 
 <a href="/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
+

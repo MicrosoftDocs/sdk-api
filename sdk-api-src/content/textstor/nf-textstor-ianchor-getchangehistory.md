@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IAnchor.GetChangeHistory
+ - IAnchor::GetChangeHistory
 ---
 
 # IAnchor::GetChangeHistory
@@ -132,3 +132,4 @@ The change flags remain set until they are cleared with a call to <a href="/wind
 
 <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">IAnchor::ClearChangeHistory
       </a>
+

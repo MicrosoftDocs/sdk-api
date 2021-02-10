@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethods.get_Item
+ - IFaxInboundRoutingMethods::get_Item
 ---
 
 # IFaxInboundRoutingMethods::get_Item
@@ -83,3 +83,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
+

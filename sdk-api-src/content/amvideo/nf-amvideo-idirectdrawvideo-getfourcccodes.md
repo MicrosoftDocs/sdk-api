@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetFourCCCodes
+ - IDirectDrawVideo::GetFourCCCodes
 ---
 
 # IDirectDrawVideo::GetFourCCCodes
@@ -80,3 +80,4 @@ This method retrieves the FOURCC codes that the current display driver can suppo
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
+

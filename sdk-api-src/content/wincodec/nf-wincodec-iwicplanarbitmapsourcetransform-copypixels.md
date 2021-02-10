@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPlanarBitmapSourceTransform.CopyPixels
+ - IWICPlanarBitmapSourceTransform::CopyPixels
 ---
 
 # IWICPlanarBitmapSourceTransform::CopyPixels
@@ -178,3 +178,4 @@ The <i>pDstPlanes</i> parameter supports the following pixel formats.
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform">IWICPlanarBitmapSourceTransform</a>
+

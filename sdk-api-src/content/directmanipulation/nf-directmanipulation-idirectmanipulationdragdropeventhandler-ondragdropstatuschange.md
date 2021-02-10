@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationDragDropEventHandler.OnDragDropStatusChange
+ - IDirectManipulationDragDropEventHandler::OnDragDropStatusChange
 ---
 
 # IDirectManipulationDragDropEventHandler::OnDragDropStatusChange
@@ -77,3 +77,4 @@ If a class  is implementing <a href="/previous-versions/windows/desktop/api/dire
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdragdropeventhandler">IDirectManipulationDragDropEventHandler</a>
+

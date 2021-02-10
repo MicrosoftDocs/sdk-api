@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UuidToStringW
  - rpcdce/UuidToStringW
+ - UuidToString
+ - rpcdce/UuidToString
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - UuidToString
- - UuidToStringA
  - UuidToStringW
+ - UuidToString
 ---
 
 # UuidToStringW function
@@ -122,3 +123,4 @@ An application calls
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
+

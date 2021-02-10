@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwService.Enabled
- - INetFwService.get_Enabled
- - INetFwService.put_Enabled
+ - INetFwService::put_Enabled
 ---
 
 # INetFwService::put_Enabled
@@ -64,3 +62,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservice">INetFwService</a>
+

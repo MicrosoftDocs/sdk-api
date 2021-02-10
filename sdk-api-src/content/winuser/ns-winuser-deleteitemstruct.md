@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagDELETEITEMSTRUCT
+ - PDELETEITEMSTRUCT
  - DELETEITEMSTRUCT
 ---
 
@@ -121,3 +123,4 @@ Application-defined data for the item. This value is passed to the control in th
 ## -see-also
 
 <a href="/windows/desktop/Controls/wm-deleteitem">WM_DELETEITEM</a>
+

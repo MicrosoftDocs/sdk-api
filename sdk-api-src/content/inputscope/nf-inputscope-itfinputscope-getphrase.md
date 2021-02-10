@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputScope.GetPhrase
+ - ITfInputScope::GetPhrase
 ---
 
 # ITfInputScope::GetPhrase

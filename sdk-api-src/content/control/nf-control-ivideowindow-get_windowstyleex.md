@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.get_WindowStyleEx
+ - IVideoWindow::get_WindowStyleEx
 ---
 
 # IVideoWindow::get_WindowStyleEx
@@ -122,3 +122,4 @@ This method calls the Windows <b>GetWindowLong</b> function with the value GWL_E
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyleex">IVideoWindow::put_WindowStyleEx</a>
+

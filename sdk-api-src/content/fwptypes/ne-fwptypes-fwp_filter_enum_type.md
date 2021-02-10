@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
+ - FWP_FILTER_ENUM_TYPE_
  - FWP_FILTER_ENUM_TYPE
 ---
 

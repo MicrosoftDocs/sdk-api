@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.SetTransform
+ - Pen::SetTransform
 ---
 
 # Pen::SetTransform
@@ -140,3 +140,4 @@ VOID Example_SetTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

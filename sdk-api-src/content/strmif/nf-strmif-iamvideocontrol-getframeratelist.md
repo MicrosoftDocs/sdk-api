@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoControl.GetFrameRateList
+ - IAMVideoControl::GetFrameRateList
 ---
 
 # IAMVideoControl::GetFrameRateList
@@ -94,3 +94,4 @@ The caller is responsible for freeing the memory through a call to <b>CoTaskMemF
 
 
 [VIDEO_STREAM_CONFIG_CAPS Structure](/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps)
+

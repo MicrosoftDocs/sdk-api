@@ -46,6 +46,8 @@ api_type:
 api_location:
  - XInput.h
 api_name:
+ - _XINPUT_STATE
+ - PXINPUT_STATE
  - XINPUT_STATE
 ---
 
@@ -81,3 +83,4 @@ The <i>dwPacketNumber</i> member is incremented only if the status of the contro
 
 
 <a href="/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a>
+

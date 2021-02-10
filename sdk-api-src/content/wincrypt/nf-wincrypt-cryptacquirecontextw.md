@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CryptAcquireContextW
  - wincrypt/CryptAcquireContextW
+ - CryptAcquireContext
+ - wincrypt/CryptAcquireContext
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Security-cryptoapi-l1-1-0.dll
  - cryptsp.dll
 api_name:
- - CryptAcquireContext
- - CryptAcquireContextA
  - CryptAcquireContextW
+ - CryptAcquireContext
 ---
 
 # CryptAcquireContextW function
@@ -602,3 +603,4 @@ else
 
 
 <a href="/previous-versions/aa388149(v=vs.85)">Threading Issues with Cryptographic Service Providers</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied
+ - ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied
 ---
 
 # ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied
@@ -113,3 +113,4 @@ Typically, the destination provider saves the learned knowledge for each item ch
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
+

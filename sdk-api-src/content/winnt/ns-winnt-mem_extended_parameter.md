@@ -45,6 +45,7 @@ api_location:
  - winnt.h
 api_name:
  - MEM_EXTENDED_PARAMETER
+ - PMEM_EXTENDED_PARAMETER
 ---
 
 # MEM_EXTENDED_PARAMETER structure

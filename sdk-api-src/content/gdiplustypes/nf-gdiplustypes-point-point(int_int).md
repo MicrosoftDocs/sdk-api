@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Point.Point
+ - Point::Point
 ---
 
 # Point::Point(IN INT,IN INT)
@@ -80,3 +80,4 @@ Integer that specifies the y-coordinate of the <a href="/windows/desktop/api/gdi
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

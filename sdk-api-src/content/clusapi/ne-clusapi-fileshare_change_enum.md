@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _FILESHARE_CHANGE_ENUM
+ - PFILESHARE_CHANGE_ENUM
  - FILESHARE_CHANGE_ENUM
 ---
 
@@ -91,3 +93,4 @@ One or more properties of an existing file share resource have been changed.
 
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+

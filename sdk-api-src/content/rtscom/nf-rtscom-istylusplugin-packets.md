@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.Packets
+ - IStylusPlugin::Packets
 ---
 
 # IStylusPlugin::Packets
@@ -192,3 +192,4 @@ STDMETHODIMP CPacketModifier::Packets(
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetTitleAttributes
+ - IDvdInfo2::GetTitleAttributes
 ---
 
 # IDvdInfo2::GetTitleAttributes
@@ -144,3 +144,4 @@ DVD Navigator is not initialized or some other internal error occurred.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+

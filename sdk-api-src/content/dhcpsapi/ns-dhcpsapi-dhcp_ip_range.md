@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_IP_RANGE
+ - LPDHCP_IP_RANGE
  - DHCP_IP_RANGE
 ---
 
@@ -65,3 +67,4 @@ The <b>DHCP_IP_RANGE</b> structure defines a range of IP addresses.
 ### -field EndAddress
 
 <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the last IP address in the range.
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - LPEXP_SPECIAL_FOLDER
  - EXP_SPECIAL_FOLDER
 ---
 
@@ -79,3 +80,4 @@ The ID of the special folder that the link points into.
 Type: <b>DWORD</b>
 
 The offset into the saved PIDL.
+

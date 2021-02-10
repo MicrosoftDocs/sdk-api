@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WLAN_PROFILE_INFO
+ - PWLAN_PROFILE_INFO
  - WLAN_PROFILE_INFO
 ---
 
@@ -113,3 +115,4 @@ This flag indicates that the profile is a per-user profile.  If not set, this pr
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
+

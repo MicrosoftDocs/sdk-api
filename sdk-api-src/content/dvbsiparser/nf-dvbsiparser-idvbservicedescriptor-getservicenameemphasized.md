@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbServiceDescriptor.GetServiceNameEmphasized
+ - IDvbServiceDescriptor::GetServiceNameEmphasized
 ---
 
 # IDvbServiceDescriptor::GetServiceNameEmphasized
@@ -73,3 +73,4 @@ This method calls <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-getserviceprovidernamew">IDvbServiceDescriptor::GetServiceProviderNameW</a>
+

@@ -47,6 +47,8 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _STORAGE_DEPENDENCY_INFO
+ - PSTORAGE_DEPENDENCY_INFO
  - STORAGE_DEPENDENCY_INFO
 ---
 
@@ -82,3 +84,4 @@ Variable-length array containing <a href="/windows/win32/api/virtdisk/ns-virtdis
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

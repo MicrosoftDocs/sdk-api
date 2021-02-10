@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecOutputTimestamp.GetNextOutputTime
+ - IWMCodecOutputTimestamp::GetNextOutputTime
 ---
 
 # IWMCodecOutputTimestamp::GetNextOutputTime
@@ -87,3 +87,4 @@ This method is important when decoding video using frame interpolation, because 
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecoutputtimestamp">IWMCodecOutputTimestamp Interface</a>
+

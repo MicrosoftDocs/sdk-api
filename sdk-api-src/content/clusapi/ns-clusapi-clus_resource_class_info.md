@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_RESOURCE_CLASS_INFO
+ - PCLUS_RESOURCE_CLASS_INFO
 ---
 
 # CLUS_RESOURCE_CLASS_INFO structure
@@ -167,3 +168,4 @@ A <b>CLUS_RESOURCE_CLASS_INFO</b> structure is
 
 
 <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a>
+

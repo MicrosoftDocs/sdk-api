@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidGraphSegmentContainer.get_Graph
+ - IMSVidGraphSegmentContainer::get_Graph
 ---
 
 # IMSVidGraphSegmentContainer::get_Graph
@@ -90,3 +90,4 @@ if (pSeg)
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidgraphsegmentcontainer">IMSVidGraphSegmentContainer Interface</a>
+

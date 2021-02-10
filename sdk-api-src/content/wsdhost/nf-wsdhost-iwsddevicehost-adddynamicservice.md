@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost.AddDynamicService
+ - IWSDDeviceHost::AddDynamicService
 ---
 
 # IWSDDeviceHost::AddDynamicService
@@ -152,3 +152,4 @@ When this method is called, the device adds a reference to the service object an
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Wininet.dll
 api_name:
  - InternetConfirmZoneCrossing
- - InternetConfirmZoneCrossingA
- - InternetConfirmZoneCrossingW
 ---
 
 # InternetConfirmZoneCrossing function
@@ -132,3 +130,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

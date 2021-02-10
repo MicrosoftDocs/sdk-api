@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiInitiatorPortal.GetProperties
+ - IVdsIscsiInitiatorPortal::GetProperties
 ---
 
 # IVdsIscsiInitiatorPortal::GetProperties
@@ -104,3 +104,4 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_initiator_portal_prop">VDS_ISCSI_INITIATOR_PORTAL_PROP</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager.RestartWdsTransportServices
+ - IWdsTransportConfigurationManager::RestartWdsTransportServices
 ---
 
 # IWdsTransportConfigurationManager::RestartWdsTransportServices
@@ -61,3 +61,4 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a>
+

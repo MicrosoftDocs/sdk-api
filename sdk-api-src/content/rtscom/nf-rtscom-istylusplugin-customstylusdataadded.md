@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.CustomStylusDataAdded
+ - IStylusPlugin::CustomStylusDataAdded
 ---
 
 # IStylusPlugin::CustomStylusDataAdded
@@ -144,3 +144,4 @@ STDMETHODIMP CGestureHandler::CustomStylusDataAdded(
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+

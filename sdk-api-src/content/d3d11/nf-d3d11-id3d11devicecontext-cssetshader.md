@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.CSSetShader
+ - ID3D11DeviceContext::CSSetShader
 ---
 
 # ID3D11DeviceContext::CSSetShader
@@ -83,3 +83,4 @@ The maximum number of instances a shader can have is 256.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

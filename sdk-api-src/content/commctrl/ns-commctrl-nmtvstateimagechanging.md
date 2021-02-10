@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMTVSTATEIMAGECHANGING
+ - LPNMTVSTATEIMAGECHANGING
  - NMTVSTATEIMAGECHANGING
 ---
 
@@ -82,3 +84,4 @@ The index of the old state image.
 Type: <b>int</b>
 
 The index of the new state image.
+

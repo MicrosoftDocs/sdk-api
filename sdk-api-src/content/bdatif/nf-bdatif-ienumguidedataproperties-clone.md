@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IEnumGuideDataProperties.Clone
+ - IEnumGuideDataProperties::Clone
 ---
 
 # IEnumGuideDataProperties::Clone
@@ -74,3 +74,4 @@ Returns E_NOTIMPL.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumguidedataproperties">IEnumGuideDataProperties Interface</a>
+

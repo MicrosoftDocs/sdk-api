@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICryptAttributes.ItemByIndex
- - ICryptAttributes.get_ItemByIndex
+ - ICryptAttributes::get_ItemByIndex
 ---
 
 # ICryptAttributes::get_ItemByIndex
@@ -76,3 +75,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
+

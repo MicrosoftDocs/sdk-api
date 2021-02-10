@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_QOS_SETTING_TYPE
+ - PHTTP_QOS_SETTING_TYPE
  - HTTP_QOS_SETTING_TYPE
 ---
 
@@ -76,3 +78,4 @@ A flow rate represented by <a href="/windows/desktop/api/http/ns-http-http_flowr
 ## -see-also
 
 <a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
+

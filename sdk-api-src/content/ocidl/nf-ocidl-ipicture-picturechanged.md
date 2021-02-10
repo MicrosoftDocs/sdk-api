@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture.PictureChanged
+ - IPicture::PictureChanged
 ---
 
 # IPicture::PictureChanged
@@ -61,3 +61,4 @@ This method S_OK if it succeeds and E_FAIL if the picture object is uninitialize
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
+

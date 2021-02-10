@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_SEARCH_INFO
+ - LPDHCP_SEARCH_INFO
  - DHCP_SEARCH_INFO
 ---
 
@@ -74,10 +76,6 @@ The <b>DHCP_SEARCH_INFO</b> structure defines the DHCP client record data used t
 
 ### -field SearchInfo.ClientName.case.DhcpClientName
 
-
-
-
-
 ### -field SearchInfo
 
 ### -field SearchInfo.ClientIpAddress
@@ -105,3 +103,4 @@ Unicode string that specifies the network name of the DHCP client.  This field i
 
 
 <a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type">DHCP_SEARCH_INFO_TYPE</a>
+

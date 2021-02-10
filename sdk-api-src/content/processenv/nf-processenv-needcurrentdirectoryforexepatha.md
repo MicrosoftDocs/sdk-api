@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - NeedCurrentDirectoryForExePathA
  - processenv/NeedCurrentDirectoryForExePathA
+ - NeedCurrentDirectoryForExePath
+ - processenv/NeedCurrentDirectoryForExePath
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - NeedCurrentDirectoryForExePath
  - NeedCurrentDirectoryForExePathA
- - NeedCurrentDirectoryForExePathW
+ - NeedCurrentDirectoryForExePath
 ---
 
 # NeedCurrentDirectoryForExePathA function
@@ -95,3 +96,4 @@ An example of an instance when this function should be called instead of relying
 
 
 <a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+

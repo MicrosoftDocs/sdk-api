@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
+ - _CRYPT_PROVIDER_SGNR
+ - PCRYPT_PROVIDER_SGNR
  - CRYPT_PROVIDER_SGNR
 ---
 
@@ -117,3 +119,4 @@ A pointer to an array of <b>CRYPT_PROVIDER_SGNR</b> structures that represent th
 ### -field pChainContext
 
 A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure.
+

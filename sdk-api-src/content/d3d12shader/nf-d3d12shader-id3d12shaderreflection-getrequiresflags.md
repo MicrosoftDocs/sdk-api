@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetRequiresFlags
+ - ID3D12ShaderReflection::GetRequiresFlags
 ---
 
 # ID3D12ShaderReflection::GetRequiresFlags
@@ -177,3 +177,4 @@ Here is how the D3D12Shader.h header defines the shader requirements flags:
 
 
 <a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>
+

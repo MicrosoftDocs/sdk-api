@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsSecurityUtility.SecurityMask
- - IADsSecurityUtility.get_SecurityMask
- - IADsSecurityUtility.put_SecurityMask
+ - IADsSecurityUtility::put_SecurityMask
 ---
 
 # IADsSecurityUtility::put_SecurityMask
@@ -73,3 +71,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>
+

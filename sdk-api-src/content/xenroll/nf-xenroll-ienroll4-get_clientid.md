@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4.ClientId
- - IEnroll4.get_ClientId
- - IEnroll4.put_ClientId
+ - IEnroll4::get_ClientId
 ---
 
 # IEnroll4::get_ClientId
@@ -63,3 +61,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

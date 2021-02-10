@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION
  - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION
 ---
 
@@ -69,3 +70,4 @@ Specifies the security binding properties according to the specific policy.
 ### -field bindingUsage
 
 Specifies the message security binding usage.
+

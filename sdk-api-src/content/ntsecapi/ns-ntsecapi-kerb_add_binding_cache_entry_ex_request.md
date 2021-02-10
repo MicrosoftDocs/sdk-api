@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
+ - PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
  - KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
 ---
 
@@ -140,3 +142,4 @@ Finally, you call the <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_quer
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
+

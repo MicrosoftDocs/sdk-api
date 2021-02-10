@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer.CreateDocument
- - IFaxServer.CreateDocument
+ - IFaxServer::CreateDocument
 ---
 
 # IFaxServer::CreateDocument
@@ -104,3 +103,4 @@ A fax client application should not call the <a href="/windows/desktop/api/comba
 
 
 <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
+

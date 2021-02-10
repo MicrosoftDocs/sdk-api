@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - tagCRMFLAGS
  - CRMFLAGS
 ---
 
@@ -83,3 +84,4 @@ The record was written during replay.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/ns-comsvcs-crmlogrecordread">CrmLogRecordRead</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.GetCatalogURL
+ - IWMPContentPartner::GetCatalogURL
 ---
 
 # IWMPContentPartner::GetCatalogURL
@@ -117,3 +117,4 @@ We recommend that the catalog URL specify the version as part of the path. For e
 
 
 <a href="/windows/desktop/WMP/music-catalog">Music Catalog</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagGESTURECONFIG
+ - PGESTURECONFIG
  - GESTURECONFIG
 ---
 
@@ -278,3 +280,4 @@ The following flags are used when <i>dwID</i> is set to GID_PRESSANDTAP.
 
 
 <a href="/windows/desktop/wintouch/mtstructures">Structures</a>
+

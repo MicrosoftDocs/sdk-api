@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IBDAComparable.HashExact
+ - IBDAComparable::HashExact
 ---
 
 # IBDAComparable::HashExact
@@ -80,3 +80,4 @@ The caller can compare the resulting hash code to the hash code for another obje
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiEnumProductsA
  - msi/MsiEnumProductsA
+ - MsiEnumProducts
+ - msi/MsiEnumProducts
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiEnumProducts
  - MsiEnumProductsA
- - MsiEnumProductsW
+ - MsiEnumProducts
 ---
 
 # MsiEnumProductsA function
@@ -153,3 +154,4 @@ When making multiple calls to
 
 
 <a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityObjectTypeInfo.GetInheritSource
+ - ISecurityObjectTypeInfo::GetInheritSource
 ---
 
 # ISecurityObjectTypeInfo::GetInheritSource
@@ -72,3 +72,4 @@ If the function is successful, the return value is S_OK.
 
  
 If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

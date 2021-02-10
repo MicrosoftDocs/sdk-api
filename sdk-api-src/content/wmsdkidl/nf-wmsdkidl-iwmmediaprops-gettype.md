@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMediaProps.GetType
+ - IWMMediaProps::GetType
 ---
 
 # IWMMediaProps::GetType
@@ -115,3 +115,4 @@ These media types are used by the writer, reader, and profile objects to identif
 
 
 <a href="/windows/desktop/wmformat/media-types">Media Types</a>
+

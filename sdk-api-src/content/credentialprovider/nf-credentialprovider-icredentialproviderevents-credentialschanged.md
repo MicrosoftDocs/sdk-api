@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProviderEvents.CredentialsChanged
+ - ICredentialProviderEvents::CredentialsChanged
 ---
 
 # ICredentialProviderEvents::CredentialsChanged
@@ -76,3 +76,4 @@ In the past, many credential providers used <b>ICredentialProviderEvents::Creden
 <li>Use <b>ICredentialProviderEvents::CredentialsChanged</b> only if a credential provider needs to do an auto logon or change the number of credentials it is enumerating.</li>
 <li>Use <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a> to update a credential provider's Logon UI or Credential UI.</li>
 </ul>
+

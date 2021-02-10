@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IGetFrame.End
+ - IGetFrame::End
 ---
 
 # IGetFrame::End
@@ -82,3 +82,4 @@ HRESULT End(VOID);
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+

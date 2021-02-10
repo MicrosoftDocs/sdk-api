@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.GetTable
+ - ITextRange2::GetTable
 ---
 
 # ITextRange2::GetTable
@@ -77,3 +77,4 @@ Note: this method isn't implemented in RichEdit (see <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - IEnumSyncProviderConfigUIInfos.Next
+ - IEnumSyncProviderConfigUIInfos::Next
 ---
 
 # IEnumSyncProviderConfigUIInfos::Next
@@ -128,3 +128,4 @@ This method will attempt to return the number of items specified by the <i>cFact
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaLog.hResult
+ - IWiaLog::hResult
 ---
 
 # IWiaLog::hResult

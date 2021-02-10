@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.SetCredential
+ - IX509EnrollmentPolicyServer::SetCredential
 ---
 
 # IX509EnrollmentPolicyServer::SetCredential
@@ -176,3 +176,4 @@ The <i>strCredential</i> and <i>strPassword</i> arguments will change depending 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
+

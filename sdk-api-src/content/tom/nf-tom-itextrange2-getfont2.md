@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.GetFont2
+ - ITextRange2::GetFont2
 ---
 
 # ITextRange2::GetFont2
@@ -73,3 +73,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-setfont2">ITextRange2::SetFont2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfFunctionProviders.Clone
+ - IEnumTfFunctionProviders::Clone
 ---
 
 # IEnumTfFunctionProviders::Clone
@@ -94,3 +94,4 @@ A memory allocation failure occurred.
 ## -see-also
 
 [IEnumTfFunctionProviders interface](nn-msctf-ienumtffunctionproviders.md), [ITfFunctionProvider interface](nn-msctf-itffunctionprovider.md)
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap.ConvertFormat
+ - Bitmap::ConvertFormat
 ---
 
 # Bitmap::ConvertFormat
@@ -103,3 +103,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-initializepalette">Bitmap::InitializePalette</a>
+

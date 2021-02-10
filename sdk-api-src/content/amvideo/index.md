@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - amvideo
  - amvideo/amvideo
+api_name:
+ - amvideo
 ---
 
 # Amvideo.h header

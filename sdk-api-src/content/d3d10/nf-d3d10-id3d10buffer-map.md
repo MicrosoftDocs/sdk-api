@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Buffer.Map
+ - ID3D10Buffer::Map
 ---
 
 # ID3D10Buffer::Map
@@ -118,3 +118,4 @@ Differences between Direct3D 9 and Direct3D 10:
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10buffer">ID3D10Buffer Interface</a>
+

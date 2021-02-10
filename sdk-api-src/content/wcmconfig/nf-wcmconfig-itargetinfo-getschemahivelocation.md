@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ITargetInfo.GetSchemaHiveLocation
+ - ITargetInfo::GetSchemaHiveLocation
 ---
 
 # ITargetInfo::GetSchemaHiveLocation
@@ -65,3 +65,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It returns 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
+

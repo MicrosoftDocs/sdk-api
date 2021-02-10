@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo.GetDVDTextInfo
+ - IDvdInfo::GetDVDTextInfo
 ---
 
 # IDvdInfo::GetDVDTextInfo
@@ -138,3 +138,4 @@ For more information, refer to Section 4.1.6 and Annex A of the DVD-Video specif
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device1.CreateDeferredContext1
+ - ID3D11Device1::CreateDeferredContext1
 ---
 
 # ID3D11Device1::CreateDeferredContext1
@@ -117,3 +117,4 @@ For more information about deferred contexts, see <a href="/windows/desktop/dire
 
 
 <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">ID3D11Device::CreateDeferredContext</a>
+

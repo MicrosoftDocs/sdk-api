@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509EndorsementKey.AddCertificate
+ - IX509EndorsementKey::AddCertificate
 ---
 
 # IX509EndorsementKey::AddCertificate
@@ -73,3 +73,4 @@ Only non-manufacturer certificates can be added to the key storage provider.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
+

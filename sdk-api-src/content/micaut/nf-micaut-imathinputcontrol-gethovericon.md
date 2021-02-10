@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl.GetHoverIcon
+ - IMathInputControl::GetHoverIcon
 ---
 
 # IMathInputControl::GetHoverIcon
@@ -141,3 +141,4 @@ BOOL TestDlg::OnInitDialog(){
 ## -see-also
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
+

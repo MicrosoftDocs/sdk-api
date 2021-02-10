@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport2.RemoveBehavior
+ - IDirectManipulationViewport2::RemoveBehavior
 ---
 
 # IDirectManipulationViewport2::RemoveBehavior
@@ -65,3 +65,4 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport2">IDirectManipulationViewport2</a>
+

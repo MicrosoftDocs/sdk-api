@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinEfs.h
 api_name:
+ - _ENCRYPTION_CERTIFICATE_HASH
+ - PENCRYPTION_CERTIFICATE_HASH
  - ENCRYPTION_CERTIFICATE_HASH
 ---
 
@@ -88,3 +90,4 @@ User-displayable information for the certificate.  This is usually the user's co
 
 
 <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice.SendingNow
- - IFaxDevice.get_SendingNow
- - IFaxDevice.get_SendingNow
+ - IFaxDevice::get_SendingNow
 ---
 
 # IFaxDevice::get_SendingNow
@@ -77,3 +75,4 @@ If this property is equal to <b>TRUE</b>, the fax device is currently sending a 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
+

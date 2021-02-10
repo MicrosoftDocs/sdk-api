@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - inputpanelconfiguration
  - inputpanelconfiguration/inputpanelconfiguration
+api_name:
+ - inputpanelconfiguration
 ---
 
 # Inputpanelconfiguration.h header

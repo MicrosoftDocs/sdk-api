@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.GetStatus
+ - ITfContext::GetStatus
 ---
 
 # ITfContext::GetStatus
@@ -105,3 +105,4 @@ The context is not on a document stack.
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [TF_STATUS](/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))
+

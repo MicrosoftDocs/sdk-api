@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITResultSet.Add
+ - IITResultSet::Add
 ---
 
 # IITResultSet::Add(PROPID,LPVOID,DWORD,PRIORITY)
@@ -112,3 +112,4 @@ This method is used to add a column for pointer properties.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>
+

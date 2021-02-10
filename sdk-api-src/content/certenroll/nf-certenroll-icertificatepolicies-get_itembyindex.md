@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertificatePolicies.ItemByIndex
- - ICertificatePolicies.get_ItemByIndex
+ - ICertificatePolicies::get_ItemByIndex
 ---
 
 # ICertificatePolicies::get_ItemByIndex
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a>
+

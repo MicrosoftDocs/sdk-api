@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
+ - __MIDL___MIDL_itf_msopc_0001_0076_0004
  - OPC_CERTIFICATE_EMBEDDING_OPTION
 ---
 
@@ -127,3 +128,4 @@ The certificate is not stored in the package.
 
 <a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
 Version 1.0</a>
+

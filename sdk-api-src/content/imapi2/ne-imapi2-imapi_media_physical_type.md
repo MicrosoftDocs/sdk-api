@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_MEDIA_PHYSICAL_TYPE
+ - PIMAPI_MEDIA_PHYSICAL_TYPE
  - IMAPI_MEDIA_PHYSICAL_TYPE
 ---
 
@@ -149,3 +151,4 @@ The values in the range 0x00000000..0x0000FFFF inclusive are reserved for extens
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentphysicalmediatype">IDiscFormat2Data::get_CurrentPhysicalMediaType</a>
+

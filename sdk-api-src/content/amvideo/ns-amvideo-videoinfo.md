@@ -44,6 +44,7 @@ api_type:
 api_location:
  - amvideo.h
 api_name:
+ - tagVIDEOINFO
  - VIDEOINFO
 ---
 
@@ -105,3 +106,4 @@ For information about using the <b>rcSource</b> and <b>rcTarget</b> members, see
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

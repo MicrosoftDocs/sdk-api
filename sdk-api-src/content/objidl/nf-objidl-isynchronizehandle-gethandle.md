@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ISynchronizeHandle.GetHandle
+ - ISynchronizeHandle::GetHandle
 ---
 
 # ISynchronizeHandle::GetHandle
@@ -69,3 +69,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isynchronizehandle">ISynchronizeHandle</a>
+

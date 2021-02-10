@@ -43,7 +43,6 @@ api_location:
  - Wininet.dll
 api_name:
  - PrivacySetZonePreferenceW
- - PrivacySetZonePreferenceW
 ---
 
 # PrivacySetZonePreferenceW function
@@ -160,3 +159,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-privacygetzonepreferencew">PrivacyGetZonePreferenceW</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionMSApplicationPolicies.Policies
- - IX509ExtensionMSApplicationPolicies.get_Policies
+ - IX509ExtensionMSApplicationPolicies::get_Policies
 ---
 
 # IX509ExtensionMSApplicationPolicies::get_Policies
@@ -64,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionms
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionmsapplicationpolicies">IX509ExtensionMSApplicationPolicies</a>
+

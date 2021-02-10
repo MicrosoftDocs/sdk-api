@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmmsg.h
 api_name:
+ - _MSG_INFO_0
+ - PMSG_INFO_0
  - MSG_INFO_0
 ---
 
@@ -82,3 +84,4 @@ Pointer to a Unicode string that specifies the alias to which the message is to 
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore.get_controls
+ - IWMPCore::get_controls
 ---
 
 # IWMPCore::get_controls
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
+

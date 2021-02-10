@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoDecimationProperties.QueryDecimationUsage
+ - IAMVideoDecimationProperties::QueryDecimationUsage
 ---
 
 # IAMVideoDecimationProperties::QueryDecimationUsage
@@ -70,3 +70,4 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties Interface</a>
+

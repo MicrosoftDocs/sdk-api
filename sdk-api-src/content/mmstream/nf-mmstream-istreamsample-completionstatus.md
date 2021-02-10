@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IStreamSample.CompletionStatus
+ - IStreamSample::CompletionStatus
 ---
 
 # IStreamSample::CompletionStatus
@@ -154,3 +154,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample Interface</a>
+

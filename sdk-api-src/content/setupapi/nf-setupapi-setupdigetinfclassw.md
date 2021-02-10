@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupDiGetINFClassW
  - setupapi/SetupDiGetINFClassW
+ - SetupDiGetINFClass
+ - setupapi/SetupDiGetINFClass
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +46,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetINFClass
  - SetupDiGetINFClassW
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
+ - SetupDiGetINFClass
 ---
 
 # SetupDiGetINFClassW function
@@ -107,3 +109,4 @@ Do not use this function with INF files for Windows 9x or Millennium Edition.
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdescriptiona">SetupDiGetClassDescription</a>
+

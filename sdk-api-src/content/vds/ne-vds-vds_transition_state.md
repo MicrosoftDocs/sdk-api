@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_TRANSITION_STATE
  - VDS_TRANSITION_STATE
 ---
 
@@ -178,3 +179,4 @@ If your application encounters a <b>VDS_TRANSITION_STATE</b> value that it does 
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop2">VDS_VOLUME_PROP2</a>
+

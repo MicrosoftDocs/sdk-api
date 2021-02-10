@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup.PreUnInstall
+ - IMSCEPSetup::PreUnInstall
 ---
 
 # IMSCEPSetup::PreUnInstall
@@ -61,3 +61,4 @@ You can use this method to support an uninstall of an NDES role. The role must b
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
+

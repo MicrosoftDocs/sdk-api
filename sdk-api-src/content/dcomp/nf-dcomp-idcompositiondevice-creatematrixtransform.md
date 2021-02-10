@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateMatrixTransform
+ - IDCompositionDevice::CreateMatrixTransform
 ---
 
 # IDCompositionDevice::CreateMatrixTransform
@@ -81,3 +81,4 @@ When an identity transform is applied to an object, it does not change the posit
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
+

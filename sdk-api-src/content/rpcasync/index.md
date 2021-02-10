@@ -9,6 +9,8 @@ tech.root: rpc
 f1_keywords:
  - rpcasync
  - rpcasync/rpcasync
+api_name:
+ - rpcasync
 ---
 
 # Rpcasync.h header

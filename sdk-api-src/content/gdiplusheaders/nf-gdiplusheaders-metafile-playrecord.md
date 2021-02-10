@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile.PlayRecord
+ - Metafile::PlayRecord
 ---
 
 # Metafile::PlayRecord
@@ -116,3 +116,4 @@ This method is used in conjunction with the <a href="/windows/desktop/api/gdiplu
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+

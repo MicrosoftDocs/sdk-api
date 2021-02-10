@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUser.SetQuotaLimit
+ - IDiskQuotaUser::SetQuotaLimit
 ---
 
 # IDiskQuotaUser::SetQuotaLimit
@@ -129,3 +129,4 @@ An unexpected file system error occurred.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
+

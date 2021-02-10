@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionFilterEffect.SetInput
+ - IDCompositionFilterEffect::SetInput
 ---
 
 # IDCompositionFilterEffect::SetInput
@@ -128,3 +128,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
+

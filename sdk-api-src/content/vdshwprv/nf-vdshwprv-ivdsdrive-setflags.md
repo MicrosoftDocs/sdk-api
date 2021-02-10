@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDrive.SetFlags
+ - IVdsDrive::SetFlags
 ---
 
 # IVdsDrive::SetFlags
@@ -148,3 +148,4 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>
+

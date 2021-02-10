@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetPlayMode
+ - IWMReaderAdvanced2::GetPlayMode
 ---
 
 # IWMReaderAdvanced2::GetPlayMode
@@ -74,3 +74,4 @@ For more information, see the Remarks section of <a href="/windows/desktop/api/w
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
+

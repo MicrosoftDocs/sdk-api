@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509SignatureInformation.SetDefaultValues
+ - IX509SignatureInformation::SetDefaultValues
 ---
 
 # IX509SignatureInformation::SetDefaultValues
@@ -86,3 +86,4 @@ If the hash algorithm is already set, this method performs no action. If the has
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

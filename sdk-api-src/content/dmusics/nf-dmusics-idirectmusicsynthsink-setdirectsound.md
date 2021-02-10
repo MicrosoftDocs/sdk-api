@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynthSink.SetDirectSound
+ - IDirectMusicSynthSink::SetDirectSound
 ---
 
 # IDirectMusicSynthSink::SetDirectSound
@@ -112,3 +112,4 @@ For more information, see the description of the <b>IDirectSound</b>, <b>IDirect
 ## -see-also
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getformat">IDirectMusicSynth::GetFormat</a>
+

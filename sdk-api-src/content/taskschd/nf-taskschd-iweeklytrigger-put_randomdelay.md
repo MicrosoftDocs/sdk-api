@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IWeeklyTrigger.RandomDelay
- - IWeeklyTrigger.get_RandomDelay
- - IWeeklyTrigger.put_RandomDelay
+ - IWeeklyTrigger::put_RandomDelay
 ---
 
 # IWeeklyTrigger::put_RandomDelay
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger">IWeeklyTrigger</a>
+

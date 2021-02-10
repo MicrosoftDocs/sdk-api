@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
+ - NET_FW_IP_PROTOCOL_
  - NET_FW_IP_PROTOCOL
 ---
 
@@ -77,3 +78,4 @@ User Datagram Protocol.
 
 
 <a href="/previous-versions/windows/desktop/ics/windows-firewall-reference">Windows Firewall Reference</a>
+

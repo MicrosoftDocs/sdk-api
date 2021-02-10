@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetViewport
+ - IDirect3DDevice9::SetViewport
 ---
 
 # IDirect3DDevice9::SetViewport
@@ -98,3 +98,4 @@ To draw multiple views within a scene, repeat the <b>IDirect3DDevice9::SetViewpo
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getviewport">IDirect3DDevice9::GetViewport</a>
+

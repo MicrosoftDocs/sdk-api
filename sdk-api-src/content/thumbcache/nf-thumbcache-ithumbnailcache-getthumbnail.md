@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Thumbcache.h
 api_name:
- - IThumbnailCache.GetThumbnail
+ - IThumbnailCache::GetThumbnail
 ---
 
 # IThumbnailCache::GetThumbnail
@@ -217,3 +217,4 @@ The following combinations are valid for the flags parameter.
 
 
 <a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcache">IThumbnailCache</a>
+

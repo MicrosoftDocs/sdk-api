@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_3
+ - PUSER_INFO_3
  - USER_INFO_3
 ---
 
@@ -687,3 +689,4 @@ the <b>USER_INFO_4</b> structure instead of the
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

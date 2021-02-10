@@ -43,7 +43,7 @@ api_location:
  - D3DCompiler.lib
  - D3DCompiler.dll
 api_name:
- - ID3D11RefTrackingOptions.SetTrackingOptions
+ - ID3D11RefTrackingOptions::SetTrackingOptions
 ---
 
 # ID3D11RefTrackingOptions::SetTrackingOptions
@@ -70,3 +70,4 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11reftrackingoptions">ID3D11RefTrackingOptions</a>
+

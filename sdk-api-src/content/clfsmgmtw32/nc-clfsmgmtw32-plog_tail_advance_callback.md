@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Clfsmgmtw32.h
 api_name:
- - LOG_TAIL_ADVANCE_CALLBACK
+ - PLOG_TAIL_ADVANCE_CALLBACK
 ---
 
 # PLOG_TAIL_ADVANCE_CALLBACK callback function
@@ -78,3 +78,4 @@ This callback can be invoked at any time. This callback function should advance 
 
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-writelogrestartarea">WriteLogRestartArea</a>
+

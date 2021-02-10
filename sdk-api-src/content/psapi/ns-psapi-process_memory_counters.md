@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
+ - _PROCESS_MEMORY_COUNTERS
  - PROCESS_MEMORY_COUNTERS
 ---
 
@@ -111,3 +112,4 @@ The peak value in bytes of the Commit Charge during the lifetime of this process
 
 
 <a href="/windows/desktop/psapi/working-set-information">Working Set Information</a>
+

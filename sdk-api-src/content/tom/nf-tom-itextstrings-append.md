@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStrings.Append
+ - ITextStrings::Append
 ---
 
 # ITextStrings::Append
@@ -108,3 +108,4 @@ The index is relative to the top of the collection, so if  <i>iString</i> is equ
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
+

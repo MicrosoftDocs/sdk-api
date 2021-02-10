@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaBuffer.GetMaxLength
+ - IMediaBuffer::GetMaxLength
 ---
 
 # IMediaBuffer::GetMaxLength
@@ -70,3 +70,4 @@ Returns S_OK if successful. Otherwise, returns an <b>HRESULT</b> value indicatin
 
 
 <a href="/windows/desktop/DirectShow/implementing-imediabuffer">Implementing IMediaBuffer</a>
+

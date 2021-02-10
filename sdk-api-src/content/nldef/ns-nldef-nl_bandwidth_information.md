@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Nldef.h
 api_name:
+ - _NL_BANDWIDTH_INFORMATION
+ - PNL_BANDWIDTH_INFORMATION
  - NL_BANDWIDTH_INFORMATION
 ---
 
@@ -95,3 +97,4 @@ The  <b>NL_BANDWIDTH_INFORMATION</b> structure is defined in the <i>Nldef.h</i> 
 
 
 <a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rod_v0">TCP_ESTATS_BANDWIDTH_ROD_v0</a>
+

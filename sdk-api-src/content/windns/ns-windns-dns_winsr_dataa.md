@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_WINSR_DATA
+ - PDNS_WINSR_DATAA
+ - DNS_WINSR_DATAA
 ---
 
 # DNS_WINSR_DATAA structure

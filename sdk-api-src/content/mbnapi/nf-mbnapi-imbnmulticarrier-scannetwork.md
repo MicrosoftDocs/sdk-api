@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrier.ScanNetwork
+ - IMbnMultiCarrier::ScanNetwork
 ---
 
 # IMbnMultiCarrier::ScanNetwork
@@ -140,3 +140,4 @@ If the device is removed from the system before this operation is complete, ther
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
+

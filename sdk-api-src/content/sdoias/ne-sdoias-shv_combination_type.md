@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _SHV_COMBINATION_TYPE
  - SHV_COMBINATION_TYPE
 ---
 
@@ -77,3 +78,4 @@ Use this constant to test whether the value is in range.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
+ - tagATTRIBUTE_TYPE
  - ATTRIBUTE_TYPE
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - directmanipulation.h
 api_name:
- - IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
+ - IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
 ---
 
 # IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
@@ -124,3 +124,4 @@ The cross-process pointer events (<a href="/previous-versions/windows/desktop/in
 
 
 <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerroutedto">WM_POINTERROUTEDTO</a>
+

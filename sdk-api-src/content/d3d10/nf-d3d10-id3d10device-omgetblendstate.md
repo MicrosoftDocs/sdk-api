@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device.OMGetBlendState
+ - ID3D10Device::OMGetBlendState
 ---
 
 # ID3D10Device::OMGetBlendState
@@ -80,3 +80,4 @@ The reference count of the returned interface will be incremented by one when th
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

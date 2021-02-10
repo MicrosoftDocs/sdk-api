@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.EnumEffectiveQuotas
- - IFsrmQuotaManagerEx.EnumEffectiveQuotas
- - FsrmQuotaManager.EnumEffectiveQuotas
+ - IFsrmQuotaManager::EnumEffectiveQuotas
 ---
 
 # IFsrmQuotaManager::EnumEffectiveQuotas
@@ -108,3 +106,4 @@ To enumerate all quotas, call the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

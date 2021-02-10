@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_TRUST_STATUS
+ - PCERT_TRUST_STATUS
  - CERT_TRUST_STATUS
 ---
 
@@ -540,3 +542,4 @@ If this flag is set, the <b>CERT_TRUST_IS_SELF_SIGNED</b> and the <b>CERT_TRUST_
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a>
+

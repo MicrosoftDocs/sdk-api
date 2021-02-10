@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter
+ - IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
 ---
 
 # IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
@@ -70,3 +70,4 @@ Returns the number of messages denied by a storage filter.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
+

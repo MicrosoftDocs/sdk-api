@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPlanarFormatConverter.CanConvert
+ - IWICPlanarFormatConverter::CanConvert
 ---
 
 # IWICPlanarFormatConverter::CanConvert
@@ -85,3 +85,4 @@ To specify an interleaved input pixel format, provide a length 1 array to <i>pSr
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicplanarformatconverter">IWICPlanarFormatConverter</a>
+

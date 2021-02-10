@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - ocidl
  - ocidl/ocidl
+api_name:
+ - ocidl
 ---
 
 # Ocidl.h header

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.Warp
+ - GraphicsPath::Warp
 ---
 
 # GraphicsPath::Warp
@@ -262,3 +262,4 @@ VOID WarpExample(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-warpmode">WarpMode</a>
+

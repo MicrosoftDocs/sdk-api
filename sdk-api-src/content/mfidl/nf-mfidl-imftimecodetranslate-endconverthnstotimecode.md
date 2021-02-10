@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTimecodeTranslate.EndConvertHNSToTimecode
+ - IMFTimecodeTranslate::EndConvertHNSToTimecode
 ---
 
 # IMFTimecodeTranslate::EndConvertHNSToTimecode
@@ -113,3 +113,4 @@ HRESULT ParseTimeCode(
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftimecodetranslate">IMFTimecodeTranslate</a>
+

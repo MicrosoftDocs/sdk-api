@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - IRegisteredSyncProvider.Reset
+ - IRegisteredSyncProvider::Reset
 ---
 
 # IRegisteredSyncProvider::Reset
@@ -84,3 +84,4 @@ The writer of a synchronization provider may choose not to implement this method
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
+

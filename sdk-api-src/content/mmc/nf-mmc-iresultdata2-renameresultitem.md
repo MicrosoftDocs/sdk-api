@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData2.RenameResultItem
+ - IResultData2::RenameResultItem
 ---
 
 # IResultData2::RenameResultItem
@@ -70,3 +70,4 @@ The item being placed into rename mode must have the Rename verb enabled for thi
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iconsole3-renamescopeitem">IConsole3::RenameScopeItem</a>
+

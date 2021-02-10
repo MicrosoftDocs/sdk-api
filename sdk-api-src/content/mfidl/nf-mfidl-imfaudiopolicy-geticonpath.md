@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAudioPolicy.GetIconPath
+ - IMFAudioPolicy::GetIconPath
 ---
 
 # IMFAudioPolicy::GetIconPath
@@ -94,3 +94,4 @@ For more information, see <b>IAudioSessionControl::GetIconPath</b> in the core a
 
 
 <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
+ - PSCSI_LUN_LIST
  - SCSI_LUN_LIST
 ---
 
@@ -67,3 +68,4 @@ The LUN assigned by the target subsystem to the target device.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
+

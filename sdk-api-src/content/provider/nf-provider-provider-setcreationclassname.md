@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.SetCreationClassName
+ - Provider::SetCreationClassName
 ---
 
 # Provider::SetCreationClassName
@@ -72,3 +72,4 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if it was u
 ## -remarks
 
 The <b>SetCreationClassName</b> method sets the value of the <b>CreateClassName</b> property to the name of the current class. Not all classes have a <b>CreationClassName</b> property.
+

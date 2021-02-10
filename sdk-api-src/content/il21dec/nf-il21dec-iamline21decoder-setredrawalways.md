@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLine21Decoder.SetRedrawAlways
+ - IAMLine21Decoder::SetRedrawAlways
 ---
 
 # IAMLine21Decoder::SetRedrawAlways
@@ -95,3 +95,4 @@ Generally, applications should not call this method. The downstream mixer or ren
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getredrawalways">IAMLine21Decoder::GetRedrawAlways</a>
+

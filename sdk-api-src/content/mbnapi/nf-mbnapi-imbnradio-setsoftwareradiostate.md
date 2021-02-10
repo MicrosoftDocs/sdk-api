@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRadio.SetSoftwareRadioState
+ - IMbnRadio::SetSoftwareRadioState
 ---
 
 # IMbnRadio::SetSoftwareRadioState
@@ -137,3 +137,4 @@ A device's radio state can change without a change request from the application.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradio">IMbnRadio</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequestCollection.RemoveAt
+ - IXpsSignatureRequestCollection::RemoveAt
 ---
 
 # IXpsSignatureRequestCollection::RemoveAt
@@ -85,3 +85,4 @@ After the interface has been removed from a collection, it is no longer valid. I
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

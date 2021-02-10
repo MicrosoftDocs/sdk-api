@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_403
+ - PSERVER_INFO_403
  - SERVER_INFO_403
 ---
 
@@ -342,3 +344,4 @@ A pointer to a Unicode string that contains the path for the profile.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IContextState.SetDeactivateOnReturn
+ - IContextState::SetDeactivateOnReturn
 ---
 
 # IContextState::SetDeactivateOnReturn
@@ -104,3 +104,4 @@ The default value of the done flag is false.
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
+

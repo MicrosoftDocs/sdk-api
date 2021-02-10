@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask.Stop
+ - IRegisteredTask::Stop
 ---
 
 # IRegisteredTask::Stop
@@ -100,3 +100,4 @@ System account users can stop a task, users with Administrator group privileges 
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage.put_UseRestrictedCharacterSet
+ - IFileSystemImage::put_UseRestrictedCharacterSet
 ---
 
 # IFileSystemImage::put_UseRestrictedCharacterSet
@@ -84,3 +84,4 @@ You can change the value of this property only when the result stream is not act
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_userestrictedcharacterset">IFileSystemImage::get_UseRestrictedCharacterSet</a>
+

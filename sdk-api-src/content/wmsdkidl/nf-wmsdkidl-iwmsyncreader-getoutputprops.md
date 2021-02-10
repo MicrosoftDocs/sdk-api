@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputProps
+ - IWMSyncReader::GetOutputProps
 ---
 
 # IWMSyncReader::GetOutputProps
@@ -120,3 +120,4 @@ Manipulating the object retrieved by a call to <b>GetOutputProps</b> has no effe
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputprops">IWMSyncReader::SetOutputProps</a>
+

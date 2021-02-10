@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - memorybuffer
  - memorybuffer/memorybuffer
+api_name:
+ - memorybuffer
 ---
 
 # Memorybuffer.h header

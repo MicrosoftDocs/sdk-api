@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP.GetWnd
+ - ITextStoreACP::GetWnd
 ---
 
 # ITextStoreACP::GetWnd
@@ -107,3 +107,4 @@ A document cannot have a corresponding window handle if the document is in memor
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
+

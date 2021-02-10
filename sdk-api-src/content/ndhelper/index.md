@@ -9,6 +9,8 @@ tech.root: ndf
 f1_keywords:
  - ndhelper
  - ndhelper/ndhelper
+api_name:
+ - ndhelper
 ---
 
 # Ndhelper.h header

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStreamControl.StopAt
+ - IAMStreamControl::StopAt
 ---
 
 # IAMStreamControl::StopAt
@@ -94,3 +94,4 @@ This method handles the following boundary conditions:
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl Interface</a>
+

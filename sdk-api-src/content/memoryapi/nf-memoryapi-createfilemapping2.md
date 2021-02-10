@@ -33,9 +33,12 @@ api_location:
  - Kernel32.dll
 api_name:
  - CreateFileMapping2
+ - CreateFileMapping
 f1_keywords:
  - CreateFileMapping2
  - memoryapi/CreateFileMapping2
+ - CreateFileMapping
+ - memoryapi/CreateFileMapping
 dev_langs:
  - c++
 ---
@@ -436,3 +439,4 @@ For an example, see <a href="/windows/win32/memory/creating-named-shared-memory"
 <a href="/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>
+

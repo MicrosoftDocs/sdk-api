@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateCollection.RemoveAt
+ - IUpdateCollection::RemoveAt
 ---
 
 # IUpdateCollection::RemoveAt
@@ -96,3 +96,4 @@ An index is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
+

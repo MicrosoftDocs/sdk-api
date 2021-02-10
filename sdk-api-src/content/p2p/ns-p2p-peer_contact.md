@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_contact_tag
+ - PPEER_CONTACT
  - PEER_CONTACT
 ---
 
@@ -101,3 +103,4 @@ If true, the contact is watched by the peer; if false, it is not.
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

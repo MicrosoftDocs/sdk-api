@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
+ - tagMKREDUCE
  - MKRREDUCE
 ---
 
@@ -75,3 +76,4 @@ Reduces the moniker until it is in its simplest form, that is, reduce it to itse
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a>
+

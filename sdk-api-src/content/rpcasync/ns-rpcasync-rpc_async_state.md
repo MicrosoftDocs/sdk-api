@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
+ - _RPC_ASYNC_STATE
+ - PRPC_ASYNC_STATE
  - RPC_ASYNC_STATE
 ---
 
@@ -239,3 +241,4 @@ The client allocates space for the
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcservertestcancel">RpcServerTestCancel</a>
+

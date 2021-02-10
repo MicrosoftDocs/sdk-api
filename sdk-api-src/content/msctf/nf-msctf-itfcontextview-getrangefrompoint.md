@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContextView.GetRangeFromPoint
+ - ITfContextView::GetRangeFromPoint
 ---
 
 # ITfContextView::GetRangeFromPoint
@@ -175,3 +175,4 @@ GXFPF_ROUND_NEAREST
 
 
 <a href="/windows/desktop/TSF/manager-return-values">TF_E_INVALIDPOINT</a>
+

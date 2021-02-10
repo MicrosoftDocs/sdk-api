@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.ID
- - IInkStrokeDisp.get_ID
- - IInkStrokeDisp.get_Id
+ - IInkStrokeDisp::get_ID
 ---
 
 # IInkStrokeDisp::get_ID
@@ -71,3 +69,4 @@ An object's identifier never changes.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+

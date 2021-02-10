@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.SetCredentials
+ - IDataCollectorSet::SetCredentials
 ---
 
 # IDataCollectorSet::SetCredentials
@@ -79,3 +79,4 @@ If you do not specify the credentials, PLA tries to run the set as LocalSystem i
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_useraccount">IDataCollectorSet::UserAccount</a>
+

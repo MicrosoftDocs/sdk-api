@@ -42,7 +42,7 @@ api_type:
 api_location:
  - portabledeviceapi.h
 api_name:
- - IPortableDeviceWebControl.GetDeviceFromIdAsync
+ - IPortableDeviceWebControl::GetDeviceFromIdAsync
 ---
 
 # IPortableDeviceWebControl::GetDeviceFromIdAsync
@@ -138,3 +138,4 @@ deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
 
 
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PortableDeviceServices">Portable Device Service Sample</a>
+

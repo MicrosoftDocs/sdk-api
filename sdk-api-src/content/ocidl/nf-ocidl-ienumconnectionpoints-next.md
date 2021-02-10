@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ocidl.h
 api_name:
- - IEnumConnectionPoints.Next
+ - IEnumConnectionPoints::Next
 ---
 
 # IEnumConnectionPoints::Next
@@ -79,3 +79,4 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints">IEnumConnectionPoints</a>
+

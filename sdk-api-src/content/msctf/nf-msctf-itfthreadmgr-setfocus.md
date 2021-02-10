@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgr.SetFocus
+ - ITfThreadMgr::SetFocus
 ---
 
 # ITfThreadMgr::SetFocus
@@ -113,3 +113,4 @@ The application must call this method when the document window receives the inpu
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfocus">ITfThreadMgr::GetFocus
       </a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDatabaseGenerateTransformA
  - msiquery/MsiDatabaseGenerateTransformA
+ - MsiDatabaseGenerateTransform
+ - msiquery/MsiDatabaseGenerateTransform
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiDatabaseGenerateTransform
  - MsiDatabaseGenerateTransformA
- - MsiDatabaseGenerateTransformW
+ - MsiDatabaseGenerateTransform
 ---
 
 # MsiDatabaseGenerateTransformA function
@@ -116,3 +117,4 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 <a href="/windows/desktop/Msi/database-transforms">Database Transforms</a>
+

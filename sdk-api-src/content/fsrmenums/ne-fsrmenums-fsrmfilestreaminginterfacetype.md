@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmFileStreamingInterfaceType
  - FsrmFileStreamingInterfaceType
 ---
 
@@ -75,3 +76,4 @@ Use an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> inter
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfilestreaminterface">IFsrmPropertyBag::GetFileStreamInterface</a>
+

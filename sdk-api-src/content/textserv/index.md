@@ -9,6 +9,8 @@ tech.root: controls
 f1_keywords:
  - textserv
  - textserv/textserv
+api_name:
+ - textserv
 ---
 
 # Textserv.h header

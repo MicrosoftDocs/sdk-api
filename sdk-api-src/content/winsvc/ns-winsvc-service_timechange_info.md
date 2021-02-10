@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winsvc.h
 api_name:
+ - _SERVICE_TIMECHANGE_INFO
+ - PSERVICE_TIMECHANGE_INFO
  - SERVICE_TIMECHANGE_INFO
 ---
 
@@ -77,3 +79,4 @@ The time values in the <i>liNewTime</i> and <i>liOldTime</i> members cannot be u
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+

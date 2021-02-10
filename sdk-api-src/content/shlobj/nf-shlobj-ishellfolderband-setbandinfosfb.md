@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolderBand.SetBandInfoSFB
+ - IShellFolderBand::SetBandInfoSFB
 ---
 
 # IShellFolderBand::SetBandInfoSFB
@@ -73,3 +73,4 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 <a href="/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a>
+

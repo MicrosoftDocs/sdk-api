@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr.ProvisionAndSetNewTarget
- - FhConfigMgr.ProvisionAndSetNewTarget
+ - IFhConfigMgr::ProvisionAndSetNewTarget
 ---
 
 # IFhConfigMgr::ProvisionAndSetNewTarget
@@ -89,3 +88,4 @@ It is highly recommended that the storage device or network share specified by t
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">IFhConfigMgr::ValidateTarget</a>
+

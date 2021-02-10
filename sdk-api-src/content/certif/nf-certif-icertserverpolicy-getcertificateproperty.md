@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy.GetCertificateProperty
- - CCertServerPolicy.GetCertificateProperty
+ - ICertServerPolicy::GetCertificateProperty
 ---
 
 # ICertServerPolicy::GetCertificateProperty
@@ -473,3 +472,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>
+

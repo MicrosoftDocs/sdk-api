@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas
+ - IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas

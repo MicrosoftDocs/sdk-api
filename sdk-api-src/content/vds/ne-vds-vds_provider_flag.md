@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_PROVIDER_FLAG
  - VDS_PROVIDER_FLAG
 ---
 
@@ -126,3 +127,4 @@ This enumeration provides the values for the <i>ulFlags</i> member of the
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a>
+

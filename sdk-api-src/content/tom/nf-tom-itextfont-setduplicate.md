@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.SetDuplicate
+ - ITextFont::SetDuplicate
 ---
 
 # ITextFont::SetDuplicate
@@ -146,3 +146,4 @@ For an example of how to use font duplicates, see <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

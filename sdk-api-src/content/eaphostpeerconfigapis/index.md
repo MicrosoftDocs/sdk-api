@@ -9,6 +9,8 @@ tech.root: eaphost
 f1_keywords:
  - eaphostpeerconfigapis
  - eaphostpeerconfigapis/eaphostpeerconfigapis
+api_name:
+ - eaphostpeerconfigapis
 ---
 
 # Eaphostpeerconfigapis.h header

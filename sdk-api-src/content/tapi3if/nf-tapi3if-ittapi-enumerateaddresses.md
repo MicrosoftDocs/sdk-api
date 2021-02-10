@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI.EnumerateAddresses
+ - ITTAPI::EnumerateAddresses
 ---
 
 # ITTAPI::EnumerateAddresses
@@ -155,3 +155,4 @@ If an address is created or removed during a TAPI session, the application will 
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses">get_Addresses</a>
+

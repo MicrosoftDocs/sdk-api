@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView2.CreateViewWindow2
+ - IShellView2::CreateViewWindow2
 ---
 
 # IShellView2::CreateViewWindow2
@@ -79,3 +79,4 @@ The size of the structure, previous view window, folder settings, parent Shell b
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-getview">IShellView2::GetView</a>
+

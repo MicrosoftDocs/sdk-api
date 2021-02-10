@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxPackageWriter.Close
+ - IAppxPackageWriter::Close
 ---
 
 # IAppxPackageWriter::Close
@@ -109,3 +109,4 @@ For an example, see <a href="/windows/desktop/appxpkg/how-to-create-a-package">H
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
+ - wavehdr_tag
+ - PWAVEHDR
  - WAVEHDR
 ---
 
@@ -168,3 +170,4 @@ The <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members must be set
 
 
 <a href="/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a>
+

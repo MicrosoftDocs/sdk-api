@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidRect.get_Width
+ - IMSVidRect::get_Width
 ---
 
 # IMSVidRect::get_Width
@@ -73,3 +73,4 @@ Calling the <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-put_left
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-put_width">IMSVidRect::put_Width</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode.GetInputCount
+ - IMFTopologyNode::GetInputCount
 ---
 
 # IMFTopologyNode::GetInputCount
@@ -94,3 +94,4 @@ The <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput">
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

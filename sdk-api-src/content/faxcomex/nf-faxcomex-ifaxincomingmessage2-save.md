@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Save
- - IFaxIncomingMessage2.Save
+ - IFaxIncomingMessage2::Save
 ---
 
 # IFaxIncomingMessage2::Save
@@ -81,3 +80,4 @@ It is not necessary to call this method to commit changes to the <a href="/previ
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
+

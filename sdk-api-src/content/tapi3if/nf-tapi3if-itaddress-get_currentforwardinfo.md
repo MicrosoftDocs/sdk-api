@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress.get_CurrentForwardInfo
+ - ITAddress::get_CurrentForwardInfo
 ---
 
 # ITAddress::get_CurrentForwardInfo
@@ -140,3 +140,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
+

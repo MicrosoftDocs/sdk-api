@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Traffic.h
 api_name:
+ - _TC_GEN_FLOW
+ - PTC_GEN_FLOW
  - TC_GEN_FLOW
 ---
 
@@ -123,3 +125,4 @@ QOS_OBJECT_END_OF_LIST
 
 
 <a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
+

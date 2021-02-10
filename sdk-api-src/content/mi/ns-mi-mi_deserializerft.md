@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_DeserializerFT
  - MI_DeserializerFT
 ---
 
@@ -90,3 +91,4 @@ Gets the class name of the specified instance. See
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mi/nc-mi-mi_deserializer_classobjectneeded">MI_Deserializer_ClassObjectNeeded</a>
+

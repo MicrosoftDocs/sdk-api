@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmiscapi.h
 api_name:
+ - _MMCKINFO
+ - PMMCKINFO
  - MMCKINFO
 ---
 
@@ -102,3 +104,4 @@ The length of the chunk might have changed and should be updated by the <a href=
 
 
 <a href="/previous-versions/dd757317(v=vs.85)">mmioCreateChunk</a>
+

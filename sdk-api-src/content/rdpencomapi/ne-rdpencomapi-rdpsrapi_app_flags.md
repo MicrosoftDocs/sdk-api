@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rdpencomapi.h
 api_name:
+ - __MIDL___MIDL_itf_rdpencomapi_0000_0000_0008
  - RDPSRAPI_APP_FLAGS
 ---
 
@@ -61,3 +62,4 @@ You can retrieve the list of applications that are running on the sharing user s
 ### -field APP_FLAG_PRIVILEGED
 
 This flag indicates that the application cannot be shared. The application runs at a higher level than the process that is using the Windows Desktop Sharing API. An application can use this flag to prevent the user from sharing it by either disabling the entry for the application in the user interface or by not showing the entry.
+

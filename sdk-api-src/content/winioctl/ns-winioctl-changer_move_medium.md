@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CHANGER_MOVE_MEDIUM
+ - PCHANGER_MOVE_MEDIUM
  - CHANGER_MOVE_MEDIUM
 ---
 
@@ -85,3 +87,4 @@ If this member is <b>TRUE</b>, the media should be flipped. Otherwise, it should
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_move_medium">IOCTL_CHANGER_MOVE_MEDIUM</a>
+

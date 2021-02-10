@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStream.get_Name
+ - ITStream::get_Name
 ---
 
 # ITStream::get_Name
@@ -115,3 +115,4 @@ The application must use
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

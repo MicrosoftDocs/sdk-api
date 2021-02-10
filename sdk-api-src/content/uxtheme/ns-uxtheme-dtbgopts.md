@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
+ - _DTBGOPTS
+ - PDTBGOPTS
  - DTBGOPTS
 ---
 
@@ -166,3 +168,4 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> that specifies t
 ## -see-also
 
 <a href="/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a>
+

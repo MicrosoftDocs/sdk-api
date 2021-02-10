@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_RESPONSE_DATA
  - WSMAN_RESPONSE_DATA
 ---
 
@@ -65,3 +66,4 @@ Represents the output data received from a <a href="/windows/desktop/api/wsman/n
 Represents the output data received from a <a href="/windows/desktop/api/wsman/nf-wsman-wsmanconnectshell">WSManConnectShell</a> or <a href="/windows/desktop/api/wsman/nf-wsman-wsmanconnectshellcommand">WSManConnectShellCommand</a> method.
 
 ### -field createData
+

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CFrameworkQuery.IsPropertyRequired
+ - CFrameworkQuery::IsPropertyRequired
 ---
 
 # CFrameworkQuery::IsPropertyRequired
@@ -68,3 +68,4 @@ Name of property that is checked.
 ## -returns
 
 Returns <b>TRUE</b> if the property specified by <i>propName</i> was requested and <b>FALSE</b> if it was not requested.
+

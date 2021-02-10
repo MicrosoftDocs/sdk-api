@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaphostpeertypes.h
 api_name:
+ - tagEapHostPeerMethodResult
  - EapHostPeerMethodResult
 ---
 
@@ -119,3 +120,4 @@ A pointer to the <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">E
 
 
 <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresult">EapHostPeerGetResult</a>
+

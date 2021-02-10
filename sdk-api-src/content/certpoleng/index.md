@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - certpoleng
  - certpoleng/certpoleng
+api_name:
+ - certpoleng
 ---
 
 # Certpoleng.h header

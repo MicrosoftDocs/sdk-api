@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertProperties._NewEnum
- - ICertProperties.get__NewEnum
+ - ICertProperties::get__NewEnum
 ---
 
 # ICertProperties::get__NewEnum
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
+

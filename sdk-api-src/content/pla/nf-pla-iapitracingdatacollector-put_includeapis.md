@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IApiTracingDataCollector.IncludeApis
- - IApiTracingDataCollector.get_IncludeApis
- - IApiTracingDataCollector.put_IncludeApis
+ - IApiTracingDataCollector::put_IncludeApis
 ---
 
 # IApiTracingDataCollector::put_IncludeApis
@@ -73,3 +71,4 @@ You can use this property to limit the functions that PLA logs to this list of f
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_EIT.RegisterForNextTable
+ - IDVB_EIT::RegisterForNextTable
 ---
 
 # IDVB_EIT::RegisterForNextTable
@@ -125,3 +125,4 @@ This method applies only to <i>current</i> tables. Otherwise, the method returns
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>
+

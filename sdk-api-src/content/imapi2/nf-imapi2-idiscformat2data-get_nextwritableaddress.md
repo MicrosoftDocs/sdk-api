@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data.get_NextWritableAddress
+ - IDiscFormat2Data::get_NextWritableAddress
 ---
 
 # IDiscFormat2Data::get_NextWritableAddress
@@ -372,3 +372,4 @@ In multi-session writing, the next writable address is useful for setting up a c
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_startaddressofprevioussession">IDiscFormat2Data::get_StartAddressOfPreviousSession</a>
+

@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11ClassInstance.GetTypeName
+ - ID3D11ClassInstance::GetTypeName
 ---
 
 # ID3D11ClassInstance::GetTypeName
@@ -81,3 +81,4 @@ For more information about using the <a href="/windows/desktop/api/d3d11/nn-d3d1
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a>
+

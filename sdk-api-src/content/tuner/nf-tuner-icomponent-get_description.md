@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponent.get_Description
+ - IComponent::get_Description
 ---
 
 # IComponent::get_Description
@@ -69,3 +69,4 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
+

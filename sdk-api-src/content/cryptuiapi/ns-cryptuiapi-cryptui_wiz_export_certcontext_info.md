@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
+ - _CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+ - PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
  - CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 ---
 
@@ -160,3 +162,4 @@ Indicates whether strong encryption should be used in the export process. Contai
 
 
 <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnAttrsChange
+ - ITextStoreAnchorSink::OnAttrsChange
 ---
 
 # ITextStoreAnchorSink::OnAttrsChange
@@ -126,3 +126,4 @@ One or more parameters are invalid.
 
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
+

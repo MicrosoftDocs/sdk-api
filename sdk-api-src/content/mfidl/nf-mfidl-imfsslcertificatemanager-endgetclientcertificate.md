@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFSSLCertificateManager.EndGetClientCertificate
+ - IMFSSLCertificateManager::EndGetClientCertificate
 ---
 
 # IMFSSLCertificateManager::EndGetClientCertificate
@@ -82,3 +82,4 @@ Call this method after the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslce
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>
+

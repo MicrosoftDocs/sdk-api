@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap.Bitmap
+ - Bitmap::Bitmap
 ---
 
 # Bitmap::Bitmap(IN const WCHAR,IN BOOL)
@@ -90,3 +90,4 @@ Optional. Boolean value that specifies whether the new <b>Bitmap::Bitmap</b> obj
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

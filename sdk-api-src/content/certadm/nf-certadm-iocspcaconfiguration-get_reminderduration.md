@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration.ReminderDuration
- - IOCSPCAConfiguration.get_ReminderDuration
- - IOCSPCAConfiguration.put_ReminderDuration
+ - IOCSPCAConfiguration::get_ReminderDuration
 ---
 
 # IOCSPCAConfiguration::get_ReminderDuration
@@ -65,3 +63,4 @@ Percentage values must be in the range 0 through 100; the default value is 90. A
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
+

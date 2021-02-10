@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMClockSlave.GetErrorTolerance
+ - IAMClockSlave::GetErrorTolerance
 ---
 
 # IAMClockSlave::GetErrorTolerance
@@ -99,3 +99,4 @@ Success
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamclockslave">IAMClockSlave Interface</a>
+

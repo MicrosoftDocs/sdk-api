@@ -43,7 +43,7 @@ api_location:
  - Audioenginebaseapo.idl
  - Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.Initialize
+ - IAudioProcessingObject::Initialize
 ---
 
 # IAudioProcessingObject::Initialize
@@ -135,3 +135,4 @@ APOInitBaseStruct APOInit;
 ## -see-also
 
 <a href="/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitbasestruct">APOInitBaseStruct</a>
+

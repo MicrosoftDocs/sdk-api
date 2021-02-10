@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.AddStylusSyncPlugin
+ - IRealTimeStylus::AddStylusSyncPlugin
 ---
 
 # IRealTimeStylus::AddStylusSyncPlugin
@@ -118,3 +118,4 @@ void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 
 
 <b>RealTimeStylus Class</b>
+

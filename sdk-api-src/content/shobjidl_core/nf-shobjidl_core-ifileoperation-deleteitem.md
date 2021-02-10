@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.DeleteItem
+ - IFileOperation::DeleteItem
 ---
 
 # IFileOperation::DeleteItem
@@ -97,3 +97,4 @@ This method does not delete the item, it merely declares the item to be deleted.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-predeleteitem">PreDeleteItem</a>
+

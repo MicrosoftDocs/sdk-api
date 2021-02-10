@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device.CreatePixelShader
+ - ID3D11Device::CreatePixelShader
 ---
 
 # ID3D11Device::CreatePixelShader
@@ -92,3 +92,4 @@ After creating the pixel shader, you can set it to the device using <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
+

@@ -9,6 +9,8 @@ tech.root: nla
 f1_keywords:
  - ondemandconnroutehelper
  - ondemandconnroutehelper/ondemandconnroutehelper
+api_name:
+ - ondemandconnroutehelper
 ---
 
 # Ondemandconnroutehelper.h header

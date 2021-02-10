@@ -9,6 +9,8 @@ tech.root: winsync
 f1_keywords:
  - winsync
  - winsync/winsync
+api_name:
+ - winsync
 ---
 
 # Winsync.h header

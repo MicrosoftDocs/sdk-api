@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.QueryDrives
+ - IVdsSubSystem::QueryDrives
 ---
 
 # IVdsSubSystem::QueryDrives
@@ -159,3 +159,4 @@ Implementers must return an empty enumeration object for each subsystem with zer
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
+

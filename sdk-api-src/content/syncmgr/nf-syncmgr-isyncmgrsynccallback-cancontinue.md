@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback.CanContinue
+ - ISyncMgrSyncCallback::CanContinue
 ---
 
 # ISyncMgrSyncCallback::CanContinue
@@ -124,3 +124,4 @@ HRESULT CMyDeviceHandler::Synchronize(...)
 }
 
 ```
+

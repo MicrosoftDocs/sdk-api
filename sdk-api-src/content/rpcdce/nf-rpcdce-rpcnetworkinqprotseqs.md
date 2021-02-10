@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcNetworkInqProtseqs
- - RpcNetworkInqProtseqsA
- - RpcNetworkInqProtseqsW
 ---
 
 # RpcNetworkInqProtseqs function
@@ -110,3 +108,4 @@ The server is responsible for calling the
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid">RpcNetworkIsProtseqValid</a>
+

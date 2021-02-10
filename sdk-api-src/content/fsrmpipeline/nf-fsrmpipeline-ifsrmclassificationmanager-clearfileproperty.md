@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.ClearFileProperty
- - IFsrmClassificationManager2.ClearFileProperty
- - FsrmClassificationManager.ClearFileProperty
+ - IFsrmClassificationManager::ClearFileProperty
 ---
 
 # IFsrmClassificationManager::ClearFileProperty
@@ -142,3 +140,4 @@ The property is removed from the file if the storage module is able to remove th
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
+

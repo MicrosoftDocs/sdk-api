@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_SEEK_FLAGS
  - EVT_SEEK_FLAGS
 ---
 
@@ -142,3 +143,4 @@ If the bookmark is within the boundaries of the result set (based on event recor
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>
+

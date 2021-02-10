@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmmsg.h
 api_name:
+ - _MSG_INFO_1
+ - PMSG_INFO_1
  - MSG_INFO_1
 ---
 
@@ -90,3 +92,4 @@ This member must be <b>NULL</b>.
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphConfig.GetFilterFlags
+ - IGraphConfig::GetFilterFlags
 ---
 
 # IGraphConfig::GetFilterFlags
@@ -118,3 +118,4 @@ The filter is not in the graph.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-setfilterflags">IGraphConfig::SetFilterFlags</a>
+

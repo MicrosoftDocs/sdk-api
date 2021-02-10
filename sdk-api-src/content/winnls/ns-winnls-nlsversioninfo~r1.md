@@ -36,6 +36,7 @@ api_location:
  - winnls.h
 api_name:
  - _nlsversioninfo
+ - LPNLSVERSIONINFO
  - NLSVERSIONINFO
 ---
 
@@ -83,3 +84,4 @@ See Remarks for <a href="/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex"
 <a href="/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a>
 
 <a href="/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
+

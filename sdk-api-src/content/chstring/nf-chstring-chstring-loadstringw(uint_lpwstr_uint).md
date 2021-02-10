@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.LoadStringW
+ - CHString::LoadStringW
 ---
 
 # CHString::LoadStringW(UINT,LPWSTR,UINT)
@@ -76,3 +76,4 @@ The maximum number of bytes that can be read into the buffer.
 ## -returns
 
 If the <b>LoadStringW</b> method is successful, the resource string is loaded into the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> object, and the method returns a nonzero value. If the method is unsuccessful, it returns zero.
+

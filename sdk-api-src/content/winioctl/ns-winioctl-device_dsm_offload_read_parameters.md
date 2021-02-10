@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DEVICE_DSM_OFFLOAD_READ_PARAMETERS
+ - PDEVICE_DSM_OFFLOAD_READ_PARAMETERS
  - DEVICE_DSM_OFFLOAD_READ_PARAMETERS
 ---
 
@@ -86,3 +88,4 @@ Set to 0.
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a>
+

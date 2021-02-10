@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.SelLength
- - IInkEdit.get_SelLength
- - IInkEdit.put_SelLength
- - InkEdit.get_SelLength
- - InkEdit.put_SelLength
+ - IInkEdit::put_SelLength
 ---
 
 # IInkEdit::put_SelLength
@@ -72,3 +68,4 @@ You can use this property to determine if any characters are currently selected 
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

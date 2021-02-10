@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMPackage1.GetDocumentType
+ - IXpsOMPackage1::GetDocumentType
 ---
 
 # IXpsOMPackage1::GetDocumentType
@@ -78,3 +78,4 @@ If the <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsom
 
 
 <a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">XPS Documents</a>
+

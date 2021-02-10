@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdo.Apply
+ - ISdo::Apply
 ---
 
 # ISdo::Apply
@@ -79,3 +79,4 @@ To cancel changes made by
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">ISdo::Restore</a>
+

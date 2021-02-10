@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask.BizRuleLanguage
- - IAzTask.get_BizRuleLanguage
- - IAzTask.put_BizRuleLanguage
- - AzTask.BizRuleLanguage
+ - IAzTask::put_BizRuleLanguage
 ---
 
 # IAzTask::put_BizRuleLanguage
@@ -74,3 +71,4 @@ This property must be set before the <a href="/windows/desktop/api/azroles/nf-az
 
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>
+

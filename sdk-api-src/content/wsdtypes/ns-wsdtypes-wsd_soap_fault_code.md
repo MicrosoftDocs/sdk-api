@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_SOAP_FAULT_CODE
  - WSD_SOAP_FAULT_CODE
 ---
 
@@ -67,3 +68,4 @@ A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_subcode">WSD
 ## -see-also
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a>
+

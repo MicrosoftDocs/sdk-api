@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxRoutingMethod.Enable
- - IFaxRoutingMethod.get_Enable
- - IFaxRoutingMethod.put_Enable
+ - IFaxRoutingMethod::put_Enable
 ---
 
 # IFaxRoutingMethod::put_Enable
@@ -82,3 +80,4 @@ If a fax client application passes a value of <b>TRUE</b> to the <b>IFaxRoutingM
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
+

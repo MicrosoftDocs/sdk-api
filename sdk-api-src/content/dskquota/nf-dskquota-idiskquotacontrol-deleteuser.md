@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaControl.DeleteUser
+ - IDiskQuotaControl::DeleteUser
 ---
 
 # IDiskQuotaControl::DeleteUser
@@ -174,3 +174,4 @@ This method does not actually remove the quota entry from the volume. It marks t
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
+

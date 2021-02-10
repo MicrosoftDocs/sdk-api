@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_EasMessage.get_EasMessage
+ - IBDA_EasMessage::get_EasMessage
 ---
 
 # IBDA_EasMessage::get_EasMessage
@@ -73,3 +73,4 @@ This method retrieves a counted reference to an <b>IUnknown</b> interface instan
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_easmessage">IBDA_EasMessage Interface</a>
+

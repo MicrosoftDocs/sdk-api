@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.AddSessionToStore
- - ITsSbResourcePluginStoreEx.AddSessionToStore
+ - ITsSbResourcePluginStore::AddSessionToStore
 ---
 
 # ITsSbResourcePluginStore::AddSessionToStore
@@ -74,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
+

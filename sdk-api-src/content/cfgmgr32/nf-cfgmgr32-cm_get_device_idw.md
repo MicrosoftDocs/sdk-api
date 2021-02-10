@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_IDW
  - cfgmgr32/CM_Get_Device_IDW
+ - CM_Get_Device_ID
+ - cfgmgr32/CM_Get_Device_ID
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +48,8 @@ api_location:
  - API-Ms-Win-Devices-Config-L1-1-1.dll
  - CfgMgr32.dll
 api_name:
- - CM_Get_Device_ID
  - CM_Get_Device_IDW
+ - CM_Get_Device_ID
 ---
 
 # CM_Get_Device_IDW function
@@ -94,3 +96,4 @@ For information about using device instance handles that are bound to the local 
 
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_exw">CM_Get_Device_ID_Ex</a>
+

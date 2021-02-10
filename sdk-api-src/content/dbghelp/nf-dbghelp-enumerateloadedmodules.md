@@ -42,9 +42,6 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - EnumerateLoadedModules64
- - EnumerateLoadedModules64
- - EnumerateLoadedModulesW64
  - EnumerateLoadedModules
 ---
 
@@ -124,3 +121,4 @@ EnumerateLoadedModules(
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-penumloaded_modules_callback">EnumerateLoadedModulesProc64</a>
+

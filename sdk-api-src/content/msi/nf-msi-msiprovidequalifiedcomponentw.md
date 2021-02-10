@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiProvideQualifiedComponentW
  - msi/MsiProvideQualifiedComponentW
+ - MsiProvideQualifiedComponent
+ - msi/MsiProvideQualifiedComponent
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiProvideQualifiedComponent
- - MsiProvideQualifiedComponentA
  - MsiProvideQualifiedComponentW
+ - MsiProvideQualifiedComponent
 ---
 
 # MsiProvideQualifiedComponentW function
@@ -266,3 +267,4 @@ Features with components containing a corrupted file or the wrong version of a f
 
 
 <a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
+

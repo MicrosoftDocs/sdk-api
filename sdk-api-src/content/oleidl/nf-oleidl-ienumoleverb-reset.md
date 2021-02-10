@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IEnumOLEVERB.Reset
+ - IEnumOLEVERB::Reset
 ---
 
 # IEnumOLEVERB::Reset
@@ -65,3 +65,4 @@ There is no guarantee that the same set of objects will be enumerated after the 
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
+

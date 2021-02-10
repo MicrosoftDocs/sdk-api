@@ -9,6 +9,8 @@ tech.root: wmi
 f1_keywords:
  - frquery
  - frquery/frquery
+api_name:
+ - frquery
 ---
 
 # Frquery.h header

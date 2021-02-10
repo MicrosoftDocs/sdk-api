@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shldisp.h
 api_name:
- - IShellFolderViewDual.get_Folder
+ - IShellFolderViewDual::get_Folder
 ---
 
 # IShellFolderViewDual::get_Folder
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual3">IShellFolderViewDual3</a>
+

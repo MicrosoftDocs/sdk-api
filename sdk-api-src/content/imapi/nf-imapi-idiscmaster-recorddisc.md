@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMaster.RecordDisc
+ - IDiscMaster::RecordDisc
 ---
 
 # IDiscMaster::RecordDisc
@@ -85,3 +85,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
+

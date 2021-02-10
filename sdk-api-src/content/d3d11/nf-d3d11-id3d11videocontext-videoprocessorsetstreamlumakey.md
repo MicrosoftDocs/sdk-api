@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamLumaKey
+ - ID3D11VideoContext::VideoProcessorSetStreamLumaKey
 ---
 
 # ID3D11VideoContext::VideoProcessorSetStreamLumaKey
@@ -93,3 +93,4 @@ Note that the value is clamped to the range [0...1] before multiplying by 255.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
+

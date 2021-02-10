@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - debugapi
  - debugapi/debugapi
+api_name:
+ - debugapi
 ---
 
 # Debugapi.h header

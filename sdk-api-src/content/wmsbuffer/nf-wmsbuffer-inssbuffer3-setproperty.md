@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSSBuffer3.SetProperty
+ - INSSBuffer3::SetProperty
 ---
 
 # INSSBuffer3::SetProperty
@@ -113,3 +113,4 @@ If you set a buffer property with a size larger than that specified in your call
 
 
 <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-getproperty">INSSBuffer3::GetProperty</a>
+

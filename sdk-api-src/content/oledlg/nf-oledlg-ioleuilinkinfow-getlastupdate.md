@@ -42,9 +42,7 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkInfo.GetLastUpdate
- - IOleUILinkInfoA.GetLastUpdate
- - IOleUILinkInfow.GetLastUpdate
+ - IOleUILinkInfoW::GetLastUpdate
 ---
 
 # IOleUILinkInfoW::GetLastUpdate
@@ -127,3 +125,4 @@ If the time that the object was last updated is known, copy it to <i>lpLastUpdat
 ## -see-also
 
 <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkinfoa">IOleUILinkInfo</a>
+

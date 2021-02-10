@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _CRYPT_IMAGE_REF
+ - PCRYPT_IMAGE_REF
  - CRYPT_IMAGE_REF
 ---
 
@@ -100,3 +102,4 @@ This flag is not used.
 
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">CRYPT_PROVIDER_REF</a>
+

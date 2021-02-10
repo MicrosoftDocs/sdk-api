@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablets.Item
+ - IInkTablets::Item
 ---
 
 # IInkTablets::Item
@@ -216,3 +216,4 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets Collection</a>
+

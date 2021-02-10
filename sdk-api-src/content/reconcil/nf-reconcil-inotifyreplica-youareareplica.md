@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - INotifyReplica.YouAreAReplica
+ - INotifyReplica::YouAreAReplica
 ---
 
 # INotifyReplica::YouAreAReplica
@@ -77,3 +77,4 @@ Returns <b>S_OK</b> if successful, or <b>E_UNEXPECTED</b> otherwise.
 An object may be notified that it is a replica more than once. Briefcase reconcilers are not required to implement this interface. Initiators are not required to call this interface if it is implemented. However, an object's implementation of <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> may fail if that object has not previously been notified through <b>INotifyReplica::YouAreAReplica</b> that it may be subject to reconciliation.
 
 The briefcase calls the <a href="/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica">INotifyReplica</a> interface when objects are added to it.
+

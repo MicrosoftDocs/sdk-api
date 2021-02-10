@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_PROPCHANGE_PARAMS
+ - PSP_PROPCHANGE_PARAMS
  - SP_PROPCHANGE_PARAMS
 ---
 
@@ -163,3 +165,4 @@ Supplies the hardware profile ID for profile-specific changes. Zero specifies th
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>
+

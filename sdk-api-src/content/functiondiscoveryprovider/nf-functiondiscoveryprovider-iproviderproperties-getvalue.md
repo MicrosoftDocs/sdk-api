@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderProperties.GetValue
+ - IProviderProperties::GetValue
 ---
 
 # IProviderProperties::GetValue
@@ -136,3 +136,4 @@ If a value for <i>Key</i> could not be found, the return value will be <b>S_OK</
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a>
+

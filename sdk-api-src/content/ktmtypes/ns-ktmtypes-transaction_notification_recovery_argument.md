@@ -46,6 +46,8 @@ api_type:
 api_location:
  - KtmTypes.h
 api_name:
+ - _TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+ - PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
  - TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
 ---
 
@@ -81,3 +83,4 @@ The transaction identifier, sometimes called the unit of work.
 
 
 <a href="/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>
+

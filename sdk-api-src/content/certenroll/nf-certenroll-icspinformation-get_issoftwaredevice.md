@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation.IsSoftwareDevice
- - ICspInformation.get_IsSoftwareDevice
+ - ICspInformation::get_IsSoftwareDevice
 ---
 
 # ICspInformation::get_IsSoftwareDevice
@@ -80,3 +79,4 @@ The Microsoft Smart Card Key Storage Provider and the Microsoft Base Smart Card 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+

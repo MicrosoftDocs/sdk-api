@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMDevMemoryAllocator.Alloc
+ - IAMDevMemoryAllocator::Alloc
 ---
 
 # IAMDevMemoryAllocator::Alloc
@@ -83,3 +83,4 @@ Call this method to allocate a block of memory from the available pool.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-free">IAMDevMemoryAllocator::Free</a>
+

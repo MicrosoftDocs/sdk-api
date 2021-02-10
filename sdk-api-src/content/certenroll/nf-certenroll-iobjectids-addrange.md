@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IObjectIds.AddRange
+ - IObjectIds::AddRange
 ---
 
 # IObjectIds::AddRange
@@ -71,3 +71,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a>
+

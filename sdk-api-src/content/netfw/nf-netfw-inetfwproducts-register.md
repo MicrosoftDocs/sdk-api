@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwProducts.Register
+ - INetFwProducts::Register
 ---
 
 # INetFwProducts::Register
@@ -145,3 +145,4 @@ A user mode code module using this API should be linked with the /integritycheck
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>
+

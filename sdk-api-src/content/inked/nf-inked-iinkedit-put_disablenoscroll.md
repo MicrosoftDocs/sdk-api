@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.DisableNoScroll
- - IInkEdit.get_DisableNoScroll
- - IInkEdit.put_DisableNoScroll
- - InkEdit.get_DisableNoScroll
- - InkEdit.put_DisableNoScroll
+ - IInkEdit::put_DisableNoScroll
 ---
 
 # IInkEdit::put_DisableNoScroll
@@ -76,3 +72,4 @@ This property is read-only at run time.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation.ExistingCACertificate
- - ICertSrvSetupKeyInformation.get_ExistingCACertificate
- - ICertSrvSetupKeyInformation.put_ExistingCACertificate
+ - ICertSrvSetupKeyInformation::get_ExistingCACertificate
 ---
 
 # ICertSrvSetupKeyInformation::get_ExistingCACertificate
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
+

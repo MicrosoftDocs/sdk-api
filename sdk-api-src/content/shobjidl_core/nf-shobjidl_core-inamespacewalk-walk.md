@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - INamespaceWalk.Walk
+ - INamespaceWalk::Walk
 ---
 
 # INamespaceWalk::Walk
@@ -231,3 +231,4 @@ If you do not pass the <b>NSWF_SHOW_PROGRESS</b> flag and the object pointed to 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>
+

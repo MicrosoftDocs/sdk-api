@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication3.CreateScope2
+ - IAzApplication3::CreateScope2
 ---
 
 # IAzApplication3::CreateScope2
@@ -69,3 +69,4 @@ When you have finished using this <a href="/windows/desktop/api/azroles/nn-azrol
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

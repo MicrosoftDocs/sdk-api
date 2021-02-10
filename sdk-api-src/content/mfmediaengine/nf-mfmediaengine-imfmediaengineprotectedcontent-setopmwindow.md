@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent.SetOPMWindow
+ - IMFMediaEngineProtectedContent::SetOPMWindow
 ---
 
 # IMFMediaEngineProtectedContent::SetOPMWindow
@@ -69,3 +69,4 @@ In frame-server mode, call this method to specify the destination window for pro
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent">IMFMediaEngineProtectedContent</a>
+

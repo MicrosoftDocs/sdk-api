@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_TEXTURE1D_DESC.CD3D11_TEXTURE1D_DESC
+ - CD3D11_TEXTURE1D_DESC::CD3D11_TEXTURE1D_DESC
 ---
 
 # CD3D11_TEXTURE1D_DESC::CD3D11_TEXTURE1D_DESC
@@ -58,3 +58,4 @@ Instantiates a new instance of an uninitialized <a href="/previous-versions/wind
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151694(v=vs.85)">CD3D11_TEXTURE1D_DESC</a>
+

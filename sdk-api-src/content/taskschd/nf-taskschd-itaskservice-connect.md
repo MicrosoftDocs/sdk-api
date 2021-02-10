@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskService.Connect
+ - ITaskService::Connect
 ---
 
 # ITaskService::Connect
@@ -179,3 +179,4 @@ If you are connecting to a remote Windows XP or Windows Server 2003 computer f
 
 
 <a href="/windows/desktop/TaskSchd/taskservice-highestversion"> ITaskService::HighestVersion</a>
+

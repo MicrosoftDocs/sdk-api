@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4.operator uint16_t
+ - XMUNIBBLE4::operator uint16_t
 ---
 
 # XMUNIBBLE4::operator uint16_t
@@ -104,3 +104,4 @@ The last 4 bits (bits 12-15) of the return value are to the <b>w</b>component of
 
 
 <a href="/windows/desktop/dxmath/ovw-xmunibble4-operators">XMUNIBBLE4 Operators</a>
+

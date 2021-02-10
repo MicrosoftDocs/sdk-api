@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetCharWidth32A
  - wingdi/GetCharWidth32A
+ - GetCharWidth32
+ - wingdi/GetCharWidth32
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetCharWidth32
  - GetCharWidth32A
- - GetCharWidth32W
+ - GetCharWidth32
 ---
 
 # GetCharWidth32A function
@@ -123,3 +124,4 @@ For an example, see "Displaying Keyboard Input" in <a href="/windows/desktop/inp
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidthfloata">GetCharWidthFloat</a>
+

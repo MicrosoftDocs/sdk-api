@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_READER_PROPERTIES
  - WS_XML_READER_PROPERTIES
 ---
 
@@ -65,3 +66,4 @@ An array of properties.  The number of elements in the array is specified
 ### -field propertyCount
 
 The number of elements in the properties array.
+

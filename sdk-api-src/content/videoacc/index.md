@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - videoacc
  - videoacc/videoacc
+api_name:
+ - videoacc
 ---
 
 # Videoacc.h header

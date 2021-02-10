@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.FriendlyName
- - IWdsTransportNamespace.get_FriendlyName
- - IWdsTransportNamespace.put_FriendlyName
+ - IWdsTransportNamespace::put_FriendlyName
 ---
 
 # IWdsTransportNamespace::put_FriendlyName
@@ -68,3 +66,4 @@ This property cannot be set on a namespace that is or has been registered.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
+ - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0011
+ - PDSMCC_SECTION
  - DSMCC_SECTION
 ---
 
@@ -137,3 +139,4 @@ This structure extends the <a href="/previous-versions/windows/desktop/api/mpeg2
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
+

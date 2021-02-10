@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage.SetAttributes
+ - IWMDMStorage::SetAttributes
 ---
 
 # IWMDMStorage::SetAttributes
@@ -142,3 +142,4 @@ Many of the attributes listed for <a href="/windows/desktop/api/mswmdm/nf-mswmdm
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">IWMDMStorage::GetAttributes</a>
+

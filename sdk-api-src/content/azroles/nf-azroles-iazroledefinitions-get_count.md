@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRoleDefinitions.Count
- - IAzRoleDefinitions.get_Count
+ - IAzRoleDefinitions::get_Count
 ---
 
 # IAzRoleDefinitions::get_Count
@@ -56,3 +55,4 @@ The <b>Count</b> property retrieves the number of <a href="/windows/desktop/api/
 This property is read-only.
 
 ## -parameters
+

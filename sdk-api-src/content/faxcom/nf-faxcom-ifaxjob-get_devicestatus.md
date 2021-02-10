@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.DeviceStatus
- - IFaxJob.get_DeviceStatus
+ - IFaxJob::get_DeviceStatus
 ---
 
 # IFaxJob::get_DeviceStatus
@@ -78,3 +77,4 @@ If the job is in the job queue waiting transmission, the fax server has not asso
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
+

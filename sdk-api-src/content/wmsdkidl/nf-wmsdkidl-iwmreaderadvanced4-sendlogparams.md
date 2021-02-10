@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.SendLogParams
+ - IWMReaderAdvanced4::SendLogParams
 ---
 
 # IWMReaderAdvanced4::SendLogParams
@@ -97,3 +97,4 @@ The reader is not streaming content from a remote server.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-addlogparam">IWMReaderAdvanced4::AddLogParam</a>
+

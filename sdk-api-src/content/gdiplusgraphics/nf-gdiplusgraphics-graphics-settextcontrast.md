@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.SetTextContrast
+ - Graphics::SetTextContrast
 ---
 
 # Graphics::SetTextContrast
@@ -68,3 +68,4 @@ Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Stat
 If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+

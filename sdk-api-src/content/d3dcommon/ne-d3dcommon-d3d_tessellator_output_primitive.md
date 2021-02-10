@@ -43,7 +43,7 @@ api_location:
  - D3D11Shader.h
  - d3dcommon.h
 api_name:
- - D3D11_TESSELLATOR_OUTPUT_PRIMITIVE
+ - D3D_TESSELLATOR_OUTPUT_PRIMITIVE
 ---
 
 # D3D_TESSELLATOR_OUTPUT_PRIMITIVE enumeration
@@ -100,3 +100,4 @@ typedef D3D_TESSELLATOR_OUTPUT_PRIMITIVE D3D11_TESSELLATOR_OUTPUT_PRIMITIVE;
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
+

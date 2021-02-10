@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPostView.SetReceivePostViewSamples
+ - IWMWriterPostView::SetReceivePostViewSamples
 ---
 
 # IWMWriterPostView::SetReceivePostViewSamples
@@ -127,3 +127,4 @@ Stream does not support postview.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getreceivepostviewsamples">IWMWriterPostView::GetReceivePostViewSamples</a>
+

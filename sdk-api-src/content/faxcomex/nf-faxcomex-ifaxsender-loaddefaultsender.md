@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSender.LoadDefaultSender
- - IFaxSender.LoadDefaultSender
+ - IFaxSender::LoadDefaultSender
 ---
 
 # IFaxSender::LoadDefaultSender
@@ -78,3 +77,4 @@ This method can return remote procedure call (RPC) return values. For more infor
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Visual Basic Example</a>
+

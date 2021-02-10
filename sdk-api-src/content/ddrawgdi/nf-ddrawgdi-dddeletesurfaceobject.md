@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdDeleteSurfaceObject
- - GdiEntry5
 ---
 
 # DdDeleteSurfaceObject function
@@ -84,3 +83,4 @@ DirectDraw and
 
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

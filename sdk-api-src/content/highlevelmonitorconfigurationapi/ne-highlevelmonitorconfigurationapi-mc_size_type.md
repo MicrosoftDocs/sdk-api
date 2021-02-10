@@ -44,6 +44,7 @@ api_type:
 api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
+ - _MC_SIZE_TYPE
  - MC_SIZE_TYPE
 ---
 
@@ -71,3 +72,4 @@ Height.
 
 
 <a href="/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
+

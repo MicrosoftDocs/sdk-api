@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
+ - _SOCKET_SECURITY_QUERY_INFO
  - SOCKET_SECURITY_QUERY_INFO
 ---
 
@@ -134,3 +135,4 @@ The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is used by the <a href="/window
 
 
 <a href="/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
+

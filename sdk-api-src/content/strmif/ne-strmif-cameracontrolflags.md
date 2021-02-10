@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagCameraControlFlags
  - CameraControlFlags
 ---
 
@@ -103,3 +104,4 @@ In addition, the following flags are defined in Ksmedia.h:
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamcameracontrol">IAMCameraControl Interface</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color.Color
+ - Color::Color
 ---
 
 # Color::Color
@@ -62,3 +62,4 @@ Creates a <b>Color::Color</b> object and initializes it to opaque black. This is
 
 
 <a href="/previous-versions/ms536243(v=vs.85)">Color Constructors</a>
+

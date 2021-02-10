@@ -36,6 +36,7 @@ api_location:
  - clfs.h
 api_name:
  - _CLS_SCAN_CONTEXT
+ - PCLS_SCAN_CONTEXT
  - CLS_SCAN_CONTEXT
 ---
 
@@ -149,3 +150,4 @@ This structure is allocated by the client, initialized using <a href="/windows/d
 
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a>
+

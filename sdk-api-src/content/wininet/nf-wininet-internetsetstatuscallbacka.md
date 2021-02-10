@@ -26,6 +26,8 @@ req.unicode-ansi:
 f1_keywords:
  - InternetSetStatusCallbackA
  - wininet/InternetSetStatusCallbackA
+ - InternetSetStatusCallback
+ - wininet/InternetSetStatusCallback
 dev_langs:
  - c++
 topic_type:
@@ -36,6 +38,7 @@ api_location:
  - Wininet.dll
 api_name:
  - InternetSetStatusCallbackA
+ - InternetSetStatusCallback
 ---
 
 ## -description
@@ -96,3 +99,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

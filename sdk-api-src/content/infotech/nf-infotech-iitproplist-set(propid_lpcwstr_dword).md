@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList.Set
+ - IITPropList::Set
 ---
 
 # IITPropList::Set(PROPID,LPCWSTR,DWORD)
@@ -186,3 +186,4 @@ Use this method to set properties passed as a Unicode string.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
+

@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.InkMode
- - IInkEdit.get_InkMode
- - IInkEdit.put_InkMode
- - InkEdit.get_InkMode
- - InkEdit.put_InkMode
+ - IInkEdit::put_InkMode
 ---
 
 # IInkEdit::put_InkMode
@@ -80,3 +76,4 @@ This property should be changed only if the <a href="/windows/desktop/api/inked/
 
 
 <a href="/windows/desktop/api/inked/ne-inked-inkmode">InkMode Enumeration</a>
+

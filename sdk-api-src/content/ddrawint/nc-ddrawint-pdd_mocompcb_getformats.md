@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdMoCompGetFormats
+ - PDD_MOCOMPCB_GETFORMATS
 ---
 
 ## -description
@@ -66,3 +66,4 @@ DirectDraw drivers that support motion compensation must implement <b>DdMoCompGe
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata">DD_GETMOCOMPFORMATSDATA</a>
+

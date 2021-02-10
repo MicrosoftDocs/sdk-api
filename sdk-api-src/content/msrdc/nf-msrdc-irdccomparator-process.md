@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcComparator.Process
+ - IRdcComparator::Process
 ---
 
 # IRdcComparator::Process
@@ -118,3 +118,4 @@ On successful return, iterate through each <a href="/windows/win32/api/msrdc/ns-
 
 
 <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a>
+

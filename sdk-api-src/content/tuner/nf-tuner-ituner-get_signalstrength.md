@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner.get_SignalStrength
+ - ITuner::get_SignalStrength
 ---
 
 # ITuner::get_SignalStrength
@@ -73,3 +73,4 @@ The value -1 means can't determine, 0 means not tuned, highest value means best 
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
+

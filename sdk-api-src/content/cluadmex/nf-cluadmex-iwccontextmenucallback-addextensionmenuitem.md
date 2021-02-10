@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWCContextMenuCallback.AddExtensionMenuItem
+ - IWCContextMenuCallback::AddExtensionMenuItem
 ---
 
 # IWCContextMenuCallback::AddExtensionMenuItem
@@ -224,3 +224,4 @@ Note that the <b>MF_OWNERDRAW</b> and <b>MF_POPUP</b> flags are not
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
+

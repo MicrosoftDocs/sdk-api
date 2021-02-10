@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusmatrix.h
 api_name:
- - Matrix.TransformVectors
+ - Matrix::TransformVectors
 ---
 
 # Matrix::TransformVectors
@@ -77,3 +77,4 @@ The <a href="/previous-versions/ms535319(v=vs.85)">Matrix::TransformVectors</a> 
 </table>
 
 ## -parameters
+

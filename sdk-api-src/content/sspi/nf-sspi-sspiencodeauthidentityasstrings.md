@@ -43,8 +43,6 @@ api_location:
  - SspiCli.dll
 api_name:
  - SspiEncodeAuthIdentityAsStrings
- - SspiEncodeAuthIdentityAsStringsA
- - SspiEncodeAuthIdentityAsStringsW
 ---
 
 # SspiEncodeAuthIdentityAsStrings function
@@ -102,3 +100,4 @@ The <b>SEC_WINNT_AUTH_IDENTITY_FLAGS_PROCESS_ENCRYPTED</b> flag is set in the id
 </td>
 </tr>
 </table>
+

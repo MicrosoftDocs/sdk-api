@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
+ - __MIDL___MIDL_itf_tapi3_0000_0018_0004
  - MSP_EVENT
 ---
 
@@ -96,3 +97,4 @@ The event buffer is an
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

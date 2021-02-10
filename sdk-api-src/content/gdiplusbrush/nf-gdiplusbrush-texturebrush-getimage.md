@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush.GetImage
+ - TextureBrush::GetImage
 ---
 
 # TextureBrush::GetImage
@@ -76,3 +76,4 @@ This method returns a pointer to the <a href="/windows/desktop/api/gdiplusheader
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a>
+

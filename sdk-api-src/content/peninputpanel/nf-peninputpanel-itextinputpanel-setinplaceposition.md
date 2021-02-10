@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.SetInPlacePosition
+ - ITextInputPanel::SetInPlacePosition
 ---
 
 # ITextInputPanel::SetInPlacePosition
@@ -204,3 +204,4 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility">ITextInputPanel::SetInPlaceVisibility Method</a>
+

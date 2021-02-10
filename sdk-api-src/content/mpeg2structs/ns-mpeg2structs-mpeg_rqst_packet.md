@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
+ - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0014
+ - PMPEG_RQST_PACKET
  - MPEG_RQST_PACKET
 ---
 
@@ -73,3 +75,4 @@ Pointer to a buffer that receives the section data. The pointer is typed as a <a
 
 
 <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_packet_list">MPEG_PACKET_LIST Structure</a>
+

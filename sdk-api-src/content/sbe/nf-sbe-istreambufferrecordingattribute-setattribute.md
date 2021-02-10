@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecordingAttribute.SetAttribute
+ - IStreamBufferRecordingAttribute::SetAttribute
 ---
 
 # IStreamBufferRecordingAttribute::SetAttribute
@@ -91,3 +91,4 @@ The method fails if the recorder object is already recording.
 
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordingattribute">IStreamBufferRecordingAttribute Interface</a>
+

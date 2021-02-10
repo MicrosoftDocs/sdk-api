@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMOpenProgress.QueryProgress
+ - IAMOpenProgress::QueryProgress
 ---
 
 # IAMOpenProgress::QueryProgress
@@ -114,3 +114,4 @@ Unexpected error.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamopenprogress">IAMOpenProgress Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_PSOURCE_ALGORITHM
+ - PCRYPT_PSOURCE_ALGORITHM
  - CRYPT_PSOURCE_ALGORITHM
 ---
 
@@ -87,3 +89,4 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DA
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsaes_oaep_parameters">CRYPT_RSAES_OAEP_PARAMETERS</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo.SetFuncAndParamNames
+ - ICreateTypeInfo::SetFuncAndParamNames
 ---
 
 # ICreateTypeInfo::SetFuncAndParamNames
@@ -156,3 +156,4 @@ This method must be used once for each property. The last parameter for put and 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
+

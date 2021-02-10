@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.GetWriterStatus
+ - IVssBackupComponents::GetWriterStatus
 ---
 
 # IVssBackupComponents::GetWriterStatus
@@ -290,3 +290,4 @@ The VSS_E_WRITERERROR_<i>XXX</i> values returned in the <i>pHrResultFailure</i> 
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatuscount">IVssBackupComponents::GetWriterStatusCount</a>
+

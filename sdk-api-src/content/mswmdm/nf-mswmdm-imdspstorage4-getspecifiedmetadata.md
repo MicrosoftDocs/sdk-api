@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage4.GetSpecifiedMetadata
+ - IMDSPStorage4::GetSpecifiedMetadata
 ---
 
 # IMDSPStorage4::GetSpecifiedMetadata
@@ -91,3 +91,4 @@ If at least one property can be retrieved, the service provider should return th
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
+

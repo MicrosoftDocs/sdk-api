@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetEnvironmentVariableW
  - processenv/SetEnvironmentVariableW
+ - SetEnvironmentVariable
+ - processenv/SetEnvironmentVariable
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - SetEnvironmentVariable
- - SetEnvironmentVariableA
  - SetEnvironmentVariableW
+ - SetEnvironmentVariable
 ---
 
 # SetEnvironmentVariableW function
@@ -107,3 +108,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>
+

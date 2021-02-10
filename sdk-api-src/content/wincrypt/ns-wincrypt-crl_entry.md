@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRL_ENTRY
+ - PCRL_ENTRY
  - CRL_ENTRY
 ---
 
@@ -92,3 +94,4 @@ Array of pointers to
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+

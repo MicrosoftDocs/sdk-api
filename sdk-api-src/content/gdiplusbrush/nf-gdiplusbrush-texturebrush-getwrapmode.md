@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush.GetWrapMode
+ - TextureBrush::GetWrapMode
 ---
 
 # TextureBrush::GetWrapMode
@@ -84,3 +84,4 @@ This method returns the wrap mode currently set for this texture brush. The valu
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a>
+

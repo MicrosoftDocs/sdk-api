@@ -46,6 +46,8 @@ api_type:
 api_location:
  - fileapi.h
 api_name:
+ - _WIN32_FILE_ATTRIBUTE_DATA
+ - LPWIN32_FILE_ATTRIBUTE_DATA
  - WIN32_FILE_ATTRIBUTE_DATA
 ---
 
@@ -128,3 +130,4 @@ Not all file systems can record creation and last access time, and not all file 
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a>
+

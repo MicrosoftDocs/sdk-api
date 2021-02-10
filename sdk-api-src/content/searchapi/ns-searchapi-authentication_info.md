@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - _AUTHENTICATION_INFO
  - AUTHENTICATION_INFO
 ---
 
@@ -79,3 +80,4 @@ Pointer to a null-terminated Unicode string containing the user name.
 Type: <b>LPCWSTR</b>
 
 Pointer to a null-terminated Unicode string containing the password for <b> pcwszUser</b>.
+

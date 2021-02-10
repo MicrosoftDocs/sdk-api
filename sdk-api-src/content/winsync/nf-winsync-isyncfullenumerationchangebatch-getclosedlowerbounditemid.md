@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId
+ - ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
 ---
 
 # ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
@@ -124,3 +124,4 @@ When the destination provider processes this change batch, it must provide versi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch Interface</a>
+

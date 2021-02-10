@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2.GetFiltergraph
+ - ICaptureGraphBuilder2::GetFiltergraph
 ---
 
 # ICaptureGraphBuilder2::GetFiltergraph
@@ -127,3 +127,4 @@ This method increments the reference count on the <b>IGraphBuilder</b> interface
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
+

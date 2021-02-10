@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
+ - PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
  - CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
 ---
 
@@ -89,3 +91,4 @@ No pointers in this table can be <b>NULL</b>. The client application does not fr
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_initialize">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</a>
+

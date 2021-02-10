@@ -47,6 +47,8 @@ api_location:
  - MinWinBase.h
  - WinBase.h
 api_name:
+ - _OVERLAPPED_ENTRY
+ - LPOVERLAPPED_ENTRY
  - OVERLAPPED_ENTRY
 ---
 
@@ -87,3 +89,4 @@ Receives the number of bytes transferred during the I/O operation that has compl
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+

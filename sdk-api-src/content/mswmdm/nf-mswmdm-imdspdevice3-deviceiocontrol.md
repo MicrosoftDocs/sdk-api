@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice3.DeviceIoControl
+ - IMDSPDevice3::DeviceIoControl
 ---
 
 # IMDSPDevice3::DeviceIoControl
@@ -103,3 +103,4 @@ Compared to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-sendopaqu
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>
+

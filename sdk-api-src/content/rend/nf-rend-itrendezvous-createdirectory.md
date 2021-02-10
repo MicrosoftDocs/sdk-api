@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITRendezvous.CreateDirectory
+ - ITRendezvous::CreateDirectory
 ---
 
 # ITRendezvous::CreateDirectory
@@ -152,3 +152,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
+

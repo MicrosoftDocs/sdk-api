@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - shtypes
  - shtypes/shtypes
+api_name:
+ - shtypes
 ---
 
 # Shtypes.h header

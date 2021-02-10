@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.IsOk
+ - WBEMTime::IsOk
 ---
 
 # WBEMTime::IsOk
@@ -72,3 +72,4 @@ The method returns <b>TRUE</b> if the time is valid and <b>FALSE</b> if the time
 
 
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-clear">WBEMTime::Clear</a>
+

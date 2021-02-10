@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IQueueCommand.InvokeAtStreamTime
+ - IQueueCommand::InvokeAtStreamTime
 ---
 
 # IQueueCommand::InvokeAtStreamTime
@@ -142,3 +142,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/api/control/nn-control-iqueuecommand">IQueueCommand Interface</a>
+

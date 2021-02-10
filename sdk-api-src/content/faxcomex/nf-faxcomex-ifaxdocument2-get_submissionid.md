@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument2.SubmissionId
- - IFaxDocument2.get_SubmissionId
- - IFaxDocument2.get_SubmissionId
+ - IFaxDocument2::get_SubmissionId
 ---
 
 # IFaxDocument2::get_SubmissionId
@@ -70,3 +68,4 @@ This property is set whenever a method that submits a fax completes.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument2">IFaxDocument2</a>
+

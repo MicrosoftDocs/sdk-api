@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone.Close
+ - ITPhone::Close
 ---
 
 # ITPhone::Close
@@ -76,3 +76,4 @@ After the phone device has been successfully closed, any
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - _MFVideoSurfaceInfo
  - MFVideoSurfaceInfo
 ---
 
@@ -75,3 +76,4 @@ Array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry">MFPa
 
 
 <a href="/windows/desktop/medfound/media-types">Media Types</a>
+

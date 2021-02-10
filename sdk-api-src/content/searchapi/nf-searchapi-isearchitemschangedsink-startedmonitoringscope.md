@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchItemsChangedSink.StartedMonitoringScope
+ - ISearchItemsChangedSink::StartedMonitoringScope
 ---
 
 # ISearchItemsChangedSink::StartedMonitoringScope
@@ -97,3 +97,4 @@ When a notification agent comes online it calls <a href="/windows/desktop/api/se
 
 
 <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-stoppedmonitoringscope">StoppedMonitoringScope</a>
+

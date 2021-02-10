@@ -42,11 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.DefaultInputArea
- - ITextInputPanel.get_DefaultInputArea
- - ITextInputPanel.put_DefaultInputArea
- - ITextInputPanel.get_DefaultInputArea
- - ITextInputPanel.put_DefaultInputArea
+ - ITextInputPanel::put_DefaultInputArea
 ---
 
 # ITextInputPanel::put_DefaultInputArea
@@ -126,3 +122,4 @@ if (SUCCEEDED(CoInitialize(NULL)))
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
+

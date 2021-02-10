@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_record_tag
+ - PPEER_RECORD
  - PEER_RECORD
 ---
 
@@ -185,3 +187,4 @@ Specifies the actual data that this record contains.
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupupdaterecord">PeerGroupUpdateRecord</a>
+

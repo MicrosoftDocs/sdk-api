@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallUnmarshal.Unmarshal
+ - ICallUnmarshal::Unmarshal
 ---
 
 # ICallUnmarshal::Unmarshal
@@ -122,3 +122,4 @@ An unexpected error has occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
+

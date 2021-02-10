@@ -42,7 +42,7 @@ api_type:
 api_location:
  - structuredquerycondition.h
 api_name:
- - ICondition.GetValueType
+ - ICondition::GetValueType
 ---
 
 # ICondition::GetValueType
@@ -85,3 +85,4 @@ Returns S_OK if successful, E_FAIL if this is not a leaf node, or an error value
 
 
 <b>Reference</b>
+

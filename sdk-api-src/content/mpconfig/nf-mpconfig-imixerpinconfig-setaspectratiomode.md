@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig.SetAspectRatioMode
+ - IMixerPinConfig::SetAspectRatioMode
 ---
 
 # IMixerPinConfig::SetAspectRatioMode
@@ -118,3 +118,4 @@ Currently this function is implemented only on the primary pin of the <a href="/
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getaspectratiomode">IMixerPinConfig::GetAspectRatioMode</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - CLFS_ARCHIVE_DESCRIPTOR
+ - _CLS_ARCHIVE_DESCRIPTOR
+ - PCLS_ARCHIVE_DESCRIPTOR
+ - CLS_ARCHIVE_DESCRIPTOR
 ---
 
 # CLS_ARCHIVE_DESCRIPTOR structure
@@ -77,3 +79,4 @@ The container information structure  that describes the container associated wit
 
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a>
+

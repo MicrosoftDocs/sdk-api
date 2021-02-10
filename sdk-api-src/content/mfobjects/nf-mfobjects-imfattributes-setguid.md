@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAttributes.SetGUID
+ - IMFAttributes::SetGUID
 ---
 
 # IMFAttributes::SetGUID
@@ -114,3 +114,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - prnasnot.dll
 api_name:
- - IPrintAsyncNotifyDataObject.ReleaseData
+ - IPrintAsyncNotifyDataObject::ReleaseData
 ---
 
 # IPrintAsyncNotifyDataObject::ReleaseData
@@ -77,3 +77,4 @@ The <a href="/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifydataobje
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
+

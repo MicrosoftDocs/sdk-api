@@ -42,9 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia.isMemberOf
- - IWMPMedia2.isMemberOf
- - IWMPMedia3.isMemberOf
+ - IWMPMedia::isMemberOf
 ---
 
 # IWMPMedia::isMemberOf
@@ -107,3 +105,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
+

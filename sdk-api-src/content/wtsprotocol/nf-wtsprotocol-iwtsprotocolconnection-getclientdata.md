@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetClientData
+ - IWTSProtocolConnection::GetClientData
 ---
 
 # IWTSProtocolConnection::GetClientData
@@ -65,3 +65,4 @@ A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_client_data"
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

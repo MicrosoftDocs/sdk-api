@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged
+ - IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
 ---
 
 # IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
@@ -188,3 +188,4 @@ By default, a call made in a callback method to any other animation method resul
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
+

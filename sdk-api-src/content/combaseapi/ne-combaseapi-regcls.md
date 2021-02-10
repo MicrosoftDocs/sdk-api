@@ -44,6 +44,7 @@ api_type:
 api_location:
  - combaseapi.h
 api_name:
+ - tagREGCLS
  - REGCLS
 ---
 
@@ -155,3 +156,4 @@ The following table summarizes the allowable <b>REGCLS</b> value combinations an
 
 
 <a href="/windows/desktop/com/dllsurrogate">DllSurrogate</a>
+

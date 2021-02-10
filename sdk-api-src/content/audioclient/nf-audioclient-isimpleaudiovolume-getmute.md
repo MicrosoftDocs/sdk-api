@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - ISimpleAudioVolume.GetMute
+ - ISimpleAudioVolume::GetMute
 ---
 
 # ISimpleAudioVolume::GetMute
@@ -113,3 +113,4 @@ The Windows audio service is not running.
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a>
+

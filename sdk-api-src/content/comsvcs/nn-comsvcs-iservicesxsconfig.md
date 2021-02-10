@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceSxSConfig
+ - IServiceSxsConfig
 ---
 
 # IServiceSxsConfig interface
@@ -66,3 +66,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSxSConfig</b> interfa
 
 
 <a href="/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal">Isolated Applications and Side-by-side Assemblies</a>
+

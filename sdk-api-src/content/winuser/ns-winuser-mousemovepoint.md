@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagMOUSEMOVEPOINT
+ - PMOUSEMOVEPOINT
  - MOUSEMOVEPOINT
 ---
 
@@ -97,3 +99,4 @@ Additional information associated with this coordinate.
 
 
 <b>Reference</b>
+

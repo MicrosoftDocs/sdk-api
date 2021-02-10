@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tiptsf.dll
 api_name:
- - ITfCandidateString.GetIndex
+ - ITfCandidateString::GetIndex
 ---
 
 # ITfCandidateString::GetIndex
@@ -97,3 +97,4 @@ The method was successful.
 
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a>
+

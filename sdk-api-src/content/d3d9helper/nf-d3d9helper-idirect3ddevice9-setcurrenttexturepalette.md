@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetCurrentTexturePalette
+ - IDirect3DDevice9::SetCurrentTexturePalette
 ---
 
 # IDirect3DDevice9::SetCurrentTexturePalette
@@ -82,3 +82,4 @@ A single logical palette is associated with the device, and is shared by all tex
 
 
 <a href="/windows/desktop/direct3d9/texture-palettes">Texture Palettes (Direct3D 9)</a>
+

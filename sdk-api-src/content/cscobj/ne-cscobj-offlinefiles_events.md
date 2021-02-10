@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_EVENTS
  - OFFLINEFILES_EVENTS
 ---
 
@@ -223,3 +224,4 @@ Represents the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a>
+

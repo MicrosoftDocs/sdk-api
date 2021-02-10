@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.GetBlendCount
+ - LinearGradientBrush::GetBlendCount
 ---
 
 # LinearGradientBrush::GetBlendCount
@@ -90,3 +90,4 @@ This method returns the number of blend factors currently set for this
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+

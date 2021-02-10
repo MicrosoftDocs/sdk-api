@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.Clone
+ - ITfRange::Clone
 ---
 
 # ITfRange::Clone
@@ -108,3 +108,4 @@ The gravity of the original is preserved in the new range.
 
 
 <a href="/windows/desktop/TSF/text-stores">Text Stores</a>
+

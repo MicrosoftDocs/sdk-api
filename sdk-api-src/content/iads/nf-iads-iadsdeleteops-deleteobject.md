@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsDeleteOps.DeleteObject
+ - IADsDeleteOps::DeleteObject
 ---
 
 # IADsDeleteOps::DeleteObject
@@ -85,3 +85,4 @@ This method supports standard return values, including S_OK for a successful ope
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-deletedsobject">IDirectoryObject::DeleteDSObject</a>
+

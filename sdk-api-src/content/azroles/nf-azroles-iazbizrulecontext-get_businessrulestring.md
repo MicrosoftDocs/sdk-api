@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzBizRuleContext.BusinessRuleString
- - IAzBizRuleContext.get_BusinessRuleString
- - IAzBizRuleContext.put_BusinessRuleString
- - AzBizRuleContext.BusinessRuleString
+ - IAzBizRuleContext::get_BusinessRuleString
 ---
 
 # IAzBizRuleContext::get_BusinessRuleString
@@ -64,3 +61,4 @@ This property is read/write.
 This property is returned to the application that called the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method. One possible use of this property is to explain the reason that the BizRule denied access to the user.
 
 The maximum length of this property is 65,536 characters.
+

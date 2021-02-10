@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIDevice.QueryResourceResidency
+ - IDXGIDevice::QueryResourceResidency
 ---
 
 # IDXGIDevice::QueryResourceResidency
@@ -100,3 +100,4 @@ If you call the <b>QueryResourceResidency</b> method during a device removed sta
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>
+

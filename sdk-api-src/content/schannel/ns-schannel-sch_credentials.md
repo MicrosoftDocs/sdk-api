@@ -29,6 +29,7 @@ api_location:
  - schannel.h
 api_name:
  - _SCH_CREDENTIALS
+ - PSCH_CREDENTIALS
  - SCH_CREDENTIALS
 f1_keywords:
  - _SCH_CREDENTIALS
@@ -351,3 +352,4 @@ To use the SCH_CREDENTIALS structure, define SCHANNEL_USE_BLACKLISTS along with 
 [CRYPTO_SETTINGS](ns-schannel-crypto_settings.md)
 
 [TLS_PARAMETERS](ns-schannel-tls_parameters.md)
+

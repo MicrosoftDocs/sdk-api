@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST
+ - PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST
  - KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST
 ---
 
@@ -71,3 +73,4 @@ Reserved.
 ### -field DomainName
 
 The 	name of the domain that you are querying for the extended policies.
+

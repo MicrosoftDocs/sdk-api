@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPRenderConfig.put_inProcOnly
+ - IWMPRenderConfig::put_inProcOnly
 ---
 
 # IWMPRenderConfig::put_inProcOnly
@@ -95,3 +95,4 @@ Note that DirectShow graphs in Windows Media Player always run in the main proce
 ## -see-also
 
 <a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmprenderconfig">IWMPRenderConfig Interface</a>
+

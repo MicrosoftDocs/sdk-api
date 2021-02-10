@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask.SetWorkingDirectory
+ - ITask::SetWorkingDirectory
 ---
 
 # ITask::SetWorkingDirectory
@@ -128,3 +128,4 @@ For an example of how to set the working directory of a task, see <a href="/wind
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+

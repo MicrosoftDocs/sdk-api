@@ -9,6 +9,8 @@ tech.root: appxpkg
 f1_keywords:
  - appmodel
  - appmodel/appmodel
+api_name:
+ - appmodel
 ---
 
 # Appmodel.h header

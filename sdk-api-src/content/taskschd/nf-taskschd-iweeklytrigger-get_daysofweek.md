@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IWeeklyTrigger.DaysOfWeek
- - IWeeklyTrigger.get_DaysOfWeek
- - IWeeklyTrigger.put_DaysOfWeek
+ - IWeeklyTrigger::get_DaysOfWeek
 ---
 
 # IWeeklyTrigger::get_DaysOfWeek
@@ -115,3 +113,4 @@ When reading or writing your own XML for a task, the days of the week are specif
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

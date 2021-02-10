@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - GetGlobalInfo
+ - PGET_GLOBAL_INFO
 ---
 
 # PGET_GLOBAL_INFO callback function
@@ -143,3 +143,4 @@ The <i>GlobalInfoSize</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pset_interface_info">SetInterfaceInfo</a>
+

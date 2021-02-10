@@ -44,7 +44,8 @@ api_type:
 api_location:
  - wmsdkidl.h
 api_name:
- - DRM_VIDEO_OUTPUT_PROTECTION
+ - __tagDRM_OUTPUT_PROTECTION
+ - DRM_OUTPUT_PROTECTION
 ---
 
 # DRM_OUTPUT_PROTECTION structure
@@ -75,3 +76,4 @@ The <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_vid
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

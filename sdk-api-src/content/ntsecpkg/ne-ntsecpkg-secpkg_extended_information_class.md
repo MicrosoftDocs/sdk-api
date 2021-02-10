@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_EXTENDED_INFORMATION_CLASS
  - SECPKG_EXTENDED_INFORMATION_CLASS
 ---
 
@@ -91,3 +92,4 @@ The end value for the enumeration. This value is not a valid parameter value.
 Identifies the SPNego information for the security package.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This constant is not available.
+

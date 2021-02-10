@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDeviceDebug.EnableDebugCounters
+ - IDCompositionDeviceDebug::EnableDebugCounters
 ---
 
 # IDCompositionDeviceDebug::EnableDebugCounters
@@ -82,3 +82,4 @@ The DirectComposition composition engine operates on the entire desktop all at o
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisualdebug">IDCompositionVisualDebug</a>
+

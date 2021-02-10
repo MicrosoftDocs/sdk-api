@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - TRANSFER_SOURCE_FLAGS
+ - _TRANSFER_SOURCE_FLAGS
 ---
 
 # _TRANSFER_SOURCE_FLAGS enumeration
@@ -137,3 +137,4 @@ Suspend Shell events.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-renameitem">ITransferSource::RenameItem</a>
+

@@ -42,16 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget.IpAddresses
- - ITsSbTarget.get_IpAddresses
- - ITsSbTarget.put_IpAddresses
- - ITsSbTargetEx.IpAddresses
- - ITsSbTargetEx.get_IpAddresses
- - ITsSbTargetEx.put_IpAddresses
- - TargetExternalIpAddresses
- - ITsSbTarget.TargetExternalIpAddresses
- - ITsSbTarget::get_TargetExternalIpAddresses
- - ITsSbTarget::put_TargetExternalIpAddresses
+ - ITsSbTarget::put_IpAddresses
 ---
 
 # ITsSbTarget::put_IpAddresses
@@ -82,3 +73,4 @@ If the number of external IP addresses is unknown, you can call this method with
 
 
 <a href="/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint">TSSD_ConnectionPoint</a>
+

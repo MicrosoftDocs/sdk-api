@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
+ - tag_SCRIPT_DIGITSUBSTITUTE
  - SCRIPT_DIGITSUBSTITUTE
 ---
 
@@ -134,3 +135,4 @@ Reserved; initialize to 0.
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

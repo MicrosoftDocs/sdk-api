@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetCharABCWidthsI
  - wingdi/GetCharABCWidthsI
+ - GetCharABCWidths
+ - wingdi/GetCharABCWidths
 dev_langs:
  - c++
 topic_type:
@@ -45,6 +47,7 @@ api_location:
  - GDI32Full.dll
 api_name:
  - GetCharABCWidthsI
+ - GetCharABCWidths
 ---
 
 # GetCharABCWidthsI function
@@ -117,3 +120,4 @@ To retrieve the widths of glyph indices in non-TrueType fonts, applications shou
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a>
+

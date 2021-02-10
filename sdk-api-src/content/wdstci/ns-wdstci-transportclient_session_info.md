@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wdstci.h
 api_name:
+ - _TRANSPORTCLIENT_SESSION_INFO
+ - PTRANSPORTCLIENT_SESSION_INFO
  - TRANSPORTCLIENT_SESSION_INFO
 ---
 
@@ -69,3 +71,4 @@ The size of the file, in bytes.
 ### -field ulBlockSize
 
 The size of a receive block, in bytes.
+

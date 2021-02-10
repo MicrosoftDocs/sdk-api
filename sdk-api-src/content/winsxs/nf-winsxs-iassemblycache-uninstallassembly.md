@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sxs.dll
 api_name:
- - IAssemblyCache.UninstallAssembly
+ - IAssemblyCache::UninstallAssembly
 ---
 
 # IAssemblyCache::UninstallAssembly
@@ -181,3 +181,4 @@ The operation succeeded and the reference to the assembly was removed. The assem
 ## -see-also
 
 <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
+

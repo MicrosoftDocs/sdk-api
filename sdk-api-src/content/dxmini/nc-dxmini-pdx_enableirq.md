@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - DxEnableIRQ
+ - PDX_ENABLEIRQ
 ---
 
 ## -description
@@ -84,3 +84,4 @@ Because the video miniport driver must always manage its own IRQ, it must call t
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>
+

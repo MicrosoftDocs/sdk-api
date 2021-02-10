@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICDevelopRawNotificationCallback.Notify
+ - IWICDevelopRawNotificationCallback::Notify
 ---
 
 # IWICDevelopRawNotificationCallback::Notify
@@ -66,3 +66,4 @@ A set of <a href="/windows/desktop/wic/-wic-codec-iwicdeveloprawnotification-con
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetGroupColumn
+ - ISearchFolderItemFactory::SetGroupColumn
 ---
 
 # ISearchFolderItemFactory::SetGroupColumn
@@ -65,3 +65,4 @@ A reference to a group column <a href="/windows/desktop/api/wtypes/ns-wtypes-pro
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
+

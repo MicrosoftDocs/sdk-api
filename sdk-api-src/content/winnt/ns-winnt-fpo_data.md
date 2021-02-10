@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _FPO_DATA
+ - PFPO_DATA
  - FPO_DATA
 ---
 
@@ -160,3 +162,4 @@ TSS frame
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupOpenAppendInfFileA
  - setupapi/SetupOpenAppendInfFileA
+ - SetupOpenAppendInfFile
+ - setupapi/SetupOpenAppendInfFile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupOpenAppendInfFile
  - SetupOpenAppendInfFileA
- - SetupOpenAppendInfFileW
+ - SetupOpenAppendInfFile
 ---
 
 # SetupOpenAppendInfFileA function
@@ -112,3 +113,4 @@ The ERROR_WRONG_INF_STYLE may also be returned by <b>SetupOpenAppendInfFile</b> 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupopeninffilea">SetupOpenInfFile</a>
+

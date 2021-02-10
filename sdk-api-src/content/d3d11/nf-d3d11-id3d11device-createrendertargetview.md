@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device.CreateRenderTargetView
+ - ID3D11Device::CreateRenderTargetView
 ---
 
 # ID3D11Device::CreateRenderTargetView
@@ -92,3 +92,4 @@ The runtime read+write conflict prevention logic (which stops a resource from be
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
+

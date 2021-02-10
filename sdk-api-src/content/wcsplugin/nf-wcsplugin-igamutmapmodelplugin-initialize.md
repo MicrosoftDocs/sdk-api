@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
- - IGamutMapModelPlugIn.Initialize
+ - IGamutMapModelPlugIn::Initialize
 ---
 
 # IGamutMapModelPlugIn::Initialize
@@ -87,3 +87,4 @@ If this function fails, the return value is E_FAIL.
 
 
 <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-igamutmapmodelplugin">IGamutMapModelPlugIn</a>
+

@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - ENUMLOGFONTEXDV
+ - tagENUMLOGFONTEXDVA
+ - PENUMLOGFONTEXDVA
  - ENUMLOGFONTEXDVA
- - ENUMLOGFONTEXDVW
 ---
 
 # ENUMLOGFONTEXDVA structure
@@ -112,3 +112,4 @@ The <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>, <a
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+

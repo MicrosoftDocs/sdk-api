@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDeviceControl.GetCapabilities
+ - IWMDMDeviceControl::GetCapabilities
 ---
 
 # IWMDMDeviceControl::GetCapabilities
@@ -217,3 +217,4 @@ if (pDeviceControl != NULL)
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
+

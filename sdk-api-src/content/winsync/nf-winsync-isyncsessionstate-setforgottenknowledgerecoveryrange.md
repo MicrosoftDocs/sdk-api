@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncSessionState.SetForgottenKnowledgeRecoveryRange
+ - ISyncSessionState::SetForgottenKnowledgeRecoveryRange
 ---
 
 # ISyncSessionState::SetForgottenKnowledgeRecoveryRange
@@ -113,3 +113,4 @@ An item ID in <i>pRange</i> is not in the format that is specified by the ID for
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIBuffer.GetResource
+ - IMFDXGIBuffer::GetResource
 ---
 
 # IMFDXGIBuffer::GetResource
@@ -113,3 +113,4 @@ You can use this method to get a pointer to the <a href="/windows/desktop/api/d3
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
+

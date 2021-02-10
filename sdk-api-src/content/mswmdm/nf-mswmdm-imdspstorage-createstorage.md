@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage.CreateStorage
+ - IMDSPStorage::CreateStorage
 ---
 
 # IMDSPStorage::CreateStorage
@@ -214,3 +214,4 @@ WMDM_STORAGECONTROL_INSERTINTO is valid only if the current storage is a folder.
 
 
 <a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>
+

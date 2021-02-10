@@ -47,6 +47,8 @@ api_location:
  - Udpmib.h
  - Iprtrmib.h
 api_name:
+ - _MIB_UDPSTATS
+ - PMIB_UDPSTATS
  - MIB_UDPSTATS
 ---
 
@@ -98,3 +100,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udprow">MIB_UDPROW</a>
+

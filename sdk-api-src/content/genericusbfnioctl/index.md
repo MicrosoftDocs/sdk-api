@@ -9,6 +9,8 @@ tech.root: buses
 f1_keywords:
  - genericusbfnioctl
  - genericusbfnioctl/genericusbfnioctl
+api_name:
+ - genericusbfnioctl
 ---
 
 # Genericusbfnioctl.h header

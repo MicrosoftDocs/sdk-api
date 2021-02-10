@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex
+ - IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex
 ---
 
 # IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex
@@ -102,3 +102,4 @@ The index was out of range.
 
 
 <a href="/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>
+

@@ -47,6 +47,8 @@ api_location:
  - ClusAPI.h
  - MsClus.h
 api_name:
+ - _SR_RESOURCE_TYPE_DISK_INFO
+ - PSR_RESOURCE_TYPE_DISK_INFO
  - SR_RESOURCE_TYPE_DISK_INFO
 ---
 
@@ -69,3 +71,4 @@ The cluster resource identifier of the disk.
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 <a href="/windows/win32/api/clusapi/ns-clusapi-sr_resource_type_eligible_disks_result">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
+

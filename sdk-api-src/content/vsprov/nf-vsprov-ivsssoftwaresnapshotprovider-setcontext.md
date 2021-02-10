@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.SetContext
+ - IVssSoftwareSnapshotProvider::SetContext
 ---
 
 # IVssSoftwareSnapshotProvider::SetContext
@@ -147,3 +147,4 @@ For a complete discussion of the permitted shadow copy contexts, see
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertGetConfig.GetConfig
+ - ICertGetConfig::GetConfig
 ---
 
 # ICertGetConfig::GetConfig
@@ -237,3 +237,4 @@ The CA name portion of the configuration string returned by this method is the o
 
 
 <a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView2::OpenConnection</a>
+

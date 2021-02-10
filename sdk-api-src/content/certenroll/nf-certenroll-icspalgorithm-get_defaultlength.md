@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithm.DefaultLength
- - ICspAlgorithm.get_DefaultLength
+ - ICspAlgorithm::get_DefaultLength
 ---
 
 # ICspAlgorithm::get_DefaultLength
@@ -226,3 +225,4 @@ Increment: 8
 
 
 <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_incrementlength">IncrementLength</a>
+

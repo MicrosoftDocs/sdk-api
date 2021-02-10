@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msutb.dll
 api_name:
- - ITfLangBarEventSink.OnThreadItemChange
+ - ITfLangBarEventSink::OnThreadItemChange
 ---
 
 # ITfLangBarEventSink::OnThreadItemChange
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbareventsink">ITfLangBarEventSink</a>
+

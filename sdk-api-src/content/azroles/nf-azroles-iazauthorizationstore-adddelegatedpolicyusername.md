@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - AzAuthorizationStore.AddDelegatedPolicyUserName
- - IAzAuthorizationStore.AddDelegatedPolicyUserName
+ - IAzAuthorizationStore::AddDelegatedPolicyUserName
 ---
 
 # IAzAuthorizationStore::AddDelegatedPolicyUserName
@@ -83,3 +82,4 @@ Delegated policy users are principals that are allowed to read the subset of the
 To view the list of delegated policy users in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_delegatedpolicyusersname">DelegatedPolicyUsersName</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
+

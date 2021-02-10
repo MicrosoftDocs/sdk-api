@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.SetSelectedForRestore
+ - IVssBackupComponents::SetSelectedForRestore
 ---
 
 # IVssBackupComponents::SetSelectedForRestore
@@ -221,3 +221,4 @@ This method must be called before
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
+

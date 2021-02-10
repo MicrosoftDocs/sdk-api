@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.put_Name
+ - ITPluggableTerminalSuperclassRegistration::put_Name
 ---
 
 # ITPluggableTerminalSuperclassRegistration::put_Name
@@ -99,3 +99,4 @@ The <i>bstrName</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_name">get_Name</a>
+

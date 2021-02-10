@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorManager.SetEventSink
+ - ISensorManager::SetEventSink
 ---
 
 # ISensorManager::SetEventSink
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
+

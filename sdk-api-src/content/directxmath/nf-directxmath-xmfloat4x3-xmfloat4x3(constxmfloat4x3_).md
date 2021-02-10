@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT4X3.XMFLOAT4X3
+ - XMFLOAT4X3::XMFLOAT4X3
 ---
 
 # XMFLOAT4X3::XMFLOAT4X3(const XMFLOAT4X3 &)
@@ -79,3 +79,4 @@ TBD
 
 
 <a href="/windows/desktop/dxmath/xmfloat4x3-ctor">XMFLOAT4X3 Constructors</a>
+

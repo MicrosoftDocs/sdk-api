@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetAllSPRMs
+ - IDvdInfo2::GetAllSPRMs
 ---
 
 # IDvdInfo2::GetAllSPRMs
@@ -202,3 +202,4 @@ The 24 SPRMs are used to hold information on current language, subpicture, and o
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+

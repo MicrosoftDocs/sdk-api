@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2SourceVoice.FlushSourceBuffers
+ - IXAudio2SourceVoice::FlushSourceBuffers
 ---
 
 # IXAudio2SourceVoice::FlushSourceBuffers
@@ -94,3 +94,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 ## -see-also
 
 <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>
+

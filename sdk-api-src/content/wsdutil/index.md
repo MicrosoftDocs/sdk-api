@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - wsdutil
  - wsdutil/wsdutil
+api_name:
+ - wsdutil
 ---
 
 # Wsdutil.h header

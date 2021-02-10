@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext.UserUpn
- - IAzClientContext.get_UserUpn
- - AzClientContext.UserUpn
+ - IAzClientContext::get_UserUpn
 ---
 
 # IAzClientContext::get_UserUpn
@@ -63,3 +61,4 @@ This property is read-only.
 The UPN client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameUserPrincipal</b> specified for the <i>NameFormat</i> parameter. 
 
 An example of a  client name in UPN format is "someone@example.com".
+

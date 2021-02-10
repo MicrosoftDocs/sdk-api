@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtension.Status
- - IFaxInboundRoutingExtension.get_Status
- - IFaxInboundRoutingExtension.get_Status
+ - IFaxInboundRoutingExtension::get_Status
 ---
 
 # IFaxInboundRoutingExtension::get_Status
@@ -73,3 +71,4 @@ If the extension did not load successfully, the property indicates the reason fo
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
+

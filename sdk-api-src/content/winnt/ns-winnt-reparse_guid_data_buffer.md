@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _REPARSE_GUID_DATA_BUFFER
+ - PREPARSE_GUID_DATA_BUFFER
  - REPARSE_GUID_DATA_BUFFER
 ---
 
@@ -103,3 +105,4 @@ The <b>REPARSE_GUID_DATA_BUFFER</b> structure is
 
 
 <a href="/windows/desktop/FileIO/reparse-points">Reparse Points</a>
+

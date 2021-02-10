@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration.CAConfig
- - IOCSPCAConfiguration.get_CAConfig
- - IOCSPCAConfiguration.put_CAConfig
+ - IOCSPCAConfiguration::get_CAConfig
 ---
 
 # IOCSPCAConfiguration::get_CAConfig
@@ -65,3 +63,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
+

@@ -9,6 +9,8 @@ tech.root: eaphost
 f1_keywords:
  - eapmethodpeerapis
  - eapmethodpeerapis/eapmethodpeerapis
+api_name:
+ - eapmethodpeerapis
 ---
 
 # Eapmethodpeerapis.h header

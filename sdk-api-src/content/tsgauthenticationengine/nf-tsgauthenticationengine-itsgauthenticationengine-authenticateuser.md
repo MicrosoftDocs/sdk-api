@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticationEngine.AuthenticateUser
+ - ITSGAuthenticationEngine::AuthenticateUser
 ---
 
 # ITSGAuthenticationEngine::AuthenticateUser
@@ -100,3 +100,4 @@ For a sample that uses the <b>AuthenticateUser</b> method, see the [Remote Deskt
 ## -see-also
 
 <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticationengine">ITSGAuthenticationEngine</a>
+

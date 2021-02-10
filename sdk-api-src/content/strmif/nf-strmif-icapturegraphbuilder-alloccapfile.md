@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - ICaptureGraphBuilder.AllocCapFile
+ - ICaptureGraphBuilder::AllocCapFile
 ---
 
 # ICaptureGraphBuilder::AllocCapFile
@@ -79,3 +79,4 @@ The call will fail if the file is read-only. For best capture results, always ca
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
+

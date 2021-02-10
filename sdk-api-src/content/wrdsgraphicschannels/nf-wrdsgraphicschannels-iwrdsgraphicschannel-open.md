@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannel.Open
+ - IWRdsGraphicsChannel::Open
 ---
 
 # IWRdsGraphicsChannel::Open
@@ -79,3 +79,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-onchannelopened">IWRdsGraphicsChannelEvents::OnChannelOpened</a>
+

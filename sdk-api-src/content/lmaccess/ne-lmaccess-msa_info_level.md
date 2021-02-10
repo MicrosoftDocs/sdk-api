@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _MSA_INFO_LEVEL
+ - PMSA_INFO_LEVEL
  - MSA_INFO_LEVEL
 ---
 

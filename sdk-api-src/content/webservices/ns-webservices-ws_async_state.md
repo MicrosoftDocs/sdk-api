@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_ASYNC_STATE
  - WS_ASYNC_STATE
 ---
 
@@ -75,3 +76,4 @@ This field is internal and should not be modified.
 ### -field internal4
 
 This field is internal and should not be modified.
+

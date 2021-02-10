@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
+ - IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate
 ---
 
 # IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate
@@ -134,3 +134,4 @@ The <b>InitializeFromInnerRequestTemplate</b> method:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc2">IX509CertificateRequestCmc2</a>
+

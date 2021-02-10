@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation.SetSecurity
+ - ISecurityInformation::SetSecurity
 ---
 
 # ISecurityInformation::SetSecurity
@@ -141,3 +141,4 @@ To build a complete security descriptor for the object, the application must mer
 
 
 <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
+

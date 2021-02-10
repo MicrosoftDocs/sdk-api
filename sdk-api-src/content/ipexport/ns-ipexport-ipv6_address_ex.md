@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
+ - _IPV6_ADDRESS_EX
+ - PIPV6_ADDRESS_EX
  - IPV6_ADDRESS_EX
 ---
 
@@ -129,3 +131,4 @@ This structure is defined in the Ipexport.h header file which is automatically i
 
 
 <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpclosehandle">IcmpCloseHandle</a>
+

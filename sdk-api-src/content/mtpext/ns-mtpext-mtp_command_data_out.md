@@ -46,6 +46,8 @@ api_type:
 api_location:
  - MtpExt.h
 api_name:
+ - _MTP_COMMAND_DATA_OUT
+ - PMTP_COMMAND_DATA_OUT
  - MTP_COMMAND_DATA_OUT
 ---
 
@@ -103,3 +105,4 @@ It is assumed that all commands are self-contained, that is, they can be process
 
 
 <a href="/windows/desktop/WMDM/structures">Structures</a>
+

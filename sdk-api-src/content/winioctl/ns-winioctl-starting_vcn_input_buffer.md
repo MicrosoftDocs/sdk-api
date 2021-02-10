@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PSTARTING_VCN_INPUT_BUFFER
  - STARTING_VCN_INPUT_BUFFER
 ---
 
@@ -68,3 +69,4 @@ the operation will begin enumerating extents in the file. This value may be roun
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a>
+

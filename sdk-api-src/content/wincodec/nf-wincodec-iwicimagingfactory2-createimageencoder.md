@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImagingFactory2.CreateImageEncoder
+ - IWICImagingFactory2::CreateImageEncoder
 ---
 
 # IWICImagingFactory2::CreateImageEncoder
@@ -77,3 +77,4 @@ You are responsible for setting up the bitmap encoder itself through the existin
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory2">IWICImagingFactory2</a>
+

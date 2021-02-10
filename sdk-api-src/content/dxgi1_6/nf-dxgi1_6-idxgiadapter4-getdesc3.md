@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIAdapter4.GetDesc3
+ - IDXGIAdapter4::GetDesc3
 ---
 
 # IDXGIAdapter4::GetDesc3
@@ -74,3 +74,4 @@ A DMA buffer is the largest independent unit of graphics work that the WDDM sche
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgiadapter4">IDXGIAdapter4</a>
+

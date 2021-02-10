@@ -9,6 +9,8 @@ tech.root: tablet
 f1_keywords:
  - peninputpanel
  - peninputpanel/peninputpanel
+api_name:
+ - peninputpanel
 ---
 
 # Peninputpanel.h header

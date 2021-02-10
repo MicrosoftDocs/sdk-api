@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - ITuneRequestInfo.GetPreviousLocator
+ - ITuneRequestInfo::GetPreviousLocator
 ---
 
 # ITuneRequestInfo::GetPreviousLocator
@@ -106,3 +106,4 @@ Currently this method is not implemented for DVB-C or DVB-S networks, and the me
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
+

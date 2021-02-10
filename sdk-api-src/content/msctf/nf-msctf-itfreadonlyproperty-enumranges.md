@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfReadOnlyProperty.EnumRanges
+ - ITfReadOnlyProperty::EnumRanges
 ---
 
 # ITfReadOnlyProperty::EnumRanges
@@ -229,3 +229,4 @@ The enumerated ranges will begin and end with the start and end anchors of <i>pT
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>
+

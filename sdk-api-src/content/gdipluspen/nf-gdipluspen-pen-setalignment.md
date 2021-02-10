@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.SetAlignment
+ - Pen::SetAlignment
 ---
 
 # Pen::SetAlignment
@@ -123,3 +123,4 @@ VOID Example_SetAlignment(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>
+

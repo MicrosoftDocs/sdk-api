@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcBindingInqAuthInfo
- - RpcBindingInqAuthInfoA
- - RpcBindingInqAuthInfoW
 ---
 
 # RpcBindingInqAuthInfo function
@@ -189,3 +187,4 @@ The RPC run-time library allocates memory for the returned <i>ServerPrincName</i
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msutb.dll
 api_name:
- - ITfLangBarEventSink.ShowFloating
+ - ITfLangBarEventSink::ShowFloating
 ---
 
 # ITfLangBarEventSink::ShowFloating
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <a href="/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
       </a>
+

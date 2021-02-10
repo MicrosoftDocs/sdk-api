@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDSignatureProperty.IsMessageSigned
+ - IWSDSignatureProperty::IsMessageSigned
 ---
 
 # IWSDSignatureProperty::IsMessageSigned
@@ -83,3 +83,4 @@ Method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DnsRecordFlags
  - DNS_RECORD_FLAGS
 ---
 
@@ -82,3 +83,4 @@ Reserved. Do not use.
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

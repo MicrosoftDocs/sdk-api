@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.SetMaximumContentAge
+ - IBitsPeerCacheAdministration::SetMaximumContentAge
 ---
 
 # IBitsPeerCacheAdministration::SetMaximumContentAge
@@ -107,3 +107,4 @@ This value is used only if the MaxContentAge group policy is not set.
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcachesize">IBitsPeerCacheAdministration::SetMaximumCacheSize</a>
+

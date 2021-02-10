@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - LineDDAProc
+ - LINEDDAPROC
 ---
 
 # LINEDDAPROC callback function
@@ -89,3 +89,4 @@ An application registers a <b>LineDDAProc</b> function by passing its address to
 
 
 <a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+

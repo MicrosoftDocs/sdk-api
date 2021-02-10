@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IVisualTreeService2.RenderTargetBitmap
+ - IVisualTreeService2::RenderTargetBitmap
 ---
 
 # IVisualTreeService2::RenderTargetBitmap
@@ -140,3 +140,4 @@ The returned image will have
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>
+

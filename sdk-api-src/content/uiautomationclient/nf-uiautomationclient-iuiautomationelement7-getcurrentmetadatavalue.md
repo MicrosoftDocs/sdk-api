@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationElement7.GetCurrentMetadataValue
+ - IUIAutomationElement7::GetCurrentMetadataValue
 ---
 
 # IUIAutomationElement7::GetCurrentMetadataValue
@@ -77,3 +77,4 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-sayasinterpretas">SayAsInterpretAs</a>
+

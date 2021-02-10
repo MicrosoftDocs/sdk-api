@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - NSPv2Cleanup
+ - LPNSPV2CLEANUP
 ---
 
 # LPNSPV2CLEANUP callback function

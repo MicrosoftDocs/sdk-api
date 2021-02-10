@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector.DesiredPacketDescription
- - IInkCollector.get_DesiredPacketDescription
- - IInkCollector.put_DesiredPacketDescription
- - InkCollector.get_DesiredPacketDescription
- - InkCollector.put_DesiredPacketDescription
+ - IInkCollector::get_DesiredPacketDescription
 ---
 
 # IInkCollector::get_DesiredPacketDescription
@@ -90,3 +86,4 @@ Changes to this property do not affect incoming packet data until the <a href="/
 
 
 <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
+

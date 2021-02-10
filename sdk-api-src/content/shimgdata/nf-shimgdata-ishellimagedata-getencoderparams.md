@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData.GetEncoderParams
+ - IShellImageData::GetEncoderParams
 ---
 
 # IShellImageData::GetEncoderParams
@@ -95,3 +95,4 @@ Several circumstances can generate this return value.
 </td>
 </tr>
 </table>
+

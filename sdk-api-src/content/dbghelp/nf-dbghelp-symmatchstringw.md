@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymMatchStringW
  - dbghelp/SymMatchStringW
+ - SymMatchString
+ - dbghelp/SymMatchString
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymMatchString
- - SymMatchString
  - SymMatchStringW
+ - SymMatchString
 ---
 
 # SymMatchStringW function
@@ -90,3 +91,4 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 ## -see-also
 
 <a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+

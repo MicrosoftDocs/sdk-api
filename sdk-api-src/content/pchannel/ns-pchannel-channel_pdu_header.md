@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Pchannel.h
 api_name:
+ - tagCHANNEL_PDU_HEADER
+ - PCHANNEL_PDU_HEADER
  - CHANNEL_PDU_HEADER
 ---
 
@@ -130,3 +132,4 @@ In certain cases, Remote Desktop Services places a
 
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelread">WTSVirtualChannelRead</a>
+

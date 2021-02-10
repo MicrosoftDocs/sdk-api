@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_INTERACTIVE_UNLOCK_LOGON
+ - PKERB_INTERACTIVE_UNLOCK_LOGON
  - KERB_INTERACTIVE_UNLOCK_LOGON
 ---
 
@@ -69,3 +71,4 @@ A <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that con
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>
+

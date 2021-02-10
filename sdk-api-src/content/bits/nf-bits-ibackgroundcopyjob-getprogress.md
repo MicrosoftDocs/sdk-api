@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetProgress
+ - IBackgroundCopyJob::GetProgress
 ---
 
 # IBackgroundCopyJob::GetProgress
@@ -95,3 +95,4 @@ The <i>pProgress</i> parameter cannot be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>
+

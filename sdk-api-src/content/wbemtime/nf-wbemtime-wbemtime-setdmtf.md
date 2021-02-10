@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.SetDMTF
- - ?SetDMTF@WBEMTime@@QAEHQAG@Z
+ - WBEMTime::SetDMTF
 ---
 
 # WBEMTime::SetDMTF
@@ -93,3 +92,4 @@ Because <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> internally store
 
 
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a>
+

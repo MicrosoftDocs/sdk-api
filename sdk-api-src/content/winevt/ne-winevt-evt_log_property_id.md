@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_LOG_PROPERTY_ID
  - EVT_LOG_PROPERTY_ID
 ---
 
@@ -91,3 +92,4 @@ Identifies the property that you use to determine whether the channel or log fil
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITForwardInformation2.get_ForwardTypeCallerAddressType
+ - ITForwardInformation2::get_ForwardTypeCallerAddressType
 ---
 
 # ITForwardInformation2::get_ForwardTypeCallerAddressType
@@ -129,3 +129,4 @@ The <i>pCallerAddressType</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-getforwardtype">ITForwardInformation::GetForwardType</a>
+

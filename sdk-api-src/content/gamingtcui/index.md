@@ -9,6 +9,8 @@ tech.root: tcui
 f1_keywords:
  - gamingtcui
  - gamingtcui/gamingtcui
+api_name:
+ - gamingtcui
 ---
 
 # Gamingtcui.h header

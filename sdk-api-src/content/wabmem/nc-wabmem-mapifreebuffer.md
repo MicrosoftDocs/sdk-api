@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wabmem.h
 api_name:
- - MAPIFreeBuffer
+ - MAPIFREEBUFFER
 ---
 
 # MAPIFREEBUFFER callback function
@@ -102,3 +102,4 @@ The call succeeded and the memory was freed.
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
+

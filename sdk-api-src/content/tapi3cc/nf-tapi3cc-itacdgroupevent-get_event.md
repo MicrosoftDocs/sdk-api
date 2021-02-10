@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITACDGroupEvent.get_Event
+ - ITACDGroupEvent::get_Event
 ---
 
 # ITACDGroupEvent::get_Event
@@ -115,3 +115,4 @@ The ACDGE_NEW_GROUP and ACDGE_REMOVE_GROUP values are not currently supported.
 
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent">ITACDGroupEvent</a>
+

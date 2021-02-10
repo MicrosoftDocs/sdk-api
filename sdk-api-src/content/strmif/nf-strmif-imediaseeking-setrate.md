@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking.SetRate
+ - IMediaSeeking::SetRate
 ---
 
 # IMediaSeeking::SetRate
@@ -157,3 +157,4 @@ Filters should repond to rate changes as follows:
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
+

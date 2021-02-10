@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_PropertySetFT
  - MI_PropertySetFT
 ---
 
@@ -94,4 +95,4 @@ Gets the element of a property set at the specified index. See
 
 Gets the number of elements in the specified property set. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_propertyset_getelementcount">MI_PropertySet_GetElementCount</a>.
-       
+

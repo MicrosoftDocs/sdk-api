@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10_1.h
 api_name:
- - ID3D10BlendState1.GetDesc1
+ - ID3D10BlendState1::GetDesc1
 ---
 
 # ID3D10BlendState1::GetDesc1

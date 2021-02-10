@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_BYTE_ARRAY_DESCRIPTION
  - WS_BYTE_ARRAY_DESCRIPTION
 ---
 
@@ -64,3 +65,4 @@ Specifies the minimum number of bytes.
 ### -field maxByteCount
 
 Specifies the maximum number of bytes.
+

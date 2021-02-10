@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateArithmeticCompositeEffect
+ - IDCompositionDevice3::CreateArithmeticCompositeEffect
 ---
 
 # IDCompositionDevice3::CreateArithmeticCompositeEffect
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice3">IDCompositionDevice3</a>
+

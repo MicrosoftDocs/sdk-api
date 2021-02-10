@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT2.XMFLOAT2
+ - XMFLOAT2::XMFLOAT2
 ---
 
 # XMFLOAT2::XMFLOAT2(XMFLOAT2 &&)
@@ -69,3 +69,4 @@ A value.
 <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a>
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constfloat)">XMFLOAT2 Constructors</a>
+

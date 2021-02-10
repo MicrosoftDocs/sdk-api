@@ -9,6 +9,8 @@ tech.root: mapi
 f1_keywords:
  - mapiunicodehelp
  - mapiunicodehelp/mapiunicodehelp
+api_name:
+ - mapiunicodehelp
 ---
 
 # Mapiunicodehelp.h header

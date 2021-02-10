@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDrive.GetSubSystem
+ - IVdsDrive::GetSubSystem
 ---
 
 # IVdsDrive::GetSubSystem
@@ -112,3 +112,4 @@ The drive object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
+

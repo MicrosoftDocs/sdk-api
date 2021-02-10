@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCPDS_SERVERS
+ - LPDHCPDS_SERVERS
  - DHCPDS_SERVERS
 ---
 
@@ -69,3 +71,4 @@ Specifies the number of elements in <b>Servers</b>.
 ### -field Servers
 
 Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_server">DHCPDS_SERVER</a> structures that contain information on individual DHCP servers.
+

@@ -9,6 +9,8 @@ tech.root: wab
 f1_keywords:
  - wabiab
  - wabiab/wabiab
+api_name:
+ - wabiab
 ---
 
 # Wabiab.h header

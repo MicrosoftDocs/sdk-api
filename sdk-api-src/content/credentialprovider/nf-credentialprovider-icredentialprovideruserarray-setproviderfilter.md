@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Authui.dll
 api_name:
- - ICredentialProviderUserArray.SetProviderFilter
+ - ICredentialProviderUserArray::SetProviderFilter
 ---
 
 # ICredentialProviderUserArray::SetProviderFilter
@@ -75,3 +75,4 @@ This method can only be called once, to filter for a single account provider. If
 
 
 <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
+

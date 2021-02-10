@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallStateEvent.get_Cause
+ - ITCallStateEvent::get_Cause
 ---
 
 # ITCallStateEvent::get_Cause
@@ -115,3 +115,4 @@ The <i>pCEC</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>
+

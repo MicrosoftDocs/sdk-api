@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.get_CLSID
+ - ITPluggableTerminalSuperclassRegistration::get_CLSID
 ---
 
 # ITPluggableTerminalSuperclassRegistration::get_CLSID
@@ -111,3 +111,4 @@ The <i>pCLSID</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-put_clsid">put_CLSID</a>
+

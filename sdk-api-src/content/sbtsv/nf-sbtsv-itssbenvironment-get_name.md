@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbEnvironment.Name
- - ITsSbEnvironment.get_Name
+ - ITsSbEnvironment::get_Name
 ---
 
 # ITsSbEnvironment::get_Name
@@ -64,3 +63,4 @@ This method returns a string that is not directly used by Remote Desktop Connect
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironment">ITsSbEnvironment</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - BthLEDef.h
 api_name:
+ - _BTH_LE_GATT_CHARACTERISTIC
+ - PBTH_LE_GATT_CHARACTERISTIC
  - BTH_LE_GATT_CHARACTERISTIC
 ---
 
@@ -121,3 +123,4 @@ The characteristic  has extended properties, which will be presented through a C
 
 
 <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetcharacteristicvalue">BluetoothGATTSetCharacteristicValue</a>
+

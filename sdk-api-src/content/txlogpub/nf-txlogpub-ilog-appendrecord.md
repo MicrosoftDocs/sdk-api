@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Txlogpub.h
 api_name:
- - ILog.AppendRecord
+ - ILog::AppendRecord
 ---
 
 # ILog::AppendRecord
@@ -92,3 +92,4 @@ If <i>fForceNow</i> is <b>TRUE</b>, it is recommended that you flush file buffer
 
 
 <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
+

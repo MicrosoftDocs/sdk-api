@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device3.CreateRenderTargetView1
+ - ID3D11Device3::CreateRenderTargetView1
 ---
 
 # ID3D11Device3::CreateRenderTargetView1
@@ -86,3 +86,4 @@ A render-target view can be bound to the output-merger stage by calling <a href=
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestReader.GetStream
+ - IAppxManifestReader::GetStream
 ---
 
 # IAppxManifestReader::GetStream
@@ -79,3 +79,4 @@ Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnkno
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
+

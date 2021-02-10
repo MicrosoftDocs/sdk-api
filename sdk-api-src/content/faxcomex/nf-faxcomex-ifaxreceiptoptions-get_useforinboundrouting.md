@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.UseForInboundRouting
- - IFaxReceiptOptions.get_UseForInboundRouting
- - IFaxReceiptOptions.put_UseForInboundRouting
- - IFaxReceiptOptions.get_UseForInboundRouting
- - IFaxReceiptOptions.put_UseForInboundRouting
+ - IFaxReceiptOptions::get_UseForInboundRouting
 ---
 
 # IFaxReceiptOptions::get_UseForInboundRouting
@@ -77,3 +73,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-receipt-options">Setting Receipt Options</a>
+

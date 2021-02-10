@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - ktmw32
  - ktmw32/ktmw32
+api_name:
+ - ktmw32
 ---
 
 # Ktmw32.h header

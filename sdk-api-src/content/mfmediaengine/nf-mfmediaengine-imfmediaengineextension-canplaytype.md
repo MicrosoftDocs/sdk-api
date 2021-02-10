@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineExtension.CanPlayType
+ - IMFMediaEngineExtension::CanPlayType
 ---
 
 # IMFMediaEngineExtension::CanPlayType
@@ -77,3 +77,4 @@ Implement this method if your Media Engine extension supports one or more MIME t
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension">IMFMediaEngineExtension</a>
+

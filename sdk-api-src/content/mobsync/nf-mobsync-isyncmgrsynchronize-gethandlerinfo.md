@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.GetHandlerInfo
+ - ISyncMgrSynchronize::GetHandlerInfo
 ---
 
 # ISyncMgrSynchronize::GetHandlerInfo
@@ -95,3 +95,4 @@ The handler should use the <a href="/windows/desktop/api/combaseapi/nf-combaseap
 
 
 <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>
+

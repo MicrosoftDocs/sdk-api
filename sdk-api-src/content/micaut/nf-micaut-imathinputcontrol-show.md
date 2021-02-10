@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl.Show
+ - IMathInputControl::Show
 ---
 
 # IMathInputControl::Show
@@ -93,3 +93,4 @@ The control's width and height will be at their minimum.
 
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorManager.RequestPermissions
+ - ISensorManager::RequestPermissions
 ---
 
 # ISensorManager::RequestPermissions
@@ -251,3 +251,4 @@ if(SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>
+

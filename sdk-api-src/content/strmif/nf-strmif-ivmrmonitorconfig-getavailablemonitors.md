@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMonitorConfig.GetAvailableMonitors
+ - IVMRMonitorConfig::GetAvailableMonitors
 ---
 
 # IVMRMonitorConfig::GetAvailableMonitors
@@ -126,3 +126,4 @@ Use this method to get a list of DirectDraw device GUIDs and their associated mo
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

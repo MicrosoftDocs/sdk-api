@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gpmgmt.dll
 api_name:
- - IGPM2.InitializeReportingEx
+ - IGPM2::InitializeReportingEx
 ---
 
 # IGPM2::InitializeReportingEx
@@ -87,3 +87,4 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm2">IGPM2</a>
+

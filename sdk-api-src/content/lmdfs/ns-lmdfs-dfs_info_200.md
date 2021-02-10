@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_200
+ - PDFS_INFO_200
  - DFS_INFO_200
 ---
 
@@ -81,3 +83,4 @@ The <b>DFS_INFO_200</b> structure is used to enumerate domain-based DFS namespac
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

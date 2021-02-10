@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - InterlockedAddAcquire
+ - _InlineInterlockedAdd
 ---
 
 # _InlineInterlockedAdd function

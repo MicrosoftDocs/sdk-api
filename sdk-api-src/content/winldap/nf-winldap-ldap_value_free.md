@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_value_free
- - ldap_value_freeA
- - ldap_value_freeW
 ---
 
 # ldap_value_free function
@@ -82,3 +80,4 @@ Call <b>ldap_value_free</b> to free a structure returned by <a href="/previous-v
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>
+

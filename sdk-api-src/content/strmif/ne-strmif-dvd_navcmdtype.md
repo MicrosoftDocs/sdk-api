@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_NavCmdType
  - DVD_NavCmdType
 ---
 
@@ -79,3 +80,4 @@ Button command.
 
 
 <a href="/windows/desktop/DirectShow/ec-dvd-beginnavigationcommands">EC_DVD_BeginNavigationCommands</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
+ - _FH_PROTECTED_ITEM_CATEGORY
+ - PFH_PROTECTED_ITEM_CATEGORY
  - FH_PROTECTED_ITEM_CATEGORY
 ---
 
@@ -87,3 +89,4 @@ To add or remove an exclusion rule, call the <a href="/windows/desktop/api/fhcfg
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a>
+

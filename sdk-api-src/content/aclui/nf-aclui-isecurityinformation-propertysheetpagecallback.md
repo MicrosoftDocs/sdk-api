@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation.PropertySheetPageCallback
+ - ISecurityInformation::PropertySheetPageCallback
 ---
 
 # ISecurityInformation::PropertySheetPageCallback
@@ -140,3 +140,4 @@ Returns a nonzero error code if an error occurs.
 
 
 <a href="/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl.Conference
+ - ITBasicCallControl::Conference
 ---
 
 # ITBasicCallControl::Conference
@@ -181,3 +181,4 @@ Conference will fail with E_INVALIDARG.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">Transfer</a>
+

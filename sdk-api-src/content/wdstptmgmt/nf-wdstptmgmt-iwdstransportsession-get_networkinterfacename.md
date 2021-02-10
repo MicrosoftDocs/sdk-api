@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession.NetworkInterfaceName
- - IWdsTransportSession.get_NetworkInterfaceName
+ - IWdsTransportSession::get_NetworkInterfaceName
 ---
 
 # IWdsTransportSession::get_NetworkInterfaceName
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsession">IWdsTransportSession</a>
+

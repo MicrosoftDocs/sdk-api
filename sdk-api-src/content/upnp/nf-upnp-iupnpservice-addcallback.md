@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPService.AddCallback
+ - IUPnPService::AddCallback
 ---
 
 # IUPnPService::AddCallback
@@ -104,3 +104,4 @@ If the callback is invoked for a state variable change, the method is passed two
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPServiceCallback</a>
+

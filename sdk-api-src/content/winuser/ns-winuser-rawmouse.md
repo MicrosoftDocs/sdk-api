@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagRAWMOUSE
+ - PRAWMOUSE
  - RAWMOUSE
 ---
 
@@ -453,3 +455,4 @@ if ((rawMouse.usButtonFlags & RI_MOUSE_WHEEL) == RI_MOUSE_WHEEL ||
 [Mouse Input Notifications (legacy)](/windows/win32/inputdev/mouse-input-notifications)
 
 [SystemParametersInfo](nf-winuser-systemparametersinfoa.md)
+

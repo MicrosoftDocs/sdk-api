@@ -42,11 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.PreferredInPlaceDirection
- - ITextInputPanel.get_PreferredInPlaceDirection
- - ITextInputPanel.put_PreferredInPlaceDirection
- - ITextInputPanel.get_PreferredInPlaceDirection
- - ITextInputPanel.put_PreferredInPlaceDirection
+ - ITextInputPanel::get_PreferredInPlaceDirection
 ---
 
 # ITextInputPanel::get_PreferredInPlaceDirection
@@ -125,3 +121,4 @@ if (SUCCEEDED(CoInitialize(NULL)))
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph2.ReconnectEx
+ - IFilterGraph2::ReconnectEx
 ---
 
 # IFilterGraph2::ReconnectEx
@@ -150,3 +150,4 @@ This method improves on the <a href="/windows/desktop/api/strmif/nf-strmif-ifilt
 
 
 <a href="/windows/desktop/DirectShow/reconnecting-pins">Reconnecting Pins</a>
+

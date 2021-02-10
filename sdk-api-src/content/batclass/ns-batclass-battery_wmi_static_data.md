@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
+ - _BATTERY_WMI_STATIC_DATA
+ - PBATTERY_WMI_STATIC_DATA
  - BATTERY_WMI_STATIC_DATA
 ---
 
@@ -102,3 +104,4 @@ Four variable length string values are stored with the first USHORT value contai
 ## -see-also
 
 <a href="/previous-versions/ff536284(v=vs.85)">BATTERY_MANUFACTURE_DATE</a>
+

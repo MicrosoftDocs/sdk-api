@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_TRANSFORM_TYPE_
  - IPSEC_TRANSFORM_TYPE
 ---
 
@@ -89,3 +90,4 @@ Maximum value for testing only.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">WFP Enumerated Types</a>
+

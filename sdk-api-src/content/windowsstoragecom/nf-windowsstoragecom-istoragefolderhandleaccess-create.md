@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.storage.dll
 api_name:
- - IStorageFolderHandleAccess.Create
+ - IStorageFolderHandleAccess::Create
 ---
 
 # IStorageFolderHandleAccess::Create
@@ -89,3 +89,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-istoragefolderhandleaccess">IStorageFolderHandleAccess</a>
+

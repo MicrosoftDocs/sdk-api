@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.StartOperations
+ - IFileOperationProgressSink::StartOperations
 ---
 
 # IFileOperationProgressSink::StartOperations
@@ -63,3 +63,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>StartOperations</b> is the first of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink">IFileOperationProgressSink</a> methods to be called after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">PerformOperations</a>. It can be used to perform any setup or initialization that you require before the file operations begin.
+

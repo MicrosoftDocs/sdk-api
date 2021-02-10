@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - sbtsv
  - sbtsv/sbtsv
+api_name:
+ - sbtsv
 ---
 
 # Sbtsv.h header

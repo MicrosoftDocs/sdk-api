@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionFactory2.CreateStringLeaf
+ - IConditionFactory2::CreateStringLeaf
 ---
 
 # IConditionFactory2::CreateStringLeaf
@@ -137,3 +137,4 @@ For default options, use the <i>CONDITION_CREATION_DEFAULT</i> flag.
 
 
 <b>Reference</b>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_KARAOKE_ASSIGNMENT
  - DVD_KARAOKE_ASSIGNMENT
 ---
 
@@ -99,3 +100,4 @@ All channels within a stream will use the same speaker configuration, although t
 
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

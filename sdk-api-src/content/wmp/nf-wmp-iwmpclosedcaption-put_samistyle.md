@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPClosedCaption.put_SAMIStyle
+ - IWMPClosedCaption::put_SAMIStyle
 ---
 
 # IWMPClosedCaption::put_SAMIStyle
@@ -110,3 +110,4 @@ If no SAMI style is specified, the first style defined in the SAMI file is used 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samistyle">IWMPClosedCaption::get_SAMIStyle</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform.GetInputStreamAttributes
+ - IMFDeviceTransform::GetInputStreamAttributes
 ---
 
 # IMFDeviceTransform::GetInputStreamAttributes
@@ -113,3 +113,4 @@ This method  is used by DTM to get a specific input stream’s attribute store.
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
+

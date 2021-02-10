@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSimpleAudioVolume.SetMasterVolume
+ - IMFSimpleAudioVolume::SetMasterVolume
 ---
 
 # IMFSimpleAudioVolume::SetMasterVolume
@@ -114,3 +114,4 @@ Events outside of the application can change the master volume level. For exampl
 
 
 <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
+

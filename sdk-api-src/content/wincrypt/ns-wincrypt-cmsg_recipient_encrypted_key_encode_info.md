@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+ - PCMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
  - CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
 ---
 
@@ -77,3 +79,4 @@ Optional <b>FILETIME</b>. Applicable only if the <a href="/windows/desktop/api/w
 ### -field pOtherAttr
 
 Optional. Pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a>. Applicable only if the CERT_ID identifies the receiver's public key with a KEY_IDENTIFIER.
+

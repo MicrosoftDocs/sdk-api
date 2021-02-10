@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidPlayback.get_Rate
+ - IMSVidPlayback::get_Rate
 ---
 
 # IMSVidPlayback::get_Rate
@@ -109,3 +109,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
+

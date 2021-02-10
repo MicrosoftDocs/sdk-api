@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_WORD
+ - PCLUSPROP_WORD
 ---
 
 # CLUSPROP_WORD structure
@@ -83,3 +84,4 @@ Numeric value.
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

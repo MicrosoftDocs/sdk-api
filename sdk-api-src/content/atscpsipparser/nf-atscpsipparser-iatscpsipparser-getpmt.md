@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IAtscPsipParser.GetPMT
+ - IAtscPsipParser::GetPMT
 ---
 
 # IAtscPsipParser::GetPMT
@@ -144,3 +144,4 @@ The method fails if the filter does not receive a matching table within a predet
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
+

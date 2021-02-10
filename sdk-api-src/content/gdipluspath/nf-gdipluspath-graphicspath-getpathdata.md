@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.GetPathData
+ - GraphicsPath::GetPathData
 ---
 
 # GraphicsPath::GetPathData
@@ -168,3 +168,4 @@ VOID GetPathDataExample(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

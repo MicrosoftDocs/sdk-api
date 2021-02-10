@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IEnumBitsPeerCacheRecords.Skip
+ - IEnumBitsPeerCacheRecords::Skip
 ---
 
 # IEnumBitsPeerCacheRecords::Skip
@@ -95,3 +95,4 @@ Skipped less than the number of requested elements.
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_TEXTURE2D_DESC.CD3D11_TEXTURE2D_DESC
+ - CD3D11_TEXTURE2D_DESC::CD3D11_TEXTURE2D_DESC
 ---
 
 # CD3D11_TEXTURE2D_DESC::CD3D11_TEXTURE2D_DESC(DXGI_FORMAT,UINT,UINT,UINT,UINT,UINT,D3D11_USAGE,UINT,UINT,UINT,UINT)
@@ -124,3 +124,4 @@ A combination of <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_mis
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151700(v=vs.85)">CD3D11_TEXTURE2D_DESC</a>
+

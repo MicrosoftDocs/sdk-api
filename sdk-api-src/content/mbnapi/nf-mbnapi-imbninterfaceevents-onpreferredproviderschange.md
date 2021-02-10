@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnPreferredProvidersChange
+ - IMbnInterfaceEvents::OnPreferredProvidersChange
 ---
 
 # IMbnInterfaceEvents::OnPreferredProvidersChange
@@ -75,3 +75,4 @@ If there is a change in the preferred provider list because of a call to the <a 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>
+

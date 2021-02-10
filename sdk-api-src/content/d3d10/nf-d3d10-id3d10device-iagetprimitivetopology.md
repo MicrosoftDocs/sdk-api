@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device.IAGetPrimitiveTopology
+ - ID3D10Device::IAGetPrimitiveTopology
 ---
 
 # ID3D10Device::IAGetPrimitiveTopology
@@ -64,3 +64,4 @@ A pointer to the type of primitive, and ordering of the primitive data (see <a h
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

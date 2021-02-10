@@ -42,7 +42,7 @@ api_type:
 api_location:
  - NotificationActivationCallback.h
 api_name:
- - INotificationActivationCallback.Activate
+ - INotificationActivationCallback::Activate
 ---
 
 # INotificationActivationCallback::Activate
@@ -91,3 +91,4 @@ If you return a failure code, the activation will fail and the user can try agai
 
 
 <a href="/previous-versions/windows/desktop/win32_tile_badge_notif/respond-to-toast-activations">Respond to toast activations</a>
+

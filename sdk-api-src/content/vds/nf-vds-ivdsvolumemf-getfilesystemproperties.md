@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF.GetFileSystemProperties
+ - IVdsVolumeMF::GetFileSystemProperties
 ---
 
 # IVdsVolumeMF::GetFileSystemProperties
@@ -137,3 +137,4 @@ If the volume is encrypted by BitLocker, the type member of the <a href="/window
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
+

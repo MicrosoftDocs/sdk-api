@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarity.FindSimilarFileId
+ - ISimilarity::FindSimilarFileId
 ---
 
 # ISimilarity::FindSimilarFileId
@@ -81,3 +81,4 @@ The file IDs that are returned in the <i>findSimilarResults</i> parameter may in
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
+

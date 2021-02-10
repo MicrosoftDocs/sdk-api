@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPPluginEnable.SetEnable
+ - IWMPPluginEnable::SetEnable
 ---
 
 # IWMPPluginEnable::SetEnable
@@ -75,3 +75,4 @@ DSP plug-ins are removed from the signal path when the user chooses to disable t
 
 
 <a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmppluginenable-getenable">IWMPPluginEnable::GetEnable</a>
+

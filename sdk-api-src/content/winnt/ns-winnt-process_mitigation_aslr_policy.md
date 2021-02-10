@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _PROCESS_MITIGATION_ASLR_POLICY
+ - PPROCESS_MITIGATION_ASLR_POLICY
  - PROCESS_MITIGATION_ASLR_POLICY
 ---
 
@@ -104,3 +106,4 @@ Bottom-up allocations are subject to higher degrees of entropy when randomized b
 #### - ReservedFlags : 28
 
 This member is reserved for system use.
+

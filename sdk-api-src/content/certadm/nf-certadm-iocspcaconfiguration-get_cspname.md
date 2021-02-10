@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration.CSPName
- - IOCSPCAConfiguration.get_CSPName
+ - IOCSPCAConfiguration::get_CSPName
 ---
 
 # IOCSPCAConfiguration::get_CSPName
@@ -64,3 +63,4 @@ The name returned in <i>pVal</i> corresponds to the CSP or KSP used for the <a h
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
+

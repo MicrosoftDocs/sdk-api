@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _PROPERTY_DATA_DESCRIPTOR
  - PROPERTY_DATA_DESCRIPTOR
 ---
 
@@ -143,3 +144,4 @@ If the structure is an element of an array of structures, set ArrayIndex in the 
 
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
+

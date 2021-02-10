@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerHost.GetTrackerTarget
+ - IReferenceTrackerHost::GetTrackerTarget
 ---
 
 # IReferenceTrackerHost::xaml
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost">IReferenceTrackerHost</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mprapi.h
 api_name:
+ - _ROUTER_IKEv2_IF_CUSTOM_CONFIG0
+ - PROUTER_IKEv2_IF_CUSTOM_CONFIG0
  - ROUTER_IKEv2_IF_CUSTOM_CONFIG0
 ---
 
@@ -75,3 +77,4 @@ A value that specifies the configured certificate that will be sent to the peer 
 ### -field customPolicy
 
 A value that specifies the custom IKEv2 configurations that will be used during  the SA negotiation. If set to <b>NULL</b>, no custom IKEv2configuration is available.
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeGenerator.get_VITCLine
+ - IAMTimecodeGenerator::get_VITCLine
 ---
 
 # IAMTimecodeGenerator::get_VITCLine
@@ -78,3 +78,4 @@ To get VITC information from multiple lines, make successive calls to this metho
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-put_vitcline">IAMTimecodeGenerator::put_VITCLine</a>
+

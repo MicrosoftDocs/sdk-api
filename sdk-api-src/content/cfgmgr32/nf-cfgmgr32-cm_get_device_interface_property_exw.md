@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_Interface_Property_ExW
  - cfgmgr32/CM_Get_Device_Interface_Property_ExW
+ - CM_Get_Device_Interface_Property_Ex
+ - cfgmgr32/CM_Get_Device_Interface_Property_Ex
 dev_langs:
  - c++
 topic_type:
@@ -45,6 +47,7 @@ api_location:
  - API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
  - CM_Get_Device_Interface_Property_ExW
+ - CM_Get_Device_Interface_Property_Ex
 ---
 
 # CM_Get_Device_Interface_Property_ExW function
@@ -104,3 +107,4 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw">SetupDiGetDeviceInterfaceProperty</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.BeginContainer
+ - Graphics::BeginContainer
 ---
 
 # Graphics::BeginContainer
@@ -149,3 +149,4 @@ VOID Example_BeginContainer3(HDC hdc)
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a>
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>
+

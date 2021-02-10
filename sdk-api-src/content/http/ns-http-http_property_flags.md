@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_PROPERTY_FLAGS
+ - PHTTP_PROPERTY_FLAGS
  - HTTP_PROPERTY_FLAGS
 ---
 
@@ -98,3 +100,4 @@ The property configuration structures are used in calls to <a href="/windows/des
 
 
 <a href="/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
+

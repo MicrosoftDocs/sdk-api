@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.get_accKeyboardShortcut
+ - IAccessible::get_accKeyboardShortcut
 ---
 
 # IAccessible::get_accKeyboardShortcut
@@ -172,3 +172,4 @@ HRESULT PrintShortcut(IAccessible* pAcc, long child)
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
+

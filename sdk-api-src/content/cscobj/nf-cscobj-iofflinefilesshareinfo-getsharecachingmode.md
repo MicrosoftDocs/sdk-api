@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesShareInfo.GetShareCachingMode
+ - IOfflineFilesShareInfo::GetShareCachingMode
 ---
 
 # IOfflineFilesShareInfo::GetShareCachingMode
@@ -106,3 +106,4 @@ This method is equivalent to locating the nearest share item, obtaining its full
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesshareinfo">IOfflineFilesShareInfo</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateManager.EnumTemplates
- - FsrmFileScreenTemplateManager.EnumTemplates
+ - IFsrmFileScreenTemplateManager::EnumTemplates
 ---
 
 # IFsrmFileScreenTemplateManager::EnumTemplates
@@ -76,3 +75,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplatemanager">IFsrmFileScreenTemplateManager</a>
+

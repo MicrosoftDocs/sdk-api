@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CObjectPathParser.Free
+ - CObjectPathParser::Free
 ---
 
 # CObjectPathParser::Free(ParsedObjectPath)
@@ -68,3 +68,4 @@ Memory containing the unparsed path information.
 ## -see-also
 
 <a href="/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>
+

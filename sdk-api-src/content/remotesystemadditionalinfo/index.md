@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - remotesystemadditionalinfo
  - remotesystemadditionalinfo/remotesystemadditionalinfo
+api_name:
+ - remotesystemadditionalinfo
 ---
 
 # Remotesystemadditionalinfo.h header

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winusb.h
 api_name:
+ - _WINUSB_SETUP_PACKET
+ - PWINUSB_SETUP_PACKET
  - WINUSB_SETUP_PACKET
 ---
 
@@ -89,3 +91,4 @@ Callers of the <a href="/windows/desktop/api/winusb/nf-winusb-winusb_controltran
 
 
 <a href="/windows/desktop/api/winusb/nf-winusb-winusb_controltransfer">WinUsb_ControlTransfer</a>
+

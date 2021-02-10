@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolManager.NotifySessionOfServiceStop
+ - IWRdsProtocolManager::NotifySessionOfServiceStop
 ---
 
 # IWRdsProtocolManager::NotifySessionOfServiceStop
@@ -65,3 +65,4 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>
+

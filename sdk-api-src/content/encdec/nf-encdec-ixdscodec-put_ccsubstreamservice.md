@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IXDSCodec.put_CCSubstreamService
+ - IXDSCodec::put_CCSubstreamService
 ---
 
 # IXDSCodec::put_CCSubstreamService
@@ -94,3 +94,4 @@ Success
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>
+

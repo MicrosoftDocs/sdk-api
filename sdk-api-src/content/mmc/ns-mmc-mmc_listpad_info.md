@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_LISTPAD_INFO
  - MMC_LISTPAD_INFO
 ---
 
@@ -108,3 +109,4 @@ Allocate the <b>szTitle</b> and <b>szButtonText</b> strings with the COM API fun
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a>
+

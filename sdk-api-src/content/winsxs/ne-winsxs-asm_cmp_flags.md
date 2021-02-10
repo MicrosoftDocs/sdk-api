@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winsxs.h
 api_name:
+ - __MIDL_IAssemblyName_0004
  - ASM_CMP_FLAGS
 ---
 
@@ -97,3 +98,4 @@ ASM_CMPF_NAME | ASM_CMPF_MAJOR_VERSION | ASM_CMPF_MINOR_VERSION | ASM_CMPF_REVIS
 ### -field ASM_CMPF_DEFAULT
 
  Ignore the version number to compare assemblies with simple names.
+

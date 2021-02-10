@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionProfile.Delete
+ - IMbnConnectionProfile::Delete
 ---
 
 # IMbnConnectionProfile::Delete
@@ -119,3 +119,4 @@ This is an asynchronous operation.  The Mobile Broadband service will notify the
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>
+

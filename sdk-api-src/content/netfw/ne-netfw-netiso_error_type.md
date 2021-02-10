@@ -44,6 +44,7 @@ api_type:
 api_location:
  - networkisolation.h
 api_name:
+ - _NETISO_ERROR_TYPE
  - NETISO_ERROR_TYPE
 ---
 
@@ -79,3 +80,4 @@ Maximum value for testing purposes.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationdiagnoseconnectfailureandgetinfo">NetworkIsolationDiagnoseConnectFailureAndGetInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - Matrix3x2F.Skew
+ - Matrix3x2F::Skew
 ---
 
 # Matrix3x2F::Skew
@@ -95,3 +95,4 @@ For an example, see <a href="/windows/desktop/Direct2D/how-to-skew">How to Skew 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
+

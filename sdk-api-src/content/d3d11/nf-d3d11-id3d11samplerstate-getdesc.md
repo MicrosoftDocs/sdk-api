@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11SamplerState.GetDesc
+ - ID3D11SamplerState::GetDesc
 ---
 
 # ID3D11SamplerState::GetDesc
@@ -68,3 +68,4 @@ You use the description for sampler state in a call to the <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>
+

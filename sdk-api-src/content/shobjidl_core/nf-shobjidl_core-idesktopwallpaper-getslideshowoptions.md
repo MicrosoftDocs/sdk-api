@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IDesktopWallpaper.GetSlideshowOptions
+ - IDesktopWallpaper::GetSlideshowOptions
 ---
 
 # IDesktopWallpaper::GetSlideshowOptions
@@ -103,3 +103,4 @@ A <b>NULL</b> pointer was provided in one of the parameters.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshowoptions">IDesktopWallpaper::SetSlideshowOptions</a>
+

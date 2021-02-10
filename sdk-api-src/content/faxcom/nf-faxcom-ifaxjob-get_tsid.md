@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.Tsid
- - IFaxJob.get_Tsid
+ - IFaxJob::get_Tsid
 ---
 
 # IFaxJob::get_Tsid
@@ -87,3 +86,4 @@ Note that the T.30 specification of the International Telecommunication Union (I
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-usedevicetsid-vb">UseDeviceTsid</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile.GetMetafileHeader
+ - Metafile::GetMetafileHeader
 ---
 
 # Metafile::GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader)
@@ -98,3 +98,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+

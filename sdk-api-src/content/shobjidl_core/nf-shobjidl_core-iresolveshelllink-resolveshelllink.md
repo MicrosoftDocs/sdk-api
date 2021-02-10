@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IResolveShellLink.ResolveShellLink
+ - IResolveShellLink::ResolveShellLink
 ---
 
 # IResolveShellLink::ResolveShellLink
@@ -127,3 +127,4 @@ This method should attempt to find the target of a Shell link, even if the targe
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iresolveshelllink">IResolveShellLink</a>
+

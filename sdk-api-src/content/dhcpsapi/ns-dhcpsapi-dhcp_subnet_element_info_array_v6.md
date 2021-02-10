@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
+ - LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
  - DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
 ---
 
@@ -73,3 +75,4 @@ Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_s
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
+

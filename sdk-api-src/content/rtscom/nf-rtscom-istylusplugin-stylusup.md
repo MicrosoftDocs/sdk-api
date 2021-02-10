@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.StylusUp
+ - IStylusPlugin::StylusUp
 ---
 
 # IStylusPlugin::StylusUp
@@ -188,3 +188,4 @@ HRESULT CPacketModifier::ModifyPacket(
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+

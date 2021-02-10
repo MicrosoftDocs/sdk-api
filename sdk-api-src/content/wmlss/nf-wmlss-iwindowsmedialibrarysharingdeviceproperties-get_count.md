@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDeviceProperties.get_Count
+ - IWindowsMediaLibrarySharingDeviceProperties::get_Count
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperties::get_Count

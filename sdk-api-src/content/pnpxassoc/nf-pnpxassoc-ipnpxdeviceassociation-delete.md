@@ -42,7 +42,7 @@ api_type:
 api_location:
  - pnpxassoc.h
 api_name:
- - IPNPXDeviceAssociation.Delete
+ - IPNPXDeviceAssociation::Delete
 ---
 
 # IPNPXDeviceAssociation::Delete
@@ -117,3 +117,4 @@ To mark a device as unavailable for use without deleting the association databas
 
 
 <a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.SetScrollPercent
+ - IUIAutomationScrollPattern::SetScrollPercent
 ---
 
 # IUIAutomationScrollPattern::SetScrollPercent
@@ -83,3 +83,4 @@ This method is useful only when the content area of the control is larger than t
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-scroll">IUIAutomationScrollPattern::Scroll</a>
+

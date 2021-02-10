@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocation.SetReportInterval
+ - ILocation::SetReportInterval
 ---
 
 # ILocation::SetReportInterval
@@ -132,3 +132,4 @@ HRESULT hr = spLocation->SetReportInterval(IID_ILatLongReport, 1000);
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
+

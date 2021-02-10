@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcFactory.CreatePackageRootUri
+ - IOpcFactory::CreatePackageRootUri
 ---
 
 # IOpcFactory::CreatePackageRootUri
@@ -140,3 +140,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

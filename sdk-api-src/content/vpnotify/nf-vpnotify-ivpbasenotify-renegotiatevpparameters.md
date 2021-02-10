@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vpnotify.h
 api_name:
- - IVPBaseNotify.RenegotiateVPParameters
+ - IVPBaseNotify::RenegotiateVPParameters
 ---
 
 # IVPBaseNotify::RenegotiateVPParameters
@@ -71,3 +71,4 @@ Include Vptype.h before Vpnotify.h.
 
 
 <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpbasenotify">IVPBaseNotify Interface</a>
+

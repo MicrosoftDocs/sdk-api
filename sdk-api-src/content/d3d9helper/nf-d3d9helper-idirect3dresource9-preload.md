@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DResource9.PreLoad
+ - IDirect3DResource9::PreLoad
 ---
 
 # IDirect3DResource9::PreLoad
@@ -64,3 +64,4 @@ Calling this method indicates that the application will need this managed resour
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.CheckBeforeRunning
- - IDataManager.get_CheckBeforeRunning
- - IDataManager.put_CheckBeforeRunning
+ - IDataManager::put_CheckBeforeRunning
 ---
 
 # IDataManager::put_CheckBeforeRunning
@@ -69,3 +67,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_minfreedisk">IDataManager::MinFreeDisk</a>
+

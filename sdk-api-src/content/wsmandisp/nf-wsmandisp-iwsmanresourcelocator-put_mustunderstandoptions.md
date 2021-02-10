@@ -42,9 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManResourceLocator.MustUnderstandOptions
- - IWSManResourceLocator.get_MustUnderstandOptions
- - IWSManResourceLocator.put_MustUnderstandOptions
+ - IWSManResourceLocator::put_MustUnderstandOptions
 ---
 
 # IWSManResourceLocator::put_MustUnderstandOptions
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/WinRM/resourcelocator-mustunderstandoptions">ResourceLocator.MustUnderstandOptions</a>
+

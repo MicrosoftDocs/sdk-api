@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole.UpdateAllViews
+ - IConsole::UpdateAllViews
 ---
 
 # IConsole::UpdateAllViews
@@ -89,3 +89,4 @@ This method should be called from the
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
+

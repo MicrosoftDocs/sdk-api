@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ISessionStateChangeTrigger.Delay
- - ISessionStateChangeTrigger.get_Delay
- - ISessionStateChangeTrigger.put_Delay
+ - ISessionStateChangeTrigger::get_Delay
 ---
 
 # ISessionStateChangeTrigger::get_Delay
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger">ISessionStateChangeTrigger</a>
+

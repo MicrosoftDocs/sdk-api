@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_STATISTICS1_
  - IPSEC_STATISTICS1
 ---
 
@@ -104,3 +105,4 @@ The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

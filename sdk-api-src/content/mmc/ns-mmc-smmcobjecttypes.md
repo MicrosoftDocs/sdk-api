@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _SMMCObjectTypes
  - SMMCObjectTypes
 ---
 
@@ -95,3 +96,4 @@ Just before MMC must use an extensible feature (that is, just before creating an
 
 
 <a href="/windows/desktop/api/mmc/ns-mmc-smmcobjecttypes">SMMCObjectTypes</a>
+

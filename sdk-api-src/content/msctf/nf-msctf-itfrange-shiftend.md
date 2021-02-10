@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.ShiftEnd
+ - ITfRange::ShiftEnd
 ---
 
 # ITfRange::ShiftEnd
@@ -163,3 +163,4 @@ ITfRange::ShiftEnd can be a lengthy operation. For better performance, use <a hr
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND
       </a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.CancelAddTrack
+ - IDiscFormat2TrackAtOnce::CancelAddTrack
 ---
 
 # IDiscFormat2TrackAtOnce::CancelAddTrack
@@ -108,3 +108,4 @@ This method may result in a partial audio track having already been recorded.  T
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack">IDiscFormat2TrackAtOnce::AddAudioTrack</a>
+

@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Subject
- - IFaxIncomingMessage2.get_Subject
- - IFaxIncomingMessage2.put_Subject
- - IFaxIncomingMessage2.get_Subject
- - IFaxIncomingMessage2.put_Subject
+ - IFaxIncomingMessage2::get_Subject
 ---
 
 # IFaxIncomingMessage2::get_Subject
@@ -72,3 +68,4 @@ A received message starts with a null value for the subject when it arrives. It 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
+

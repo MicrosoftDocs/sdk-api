@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetAddressStatus
- - lineGetAddressStatusA
- - lineGetAddressStatusW
 ---
 
 # lineGetAddressStatus function
@@ -95,3 +93,4 @@ LINEERR_INVALADDRESSID, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALLINEHANDLE, LINEER
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+

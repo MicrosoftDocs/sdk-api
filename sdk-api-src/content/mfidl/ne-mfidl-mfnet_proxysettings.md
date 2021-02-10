@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFNET_PROXYSETTINGS
  - MFNET_PROXYSETTINGS
 ---
 
@@ -98,3 +99,4 @@ The proxy locator uses the proxy settings of the browser. By default, the proxy 
 
 
 <a href="/windows/desktop/medfound/proxy-support-for-network-sources">Proxy Support for Network Sources</a>
+

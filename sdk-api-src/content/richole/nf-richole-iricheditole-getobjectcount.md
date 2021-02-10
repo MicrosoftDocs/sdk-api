@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle.GetObjectCount
+ - IRichEditOle::GetObjectCount
 ---
 
 # IRichEditOle::GetObjectCount
@@ -63,3 +63,4 @@ This method returns the number of objects.
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
+

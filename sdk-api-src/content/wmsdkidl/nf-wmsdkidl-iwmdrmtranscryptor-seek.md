@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMTranscryptor.Seek
+ - IWMDRMTranscryptor::Seek
 ---
 
 # IWMDRMTranscryptor::Seek
@@ -113,3 +113,4 @@ To convert the entire file, call <b>Seek</b> with a presentation time of 0.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">IWMDRMTranscryptor::Read</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorGetOutputConstriction
+ - ID3D11VideoContext::VideoProcessorGetOutputConstriction
 ---
 
 # ID3D11VideoContext::VideoProcessorGetOutputConstriction
@@ -69,3 +69,4 @@ If <i>Enabled</i> receives the value <b>TRUE</b>, this parameter receives the do
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
+

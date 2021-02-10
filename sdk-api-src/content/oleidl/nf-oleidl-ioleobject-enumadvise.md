@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.EnumAdvise
+ - IOleObject::EnumAdvise
 ---
 
 # IOleObject::EnumAdvise
@@ -100,3 +100,4 @@ The usual way to implement this function is to delegate the call to the <a href=
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a>
+

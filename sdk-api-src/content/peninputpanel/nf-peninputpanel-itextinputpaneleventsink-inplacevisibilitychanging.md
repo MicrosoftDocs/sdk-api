@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.InPlaceVisibilityChanging
+ - ITextInputPanelEventSink::InPlaceVisibilityChanging
 ---
 
 # ITextInputPanelEventSink::InPlaceVisibilityChanging
@@ -106,3 +106,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged">ITextInputPanelEventSink::InPlaceVisibilityChanged Method</a>
+

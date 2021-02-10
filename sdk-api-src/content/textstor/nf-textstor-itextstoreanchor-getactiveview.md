@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor.GetActiveView
+ - ITextStoreAnchor::GetActiveView
 ---
 
 # ITextStoreAnchor::GetActiveView
@@ -99,3 +99,4 @@ The method was successful.
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
+

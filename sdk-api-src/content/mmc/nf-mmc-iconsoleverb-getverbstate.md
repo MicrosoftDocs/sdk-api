@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsoleVerb.GetVerbState
+ - IConsoleVerb::GetVerbState
 ---
 
 # IConsoleVerb::GetVerbState
@@ -84,3 +84,4 @@ When an item is selected, the verb states for all the commands are reset to disa
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
+

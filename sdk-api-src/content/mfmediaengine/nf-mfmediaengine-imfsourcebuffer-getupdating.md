@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFSourceBuffer.GetUpdating
+ - IMFSourceBuffer::GetUpdating
 ---
 
 # IMFSourceBuffer::GetUpdating
@@ -61,3 +61,4 @@ Gets a value that indicates  if <a href="/windows/desktop/medfound/imfsourcebuff
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
+ - tagRemSNB
  - RemSNB
 ---
 
@@ -76,3 +77,4 @@ Pointer to an array of bytes containing the stream name strings from the <b>SNB<
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
+

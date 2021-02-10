@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
+ - _CLFS_CONTEXT_MODE
+ - PCLFS_CONTEXT_MODE
  - CLFS_CONTEXT_MODE
 ---
 
@@ -77,3 +79,4 @@ Move the cursor to the next client log record from the current read context.
 ## -see-also
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogrecord">ReadLogRecord</a>
+

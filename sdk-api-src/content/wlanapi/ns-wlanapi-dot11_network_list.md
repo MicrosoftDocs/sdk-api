@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _DOT11_NETWORK_LIST
+ - PDOT11_NETWORK_LIST
  - DOT11_NETWORK_LIST
 ---
 
@@ -91,3 +93,4 @@ An array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network">DOT1
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>
+

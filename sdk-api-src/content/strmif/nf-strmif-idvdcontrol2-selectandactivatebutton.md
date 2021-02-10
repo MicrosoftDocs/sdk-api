@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2.SelectAndActivateButton
+ - IDvdControl2::SelectAndActivateButton
 ---
 
 # IDvdControl2::SelectAndActivateButton
@@ -152,3 +152,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
+

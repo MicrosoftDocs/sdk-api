@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagBITMAP
+ - PBITMAP
  - BITMAP
 ---
 
@@ -134,3 +136,4 @@ Each device has a unique color format. To transfer a bitmap from one device to a
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
+

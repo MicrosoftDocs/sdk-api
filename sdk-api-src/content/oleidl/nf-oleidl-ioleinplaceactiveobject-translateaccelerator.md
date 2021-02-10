@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.TranslateAccelerator
+ - IOleInPlaceActiveObject::TranslateAccelerator
 ---
 
 # IOleInPlaceActiveObject::TranslateAccelerator
@@ -136,3 +136,4 @@ If you need to implement this method, you can do so by simply wrapping the call 
 
 
 <a href="/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>
+

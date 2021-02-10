@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents2.BackgroundSyncBegin
+ - IOfflineFilesEvents2::BackgroundSyncBegin
 ---
 
 # IOfflineFilesEvents2::BackgroundSyncBegin
@@ -66,3 +66,4 @@ The return value is ignored.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents2">IOfflineFilesEvents2</a>
+

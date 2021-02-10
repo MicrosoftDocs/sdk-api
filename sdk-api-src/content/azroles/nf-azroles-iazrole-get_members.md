@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole.Members
- - IAzRole.get_Members
- - AzRole.Members
+ - IAzRole::get_Members
 ---
 
 # IAzRole::get_Members
@@ -61,3 +59,4 @@ This property is read-only.
 ## -remarks
 
 In  JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
+

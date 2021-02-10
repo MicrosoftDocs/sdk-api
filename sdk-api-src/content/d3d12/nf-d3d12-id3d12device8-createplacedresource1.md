@@ -35,6 +35,7 @@ api_location:
 api_name:
  - ID3D12Device8::CreatePlacedResource1
 f1_keywords:
+ - ID3D12Device8::CreatePlacedResource1
  - d3d12/ID3D12Device8::CreatePlacedResource1
 dev_langs:
  - c++
@@ -121,3 +122,4 @@ See [ID3D12Device::CreatePlacedResource](./nf-d3d12-id3d12device-createplacedres
 * <a href="/windows/win32/direct3d12/shared-heaps">Shared heaps</a>
 
 * [Sampler feedback specification](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html)
+

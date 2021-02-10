@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT_CLASSIFY_DROP0_
  - FWPM_NET_EVENT_CLASSIFY_DROP0
 ---
 
@@ -68,3 +69,4 @@ Indicates the identifier of the filtering layer where the failure occurred.  For
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
+

@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - ntmsmli
  - ntmsmli/ntmsmli
+api_name:
+ - ntmsmli
 ---
 
 # Ntmsmli.h header

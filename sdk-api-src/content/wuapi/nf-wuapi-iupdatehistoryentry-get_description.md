@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateHistoryEntry.Description
- - IUpdateHistoryEntry.get_Description
+ - IUpdateHistoryEntry::get_Description
 ---
 
 # IUpdateHistoryEntry::get_Description
@@ -73,3 +72,4 @@ The information that   this property returns is for the default user interface (
 
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_clientapplicationid">IUpdateHistoryEntry.ClientApplicationID</a>
+

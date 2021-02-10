@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IGestureRecognizer.MaxStrokeCount
- - IGestureRecognizer.get_MaxStrokeCount
- - IGestureRecognizer.put_MaxStrokeCount
- - IGestureRecognizer.get_MaxStrokeCount
- - IGestureRecognizer.put_MaxStrokeCount
+ - IGestureRecognizer::put_MaxStrokeCount
 ---
 
 # IGestureRecognizer::put_MaxStrokeCount
@@ -81,3 +77,4 @@ Valid values are 1 and 2. When the <b>MaxStrokeCount</b> property is 2, gesture 
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+

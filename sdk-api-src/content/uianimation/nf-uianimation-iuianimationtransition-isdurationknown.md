@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransition.IsDurationKnown
+ - IUIAnimationTransition::IsDurationKnown
 ---
 
 # IUIAnimationTransition::IsDurationKnown
@@ -94,3 +94,4 @@ For an example, see <a href="/windows/desktop/api/uianimation/nf-uianimation-iui
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>
+

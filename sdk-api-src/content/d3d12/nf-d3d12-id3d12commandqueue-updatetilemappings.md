@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.h
 api_name:
- - ID3D12CommandQueue.UpdateTileMappings
+ - ID3D12CommandQueue::UpdateTileMappings
 ---
 
 # ID3D12CommandQueue::UpdateTileMappings
@@ -338,3 +338,4 @@ HeapRangeStartOffsets,RangeTileCounts,D3D12_TILE_MAPPING_FLAG_NONE);
 
 
 <a href="/windows/desktop/direct3d12/volume-tiled-resources">Volume Tiled Resources</a>
+

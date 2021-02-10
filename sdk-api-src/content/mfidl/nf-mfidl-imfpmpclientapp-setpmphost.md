@@ -43,7 +43,7 @@ api_location:
  - mfidl.h
  - Mfidl.idl
 api_name:
- - IMFPMPClientApp.SetPMPHost
+ - IMFPMPClientApp::SetPMPHost
 ---
 
 # IMFPMPClientApp::SetPMPHost
@@ -78,3 +78,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
+

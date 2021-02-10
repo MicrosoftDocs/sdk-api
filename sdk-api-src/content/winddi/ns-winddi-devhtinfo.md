@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _DEVHTINFO
+ - PDEVHTINFO
  - DEVHTINFO
 ---
 
@@ -87,3 +89,4 @@ Is a caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a>
+

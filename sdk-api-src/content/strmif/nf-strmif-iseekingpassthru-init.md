@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ISeekingPassThru.Init
+ - ISeekingPassThru::Init
 ---
 
 # ISeekingPassThru::Init
@@ -114,3 +114,4 @@ Not enough memory to create the object.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iseekingpassthru">ISeekingPassThru Interface</a>
+

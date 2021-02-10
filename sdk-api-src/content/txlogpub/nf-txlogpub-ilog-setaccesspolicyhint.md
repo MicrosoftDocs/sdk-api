@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Txlogpub.h
 api_name:
- - ILog.SetAccessPolicyHint
+ - ILog::SetAccessPolicyHint
 ---
 
 # ILog::SetAccessPolicyHint
@@ -73,3 +73,4 @@ Not all implementations of <a href="/windows/desktop/api/txlogpub/nn-txlogpub-il
 
 
 <a href="/windows/desktop/api/txlogpub/ne-txlogpub-record_reading_policy">RECORD_READING_POLICY</a>
+

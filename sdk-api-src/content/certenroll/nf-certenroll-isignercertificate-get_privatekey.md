@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificate.PrivateKey
- - ISignerCertificate.get_PrivateKey
+ - ISignerCertificate::get_PrivateKey
 ---
 
 # ISignerCertificate::get_PrivateKey
@@ -83,3 +82,4 @@ When you call the <a href="/windows/desktop/api/certenroll/nf-certenroll-isigner
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
+

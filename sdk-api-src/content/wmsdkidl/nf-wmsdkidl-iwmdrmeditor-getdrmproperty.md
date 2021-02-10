@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMEditor.GetDRMProperty
+ - IWMDRMEditor::GetDRMProperty
 ---
 
 # IWMDRMEditor::GetDRMProperty
@@ -163,3 +163,4 @@ The following properties are accessible from this method:
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor">IWMDRMEditor Interface</a>
+

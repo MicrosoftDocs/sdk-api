@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IObjectWithCancelEvent.GetCancelEvent
+ - IObjectWithCancelEvent::GetCancelEvent
 ---
 
 # IObjectWithCancelEvent::GetCancelEvent
@@ -73,3 +73,4 @@ Call this function to retrieve an event that will be signaled when the called ob
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithcancelevent">IObjectWithCancelEvent</a>
+

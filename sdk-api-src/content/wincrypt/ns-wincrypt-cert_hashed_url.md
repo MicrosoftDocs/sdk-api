@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_HASHED_URL
+ - PCERT_HASHED_URL
  - CERT_HASHED_URL
 ---
 
@@ -81,3 +83,4 @@ The address of a null-terminated Unicode string that contains the URL. This memb
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_reference">CERT_LOGOTYPE_REFERENCE</a>
+

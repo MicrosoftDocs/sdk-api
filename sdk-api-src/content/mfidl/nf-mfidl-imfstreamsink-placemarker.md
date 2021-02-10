@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFStreamSink.PlaceMarker
+ - IMFStreamSink::PlaceMarker
 ---
 
 # IMFStreamSink::PlaceMarker
@@ -126,3 +126,4 @@ This method causes the stream sink to send an <a href="/windows/desktop/medfound
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
+

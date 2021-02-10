@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.Clone
+ - IWbemClassObject::Clone
 ---
 
 # IWbemClassObject::Clone
@@ -81,3 +81,4 @@ Use this method to duplicate a class definition, or to duplicate an instance. Th
 <b>IWbemClassObject::Clone</b> to produce 100 copies of the instance quickly. Each object can be modified subsequently to take on its particular values.
 
 It is not possible to use this method to convert a class definition into an instance, or convert an instance into a class definition.
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tbs.h
 api_name:
+ - _TPM_DEVICE_INFO
+ - PTPM_DEVICE_INFO
  - TPM_DEVICE_INFO
 ---
 

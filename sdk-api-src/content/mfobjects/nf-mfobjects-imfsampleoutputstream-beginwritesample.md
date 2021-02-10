@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFSampleOutputStream.BeginWriteSample
+ - IMFSampleOutputStream::BeginWriteSample
 ---
 
 # IMFSampleOutputStream::BeginWriteSample
@@ -77,3 +77,4 @@ When the sample has been written to the stream, the callback object's <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsampleoutputstream">IMFSampleOutputStream</a>
+

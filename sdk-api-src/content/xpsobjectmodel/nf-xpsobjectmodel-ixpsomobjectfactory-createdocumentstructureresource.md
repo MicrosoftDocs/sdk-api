@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateDocumentStructureResource
+ - IXpsOMObjectFactory::CreateDocumentStructureResource
 ---
 
 # IXpsOMObjectFactory::CreateDocumentStructureResource
@@ -135,3 +135,4 @@ The content of the DocumentStructure and StoryFragments parts is described in th
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

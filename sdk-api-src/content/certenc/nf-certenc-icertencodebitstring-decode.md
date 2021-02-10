@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeBitString.Decode
- - CCertEncodeBitString.Decode
+ - ICertEncodeBitString::Decode
 ---
 
 # ICertEncodeBitString::Decode
@@ -87,3 +86,4 @@ For an example that calls the <b>Decode</b> method, see the <a href="/windows/de
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-encode">ICertEncodeBitString::Encode</a>
+

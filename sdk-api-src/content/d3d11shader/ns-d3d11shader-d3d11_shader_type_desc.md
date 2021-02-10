@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D11Shader.h
 api_name:
+ - _D3D11_SHADER_TYPE_DESC
  - D3D11_SHADER_TYPE_DESC
 ---
 
@@ -111,3 +112,4 @@ Get a shader-variable-type description by calling <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
+

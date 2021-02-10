@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontFamily.IsAvailable
+ - FontFamily::IsAvailable
 ---
 
 # FontFamily::IsAvailable
@@ -72,3 +72,4 @@ If this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamil
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getlaststatus">FontFamily::GetLastStatus</a>
+

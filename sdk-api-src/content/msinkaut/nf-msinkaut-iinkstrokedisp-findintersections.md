@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.FindIntersections
+ - IInkStrokeDisp::FindIntersections
 ---
 
 # IInkStrokeDisp::FindIntersections
@@ -173,3 +173,4 @@ This method can determine only the points of intersection.
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

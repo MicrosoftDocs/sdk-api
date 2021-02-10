@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1010
+ - PSERVER_INFO_1010
  - SERVER_INFO_1010
 ---
 
@@ -83,3 +85,4 @@ If a session is idle longer than the period of time specified by this member, th
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

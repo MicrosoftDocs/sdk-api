@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTransform.SetOutputBounds
+ - IMFTransform::SetOutputBounds
 ---
 
 # IMFTransform::SetOutputBounds
@@ -129,3 +129,4 @@ If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, thi
 
 
 <a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+

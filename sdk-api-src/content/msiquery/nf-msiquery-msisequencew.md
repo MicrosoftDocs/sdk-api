@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSequenceW
  - msiquery/MsiSequenceW
+ - MsiSequence
+ - msiquery/MsiSequence
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSequence
- - MsiSequenceA
  - MsiSequenceW
+ - MsiSequence
 ---
 
 # MsiSequenceW function
@@ -99,3 +100,4 @@ An action sequence containing any actions that update the system, such as the
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">Installer Action Functions</a>
+

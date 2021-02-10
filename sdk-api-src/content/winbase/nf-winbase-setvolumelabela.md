@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetVolumeLabelA
  - winbase/SetVolumeLabelA
+ - SetVolumeLabel
+ - winbase/SetVolumeLabel
 dev_langs:
  - c++
 topic_type:
@@ -51,9 +53,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - SetVolumeLabel
  - SetVolumeLabelA
- - SetVolumeLabelW
+ - SetVolumeLabel
 ---
 
 # SetVolumeLabelA function
@@ -171,3 +172,4 @@ SMB does not support volume management functions.
 
 
 <a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
+

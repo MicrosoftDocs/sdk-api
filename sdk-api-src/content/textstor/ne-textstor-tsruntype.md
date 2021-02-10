@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Textstor.h
 api_name:
+ - __MIDL___MIDL_itf_textstor_0000_0000_0003
  - TsRunType
 ---
 
@@ -110,3 +111,4 @@ A text run is a collection of consecutive characters that is visible, hidden, or
 
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO</a>
+

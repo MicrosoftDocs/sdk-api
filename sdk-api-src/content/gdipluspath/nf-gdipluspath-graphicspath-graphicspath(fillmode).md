@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.GraphicsPath
+ - GraphicsPath::GraphicsPath
 ---
 
 # GraphicsPath::GraphicsPath(IN FillMode)
@@ -92,3 +92,4 @@ Optional. Element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusen
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

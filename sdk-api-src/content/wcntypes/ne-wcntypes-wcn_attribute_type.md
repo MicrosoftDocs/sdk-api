@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
+ - tagWCN_ATTRIBUTE_TYPE
  - WCN_ATTRIBUTE_TYPE
 ---
 
@@ -610,3 +611,4 @@ Reserved. Do not use.
 ### -field WCN_NUM_ATTRIBUTE_TYPES
 
 The number of assigned attributes.
+

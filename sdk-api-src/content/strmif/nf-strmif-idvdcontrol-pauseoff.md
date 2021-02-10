@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl.PauseOff
+ - IDvdControl::PauseOff
 ---
 
 # IDvdControl::PauseOff
@@ -77,3 +77,4 @@ This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, D
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-pauseon">IDvdControl::PauseOn</a>
+

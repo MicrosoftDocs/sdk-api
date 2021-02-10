@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StrStrA
  - shlwapi/StrStrA
+ - StrStr
+ - shlwapi/StrStr
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrStr
  - StrStrA
- - StrStrW
+ - StrStr
 ---
 
 # StrStrA function

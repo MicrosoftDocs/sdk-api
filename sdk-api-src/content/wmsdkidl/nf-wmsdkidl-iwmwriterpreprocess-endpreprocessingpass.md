@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess.EndPreprocessingPass
+ - IWMWriterPreprocess::EndPreprocessingPass
 ---
 
 # IWMWriterPreprocess::EndPreprocessingPass
@@ -127,3 +127,4 @@ There was an error ending the preprocessing path.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
+

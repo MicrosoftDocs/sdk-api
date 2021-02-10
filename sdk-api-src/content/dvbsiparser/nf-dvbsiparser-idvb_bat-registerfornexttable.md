@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_BAT.RegisterForNextTable
+ - IDVB_BAT::RegisterForNextTable
 ---
 
 # IDVB_BAT::RegisterForNextTable
@@ -125,3 +125,4 @@ This method applies only to <i>current</i> tables. Otherwise, the method returns
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_bat">IDVB_BAT Interface</a>
+

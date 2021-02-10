@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dvp.h
 api_name:
+ - _DDVIDEOPORTBANDWIDTH
+ - LPDDVIDEOPORTBANDWIDTH
  - DDVIDEOPORTBANDWIDTH
 ---
 
@@ -124,3 +126,4 @@ Reserved for system use and should be ignored by the driver.
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getbandwidth">DdVideoPortGetBandwidth</a>
+

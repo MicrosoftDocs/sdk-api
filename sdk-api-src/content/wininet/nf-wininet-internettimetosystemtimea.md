@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetTimeToSystemTimeA
  - wininet/InternetTimeToSystemTimeA
+ - InternetTimeToSystemTime
+ - wininet/InternetTimeToSystemTime
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Http-Time-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - InternetTimeToSystemTime
  - InternetTimeToSystemTimeA
- - InternetTimeToSystemTimeW
+ - InternetTimeToSystemTime
 ---
 
 # InternetTimeToSystemTimeA function
@@ -95,3 +96,4 @@ Returns <b>TRUE</b> if the string was converted, or <b>FALSE</b> otherwise. To g
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

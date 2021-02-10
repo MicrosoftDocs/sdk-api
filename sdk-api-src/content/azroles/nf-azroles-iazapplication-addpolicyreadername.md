@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication.AddPolicyReaderName
- - AzApplication.AddPolicyReaderName
+ - IAzApplication::AddPolicyReaderName
 ---
 
 # IAzApplication::AddPolicyReaderName
@@ -76,3 +75,4 @@ Policy readers for an object can read attributes for the object and for child ob
 To view the list of policy readers in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_policyreadersname">PolicyReadersName</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">Submit</a> method to persist any changes made by this method.
+

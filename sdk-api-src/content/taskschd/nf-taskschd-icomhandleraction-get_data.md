@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IComHandlerAction.Data
- - IComHandlerAction.get_Data
- - IComHandlerAction.put_Data
+ - IComHandlerAction::get_Data
 ---
 
 # IComHandlerAction::get_Data
@@ -69,3 +67,4 @@ When reading or writing XML, the data of a COM handler is specified in the <a hr
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

@@ -9,6 +9,8 @@ tech.root: controls
 f1_keywords:
  - prsht
  - prsht/prsht
+api_name:
+ - prsht
 ---
 
 # Prsht.h header

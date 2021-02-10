@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1DrawTransform.SetDrawInfo
+ - ID2D1DrawTransform::SetDrawInfo
 ---
 
 # ID2D1DrawTransform::SetDrawInfo
@@ -76,3 +76,4 @@ This is also used to determine that the corresponding nodes in the graph are dir
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform">ID2D1DrawTransform</a>
+

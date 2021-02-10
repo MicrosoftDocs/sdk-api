@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetMaterial
+ - IDirect3DDevice9::SetMaterial
 ---
 
 # IDirect3DDevice9::SetMaterial
@@ -74,3 +74,4 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if the pM
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial">IDirect3DDevice9::GetMaterial</a>
+

@@ -46,8 +46,9 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - SOURCE_MEDIA
- - source_media_a
+ - _SOURCE_MEDIA_A
+ - PSOURCE_MEDIA_A
+ - SOURCE_MEDIA_A
 ---
 
 # SOURCE_MEDIA_A structure
@@ -129,3 +130,4 @@ Do not offer the user the option to browse.
 
 > [!NOTE]
 > The setupapi.h header defines SOURCE_MEDIA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

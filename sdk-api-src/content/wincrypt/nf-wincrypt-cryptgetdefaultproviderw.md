@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CryptGetDefaultProviderW
  - wincrypt/CryptGetDefaultProviderW
+ - CryptGetDefaultProvider
+ - wincrypt/CryptGetDefaultProvider
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Security-cryptoapi-l1-1-0.dll
  - cryptsp.dll
 api_name:
- - CryptGetDefaultProvider
- - CryptGetDefaultProviderA
  - CryptGetDefaultProviderW
+ - CryptGetDefaultProvider
 ---
 
 # CryptGetDefaultProviderW function
@@ -292,3 +293,4 @@ void main()
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoMachine.GetUserSDO
- - SdoMachine.GetUserSDO
+ - ISdoMachine::GetUserSDO
 ---
 
 # ISdoMachine::GetUserSDO
@@ -110,3 +109,4 @@ None of the parameters can be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-userproperties">USERPROPERTIES</a>
+

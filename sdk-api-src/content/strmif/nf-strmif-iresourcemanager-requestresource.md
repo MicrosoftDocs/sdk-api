@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceManager.RequestResource
+ - IResourceManager::RequestResource
 ---
 
 # IResourceManager::RequestResource
@@ -95,3 +95,4 @@ The focus object must be valid for the entire lifetime of the request—until ei
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
+

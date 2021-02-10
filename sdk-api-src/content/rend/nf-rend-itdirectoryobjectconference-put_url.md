@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference.put_Url
+ - ITDirectoryObjectConference::put_Url
 ---
 
 # ITDirectoryObjectConference::put_Url
@@ -143,3 +143,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_url">ITDirectoryObjectConference::get_Url</a>
+

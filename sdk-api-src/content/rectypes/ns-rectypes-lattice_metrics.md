@@ -44,6 +44,7 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
+ - tagLATTICE_METRICS
  - LATTICE_METRICS
 ---
 
@@ -67,3 +68,4 @@ Offset of the midline, relative to the baseline, in HIMETRIC units.
 ## -see-also
 
 <a href="/windows/desktop/api/rectypes/ns-rectypes-line_segment">LINE_SEGMENT Structure</a>
+

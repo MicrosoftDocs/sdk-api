@@ -42,8 +42,6 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IExtractIcon.Extract
- - IExtractIconA::Extract
  - IExtractIconW::Extract
 ---
 
@@ -99,3 +97,4 @@ The icon location and index are the same values returned by the <a href="/window
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a>
+

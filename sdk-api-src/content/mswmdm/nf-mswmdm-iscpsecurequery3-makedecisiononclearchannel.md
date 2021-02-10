@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureQuery3.MakeDecisionOnClearChannel
+ - ISCPSecureQuery3::MakeDecisionOnClearChannel
 ---
 
 # ISCPSecureQuery3::MakeDecisionOnClearChannel
@@ -261,3 +261,4 @@ This method is identical to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscps
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery3">ISCPSecureQuery3 Interface</a>
+

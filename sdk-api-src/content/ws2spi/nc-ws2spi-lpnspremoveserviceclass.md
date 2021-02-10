@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - NSPRemoveServiceClass
+ - LPNSPREMOVESERVICECLASS
 ---
 
 # LPNSPREMOVESERVICECLASS callback function

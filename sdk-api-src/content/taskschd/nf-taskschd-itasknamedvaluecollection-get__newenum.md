@@ -42,8 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskNamedValueCollection._NewEnum
- - ITaskNamedValueCollection.get__NewEnum
+ - ITaskNamedValueCollection::get__NewEnum
 ---
 
 # ITaskNamedValueCollection::get__NewEnum
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluecollection">ITaskNamedValueCollection</a>
+

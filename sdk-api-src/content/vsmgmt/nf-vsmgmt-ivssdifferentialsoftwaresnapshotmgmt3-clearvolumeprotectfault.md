@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
+ - IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
@@ -156,3 +156,4 @@ The <b>ClearVolumeProtectFault</b> method dismounts the volume and resets the vo
 ## -see-also
 
 <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
+

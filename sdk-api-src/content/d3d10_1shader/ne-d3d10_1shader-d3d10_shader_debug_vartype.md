@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d10_1shader.h
 api_name:
+ - _D3D10_SHADER_DEBUG_VARTYPE
  - D3D10_SHADER_DEBUG_VARTYPE
 ---
 
@@ -71,3 +72,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
+

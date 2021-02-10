@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcPartSet.GetEnumerator
+ - IOpcPartSet::GetEnumerator
 ---
 
 # IOpcPartSet::GetEnumerator
@@ -140,3 +140,4 @@ An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/deskto
 
 
 <b>Reference</b>
+

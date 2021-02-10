@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl.Finish
+ - ITBasicCallControl::Finish
 ---
 
 # ITBasicCallControl::Finish
@@ -158,3 +158,4 @@ Some service providers do not support this operation while streaming is active. 
 
 
 <a href="/windows/desktop/Tapi/transfer-ovr">Transfer overview</a>
+

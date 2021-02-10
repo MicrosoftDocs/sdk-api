@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader.Start
+ - IWMReader::Start
 ---
 
 # IWMReader::Start
@@ -151,3 +151,4 @@ This method is very similar to the <a href="/windows/desktop/api/wmsdkidl/nf-wms
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback Interface</a>
+

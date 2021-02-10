@@ -44,7 +44,7 @@ api_location:
  - API-MS-Win-OOBE-Notification-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - isOOBEComplete
+ - OOBEComplete
 ---
 
 # OOBEComplete function
@@ -66,3 +66,4 @@ Pointer to a variable that will receive the completion of OOBE upon success.
       <b>FALSE</b> if OOBE completion state was not set. If <b>FALSE</b>, 
       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will retrieve extended error 
       information.
+

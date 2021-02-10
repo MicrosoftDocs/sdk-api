@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleAdviseHolder.Unadvise
+ - IOleAdviseHolder::Unadvise
 ---
 
 # IOleAdviseHolder::Unadvise
@@ -101,3 +101,4 @@ Typically, containers call this method at shutdown or when an object is deleted.
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a>
+

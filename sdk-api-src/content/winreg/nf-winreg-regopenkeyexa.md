@@ -32,6 +32,8 @@ ms.custom: snippet-project
 f1_keywords:
  - RegOpenKeyExA
  - winreg/RegOpenKeyExA
+ - RegOpenKeyEx
+ - winreg/RegOpenKeyEx
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - api-ms-win-core-registry-l1-1-1.dll
  - kernel32.dll
 api_name:
- - RegOpenKeyEx
  - RegOpenKeyExA
- - RegOpenKeyExW
+ - RegOpenKeyEx
 ---
 
 # RegOpenKeyExA function
@@ -203,3 +204,4 @@ To see this example in context, see
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
+

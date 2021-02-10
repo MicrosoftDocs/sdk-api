@@ -43,7 +43,7 @@ api_location:
  - Inaddr.h
  - Winsock2.h
 api_name:
- - IN_ADDR
+ - in_addr
 ---
 
 # in_addr structure
@@ -106,3 +106,4 @@ The <b>in_addr</b> structure is the IPv4 equivalent of the IPv6-based <a href="/
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
+

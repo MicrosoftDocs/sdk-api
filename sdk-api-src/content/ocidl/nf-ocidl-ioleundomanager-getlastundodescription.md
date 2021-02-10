@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager.GetLastUndoDescription
+ - IOleUndoManager::GetLastUndoDescription
 ---
 
 # IOleUndoManager::GetLastUndoDescription
@@ -102,3 +102,4 @@ This method provides a convenient shortcut for the host application to add a des
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getlastredodescription">IOleUndoManager::GetLastRedoDescription</a>
+

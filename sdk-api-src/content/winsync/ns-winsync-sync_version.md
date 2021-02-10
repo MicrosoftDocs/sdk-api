@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
+ - _SYNC_VERSION
  - SYNC_VERSION
 ---
 
@@ -116,3 +117,4 @@ A change that is made directly to a replica, such as a change that is made by a 
 
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
+

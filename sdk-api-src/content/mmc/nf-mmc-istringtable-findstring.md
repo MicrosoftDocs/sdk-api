@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IStringTable.FindString
+ - IStringTable::FindString
 ---
 
 # IStringTable::FindString
@@ -73,3 +73,4 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-istringtable-enumerate">IStringTable::Enumerate</a>
+

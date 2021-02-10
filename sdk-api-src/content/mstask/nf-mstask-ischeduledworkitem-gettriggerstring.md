@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.GetTriggerString
+ - IScheduledWorkItem::GetTriggerString
 ---
 
 # IScheduledWorkItem::GetTriggerString
@@ -130,3 +130,4 @@ For an example of how to retrieve the trigger string of all triggers associated 
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+

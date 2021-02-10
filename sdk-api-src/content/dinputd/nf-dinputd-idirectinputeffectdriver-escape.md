@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputEffectDriver.Escape
+ - IDirectInputEffectDriver::Escape
 ---
 
 # IDirectInputEffectDriver::Escape
@@ -69,3 +69,4 @@ Points to a <a href="/windows/desktop/api/dinput/ns-dinput-dieffescape">DIEFFESC
 ## -returns
 
 Returns S_OK if successful; otherwise, returns an error code.
+

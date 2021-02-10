@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun.QueryActiveControllers
+ - IVdsLun::QueryActiveControllers
 ---
 
 # IVdsLun::QueryActiveControllers
@@ -169,3 +169,4 @@ Most subsystems offer only one active controller for a LUN, leaving the other co
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-associatecontrollers">IVdsLun::AssociateControllers</a>
+

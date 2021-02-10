@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.GetAutoIndexing
+ - IWMWriterFileSink3::GetAutoIndexing
 ---
 
 # IWMWriterFileSink3::GetAutoIndexing
@@ -105,3 +105,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setautoindexing">IWMWriterFileSink3::SetAutoIndexing</a>
+

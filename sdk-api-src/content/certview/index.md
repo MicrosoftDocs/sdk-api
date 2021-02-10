@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - certview
  - certview/certview
+api_name:
+ - certview
 ---
 
 # Certview.h header

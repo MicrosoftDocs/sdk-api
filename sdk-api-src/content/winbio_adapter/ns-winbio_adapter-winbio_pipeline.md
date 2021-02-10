@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
+ - _WINBIO_PIPELINE
+ - PWINBIO_PIPELINE
  - WINBIO_PIPELINE
 ---
 
@@ -107,3 +109,4 @@ Each biometric unit has its own unique <b>WINBIO_PIPELINE</b> structure to maint
 
 
 <a href="/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>
+

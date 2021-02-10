@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_VERB
+ - PHTTP_VERB
  - HTTP_VERB
 ---
 
@@ -187,3 +189,4 @@ Terminates the enumeration; is not used to define a verb.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
+

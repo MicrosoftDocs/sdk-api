@@ -46,7 +46,9 @@ api_type:
 api_location:
  - ws2def.h
 api_name:
- - SOCKADDR_STORAGE_LH
+ - sockaddr_storage_xp
+ - PSOCKADDR_STORAGE_XP
+ - SOCKADDR_STORAGE_XP
 ---
 
 # SOCKADDR_STORAGE_XP structure
@@ -88,3 +90,4 @@ A WSK application typically does not directly access any of the members of the S
 ## -see-also
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+

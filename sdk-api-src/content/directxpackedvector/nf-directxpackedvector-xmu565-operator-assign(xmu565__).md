@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU565.operator =
+ - XMU565::operator=
 ---
 
 # XMU565::operator-assign(XMU565 &&)

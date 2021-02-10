@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetMethodAttributes
+ - IPortableDeviceServiceCapabilities::GetMethodAttributes
 ---
 
 # IPortableDeviceServiceCapabilities::GetMethodAttributes
@@ -93,3 +93,4 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-supported-methods">Retrieving Supported Service Methods</a>
+

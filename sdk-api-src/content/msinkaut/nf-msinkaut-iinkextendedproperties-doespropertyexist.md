@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkExtendedProperties.DoesPropertyExist
+ - IInkExtendedProperties::DoesPropertyExist
 ---
 
 # IInkExtendedProperties::DoesPropertyExist
@@ -156,3 +156,4 @@ The stroke is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
+

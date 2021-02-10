@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FoldStringW
  - stringapiset/FoldStringW
+ - FoldString
+ - stringapiset/FoldString
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - FoldString
- - FoldStringA
  - FoldStringW
+ - FoldString
 ---
 
 # FoldStringW function
@@ -193,3 +194,4 @@ The compatibility zone in Unicode consists of characters in the range 0xF900 thr
 
 
 <a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
+

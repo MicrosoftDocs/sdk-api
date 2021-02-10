@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.GetCompositingQuality
+ - Graphics::GetCompositingQuality
 ---
 
 # Graphics::GetCompositingQuality
@@ -95,3 +95,4 @@ This method returns an element of the
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
+

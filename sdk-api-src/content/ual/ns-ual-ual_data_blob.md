@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ual.h
 api_name:
+ - tagUAL_DATA_BLOB
+ - PUAL_DATA_BLOB
  - UAL_DATA_BLOB
 ---
 
@@ -89,3 +91,4 @@ The name of the client user that accompanies the UAL payload from installed role
 
 
 <a href="/previous-versions/windows/desktop/api/ual/nf-ual-ualstop">UalStop</a>
+

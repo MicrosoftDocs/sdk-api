@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.SetAcquisitionTime
+ - IPhotoAcquireSettings::SetAcquisitionTime
 ---
 
 # IPhotoAcquireSettings::SetAcquisitionTime
@@ -92,3 +92,4 @@ This method is typically used to force two sessions to show the same acquisition
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
+

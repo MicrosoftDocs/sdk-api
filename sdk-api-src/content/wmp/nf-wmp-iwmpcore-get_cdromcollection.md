@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore.get_cdromCollection
+ - IWMPCore::get_cdromCollection
 ---
 
 # IWMPCore::get_cdromCollection
@@ -91,3 +91,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
+

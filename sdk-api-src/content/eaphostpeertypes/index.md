@@ -9,6 +9,8 @@ tech.root: eaphost
 f1_keywords:
  - eaphostpeertypes
  - eaphostpeertypes/eaphostpeertypes
+api_name:
+ - eaphostpeertypes
 ---
 
 # Eaphostpeertypes.h header

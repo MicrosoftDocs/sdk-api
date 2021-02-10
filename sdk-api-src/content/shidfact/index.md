@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - shidfact
  - shidfact/shidfact
+api_name:
+ - shidfact
 ---
 
 # Shidfact.h header

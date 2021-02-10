@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Slpublic.h
 api_name:
+ - _tagSLDATATYPE
  - SLDATATYPE
 ---
 
@@ -79,3 +80,4 @@ The buffer contains multiple null-terminated Unicode strings.
 ### -field SL_DATA_SUM
 
 The buffer contains a sum.
+

@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - schannel
  - schannel/schannel
+api_name:
+ - schannel
 ---
 
 # Schannel.h header

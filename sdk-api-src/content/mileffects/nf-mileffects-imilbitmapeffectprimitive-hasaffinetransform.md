@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive.HasAffineTransform
+ - IMILBitmapEffectPrimitive::HasAffineTransform
 ---
 
 # IMILBitmapEffectPrimitive::HasAffineTransform

@@ -45,6 +45,7 @@ api_location:
  - x3daudio.h
 api_name:
  - X3DAUDIO_LISTENER
+ - LPX3DAUDIO_LISTENER
 ---
 
 # X3DAUDIO_LISTENER structure
@@ -92,3 +93,4 @@ A listener's front and top vectors must be orthonormal. To be considered orthono
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
+

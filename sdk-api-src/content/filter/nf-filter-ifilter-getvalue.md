@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - IFilter.GetValue
+ - IFilter::GetValue
 ---
 
 # IFilter::GetValue
@@ -121,3 +121,4 @@ Allocate the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPV
 ## -see-also
 
 <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
+

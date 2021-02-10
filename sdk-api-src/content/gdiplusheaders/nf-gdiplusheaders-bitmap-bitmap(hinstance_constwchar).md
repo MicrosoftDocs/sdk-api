@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap.Bitmap
+ - Bitmap::Bitmap
 ---
 
 # Bitmap::Bitmap(IN HINSTANCE,IN const WCHAR)
@@ -87,3 +87,4 @@ Pointer to a null-terminated string that specifies the path name of the bitmap r
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

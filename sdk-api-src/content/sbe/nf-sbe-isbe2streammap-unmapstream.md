@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2StreamMap.UnmapStream
+ - ISBE2StreamMap::UnmapStream
 ---
 
 # ISBE2StreamMap::UnmapStream
@@ -117,3 +117,4 @@ Cannot unmap the stream, because the default mode is enabled.
 
 
 <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a>
+

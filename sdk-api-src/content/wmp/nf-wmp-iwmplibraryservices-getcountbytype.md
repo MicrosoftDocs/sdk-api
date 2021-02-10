@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPLibraryServices.getCountByType
+ - IWMPLibraryServices::getCountByType
 ---
 
 # IWMPLibraryServices::getCountByType
@@ -99,3 +99,4 @@ You must initialize the <i>plCount</i> variable before passing in its pointer.
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelper.LowHealth
+ - INetDiagHelper::LowHealth
 ---
 
 # INetDiagHelper::LowHealth
@@ -150,3 +150,4 @@ LowHealth may also return <b>DS_INDETERMINATE</b> if it is unable to diagnose th
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
+

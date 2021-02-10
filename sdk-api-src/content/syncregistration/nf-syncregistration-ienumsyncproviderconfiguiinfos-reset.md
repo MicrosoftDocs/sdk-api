@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - IEnumSyncProviderConfigUIInfos.Reset
+ - IEnumSyncProviderConfigUIInfos::Reset
 ---
 
 # IEnumSyncProviderConfigUIInfos::Reset
@@ -79,3 +79,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>
+

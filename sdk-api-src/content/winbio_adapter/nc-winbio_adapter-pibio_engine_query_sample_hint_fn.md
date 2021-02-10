@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterQuerySampleHint
+ - PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
 ---
 
 # PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback function
@@ -158,3 +158,4 @@ cleanup:
 
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

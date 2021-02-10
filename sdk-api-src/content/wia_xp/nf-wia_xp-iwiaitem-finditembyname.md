@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItem.FindItemByName
+ - IWiaItem::FindItemByName
 ---
 
 # IWiaItem::FindItemByName
@@ -83,3 +83,4 @@ This method returns S_OK if it finds the item, or S_FALSE if it does not find th
 This method searches the current item's tree of sub-items using the name as the search key. If <b>IWiaItem::FindItemByName</b> finds the item specified by <i>bstrFullItemName</i>, it stores the address of a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface of the item in the <i>ppIWiaItem</i> parameter.
 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.
+

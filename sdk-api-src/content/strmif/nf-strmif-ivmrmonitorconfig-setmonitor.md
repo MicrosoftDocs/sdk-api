@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMonitorConfig.SetMonitor
+ - IVMRMonitorConfig::SetMonitor
 ---
 
 # IVMRMonitorConfig::SetMonitor
@@ -137,3 +137,4 @@ If the specified GUID does not correspond to any monitor, the method return E_IN
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

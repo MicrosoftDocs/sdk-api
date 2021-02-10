@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskTrigger.SetTrigger
+ - ITaskTrigger::SetTrigger
 ---
 
 # ITaskTrigger::SetTrigger
@@ -162,3 +162,4 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
+

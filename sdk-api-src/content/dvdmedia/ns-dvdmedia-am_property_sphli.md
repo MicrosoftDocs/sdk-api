@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
+ - _AM_PROPERTY_SPHLI
+ - PAM_PROPERTY_SPHLI
  - AM_PROPERTY_SPHLI
 ---
 
@@ -101,3 +103,4 @@ The <b>AM_PROPERTY_DVDSUBPIC_HLI</b> property uses this structure.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-subpicture-property-set">DVD Subpicture Property Set</a>
+

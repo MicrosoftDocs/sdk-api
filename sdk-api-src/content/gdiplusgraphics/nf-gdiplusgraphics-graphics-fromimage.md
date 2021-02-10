@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.FromImage
+ - Graphics::FromImage
 ---
 
 # Graphics::FromImage
@@ -153,3 +153,4 @@ VOID Example_FromImage(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

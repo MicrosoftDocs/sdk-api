@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineHandoff
- - lineHandoffA
- - lineHandoffW
 ---
 
 # lineHandoff function
@@ -146,3 +144,4 @@ If none of the media modes succeeded in making a determination, only the UNKNOWN
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a>
+

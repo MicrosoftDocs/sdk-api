@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RtlEthernetStringToAddressA
  - ip2string/RtlEthernetStringToAddressA
+ - RtlEthernetStringToAddress
+ - ip2string/RtlEthernetStringToAddress
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdll.dll
 api_name:
- - RtlEthernetStringToAddress
  - RtlEthernetStringToAddressA
- - RtlEthernetStringToAddressW
+ - RtlEthernetStringToAddress
 ---
 
 # RtlEthernetStringToAddressA function
@@ -146,3 +147,4 @@ The <b>DL_EUI48</b> data type is defined in the <i>Mstcpip.h</i>  header file.
 ## -see-also
 
 <a href="/windows/desktop/api/ip2string/nf-ip2string-rtlethernetaddresstostringa">RtlEthernetAddressToString</a>
+

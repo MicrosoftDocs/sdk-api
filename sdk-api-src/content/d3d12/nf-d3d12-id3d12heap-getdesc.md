@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.h
 api_name:
- - ID3D12Heap.GetDesc
+ - ID3D12Heap::GetDesc
 ---
 
 # ID3D12Heap::GetDesc
@@ -63,3 +63,4 @@ Returns the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc">D3D12_
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12heap">ID3D12Heap</a>
+

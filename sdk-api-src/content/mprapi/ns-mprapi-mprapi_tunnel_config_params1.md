@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - MPRAPI_TUNNEL_CONFIG_PARAMS
- - MPRAPI_TUNNEL_CONFIG_PARAMS0
+ - _MPRAPI_TUNNEL_CONFIG_PARAMS1
+ - PMPRAPI_TUNNEL_CONFIG_PARAMS1
  - MPRAPI_TUNNEL_CONFIG_PARAMS1
 ---
 
@@ -89,3 +89,4 @@ A <a href="/windows/desktop/api/mprapi/ns-mprapi-sstp_config_params">SSTP_CONFIG
 
 
 <a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
+

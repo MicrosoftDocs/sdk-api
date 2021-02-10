@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl.MouseSelect
+ - IDvdControl::MouseSelect
 ---
 
 # IDvdControl::MouseSelect
@@ -79,3 +79,4 @@ DVD buttons do not all necessarily have highlight rectangles. Button rectangles 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
+

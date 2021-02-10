@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - phoneGetIcon
- - phoneGetIconA
- - phoneGetIconW
 ---
 
 # phoneGetIcon function
@@ -99,3 +97,4 @@ For applications using a TAPI version earlier than 2.0, if the provider does not
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>
+

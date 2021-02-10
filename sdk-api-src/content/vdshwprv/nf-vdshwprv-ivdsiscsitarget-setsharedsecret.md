@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget.SetSharedSecret
+ - IVdsIscsiTarget::SetSharedSecret
 ---
 
 # IVdsIscsiTarget::SetSharedSecret
@@ -171,3 +171,4 @@ Some iSCSI targets may support setting a different CHAP shared secret for each i
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a>
+

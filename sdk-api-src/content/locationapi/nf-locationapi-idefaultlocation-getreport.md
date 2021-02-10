@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - IDefaultLocation.GetReport
+ - IDefaultLocation::GetReport
 ---
 
 # IDefaultLocation::GetReport
@@ -138,3 +138,4 @@ A call to <b>IDefaultLocation::GetReport</b> may result in a notification being 
 
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-idefaultlocation">IDefaultLocation</a>
+

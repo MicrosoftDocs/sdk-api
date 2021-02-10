@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _UNLOAD_DLL_DEBUG_INFO
+ - LPUNLOAD_DLL_DEBUG_INFO
  - UNLOAD_DLL_DEBUG_INFO
 ---
 
@@ -65,3 +67,4 @@ A pointer to the base address of the DLL in the address space of the process unl
 ## -see-also
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
+

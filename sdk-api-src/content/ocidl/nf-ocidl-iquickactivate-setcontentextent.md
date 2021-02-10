@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IQuickActivate.SetContentExtent
+ - IQuickActivate::SetContentExtent
 ---
 
 # IQuickActivate::SetContentExtent
@@ -65,3 +65,4 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>
+

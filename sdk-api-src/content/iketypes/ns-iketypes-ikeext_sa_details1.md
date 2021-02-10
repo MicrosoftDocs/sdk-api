@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_SA_DETAILS1_
  - IKEEXT_SA_DETAILS1
 ---
 
@@ -107,3 +108,4 @@ ID/Handle to virtual interface tunneling state. Applicable only to IKEv2.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

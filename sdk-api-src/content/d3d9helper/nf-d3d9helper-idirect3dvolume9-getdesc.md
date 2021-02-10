@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVolume9.GetDesc
+ - IDirect3DVolume9::GetDesc
 ---
 
 # IDirect3DVolume9::GetDesc
@@ -70,3 +70,4 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccountSet.AddAccount
+ - IFaxAccountSet::AddAccount
 ---
 
 # IFaxAccountSet::AddAccount
@@ -85,3 +85,4 @@ When the new account is returned, all its values except the name are set to defa
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountset">IFaxAccountSet</a>
+

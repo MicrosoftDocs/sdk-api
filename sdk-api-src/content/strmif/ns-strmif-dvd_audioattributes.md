@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_AudioAttributes
  - DVD_AudioAttributes
 ---
 
@@ -97,3 +98,4 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

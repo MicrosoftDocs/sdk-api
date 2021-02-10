@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap.GetBaseInset
+ - CustomLineCap::GetBaseInset
 ---
 
 # CustomLineCap::GetBaseInset
@@ -106,3 +106,4 @@ VOID Example_GetBaseInset(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
+

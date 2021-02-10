@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_get_dnW
  - winldap/ldap_get_dnW
+ - ldap_get_dn
+ - winldap/ldap_get_dn
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_get_dn
- - ldap_get_dnA
  - ldap_get_dnW
+ - ldap_get_dn
 ---
 
 # ldap_get_dnW function
@@ -104,3 +105,4 @@ The <b>ldap_get_dn</b> function retrieves the distinguished name for an entry th
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
+

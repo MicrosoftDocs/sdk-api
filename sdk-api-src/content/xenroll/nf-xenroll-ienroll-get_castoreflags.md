@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.CAStoreFlags
- - IEnroll.get_CAStoreFlags
- - IEnroll.put_CAStoreFlags
+ - IEnroll::get_CAStoreFlags
 ---
 
 # IEnroll::get_CAStoreFlags
@@ -78,3 +76,4 @@ The <b>CAStoreFlags</b> property affects the behavior of the following methods:
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

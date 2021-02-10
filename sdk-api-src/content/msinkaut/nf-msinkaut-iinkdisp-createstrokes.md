@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp.CreateStrokes
+ - IInkDisp::CreateStrokes
 ---
 
 # IInkDisp::CreateStrokes
@@ -157,3 +157,4 @@ If the <i>ids</i> parameter is <b>NULL</b> or an empty array, then an empty <a h
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

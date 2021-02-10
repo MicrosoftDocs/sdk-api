@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IPerformanceCounterDataCollector.SegmentMaxRecords
- - IPerformanceCounterDataCollector.get_SegmentMaxRecords
- - IPerformanceCounterDataCollector.put_SegmentMaxRecords
+ - IPerformanceCounterDataCollector::get_SegmentMaxRecords
 ---
 
 # IPerformanceCounterDataCollector::get_SegmentMaxRecords
@@ -65,3 +63,4 @@ When the maximum number of samples is reached, PLA switches to a new log file an
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
+

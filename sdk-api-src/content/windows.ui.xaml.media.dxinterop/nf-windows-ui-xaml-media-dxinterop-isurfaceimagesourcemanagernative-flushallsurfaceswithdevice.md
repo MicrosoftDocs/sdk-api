@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
+ - ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice
 ---
 
 # ISurfaceImageSourceManagerNative::xaml
@@ -91,3 +91,4 @@ You can call the <b>FlushAllSurfacesWithDevice</b> method from a non-UI thread.
 
 
 <a href="/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509SCEPEnrollment.Request
- - IX509SCEPEnrollment.get_Request
+ - IX509SCEPEnrollment::get_Request
 ---
 
 # IX509SCEPEnrollment::get_Request
@@ -64,3 +63,4 @@ You can use the inner PKCS10 request instance to set the subject, extensions, pr
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
+

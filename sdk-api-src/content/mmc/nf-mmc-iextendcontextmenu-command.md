@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendContextMenu.Command
+ - IExtendContextMenu::Command
 ---
 
 # IExtendContextMenu::Command
@@ -98,3 +98,4 @@ MMC sends the snap-in the MMCC_STANDARD_VIEW_SELECT command when the user clicks
 
 
 <a href="/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
+

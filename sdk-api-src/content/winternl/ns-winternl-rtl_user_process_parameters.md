@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winternl.h
 api_name:
+ - _RTL_USER_PROCESS_PARAMETERS
+ - PRTL_USER_PROCESS_PARAMETERS
  - RTL_USER_PROCESS_PARAMETERS
 ---
 
@@ -79,3 +81,4 @@ The command-line string passed to the process.
 ## -see-also
 
 <a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a>
+

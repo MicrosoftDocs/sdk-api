@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
+ - _WINBIO_STORAGE_RECORD
+ - PWINBIO_STORAGE_RECORD
  - WINBIO_STORAGE_RECORD
 ---
 
@@ -110,3 +112,4 @@ The <b>WINBIO_STORAGE_RECORD</b> structure and the memory it points to are the p
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_get_current_record_fn">StorageAdapterGetCurrentRecord</a>
+

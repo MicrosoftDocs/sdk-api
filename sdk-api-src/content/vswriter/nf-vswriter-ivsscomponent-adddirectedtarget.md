@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.AddDirectedTarget
+ - IVssComponent::AddDirectedTarget
 ---
 
 # IVssComponent::AddDirectedTarget
@@ -185,3 +185,4 @@ In this case, the requester retrieves the directed target information by calling
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>
+

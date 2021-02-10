@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoMixerControl.GetStreamZOrder
+ - IMFVideoMixerControl::GetStreamZOrder
 ---
 
 # IMFVideoMixerControl::GetStreamZOrder
@@ -103,3 +103,4 @@ Invalid stream identifier.
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>
+

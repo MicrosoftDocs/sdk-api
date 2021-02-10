@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor.InsertTextAtSelection
+ - ITextStoreAnchor::InsertTextAtSelection
 ---
 
 # ITextStoreAnchor::InsertTextAtSelection
@@ -180,3 +180,4 @@ The caller does not have a lock on the document.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
+

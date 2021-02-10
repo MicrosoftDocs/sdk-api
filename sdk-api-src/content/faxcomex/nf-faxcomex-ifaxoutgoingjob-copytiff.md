@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.CopyTiff
+ - IFaxOutgoingJob::CopyTiff
 ---
 
 # IFaxOutgoingJob::CopyTiff
@@ -83,3 +83,4 @@ With the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fa
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
+

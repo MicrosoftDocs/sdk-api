@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_extended_operation
- - ldap_extended_operationA
- - ldap_extended_operationW
 ---
 
 # ldap_extended_operation function
@@ -119,3 +117,4 @@ Multithreading: The <b>ldap_extended_operation</b> function is thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
+

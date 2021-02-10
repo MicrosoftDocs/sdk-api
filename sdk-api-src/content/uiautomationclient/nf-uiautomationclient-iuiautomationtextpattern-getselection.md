@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern.GetSelection
+ - IUIAutomationTextPattern::GetSelection
 ---
 
 # IUIAutomationTextPattern::GetSelection
@@ -85,3 +85,4 @@ Use the <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-i
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

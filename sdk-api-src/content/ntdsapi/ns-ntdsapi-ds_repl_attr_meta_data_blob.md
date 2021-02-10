@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - _DS_REPL_ATTR_META_DATA_BLOB
  - DS_REPL_ATTR_META_DATA_BLOB
 ---
 
@@ -91,3 +92,4 @@ Contains the offset, in bytes, from the address of this structure  to  a null-te
 
 
 <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
+

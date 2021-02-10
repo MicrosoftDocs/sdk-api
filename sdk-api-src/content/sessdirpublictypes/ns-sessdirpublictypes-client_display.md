@@ -46,6 +46,8 @@ api_type:
 api_location:
  - SessDirPublicTypes.h
 api_name:
+ - __MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0001
+ - PCLIENT_DISPLAY
  - CLIENT_DISPLAY
 ---
 
@@ -69,3 +71,4 @@ The vertical dimension, in pixels, of the client's display.
 ### -field ColorDepth
 
 The color depth of the client's display. For possible values, see the <b>ColorDepth</b> member of the <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
+

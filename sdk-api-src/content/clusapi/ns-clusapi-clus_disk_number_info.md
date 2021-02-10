@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUS_DISK_NUMBER_INFO
+ - PCLUS_DISK_NUMBER_INFO
  - CLUS_DISK_NUMBER_INFO
 ---
 
@@ -69,3 +71,4 @@ The size of the disk sectors, in bytes.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

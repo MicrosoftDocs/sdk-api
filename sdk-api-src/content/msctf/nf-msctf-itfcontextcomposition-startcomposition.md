@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfContextComposition.StartComposition
+ - ITfContextComposition::StartComposition
 ---
 
 # ITfContextComposition::StartComposition
@@ -167,3 +167,4 @@ Any text covered by <i>pCompositionRange</i> receives the GUID_PROP_COMPOSING pr
 ## -see-also
 
 [IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfCompositionSink interface](nn-msctf-itfcompositionsink.md), [ITfContextOwnerCompositionSink::OnStartComposition](nf-msctf-itfcontextownercompositionsink-onstartcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md)
+

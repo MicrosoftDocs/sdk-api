@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferSource.GetDefaultDestinationName
+ - ITransferSource::GetDefaultDestinationName
 ---
 
 # ITransferSource::GetDefaultDestinationName
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Gets the default name for a Shell item, if different than the item's parsing name.
+

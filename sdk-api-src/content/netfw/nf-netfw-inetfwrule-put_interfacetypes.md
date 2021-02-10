@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule.InterfaceTypes
- - INetFwRule.get_InterfaceTypes
- - INetFwRule.put_InterfaceTypes
+ - INetFwRule::put_InterfaceTypes
 ---
 
 # INetFwRule::put_InterfaceTypes
@@ -69,3 +67,4 @@ Acceptable values for this property are "RemoteAccess", "Wireless", "Lan", and "
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
+

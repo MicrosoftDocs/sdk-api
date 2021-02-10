@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSSBuffer.SetLength
+ - INSSBuffer::SetLength
 ---
 
 # INSSBuffer::SetLength
@@ -101,3 +101,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>
+

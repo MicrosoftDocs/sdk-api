@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider.SetOptionValue
+ - ISpellCheckProvider::SetOptionValue
 ---
 
 # ISpellCheckProvider::SetOptionValue
@@ -113,3 +113,4 @@ This method is called by the system, which reads the option values that were set
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winhttp.h
 api_name:
+ - _WINHTTP_REQUEST_STATS
+ - PWINHTTP_REQUEST_STATS
  - WINHTTP_REQUEST_STATS
 ---
 

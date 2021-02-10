@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_PURGE_TKT_CACHE_REQUEST
+ - PKERB_PURGE_TKT_CACHE_REQUEST
  - KERB_PURGE_TKT_CACHE_REQUEST
 ---
 
@@ -83,3 +85,4 @@ If both <b>ServerName</b> and <b>RealmName</b> are of zero length, <a href="/win
 
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> does not return this buffer. It returns STATUS_SUCCESS if one or more tickets are deleted. If no tickets are found, the function returns SEC_E_NO_CREDENTIALS.
+

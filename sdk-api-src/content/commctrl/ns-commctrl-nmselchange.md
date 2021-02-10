@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMSELCHANGE
+ - LPNMSELCHANGE
  - NMSELCHANGE
 ---
 
@@ -78,3 +80,4 @@ Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYST
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date for the last day in the user's selection range.
+

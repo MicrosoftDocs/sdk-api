@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spellcheckprovider.h
 api_name:
- - IComprehensiveSpellCheckProvider.ComprehensiveCheck
+ - IComprehensiveSpellCheckProvider::ComprehensiveCheck
 ---
 
 # IComprehensiveSpellCheckProvider::ComprehensiveCheck
@@ -130,3 +130,4 @@ When a client calls <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispel
 
 
 <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck">ISpellChecker::ComprehensiveCheck</a>
+

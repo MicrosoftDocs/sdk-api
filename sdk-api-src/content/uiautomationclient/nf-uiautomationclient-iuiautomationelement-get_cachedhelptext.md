@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedHelpText
- - IUIAutomationElement.get_CachedHelpText
+ - IUIAutomationElement::get_CachedHelpText
 ---
 
 # IUIAutomationElement::get_CachedHelpText
@@ -79,3 +78,4 @@ This information is typically obtained from ToolTips.
 
 
 <b>Reference</b>
+

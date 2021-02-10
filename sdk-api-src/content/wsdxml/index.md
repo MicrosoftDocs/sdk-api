@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - wsdxml
  - wsdxml/wsdxml
+api_name:
+ - wsdxml
 ---
 
 # Wsdxml.h header

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateCollection._NewEnum
- - IUpdateCollection.get__NewEnum
+ - IUpdateCollection::get__NewEnum
 ---
 
 # IUpdateCollection::get__NewEnum
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
+

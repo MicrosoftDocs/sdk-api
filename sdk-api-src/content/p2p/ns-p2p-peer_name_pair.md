@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_name_pair_tag
+ - PPEER_NAME_PAIR
  - PEER_NAME_PAIR
 ---
 
@@ -89,3 +91,4 @@ When enumerating peer groups,  each <b>PEER_NAME_PAIR</b>  structure contains th
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
+

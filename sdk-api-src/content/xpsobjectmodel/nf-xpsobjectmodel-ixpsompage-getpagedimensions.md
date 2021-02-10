@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetPageDimensions
+ - IXpsOMPage::GetPageDimensions
 ---
 
 # IXpsOMPage::GetPageDimensions
@@ -112,3 +112,4 @@ The default page size is passed to <a href="/windows/desktop/api/xpsobjectmodel/
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
+

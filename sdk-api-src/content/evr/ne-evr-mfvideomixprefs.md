@@ -44,6 +44,7 @@ api_type:
 api_location:
  - evr.h
 api_name:
+ - _MFVideoMixPrefs
  - MFVideoMixPrefs
 ---
 
@@ -118,3 +119,4 @@ The video mixer uses bob deinterlacing, even if the driver supports  a higher-qu
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

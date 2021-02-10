@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IAnchor.ShiftRegion
+ - IAnchor::ShiftRegion
 ---
 
 # IAnchor::ShiftRegion
@@ -209,3 +209,4 @@ An input parameter value is invalid.
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir
       </a>
+

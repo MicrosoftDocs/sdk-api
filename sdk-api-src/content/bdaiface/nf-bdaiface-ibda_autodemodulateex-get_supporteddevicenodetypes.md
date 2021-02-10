@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_AutoDemodulateEx.get_SupportedDeviceNodeTypes
+ - IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes
 ---
 
 # IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes
@@ -77,3 +77,4 @@ If <i>pguidDeviceNodeTypes</i> is <b>NULL</b>, the method returns the number of 
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulateex">IBDA_AutoDemodulateEx Interface</a>
+

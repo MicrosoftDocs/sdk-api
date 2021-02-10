@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform.Translate
+ - IInkTransform::Translate
 ---
 
 # IInkTransform::Translate
@@ -136,3 +136,4 @@ An exception occurred inside the method.
 
 
 <a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
+

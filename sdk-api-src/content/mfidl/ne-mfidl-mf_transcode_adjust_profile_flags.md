@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MF_TRANSCODE_ADJUST_PROFILE_FLAGS
  - MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 ---
 
@@ -124,3 +125,4 @@ For example, assume that your input source is an MP3 file.  You set the containe
 
 
 <a href="/windows/desktop/medfound/transcode-api">Transcode API</a>
+

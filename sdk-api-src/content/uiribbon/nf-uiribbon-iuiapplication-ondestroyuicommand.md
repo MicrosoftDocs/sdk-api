@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIApplication.OnDestroyUICommand
+ - IUIApplication::OnDestroyUICommand
 ---
 
 # IUIApplication::OnDestroyUICommand
@@ -129,3 +129,4 @@ STDMETHODIMP CApplication::OnDestroyUICommand(
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+

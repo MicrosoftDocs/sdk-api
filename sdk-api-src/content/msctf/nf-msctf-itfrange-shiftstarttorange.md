@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.ShiftStartToRange
+ - ITfRange::ShiftStartToRange
 ---
 
 # ITfRange::ShiftStartToRange
@@ -157,3 +157,4 @@ ITfRange::ShiftStart
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
+

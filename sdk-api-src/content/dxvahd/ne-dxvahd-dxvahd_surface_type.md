@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_SURFACE_TYPE
  - DXVAHD_SURFACE_TYPE
 ---
 
@@ -89,3 +90,4 @@ If the DXVA-HD device is a software plug-in and the surface type is <b>DXVAHD_SU
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

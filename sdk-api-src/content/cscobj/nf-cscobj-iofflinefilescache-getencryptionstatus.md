@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.GetEncryptionStatus
+ - IOfflineFilesCache::GetEncryptionStatus
 ---
 
 # IOfflineFilesCache::GetEncryptionStatus
@@ -120,3 +120,4 @@ The following example shows how to use this method.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
+

@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - winsvc
  - winsvc/winsvc
+api_name:
+ - winsvc
 ---
 
 # Winsvc.h header

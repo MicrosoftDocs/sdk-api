@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.Run
+ - IDataManager::Run
 ---
 
 # IDataManager::Run
@@ -79,3 +79,4 @@ To automatically run the data manager when the data collector set finishes runni
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
+

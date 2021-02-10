@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IHolder.Close
+ - IHolder::Close
 ---
 
 # IHolder::Close
@@ -101,3 +101,4 @@ Note that the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
+

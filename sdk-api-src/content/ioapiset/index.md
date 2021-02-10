@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - ioapiset
  - ioapiset/ioapiset
+api_name:
+ - ioapiset
 ---
 
 # Ioapiset.h header

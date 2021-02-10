@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IForegroundTransfer.AllowForegroundTransfer
+ - IForegroundTransfer::AllowForegroundTransfer
 ---
 
 # IForegroundTransfer::AllowForegroundTransfer
@@ -98,3 +98,4 @@ The <i>lpvReserved</i> parameter is not <b>NULL</b>, or this interface is on a p
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iforegroundtransfer">IForegroundTransfer</a>
+

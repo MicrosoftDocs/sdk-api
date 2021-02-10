@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_RECOVERY_OPTIONS
+ - PVSS_RECOVERY_OPTIONS
  - VSS_RECOVERY_OPTIONS
 ---
 
@@ -69,3 +71,4 @@ Volume safety checks should not be performed.
 ## -see-also
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-recoverset">IVssBackupComponentsEx3::RecoverSet</a>
+

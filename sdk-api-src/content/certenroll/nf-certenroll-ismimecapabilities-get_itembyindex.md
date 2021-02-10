@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISmimeCapabilities.ItemByIndex
- - ISmimeCapabilities.get_ItemByIndex
+ - ISmimeCapabilities::get_ItemByIndex
 ---
 
 # ISmimeCapabilities::get_ItemByIndex
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapabilities">ISmimeCapabilities</a>
+

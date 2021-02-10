@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTaskInfo.Context
- - ITsSbTaskInfo.get_Context
+ - ITsSbTaskInfo::get_Context
 ---
 
 # ITsSbTaskInfo::get_Context
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a>
+

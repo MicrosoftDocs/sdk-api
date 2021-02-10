@@ -44,8 +44,6 @@ api_location:
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
  - acmFilterEnum
- - acmFilterEnumA
- - acmFilterEnumW
 ---
 
 # acmFilterEnum function
@@ -158,3 +156,4 @@ The following functions should not be called from within the callback function: 
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Audiosessiontypes.h
 api_name:
+ - _AudioSessionState
  - AudioSessionState
 ---
 
@@ -105,3 +106,4 @@ For more information about session states, see <a href="/windows/desktop/CoreAud
 
 
 <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onstatechanged">IAudioSessionEvents::OnStateChanged</a>
+

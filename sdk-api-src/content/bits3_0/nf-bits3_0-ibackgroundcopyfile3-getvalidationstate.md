@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyFile3.GetValidationState
+ - IBackgroundCopyFile3::GetValidationState
 ---
 
 # IBackgroundCopyFile3::GetValidationState
@@ -96,3 +96,4 @@ Note that <b>FALSE</b> may not mean that the file is not valid, it may mean the 
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-isfilevalidated">IBitsPeerCacheRecord::IsFileValidated</a>
+

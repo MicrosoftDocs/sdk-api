@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker.Inverse
+ - IMoniker::Inverse
 ---
 
 # IMoniker::Inverse
@@ -158,3 +158,4 @@ If your monikers have no internal structure, you can call the <a href="/windows/
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+

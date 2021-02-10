@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeOSVersion.OSVersion
- - IX509AttributeOSVersion.get_OSVersion
+ - IX509AttributeOSVersion::get_OSVersion
 ---
 
 # IX509AttributeOSVersion::get_OSVersion
@@ -64,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributeos
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeosversion">IX509AttributeOSVersion</a>
+

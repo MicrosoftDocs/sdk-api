@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStream.SelectTerminal
+ - ITStream::SelectTerminal
 ---
 
 # ITStream::SelectTerminal
@@ -157,3 +157,4 @@ A given terminal can be selected onto only one stream.
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

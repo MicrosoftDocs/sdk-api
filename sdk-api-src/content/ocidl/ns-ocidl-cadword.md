@@ -46,6 +46,8 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagCADWORD
+ - LPCADWORD
  - CADWORD
 ---
 
@@ -77,3 +79,4 @@ A pointer to an array of values, each of which can be passed to the <a href="/wi
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a>
+

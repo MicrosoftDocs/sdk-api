@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - IEnumNetworks.get__NewEnum
+ - IEnumNetworks::get__NewEnum
 ---
 
 # IEnumNetworks::get__NewEnum
@@ -69,3 +69,4 @@ In Microsoft Visual Basic and Microsoft C#, you do not need to use the correspon
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a>
+

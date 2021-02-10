@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent.EnumerateAgentSessions
+ - ITAgent::EnumerateAgentSessions
 ---
 
 # ITAgent::EnumerateAgentSessions
@@ -134,3 +134,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions">get_AgentSessions</a>
+

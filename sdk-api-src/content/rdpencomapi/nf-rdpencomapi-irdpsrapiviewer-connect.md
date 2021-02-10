@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer.Connect
+ - IRDPSRAPIViewer::Connect
 ---
 
 # IRDPSRAPIViewer::Connect
@@ -97,3 +97,4 @@ The <i>bstrName</i> string that is set in this property is sent to the sharer af
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>
+

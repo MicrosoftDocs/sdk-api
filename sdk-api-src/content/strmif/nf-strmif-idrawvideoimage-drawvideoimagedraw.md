@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDrawVideoImage.DrawVideoImageDraw
+ - IDrawVideoImage::DrawVideoImageDraw
 ---
 
 # IDrawVideoImage::DrawVideoImageDraw
@@ -93,3 +93,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idrawvideoimage">IDrawVideoImage Interface</a>
+

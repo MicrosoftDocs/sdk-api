@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector.BitrateToStepNumber
+ - IMFASFStreamSelector::BitrateToStepNumber
 ---
 
 # IMFASFStreamSelector::BitrateToStepNumber
@@ -92,3 +92,4 @@ In a streaming multiple bit rate (MBR) scenario, call this method with the curre
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
+

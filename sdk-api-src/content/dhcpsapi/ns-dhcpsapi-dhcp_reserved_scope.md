@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_RESERVED_SCOPE
+ - LPDHCP_RESERVED_SCOPE
  - DHCP_RESERVED_SCOPE
 ---
 
@@ -69,3 +71,4 @@ The <b>DHCP_RESERVED_SCOPE</b> structure defines a reserved DHCP scope.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>
+

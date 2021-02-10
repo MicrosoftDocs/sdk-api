@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapScaler.Initialize
+ - IWICBitmapScaler::Initialize
 ---
 
 # IWICBitmapScaler::Initialize
@@ -94,3 +94,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 For an example using an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapscaler">IWICBitmapScaler</a>, see the <a href="/windows/desktop/wic/-wic-bitmapsources-howto-scale">How to Scale a Bitmap Source</a> topic.
 
 <div class="code"></div>
+

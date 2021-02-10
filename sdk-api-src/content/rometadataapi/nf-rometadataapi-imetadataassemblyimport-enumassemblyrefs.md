@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.EnumAssemblyRefs
+ - IMetaDataAssemblyImport::EnumAssemblyRefs
 ---
 
 # IMetaDataAssemblyImport::EnumAssemblyRefs
@@ -93,3 +93,4 @@ The number of tokens actually placed in <i>rAssemblyRefs</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
+

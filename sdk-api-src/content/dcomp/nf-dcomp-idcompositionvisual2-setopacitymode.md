@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual2.SetOpacityMode
+ - IDCompositionVisual2::SetOpacityMode
 ---
 
 # IDCompositionVisual2::SetOpacityMode
@@ -81,3 +81,4 @@ If the <i>opacityMode</i> parameter is anything other than DCOMPOSITION_OPACITY_
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>
+

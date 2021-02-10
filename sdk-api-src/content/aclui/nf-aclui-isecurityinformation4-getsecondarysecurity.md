@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation4.GetSecondarySecurity
+ - ISecurityInformation4::GetSecondarySecurity
 ---
 
 # ISecurityInformation4::GetSecondarySecurity
@@ -77,3 +77,4 @@ Interpretation of the returned security objects is tied to the implementation of
 ## -see-also
 
 <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a>
+

@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - wmcodecdsp
  - wmcodecdsp/wmcodecdsp
+api_name:
+ - wmcodecdsp
 ---
 
 # Wmcodecdsp.h header

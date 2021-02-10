@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionCommand.MonitorCommand
- - IFsrmActionCommand.get_MonitorCommand
- - IFsrmActionCommand.put_MonitorCommand
+ - IFsrmActionCommand::get_MonitorCommand
 ---
 
 # IFsrmActionCommand::get_MonitorCommand
@@ -92,3 +90,4 @@ The <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioncomm
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
+

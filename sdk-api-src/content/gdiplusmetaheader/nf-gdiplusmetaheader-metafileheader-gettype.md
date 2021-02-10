@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader.GetType
+ - MetafileHeader::GetType
 ---
 
 # MetafileHeader::GetType
@@ -84,3 +84,4 @@ This method returns an element of the <a href="/windows/desktop/api/gdiplusenums
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.StopOnCompletion
- - IDataCollectorSet.get_StopOnCompletion
- - IDataCollectorSet.put_StopOnCompletion
+ - IDataCollectorSet::put_StopOnCompletion
 ---
 
 # IDataCollectorSet::put_StopOnCompletion
@@ -94,3 +92,4 @@ A data collector set stops only after all the data collectors in the set are com
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-stop">IDataCollectorSet::Stop</a>
+

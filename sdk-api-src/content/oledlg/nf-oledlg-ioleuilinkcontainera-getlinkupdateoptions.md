@@ -42,9 +42,7 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkContainer.GetLinkUpdateOptions
- - IOleUILinkContainerA.GetLinkUpdateOptions
- - IOleUILinkContainerW.GetLinkUpdateOptions
+ - IOleUILinkContainerA::GetLinkUpdateOptions
 ---
 
 # IOleUILinkContainerA::GetLinkUpdateOptions
@@ -139,3 +137,4 @@ Containers can implement this method for OLE links simply by calling <a href="/w
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinkupdateoptions">IOleUILinkContainer::SetLinkUpdateOptions</a>
+

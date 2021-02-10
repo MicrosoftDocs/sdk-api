@@ -43,7 +43,7 @@ api_location:
  - d3d11shader.h
  - d3dcommon.h
 api_name:
- - D3D11_RESOURCE_RETURN_TYPE
+ - D3D_RESOURCE_RETURN_TYPE
 ---
 
 # D3D_RESOURCE_RETURN_TYPE enumeration
@@ -131,3 +131,4 @@ typedef D3D_RESOURCE_RETURN_TYPE D3D11_RESOURCE_RETURN_TYPE;
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentItemType
- - IUIAutomationElement.get_CurrentItemType
+ - IUIAutomationElement::get_CurrentItemType
 ---
 
 # IUIAutomationElement::get_CurrentItemType
@@ -76,3 +75,4 @@ This property is used to obtain information about items in a list, tree view, or
 
 
 <b>Reference</b>
+

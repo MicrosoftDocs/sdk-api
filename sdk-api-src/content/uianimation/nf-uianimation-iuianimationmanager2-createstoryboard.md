@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2.CreateStoryboard
+ - IUIAnimationManager2::CreateStoryboard
 ---
 
 # IUIAnimationManager2::CreateStoryboard
@@ -65,3 +65,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">IUIAnimationManager2</a>
+

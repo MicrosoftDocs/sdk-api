@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msxml.dll
 api_name:
- - IXMLElementCollection.get_length
+ - IXMLElementCollection::get_length
 ---
 
 # IXMLElementCollection::get_length
@@ -69,3 +69,4 @@ This method is implemented in MSXML 1.0. It is no longer supported by Microsoft 
 ## -see-also
 
 <a href="/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>
+

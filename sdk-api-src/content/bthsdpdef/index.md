@@ -9,6 +9,8 @@ tech.root: bluetooth
 f1_keywords:
  - bthsdpdef
  - bthsdpdef/bthsdpdef
+api_name:
+ - bthsdpdef
 ---
 
 # Bthsdpdef.h header

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
+ - tagOLEVERB
+ - LPOLEVERB
  - OLEVERB
 ---
 
@@ -81,3 +83,4 @@ Combination of the verb attributes in the <a href="/windows/desktop/api/oleidl/n
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>
+

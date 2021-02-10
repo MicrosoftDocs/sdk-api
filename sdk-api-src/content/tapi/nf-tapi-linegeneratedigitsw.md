@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineGenerateDigitsW
  - tapi/lineGenerateDigitsW
+ - lineGenerateDigits
+ - tapi/lineGenerateDigits
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGenerateDigits
- - lineGenerateDigitsA
  - lineGenerateDigitsW
+ - lineGenerateDigits
 ---
 
 # lineGenerateDigitsW function

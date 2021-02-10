@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.Cancel
+ - IBackgroundCopyJob::Cancel
 ---
 
 # IBackgroundCopyJob::Cancel
@@ -119,3 +119,4 @@ The
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">IBackgroundCopyJob::Suspend</a>
+

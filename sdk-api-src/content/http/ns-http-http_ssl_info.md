@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_SSL_INFO
+ - PHTTP_SSL_INFO
  - HTTP_SSL_INFO
 ---
 
@@ -109,3 +111,4 @@ An
 
 
 <a href="/windows/desktop/api/http/ns-http-http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a>
+

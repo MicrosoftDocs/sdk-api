@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxRoutingMethod.FunctionName
- - IFaxRoutingMethod.get_FunctionName
+ - IFaxRoutingMethod::get_FunctionName
 ---
 
 # IFaxRoutingMethod::get_FunctionName
@@ -87,3 +86,4 @@ A fax client application can use the <a href="/previous-versions/windows/desktop
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
+

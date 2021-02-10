@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagVIEWSTATUS
  - VIEWSTATUS
 ---
 
@@ -87,3 +88,4 @@ The object supports a 3-dimensional surface.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>
+

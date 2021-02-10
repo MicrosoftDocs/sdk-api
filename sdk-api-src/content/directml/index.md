@@ -10,6 +10,8 @@ ms.custom: 19H1
 f1_keywords:
  - directml
  - directml/directml
+api_name:
+ - directml
 ---
 
 # DirectML.h header

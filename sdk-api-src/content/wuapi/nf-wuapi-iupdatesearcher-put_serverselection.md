@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher.ServerSelection
- - IUpdateSearcher.get_ServerSelection
- - IUpdateSearcher.put_ServerSelection
+ - IUpdateSearcher::put_ServerSelection
 ---
 
 # IUpdateSearcher::put_ServerSelection
@@ -65,3 +63,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
+

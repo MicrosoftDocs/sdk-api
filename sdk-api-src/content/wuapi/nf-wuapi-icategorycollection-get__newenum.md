@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ICategoryCollection._NewEnum
- - ICategoryCollection.get__NewEnum
+ - ICategoryCollection::get__NewEnum
 ---
 
 # ICategoryCollection::get__NewEnum
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-icategorycollection">ICategoryCollection</a>
+

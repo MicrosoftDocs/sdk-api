@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateManager.ExportTemplates
- - FsrmFileScreenTemplateManager.ExportTemplates
+ - IFsrmFileScreenTemplateManager::ExportTemplates
 ---
 
 # IFsrmFileScreenTemplateManager::ExportTemplates
@@ -78,3 +77,4 @@ Typically, you use this method to save the templates to a file. You can then cop
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplatemanager">IFsrmFileScreenTemplateManager</a>
+

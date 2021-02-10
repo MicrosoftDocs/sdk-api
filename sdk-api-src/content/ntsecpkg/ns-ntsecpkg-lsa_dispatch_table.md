@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _LSA_DISPATCH_TABLE
+ - PLSA_DISPATCH_TABLE
  - LSA_DISPATCH_TABLE
 ---
 
@@ -111,3 +113,4 @@ Pointer to the
 ### -field CopyFromClientBuffer
 
 Pointer to the <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_copy_from_client_buffer">CopyFromClientBuffer</a> function.
+

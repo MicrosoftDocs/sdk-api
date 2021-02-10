@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FindActCtxSectionStringA
  - winbase/FindActCtxSectionStringA
+ - FindActCtxSectionString
+ - winbase/FindActCtxSectionString
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - FindActCtxSectionString
  - FindActCtxSectionStringA
- - FindActCtxSectionStringW
+ - FindActCtxSectionString
 ---
 
 # FindActCtxSectionStringA function
@@ -143,3 +144,4 @@ This function should only be called by the Side-by-side API functions or COM met
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-findactctxsectionguid">FindActCtxSectionGuid</a>
+

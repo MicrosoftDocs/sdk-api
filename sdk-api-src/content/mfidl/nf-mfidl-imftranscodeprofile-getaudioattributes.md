@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTranscodeProfile.GetAudioAttributes
+ - IMFTranscodeProfile::GetAudioAttributes
 ---
 
 # IMFTranscodeProfile::GetAudioAttributes
@@ -91,3 +91,4 @@ To get a specific attribute value, the caller must call the appropriate <a href=
 
 
 <a href="/windows/desktop/medfound/transcode-api">Transcode API</a>
+

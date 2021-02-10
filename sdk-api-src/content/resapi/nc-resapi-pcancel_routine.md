@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - Cancel
+ - PCANCEL_ROUTINE
 ---
 
 # PCANCEL_ROUTINE callback function
@@ -97,3 +97,4 @@ The operation was not successfully canceled.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
+

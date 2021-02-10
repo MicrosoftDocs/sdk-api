@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.ProcessVertices
+ - IDirect3DDevice9::ProcessVertices
 ---
 
 # IDirect3DDevice9::ProcessVertices
@@ -122,3 +122,4 @@ When Direct3D generates texture coordinates, or copies or transforms input textu
 
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+

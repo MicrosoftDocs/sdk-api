@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile.Metafile
+ - Metafile::Metafile
 ---
 
 # Metafile::Metafile(IN const WCHAR)
@@ -80,3 +80,4 @@ Pointer to a wide-character string that specifies the name of an existing disk f
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>
+

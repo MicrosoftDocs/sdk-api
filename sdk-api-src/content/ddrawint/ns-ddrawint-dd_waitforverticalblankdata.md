@@ -46,7 +46,9 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DDHAL_WAITFORVERTICALBLANKDATA
+ - _DD_WAITFORVERTICALBLANKDATA
+ - PDD_WAITFORVERTICALBLANKDATA
+ - DD_WAITFORVERTICALBLANKDATA
 ---
 
 # DD_WAITFORVERTICALBLANKDATA structure
@@ -132,3 +134,4 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_waitforverticalblank">DdWaitForVerticalBlank</a>
+

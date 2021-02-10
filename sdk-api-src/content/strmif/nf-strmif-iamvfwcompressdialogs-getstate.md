@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVfwCompressDialogs.GetState
+ - IAMVfwCompressDialogs::GetState
 ---
 
 # IAMVfwCompressDialogs::GetState
@@ -78,3 +78,4 @@ This method calls the  <a href="/windows/desktop/api/vfw/nf-vfw-icgetstate">ICGe
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcompressdialogs">IAMVfwCompressDialogs Interface</a>
+

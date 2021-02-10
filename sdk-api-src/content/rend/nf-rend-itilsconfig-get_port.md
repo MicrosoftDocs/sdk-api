@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITILSConfig.get_Port
+ - ITILSConfig::get_Port
 ---
 
 # ITILSConfig::get_Port
@@ -102,3 +102,4 @@ Invalid pointer.
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itilsconfig-put_port">ITILSConfig::put_Port</a>
+

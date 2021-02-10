@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMRemoteDictionaryResource1.Write1
+ - IXpsOMRemoteDictionaryResource1::Write1
 ---
 
 # IXpsOMRemoteDictionaryResource1::Write1
@@ -76,3 +76,4 @@ For information about  XPS document API return values, see <a href="/previous-ve
 
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomremotedictionaryresource1">IXpsOMRemoteDictionaryResource1</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WritePrivateProfileSectionA
  - winbase/WritePrivateProfileSectionA
+ - WritePrivateProfileSection
+ - winbase/WritePrivateProfileSection
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-Privateprofile-l1-1-1.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - WritePrivateProfileSection
  - WritePrivateProfileSectionA
- - WritePrivateProfileSectionW
+ - WritePrivateProfileSection
 ---
 
 # WritePrivateProfileSectionA function
@@ -154,3 +155,4 @@ When looking at values in the registry that specify other registry locations, th
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprofilesectiona">WriteProfileSection</a>
+

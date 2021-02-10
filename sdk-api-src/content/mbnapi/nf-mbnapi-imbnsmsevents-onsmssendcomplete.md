@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsEvents.OnSmsSendComplete
+ - IMbnSmsEvents::OnSmsSendComplete
 ---
 
 # IMbnSmsEvents::OnSmsSendComplete
@@ -239,3 +239,4 @@ A send operation should be tried only after the device is successfully registere
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
+

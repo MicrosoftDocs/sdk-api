@@ -42,8 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.CurrentPartitionName
- - ICOMAdminCatalog2.get_CurrentPartitionName
+ - ICOMAdminCatalog2::get_CurrentPartitionName
 ---
 
 # ICOMAdminCatalog2::get_CurrentPartitionName
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
+ - IKEEXT_CERT_NAME0_
  - IKEEXT_CERT_NAME0
 ---
 
@@ -71,3 +72,4 @@ The string to be used for matching the "subject" criteria.
 ## -see-also
 
 [IKEEXT_CERT_CRITERIA_NAME_TYPE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type)
+

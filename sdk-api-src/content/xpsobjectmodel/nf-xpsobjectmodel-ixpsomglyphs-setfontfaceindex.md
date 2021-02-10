@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.SetFontFaceIndex
+ - IXpsOMGlyphs::SetFontFaceIndex
 ---
 
 # IXpsOMGlyphs::SetFontFaceIndex
@@ -122,3 +122,4 @@ The following markup of a FixedPage shows the result of setting the <i>fontFaceI
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

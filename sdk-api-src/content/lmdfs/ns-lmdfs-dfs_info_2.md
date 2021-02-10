@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_2
+ - PDFS_INFO_2
  - DFS_INFO_2
 ---
 
@@ -179,3 +181,4 @@ StateBits = (Flags &amp; DFS_VOLUME_STATES)
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

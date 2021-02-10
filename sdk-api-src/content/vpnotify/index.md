@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - vpnotify
  - vpnotify/vpnotify
+api_name:
+ - vpnotify
 ---
 
 # Vpnotify.h header

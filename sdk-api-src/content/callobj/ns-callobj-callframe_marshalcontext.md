@@ -44,6 +44,7 @@ api_type:
 api_location:
  - callobj.h
 api_name:
+ - __MIDL_ICallFrame_0004
  - CALLFRAME_MARSHALCONTEXT
 ---
 
@@ -80,3 +81,4 @@ The transfer syntax for which the marshalling should occur.
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
+

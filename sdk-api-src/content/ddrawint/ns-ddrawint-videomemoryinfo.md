@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _VIDEOMEMORYINFO
  - VIDEOMEMORYINFO
 ---
 
@@ -101,7 +102,7 @@ Specifies the byte alignment, in bytes, required when allocating this memory for
 
 (Microsoft Windows 2000 and later only) 
 
-Specifies a kernel-mode pointer to the beginning of the primary surface. 
+Specifies a kernel-mode pointer to the beginning of the primary surface.
 
 ## -remarks
 
@@ -116,3 +117,4 @@ GDI allocates memory for and passes a VIDEOMEMORYINFO structure to the driver's 
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+

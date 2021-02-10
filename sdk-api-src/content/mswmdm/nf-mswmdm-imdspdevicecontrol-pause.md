@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDeviceControl.Pause
+ - IMDSPDeviceControl::Pause
 ---
 
 # IMDSPDeviceControl::Pause
@@ -117,3 +117,4 @@ The current play or record session is paused and the current file position is sa
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>
+

@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_HBAPORT_TYPE
  - VDS_HBAPORT_TYPE
 ---
 
@@ -139,3 +140,4 @@ HBA_PORTTYPE_PTP
 ## -see-also
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
+

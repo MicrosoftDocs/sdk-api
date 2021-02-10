@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcLibrary.CreateComparator
+ - IRdcLibrary::CreateComparator
 ---
 
 # IRdcLibrary::CreateComparator
@@ -111,3 +111,4 @@ The caller must create a separate signature comparator for each
 
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking.GetRate
+ - IMediaSeeking::GetRate
 ---
 
 # IMediaSeeking::GetRate
@@ -114,3 +114,4 @@ The playback rate is expressed as a ratio of the normal speed. Thus, 1.0 is norm
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
+

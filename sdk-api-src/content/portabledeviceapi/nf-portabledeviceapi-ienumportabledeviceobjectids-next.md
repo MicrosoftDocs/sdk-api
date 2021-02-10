@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs.Next
+ - IEnumPortableDeviceObjectIDs::Next
 ---
 
 # IEnumPortableDeviceObjectIDs::Next
@@ -179,3 +179,4 @@ void RecursiveEnumerate(LPCWSTR wszParentObjectID, IPortableDeviceContent* pCont
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>
+

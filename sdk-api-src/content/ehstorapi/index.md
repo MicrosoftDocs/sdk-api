@@ -9,6 +9,8 @@ tech.root: enstor
 f1_keywords:
  - ehstorapi
  - ehstorapi/ehstorapi
+api_name:
+ - ehstorapi
 ---
 
 # Ehstorapi.h header

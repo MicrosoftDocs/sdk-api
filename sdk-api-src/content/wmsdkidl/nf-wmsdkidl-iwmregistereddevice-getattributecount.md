@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.GetAttributeCount
+ - IWMRegisteredDevice::GetAttributeCount
 ---
 
 # IWMRegisteredDevice::GetAttributeCount
@@ -88,3 +88,4 @@ To enumerate the device attributes, first call this method and then call <a href
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
+

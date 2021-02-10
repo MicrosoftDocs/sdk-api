@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - dimm
  - dimm/dimm
+api_name:
+ - dimm
 ---
 
 # Dimm.h header

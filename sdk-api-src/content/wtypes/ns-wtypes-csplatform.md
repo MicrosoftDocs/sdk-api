@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WTypes.h
 api_name:
+ - tagCSPLATFORM
  - CSPLATFORM
 ---
 
@@ -76,3 +77,4 @@ See the <b>wProcessorArchitecture</b> member of <a href="/windows/desktop/api/sy
 ## -see-also
 
 <a href="/windows/desktop/api/wtypes/ns-wtypes-querycontext">QUERYCONTEXT</a>
+

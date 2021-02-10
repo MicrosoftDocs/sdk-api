@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StringCchGetsExW
  - strsafe/StringCchGetsExW
+ - StringCchGetsEx
+ - strsafe/StringCchGetsEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCchGetsEx
- - StringCchGetsExA
  - StringCchGetsExW
+ - StringCchGetsEx
 ---
 
 # StringCchGetsExW function
@@ -264,3 +265,4 @@ The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNO
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsa">StringCchGets</a>
+

@@ -47,6 +47,8 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
+ - SToolbarItem
+ - LPTOOLBARITEM
  - TOOLBARITEM
 ---
 
@@ -88,3 +90,4 @@ Type: <b>BOOL</b>
 Type: <b>HMONITOR</b>
 
 The handle of the monitor on which the toolbar item appears.
+

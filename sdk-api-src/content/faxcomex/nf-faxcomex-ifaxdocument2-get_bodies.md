@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument2.Bodies
- - IFaxDocument2.get_Bodies
- - IFaxDocument2.put_Bodies
+ - IFaxDocument2::get_Bodies
 ---
 
 # IFaxDocument2::get_Bodies
@@ -72,3 +70,4 @@ Either the <b>IFaxDocument2::Bodies</b> property or the <a href="/previous-versi
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument2">IFaxDocument2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IEnumFORMATETC.Skip
+ - IEnumFORMATETC::Skip
 ---
 
 # IEnumFORMATETC::Skip
@@ -65,3 +65,4 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>
+

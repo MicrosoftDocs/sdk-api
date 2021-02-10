@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _PKU2U_LOGON_SUBMIT_TYPE
+ - PPKU2U_LOGON_SUBMIT_TYPE
  - PKU2U_LOGON_SUBMIT_TYPE
 ---
 
@@ -61,3 +63,4 @@ Indicates the  type of logon message passed in a <a href="/windows/desktop/api/n
 ### -field Pku2uCertificateS4ULogon
 
 The logon message is a PKU2U certificate.
+

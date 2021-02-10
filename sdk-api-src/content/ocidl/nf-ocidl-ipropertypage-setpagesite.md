@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPage.SetPageSite
+ - IPropertyPage::SetPageSite
 ---
 
 # IPropertyPage::SetPageSite
@@ -72,3 +72,4 @@ E_NOTIMPL is not a valid return value. All property pages must implement this me
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DefDlgProcW
  - winuser/DefDlgProcW
+ - DefDlgProc
+ - winuser/DefDlgProc
 dev_langs:
  - c++
 topic_type:
@@ -42,8 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DefDlgProc
  - DefDlgProcW
+ - DefDlgProc
 ---
 
 # DefDlgProcW function
@@ -120,3 +122,4 @@ The <b>DefDlgProc</b> function must not be called by a dialog box procedure; doi
 
 
 <a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
+

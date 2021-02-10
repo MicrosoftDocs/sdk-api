@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange3.GetAttributeValues
+ - IUIAutomationTextRange3::GetAttributeValues
 ---
 
 # IUIAutomationTextRange3::GetAttributeValues
@@ -81,3 +81,4 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

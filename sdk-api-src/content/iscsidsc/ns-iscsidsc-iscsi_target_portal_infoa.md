@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - ISCSI_TARGET_PORTAL_INFO
+ - PISCSI_TARGET_PORTAL_INFOA
  - ISCSI_TARGET_PORTAL_INFOA
- - ISCSI_TARGET_PORTAL_INFOW
 ---
 
 # ISCSI_TARGET_PORTAL_INFOA structure

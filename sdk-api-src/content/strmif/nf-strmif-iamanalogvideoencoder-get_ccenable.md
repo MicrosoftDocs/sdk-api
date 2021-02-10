@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMAnalogVideoEncoder.get_CCEnable
+ - IAMAnalogVideoEncoder::get_CCEnable
 ---
 
 # IAMAnalogVideoEncoder::get_CCEnable
@@ -88,3 +88,4 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideoencoder">IAMAnalogVideoEncoder Interface</a>
+

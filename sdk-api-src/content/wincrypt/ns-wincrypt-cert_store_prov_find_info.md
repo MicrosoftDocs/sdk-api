@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_STORE_PROV_FIND_INFO
+ - PCERT_STORE_PROV_FIND_INFO
  - CERT_STORE_PROV_FIND_INFO
 ---
 
@@ -426,3 +428,4 @@ CERT_FIND_OR_ENHKEY_USAGE_FLAG can also be set if the certificate only needs to 
 <td>Used only with CERT_FIND_SUBJECT_ATTR and CERT_FIND_ISSUER-ATTR values of <b>dwFindType</b>. By default, a case-sensitive, exact match is made. If this flag is set, the match is case-insensitive.</td>
 </tr>
 </table>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetEnhMetaFileA
  - wingdi/GetEnhMetaFileA
+ - GetEnhMetaFile
+ - wingdi/GetEnhMetaFile
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetEnhMetaFile
  - GetEnhMetaFileA
- - GetEnhMetaFileW
+ - GetEnhMetaFile
 ---
 
 # GetEnhMetaFileA function
@@ -109,3 +110,4 @@ For an example, see <a href="/windows/desktop/gdi/opening-an-enhanced-metafile-a
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
+

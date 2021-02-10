@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.get_InputsAvailable
+ - IMSVidCtl::get_InputsAvailable
 ---
 
 # IMSVidCtl::get_InputsAvailable
@@ -75,3 +75,4 @@ If the method succeeds, the <a href="/previous-versions/windows/desktop/mstv/msv
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Winfax.h
 api_name:
  - PFAXFREEBUFFER
- - FaxFreeBufferA
- - FaxFreeBufferW
 ---
 
 # PFAXFREEBUFFER callback function
@@ -121,3 +119,4 @@ When the resources allocated for a buffer are no longer needed, the calling appl
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetroutinginfoa">FaxGetRoutingInfo</a>
+

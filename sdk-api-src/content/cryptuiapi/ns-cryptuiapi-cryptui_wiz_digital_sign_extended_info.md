@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
+ - _CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
+ - PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
  - CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
 ---
 
@@ -126,3 +128,4 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribut
 ## -see-also
 
 <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
+

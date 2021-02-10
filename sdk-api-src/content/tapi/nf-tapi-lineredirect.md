@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineRedirect
- - lineRedirectA
- - lineRedirectW
 ---
 
 # lineRedirect function
@@ -114,3 +112,4 @@ Besides redirecting an incoming call, an application may have the option to acce
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
+

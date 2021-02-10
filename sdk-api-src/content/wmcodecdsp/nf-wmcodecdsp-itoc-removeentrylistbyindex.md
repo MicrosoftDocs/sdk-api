@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - IToc.RemoveEntryListByIndex
+ - IToc::RemoveEntryListByIndex
 ---
 
 # IToc::RemoveEntryListByIndex
@@ -88,3 +88,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
+

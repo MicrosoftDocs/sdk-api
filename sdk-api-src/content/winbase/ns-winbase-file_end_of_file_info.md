@@ -47,6 +47,8 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
+ - _FILE_END_OF_FILE_INFO
+ - PFILE_END_OF_FILE_INFO
  - FILE_END_OF_FILE_INFO
 ---
 
@@ -70,3 +72,4 @@ The specified value for the new end of the file.
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
+

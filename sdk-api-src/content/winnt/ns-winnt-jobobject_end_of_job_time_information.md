@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+ - PJOBOBJECT_END_OF_JOB_TIME_INFORMATION
  - JOBOBJECT_END_OF_JOB_TIME_INFORMATION
 ---
 
@@ -131,3 +133,4 @@ To associate a completion port with a job, use the
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+

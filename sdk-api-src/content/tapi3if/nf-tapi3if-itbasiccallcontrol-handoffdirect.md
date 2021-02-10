@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl.HandoffDirect
+ - ITBasicCallControl::HandoffDirect
 ---
 
 # ITBasicCallControl::HandoffDirect
@@ -137,3 +137,4 @@ The application must use
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - InputScope.h
 api_name:
+ - __MIDL___MIDL_itf_inputscope_0000_0000_0001
  - InputScope
 ---
 
@@ -584,3 +585,4 @@ Whether a given input scope value is supported can vary across technologies.
 <a href="/windows/desktop/api/inputscope/nf-inputscope-setinputscopexml">SetInputScopeXML</a>
 
 <a href="/windows/desktop/api/inputscope/nf-inputscope-setinputscopes">SetInputScopes</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IProxyProviderWinEventSink.AddStructureChangedEvent
+ - IProxyProviderWinEventSink::AddStructureChangedEvent
 ---
 
 # IProxyProviderWinEventSink::AddStructureChangedEvent
@@ -93,3 +93,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>Reference</b>
+

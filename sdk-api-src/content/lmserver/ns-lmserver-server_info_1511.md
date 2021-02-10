@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1511
+ - PSERVER_INFO_1511
  - SERVER_INFO_1511
 ---
 
@@ -78,3 +80,4 @@ Specifies the maximum number of tree connections that users can make with a sing
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _CRYPT_CONTEXT_FUNCTION_CONFIG
+ - PCRYPT_CONTEXT_FUNCTION_CONFIG
  - CRYPT_CONTEXT_FUNCTION_CONFIG
 ---
 
@@ -84,3 +86,4 @@ Restricts the set of usable providers for this function to only those that this 
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontextfunction">BCryptConfigureContextFunction</a>
+

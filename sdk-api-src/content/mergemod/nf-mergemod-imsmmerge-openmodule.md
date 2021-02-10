@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge.OpenModule
+ - IMsmMerge::OpenModule
 ---
 
 # IMsmMerge::OpenModule
@@ -163,3 +163,4 @@ Opening a merge module clears any errors that have not already been retrieved.
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

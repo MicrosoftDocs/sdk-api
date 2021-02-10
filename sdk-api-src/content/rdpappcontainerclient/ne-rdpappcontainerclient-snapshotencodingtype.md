@@ -44,6 +44,7 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
+ - __MIDL_IRemoteDesktopClientActions_0002
  - SnapshotEncodingType
 ---
 
@@ -63,3 +64,4 @@ The snapshot will be taken and a data URI that contains the snapshot will be ret
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot">GetSnapshot</a>
+

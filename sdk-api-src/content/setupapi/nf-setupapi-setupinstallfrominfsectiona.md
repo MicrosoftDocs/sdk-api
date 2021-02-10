@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupInstallFromInfSectionA
  - setupapi/SetupInstallFromInfSectionA
+ - SetupInstallFromInfSection
+ - setupapi/SetupInstallFromInfSection
 dev_langs:
  - c++
 topic_type:
@@ -44,10 +47,8 @@ api_location:
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupInstallFromInfSection
  - SetupInstallFromInfSectionA
- - SetupInstallFromInfSectionW
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
+ - SetupInstallFromInfSection
 ---
 
 # SetupInstallFromInfSectionA function
@@ -396,3 +397,4 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>
+

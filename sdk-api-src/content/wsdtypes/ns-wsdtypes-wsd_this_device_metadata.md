@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_THIS_DEVICE_METADATA
  - WSD_THIS_DEVICE_METADATA
 ---
 
@@ -89,3 +90,4 @@ ThisDevice metadata follows this form:
         923450982349058
     &lt;/wsd:SerialNumber&gt;
  &lt;/wsd:ThisDevice&gt;</code></pre>
+

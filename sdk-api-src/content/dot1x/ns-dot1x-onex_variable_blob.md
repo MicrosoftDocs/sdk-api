@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
+ - _ONEX_VARIABLE_BLOB
+ - PONEX_VARIABLE_BLOB
  - ONEX_VARIABLE_BLOB
 ---
 
@@ -101,3 +103,4 @@ A number of the nested structure members in the <a href="/windows/desktop/api/do
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
+

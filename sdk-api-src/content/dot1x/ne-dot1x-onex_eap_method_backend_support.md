@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
+ - _ONEX_EAP_METHOD_BACKEND_SUPPORT
  - ONEX_EAP_METHOD_BACKEND_SUPPORT
 ---
 
@@ -95,3 +96,4 @@ The <b>BackendSupport</b> member of the <a href="/windows/desktop/api/dot1x/ns-d
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
+

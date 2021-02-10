@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.DeleteNonMemberName
- - AzApplicationGroup.DeleteNonMemberName
+ - IAzApplicationGroup::DeleteNonMemberName
 ---
 
 # IAzApplicationGroup::DeleteNonMemberName
@@ -66,3 +65,4 @@ Reserved for future use.
 ## -remarks
 
 To view the list of account names of accounts that are refused membership in this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembersname">NonMembersName</a> property.
+

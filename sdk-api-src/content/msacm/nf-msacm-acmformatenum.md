@@ -44,8 +44,6 @@ api_location:
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
  - acmFormatEnum
- - acmFormatEnumA
- - acmFormatEnumW
 ---
 
 # acmFormatEnum function
@@ -287,3 +285,4 @@ BOOL CALLBACK acmFormatEnumCallback(
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

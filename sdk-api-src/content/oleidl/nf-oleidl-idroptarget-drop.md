@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IDropTarget.Drop
+ - IDropTarget::Drop
 ---
 
 # IDropTarget::Drop
@@ -156,3 +156,4 @@ You also pass the effect of this operation back to the source application throug
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
+

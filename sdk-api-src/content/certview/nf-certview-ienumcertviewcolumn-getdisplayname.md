@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.GetDisplayName
- - IEnumCERTVIEWCOLUMN.GetDisplayName
+ - IEnumCERTVIEWCOLUMN::GetDisplayName
 ---
 
 # IEnumCERTVIEWCOLUMN::GetDisplayName
@@ -119,3 +118,4 @@ if (NULL != bstrDisplay)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>
+

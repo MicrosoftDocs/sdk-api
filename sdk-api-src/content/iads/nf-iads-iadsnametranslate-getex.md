@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsNameTranslate.GetEx
+ - IADsNameTranslate::GetEx
 ---
 
 # IADsNameTranslate::GetEx
@@ -189,3 +189,4 @@ The following VBScript/ASP code example translates two distinguished names compl
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
+

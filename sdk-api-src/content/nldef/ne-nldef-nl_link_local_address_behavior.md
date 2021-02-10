@@ -44,6 +44,7 @@ api_type:
 api_location:
  - nldef.h
 api_name:
+ - _NL_LINK_LOCAL_ADDRESS_BEHAVIOR
  - NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 ---
 

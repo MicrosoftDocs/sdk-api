@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_SHELL_DISCONNECT_INFO
  - WSMAN_SHELL_DISCONNECT_INFO
 ---
 
@@ -63,3 +64,4 @@ Specifies the maximum time  in milliseconds that the shell will stay open after 
 ## -remarks
 
 When the maximum duration is exceeded, the shell is automatically deleted. This value overrides the initial idle timeout that is set as part of <a href="/windows/desktop/api/wsman/ns-wsman-wsman_shell_startup_info_v10">WSMAN_SHELL_STARTUP_INFO</a> structure in <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a>.
+

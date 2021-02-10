@@ -45,6 +45,7 @@ api_location:
  - Dinputd.h
 api_name:
  - DIHIDFFINITINFO
+ - LPDIHIDFFINITINFO
 ---
 
 # DIHIDFFINITINFO structure
@@ -67,3 +68,4 @@ Points to a null-terminated Unicode string that identifies the device interface 
 ### -field GuidInstance
 
 Specifies a device instance GUID for this device.
+

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulkCallback.OnEnd
+ - IPortableDevicePropertiesBulkCallback::OnEnd
 ---
 
 # IPortableDevicePropertiesBulkCallback::OnEnd
@@ -70,3 +70,4 @@ The method's return value is ignored.
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback Interface</a>
+

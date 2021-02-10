@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSigningOptions.SetDefaultDigestMethod
+ - IOpcSigningOptions::SetDefaultDigestMethod
 ---
 
 # IOpcSigningOptions::SetDefaultDigestMethod
@@ -147,3 +147,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

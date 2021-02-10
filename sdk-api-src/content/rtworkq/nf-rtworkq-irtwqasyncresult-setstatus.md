@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult.SetStatus
+ - IRtwqAsyncResult::SetStatus
 ---
 
 # IRtwqAsyncResult::SetStatus
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>
+

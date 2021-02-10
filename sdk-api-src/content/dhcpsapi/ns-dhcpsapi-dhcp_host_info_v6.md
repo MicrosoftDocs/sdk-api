@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_HOST_INFO_V6
+ - LPDHCP_HOST_INFO_V6
  - DHCP_HOST_INFO_V6
 ---
 
@@ -77,3 +79,4 @@ When this structure is populated by the DHCP Server, the <b>HostName</b> and <b>
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
+

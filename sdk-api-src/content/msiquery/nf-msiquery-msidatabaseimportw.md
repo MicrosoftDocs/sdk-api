@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDatabaseImportW
  - msiquery/MsiDatabaseImportW
+ - MsiDatabaseImport
+ - msiquery/MsiDatabaseImport
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiDatabaseImport
- - MsiDatabaseImportA
  - MsiDatabaseImportW
+ - MsiDatabaseImport
 ---
 
 # MsiDatabaseImportW function
@@ -101,3 +102,4 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 <a href="/windows/desktop/Msi/text-archive-files">Text Archive Files </a>
+

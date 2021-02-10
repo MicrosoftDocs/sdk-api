@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - SolidBrush.SetColor
+ - SolidBrush::SetColor
 ---
 
 # SolidBrush::SetColor
@@ -90,3 +90,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-solidbrush-getcolor">SolidBrush::GetColor</a>
+

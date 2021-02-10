@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2.GetRecordName
+ - IWMMutualExclusion2::GetRecordName
 ---
 
 # IWMMutualExclusion2::GetRecordName
@@ -126,3 +126,4 @@ Records are assigned numbers sequentially in the order they are created.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
+

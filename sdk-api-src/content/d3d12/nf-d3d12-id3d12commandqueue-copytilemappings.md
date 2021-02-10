@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.h
 api_name:
- - ID3D12CommandQueue.CopyTileMappings
+ - ID3D12CommandQueue::CopyTileMappings
 ---
 
 # ID3D12CommandQueue::CopyTileMappings
@@ -101,3 +101,4 @@ The destination and the source regions must each entirely fit in their resource 
 
 
 <a href="/windows/desktop/direct3d12/volume-tiled-resources">Volume Tiled Resources</a>
+

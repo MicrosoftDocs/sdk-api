@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - _MFVideoLighting
  - MFVideoLighting
 ---
 
@@ -95,3 +96,4 @@ This enumeration is used with the <a href="/windows/desktop/medfound/mf-mt-video
 
 
 <a href="/windows/desktop/medfound/video-media-types">Video Media Types</a>
+

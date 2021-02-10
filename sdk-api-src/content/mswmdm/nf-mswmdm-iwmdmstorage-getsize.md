@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage.GetSize
+ - IWMDMStorage::GetSize
 ---
 
 # IWMDMStorage::GetSize
@@ -105,3 +105,4 @@ hr = pStorage->GetSize(&lowSize, &highSize);
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getname">IWMDMStorage::GetName</a>
+

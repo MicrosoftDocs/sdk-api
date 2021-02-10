@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_LAYER0_
  - FWPM_LAYER0
 ---
 
@@ -148,3 +149,4 @@ LUID that identifies this layer.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

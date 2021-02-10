@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - StartComplete
+ - PSTART_COMPLETE
 ---
 
 # PSTART_COMPLETE callback function
@@ -66,3 +66,4 @@ This function should return NO_ERROR.
 ## -see-also
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>
+

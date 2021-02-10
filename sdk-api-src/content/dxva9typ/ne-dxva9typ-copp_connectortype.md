@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
+ - _COPP_ConnectorType
  - COPP_ConnectorType
 ---
 
@@ -114,3 +115,4 @@ Applications should ignore the <b>COPP_ConnectorType_Internal</b> flag and inste
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
+

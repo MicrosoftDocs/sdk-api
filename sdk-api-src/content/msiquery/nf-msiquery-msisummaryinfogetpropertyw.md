@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSummaryInfoGetPropertyW
  - msiquery/MsiSummaryInfoGetPropertyW
+ - MsiSummaryInfoGetProperty
+ - msiquery/MsiSummaryInfoGetProperty
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiSummaryInfoGetProperty
- - MsiSummaryInfoGetPropertyA
  - MsiSummaryInfoGetPropertyW
+ - MsiSummaryInfoGetProperty
 ---
 
 # MsiSummaryInfoGetPropertyW function
@@ -127,3 +128,4 @@ The property information returned by the <b>MsiSummaryInfoGetProperty</b> functi
 
 
 <a href="/windows/desktop/Msi/summaryinfo-summaryinfo">Summaryinfo.Property</a>
+

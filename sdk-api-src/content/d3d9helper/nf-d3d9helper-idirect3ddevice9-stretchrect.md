@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.StretchRect
+ - IDirect3DDevice9::StretchRect
 ---
 
 # IDirect3DDevice9::StretchRect
@@ -380,3 +380,4 @@ There are many restrictions as to which surface combinations are valid for Stret
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene">IDirect3DDevice9::EndScene</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSession.CreateUpdateSearcher
+ - IUpdateSession::CreateUpdateSearcher
 ---
 
 # IUpdateSession::CreateUpdateSearcher
@@ -89,3 +89,4 @@ An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
+

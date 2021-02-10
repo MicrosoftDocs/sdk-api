@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.UpdateMapping
+ - IStylusPlugin::UpdateMapping
 ---
 
 # IStylusPlugin::UpdateMapping
@@ -91,3 +91,4 @@ The <b>IStylusPlugin::UpdateMapping Method</b> method provides a mechanism for a
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+

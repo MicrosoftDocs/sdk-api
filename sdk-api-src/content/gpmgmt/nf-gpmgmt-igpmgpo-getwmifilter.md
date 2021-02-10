@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO.GetWMIFilter
- - GPMGPO.GetWMIFilter
+ - IGPMGPO::GetWMIFilter
 ---
 
 # IGPMGPO::GetWMIFilter
@@ -79,3 +78,4 @@ If the GPO is linked to a WMI filter, the method returns a reference to a <a hre
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority
+ - IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority
 ---
 
 # IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservicesex">IMFWorkQueueServicesEx</a>
+

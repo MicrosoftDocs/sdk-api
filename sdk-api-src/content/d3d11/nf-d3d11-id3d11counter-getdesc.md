@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Counter.GetDesc
+ - ID3D11Counter::GetDesc
 ---
 
 # ID3D11Counter::GetDesc
@@ -64,3 +64,4 @@ Pointer to a counter description (see <a href="/windows/desktop/api/d3d11/ns-d3d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11counter">ID3D11Counter</a>
+

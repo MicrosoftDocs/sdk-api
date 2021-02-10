@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IProvideClassInfo2.GetGUID
+ - IProvideClassInfo2::GetGUID
 ---
 
 # IProvideClassInfo2::GetGUID
@@ -69,3 +69,4 @@ This method can return the standard return values E_INVALIDARG, E_UNEXPECTED, E_
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>
+

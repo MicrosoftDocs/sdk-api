@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.QueryTextMetrics
+ - IFont::QueryTextMetrics
 ---
 
 # IFont::QueryTextMetrics
@@ -104,3 +104,4 @@ The address in the <i>ptm</i> parameter is not valid. For example, it may be
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+

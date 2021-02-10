@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEncoderAPI.GetParameterValues
+ - IEncoderAPI::GetParameterValues
 ---
 
 # IEncoderAPI::GetParameterValues
@@ -84,3 +84,4 @@ This method returns an array of <b>VARIANT</b> types representing the individual
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>
+

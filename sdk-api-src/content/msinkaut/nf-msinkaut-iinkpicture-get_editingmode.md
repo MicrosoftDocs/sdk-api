@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.EditingMode
- - IInkPicture.get_EditingMode
- - IInkPicture.put_EditingMode
- - InkPicture.get_EditingMode
- - InkPicture.put_EditingMode
+ - IInkPicture::get_EditingMode
 ---
 
 # IInkPicture::get_EditingMode
@@ -76,3 +72,4 @@ For more information about erasing ink, see <a href="/windows/desktop/tablet/era
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICameraControl.getRange_Zoom
+ - ICameraControl::getRange_Zoom
 ---
 
 # ICameraControl::getRange_Zoom
@@ -90,3 +90,4 @@ For information about calculating magnification from zoom level, see <a href="/w
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
+

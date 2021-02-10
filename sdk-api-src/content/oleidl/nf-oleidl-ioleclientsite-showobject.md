@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleClientSite.ShowObject
+ - IOleClientSite::ShowObject
 ---
 
 # IOleClientSite::ShowObject
@@ -89,3 +89,4 @@ Having called the <b>ShowObject</b> method, a link source has no guarantee of be
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>
+

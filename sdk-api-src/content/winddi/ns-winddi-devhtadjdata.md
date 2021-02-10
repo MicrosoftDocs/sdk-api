@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _DEVHTADJDATA
+ - PDEVHTADJDATA
  - DEVHTADJDATA
 ---
 
@@ -118,3 +120,4 @@ Is a caller-supplied pointer to a DEVHTINFO structure containing the device's cu
 ## -remarks
 
 If <b>pAdjHTInfo</b> is <b>NULL</b>, or if <b>pAdjHTInfo</b> and <b>pDefHTInfo</b> point to the same buffer, the <a href="/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function displays the halftoning properties supplied by <b>pDefHTInfo</b> but does not allow the user to modify them.
+

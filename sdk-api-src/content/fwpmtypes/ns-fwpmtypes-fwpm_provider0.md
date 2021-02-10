@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_PROVIDER0_
  - FWPM_PROVIDER0
 ---
 
@@ -120,3 +121,4 @@ Optional name of the Windows service hosting the provider. This allows
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

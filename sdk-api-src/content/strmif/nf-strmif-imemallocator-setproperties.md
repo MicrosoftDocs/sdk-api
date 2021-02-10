@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocator.SetProperties
+ - IMemAllocator::SetProperties
 ---
 
 # IMemAllocator::SetProperties
@@ -144,3 +144,4 @@ When this method is called, the allocator must not be committed or have outstand
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.Security
- - IDataCollectorSet.get_Security
- - IDataCollectorSet.put_Security
+ - IDataCollectorSet::put_Security
 ---
 
 # IDataCollectorSet::put_Security
@@ -65,3 +63,4 @@ By default, the user has full privileges, the Administrators group has read, wri
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Thumbcache.h
 api_name:
- - IThumbnailSettings.SetContext
+ - IThumbnailSettings::SetContext
 ---
 
 # IThumbnailSettings::SetContext
@@ -71,3 +71,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailsettings">IThumbnailSettings</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetFillBrushLookup
+ - IXpsOMPath::SetFillBrushLookup
 ---
 
 # IXpsOMPath::SetFillBrushLookup
@@ -196,3 +196,4 @@ Neither <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompat
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _FILE_ZERO_DATA_INFORMATION
+ - PFILE_ZERO_DATA_INFORMATION
  - FILE_ZERO_DATA_INFORMATION
 ---
 
@@ -73,3 +75,4 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 
 <a href="/windows/desktop/FileIO/sparse-files">Sparse Files</a>
+

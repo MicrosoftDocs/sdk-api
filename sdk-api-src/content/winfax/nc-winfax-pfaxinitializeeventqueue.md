@@ -43,8 +43,6 @@ api_location:
  - Winfax.h
 api_name:
  - PFAXINITIALIZEEVENTQUEUE
- - FaxInitializeEventQueueA
- - FaxInitializeEventQueueW
 ---
 
 # PFAXINITIALIZEEVENTQUEUE callback function
@@ -204,3 +202,4 @@ For a list of the asynchronous events that can occur within the fax server, see 
 
 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects">WaitForMultipleObjects</a>
+

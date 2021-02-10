@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CThreadBase.BeginRead
- - ?BeginRead@CThreadBase@@QAEHK@Z
+ - CThreadBase::BeginRead
 ---
 
 # CThreadBase::BeginRead
@@ -69,3 +68,4 @@ Time-out for the read data operation. The default is no time-out.
 ## -returns
 
 This method does not return a value.
+

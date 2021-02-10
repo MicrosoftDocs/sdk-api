@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment.Silent
- - IX509Enrollment.get_Silent
- - IX509Enrollment.put_Silent
+ - IX509Enrollment::get_Silent
 ---
 
 # IX509Enrollment::get_Silent
@@ -65,3 +63,4 @@ You can set this property before initializing the enrollment object.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
+

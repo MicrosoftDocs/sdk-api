@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_POOL_ATTRIBUTES
+ - PVDS_POOL_ATTRIBUTES
  - VDS_POOL_ATTRIBUTES
 ---
 
@@ -544,3 +546,4 @@ If an attribute is set for a storage pool, that attribute setting must apply to 
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getattributes">IVdsStoragePool::GetAttributes</a>
+

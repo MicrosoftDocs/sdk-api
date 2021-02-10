@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D.SetScaleY
+ - IDCompositionScaleTransform3D::SetScaleY
 ---
 
 # IDCompositionScaleTransform3D::SetScaleY
@@ -85,3 +85,4 @@ If the ScaleY property was previously animated, this method removes the animatio
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez(float)">IDCompositionScaleTransform3D::SetScaleZ</a>
+

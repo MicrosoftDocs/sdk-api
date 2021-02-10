@@ -46,6 +46,8 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
+ - _OBJECTS_AND_SID
+ - POBJECTS_AND_SID
  - OBJECTS_AND_SID
 ---
 
@@ -146,3 +148,4 @@ When you use this structure in a call to <a href="/windows/desktop/api/aclapi/nf
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterChain.RemoveChain
+ - IFilterChain::RemoveChain
 ---
 
 # IFilterChain::RemoveChain
@@ -78,3 +78,4 @@ You can call this method while the graph is running; the method stops the filter
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilterchain">IFilterChain Interface</a>
+

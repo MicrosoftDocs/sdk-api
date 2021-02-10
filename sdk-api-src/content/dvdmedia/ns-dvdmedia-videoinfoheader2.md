@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
+ - tagVIDEOINFOHEADER2
  - VIDEOINFOHEADER2
 ---
 
@@ -480,3 +481,4 @@ Ignore the <b>SampleFormat</b> member of the <b>DXVA_ExtendedFormat</b> structur
 
 
 <a href="/windows/desktop/DirectShow/media-types">Media Types</a>
+

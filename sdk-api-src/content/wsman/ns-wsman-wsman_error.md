@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_ERROR
  - WSMAN_ERROR
 ---
 
@@ -75,3 +76,4 @@ Specifies the name of the computer. This field can be set to <b>NULL</b>.
 ### -field pluginName
 
 Specifies the name of the plug-in that generated the error. This field can be set to <b>NULL</b>.
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winnt.h
 api_name:
+ - _SYSTEM_CPU_SET_INFORMATION
+ - PSYSTEM_CPU_SET_INFORMATION
  - SYSTEM_CPU_SET_INFORMATION
 ---
 
@@ -150,3 +152,4 @@ This is set of the CPU Set is on a processor that is suitable for low-latency re
 ##### - CpuSet.ReservedFlags : 4
 
 Reserved.
+

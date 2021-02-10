@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
+ - PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
  - PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
 ---
 
@@ -93,3 +95,4 @@ Reserved for system use.
 
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>
+

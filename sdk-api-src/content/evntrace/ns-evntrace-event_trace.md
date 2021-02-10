@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
+ - _EVENT_TRACE
+ - PEVENT_TRACE
  - EVENT_TRACE
 ---
 
@@ -111,3 +113,4 @@ consumer's <a href="/windows/desktop/ETW/eventcallback">EventCallback</a> callba
 
 
 <a href="/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
+

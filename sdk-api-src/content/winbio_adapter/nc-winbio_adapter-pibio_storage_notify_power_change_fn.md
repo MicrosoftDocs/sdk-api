@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - StorageAdapterNotifyPowerChange
+ - PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN
 ---
 
 # PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN callback function
@@ -158,3 +158,4 @@ The biometric framework calls this adapter entry point asynchronously, in the co
 
 
 <a href="/windows/desktop/Power/pbt-apmpowerstatuschange">PBT_APMPOWERSTATUSCHANGE</a>
+

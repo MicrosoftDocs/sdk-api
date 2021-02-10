@@ -9,6 +9,8 @@ tech.root: tapi3
 f1_keywords:
  - msp
  - msp/msp
+api_name:
+ - msp
 ---
 
 # Msp.h header

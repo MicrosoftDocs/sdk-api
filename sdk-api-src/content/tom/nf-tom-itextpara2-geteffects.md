@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara2.GetEffects
+ - ITextPara2::GetEffects
 ---
 
 # ITextPara2::GetEffects
@@ -175,3 +175,4 @@ If the <b>tomTable</b> flag is set, you can use the  <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextpara2-seteffects">ITextPara2::SetEffects</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IResultOwnerData.SortItems
+ - IResultOwnerData::SortItems
 ---
 
 # IResultOwnerData::SortItems
@@ -93,3 +93,4 @@ MMC calls <b>IResultOwnerData::SortItems</b> with the same sort options that wer
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>
+

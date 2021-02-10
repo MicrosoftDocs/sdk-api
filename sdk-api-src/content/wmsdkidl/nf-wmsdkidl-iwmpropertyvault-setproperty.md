@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPropertyVault.SetProperty
+ - IWMPropertyVault::SetProperty
 ---
 
 # IWMPropertyVault::SetProperty
@@ -224,3 +224,4 @@ You can remove a property using <b>SetProperty</b> by passing either <b>NULL</b>
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
+

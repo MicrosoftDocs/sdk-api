@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateFileA
  - fileapi/CreateFileA
+ - CreateFile
+ - fileapi/CreateFile
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - CreateFile
  - CreateFileA
- - CreateFileW
+ - CreateFile
 ---
 
 # CreateFileA function
@@ -1575,3 +1576,4 @@ A tape backup code snippet can found at
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
+

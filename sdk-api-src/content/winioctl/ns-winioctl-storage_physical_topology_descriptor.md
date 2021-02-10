@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
+ - PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
  - STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 ---
 
@@ -76,3 +78,4 @@ Reserved.
 ### -field Node [ANYSIZE_ARRAY]
 
 A node as specified by a <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_physical_node_data">STORAGE_PHYSICAL_NODE_DATA</a> structure.
+

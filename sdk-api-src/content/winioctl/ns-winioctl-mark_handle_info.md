@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PMARK_HANDLE_INFO
  - MARK_HANDLE_INFO
 ---
 
@@ -370,3 +371,4 @@ In the preceding string, <i>X</i> is the letter identifying the drive on which t
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
+

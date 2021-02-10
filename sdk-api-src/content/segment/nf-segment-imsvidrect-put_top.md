@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidRect.put_Top
+ - IMSVidRect::put_Top
 ---
 
 # IMSVidRect::put_Top
@@ -77,3 +77,4 @@ Setting the top y-coordinate also changes the height of the rectangle. For examp
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-get_top">IMSVidRect::get_Top</a>
+

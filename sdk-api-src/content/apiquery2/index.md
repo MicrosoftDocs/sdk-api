@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - apiquery2
  - apiquery2/apiquery2
+api_name:
+ - apiquery2
 ---
 
 # Apiquery2.h header

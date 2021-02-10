@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager.EnumFileScreenExceptions
- - FsrmFileScreenManager.EnumFileScreenExceptions
+ - IFsrmFileScreenManager::EnumFileScreenExceptions
 ---
 
 # IFsrmFileScreenManager::EnumFileScreenExceptions
@@ -92,3 +91,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
+

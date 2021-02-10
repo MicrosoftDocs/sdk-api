@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetUserNameA
  - winbase/GetUserNameA
+ - GetUserName
+ - winbase/GetUserName
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - AdvApi32Legacy.dll
  - API-MS-Win-Core-SysInfo-L2-1-0.dll
 api_name:
- - GetUserName
  - GetUserNameA
- - GetUserNameW
+ - GetUserName
 ---
 
 # GetUserNameA function
@@ -114,3 +115,4 @@ For an example, see
 
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
+

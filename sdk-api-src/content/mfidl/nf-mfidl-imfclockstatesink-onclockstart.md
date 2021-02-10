@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFClockStateSink.OnClockStart
+ - IMFClockStateSink::OnClockStart
 ---
 
 # IMFClockStateSink::OnClockStart
@@ -88,3 +88,4 @@ The value given in <i>llClockStartOffset</i> is the presentation time when the c
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

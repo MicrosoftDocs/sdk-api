@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2.DefaultInboundAction
- - INetFwPolicy2.get_DefaultInboundAction
- - INetFwPolicy2.put_DefaultInboundAction
+ - INetFwPolicy2::put_DefaultInboundAction
 ---
 
 # INetFwPolicy2::put_DefaultInboundAction
@@ -74,3 +72,4 @@ When you pass a profile type obtained from the <a href="/previous-versions/windo
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1.GetFile
+ - IBackgroundCopyJob1::GetFile
 ---
 
 # IBackgroundCopyJob1::GetFile
@@ -104,3 +104,4 @@ Use with <a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getfilec
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
+

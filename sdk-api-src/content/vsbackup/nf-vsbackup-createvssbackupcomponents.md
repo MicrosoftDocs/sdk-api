@@ -44,7 +44,6 @@ api_location:
  - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
 api_name:
  - CreateVssBackupComponents
- - CreateVssBackupComponentsInternal
 ---
 
 # CreateVssBackupComponents function
@@ -146,3 +145,4 @@ The calling application is responsible for calling <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+

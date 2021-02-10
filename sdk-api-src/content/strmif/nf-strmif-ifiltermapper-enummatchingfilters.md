@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IFilterMapper.EnumMatchingFilters
+ - IFilterMapper::EnumMatchingFilters
 ---
 
 # IFilterMapper::EnumMatchingFilters
@@ -107,3 +107,4 @@ Set the <i>ppEnum</i> parameter to be an enumerator for filters matching the req
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper Interface</a>
+

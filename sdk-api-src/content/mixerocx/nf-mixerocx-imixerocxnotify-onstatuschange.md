@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCXNotify.OnStatusChange
+ - IMixerOCXNotify::OnStatusChange
 ---
 
 # IMixerOCXNotify::OnStatusChange
@@ -99,3 +99,4 @@ If the method succeeds, it returns S_OK.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
+

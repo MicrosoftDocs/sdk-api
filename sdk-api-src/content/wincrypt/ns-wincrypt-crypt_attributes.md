@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_ATTRIBUTES
+ - PCRYPT_ATTRIBUTES
  - CRYPT_ATTRIBUTES
 ---
 
@@ -80,3 +82,4 @@ Array of
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a>
+

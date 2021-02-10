@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymEnumSymbolsW
  - dbghelp/SymEnumSymbolsW
+ - SymEnumSymbols
+ - dbghelp/SymEnumSymbols
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymEnumSymbols
- - SymEnumSymbols
  - SymEnumSymbolsW
+ - SymEnumSymbols
 ---
 
 # SymEnumSymbolsW function
@@ -190,3 +191,4 @@ For an example, see <a href="/windows/desktop/Debug/enumerating-symbols">Enumera
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
+

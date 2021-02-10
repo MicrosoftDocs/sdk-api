@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceTransactionConfigBase.IsolationLevel
+ - IServiceTransactionConfigBase::IsolationLevel
 ---
 
 # IServiceTransactionConfigBase::IsolationLevel
@@ -69,3 +69,4 @@ A new transaction is created if the enclosing transaction is not running at the 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>
+

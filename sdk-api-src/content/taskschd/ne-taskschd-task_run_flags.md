@@ -44,6 +44,7 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
+ - _TASK_RUN_FLAGS
  - TASK_RUN_FLAGS
 ---
 
@@ -83,3 +84,4 @@ The task is run using a security identifier.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
+

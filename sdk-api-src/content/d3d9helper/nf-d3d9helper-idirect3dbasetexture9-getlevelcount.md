@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DBaseTexture9.GetLevelCount
+ - IDirect3DBaseTexture9::GetLevelCount
 ---
 
 # IDirect3DBaseTexture9::GetLevelCount
@@ -82,3 +82,4 @@ This method applies to the following interfaces, which inherit from <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>
+

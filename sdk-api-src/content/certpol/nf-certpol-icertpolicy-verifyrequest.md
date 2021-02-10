@@ -43,9 +43,7 @@ api_location:
  - Certidl.lib
  - Certidl.dll
 api_name:
- - ICertPolicy2.VerifyRequest
- - ICertPolicy.VerifyRequest
- - CCertPolicy.VerifyRequest
+ - ICertPolicy::VerifyRequest
 ---
 
 # ICertPolicy::VerifyRequest
@@ -290,3 +288,4 @@ error:
 
 
 <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
+

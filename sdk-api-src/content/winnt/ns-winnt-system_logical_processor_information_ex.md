@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
+ - PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
  - SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 ---
 
@@ -161,3 +163,4 @@ A <a href="/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIO
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a>
+

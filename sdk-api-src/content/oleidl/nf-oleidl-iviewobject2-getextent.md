@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhocreportingexcelclient.dll
 api_name:
- - IViewObject2.GetExtent
+ - IViewObject2::GetExtent
 ---
 
 # IViewObject2::GetExtent
@@ -126,3 +126,4 @@ To prevent the object from being run if it isn't already running, you can call <
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>
+

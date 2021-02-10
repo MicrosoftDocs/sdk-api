@@ -44,6 +44,7 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - PDFS_GET_PKT_ENTRY_STATE_ARG
  - DFS_GET_PKT_ENTRY_STATE_ARG
 ---
 
@@ -135,3 +136,4 @@ On input this contains the three Unicode strings in order. The Unicode strings a
 
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>
+

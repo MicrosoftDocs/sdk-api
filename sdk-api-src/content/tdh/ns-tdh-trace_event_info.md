@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _TRACE_EVENT_INFO
  - TRACE_EVENT_INFO
 ---
 
@@ -199,3 +200,4 @@ The value of an offset is zero if the member is not defined.
 
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgetmanifesteventinformation">TdhGetManifestEventInformation</a>
+

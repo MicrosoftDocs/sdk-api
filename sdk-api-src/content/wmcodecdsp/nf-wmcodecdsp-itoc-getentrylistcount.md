@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - IToc.GetEntryListCount
+ - IToc::GetEntryListCount
 ---
 
 # IToc::GetEntryListCount
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
+

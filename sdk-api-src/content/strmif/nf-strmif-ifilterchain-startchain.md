@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterChain.StartChain
+ - IFilterChain::StartChain
 ---
 
 # IFilterChain::StartChain
@@ -78,3 +78,4 @@ If this method cannot switch a given filter into a running state, it leaves all 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilterchain">IFilterChain Interface</a>
+

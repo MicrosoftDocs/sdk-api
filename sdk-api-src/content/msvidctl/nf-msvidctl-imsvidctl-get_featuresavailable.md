@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.get_FeaturesAvailable
+ - IMSVidCtl::get_FeaturesAvailable
 ---
 
 # IMSVidCtl::get_FeaturesAvailable
@@ -69,3 +69,4 @@ This method returns a collection of feature objects. Use the returned <a href="/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+

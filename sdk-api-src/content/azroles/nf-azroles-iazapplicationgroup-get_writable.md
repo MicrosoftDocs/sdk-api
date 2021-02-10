@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.Writable
- - IAzApplicationGroup.get_Writable
- - AzApplicationGroup.Writable
+ - IAzApplicationGroup::get_Writable
 ---
 
 # IAzApplicationGroup::get_Writable

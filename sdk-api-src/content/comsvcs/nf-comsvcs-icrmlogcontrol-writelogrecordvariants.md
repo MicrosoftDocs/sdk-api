@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmLogControl.WriteLogRecordVariants
+ - ICrmLogControl::WriteLogRecordVariants
 ---
 
 # ICrmLogControl::WriteLogRecordVariants
@@ -127,3 +127,4 @@ The transaction has aborted, most likely because of a transaction time-out.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
+

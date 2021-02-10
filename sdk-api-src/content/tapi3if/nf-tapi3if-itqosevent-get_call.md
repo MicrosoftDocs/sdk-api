@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQOSEvent.get_Call
+ - ITQOSEvent::get_Call
 ---
 
 # ITQOSEvent::get_Call
@@ -118,3 +118,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>
+

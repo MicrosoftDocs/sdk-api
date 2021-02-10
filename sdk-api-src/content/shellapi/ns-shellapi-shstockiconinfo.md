@@ -45,6 +45,7 @@ api_location:
  - Shellapi.h
 api_name:
  - _SHSTOCKICONINFO
+ - SHSTOCKICONINFO
 ---
 
 # SHSTOCKICONINFO structure
@@ -89,3 +90,4 @@ When <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGe
 ## -see-also
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a>
+

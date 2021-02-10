@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.Attributes
- - IFsrmPropertyBag.get_Attributes
+ - IFsrmPropertyBag::get_Attributes
 ---
 
 # IFsrmPropertyBag::get_Attributes
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/fileapi/ns-fileapi-win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a>
+

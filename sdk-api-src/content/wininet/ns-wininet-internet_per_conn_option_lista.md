@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - INTERNET_PER_CONN_OPTION_LIST
+ - LPINTERNET_PER_CONN_OPTION_LISTA
  - INTERNET_PER_CONN_OPTION_LISTA
- - INTERNET_PER_CONN_OPTION_LISTW
 ---
 
 # INTERNET_PER_CONN_OPTION_LISTA structure
@@ -108,3 +107,4 @@ In Microsoft Internet Explorer 5, only the ANSI versions of
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
+

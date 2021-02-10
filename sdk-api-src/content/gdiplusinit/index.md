@@ -9,6 +9,8 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusinit
  - gdiplusinit/gdiplusinit
+api_name:
+ - gdiplusinit
 ---
 
 # Gdiplusinit.h header

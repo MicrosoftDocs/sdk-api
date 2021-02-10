@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - FAX_PRINT_INFO
- - FAX_PRINT_INFOA
+ - _FAX_PRINT_INFOW
+ - PFAX_PRINT_INFOW
  - FAX_PRINT_INFOW
 ---
 
@@ -154,3 +154,4 @@ A fax client application passes the <b>FAX_PRINT_INFO</b> structure in a call to
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory.get_IsDynamic
+ - ITDirectory::get_IsDynamic
 ---
 
 # ITDirectory::get_IsDynamic
@@ -131,3 +131,4 @@ This method is not yet implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+

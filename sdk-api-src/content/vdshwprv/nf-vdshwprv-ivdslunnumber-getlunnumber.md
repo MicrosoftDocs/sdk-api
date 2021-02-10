@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLunNumber.GetLunNumber
+ - IVdsLunNumber::GetLunNumber
 ---
 
 # IVdsLunNumber::GetLunNumber
@@ -94,3 +94,4 @@ If a subsystem supports LUN numbering, it can indicate this support by setting t
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslunnumber">IVdsLunNumber</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylist.get_attributeName
+ - IWMPPlaylist::get_attributeName
 ---
 
 # IWMPPlaylist::get_attributeName
@@ -109,3 +109,4 @@ For information about the attributes supported by Windows Media Player, see the 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-setiteminfo">IWMPPlaylist::setItemInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContext.GetOutputDPI
+ - IMILBitmapEffectRenderContext::GetOutputDPI
 ---
 
 # IMILBitmapEffectRenderContext::GetOutputDPI

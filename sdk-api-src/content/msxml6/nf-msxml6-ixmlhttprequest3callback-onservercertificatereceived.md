@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest3Callback.OnServerCertificateReceived
+ - IXMLHTTPRequest3Callback::OnServerCertificateReceived
 ---
 
 # IXMLHTTPRequest3Callback::OnServerCertificateReceived
@@ -98,3 +98,4 @@ Returns <b>S_OK</b> on success.
 
 
 <a href="/windows/desktop/api/msxml6/ne-msxml6-xhr_cert_error_flag">XHR_CERT_ERROR_FLAG</a>
+

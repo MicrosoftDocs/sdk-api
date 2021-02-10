@@ -46,6 +46,8 @@ api_type:
 api_location:
  - il21dec.h
 api_name:
+ - _AM_LINE21_CCLEVEL
+ - PAM_LINE21_CCLEVEL
  - AM_LINE21_CCLEVEL
 ---
 
@@ -69,3 +71,4 @@ TeleCaption II.
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdecoderlevel">IAMLine21Decoder::GetDecoderLevel</a>
+

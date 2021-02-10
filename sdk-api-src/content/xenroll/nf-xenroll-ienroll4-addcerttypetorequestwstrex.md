@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4.AddCertTypeToRequestWStrEx
+ - IEnroll4::AddCertTypeToRequestWStrEx
 ---
 
 # IEnroll4::AddCertTypeToRequestWStrEx
@@ -122,3 +122,4 @@ This method can be called multiple times to establish multiple certificate templ
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

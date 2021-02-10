@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_SOCKADDR
+ - PWTS_SOCKADDR
  - WTS_SOCKADDR
 ---
 

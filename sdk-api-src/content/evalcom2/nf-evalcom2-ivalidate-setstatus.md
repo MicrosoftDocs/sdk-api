@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evalcom2.dll
 api_name:
- - IValidate.SetStatus
+ - IValidate::SetStatus
 ---
 
 # IValidate::SetStatus
@@ -95,3 +95,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
+

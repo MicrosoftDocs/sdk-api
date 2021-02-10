@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation.HashAlgorithm
- - ICertSrvSetupKeyInformation.get_HashAlgorithm
- - ICertSrvSetupKeyInformation.put_HashAlgorithm
+ - ICertSrvSetupKeyInformation::get_HashAlgorithm
 ---
 
 # ICertSrvSetupKeyInformation::get_HashAlgorithm
@@ -72,3 +70,4 @@ For an example of enumerating supported algorithms by using <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
+

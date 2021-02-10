@@ -9,6 +9,8 @@ tech.root: coreaudio
 f1_keywords:
  - audioenginebaseapo
  - audioenginebaseapo/audioenginebaseapo
+api_name:
+ - audioenginebaseapo
 ---
 
 # Audioenginebaseapo.h header

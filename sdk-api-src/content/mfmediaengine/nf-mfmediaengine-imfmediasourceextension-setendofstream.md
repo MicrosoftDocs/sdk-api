@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaSourceExtension.SetEndOfStream
+ - IMFMediaSourceExtension::SetEndOfStream
 ---
 
 # IMFMediaSourceExtension::SetEndOfStream
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/mf-mse-error">MF_MSE_ERROR</a>
+

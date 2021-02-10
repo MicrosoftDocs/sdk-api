@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdVideoPortGetBandwidth
+ - PDD_VPORTCB_GETBANDWIDTH
 ---
 
 ## -description
@@ -107,3 +107,4 @@ The DDVPB_OVERLAY flag assumes that the device is best described using the DDVPB
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_createvideoport">DdVideoPortCreate</a>
+

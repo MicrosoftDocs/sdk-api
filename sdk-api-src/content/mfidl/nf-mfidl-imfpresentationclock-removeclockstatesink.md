@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationClock.RemoveClockStateSink
+ - IMFPresentationClock::RemoveClockStateSink
 ---
 
 # IMFPresentationClock::RemoveClockStateSink
@@ -88,3 +88,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

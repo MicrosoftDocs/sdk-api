@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.GetWidth
+ - Image::GetWidth
 ---
 
 # Image::GetWidth
@@ -88,3 +88,4 @@ This method returns the width, in pixels, of this image.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

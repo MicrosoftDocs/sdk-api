@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapter::GetPropertySize
+f1_keywords:
+ - IDXCoreAdapter::GetPropertySize
+ - dxcore_interface/IDXCoreAdapter::GetPropertySize
 ---
 
 ## -description
@@ -45,12 +48,6 @@ api_name:
 For a specified adapter property, retrieves the size of buffer, in bytes, that is required for a call to [GetProperty](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty). Before calling **GetPropertySize** for a property type, call [IsPropertySupported](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported) to confirm that the property type is available for this adapter and operating system (OS).
 
 ## -parameters
-
-### -param property
-
-Type: **[DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
-
-The type of the property whose size, in bytes, you wish to retrieve.
 
 ### -param bufferSize [out]
 
@@ -70,6 +67,12 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 |DXGI_ERROR_UNSUPPORTED|The property type specified in *property* is not supported by the adapter. Call [IsPropertySupported](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported) to confirm that the property type is available for this adapter and operating system (OS).|
 |E_POINTER|`nullptr` was provided for *bufferSize*.|
 
+## -param property
+
+Type: **[DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
+
+The type of the property whose size, in bytes, you wish to retrieve.
+
 ## -remarks
 
 You can call **GetPropertySize** on an adapter that's no longer valid&mdash;the function won't fail.
@@ -77,3 +80,4 @@ You can call **GetPropertySize** on an adapter that's no longer valid&mdash;the 
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

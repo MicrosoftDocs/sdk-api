@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstance.OpenPropertyStore
+ - IFunctionInstance::OpenPropertyStore
 ---
 
 # IFunctionInstance::OpenPropertyStore
@@ -157,3 +157,4 @@ It is possible that <b>OpenPropertyStore</b> will return a property store for a 
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>
+

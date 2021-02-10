@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CHANGER_ELEMENT_STATUS
+ - PCHANGER_ELEMENT_STATUS
  - CHANGER_ELEMENT_STATUS
 ---
 
@@ -362,3 +364,4 @@ This member is valid only if the <b>Flags</b> member includes ELEMENT_STATUS_AVO
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+

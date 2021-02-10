@@ -9,6 +9,8 @@ tech.root: direct3d11
 f1_keywords:
  - d3d11shadertracing
  - d3d11shadertracing/d3d11shadertracing
+api_name:
+ - d3d11shadertracing
 ---
 
 # D3D11Shadertracing.h header

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICameraControl.getRange_Exposure
+ - ICameraControl::getRange_Exposure
 ---
 
 # ICameraControl::getRange_Exposure
@@ -86,3 +86,4 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
+

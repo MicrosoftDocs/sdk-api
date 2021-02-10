@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _SYSTEM_POWER_STATE
+ - PSYSTEM_POWER_STATE
  - SYSTEM_POWER_STATE
 ---
 
@@ -117,3 +119,4 @@ Specifies the maximum enumeration value.
 
 
 <a href="/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a>
+

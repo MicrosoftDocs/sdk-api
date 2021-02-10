@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapterList::IsStale
+f1_keywords:
+ - IDXCoreAdapterList::IsStale
+ - dxcore_interface/IDXCoreAdapterList::IsStale
 ---
 
 ## -description
@@ -57,3 +60,4 @@ You can poll **IsStale** to determine whether changing system conditions have le
 ## -see-also
 
 [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

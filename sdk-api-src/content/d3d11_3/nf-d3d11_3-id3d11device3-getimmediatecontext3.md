@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device3.GetImmediateContext3
+ - ID3D11Device3::GetImmediateContext3
 ---
 
 # ID3D11Device3::GetImmediateContext3
@@ -87,3 +87,4 @@ The <b>GetImmediateContext3</b> method increments the reference count of the imm
 
 
 <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getimmediatecontext">ID3D11Device::GetImmediateContext</a>
+

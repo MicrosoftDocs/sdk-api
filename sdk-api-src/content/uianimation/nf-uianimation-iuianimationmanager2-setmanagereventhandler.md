@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2.SetManagerEventHandler
+ - IUIAnimationManager2::SetManagerEventHandler
 ---
 
 # IUIAnimationManager2::SetManagerEventHandler
@@ -81,3 +81,4 @@ Passing <b>NULL</b> for the <i>handler</i> parameter causes Windows Animation to
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanagereventhandler">IUIAnimationManagerEventHandler</a>
+

@@ -34,6 +34,8 @@ ms.custom: 19H1
 f1_keywords:
  - UpdateDriverForPlugAndPlayDevicesW
  - newdev/UpdateDriverForPlugAndPlayDevicesW
+ - UpdateDriverForPlugAndPlayDevices
+ - newdev/UpdateDriverForPlugAndPlayDevices
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +45,7 @@ api_location:
  - Newdev.lib
  - Newdev.dll
 api_name:
+ - UpdateDriverForPlugAndPlayDevicesW
  - UpdateDriverForPlugAndPlayDevices
 ---
 
@@ -222,3 +225,4 @@ The application is a class installer, which should set DI_NEEDREBOOT in <a href=
 If the application must call <b>UpdateDriverForPlugAndPlayDevices</b> several times, it should save any <b>TRUE</b> restart status value received and then prompt for a restart after the final call has returned.
 
 If the function returns ERROR_IN_WOW64 in a 32-bit application, the application is executing on a 64-bit system, which is not allowed. For more information, see <a href="/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
+

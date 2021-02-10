@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _SCOPE_MIB_INFO_V5
+ - LPSCOPE_MIB_INFO_V5
  - SCOPE_MIB_INFO_V5
 ---
 
@@ -76,3 +78,4 @@ The number of IP addresses in the scope that have been offered to DHCP clients b
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v5">DHCP_MIB_INFO_V5</a>
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetmibinfov5">DhcpGetMibInfoV5</a>
+

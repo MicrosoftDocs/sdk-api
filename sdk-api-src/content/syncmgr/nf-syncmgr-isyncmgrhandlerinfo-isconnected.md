@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandlerInfo.IsConnected
+ - ISyncMgrHandlerInfo::IsConnected
 ---
 
 # ISyncMgrHandlerInfo::IsConnected
@@ -83,3 +83,4 @@ STDMETHODIMP CMyDeviceHandler::IsConnected()
 }
 
 ```
+

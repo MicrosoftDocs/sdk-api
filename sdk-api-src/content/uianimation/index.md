@@ -9,6 +9,8 @@ tech.root: uianimation
 f1_keywords:
  - uianimation
  - uianimation/uianimation
+api_name:
+ - uianimation
 ---
 
 # Uianimation.h header

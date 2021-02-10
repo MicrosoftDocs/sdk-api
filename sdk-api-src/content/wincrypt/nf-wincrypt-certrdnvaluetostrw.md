@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CertRDNValueToStrW
  - wincrypt/CertRDNValueToStrW
+ - CertRDNValueToStr
+ - wincrypt/CertRDNValueToStr
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Crypt32.dll
 api_name:
- - CertRDNValueToStr
- - CertRDNValueToStrA
  - CertRDNValueToStrW
+ - CertRDNValueToStr
 ---
 
 # CertRDNValueToStrW function
@@ -119,3 +120,4 @@ If <i>psz</i> is not <b>NULL</b> and <i>csz</i> is not zero, the returned <i>psz
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
+

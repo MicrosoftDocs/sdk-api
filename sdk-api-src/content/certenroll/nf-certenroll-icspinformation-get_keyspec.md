@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation.KeySpec
- - ICspInformation.get_KeySpec
+ - ICspInformation::get_KeySpec
 ---
 
 # ICspInformation::get_KeySpec
@@ -189,3 +188,4 @@ Microsoft Strong Cryptographic Provider
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+

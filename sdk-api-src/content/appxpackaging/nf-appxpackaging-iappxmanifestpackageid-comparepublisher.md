@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageId.ComparePublisher
+ - IAppxManifestPackageId::ComparePublisher
 ---
 
 # IAppxManifestPackageId::ComparePublisher
@@ -79,3 +79,4 @@ Publisher information is specified using the <b>Publisher</b> attribute of the <
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
+

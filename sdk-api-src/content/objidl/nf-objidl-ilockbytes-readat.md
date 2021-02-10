@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILockBytes.ReadAt
+ - ILockBytes::ReadAt
 ---
 
 # ILockBytes::ReadAt
@@ -91,3 +91,4 @@ It is not an error to read less than the specified number of bytes if the operat
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilockbytes-writeat">ILockBytes::WriteAt</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IRangeValueProvider.SetValue
+ - IRangeValueProvider::SetValue
 ---
 
 # IRangeValueProvider::SetValue
@@ -77,3 +77,4 @@ The actual value set depends on the control implementation. The control may roun
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

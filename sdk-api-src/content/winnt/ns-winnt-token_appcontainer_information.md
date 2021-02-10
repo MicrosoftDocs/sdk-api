@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_APPCONTAINER_INFORMATION
+ - PTOKEN_APPCONTAINER_INFORMATION
  - TOKEN_APPCONTAINER_INFORMATION
 ---
 
@@ -61,3 +63,4 @@ The <b>TOKEN_APPCONTAINER_INFORMATION</b> structure specifies all the informatio
 ### -field TokenAppContainer
 
 The <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the app container.
+

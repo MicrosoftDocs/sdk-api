@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FreeUrlCacheSpaceA
  - winineti/FreeUrlCacheSpaceA
+ - FreeUrlCacheSpace
+ - winineti/FreeUrlCacheSpace
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - FreeUrlCacheSpace
  - FreeUrlCacheSpaceA
- - FreeUrlCacheSpaceW
+ - FreeUrlCacheSpace
 ---
 
 # FreeUrlCacheSpaceA function
@@ -97,3 +98,4 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.Reenumerate
+ - IVdsSubSystem::Reenumerate
 ---
 
 # IVdsSubSystem::Reenumerate
@@ -152,3 +152,4 @@ Each object should have a unique and persistent identifier. An object ID must be
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
+

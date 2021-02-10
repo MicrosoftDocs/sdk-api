@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509EndorsementKey.Close
+ - IX509EndorsementKey::Close
 ---
 
 # IX509EndorsementKey::Close
@@ -68,3 +68,4 @@ The <b>Close</b> method releases any resources held
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
+

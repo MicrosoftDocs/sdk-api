@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2.GetItem
+ - IFolderView2::GetItem
 ---
 
 # IFolderView2::GetItem
@@ -103,3 +103,4 @@ The index in <i>iItem</i> is out of range.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselecteditem">IFolderView2::GetSelectedItem</a>
+

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.EnumObjects
+ - IPortableDeviceContent::EnumObjects
 ---
 
 # IPortableDeviceContent::EnumObjects
@@ -120,3 +120,4 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication.OpenTask
- - AzApplication.OpenTask
+ - IAzApplication::OpenTask
 ---
 
 # IAzApplication::OpenTask
@@ -72,3 +71,4 @@ A pointer to a pointer to the opened <a href="/windows/desktop/api/azroles/nn-az
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
+

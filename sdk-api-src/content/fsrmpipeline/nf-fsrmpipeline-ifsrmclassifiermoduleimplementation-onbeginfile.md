@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation.OnBeginFile
+ - IFsrmClassifierModuleImplementation::OnBeginFile
 ---
 
 # IFsrmClassifierModuleImplementation::OnBeginFile
@@ -77,3 +77,4 @@ If <b>FSRM_E_INCOMPATIBLE_FORMAT</b> or <b>FSRM_E_FILE_ENCRYPTED</b> is returned
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
+

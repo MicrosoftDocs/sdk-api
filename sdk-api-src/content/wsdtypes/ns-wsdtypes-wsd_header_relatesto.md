@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_HEADER_RELATESTO
  - WSD_HEADER_RELATESTO
 ---
 
@@ -63,3 +64,4 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name"
 ### -field MessageID
 
 The identifier of the related message.
+

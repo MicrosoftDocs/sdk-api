@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DTexture9.LockRect
+ - IDirect3DTexture9::LockRect
 ---
 
 # IDirect3DTexture9::LockRect
@@ -122,3 +122,4 @@ This method cannot retrieve data from a texture resource created with <a href="/
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-unlockrect">IDirect3DTexture9::UnlockRect</a>
+

@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorGroup.SetDefaultSensorDeviceIndex
+ - IMFSensorGroup::SetDefaultSensorDeviceIndex
 ---
 
 # IMFSensorGroup::SetDefaultSensorDeviceIndex
@@ -116,3 +116,4 @@ If this method is not called, the first device in the Sensor Group (i.e. the dev
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
+

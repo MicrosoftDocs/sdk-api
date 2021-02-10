@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMF2DBuffer2.Lock2DSize
+ - IMF2DBuffer2::Lock2DSize
 ---
 
 # IMF2DBuffer2::Lock2DSize
@@ -147,3 +147,4 @@ When possible, use a read-only or write-only lock, and avoid locking the buffer 
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>
+

@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
+ - _DRMSECURITYPROVIDERTYPE
  - DRMSECURITYPROVIDERTYPE
 ---
 
@@ -67,3 +68,4 @@ Software-level security, using a lockbox.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations">AD RMS Enumerations</a>
+

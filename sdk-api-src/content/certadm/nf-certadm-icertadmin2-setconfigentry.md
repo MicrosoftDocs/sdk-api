@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.SetConfigEntry
+ - ICertAdmin2::SetConfigEntry
 ---
 
 # ICertAdmin2::SetConfigEntry
@@ -101,3 +101,4 @@ If the function fails, the return value is an <b>HRESULT</b> that indicates the 
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
+

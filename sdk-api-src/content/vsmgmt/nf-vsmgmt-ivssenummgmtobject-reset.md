@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssEnumMgmtObject.Reset
+ - IVssEnumMgmtObject::Reset
 ---
 
 # IVssEnumMgmtObject::Reset
@@ -67,3 +67,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-reset">Reset</a>
+

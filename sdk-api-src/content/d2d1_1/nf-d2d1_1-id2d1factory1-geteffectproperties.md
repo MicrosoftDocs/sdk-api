@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory1.GetEffectProperties
+ - ID2D1Factory1::GetEffectProperties
 ---
 
 # ID2D1Factory1::GetEffectProperties
@@ -113,3 +113,4 @@ This method cannot be used to return the properties for any effect not visible t
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>
+

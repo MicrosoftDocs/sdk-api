@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Imm.h
 api_name:
+ - tagCANDIDATELIST
+ - PCANDIDATELIST
  - CANDIDATELIST
 ---
 
@@ -131,3 +133,4 @@ The candidate strings immediately follow the last offset in the <b>dwOffset</b> 
 
 
 <a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
+

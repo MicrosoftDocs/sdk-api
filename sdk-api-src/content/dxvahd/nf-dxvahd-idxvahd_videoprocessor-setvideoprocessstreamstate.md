@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - IDXVAHD_VideoProcessor.SetVideoProcessStreamState
+ - IDXVAHD_VideoProcessor::SetVideoProcessStreamState
 ---
 
 # IDXVAHD_VideoProcessor::SetVideoProcessStreamState
@@ -85,3 +85,4 @@ Call this method to set state parameters that apply to individual input streams.
 
 
 <a href="/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_videoprocessor">IDXVAHD_VideoProcessor</a>
+

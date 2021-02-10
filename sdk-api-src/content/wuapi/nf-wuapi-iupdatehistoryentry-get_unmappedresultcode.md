@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateHistoryEntry.UnmappedResultCode
- - IUpdateHistoryEntry.get_UnmappedResultCode
+ - IUpdateHistoryEntry::get_UnmappedResultCode
 ---
 
 # IUpdateHistoryEntry::get_UnmappedResultCode
@@ -72,3 +71,4 @@ The returned value is an unmapped result code. To retrieve a mapped exception co
 
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_operation">IUpdateHistoryEntry.Operation</a>
+

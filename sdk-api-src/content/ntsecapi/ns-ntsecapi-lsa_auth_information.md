@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _LSA_AUTH_INFORMATION
+ - PLSA_AUTH_INFORMATION
  - LSA_AUTH_INFORMATION
 ---
 
@@ -132,3 +134,4 @@ Specifies the size, in bytes, of the <b>AuthInfo</b> member.
 ### -field AuthInfo
 
 Pointer to an array of bytes that contains the type of authentication information indicated by the <b>AuthType</b> member.
+

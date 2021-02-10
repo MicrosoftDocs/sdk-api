@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectContextInfo.GetActivityId
+ - IObjectContextInfo::GetActivityId
 ---
 
 # IObjectContextInfo::GetActivityId
@@ -73,3 +73,4 @@ If the object is not running within a synchronization domain, COM+ returns a GUI
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
+

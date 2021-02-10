@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IKnowledgeSyncProvider.BeginSession
+ - IKnowledgeSyncProvider::BeginSession
 ---
 
 # IKnowledgeSyncProvider::BeginSession
@@ -99,3 +99,4 @@ The provider must return an error if it cannot begin a session. This can occur w
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
+

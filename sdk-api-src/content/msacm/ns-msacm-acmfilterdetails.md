@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
+ - tACMFILTERDETAILS
+ - PACMFILTERDETAILS
  - ACMFILTERDETAILS
 ---
 
@@ -178,3 +180,4 @@ String that describes the filter for the <b>dwFilterTag</b> type. If the <a href
 
 
 <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
+

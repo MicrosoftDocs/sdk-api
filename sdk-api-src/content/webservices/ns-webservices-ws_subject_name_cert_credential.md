@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SUBJECT_NAME_CERT_CREDENTIAL
  - WS_SUBJECT_NAME_CERT_CREDENTIAL
 ---
 
@@ -81,3 +82,4 @@ certificate.  The supplied subject name string must be in a format acceptable to
 CERT_FIND_SUBJECT_NAME-based
 search.
                 (See <a href="/windows/win32/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>.)
+

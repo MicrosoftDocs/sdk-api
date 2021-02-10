@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IProvideWinSATVisuals.get_Bitmap
+ - IProvideWinSATVisuals::get_Bitmap
 ---
 
 # IProvideWinSATVisuals::get_Bitmap
@@ -423,3 +423,4 @@ cleanup:
 ## -see-also
 
 <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatvisuals">IProvideWinSATVisuals</a>
+

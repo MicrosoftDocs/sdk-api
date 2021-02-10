@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PlayToDevice.dll
 api_name:
- - IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync
+ - IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync
 ---
 
 # IActiveBasicDeviceStatics::streaming
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevicestatics">IActiveBasicDeviceStatics</a>
+

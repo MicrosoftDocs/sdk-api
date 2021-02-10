@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetFileSecurityA
  - winbase/GetFileSecurityA
+ - GetFileSecurity
+ - winbase/GetFileSecurity
 dev_langs:
  - c++
 topic_type:
@@ -51,9 +53,8 @@ api_location:
  - API-Ms-Win-Security-Base-Ansi-L1-1-0.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - GetFileSecurity
  - GetFileSecurityA
- - GetFileSecurityW
+ - GetFileSecurity
 ---
 
 # GetFileSecurityA function
@@ -137,3 +138,4 @@ To read the <a href="/windows/desktop/SecGloss/s-gly">SACL</a> of a file or dire
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a>
+

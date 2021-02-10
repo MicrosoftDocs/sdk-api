@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winefs.h
 api_name:
+ - _EFS_HASH_BLOB
+ - PEFS_HASH_BLOB
  - EFS_HASH_BLOB
 ---
 
@@ -83,3 +85,4 @@ The certificate hash.
 
 
 <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
+

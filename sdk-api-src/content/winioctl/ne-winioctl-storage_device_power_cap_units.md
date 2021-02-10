@@ -45,6 +45,8 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
+ - _STORAGE_DEVICE_POWER_CAP_UNITS
+ - PSTORAGE_DEVICE_POWER_CAP_UNITS
  - STORAGE_DEVICE_POWER_CAP_UNITS
 ---
 

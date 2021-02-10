@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
+ - ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView
 ---
 
 # ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView
@@ -70,3 +70,4 @@ The GPU virtual address of the constant buffer.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IEnumWorkItems.Clone
+ - IEnumWorkItems::Clone
 ---
 
 # IEnumWorkItems::Clone
@@ -139,3 +139,4 @@ The
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">IEnumWorkItems::Skip</a>
+

@@ -42,10 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.ControlLevel
- - IRDPSRAPIAttendee.get_ControlLevel
- - IRDPSRAPIAttendee.put_ControlLevel
- - RDPSRAPIAttendee.ControlLevel
+ - IRDPSRAPIAttendee::get_ControlLevel
 ---
 
 # IRDPSRAPIAttendee::get_ControlLevel
@@ -62,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
+

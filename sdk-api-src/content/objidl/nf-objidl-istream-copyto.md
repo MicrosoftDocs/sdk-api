@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream.CopyTo
+ - IStream::CopyTo
 ---
 
 # IStream::CopyTo
@@ -104,3 +104,4 @@ To copy the remainder of the source from the current seek pointer, specify the m
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istream-clone">IStream::Clone</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_DEVICE_USAGE
  - DXVAHD_DEVICE_USAGE
 ---
 
@@ -91,3 +92,4 @@ The graphics driver uses one of these enumeration constants as a hint when it cr
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

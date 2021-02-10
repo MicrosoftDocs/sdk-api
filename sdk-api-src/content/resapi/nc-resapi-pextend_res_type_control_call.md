@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - ExtendResTypeControlCall
+ - PEXTEND_RES_TYPE_CONTROL_CALL
 ---
 
 # PEXTEND_RES_TYPE_CONTROL_CALL callback function
@@ -73,3 +73,4 @@ The new timeout, in milliseconds.
 
 
 <a href="/previous-versions/windows/desktop/mscs/resource-type-control-codes">Resource Type Control Codes</a>
+

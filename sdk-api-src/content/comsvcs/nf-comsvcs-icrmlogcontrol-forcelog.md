@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmLogControl.ForceLog
+ - ICrmLogControl::ForceLog
 ---
 
 # ICrmLogControl::ForceLog
@@ -105,3 +105,4 @@ The CRM Worker and CRM Compensator use this method to write log records lazily t
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
+

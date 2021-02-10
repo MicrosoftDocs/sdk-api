@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - CrediRead
+ - CredReadFn
 ---
 
 # CredReadFn callback function
@@ -166,3 +166,4 @@ A pointer to the <b>CrediRead</b> function is available in the
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

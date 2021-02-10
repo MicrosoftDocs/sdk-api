@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTranscodeProfile.GetContainerAttributes
+ - IMFTranscodeProfile::GetContainerAttributes
 ---
 
 # IMFTranscodeProfile::GetContainerAttributes
@@ -91,3 +91,4 @@ If there are no container attributes set in the transcode profile, the call to <
 
 
 <a href="/windows/desktop/medfound/transcode-api">Transcode API</a>
+

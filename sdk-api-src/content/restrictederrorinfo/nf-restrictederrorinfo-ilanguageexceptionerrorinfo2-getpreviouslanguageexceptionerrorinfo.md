@@ -42,7 +42,7 @@ api_type:
 api_location:
  - restrictederrorinfo.h
 api_name:
- - ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
+ - ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo
 ---
 
 # ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo
@@ -72,3 +72,4 @@ The operating system also uses this method to retrieve the stored exceptions ass
 ## -see-also
 
 <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo2">ILanguageExceptionErrorInfo2</a>
+

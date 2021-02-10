@@ -9,6 +9,8 @@ tech.root: deviceaccess
 f1_keywords:
  - deviceaccess
  - deviceaccess/deviceaccess
+api_name:
+ - deviceaccess
 ---
 
 # Deviceaccess.h header

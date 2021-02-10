@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - SymEnumSourceFilesProc
+ - PSYM_ENUMSOURCEFILES_CALLBACK
 ---
 
 # PSYM_ENUMSOURCEFILES_CALLBACK callback function
@@ -86,3 +86,4 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a>
+

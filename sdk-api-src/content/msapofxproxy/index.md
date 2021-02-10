@@ -9,6 +9,8 @@ tech.root: audio
 f1_keywords:
  - msapofxproxy
  - msapofxproxy/msapofxproxy
+api_name:
+ - msapofxproxy
 ---
 
 # Msapofxproxy.h header

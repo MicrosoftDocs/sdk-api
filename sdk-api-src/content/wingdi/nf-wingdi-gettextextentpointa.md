@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetTextExtentPointA
  - wingdi/GetTextExtentPointA
+ - GetTextExtentPoint
+ - wingdi/GetTextExtentPoint
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetTextExtentPoint
  - GetTextExtentPointA
- - GetTextExtentPointW
+ - GetTextExtentPoint
 ---
 
 # GetTextExtentPointA function
@@ -120,3 +121,4 @@ The calculated string width takes into account the intercharacter spacing set by
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-settextcharacterextra">SetTextCharacterExtra</a>
+

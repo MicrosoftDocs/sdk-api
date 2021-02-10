@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_CHANNEL_TYPE
  - EVT_CHANNEL_TYPE
 ---
 
@@ -87,3 +88,4 @@ For a description of each channel type, see the <b>type</b> attribute of the <a 
 
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
+

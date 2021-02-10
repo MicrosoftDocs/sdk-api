@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.WriteCertToUserDS
- - IEnroll.get_WriteCertToUserDS
- - IEnroll.put_WriteCertToUserDS
+ - IEnroll::put_WriteCertToUserDS
 ---
 
 # IEnroll::put_WriteCertToUserDS
@@ -78,3 +76,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

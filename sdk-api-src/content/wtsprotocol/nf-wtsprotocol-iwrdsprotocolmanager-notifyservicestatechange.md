@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolManager.NotifyServiceStateChange
+ - IWRdsProtocolManager::NotifyServiceStateChange
 ---
 
 # IWRdsProtocolManager::NotifyServiceStateChange
@@ -66,3 +66,4 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>
+

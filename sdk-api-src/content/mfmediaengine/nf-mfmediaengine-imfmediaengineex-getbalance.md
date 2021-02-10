@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.GetBalance
+ - IMFMediaEngineEx::GetBalance
 ---
 
 # IMFMediaEngineEx::GetBalance
@@ -97,3 +97,4 @@ If the value is zero, the left and right channels are at equal volumes. The defa
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
+

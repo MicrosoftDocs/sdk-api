@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetModified
+ - IXpsOMCoreProperties::SetModified
 ---
 
 # IXpsOMCoreProperties::SetModified
@@ -114,3 +114,4 @@ The <b>modified</b> property contains the date and time the package was last cha
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

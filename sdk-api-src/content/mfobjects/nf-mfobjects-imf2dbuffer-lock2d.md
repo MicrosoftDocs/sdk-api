@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMF2DBuffer.Lock2D
+ - IMF2DBuffer::Lock2D
 ---
 
 # IMF2DBuffer::Lock2D
@@ -130,3 +130,4 @@ When the underlying buffer is a Direct3D surface, the method fails if the surfac
 
 
 <a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
+

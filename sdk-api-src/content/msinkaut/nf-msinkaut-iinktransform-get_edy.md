@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform.eDy
- - IInkTransform.get_eDy
- - IInkTransform.put_eDy
- - InkTransform.get_eDy
- - InkTransform.put_eDy
+ - IInkTransform::get_eDy
 ---
 
 # IInkTransform::get_eDy
@@ -70,3 +66,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
+

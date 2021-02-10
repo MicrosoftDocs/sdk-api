@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _GROUP_INFO_1002
+ - PGROUP_INFO_1002
  - GROUP_INFO_1002
 ---
 
@@ -78,3 +80,4 @@ Pointer to a null-terminated Unicode character string that contains a remark to 
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPerChannelDbLevel.SetLevelAllChannels
+ - IPerChannelDbLevel::SetLevelAllChannels
 ---
 
 # IPerChannelDbLevel::SetLevelAllChannels
@@ -129,3 +129,4 @@ If the specified level value for any channel is beyond the range that the <a hre
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getlevelrange">IPerChannelDbLevel::GetLevelRange</a>
+

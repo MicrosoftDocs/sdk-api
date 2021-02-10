@@ -44,6 +44,7 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
+ - _BLUETOOTH_IO_CAPABILITY
  - BLUETOOTH_IO_CAPABILITY
 ---
 

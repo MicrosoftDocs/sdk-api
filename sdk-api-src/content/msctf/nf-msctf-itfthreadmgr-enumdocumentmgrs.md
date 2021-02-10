@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgr.EnumDocumentMgrs
+ - ITfThreadMgr::EnumDocumentMgrs
 ---
 
 # ITfThreadMgr::EnumDocumentMgrs
@@ -125,3 +125,4 @@ The caller must release the enumerator when it is no longer required.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
+

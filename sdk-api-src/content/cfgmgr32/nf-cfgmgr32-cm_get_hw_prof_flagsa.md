@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_HW_Prof_FlagsA
  - cfgmgr32/CM_Get_HW_Prof_FlagsA
+ - CM_Get_HW_Prof_Flags
+ - cfgmgr32/CM_Get_HW_Prof_Flags
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Get_HW_Prof_Flags
  - CM_Get_HW_Prof_FlagsA
- - CM_Get_HW_Prof_FlagsW
+ - CM_Get_HW_Prof_Flags
 ---
 
 # CM_Get_HW_Prof_FlagsA function
@@ -129,3 +130,4 @@ To retrieve configuration flags for a device instance on a remote machine, call 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>
+

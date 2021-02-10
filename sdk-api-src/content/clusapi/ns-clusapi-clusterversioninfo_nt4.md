@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSTERVERSIONINFO_NT4
+ - PCLUSTERVERSIONINFO_NT4
 ---
 
 # CLUSTERVERSIONINFO_NT4 structure
@@ -87,3 +88,4 @@ Contains the latest service pack that is  installed on the node. If a Service Pa
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
+

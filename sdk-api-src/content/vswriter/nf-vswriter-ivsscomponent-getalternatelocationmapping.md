@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetAlternateLocationMapping
+ - IVssComponent::GetAlternateLocationMapping
 ---
 
 # IVssComponent::GetAlternateLocationMapping
@@ -187,3 +187,4 @@ For more information on backup and restore file locations under VSS, see
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">IVssExamineWriterMetadata::GetAlternateLocationMapping</a>
+

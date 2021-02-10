@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_CONNECTION_LIMIT_INFO
+ - PHTTP_CONNECTION_LIMIT_INFO
  - HTTP_CONNECTION_LIMIT_INFO
 ---
 
@@ -83,3 +85,4 @@ The number of connections allowed. Setting this value to HTTP_LIMIT_INFINITE all
 
 
 <a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
+

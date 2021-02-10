@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegInstallA
  - advpub/RegInstallA
+ - RegInstall
+ - advpub/RegInstall
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - advpack.dll
 api_name:
  - RegInstallA
+ - RegInstall
 ---
 
 # RegInstallA function

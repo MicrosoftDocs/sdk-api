@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_BOOL_DESCRIPTION
  - WS_BOOL_DESCRIPTION
 ---
 
@@ -60,3 +61,4 @@ Specifies constraints on the set of values
 ### -field value
 
 Specifies the required value.
+

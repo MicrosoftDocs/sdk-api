@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray.GetUpperBound
- - ?GetUpperBound@CHStringArray@@QBEHXZ
- - ?GetUpperBound@CHStringArray@@QEBAHXZ
+ - CHStringArray::GetUpperBound
 ---
 
 # CHStringArray::GetUpperBound
@@ -82,3 +80,4 @@ If the <b>GetUpperBound</b> method is successful, it returns the upper bounds of
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">CHStringArray::SetSize</a>
+

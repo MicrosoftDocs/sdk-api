@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IQueryInfo.GetInfoTip
+ - IQueryInfo::GetInfoTip
 ---
 
 # IQueryInfo::GetInfoTip
@@ -111,3 +111,4 @@ Returns S_OK if the function succeeds. If no info tip text is available, <i>ppws
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo">IQueryInfo</a>
+

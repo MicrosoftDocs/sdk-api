@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxLoggingOptions.ActivityLogging
- - IFaxLoggingOptions.get_ActivityLogging
+ - IFaxLoggingOptions::get_ActivityLogging
 ---
 
 # IFaxLoggingOptions::get_ActivityLogging
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-logging-options">Visual Basic Example</a>
+

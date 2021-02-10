@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Pnrpdef.h
 api_name:
+ - _PNRP_CLOUD_ID
+ - PPNRP_CLOUD_ID
  - PNRP_CLOUD_ID
 ---
 
@@ -96,3 +98,4 @@ Specifies the ID for this scope.
 ## -see-also
 
 <a href="/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>
+

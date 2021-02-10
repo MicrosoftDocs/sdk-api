@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Schedule.h
 api_name:
+ - _SCHEDULE
+ - PSCHEDULE
  - SCHEDULE
 ---
 
@@ -85,3 +87,4 @@ Contains an array of <a href="/windows/desktop/api/schedule/ns-schedule-schedule
 
 
 <a href="/windows/desktop/api/schedule/ns-schedule-schedule_header">SCHEDULE_HEADER</a>
+

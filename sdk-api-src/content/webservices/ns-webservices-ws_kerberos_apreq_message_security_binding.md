@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
  - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
 ---
 
@@ -96,3 +97,4 @@ To use this binding on HTTP without SSL, the security description property <b>WS
 The Windows Integrated Authentication credential to be used to obtain
 the Kerberos ticket.  This field is required on the client side, but
 must be <b>NULL</b> on the server side.
+

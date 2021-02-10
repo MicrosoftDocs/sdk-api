@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItem.GetName
+ - ISyncMgrSyncItem::GetName
 ---
 
 # ISyncMgrSyncItem::GetName
@@ -95,3 +95,4 @@ STDMETHODIMP CMyDeviceSyncItem::GetName(__out LPWSTR *ppszName)
 }
 
 ```
+

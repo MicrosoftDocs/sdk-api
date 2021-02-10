@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tuner.h
 api_name:
- - IScanningTunerEx.GetTunerStatus
+ - IScanningTunerEx::GetTunerStatus
 ---
 
 # IScanningTunerEx::GetTunerStatus
@@ -86,3 +86,4 @@ While the scan is in progress, the application can use this method to estimate t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
+ - _CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO
+ - PCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO
  - CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO
 ---
 
@@ -79,3 +81,4 @@ Filter callback function used to display the certificate.
 ### -field pvCallbackData
 
 A pointer to the callback data.
+

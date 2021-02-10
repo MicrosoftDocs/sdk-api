@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoUnit.GetDescription
+ - IOleUndoUnit::GetDescription
 ---
 
 # IOleUndoUnit::GetDescription
@@ -72,3 +72,4 @@ The <i>pbstr</i> parameter is allocated with the standard string allocator. The 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
+

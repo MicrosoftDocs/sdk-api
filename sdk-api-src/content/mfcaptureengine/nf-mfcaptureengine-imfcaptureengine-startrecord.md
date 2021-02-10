@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureEngine.StartRecord
+ - IMFCaptureEngine::StartRecord
 ---
 
 # IMFCaptureEngine::StartRecord
@@ -98,3 +98,4 @@ To stop recording, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptu
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
+

@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.addCertTypeToRequest
- - ICEnroll3.addCertTypeToRequest
- - ICEnroll2.addCertTypeToRequest
- - CEnroll.addCertTypeToRequest
+ - ICEnroll2::addCertTypeToRequest
 ---
 
 # ICEnroll2::addCertTypeToRequest
@@ -77,3 +74,4 @@ The certificate template fully qualified name which is being added to the <a hre
 ## -remarks
 
 This method can be called multiple times if more than one certificate template is desired for the request.
+

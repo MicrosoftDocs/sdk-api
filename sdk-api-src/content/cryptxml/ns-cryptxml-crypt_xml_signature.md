@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_SIGNATURE
+ - PCRYPT_XML_SIGNATURE
  - CRYPT_XML_SIGNATURE
 ---
 
@@ -92,3 +94,4 @@ The number of  items in the array pointed to by the <b>rgpObject</b> member.
 ### -field rgpObject
 
 Optional. A pointer to an array of  pointers to <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_object">CRYPT_XML_OBJECT</a> structures that  contain information that is encoded in <b>Object</b> elements.
+

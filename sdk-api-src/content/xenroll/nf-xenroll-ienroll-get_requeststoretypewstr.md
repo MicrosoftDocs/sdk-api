@@ -42,12 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.RequestStoreTypeWStr
- - IEnroll.get_RequestStoreTypeWStr
- - IEnroll.put_RequestStoreTypeWStr
- - IEnroll4.RequestStoreTypeWStr
- - IEnroll4.get_RequestStoreTypeWStr
- - IEnroll4.put_RequestStoreTypeWStr
+ - IEnroll::get_RequestStoreTypeWStr
 ---
 
 # IEnroll::get_RequestStoreTypeWStr
@@ -101,3 +96,4 @@ Typically, modification of the <b>RequestStoreTypeWStr</b> property is  performe
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

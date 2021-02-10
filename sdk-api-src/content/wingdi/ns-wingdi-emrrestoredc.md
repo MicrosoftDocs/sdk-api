@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRRESTOREDC
+ - PEMRRESTOREDC
  - EMRRESTOREDC
 ---
 
@@ -77,3 +79,4 @@ Relative instance to restore.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-restoredc">RestoreDC</a>
+

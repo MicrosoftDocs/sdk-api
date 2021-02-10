@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject.GetOutputSizeInfo
+ - IMediaObject::GetOutputSizeInfo
 ---
 
 # IMediaObject::GetOutputSizeInfo
@@ -122,3 +122,4 @@ A buffer is <i>aligned</i> if the buffer's start address is a multiple of <i>*pc
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
+

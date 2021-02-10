@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFont3.GetLocality
+ - IDWriteFont3::GetLocality
 ---
 
 # IDWriteFont3::GetLocality

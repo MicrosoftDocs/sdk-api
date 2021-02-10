@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateRequestPkcs7V2.InitializeFromTemplate
+ - IX509CertificateRequestPkcs7V2::InitializeFromTemplate
 ---
 
 # IX509CertificateRequestPkcs7V2::InitializeFromTemplate
@@ -187,3 +187,4 @@ Finally, the method sets the initialized PKCS #10 request as the inner request o
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7v2">IX509CertificateRequestPkcs7V2</a>
+

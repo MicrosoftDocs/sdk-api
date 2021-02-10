@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DnsAddr
+ - PDNS_ADDR
  - DNS_ADDR
 ---
 
@@ -73,3 +75,4 @@ Reserved. Must be 0.
 
 
 <a href="/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
+

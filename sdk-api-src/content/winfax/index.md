@@ -9,6 +9,8 @@ tech.root: fax
 f1_keywords:
  - winfax
  - winfax/winfax
+api_name:
+ - winfax
 ---
 
 # Winfax.h header

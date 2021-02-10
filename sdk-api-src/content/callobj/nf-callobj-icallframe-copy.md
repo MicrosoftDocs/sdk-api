@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame.Copy
+ - ICallFrame::Copy
 ---
 
 # ICallFrame::Copy
@@ -78,3 +78,4 @@ Copying a frame is like unmarshalling a marshaled frame. The call frame can only
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

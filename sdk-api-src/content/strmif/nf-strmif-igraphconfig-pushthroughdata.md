@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphConfig.PushThroughData
+ - IGraphConfig::PushThroughData
 ---
 
 # IGraphConfig::PushThroughData
@@ -124,3 +124,4 @@ If a filter calls this method on one of its own data processing threads, it crea
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
+

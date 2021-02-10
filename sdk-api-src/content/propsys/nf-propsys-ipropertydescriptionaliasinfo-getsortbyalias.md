@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescriptionAliasInfo.GetSortByAlias
+ - IPropertyDescriptionAliasInfo::GetSortByAlias
 ---
 
 # IPropertyDescriptionAliasInfo::GetSortByAlias
@@ -79,3 +79,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionaliasinfo-getadditionalsortbyaliases">IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases</a>
+

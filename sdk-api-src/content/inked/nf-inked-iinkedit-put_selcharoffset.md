@@ -42,11 +42,7 @@ api_type:
 api_location:
  - inked.h
 api_name:
- - IInkEdit.SelCharOffset
- - IInkEdit.get_SelCharOffset
- - IInkEdit.put_SelCharOffset
- - InkEdit.get_SelCharOffset
- - InkEdit.put_SelCharOffset
+ - IInkEdit::put_SelCharOffset
 ---
 
 # IInkEdit::put_SelCharOffset
@@ -67,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderPropertyConstraintCollection.Item
+ - IProviderPropertyConstraintCollection::Item
 ---
 
 # IProviderPropertyConstraintCollection::Item
@@ -108,3 +108,4 @@ The <i>ppropVar</i> or <i>pdwPropertyConstraint</i> parameter is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection">IProviderPropertyConstraintCollection</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
+ - _SERVICE_STATUS
+ - LPSERVICE_STATUS
  - SERVICE_STATUS
 ---
 
@@ -496,3 +498,4 @@ The estimated time required for a pending start, stop, pause, or continue operat
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
+

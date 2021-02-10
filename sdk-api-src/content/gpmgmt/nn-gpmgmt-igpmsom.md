@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMSOM
- - GPMSOM
 ---
 
 # IGPMSOM interface
@@ -73,3 +72,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSOM</b> interface inherit
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRWindowlessControl.SetBorderColor
+ - IVMRWindowlessControl::SetBorderColor
 ---
 
 # IVMRWindowlessControl::SetBorderColor
@@ -100,3 +100,4 @@ The border color is color used to fill any area of the destination rectangle tha
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

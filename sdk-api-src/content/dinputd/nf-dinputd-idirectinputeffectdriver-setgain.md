@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputEffectDriver.SetGain
+ - IDirectInputEffectDriver::SetGain
 ---
 
 # IDirectInputEffectDriver::SetGain

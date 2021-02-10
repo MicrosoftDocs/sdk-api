@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ColorF.ColorF(FLOAT, FLOAT, FLOAT, FLOAT)
+ - ColorF::ColorF
 ---
 
 # ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT)
@@ -85,3 +85,4 @@ The alpha value of the color to be constructed. An alpha channel value ranges fr
 
 
 <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a>
+

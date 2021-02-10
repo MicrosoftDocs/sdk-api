@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTVTuner.StoreAutoTune
+ - IAMTVTuner::StoreAutoTune
 ---
 
 # IAMTVTuner::StoreAutoTune
@@ -74,3 +74,4 @@ Override the channel-to-frequency information stored by this method by setting a
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

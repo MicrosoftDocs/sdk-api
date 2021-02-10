@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
+ - _COPP_ImageAspectRatio_EN300294
  - COPP_ImageAspectRatio_EN300294
 ---
 
@@ -97,3 +98,4 @@ Full format 16:9 (anamorphic)
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
+

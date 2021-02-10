@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeStringArray.GetStringType
- - CCertEncodeStringArray.GetStringType
+ - ICertEncodeStringArray::GetStringType
 ---
 
 # ICertEncodeStringArray::GetStringType
@@ -139,3 +138,4 @@ For an example that uses the <b>GetStringType</b> method, see the <a href="/wind
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-reset">ICertEncodeStringArray::Reset</a>
+

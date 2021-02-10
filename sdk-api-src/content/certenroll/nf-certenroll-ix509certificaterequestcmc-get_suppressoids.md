@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.SuppressOids
- - IX509CertificateRequestCmc.get_SuppressOids
+ - IX509CertificateRequestCmc::get_SuppressOids
 ---
 
 # IX509CertificateRequestCmc::get_SuppressOids
@@ -86,3 +85,4 @@ You must initialize the <a href="/windows/desktop/api/certenroll/nn-certenroll-i
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
+

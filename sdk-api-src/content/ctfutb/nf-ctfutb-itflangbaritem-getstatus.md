@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarItem.GetStatus
+ - ITfLangBarItem::GetStatus
 ---
 
 # ITfLangBarItem::GetStatus
@@ -99,3 +99,4 @@ The method was successful.
 
 <a href="/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_*
       </a>
+

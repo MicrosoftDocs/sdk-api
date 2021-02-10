@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMNotificationClient.OnPropertyValueChanged
+ - IMMNotificationClient::OnPropertyValueChanged
 ---
 
 # IMMNotificationClient::OnPropertyValueChanged
@@ -77,3 +77,4 @@ For a code example that implements the <b>OnPropertyValueChanged</b> method, see
 ## -see-also
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
+

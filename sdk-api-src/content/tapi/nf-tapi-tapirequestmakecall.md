@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - tapiRequestMakeCall
- - tapiRequestMakeCallA
- - tapiRequestMakeCallW
 ---
 
 # tapiRequestMakeCall function
@@ -95,3 +93,4 @@ Invoking
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+

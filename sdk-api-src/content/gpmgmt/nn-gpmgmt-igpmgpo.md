@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMGPO
- - GPMGPO
 ---
 
 # IGPMGPO interface
@@ -92,3 +91,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n"> IGPMGPO</b> interface inheri
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
+

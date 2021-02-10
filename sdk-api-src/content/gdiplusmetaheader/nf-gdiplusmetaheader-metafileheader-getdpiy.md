@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader.GetDpiY
+ - MetafileHeader::GetDpiY
 ---
 
 # MetafileHeader::GetDpiY
@@ -84,3 +84,4 @@ This method returns a real number that specifies the vertical dots per inch of t
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+

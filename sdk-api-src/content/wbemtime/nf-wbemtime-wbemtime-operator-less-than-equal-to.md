@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.operator<=
+ - WBEMTime::operator<=
 ---
 
 # WBEMTime::operator-less-than-equal-to
@@ -68,3 +68,4 @@ Reference to the WBEMTime object whose time is compared to this one.
 ## -returns
 
 True if this time is less than or equal to the time specified by <i>uTarget</i>.
+

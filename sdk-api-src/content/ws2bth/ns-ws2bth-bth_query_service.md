@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ws2bth.h
 api_name:
+ - _BTH_QUERY_SERVICE
+ - PBTH_QUERY_SERVICE
  - BTH_QUERY_SERVICE
 ---
 
@@ -101,3 +103,4 @@ See
 
 
 <a href="/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-service-inquiry">Bluetooth and WSAQUERYSET for Service Inquiry</a>
+

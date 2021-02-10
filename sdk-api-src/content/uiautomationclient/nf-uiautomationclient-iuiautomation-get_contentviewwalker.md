@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.ContentViewWalker
- - IUIAutomation.get_ContentViewWalker
+ - IUIAutomation::get_ContentViewWalker
 ---
 
 # IUIAutomation::get_ContentViewWalker
@@ -76,3 +75,4 @@ This property is read-only.
 
 
 <b>Reference</b>
+

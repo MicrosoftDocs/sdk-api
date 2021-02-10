@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush.SetWrapMode
+ - TextureBrush::SetWrapMode
 ---
 
 # TextureBrush::SetWrapMode
@@ -124,3 +124,4 @@ VOID Example_SetWrapMode(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a>
+

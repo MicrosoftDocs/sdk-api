@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1024
+ - PUSER_INFO_1024
  - USER_INFO_1024
 ---
 
@@ -85,3 +87,4 @@ This value is ignored.
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

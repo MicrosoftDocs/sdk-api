@@ -45,6 +45,8 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
+ - _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
  - STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 ---
 
@@ -121,3 +123,4 @@ Specifies the product type of the storage device.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+

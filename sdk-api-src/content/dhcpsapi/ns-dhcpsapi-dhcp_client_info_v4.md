@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_INFO_V4
+ - LPDHCP_CLIENT_INFO_V4
  - DHCP_CLIENT_INFO_V4
 ---
 
@@ -166,3 +168,4 @@ The client does not use a supported dynamic IP address service.
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetclientinfov4">DhcpGetClientInfoV4</a>
+

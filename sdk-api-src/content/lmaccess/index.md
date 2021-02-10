@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - lmaccess
  - lmaccess/lmaccess
+api_name:
+ - lmaccess
 ---
 
 # Lmaccess.h header

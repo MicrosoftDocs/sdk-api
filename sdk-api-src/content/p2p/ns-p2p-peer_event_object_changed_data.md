@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_event_object_changed_data_tag
+ - PPEER_EVENT_OBJECT_CHANGED_DATA
  - PEER_EVENT_OBJECT_CHANGED_DATA
 ---
 
@@ -103,3 +105,4 @@ If <a href="/windows/desktop/api/p2p/nf-p2p-peercollabdeleteobject">PeerCollabDe
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

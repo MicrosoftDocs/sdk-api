@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmalert.h
 api_name:
+ - _USER_OTHER_INFO
+ - PUSER_OTHER_INFO
  - USER_OTHER_INFO
 ---
 
@@ -135,3 +137,4 @@ See
 
 
 <a href="/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a>
+

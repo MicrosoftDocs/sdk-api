@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMGraphStreams.SetMaxGraphLatency
+ - IAMGraphStreams::SetMaxGraphLatency
 ---
 
 # IAMGraphStreams::SetMaxGraphLatency
@@ -105,3 +105,4 @@ If you call this method beforing calling <b>SyncUsingStreamOffset</b>, the metho
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams Interface</a>
+

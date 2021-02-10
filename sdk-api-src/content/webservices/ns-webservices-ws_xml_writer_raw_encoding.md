@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_WRITER_RAW_ENCODING
  - WS_XML_WRITER_RAW_ENCODING
 ---
 
@@ -77,3 +78,4 @@ The base64 characters of the document are only converted to bytes when necessary
         decoded to their corresponding bytes.  In general writing the document using anything other than 
         <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbytes">WsReadBytes</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wspullbytes">WsPullBytes</a>, or <a href="/windows/desktop/api/webservices/nf-webservices-wspushbytes">WsPushBytes</a> will incur the 
         base64 conversion.
+

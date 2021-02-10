@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device.CreateRasterizerState
+ - ID3D10Device::CreateRasterizerState
 ---
 
 # ID3D10Device::CreateRasterizerState
@@ -82,3 +82,4 @@ If an application attempts to create a rasterizer state with the same descriptio
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

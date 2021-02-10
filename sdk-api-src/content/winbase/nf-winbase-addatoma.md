@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - AddAtomA
  - winbase/AddAtomA
+ - AddAtom
+ - winbase/AddAtom
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - kernel32legacy.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - AddAtom
  - AddAtomA
- - AddAtomW
+ - AddAtom
 ---
 
 # AddAtomA function
@@ -128,3 +129,4 @@ If
 
 
 <b>Reference</b>
+

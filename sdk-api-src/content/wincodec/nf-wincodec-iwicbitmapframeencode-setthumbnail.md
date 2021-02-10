@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.SetThumbnail
+ - IWICBitmapFrameEncode::SetThumbnail
 ---
 
 # IWICBitmapFrameEncode::SetThumbnail
@@ -108,3 +108,4 @@ We recommend that you call
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a>
+

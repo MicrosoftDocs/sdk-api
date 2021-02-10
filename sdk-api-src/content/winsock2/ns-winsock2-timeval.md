@@ -47,6 +47,8 @@ api_location:
  - winsock.h
 api_name:
  - timeval
+ - PTIMEVAL
+ - TIMEVAL
 ---
 
 # TIMEVAL structure
@@ -96,3 +98,4 @@ Several functions are added on Windows Vista and later that use the  <b>timeval
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
+

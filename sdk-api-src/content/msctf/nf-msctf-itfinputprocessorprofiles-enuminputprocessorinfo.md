@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.EnumInputProcessorInfo
+ - ITfInputProcessorProfiles::EnumInputProcessorInfo
 ---
 
 # ITfInputProcessorProfiles::EnumInputProcessorInfo
@@ -121,3 +121,4 @@ A memory allocation error occurred.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-register">ITfInputProcessorProfiles::Register
       </a>
+

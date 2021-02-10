@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.CheckNotSupported
+ - IUIAutomation::CheckNotSupported
 ---
 
 # IUIAutomation::CheckNotSupported
@@ -83,3 +83,4 @@ After retrieving a property for a UI Automation element, call this method to det
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_reservednotsupportedvalue">IUIAutomation::ReservedNotSupportedValue</a>
+

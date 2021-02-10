@@ -45,6 +45,7 @@ api_location:
  - ResApi.h
 api_name:
  - CLUS_WORKER
+ - PCLUS_WORKER
 ---
 
 # CLUS_WORKER structure
@@ -86,3 +87,4 @@ The
 
 
 <a href="/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a>
+

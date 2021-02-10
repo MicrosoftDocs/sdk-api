@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator.GraphicsPathIterator
+ - GraphicsPathIterator::GraphicsPathIterator
 ---
 
 ## -description
@@ -65,3 +65,4 @@ Pointer to a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspa
 
 
 <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
+

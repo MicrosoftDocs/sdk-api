@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.AddRefHfont
+ - IFont::AddRefHfont
 ---
 
 # IFont::AddRefHfont
@@ -91,3 +91,4 @@ The font was successfully locked in the cache.
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>
+

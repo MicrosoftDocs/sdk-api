@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPIFindNext
+ - MAPIFINDNEXT
 ---
 
 # MAPIFINDNEXT callback function
@@ -219,3 +219,4 @@ Because message identifiers are messaging system-specific and can be invalidated
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
+

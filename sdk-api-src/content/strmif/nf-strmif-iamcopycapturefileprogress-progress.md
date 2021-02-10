@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCopyCaptureFileProgress.Progress
+ - IAMCopyCaptureFileProgress::Progress
 ---
 
 # IAMCopyCaptureFileProgress::Progress
@@ -74,3 +74,4 @@ Applications typically use the value of <i>iProgress</i> to update a progress ba
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamcopycapturefileprogress">IAMCopyCaptureFileProgress Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationDragDropBehavior.SetConfiguration
+ - IDirectManipulationDragDropBehavior::SetConfiguration
 ---
 
 # IDirectManipulationDragDropBehavior::SetConfiguration
@@ -92,3 +92,4 @@ The configuration of the behavior can be set before or after it has been added t
 
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">IDirectManipulationViewport::ActivateConfiguration</a>
+

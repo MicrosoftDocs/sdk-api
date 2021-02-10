@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecNotificationQuery
+ - IWbemServices::ExecNotificationQuery
 ---
 
 # IWbemServices::ExecNotificationQuery
@@ -140,3 +140,4 @@ There are limits to the number of <b>AND</b> and <b>OR</b> keywords that can be 
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
+

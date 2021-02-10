@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSimpleAudioVolume.SetMute
+ - IMFSimpleAudioVolume::SetMute
 ---
 
 # IMFSimpleAudioVolume::SetMute
@@ -114,3 +114,4 @@ This method does not change the volume level returned by the <a href="/windows/d
 
 
 <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
+ - tagSTREAM_SEEK
  - STREAM_SEEK
 ---
 
@@ -73,3 +74,4 @@ The new seek pointer is an offset relative to the end of the stream. In this cas
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a>
+

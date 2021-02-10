@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wmsdkidl.h
 api_name:
+ - __tagDRM_PLAY_OPL
  - DRM_PLAY_OPL
 ---
 
@@ -75,3 +76,4 @@ Reserved for future use.
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

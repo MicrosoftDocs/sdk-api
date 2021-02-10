@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallBase.ReceiveTSPCallData
+ - CMSPCallBase::ReceiveTSPCallData
 ---
 
 # CMSPCallBase::ReceiveTSPCallData
@@ -67,3 +67,4 @@ Size of the buffer, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
+

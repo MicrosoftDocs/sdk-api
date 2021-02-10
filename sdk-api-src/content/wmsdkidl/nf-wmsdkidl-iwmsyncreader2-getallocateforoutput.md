@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader2.GetAllocateForOutput
+ - IWMSyncReader2::GetAllocateForOutput
 ---
 
 # IWMSyncReader2::GetAllocateForOutput
@@ -76,3 +76,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setallocateforoutput">IWMSyncReader2::SetAllocateForOutput</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Effect.GetOutput
+ - ID2D1Effect::GetOutput
 ---
 
 # ID2D1Effect::GetOutput
@@ -85,3 +85,4 @@ It is  also possible to use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunkn
 
 
 <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
+

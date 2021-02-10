@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMDevMemoryControl.GetDevId
+ - IAMDevMemoryControl::GetDevId
 ---
 
 # IAMDevMemoryControl::GetDevId
@@ -75,3 +75,4 @@ This method retrieves a unique ID that the hardware filter can use to verify tha
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemorycontrol">IAMDevMemoryControl Interface</a>
+

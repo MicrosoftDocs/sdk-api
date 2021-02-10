@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LsaApCallPackagePassthrough
+ - LSA_AP_CALL_PACKAGE_PASSTHROUGH
 ---
 
 # LSA_AP_CALL_PACKAGE_PASSTHROUGH callback function
@@ -126,3 +126,4 @@ This function must be implemented by authentication packages.
 
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
+

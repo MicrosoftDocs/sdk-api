@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - EnumDisplayDevicesW
  - winuser/EnumDisplayDevicesW
+ - EnumDisplayDevices
+ - winuser/EnumDisplayDevices
 dev_langs:
  - c++
 topic_type:
@@ -45,10 +48,8 @@ api_location:
  - minuser.dll
  - api-ms-win-ntuser-sysparams-l1-1-0.dll
 api_name:
- - EnumDisplayDevices
- - EnumDisplayDevicesA
  - EnumDisplayDevicesW
-req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
+ - EnumDisplayDevices
 ---
 
 # EnumDisplayDevicesW function
@@ -136,3 +137,4 @@ To query all monitor devices associated with an adapter, call <b>EnumDisplayDevi
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
+

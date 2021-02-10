@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchProtocol.CreateAccessor
+ - ISearchProtocol::CreateAccessor
 ---
 
 # ISearchProtocol::CreateAccessor
@@ -94,3 +94,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
  
        The protocol host calls this method on the protocol handler once for every URL processed by the gatherer and retrieves a pointer to the <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object. This method creates and initializes an <b>IUrlAccessor</b> object to process an item currently being accessed by the gatherer.
+

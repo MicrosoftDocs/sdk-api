@@ -42,7 +42,7 @@ api_type:
 api_location:
  - vswriter.h
 api_name:
- - IVssComponentEx2.GetFailure
+ - IVssComponentEx2::GetFailure
 ---
 
 # IVssComponentEx2::GetFailure
@@ -236,3 +236,4 @@ When the caller has finished accessing the status information returned by this m
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex2">IVssComponentEx2</a>
+

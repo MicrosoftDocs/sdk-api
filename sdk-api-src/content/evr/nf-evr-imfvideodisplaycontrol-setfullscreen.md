@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl.SetFullscreen
+ - IMFVideoDisplayControl::SetFullscreen
 ---
 
 # IMFVideoDisplayControl::SetFullscreen
@@ -122,3 +122,4 @@ The transition to and from full-screen mode occurs asynchronously. To get the cu
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
+

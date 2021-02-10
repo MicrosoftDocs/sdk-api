@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMTBSAVE
+ - LPNMTBSAVE
  - NMTBSAVE
 ---
 
@@ -105,3 +107,4 @@ An estimate of the number of buttons. Because it is based on the size of the dat
 Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a></b>
 
 A <a href="/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structure that contains information about the button currently being saved.
+

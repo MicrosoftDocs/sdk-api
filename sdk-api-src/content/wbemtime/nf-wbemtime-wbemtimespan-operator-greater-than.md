@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan.operator>
- - ??OWBEMTimeSpan@@QBEHABV0@@Z
+ - WBEMTimeSpan::operator>
 ---
 
 # WBEMTimeSpan::operator-greater-than
@@ -69,3 +68,4 @@ Reference to the <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan
 ## -returns
 
 <b>TRUE</b> if this time span is greater than the time span specified by <i>uTarget</i>.
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InetPtonW
  - ws2tcpip/InetPtonW
+ - InetPton
+ - ws2tcpip/InetPton
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - InetPton
- - InetPtonA or inet_pton
  - InetPtonW
+ - InetPton
 ---
 
 # InetPtonW function
@@ -230,3 +231,4 @@ On Windows Vista and later, the <a href="/windows/desktop/api/ip2string/nf-ip2s
 
 
 <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
+

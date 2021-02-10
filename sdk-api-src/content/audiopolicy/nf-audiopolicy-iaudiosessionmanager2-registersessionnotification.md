@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionManager2.RegisterSessionNotification
+ - IAudioSessionManager2::RegisterSessionNotification
 ---
 
 # IAudioSessionManager2::RegisterSessionNotification
@@ -112,3 +112,4 @@ Threads that run the user interface of an application should be initialized apar
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2">IAudioSessionManager2</a>
+

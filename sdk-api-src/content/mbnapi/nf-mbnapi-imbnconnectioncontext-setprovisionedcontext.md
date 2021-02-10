@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionContext.SetProvisionedContext
+ - IMbnConnectionContext::SetProvisionedContext
 ---
 
 # IMbnConnectionContext::SetProvisionedContext
@@ -146,3 +146,4 @@ Additions to the provisioned context list for the current home provider ID will 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a>
+

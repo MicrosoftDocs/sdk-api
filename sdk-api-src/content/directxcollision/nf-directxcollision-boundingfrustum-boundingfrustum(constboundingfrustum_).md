@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingFrustum.BoundingFrustum
+ - BoundingFrustum::BoundingFrustum
 ---
 
 # BoundingFrustum::BoundingFrustum(const BoundingFrustum &)
@@ -68,3 +68,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 [BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 <a href="https://msdn.microsoft.com/3b278210-3d55-4a2b-879d-942e3bc9800c">Constructors</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2.LocalPolicyModifyState
- - INetFwPolicy2.get_LocalPolicyModifyState
+ - INetFwPolicy2::get_LocalPolicyModifyState
 ---
 
 # INetFwPolicy2::get_LocalPolicyModifyState
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
+

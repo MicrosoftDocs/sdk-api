@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFontFace4.GetGlyphImageFormats
+ - IDWriteFontFace4::GetGlyphImageFormats
 ---
 
 # IDWriteFontFace4::GetGlyphImageFormats

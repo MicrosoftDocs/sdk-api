@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
+ - _RSVP_POLICY_INFO
+ - LPRSVP_POLICY_INFO
  - RSVP_POLICY_INFO
 ---
 
@@ -77,3 +79,4 @@ List of policy elements received, in the form of a <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_policy">RSVP_POLICY</a>
+

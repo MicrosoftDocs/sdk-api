@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaControl.Run
+ - IMediaControl::Run
 ---
 
 # IMediaControl::Run
@@ -107,3 +107,4 @@ If the <b>Run</b> method returns an error code, it means that one or more filter
 
 
 <a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
+

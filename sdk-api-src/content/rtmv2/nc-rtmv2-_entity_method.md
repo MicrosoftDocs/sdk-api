@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - RTM_ENTITY_EXPORT_METHOD
+ - _ENTITY_METHOD
 ---
 
 # _ENTITY_METHOD callback function
@@ -83,3 +83,4 @@ Methods can be exported when a client registers. Other clients, such as routing 
 
 
 <a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a>
+

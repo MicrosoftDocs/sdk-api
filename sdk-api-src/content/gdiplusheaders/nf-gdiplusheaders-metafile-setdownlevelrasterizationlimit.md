@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile.SetDownLevelRasterizationLimit
+ - Metafile::SetDownLevelRasterizationLimit
 ---
 
 # Metafile::SetDownLevelRasterizationLimit
@@ -134,3 +134,4 @@ Metafile metafile(L"Metafile.emf", hdcPrint, EmfTypeEmfOnly);
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>
+

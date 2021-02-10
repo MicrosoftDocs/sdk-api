@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.HoldVariable
+ - IUIAnimationStoryboard2::HoldVariable
 ---
 
 # IUIAnimationStoryboard2::HoldVariable
@@ -73,3 +73,4 @@ When a storyboard is playing, it has exclusive access to any variables it animat
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable2">IUIAnimationVariable2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dinputd.h
 api_name:
- - IDirectInputJoyConfig.OpenConfigKey
+ - IDirectInputJoyConfig::OpenConfigKey
 ---
 
 # IDirectInputJoyConfig::OpenConfigKey
@@ -120,3 +120,4 @@ A Win32 error code if access to the key is denied because of inappropriate regis
 </td>
 </tr>
 </table>
+

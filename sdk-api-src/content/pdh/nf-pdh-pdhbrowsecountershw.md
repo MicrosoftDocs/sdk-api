@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhBrowseCountersHW
  - pdh/PdhBrowseCountersHW
+ - PdhBrowseCountersH
+ - pdh/PdhBrowseCountersH
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhBrowseCountersH
- - PdhBrowseCountersHA
  - PdhBrowseCountersHW
+ - PdhBrowseCountersH
 ---
 
 # PdhBrowseCountersHW function
@@ -125,3 +126,4 @@ Note that the dialog
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhopenqueryh">PdhOpenQueryH</a>
+

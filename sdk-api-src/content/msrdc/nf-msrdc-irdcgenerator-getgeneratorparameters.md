@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcGenerator.GetGeneratorParameters
+ - IRdcGenerator::GetGeneratorParameters
 ---
 
 # IRdcGenerator::GetGeneratorParameters
@@ -78,3 +78,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
+

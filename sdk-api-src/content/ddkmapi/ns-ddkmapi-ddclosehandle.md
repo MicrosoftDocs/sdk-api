@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDCLOSEHANDLE
+ - LPDDCLOSEHANDLE
  - DDCLOSEHANDLE
 ---
 
@@ -69,3 +71,4 @@ Handle to be closed.
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

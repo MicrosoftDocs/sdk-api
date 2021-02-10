@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Filter.h
 api_name:
+ - tagIFILTER_FLAGS
  - IFILTER_FLAGS
 ---
 
@@ -78,3 +79,4 @@ The <i>pdwFlags</i> parameter in the <a href="/windows/desktop/api/filter/nf-fil
 
 
 <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
+

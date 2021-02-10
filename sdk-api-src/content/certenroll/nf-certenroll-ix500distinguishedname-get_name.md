@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX500DistinguishedName.Name
- - IX500DistinguishedName.get_Name
+ - IX500DistinguishedName::get_Name
 ---
 
 # IX500DistinguishedName::get_Name
@@ -64,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix500distinguish
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a>
+

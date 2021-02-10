@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_FEATURE_CAPS
  - DXVAHD_FEATURE_CAPS
 ---
 
@@ -83,3 +84,4 @@ The device can apply alpha values from color palette entries. See <a href="/wind
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

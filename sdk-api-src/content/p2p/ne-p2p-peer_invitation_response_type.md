@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_invitation_response_type_tag
  - PEER_INVITATION_RESPONSE_TYPE
 ---
 
@@ -75,3 +76,4 @@ An error occurred during the invitation process.
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
+

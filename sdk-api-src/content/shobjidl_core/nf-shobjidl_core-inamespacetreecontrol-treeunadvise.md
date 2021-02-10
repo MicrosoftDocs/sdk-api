@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.TreeUnadvise
+ - INameSpaceTreeControl::TreeUnadvise
 ---
 
 # INameSpaceTreeControl::TreeUnadvise
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The pointer to the cookie that is passed in is the one that was passed back in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-treeadvise">INameSpaceTreeControl::TreeAdvise</a>.
+

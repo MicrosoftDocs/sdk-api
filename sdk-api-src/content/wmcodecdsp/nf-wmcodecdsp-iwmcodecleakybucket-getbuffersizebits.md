@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecLeakyBucket.GetBufferSizeBits
+ - IWMCodecLeakyBucket::GetBufferSizeBits
 ---
 
 # IWMCodecLeakyBucket::GetBufferSizeBits
@@ -91,3 +91,4 @@ The buffer size is equal to the bit rate of the stream multiplied by the buffer 
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-setbuffersizebits">IWMCodecLeakyBucket::SetBufferSizeBits</a>
+

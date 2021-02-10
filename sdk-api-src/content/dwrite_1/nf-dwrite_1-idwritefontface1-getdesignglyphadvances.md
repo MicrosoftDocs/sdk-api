@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite_1.dll
 api_name:
- - IDWriteFontFace1.GetDesignGlyphAdvances
+ - IDWriteFontFace1::GetDesignGlyphAdvances
 ---
 
 # IDWriteFontFace1::GetDesignGlyphAdvances

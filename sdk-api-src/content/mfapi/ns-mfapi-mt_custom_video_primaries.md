@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - _MT_CUSTOM_VIDEO_PRIMARIES
  - MT_CUSTOM_VIDEO_PRIMARIES
 ---
 
@@ -95,3 +96,4 @@ This structure is used with the <a href="/windows/desktop/medfound/mf-mt-custom-
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

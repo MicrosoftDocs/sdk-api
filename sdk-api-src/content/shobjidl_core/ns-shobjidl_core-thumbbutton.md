@@ -45,6 +45,7 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - THUMBBUTTON
+ - LPTHUMBBUTTON
 ---
 
 # THUMBBUTTON structure
@@ -128,3 +129,4 @@ Images must be 32-bit and of dimensions <a href="/windows/desktop/api/winuser/nf
 
 
 <a href="/previous-versions/windows/desktop/legacy/ee663597(v=vs.85)">Taskbar Thumbnail Toolbar Sample</a>
+

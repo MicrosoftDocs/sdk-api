@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _SSTP_CERT_INFO
+ - PSSTP_CERT_INFO
  - SSTP_CERT_INFO
 ---
 
@@ -86,3 +88,4 @@ The <b>cbData</b> member contains the length, in bytes, of the certificate hash 
 
 
 <a href="/windows/desktop/api/mprapi/ns-mprapi-sstp_config_params">SSTP_CONFIG_PARAMS</a>
+

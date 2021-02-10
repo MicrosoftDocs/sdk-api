@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedFlowsTo
- - IUIAutomationElement.get_CachedFlowsTo
+ - IUIAutomationElement::get_CachedFlowsTo
 ---
 
 # IUIAutomationElement::get_CachedFlowsTo
@@ -76,3 +75,4 @@ This property maps to the Accessible Rich Internet Applications (ARIA) <b>flowto
 
 
 <b>Reference</b>
+

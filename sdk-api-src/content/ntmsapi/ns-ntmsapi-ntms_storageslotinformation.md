@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - NTMS_STORAGEINFORMATION
+ - _NTMS_STORAGESLOTINFORMATION
+ - NTMS_STORAGESLOTINFORMATION
 ---
 
 # NTMS_STORAGESLOTINFORMATION structure
@@ -139,3 +140,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+

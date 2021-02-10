@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylusSynchronization.AcquireLock
+ - IRealTimeStylusSynchronization::AcquireLock
 ---
 
 # IRealTimeStylusSynchronization::AcquireLock
@@ -73,3 +73,4 @@ Use the object locks to help protect the <a href="/windows/desktop/tablet/realti
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylussynchronization-releaselock">IRealTimeStylusSynchronization::ReleaseLock Method</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IEntity.Base
+ - IEntity::Base
 ---
 
 # IEntity::Base
@@ -99,3 +99,4 @@ The entity has no parent; <i>pBaseEntity</i> successfully set to <b>NULL</b>.
 ## -remarks
 
 Each entity derives from some other entity, except the entity named Entity, for which this method returns S_FALSE. The derived entity inherits all relationships from the base entity.
+

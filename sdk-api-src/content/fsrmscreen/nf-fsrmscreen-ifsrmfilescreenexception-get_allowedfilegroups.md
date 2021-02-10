@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenException.AllowedFileGroups
- - IFsrmFileScreenException.get_AllowedFileGroups
- - IFsrmFileScreenException.put_AllowedFileGroups
+ - IFsrmFileScreenException::get_AllowedFileGroups
 ---
 
 # IFsrmFileScreenException::get_AllowedFileGroups
@@ -70,3 +68,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreenexception">MSFT_FSRMFileScreenException</a>
+

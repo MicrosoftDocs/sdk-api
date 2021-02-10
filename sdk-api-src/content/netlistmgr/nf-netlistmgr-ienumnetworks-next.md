@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - IEnumNetworks.Next
+ - IEnumNetworks::Next
 ---
 
 # IEnumNetworks::Next
@@ -113,3 +113,4 @@ The <i>ppElements</i> parameter is not a valid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a>
+

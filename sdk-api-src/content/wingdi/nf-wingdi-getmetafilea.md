@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetMetaFileA
  - wingdi/GetMetaFileA
+ - GetMetaFile
+ - wingdi/GetMetaFile
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetMetaFile
  - GetMetaFileA
- - GetMetaFileW
+ - GetMetaFile
 ---
 
 # GetMetaFileA function
@@ -85,3 +86,4 @@ This function is not implemented in the Win32 API. It is provided for compatibil
 ## -see-also
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilea">GetEnhMetaFile</a>
+

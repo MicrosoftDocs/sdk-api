@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolShadowConnection.Start
+ - IWRdsProtocolShadowConnection::Start
 ---
 
 # IWRdsProtocolShadowConnection::Start
@@ -85,3 +85,4 @@ The Remote Desktop Services service also changes the session state on the shadow
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolshadowconnection">IWRdsProtocolShadowConnection</a>
+

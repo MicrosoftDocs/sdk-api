@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.GetInlineObject
+ - ITextRange2::GetInlineObject
 ---
 
 # ITextRange2::GetInlineObject
@@ -688,3 +688,4 @@ When that character is not a start delimiter, the character and column parameter
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-setinlineobject">ITextRange2::SetInlineObject</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2.get_MediaPhysicallyBlank
+ - IDiscFormat2::get_MediaPhysicallyBlank
 ---
 
 # IDiscFormat2::get_MediaPhysicallyBlank
@@ -362,3 +362,4 @@ The device associated with this recorder during the last operation has been excl
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaheuristicallyblank">IDiscFormat2::get_MediaHeuristicallyBlank</a>
+

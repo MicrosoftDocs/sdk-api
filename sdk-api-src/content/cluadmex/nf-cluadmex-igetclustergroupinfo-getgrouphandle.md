@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterGroupInfo.GetGroupHandle
+ - IGetClusterGroupInfo::GetGroupHandle
 ---
 
 # IGetClusterGroupInfo::GetGroupHandle
@@ -83,3 +83,4 @@ Do not close the handle obtained through this method.
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclustergroupinfo">IGetClusterGroupInfo</a>
+

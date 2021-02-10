@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService.SetReferrer
+ - IBrowserService::SetReferrer
 ---
 
 # IBrowserService::SetReferrer
@@ -66,3 +66,4 @@ A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">IT
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

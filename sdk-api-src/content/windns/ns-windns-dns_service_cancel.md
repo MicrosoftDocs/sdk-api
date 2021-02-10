@@ -45,6 +45,7 @@ api_location:
  - windns.h
 api_name:
  - _DNS_SERVICE_CANCEL
+ - PDNS_SERVICE_CANCEL
  - DNS_SERVICE_CANCEL
 ---
 

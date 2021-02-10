@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Identityprovider.h
 api_name:
- - IIdentityProvider.UnAdvise
+ - IIdentityProvider::UnAdvise
 ---
 
 # IIdentityProvider::UnAdvise
@@ -71,3 +71,4 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
+

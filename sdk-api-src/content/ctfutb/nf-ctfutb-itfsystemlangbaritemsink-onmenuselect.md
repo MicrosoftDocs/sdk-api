@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfSystemLangBarItemSink.OnMenuSelect
+ - ITfSystemLangBarItemSink::OnMenuSelect
 ---
 
 # ITfSystemLangBarItemSink::OnMenuSelect
@@ -99,3 +99,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a>
+

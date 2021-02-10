@@ -47,7 +47,9 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - MIB_IPMCAST_MFE_STATS_EX
+ - _MIB_IPMCAST_MFE_STATS_EX_XP
+ - PMIB_IPMCAST_MFE_STATS_EX_XP
+ - MIB_IPMCAST_MFE_STATS_EX_XP
 ---
 
 # MIB_IPMCAST_MFE_STATS_EX_XP structure
@@ -204,3 +206,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_mfe_stats_table_ex_xp">MIB_MFE_STATS_TABLE_EX</a>
+

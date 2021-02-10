@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - CallMsgFilterW
  - winuser/CallMsgFilterW
+ - CallMsgFilter
+ - winuser/CallMsgFilter
 dev_langs:
  - c++
 topic_type:
@@ -46,10 +49,8 @@ api_location:
  - Ext-MS-Win-NTUser-Message-l1-1-2.dll
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
- - CallMsgFilter
- - CallMsgFilterA
  - CallMsgFilterW
-req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
+ - CallMsgFilter
 ---
 
 # CallMsgFilterW function
@@ -127,3 +128,4 @@ For an example, see <a href="/windows/desktop/winmsg/about-hooks">WH_MSGFILTER a
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a>
+

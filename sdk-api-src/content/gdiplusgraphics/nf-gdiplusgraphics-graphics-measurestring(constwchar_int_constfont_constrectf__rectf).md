@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.MeasureString
+ - Graphics::MeasureString
 ---
 
 # Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const RectF &,OUT RectF)
@@ -111,3 +111,4 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+

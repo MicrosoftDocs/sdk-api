@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase.GetLearnedKnowledge
+ - ISyncChangeBatchBase::GetLearnedKnowledge
 ---
 
 # ISyncChangeBatchBase::GetLearnedKnowledge
@@ -113,3 +113,4 @@ The last group added to the batch was not ended.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

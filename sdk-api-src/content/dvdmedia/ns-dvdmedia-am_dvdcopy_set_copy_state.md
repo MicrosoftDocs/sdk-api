@@ -45,6 +45,7 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_DVDCOPY_SET_COPY_STATE
+ - PAM_DVDCOPY_SET_COPY_STATE
 ---
 
 # AM_DVDCOPY_SET_COPY_STATE structure
@@ -71,3 +72,4 @@ The AM_PROPERTY_DVDCOPY_SET_COPY_STATE property uses this structure.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
+

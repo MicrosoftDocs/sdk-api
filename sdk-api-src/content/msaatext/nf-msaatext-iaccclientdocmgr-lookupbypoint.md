@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccClientDocMgr.LookupByPoint
+ - IAccClientDocMgr::LookupByPoint
 ---
 
 # IAccClientDocMgr::LookupByPoint
@@ -104,3 +104,4 @@ If the value in <i>pt</i> does not fall within the bounding rectangle of an acti
 ## -remarks
 
 Servers might need to poll this method more than once before they receive a document. There can be a limited time lapse (approximately second) between when a document appears in the system and when it is registered with document services.
+

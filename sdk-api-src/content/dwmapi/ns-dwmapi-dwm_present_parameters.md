@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dwmapi.h
 api_name:
+ - _DWM_PRESENT_PARAMETERS
  - DWM_PRESENT_PARAMETERS
 ---
 
@@ -91,3 +92,4 @@ The frame sampling type to use for composition.
 ## -remarks
 
 The <b>rateSource</b> member is expressed as a ratio so that content (like that using NTSC standards, which has a rate of 60000/1001) can be accurately expressed. DWM determines how long to display each frame by resampling between the source rate and the composition rate in use each time the desktop is composed.
+

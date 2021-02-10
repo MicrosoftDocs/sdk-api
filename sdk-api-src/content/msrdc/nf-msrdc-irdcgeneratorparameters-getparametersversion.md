@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcGeneratorParameters.GetParametersVersion
+ - IRdcGeneratorParameters::GetParametersVersion
 ---
 
 # IRdcGeneratorParameters::GetParametersVersion
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-getrdcversion">IRdcLibrary::GetRDCVersion</a>
+

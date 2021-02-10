@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocument.GetDocMiscStatus
+ - IOleDocument::GetDocMiscStatus
 ---
 
 # IOleDocument::GetDocMiscStatus
@@ -99,3 +99,4 @@ This method must be completely implemented in any document object, even if the d
 
 
 <a href="/windows/desktop/api/docobj/nn-docobj-ioledocument">IOleDocument</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFBufferListNotify.OnRemoveSourceBuffer
+ - IMFBufferListNotify::OnRemoveSourceBuffer
 ---
 
 # IMFBufferListNotify::OnRemoveSourceBuffer
@@ -57,3 +57,4 @@ Indicates that a <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-im
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfbufferlistnotify">IMFBufferListNotify</a>
+

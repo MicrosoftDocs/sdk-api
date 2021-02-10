@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolListener.StopListen
+ - IWTSProtocolListener::StopListen
 ---
 
 # IWTSProtocolListener::StopListen
@@ -63,3 +63,4 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a>
+

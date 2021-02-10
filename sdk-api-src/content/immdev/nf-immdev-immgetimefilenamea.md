@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ImmGetIMEFileNameA
  - immdev/ImmGetIMEFileNameA
+ - ImmGetIMEFileName
+ - immdev/ImmGetIMEFileName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Imm32.dll
 api_name:
- - ImmGetIMEFileName
  - ImmGetIMEFileNameA
- - ImmGetIMEFileNameW
+ - ImmGetIMEFileName
 ---
 
 # ImmGetIMEFileNameA function
@@ -93,3 +94,4 @@ In the registry, the operating system stores the file name as the "IME name valu
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+

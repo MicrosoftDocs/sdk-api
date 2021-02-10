@@ -9,6 +9,8 @@ tech.root: iphlp
 f1_keywords:
  - tcpestats
  - tcpestats/tcpestats
+api_name:
+ - tcpestats
 ---
 
 # Tcpestats.h header

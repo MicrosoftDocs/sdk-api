@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMetadata.GetLanguage
+ - IMFMetadata::GetLanguage
 ---
 
 # IMFMetadata::GetLanguage
@@ -118,3 +118,4 @@ The <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-setlanguage">IMFMet
 
 
 <a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>
+

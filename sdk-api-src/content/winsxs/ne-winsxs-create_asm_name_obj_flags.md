@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winsxs.h
 api_name:
+ - __MIDL___MIDL_itf_winsxs_0000_0003_0001
  - CREATE_ASM_NAME_OBJ_FLAGS
 ---
 
@@ -65,3 +66,4 @@ If this flag is specified, the <i>szAssemblyName</i> parameter of <a href="/wind
 ### -field CANOF_SET_DEFAULT_VALUES
 
 Reserved.
+

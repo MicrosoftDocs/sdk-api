@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WdsClientAPI.h
 api_name:
+ - tagWDS_CLI_CRED
+ - PWDS_CLI_CRED
  - WDS_CLI_CRED
 ---
 
@@ -81,3 +83,4 @@ The password for the user name associated with the credentials.
 
 
 <a href="/windows/desktop/Wds/windows-deployment-services-structures">Windows Deployment Services Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICommDlgBrowser.IncludeObject
+ - ICommDlgBrowser::IncludeObject
 ---
 
 # ICommDlgBrowser::IncludeObject
@@ -88,3 +88,4 @@ When dealing with data sources that have many items, such as libraries and searc
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>
+

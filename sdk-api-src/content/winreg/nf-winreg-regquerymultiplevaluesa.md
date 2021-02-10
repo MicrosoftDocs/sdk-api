@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegQueryMultipleValuesA
  - winreg/RegQueryMultipleValuesA
+ - RegQueryMultipleValues
+ - winreg/RegQueryMultipleValues
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegQueryMultipleValues
  - RegQueryMultipleValuesA
- - RegQueryMultipleValuesW
+ - RegQueryMultipleValues
 ---
 
 # RegQueryMultipleValuesA function
@@ -183,3 +184,4 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 <a href="/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a>
+

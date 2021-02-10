@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.GetMediaTime
+ - IMediaSample::GetMediaTime
 ---
 
 # IMediaSample::GetMediaTime
@@ -107,3 +107,4 @@ For more information about media times, see <a href="/windows/desktop/DirectShow
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig.GetStreamType
+ - IWMStreamConfig::GetStreamType
 ---
 
 # IWMStreamConfig::GetStreamType
@@ -116,3 +116,4 @@ For a table of stream major types, see <a href="/windows/desktop/wmformat/media-
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamname">IWMStreamConfig::GetStreamName</a>
+

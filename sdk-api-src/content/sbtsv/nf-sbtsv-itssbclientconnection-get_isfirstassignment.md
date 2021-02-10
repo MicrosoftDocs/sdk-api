@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbClientConnection.IsFirstAssignment
- - ITsSbClientConnection.get_IsFirstAssignment
+ - ITsSbClientConnection::get_IsFirstAssignment
 ---
 
 # ITsSbClientConnection::get_IsFirstAssignment
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
+

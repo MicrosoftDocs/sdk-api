@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP.GetSelection
+ - ITextStoreACP::GetSelection
 ---
 
 # ITextStoreACP::GetSelection
@@ -135,3 +135,4 @@ The document has no selection.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
       </a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ResetDCA
  - wingdi/ResetDCA
+ - ResetDC
+ - wingdi/ResetDC
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - ResetDC
  - ResetDCA
- - ResetDCW
+ - ResetDC
 ---
 
 # ResetDCA function
@@ -108,3 +109,4 @@ An application can pass an information DC to the <b>ResetDC</b> function. In tha
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-escape">Escape</a>
+

@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform.Data
- - IInkTransform.get_Data
- - IInkTransform.put_Data
- - InkTransform.get_Data
- - InkTransform.put_Data
+ - IInkTransform::get_Data
 ---
 
 # IInkTransform::get_Data
@@ -70,3 +66,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
+

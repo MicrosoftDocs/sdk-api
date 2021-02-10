@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction.Body
- - IEmailAction.get_Body
- - IEmailAction.put_Body
+ - IEmailAction::get_Body
 ---
 
 # IEmailAction::get_Body

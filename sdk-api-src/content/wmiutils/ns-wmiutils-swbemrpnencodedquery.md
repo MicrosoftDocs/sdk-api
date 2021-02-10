@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmiutils.h
 api_name:
+ - tag_SWbemRpnEncodedQuery
  - SWbemRpnEncodedQuery
 ---
 
@@ -155,3 +156,4 @@ Used if there is  a GROUP WITHIN clause to indicate the interval over which to g
 
 
 <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnQueryToken</a>
+

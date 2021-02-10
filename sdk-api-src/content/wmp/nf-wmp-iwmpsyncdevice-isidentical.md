@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice.isIdentical
+ - IWMPSyncDevice::isIdentical
 ---
 
 # IWMPSyncDevice::isIdentical
@@ -108,3 +108,4 @@ This method is useful in event handlers that provide an <b>IWMPSyncDevice</b> po
 
 
 <a href="/windows/desktop/WMP/showing-synchronization-progress">Showing Synchronization Progress</a>
+

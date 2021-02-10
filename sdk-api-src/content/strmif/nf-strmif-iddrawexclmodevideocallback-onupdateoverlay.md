@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDDrawExclModeVideoCallback.OnUpdateOverlay
+ - IDDrawExclModeVideoCallback::OnUpdateOverlay
 ---
 
 # IDDrawExclModeVideoCallback::OnUpdateOverlay
@@ -131,3 +131,4 @@ The application should call this method once before the overlay-related change o
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideocallback">IDDrawExclModeVideoCallback Interface</a>
+

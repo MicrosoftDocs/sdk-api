@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objsel.h
 api_name:
+ - _DSOP_FILTER_FLAGS
  - DSOP_FILTER_FLAGS
 ---
 
@@ -232,3 +233,4 @@ Includes "Service SIDs" of all installed services.
 
 
 <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>
+

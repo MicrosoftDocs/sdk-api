@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPRegistrar.UnregisterDeviceProvider
+ - IUPnPRegistrar::UnregisterDeviceProvider
 ---
 
 # IUPnPRegistrar::UnregisterDeviceProvider
@@ -68,3 +68,4 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 ## -see-also
 
 <a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
+

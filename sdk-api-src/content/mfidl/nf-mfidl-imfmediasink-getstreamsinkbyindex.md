@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSink.GetStreamSinkByIndex
+ - IMFMediaSink::GetStreamSinkByIndex
 ---
 
 # IMFMediaSink::GetStreamSinkByIndex
@@ -118,3 +118,4 @@ Enumerating stream sinks is not a thread-safe operation, because stream sinks ca
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
+

@@ -9,6 +9,8 @@ tech.root: winauto
 f1_keywords:
  - uiautomationclient
  - uiautomationclient/uiautomationclient
+api_name:
+ - uiautomationclient
 ---
 
 # Uiautomationclient.h header

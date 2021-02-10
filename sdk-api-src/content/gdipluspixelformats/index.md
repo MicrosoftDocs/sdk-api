@@ -9,6 +9,8 @@ tech.root: gdiplus
 f1_keywords:
  - gdipluspixelformats
  - gdipluspixelformats/gdipluspixelformats
+api_name:
+ - gdipluspixelformats
 ---
 
 # Gdipluspixelformats.h header

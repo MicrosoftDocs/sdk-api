@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin.SetConfiguration
+ - IOCSPAdmin::SetConfiguration
 ---
 
 # IOCSPAdmin::SetConfiguration
@@ -164,3 +164,4 @@ Return an error.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
+

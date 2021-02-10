@@ -42,13 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbPlugin.Initialize
- - ITsSbLoadBalancing.Initialize
- - ITsSbOrchestration.Initialize
- - ITsSbPlacement.Initialize
- - ITsSbProvisioning.Initialize
- - ITsSbResourcePlugin.Initialize
- - ITsSbTaskPlugin.Initialize
+ - ITsSbPlugin::Initialize
 ---
 
 # ITsSbPlugin::Initialize
@@ -128,3 +122,4 @@ Plug-ins should call <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbpluginnot
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskplugin">ITsSbTaskPlugin</a>
+

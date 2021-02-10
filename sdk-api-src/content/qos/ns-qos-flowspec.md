@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qos.h
 api_name:
+ - _flowspec
+ - PFLOWSPEC
  - FLOWSPEC
 ---
 
@@ -314,3 +316,4 @@ In a sending
 ## -see-also
 
 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
+

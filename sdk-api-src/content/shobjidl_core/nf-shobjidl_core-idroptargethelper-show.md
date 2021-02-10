@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDropTargetHelper.Show
+ - IDropTargetHelper::Show
 ---
 
 # IDropTargetHelper::Show
@@ -73,3 +73,4 @@ This method is used when dragging over a target window in a low color-depth vide
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>
+

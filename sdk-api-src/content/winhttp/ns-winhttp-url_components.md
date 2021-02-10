@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winhttp.h
 api_name:
+ - LPURL_COMPONENTS
  - URL_COMPONENTS
 ---
 
@@ -162,3 +163,4 @@ For the
 
 <a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
+

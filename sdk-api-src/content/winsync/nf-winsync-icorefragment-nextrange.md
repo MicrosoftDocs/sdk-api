@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ICoreFragment.NextRange
+ - ICoreFragment::NextRange
 ---
 
 # ICoreFragment::NextRange
@@ -139,3 +139,4 @@ The value that is returned in <i>pItemId</i> is the closed lower bound on the ra
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragment">ICoreFragment Interface</a>
+

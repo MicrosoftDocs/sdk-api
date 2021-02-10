@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IGlobalInterfaceTable.RevokeInterfaceFromGlobal
+ - IGlobalInterfaceTable::RevokeInterfaceFromGlobal
 ---
 
 # IGlobalInterfaceTable::RevokeInterfaceFromGlobal
@@ -98,3 +98,4 @@ Call this method when an interface registered in the global interface table obje
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>
+

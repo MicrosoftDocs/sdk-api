@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0048_0006
  - ADS_SD_REVISION_ENUM
 ---
 
@@ -69,3 +70,4 @@ Because VBScript cannot read data from a type library, VBScript applications can
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+

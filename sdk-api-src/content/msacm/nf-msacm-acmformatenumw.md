@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - acmFormatEnumW
  - msacm/acmFormatEnumW
+ - acmFormatEnum
+ - msacm/acmFormatEnum
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Msacm32.dll
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFormatEnum
- - acmFormatEnumA
  - acmFormatEnumW
+ - acmFormatEnum
 ---
 
 # acmFormatEnumW function
@@ -295,3 +296,4 @@ BOOL CALLBACK acmFormatEnumCallback(
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

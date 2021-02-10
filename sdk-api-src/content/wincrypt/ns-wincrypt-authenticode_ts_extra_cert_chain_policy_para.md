@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+ - PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
  - AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
 ---
 
@@ -186,3 +188,4 @@ Allow only items in personal trust database.
 ### -field fCommercial
 
 BOOL flag. If <b>TRUE</b>, a signer has been verified by a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as meeting certain minimum financial standards.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDVBSLocator.get_SignalPolarisation
+ - IDVBSLocator::get_SignalPolarisation
 ---
 
 # IDVBSLocator::get_SignalPolarisation
@@ -69,3 +69,4 @@ This method and the associated enumeration type use the British spelling for "po
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator">IDVBSLocator Interface</a>
+

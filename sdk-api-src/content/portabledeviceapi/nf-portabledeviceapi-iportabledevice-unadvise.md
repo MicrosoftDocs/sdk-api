@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice.Unadvise
+ - IPortableDevice::Unadvise
 ---
 
 # IPortableDevice::Unadvise
@@ -85,3 +85,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
+

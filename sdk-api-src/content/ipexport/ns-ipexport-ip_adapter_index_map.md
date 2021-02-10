@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
+ - _IP_ADAPTER_INDEX_MAP
+ - PIP_ADAPTER_INDEX_MAP
  - IP_ADAPTER_INDEX_MAP
 ---
 
@@ -99,3 +101,4 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-iprenewaddress">IpRenewAddress</a>
+

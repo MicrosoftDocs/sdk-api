@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice.get_ParentDevice
+ - IUPnPDevice::get_ParentDevice
 ---
 
 # IUPnPDevice::get_ParentDevice
@@ -75,3 +75,4 @@ To determine if the device has no parent, use <a href="/windows/desktop/api/upnp
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children">IUPnPDevice::Children</a>
+

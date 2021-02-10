@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector.AutoRedraw
- - IInkCollector.get_AutoRedraw
- - IInkCollector.put_AutoRedraw
- - InkCollector.get_AutoRedraw
- - InkCollector.put_AutoRedraw
+ - IInkCollector::put_AutoRedraw
 ---
 
 # IInkCollector::put_AutoRedraw
@@ -127,3 +123,4 @@ InkPicture controls inherited Invalidated and Paint events.
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+

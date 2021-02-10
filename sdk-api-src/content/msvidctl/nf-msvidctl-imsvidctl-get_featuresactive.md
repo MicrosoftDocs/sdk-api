@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.get_FeaturesActive
+ - IMSVidCtl::get_FeaturesActive
 ---
 
 # IMSVidCtl::get_FeaturesActive
@@ -94,3 +94,4 @@ if (SUCCEEDED(hr) && pFeatures)
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_featuresactive">IMSVidCtl::put_FeaturesActive</a>
+

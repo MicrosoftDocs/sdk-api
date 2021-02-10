@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdXmldom.h
 api_name:
+ - _WSDXML_TEXT
  - WSDXML_TEXT
 ---
 
@@ -67,3 +68,4 @@ The text contained in the XML node. The maximum length of this string is WSD_MAX
 ## -remarks
 
 <b>WSDXML_TEXT</b> is used to represent the contents of an element. Since no type information exists for elements in DOM, the <b>Text</b> member is the exact representation of the element contents from the XML document.
+

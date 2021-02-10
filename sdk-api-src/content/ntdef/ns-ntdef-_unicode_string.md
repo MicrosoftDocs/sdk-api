@@ -42,6 +42,7 @@ api_type:
 api_location:
  - ntdef.h
 api_name:
+ - _UNICODE_STRING
  - UNICODE_STRING
 ---
 
@@ -101,3 +102,4 @@ The **MaximumLength** is used to indicate the length of **Buffer** so that if th
 [RtlUnicodeStringToAnsiSize](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansisize)
 
 [RtlUnicodeStringToAnsiString](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansistring)
+

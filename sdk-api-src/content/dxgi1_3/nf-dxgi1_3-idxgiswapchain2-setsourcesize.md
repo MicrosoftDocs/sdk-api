@@ -43,7 +43,7 @@ api_location:
  - dxgi.lib
  - dxgi.dll
 api_name:
- - IDXGISwapChain2.SetSourceSize
+ - IDXGISwapChain2::SetSourceSize
 ---
 
 # IDXGISwapChain2::SetSourceSize
@@ -81,3 +81,4 @@ This method can return:
 
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
+

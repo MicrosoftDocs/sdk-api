@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
+ - IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority
 ---
 
 # IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority
@@ -69,3 +69,4 @@ Pointer to a buffer allocated by the caller
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservicesex">IMFWorkQueueServicesEx</a>
+

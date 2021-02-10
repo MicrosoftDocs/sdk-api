@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPDeviceControl.GetServiceObject
+ - IUPnPDeviceControl::GetServiceObject
 ---
 
 # IUPnPDeviceControl::GetServiceObject
@@ -84,3 +84,4 @@ Embedded devices are differentiated by their UDNs.
 
 
 <a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">Initialize</a>
+

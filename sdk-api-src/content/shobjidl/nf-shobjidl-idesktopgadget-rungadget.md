@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IDesktopGadget.RunGadget
+ - IDesktopGadget::RunGadget
 ---
 
 # IDesktopGadget::RunGadget
@@ -149,3 +149,4 @@ HRESULT RunMyGadget(PCWSTR pszGadgetPath)
     return hr;
 }
 ```
+

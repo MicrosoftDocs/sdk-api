@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ipxrtdef.h
 api_name:
+ - _IPX_IF_INFO
+ - PIPX_IF_INFO
  - IPX_IF_INFO
 ---
 
@@ -74,3 +76,4 @@ Specifies whether to deliver NetBIOS broadcast packets
 ## -see-also
 
 <a href="/windows/desktop/api/ipxrtdef/ns-ipxrtdef-ipxwan_if_info">IPXWAN_IF_INFO</a>
+

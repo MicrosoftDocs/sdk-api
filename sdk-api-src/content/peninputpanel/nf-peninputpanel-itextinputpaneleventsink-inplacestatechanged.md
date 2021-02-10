@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.InPlaceStateChanged
+ - ITextInputPanelEventSink::InPlaceStateChanged
 ---
 
 # ITextInputPanelEventSink::InPlaceStateChanged
@@ -106,3 +106,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanging">ITextInputPanelEventSink::InPlaceStateChanging Method</a>
+

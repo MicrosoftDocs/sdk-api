@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolConnectionCallback.StopScreenUpdates
+ - IWRdsProtocolConnectionCallback::StopScreenUpdates
 ---
 
 # IWRdsProtocolConnectionCallback::StopScreenUpdates
@@ -72,3 +72,4 @@ To avoid deadlocks when calling this method:
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnectioncallback">IWRdsProtocolConnectionCallback</a>
+

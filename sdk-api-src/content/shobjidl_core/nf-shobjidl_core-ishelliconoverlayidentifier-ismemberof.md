@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlayIdentifier.IsMemberOf
+ - IShellIconOverlayIdentifier::IsMemberOf
 ---
 
 # IShellIconOverlayIdentifier::IsMemberOf
@@ -119,3 +119,4 @@ The Shell calls this method to determine whether it should display a handler's i
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier">IShellIconOverlayIdentifier</a>
+

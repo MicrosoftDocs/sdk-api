@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferSink.CreateRecorder
+ - IStreamBufferSink::CreateRecorder
 ---
 
 # IStreamBufferSink::CreateRecorder
@@ -123,3 +123,4 @@ The returned <b>IUnknown</b> interface has an outstanding reference count. The c
 
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a>
+

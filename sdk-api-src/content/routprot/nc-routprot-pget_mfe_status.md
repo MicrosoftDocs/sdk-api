@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - GetMfeStatus
+ - PGET_MFE_STATUS
 ---
 
 # PGET_MFE_STATUS callback function
@@ -179,3 +179,4 @@ Only multicast routing protocols need implement this function. Non-multicast rou
 ## -see-also
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pget_neighbors">GetNeighbors</a>
+

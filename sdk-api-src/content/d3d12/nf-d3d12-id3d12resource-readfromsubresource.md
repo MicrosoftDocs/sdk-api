@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Resource.ReadFromSubresource
+ - ID3D12Resource::ReadFromSubresource
 ---
 
 # ID3D12Resource::ReadFromSubresource
@@ -109,3 +109,4 @@ See the Remarks section for <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12r
 
 
 <a href="/windows/desktop/direct3d12/subresources">Subresources</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix.Shear
+ - Matrix::Shear
 ---
 
 # Matrix::Shear
@@ -121,3 +121,4 @@ If the method fails, it returns one of the other elements of the Status enumerat
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

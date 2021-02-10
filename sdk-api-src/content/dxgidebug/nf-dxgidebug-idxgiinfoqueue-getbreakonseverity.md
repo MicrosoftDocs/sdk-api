@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetBreakOnSeverity
+ - IDXGIInfoQueue::GetBreakOnSeverity
 ---
 
 # IDXGIInfoQueue::GetBreakOnSeverity
@@ -74,3 +74,4 @@ Returns a Boolean value that specifies whether this severity of breaking conditi
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
+

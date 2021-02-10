@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICColorContext.InitializeFromMemory
+ - IWICColorContext::InitializeFromMemory
 ---
 
 # IWICColorContext::InitializeFromMemory
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Once a color context has been initialized, it can't be re-initialized.
+

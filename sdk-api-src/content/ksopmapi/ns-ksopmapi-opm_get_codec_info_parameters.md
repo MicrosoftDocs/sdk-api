@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ksopmapi.h
 api_name:
+ - _OPM_GET_CODEC_INFO_PARAMETERS
  - OPM_GET_CODEC_INFO_PARAMETERS
 ---
 
@@ -76,3 +77,4 @@ A byte array that contains one of the following:
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

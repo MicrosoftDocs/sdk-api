@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQueueEvent.get_Event
+ - ITQueueEvent::get_Event
 ---
 
 # ITQueueEvent::get_Event
@@ -111,3 +111,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent">ITQueueEvent</a>
+

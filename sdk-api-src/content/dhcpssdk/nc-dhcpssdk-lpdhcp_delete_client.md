@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
- - DhcpDeleteClientHook
+ - LPDHCP_DELETE_CLIENT
 ---
 
 # LPDHCP_DELETE_CLIENT callback function
@@ -90,3 +90,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
+

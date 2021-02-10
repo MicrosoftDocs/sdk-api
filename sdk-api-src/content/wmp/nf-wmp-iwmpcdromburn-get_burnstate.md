@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn.get_burnState
+ - IWMPCdromBurn::get_burnState
 ---
 
 # IWMPCdromBurn::get_burnState
@@ -91,3 +91,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpburnstate">WMPBurnState</a>
+

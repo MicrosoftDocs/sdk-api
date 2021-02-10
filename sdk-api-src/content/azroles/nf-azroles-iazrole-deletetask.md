@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole.DeleteTask
- - AzRole.DeleteTask
+ - IAzRole::DeleteTask
 ---
 
 # IAzRole::DeleteTask
@@ -66,3 +65,4 @@ Reserved for future use.
 ## -remarks
 
 If there are any <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> references to an <b>IAzTask</b> object that has been deleted from the cache, the <b>IAzTask</b> object can no longer be used. In C++, you must release references to deleted <b>IAzTask</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+

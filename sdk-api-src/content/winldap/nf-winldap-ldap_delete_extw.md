@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_delete_extW
  - winldap/ldap_delete_extW
+ - ldap_delete_ext
+ - winldap/ldap_delete_ext
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_delete_ext
- - ldap_delete_extA
  - ldap_delete_extW
+ - ldap_delete_ext
 ---
 
 # ldap_delete_extW function
@@ -136,3 +137,4 @@ Multithreading: Calls to <b>ldap_delete_ext</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
+

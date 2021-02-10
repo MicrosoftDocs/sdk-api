@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - ISurrogateService.ApplicationFree
+ - ISurrogateService::ApplicationFree
 ---
 
 # ISurrogateService::ApplicationFree
@@ -85,3 +85,4 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_UNEXPECTED.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>
+

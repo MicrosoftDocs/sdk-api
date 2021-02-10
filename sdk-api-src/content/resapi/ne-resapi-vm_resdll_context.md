@@ -45,6 +45,7 @@ api_location:
  - ResApi.h
 api_name:
  - VM_RESDLL_CONTEXT
+ - PVM_RESDLL_CONTEXT
 ---
 
 # VM_RESDLL_CONTEXT enumeration
@@ -102,3 +103,4 @@ The values in this enumeration can be used in a
 
 
 <a href="/previous-versions/windows/desktop/mscs/property-lists">Property Lists</a>
+

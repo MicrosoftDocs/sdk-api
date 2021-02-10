@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSession.WebProxy
- - IUpdateSession.get_WebProxy
- - IUpdateSession.put_WebProxy
+ - IUpdateSession::get_WebProxy
 ---
 
 # IUpdateSession::get_WebProxy
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
+

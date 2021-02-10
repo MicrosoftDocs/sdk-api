@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0050_0002
  - ADS_NAME_INITTYPE_ENUM
 ---
 
@@ -165,3 +166,4 @@ The following VBScript/ASP code example uses <a href="/windows/desktop/api/iads/
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
+

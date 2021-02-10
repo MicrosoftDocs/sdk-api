@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge.CloseModule
+ - IMsmMerge::CloseModule
 ---
 
 # IMsmMerge::CloseModule
@@ -113,3 +113,4 @@ Closing a merge module does not affect any errors that have not been retrieved.
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - DS_SCHEMA_GUID_MAP
+ - PDS_SCHEMA_GUID_MAPA
  - DS_SCHEMA_GUID_MAPA
- - DS_SCHEMA_GUID_MAPW
 ---
 
 # DS_SCHEMA_GUID_MAPA structure
@@ -125,3 +124,4 @@ Pointer to a null-terminated string value that specifies the display name associ
 
 > [!NOTE]
 > The ntdsapi.h header defines DS_SCHEMA_GUID_MAP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

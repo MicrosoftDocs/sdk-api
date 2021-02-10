@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsLunNaming.SetFriendlyName
+ - IVdsLunNaming::SetFriendlyName
 ---
 
 # IVdsLunNaming::SetFriendlyName
@@ -164,3 +164,4 @@ This operation is not supported by this provider.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslunnaming">IVdsLunNaming</a>
+

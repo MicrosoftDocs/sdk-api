@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linetranslateoutput_tag
+ - LPLINETRANSLATEOUTPUT
  - LINETRANSLATEOUTPUT
 ---
 
@@ -120,3 +122,4 @@ This structure cannot be extended.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
+

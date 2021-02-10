@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRSETARCDIRECTION
+ - PEMRSETARCDIRECTION
  - EMRSETARCDIRECTION
 ---
 
@@ -81,3 +83,4 @@ Arc direction. This member can be either the AD_CLOCKWISE or AD_COUNTERCLOCKWISE
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>
+

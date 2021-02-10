@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMS_KEY_INFO
+ - PCMS_KEY_INFO
  - CMS_KEY_INFO
 ---
 
@@ -73,3 +75,4 @@ The address of a buffer that contains additional public information. This member
 ### -field cbOID
 
 The size, in bytes, of the <b>pbOID</b> buffer. This member should be zero if <b>pbOID</b> is not used.
+

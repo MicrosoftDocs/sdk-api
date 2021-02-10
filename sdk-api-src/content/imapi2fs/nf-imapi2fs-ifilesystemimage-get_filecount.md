@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage.get_FileCount
+ - IFileSystemImage::get_FileCount
 ---
 
 # IFileSystemImage::get_FileCount
@@ -85,3 +85,4 @@ Value: 0x80004003
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+

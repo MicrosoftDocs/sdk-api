@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost.TxNotify
+ - ITextHost::TxNotify
 ---
 
 # ITextHost::TxNotify
@@ -284,3 +284,4 @@ The following is a list of the notifications that may be sent.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

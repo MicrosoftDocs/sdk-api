@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - FindExecutableImageProc
+ - PFIND_EXE_FILE_CALLBACK
 ---
 
 # PFIND_EXE_FILE_CALLBACK callback function
@@ -82,3 +82,4 @@ If the executable file is valid, return <b>TRUE</b>. Otherwise, return <b>FALSE<
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a>
+

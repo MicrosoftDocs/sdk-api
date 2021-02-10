@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imekrcic.dll
 api_name:
- - ITfActiveLanguageProfileNotifySink.OnActivated
+ - ITfActiveLanguageProfileNotifySink::OnActivated
 ---
 
 # ITfActiveLanguageProfileNotifySink::OnActivated

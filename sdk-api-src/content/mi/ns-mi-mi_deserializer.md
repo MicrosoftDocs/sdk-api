@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_Deserializer
  - MI_Deserializer
 ---
 
@@ -65,3 +66,4 @@ Reserved for internal use.
 ### -field reserved2
 
 Reserved for internal use.
+

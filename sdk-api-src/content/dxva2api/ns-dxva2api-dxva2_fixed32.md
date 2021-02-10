@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_Fixed32
  - DXVA2_Fixed32
 ---
 
@@ -75,3 +76,4 @@ To convert between floating-point numbers and <b>DXVA2_Fixed32</b> values, use t
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

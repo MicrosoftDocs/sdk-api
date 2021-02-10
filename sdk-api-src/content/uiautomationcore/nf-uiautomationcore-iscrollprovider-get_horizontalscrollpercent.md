@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IScrollProvider.HorizontalScrollPercent
- - IScrollProvider.get_HorizontalScrollPercent
+ - IScrollProvider::get_HorizontalScrollPercent
 ---
 
 # IScrollProvider::get_HorizontalScrollPercent
@@ -80,3 +79,4 @@ The horizontal scroll position can be reported as <b>UIA_ScrollPatternNoScroll</
 
 
 <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_verticalscrollpercent">VerticalScrollPercent</a>
+

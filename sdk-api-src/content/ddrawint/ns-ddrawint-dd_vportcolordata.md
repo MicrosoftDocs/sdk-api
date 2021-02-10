@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_VPORTCOLORDATA
+ - PDD_VPORTCOLORDATA
  - DD_VPORTCOLORDATA
 ---
 
@@ -116,3 +118,4 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_colorcontrol">DdVideoPortColorControl</a>
+

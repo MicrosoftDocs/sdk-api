@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursors.Item
+ - IInkCursors::Item
 ---
 
 # IInkCursors::Item
@@ -206,3 +206,4 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors Interface</a>
+

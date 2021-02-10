@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _POLICY_INFORMATION_CLASS
+ - PPOLICY_INFORMATION_CLASS
  - POLICY_INFORMATION_CLASS
 ---
 
@@ -150,3 +152,4 @@ Query or set Domain Name System (DNS) information about the account domain assoc
 
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCustomTone.get_Frequency
+ - ITCustomTone::get_Frequency
 ---
 
 # ITCustomTone::get_Frequency
@@ -99,3 +99,4 @@ The <i>plFrequency</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_frequency">put_Frequency</a>
+

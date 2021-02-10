@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation.GetInheritTypes
+ - ISecurityInformation::GetInheritTypes
 ---
 
 # ISecurityInformation::GetInheritTypes
@@ -97,3 +97,4 @@ The access control editor does not free the pointer returned in <i>ppInheritType
 
 
 <a href="/windows/desktop/api/aclui/ns-aclui-si_inherit_type">SI_INHERIT_TYPE</a>
+

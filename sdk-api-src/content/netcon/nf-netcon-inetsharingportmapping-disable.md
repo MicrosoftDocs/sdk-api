@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetSharingPortMapping.Disable
+ - INetSharingPortMapping::Disable
 ---
 
 # INetSharingPortMapping::Disable
@@ -173,3 +173,4 @@ Calling this method unchecks the box next to this port mapping in the ICS/ICF us
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+

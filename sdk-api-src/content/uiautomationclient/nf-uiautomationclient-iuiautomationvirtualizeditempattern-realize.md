@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationVirtualizedItemPattern.Realize
+ - IUIAutomationVirtualizedItemPattern::Realize
 ---
 
 # IUIAutomationVirtualizedItemPattern::Realize
@@ -79,3 +79,4 @@ A virtualized item is represented by a placeholder automation element in the UI 
 
 
 <a href="/windows/desktop/WinAuto/uiauto-workingwithvirtualizeditems">Working with Virtualized Items</a>
+

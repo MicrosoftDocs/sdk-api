@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRunningTask.Stop
+ - IRunningTask::Stop
 ---
 
 # IRunningTask::Stop
@@ -94,3 +94,4 @@ The user does not have permission to stop the task, the task is disabled, or the
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _PROVIDER_FIELD_INFO
  - PROVIDER_FIELD_INFO
 ---
 
@@ -71,3 +72,4 @@ Field value.
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a>
+

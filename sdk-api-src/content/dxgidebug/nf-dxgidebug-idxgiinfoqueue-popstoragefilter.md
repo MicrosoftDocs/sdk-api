@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PopStorageFilter
+ - IDXGIInfoQueue::PopStorageFilter
 ---
 
 # IDXGIInfoQueue::PopStorageFilter
@@ -66,3 +66,4 @@ Pops a storage filter from the top of the storage-filter stack.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFTOPONODE_ATTRIBUTE_UPDATE
  - MFTOPONODE_ATTRIBUTE_UPDATE
 ---
 
@@ -95,3 +96,4 @@ Due to an error in the structure declaration, the <b>u64</b> member is declared 
 
 
 <a href="/windows/desktop/medfound/topoid">TOPOID</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiPortalGroup.Delete
+ - IVdsIscsiPortalGroup::Delete
 ---
 
 # IVdsIscsiPortalGroup::Delete
@@ -150,3 +150,4 @@ Portals are associated with this portal group. All portals must be disassociated
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsiportalgroup">IVdsIscsiPortalGroup</a>
+

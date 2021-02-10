@@ -46,6 +46,8 @@ api_type:
 api_location:
  - l2cmn.h
 api_name:
+ - _L2_NOTIFICATION_DATA
+ - PL2_NOTIFICATION_DATA
  - L2_NOTIFICATION_DATA
 ---
 
@@ -118,3 +120,4 @@ The IHV Extensions DLL sends notifications to registered services or application
 
 
 <a href="/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11ext_send_notification">Dot11ExtSendNotification</a>
+

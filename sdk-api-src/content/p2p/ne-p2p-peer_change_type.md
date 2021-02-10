@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_change_type_tag
  - PEER_CHANGE_TYPE
 ---
 
@@ -71,3 +72,4 @@ The peer object, endpoint, or application has been updated with new information.
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
+

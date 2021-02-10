@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceTransactionConfigBase.BringYourOwnTransaction
+ - IServiceTransactionConfigBase::BringYourOwnTransaction
 ---
 
 # IServiceTransactionConfigBase::BringYourOwnTransaction
@@ -75,3 +75,4 @@ The <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfig-c
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>
+

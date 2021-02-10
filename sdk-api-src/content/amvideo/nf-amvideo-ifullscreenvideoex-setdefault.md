@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx.SetDefault
+ - IFullScreenVideoEx::SetDefault
 ---
 
 # IFullScreenVideoEx::SetDefault
@@ -92,3 +92,4 @@ It does not persist the caption or the hide-when-deactivated flag.
 
 
 <a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setenabled">IFullScreenVideoEx::SetEnabled</a>
+

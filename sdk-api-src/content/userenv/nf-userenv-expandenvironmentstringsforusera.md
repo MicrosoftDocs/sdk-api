@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ExpandEnvironmentStringsForUserA
  - userenv/ExpandEnvironmentStringsForUserA
+ - ExpandEnvironmentStringsForUser
+ - userenv/ExpandEnvironmentStringsForUser
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Userenv.dll
 api_name:
- - ExpandEnvironmentStringsForUser
  - ExpandEnvironmentStringsForUserA
- - ExpandEnvironmentStringsForUserW
+ - ExpandEnvironmentStringsForUser
 ---
 
 # ExpandEnvironmentStringsForUserA function
@@ -122,3 +123,4 @@ C:\Documents and Settings\UserName\ntuser.dat
 
 
 <a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
+

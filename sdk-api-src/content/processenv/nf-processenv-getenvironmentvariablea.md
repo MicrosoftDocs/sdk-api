@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetEnvironmentVariableA
  - processenv/GetEnvironmentVariableA
+ - GetEnvironmentVariable
+ - processenv/GetEnvironmentVariable
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - GetEnvironmentVariable
  - GetEnvironmentVariableA
- - GetEnvironmentVariableW
+ - GetEnvironmentVariable
 ---
 
 # GetEnvironmentVariableA function

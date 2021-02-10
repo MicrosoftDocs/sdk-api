@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - IEnumSpellingError.Next
+ - IEnumSpellingError::Next
 ---
 
 # IEnumSpellingError::Next
@@ -103,3 +103,4 @@ This provides a way for a provider to implement spell checking lazily if desired
 
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>
+

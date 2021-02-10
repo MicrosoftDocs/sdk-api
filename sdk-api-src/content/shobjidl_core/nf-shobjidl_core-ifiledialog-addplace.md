@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialog.AddPlace
+ - IFileDialog::AddPlace
 ---
 
 # IFileDialog::AddPlace
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shsettemporarypropertyforitem">SHSetTemporaryPropertyForItem</a> can be used to set a temporary <a href="/windows/desktop/properties/props-system-itemnamedisplay">PKEY_ItemNameDisplay</a> property on the item represented by the <i>psi</i> parameter. The value for this property will be used in place of the item's UI name.
+

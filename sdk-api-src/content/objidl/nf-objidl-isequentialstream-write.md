@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ISequentialStream.Write
+ - ISequentialStream::Write
 ---
 
 # ISequentialStream::Write
@@ -102,3 +102,4 @@ In the COM-provided implementation, stream objects are not sparse. Any fill byte
 
 
 <a href="/windows/desktop/api/wtypes/ne-wtypes-stgmove">STGMOVE</a>
+

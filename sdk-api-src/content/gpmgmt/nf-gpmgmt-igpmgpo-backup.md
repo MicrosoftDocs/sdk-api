@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO.Backup
- - GPMGPO.Backup
+ - IGPMGPO::Backup
 ---
 
 # IGPMGPO::Backup
@@ -121,3 +120,4 @@ You must check the code that is returned by the
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
+

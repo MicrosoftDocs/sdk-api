@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.InstallApplication
+ - ICOMAdminCatalog::InstallApplication
 ---
 
 # ICOMAdminCatalog::InstallApplication
@@ -176,3 +176,4 @@ An error occurred accessing one or more objects.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

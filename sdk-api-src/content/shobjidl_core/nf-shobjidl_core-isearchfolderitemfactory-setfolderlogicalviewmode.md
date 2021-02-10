@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetFolderLogicalViewMode
+ - ISearchFolderItemFactory::SetFolderLogicalViewMode
 ---
 
 # ISearchFolderItemFactory::SetFolderLogicalViewMode
@@ -65,3 +65,4 @@ The <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalvi
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
+

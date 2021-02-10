@@ -9,6 +9,8 @@ tech.root: wmdm
 f1_keywords:
  - mswmdm
  - mswmdm/mswmdm
+api_name:
+ - mswmdm
 ---
 
 # Mswmdm.h header

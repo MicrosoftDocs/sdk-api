@@ -42,7 +42,7 @@ api_type:
 api_location:
  - eventsys.h
 api_name:
- - IEnumEventObject.Skip
+ - IEnumEventObject::Skip
 ---
 
 # IEnumEventObject::Skip
@@ -98,3 +98,4 @@ The number of elements skipped was not the same as the number requested.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
+

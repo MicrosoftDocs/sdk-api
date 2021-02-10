@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider.InstancePropertyStoreOpen
+ - IFunctionDiscoveryProvider::InstancePropertyStoreOpen
 ---
 
 # IFunctionDiscoveryProvider::InstancePropertyStoreOpen
@@ -159,3 +159,4 @@ The method is unable to allocate the memory required to perform this operation.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
+

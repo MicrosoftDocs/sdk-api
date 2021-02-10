@@ -44,6 +44,7 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
+ - FWPS_FILTER2_
  - FWPS_FILTER2
 ---
 
@@ -142,3 +143,4 @@ This structure is essentially identical to the previous version, [FWPM_PROVIDER_
 
 
 [notifyFn2](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn2)
+

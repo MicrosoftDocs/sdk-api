@@ -43,7 +43,7 @@ api_location:
  - dxgi.lib
  - dxgi.dll
 api_name:
- - IDXGISwapChain2.GetFrameLatencyWaitableObject
+ - IDXGISwapChain2::GetFrameLatencyWaitableObject
 ---
 
 # IDXGISwapChain2::GetFrameLatencyWaitableObject
@@ -75,3 +75,4 @@ When an application is finished using the object handle returned by
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
 
 <a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmaximumframelatency">SetMaximumFrameLatency</a>
+

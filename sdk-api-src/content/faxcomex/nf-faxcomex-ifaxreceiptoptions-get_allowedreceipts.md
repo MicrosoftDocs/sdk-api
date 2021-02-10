@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.AllowedReceipts
- - IFaxReceiptOptions.get_AllowedReceipts
- - IFaxReceiptOptions.put_AllowedReceipts
+ - IFaxReceiptOptions::get_AllowedReceipts
 ---
 
 # IFaxReceiptOptions::get_AllowedReceipts
@@ -73,3 +71,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-receipt-options">Setting Receipt Options</a>
+

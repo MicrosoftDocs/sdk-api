@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10RasterizerState.GetDesc
+ - ID3D10RasterizerState::GetDesc
 ---
 
 # ID3D10RasterizerState::GetDesc
@@ -64,3 +64,4 @@ Pointer to a rasterizer-state description (see <a href="/windows/desktop/api/d3d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10rasterizerstate">ID3D10RasterizerState Interface</a>
+

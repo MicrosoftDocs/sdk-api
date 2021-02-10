@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagRID_DEVICE_INFO_HID
+ - PRID_DEVICE_INFO_HID
  - RID_DEVICE_INFO_HID
 ---
 
@@ -97,3 +99,4 @@ The top-level collection Usage for the device.
 <a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 <b>Reference</b>
+

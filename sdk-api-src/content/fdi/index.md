@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - fdi
  - fdi/fdi
+api_name:
+ - fdi
 ---
 
 # Fdi.h header

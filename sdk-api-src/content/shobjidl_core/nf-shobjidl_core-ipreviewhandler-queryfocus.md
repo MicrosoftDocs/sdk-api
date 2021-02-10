@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPreviewHandler.QueryFocus
+ - IPreviewHandler::QueryFocus
 ---
 
 # IPreviewHandler::QueryFocus
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is necessary because <a href="/windows/desktop/api/winuser/nf-winuser-getfocus">GetFocus Function</a> can only succeed if the focus is on a window created by the calling thread. This method is used by the host to manage the tabbing order and to support tabbing into and out of the preview handler's windows.
+

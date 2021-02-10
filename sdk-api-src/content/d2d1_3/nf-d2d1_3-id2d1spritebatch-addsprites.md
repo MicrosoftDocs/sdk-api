@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1SpriteBatch.AddSprites
+ - ID2D1SpriteBatch::AddSprites
 ---
 
 # ID2D1SpriteBatch::AddSprites
@@ -147,3 +147,4 @@ In Direct2D, a sprite is defined by four properties: a destination rectangle, a 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1spritebatch">ID2D1SpriteBatch</a>
+

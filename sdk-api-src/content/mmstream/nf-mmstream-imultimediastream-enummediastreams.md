@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMultiMediaStream.EnumMediaStreams
+ - IMultiMediaStream::EnumMediaStreams
 ---
 
 # IMultiMediaStream::EnumMediaStreams
@@ -115,3 +115,4 @@ If the return value is S_OK, the caller must release the <b>IMediaStream</b> int
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
+

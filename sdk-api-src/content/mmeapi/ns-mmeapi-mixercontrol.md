@@ -46,7 +46,9 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - MIXERCONTROL, *PMIXERCONTROL, FAR *PMIXERCONTROL
+ - tMIXERCONTROL
+ - PMIXERCONTROL
+ - MIXERCONTROL
 ---
 
 # MIXERCONTROL structure
@@ -269,3 +271,4 @@ Audio Mixers
 
 
 <a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>
+

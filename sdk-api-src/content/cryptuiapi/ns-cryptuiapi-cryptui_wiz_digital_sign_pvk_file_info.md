@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
+ - _CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
+ - PCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
  - CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
 ---
 
@@ -83,3 +85,4 @@ Contains the provider type identifier. For more information about the provider t
 
 
 <a href="/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>
+

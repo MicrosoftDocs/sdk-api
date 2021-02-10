@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEncoderAPI.GetParameterRange
+ - IEncoderAPI::GetParameterRange
 ---
 
 # IEncoderAPI::GetParameterRange
@@ -130,3 +130,4 @@ If <i>Api</i> equals <b>ENCAPIPARAM_BITRATE_MODE</b>, the method returns <b>E_NO
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>
+

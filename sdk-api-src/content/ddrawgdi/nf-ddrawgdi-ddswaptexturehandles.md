@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdSwapTextureHandles
- - GdiEntry16
 ---
 
 # DdSwapTextureHandles function
@@ -82,3 +81,4 @@ DDHAL_DRIVER_HANDLED is returned.
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

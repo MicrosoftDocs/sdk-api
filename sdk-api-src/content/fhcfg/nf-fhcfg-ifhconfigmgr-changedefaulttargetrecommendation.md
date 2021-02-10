@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr.ChangeDefaultTargetRecommendation
- - FhConfigMgr.ChangeDefaultTargetRecommendation
+ - IFhConfigMgr::ChangeDefaultTargetRecommendation
 ---
 
 # IFhConfigMgr::ChangeDefaultTargetRecommendation
@@ -81,3 +80,4 @@ A backup target cannot be recommended or not recommended on a computer that is j
 
 
 <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
+

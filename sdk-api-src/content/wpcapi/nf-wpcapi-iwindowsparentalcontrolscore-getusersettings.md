@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWindowsParentalControlsCore.GetUserSettings
+ - IWindowsParentalControlsCore::GetUserSettings
 ---
 
 # IWindowsParentalControlsCore::GetUserSettings
@@ -135,3 +135,4 @@ The method failed.
 
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847165(v=VS.85).aspx">IWindowsParentalControlsCore</a>
+

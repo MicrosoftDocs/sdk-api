@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.SelAlignment
- - IInkEdit.get_SelAlignment
- - IInkEdit.put_SelAlignment
- - InkEdit.get_SelAlignment
- - InkEdit.put_SelAlignment
+ - IInkEdit::get_SelAlignment
 ---
 
 # IInkEdit::get_SelAlignment
@@ -74,3 +70,4 @@ If a selection spans multiple paragraphs with different alignment styles, the <b
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

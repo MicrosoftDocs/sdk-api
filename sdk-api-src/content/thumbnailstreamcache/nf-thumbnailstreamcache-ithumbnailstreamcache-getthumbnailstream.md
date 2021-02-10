@@ -42,7 +42,7 @@ api_type:
 api_location:
  - thumbnailstreamcache.h
 api_name:
- - IThumbnailStreamCache.GetThumbnailStream
+ - IThumbnailStreamCache::GetThumbnailStream
 ---
 
 # IThumbnailStreamCache::GetThumbnailStream
@@ -85,3 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a>
+

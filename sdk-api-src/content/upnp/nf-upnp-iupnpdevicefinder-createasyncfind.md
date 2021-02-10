@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceFinder.CreateAsyncFind
+ - IUPnPDeviceFinder::CreateAsyncFind
 ---
 
 # IUPnPDeviceFinder::CreateAsyncFind
@@ -110,3 +110,4 @@ In Visual Basic, the callback function must be declared with three parameters. T
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">IUPnPDeviceFinder::StartAsyncFind</a>
+

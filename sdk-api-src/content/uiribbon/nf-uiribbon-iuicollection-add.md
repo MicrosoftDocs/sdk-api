@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUICollection.Add
+ - IUICollection::Add
 ---
 
 # IUICollection::Add
@@ -74,3 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>
+

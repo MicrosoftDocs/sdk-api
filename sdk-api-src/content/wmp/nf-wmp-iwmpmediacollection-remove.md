@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMediaCollection.remove
+ - IWMPMediaCollection::remove
 ---
 
 # IWMPMediaCollection::remove
@@ -101,3 +101,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-add">IWMPMediaCollection::add</a>
+

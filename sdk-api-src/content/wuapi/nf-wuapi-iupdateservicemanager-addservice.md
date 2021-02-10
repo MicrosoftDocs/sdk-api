@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceManager.AddService
+ - IUpdateServiceManager::AddService
 ---
 
 # IUpdateServiceManager::AddService
@@ -131,3 +131,4 @@ This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in t
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
+

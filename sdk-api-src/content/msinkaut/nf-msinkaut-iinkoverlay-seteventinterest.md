@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.SetEventInterest
+ - IInkOverlay::SetEventInterest
 ---
 
 # IInkOverlay::SetEventInterest
@@ -155,3 +155,4 @@ Use the <a href="/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a>
 
 
 <a href="/windows/desktop/tablet/inkcollector-stroke">Stroke Event</a>
+

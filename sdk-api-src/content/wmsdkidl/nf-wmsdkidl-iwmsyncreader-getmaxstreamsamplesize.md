@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetMaxStreamSampleSize
+ - IWMSyncReader::GetMaxStreamSampleSize
 ---
 
 # IWMSyncReader::GetMaxStreamSampleSize
@@ -120,3 +120,4 @@ This method retrieves the maximum sample size for an individual stream. The stre
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
+

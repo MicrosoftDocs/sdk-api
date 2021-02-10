@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
+ - NET_FW_IP_VERSION_
  - NET_FW_IP_VERSION
 ---
 
@@ -82,3 +83,4 @@ This value is used for boundary checking only and is not valid for application p
 
 
 <a href="/previous-versions/windows/desktop/ics/windows-firewall-reference">Windows Firewall Reference</a>
+

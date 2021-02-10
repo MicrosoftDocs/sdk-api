@@ -9,6 +9,8 @@ tech.root: nwifi
 f1_keywords:
  - adhoc
  - adhoc/adhoc
+api_name:
+ - adhoc
 ---
 
 # Adhoc.h header

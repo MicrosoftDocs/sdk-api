@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_ALGORITHM_IDENTIFIER
+ - PCRYPT_ALGORITHM_IDENTIFIER
  - CRYPT_ALGORITHM_IDENTIFIER
 ---
 
@@ -1931,3 +1933,4 @@ A <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a>
+

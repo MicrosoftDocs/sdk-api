@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore3.newMedia
+ - IWMPCore3::newMedia
 ---
 
 # IWMPCore3::newMedia
@@ -95,3 +95,4 @@ The <i>bstrURL</i> parameter must not be an empty string or null.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
+

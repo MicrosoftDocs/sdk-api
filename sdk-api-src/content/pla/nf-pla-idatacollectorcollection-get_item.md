@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorCollection.Item
- - IDataCollectorCollection.get_Item
+ - IDataCollectorCollection::get_Item
 ---
 
 # IDataCollectorCollection::get_Item
@@ -64,3 +63,4 @@ This property is the object's default property.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
+

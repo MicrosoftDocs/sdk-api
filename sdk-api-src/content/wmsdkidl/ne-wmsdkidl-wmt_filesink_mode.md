@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - tagWMT_FILESINK_MODE
  - WMT_FILESINK_MODE
 ---
 
@@ -71,3 +72,4 @@ The file sink accepts unbuffered data. A call to <a href="/windows/desktop/api/w
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
+

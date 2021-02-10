@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.GetRangeEndOffset
+ - IMFHttpDownloadRequest::GetRangeEndOffset
 ---
 
 # IMFHttpDownloadRequest::GetRangeEndOffset
@@ -102,3 +102,4 @@ Microsoft Media Foundation invokes <b>GetRangeEndOffset</b> only after having su
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
+

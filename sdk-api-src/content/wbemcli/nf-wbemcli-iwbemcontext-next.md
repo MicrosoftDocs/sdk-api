@@ -49,7 +49,7 @@ api_location:
  - Wbemess.dll
  - Wmipjobj.dll
 api_name:
- - IWbemContext.Next
+ - IWbemContext::Next
 ---
 
 # IWbemContext::Next
@@ -101,3 +101,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-endenumeration">IWbemContext::EndEnumeration</a>
+

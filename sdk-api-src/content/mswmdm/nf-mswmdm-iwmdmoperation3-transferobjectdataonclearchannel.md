@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation3.TransferObjectDataOnClearChannel
+ - IWMDMOperation3::TransferObjectDataOnClearChannel
 ---
 
 # IWMDMOperation3::TransferObjectDataOnClearChannel
@@ -118,3 +118,4 @@ If the application supports this method, it is called in preference to the <b>Tr
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation3">IWMDMOperation3 Interface</a>
+

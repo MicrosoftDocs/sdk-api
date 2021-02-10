@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddstream.h
 api_name:
- - IDirectDrawMediaStream.GetTimePerFrame
+ - IDirectDrawMediaStream::GetTimePerFrame
 ---
 
 # IDirectDrawMediaStream::GetTimePerFrame
@@ -67,3 +67,4 @@ Returns S_OK if successful or E_POINTER if the pointer is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
+

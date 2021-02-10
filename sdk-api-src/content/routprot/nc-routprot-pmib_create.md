@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - MibCreate
+ - PMIB_CREATE
 ---
 
 # PMIB_CREATE callback function
@@ -113,3 +113,4 @@ Specifies the size or content of the data is inappropriate for the request.
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
+

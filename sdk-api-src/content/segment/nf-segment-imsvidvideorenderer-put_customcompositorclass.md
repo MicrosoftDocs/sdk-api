@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer.put_CustomCompositorClass
+ - IMSVidVideoRenderer::put_CustomCompositorClass
 ---
 
 # IMSVidVideoRenderer::put_CustomCompositorClass
@@ -77,3 +77,4 @@ This method is provided for Automation clients. C++ applications can use the <a 
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

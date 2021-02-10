@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - synchapi
  - synchapi/synchapi
+api_name:
+ - synchapi
 ---
 
 # Synchapi.h header

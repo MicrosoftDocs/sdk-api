@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced6.SetProtectStreamSamples
+ - IWMReaderAdvanced6::SetProtectStreamSamples
 ---
 
 # IWMReaderAdvanced6::SetProtectStreamSamples
@@ -119,3 +119,4 @@ The constants used for <i>dwCertificateType</i> and <i>dwFlags</i> are defined i
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced6">IWMReaderAdvanced6 Interface</a>
+

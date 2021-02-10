@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mprapi.h
 api_name:
+ - _PROJECTION_INFO2
+ - PPROJECTION_INFO2
  - PROJECTION_INFO2
 ---
 
@@ -96,3 +98,4 @@ A <a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJE
 ### -field Ikev2ProjectionInfo
 
 A <a href="/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure that is used for an IKEv2 based tunnel.
+

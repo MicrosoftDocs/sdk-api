@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual.SetEffect
+ - IDCompositionVisual::SetEffect
 ---
 
 # IDCompositionVisual::SetEffect
@@ -109,3 +109,4 @@ This method fails if <i>effect</i> is an invalid pointer or if it was not create
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
+

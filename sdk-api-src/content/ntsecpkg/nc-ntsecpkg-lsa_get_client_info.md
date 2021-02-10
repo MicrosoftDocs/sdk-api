@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - GetClientInfo
+ - LSA_GET_CLIENT_INFO
 ---
 
 # LSA_GET_CLIENT_INFO callback function
@@ -78,3 +78,4 @@ A pointer to the <b>GetClientInfo</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

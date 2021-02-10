@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2Crossbar.SetOutputProfile
+ - ISBE2Crossbar::SetOutputProfile
 ---
 
 # ISBE2Crossbar::SetOutputProfile
@@ -147,3 +147,4 @@ Cannot set output profile because profile default mode is enabled.
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
+

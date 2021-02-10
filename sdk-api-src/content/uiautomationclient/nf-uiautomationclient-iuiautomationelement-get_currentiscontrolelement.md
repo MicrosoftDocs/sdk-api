@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentIsControlElement
- - IUIAutomationElement.get_CurrentIsControlElement
+ - IUIAutomationElement::get_CurrentIsControlElement
 ---
 
 # IUIAutomationElement::get_CurrentIsControlElement
@@ -76,3 +75,4 @@ This property is read-only.
 
 
 <b>Reference</b>
+

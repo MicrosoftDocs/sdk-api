@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - PDEVICE_DATA_SET_LB_PROVISIONING_STATE
  - DEVICE_DATA_SET_LB_PROVISIONING_STATE
 ---
 
@@ -151,3 +153,4 @@ If the requested slab size is too large (for example if it is larger than the ma
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquerycondition.h
 api_name:
- - ICondition2.GetLocale
+ - ICondition2::GetLocale
 ---
 
 # ICondition2::GetLocale
@@ -85,3 +85,4 @@ Type: <b>HRESULT</b>
 
 
 <b>Reference</b>
+

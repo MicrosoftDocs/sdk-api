@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspstrm.h
 api_name:
- - CMSPStream.FinalRelease
+ - CMSPStream::FinalRelease
 ---
 
 # CMSPStream::FinalRelease

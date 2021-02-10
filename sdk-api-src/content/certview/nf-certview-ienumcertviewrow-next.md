@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWROW.Next
- - IEnumCERTVIEWROW.Next
+ - IEnumCERTVIEWROW::Next
 ---
 
 # IEnumCERTVIEWROW::Next
@@ -125,3 +124,4 @@ else
 
 
 <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a>
+

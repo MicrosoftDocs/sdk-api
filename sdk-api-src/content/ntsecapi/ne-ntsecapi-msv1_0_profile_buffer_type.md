@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - MSV1_0_PROFILE_TYPE
+ - _MSV1_0_PROFILE_BUFFER_TYPE
+ - PMSV1_0_PROFILE_BUFFER_TYPE
+ - MSV1_0_PROFILE_BUFFER_TYPE
 ---
 
 # MSV1_0_PROFILE_BUFFER_TYPE enumeration
@@ -69,3 +71,4 @@ The profile describes a network logon session.
 ### -field MsV1_0SmartCardProfile
 
 The profile describes a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> logon session.
+

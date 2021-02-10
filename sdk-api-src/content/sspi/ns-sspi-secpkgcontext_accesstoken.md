@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_AccessToken
+ - PSecPkgContext_AccessToken
  - SecPkgContext_AccessToken
 ---
 
@@ -65,3 +67,4 @@ Pointer to a <b>void</b> that receives the handle to the access token that repre
 The returned  handle is not duplicated, so the calling process must not call <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> on the returned handle.
 
 If the security context is for a server or is incomplete, the returned  handle may be <b>NULL</b>. Depending on the security package, <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> may return SEC_E_NO_IMPERSONATION for these cases.
+

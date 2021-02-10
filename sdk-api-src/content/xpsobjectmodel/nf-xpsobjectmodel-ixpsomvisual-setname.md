@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetName
+ - IXpsOMVisual::SetName
 ---
 
 # IXpsOMVisual::SetName
@@ -110,3 +110,4 @@ Clearing the <b>Name</b> property by passing a <b>NULL</b> pointer in <i>name</i
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

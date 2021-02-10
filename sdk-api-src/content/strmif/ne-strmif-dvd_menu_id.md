@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_MENU_ID
  - DVD_MENU_ID
 ---
 
@@ -91,3 +92,4 @@ The root menu always provides a means of getting to the subpicture, audio, angle
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-showmenu">IDvdControl2::ShowMenu</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin.Ping
+ - IOCSPAdmin::Ping
 ---
 
 # IOCSPAdmin::Ping
@@ -61,3 +61,4 @@ A string that contains the OCSP responder server name.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
+

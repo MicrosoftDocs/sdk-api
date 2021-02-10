@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tom.h
 api_name:
- - ITextStory.SetFormattedText
+ - ITextStory::SetFormattedText
 ---
 
 # ITextStory::SetFormattedText
@@ -113,3 +113,4 @@ This method calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryi
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
+

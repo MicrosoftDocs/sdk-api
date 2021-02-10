@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FaxSendDocumentW
  - winfax/FaxSendDocumentW
+ - FaxSendDocument
+ - winfax/FaxSendDocument
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxSendDocument
- - FaxSendDocumentA
  - FaxSendDocumentW
+ - FaxSendDocument
 ---
 
 # FaxSendDocumentW function
@@ -218,3 +219,4 @@ When you send a document from an application, links in the document may cause a 
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsenddocumentforbroadcasta">FaxSendDocumentForBroadcast</a>
+

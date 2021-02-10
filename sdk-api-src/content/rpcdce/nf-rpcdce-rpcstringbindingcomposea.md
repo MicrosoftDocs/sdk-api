@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcStringBindingComposeA
  - rpcdce/RpcStringBindingComposeA
+ - RpcStringBindingCompose
+ - rpcdce/RpcStringBindingCompose
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcStringBindingCompose
  - RpcStringBindingComposeA
- - RpcStringBindingComposeW
+ - RpcStringBindingCompose
 ---
 
 # RpcStringBindingComposeA function
@@ -163,3 +164,4 @@ Literal backslash characters within C-language strings must be quoted. The actua
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

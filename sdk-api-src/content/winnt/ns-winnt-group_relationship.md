@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _GROUP_RELATIONSHIP
+ - PGROUP_RELATIONSHIP
  - GROUP_RELATIONSHIP
 ---
 
@@ -85,3 +87,4 @@ An array of <a href="/windows/desktop/api/winnt/ns-winnt-processor_group_info">P
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDMetadataExchange.GetMetadata
+ - IWSDMetadataExchange::GetMetadata
 ---
 
 # IWSDMetadataExchange::GetMetadata
@@ -94,3 +94,4 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>
+

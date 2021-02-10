@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagAspectInfo
  - DVASPECTINFO
 ---
 
@@ -71,3 +72,4 @@ A value taken from the <a href="/windows/win32/api/ocidl/ne-ocidl-dvaspectinfofl
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>
+

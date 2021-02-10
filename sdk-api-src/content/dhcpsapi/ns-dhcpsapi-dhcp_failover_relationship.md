@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_FAILOVER_RELATIONSHIP
+ - LPDHCP_FAILOVER_RELATIONSHIP
  - DHCP_FAILOVER_RELATIONSHIP
 ---
 
@@ -138,3 +140,4 @@ A pointer to a null-terminated Unicode string that represents the shared secret 
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoversetrelationship">DhcpV4FailoverSetRelationship</a>
+

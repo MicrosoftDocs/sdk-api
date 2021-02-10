@@ -44,7 +44,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - CLUSPROP_DISK_NUMBER
+ - CLUSPROP_DWORD
+ - PCLUSPROP_DWORD
 ---
 
 ## -description
@@ -72,3 +73,4 @@ Numeric value identifying the physical drive of the disk. Valid values begin at 
 <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

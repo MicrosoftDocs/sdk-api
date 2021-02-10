@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
+ - _ONEX_RESULT_UPDATE_DATA
+ - PONEX_RESULT_UPDATE_DATA
  - ONEX_RESULT_UPDATE_DATA
 ---
 
@@ -132,3 +134,4 @@ The <b>ONEX_RESULT_UPDATE_DATA</b> contains information on a status change to 80
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
+

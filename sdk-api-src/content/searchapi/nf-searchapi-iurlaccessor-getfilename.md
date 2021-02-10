@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor.GetFileName
+ - IUrlAccessor::GetFileName
 ---
 
 # IUrlAccessor::GetFileName
@@ -85,3 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If this method is implemented, the filter host uses the file name to determine the correct <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> to use to parse the content of the stream returned by <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a>.
+

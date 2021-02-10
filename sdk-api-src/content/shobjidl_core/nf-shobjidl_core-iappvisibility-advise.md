@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IAppVisibility.Advise
+ - IAppVisibility::Advise
 ---
 
 # IAppVisibility::Advise
@@ -91,3 +91,4 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>
+

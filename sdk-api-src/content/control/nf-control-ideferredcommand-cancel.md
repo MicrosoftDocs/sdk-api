@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDeferredCommand.Cancel
+ - IDeferredCommand::Cancel
 ---
 
 # IDeferredCommand::Cancel
@@ -95,3 +95,4 @@ The request was already canceled.
 
 
 <a href="/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand Interface</a>
+

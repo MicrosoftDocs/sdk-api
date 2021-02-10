@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IQueryAssociations.Init
+ - IQueryAssociations::Init
 ---
 
 # IQueryAssociations::Init
@@ -127,3 +127,4 @@ This method initializes the interface, and is also called each time you need to 
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>
+

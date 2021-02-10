@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO.Delete
- - GPMGPO.Delete
+ - IGPMGPO::Delete
 ---
 
 # IGPMGPO::Delete
@@ -71,3 +70,4 @@ This method does not delete GPO links. To delete GPO links, call the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
+

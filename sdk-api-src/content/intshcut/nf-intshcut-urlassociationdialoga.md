@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - URLAssociationDialogA
  - intshcut/URLAssociationDialogA
+ - URLAssociationDialog
+ - intshcut/URLAssociationDialog
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Url.dll
 api_name:
- - URLAssociationDialog
  - URLAssociationDialogA
- - URLAssociationDialogW
+ - URLAssociationDialog
 ---
 
 # URLAssociationDialogA function

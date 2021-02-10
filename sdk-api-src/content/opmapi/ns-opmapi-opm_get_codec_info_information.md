@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ksopmapi.h
 api_name:
+ - _OPM_GET_CODEC_INFO_INFORMATION
  - OPM_GET_CODEC_INFO_INFORMATION
 ---
 
@@ -71,3 +72,4 @@ The merit value of the codec.
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

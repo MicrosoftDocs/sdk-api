@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFVideoSampleAllocator.SetDirectXManager
+ - IMFVideoSampleAllocator::SetDirectXManager
 ---
 
 # IMFVideoSampleAllocator::SetDirectXManager
@@ -88,3 +88,4 @@ The media sink uses the Direct3D device manager to obtain a pointer to the Direc
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
+

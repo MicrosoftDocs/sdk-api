@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SERVICE_ENDPOINT_METADATA
  - WS_SERVICE_ENDPOINT_METADATA
 ---
 
@@ -77,3 +78,4 @@ Name of the binding associated with the port. The service model expects this to 
 
 The namespace of the binding associated with the port. The service model expects this to be valid for the lifetime 
                     of the <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>.
+

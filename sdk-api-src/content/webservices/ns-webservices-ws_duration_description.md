@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_DURATION_DESCRIPTION
  - WS_DURATION_DESCRIPTION
 ---
 
@@ -76,3 +77,4 @@ Because <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS
                     (for example, 1 month and 30 days).  The default comparer function can compare durations that specify
                     years and months (but no other components), or durations that specify no years or months (but any other
                     component).
+

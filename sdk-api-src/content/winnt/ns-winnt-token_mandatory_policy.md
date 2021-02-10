@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_MANDATORY_POLICY
+ - PTOKEN_MANDATORY_POLICY
  - TOKEN_MANDATORY_POLICY
 ---
 
@@ -116,3 +118,4 @@ A combination of <b>TOKEN_MANDATORY_POLICY_NO_WRITE_UP</b> and <b>TOKEN_MANDATOR
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
+

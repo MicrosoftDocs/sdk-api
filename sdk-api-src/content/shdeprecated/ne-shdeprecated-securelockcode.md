@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - SECURELOCK
+ - SECURELOCKCODE
 ---
 
 # SECURELOCKCODE enumeration
@@ -118,3 +118,4 @@ A Fortezza security encryption has been suggested.
 ### -field SECURELOCK_SUGGEST_SECURE128BIT
 
 A 128-bit security encryption has been suggested.
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.GetPenType
+ - Pen::GetPenType
 ---
 
 # Pen::GetPenType
@@ -126,3 +126,4 @@ VOID Example_GetPenType(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

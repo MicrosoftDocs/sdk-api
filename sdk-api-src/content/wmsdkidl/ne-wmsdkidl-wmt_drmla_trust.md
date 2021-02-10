@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - tagWMT_DRMLA_TRUST
  - WMT_DRMLA_TRUST
 ---
 
@@ -75,3 +76,4 @@ When a <b>WMT_LICENSEURL_SIGNATURE_STATE</b> message is received in the <b>OnSta
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
+

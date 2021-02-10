@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopology.CloneFrom
+ - IMFTopology::CloneFrom
 ---
 
 # IMFTopology::CloneFrom
@@ -86,3 +86,4 @@ This method does the following:
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCertificate.SignerCertificate
- - IX509CertificateRequestCertificate.get_SignerCertificate
- - IX509CertificateRequestCertificate.put_SignerCertificate
+ - IX509CertificateRequestCertificate::get_SignerCertificate
 ---
 
 # IX509CertificateRequestCertificate::get_SignerCertificate
@@ -90,3 +88,4 @@ You must initialize the request object before calling this property. For more in
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
+

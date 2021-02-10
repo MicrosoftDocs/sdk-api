@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color.GetValue
+ - Color::GetValue
 ---
 
 # Color::GetValue
@@ -68,3 +68,4 @@ This method returns a 32-bit <b>ARGB</b> value that holds the alpha, red, green,
 
 
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
+

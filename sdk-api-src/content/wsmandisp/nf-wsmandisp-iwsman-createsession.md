@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSMan.CreateSession
+ - IWSMan::CreateSession
 ---
 
 # IWSMan::CreateSession
@@ -130,3 +130,4 @@ Uses HTTPS and IPv6 with the given port.
 
 
 <a href="/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>
+

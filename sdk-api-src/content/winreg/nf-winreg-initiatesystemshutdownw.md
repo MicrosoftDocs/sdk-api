@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InitiateSystemShutdownW
  - winreg/InitiateSystemShutdownW
+ - InitiateSystemShutdown
+ - winreg/InitiateSystemShutdown
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - AdvApi32Legacy.dll
  - API-MS-Win-Core-Shutdown-Ansi-L1-1-0.dll
 api_name:
- - InitiateSystemShutdown
- - InitiateSystemShutdownA
  - InitiateSystemShutdownW
+ - InitiateSystemShutdown
 ---
 
 # InitiateSystemShutdownW function
@@ -149,3 +150,4 @@ For an example, see
 
 
 <a href="/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>
+

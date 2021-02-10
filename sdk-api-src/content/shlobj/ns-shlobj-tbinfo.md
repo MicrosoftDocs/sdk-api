@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
+ - _TBINFO
  - TBINFO
 ---
 
@@ -85,3 +86,4 @@ Add the new buttons before the existing buttons.
 #### TBIF_REPLACE (2)
 
 Replace the existing buttons with the new buttons.
+

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJob4.SetMaximumDownloadTime
+ - IBackgroundCopyJob4::SetMaximumDownloadTime
 ---
 
 # IBackgroundCopyJob4::SetMaximumDownloadTime
@@ -98,3 +98,4 @@ This method overrides the MaxDownloadTime group policy.
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-getmaximumdownloadtime">IBackgroundCopyJob4::GetMaximumDownloadTime</a>
+

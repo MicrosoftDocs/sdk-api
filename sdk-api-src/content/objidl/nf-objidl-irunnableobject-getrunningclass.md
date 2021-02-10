@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunnableObject.GetRunningClass
+ - IRunnableObject::GetRunningClass
 ---
 
 # IRunnableObject::GetRunningClass
@@ -69,3 +69,4 @@ If an embedded document was created by an application that is not available on t
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>
+

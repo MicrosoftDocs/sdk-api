@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP.InsertEmbeddedAtSelection
+ - ITextStoreACP::InsertEmbeddedAtSelection
 ---
 
 # ITextStoreACP::InsertEmbeddedAtSelection
@@ -217,3 +217,4 @@ The values of the <i>pacpStart</i> and <i>pacpEnd</i> parameters depend upon how
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
+

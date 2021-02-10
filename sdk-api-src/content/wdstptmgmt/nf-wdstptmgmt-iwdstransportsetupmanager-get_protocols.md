@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportSetupManager.Protocols
- - IWdsTransportSetupManager.get_Protocols
+ - IWdsTransportSetupManager::get_Protocols
 ---
 
 # IWdsTransportSetupManager::get_Protocols
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_protocol_flags">WDSTRANSPORT_PROTOCOL_FLAGS</a>
+

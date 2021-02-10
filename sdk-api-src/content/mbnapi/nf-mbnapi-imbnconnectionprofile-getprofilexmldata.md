@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionProfile.GetProfileXmlData
+ - IMbnConnectionProfile::GetProfileXmlData
 ---
 
 # IMbnConnectionProfile::GetProfileXmlData
@@ -72,3 +72,4 @@ The data provided by this method complies with the <a href="/windows/desktop/mbn
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>
+

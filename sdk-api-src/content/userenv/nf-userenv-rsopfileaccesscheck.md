@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Userenv.dll
 api_name:
- - RSoPFileAccessCheck
+ - RsopFileAccessCheck
 ---
 
 # RsopFileAccessCheck function
@@ -104,3 +104,4 @@ The
 
 
 <a href="/windows/desktop/api/userenv/nf-userenv-rsopaccesscheckbytype">RSoPAccessCheckByType</a>
+

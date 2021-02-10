@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.SetFlags
+ - IXpsSigningOptions::SetFlags
 ---
 
 # IXpsSigningOptions::SetFlags
@@ -77,3 +77,4 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a>
+

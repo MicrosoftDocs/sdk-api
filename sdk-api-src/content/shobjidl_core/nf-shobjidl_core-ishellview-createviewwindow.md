@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView.CreateViewWindow
+ - IShellView::CreateViewWindow
 ---
 
 # IShellView::CreateViewWindow
@@ -101,3 +101,4 @@ Create your view window and restore any persistent state by calling the <a href=
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
+

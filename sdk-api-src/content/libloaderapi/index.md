@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - libloaderapi
  - libloaderapi/libloaderapi
+api_name:
+ - libloaderapi
 ---
 
 # Libloaderapi.h header

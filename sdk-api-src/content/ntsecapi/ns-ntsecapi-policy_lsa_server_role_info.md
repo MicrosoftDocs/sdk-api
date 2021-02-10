@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _POLICY_LSA_SERVER_ROLE_INFO
+ - PPOLICY_LSA_SERVER_ROLE_INFO
  - POLICY_LSA_SERVER_ROLE_INFO
 ---
 
@@ -78,3 +80,4 @@ Specifies one of the values from the
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_lsa_server_role">POLICY_LSA_SERVER_ROLE</a>
+

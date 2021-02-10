@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.GetTab
+ - ITextPara::GetTab
 ---
 
 # ITextPara::GetTab
@@ -203,3 +203,4 @@ There is no tab corresponding to iTab.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.GetLastStatus
+ - Image::GetLastStatus
 ---
 
 # Image::GetLastStatus
@@ -96,3 +96,4 @@ The first time you call the <b>Image::GetLastStatus</b> method of an
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

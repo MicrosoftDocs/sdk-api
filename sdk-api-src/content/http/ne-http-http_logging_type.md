@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_LOGGING_TYPE
+ - PHTTP_LOGGING_TYPE
  - HTTP_LOGGING_TYPE
 ---
 
@@ -213,3 +215,4 @@ For more information about the log file formats, see <a href="/previous-versions
 
 
 <a href="/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
+

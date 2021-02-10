@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellChecker2.Remove
+ - ISpellChecker2::Remove
 ---
 
 # ISpellChecker2::Remove
@@ -117,3 +117,4 @@ Successful.
 
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker2">ISpellChecker2</a>
+

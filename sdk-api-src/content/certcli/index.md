@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - certcli
  - certcli/certcli
+api_name:
+ - certcli
 ---
 
 # Certcli.h header

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMGraphStreams.SyncUsingStreamOffset
+ - IAMGraphStreams::SyncUsingStreamOffset
 ---
 
 # IAMGraphStreams::SyncUsingStreamOffset
@@ -74,3 +74,4 @@ By default, the filter graph does not attempt to synchronize live streams by mea
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams Interface</a>
+

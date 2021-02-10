@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - wtsprotocol
  - wtsprotocol/wtsprotocol
+api_name:
+ - wtsprotocol
 ---
 
 # Wtsprotocol.h header

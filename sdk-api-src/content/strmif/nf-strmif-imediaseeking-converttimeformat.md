@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking.ConvertTimeFormat
+ - IMediaSeeking::ConvertTimeFormat
 ---
 
 # IMediaSeeking::ConvertTimeFormat
@@ -133,3 +133,4 @@ Method is not supported.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
+

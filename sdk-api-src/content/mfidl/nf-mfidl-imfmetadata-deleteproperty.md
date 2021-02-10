@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMetadata.DeleteProperty
+ - IMFMetadata::DeleteProperty
 ---
 
 # IMFMetadata::DeleteProperty
@@ -105,3 +105,4 @@ For a media source, deleting a property from the metadata collection does not ch
 
 
 <a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_addW
  - winldap/ldap_addW
+ - ldap_add
+ - winldap/ldap_add
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_add
- - ldap_addA
  - ldap_addW
+ - ldap_add
 ---
 
 # ldap_addW function
@@ -151,3 +152,4 @@ Multithreading: Calls to <b>ldap_add</b> are thread-safe, provided that
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
+

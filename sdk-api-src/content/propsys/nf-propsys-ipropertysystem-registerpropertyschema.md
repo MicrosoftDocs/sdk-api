@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.dll
 api_name:
- - IPropertySystem.RegisterPropertySchema
+ - IPropertySystem::RegisterPropertySchema
 ---
 
 # IPropertySystem::RegisterPropertySchema
@@ -115,3 +115,4 @@ If a failure is encountered that prevents a property description from getting lo
 ## -see-also
 
 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
+

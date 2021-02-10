@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServicePoolConfig.put_CreationTimeout
+ - IServicePoolConfig::put_CreationTimeout
 ---
 
 # IServicePoolConfig::put_CreationTimeout
@@ -65,3 +65,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepoolconfig">IServicePoolConfig</a>
+

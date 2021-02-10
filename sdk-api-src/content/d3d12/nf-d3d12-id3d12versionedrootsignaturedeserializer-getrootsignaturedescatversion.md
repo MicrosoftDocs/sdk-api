@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion
+ - ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion
 ---
 
 # ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion
@@ -87,3 +87,4 @@ Converting a root signature from 1.0 to 1.1 just adds the appropriate flags to m
 
 
 <a href="/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>
+

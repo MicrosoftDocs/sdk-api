@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressTranslation.EnumerateLocations
+ - ITAddressTranslation::EnumerateLocations
 ---
 
 # ITAddressTranslation::EnumerateLocations
@@ -127,3 +127,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>
+

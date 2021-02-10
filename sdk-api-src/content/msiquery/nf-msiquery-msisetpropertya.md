@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSetPropertyA
  - msiquery/MsiSetPropertyA
+ - MsiSetProperty
+ - msiquery/MsiSetProperty
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSetProperty
  - MsiSetPropertyA
- - MsiSetPropertyW
+ - MsiSetProperty
 ---
 
 # MsiSetPropertyA function
@@ -88,3 +89,4 @@ If the property is not defined, it is created by the
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">Installer State Access Functions</a>
+

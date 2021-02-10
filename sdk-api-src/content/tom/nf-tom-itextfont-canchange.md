@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.CanChange
+ - ITextFont::CanChange
 ---
 
 # ITextFont::CanChange
@@ -103,3 +103,4 @@ The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

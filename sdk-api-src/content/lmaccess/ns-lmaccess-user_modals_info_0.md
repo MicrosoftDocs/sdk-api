@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_MODALS_INFO_0
+ - PUSER_MODALS_INFO_0
  - USER_MODALS_INFO_0
 ---
 
@@ -98,3 +100,4 @@ Specifies the length of password history maintained. A new password cannot match
 
 
 <a href="/windows/desktop/NetMgmt/user-modal-functions">User Modal Functions</a>
+

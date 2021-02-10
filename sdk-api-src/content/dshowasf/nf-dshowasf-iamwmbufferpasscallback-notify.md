@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dshowasf.h
 api_name:
- - IAMWMBufferPassCallback.Notify
+ - IAMWMBufferPassCallback::Notify
 ---
 
 # IAMWMBufferPassCallback::Notify
@@ -89,3 +89,4 @@ This method enables an application to examine and act on information in the medi
 
 
 <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>
+

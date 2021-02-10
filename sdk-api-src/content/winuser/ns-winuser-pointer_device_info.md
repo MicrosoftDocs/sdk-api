@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagPOINTER_DEVICE_INFO
  - POINTER_DEVICE_INFO
 ---
 
@@ -90,3 +91,4 @@ The string that identifies the product.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
+

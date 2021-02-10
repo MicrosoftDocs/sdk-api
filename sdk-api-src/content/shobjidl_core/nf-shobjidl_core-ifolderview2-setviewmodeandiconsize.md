@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2.SetViewModeAndIconSize
+ - IFolderView2::SetViewModeAndIconSize
 ---
 
 # IFolderView2::SetViewModeAndIconSize
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If <i>iImageSize</i> is -1 then the current default icon size for the view mode is used.
+

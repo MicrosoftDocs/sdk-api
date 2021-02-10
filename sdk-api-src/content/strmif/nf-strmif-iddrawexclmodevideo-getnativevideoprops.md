@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDDrawExclModeVideo.GetNativeVideoProps
+ - IDDrawExclModeVideo::GetNativeVideoProps
 ---
 
 # IDDrawExclModeVideo::GetNativeVideoProps
@@ -115,3 +115,4 @@ The filter graph should look for the <a href="/windows/desktop/DirectShow/ec-vid
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>
+

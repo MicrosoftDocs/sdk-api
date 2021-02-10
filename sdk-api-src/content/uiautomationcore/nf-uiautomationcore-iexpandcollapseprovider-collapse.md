@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IExpandCollapseProvider.Collapse
+ - IExpandCollapseProvider::Collapse
 ---
 
 # IExpandCollapseProvider::Collapse
@@ -71,3 +71,4 @@ This is a blocking method that returns after the element has been collapsed.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

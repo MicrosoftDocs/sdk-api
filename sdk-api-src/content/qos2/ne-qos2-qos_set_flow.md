@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qos2.h
 api_name:
+ - _QOS_SET_FLOW
+ - PQOS_SET_FLOW
  - QOS_SET_FLOW
 ---
 
@@ -80,3 +82,4 @@ Windows 7, Windows Server 2008 R2, and later: Indicates that the outgoing DSC
 
 
 <a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
+

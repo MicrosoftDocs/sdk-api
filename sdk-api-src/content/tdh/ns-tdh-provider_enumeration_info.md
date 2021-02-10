@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _PROVIDER_ENUMERATION_INFO
  - PROVIDER_ENUMERATION_INFO
 ---
 
@@ -74,3 +75,4 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a>
+

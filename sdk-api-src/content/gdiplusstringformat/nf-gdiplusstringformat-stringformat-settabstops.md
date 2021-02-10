@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat.SetTabStops
+ - StringFormat::SetTabStops
 ---
 
 # StringFormat::SetTabStops
@@ -138,3 +138,4 @@ VOID Example_SetTabStops(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-gettabstops">StringFormat::GetTabStops</a>
+

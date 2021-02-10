@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linetermcaps_tag
+ - LPLINETERMCAPS
  - LINETERMCAPS
 ---
 
@@ -95,3 +97,4 @@ This structure may not be extended.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>
+

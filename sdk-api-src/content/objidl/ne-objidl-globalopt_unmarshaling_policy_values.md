@@ -44,6 +44,7 @@ api_type:
 api_location:
  - objidl.h
 api_name:
+ - tagGLOBALOPT_UNMARSHALING_POLICY_VALUES
  - GLOBALOPT_UNMARSHALING_POLICY_VALUES
 ---
 
@@ -75,3 +76,4 @@ Unmarshaling data whose source is app container allows only a system-trusted lis
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>
+

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance.GetWBEMINT64
+ - CInstance::GetWBEMINT64
 ---
 
 ## -description
@@ -75,3 +75,4 @@ The provider framework currently returns a <a href="/windows/desktop/WmiSdk/chst
 <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a>
 
 <a href="/windows/desktop/WmiSdk/cinstance-getwbemint64">CInstance::GetWBEMINT64</a>
+

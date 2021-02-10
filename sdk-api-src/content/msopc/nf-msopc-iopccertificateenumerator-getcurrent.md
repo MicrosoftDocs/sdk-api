@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcCertificateEnumerator.GetCurrent
+ - IOpcCertificateEnumerator::GetCurrent
 ---
 
 # IOpcCertificateEnumerator::GetCurrent
@@ -254,3 +254,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

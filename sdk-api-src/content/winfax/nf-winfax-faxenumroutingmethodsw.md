@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FaxEnumRoutingMethodsW
  - winfax/FaxEnumRoutingMethodsW
+ - FaxEnumRoutingMethods
+ - winfax/FaxEnumRoutingMethods
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxEnumRoutingMethods
- - FaxEnumRoutingMethodsA
  - FaxEnumRoutingMethodsW
+ - FaxEnumRoutingMethods
 ---
 
 # FaxEnumRoutingMethodsW function
@@ -187,3 +188,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <b>FaxSetRoutingInfo</b>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponentEx.GetRollForward
+ - IVssComponentEx::GetRollForward
 ---
 
 # IVssComponentEx::GetRollForward
@@ -134,3 +134,4 @@ For more
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_rollforward_type">VSS_ROLLFORWARD_TYPE</a>
+

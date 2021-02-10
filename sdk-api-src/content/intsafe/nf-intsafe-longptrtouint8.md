@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LongPtrToUInt8
  - intsafe/LongPtrToUInt8
+ - LongPtrToUInt
+ - intsafe/LongPtrToUInt
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - intsafe.h
 api_name:
  - LongPtrToUInt8
+ - LongPtrToUInt
 ---
 
 # LongPtrToUInt8 function

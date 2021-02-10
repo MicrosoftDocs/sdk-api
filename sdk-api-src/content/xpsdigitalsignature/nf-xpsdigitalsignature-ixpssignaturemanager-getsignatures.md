@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.GetSignatures
+ - IXpsSignatureManager::GetSignatures
 ---
 
 # IXpsSignatureManager::GetSignatures
@@ -125,3 +125,4 @@ The signature collection that is returned in <i>signatures</i> might include dig
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

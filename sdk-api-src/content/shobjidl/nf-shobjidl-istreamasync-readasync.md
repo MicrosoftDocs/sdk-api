@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IStreamAsync.ReadAsync
+ - IStreamAsync::ReadAsync
 ---
 
 # IStreamAsync::ReadAsync
@@ -89,3 +89,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <b>IStreamAsync::ReadAsync</b> should reset the event specified by the <b>hEvent</b> member of the <a href="/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure to a nonsignaled state when it begins the input/output (I/O) operation.
 
 This method has been implemented in the Shell as a thin wrapper around the public <a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> API.
+

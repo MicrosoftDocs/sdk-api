@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureRecordSink.SetOutputFileName
+ - IMFCaptureRecordSink::SetOutputFileName
 ---
 
 # IMFCaptureRecordSink::SetOutputFileName
@@ -71,3 +71,4 @@ Calling this method overrides any previous call to <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturerecordsink">IMFCaptureRecordSink</a>
+

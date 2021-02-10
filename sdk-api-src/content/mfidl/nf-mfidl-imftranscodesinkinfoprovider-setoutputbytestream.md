@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTranscodeSinkInfoProvider.SetOutputByteStream
+ - IMFTranscodeSinkInfoProvider::SetOutputByteStream
 ---
 
 # IMFTranscodeSinkInfoProvider::SetOutputByteStream
@@ -79,3 +79,4 @@ Currently, Microsoft Media Foundation does not provide any byte-stream activatio
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a>
+

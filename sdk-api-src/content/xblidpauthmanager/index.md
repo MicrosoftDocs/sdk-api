@@ -9,6 +9,8 @@ tech.root: xblidp
 f1_keywords:
  - xblidpauthmanager
  - xblidpauthmanager/xblidpauthmanager
+api_name:
+ - xblidpauthmanager
 ---
 
 # Xblidpauthmanager.h header

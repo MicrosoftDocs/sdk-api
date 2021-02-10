@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoPresenter.GetCurrentMediaType
+ - IMFVideoPresenter::GetCurrentMediaType
 ---
 
 # IMFVideoPresenter::GetCurrentMediaType
@@ -114,3 +114,4 @@ This method returns the media type that the presenter sets for the mixer's outpu
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a>
+

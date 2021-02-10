@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - DISPLAY_DEVICE
- - DISPLAY_DEVICEA
+ - _DISPLAY_DEVICEW
+ - PDISPLAY_DEVICEW
  - DISPLAY_DEVICEW
 ---
 
@@ -144,3 +144,4 @@ The four string members are set based on the parameters passed to <a href="/wind
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+

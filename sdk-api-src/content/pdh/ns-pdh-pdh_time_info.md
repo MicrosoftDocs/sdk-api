@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
+ - _PDH_TIME_INFO
+ - PPDH_TIME_INFO
  - PDH_TIME_INFO
 ---
 
@@ -74,3 +76,4 @@ Number of samples collected during the interval.
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhsetquerytimerange">PdhSetQueryTimeRange</a>
+

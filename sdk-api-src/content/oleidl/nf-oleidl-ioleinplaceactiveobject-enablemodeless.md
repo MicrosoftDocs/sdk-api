@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.EnableModeless
+ - IOleInPlaceActiveObject::EnableModeless
 ---
 
 # IOleInPlaceActiveObject::EnableModeless
@@ -69,3 +69,4 @@ This method returns S_OK on success.
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">IOleInPlaceActiveObject::EnableModeless</a>
+

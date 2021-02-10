@@ -46,6 +46,8 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
+ - SHCSCHANGENOTIFYSTRUCT
+ - PSMCSHCHANGENOTIFYSTRUCT
  - SMCSHCHANGENOTIFYSTRUCT
 ---
 
@@ -75,3 +77,4 @@ PIDL provided by the change notification. The target of this PIDL varies dependi
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
 A second PIDL provided by the change notification. Not all <b>lEvent</b> values make use of this parameter, in which case its value is <b>NULL</b>.
+

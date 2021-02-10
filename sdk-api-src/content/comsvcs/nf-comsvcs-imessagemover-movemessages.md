@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IMessageMover.MoveMessages
+ - IMessageMover::MoveMessages
 ---
 
 # IMessageMover::MoveMessages
@@ -69,3 +69,4 @@ Messages are moved one at a time unless both the source and destination queue ar
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imessagemover">IMessageMover</a>
+

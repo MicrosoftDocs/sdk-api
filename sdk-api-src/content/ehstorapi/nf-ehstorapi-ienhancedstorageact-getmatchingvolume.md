@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.GetMatchingVolume
+ - IEnhancedStorageACT::GetMatchingVolume
 ---
 
 # IEnhancedStorageACT::GetMatchingVolume
@@ -83,3 +83,4 @@ The associated volume was successfully returned.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
+

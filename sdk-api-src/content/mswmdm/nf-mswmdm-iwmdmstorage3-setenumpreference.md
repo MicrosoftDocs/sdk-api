@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage3.SetEnumPreference
+ - IWMDMStorage3::SetEnumPreference
 ---
 
 # IWMDMStorage3::SetEnumPreference
@@ -183,3 +183,4 @@ This method should typically be called on the top-level storage. If this method 
 
 
 <a href="/windows/desktop/WMDM/wmdmmetadataview">WMDMMetadataView</a>
+

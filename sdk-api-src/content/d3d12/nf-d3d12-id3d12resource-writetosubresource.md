@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Resource.WriteToSubresource
+ - ID3D12Resource::WriteToSubresource
 ---
 
 # ID3D12Resource::WriteToSubresource
@@ -125,3 +125,4 @@ On UMA systems, this routine can be used to minimize the cost of memory copying 
 
 
 <a href="/windows/desktop/direct3d12/subresources">Subresources</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wmsdkidl.h
 api_name:
+ - __tagDRM_COPY_OPL
  - DRM_COPY_OPL
 ---
 
@@ -75,3 +76,4 @@ Minimum output protection level for copy actions.
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

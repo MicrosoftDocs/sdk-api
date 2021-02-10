@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - NSTCITEMSTATE
+ - _NSTCITEMSTATE
 ---
 
 # _NSTCITEMSTATE enumeration
@@ -85,3 +85,4 @@ The item is disabled.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-setitemstate">INameSpaceTreeControl::SetItemState</a>
+

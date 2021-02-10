@@ -9,6 +9,8 @@ tech.root: coreaudio
 f1_keywords:
  - mmdeviceapi
  - mmdeviceapi/mmdeviceapi
+api_name:
+ - mmdeviceapi
 ---
 
 # Mmdeviceapi.h header

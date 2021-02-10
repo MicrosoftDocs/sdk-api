@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole.Submit
- - AzRole.Submit
+ - IAzRole::Submit
 ---
 
 # IAzRole::Submit
@@ -66,3 +65,4 @@ Reserved for future use.
 ## -remarks
 
 Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object are not persisted until the <b>Submit</b> method is called.
+

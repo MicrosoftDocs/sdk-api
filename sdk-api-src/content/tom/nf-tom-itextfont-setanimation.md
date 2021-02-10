@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.SetAnimation
+ - ITextFont::SetAnimation
 ---
 
 # ITextFont::SetAnimation
@@ -146,3 +146,4 @@ Invalid argument.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

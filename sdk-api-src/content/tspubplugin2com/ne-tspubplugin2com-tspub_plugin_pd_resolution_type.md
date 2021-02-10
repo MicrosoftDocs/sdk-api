@@ -44,6 +44,7 @@ api_type:
 api_location:
  - tspubplugin2com.h
 api_name:
+ - _TSPUB_PLUGIN_PD_RESOLUTION_TYPE
  - TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 ---
 
@@ -67,3 +68,4 @@ Resolve an existing personal desktop for the user. If no personal desktop exists
 ## -see-also
 
 <a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a>
+

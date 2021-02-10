@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer.HWND
- - IDynamicRenderer.get_HWND
- - IDynamicRenderer.put_HWND
- - IDynamicRenderer.get_HWND
- - IDynamicRenderer.put_HWND
+ - IDynamicRenderer::get_HWND
 ---
 
 # IDynamicRenderer::get_HWND
@@ -69,3 +65,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_hwnd">IRealTimeStylus::HWND Property</a>
+

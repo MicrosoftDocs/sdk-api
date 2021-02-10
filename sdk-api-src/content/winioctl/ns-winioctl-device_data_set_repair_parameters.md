@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DEVICE_DATA_SET_REPAIR_PARAMETERS
+ - PDEVICE_DATA_SET_REPAIR_PARAMETERS
  - DEVICE_DATA_SET_REPAIR_PARAMETERS
 ---
 
@@ -86,3 +88,4 @@ The copy numbers of all the copies that will be repaired.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+

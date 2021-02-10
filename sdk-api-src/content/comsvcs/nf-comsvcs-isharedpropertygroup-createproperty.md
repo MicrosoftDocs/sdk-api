@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISharedPropertyGroup.CreateProperty
+ - ISharedPropertyGroup::CreateProperty
 ---
 
 # ISharedPropertyGroup::CreateProperty
@@ -89,3 +89,4 @@ The same shared property group can contain some <a href="/windows/desktop/cossdk
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
+

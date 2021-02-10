@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.dll
 api_name:
- - ISBE2MediaTypeProfile.GetStream
+ - ISBE2MediaTypeProfile::GetStream
 ---
 
 # ISBE2MediaTypeProfile::GetStream
@@ -120,3 +120,4 @@ Null media type pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
+

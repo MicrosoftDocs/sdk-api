@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - _UDACCEL
+ - LPUDACCEL
  - UDACCEL
 ---
 
@@ -71,3 +73,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Position change increment to use after the time specified by 
 					<b>nSec</b> elapses.
+

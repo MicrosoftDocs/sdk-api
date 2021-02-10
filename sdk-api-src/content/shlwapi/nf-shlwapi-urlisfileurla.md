@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UrlIsFileUrlA
  - shlwapi/UrlIsFileUrlA
+ - UrlIsFileUrl
+ - shlwapi/UrlIsFileUrl
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - UrlIsFileUrl
  - UrlIsFileUrlA
- - UrlIsFileUrlW
+ - UrlIsFileUrl
 ---
 
 # UrlIsFileUrlA macro
@@ -87,3 +88,4 @@ A file URL has the form "File://
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.GetItemInfo
+ - IWMPContentPartner::GetItemInfo
 ---
 
 # IWMPContentPartner::GetItemInfo
@@ -219,3 +219,4 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the art 
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+

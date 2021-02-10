@@ -42,8 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRunningTaskCollection.Item
- - IRunningTaskCollection.get_Item
+ - IRunningTaskCollection::get_Item
 ---
 
 # IRunningTaskCollection::get_Item
@@ -70,3 +69,4 @@ Collections are 1-based. That is, the index for the first item in the collection
 
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a>
+

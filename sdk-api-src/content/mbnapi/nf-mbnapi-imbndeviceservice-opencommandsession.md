@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceService.OpenCommandSession
+ - IMbnDeviceService::OpenCommandSession
 ---
 
 # IMbnDeviceService::OpenCommandSession
@@ -114,3 +114,4 @@ This is an asynchronous operation and <b>OpenCommandSession</b> will return imme
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
+

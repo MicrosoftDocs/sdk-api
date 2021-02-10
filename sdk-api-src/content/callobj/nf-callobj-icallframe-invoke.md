@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame.Invoke
+ - ICallFrame::Invoke
 ---
 
 # ICallFrame::Invoke
@@ -114,3 +114,4 @@ Generally speaking, carrying out the invocation involves allocating a new stack 
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

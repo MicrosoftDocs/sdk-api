@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_FIELD_TYPE_
  - FWPM_FIELD_TYPE
 ---
 

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netsh.h
 api_name:
+ - _CMD_ENTRY
+ - PCMD_ENTRY
  - CMD_ENTRY
 ---
 
@@ -162,3 +164,4 @@ CMD_ENTRY  g_SampleShowCmdTable[] =
 
 
 <a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
+

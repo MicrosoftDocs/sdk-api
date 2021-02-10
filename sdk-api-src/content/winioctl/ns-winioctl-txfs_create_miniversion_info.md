@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _TXFS_CREATE_MINIVERSION_INFO
+ - PTXFS_CREATE_MINIVERSION_INFO
  - TXFS_CREATE_MINIVERSION_INFO
 ---
 
@@ -86,3 +88,4 @@ The identifier of the newly-created miniversion.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_create_miniversion">FSCTL_TXFS_CREATE_MINIVERSION</a>
+

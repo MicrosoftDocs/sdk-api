@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnectionCallback.BrokenConnection
+ - IWTSProtocolConnectionCallback::BrokenConnection
 ---
 
 # IWTSProtocolConnectionCallback::BrokenConnection
@@ -73,3 +73,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>
+

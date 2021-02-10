@@ -44,6 +44,7 @@ api_type:
 api_location:
  - HtmlHelp.h
 api_name:
+ - tagHH_POPUP
  - HH_POPUP
 ---
 
@@ -104,3 +105,4 @@ MS Sans Serif, 10, , BOLD
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
+

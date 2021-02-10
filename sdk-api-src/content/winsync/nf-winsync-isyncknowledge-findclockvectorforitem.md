@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge.FindClockVectorForItem
+ - ISyncKnowledge::FindClockVectorForItem
 ---
 
 # ISyncKnowledge::FindClockVectorForItem
@@ -115,3 +115,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

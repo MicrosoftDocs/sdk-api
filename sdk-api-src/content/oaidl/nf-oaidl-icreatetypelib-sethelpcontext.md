@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib.SetHelpContext
+ - ICreateTypeLib::SetHelpContext
 ---
 
 # ICreateTypeLib::SetHelpContext
@@ -131,3 +131,4 @@ Calling <b>SetHelpContext</b> with a Help context of zero is equivalent to not c
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
+

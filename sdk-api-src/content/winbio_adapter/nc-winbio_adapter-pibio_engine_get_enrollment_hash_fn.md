@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterGetEnrollmentHash
+ - PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN
 ---
 
 # PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN callback function
@@ -221,3 +221,4 @@ cleanup:
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

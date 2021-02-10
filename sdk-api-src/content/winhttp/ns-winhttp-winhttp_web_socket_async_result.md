@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winhttp.h
 api_name:
+ - _WINHTTP_WEB_SOCKET_ASYNC_RESULT
  - WINHTTP_WEB_SOCKET_ASYNC_RESULT
 ---
 
@@ -95,3 +96,4 @@ A <b>WINHTTP_WEB_SOCKET_ASYNC_RESULT</b> structure is passed to the completion c
 
 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>
+

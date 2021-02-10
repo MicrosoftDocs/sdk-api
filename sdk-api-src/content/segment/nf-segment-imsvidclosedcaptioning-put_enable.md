@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidClosedCaptioning.put_Enable
+ - IMSVidClosedCaptioning::put_Enable
 ---
 
 # IMSVidClosedCaptioning::put_Enable
@@ -86,3 +86,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-get_enable">IMSVidClosedCaptioning::get_Enable</a>
+

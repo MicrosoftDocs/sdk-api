@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.IpAddressSource
- - IWdsTransportServicePolicy.get_IpAddressSource
- - IWdsTransportServicePolicy.put_IpAddressSource
+ - IWdsTransportServicePolicy::put_IpAddressSource
 ---
 
 # IWdsTransportServicePolicy::put_IpAddressSource
@@ -69,3 +67,4 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
+

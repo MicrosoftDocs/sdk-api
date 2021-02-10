@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WLAN_INTERFACE_TYPE
+ - PWLAN_INTERFACE_TYPE
  - WLAN_INTERFACE_TYPE
 ---
 
@@ -73,3 +75,4 @@ The interface specified is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_capability">WLAN_INTERFACE_CAPABILITY</a>
+

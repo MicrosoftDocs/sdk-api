@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagKERNINGPAIR
+ - LPKERNINGPAIR
  - KERNINGPAIR
 ---
 
@@ -81,3 +83,4 @@ The amount this pair will be kerned if they appear side by side in the same font
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getkerningpairsa">GetKerningPairs</a>
+

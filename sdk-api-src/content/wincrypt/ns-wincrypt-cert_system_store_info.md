@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_SYSTEM_STORE_INFO
+ - PCERT_SYSTEM_STORE_INFO
  - CERT_SYSTEM_STORE_INFO
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureBlock.GetRequests
+ - IXpsSignatureBlock::GetRequests
 ---
 
 # IXpsSignatureBlock::GetRequests
@@ -130,3 +130,4 @@ Signature requests are added to the  collection of signature requests  by parsin
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - _MFVideoFlags
  - MFVideoFlags
 ---
 
@@ -225,3 +226,4 @@ Instead, components should use sample attributes to describe per-sample interlac
 
 
 <a href="/windows/desktop/medfound/media-types">Media Types</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateDirectoryA
  - fileapi/CreateDirectoryA
+ - CreateDirectory
+ - fileapi/CreateDirectory
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - CreateDirectory
  - CreateDirectoryA
- - CreateDirectoryW
+ - CreateDirectory
 ---
 
 # CreateDirectoryA function
@@ -254,3 +255,4 @@ For an example, see
 
 
 <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
+

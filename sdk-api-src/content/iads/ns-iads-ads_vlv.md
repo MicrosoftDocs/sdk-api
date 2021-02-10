@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - _ads_vlv
+ - PADS_VLV
  - ADS_VLV
 ---
 
@@ -169,3 +171,4 @@ vlv.lpContextID = vlvResp.lpContextID;
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
+

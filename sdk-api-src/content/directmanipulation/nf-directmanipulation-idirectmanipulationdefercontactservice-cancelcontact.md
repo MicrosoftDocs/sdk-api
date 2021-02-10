@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationDeferContactService.CancelContact
+ - IDirectManipulationDeferContactService::CancelContact
 ---
 
 # IDirectManipulationDeferContactService::CancelContact
@@ -69,3 +69,4 @@ This function fails if the timeout specified in <a href="/previous-versions/wind
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdefercontactservice">IDirectManipulationDeferContactService</a>
+

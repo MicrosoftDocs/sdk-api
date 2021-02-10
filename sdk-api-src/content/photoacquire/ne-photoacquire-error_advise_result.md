@@ -44,6 +44,7 @@ api_type:
 api_location:
  - PhotoAcquire.h
 api_name:
+ - tagERROR_ADVISE_RESULT
  - ERROR_ADVISE_RESULT
 ---
 
@@ -99,3 +100,4 @@ The type of response allowed is of type <a href="/windows/win32/api/photoacquire
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>
+

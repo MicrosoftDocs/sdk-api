@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_SubscriptionDeliveryOptionsFT
  - MI_SubscriptionDeliveryOptionsFT
 ---
 
@@ -120,3 +121,4 @@ Sets the value of a named numeric option. See <a href="/previous-versions/window
 ### -field SetString
 
 Sets the value of a named string option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setstring">MI_SubscriptionDeliveryOptions_SetString</a>.
+

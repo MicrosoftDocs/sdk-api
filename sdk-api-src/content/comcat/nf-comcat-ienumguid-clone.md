@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - IEnumGUID.Clone
+ - IEnumGUID::Clone
 ---
 
 # IEnumGUID::Clone
@@ -67,3 +67,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-ienumguid">IEnumGUID</a>
+

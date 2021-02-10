@@ -9,6 +9,8 @@ tech.root: setup
 f1_keywords:
  - winsxs
  - winsxs/winsxs
+api_name:
+ - winsxs
 ---
 
 # Winsxs.h header

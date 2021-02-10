@@ -9,6 +9,8 @@ tech.root: netmgmt
 f1_keywords:
  - lmjoin
  - lmjoin/lmjoin
+api_name:
+ - lmjoin
 ---
 
 # Lmjoin.h header

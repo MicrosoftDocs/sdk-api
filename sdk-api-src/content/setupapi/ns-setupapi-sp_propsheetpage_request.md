@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_PROPSHEETPAGE_REQUEST
+ - PSP_PROPSHEETPAGE_REQUEST
  - SP_PROPSHEETPAGE_REQUEST
 ---
 
@@ -165,3 +167,4 @@ AddPropSheetPageProc(
 
 
 <a href="/windows-hardware/drivers/install/dif-addpropertypage-basic">DIF_ADDPROPERTYPAGE_BASIC</a>
+

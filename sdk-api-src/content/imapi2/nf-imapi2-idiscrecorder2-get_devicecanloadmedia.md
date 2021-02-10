@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2.get_DeviceCanLoadMedia
+ - IDiscRecorder2::get_DeviceCanLoadMedia
 ---
 
 # IDiscRecorder2::get_DeviceCanLoadMedia
@@ -105,3 +105,4 @@ Value: 0x80004005
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">IDiscRecorder2::EjectMedia</a>
+

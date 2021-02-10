@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker.DisconnectFromTrackerSource
+ - IReferenceTracker::DisconnectFromTrackerSource
 ---
 
 # IReferenceTracker::xaml
@@ -66,3 +66,4 @@ This method is called by the CLR during garbage collection when a runtime-callab
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker">IReferenceTracker</a>
+

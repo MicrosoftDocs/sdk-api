@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IMediaStreamFilter.EndOfStream
+ - IMediaStreamFilter::EndOfStream
 ---
 
 # IMediaStreamFilter::EndOfStream
@@ -63,3 +63,4 @@ Returns S_OK if successful, or an error code otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
+

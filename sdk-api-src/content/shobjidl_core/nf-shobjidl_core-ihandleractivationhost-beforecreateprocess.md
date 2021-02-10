@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IHandlerActivationHost.BeforeCreateProcess
+ - IHandlerActivationHost::BeforeCreateProcess
 ---
 
 # IHandlerActivationHost::BeforeCreateProcess
@@ -74,3 +74,4 @@ Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT<
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost">IHandlerActivationHost</a>
+

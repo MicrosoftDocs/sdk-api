@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRule.UseDevice
- - IFaxOutboundRoutingRule.get_UseDevice
- - IFaxOutboundRoutingRule.put_UseDevice
- - IFaxOutboundRoutingRule.get_UseDevice
- - IFaxOutboundRoutingRule.put_UseDevice
+ - IFaxOutboundRoutingRule::get_UseDevice
 ---
 
 # IFaxOutboundRoutingRule::get_UseDevice
@@ -75,3 +71,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
+

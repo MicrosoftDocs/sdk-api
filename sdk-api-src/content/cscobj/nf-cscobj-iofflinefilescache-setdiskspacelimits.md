@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.SetDiskSpaceLimits
+ - IOfflineFilesCache::SetDiskSpaceLimits
 ---
 
 # IOfflineFilesCache::SetDiskSpaceLimits
@@ -76,3 +76,4 @@ The current disk space limits may be obtained by calling <a href="/previous-vers
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
+

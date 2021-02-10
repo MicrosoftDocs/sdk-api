@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMOverlayFX.QueryOverlayFXCaps
+ - IAMOverlayFX::QueryOverlayFXCaps
 ---
 
 # IAMOverlayFX::QueryOverlayFXCaps
@@ -110,3 +110,4 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ISchedule.Days
- - ISchedule.get_Days
- - ISchedule.put_Days
+ - ISchedule::put_Days
 ---
 
 # ISchedule::put_Days
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a>
+

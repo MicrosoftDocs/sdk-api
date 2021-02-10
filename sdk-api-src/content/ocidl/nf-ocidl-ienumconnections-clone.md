@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ocidl.h
 api_name:
- - IEnumConnections.Clone
+ - IEnumConnections::Clone
 ---
 
 # IEnumConnections::Clone
@@ -67,3 +67,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
+

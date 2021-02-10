@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - cldap_open
- - cldap_openA
- - cldap_openW
 ---
 
 # cldap_open function
@@ -103,3 +101,4 @@ Multithreading: Calls to <b>cldap_open</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
+

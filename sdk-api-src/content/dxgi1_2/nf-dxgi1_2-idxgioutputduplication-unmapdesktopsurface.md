@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutputDuplication.UnMapDesktopSurface
+ - IDXGIOutputDuplication::UnMapDesktopSurface
 ---
 
 # IDXGIOutputDuplication::UnMapDesktopSurface
@@ -67,3 +67,4 @@ Invalidates the pointer to the desktop image that was retrieved by using <a href
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
+

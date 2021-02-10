@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPPropertyCollection.InitializeFromProperties
+ - IOCSPPropertyCollection::InitializeFromProperties
 ---
 
 # IOCSPPropertyCollection::InitializeFromProperties
@@ -88,3 +88,4 @@ If the method returns <b>DISP_E_ARRAYISLOCKED</b>, the array pointed to by the <
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
+

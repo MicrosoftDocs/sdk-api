@@ -9,6 +9,8 @@ tech.root: bltooth
 f1_keywords:
  - bluetoothleapis
  - bluetoothleapis/bluetoothleapis
+api_name:
+ - bluetoothleapis
 ---
 
 # Bluetoothleapis.h header

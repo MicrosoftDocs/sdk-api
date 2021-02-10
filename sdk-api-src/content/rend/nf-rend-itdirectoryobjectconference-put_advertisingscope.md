@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference.put_AdvertisingScope
+ - ITDirectoryObjectConference::put_AdvertisingScope
 ---
 
 # ITDirectoryObjectConference::put_AdvertisingScope
@@ -144,3 +144,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/rend/ne-rend-rnd_advertising_scope">RND_ADVERTISING_SCOPE</a>
+

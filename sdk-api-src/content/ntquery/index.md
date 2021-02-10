@@ -9,6 +9,8 @@ tech.root: indexsrv
 f1_keywords:
  - ntquery
  - ntquery/ntquery
+api_name:
+ - ntquery
 ---
 
 # Ntquery.h header

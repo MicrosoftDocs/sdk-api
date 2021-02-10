@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - LoadIconA
  - winuser/LoadIconA
+ - LoadIcon
+ - winuser/LoadIcon
 dev_langs:
  - c++
 topic_type:
@@ -49,10 +52,8 @@ api_location:
  - ext-ms-win-ntuser-gui-l1-2-1.dll
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - LoadIcon
  - LoadIconA
- - LoadIconW
-req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
+ - LoadIcon
 ---
 
 # LoadIconA function
@@ -243,3 +244,4 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 <b>Reference</b>
+

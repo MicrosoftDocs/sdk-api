@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.Delete
+ - ITPluggableTerminalSuperclassRegistration::Delete
 ---
 
 # ITPluggableTerminalSuperclassRegistration::Delete
@@ -95,3 +95,4 @@ Method failed.
 
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
+

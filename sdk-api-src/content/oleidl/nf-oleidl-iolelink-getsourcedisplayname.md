@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink.GetSourceDisplayName
+ - IOleLink::GetSourceDisplayName
 ---
 
 # IOleLink::GetSourceDisplayName
@@ -112,3 +112,4 @@ The linked object's implementation of <b>IOleLink::GetSourceDisplayName</b> call
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
+

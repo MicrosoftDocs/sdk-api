@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile.GetHENHMETAFILE
+ - Metafile::GetHENHMETAFILE
 ---
 
 # Metafile::GetHENHMETAFILE
@@ -99,3 +99,4 @@ VOID Example_GetHENHMETAFILE(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertView2.SetResultColumn
- - ICertView.SetResultColumn
- - CCertView.SetResultColumn
+ - ICertView::SetResultColumn
 ---
 
 # ICertView::SetResultColumn
@@ -148,3 +146,4 @@ error:
 
 
 <a href="/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">ICertView::SetResultColumnCount</a>
+

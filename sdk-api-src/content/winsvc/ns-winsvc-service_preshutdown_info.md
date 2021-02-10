@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
+ - _SERVICE_PRESHUTDOWN_INFO
+ - LPSERVICE_PRESHUTDOWN_INFO
  - SERVICE_PRESHUTDOWN_INFO
 ---
 
@@ -75,3 +77,4 @@ After the service control manager sends the SERVICE_CONTROL_PRESHUTDOWN notifica
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+

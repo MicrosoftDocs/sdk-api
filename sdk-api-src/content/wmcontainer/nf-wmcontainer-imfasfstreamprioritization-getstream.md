@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamPrioritization.GetStream
+ - IMFASFStreamPrioritization::GetStream
 ---
 
 # IMFASFStreamPrioritization::GetStream
@@ -105,3 +105,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a>
+

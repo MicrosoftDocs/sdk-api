@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagRID_DEVICE_INFO_KEYBOARD
+ - PRID_DEVICE_INFO_KEYBOARD
  - RID_DEVICE_INFO_KEYBOARD
 ---
 
@@ -109,3 +111,4 @@ For information about keyboard types, subtypes, scan code modes, and related key
 **Reference**
 
 [KEYBOARD_ATTRIBUTES structure](../ntddkbd/ns-ntddkbd-keyboard_attributes.md)
+

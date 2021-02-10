@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx
+ - IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
 ---
 
 # IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
@@ -95,3 +95,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex">IMFVideoSampleAllocatorEx</a>
+

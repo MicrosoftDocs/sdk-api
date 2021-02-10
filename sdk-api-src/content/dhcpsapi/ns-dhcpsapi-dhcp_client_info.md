@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_INFO
+ - LPDHCP_CLIENT_INFO
  - DHCP_CLIENT_INFO
 ---
 
@@ -105,3 +107,4 @@ Unicode string that contains a comment associated with the DHCP client. This mem
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetclientinfo">DhcpGetClientInfo</a>
+

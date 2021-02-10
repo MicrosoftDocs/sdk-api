@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
+ - LPHTTP_VERSION_INFO
  - HTTP_VERSION_INFO
 ---
 
@@ -79,3 +80,4 @@ On Windows 7, Windows Server 2008 R2, and later, the value in the <b>HTTP_VER
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
+

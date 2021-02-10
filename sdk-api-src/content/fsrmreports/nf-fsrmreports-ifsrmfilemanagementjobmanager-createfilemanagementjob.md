@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJobManager.CreateFileManagementJob
- - FsrmFileManagementJobManager.CreateFileManagementJob
+ - IFsrmFileManagementJobManager::CreateFileManagementJob
 ---
 
 # IFsrmFileManagementJobManager::CreateFileManagementJob
@@ -70,3 +69,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjobmanager">IFsrmFileManagementJobManager</a>
+

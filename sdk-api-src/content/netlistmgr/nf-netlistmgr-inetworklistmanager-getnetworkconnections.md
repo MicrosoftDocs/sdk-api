@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkListManager.GetNetworkConnections
+ - INetworkListManager::GetNetworkConnections
 ---
 
 # INetworkListManager::GetNetworkConnections
@@ -83,3 +83,4 @@ The pointer passed is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
+

@@ -42,7 +42,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - ImportCallback
  - PFE_IMPORT_FUNC
 ---
 
@@ -134,3 +133,4 @@ The system calls the <b>ImportCallback</b> function until the
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
+

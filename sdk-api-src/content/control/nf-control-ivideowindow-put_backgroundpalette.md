@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.put_BackgroundPalette
+ - IVideoWindow::put_BackgroundPalette
 ---
 
 # IVideoWindow::put_BackgroundPalette
@@ -137,3 +137,4 @@ If <i>BackgroundPalette</i> is <b>OATRUE</b> and the video image requires a pall
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_backgroundpalette">IVideoWindow::get_BackgroundPalette</a>
+

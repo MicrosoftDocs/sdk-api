@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - __MIDL___MIDL_itf_dxva2api_0000_0006_0001
  - DXVA2_SurfaceType
 ---
 
@@ -71,3 +72,4 @@ The surface is a Direct3D texture render target.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

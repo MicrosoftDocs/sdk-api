@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _SECURITY_LOGON_SESSION_DATA
+ - PSECURITY_LOGON_SESSION_DATA
  - SECURITY_LOGON_SESSION_DATA
 ---
 
@@ -232,3 +234,4 @@ The password must be changed during the logon session.
 
 This structure is allocated by the LSA. When the structure is no longer required, free it by using the 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LSAFreeReturnBuffer</a> function.
+

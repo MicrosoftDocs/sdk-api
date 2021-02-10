@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent
+ - IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent
 ---
 
 # IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent
@@ -74,3 +74,4 @@ Before implementing an event handler, you should be familiar with the threading 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt830314(v=VS.85).aspx">IUIAutomationActiveTextPositionChangedEventHandler</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WNetAddConnection3A
  - winnetwk/WNetAddConnection3A
+ - WNetAddConnection3
+ - winnetwk/WNetAddConnection3
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetAddConnection3
  - WNetAddConnection3A
- - WNetAddConnection3W
+ - WNetAddConnection3
 ---
 
 # WNetAddConnection3A function
@@ -530,3 +531,4 @@ Other network providers may support the <b>lpRemoteName</b> member of the <a hre
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
+

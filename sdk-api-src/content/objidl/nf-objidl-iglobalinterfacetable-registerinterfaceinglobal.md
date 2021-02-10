@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IGlobalInterfaceTable.RegisterInterfaceInGlobal
+ - IGlobalInterfaceTable::RegisterInterfaceInGlobal
 ---
 
 # IGlobalInterfaceTable::RegisterInterfaceInGlobal
@@ -110,3 +110,4 @@ The apartment that calls this method must remain alive until the corresponding c
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>
+

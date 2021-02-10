@@ -9,6 +9,8 @@ tech.root: direct3d11
 f1_keywords:
  - d3dcsx
  - d3dcsx/d3dcsx
+api_name:
+ - d3dcsx
 ---
 
 # D3Dcsx.h header

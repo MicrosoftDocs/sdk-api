@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IDispenserDriver.CreateResource
+ - IDispenserDriver::CreateResource
 ---
 
 # IDispenserDriver::CreateResource
@@ -82,3 +82,4 @@ The <b>CreateResource</b> method is called by the Dispenser Manager in the follo
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+

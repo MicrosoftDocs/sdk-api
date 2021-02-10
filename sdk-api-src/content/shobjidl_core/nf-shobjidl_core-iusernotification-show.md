@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IUserNotification.Show
+ - IUserNotification::Show
 ---
 
 # IUserNotification::Show
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is equivalent to calling <a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotification2-show">Show</a> with <i>pSink</i>=<b>NULL</b>.
+

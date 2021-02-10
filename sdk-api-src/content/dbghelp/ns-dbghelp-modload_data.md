@@ -46,6 +46,8 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _MODLOAD_DATA
+ - PMODLOAD_DATA
  - MODLOAD_DATA
 ---
 
@@ -119,3 +121,4 @@ This member is unused.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a>
+

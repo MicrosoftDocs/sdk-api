@@ -9,6 +9,8 @@ tech.root: coreaudio
 f1_keywords:
  - spatialaudiometadata
  - spatialaudiometadata/spatialaudiometadata
+api_name:
+ - spatialaudiometadata
 ---
 
 # Spatialaudiometadata.h header

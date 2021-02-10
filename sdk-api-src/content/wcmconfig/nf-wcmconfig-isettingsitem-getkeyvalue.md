@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem.GetKeyValue
+ - ISettingsItem::GetKeyValue
 ---
 
 # ISettingsItem::GetKeyValue
@@ -103,3 +103,4 @@ The value is null.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.SetBackupStamp
+ - IVssComponent::SetBackupStamp
 ---
 
 # IVssComponent::SetBackupStamp
@@ -145,3 +145,4 @@ For this reason, there are no format restrictions on the content of the backup s
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupstamp">IVssComponent::GetBackupStamp</a>
+

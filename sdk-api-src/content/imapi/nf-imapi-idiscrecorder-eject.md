@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscRecorder.Eject
+ - IDiscRecorder::Eject
 ---
 
 # IDiscRecorder::Eject
@@ -65,3 +65,4 @@ Not all recorders support calls to eject their media. However, this method attem
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
+

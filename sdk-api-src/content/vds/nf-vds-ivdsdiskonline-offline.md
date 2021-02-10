@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDiskOnline.Offline
+ - IVdsDiskOnline::Offline
 ---
 
 # IVdsDiskOnline::Offline
@@ -97,3 +97,4 @@ If a basic disk is read/write and online, it can be made read-only and taken off
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsdiskonline-online">IVdsDiskOnline::Online</a>
+

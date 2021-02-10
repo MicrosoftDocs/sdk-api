@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeStringArray.Decode
- - CCertEncodeStringArray.Decode
+ - ICertEncodeStringArray::Decode
 ---
 
 # ICertEncodeStringArray::Decode
@@ -84,3 +83,4 @@ For an example that uses the <b>Decode</b> method, see the <a href="/windows/des
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-encode">ICertEncodeStringArray::Encode</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device.CopyResource
+ - ID3D10Device::CopyResource
 ---
 
 # ID3D10Device::CopyResource
@@ -107,3 +107,4 @@ It is possible to copy between prestructured+typed resources and block-compresse
 
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
+

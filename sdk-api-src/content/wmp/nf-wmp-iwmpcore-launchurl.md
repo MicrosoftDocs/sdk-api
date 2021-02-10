@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore.launchURL
+ - IWMPCore::launchURL
 ---
 
 # IWMPCore::launchURL
@@ -89,3 +89,4 @@ This method only opens webpages using the HTTP or HTTPS protocols.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
+

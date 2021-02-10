@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDeskBand2.CanRenderComposited
+ - IDeskBand2::CanRenderComposited
 ---
 
 # IDeskBand2::CanRenderComposited
@@ -66,3 +66,4 @@ When this method returns, contains a <b>BOOL</b> indicating ability.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

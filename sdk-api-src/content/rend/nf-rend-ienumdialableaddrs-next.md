@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - IEnumDialableAddrs.Next
+ - IEnumDialableAddrs::Next
 ---
 
 # IEnumDialableAddrs::Next
@@ -122,3 +122,4 @@ The application must use
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
+

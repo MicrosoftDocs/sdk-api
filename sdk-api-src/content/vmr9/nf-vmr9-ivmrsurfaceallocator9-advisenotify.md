@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator9.AdviseNotify
+ - IVMRSurfaceAllocator9::AdviseNotify
 ---
 
 # IVMRSurfaceAllocator9::AdviseNotify
@@ -108,3 +108,4 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 <a href="/windows/desktop/DirectShow/vmr-renderless-playback-mode--custom-allocator-presenters">VMR Renderless Playback Mode (Custom Allocator-Presenters)</a>
+

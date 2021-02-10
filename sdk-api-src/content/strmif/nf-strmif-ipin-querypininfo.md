@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin.QueryPinInfo
+ - IPin::QueryPinInfo
 ---
 
 # IPin::QueryPinInfo
@@ -107,3 +107,4 @@ When the method returns, if the <b>pFilter</b> member of the PIN_INFO structure 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
+

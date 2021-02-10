@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_LUN_RESERVE_MODE
  - VDS_LUN_RESERVE_MODE
 ---
 
@@ -84,3 +85,4 @@ This value is reserved.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_LUN_RESERVE_MODE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_LUN_RESERVE_MODE</b> enumeration constant.</div>
 <div> </div>
+

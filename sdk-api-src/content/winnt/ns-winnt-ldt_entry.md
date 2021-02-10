@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _LDT_ENTRY
+ - PLDT_ENTRY
  - LDT_ENTRY
 ---
 
@@ -151,3 +153,4 @@ The limit of a segment is the address of the last byte that can be addressed in 
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getthreadselectorentry">GetThreadSelectorEntry</a>
+

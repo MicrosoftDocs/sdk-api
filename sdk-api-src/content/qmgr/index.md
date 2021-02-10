@@ -9,6 +9,8 @@ tech.root: bits
 f1_keywords:
  - qmgr
  - qmgr/qmgr
+api_name:
+ - qmgr
 ---
 
 # Qmgr.h header

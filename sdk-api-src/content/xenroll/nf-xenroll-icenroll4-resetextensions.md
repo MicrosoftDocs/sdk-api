@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.resetExtensions
- - CEnroll.resetExtensions
+ - ICEnroll4::resetExtensions
 ---
 
 # ICEnroll4::resetExtensions
@@ -64,3 +63,4 @@ The <b>resetExtensions</b> method removes all extensions from the request. This 
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
 <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

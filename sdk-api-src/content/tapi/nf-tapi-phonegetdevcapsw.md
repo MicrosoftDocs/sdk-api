@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - phoneGetDevCapsW
  - tapi/phoneGetDevCapsW
+ - phoneGetDevCaps
+ - tapi/phoneGetDevCaps
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - phoneGetDevCaps
- - phoneGetDevCapsA
  - phoneGetDevCapsW
+ - phoneGetDevCaps
 ---
 
 # phoneGetDevCapsW function
@@ -121,3 +122,4 @@ TAPI and extension version numbers are those under which TAPI, Telephony DLL, an
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a>
+

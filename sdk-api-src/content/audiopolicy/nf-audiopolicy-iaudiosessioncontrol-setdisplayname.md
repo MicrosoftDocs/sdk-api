@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl.SetDisplayName
+ - IAudioSessionControl::SetDisplayName
 ---
 
 # IAudioSessionControl::SetDisplayName
@@ -129,3 +129,4 @@ The client can retrieve the display name for the session by calling the <a href=
 
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
+

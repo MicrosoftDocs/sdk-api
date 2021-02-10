@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetComponentName
+ - IVssComponent::GetComponentName
 ---
 
 # IVssComponent::GetComponentName
@@ -136,3 +136,4 @@ The caller should free the memory held by the <i>pwszName</i> parameter by calli
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+

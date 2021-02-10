@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLine21Decoder.SetServiceState
+ - IAMLine21Decoder::SetServiceState
 ---
 
 # IAMLine21Decoder::SetServiceState
@@ -103,3 +103,4 @@ Success
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">IAMLine21Decoder::GetServiceState</a>
+

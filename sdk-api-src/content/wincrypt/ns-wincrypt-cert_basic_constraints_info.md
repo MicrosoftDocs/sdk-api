@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_BASIC_CONSTRAINTS_INFO
+ - PCERT_BASIC_CONSTRAINTS_INFO
  - CERT_BASIC_CONSTRAINTS_INFO
 ---
 
@@ -96,3 +98,4 @@ An array of
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrConflictResolveInfo.SetItemChoices
+ - ISyncMgrConflictResolveInfo::SetItemChoices
 ---
 
 # ISyncMgrConflictResolveInfo::SetItemChoices
@@ -79,3 +79,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getitemchoice">ISyncMgrConflictResolveInfo::GetItemChoice</a>
+

@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.EndReadPayload
+ - IMFHttpDownloadRequest::EndReadPayload
 ---
 
 # IMFHttpDownloadRequest::EndReadPayload
@@ -95,3 +95,4 @@ Successfully wrote data to the buffer provided in <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
+

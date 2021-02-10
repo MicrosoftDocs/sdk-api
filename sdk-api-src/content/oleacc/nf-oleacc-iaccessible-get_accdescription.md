@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.get_accDescription
+ - IAccessible::get_accDescription
 ---
 
 # IAccessible::get_accDescription
@@ -209,3 +209,4 @@ HRESULT PrintDescription(IAccessible* pAcc, long child)
 
 
 <a href="/windows/desktop/WinAuto/using-direct-annotation">Using Direct Annotation</a>
+

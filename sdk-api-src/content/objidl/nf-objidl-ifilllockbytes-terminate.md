@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IFillLockBytes.Terminate
+ - IFillLockBytes::Terminate
 ---
 
 # IFillLockBytes::Terminate

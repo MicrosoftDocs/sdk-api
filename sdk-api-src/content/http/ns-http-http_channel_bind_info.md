@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_CHANNEL_BIND_INFO
+ - PHTTP_CHANNEL_BIND_INFO
  - HTTP_CHANNEL_BIND_INFO
 ---
 
@@ -125,3 +127,4 @@ The number of names in <b>ServiceNames</b>.
 
 </div>
 <div> </div>
+

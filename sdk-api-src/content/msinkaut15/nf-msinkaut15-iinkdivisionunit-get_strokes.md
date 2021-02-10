@@ -43,9 +43,7 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnit.Strokes
- - IInkDivisionUnit.get_Strokes
- - IInkDivisionUnit.get_Strokes
+ - IInkDivisionUnit::get_Strokes
 ---
 
 # IInkDivisionUnit::get_Strokes
@@ -75,3 +73,4 @@ The collection of strokes may be the copies of the strokes contained in an <a hr
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextNotify.TrackSelected
+ - IMFTimedTextNotify::TrackSelected
 ---
 
 # IMFTimedTextNotify::TrackSelected
@@ -69,3 +69,4 @@ Type: <b>BOOL</b>
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextnotify">IMFTimedTextNotify</a>
+

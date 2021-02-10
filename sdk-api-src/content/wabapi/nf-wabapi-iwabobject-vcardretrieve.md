@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject.VCardRetrieve
+ - IWABObject::VCardRetrieve
 ---
 
 # IWABObject::VCardRetrieve
@@ -118,3 +118,4 @@ Vcard retrieval is extensible. If your client application is using
 <b>WAB_VCARD_STREAM</b>. The former setting indicates a 
 file name, and the latter setting indicates a pointer to a buffer with the 
 Vcard contents.
+

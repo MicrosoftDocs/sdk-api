@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
+ - _WLX_PROFILE_V1_0
+ - PWLX_PROFILE_V1_0
  - WLX_PROFILE_V1_0
 ---
 
@@ -82,3 +84,4 @@ GINA uses two structures to provide profile information: <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a>
+

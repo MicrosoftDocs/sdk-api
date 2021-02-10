@@ -42,7 +42,7 @@ api_type:
 api_location:
  - webapplication.h
 api_name:
- - IWebApplicationHost.Unadvise
+ - IWebApplicationHost::Unadvise
 ---
 
 # IWebApplicationHost::Unadvise
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-advise">IWebApplicationHost::Advise</a>
+

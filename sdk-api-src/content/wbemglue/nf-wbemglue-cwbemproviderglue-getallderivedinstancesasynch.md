@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetAllDerivedInstancesAsynch
+ - CWbemProviderGlue::GetAllDerivedInstancesAsynch
 ---
 
 # CWbemProviderGlue::GetAllDerivedInstancesAsynch
@@ -110,3 +110,4 @@ This method is semantically equivalent to the query SELECT * FROM <i>pszBaseClas
 Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous communication instead of asynchronous.  If, however,  you require asynchronous communication, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 For more information about using methods semisynchronously,  see <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallderivedinstances(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)">CWbemProviderGlue::GetAllDerivedInstances</a> and <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dsrole.h
 api_name:
+ - _DSROLE_SERVER_STATE
+ - PDSROLE_SERVER_STATE
  - DSROLE_SERVER_STATE
 ---
 
@@ -77,3 +79,4 @@ The server was, or is, a backup domain controller.
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
+

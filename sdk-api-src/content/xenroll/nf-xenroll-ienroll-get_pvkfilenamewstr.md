@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.PVKFileNameWStr
- - IEnroll.get_PVKFileNameWStr
- - IEnroll.put_PVKFileNameWStr
+ - IEnroll::get_PVKFileNameWStr
 ---
 
 # IEnroll::get_PVKFileNameWStr
@@ -99,3 +97,4 @@ Alternatively, the user could determine the current value of the CRYPT_EXPORTABL
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

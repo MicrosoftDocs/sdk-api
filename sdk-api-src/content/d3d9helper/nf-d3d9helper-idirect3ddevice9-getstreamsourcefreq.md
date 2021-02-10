@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.GetStreamSourceFreq
+ - IDirect3DDevice9::GetStreamSourceFreq
 ---
 
 ## -description
@@ -79,3 +79,4 @@ Vertex shaders can now be invoked more than once per vertex. See <a href="/windo
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsourcefreq">IDirect3DDevice9::SetStreamSourceFreq</a>
+

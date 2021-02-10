@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.PacketCount
- - IInkStrokeDisp.get_PacketCount
- - IInkStrokeDisp.get_PacketCount
+ - IInkStrokeDisp::get_PacketCount
 ---
 
 # IInkStrokeDisp::get_PacketCount
@@ -68,3 +66,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+

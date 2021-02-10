@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.InAirPackets
+ - IStylusPlugin::InAirPackets
 ---
 
 # IStylusPlugin::InAirPackets
@@ -194,3 +194,4 @@ STDMETHODIMP CPacketModifier::Packets(
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+

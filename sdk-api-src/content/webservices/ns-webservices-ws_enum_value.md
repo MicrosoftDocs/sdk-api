@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_ENUM_VALUE
  - WS_ENUM_VALUE
 ---
 
@@ -64,3 +65,4 @@ The numeric enum value.
 ### -field name
 
 The serialized form of the value.
+

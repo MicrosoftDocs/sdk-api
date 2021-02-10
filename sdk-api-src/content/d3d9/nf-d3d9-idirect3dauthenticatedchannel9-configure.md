@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DAuthenticatedChannel9.Configure
+ - IDirect3DAuthenticatedChannel9::Configure
 ---
 
 # IDirect3DAuthenticatedChannel9::Configure
@@ -85,3 +85,4 @@ For a list of commands, see <a href="/windows/desktop/medfound/content-protectio
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>
+

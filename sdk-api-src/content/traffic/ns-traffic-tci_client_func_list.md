@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Traffic.h
 api_name:
+ - _TCI_CLIENT_FUNC_LIST
+ - PTCI_CLIENT_FUNC_LIST
  - TCI_CLIENT_FUNC_LIST
 ---
 
@@ -97,3 +99,4 @@ Any member of the
 
 
 <a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
+

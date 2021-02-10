@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_DiseqCommand.put_DiseqSendCommand
+ - IBDA_DiseqCommand::put_DiseqSendCommand
 ---
 
 # IBDA_DiseqCommand::put_DiseqSendCommand
@@ -79,3 +79,4 @@ To get the command response from the driver, call <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_diseqcommand">IBDA_DiseqCommand</a>
+

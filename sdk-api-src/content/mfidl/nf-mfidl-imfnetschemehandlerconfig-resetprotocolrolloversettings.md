@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings
+ - IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings
 ---
 
 # IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings
@@ -62,3 +62,4 @@ This method returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetschemehandlerconfig">IMFNetSchemeHandlerConfig</a>
+

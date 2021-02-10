@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - StorageAdapterAttach
+ - PIBIO_STORAGE_ATTACH_FN
 ---
 
 # PIBIO_STORAGE_ATTACH_FN callback function
@@ -205,3 +205,4 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_detach_fn">StorageAdapterDetach</a>
+

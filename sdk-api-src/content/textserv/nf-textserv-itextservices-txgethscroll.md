@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices.TxGetHScroll
+ - ITextServices::TxGetHScroll
 ---
 
 # ITextServices::TxGetHScroll
@@ -97,3 +97,4 @@ The method always returns <b>S_OK</b>.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
+

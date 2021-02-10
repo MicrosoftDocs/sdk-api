@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ConvertSidToStringSidW
  - sddl/ConvertSidToStringSidW
+ - ConvertSidToStringSid
+ - sddl/ConvertSidToStringSid
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - API-MS-Win-Security-sddl-l1-1-0.dll
 api_name:
- - ConvertSidToStringSid
- - ConvertSidToStringSidA
  - ConvertSidToStringSidW
+ - ConvertSidToStringSid
 ---
 
 # ConvertSidToStringSidW function
@@ -156,3 +157,4 @@ The <b>ConvertSidToStringSid</b> function uses the standard S-<i>R</i>-<i>I</i>-
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+

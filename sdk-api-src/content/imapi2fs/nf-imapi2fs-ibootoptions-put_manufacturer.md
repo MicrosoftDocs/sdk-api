@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IBootOptions.put_Manufacturer
+ - IBootOptions::put_Manufacturer
 ---
 
 # IBootOptions::put_Manufacturer
@@ -102,3 +102,4 @@ Value: 0xC0AAB101
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_manufacturer">IBootOptions::get_Manufacturer</a>
+

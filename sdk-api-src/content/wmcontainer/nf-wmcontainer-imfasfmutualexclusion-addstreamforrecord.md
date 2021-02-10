@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.AddStreamForRecord
+ - IMFASFMutualExclusion::AddStreamForRecord
 ---
 
 # IMFASFMutualExclusion::AddStreamForRecord
@@ -115,3 +115,4 @@ Each record includes one or more streams. Every stream in a record is mutually e
 
 
 <a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
+

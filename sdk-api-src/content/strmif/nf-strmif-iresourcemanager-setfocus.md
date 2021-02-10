@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceManager.SetFocus
+ - IResourceManager::SetFocus
 ---
 
 # IResourceManager::SetFocus
@@ -146,3 +146,4 @@ The resource manager will hold this pointer until replaced or canceled, and will
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
+

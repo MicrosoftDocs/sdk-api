@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - ConnectClient
+ - PCONNECT_CLIENT
 ---
 
 # PCONNECT_CLIENT callback function
@@ -101,3 +101,4 @@ The <i>InterfaceIndex</i> parameter is invalid, for example, no interface exists
 ## -see-also
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pdisconnect_client">DisconnectClient</a>
+

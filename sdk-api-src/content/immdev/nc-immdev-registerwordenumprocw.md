@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Imm.h
 api_name:
- - EnumRegisterWordProc
- - EnumRegisterWordProcA
- - EnumRegisterWordProcW
- - registerwordenumprocw
+ - REGISTERWORDENUMPROCW
 ---
 
 ## -description
@@ -88,3 +85,4 @@ An application must register this function by passing its address to the <a href
 <a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeDisplay.SetTCDisplay
+ - IAMTimecodeDisplay::SetTCDisplay
 ---
 
 # IAMTimecodeDisplay::SetTCDisplay
@@ -268,3 +268,4 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplay">IAMTimecodeDisplay::GetTCDisplay</a>
+

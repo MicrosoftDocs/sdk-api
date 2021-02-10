@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig3.GetLanguage
+ - IWMStreamConfig3::GetLanguage
 ---
 
 # IWMStreamConfig3::GetLanguage
@@ -76,3 +76,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig3-setlanguage">IWMStreamConfig3::SetLanguage</a>
+

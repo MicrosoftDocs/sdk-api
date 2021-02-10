@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Identityprovider.h
 api_name:
- - IConnectedIdentityProvider.DisconnectIdentity
+ - IConnectedIdentityProvider::DisconnectIdentity
 ---
 
 # IConnectedIdentityProvider::DisconnectIdentity
@@ -92,3 +92,4 @@ The domain user is not connected to an online identity.
 ## -see-also
 
 <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>
+

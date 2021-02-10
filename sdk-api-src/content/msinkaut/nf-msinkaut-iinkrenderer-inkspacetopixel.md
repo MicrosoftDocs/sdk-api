@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer.InkSpaceToPixel
+ - IInkRenderer::InkSpaceToPixel
 ---
 
 # IInkRenderer::InkSpaceToPixel
@@ -156,3 +156,4 @@ Coordinates overflowed during operation.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints">PixelToInkSpaceFromPoints Method</a>
+

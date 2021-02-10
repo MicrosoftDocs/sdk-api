@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasCreatePhonebookEntryW
  - ras/RasCreatePhonebookEntryW
+ - RasCreatePhonebookEntry
+ - ras/RasCreatePhonebookEntry
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasCreatePhonebookEntry
- - RasCreatePhonebookEntryA
  - RasCreatePhonebookEntryW
+ - RasCreatePhonebookEntry
 ---
 
 # RasCreatePhonebookEntryW function
@@ -130,3 +131,4 @@ When calling <a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDial
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

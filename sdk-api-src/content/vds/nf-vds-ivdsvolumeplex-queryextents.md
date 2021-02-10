@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumePlex.QueryExtents
+ - IVdsVolumePlex::QueryExtents
 ---
 
 # IVdsVolumePlex::QueryExtents
@@ -95,3 +95,4 @@ The method completed successfully.
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_extent">VDS_DISK_EXTENT</a>
+

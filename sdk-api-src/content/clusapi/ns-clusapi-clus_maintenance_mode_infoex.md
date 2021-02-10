@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUS_MAINTENANCE_MODE_INFOEX
+ - PCLUS_MAINTENANCE_MODE_INFOEX
  - CLUS_MAINTENANCE_MODE_INFOEX
 ---
 
@@ -155,3 +157,4 @@ A 32-bit integer that must contain the value 0xABBAF00F.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
+

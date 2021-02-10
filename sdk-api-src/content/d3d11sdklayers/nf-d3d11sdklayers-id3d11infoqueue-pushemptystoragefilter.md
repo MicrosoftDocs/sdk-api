@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11InfoQueue.PushEmptyStorageFilter
+ - ID3D11InfoQueue::PushEmptyStorageFilter
 ---
 
 # ID3D11InfoQueue::PushEmptyStorageFilter
@@ -68,3 +68,4 @@ An empty storage filter allows all messages to pass through.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
+

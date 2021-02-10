@@ -9,6 +9,8 @@ tech.root: input_ink
 f1_keywords:
  - inkpresenterdesktop
  - inkpresenterdesktop/inkpresenterdesktop
+api_name:
+ - inkpresenterdesktop
 ---
 
 # Inkpresenterdesktop.h header

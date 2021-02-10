@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetCursorProperties
+ - IDirect3DDevice9::SetCursorProperties
 ---
 
 # IDirect3DDevice9::SetCursorProperties
@@ -123,3 +123,4 @@ The cursor does not survive when the device is lost. This method must be called 
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor">IDirect3DDevice9::ShowCursor</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputJoyConfig8.SendNotify
+ - IDirectInputJoyConfig8::SendNotify
 ---
 
 # IDirectInputJoyConfig8::SendNotify
@@ -75,3 +75,4 @@ Joystick configuration has not been acquired. You must call <a href="/windows/de
 </td>
 </tr>
 </table>
+

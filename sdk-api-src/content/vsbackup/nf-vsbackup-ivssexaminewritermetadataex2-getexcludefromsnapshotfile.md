@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile
+ - IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
 ---
 
 # IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
@@ -143,3 +143,4 @@ The <b>GetExcludeFromSnapshotFile</b> method is intended to report information a
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</a>
+

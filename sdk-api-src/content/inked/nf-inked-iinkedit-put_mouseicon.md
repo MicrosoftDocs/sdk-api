@@ -43,12 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.MouseIcon
- - IInkEdit.get_MouseIcon
- - IInkEdit.put_MouseIcon
- - InkEdit.get_MouseIcon
- - InkEdit.put_MouseIcon
- - InkEdit.putref_MouseIcon
+ - IInkEdit::put_MouseIcon
 ---
 
 # IInkEdit::put_MouseIcon
@@ -76,3 +71,4 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

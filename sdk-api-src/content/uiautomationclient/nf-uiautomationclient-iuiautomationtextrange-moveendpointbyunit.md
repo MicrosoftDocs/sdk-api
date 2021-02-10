@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.MoveEndpointByUnit
+ - IUIAutomationTextRange::MoveEndpointByUnit
 ---
 
 # IUIAutomationTextRange::MoveEndpointByUnit
@@ -117,3 +117,4 @@ The order, from smallest unit to largest, is listed here.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _REMEDIATIONSERVERSPROPERTIES
  - REMEDIATIONSERVERSPROPERTIES
 ---
 
@@ -62,3 +63,4 @@ The values of the
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
+

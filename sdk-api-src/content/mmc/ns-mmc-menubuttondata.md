@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MENUBUTTONDATA
  - MENUBUTTONDATA
 ---
 
@@ -76,3 +77,4 @@ A value that specifies the vertical position, in pixels, at which the snap-in's 
 
 
 <a href="/previous-versions/windows/desktop/mmc/mmcn-menu-btnclick">MMCN_MENU_BTNCLICK</a>
+

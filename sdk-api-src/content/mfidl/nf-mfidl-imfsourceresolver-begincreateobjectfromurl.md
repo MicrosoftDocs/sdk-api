@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSourceResolver.BeginCreateObjectFromURL
+ - IMFSourceResolver::BeginCreateObjectFromURL
 ---
 
 # IMFSourceResolver::BeginCreateObjectFromURL
@@ -140,3 +140,4 @@ The usage of the <i>pProps</i> parameter depends on the implementation of the me
 
 
 <a href="/windows/desktop/medfound/source-resolver">Source Resolver</a>
+

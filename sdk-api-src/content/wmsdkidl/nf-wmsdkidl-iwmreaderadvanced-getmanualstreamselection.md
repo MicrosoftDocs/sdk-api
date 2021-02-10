@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetManualStreamSelection
+ - IWMReaderAdvanced::GetManualStreamSelection
 ---
 
 # IWMReaderAdvanced::GetManualStreamSelection
@@ -112,3 +112,4 @@ The reader object has not opened a file yet.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setmanualstreamselection">IWMReaderAdvanced::SetManualStreamSelection</a>
+

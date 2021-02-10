@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagLVKEYDOWN
+ - LPNMLVKEYDOWN
  - NMLVKEYDOWN
 ---
 
@@ -78,3 +80,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 This member must always be zero.
+

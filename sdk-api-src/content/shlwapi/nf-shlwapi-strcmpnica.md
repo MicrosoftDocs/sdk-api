@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StrCmpNICA
  - shlwapi/StrCmpNICA
+ - StrCmpNIC
+ - shlwapi/StrCmpNIC
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCmpNIC
  - StrCmpNICA
- - StrCmpNICW
+ - StrCmpNIC
 ---
 
 # StrCmpNICA function
@@ -111,3 +112,4 @@ For those versions of Windows that do not include <b>StrCmpNIC</b> in Shlwapi.h,
 
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcmpnia">StrCmpNI</a>
+

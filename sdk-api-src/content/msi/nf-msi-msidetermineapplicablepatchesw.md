@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDetermineApplicablePatchesW
  - msi/MsiDetermineApplicablePatchesW
+ - MsiDetermineApplicablePatches
+ - msi/MsiDetermineApplicablePatches
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiDetermineApplicablePatches
- - MsiDetermineApplicablePatchesA
  - MsiDetermineApplicablePatchesW
+ - MsiDetermineApplicablePatches
 ---
 
 # MsiDetermineApplicablePatchesW function
@@ -210,3 +211,4 @@ If the function fails, the <a href="/windows/desktop/api/msi/ns-msi-msipatchsequ
 
 
 <a href="/windows/desktop/Msi/productcode">ProductCode</a>
+

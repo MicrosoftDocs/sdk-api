@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetDesc1
+ - IDXGISwapChain1::GetDesc1
 ---
 
 # IDXGISwapChain1::GetDesc1
@@ -66,3 +66,4 @@ Returns S_OK if successful; an error code otherwise.  For a list of error codes,
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
+

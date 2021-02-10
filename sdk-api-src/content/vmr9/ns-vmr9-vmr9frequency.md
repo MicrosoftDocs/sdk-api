@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - _VMR9Frequency
  - VMR9Frequency
 ---
 
@@ -67,3 +68,4 @@ Denominator of the frequency ratio.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

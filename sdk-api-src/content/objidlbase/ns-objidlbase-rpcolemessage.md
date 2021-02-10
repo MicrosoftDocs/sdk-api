@@ -44,6 +44,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
+ - tagRPCOLEMESSAGE
  - RPCOLEMESSAGE
 ---
 
@@ -91,3 +92,4 @@ Status flags for the RPC connection.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
+

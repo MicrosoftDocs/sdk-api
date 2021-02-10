@@ -46,8 +46,9 @@ api_type:
 api_location:
  - winnt.h
 api_name:
- - IMAGE_ENCLAVE_CONFIG32
- - IMAGE_ENCLAVE_CONFIG
+ - _IMAGE_ENCLAVE_CONFIG64
+ - PIMAGE_ENCLAVE_CONFIG64
+ - IMAGE_ENCLAVE_CONFIG64
 ---
 
 # IMAGE_ENCLAVE_CONFIG64 structure
@@ -178,3 +179,4 @@ The <b>IMAGE_ENCLAVE_CONFIG</b> structure is defined as another name for the <b>
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/mt844244(v=vs.85)">IMAGE_ENCLAVE_CONFIG64</a>
+

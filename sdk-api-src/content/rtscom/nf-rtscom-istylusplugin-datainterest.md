@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.DataInterest
+ - IStylusPlugin::DataInterest
 ---
 
 # IStylusPlugin::DataInterest
@@ -109,3 +109,4 @@ STDMETHODIMP CPacketModifier::DataInterest(
 
 
 <a href="/windows/desktop/api/rtscom/ne-rtscom-realtimestylusdatainterest">RealTimeStylusDataInterest Enumeration</a>
+

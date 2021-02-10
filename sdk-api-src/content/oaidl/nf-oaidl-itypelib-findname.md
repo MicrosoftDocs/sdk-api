@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib.FindName
+ - ITypeLib::FindName
 ---
 
 # ITypeLib::FindName
@@ -130,3 +130,4 @@ Passing *<i>pcFound</i> = <i>n</i> indicates that there is enough room in the <i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
+

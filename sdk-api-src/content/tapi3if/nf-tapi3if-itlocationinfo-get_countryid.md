@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLocationInfo.get_CountryID
+ - ITLocationInfo::get_CountryID
 ---
 
 # ITLocationInfo::get_CountryID
@@ -130,3 +130,4 @@ The value that this method returns corresponds to the <b>dwCountryID</b> member 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
+

@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CHANGER_PRODUCT_DATA
+ - PCHANGER_PRODUCT_DATA
  - CHANGER_PRODUCT_DATA
 ---
 
@@ -81,3 +83,4 @@ The device type of data transports, as defined by SCSI-2. This member must be <b
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_product_data">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
+

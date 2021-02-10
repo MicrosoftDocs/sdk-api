@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEx.CreateResourceLocator
+ - IWSManEx::CreateResourceLocator
 ---
 
 # IWSManEx::CreateResourceLocator
@@ -81,3 +81,4 @@ If the <b>FragmentDialect</b> property is not specified in the <a href="/windows
 
 
 <a href="/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
+

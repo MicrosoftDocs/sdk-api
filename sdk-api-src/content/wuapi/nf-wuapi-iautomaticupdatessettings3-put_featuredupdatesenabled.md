@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled
- - IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled
- - IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled
+ - IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
 ---
 
 # IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings3">IAutomaticUpdatesSettings3</a>
+

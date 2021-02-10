@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.DynamicRendering
- - IInkPicture.get_DynamicRendering
- - IInkPicture.put_DynamicRendering
- - InkPicture.get_DynamicRendering
- - InkPicture.put_DynamicRendering
+ - IInkPicture::put_DynamicRendering
 ---
 
 # IInkPicture::put_DynamicRendering
@@ -70,3 +66,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+

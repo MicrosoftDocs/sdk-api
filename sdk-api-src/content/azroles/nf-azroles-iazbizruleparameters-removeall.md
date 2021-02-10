@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzBizRuleParameters.RemoveAll
+ - IAzBizRuleParameters::RemoveAll
 ---
 
 # IAzBizRuleParameters::RemoveAll
@@ -61,3 +61,4 @@ The <b>IAzBizRuleParameters::RemoveAll</b> method removes all parameters from th
 
 
 <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleparameters">IAzClientContext3::BizRuleParameters</a>
+

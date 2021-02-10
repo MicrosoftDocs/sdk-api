@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - CloseServiceEnumerationHandle
+ - PCLOSE_SERVICE_ENUMERATION_HANDLE
 ---
 
 # PCLOSE_SERVICE_ENUMERATION_HANDLE callback function
@@ -77,3 +77,4 @@ If the function fails, the return value is ERROR_CAN_NOT_COMPLETE.
 
 
 <a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
+

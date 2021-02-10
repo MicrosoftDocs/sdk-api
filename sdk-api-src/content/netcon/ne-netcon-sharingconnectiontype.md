@@ -46,6 +46,8 @@ api_type:
 api_location:
  - NetCon.h
 api_name:
+ - tagSHARINGCONNECTIONTYPE
+ - LPSHARINGCONNECTIONTYPE
  - SHARINGCONNECTIONTYPE
 ---
 
@@ -80,3 +82,4 @@ The connection is private.
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+

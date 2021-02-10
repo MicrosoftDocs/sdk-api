@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern2.CachedZoomLevel
- - IUIAutomationTransformPattern2.get_CachedZoomLevel
+ - IUIAutomationTransformPattern2::get_CachedZoomLevel
 ---
 
 # IUIAutomationTransformPattern2::get_CachedZoomLevel
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern2">IUIAutomationTransformPattern2</a>
+

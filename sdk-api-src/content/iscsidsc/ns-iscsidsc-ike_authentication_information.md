@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
+ - PIKE_AUTHENTICATION_INFORMATION
  - IKE_AUTHENTICATION_INFORMATION
 ---
 
@@ -71,3 +72,4 @@ A <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authe
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_preshared_key">IKE_AUTHENTICATION_PRESHARED_KEY</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagPOINTER_DEVICE_CURSOR_TYPE
  - POINTER_DEVICE_CURSOR_TYPE
 ---
 
@@ -79,3 +80,4 @@ Cursor objects represent pointing and selecting devices used with digitizer devi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_pointerdevice/enumerations">Enumerations</a>
+

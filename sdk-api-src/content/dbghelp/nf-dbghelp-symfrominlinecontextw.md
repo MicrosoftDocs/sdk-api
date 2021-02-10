@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymFromInlineContextW
  - dbghelp/SymFromInlineContextW
+ - SymFromInlineContext
+ - dbghelp/SymFromInlineContext
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - DbgHelp.dll
 api_name:
- - SymFromInlineContext
- - SymFromInlineContext
  - SymFromInlineContextW
+ - SymFromInlineContext
 ---
 
 # SymFromInlineContextW function
@@ -93,3 +94,4 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 > [!NOTE]
 > The dbghelp.h header defines SymFromInlineContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

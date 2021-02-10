@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents.ItemAddedToCache
+ - IOfflineFilesEvents::ItemAddedToCache
 ---
 
 # IOfflineFilesEvents::ItemAddedToCache
@@ -74,3 +74,4 @@ Note that addition to the cache does not mean that the item is available for off
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
+

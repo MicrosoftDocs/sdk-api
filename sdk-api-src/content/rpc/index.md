@@ -9,6 +9,8 @@ tech.root: rpc
 f1_keywords:
  - rpc
  - rpc/rpc
+api_name:
+ - rpc
 ---
 
 # Rpc.h header

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFShutdown.Shutdown
+ - IMFShutdown::Shutdown
 ---
 
 # IMFShutdown::Shutdown
@@ -70,3 +70,4 @@ The <a href="/windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject">MFShutdownObj
 
 
 <a href="/windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject">MFShutdownObject</a>
+

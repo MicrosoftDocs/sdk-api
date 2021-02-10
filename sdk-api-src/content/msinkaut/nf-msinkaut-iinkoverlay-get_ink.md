@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.Ink
- - IInkOverlay.get_Ink
- - IInkOverlay.put_Ink
- - InkOverlay.get_Ink
- - InkOverlay.put_Ink
+ - IInkOverlay::get_Ink
 ---
 
 # IInkOverlay::get_Ink
@@ -84,3 +80,4 @@ An <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> creates
 
 
 <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+

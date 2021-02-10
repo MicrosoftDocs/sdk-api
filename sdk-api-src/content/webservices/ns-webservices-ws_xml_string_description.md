@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_STRING_DESCRIPTION
  - WS_XML_STRING_DESCRIPTION
 ---
 
@@ -65,3 +66,4 @@ The minimum number of bytes of UTF8 character data.
 ### -field maxByteCount
 
 The maximum number of bytes of UTF8 character data.
+

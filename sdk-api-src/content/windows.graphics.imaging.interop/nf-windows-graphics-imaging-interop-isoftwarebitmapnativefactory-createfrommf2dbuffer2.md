@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.graphics.imaging.interop.dll
 api_name:
- - ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
+ - ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2
 ---
 
 # ISoftwareBitmapNativeFactory::imaging
@@ -114,3 +114,4 @@ Returns S_OK on successful completion.
 ## -see-also
 
 <a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnativefactory">ISoftwareBitmapNativeFactory</a>
+

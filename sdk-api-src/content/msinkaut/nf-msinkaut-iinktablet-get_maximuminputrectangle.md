@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablet.MaximumInputRectangle
- - IInkTablet.get_MaximumInputRectangle
- - IInkTablet.get_MaximumInputRectangle
+ - IInkTablet::get_MaximumInputRectangle
 ---
 
 # IInkTablet::get_MaximumInputRectangle
@@ -75,3 +73,4 @@ The rectangle returned by the <b>MaximumInputRectangle</b> property specifies th
 
 
 <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
+

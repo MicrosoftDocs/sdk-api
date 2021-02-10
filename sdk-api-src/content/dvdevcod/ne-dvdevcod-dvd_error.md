@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dvdevcod.h
 api_name:
+ - _tagDVD_ERROR
  - DVD_ERROR
 ---
 
@@ -123,3 +124,4 @@ For the flags where <i>lParam2</i> contains two region codes, the regions are en
 
 
 <a href="/windows/desktop/DirectShow/ec-dvd-error">EC_DVD_ERROR</a>
+

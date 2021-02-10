@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - WorkerStartRoutine
+ - PWORKER_START_ROUTINE
 ---
 
 # PWORKER_START_ROUTINE callback function
@@ -77,3 +77,4 @@ The pointer to this  callback function is used as an input parameter for the <a 
 
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
+

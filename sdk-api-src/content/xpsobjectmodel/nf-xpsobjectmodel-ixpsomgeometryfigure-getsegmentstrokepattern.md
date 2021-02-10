@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.GetSegmentStrokePattern
+ - IXpsOMGeometryFigure::GetSegmentStrokePattern
 ---
 
 # IXpsOMGeometryFigure::GetSegmentStrokePattern
@@ -102,3 +102,4 @@ The method succeeded.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a>
+

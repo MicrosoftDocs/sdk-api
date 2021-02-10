@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2.Open
+ - IXMLHTTPRequest2::Open
 ---
 
 # IXMLHTTPRequest2::Open
@@ -135,3 +135,4 @@ For the complete examples, see the <a href="https://github.com/microsoft/Windows
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send Method</a>
+

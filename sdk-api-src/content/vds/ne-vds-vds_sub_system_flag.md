@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_SUB_SYSTEM_FLAG
+ - PVDS_SUB_SYSTEM_FLAG
  - VDS_SUB_SYSTEM_FLAG
 ---
 
@@ -193,3 +195,4 @@ This enumeration provides the values for the  <b>ulFlags</b> member of the
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a>
+

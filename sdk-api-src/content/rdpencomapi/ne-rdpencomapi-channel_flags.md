@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rdpencomapi.h
 api_name:
+ - __MIDL___MIDL_itf_rdpencomapi_0000_0000_0004
  - CHANNEL_FLAGS
 ---
 
@@ -67,3 +68,4 @@ Data sent on the channel is not compressed. Use this option if the data is alrea
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapivirtualchannelmanager-createvirtualchannel">IRDPSRAPIVirtualChannelManager::CreateVirtualChannel</a>
+

@@ -9,6 +9,8 @@ tech.root: opc
 f1_keywords:
  - msopc
  - msopc/msopc
+api_name:
+ - msopc
 ---
 
 # Msopc.h header

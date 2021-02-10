@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice.GetSerialNumber
+ - IWMDMDevice::GetSerialNumber
 ---
 
 # IWMDMDevice::GetSerialNumber
@@ -128,3 +128,4 @@ if (hr == S_OK)
 
 
 <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
+

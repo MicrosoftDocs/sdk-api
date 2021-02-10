@@ -42,8 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2.Rules
- - INetFwPolicy2.get_Rules
+ - INetFwPolicy2::get_Rules
 ---
 
 # INetFwPolicy2::get_Rules
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
+

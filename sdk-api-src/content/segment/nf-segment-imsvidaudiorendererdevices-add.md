@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAudioRendererDevices.Add
+ - IMSVidAudioRendererDevices::Add
 ---
 
 # IMSVidAudioRendererDevices::Add
@@ -116,3 +116,4 @@ NULL pointer argument.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidaudiorendererdevices">IMSVidAudioRendererDevices Interface</a>
+

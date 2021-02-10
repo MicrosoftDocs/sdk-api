@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_OR_CRL_BLOB
+ - PCERT_OR_CRL_BLOB
  - CERT_OR_CRL_BLOB
 ---
 
@@ -98,3 +100,4 @@ The size, in bytes, of the buffer pointed to by the <b>pbEncoded</b> member.
 ### -field pbEncoded
 
 A pointer to a buffer that contains a certificate or a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_or_crl_bundle">CERT_OR_CRL_BUNDLE</a> structure that contains an array of certificates as specified by the <b>dwChoice</b> member.
+

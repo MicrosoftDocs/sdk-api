@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer.Refresh
+ - IDynamicRenderer::Refresh
 ---
 
 # IDynamicRenderer::Refresh
@@ -75,3 +75,4 @@ When calling the <b>IDynamicRenderer::Refresh Method</b> from within a Paint eve
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_drawingattributes">IDynamicRenderer::DrawingAttributes Property</a>
+

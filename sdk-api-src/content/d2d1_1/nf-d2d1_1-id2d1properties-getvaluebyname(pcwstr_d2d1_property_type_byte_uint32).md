@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetValueByName
+ - ID2D1Properties::GetValueByName
 ---
 
 # ID2D1Properties::GetValueByName
@@ -126,3 +126,4 @@ Any error not in the standard set returned by a property implementation will be 
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+

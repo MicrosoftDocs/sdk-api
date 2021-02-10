@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer.Move
+ - IInkRenderer::Move
 ---
 
 # IInkRenderer::Move
@@ -74,3 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
+

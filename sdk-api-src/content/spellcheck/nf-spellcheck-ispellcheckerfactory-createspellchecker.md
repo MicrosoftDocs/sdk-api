@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellCheckerFactory.CreateSpellChecker
+ - ISpellCheckerFactory::CreateSpellChecker
 ---
 
 # ISpellCheckerFactory::CreateSpellChecker
@@ -126,3 +126,4 @@ This will create the preferred spell checker (according to user ranking) for the
 
 
 <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellcheckerfactory-issupported">ISpellCheckerFactory::IsSupported</a>
+

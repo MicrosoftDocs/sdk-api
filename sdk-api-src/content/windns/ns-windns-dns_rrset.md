@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DnsRRSet
+ - PDNS_RRSET
  - DNS_RRSET
 ---
 

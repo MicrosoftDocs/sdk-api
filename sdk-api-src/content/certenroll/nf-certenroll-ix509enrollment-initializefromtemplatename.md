@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment.InitializeFromTemplateName
+ - IX509Enrollment::InitializeFromTemplateName
 ---
 
 # IX509Enrollment::InitializeFromTemplateName
@@ -113,3 +113,4 @@ The <b>InitializeFromTemplateName</b> method:
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
+

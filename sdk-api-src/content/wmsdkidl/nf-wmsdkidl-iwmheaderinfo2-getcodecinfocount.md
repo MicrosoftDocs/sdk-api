@@ -46,8 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo2.GetCodecInfoCount
- - IWMHeaderInfo3.GetCodecInfoCount
+ - IWMHeaderInfo2::GetCodecInfoCount
 ---
 
 # IWMHeaderInfo2::GetCodecInfoCount
@@ -82,3 +81,4 @@ Use this method, and <b>GetCodecInfo</b>, to enumerate through the codec informa
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.SetCellWidth
+ - ITextRow::SetCellWidth
 ---
 
 # ITextRow::SetCellWidth
@@ -77,3 +77,4 @@ The total width of the entire row must be less than 22 inches, or 1440×22.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-getcellwidth">ITextRow::GetCellWidth</a>
+

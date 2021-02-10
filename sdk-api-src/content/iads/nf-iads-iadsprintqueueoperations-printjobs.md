@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPrintQueueOperations.PrintJobs
+ - IADsPrintQueueOperations::PrintJobs
 ---
 
 # IADsPrintQueueOperations::PrintJobs
@@ -89,3 +89,4 @@ This method supports the standard return values. For more information about othe
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
+

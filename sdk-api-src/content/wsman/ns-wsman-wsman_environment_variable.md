@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_ENVIRONMENT_VARIABLE
  - WSMAN_ENVIRONMENT_VARIABLE
 ---
 
@@ -63,3 +64,4 @@ Defines the environment variable name. This parameter cannot be <b>NULL</b>.
 ### -field value
 
 Defines the environment variable value. <b>NULL</b> or empty string values are permitted.
+

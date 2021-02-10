@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor.GetCategory
+ - ISensor::GetCategory
 ---
 
 # ISensor::GetCategory
@@ -114,3 +114,4 @@ A <b>SENSOR_CATEGORY_ID</b> is a <b>GUID</b> that uniquely identifies the sensor
 
 
 <a href="/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>
+

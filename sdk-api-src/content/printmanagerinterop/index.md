@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - printmanagerinterop
  - printmanagerinterop/printmanagerinterop
+api_name:
+ - printmanagerinterop
 ---
 
 # Printmanagerinterop.h header

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FindResourceA
  - winbase/FindResourceA
+ - FindResource
+ - winbase/FindResource
 dev_langs:
  - c++
 topic_type:
@@ -55,9 +57,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - FindResource
  - FindResourceA
- - FindResourceW
+ - FindResource
 ---
 
 # FindResourceA function
@@ -233,3 +234,4 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Updating R
 
 
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>
+

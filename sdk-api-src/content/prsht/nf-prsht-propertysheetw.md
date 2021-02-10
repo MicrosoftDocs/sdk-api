@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-comctl32-window-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - PropertySheetW
  - prsht/PropertySheetW
+ - PropertySheet
+ - prsht/PropertySheet
 dev_langs:
  - c++
 topic_type:
@@ -42,10 +45,8 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - PropertySheet
- - PropertySheetA
  - PropertySheetW
-req.apiset: ext-ms-win-shell-comctl32-window-l1-1-0 (introduced in Windows 10, version 10.0.14393)
+ - PropertySheet
 ---
 
 # PropertySheetW function
@@ -140,3 +141,4 @@ For a modeless property sheet, your message loop should use <a href="/windows/de
 
 > [!NOTE]
 > The prsht.h header defines PropertySheet as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

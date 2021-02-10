@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutput4.CheckOverlayColorSpaceSupport
+ - IDXGIOutput4::CheckOverlayColorSpaceSupport
 ---
 
 # IDXGIOutput4::CheckOverlayColorSpaceSupport
@@ -88,3 +88,4 @@ This method returns <b>S_OK</b> on success, or it returns one of the error codes
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgioutput4">IDXGIOutput4</a>
+

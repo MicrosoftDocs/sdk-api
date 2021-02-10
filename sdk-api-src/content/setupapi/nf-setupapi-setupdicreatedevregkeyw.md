@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiCreateDevRegKeyW
  - setupapi/SetupDiCreateDevRegKeyW
+ - SetupDiCreateDevRegKey
+ - setupapi/SetupDiCreateDevRegKey
 dev_langs:
  - c++
 topic_type:
@@ -43,7 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiCreateDevRegKey - SetupDiCreateDevRegKeyW
+ - SetupDiCreateDevRegKeyW
+ - SetupDiCreateDevRegKey
 ---
 
 # SetupDiCreateDevRegKeyW function
@@ -171,3 +174,4 @@ If the supplied device information set contains device information elements for 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiregisterdeviceinfo">SetupDiRegisterDeviceInfo</a>
+

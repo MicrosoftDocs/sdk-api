@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPathKeyList.GetInfo
+ - IWbemPathKeyList::GetInfo
 ---
 
 # IWbemPathKeyList::GetInfo
@@ -98,3 +98,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call.
 
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetBufferProgress
+ - IWMReaderAdvanced2::GetBufferProgress
 ---
 
 # IWMReaderAdvanced2::GetBufferProgress
@@ -80,3 +80,4 @@ To produce meaningful results, this method must be called between the events WMT
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_play_mode">WMT_PLAY_MODE</a>
+

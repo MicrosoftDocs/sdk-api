@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManResourceLocator.AddSelector
+ - IWSManResourceLocator::AddSelector
 ---
 
 # IWSManResourceLocator::AddSelector
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinRM/resourcelocator-addselector">ResourceLocator.AddSelector</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller.Updates
- - IUpdateInstaller.get_Updates
- - IUpdateInstaller.put_Updates
+ - IUpdateInstaller::get_Updates
 ---
 
 # IUpdateInstaller::get_Updates
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
+

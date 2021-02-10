@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.GetPage
+ - IXpsOMPageReference::GetPage
 ---
 
 # IXpsOMPageReference::GetPage
@@ -123,3 +123,4 @@ Depending on the page's contents, this call might take some time to return and i
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

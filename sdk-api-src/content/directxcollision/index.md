@@ -9,6 +9,8 @@ tech.root: dxmath
 f1_keywords:
  - directxcollision
  - directxcollision/directxcollision
+api_name:
+ - directxcollision
 ---
 
 # Directxcollision.h header

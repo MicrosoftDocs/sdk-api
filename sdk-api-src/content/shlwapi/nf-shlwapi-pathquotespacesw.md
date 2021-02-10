@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PathQuoteSpacesW
  - shlwapi/PathQuoteSpacesW
+ - PathQuoteSpaces
+ - shlwapi/PathQuoteSpaces
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - KernelBase.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathQuoteSpaces
- - PathQuoteSpacesA
  - PathQuoteSpacesW
+ - PathQuoteSpaces
 ---
 
 # PathQuoteSpacesW function

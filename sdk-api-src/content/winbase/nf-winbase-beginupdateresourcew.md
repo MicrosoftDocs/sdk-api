@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - BeginUpdateResourceW
  - winbase/BeginUpdateResourceW
+ - BeginUpdateResource
+ - winbase/BeginUpdateResource
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - BeginUpdateResource
- - BeginUpdateResourceA
  - BeginUpdateResourceW
+ - BeginUpdateResource
 ---
 
 # BeginUpdateResourceW function
@@ -115,3 +116,4 @@ For an example see, <a href="/windows/desktop/menurc/using-resources">Updating R
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>
+

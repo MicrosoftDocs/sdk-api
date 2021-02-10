@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfmediacapture.h
 api_name:
- - IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings
+ - IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
 ---
 
 # IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
@@ -63,3 +63,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacapture">IAdvancedMediaCapture</a>
+

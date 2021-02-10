@@ -42,7 +42,7 @@ api_type:
 api_location:
  - waasapi.h
 api_name:
- - IWaaSAssessor.GetOSUpdateAssessment
+ - IWaaSAssessor::GetOSUpdateAssessment
 ---
 
 # IWaaSAssessor::GetOSUpdateAssessment
@@ -71,3 +71,4 @@ Your code must have administrator privileges to use the <b>GetOSUpdateAssessment
 ## -see-also
 
 <a href="/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor">IWaaSAssessor</a>
+

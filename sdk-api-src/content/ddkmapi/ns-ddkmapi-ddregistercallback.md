@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDREGISTERCALLBACK
+ - LPDDREGISTERCALLBACK
  - DDREGISTERCALLBACK
 ---
 
@@ -234,3 +236,4 @@ Contains client data that is passed back to the client if the <b>pfnCallback</b>
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxSasNotify
+ - PWLX_SAS_NOTIFY
 ---
 
 # PWLX_SAS_NOTIFY callback function
@@ -109,3 +109,4 @@ Indicates that the user has typed the CTRL+ALT+DEL SAS.
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>
+

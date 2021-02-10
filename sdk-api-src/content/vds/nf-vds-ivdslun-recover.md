@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun.Recover
+ - IVdsLun::Recover
 ---
 
 # IVdsLun::Recover
@@ -162,3 +162,4 @@ The recovery operation entails mirror resynchronization, parity regeneration, or
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a>
+

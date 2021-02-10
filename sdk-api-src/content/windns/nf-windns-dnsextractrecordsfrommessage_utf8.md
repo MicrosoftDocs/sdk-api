@@ -42,7 +42,6 @@ api_type:
 api_location:
  - Dnsapi.dll
 api_name:
- - DnsExtractRecordsFromMessage_W
  - DnsExtractRecordsFromMessage_UTF8
 ---
 
@@ -121,3 +120,4 @@ DnsExtractRecordsFromMessage_UTF8(
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnswritequestiontobuffer_utf8">DnsWriteQuestionToBuffer</a>
+

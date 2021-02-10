@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAllocatorProperties.GetBufferSize
+ - ITAllocatorProperties::GetBufferSize
 ---
 
 # ITAllocatorProperties::GetBufferSize
@@ -66,3 +66,4 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itallocatorproperties">ITAllocatorProperties</a>
+

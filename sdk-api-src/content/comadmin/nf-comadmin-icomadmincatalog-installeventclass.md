@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.InstallEventClass
+ - ICOMAdminCatalog::InstallEventClass
 ---
 
 # ICOMAdminCatalog::InstallEventClass
@@ -83,3 +83,4 @@ The dummy implementation of the interface exposed by an event class never actual
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

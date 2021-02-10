@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbClientConnection.LoadBalanceResult
- - ITsSbClientConnection.get_LoadBalanceResult
+ - ITsSbClientConnection::get_LoadBalanceResult
 ---
 
 # ITsSbClientConnection::get_LoadBalanceResult
@@ -64,3 +63,4 @@ This method can be called by placement and orchestration plug-ins to retrieve th
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
+

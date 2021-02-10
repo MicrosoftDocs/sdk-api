@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallHub.get_State
+ - ITCallHub::get_State
 ---
 
 # ITCallHub::get_State
@@ -115,3 +115,4 @@ The <i>pState</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
+

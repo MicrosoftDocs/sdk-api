@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - LVFINDINFO
+ - tagLVFINDINFOA
+ - LPFINDINFOA
  - LVFINDINFOA
- - LVFINDINFOW
 ---
 
 # LVFINDINFOA structure
@@ -176,3 +176,4 @@ This member is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
 
 > [!NOTE]
 > The commctrl.h header defines LVFINDINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - NTMS_LIBREQUESTINFORMATION
- - NTMS_LIBREQUESTINFORMATIONA
+ - _NTMS_LIBREQUESTINFORMATIONW
  - NTMS_LIBREQUESTINFORMATIONW
 ---
 
@@ -452,3 +451,4 @@ GUID in the work times may become not valid over time. For example, an eject of 
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+

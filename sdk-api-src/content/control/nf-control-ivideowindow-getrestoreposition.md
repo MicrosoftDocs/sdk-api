@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.GetRestorePosition
+ - IVideoWindow::GetRestorePosition
 ---
 
 # IVideoWindow::GetRestorePosition
@@ -126,3 +126,4 @@ If the video window is minimized or maximized, you can use this method to get th
 
 
 <a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+

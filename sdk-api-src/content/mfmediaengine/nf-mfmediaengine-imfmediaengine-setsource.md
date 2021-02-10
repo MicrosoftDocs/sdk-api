@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetSource
+ - IMFMediaEngine::SetSource
 ---
 
 # IMFMediaEngine::SetSource
@@ -83,3 +83,4 @@ For more information about event handling in the Media Engine, see <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

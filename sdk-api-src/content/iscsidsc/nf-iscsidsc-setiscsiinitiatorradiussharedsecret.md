@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - SetIscsiInitiatorRADIUSSharedSecret
+ - SetIScsiInitiatorRADIUSSharedSecret
 ---
 
 # SetIScsiInitiatorRADIUSSharedSecret function
@@ -73,3 +73,4 @@ When an initiator attempts to log in to a target, the initiator can use the RADI
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIscsiTarget</a>
+

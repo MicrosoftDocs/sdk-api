@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _HEAP_OPTIMIZE_RESOURCES_INFORMATION
+ - PHEAP_OPTIMIZE_RESOURCES_INFORMATION
  - HEAP_OPTIMIZE_RESOURCES_INFORMATION
 ---
 
@@ -75,3 +77,4 @@ The <b>HEAP_OPTIMIZE_RESOURCES_CURRENT_VERSION</b> constant is available to fill
 
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-prefetchvirtualmemory">PrefetchVirtualMemory</a>
+

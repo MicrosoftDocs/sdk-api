@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable.SetUpperBound
+ - IUIAnimationVariable::SetUpperBound
 ---
 
 # IUIAnimationVariable::SetUpperBound
@@ -93,3 +93,4 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setlowerbound">IUIAnimationVariable::SetLowerBound</a>
+

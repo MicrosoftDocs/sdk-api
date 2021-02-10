@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Resource.GetHeapProperties
+ - ID3D12Resource::GetHeapProperties
 ---
 
 # ID3D12Resource::GetHeapProperties
@@ -85,3 +85,4 @@ For more information, refer to <a href="/windows/desktop/direct3d12/memory-manag
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
+

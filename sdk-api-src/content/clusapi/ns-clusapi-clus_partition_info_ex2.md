@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_PARTITION_INFO_EX2
+ - PCLUS_PARTITION_INFO_EX2
 ---
 
 # CLUS_PARTITION_INFO_EX2 structure
@@ -109,3 +110,4 @@ A flag that indicates whether BitLocker encryption is enabled on the partion.
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
+

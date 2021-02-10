@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_ALPHA_FILL_MODE
  - DXVAHD_ALPHA_FILL_MODE
 ---
 
@@ -93,3 +94,4 @@ To find out which modes the device supports, call the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

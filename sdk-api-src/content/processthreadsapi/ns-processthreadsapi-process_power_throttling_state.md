@@ -46,6 +46,8 @@ api_type:
 api_location:
  - processthreadsapi.h
 api_name:
+ - _PROCESS_POWER_THROTTLING_STATE
+ - PPROCESS_POWER_THROTTLING_STATE
  - PROCESS_POWER_THROTTLING_STATE
 ---
 
@@ -123,3 +125,4 @@ Manages the execution speed of the process.
 </td>
 </tr>
 </table>
+

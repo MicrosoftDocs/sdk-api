@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IConfigInterleaving.get_Interleaving
+ - IConfigInterleaving::get_Interleaving
 ---
 
 # IConfigInterleaving::get_Interleaving
@@ -82,3 +82,4 @@ For more information, see <a href="/windows/desktop/api/strmif/nf-strmif-iconfig
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_interleaving">IConfigInterleaving::put_Interleaving</a>
+

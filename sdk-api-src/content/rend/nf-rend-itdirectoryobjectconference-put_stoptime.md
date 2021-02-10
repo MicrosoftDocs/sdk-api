@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference.put_StopTime
+ - ITDirectoryObjectConference::put_StopTime
 ---
 
 # ITDirectoryObjectConference::put_StopTime
@@ -139,3 +139,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_stoptime">ITDirectoryObjectConference::get_StopTime</a>
+

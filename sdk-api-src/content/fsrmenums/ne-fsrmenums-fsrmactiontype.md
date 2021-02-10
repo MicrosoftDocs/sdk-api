@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmActionType
  - FsrmActionType
 ---
 
@@ -117,3 +118,4 @@ Generate a report.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmaction">MSFT_FSRMAction</a>
+

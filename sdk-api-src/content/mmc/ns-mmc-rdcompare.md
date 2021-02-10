@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _RDCOMPARE
  - RDCOMPARE
 ---
 
@@ -101,3 +102,4 @@ If the snap-in implements the
 
 
 <a href="/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a>
+

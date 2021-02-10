@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FaxGetConfigurationA
  - winfax/FaxGetConfigurationA
+ - FaxGetConfiguration
+ - winfax/FaxGetConfiguration
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxGetConfiguration
  - FaxGetConfigurationA
- - FaxGetConfigurationW
+ - FaxGetConfiguration
 ---
 
 # FaxGetConfigurationA function
@@ -155,3 +156,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetconfigurationa">FaxSetConfiguration</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData.SetItemCount
- - IResultData2.SetItemCount
+ - IResultData::SetItemCount
 ---
 
 # IResultData::SetItemCount
@@ -102,3 +101,4 @@ SetItemCount preallocates memory for the specified number of items. When adding 
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a>
+

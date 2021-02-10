@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.SetFontRenderingEmSize
+ - IXpsOMGlyphs::SetFontRenderingEmSize
 ---
 
 # IXpsOMGlyphs::SetFontRenderingEmSize
@@ -112,3 +112,4 @@ A value of 0.0 results in no visible text being displayed.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

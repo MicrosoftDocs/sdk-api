@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.ImportKey
+ - ICertAdmin2::ImportKey
 ---
 
 # ICertAdmin2::ImportKey
@@ -138,3 +138,4 @@ String value that represents the KRA key information.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
+

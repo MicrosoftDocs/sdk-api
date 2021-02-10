@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComThreadEvents.OnThreadUnBind
+ - IComThreadEvents::OnThreadUnBind
 ---
 
 # IComThreadEvents::OnThreadUnBind
@@ -77,3 +77,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomthreadevents">IComThreadEvents</a>
+

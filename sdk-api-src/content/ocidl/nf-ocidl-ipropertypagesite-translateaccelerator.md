@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPageSite.TranslateAccelerator
+ - IPropertyPageSite::TranslateAccelerator
 ---
 
 # IPropertyPageSite::TranslateAccelerator
@@ -105,3 +105,4 @@ The page site does not support keyboard processing.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
+

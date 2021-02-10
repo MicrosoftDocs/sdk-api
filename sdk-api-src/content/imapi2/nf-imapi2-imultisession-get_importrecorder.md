@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IMultisession.get_ImportRecorder
+ - IMultisession::get_ImportRecorder
 ---
 
 # IMultisession::get_ImportRecorder
@@ -89,3 +89,4 @@ The import recorder reads session content from the optical media and provides it
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
+

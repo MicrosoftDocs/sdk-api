@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioMeterInformation.GetChannelsPeakValues
+ - IAudioMeterInformation::GetChannelsPeakValues
 ---
 
 # IAudioMeterInformation::GetChannelsPeakValues
@@ -112,3 +112,4 @@ Parameter <i>afPeakValues</i> points to a caller-allocated <b>float</b> array. I
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudiometerinformation-getmeteringchannelcount">IAudioMeterInformation::GetMeteringChannelCount</a>
+

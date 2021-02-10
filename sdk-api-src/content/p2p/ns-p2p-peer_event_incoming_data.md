@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_event_incoming_data_tag
+ - PPEER_EVENT_INCOMING_DATA
  - PEER_EVENT_INCOMING_DATA
 ---
 
@@ -89,3 +91,4 @@ Specifies the actual data received.
 
 
 [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)
+

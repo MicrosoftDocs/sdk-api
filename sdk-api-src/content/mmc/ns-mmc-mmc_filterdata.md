@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_FILTERDATA
  - MMC_FILTERDATA
 ---
 
@@ -82,3 +83,4 @@ When handling a text filter, lValue is ignored. Similarly, when handling a numer
 
 For both setting and reading filter values, the snap-in owns the 
 MMC_FILTERDATA structure and any text buffer.
+

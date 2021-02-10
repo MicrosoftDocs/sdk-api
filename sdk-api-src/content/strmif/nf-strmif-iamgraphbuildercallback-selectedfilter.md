@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMGraphBuilderCallback.SelectedFilter
+ - IAMGraphBuilderCallback::SelectedFilter
 ---
 
 # IAMGraphBuilderCallback::SelectedFilter
@@ -72,3 +72,4 @@ The Filter Graph Manager holds a graph-wide critical section while it calls this
 ## -see-also
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamgraphbuildercallback">IAMGraphBuilderCallback Interface</a>
+

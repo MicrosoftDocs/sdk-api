@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
- - IImePadApplet.Initialize
+ - IImePadApplet::Initialize
 ---
 
 # IImePadApplet::Initialize
@@ -69,3 +69,4 @@ When the ImePad user interface is created, <a href="/windows/desktop/api/imepad/
 ## -see-also
 
 <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
+

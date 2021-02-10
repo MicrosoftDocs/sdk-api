@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemProviderIdentity.SetRegistrationObject
+ - IWbemProviderIdentity::SetRegistrationObject
 ---
 
 # IWbemProviderIdentity::SetRegistrationObject
@@ -77,3 +77,4 @@ Any <b>HRESULT</b> return code other than <b>WBEM_S_NO_ERROR</b> indicates a pro
 ## -see-also
 
 <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemprovideridentity">IWbemProviderIdentity</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activation.h
 api_name:
- - IActivationFactory.ActivateInstance
+ - IActivationFactory::ActivateInstance
 ---
 
 # IActivationFactory::ActivateInstance
@@ -128,3 +128,4 @@ Use the <b>ActivateInstance</b> function to activate a Windows Runtime class. Th
 
 
 <a href="/windows/desktop/api/roapi/nf-roapi-roactivateinstance">RoActivateInstance</a>
+

@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecNotificationQueryAsync
+ - IWbemServices::ExecNotificationQueryAsync
 ---
 
 # IWbemServices::ExecNotificationQueryAsync
@@ -148,3 +148,4 @@ There are limits to the number of <b>AND</b> and <b>OR</b> keywords that can be 
 
 
 <a href="/windows/desktop/WmiSdk/receiving-events-for-the-duration-of-your-application">Receiving Events for the Duration of your Application</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_collab_event_type_tag
  - PEER_COLLAB_EVENT_TYPE
 ---
 
@@ -103,3 +104,4 @@ The status of a  request to refresh endpoint data or subscribe to endpoint data 
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
+

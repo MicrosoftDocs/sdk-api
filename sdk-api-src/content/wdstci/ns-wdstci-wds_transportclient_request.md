@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wdstci.h
 api_name:
+ - _WDS_TRANSPORTCLIENT_REQUEST
+ - PWDS_TRANSPORTCLIENT_REQUEST
  - WDS_TRANSPORTCLIENT_REQUEST
 ---
 
@@ -176,3 +178,4 @@ Protocol data structure for the protocol. The structure is <b>NULL</b> for  <b>W
 ### -field ulProtocolDataLength
 
 The length of the protocol data pointed to by <b>pvProtocolData</b>.
+

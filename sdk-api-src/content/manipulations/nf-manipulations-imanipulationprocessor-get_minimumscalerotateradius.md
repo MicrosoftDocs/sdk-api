@@ -42,9 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor.MinimumScaleRotateRadius
- - IManipulationProcessor.get_MinimumScaleRotateRadius
- - IManipulationProcessor.put_MinimumScaleRotateRadius
+ - IManipulationProcessor::get_MinimumScaleRotateRadius
 ---
 
 # IManipulationProcessor::get_MinimumScaleRotateRadius
@@ -83,3 +81,4 @@ pManip->put_MinimumScaleRotateRadius(4000.0f);
 ## -see-also
 
 <a href="/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
+

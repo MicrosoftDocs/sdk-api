@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupDiGetDeviceInterfaceDetailW
  - setupapi/SetupDiGetDeviceInterfaceDetailW
+ - SetupDiGetDeviceInterfaceDetail
+ - setupapi/SetupDiGetDeviceInterfaceDetail
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +46,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetDeviceInterfaceDetail
  - SetupDiGetDeviceInterfaceDetailW
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
+ - SetupDiGetDeviceInterfaceDetail
 ---
 
 # SetupDiGetDeviceInterfaceDetailW function
@@ -119,3 +121,4 @@ The interface detail returned by this function consists of a device path that ca
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionFactory2.CreateTransition
+ - IUIAnimationTransitionFactory2::CreateTransition
 ---
 
 # IUIAnimationTransitionFactory2::CreateTransition
@@ -82,3 +82,4 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionfactory2">IUIAnimationTransitionFactory2</a>
+

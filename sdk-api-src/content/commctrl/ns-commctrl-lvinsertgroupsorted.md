@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagLVINSERTGROUPSORTED
+ - PLVINSERTGROUPSORTED
  - LVINSERTGROUPSORTED
 ---
 
@@ -87,3 +89,4 @@ Group to sort; this is application-defined.
 
 
 <b>Reference</b>
+

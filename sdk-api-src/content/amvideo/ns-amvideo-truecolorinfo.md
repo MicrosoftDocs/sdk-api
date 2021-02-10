@@ -44,6 +44,7 @@ api_type:
 api_location:
  - amvideo.h
 api_name:
+ - tag_TRUECOLORINFO
  - TRUECOLORINFO
 ---
 
@@ -75,3 +76,4 @@ This structure is not used for some RGB formats. For more information about whic
 
 
 <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetTextExtentExPointA
  - wingdi/GetTextExtentExPointA
+ - GetTextExtentExPoint
+ - wingdi/GetTextExtentExPoint
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetTextExtentExPoint
  - GetTextExtentExPointA
- - GetTextExtentExPointW
+ - GetTextExtentExPoint
 ---
 
 # GetTextExtentExPointA function
@@ -131,3 +132,4 @@ This function returns the extent of each successive character in a string. When 
 
 
 <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+

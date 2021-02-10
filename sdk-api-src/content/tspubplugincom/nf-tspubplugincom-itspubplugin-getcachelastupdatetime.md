@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tspubplugincom.h
 api_name:
- - ItsPubPlugin.GetCacheLastUpdateTime
+ - ItsPubPlugin::GetCacheLastUpdateTime
 ---
 
 # ItsPubPlugin::GetCacheLastUpdateTime
@@ -69,3 +69,4 @@ The RemoteApp and Desktop Connection Management service calls this method to get
 ## -see-also
 
 <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>
+

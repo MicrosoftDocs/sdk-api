@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule.LocalAddresses
- - INetFwRule.get_LocalAddresses
- - INetFwRule.put_LocalAddresses
+ - INetFwRule::put_LocalAddresses
 ---
 
 # INetFwRule::put_LocalAddresses
@@ -81,3 +79,4 @@ The <i>localAddrs</i> parameter consists of one or more comma-delimited tokens s
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
+

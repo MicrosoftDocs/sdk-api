@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PFIND_BY_SID_DATA
  - FIND_BY_SID_DATA
 ---
 
@@ -71,3 +72,4 @@ A <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that speci
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>
+

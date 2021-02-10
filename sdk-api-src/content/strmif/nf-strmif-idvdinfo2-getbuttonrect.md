@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetButtonRect
+ - IDvdInfo2::GetButtonRect
 ---
 
 # IDvdInfo2::GetButtonRect
@@ -100,3 +100,4 @@ This method is currently not implemented
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+

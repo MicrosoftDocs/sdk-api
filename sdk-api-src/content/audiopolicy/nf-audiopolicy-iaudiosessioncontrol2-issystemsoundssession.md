@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionControl2.IsSystemSoundsSession
+ - IAudioSessionControl2::IsSystemSoundsSession
 ---
 
 # IAudioSessionControl2::IsSystemSoundsSession
@@ -90,3 +90,4 @@ The session is not a system sounds session.
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
+

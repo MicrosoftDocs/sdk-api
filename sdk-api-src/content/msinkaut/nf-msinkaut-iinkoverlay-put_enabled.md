@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.Enabled
- - IInkOverlay.get_Enabled
- - IInkOverlay.put_Enabled
- - InkOverlay.get_Enabled
- - InkOverlay.put_Enabled
+ - IInkOverlay::put_Enabled
 ---
 
 # IInkOverlay::put_Enabled
@@ -160,3 +156,4 @@ Methods
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd Property</a>
+

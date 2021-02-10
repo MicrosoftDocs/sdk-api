@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_VOLUME_PROP
+ - PVDS_VOLUME_PROP
  - VDS_VOLUME_PROP
 ---
 
@@ -137,3 +139,4 @@ When a volume is offline, the <b>VDS_VF_PERMANENTLY_DISMOUNTED</b> flag is set i
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_volume_type">VDS_VOLUME_TYPE</a>
+

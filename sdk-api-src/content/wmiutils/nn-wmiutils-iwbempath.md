@@ -43,8 +43,6 @@ api_location:
  - Wmiutils.dll
 api_name:
  - IWbemPath
- - IWbemPath.SetScopeFromText
- - WbemDefPath
 ---
 
 # IWbemPath interface

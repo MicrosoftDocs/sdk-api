@@ -9,6 +9,8 @@ tech.root: qos
 f1_keywords:
  - qosobjs
  - qosobjs/qosobjs
+api_name:
+ - qosobjs
 ---
 
 # Qosobjs.h header

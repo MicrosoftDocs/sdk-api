@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - tagCSC_ThreadPool
  - CSC_ThreadPool
 ---
 
@@ -91,3 +92,4 @@ This enumeration is used to set the thread pool for <a href="/windows/desktop/co
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicethreadpoolconfig-selectthreadpool">IServiceThreadPoolConfig::SelectThreadPool</a>
+

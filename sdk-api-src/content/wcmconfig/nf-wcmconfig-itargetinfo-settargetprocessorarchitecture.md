@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ITargetInfo.SetTargetProcessorArchitecture
+ - ITargetInfo::SetTargetProcessorArchitecture
 ---
 
 # ITargetInfo::SetTargetProcessorArchitecture
@@ -65,3 +65,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. Returns <b>
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.ReportFileName
- - IDataManager.get_ReportFileName
- - IDataManager.put_ReportFileName
+ - IDataManager::put_ReportFileName
 ---
 
 # IDataManager::put_ReportFileName
@@ -65,3 +63,4 @@ For details, see the <b>plaCreateHtml</b> value of the <a href="/windows/win32/a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
+

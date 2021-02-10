@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagCIEXYZ
  - CIEXYZ
 ---
 
@@ -75,3 +76,4 @@ The z coordinate in fix point (2.30).
 
 
 <a href="/previous-versions/windows/desktop/wcs/structures">Structures</a>
+

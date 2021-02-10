@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - SHChangeNotifyRegister
  - shlobj_core/SHChangeNotifyRegister
@@ -46,8 +47,6 @@ api_location:
  - windows.storage.dll
 api_name:
  - SHChangeNotifyRegister
- - NTSHChangeNotifyRegister
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHChangeNotifyRegister function
@@ -151,3 +150,4 @@ When a relevant file system event takes place and the <i>hwnd</i> parameter is n
 For performance reasons, multiple notifications can be combined into a single notification. For example, if a large number of <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHCNE_UPDATEITEM</a> notifications are generated for files in the same folder, they can be joined into a single <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHCNE_UPDATEDIR</a> notification.
 
 The <b>NTSHChangeNotifyRegister</b> function, which is no longer available as of Windows Vista, was equivalent to <b>SHChangeNotifyRegister</b> with the SHCNRF_NewDelivery flag.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName
+ - IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName
 ---
 
 # IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName
@@ -119,3 +119,4 @@ The <b>InitializeFromInnerRequestTemplateName</b> method:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
+

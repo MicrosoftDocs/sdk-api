@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.StaleDataRead
+ - IMSVidStreamBufferSourceEvent::StaleDataRead
 ---
 
 # IMSVidStreamBufferSourceEvent::StaleDataRead
@@ -70,3 +70,4 @@ This event corresponds to the STREAMBUFFER_EC_STALE_DATA_READ event in the Strea
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent Interface</a>
+

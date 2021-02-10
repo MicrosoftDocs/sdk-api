@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.CancelGroup
+ - IBackgroundCopyGroup::CancelGroup
 ---
 
 # IBackgroundCopyGroup::CancelGroup
@@ -81,3 +81,4 @@ The group was successfully canceled.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
+ - _IP_ADAPTER_DNS_SUFFIX
+ - PIP_ADAPTER_DNS_SUFFIX
  - IP_ADAPTER_DNS_SUFFIX
 ---
 
@@ -86,3 +88,4 @@ The <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP
 
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
+

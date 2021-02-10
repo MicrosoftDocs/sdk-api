@@ -42,9 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription.SubscriberCLSID
- - IEventSubscription.get_SubscriberCLSID
- - IEventSubscription.put_SubscriberCLSID
+ - IEventSubscription::get_SubscriberCLSID
 ---
 
 # IEventSubscription::get_SubscriberCLSID
@@ -65,3 +63,4 @@ If not empty, the subscription is persistent and the <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProviderCollection.Remove
+ - ITraceDataProviderCollection::Remove
 ---
 
 # ITraceDataProviderCollection::Remove
@@ -79,3 +79,4 @@ Note that by removing the trace provider from the collection, you are also remov
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-clear">ITraceDataProviderCollection::Clear</a>
+

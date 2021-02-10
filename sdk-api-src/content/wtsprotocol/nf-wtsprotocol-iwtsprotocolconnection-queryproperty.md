@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.QueryProperty
+ - IWTSProtocolConnection::QueryProperty
 ---
 
 # IWTSProtocolConnection::QueryProperty
@@ -252,3 +252,4 @@ One or more <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value"
 
 
 <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WTS_PROPERTY_VALUE</a>
+

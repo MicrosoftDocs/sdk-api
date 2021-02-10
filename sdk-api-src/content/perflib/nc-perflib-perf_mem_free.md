@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - FreeMemory
+ - PERF_MEM_FREE
 ---
 
 # PERF_MEM_FREE callback function
@@ -77,3 +77,4 @@ If you used the <b>-MemoryRoutines</b> when calling <a href="/windows/desktop/Pe
 
 
 <a href="/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>
+

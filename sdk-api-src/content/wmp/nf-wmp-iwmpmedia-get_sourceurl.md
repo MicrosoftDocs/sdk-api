@@ -42,9 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia.get_sourceURL
- - IWMPMedia2.get_sourceURL
- - IWMPMedia3.get_sourceURL
+ - IWMPMedia::get_sourceURL
 ---
 
 # IWMPMedia::get_sourceURL
@@ -85,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
+

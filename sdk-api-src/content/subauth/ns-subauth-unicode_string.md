@@ -47,7 +47,9 @@ api_location:
  - Subauth.h
  - Ntsecapi.h
 api_name:
- - LSA_UNICODE_STRING
+ - _UNICODE_STRING
+ - PUNICODE_STRING
+ - UNICODE_STRING
 ---
 
 # UNICODE_STRING structure
@@ -76,3 +78,4 @@ Specifies the total size, in bytes, of memory allocated for <b>Buffer</b>. Up to
 Pointer to a wide-character string. Note that the strings returned by the various LSA functions might not be <b>null</b>-terminated.
 
 <b>Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>When the <b>Length</b> structure member is zero and the <b>MaximumLength</b> structure member is 1, the <b>Buffer</b> structure member can be an empty string or contain solely a null character. This behavior changed beginning with Windows Server 2008 R2 and Windows 7 with SP1.
+

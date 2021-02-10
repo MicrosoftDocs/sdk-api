@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.RemoveMutualExclusion
- - IWMProfile2.RemoveMutualExclusion
- - IWMProfile3.RemoveMutualExclusion
+ - IWMProfile::RemoveMutualExclusion
 ---
 
 # IWMProfile::RemoveMutualExclusion
@@ -112,3 +110,4 @@ The <i>pcME</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">IWMProfile::AddMutualExclusion</a>
+

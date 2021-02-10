@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - qnetwork
  - qnetwork/qnetwork
+api_name:
+ - qnetwork
 ---
 
 # Qnetwork.h header

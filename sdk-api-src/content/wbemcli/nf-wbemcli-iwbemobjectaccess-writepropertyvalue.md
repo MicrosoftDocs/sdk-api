@@ -44,7 +44,7 @@ api_location:
  - Fastprox.dll
  - Wbemess.dll
 api_name:
- - IWbemObjectAccess.WritePropertyValue
+ - IWbemObjectAccess::WritePropertyValue
 ---
 
 # IWbemObjectAccess::WritePropertyValue
@@ -75,3 +75,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
+

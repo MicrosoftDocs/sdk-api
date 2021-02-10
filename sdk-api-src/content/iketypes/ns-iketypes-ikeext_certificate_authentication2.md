@@ -44,6 +44,7 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
+ - IKEEXT_CERTIFICATE_AUTHENTICATION2_
  - IKEEXT_CERTIFICATE_AUTHENTICATION2
 ---
 
@@ -265,3 +266,4 @@ Applicable only to IKEv2.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - IWTSSBPlugin.WTSSBX_GetMostSuitableServer
+ - IWTSSBPlugin::WTSSBX_GetMostSuitableServer
 ---
 
 # IWTSSBPlugin::WTSSBX_GetMostSuitableServer
@@ -97,3 +97,4 @@ Your implementation of <b>WTSSBX_GetMostSuitableServer</b> must return <b>S_OK</
 
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
+

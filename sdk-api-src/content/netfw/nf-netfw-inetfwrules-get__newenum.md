@@ -42,8 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRules._NewEnum
- - INetFwRules.get__NewEnum
+ - INetFwRules::get__NewEnum
 ---
 
 # INetFwRules::get__NewEnum
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
+

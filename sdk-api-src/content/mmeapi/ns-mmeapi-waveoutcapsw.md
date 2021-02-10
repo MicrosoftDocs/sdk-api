@@ -46,7 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - WAVEOUTCAPS
+ - tagWAVEOUTCAPSW
+ - PWAVEOUTCAPSW
  - WAVEOUTCAPSW
 ---
 
@@ -207,3 +208,4 @@ If a device supports volume changes, the WAVECAPS_VOLUME flag will be set for th
 
 
 <a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
+

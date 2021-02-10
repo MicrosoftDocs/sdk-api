@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleClientSite.GetContainer
+ - IOleClientSite::GetContainer
 ---
 
 # IOleClientSite::GetContainer
@@ -102,3 +102,4 @@ Simple containers that do not support links to their embedded objects probably d
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
+

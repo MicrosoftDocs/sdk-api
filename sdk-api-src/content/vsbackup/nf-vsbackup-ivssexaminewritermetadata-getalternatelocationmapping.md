@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadata.GetAlternateLocationMapping
+ - IVssExamineWriterMetadata::GetAlternateLocationMapping
 ---
 
 # IVssExamineWriterMetadata::GetAlternateLocationMapping
@@ -199,3 +199,4 @@ The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-un
 
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
+

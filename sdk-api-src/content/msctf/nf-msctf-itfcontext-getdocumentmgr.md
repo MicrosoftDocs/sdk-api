@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.GetDocumentMgr
+ - ITfContext::GetDocumentMgr
 ---
 
 # ITfContext::GetDocumentMgr
@@ -109,3 +109,4 @@ If the context is not contained within a document manager, this method returns S
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md), [ITfDocumentMgr::Pop](nf-msctf-itfdocumentmgr-pop.md)
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaEventGenerator.BeginGetEvent
+ - IMFMediaEventGenerator::BeginGetEvent
 ---
 
 # IMFMediaEventGenerator::BeginGetEvent
@@ -213,3 +213,4 @@ HRESULT CEventHandler::Invoke(IMFAsyncResult *pAsyncResult)
 
 
 <a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_SUPPLEMENTAL_CRED
+ - PSECPKG_SUPPLEMENTAL_CRED
  - SECPKG_SUPPLEMENTAL_CRED
 ---
 
@@ -77,3 +79,4 @@ Pointer to a set of package-specific supplemental credentials.
 ### -field Credentials.size_is
 
 ### -field Credentials.size_is.CredentialSize
+

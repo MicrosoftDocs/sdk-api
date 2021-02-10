@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumClockVector.Reset
+ - IEnumClockVector::Reset
 ---
 
 # IEnumClockVector::Reset
@@ -79,3 +79,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumclockvector">IEnumClockVector Interface</a>
+

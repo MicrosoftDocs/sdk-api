@@ -42,13 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.ClassificationReportMailTo
- - IFsrmClassificationManager.get_ClassificationReportMailTo
- - IFsrmClassificationManager.put_ClassificationReportMailTo
- - IFsrmClassificationManager2.ClassificationReportMailTo
- - IFsrmClassificationManager2.get_ClassificationReportMailTo
- - IFsrmClassificationManager2.put_ClassificationReportMailTo
- - FsrmClassificationManager.ClassificationReportMailTo
+ - IFsrmClassificationManager::put_ClassificationReportMailTo
 ---
 
 # IFsrmClassificationManager::put_ClassificationReportMailTo
@@ -91,3 +85,4 @@ The email message is sent only if the classification finishes successfully. Emai
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetNewTarget
+ - IVssComponent::GetNewTarget
 ---
 
 # IVssComponent::GetNewTarget
@@ -149,3 +149,4 @@ New targets returned by
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>
+

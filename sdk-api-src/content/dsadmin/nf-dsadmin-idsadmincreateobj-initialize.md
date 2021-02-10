@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminCreateObj.Initialize
+ - IDsAdminCreateObj::Initialize
 ---
 
 # IDsAdminCreateObj::Initialize
@@ -87,3 +87,4 @@ The <b>IDsAdminCreateObj::Initialize</b> method must be called before <a href="/
 
 
 <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-createmodal">IDsAdminCreateObj::CreateModal</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetTextExtentExPointI
  - wingdi/GetTextExtentExPointI
+ - GetTextExtentExPoint
+ - wingdi/GetTextExtentExPoint
 dev_langs:
  - c++
 topic_type:
@@ -46,6 +48,7 @@ api_location:
  - GDI32Full.dll
 api_name:
  - GetTextExtentExPointI
+ - GetTextExtentExPoint
 ---
 
 # GetTextExtentExPointI function
@@ -112,3 +115,4 @@ When this function returns the text extent, it assumes that the text is horizont
 
 
 <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+

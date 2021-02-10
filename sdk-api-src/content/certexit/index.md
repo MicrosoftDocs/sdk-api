@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - certexit
  - certexit/certexit
+api_name:
+ - certexit
 ---
 
 # Certexit.h header

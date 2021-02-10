@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupGetMultiSzFieldW
  - setupapi/SetupGetMultiSzFieldW
+ - SetupGetMultiSzField
+ - setupapi/SetupGetMultiSzField
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Setupapi.dll
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupGetMultiSzField
- - SetupGetMultiSzFieldA
  - SetupGetMultiSzFieldW
-req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
+ - SetupGetMultiSzField
 ---
 
 # SetupGetMultiSzFieldW function
@@ -123,3 +124,4 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetstringfielda">SetupGetStringField</a>
+

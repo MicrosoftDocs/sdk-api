@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfMouseSink.OnMouseEvent
+ - ITfMouseSink::OnMouseEvent
 ---
 
 # ITfMouseSink::OnMouseEvent
@@ -117,3 +117,4 @@ The caller should translate double-click events into multiple mouse button down 
 
 
 <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a>
+

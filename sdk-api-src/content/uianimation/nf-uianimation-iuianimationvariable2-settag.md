@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.SetTag
+ - IUIAnimationVariable2::SetTag
 ---
 
 # IUIAnimationVariable2::SetTag
@@ -82,3 +82,4 @@ A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>ob
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-gettag">IUIAnimationVariable2::GetTag</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorCollection._NewEnum
- - IDataCollectorCollection.get__NewEnum
+ - IDataCollectorCollection::get__NewEnum
 ---
 
 # IDataCollectorCollection::get__NewEnum
@@ -68,3 +67,4 @@ The enumeration is a snapshot of the collection at the time of the call.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
+

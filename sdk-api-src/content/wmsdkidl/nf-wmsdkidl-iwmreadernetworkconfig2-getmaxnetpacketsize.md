@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.GetMaxNetPacketSize
+ - IWMReaderNetworkConfig2::GetMaxNetPacketSize
 ---
 
 # IWMReaderNetworkConfig2::GetMaxNetPacketSize
@@ -97,3 +97,4 @@ NULL pointer argument.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
+

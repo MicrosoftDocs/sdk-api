@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl.GetState
+ - IAudioSessionControl::GetState
 ---
 
 # IAudioSessionControl::GetState
@@ -129,3 +129,4 @@ The client creates a stream by calling the <a href="/windows/desktop/api/audiocl
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>
+

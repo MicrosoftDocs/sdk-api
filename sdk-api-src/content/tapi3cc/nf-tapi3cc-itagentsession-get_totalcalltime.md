@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentSession.get_TotalCallTime
+ - ITAgentSession::get_TotalCallTime
 ---
 
 # ITAgentSession::get_TotalCallTime
@@ -138,3 +138,4 @@ This method wraps the TAPI 2.1
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a>
+

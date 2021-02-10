@@ -46,6 +46,8 @@ api_type:
 api_location:
  - BthLEDef.h
 api_name:
+ - _BTH_LE_GATT_DESCRIPTOR_VALUE
+ - PBTH_LE_GATT_DESCRIPTOR_VALUE
  - BTH_LE_GATT_DESCRIPTOR_VALUE
 ---
 
@@ -136,3 +138,4 @@ A pointer to the descriptor value data.
 <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetdescriptorvalue">BluetoothGATTGetDescriptorValue</a>
 
 <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetdescriptorvalue">BluetoothGATTSetDescriptorValue</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_KARAOKE_DOWNMIX
  - DVD_KARAOKE_DOWNMIX
 ---
 
@@ -123,3 +124,4 @@ Audio channels are zero-based, so channels 2 through 4 are the three auxiliary k
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectkaraokeaudiopresentationmode">IDvdControl2::SelectKaraokeAudioPresentationMode</a>
+

@@ -9,6 +9,8 @@ tech.root: intl
 f1_keywords:
  - datetimeapi
  - datetimeapi/datetimeapi
+api_name:
+ - datetimeapi
 ---
 
 # Datetimeapi.h header

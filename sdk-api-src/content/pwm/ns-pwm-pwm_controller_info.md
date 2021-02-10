@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Pwm.h
 api_name:
+ - _PWM_CONTROLLER_INFO
  - PWM_CONTROLLER_INFO
 ---
 
@@ -75,3 +76,4 @@ The maximum supported output signal period, in picoseconds, for the controller. 
 ## -see-also
 
 <a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>
+

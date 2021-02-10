@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPropertyVault.GetPropertyCount
+ - IWMPropertyVault::GetPropertyCount
 ---
 
 # IWMPropertyVault::GetPropertyCount
@@ -97,3 +97,4 @@ pdwCount is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
+

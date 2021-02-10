@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPRegistrar.GetUniqueDeviceName
+ - IUPnPRegistrar::GetUniqueDeviceName
 ---
 
 # IUPnPRegistrar::GetUniqueDeviceName
@@ -80,3 +80,4 @@ Each UDN specified for a device in the device description template is replaced d
 ## -see-also
 
 <a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
+

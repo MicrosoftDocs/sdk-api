@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsAddressToSiteNamesExW
  - dsgetdc/DsAddressToSiteNamesExW
+ - DsAddressToSiteNamesEx
+ - dsgetdc/DsAddressToSiteNamesEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Netapi32.dll
 api_name:
- - DsAddressToSiteNamesEx
- - DsAddressToSiteNamesExA
  - DsAddressToSiteNamesExW
+ - DsAddressToSiteNamesEx
 ---
 
 # DsAddressToSiteNamesExW function
@@ -103,3 +104,4 @@ Returns <b>NO_ERROR</b> if successful or a Win32 or RPC error otherwise. The fol
 
 > [!NOTE]
 > The dsgetdc.h header defines DsAddressToSiteNamesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

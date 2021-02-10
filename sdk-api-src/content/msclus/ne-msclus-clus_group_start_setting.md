@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
  - MsClus.h
 api_name:
+ - __MIDL___MIDL_itf_msclus_0000_0000_0005
  - CLUS_GROUP_START_SETTING
 ---
 

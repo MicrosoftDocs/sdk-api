@@ -41,8 +41,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - IOptionDescription.Description
- - IOptionDescription.get_Description
+ - IOptionDescription::get_Description
 ---
 
 # IOptionDescription::get_Description
@@ -63,3 +62,4 @@ The description explains the implications of making the various choices associat
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
+

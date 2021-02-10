@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IActiveDesktop.AddUrl
+ - IActiveDesktop::AddUrl
 ---
 
 # IActiveDesktop::AddUrl
@@ -135,3 +135,4 @@ By default, this method will display some user interface and then add the deskto
 
 
 <a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
+

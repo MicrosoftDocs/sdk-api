@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_KEYMODULE_STATE0_
  - IPSEC_KEYMODULE_STATE0
 ---
 
@@ -71,3 +72,4 @@ A byte blob containing opaque keying module specific information.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

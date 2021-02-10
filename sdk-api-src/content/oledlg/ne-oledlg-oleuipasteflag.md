@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
+ - tagOLEUIPASTEFLAG
  - OLEUIPASTEFLAG
 ---
 
@@ -119,3 +120,4 @@ Link type 8.
 ## -see-also
 
 <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a>
+

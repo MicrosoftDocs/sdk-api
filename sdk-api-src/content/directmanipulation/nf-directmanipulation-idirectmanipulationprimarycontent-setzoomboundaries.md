@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.SetZoomBoundaries
+ - IDirectManipulationPrimaryContent::SetZoomBoundaries
 ---
 
 # IDirectManipulationPrimaryContent::SetZoomBoundaries
@@ -73,3 +73,4 @@ If the content is outside the new boundaries, and the viewport is ENABLED or REA
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationprimarycontent">IDirectManipulationPrimaryContent</a>
+

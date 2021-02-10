@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - StartupEx callback
+ - PSTARTUP_EX_ROUTINE
 ---
 
 # PSTARTUP_EX_ROUTINE callback function
@@ -114,3 +114,4 @@ The resource DLL does not support a version that falls in the range identified b
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
+

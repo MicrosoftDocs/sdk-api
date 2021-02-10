@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistFile.Save
+ - IPersistFile::Save
 ---
 
 # IPersistFile::Save
@@ -86,3 +86,4 @@ OLE does not call <b>IPersistFile::Save</b>. Typically, applications would not c
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
+

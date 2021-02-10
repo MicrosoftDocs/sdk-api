@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI.GetParameterRange
+ - ICodecAPI::GetParameterRange
 ---
 
 # ICodecAPI::GetParameterRange
@@ -142,3 +142,4 @@ If the property supports a list of values, instead of a range, the method return
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
+

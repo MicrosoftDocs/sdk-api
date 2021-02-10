@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoDecoder.BeginFrame
+ - IDirectXVideoDecoder::BeginFrame
 ---
 
 # IDirectXVideoDecoder::BeginFrame
@@ -112,3 +112,4 @@ The surface pointed to by <i>pRenderTarget</i> must be created by calling <a hre
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
+

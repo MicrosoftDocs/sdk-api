@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelper.GetRepairInfo
+ - INetDiagHelper::GetRepairInfo
 ---
 
 # INetDiagHelper::GetRepairInfo
@@ -151,3 +151,4 @@ This method is not required when building a Helper Class Extension.
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
+

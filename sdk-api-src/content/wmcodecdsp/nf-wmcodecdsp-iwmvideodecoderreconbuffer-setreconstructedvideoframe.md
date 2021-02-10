@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
+ - IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
 ---
 
 # IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
@@ -93,3 +93,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-getreconstructedvideoframesize">IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize</a>
+

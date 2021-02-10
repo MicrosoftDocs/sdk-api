@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoDecoder.GetBuffer
+ - IDirectXVideoDecoder::GetBuffer
 ---
 
 # IDirectXVideoDecoder::GetBuffer
@@ -198,3 +198,4 @@ This method might block if too many operations have been queued on the GPU. The 
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
+

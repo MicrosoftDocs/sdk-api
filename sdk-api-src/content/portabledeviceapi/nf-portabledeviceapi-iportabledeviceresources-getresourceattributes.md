@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceResources.GetResourceAttributes
+ - IPortableDeviceResources::GetResourceAttributes
 ---
 
 # IPortableDeviceResources::GetResourceAttributes
@@ -118,3 +118,4 @@ Resource attributes describe the access rights, size, format, and other informat
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
+ - _SERVICE_FAILURE_ACTIONS_FLAG
+ - LPSERVICE_FAILURE_ACTIONS_FLAG
  - SERVICE_FAILURE_ACTIONS_FLAG
 ---
 
@@ -83,3 +85,4 @@ It can be useful to set this flag if your service has common failure paths where
 
 
 <a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
+

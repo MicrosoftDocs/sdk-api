@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemStatusCodeText.GetFacilityCodeText
+ - IWbemStatusCodeText::GetFacilityCodeText
 ---
 
 # IWbemStatusCodeText::GetFacilityCodeText

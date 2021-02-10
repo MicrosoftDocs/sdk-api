@@ -46,6 +46,8 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _IMAGEHLP_STACK_FRAME
+ - PIMAGEHLP_STACK_FRAME
  - IMAGEHLP_STACK_FRAME
 ---
 
@@ -130,3 +132,4 @@ This member is reserved for system use.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a>
+

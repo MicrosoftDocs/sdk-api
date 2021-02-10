@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StrCmpCW
  - shlwapi/StrCmpCW
+ - StrCmpC
+ - shlwapi/StrCmpC
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCmpC
- - StrCmpCA
  - StrCmpCW
+ - StrCmpC
 ---
 
 # StrCmpCW function
@@ -97,3 +98,4 @@ For those versions of Windows that do not include <b>StrCmpC</b> in Shlwapi.h, t
 ## -see-also
 
 <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+

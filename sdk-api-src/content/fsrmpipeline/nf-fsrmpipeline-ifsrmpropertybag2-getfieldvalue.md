@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag2.GetFieldValue
+ - IFsrmPropertyBag2::GetFieldValue
 ---
 
 # IFsrmPropertyBag2::GetFieldValue
@@ -79,3 +79,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag2">IFsrmPropertyBag2</a>
+

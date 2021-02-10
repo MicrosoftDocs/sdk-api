@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext2.LDAPQueryDN
- - IAzClientContext2.get_LDAPQueryDN
- - IAzClientContext2.put_LDAPQueryDN
+ - IAzClientContext2::put_LDAPQueryDN
 ---
 
 # IAzClientContext2::put_LDAPQueryDN

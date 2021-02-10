@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPError.webHelp
+ - IWMPError::webHelp
 ---
 
 # IWMPError::webHelp
@@ -91,3 +91,4 @@ To access the Web Help pages directly, use the following error code and support 
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError Interface</a>
+

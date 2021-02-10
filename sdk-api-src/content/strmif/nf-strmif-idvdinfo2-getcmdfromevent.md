@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetCmdFromEvent
+ - IDvdInfo2::GetCmdFromEvent
 ---
 
 # IDvdInfo2::GetCmdFromEvent
@@ -126,3 +126,4 @@ This method maps the <i>lParam1</i> parameter of an EC_DVD_CMD_START or EC_DVD_C
 
 
 <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
+

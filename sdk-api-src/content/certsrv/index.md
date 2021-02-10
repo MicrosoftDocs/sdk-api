@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - certsrv
  - certsrv/certsrv
+api_name:
+ - certsrv
 ---
 
 # Certsrv.h header

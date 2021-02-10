@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymGetModuleInfo64
- - SymGetModuleInfo64
  - SymGetModuleInfoW64
- - SymGetModuleInfo
- - SymGetModuleInfoW
 ---
 
 # SymGetModuleInfoW64 function
@@ -152,3 +148,4 @@ SymGetModuleInfoW(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
+

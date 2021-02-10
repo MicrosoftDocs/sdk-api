@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSms.GetSmsStatus
+ - IMbnSms::GetSmsStatus
 ---
 
 # IMbnSms::GetSmsStatus
@@ -139,3 +139,4 @@ Application issued operations such as the  reading or deleting of messages may r
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a>
+

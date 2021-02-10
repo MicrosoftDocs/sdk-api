@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_BINARY_DATA
+ - LPDHCP_BINARY_DATA
  - DHCP_BINARY_DATA
 ---
 

@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - tokenbinding
  - tokenbinding/tokenbinding
+api_name:
+ - tokenbinding
 ---
 
 # Tokenbinding.h header

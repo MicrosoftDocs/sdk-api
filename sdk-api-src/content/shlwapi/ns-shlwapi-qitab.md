@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shlwapi.h
 api_name:
+ - LPQITAB
  - QITAB
 ---
 
@@ -73,3 +74,4 @@ The offset, in bytes, from the base of the object to the start of the interface.
 <div class="alert"><b>Note</b>  Prior to Windows Vista, <b>QITAB</b> was not declared in a public header file. To use it in those cases, you must use define it yourself as it is given here. Under Windows Vista, <b>QITAB</b> is included in Shlwapi.h and this is not necessary.</div>
 <div> </div>
 To mark the end of a <b>QITAB</b> table, set the <b>piid</b> member to <b>NULL</b> and the <b>dwOffset</b> member to 0. See the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-qisearch">QISearch</a> function for an example of how to use this structure.
+

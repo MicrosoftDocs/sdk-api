@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmMonitor.GetClerks
+ - ICrmMonitor::GetClerks
 ---
 
 # ICrmMonitor::GetClerks
@@ -105,3 +105,4 @@ Recovery of the CRM log file is still in progress.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitor">ICrmMonitor</a>
+

@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursor.DrawingAttributes
- - IInkCursor.get_DrawingAttributes
- - IInkCursor.get_DrawingAttributes
+ - IInkCursor::get_DrawingAttributes
 ---
 
 # IInkCursor::get_DrawingAttributes
@@ -87,3 +85,4 @@ Successive calls to the <b>DrawingAttributes</b> property change only the drawin
 
 
 <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
+ - _CRYPTUI_WIZ_IMPORT_SUBJECT_INFO
+ - PCRYPTUI_WIZ_IMPORT_SRC_INFO
  - CRYPTUI_WIZ_IMPORT_SRC_INFO
 ---
 
@@ -212,3 +214,4 @@ Pointer to a null-terminated Unicode string that contains the password used to a
 
 
 <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>
+

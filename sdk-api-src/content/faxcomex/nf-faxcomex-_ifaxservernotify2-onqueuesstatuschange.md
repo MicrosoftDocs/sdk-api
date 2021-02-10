@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnQueuesStatusChange
- - IFaxServerNotify2.OnQueuesStatusChange
+ - _IFaxServerNotify2::OnQueuesStatusChange
 ---
 
 # _IFaxServerNotify2::OnQueuesStatusChange
@@ -92,3 +91,4 @@ To implement this functionality in Microsoft Visual Basic, select and implement 
 ## -see-also
 
 <a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+

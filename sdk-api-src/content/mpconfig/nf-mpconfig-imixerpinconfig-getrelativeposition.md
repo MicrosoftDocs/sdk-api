@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig.GetRelativePosition
+ - IMixerPinConfig::GetRelativePosition
 ---
 
 # IMixerPinConfig::GetRelativePosition
@@ -119,3 +119,4 @@ This method assumes window coordinates of {0, 0, 10,000, 10,000}. If the video s
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setrelativeposition">IMixerPinConfig::SetRelativePosition</a>
+

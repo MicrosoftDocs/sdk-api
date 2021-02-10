@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_member_tag
+ - PPEER_MEMBER
  - PEER_MEMBER
 ---
 
@@ -114,3 +116,4 @@ Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER
 
 
 <a href="/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a>
+

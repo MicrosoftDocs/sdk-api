@@ -9,6 +9,8 @@ tech.root: controls
 f1_keywords:
  - dpa_dsa
  - dpa_dsa/dpa_dsa
+api_name:
+ - dpa_dsa
 ---
 
 # Dpa_Dsa.h header

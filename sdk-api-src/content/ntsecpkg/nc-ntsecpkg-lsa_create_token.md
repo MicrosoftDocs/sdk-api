@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - CreateToken
+ - LSA_CREATE_TOKEN
 ---
 
 # LSA_CREATE_TOKEN callback function
@@ -175,3 +175,4 @@ A pointer to the <b>CreateToken</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

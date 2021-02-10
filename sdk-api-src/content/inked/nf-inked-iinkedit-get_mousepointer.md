@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.MousePointer
- - IInkEdit.get_MousePointer
- - IInkEdit.put_MousePointer
- - InkEdit.get_MousePointer
- - InkEdit.put_MousePointer
+ - IInkEdit::get_MousePointer
 ---
 
 # IInkEdit::get_MousePointer
@@ -74,3 +70,4 @@ You can use this property when you want to indicate changes in functionality as 
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBCONTENTVECTOR
  - DBCONTENTVECTOR
 ---
 
@@ -69,3 +70,4 @@ Jaccard, dice, and so on.
 For valid values of the <b>dwRankingMethod</b> member, see <a href="/previous-versions/windows/desktop/indexsrv/vector-rank-constants">Vector Rank Constants</a>.
 
 For more information on the DBOP_content_vector operator, see <a href="/previous-versions/windows/desktop/indexsrv/content-search-operators">Content Search Operators</a>.
+

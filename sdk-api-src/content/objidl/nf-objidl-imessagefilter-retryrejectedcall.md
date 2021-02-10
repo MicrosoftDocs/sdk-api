@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMessageFilter.RetryRejectedCall
+ - IMessageFilter::RetryRejectedCall
 ---
 
 # IMessageFilter::RetryRejectedCall
@@ -128,3 +128,4 @@ If a client implements <a href="/windows/desktop/api/objidl/nn-objidl-imessagefi
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
+ - FWPS_INCOMING_VALUES0_
  - FWPS_INCOMING_VALUES0
 ---
 
@@ -91,3 +92,4 @@ The filter engine passes a pointer to an FWPS_INCOMING_VALUES0 structure to a ca
 
 
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
+

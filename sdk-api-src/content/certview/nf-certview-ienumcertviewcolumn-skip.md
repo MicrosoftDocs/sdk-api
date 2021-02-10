@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.Skip
- - IEnumCERTVIEWCOLUMN.Skip
+ - IEnumCERTVIEWCOLUMN::Skip
 ---
 
 # IEnumCERTVIEWCOLUMN::Skip
@@ -124,3 +123,4 @@ if (S_OK == hr)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-next">IEnumCERTVIEWCOLUMN:Next</a>
+

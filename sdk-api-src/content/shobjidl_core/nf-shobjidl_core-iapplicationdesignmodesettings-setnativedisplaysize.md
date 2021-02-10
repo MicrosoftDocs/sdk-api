@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Twinapi.dll
 api_name:
- - IApplicationDesignModeSettings.SetNativeDisplaySize
+ - IApplicationDesignModeSettings::SetNativeDisplaySize
 ---
 
 # IApplicationDesignModeSettings::SetNativeDisplaySize
@@ -99,3 +99,4 @@ You cannot launch or switch to an immersive app when the resolution is this low.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>
+

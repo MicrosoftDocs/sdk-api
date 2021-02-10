@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10Debug.GetPresentPerRenderOpDelay
+ - ID3D10Debug::GetPresentPerRenderOpDelay
 ---
 
 # ID3D10Debug::GetPresentPerRenderOpDelay
@@ -67,3 +67,4 @@ Value is set with <a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10debug">ID3D10Debug Interface</a>
+

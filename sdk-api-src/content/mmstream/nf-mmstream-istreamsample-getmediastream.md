@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IStreamSample.GetMediaStream
+ - IStreamSample::GetMediaStream
 ---
 
 # IStreamSample::GetMediaStream
@@ -71,3 +71,4 @@ If successful, this method increments the reference count of the media stream sp
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample Interface</a>
+

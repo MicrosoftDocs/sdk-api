@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - FindTextA
  - commdlg/FindTextA
+ - FindText
+ - commdlg/FindText
 dev_langs:
  - c++
 topic_type:
@@ -42,10 +45,8 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - FindText
  - FindTextA
- - FindTextW
-req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
+ - FindText
 ---
 
 # FindTextA function
@@ -133,3 +134,4 @@ For an example, see <a href="/windows/desktop/dlgbox/using-common-dialog-boxes">
 
 
 <a href="/windows/desktop/api/commdlg/nf-commdlg-replacetexta">ReplaceText</a>
+

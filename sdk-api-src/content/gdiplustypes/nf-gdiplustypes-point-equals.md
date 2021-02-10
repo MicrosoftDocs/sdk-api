@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Point.Equals
+ - Point::Equals
 ---
 
 # Point::Equals
@@ -88,3 +88,4 @@ If the
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

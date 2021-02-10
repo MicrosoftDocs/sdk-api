@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMClientSideExtension.IsComputerEnabled
- - GPMClientSideExtension.IsComputerEnabled
+ - IGPMClientSideExtension::IsComputerEnabled
 ---
 
 # IGPMClientSideExtension::IsComputerEnabled
@@ -73,3 +72,4 @@ Value that indicates whether the client-side extension can be configured in the 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmclientsideextension">IGPMClientSideExtension</a>
+

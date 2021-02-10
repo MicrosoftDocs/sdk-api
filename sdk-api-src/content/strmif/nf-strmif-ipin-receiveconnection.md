@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin.ReceiveConnection
+ - IPin::ReceiveConnection
 ---
 
 # IPin::ReceiveConnection
@@ -156,3 +156,4 @@ The <a href="/windows/desktop/DirectShow/cbasepin">CBasePin</a> class implements
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
+

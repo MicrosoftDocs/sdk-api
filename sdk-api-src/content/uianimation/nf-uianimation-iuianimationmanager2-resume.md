@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2.Resume
+ - IUIAnimationManager2::Resume
 ---
 
 # IUIAnimationManager2::Resume
@@ -77,3 +77,4 @@ When an animation manager is resumed, and at least one animation is currently sc
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
+

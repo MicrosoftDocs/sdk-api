@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMBYTEN2.XMBYTEN2
+ - XMBYTEN2::XMBYTEN2
 ---
 
 # XMBYTEN2::XMBYTEN2(const int8_t)
@@ -69,3 +69,4 @@ Two-element <code>int8_t</code> array containing the values used to initialize t
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a>
 
 <a href="/windows/desktop/dxmath/xmbyten2-ctor">XMBYTEN2 Constructors</a>
+

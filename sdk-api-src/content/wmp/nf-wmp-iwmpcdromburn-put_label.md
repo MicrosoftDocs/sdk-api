@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn.put_label
+ - IWMPCdromBurn::put_label
 ---
 
 # IWMPCdromBurn::put_label
@@ -93,3 +93,4 @@ Due to the way CD labels are stored, the label of the CD may be shorter than the
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_label">IWMPCdromBurn::get_label</a>
+

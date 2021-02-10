@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallingCard.get_CardName
+ - ITCallingCard::get_CardName
 ---
 
 # ITCallingCard::get_CardName
@@ -111,3 +111,4 @@ The application must use
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard">ITCallingCard</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLocationInfo.get_PermanentLocationID
+ - ITLocationInfo::get_PermanentLocationID
 ---
 
 # ITLocationInfo::get_PermanentLocationID
@@ -119,3 +119,4 @@ The value that this method returns corresponds to the <b>dwPermanentLocationID</
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
+

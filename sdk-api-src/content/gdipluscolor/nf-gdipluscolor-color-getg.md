@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color.GetG
+ - Color::GetG
 ---
 
 # Color::GetG
@@ -96,3 +96,4 @@ This method returns the green component of this color.
 
 
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
+

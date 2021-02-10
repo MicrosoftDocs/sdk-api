@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaObject.UserAccount
- - IFsrmQuotaObject.get_UserAccount
+ - IFsrmQuotaObject::get_UserAccount
 ---
 
 # IFsrmQuotaObject::get_UserAccount
@@ -73,3 +72,4 @@ This method always returns the string form of the account that corresponds to th
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink2.IsClosed
+ - IWMWriterFileSink2::IsClosed
 ---
 
 # IWMWriterFileSink2::IsClosed
@@ -97,3 +97,4 @@ The <i>pfClosed</i> parameter is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>
+

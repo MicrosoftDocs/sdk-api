@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastScope.get_ServerID
+ - IMcastScope::get_ServerID
 ---
 
 # IMcastScope::get_ServerID
@@ -105,3 +105,4 @@ The caller passed in an invalid pointer argument.
 
 
 <a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_scopeid">IMcastScope::get_ScopeID</a>
+

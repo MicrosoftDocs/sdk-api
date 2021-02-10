@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeInvoke.UpdateItems
+ - ISyncMgrSynchronizeInvoke::UpdateItems
 ---
 
 # ISyncMgrSynchronizeInvoke::UpdateItems
@@ -124,3 +124,4 @@ The errors occur during a synchronization update.
 
 
 <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a>
+

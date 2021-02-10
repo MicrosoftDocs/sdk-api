@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_RESPONSE_V1
+ - PHTTP_RESPONSE_V1
  - HTTP_RESPONSE_V1
 ---
 
@@ -125,3 +127,4 @@ An array of
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>
+

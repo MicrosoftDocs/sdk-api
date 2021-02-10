@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgDocument.CreatePathData
+ - ID2D1SvgDocument::CreatePathData
 ---
 
 # ID2D1SvgDocument::CreatePathData
@@ -93,3 +93,4 @@ This method returns an HRESULT success or error code.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgdocument">ID2D1SvgDocument</a>
+

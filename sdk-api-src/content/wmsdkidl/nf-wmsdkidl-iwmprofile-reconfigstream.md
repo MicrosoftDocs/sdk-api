@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.ReconfigStream
- - IWMProfile2.ReconfigStream
- - IWMProfile3.ReconfigStream
+ - IWMProfile::ReconfigStream
 ---
 
 # IWMProfile::ReconfigStream
@@ -127,3 +125,4 @@ Updating a stream configuration object has no effect on the profile until the ap
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
+

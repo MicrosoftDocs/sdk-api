@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestApplication.GetAppUserModelId
+ - IAppxManifestApplication::GetAppUserModelId
 ---
 
 # IAppxManifestApplication::GetAppUserModelId
@@ -85,3 +85,4 @@ The caller must free the memory allocated for <i>appUserModelId</i> using the <a
 
 
 <b>Reference</b>
+

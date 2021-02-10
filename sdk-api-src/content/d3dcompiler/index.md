@@ -9,6 +9,8 @@ tech.root: direct3dhlsl
 f1_keywords:
  - d3dcompiler
  - d3dcompiler/d3dcompiler
+api_name:
+ - d3dcompiler
 ---
 
 # D3Dcompiler.h header

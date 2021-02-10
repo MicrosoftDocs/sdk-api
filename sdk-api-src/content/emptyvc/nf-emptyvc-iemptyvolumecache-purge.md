@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IEmptyVolumeCache.Purge
+ - IEmptyVolumeCache::Purge
 ---
 
 # IEmptyVolumeCache::Purge
@@ -106,3 +106,4 @@ The operation was ended prematurely. This value is usually returned when <a href
 For Windows 98, the <i>dwSpaceToFree</i> parameter is always set to the value specified by the handler when <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">IEmptyVolumeCache::GetSpaceUsed</a> was called.
 
 In general, handlers should be kept simple and delete all of their files when this function is called. If there are significant performance advantages to only deleting a portion of the files, the handler should implement the <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-showproperties">ShowProperties</a> method. When called, this method displays a UI that allows the user to select the files to be deleted.
+

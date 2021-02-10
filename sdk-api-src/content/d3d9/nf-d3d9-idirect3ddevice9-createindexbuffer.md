@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.CreateIndexBuffer
+ - IDirect3DDevice9::CreateIndexBuffer
 ---
 
 # IDirect3DDevice9::CreateIndexBuffer
@@ -145,3 +145,4 @@ The MaxVertexIndex member of the <a href="/windows/desktop/api/d3d9caps/ns-d3d9c
 
 
 <a href="/windows/desktop/direct3d9/index-buffers">Index Buffers (Direct3D 9)</a>
+

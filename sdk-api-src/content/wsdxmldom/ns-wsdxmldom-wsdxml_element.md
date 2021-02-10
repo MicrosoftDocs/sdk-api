@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdXmldom.h
 api_name:
+ - _WSDXML_ELEMENT
  - WSDXML_ELEMENT
 ---
 
@@ -79,3 +80,4 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_prefi
 ## -remarks
 
 <b>WSDXML_ELEMENT</b> represents an XML element in the DOM tree. The <b>Name</b> member can be used to determine the name and namespace of this element. <b>FirstAttribute</b> points to any attributes, and <b>FirstChild</b> points to anything contained within the element.
+

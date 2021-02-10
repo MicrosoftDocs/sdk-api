@@ -42,7 +42,7 @@ api_type:
 api_location:
  - pnpxassoc.h
 api_name:
- - IPNPXDeviceAssociation.Associate
+ - IPNPXDeviceAssociation::Associate
 ---
 
 # IPNPXDeviceAssociation::Associate
@@ -117,3 +117,4 @@ The <b>Found New Hardware</b> wizard appears if user intervention is required to
 
 
 <a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a>
+

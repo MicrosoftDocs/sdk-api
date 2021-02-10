@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
+ - tagCONVCONTEXT
+ - PCONVCONTEXT
  - CONVCONTEXT
 ---
 
@@ -108,3 +110,4 @@ For added security, your application can specify a security code with the <b>dwS
 ## -see-also
 
 <a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+

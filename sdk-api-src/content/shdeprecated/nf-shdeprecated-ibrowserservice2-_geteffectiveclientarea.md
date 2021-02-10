@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2._GetEffectiveClientArea
+ - IBrowserService2::_GetEffectiveClientArea
 ---
 
 # IBrowserService2::_GetEffectiveClientArea
@@ -80,3 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawLines
+ - Graphics::DrawLines
 ---
 
 # Graphics::DrawLines(IN const Pen,IN const Point,IN INT)
@@ -139,3 +139,4 @@ VOID Example_DrawLines(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

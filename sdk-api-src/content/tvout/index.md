@@ -9,6 +9,8 @@ tech.root: gdi
 f1_keywords:
  - tvout
  - tvout/tvout
+api_name:
+ - tvout
 ---
 
 # Tvout.h header

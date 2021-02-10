@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink.get_ContentRecorder
+ - IMSVidStreamBufferSink::get_ContentRecorder
 ---
 
 # IMSVidStreamBufferSink::get_ContentRecorder
@@ -91,3 +91,4 @@ The caller must release the returned <a href="/windows/desktop/api/segment/nn-se
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
+

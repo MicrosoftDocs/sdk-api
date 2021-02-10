@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpCompleteAuthToken
+ - SpCompleteAuthTokenFn
 ---
 
 # SpCompleteAuthTokenFn callback function
@@ -110,3 +110,4 @@ A pointer to the <b>SpCompleteAuthToken</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
+

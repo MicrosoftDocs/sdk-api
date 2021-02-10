@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - _WMClientProperties
  - WM_CLIENT_PROPERTIES
 ---
 
@@ -75,3 +76,4 @@ The <b>WM_CLIENT_PROPERTIES </b>structure records information about the client.
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a>
+

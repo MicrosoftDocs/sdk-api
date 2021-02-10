@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetOutputSetting
+ - IWMReaderAdvanced2::GetOutputSetting
 ---
 
 # IWMReaderAdvanced2::GetOutputSetting
@@ -88,3 +88,4 @@ You should make two calls to <b>GetOutputSetting</b>. On the first call, pass <b
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
+

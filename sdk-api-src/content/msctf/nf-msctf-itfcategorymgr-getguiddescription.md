@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfCategoryMgr.GetGUIDDescription
+ - ITfCategoryMgr::GetGUIDDescription
 ---
 
 # ITfCategoryMgr::GetGUIDDescription
@@ -111,3 +111,4 @@ The method cannot obtain the description.
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterGUIDDescription](nf-msctf-itfcategorymgr-registerguiddescription.md), [ITfCategoryMgr::UnregisterGUIDDescription](nf-msctf-itfcategorymgr-unregisterguiddescription.md)
+

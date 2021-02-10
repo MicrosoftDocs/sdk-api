@@ -46,6 +46,8 @@ api_type:
 api_location:
  - XInput.h
 api_name:
+ - _XINPUT_BATTERY_INFORMATION
+ - PXINPUT_BATTERY_INFORMATION
  - XINPUT_BATTERY_INFORMATION
 ---
 
@@ -128,3 +130,4 @@ The charge state of the battery. This value is only valid for wireless devices w
 
 
 <a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a>
+

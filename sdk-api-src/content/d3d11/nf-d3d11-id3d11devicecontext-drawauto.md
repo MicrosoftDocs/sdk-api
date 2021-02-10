@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.DrawAuto
+ - ID3D11DeviceContext::DrawAuto
 ---
 
 # ID3D11DeviceContext::DrawAuto
@@ -76,3 +76,4 @@ If an application needs to retrieve the size of the streaming-output buffer, it 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

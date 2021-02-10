@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.GetMediaType
+ - IMediaSample::GetMediaType
 ---
 
 # IMediaSample::GetMediaType
@@ -116,3 +116,4 @@ If the method returns S_OK, the caller must free the memory for the media type, 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
+

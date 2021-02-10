@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
+ - _CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO
+ - PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO
  - CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO
 ---
 
@@ -110,3 +112,4 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov
 ## -see-also
 
 <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
+

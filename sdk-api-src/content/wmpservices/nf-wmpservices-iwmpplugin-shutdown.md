@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPPlugin.Shutdown
+ - IWMPPlugin::Shutdown
 ---
 
 # IWMPPlugin::Shutdown
@@ -65,3 +65,4 @@ The method returns an <b>HRESULT</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
+

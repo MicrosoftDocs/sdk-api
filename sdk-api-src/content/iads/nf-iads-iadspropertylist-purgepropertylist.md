@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyList.PurgePropertyList
+ - IADsPropertyList::PurgePropertyList
 ---
 
 # IADsPropertyList::PurgePropertyList
@@ -133,3 +133,4 @@ void TestPurgePropertyList()
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-getpropertyitem">IADsPropertyList::GetPropertyItem</a>
+

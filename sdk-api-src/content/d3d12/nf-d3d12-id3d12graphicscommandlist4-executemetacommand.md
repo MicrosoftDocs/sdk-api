@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.h
 api_name:
- - ID3D12GraphicsCommandList4.ExecuteMetaCommand
+ - ID3D12GraphicsCommandList4::ExecuteMetaCommand
 ---
 
 # ID3D12GraphicsCommandList4::ExecuteMetaCommand
@@ -84,3 +84,4 @@ During an algorithm invocation, the driver may insert as many UAV barriers to ou
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
+

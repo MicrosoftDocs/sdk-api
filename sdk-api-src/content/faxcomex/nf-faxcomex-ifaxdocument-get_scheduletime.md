@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument.ScheduleTime
- - IFaxDocument.get_ScheduleTime
- - IFaxDocument.put_ScheduleTime
- - IFaxDocument.get_ScheduleTime
- - IFaxDocument.put_ScheduleTime
+ - IFaxDocument::get_ScheduleTime
 ---
 
 # IFaxDocument::get_ScheduleTime
@@ -80,3 +76,4 @@ Note that the fax service ignores this parameter unless you set the <a href="/pr
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

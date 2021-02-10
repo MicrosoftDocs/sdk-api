@@ -40,7 +40,7 @@ api_type:
 api_location:
  - D3D11.dll
 api_name:
- - interop::CreateDirect3DSurface
+ - CreateDirect3DSurface
 ---
 
 ## -description

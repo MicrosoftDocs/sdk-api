@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LoadPerfCounterTextStringsA
  - loadperf/LoadPerfCounterTextStringsA
+ - LoadPerfCounterTextStrings
+ - loadperf/LoadPerfCounterTextStrings
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Loadperf.dll
 api_name:
- - LoadPerfCounterTextStrings
  - LoadPerfCounterTextStringsA
- - LoadPerfCounterTextStringsW
+ - LoadPerfCounterTextStrings
 ---
 
 # LoadPerfCounterTextStringsA function
@@ -88,3 +89,4 @@ This function provides an API to the functionality provided by the <b>Lodctr</b>
 ## -see-also
 
 <a href="/windows/desktop/api/loadperf/nf-loadperf-unloadperfcountertextstringsa">UnloadPerfCounterTextStrings</a>
+

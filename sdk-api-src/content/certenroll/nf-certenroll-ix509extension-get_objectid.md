@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Extension.ObjectId
- - IX509Extension.get_ObjectId
+ - IX509Extension::get_ObjectId
 ---
 
 # IX509Extension::get_ObjectId
@@ -64,3 +63,4 @@ You can specify the OID when you call the <a href="/windows/desktop/api/certenro
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
+

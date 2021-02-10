@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileGroupManager.ImportFileGroups
- - FsrmFileGroupManager.ImportFileGroups
+ - IFsrmFileGroupManager::ImportFileGroups
 ---
 
 # IFsrmFileGroupManager::ImportFileGroups
@@ -96,3 +95,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>
+

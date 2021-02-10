@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.GatherWriterMetadata
+ - IVssBackupComponents::GatherWriterMetadata
 ---
 
 # IVssBackupComponents::GatherWriterMetadata
@@ -180,3 +180,4 @@ The caller is responsible for releasing the
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+

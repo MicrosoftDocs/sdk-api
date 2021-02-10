@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCache.Cache
+ - IOleCache::Cache
 ---
 
 # IOleCache::Cache
@@ -297,3 +297,4 @@ Updates the cached representation only when the object containing the cache is s
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-uncache">IOleCache::Uncache</a>
+

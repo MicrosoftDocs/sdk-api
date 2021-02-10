@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure2.GetFFTransitionRates
+ - IStreamBufferConfigure2::GetFFTransitionRates
 ---
 
 # IStreamBufferConfigure2::GetFFTransitionRates
@@ -91,3 +91,4 @@ For more information, see <a href="/previous-versions/windows/desktop/api/sbe/nf
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2 Interface</a>
+

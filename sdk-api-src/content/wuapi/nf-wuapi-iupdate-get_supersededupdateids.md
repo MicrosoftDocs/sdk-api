@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.SupersededUpdateIDs
- - IUpdate.get_SupersededUpdateIDs
+ - IUpdate::get_SupersededUpdateIDs
 ---
 
 # IUpdate::get_SupersededUpdateIDs
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

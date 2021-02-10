@@ -44,6 +44,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
+ - _OPM_HDCP_KEY_SELECTION_VECTOR
  - OPM_HDCP_KEY_SELECTION_VECTOR
 ---
 
@@ -71,3 +72,4 @@ A buffer that contains the device's KSV. (This is the value named <i>Bksv</i> in
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

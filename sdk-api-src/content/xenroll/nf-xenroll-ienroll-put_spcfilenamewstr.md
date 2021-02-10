@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.SPCFileNameWStr
- - IEnroll.get_SPCFileNameWStr
- - IEnroll.put_SPCFileNameWStr
+ - IEnroll::put_SPCFileNameWStr
 ---
 
 # IEnroll::put_SPCFileNameWStr
@@ -83,3 +81,4 @@ If the file already exists, the user is notified and prompted for permission to 
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

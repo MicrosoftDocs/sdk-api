@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.Reset
- - IEnumCERTVIEWCOLUMN.Reset
+ - IEnumCERTVIEWCOLUMN::Reset
 ---
 
 # IEnumCERTVIEWCOLUMN::Reset
@@ -125,3 +124,4 @@ else
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getvalue">IEnumCERTVIEWCOLUMN::GetValue</a>
+

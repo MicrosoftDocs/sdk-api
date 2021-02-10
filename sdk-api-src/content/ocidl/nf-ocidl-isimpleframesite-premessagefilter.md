@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - ISimpleFrameSite.PreMessageFilter
+ - ISimpleFrameSite::PreMessageFilter
 ---
 
 # ISimpleFrameSite::PreMessageFilter
@@ -140,3 +140,4 @@ Successful return values indicate whether the site wishes to allow further proce
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a>
+

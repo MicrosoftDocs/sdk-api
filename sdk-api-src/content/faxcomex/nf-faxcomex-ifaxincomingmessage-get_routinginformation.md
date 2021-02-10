@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage.RoutingInformation
- - IFaxIncomingMessage.get_RoutingInformation
- - IFaxIncomingMessage.get_RoutingInformation
+ - IFaxIncomingMessage::get_RoutingInformation
 ---
 
 # IFaxIncomingMessage::get_RoutingInformation
@@ -73,3 +71,4 @@ For more information about routing information, see the <a href="/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-archive">Visual Basic Example</a>
+

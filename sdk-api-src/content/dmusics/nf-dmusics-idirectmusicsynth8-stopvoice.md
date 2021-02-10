@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dmusics.h
 api_name:
- - IDirectMusicSynth8.StopVoice
+ - IDirectMusicSynth8::StopVoice
 ---
 
 # IDirectMusicSynth8::StopVoice
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth8">IDirectMusicSynth8</a>
+

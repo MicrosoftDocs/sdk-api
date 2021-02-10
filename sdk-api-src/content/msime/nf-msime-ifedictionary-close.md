@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFEDictionary.Close
+ - IFEDictionary::Close
 ---
 
 # IFEDictionary::Close
@@ -63,3 +63,4 @@ This method closes the file associated to this <a href="/windows/desktop/api/msi
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+

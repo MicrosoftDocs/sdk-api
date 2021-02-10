@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort.Send
- - IFaxPort.get_Send
- - IFaxPort.put_Send
+ - IFaxPort::get_Send
 ---
 
 # IFaxPort::get_Send
@@ -79,3 +77,4 @@ The <b>IFaxPort::get_Send</b> property returns a value of <b>TRUE</b> if the fax
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a>
+

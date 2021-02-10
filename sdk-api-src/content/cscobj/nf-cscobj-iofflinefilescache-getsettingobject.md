@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.GetSettingObject
+ - IOfflineFilesCache::GetSettingObject
 ---
 
 # IOfflineFilesCache::GetSettingObject
@@ -76,3 +76,4 @@ This method is available to both administrators and non-administrators.  Securit
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
+

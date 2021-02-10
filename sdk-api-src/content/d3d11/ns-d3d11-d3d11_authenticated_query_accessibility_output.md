@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
+ - D3D11_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT
  - D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
 ---
 
@@ -75,3 +76,4 @@ If <b>TRUE</b>, non-contiguous blocks of video memory may be accessible to the C
 ## -see-also
 
 <a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+

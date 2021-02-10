@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _CONTEXTMENUITEM2
  - CONTEXTMENUITEM2
 ---
 
@@ -394,3 +395,4 @@ The language-independent name of the menu item. Retrieve this value in
 
 
 <a href="/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
+

@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1Transform.MapInvalidRect
+ - ID2D1Transform::MapInvalidRect
 ---
 
 # ID2D1Transform::MapInvalidRect
@@ -90,3 +90,4 @@ The transform implementation must regard <b>MapInvalidRect</b> as purely functio
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform">ID2D1Transform</a>
+

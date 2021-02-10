@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winperf.h
 api_name:
+ - _PERF_DATA_BLOCK
+ - PPERF_DATA_BLOCK
  - PERF_DATA_BLOCK
 ---
 
@@ -127,3 +129,4 @@ Consumers use <b>PerfTime</b>, <b>PerfFreq</b>, and <b>PerfTime100nSec</b> when 
 
 
 <a href="/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>
+

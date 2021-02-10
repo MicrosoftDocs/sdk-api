@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_REFERENCES
+ - PCRYPT_XML_REFERENCES
  - CRYPT_XML_REFERENCES
 ---
 
@@ -65,3 +67,4 @@ The number of elements in the array pointed to by the <b>rgpReference</b> member
 ### -field rgpReference
 
 A pointer to an array of  <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">PCRYPT_XML_REFERENCE</a> structures.
+

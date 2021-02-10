@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10RenderTargetView.GetDesc
+ - ID3D10RenderTargetView::GetDesc
 ---
 
 # ID3D10RenderTargetView::GetDesc
@@ -64,3 +64,4 @@ Pointer to the description of a render target view (see <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10rendertargetview">ID3D10RenderTargetView Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionEvents.OnDisconnectComplete
+ - IMbnConnectionEvents::OnDisconnectComplete
 ---
 
 # IMbnConnectionEvents::OnDisconnectComplete
@@ -80,3 +80,4 @@ An application can use <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnec
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>
+

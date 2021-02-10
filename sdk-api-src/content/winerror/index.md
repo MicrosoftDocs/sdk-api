@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - winerror
  - winerror/winerror
+api_name:
+ - winerror
 ---
 
 # Winerror.h header

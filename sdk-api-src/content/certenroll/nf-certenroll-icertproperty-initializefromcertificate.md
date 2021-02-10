@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertProperty.InitializeFromCertificate
+ - ICertProperty::InitializeFromCertificate
 ---
 
 # ICertProperty::InitializeFromCertificate
@@ -125,3 +125,4 @@ The certificate was found but the private key could not be loaded.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
+

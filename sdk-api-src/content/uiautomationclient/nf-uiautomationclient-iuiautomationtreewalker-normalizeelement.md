@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker.NormalizeElement
+ - IUIAutomationTreeWalker::NormalizeElement
 ---
 
 # IUIAutomationTreeWalker::NormalizeElement
@@ -79,3 +79,4 @@ The element is normalized by navigating up the ancestor chain in the tree until 
  The method returns <b>UIA_E_ELEMENTNOTAVAILABLE</b> if no matching element has been found.
 
 This method is useful for applications that obtain references to UI Automation elements by hit-testing. The application might want to work only with specific types of elements, and can use <b>IUIAutomationTreeWalker::Normalize</b> to make sure that no matter what element is initially retrieved (for example, when a scroll bar gets the input focus), only the element of interest (such as a content element) is ultimately retrieved.
+

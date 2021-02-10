@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace.put_DefaultLocator
+ - ITuningSpace::put_DefaultLocator
 ---
 
 # ITuningSpace::put_DefaultLocator
@@ -71,3 +71,4 @@ For DVB tuning spaces, the sytem type (cable, terrestrial, or satelite) of the t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
+

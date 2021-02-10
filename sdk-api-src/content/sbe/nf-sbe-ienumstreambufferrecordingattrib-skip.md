@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IEnumStreamBufferRecordingAttrib.Skip
+ - IEnumStreamBufferRecordingAttrib::Skip
 ---
 
 # IEnumStreamBufferRecordingAttrib::Skip
@@ -94,3 +94,4 @@ Success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib Interface</a>
+

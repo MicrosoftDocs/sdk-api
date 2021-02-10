@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.GetParentConstantBuffer
+ - ID3D10EffectVariable::GetParentConstantBuffer
 ---
 
 # ID3D10EffectVariable::GetParentConstantBuffer
@@ -67,3 +67,4 @@ Effect variables are read-from or written-to a constant buffer.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable Interface</a>
+

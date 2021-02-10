@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISingleItemException.GetItemId
+ - ISingleItemException::GetItemId
 ---
 
 # ISingleItemException::GetItemId
@@ -107,3 +107,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isingleitemexception">ISingleItemException Interface</a>
+

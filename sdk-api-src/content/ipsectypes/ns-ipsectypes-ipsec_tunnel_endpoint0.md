@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ipsectypes.h
 api_name:
+ - IPSEC_TUNNEL_ENDPOINT0_
  - IPSEC_TUNNEL_ENDPOINT0
 ---
 
@@ -84,3 +85,4 @@ For the unnamed union containing the tunnel end point address, switch_type(FWP_I
 [IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API structures</a>
+

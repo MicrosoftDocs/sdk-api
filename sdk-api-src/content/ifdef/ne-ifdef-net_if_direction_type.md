@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ifdef.h
 api_name:
+ - _NET_IF_DIRECTION_TYPE
+ - PNET_IF_DIRECTION_TYPE
  - NET_IF_DIRECTION_TYPE
 ---
 
@@ -78,3 +80,4 @@ Indicates the receive only direction type. This direction type indicates that th
 ### -field NET_IF_DIRECTION_MAXIMUM
 
 A maximum value for testing purposes.
+

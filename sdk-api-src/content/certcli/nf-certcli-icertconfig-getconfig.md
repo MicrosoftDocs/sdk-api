@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertConfig2.GetConfig
- - ICertConfig.GetConfig
- - CCertConfig.GetConfig
+ - ICertConfig::GetConfig
 ---
 
 # ICertConfig::GetConfig
@@ -370,3 +368,4 @@ error:
 
 
 <a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView2::OpenConnection</a>
+

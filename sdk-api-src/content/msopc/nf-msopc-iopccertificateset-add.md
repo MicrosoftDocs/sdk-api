@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcCertificateSet.Add
+ - IOpcCertificateSet::Add
 ---
 
 # IOpcCertificateSet::Add
@@ -154,3 +154,4 @@ For more information, see the
 
 
 <b>Reference</b>
+

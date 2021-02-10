@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _SYSTEMTIME
+ - PSYSTEMTIME
  - SYSTEMTIME
 ---
 
@@ -395,3 +397,4 @@ The system time is: 19:34
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer-r1">ULARGE_INTEGER</a>
+

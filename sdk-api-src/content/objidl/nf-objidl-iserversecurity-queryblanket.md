@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IServerSecurity.QueryBlanket
+ - IServerSecurity::QueryBlanket
 ---
 
 # IServerSecurity::QueryBlanket
@@ -101,3 +101,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
+

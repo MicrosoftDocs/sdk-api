@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - vidcap
  - vidcap/vidcap
+api_name:
+ - vidcap
 ---
 
 # Vidcap.h header

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph.ConnectDirect
+ - IFilterGraph::ConnectDirect
 ---
 
 # IFilterGraph::ConnectDirect
@@ -129,3 +129,4 @@ The input pin is upstream of the output pin, which would result in a circular gr
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
+

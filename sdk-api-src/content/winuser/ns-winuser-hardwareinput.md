@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagHARDWAREINPUT
+ - PHARDWAREINPUT
  - HARDWAREINPUT
 ---
 
@@ -95,3 +97,4 @@ The high-order word of the <i>lParam </i> parameter for <b>uMsg</b>.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
+

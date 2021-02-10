@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmProperty.Sources
- - IFsrmProperty.get_Sources
+ - IFsrmProperty::get_Sources
 ---
 
 # IFsrmProperty::get_Sources
@@ -64,3 +63,4 @@ The format of the source string is  "<i>module_name</i>,<i>rule_name</i>".
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmproperty">IFsrmProperty</a>
+

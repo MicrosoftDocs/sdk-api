@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_USAGE_MATCH
+ - PCERT_USAGE_MATCH
  - CERT_USAGE_MATCH
 ---
 
@@ -115,3 +117,4 @@ If the caller specifies EKU A OR EKU B then the target certificate is valid if e
 Given the following path, the <b>OR</b> test is deemed valid:
 
  Although the intersection of the EKUs in the chain is an empty set, the use of the EE certificate is valid for EKU A because the request to the cryptography API specifies that the certificate is valid if each certificate of the path supports either EKU A OR EKU B.
+

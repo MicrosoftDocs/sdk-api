@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyBackedUp.BackedUpTime
- - ICertPropertyBackedUp.get_BackedUpTime
+ - ICertPropertyBackedUp::get_BackedUpTime
 ---
 
 # ICertPropertyBackedUp::get_BackedUpTime
@@ -72,3 +71,4 @@ For dates between 1950 and 2049 inclusive, the date and time is encoded UTC-time
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>
+

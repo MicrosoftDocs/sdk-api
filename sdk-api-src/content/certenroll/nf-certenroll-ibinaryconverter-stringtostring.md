@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IBinaryConverter.StringToString
+ - IBinaryConverter::StringToString
 ---
 
 # IBinaryConverter::StringToString
@@ -79,3 +79,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ibinaryconverter">IBinaryConverter</a>
+

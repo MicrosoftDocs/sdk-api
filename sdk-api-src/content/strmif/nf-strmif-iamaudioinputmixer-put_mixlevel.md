@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer.put_MixLevel
+ - IAMAudioInputMixer::put_MixLevel
 ---
 
 # IAMAudioInputMixer::put_MixLevel
@@ -131,3 +131,4 @@ Invalid argument.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_mixlevel">IAMAudioInputMixer::get_MixLevel</a>
+

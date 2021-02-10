@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingOrientedBox.op_Assignment
+ - BoundingOrientedBox::operator=
 ---
 
 # BoundingOrientedBox::operator-assign(BoundingOrientedBox &&)

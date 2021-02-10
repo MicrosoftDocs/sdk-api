@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl.HandoffIndirect
+ - ITBasicCallControl::HandoffIndirect
 ---
 
 # ITBasicCallControl::HandoffIndirect
@@ -136,3 +136,4 @@ If TAPI fails to hand off the call, TAPI will call
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM.GetDomain
- - GPM.GetDomain
+ - IGPM::GetDomain
 ---
 
 # IGPM::GetDomain
@@ -109,3 +108,4 @@ This method does not allow you to search site SOMs. Call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>
+

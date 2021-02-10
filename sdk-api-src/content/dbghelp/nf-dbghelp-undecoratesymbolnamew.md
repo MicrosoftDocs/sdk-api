@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UnDecorateSymbolNameW
  - dbghelp/UnDecorateSymbolNameW
+ - UnDecorateSymbolName
+ - dbghelp/UnDecorateSymbolName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - UnDecorateSymbolName
- - UnDecorateSymbolName
  - UnDecorateSymbolNameW
+ - UnDecorateSymbolName
 ---
 
 # UnDecorateSymbolNameW function
@@ -314,3 +315,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a>
+

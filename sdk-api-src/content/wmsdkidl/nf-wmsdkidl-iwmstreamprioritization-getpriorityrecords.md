@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamPrioritization.GetPriorityRecords
+ - IWMStreamPrioritization::GetPriorityRecords
 ---
 
 # IWMStreamPrioritization::GetPriorityRecords
@@ -128,3 +128,4 @@ Records in a stream prioritization object are given in order of decreasing prior
 
 
 <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record">WM_STREAM_PRIORITY_RECORD</a>
+

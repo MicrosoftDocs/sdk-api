@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfidl.h
 api_name:
- - IMFProtectedEnvironmentAccess.ReadGRL
+ - IMFProtectedEnvironmentAccess::ReadGRL
 ---
 
 # IMFProtectedEnvironmentAccess::ReadGRL
@@ -73,3 +73,4 @@ Allows reading of the system Global Revocation List (GRL).
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a>
+

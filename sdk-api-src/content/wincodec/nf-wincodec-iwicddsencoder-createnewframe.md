@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDdsEncoder.CreateNewFrame
+ - IWICDdsEncoder::CreateNewFrame
 ---
 
 # IWICDdsEncoder::CreateNewFrame
@@ -85,3 +85,4 @@ This is equivalent to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbit
 
 
 <a href="/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>
+

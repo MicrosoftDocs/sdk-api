@@ -9,6 +9,8 @@ tech.root: etw
 f1_keywords:
  - evntrace
  - evntrace/evntrace
+api_name:
+ - evntrace
 ---
 
 # Evntrace.h header

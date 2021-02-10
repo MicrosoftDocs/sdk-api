@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.Clone
+ - IXpsOMCoreProperties::Clone
 ---
 
 # IXpsOMCoreProperties::Clone
@@ -121,3 +121,4 @@ The owner of the interface returned in <i>coreProperties</i> is <b>NULL</b>.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

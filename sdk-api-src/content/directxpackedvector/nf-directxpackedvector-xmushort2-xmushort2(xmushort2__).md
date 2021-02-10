@@ -42,7 +42,7 @@ api_type:
 api_location:
  - directxpackedvector.h
 api_name:
- - XMUSHORT2.XMUSHORT2
+ - XMUSHORT2::XMUSHORT2
 ---
 
 # XMUSHORT2::XMUSHORT2(XMUSHORT2 &&)
@@ -69,3 +69,4 @@ A value.
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort2">XMUSHORT2</a>
 
 <a href="/windows/desktop/dxmath/xmushort2-ctor">XMUSHORT2 Constructors</a>
+

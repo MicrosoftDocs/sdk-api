@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FaxGetDeviceStatusA
  - winfax/FaxGetDeviceStatusA
+ - FaxGetDeviceStatus
+ - winfax/FaxGetDeviceStatus
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxGetDeviceStatus
  - FaxGetDeviceStatusA
- - FaxGetDeviceStatusW
+ - FaxGetDeviceStatus
 ---
 
 # FaxGetDeviceStatusA function
@@ -149,3 +150,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun.SetStatus
+ - IVdsLun::SetStatus
 ---
 
 # IVdsLun::SetStatus
@@ -147,3 +147,4 @@ Implementers must perform whatever operations (for example, flushing the cache) 
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_status">VDS_LUN_STATUS</a>
+

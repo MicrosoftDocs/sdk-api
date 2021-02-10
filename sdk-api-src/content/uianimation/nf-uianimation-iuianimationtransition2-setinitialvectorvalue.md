@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.SetInitialVectorValue
+ - IUIAnimationTransition2::SetInitialVectorValue
 ---
 
 # IUIAnimationTransition2::SetInitialVectorValue
@@ -73,3 +73,4 @@ The animation manager should not call this method after the transition has been 
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a>
+

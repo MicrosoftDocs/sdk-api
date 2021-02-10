@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode.GetObject
+ - IMFTopologyNode::GetObject
 ---
 
 # IMFTopologyNode::GetObject
@@ -101,3 +101,4 @@ There is no object associated with this node.
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationUpdateManager.Update
+ - IDirectManipulationUpdateManager::Update
 ---
 
 # IDirectManipulationUpdateManager::Update
@@ -69,3 +69,4 @@ If the application provides its own implementation of <a href="/previous-version
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationupdatemanager">IDirectManipulationUpdateManager</a>
+

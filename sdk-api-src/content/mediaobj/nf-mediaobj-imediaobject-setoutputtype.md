@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject.SetOutputType
+ - IMediaObject::SetOutputType
 ---
 
 # IMediaObject::SetOutputType
@@ -136,3 +136,4 @@ The media types that are currently set on other streams can affect whether the m
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
+ - _WNV_OBJECT_TYPE
+ - PWNV_OBJECT_TYPE
  - WNV_OBJECT_TYPE
 ---
 
@@ -75,3 +77,4 @@ The maximum possible value for this enumeration type. This is not a legal value.
 
 
 <a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
+

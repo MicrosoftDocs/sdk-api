@@ -42,11 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.ClassificationRunningStatus
- - IFsrmClassificationManager.get_ClassificationRunningStatus
- - IFsrmClassificationManager2.ClassificationRunningStatus
- - IFsrmClassificationManager2.get_ClassificationRunningStatus
- - FsrmClassificationManager.ClassificationRunningStatus
+ - IFsrmClassificationManager::get_ClassificationRunningStatus
 ---
 
 # IFsrmClassificationManager::get_ClassificationRunningStatus
@@ -96,3 +92,4 @@ Used regardless of whether classification was scheduled (using the Task Schedule
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionSmimeCapabilities.SmimeCapabilities
- - IX509ExtensionSmimeCapabilities.get_SmimeCapabilities
+ - IX509ExtensionSmimeCapabilities::get_SmimeCapabilities
 ---
 
 # IX509ExtensionSmimeCapabilities::get_SmimeCapabilities
@@ -64,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionsm
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>
+

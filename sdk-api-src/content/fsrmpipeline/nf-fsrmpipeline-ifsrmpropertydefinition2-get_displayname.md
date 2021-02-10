@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition2.DisplayName
- - IFsrmPropertyDefinition2.get_DisplayName
- - IFsrmPropertyDefinition2.put_DisplayName
+ - IFsrmPropertyDefinition2::get_DisplayName
 ---
 
 # IFsrmPropertyDefinition2::get_DisplayName
@@ -70,3 +68,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationpropertydefinition">MSFT_FSRMClassificationPropertyDefinition</a>
+

@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingBox.Contains
+ - BoundingBox::Contains
 ---
 
 # BoundingBox::Contains(const BoundingOrientedBox &)
@@ -77,3 +77,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
+

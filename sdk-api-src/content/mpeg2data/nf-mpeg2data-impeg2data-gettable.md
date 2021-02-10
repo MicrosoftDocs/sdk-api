@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - IMpeg2Data.GetTable
+ - IMpeg2Data::GetTable
 ---
 
 # IMpeg2Data::GetTable
@@ -116,3 +116,4 @@ You can use the <i>pFilter</i> parameter to specify the Table_ID_extension field
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data Interface</a>
+

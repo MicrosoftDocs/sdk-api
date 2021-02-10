@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionContext.Abort
+ - ITransactionContext::Abort
 ---
 
 # ITransactionContext::Abort
@@ -95,3 +95,4 @@ Calling <b>Abort</b> ends the transaction on return of the method and automatica
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>
+

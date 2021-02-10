@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannelManager._NewEnum
- - IRDPSRAPIVirtualChannelManager.get__NewEnum
- - RDPSRAPIVirtualChannelManager._NewEnum
+ - IRDPSRAPIVirtualChannelManager::get__NewEnum
 ---
 
 # IRDPSRAPIVirtualChannelManager::get__NewEnum
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager">IRDPSRAPIVirtualChannelManager</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_search
- - ldap_searchA
- - ldap_searchW
 ---
 
 # ldap_search function
@@ -165,3 +163,4 @@ Multithreading: Calls to <b>ldap_search</b> are thread-safe, provided that
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbClientConnection.Environment
- - ITsSbClientConnection.get_Environment
+ - ITsSbClientConnection::get_Environment
 ---
 
 # ITsSbClientConnection::get_Environment
@@ -64,3 +63,4 @@ An orchestration plug-in can call this method to retrieve environment informatio
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
+

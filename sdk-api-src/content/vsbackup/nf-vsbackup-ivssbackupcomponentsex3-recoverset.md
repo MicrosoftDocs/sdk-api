@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsBackup.h
 api_name:
- - IVssBackupComponentsEx3.RecoverSet
+ - IVssBackupComponentsEx3::RecoverSet
 ---
 
 # IVssBackupComponentsEx3::RecoverSet
@@ -173,3 +173,4 @@ This method cannot be called in WinPE, and it cannot be called in Safe mode. Bef
 ## -see-also
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
+

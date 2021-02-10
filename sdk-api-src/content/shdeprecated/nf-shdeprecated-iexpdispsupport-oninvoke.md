@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IExpDispSupport.OnInvoke
+ - IExpDispSupport::OnInvoke
 ---
 
 # IExpDispSupport::OnInvoke
@@ -136,3 +136,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 For more information, see <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
+

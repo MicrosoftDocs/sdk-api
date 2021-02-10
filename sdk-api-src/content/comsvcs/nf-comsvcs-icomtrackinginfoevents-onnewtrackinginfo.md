@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComTrackingInfoEvents.OnNewTrackingInfo
+ - IComTrackingInfoEvents::OnNewTrackingInfo
 ---
 
 # IComTrackingInfoEvents::OnNewTrackingInfo
@@ -65,3 +65,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfoevents">IComTrackingInfoEvents</a>
+

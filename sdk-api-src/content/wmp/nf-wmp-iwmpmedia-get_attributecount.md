@@ -42,9 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia.get_attributeCount
- - IWMPMedia2.get_attributeCount
- - IWMPMedia3.get_attributeCount
+ - IWMPMedia::get_attributeCount
 ---
 
 # IWMPMedia::get_attributeCount
@@ -93,3 +91,4 @@ For information about the attributes supported by Windows Media Player, see the 
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
+

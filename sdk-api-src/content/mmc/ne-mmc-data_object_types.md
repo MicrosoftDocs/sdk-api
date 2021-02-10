@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _DATA_OBJECT_TYPES
  - DATA_OBJECT_TYPES
 ---
 
@@ -74,3 +75,4 @@ Data object for Snap-in Manager context.
 ### -field CCT_UNINITIALIZED
 
 Data object has an invalid type.
+

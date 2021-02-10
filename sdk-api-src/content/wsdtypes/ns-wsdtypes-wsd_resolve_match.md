@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_RESOLVE_MATCH
  - WSD_RESOLVE_MATCH
 ---
 
@@ -91,3 +92,4 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_eleme
 
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_resolve_matches">WSD_RESOLVE_MATCHES</a>
+

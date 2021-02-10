@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSource.Pause
+ - IMFMediaSource::Pause
 ---
 
 # IMFMediaSource::Pause
@@ -116,3 +116,4 @@ Not every media source can pause. If a media source can pause, the <a href="/win
 
 
 <a href="/windows/desktop/medfound/media-sources">Media Sources</a>
+

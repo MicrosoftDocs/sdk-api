@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wpcevent.h
 api_name:
+ - tagWPC_ARGS_CONVERSATIONJOINEVENT
  - WPC_ARGS_CONVERSATIONJOINEVENT
 ---
 

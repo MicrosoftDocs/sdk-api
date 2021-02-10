@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_parse_extended_resultA
  - winldap/ldap_parse_extended_resultA
+ - ldap_parse_extended_result
+ - winldap/ldap_parse_extended_result
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_parse_extended_result
  - ldap_parse_extended_resultA
- - ldap_parse_extended_resultW
+ - ldap_parse_extended_result
 ---
 
 # ldap_parse_extended_resultA function
@@ -124,3 +125,4 @@ When they are no longer needed, free the <i>ResultOID</i> string and the <i>Resu
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
+

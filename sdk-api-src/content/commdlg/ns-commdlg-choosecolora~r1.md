@@ -36,6 +36,7 @@ api_location:
  - commdlg.h
 api_name:
  - tagCHOOSECOLORA
+ - LPCHOOSECOLORA
  - CHOOSECOLORA
 ---
 
@@ -235,3 +236,4 @@ The name of the dialog box template resource in the module identified by the <b>
 
 
 <b>Reference</b>
+

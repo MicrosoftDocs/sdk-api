@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cfgmgr32.h
 api_name:
+ - _CM_NOTIFY_ACTION
+ - PCM_NOTIFY_ACTION
  - CM_NOTIFY_ACTION
 ---
 
@@ -135,3 +137,4 @@ When a driver calls the <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_re
 
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a>
+

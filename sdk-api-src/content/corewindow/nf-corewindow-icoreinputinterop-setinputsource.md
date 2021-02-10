@@ -42,7 +42,7 @@ api_type:
 api_location:
  - corewindow.h
 api_name:
- - ICoreInputInterop.SetInputSource
+ - ICoreInputInterop::SetInputSource
 ---
 
 # ICoreInputInterop::SetInputSource
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop">ICoreInputInterop</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxQueryTerminalServicesData
+ - PWLX_QUERY_TERMINAL_SERVICES_DATA
 ---
 
 # PWLX_QUERY_TERMINAL_SERVICES_DATA callback function
@@ -110,3 +110,4 @@ In order to access this function, the GINA DLL must use the
 
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate">WlxWin31Migrate</a>
+

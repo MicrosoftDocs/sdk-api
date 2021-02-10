@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesChangeInfo.IsLocallyModifiedAttributes
+ - IOfflineFilesChangeInfo::IsLocallyModifiedAttributes
 ---
 
 # IOfflineFilesChangeInfo::IsLocallyModifiedAttributes
@@ -70,3 +70,4 @@ Use <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefil
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileschangeinfo">IOfflineFilesChangeInfo</a>
+

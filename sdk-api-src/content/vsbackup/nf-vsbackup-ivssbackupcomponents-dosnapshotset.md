@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.DoSnapshotSet
+ - IVssBackupComponents::DoSnapshotSet
 ---
 
 # IVssBackupComponents::DoSnapshotSet
@@ -320,3 +320,4 @@ For information on how to use
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1003
+ - PUSER_INFO_1003
  - USER_INFO_1003
 ---
 
@@ -92,3 +94,4 @@ By convention, the length of passwords is limited to LM20_PWLEN characters.
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

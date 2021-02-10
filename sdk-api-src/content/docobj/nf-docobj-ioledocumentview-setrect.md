@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView.SetRect
+ - IOleDocumentView::SetRect
 ---
 
 # IOleDocumentView::SetRect
@@ -99,3 +99,4 @@ A document view must implement this method completely; E_NOTIMPL is not an accep
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
+

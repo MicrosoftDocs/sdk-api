@@ -46,6 +46,8 @@ api_type:
 api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
+ - _MC_DISPLAY_TECHNOLOGY_TYPE
+ - LPMC_DISPLAY_TECHNOLOGY_TYPE
  - MC_DISPLAY_TECHNOLOGY_TYPE
 ---
 
@@ -101,3 +103,4 @@ Field emission device (FED) display.
 
 
 <a href="/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
+

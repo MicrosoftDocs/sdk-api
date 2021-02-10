@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsServerRegisterSpnA
  - ntdsapi/DsServerRegisterSpnA
+ - DsServerRegisterSpn
+ - ntdsapi/DsServerRegisterSpn
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsServerRegisterSpn
  - DsServerRegisterSpnA
- - DsServerRegisterSpnW
+ - DsServerRegisterSpn
 ---
 
 # DsServerRegisterSpnA function
@@ -124,3 +125,4 @@ In most cases, the <b>DsServerRegisterSpn</b> caller must have domain administra
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>
+

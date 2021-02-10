@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpplug.h
 api_name:
- - IWMPPluginUI.SetProperty
+ - IWMPPluginUI::SetProperty
 ---
 
 # IWMPPluginUI::SetProperty
@@ -102,3 +102,4 @@ Windows Media Player determines the type and capabilities of a plug-in by checki
 
 
 <a href="/windows/desktop/WMP/media-object">Media Object</a>
+

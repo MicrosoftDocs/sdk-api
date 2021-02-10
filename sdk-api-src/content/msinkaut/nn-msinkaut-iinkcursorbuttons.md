@@ -44,7 +44,6 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkCursorButtons
- - IInkCursorButtons._NewEnum
 ---
 
 # IInkCursorButtons interface
@@ -77,3 +76,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton">IInkCursorButton Interface</a>
+

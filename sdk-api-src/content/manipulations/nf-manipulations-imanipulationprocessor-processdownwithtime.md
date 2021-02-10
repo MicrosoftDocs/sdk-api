@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor.ProcessDownWithTime
+ - IManipulationProcessor::ProcessDownWithTime
 ---
 
 # IManipulationProcessor::ProcessDownWithTime
@@ -114,3 +114,4 @@ static void ProcessDown(TOUCHINPUT* pTouchInput, IManipulationProcessor* pManipu
 
 
 <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime">ProcessUpWithTime</a>
+

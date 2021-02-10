@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetFeaturePage
+ - IDiscRecorder2Ex::GetFeaturePage
 ---
 
 # IDiscRecorder2Ex::GetFeaturePage
@@ -395,3 +395,4 @@ Value: 0xC0AA0210
 
 
 <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
+

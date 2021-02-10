@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice.getItemInfo
+ - IWMPSyncDevice::getItemInfo
 ---
 
 # IWMPSyncDevice::getItemInfo
@@ -311,3 +311,4 @@ This method cannot retrieve metadata values for devices having the status <b>wmp
 
 
 <a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
+

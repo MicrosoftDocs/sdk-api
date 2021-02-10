@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.ReleaseBuffer
- - ?ReleaseBuffer@CHString@@QAEXH@Z
- - ?ReleaseBuffer@CHString@@QEAAXH@Z
+ - CHString::ReleaseBuffer
 ---
 
 # CHString::ReleaseBuffer
@@ -84,3 +82,4 @@ If you know that the string in the buffer is <b>NULL</b>-terminated, you can omi
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">CHString::GetBuffer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfPropertyStore.GetPropertyRangeCreator
+ - ITfPropertyStore::GetPropertyRangeCreator
 ---
 
 # ITfPropertyStore::GetPropertyRangeCreator
@@ -92,3 +92,4 @@ When the property store is unserialized, the TSF manager creates an object of th
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a>
+

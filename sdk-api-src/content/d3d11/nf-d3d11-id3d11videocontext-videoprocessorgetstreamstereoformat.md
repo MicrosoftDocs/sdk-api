@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorGetStreamStereoFormat
+ - ID3D11VideoContext::VideoProcessorGetStreamStereoFormat
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamStereoFormat
@@ -143,3 +143,4 @@ Receives the pixel offset used for <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_O
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
+

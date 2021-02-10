@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBlockingLock.Unlock
+ - IBlockingLock::Unlock
 ---
 
 # IBlockingLock::Unlock
@@ -61,3 +61,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iblockinglock">IBlockingLock</a>
+

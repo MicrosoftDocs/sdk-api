@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.CanWindowlessActivate
+ - IOleInPlaceSiteWindowless::CanWindowlessActivate
 ---
 
 # IOleInPlaceSiteWindowless::CanWindowlessActivate
@@ -71,3 +71,4 @@ If this method returns S_FALSE, the object should create a window and behave as 
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
+

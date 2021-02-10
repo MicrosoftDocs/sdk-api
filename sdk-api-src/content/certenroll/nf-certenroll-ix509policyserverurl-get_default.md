@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509PolicyServerUrl.Default
- - IX509PolicyServerUrl.get_Default
- - IX509PolicyServerUrl.put_Default
+ - IX509PolicyServerUrl::get_Default
 ---
 
 # IX509PolicyServerUrl::get_Default
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
+

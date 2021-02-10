@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ISupportedErrorInfo
+ - ISupportErrorInfo
 ---
 
 # ISupportErrorInfo interface
@@ -62,3 +62,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISupportedErrorInfo</b> inter
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/automat/error-handling-interfaces">Error Handling Interfaces </a>
+

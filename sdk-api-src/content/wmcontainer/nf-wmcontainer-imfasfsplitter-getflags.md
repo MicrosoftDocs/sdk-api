@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter.GetFlags
+ - IMFASFSplitter::GetFlags
 ---
 
 # IMFASFSplitter::GetFlags
@@ -99,3 +99,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags">IMFASFSplitter::SetFlags</a>
+

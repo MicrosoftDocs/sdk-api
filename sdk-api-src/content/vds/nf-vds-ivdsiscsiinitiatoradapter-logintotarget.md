@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiInitiatorAdapter.LoginToTarget
+ - IVdsIscsiInitiatorAdapter::LoginToTarget
 ---
 
 # IVdsIscsiInitiatorAdapter::LoginToTarget
@@ -157,3 +157,4 @@ Another operation is in progress. This operation cannot proceed until the previo
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_iscsi_login_type">VDS_ISCSI_LOGIN_TYPE</a>
+

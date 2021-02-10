@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
+ - _WLX_CLIENT_CREDENTIALS_INFO_2_0
+ - PWLX_CLIENT_CREDENTIALS_INFO_V2_0
  - WLX_CLIENT_CREDENTIALS_INFO_V2_0
 ---
 
@@ -91,3 +93,4 @@ Determines whether GINA allows the user to supply different credentials if the l
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials">WlxQueryTsLogonCredentials</a>
+

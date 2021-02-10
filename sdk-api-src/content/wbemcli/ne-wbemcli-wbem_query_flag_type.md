@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_QUERY_FLAG_TYPE
  - WBEM_QUERY_FLAG_TYPE
 ---
 
@@ -91,3 +92,4 @@ Used for prototyping. It does not execute the query and instead returns an objec
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">IWbemServices::ExecQueryAsync</a>
+

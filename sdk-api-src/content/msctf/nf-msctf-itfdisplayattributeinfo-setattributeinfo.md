@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfDisplayAttributeInfo.SetAttributeInfo
+ - ITfDisplayAttributeInfo::SetAttributeInfo
 ---
 
 # ITfDisplayAttributeInfo::SetAttributeInfo
@@ -109,3 +109,4 @@ The implementation of this method should not call <a href="/windows/desktop/api/
 ## -see-also
 
 [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [ITfDisplayAttributeMgr::OnUpdateInfo](nf-msctf-itfdisplayattributemgr-onupdateinfo.md), [TF_DISPLAYATTRIBUTE structure](ns-msctf-tf_displayattribute.md), [ITfDisplayAttributeInfo::GetAttributeInfo](nf-msctf-itfdisplayattributeinfo-getattributeinfo.md)
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IMenuPopup.Popup
+ - IMenuPopup::Popup
 ---
 
 # IMenuPopup::Popup
@@ -161,3 +161,4 @@ The pop-up menu should be aligned to the right of the excluded rectangle specifi
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the object implements the pop-up menu as a modeless menu. Otherwise, returns <b>S_FALSE</b>, which indicates the end of the implementation for the menu.
+

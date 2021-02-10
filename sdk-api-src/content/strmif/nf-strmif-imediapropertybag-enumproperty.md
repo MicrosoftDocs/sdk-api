@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPropertyBag.EnumProperty
+ - IMediaPropertyBag::EnumProperty
 ---
 
 # IMediaPropertyBag::EnumProperty
@@ -146,3 +146,4 @@ The value can be a string (for INFO chunks) or an array of bytes (for DISP chunk
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag Interface</a>
+

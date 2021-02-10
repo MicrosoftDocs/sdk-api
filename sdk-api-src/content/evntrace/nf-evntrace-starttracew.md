@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StartTraceW
  - evntrace/StartTraceW
+ - StartTrace
+ - evntrace/StartTrace
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-Eventing-Legacy-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - StartTrace
- - StartTraceA
  - StartTraceW
+ - StartTrace
 ---
 
 # StartTraceW function
@@ -305,3 +306,4 @@ For an example that uses <b>StartTrace</b>, see
 
 
 <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
+

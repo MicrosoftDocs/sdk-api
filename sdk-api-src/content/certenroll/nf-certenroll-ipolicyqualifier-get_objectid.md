@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IPolicyQualifier.ObjectId
- - IPolicyQualifier.get_ObjectId
+ - IPolicyQualifier::get_ObjectId
 ---
 
 # IPolicyQualifier::get_ObjectId
@@ -70,3 +69,4 @@ You must call  <a href="/windows/desktop/api/certenroll/nf-certenroll-ipolicyqua
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
+

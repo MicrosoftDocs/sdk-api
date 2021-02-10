@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineAddProvider
- - lineAddProviderA
- - lineAddProviderW
 ---
 
 # lineAddProvider function
@@ -118,3 +116,4 @@ This function copies no files—not the service provider DLL itself nor any supp
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
+ - _SHARE_INFO_501
+ - PSHARE_INFO_501
  - SHARE_INFO_501
 ---
 
@@ -170,3 +172,4 @@ Reserved; must be zero.
 
 
 <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
+

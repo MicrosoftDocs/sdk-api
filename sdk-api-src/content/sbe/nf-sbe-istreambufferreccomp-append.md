@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecComp.Append
+ - IStreamBufferRecComp::Append
 ---
 
 # IStreamBufferRecComp::Append
@@ -87,3 +87,4 @@ The file specified in <i>pszSBRecording</i> must be completed. If the file is li
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
+

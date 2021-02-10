@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
+ - PIKE_AUTHENTICATION_METHOD
  - IKE_AUTHENTICATION_METHOD
 ---
 
@@ -67,3 +68,4 @@ Used in conjunction with the <a href="/previous-versions/windows/desktop/api/isc
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_information">IKE_AUTHENTICATION_INFORMATION</a>
+

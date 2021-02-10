@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.SetChase
+ - IAMExtTransport::SetChase
 ---
 
 # IAMExtTransport::SetChase
@@ -113,3 +113,4 @@ Chase mode remains in effect until it completes or is canceled. The filter must 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-getchase">IAMExtTransport::GetChase</a>
+

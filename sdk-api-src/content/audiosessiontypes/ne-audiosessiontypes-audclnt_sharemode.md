@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Audiosessiontypes.h
 api_name:
+ - _AUDCLNT_SHAREMODE
  - AUDCLNT_SHAREMODE
 ---
 
@@ -89,3 +90,4 @@ For more information about shared-mode and exclusive-mode streams, see <a href="
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a>
+

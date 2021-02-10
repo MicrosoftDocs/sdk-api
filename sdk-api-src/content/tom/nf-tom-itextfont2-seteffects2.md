@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2.SetEffects2
+ - ITextFont2::SetEffects2
 ---
 
 # ITextFont2::SetEffects2
@@ -139,3 +139,4 @@ Only effects with the corresponding mask flag set are modified.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-geteffects2">ITextFont2::GetEffects2</a>
+

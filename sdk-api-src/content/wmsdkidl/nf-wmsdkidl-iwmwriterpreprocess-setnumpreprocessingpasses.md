@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess.SetNumPreprocessingPasses
+ - IWMWriterPreprocess::SetNumPreprocessingPasses
 ---
 
 # IWMWriterPreprocess::SetNumPreprocessingPasses
@@ -128,3 +128,4 @@ The preprocessor has already been configured.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
+

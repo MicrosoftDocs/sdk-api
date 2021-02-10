@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray.GetData
+ - CHStringArray::GetData
 ---
 
 # CHStringArray::GetData
@@ -94,3 +94,4 @@ Although direct access to the elements of an array can help you work more quickl
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">CHStringArray::SetSize</a>
+

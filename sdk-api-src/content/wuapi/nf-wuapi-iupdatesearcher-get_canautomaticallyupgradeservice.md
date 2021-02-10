@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher.CanAutomaticallyUpgradeService
- - IUpdateSearcher.get_CanAutomaticallyUpgradeService
- - IUpdateSearcher.put_CanAutomaticallyUpgradeService
+ - IUpdateSearcher::get_CanAutomaticallyUpgradeService
 ---
 
 # IUpdateSearcher::get_CanAutomaticallyUpgradeService
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
+

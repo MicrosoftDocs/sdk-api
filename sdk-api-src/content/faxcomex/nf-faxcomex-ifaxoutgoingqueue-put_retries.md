@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.Retries
- - IFaxOutgoingQueue.get_Retries
- - IFaxOutgoingQueue.put_Retries
- - IFaxOutgoingQueue.get_Retries
- - IFaxOutgoingQueue.put_Retries
+ - IFaxOutgoingQueue::put_Retries
 ---
 
 # IFaxOutgoingQueue::put_Retries
@@ -75,3 +71,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-the-outgoing-queue-properties">Setting the Outgoing Queue Properties</a>
+

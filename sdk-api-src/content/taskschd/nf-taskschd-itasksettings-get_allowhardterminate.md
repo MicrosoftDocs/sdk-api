@@ -42,10 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings.AllowHardTerminate
- - ITaskSettings.get_AllowHardTerminate
- - ITaskSettings.put_AllowHardTerminate
- - TaskSettings.AllowHardTerminate
+ - ITaskSettings::get_AllowHardTerminate
 ---
 
 # ITaskSettings::get_AllowHardTerminate
@@ -74,3 +71,4 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 TaskSettings
+

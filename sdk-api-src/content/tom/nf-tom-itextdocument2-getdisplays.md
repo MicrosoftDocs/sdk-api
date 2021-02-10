@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2.GetDisplays
+ - ITextDocument2::GetDisplays
 ---
 
 # ITextDocument2::GetDisplays
@@ -73,3 +73,4 @@ The rich edit control doesn't implement this method.
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
+

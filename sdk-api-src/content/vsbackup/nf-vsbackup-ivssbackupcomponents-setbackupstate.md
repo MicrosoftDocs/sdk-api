@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.SetBackupState
+ - IVssBackupComponents::SetBackupState
 ---
 
 # IVssBackupComponents::SetBackupState
@@ -174,3 +174,4 @@ Applications must call
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a>
+

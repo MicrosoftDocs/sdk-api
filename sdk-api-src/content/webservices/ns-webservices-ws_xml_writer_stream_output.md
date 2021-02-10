@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_WRITER_STREAM_OUTPUT
  - WS_XML_WRITER_STREAM_OUTPUT
 ---
 
@@ -67,3 +68,4 @@ A callback that will get invoked when <a href="/windows/desktop/api/webservices/
 ### -field writeCallbackState
 
 User-defined data that will be passed to the writeCallback.
+

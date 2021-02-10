@@ -44,7 +44,7 @@ api_location:
  - Adsldp.dll
  - Adsldpc.dll
 api_name:
- - IDirectorySearch.GetPreviousRow
+ - IDirectorySearch::GetPreviousRow
 ---
 
 # IDirectorySearch::GetPreviousRow
@@ -99,3 +99,4 @@ if ( SUCCEEDED(hr) )
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
+

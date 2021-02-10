@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ConstDatetimeAField
  - MI_ConstDatetimeAField
 ---
 
@@ -91,3 +92,4 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 #### MI_FLAG_ADOPT ((1 << 31))
 
 Used while adding and setting properties on an <b>MI_Instance</b> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
+

@@ -43,8 +43,6 @@ api_location:
  - Winfax.h
 api_name:
  - PFAXOPENPORT
- - FaxOpenPortA
- - FaxOpenPortW
 ---
 
 # PFAXOPENPORT callback function
@@ -196,3 +194,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetporta">FaxSetPort</a>
+

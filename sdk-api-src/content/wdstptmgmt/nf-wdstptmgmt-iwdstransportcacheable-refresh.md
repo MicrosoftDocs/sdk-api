@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportCacheable.Refresh
+ - IWdsTransportCacheable::Refresh
 ---
 
 # IWdsTransportCacheable::Refresh
@@ -61,3 +61,4 @@ When called on an object whose <a href="/windows/desktop/api/wdstptmgmt/nf-wdstp
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer.DisconnectClient
+ - IWdsTransportServer::DisconnectClient
 ---
 
 # IWdsTransportServer::DisconnectClient
@@ -73,3 +73,4 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_disconnect_type">WDSTRANSPORT_DISCONNECT_TYPE</a>
+

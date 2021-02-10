@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
+ - tagAASHELLMENUITEM
+ - LPAASHELLMENUITEM
  - AASHELLMENUITEM
 ---
 

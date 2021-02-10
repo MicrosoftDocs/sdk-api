@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhMakeCounterPathW
  - pdh/PdhMakeCounterPathW
+ - PdhMakeCounterPath
+ - pdh/PdhMakeCounterPath
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhMakeCounterPath
- - PdhMakeCounterPathA
  - PdhMakeCounterPathW
+ - PdhMakeCounterPath
 ---
 
 # PdhMakeCounterPathW function
@@ -172,3 +173,4 @@ You should call this function twice, the first time to get the required buffer s
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhparsecounterpatha">PdhParseCounterPath</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupSetPlatformPathOverrideW
  - setupapi/SetupSetPlatformPathOverrideW
+ - SetupSetPlatformPathOverride
+ - setupapi/SetupSetPlatformPathOverride
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupSetPlatformPathOverride
- - SetupSetPlatformPathOverrideA
  - SetupSetPlatformPathOverrideW
+ - SetupSetPlatformPathOverride
 ---
 
 # SetupSetPlatformPathOverrideW function
@@ -100,3 +101,4 @@ The paths of file copy operations queued before the path override is set are not
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupsetdirectoryida">SetupSetDirectoryId</a>
+

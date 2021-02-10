@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdXml.h
 api_name:
+ - _WSD_DATETIME
  - WSD_DATETIME
 ---
 

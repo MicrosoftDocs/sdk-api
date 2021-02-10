@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole2.SetStatusText
+ - IConsole2::SetStatusText
 ---
 
 # IConsole2::SetStatusText
@@ -84,3 +84,4 @@ In MMC version 1.1 and later, each multiple-document interface (MDI) child windo
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
+

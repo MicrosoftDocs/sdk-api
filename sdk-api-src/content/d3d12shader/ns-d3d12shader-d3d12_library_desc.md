@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
+ - _D3D12_LIBRARY_DESC
  - D3D12_LIBRARY_DESC
 ---
 
@@ -79,3 +80,4 @@ This structure is returned by <a href="/windows/desktop/api/d3d12shader/nf-d3d12
 
 
 <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
+

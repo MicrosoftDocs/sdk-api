@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DDMOCOMPBUFFERINFO
+ - LPDDMOCOMPBUFFERINFO
  - DDMOCOMPBUFFERINFO
 ---
 
@@ -85,3 +87,4 @@ Used by Microsoft DirectDraw and should be ignored by the driver.
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
+

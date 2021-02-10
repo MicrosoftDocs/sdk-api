@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhReassociation.PerformReassociation
- - FhReassociation.PerformReassociation
+ - IFhReassociation::PerformReassociation
 ---
 
 # IFhReassociation::PerformReassociation
@@ -81,3 +80,4 @@ If this parameter is set to <b>TRUE</b> and File History is already configured f
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration">IFhReassociation::SelectConfiguration</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Browseui.dll
 api_name:
- - IActionProgressDialog.Initialize
+ - IActionProgressDialog::Initialize
 ---
 
 # IActionProgressDialog::Initialize

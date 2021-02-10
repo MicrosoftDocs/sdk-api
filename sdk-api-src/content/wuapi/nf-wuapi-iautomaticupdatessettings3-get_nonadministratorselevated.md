@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings3.NonAdministratorsElevated
- - IAutomaticUpdatesSettings3.get_NonAdministratorsElevated
- - IAutomaticUpdatesSettings3.put_NonAdministratorsElevated
+ - IAutomaticUpdatesSettings3::get_NonAdministratorsElevated
 ---
 
 # IAutomaticUpdatesSettings3::get_NonAdministratorsElevated
@@ -71,3 +69,4 @@ The NonAdministratorsElevated property controls whether non-administrative users
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings3">IAutomaticUpdatesSettings3</a>
+

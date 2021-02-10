@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferV2SourceEvent.BroadcastEvent
+ - IMSVidStreamBufferV2SourceEvent::BroadcastEvent
 ---
 
 # IMSVidStreamBufferV2SourceEvent::BroadcastEvent
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
+

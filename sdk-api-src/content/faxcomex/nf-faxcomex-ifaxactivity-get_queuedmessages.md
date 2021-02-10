@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxActivity.QueuedMessages
- - IFaxActivity.get_QueuedMessages
- - IFaxActivity.get_QueuedMessages
+ - IFaxActivity::get_QueuedMessages
 ---
 
 # IFaxActivity::get_QueuedMessages
@@ -73,3 +71,4 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-monitoring-fax-activity">Visual Basic Example</a>
+

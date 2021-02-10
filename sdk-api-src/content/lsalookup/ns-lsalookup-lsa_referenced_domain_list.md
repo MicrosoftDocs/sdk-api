@@ -46,6 +46,8 @@ api_type:
 api_location:
  - lsalookup.h
 api_name:
+ - _LSA_REFERENCED_DOMAIN_LIST
+ - PLSA_REFERENCED_DOMAIN_LIST
  - LSA_REFERENCED_DOMAIN_LIST
 ---
 
@@ -78,3 +80,4 @@ Pointer to an array of
 
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a>
+

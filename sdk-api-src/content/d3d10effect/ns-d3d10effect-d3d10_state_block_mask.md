@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d10effect.h
 api_name:
+ - _D3D10_STATE_BLOCK_MASK
  - D3D10_STATE_BLOCK_MASK
 ---
 
@@ -204,3 +205,4 @@ A state-block mask indicates the device states that a pass or a technique change
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
+

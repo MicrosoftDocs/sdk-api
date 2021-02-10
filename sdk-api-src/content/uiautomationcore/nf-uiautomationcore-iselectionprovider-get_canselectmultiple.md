@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISelectionProvider.CanSelectMultiple
- - ISelectionProvider.get_CanSelectMultiple
+ - ISelectionProvider::get_CanSelectMultiple
 ---
 
 # ISelectionProvider::get_CanSelectMultiple
@@ -70,3 +69,4 @@ This property may be dynamic. For example, in rare cases a control might allow
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

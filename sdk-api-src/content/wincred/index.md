@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - wincred
  - wincred/wincred
+api_name:
+ - wincred
 ---
 
 # Wincred.h header

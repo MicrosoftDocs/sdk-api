@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoMixerControl.SetStreamOutputRect
+ - IMFVideoMixerControl::SetStreamOutputRect
 ---
 
 # IMFVideoMixerControl::SetStreamOutputRect
@@ -131,3 +131,4 @@ The output rectangle for the stream is specified by calling <b>SetStreamOutputRe
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>
+

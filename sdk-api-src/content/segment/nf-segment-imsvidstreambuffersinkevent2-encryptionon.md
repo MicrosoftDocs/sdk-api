@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSinkEvent2.EncryptionOn
+ - IMSVidStreamBufferSinkEvent2::EncryptionOn
 ---
 
 # IMSVidStreamBufferSinkEvent2::EncryptionOn
@@ -84,3 +84,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent2">IMSVidStreamBufferSinkEvent2 Interface</a>
+

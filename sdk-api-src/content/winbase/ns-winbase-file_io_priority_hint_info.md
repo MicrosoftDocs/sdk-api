@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _FILE_IO_PRIORITY_HINT_INFO
+ - PFILE_IO_PRIORITY_HINT_INFO
  - FILE_IO_PRIORITY_HINT_INFO
 ---
 
@@ -82,3 +84,4 @@ This structure must be aligned on a <b>LONGLONG</b> (8-byte) boundary.
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
+

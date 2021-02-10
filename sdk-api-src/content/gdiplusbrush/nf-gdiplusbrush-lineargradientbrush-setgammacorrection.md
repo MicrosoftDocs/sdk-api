@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.SetGammaCorrection
+ - LinearGradientBrush::SetGammaCorrection
 ---
 
 # LinearGradientBrush::SetGammaCorrection
@@ -91,3 +91,4 @@ Gamma correction is often done to match the intensity contrast of the gradient t
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetGetCookieExW
  - wininet/InternetGetCookieExW
+ - InternetGetCookieEx
+ - wininet/InternetGetCookieEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetGetCookieEx
- - InternetGetCookieExA
  - InternetGetCookieExW
+ - InternetGetCookieEx
 ---
 
 # InternetGetCookieExW function
@@ -217,3 +218,4 @@ Returned if no cookied data as specified could be retrieved.
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

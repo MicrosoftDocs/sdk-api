@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMMOUSE
+ - LPNMMOUSE
  - NMMOUSE
 ---
 
@@ -87,3 +89,4 @@ A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contai
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Carries information about where on the item or control the cursor is pointing.
+

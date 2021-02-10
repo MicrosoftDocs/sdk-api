@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3DUserDefinedAnnotation.SetMarker
+ - ID3DUserDefinedAnnotation::SetMarker
 ---
 
 # ID3DUserDefinedAnnotation::SetMarker
@@ -105,3 +105,4 @@ pPerf->SetMarker( L”Occlusion test failed- not drawing sun flare” );
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>
+

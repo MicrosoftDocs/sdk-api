@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - mobsync
  - mobsync/mobsync
+api_name:
+ - mobsync
 ---
 
 # Mobsync.h header

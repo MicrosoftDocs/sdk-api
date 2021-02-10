@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.GetUniqueIdentity
+ - IEnhancedStorageACT::GetUniqueIdentity
 ---
 
 # IEnhancedStorageACT::GetUniqueIdentity
@@ -98,3 +98,4 @@ The memory containing the unique identity of the ACT is allocated by the Enhance
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
+

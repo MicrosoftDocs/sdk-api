@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern.SupportedTextSelection
- - IUIAutomationTextPattern.get_SupportedTextSelection
+ - IUIAutomationTextPattern::get_SupportedTextSelection
 ---
 
 # IUIAutomationTextPattern::get_SupportedTextSelection
@@ -88,3 +87,4 @@ HRESULT SupportedTextSelection (SupportedTextSelection *supportedTextSelection);
 ## -see-also
 
 [IUIAutomationTextPattern interface](nn-uiautomationclient-iuiautomationtextpattern.md), [UI Automation Support for Textual Content](/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview)
+

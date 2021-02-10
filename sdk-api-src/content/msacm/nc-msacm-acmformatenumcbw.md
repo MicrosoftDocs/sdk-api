@@ -42,8 +42,6 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
- - ACMFORMATENUMCB
- - ACMFORMATENUMCBA
  - ACMFORMATENUMCBW
 ---
 
@@ -125,3 +123,4 @@ The following functions should not be called from within the callback function: 
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

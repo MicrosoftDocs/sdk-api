@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList.AppendKnownCategory
+ - ICustomDestinationList::AppendKnownCategory
 ---
 
 # ICustomDestinationList::AppendKnownCategory
@@ -117,3 +117,4 @@ The contents of the <b>Frequent</b> and <b>Recent</b> categories are calculated 
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+

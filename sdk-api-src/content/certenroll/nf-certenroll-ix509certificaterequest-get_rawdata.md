@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest.RawData
- - IX509CertificateRequest.get_RawData
+ - IX509CertificateRequest::get_RawData
 ---
 
 # IX509CertificateRequest::get_RawData
@@ -84,3 +83,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificate
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

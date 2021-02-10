@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylist.insertItem
+ - IWMPPlaylist::insertItem
 ---
 
 # IWMPPlaylist::insertItem
@@ -101,3 +101,4 @@ Before calling this method, you must have full access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-removeitem">IWMPPlaylist::removeItem</a>
+

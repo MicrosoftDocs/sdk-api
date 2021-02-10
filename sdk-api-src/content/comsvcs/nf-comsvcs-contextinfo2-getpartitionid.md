@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ContextInfo2.GetPartitionId
+ - ContextInfo2::GetPartitionId
 ---
 
 # ContextInfo2::GetPartitionId
@@ -98,3 +98,4 @@ COM+ partitions are not enabled.
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a>
+

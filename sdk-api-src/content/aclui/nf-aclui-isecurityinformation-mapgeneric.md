@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation.MapGeneric
+ - ISecurityInformation::MapGeneric
 ---
 
 # ISecurityInformation::MapGeneric
@@ -111,3 +111,4 @@ Your <b>MapGeneric</b> implementation can call the
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a>
+

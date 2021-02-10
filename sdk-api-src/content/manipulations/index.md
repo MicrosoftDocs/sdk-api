@@ -9,6 +9,8 @@ tech.root: wintouch
 f1_keywords:
  - manipulations
  - manipulations/manipulations
+api_name:
+ - manipulations
 ---
 
 # Manipulations.h header

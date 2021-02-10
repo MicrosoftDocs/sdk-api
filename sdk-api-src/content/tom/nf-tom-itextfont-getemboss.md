@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.GetEmboss
+ - ITextFont::GetEmboss
 ---
 
 # ITextFont::GetEmboss
@@ -141,3 +141,4 @@ This property corresponds to the <b>CFE_EMBOSS</b> effect described in the <a hr
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

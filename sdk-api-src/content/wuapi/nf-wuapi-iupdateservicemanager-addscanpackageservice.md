@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceManager.AddScanPackageService
+ - IUpdateServiceManager::AddScanPackageService
 ---
 
 # IUpdateServiceManager::AddScanPackageService
@@ -135,3 +135,4 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that implements 
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
+

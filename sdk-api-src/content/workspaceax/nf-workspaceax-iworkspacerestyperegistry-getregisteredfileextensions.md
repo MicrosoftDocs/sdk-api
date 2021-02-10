@@ -42,8 +42,7 @@ api_type:
 api_location:
  - TSWorkspace.dll
 api_name:
- - IWorkspaceResTypeRegistry.GetRegisteredFileExtensions
- - Workspace.GetRegisteredFileExtensions
+ - IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
 ---
 
 # IWorkspaceResTypeRegistry::GetRegisteredFileExtensions
@@ -82,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>
+

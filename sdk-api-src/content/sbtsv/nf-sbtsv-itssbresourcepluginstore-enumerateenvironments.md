@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.EnumerateEnvironments
- - ITsSbResourcePluginStoreEx.EnumerateEnvironments
+ - ITsSbResourcePluginStore::EnumerateEnvironments
 ---
 
 # ITsSbResourcePluginStore::EnumerateEnvironments
@@ -78,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a>
+

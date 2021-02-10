@@ -42,9 +42,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdFreeDriverMemory
+ - PDD_FREEDRIVERMEMORY
 ---
-
 
 ## -description
 
@@ -53,7 +52,6 @@ The <b>DdFreeDriverMemory</b> callback function frees offscreen or nonlocal disp
 ## -parameters
 
 ### -param Arg1
-
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_freedrivermemorydata">DD_FREEDRIVERMEMORYDATA</a> structure that contains the details of the free request.
 
@@ -84,3 +82,4 @@ DirectDraw will continually call <b>DdFreeDriverMemory</b> until there is enough
 
 
 <a href="/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>
+

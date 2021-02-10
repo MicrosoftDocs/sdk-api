@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - KF_REDIRECT_FLAGS
+ - _KF_REDIRECT_FLAGS
 ---
 
 # _KF_REDIRECT_FLAGS enumeration
@@ -112,3 +112,4 @@ typedef DWORD KF_REDIRECT_FLAGS;
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
+

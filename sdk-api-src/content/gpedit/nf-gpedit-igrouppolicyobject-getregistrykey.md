@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject.GetRegistryKey
+ - IGroupPolicyObject::GetRegistryKey
 ---
 
 # IGroupPolicyObject::GetRegistryKey
@@ -103,3 +103,4 @@ When you have finished using the registry handle, call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
+

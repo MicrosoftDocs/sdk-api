@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dshowasf.h
 api_name:
- - IAMWMBufferPass.SetNotify
+ - IAMWMBufferPass::SetNotify
 ---
 
 # IAMWMBufferPass::SetNotify
@@ -69,3 +69,4 @@ Call this method before putting the filter graph into the run state.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/dd798276(v=vs.85)">IAMWMBufferPass Interface</a>
+

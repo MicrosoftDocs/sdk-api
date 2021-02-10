@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagDATETIMEPICKERINFO
+ - LPDATETIMEPICKERINFO
  - DATETIMEPICKERINFO
 ---
 
@@ -105,3 +107,4 @@ A handle to the up/down control—an alternative to using the drop-down grid (lo
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the drop-down grid.
+

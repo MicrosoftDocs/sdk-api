@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssAsync.Cancel
+ - IVssAsync::Cancel
 ---
 
 # IVssAsync::Cancel
@@ -131,3 +131,4 @@ To obtain a complete list of return values for a specific <b>IVssAsync::Cancel</
 
 
 <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
+

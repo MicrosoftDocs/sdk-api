@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.operator>
- - ??OWBEMTime@@QBEHABV0@@Z
+ - WBEMTime::operator>
 ---
 
 # WBEMTime::operator-greater-than
@@ -69,3 +68,4 @@ Reference to the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object 
 ## -returns
 
 True if this time is greater than the time specified by <i>uTarget</i>.
+

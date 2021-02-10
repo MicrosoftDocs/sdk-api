@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaItem.GetUserData
+ - IMFPMediaItem::GetUserData
 ---
 
 # IMFPMediaItem::GetUserData
@@ -79,3 +79,4 @@ This method can be called after the player object is shut down.
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

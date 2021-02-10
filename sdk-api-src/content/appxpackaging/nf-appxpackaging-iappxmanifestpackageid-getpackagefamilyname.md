@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageId.GetPackageFamilyName
+ - IAppxManifestPackageId::GetPackageFamilyName
 ---
 
 # IAppxManifestPackageId::GetPackageFamilyName
@@ -77,3 +77,4 @@ The caller must free the memory for <i>packageFamilyName</i> using the <a href="
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
+

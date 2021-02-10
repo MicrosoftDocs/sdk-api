@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - StartProtocol
+ - PSTART_PROTOCOL
 ---
 
 # PSTART_PROTOCOL callback function
@@ -138,3 +138,4 @@ One of the parameters pointed to by the <i>GlobalInfo</i> parameter is invalid.
 
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a>
+

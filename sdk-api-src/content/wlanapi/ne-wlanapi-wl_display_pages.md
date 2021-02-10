@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WL_DISPLAY_PAGES
+ - PWL_DISPLAY_PAGES
  - WL_DISPLAY_PAGES
 ---
 
@@ -71,3 +73,4 @@ Displays the <b>Security</b> tab.
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanuieditprofile">WlanUIEditProfile</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IBootOptions.put_Emulation
+ - IBootOptions::put_Emulation
 ---
 
 # IBootOptions::put_Emulation
@@ -89,3 +89,4 @@ Value: 0xC0AAB14A
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_emulation">IBootOptions::get_Emulation</a>
+

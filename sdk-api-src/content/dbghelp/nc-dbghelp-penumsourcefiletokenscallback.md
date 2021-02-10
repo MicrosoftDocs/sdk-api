@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dbghelp.h
 api_name:
- - SymEnumSourceFileTokensProc
+ - PENUMSOURCEFILETOKENSCALLBACK
 ---
 
 # PENUMSOURCEFILETOKENSCALLBACK callback function
@@ -98,3 +98,4 @@ To get individual variables from the token, call <a href="/windows/desktop/api/d
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsourcefilefromtoken">SymGetSourceFileFromToken</a>
+

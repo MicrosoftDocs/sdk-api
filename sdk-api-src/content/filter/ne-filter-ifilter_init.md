@@ -43,6 +43,7 @@ api_type:
 api_location:
  - 
 api_name:
+ - tagIFILTER_INIT
  - IFILTER_INIT
 ---
 
@@ -129,3 +130,4 @@ Certain <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> inte
 ## -see-also
 
 <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
+

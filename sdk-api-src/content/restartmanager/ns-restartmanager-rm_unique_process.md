@@ -46,6 +46,8 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
+ - _RM_UNIQUE_PROCESS
+ - PRM_UNIQUE_PROCESS
  - RM_UNIQUE_PROCESS
 ---
 
@@ -69,3 +71,4 @@ The creation time of the process. The time is provided as a <b>FILETIME</b> stru
 ## -remarks
 
 The <b>RM_UNIQUE_PROCESS</b> structure can be used to uniquely identify an application in an <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structure or  registered with the Restart Manager session by the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function.
+

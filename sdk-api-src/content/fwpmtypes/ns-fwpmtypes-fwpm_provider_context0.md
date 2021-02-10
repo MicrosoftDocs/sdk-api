@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_PROVIDER_CONTEXT0_
  - FWPM_PROVIDER_CONTEXT0
 ---
 
@@ -152,3 +153,4 @@ The last element is additional information returned when getting/enumerating obj
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
+

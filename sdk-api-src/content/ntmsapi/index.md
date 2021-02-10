@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - ntmsapi
  - ntmsapi/ntmsapi
+api_name:
+ - ntmsapi
 ---
 
 # Ntmsapi.h header

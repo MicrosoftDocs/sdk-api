@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - lineagentactivitylist_tag
+ - LPLINEAGENTACTIVITYLIST
  - LINEAGENTACTIVITYLIST
 ---
 
@@ -99,3 +101,4 @@ Offset from the beginning of the structure to an array of
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IUpdateIDList.Update
+ - IUpdateIDList::Update
 ---
 
 # IUpdateIDList::Update
@@ -89,3 +89,4 @@ If <i>pbc</i> is <b>NULL</b> or does not contain any parameters that apply to th
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iupdateidlist">IUpdateIDList</a>
+

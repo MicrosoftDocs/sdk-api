@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509SignatureInformation.HashAlgorithm
- - IX509SignatureInformation.get_HashAlgorithm
- - IX509SignatureInformation.put_HashAlgorithm
+ - IX509SignatureInformation::put_HashAlgorithm
 ---
 
 # IX509SignatureInformation::put_HashAlgorithm
@@ -67,3 +65,4 @@ The <b>HashAlgorithm</b> property validates whether the OID you specify represen
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

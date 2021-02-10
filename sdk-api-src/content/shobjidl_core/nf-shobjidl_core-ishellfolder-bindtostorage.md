@@ -43,8 +43,7 @@ api_location:
  - Shell32.dll
  - netshell.dll
 api_name:
- - IShellFolder.BindToStorage
- - IShellFolder2.BindToStorage
+ - IShellFolder::BindToStorage
 ---
 
 # IShellFolder::BindToStorage
@@ -89,3 +88,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Namespace extensions have the option of allowing applications to bind to an object that represents an item's storage. If this option is supported, <b>IShellFolder::BindToStorage</b> returns a specified interface pointer that can then be used to access the contents of object. See the <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtostorage">IMoniker::BindToStorage</a> reference for further discussion.
+

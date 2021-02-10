@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader.IsWmfPlaceable
+ - MetafileHeader::IsWmfPlaceable
 ---
 
 # MetafileHeader::IsWmfPlaceable
@@ -101,3 +101,4 @@ if(metaHeader.IsWmfPlaceable() == TRUE)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+

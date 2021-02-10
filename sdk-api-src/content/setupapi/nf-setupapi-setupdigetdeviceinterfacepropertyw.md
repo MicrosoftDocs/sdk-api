@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetDeviceInterfacePropertyW
  - setupapi/SetupDiGetDeviceInterfacePropertyW
+ - SetupDiGetDeviceInterfaceProperty
+ - setupapi/SetupDiGetDeviceInterfaceProperty
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
+ - SetupDiGetDeviceInterfacePropertyW
  - SetupDiGetDeviceInterfaceProperty
 ---
 
@@ -241,3 +244,4 @@ To set a device interface property, call <a href="/windows/desktop/api/setupapi/
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw">SetupDiSetDeviceInterfaceProperty</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbEmergencyInformationDescriptor.GetAreaCode
+ - IIsdbEmergencyInformationDescriptor::GetAreaCode
 ---
 
 # IIsdbEmergencyInformationDescriptor::GetAreaCode
@@ -84,3 +84,4 @@ ARIB STD-B10, Version 4.4</i>.
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getcountofrecords">IIsdbEmergencyInformationDescriptor::GetCountOfRecords</a>
+

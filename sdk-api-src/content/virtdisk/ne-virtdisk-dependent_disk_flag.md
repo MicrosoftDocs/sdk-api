@@ -45,6 +45,7 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _DEPENDENT_DISK_FLAG
  - DEPENDENT_DISK_FLAG
 ---
 
@@ -117,3 +118,4 @@ The lifetime of the virtual disk is not tied to any application or process.
 
 
 <a href="/windows/desktop/VStor/virtual-storage">Virtual Storage</a>
+

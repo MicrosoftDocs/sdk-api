@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetExtendedDiscoXML
+ - IWSDiscoveredService::GetExtendedDiscoXML
 ---
 
 # IWSDiscoveredService::GetExtendedDiscoXML
@@ -98,3 +98,4 @@ The resulting pointer values are  only valid for the lifetime of the <a href="/w
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
+

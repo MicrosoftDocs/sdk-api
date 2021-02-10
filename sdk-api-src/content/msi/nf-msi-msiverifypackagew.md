@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiVerifyPackageW
  - msi/MsiVerifyPackageW
+ - MsiVerifyPackage
+ - msi/MsiVerifyPackage
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiVerifyPackage
- - MsiVerifyPackageA
  - MsiVerifyPackageW
+ - MsiVerifyPackage
 ---
 
 # MsiVerifyPackageW function

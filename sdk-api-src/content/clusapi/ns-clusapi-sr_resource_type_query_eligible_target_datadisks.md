@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _SR_RESOURCE_TYPE_ELIGIBLE_TARGET_DATADISKS
+ - PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS
  - SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS
 ---
 
@@ -77,3 +79,4 @@ The identifier of the replication group that contains the retrieved data disks.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
+

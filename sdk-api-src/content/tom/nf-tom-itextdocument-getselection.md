@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument.GetSelection
+ - ITextDocument::GetSelection
 ---
 
 # ITextDocument::GetSelection
@@ -114,3 +114,4 @@ Invalid argument.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

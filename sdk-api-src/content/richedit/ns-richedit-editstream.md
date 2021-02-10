@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _editstream
  - EDITSTREAM
 ---
 
@@ -89,3 +90,4 @@ Pointer to an <a href="/windows/win32/api/richedit/nc-richedit-editstreamcallbac
 
 
 <b>Reference</b>
+

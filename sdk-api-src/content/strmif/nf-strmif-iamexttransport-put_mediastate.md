@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.put_MediaState
+ - IAMExtTransport::put_MediaState
 ---
 
 # IAMExtTransport::put_MediaState
@@ -98,3 +98,4 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mediastate">IAMExtTransport::get_MediaState</a>
+

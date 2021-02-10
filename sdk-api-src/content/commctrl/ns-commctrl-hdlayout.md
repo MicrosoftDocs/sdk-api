@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - _HD_LAYOUT
+ - LPHDLAYOUT
  - HDLAYOUT
 ---
 
@@ -70,3 +72,4 @@ Structure that contains the coordinates of a rectangle that the header control w
 Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-windowpos">WINDOWPOS</a>*</b>
 
 Structure that receives information about the appropriate size and position of the header control.
+

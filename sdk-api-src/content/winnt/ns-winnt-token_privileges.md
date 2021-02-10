@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_PRIVILEGES
+ - PTOKEN_PRIVILEGES
  - TOKEN_PRIVILEGES
 ---
 
@@ -199,3 +201,4 @@ The privilege was used to gain access to an object or service. This flag is used
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
+

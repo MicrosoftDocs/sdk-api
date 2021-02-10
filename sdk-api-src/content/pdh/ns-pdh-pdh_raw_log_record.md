@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
+ - _PDH_RAW_LOG_RECORD
+ - PPDH_RAW_LOG_RECORD
  - PDH_RAW_LOG_RECORD
 ---
 
@@ -135,3 +137,4 @@ Binary record.
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhreadrawlogrecord">PdhReadRawLogRecord</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_DECODER_CAPS
  - DVD_DECODER_CAPS
 ---
 
@@ -173,3 +174,4 @@ Reserved for future use.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdecodercaps">IDvdInfo2::GetDecoderCaps</a>
+

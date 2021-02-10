@@ -43,7 +43,7 @@ api_location:
  - D3DCompiler.lib
  - D3DCompiler.dll
 api_name:
- - ID3D11TracingDevice.SetShaderTrackingOptions
+ - ID3D11TracingDevice::SetShaderTrackingOptions
 ---
 
 # ID3D11TracingDevice::SetShaderTrackingOptions
@@ -77,3 +77,4 @@ This method returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphi
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11tracingdevice">ID3D11TracingDevice</a>
+

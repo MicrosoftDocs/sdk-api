@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFInputTrustAuthority.RequestAccess
+ - IMFInputTrustAuthority::RequestAccess
 ---
 
 # IMFInputTrustAuthority::RequestAccess
@@ -154,3 +154,4 @@ A stream can go to multiple outputs, so this method might be called multiple tim
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
+

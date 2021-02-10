@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
+ - IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
 ---
 
 # IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
@@ -102,3 +102,4 @@ If home media sharing is allowed for the computer and home media sharing is enab
 
 
 <a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingStateAllowed</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControlSite.ShowPropertyFrame
+ - IOleControlSite::ShowPropertyFrame
 ---
 
 # IOleControlSite::ShowPropertyFrame
@@ -94,3 +94,4 @@ A control must always call this method in the container first when it intends to
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
+

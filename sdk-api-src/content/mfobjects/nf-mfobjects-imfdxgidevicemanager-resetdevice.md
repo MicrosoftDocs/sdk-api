@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIDeviceManager.ResetDevice
+ - IMFDXGIDeviceManager::ResetDevice
 ---
 
 # IMFDXGIDeviceManager::ResetDevice
@@ -83,3 +83,4 @@ It is recommended that you use multi-thread protection on the device context to 
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
+

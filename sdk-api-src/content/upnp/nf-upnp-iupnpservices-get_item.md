@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServices.get_Item
+ - IUPnPServices::get_Item
 ---
 
 # IUPnPServices::get_Item
@@ -101,3 +101,4 @@ Failed to subscribe to the event source.
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
+

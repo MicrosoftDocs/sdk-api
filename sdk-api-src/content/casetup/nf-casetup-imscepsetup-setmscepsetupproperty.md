@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup.SetMSCEPSetupProperty
+ - IMSCEPSetup::SetMSCEPSetupProperty
 ---
 
 # IMSCEPSetup::SetMSCEPSetupProperty
@@ -65,3 +65,4 @@ A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
+

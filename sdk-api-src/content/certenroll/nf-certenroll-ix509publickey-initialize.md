@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PublicKey.Initialize
+ - IX509PublicKey::Initialize
 ---
 
 # IX509PublicKey::Initialize
@@ -117,3 +117,4 @@ The <b>Initialize</b> method initializes the following property values:
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>
+

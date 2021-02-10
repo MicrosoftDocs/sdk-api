@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMNotificationClient.OnDeviceAdded
+ - IMMNotificationClient::OnDeviceAdded
 ---
 
 # IMMNotificationClient::OnDeviceAdded
@@ -69,3 +69,4 @@ For a code example that implements the <b>OnDeviceAdded</b> method, see <a href=
 ## -see-also
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
+

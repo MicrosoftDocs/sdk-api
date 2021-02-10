@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.PerformOperations
+ - IFileOperation::PerformOperations
 ---
 
 # IFileOperation::PerformOperations
@@ -75,3 +75,4 @@ This method is called last to execute those actions that have been specified ear
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-startoperations">StartOperations</a>
+

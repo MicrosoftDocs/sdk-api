@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.LdapQuery
- - IAzApplicationGroup.get_LdapQuery
- - IAzApplicationGroup.put_LdapQuery
- - AzApplicationGroup.LdapQuery
+ - IAzApplicationGroup::put_LdapQuery
 ---
 
 # IAzApplicationGroup::put_LdapQuery
@@ -64,3 +61,4 @@ This property is read/write.
 This property is ignored unless the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a> property is AZ_GROUPTYPE_LDAP_QUERY. 
 
 The maximum length of this property is 4,096 characters.
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphBuilder.SetLogFile
+ - IGraphBuilder::SetLogFile
 ---
 
 # IGraphBuilder::SetLogFile
@@ -76,3 +76,4 @@ The <i>hFile</i> parameter must be an open file handle. Your application is resp
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
+

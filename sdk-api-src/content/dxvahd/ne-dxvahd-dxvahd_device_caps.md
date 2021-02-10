@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_DEVICE_CAPS
  - DXVAHD_DEVICE_CAPS
 ---
 
@@ -83,3 +84,4 @@ The device can apply a matrix conversion to YCbCr values when the input and outp
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

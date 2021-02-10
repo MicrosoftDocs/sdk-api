@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataTables.GetGuid
+ - IMetaDataTables::GetGuid
 ---
 
 # IMetaDataTables::GetGuid
@@ -73,3 +73,4 @@ We do not recommend the use of this method, because it does not return consisten
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatatables">IMetaDataTables</a>
+

@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - featurestagingapi
  - featurestagingapi/featurestagingapi
+api_name:
+ - featurestagingapi
 ---
 
 # Featurestagingapi.h header

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
+ - _CRYPT_PROVUI_FUNCS
+ - PCRYPT_PROVUI_FUNCS
  - CRYPT_PROVUI_FUNCS
 ---
 
@@ -107,3 +109,4 @@ typedef BOOL (*PFN_PROVUI_CALL)(
 
 
 <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a>
+

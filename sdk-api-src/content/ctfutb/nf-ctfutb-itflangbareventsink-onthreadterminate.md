@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msutb.dll
 api_name:
- - ITfLangBarEventSink.OnThreadTerminate
+ - ITfLangBarEventSink::OnThreadTerminate
 ---
 
 # ITfLangBarEventSink::OnThreadTerminate

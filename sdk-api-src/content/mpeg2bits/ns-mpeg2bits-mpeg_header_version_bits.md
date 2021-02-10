@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mpeg2Bits.h
 api_name:
+ - PMPEG_HEADER_VERSION_BITS
  - MPEG_HEADER_VERSION_BITS
 ---
 
@@ -71,3 +72,4 @@ Two reserved bits.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
+

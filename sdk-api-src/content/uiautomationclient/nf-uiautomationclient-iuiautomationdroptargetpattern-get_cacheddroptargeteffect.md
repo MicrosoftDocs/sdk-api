@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationDropTargetPattern.CachedDropTargetEffect
- - IUIAutomationDropTargetPattern.get_CachedDropTargetEffect
+ - IUIAutomationDropTargetPattern::get_CachedDropTargetEffect
 ---
 
 # IUIAutomationDropTargetPattern::get_CachedDropTargetEffect
@@ -64,3 +63,4 @@ This property describes the default effect that happens when the user drops a gr
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdroptargetpattern">IUIAutomationDropTargetPattern</a>
+

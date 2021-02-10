@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dskquota.h
 api_name:
+ - DiskQuotaUserInformation
+ - PDISKQUOTA_USER_INFORMATION
  - DISKQUOTA_USER_INFORMATION
 ---
 
@@ -88,3 +90,4 @@ You can use the <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacon
 
 
 <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotainformation">IDiskQuotaUser::GetQuotaInformation</a>
+

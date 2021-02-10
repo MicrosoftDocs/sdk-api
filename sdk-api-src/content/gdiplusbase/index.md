@@ -9,6 +9,8 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusbase
  - gdiplusbase/gdiplusbase
+api_name:
+ - gdiplusbase
 ---
 
 # Gdiplusbase.h header

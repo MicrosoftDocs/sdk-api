@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.NotifyLateDelivery
+ - IWMReaderAdvanced::NotifyLateDelivery
 ---
 
 # IWMReaderAdvanced::NotifyLateDelivery
@@ -68,3 +68,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
+

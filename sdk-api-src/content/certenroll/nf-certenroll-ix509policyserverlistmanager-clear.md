@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager.Clear
+ - IX509PolicyServerListManager::Clear
 ---
 
 # IX509PolicyServerListManager::Clear
@@ -63,3 +63,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlistmanager">IX509PolicyServerListManager</a>
+

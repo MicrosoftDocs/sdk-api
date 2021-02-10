@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyStoreCapabilities.IsPropertyWritable
+ - IPropertyStoreCapabilities::IsPropertyWritable
 ---
 
 # IPropertyStoreCapabilities::IsPropertyWritable
@@ -98,3 +98,4 @@ The property cannot be edited.
 ## -remarks
 
 The Shell disables the editing of controls by the user as appropriate through this method. A handler that does not support <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a> is assumed to support writing of any property.
+

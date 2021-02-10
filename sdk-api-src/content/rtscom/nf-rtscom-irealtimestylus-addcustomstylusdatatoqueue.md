@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.AddCustomStylusDataToQueue
+ - IRealTimeStylus::AddCustomStylusDataToQueue
 ---
 
 # IRealTimeStylus::AddCustomStylusDataToQueue
@@ -106,3 +106,4 @@ The GUID can be used by objects other than plug-ins and real time styluses to ad
 
 
 <a href="/windows/desktop/api/rtscom/ne-rtscom-stylusqueue">StylusQueue Enumeration</a>
+

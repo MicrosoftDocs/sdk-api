@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IProcessInitializer.Shutdown
+ - IProcessInitializer::Shutdown
 ---
 
 # IProcessInitializer::Shutdown
@@ -65,3 +65,4 @@ The Shutdown method is not called during a failfast or other catastrophic shutdo
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iprocessinitializer">IProcessInitializer</a>
+

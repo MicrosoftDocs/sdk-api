@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner.Logon
+ - IAMTuner::Logon
 ---
 
 # IAMTuner::Logon
@@ -74,3 +74,4 @@ The <code>Logon</code> and <b>Logout</b> methods enable you to implement selecti
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

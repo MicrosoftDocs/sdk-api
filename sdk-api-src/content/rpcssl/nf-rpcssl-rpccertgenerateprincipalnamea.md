@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcCertGeneratePrincipalNameA
  - rpcssl/RpcCertGeneratePrincipalNameA
+ - RpcCertGeneratePrincipalName
+ - rpcssl/RpcCertGeneratePrincipalName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcCertGeneratePrincipalName
  - RpcCertGeneratePrincipalNameA
- - RpcCertGeneratePrincipalNameW
+ - RpcCertGeneratePrincipalName
 ---
 
 # RpcCertGeneratePrincipalNameA function
@@ -98,3 +99,4 @@ Your application must call
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

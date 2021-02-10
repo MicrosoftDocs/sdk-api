@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_FAILOVER_RELATIONSHIP_ARRAY
+ - LPDHCP_FAILOVER_RELATIONSHIP_ARRAY
  - DHCP_FAILOVER_RELATIONSHIP_ARRAY
 ---
 
@@ -66,3 +68,4 @@ Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_f
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoverenumrelationship">DhcpV4FailoverEnumRelationship</a>
+

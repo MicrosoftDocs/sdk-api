@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymGetHomeDirectory
- - SymGetHomeDirectory
- - SymGetHomeDirectoryW
 ---
 
 # SymGetHomeDirectory function
@@ -128,3 +126,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsethomedirectory">SymSetHomeDirectory</a>
+

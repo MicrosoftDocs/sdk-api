@@ -43,7 +43,7 @@ api_location:
  - Deviceaccess.lib
  - Deviceaccess.dll
 api_name:
- - ICreateDeviceAccessAsync.Cancel
+ - ICreateDeviceAccessAsync::Cancel
 ---
 
 # ICreateDeviceAccessAsync::Cancel
@@ -68,3 +68,4 @@ Your application can call  <b>Cancel</b> at any time. If the operation is alread
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>
+

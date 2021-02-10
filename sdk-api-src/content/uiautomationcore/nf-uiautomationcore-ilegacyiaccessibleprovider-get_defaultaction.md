@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UiAutomationCore.dll
 api_name:
- - ILegacyIAccessibleProvider.DefaultAction
- - ILegacyIAccessibleProvider.get_DefaultAction
+ - ILegacyIAccessibleProvider::get_DefaultAction
 ---
 
 # ILegacyIAccessibleProvider::get_DefaultAction
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider">ILegacyIAccessibleProvider</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Traffic.h
 api_name:
+ - _IPX_PATTERN
+ - PIPX_PATTERN
  - IPX_PATTERN
 ---
 
@@ -94,3 +96,4 @@ Socket on which the mask is to be applied.
 ## -see-also
 
 <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+

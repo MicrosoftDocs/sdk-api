@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.SetFont
+ - ITextRange::SetFont
 ---
 
 # ITextRange::SetFont
@@ -140,3 +140,4 @@ For occasional format changes, use the <b>ITextRange::SetFont</b> method. Howeve
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

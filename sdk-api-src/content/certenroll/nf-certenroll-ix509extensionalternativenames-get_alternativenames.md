@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionAlternativeNames.AlternativeNames
- - IX509ExtensionAlternativeNames.get_AlternativeNames
+ - IX509ExtensionAlternativeNames::get_AlternativeNames
 ---
 
 # IX509ExtensionAlternativeNames::get_AlternativeNames
@@ -64,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensional
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionalternativenames">IX509ExtensionAlternativeNames</a>
+

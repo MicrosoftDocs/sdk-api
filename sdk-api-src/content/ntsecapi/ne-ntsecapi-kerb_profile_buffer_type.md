@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_PROFILE_BUFFER_TYPE
+ - PKERB_PROFILE_BUFFER_TYPE
  - KERB_PROFILE_BUFFER_TYPE
 ---
 
@@ -67,3 +69,4 @@ The buffer contains information about an interactive <a href="/windows/desktop/S
 ### -field KerbTicketProfile
 
 The buffer contains information about a Kerberos logon session.
+

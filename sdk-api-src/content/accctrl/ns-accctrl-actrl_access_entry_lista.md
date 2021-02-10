@@ -46,9 +46,9 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - ACTRL_ACCESS_ENTRY_LIST
+ - _ACTRL_ACCESS_ENTRY_LISTA
+ - PACTRL_ACCESS_ENTRY_LISTA
  - ACTRL_ACCESS_ENTRY_LISTA
- - ACTRL_ACCESS_ENTRY_LISTW
 ---
 
 # ACTRL_ACCESS_ENTRY_LISTA structure
@@ -88,3 +88,4 @@ To create a null access list, set the <b>pAccessEntryList</b> member of the <a h
 ## -see-also
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entrya">ACTRL_PROPERTY_ENTRY</a>
+

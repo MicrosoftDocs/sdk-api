@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_search_ext_s
- - ldap_search_ext_sA
- - ldap_search_ext_sW
 ---
 
 # ldap_search_ext_s function
@@ -237,3 +235,4 @@ else
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_st">ldap_search_st</a>
+

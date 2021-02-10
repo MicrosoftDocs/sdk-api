@@ -44,6 +44,7 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
+ - __MIDL___MIDL_itf_UIAnimation_0000_0008_0001
  - UI_ANIMATION_PRIORITY_EFFECT
 ---
 
@@ -73,3 +74,4 @@ This enumeration is used as the <i>priorityEffect</i> parameter of  <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison-haspriority">IUIAnimationPriorityComparison::HasPriority</a>
+

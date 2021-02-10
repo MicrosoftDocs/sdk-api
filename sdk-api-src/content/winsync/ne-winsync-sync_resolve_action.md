@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
+ - __MIDL___MIDL_itf_winsync_0000_0000_0005
  - SYNC_RESOLVE_ACTION
 ---
 
@@ -95,3 +96,4 @@ The members of <b>SYNC_RESOLVE_ACTION</b> specify the action that the change app
 
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
+

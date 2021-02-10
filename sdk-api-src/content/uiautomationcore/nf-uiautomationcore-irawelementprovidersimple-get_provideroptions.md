@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderSimple.ProviderOptions
- - IRawElementProviderSimple.get_ProviderOptions
+ - IRawElementProviderSimple::get_ProviderOptions
 ---
 
 # IRawElementProviderSimple::get_ProviderOptions
@@ -83,3 +82,4 @@ HRESULT STDMETHODCALLTYPE Provider::get_ProviderOptions( ProviderOptions* pRetVa
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
+

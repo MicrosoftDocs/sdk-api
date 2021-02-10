@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_KEY_BLOB
  - BCRYPT_KEY_BLOB
 ---
 
@@ -67,3 +68,4 @@ Specifies the type of key this BLOB represents. The possible values for this mem
 
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a>
+

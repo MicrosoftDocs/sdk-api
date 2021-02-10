@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSender.Company
- - IFaxSender.get_Company
- - IFaxSender.put_Company
+ - IFaxSender::get_Company
 ---
 
 # IFaxSender::get_Company
@@ -69,3 +67,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

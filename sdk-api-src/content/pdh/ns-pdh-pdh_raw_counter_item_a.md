@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
- - PDH_RAW_COUNTER_ITEM, *PPDH_RAW_COUNTER_ITEM
+ - _PDH_RAW_COUNTER_ITEM_A
+ - PPDH_RAW_COUNTER_ITEM_A
  - PDH_RAW_COUNTER_ITEM_A
- - PDH_RAW_COUNTER_ITEM_W
 ---
 
 # PDH_RAW_COUNTER_ITEM_A structure
@@ -76,3 +76,4 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcounterarraya">PdhGetRawCounterArray</a>
+

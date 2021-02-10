@@ -52,7 +52,6 @@ api_location:
  - Wmipiprt.dll
 api_name:
  - IWbemClassObject
- - WbemClassObject
 ---
 
 # IWbemClassObject interface
@@ -102,3 +101,4 @@ From the WMI client perspective, this interface is always in-process. Write
 
 
 <a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>
+

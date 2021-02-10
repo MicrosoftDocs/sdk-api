@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData.DeleteAllRsltItems
- - IResultData2.DeleteAllRsltItems
+ - IResultData::DeleteAllRsltItems
 ---
 
 # IResultData::DeleteAllRsltItems
@@ -70,3 +69,4 @@ This method provides the same functionality for both result view panes and virtu
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
+

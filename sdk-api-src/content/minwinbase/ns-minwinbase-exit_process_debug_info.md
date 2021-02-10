@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _EXIT_PROCESS_DEBUG_INFO
+ - LPEXIT_PROCESS_DEBUG_INFO
  - EXIT_PROCESS_DEBUG_INFO
 ---
 
@@ -65,3 +67,4 @@ The exit code for the process.
 ## -see-also
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
+

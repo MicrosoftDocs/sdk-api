@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetId
+ - IBackgroundCopyJob::GetId
 ---
 
 # IBackgroundCopyJob::GetId
@@ -76,3 +76,4 @@ The service generates the identifier when you
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a>
+

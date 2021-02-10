@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMReaderAllocatorEx.AllocateForStreamEx
+ - IWMReaderAllocatorEx::AllocateForStreamEx
 ---
 
 # IWMReaderAllocatorEx::AllocateForStreamEx
@@ -120,3 +120,4 @@ When you allocate a sample in your implementation of this method, you should cal
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
+

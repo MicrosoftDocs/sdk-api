@@ -42,8 +42,6 @@ api_type:
 api_location:
  - Msi.h
 api_name:
- - INSTALLUI_HANDLER
- - INSTALLUI_HANDLERA
  - INSTALLUI_HANDLERW
 ---
 
@@ -446,3 +444,4 @@ For more information on returning values from an external user interface handler
 ## -see-also
 
 <a href="/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a>
+

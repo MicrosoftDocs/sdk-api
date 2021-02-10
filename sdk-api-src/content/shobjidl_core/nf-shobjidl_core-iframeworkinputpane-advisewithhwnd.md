@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFrameworkInputPane.AdviseWithHWND
+ - IFrameworkInputPane::AdviseWithHWND
 ---
 
 # IFrameworkInputPane::AdviseWithHWND
@@ -89,3 +89,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpane-unadvise">IFrameworkInputPane::Unadvise</a>
+

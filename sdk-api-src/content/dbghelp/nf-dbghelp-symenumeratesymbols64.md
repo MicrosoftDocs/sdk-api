@@ -43,10 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymEnumerateSymbols64
- - SymEnumerateSymbols64
- - SymEnumerateSymbolsW64
- - SymEnumerateSymbols
- - SymEnumerateSymbolsW
 ---
 
 # SymEnumerateSymbols64 function
@@ -152,3 +148,4 @@ SymEnumerateSymbolsW(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
+

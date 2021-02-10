@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
  - WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 ---
 
@@ -80,3 +81,4 @@ Application provided username binding information for the bootstrap channel that
 ### -field securityContextSecurityBinding
 
 Application provided security context message binding information for service channel that cannot be represented in policy.
+

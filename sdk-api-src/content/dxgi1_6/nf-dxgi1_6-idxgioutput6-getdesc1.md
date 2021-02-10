@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput6.GetDesc1
+ - IDXGIOutput6::GetDesc1
 ---
 
 # IDXGIOutput6::GetDesc1
@@ -80,3 +80,4 @@ On a high DPI desktop, <b>GetDesc1</b> returns the visualized screen size unless
 
 
 <a href="/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgioutput6">IDXGIOutput6</a>
+

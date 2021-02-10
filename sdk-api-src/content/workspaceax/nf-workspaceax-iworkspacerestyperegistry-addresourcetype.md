@@ -42,8 +42,7 @@ api_type:
 api_location:
  - TSWorkspace.dll
 api_name:
- - IWorkspaceResTypeRegistry.AddResourceType
- - Workspace.AddResourceType
+ - IWorkspaceResTypeRegistry::AddResourceType
 ---
 
 # IWorkspaceResTypeRegistry::AddResourceType
@@ -90,3 +89,4 @@ This method is called when the plug-in is installed to register non-RDP resource
 ## -see-also
 
 <a href="/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>
+

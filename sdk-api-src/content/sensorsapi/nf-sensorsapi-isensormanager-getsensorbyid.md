@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorManager.GetSensorByID
+ - ISensorManager::GetSensorByID
 ---
 
 # ISensorManager::GetSensorByID
@@ -125,3 +125,4 @@ NULL was passed in for ppSensor.
 
 
 <a href="/windows/desktop/SensorsAPI/retrieving-a-sensor">Retrieving a Sensor Object</a>
+

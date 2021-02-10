@@ -9,6 +9,8 @@ tech.root: fax
 f1_keywords:
  - faxext
  - faxext/faxext
+api_name:
+ - faxext
 ---
 
 # Faxext.h header

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeer.GetPeerName
+ - IBitsPeer::GetPeerName
 ---
 
 # IBitsPeer::GetPeerName
@@ -89,3 +89,4 @@ The principal name ensures the unique identity of the peer computer and is the e
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeer">IBitsPeer</a>
+

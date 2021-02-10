@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Slpublic.h
 api_name:
+ - _SL_GENUINE_STATE
  - SL_GENUINE_STATE
 ---
 

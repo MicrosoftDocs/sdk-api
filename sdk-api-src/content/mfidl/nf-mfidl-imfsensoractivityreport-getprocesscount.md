@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorActivityReport.GetProcessCount
+ - IMFSensorActivityReport::GetProcessCount
 ---
 
 # IMFSensorActivityReport::GetProcessCount
@@ -99,3 +99,4 @@ The <i>pulCount</i> parameter is null.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a>
+

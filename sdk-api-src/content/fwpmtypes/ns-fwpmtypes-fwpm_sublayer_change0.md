@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_SUBLAYER_CHANGE0_
  - FWPM_SUBLAYER_CHANGE0
 ---
 
@@ -75,3 +76,4 @@ GUID of the sublayer that changed.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

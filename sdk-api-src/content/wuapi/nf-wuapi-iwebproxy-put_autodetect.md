@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWebProxy.AutoDetect
- - IWebProxy.get_AutoDetect
- - IWebProxy.put_AutoDetect
+ - IWebProxy::put_AutoDetect
 ---
 
 # IWebProxy::put_AutoDetect
@@ -65,3 +63,4 @@ The values of the <a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_add
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
+

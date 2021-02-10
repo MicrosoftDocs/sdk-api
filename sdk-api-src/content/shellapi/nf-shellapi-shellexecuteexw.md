@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ShellExecuteExW
  - shellapi/ShellExecuteExW
+ - ShellExecuteEx
+ - shellapi/ShellExecuteEx
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
  - windows.storage.dll
 api_name:
- - ShellExecuteEx
- - ShellExecuteExA
  - ShellExecuteExW
+ - ShellExecuteEx
 ---
 
 # ShellExecuteExW function
@@ -159,3 +160,4 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="/window
 
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>
+

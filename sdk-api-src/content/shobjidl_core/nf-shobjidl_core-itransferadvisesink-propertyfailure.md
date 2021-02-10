@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferAdviseSink.PropertyFailure
+ - ITransferAdviseSink::PropertyFailure
 ---
 
 # ITransferAdviseSink::PropertyFailure
@@ -139,3 +139,4 @@ The user clicked <b>Cancel</b>. The entire copy job is being terminated. The han
 </td>
 </tr>
 </table>
+

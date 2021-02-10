@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextNotify.TrackAdded
+ - IMFTimedTextNotify::TrackAdded
 ---
 
 # IMFTimedTextNotify::TrackAdded
@@ -63,3 +63,4 @@ The identifier of the track that was added.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextnotify">IMFTimedTextNotify</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext.GetTarget
+ - ID2D1DeviceContext::GetTarget
 ---
 
 # ID2D1DeviceContext::GetTarget
@@ -133,3 +133,4 @@ Although the target can be a command list, it cannot be any other type of image.
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget">ID2D1DeviceContext::SetTarget</a>
+

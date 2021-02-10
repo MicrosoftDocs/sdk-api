@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_OTHER_LOGOTYPE_INFO
+ - PCERT_OTHER_LOGOTYPE_INFO
  - CERT_OTHER_LOGOTYPE_INFO
 ---
 
@@ -94,3 +96,4 @@ The logo is a background logo.
 ### -field LogotypeInfo
 
 A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_info">CERT_LOGOTYPE_INFO</a> structure that contains the logo type information.
+

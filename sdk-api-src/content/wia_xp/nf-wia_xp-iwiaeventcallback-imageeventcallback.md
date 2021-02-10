@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IWiaEventCallback.ImageEventCallback
+ - IWiaEventCallback::ImageEventCallback
 ---
 
 # IWiaEventCallback::ImageEventCallback
@@ -114,3 +114,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 To receive notification of WIA hardware device events, applications pass a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback">IWiaEventCallback</a> interface to the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface">RegisterEventCallbackInterface</a> method. The WIA run-time system then uses that interface pointer to invoke the <b>IWiaEventCallback::ImageEventCallback</b> method whenever a WIA hardware device event occurs.
 
 Note that there is no guarantee the callback will be invoked on the same thread that registered the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback">IWiaEventCallback</a> interface.
+

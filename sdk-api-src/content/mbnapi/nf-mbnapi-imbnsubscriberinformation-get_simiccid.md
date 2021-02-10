@@ -42,8 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSubscriberInformation.SimIccID
- - IMbnSubscriberInformation.get_SimIccID
+ - IMbnSubscriberInformation::get_SimIccID
 ---
 
 # IMbnSubscriberInformation::get_SimIccID
@@ -67,3 +66,4 @@ The International Circuit Card Id of the SIM varies between 15 to 20 digits in l
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation">IMbnSubscriberInformation</a>
+

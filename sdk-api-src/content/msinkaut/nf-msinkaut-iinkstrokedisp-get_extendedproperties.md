@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.ExtendedProperties
- - IInkStrokeDisp.get_ExtendedProperties
- - InkStrokeDisp.get_ExtendedProperties Property
+ - IInkStrokeDisp::get_ExtendedProperties
 ---
 
 # IInkStrokeDisp::get_ExtendedProperties
@@ -67,3 +65,4 @@ Applications can use the ExtendedProperties property to access the custom data t
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+

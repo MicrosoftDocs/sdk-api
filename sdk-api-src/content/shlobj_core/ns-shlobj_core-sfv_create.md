@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _SFV_CREATE
  - SFV_CREATE
 ---
 
@@ -83,3 +84,4 @@ A pointer to the <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishell
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>
+

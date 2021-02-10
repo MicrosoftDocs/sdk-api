@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorDevice.GetDeviceAttributes
+ - IMFSensorDevice::GetDeviceAttributes
 ---
 
 # IMFSensorDevice::GetDeviceAttributes
@@ -114,3 +114,4 @@ The object returned is a copy of the internal attribute store and so changes mad
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
+

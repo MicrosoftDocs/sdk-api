@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateSemaphoreExA
  - winbase/CreateSemaphoreExA
+ - CreateSemaphoreEx
+ - winbase/CreateSemaphoreEx
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +53,7 @@ api_location:
  - Kernel32Legacy.dll
 api_name:
  - CreateSemaphoreExA
- - CreateSemaphoreExA
- - CreateSemaphoreExW
+ - CreateSemaphoreEx
 ---
 
 # CreateSemaphoreExA function
@@ -147,3 +148,4 @@ Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseH
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

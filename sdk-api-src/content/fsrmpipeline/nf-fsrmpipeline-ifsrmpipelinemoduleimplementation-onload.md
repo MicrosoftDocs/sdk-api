@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleImplementation.OnLoad
- - IFsrmStorageModuleImplementation.OnLoad
- - IFsrmClassifierModuleImplementation.OnLoad
+ - IFsrmPipelineModuleImplementation::OnLoad
 ---
 
 # IFsrmPipelineModuleImplementation::OnLoad
@@ -110,3 +108,4 @@ See
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>
+

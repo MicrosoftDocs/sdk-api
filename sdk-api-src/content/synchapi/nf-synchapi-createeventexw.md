@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateEventExW
  - synchapi/CreateEventExW
+ - CreateEventEx
+ - synchapi/CreateEventEx
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - CreateEventEx
- - CreateEventExA
  - CreateEventExW
+ - CreateEventEx
 ---
 
 # CreateEventExW function
@@ -209,3 +210,4 @@ Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseH
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

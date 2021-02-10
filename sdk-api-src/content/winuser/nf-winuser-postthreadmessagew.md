@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - PostThreadMessageW
  - winuser/PostThreadMessageW
+ - PostThreadMessage
+ - winuser/PostThreadMessage
 dev_langs:
  - c++
 topic_type:
@@ -51,10 +54,8 @@ api_location:
  - Ext-MS-Win-NTUser-Message-l1-1-2.dll
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
- - PostThreadMessage
- - PostThreadMessageA
  - PostThreadMessageW
-req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
+ - PostThreadMessage
 ---
 
 # PostThreadMessageW function
@@ -209,3 +210,4 @@ The minimum acceptable value is 4000.
 
 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>
+

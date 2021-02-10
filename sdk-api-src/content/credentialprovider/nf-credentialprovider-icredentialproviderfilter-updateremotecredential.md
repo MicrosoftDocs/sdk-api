@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProviderFilter.UpdateRemoteCredential
+ - ICredentialProviderFilter::UpdateRemoteCredential
 ---
 
 # ICredentialProviderFilter::UpdateRemoteCredential

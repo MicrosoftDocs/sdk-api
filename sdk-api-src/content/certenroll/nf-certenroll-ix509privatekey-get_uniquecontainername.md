@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.UniqueContainerName
- - IX509PrivateKey.get_UniqueContainerName
+ - IX509PrivateKey::get_UniqueContainerName
 ---
 
 # IX509PrivateKey::get_UniqueContainerName
@@ -64,3 +63,4 @@ This property retrieves an alternate name that can be used when accessing a key 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

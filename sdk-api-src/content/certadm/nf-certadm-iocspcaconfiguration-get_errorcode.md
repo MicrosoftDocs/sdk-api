@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration.ErrorCode
- - IOCSPCAConfiguration.get_ErrorCode
+ - IOCSPCAConfiguration::get_ErrorCode
 ---
 
 # IOCSPCAConfiguration::get_ErrorCode
@@ -66,3 +65,4 @@ An <b>OCSPCAConfiguration</b> object internally stores the error code as an <b>H
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
+

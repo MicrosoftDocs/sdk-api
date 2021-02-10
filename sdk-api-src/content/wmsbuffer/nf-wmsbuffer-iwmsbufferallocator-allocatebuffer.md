@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsbuffer.h
 api_name:
- - IWMSBufferAllocator.AllocateBuffer
+ - IWMSBufferAllocator::AllocateBuffer
 ---
 
 # IWMSBufferAllocator::AllocateBuffer
@@ -69,3 +69,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-iwmsbufferallocator">IWMSBufferAllocator Interface</a>
+

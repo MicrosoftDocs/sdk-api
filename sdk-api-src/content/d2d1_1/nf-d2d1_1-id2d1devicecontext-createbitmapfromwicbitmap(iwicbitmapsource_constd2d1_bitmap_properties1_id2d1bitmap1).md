@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext.CreateBitmapFromWicBitmap
+ - ID2D1DeviceContext::CreateBitmapFromWicBitmap
 ---
 
 # ID2D1DeviceContext::CreateBitmapFromWicBitmap
@@ -108,3 +108,4 @@ When <i>bitmapProperties-&gt;pixelFormat.alphaMode</i> is set to <a href="/windo
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
+

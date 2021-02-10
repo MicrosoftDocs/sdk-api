@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings.Compatibility
- - ITaskSettings.get_Compatibility
- - ITaskSettings.put_Compatibility
+ - ITaskSettings::put_Compatibility
 ---
 
 # ITaskSettings::put_Compatibility
@@ -79,3 +77,4 @@ For more information about task compatibility, see <a href="/windows/desktop/Tas
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

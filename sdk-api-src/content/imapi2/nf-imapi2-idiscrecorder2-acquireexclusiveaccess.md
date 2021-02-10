@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2.AcquireExclusiveAccess
+ - IDiscRecorder2::AcquireExclusiveAccess
 ---
 
 # IDiscRecorder2::AcquireExclusiveAccess
@@ -200,3 +200,4 @@ If the device is already locked, you can call <a href="/windows/desktop/api/imap
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a>
+

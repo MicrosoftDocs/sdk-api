@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual.SetBorderMode
+ - IDCompositionVisual::SetBorderMode
 ---
 
 # IDCompositionVisual::SetBorderMode
@@ -81,3 +81,4 @@ If the <i>borderMode</i> parameter is anything other than <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
+

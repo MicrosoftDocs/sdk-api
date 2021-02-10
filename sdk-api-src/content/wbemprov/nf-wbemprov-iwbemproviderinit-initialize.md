@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemProviderInit.Initialize
+ - IWbemProviderInit::Initialize
 ---
 
 # IWbemProviderInit::Initialize
@@ -225,3 +225,4 @@ HRESULT CMyEventConsumer::Initialize(
 
 
 <a href="/windows/desktop/WmiSdk/initializing-a-provider">Initializing a Provider</a>
+

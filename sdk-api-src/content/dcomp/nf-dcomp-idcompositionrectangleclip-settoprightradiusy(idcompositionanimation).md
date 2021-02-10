@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetTopRightRadiusY
+ - IDCompositionRectangleClip::SetTopRightRadiusY
 ---
 
 # IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation)
@@ -77,3 +77,4 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
+

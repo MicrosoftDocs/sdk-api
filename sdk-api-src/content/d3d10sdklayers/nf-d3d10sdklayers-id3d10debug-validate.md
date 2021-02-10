@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10Debug.Validate
+ - ID3D10Debug::Validate
 ---
 
 # ID3D10Debug::Validate
@@ -67,3 +67,4 @@ When the <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-a
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10debug">ID3D10Debug Interface</a>
+

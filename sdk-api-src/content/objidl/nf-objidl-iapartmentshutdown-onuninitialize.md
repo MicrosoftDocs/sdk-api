@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidl.h
 api_name:
- - IApartmentShutdown.OnUninitialize
+ - IApartmentShutdown::OnUninitialize
 ---
 
 # IApartmentShutdown::OnUninitialize
@@ -65,3 +65,4 @@ The apartment Identifier of the apartment that is shutting down
 
 
 <a href="/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a>
+

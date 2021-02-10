@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter.GetSelectedStreams
+ - IMFASFSplitter::GetSelectedStreams
 ---
 
 # IMFASFSplitter::GetSelectedStreams
@@ -163,3 +163,4 @@ By default, no streams are selected by the splitter. Select streams by calling t
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDOPENVPCAPTUREDEVICEOUT
+ - LPDDOPENVPCAPTUREDEVICEOUT
  - DDOPENVPCAPTUREDEVICEOUT
 ---
 
@@ -73,3 +75,4 @@ Handle to the new VPE capture object.
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.GetStatistics
+ - IWMWriterAdvanced::GetStatistics
 ---
 
 # IWMWriterAdvanced::GetStatistics
@@ -105,3 +105,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced3-getstatisticsex">IWMWriterAdvanced3::GetStatisticsEx</a>
+

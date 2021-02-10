@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextProvider2.GetCaretRange
+ - ITextProvider2::GetCaretRange
 ---
 
 # ITextProvider2::GetCaretRange
@@ -81,3 +81,4 @@ This method retrieves a text range that a client can use to find the bounding re
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2">ITextProvider2</a>
+

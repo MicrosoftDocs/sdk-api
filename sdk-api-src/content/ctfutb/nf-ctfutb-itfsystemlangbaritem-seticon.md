@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfSystemLangBarItem.SetIcon
+ - ITfSystemLangBarItem::SetIcon
 ---
 
 # ITfSystemLangBarItem::SetIcon
@@ -94,3 +94,4 @@ The system language bar menu does not allow its icon to be modified.
 ## -remarks
 
 In response to this method, the system language bar menu should call <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_ICON to force the language bar to obtain the new icon.
+

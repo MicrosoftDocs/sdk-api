@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetFinalPathNameByHandleW
  - fileapi/GetFinalPathNameByHandleW
+ - GetFinalPathNameByHandle
+ - fileapi/GetFinalPathNameByHandle
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - GetFinalPathNameByHandle
- - GetFinalPathNameByHandleA
  - GetFinalPathNameByHandleW
+ - GetFinalPathNameByHandle
 ---
 
 # GetFinalPathNameByHandleW function
@@ -365,3 +366,4 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
 ## -see-also
 
 <a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+

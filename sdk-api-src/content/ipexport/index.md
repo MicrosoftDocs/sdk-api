@@ -9,6 +9,8 @@ tech.root: iphlp
 f1_keywords:
  - ipexport
  - ipexport/ipexport
+api_name:
+ - ipexport
 ---
 
 # Ipexport.h header

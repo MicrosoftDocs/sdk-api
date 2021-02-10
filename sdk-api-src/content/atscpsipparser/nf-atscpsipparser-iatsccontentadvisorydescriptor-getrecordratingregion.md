@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IAtscContentAdvisoryDescriptor.GetRecordRatingRegion
+ - IAtscContentAdvisoryDescriptor::GetRecordRatingRegion
 ---
 
 # IAtscContentAdvisoryDescriptor::GetRecordRatingRegion
@@ -103,3 +103,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
+

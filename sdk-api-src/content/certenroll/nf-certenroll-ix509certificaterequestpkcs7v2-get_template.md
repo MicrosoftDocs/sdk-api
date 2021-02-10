@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateRequestPkcs7V2.Template
- - IX509CertificateRequestPkcs7V2.get_Template
+ - IX509CertificateRequestPkcs7V2::get_Template
 ---
 
 # IX509CertificateRequestPkcs7V2::get_Template
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7v2">IX509CertificateRequestPkcs7V2</a>
+

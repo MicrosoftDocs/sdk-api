@@ -46,6 +46,8 @@ api_type:
 api_location:
  - infocard.h
 api_name:
+ - _POLICY_ELEMENT
+ - PPOLICY_ELEMENT
  - POLICY_ELEMENT
 ---
 
@@ -56,19 +58,26 @@ The <b>POLICY_ELEMENT</b> structure contains an RSVP policy element.
 ## -struct-fields
 
 ### -field targetEndpointAddress
+
 TBD
 
 ### -field issuerEndpointAddress
+
 TBD
 
 ### -field issuedTokenParameters
+
 TBD
 
 ### -field privacyNoticeLink
+
 TBD
 
 ### -field privacyNoticeVersion
+
 TBD
 
 ### -field useManagedPresentation
+
 TBD
+

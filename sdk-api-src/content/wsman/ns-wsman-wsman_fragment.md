@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_FRAGMENT
  - WSMAN_FRAGMENT
 ---
 

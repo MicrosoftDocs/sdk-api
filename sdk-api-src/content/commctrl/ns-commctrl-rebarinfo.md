@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagREBARINFO
+ - LPREBARINFO
  - REBARINFO
 ---
 
@@ -93,3 +95,4 @@ The
 Type: <b>HIMAGELIST</b>
 
 Handle to an image list. The rebar control will use the specified image list to obtain images.
+

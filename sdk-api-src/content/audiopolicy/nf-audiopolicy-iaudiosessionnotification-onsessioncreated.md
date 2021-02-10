@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionNotification.OnSessionCreated
+ - IAudioSessionNotification::OnSessionCreated
 ---
 
 # IAudioSessionNotification::OnSessionCreated
@@ -72,3 +72,4 @@ This method is called from the session manager thread.  This method must take a 
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a>
+

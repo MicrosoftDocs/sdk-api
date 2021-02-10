@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext.DrawBitmap
+ - ID2D1DeviceContext::DrawBitmap
 ---
 
 # ID2D1DeviceContext::DrawBitmap
@@ -105,3 +105,4 @@ If you specify <i>perspectiveTransform</i> it is applied to the rect in addition
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPAudioRenderConfig.get_audioOutputDevice
+ - IWMPAudioRenderConfig::get_audioOutputDevice
 ---
 
 # IWMPAudioRenderConfig::get_audioOutputDevice
@@ -97,3 +97,4 @@ If this method retrieves an empty string, the Windows Media Player ActiveX contr
 
 
 <a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig">IWMPAudioRenderConfig</a>
+

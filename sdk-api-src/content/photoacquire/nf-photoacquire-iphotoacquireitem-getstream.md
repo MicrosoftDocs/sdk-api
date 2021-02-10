@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.GetStream
+ - IPhotoAcquireItem::GetStream
 ---
 
 # IPhotoAcquireItem::GetStream
@@ -84,3 +84,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
+

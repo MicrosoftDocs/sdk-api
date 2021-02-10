@@ -46,8 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo2.GetCodecInfo
- - IWMHeaderInfo3.GetCodecInfo
+ - IWMHeaderInfo2::GetCodecInfo
 ---
 
 # IWMHeaderInfo2::GetCodecInfo
@@ -116,3 +115,4 @@ Use this method, and the <b>GetCodecInfoCount</b> method, to enumerate through t
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_codec_info_type">WMT_CODEC_INFO_TYPE</a>
+

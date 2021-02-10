@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMC_TAGGED_ATTRIBUTE
+ - PCMC_TAGGED_ATTRIBUTE
  - CMC_TAGGED_ATTRIBUTE
 ---
 
@@ -67,3 +69,4 @@ A <b>DWORD</b> value that identifies the tagged attribute.
 ### -field Attribute
 
 A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structure that contains the attribute.
+

@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - EndTypeControlCall callback
+ - PEND_TYPE_CONTROL_CALL
 ---
 
 # PEND_TYPE_CONTROL_CALL callback function
@@ -75,3 +75,4 @@ Not supported.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
+

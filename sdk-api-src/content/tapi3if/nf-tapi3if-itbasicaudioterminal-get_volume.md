@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicAudioTerminal.get_Volume
+ - ITBasicAudioTerminal::get_Volume
 ---
 
 # ITBasicAudioTerminal::get_Volume
@@ -114,3 +114,4 @@ The <i>plVolume</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_volume">put_Volume</a>
+

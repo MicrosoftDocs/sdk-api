@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.AddCurve
+ - GraphicsPath::AddCurve
 ---
 
 # GraphicsPath::AddCurve(IN const Point,IN INT,IN INT,IN INT,IN REAL)
@@ -182,3 +182,4 @@ VOID AddCurveExample2(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITFileTrack.get_EmptyAudioFormatForScripting
+ - ITFileTrack::get_EmptyAudioFormatForScripting
 ---
 
 # ITFileTrack::get_EmptyAudioFormatForScripting
@@ -74,3 +74,4 @@ TAPI calls the <b>AddRef</b> method on the
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itfiletrack">ITFileTrack</a>
+

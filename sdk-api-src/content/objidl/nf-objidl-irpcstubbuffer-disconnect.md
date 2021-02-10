@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcStubBuffer.Disconnect
+ - IRpcStubBuffer::Disconnect
 ---
 
 # IRpcStubBuffer::Disconnect
@@ -57,3 +57,4 @@ Disconnects a server stub from any interface to which it is connected.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
+

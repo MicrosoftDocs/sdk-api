@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateInspectable
+ - IPropertyValueStatics::CreateInspectable
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -123,3 +123,4 @@ Use the <b>CreateInspectable</b> method to  store a value in an <a href="/window
 
 
 <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
+

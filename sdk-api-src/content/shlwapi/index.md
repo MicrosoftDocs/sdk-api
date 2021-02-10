@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - shlwapi
  - shlwapi/shlwapi
+api_name:
+ - shlwapi
 ---
 
 # Shlwapi.h header

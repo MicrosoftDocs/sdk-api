@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxRoutingMethod.DeviceId
- - IFaxRoutingMethod.get_DeviceId
+ - IFaxRoutingMethod::get_DeviceId
 ---
 
 # IFaxRoutingMethod::get_DeviceId
@@ -88,3 +87,4 @@ A fax client application can use the <b>IFaxRoutingMethod::get_DeviceId</b> prop
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
+

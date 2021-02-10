@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.PutClassAsync
+ - IWbemServices::PutClassAsync
 ---
 
 # IWbemServices::PutClassAsync
@@ -229,3 +229,4 @@ HRESULT CStdProvider::PutClassAsync(
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">IWbemServices::PutClass</a>
+

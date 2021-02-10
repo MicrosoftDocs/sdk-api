@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetDVDVolumeInfo
+ - IDvdInfo2::GetDVDVolumeInfo
 ---
 
 # IDvdInfo2::GetDVDVolumeInfo
@@ -119,3 +119,4 @@ Some discs can be distributed as part of multidisc set. "Volume" in this context
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+

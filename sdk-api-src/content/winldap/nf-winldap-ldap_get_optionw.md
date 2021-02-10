@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_get_optionW
  - winldap/ldap_get_optionW
+ - ldap_get_option
+ - winldap/ldap_get_option
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_get_option
- - ldap_get_option
  - ldap_get_optionW
+ - ldap_get_option
 ---
 
 # ldap_get_optionW function
@@ -114,3 +115,4 @@ Multithreading: The <b>ldap_get_option</b> function is thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>
+

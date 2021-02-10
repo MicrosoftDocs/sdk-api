@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - IUIAnimationManager2.EstimateNextEventTime
+ - IUIAnimationManager2::EstimateNextEventTime
 ---
 
 # IUIAnimationManager2::EstimateNextEventTime
@@ -70,3 +70,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 <a href="/windows/desktop/UIAnimation/ui-animation-seconds-infinite">UI_ANIMATION_SECONDS_INFINITE
 </a>
+

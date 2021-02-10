@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
+ - LPENTRYID
  - ENTRYID
 ---
 

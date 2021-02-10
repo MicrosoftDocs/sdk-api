@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CopyFile2
  - winbase/CopyFile2
+ - CopyFile
+ - winbase/CopyFile
 dev_langs:
  - c++
 topic_type:
@@ -47,6 +49,7 @@ api_location:
  - API-MS-Win-Core-File-l2-1-2.dll
 api_name:
  - CopyFile2
+ - CopyFile
 ---
 
 # CopyFile2 function
@@ -247,3 +250,4 @@ Yes
 
 
 <a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+

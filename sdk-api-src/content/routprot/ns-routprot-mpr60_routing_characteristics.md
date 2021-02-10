@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - MPR50_ROUTING_CHARACTERISTICS
+ - _MPR60_ROUTING_CHARACTERISTICS
+ - MPR60_ROUTING_CHARACTERISTICS
 ---
 
 # MPR60_ROUTING_CHARACTERISTICS structure
@@ -293,3 +294,4 @@ For a complete description of a particular function pointed to by one of the str
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>
+

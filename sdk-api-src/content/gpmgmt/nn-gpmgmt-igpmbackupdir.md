@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMBackupDir
- - GPMBackupDir
 ---
 
 # IGPMBackupDir interface
@@ -82,3 +81,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDir</b> interface i
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
+

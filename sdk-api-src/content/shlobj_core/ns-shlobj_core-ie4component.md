@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _tagIE4COMPONENT
  - IE4COMPONENT
 ---
 
@@ -131,3 +132,4 @@ The component's URL.
 Type: <b>WCHAR[INTERNET_MAX_URL_LENGTH]</b>
 
 The URL that a user has been subscribed to.
+

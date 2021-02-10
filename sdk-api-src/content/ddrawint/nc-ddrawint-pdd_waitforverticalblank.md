@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdWaitForVerticalBlank
+ - PDD_WAITFORVERTICALBLANK
 ---
 
 ## -description
@@ -89,3 +89,4 @@ When the driver successfully handles the action specified in <b>dwFlags</b>, it 
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_waitforverticalblankdata">DD_WAITFORVERTICALBLANKDATA</a>
+

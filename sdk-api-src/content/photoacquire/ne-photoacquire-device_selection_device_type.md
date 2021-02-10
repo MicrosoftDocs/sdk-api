@@ -44,6 +44,7 @@ api_type:
 api_location:
  - PhotoAcquire.h
 api_name:
+ - tagDEVICE_SELECTION_DEVICE_TYPE
  - DEVICE_SELECTION_DEVICE_TYPE
 ---
 
@@ -93,3 +94,4 @@ This enumeration type is pointed to by the <i>pnDeviceType</i> parameter of <a h
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiredeviceselectiondialog-domodal">IPhotoAcquireDeviceSelectionDialog::DoModal</a>
+

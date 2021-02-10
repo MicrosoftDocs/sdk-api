@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView.SetRectComplex
+ - IOleDocumentView::SetRectComplex
 ---
 
 # IOleDocumentView::SetRectComplex
@@ -126,3 +126,4 @@ This method is defined with the [input_sync] attribute, which means that the imp
 
 
 <a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
+

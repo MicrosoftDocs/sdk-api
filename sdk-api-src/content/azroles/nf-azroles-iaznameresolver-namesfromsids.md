@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzNameResolver.NamesFromSids
+ - IAzNameResolver::NamesFromSids
 ---
 
 # IAzNameResolver::NamesFromSids
@@ -77,3 +77,4 @@ This is a variant that contains either a <a href="/windows/desktop/api/oaidl/ns-
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. If the method cannot find the display names of any of the principals, it returns <b>CO_E_NOMATCHINGNAMEFOUND</b>. For a list of other common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

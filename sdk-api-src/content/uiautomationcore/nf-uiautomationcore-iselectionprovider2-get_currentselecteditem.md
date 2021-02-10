@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISelectionProvider2.CurrentSelectedItem
- - ISelectionProvider2.get_CurrentSelectedItem
+ - ISelectionProvider2::get_CurrentSelectedItem
 ---
 
 # ISelectionProvider2::get_CurrentSelectedItem
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider2">ISelectionProvider2</a>
+

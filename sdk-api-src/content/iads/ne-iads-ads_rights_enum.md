@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0048_0001
  - ADS_RIGHTS_ENUM
 ---
 
@@ -202,3 +203,4 @@ The specific access rights granted by the four generic rights enumerations
 
 
 <a href="/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">IADsAccessControlEntry.AccessMask</a>
+

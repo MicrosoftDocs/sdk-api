@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetFinalVectorValue
+ - IUIAnimationVariable2::GetFinalVectorValue
 ---
 
 # IUIAnimationVariable2::GetFinalVectorValue
@@ -69,3 +69,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable2">IUIAnimationVariable2</a>
+

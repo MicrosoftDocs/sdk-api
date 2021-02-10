@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
+ - tagBNSTATE
  - BNSTATE
 ---
 
@@ -68,3 +69,4 @@ A begin navigation event has occurred.
 ### -field BNS_NAVIGATE
 
 The navigation event has occurred.
+

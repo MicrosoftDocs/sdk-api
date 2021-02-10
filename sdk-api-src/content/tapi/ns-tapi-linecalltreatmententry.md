@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linecalltreatmententry_tag
+ - LPLINECALLTREATMENTENTRY
  - LINECALLTREATMENTENTRY
 ---
 
@@ -90,3 +92,4 @@ Offset from the beginning of
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetcalltreatment">lineSetCallTreatment</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetFileAttributesExA
  - fileapi/GetFileAttributesExA
+ - GetFileAttributesEx
+ - fileapi/GetFileAttributesEx
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - GetFileAttributesEx
  - GetFileAttributesExA
- - GetFileAttributesExW
+ - GetFileAttributesEx
 ---
 
 # GetFileAttributesExA function
@@ -235,3 +236,4 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 <a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CRYPT_ENUM_KEYID_PROP
+ - PFN_CRYPT_ENUM_KEYID_PROP
 ---
 
 # PFN_CRYPT_ENUM_KEYID_PROP callback function
@@ -120,3 +120,4 @@ Returns <b>TRUE</b> if the function succeeds, <b>FALSE</b> if it fails.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a>
+

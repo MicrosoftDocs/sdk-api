@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfProperty.SetValue
+ - ITfProperty::SetValue
 ---
 
 # ITfProperty::SetValue
@@ -185,3 +185,4 @@ Overlapping property values of the same type are unsupported.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
+

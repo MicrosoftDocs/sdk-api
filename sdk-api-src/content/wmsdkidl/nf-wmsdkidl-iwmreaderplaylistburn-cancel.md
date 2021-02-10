@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderPlaylistBurn.Cancel
+ - IWMReaderPlaylistBurn::Cancel
 ---
 
 # IWMReaderPlaylistBurn::Cancel
@@ -86,3 +86,4 @@ You should call this method to cancel the playlist burn process only after calli
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>
+

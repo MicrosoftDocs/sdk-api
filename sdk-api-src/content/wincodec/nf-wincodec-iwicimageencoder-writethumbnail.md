@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImageEncoder.WriteThumbnail
+ - IWICImageEncoder::WriteThumbnail
 ---
 
 # IWICImageEncoder::WriteThumbnail
@@ -97,3 +97,4 @@ If <b>WriteThumbnail</b> fails, it might return E_OUTOFMEMORY, D2DERR_WRONG_RESO
 
 
 <a href="/windows/desktop/api/wincodec/ns-wincodec-wicimageparameters">WICImageParameters</a>
+

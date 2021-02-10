@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupGetInfInformationW
  - setupapi/SetupGetInfInformationW
+ - SetupGetInfInformation
+ - setupapi/SetupGetInfInformation
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupGetInfInformation
- - SetupGetInfInformationA
  - SetupGetInfInformationW
+ - SetupGetInfInformation
 ---
 
 # SetupGetInfInformationW function
@@ -179,3 +180,4 @@ If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBuffer
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueryinfversioninformationa">SetupQueryInfVersionInformation</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiClassNameFromGuidA
  - setupapi/SetupDiClassNameFromGuidA
+ - SetupDiClassNameFromGuid
+ - setupapi/SetupDiClassNameFromGuid
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiClassNameFromGuid
  - SetupDiClassNameFromGuidA
+ - SetupDiClassNameFromGuid
 ---
 
 # SetupDiClassNameFromGuidA function
@@ -96,3 +98,4 @@ Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a rem
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguidexa">SetupDiClassNameFromGuidEx</a>
+

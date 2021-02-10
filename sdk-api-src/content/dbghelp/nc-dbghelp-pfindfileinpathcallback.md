@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - SymFindFileInPathProc
+ - PFINDFILEINPATHCALLBACK
 ---
 
 ## -description
@@ -75,3 +75,4 @@ Return <b>FALSE</b> to end the search.
 <a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfindfileinpath">SymFindFileInPath</a>
+

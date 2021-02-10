@@ -42,7 +42,7 @@ api_type:
 api_location:
  - IAccess.h
 api_name:
- - IAccessControl.SetOwner
+ - IAccessControl::SetOwner
 ---
 
 # IAccessControl::SetOwner
@@ -73,3 +73,4 @@ The <b>SetOwner</b> method is not implemented by CLSID_DCOMAccessControl.
 ## -see-also
 
 <a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
+

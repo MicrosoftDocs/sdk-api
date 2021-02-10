@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice.deletePartnership
+ - IWMPSyncDevice::deletePartnership
 ---
 
 # IWMPSyncDevice::deletePartnership
@@ -129,3 +129,4 @@ When the partnership is deleted, the device status is set to <b>wmpdsPartnership
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+

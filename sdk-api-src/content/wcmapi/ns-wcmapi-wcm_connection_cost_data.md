@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
+ - _WCM_CONNECTION_COST_DATA
+ - PWCM_CONNECTION_COST_DATA
  - WCM_CONNECTION_COST_DATA
 ---
 
@@ -172,3 +174,4 @@ Specifies the cost source.
 ## -see-also
 
 <a href="/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a>
+

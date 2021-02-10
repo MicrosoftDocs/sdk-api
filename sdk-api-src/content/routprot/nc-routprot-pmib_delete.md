@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - MibDelete
+ - PMIB_DELETE
 ---
 
 # PMIB_DELETE callback function
@@ -113,3 +113,4 @@ The size or content of the data is inappropriate for the request.
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
+

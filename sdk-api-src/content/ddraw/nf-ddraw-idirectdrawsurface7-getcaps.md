@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 971290b7-7df6-41c7-8197-b6169ddd092b
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetCaps method, IDirectDrawSurface7.GetCaps, IDirectDrawSurface7::GetCaps, ddraw/IDirectDrawSurface7::GetCaps, directdraw.idirectdrawsurface7_getcaps
-f1_keywords:
-- ddraw/IDirectDrawSurface7.GetCaps
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.GetCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::GetCaps
+ - ddraw/IDirectDrawSurface7::GetCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7::GetCaps
 ---
 
 ## -description
@@ -74,3 +75,4 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+

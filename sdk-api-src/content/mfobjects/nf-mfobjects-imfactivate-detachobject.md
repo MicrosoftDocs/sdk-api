@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFActivate.DetachObject
+ - IMFActivate::DetachObject
 ---
 
 # IMFActivate::DetachObject
@@ -103,3 +103,4 @@ Implementation of this method is optional. If the activation object does not sup
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>
+

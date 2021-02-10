@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _RAS_HARDWARE_CONDITION
  - RAS_HARDWARE_CONDITION
 ---
 
@@ -72,3 +73,4 @@ The port is not operational, due to a hardware failure.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

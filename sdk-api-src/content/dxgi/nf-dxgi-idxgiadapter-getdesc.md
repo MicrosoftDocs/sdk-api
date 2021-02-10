@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIAdapter.GetDesc
+ - IDXGIAdapter::GetDesc
 ---
 
 # IDXGIAdapter::GetDesc
@@ -131,3 +131,4 @@ pDXGIAdapter->GetDesc(&adapterDesc);
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a>
+

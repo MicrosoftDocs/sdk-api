@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.SetStoryboardEventHandler
+ - IUIAnimationStoryboard::SetStoryboardEventHandler
 ---
 
 # IUIAnimationStoryboard::SetStoryboardEventHandler
@@ -76,3 +76,4 @@ Passing <b>NULL</b> for the <i>handler</i> parameter causes Windows Animation to
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler">IUIAnimationStoryboardEventHandler</a>
+

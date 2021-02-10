@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateVirtualSurface
+ - IDCompositionDevice::CreateVirtualSurface
 ---
 
 # IDCompositionDevice::CreateVirtualSurface
@@ -238,3 +238,4 @@ HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createsurface">IDCompositionDevice::CreateSurface</a>
+

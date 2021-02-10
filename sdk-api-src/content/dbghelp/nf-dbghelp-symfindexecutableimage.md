@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymFindExecutableImage
- - SymFindExecutableImage
- - SymFindExecutableImageW
 ---
 
 # SymFindExecutableImage function
@@ -106,3 +104,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfind_exe_file_callback">FindExecutableImageProc</a>
+

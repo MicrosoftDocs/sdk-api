@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive.AgeLimit
- - IFaxOutgoingArchive.get_AgeLimit
- - IFaxOutgoingArchive.put_AgeLimit
+ - IFaxOutgoingArchive::put_AgeLimit
 ---
 
 # IFaxOutgoingArchive::put_AgeLimit
@@ -75,3 +73,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-outgoing-archive">Visual Basic Example</a>
+

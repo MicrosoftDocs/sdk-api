@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetUDPPortRanges
+ - IWMReaderNetworkConfig::GetUDPPortRanges
 ---
 
 # IWMReaderNetworkConfig::GetUDPPortRanges
@@ -120,3 +120,4 @@ You should make two calls to this method. On the first call, pass <b>NULL</b> fo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setudpportranges">IWMReaderNetworkConfig::SetUDPPortRanges</a>
+

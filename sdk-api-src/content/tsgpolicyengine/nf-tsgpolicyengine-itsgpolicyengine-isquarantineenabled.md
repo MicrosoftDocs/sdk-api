@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGPolicyEngine.h
 api_name:
- - ITSGPolicyEngine.IsQuarantineEnabled
+ - ITSGPolicyEngine::IsQuarantineEnabled
 ---
 
 # ITSGPolicyEngine::IsQuarantineEnabled
@@ -65,3 +65,4 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 ## -see-also
 
 <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgpolicyengine">ITSGPolicyEngine</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.EnumTypeRefs
+ - IMetaDataImport::EnumTypeRefs
 ---
 
 # IMetaDataImport::EnumTypeRefs
@@ -93,3 +93,4 @@ A pointer to the number of TypeRef tokens returned in <i>rgTypeRefs</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

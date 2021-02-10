@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OleUIChangeSourceW
  - oledlg/OleUIChangeSourceW
+ - OleUIChangeSource
+ - oledlg/OleUIChangeSource
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - OleDlg.dll
 api_name:
- - OleUIChangeSource
- - OleUIChangeSourceA
  - OleUIChangeSourceW
+ - OleUIChangeSource
 ---
 
 # OleUIChangeSourceW function
@@ -443,3 +444,4 @@ The link source is not changed by the <b>Change Source</b> dialog box itself. In
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
+

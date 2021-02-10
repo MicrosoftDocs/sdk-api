@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IHardwareAudioEngineBase.GetAvailableOffloadConnectorCount
+ - IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount
 ---
 
 # IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount
@@ -73,3 +73,4 @@ The <b>GetAvailableOffloadConnectorCount</b> method returns <b>S_OK</b> to indic
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase">IHardwareAudioEngineBase</a>
+

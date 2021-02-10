@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupQueueDefaultCopyA
  - setupapi/SetupQueueDefaultCopyA
+ - SetupQueueDefaultCopy
+ - setupapi/SetupQueueDefaultCopy
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupQueueDefaultCopy
  - SetupQueueDefaultCopyA
- - SetupQueueDefaultCopyW
+ - SetupQueueDefaultCopy
 ---
 
 # SetupQueueDefaultCopyA function
@@ -223,3 +224,4 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopysectiona">SetupQueueCopySection</a>
+

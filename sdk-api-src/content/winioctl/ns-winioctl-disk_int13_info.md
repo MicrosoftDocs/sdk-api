@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DISK_INT13_INFO
+ - PDISK_INT13_INFO
  - DISK_INT13_INFO
 ---
 
@@ -80,3 +82,4 @@ The number of drives. For valid values, see the BIOS documentation.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-disk_detection_info">DISK_DETECTION_INFO</a>
+

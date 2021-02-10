@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - TRefPointerCollection.GetSize
+ - TRefPointerCollection::GetSize
 ---
 
 # TRefPointerCollection::GetSize
@@ -64,3 +64,4 @@ The <b>GetSize</b> method returns how many items are in the list.
 ## -returns
 
 This method returns an <b>int</b>.
+

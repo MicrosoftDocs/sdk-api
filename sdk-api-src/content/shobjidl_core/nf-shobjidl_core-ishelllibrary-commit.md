@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary.Commit
+ - IShellLibrary::Commit
 ---
 
 # IShellLibrary::Commit
@@ -89,3 +89,4 @@ If the library is saved in the Libraries known folder (FOLDERID_Libraries), the 
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
+

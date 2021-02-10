@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _MEMORY_BASIC_INFORMATION
+ - PMEMORY_BASIC_INFORMATION
  - MEMORY_BASIC_INFORMATION
 ---
 
@@ -214,3 +216,4 @@ typedef struct DECLSPEC_ALIGN(16) _MEMORY_BASIC_INFORMATION64 {
 
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a>
+

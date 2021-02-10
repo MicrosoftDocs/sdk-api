@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
+ - PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
  - TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
 ---
 
@@ -112,3 +114,4 @@ The path to the file, relative to the volume root. The file name is a NULL-termi
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
+

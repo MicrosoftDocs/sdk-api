@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.Description
- - IDataCollectorSet.get_Description
- - IDataCollectorSet.put_Description
+ - IDataCollectorSet::get_Description
 ---
 
 # IDataCollectorSet::get_Description
@@ -71,3 +69,4 @@ If you set the description to the @<i>binary</i>,#<i>id</i> form, when you retri
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_descriptionunresolved">IDataCollectorSet::DescriptionUnresolved</a>
+

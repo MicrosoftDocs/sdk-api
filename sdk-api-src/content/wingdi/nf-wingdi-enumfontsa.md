@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumFontsA
  - wingdi/EnumFontsA
+ - EnumFonts
+ - wingdi/EnumFonts
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - EnumFonts
  - EnumFontsA
- - EnumFontsW
+ - EnumFonts
 ---
 
 # EnumFontsA function
@@ -117,3 +118,4 @@ The fonts for many East Asian languages have two typeface names: an English name
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+

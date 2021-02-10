@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush.TextureBrush
+ - TextureBrush::TextureBrush
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN const Rect &,IN const ImageAttributes)
@@ -118,3 +118,4 @@ If the dimensions of the
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a>
+

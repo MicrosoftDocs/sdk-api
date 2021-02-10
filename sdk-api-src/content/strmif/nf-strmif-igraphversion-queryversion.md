@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphVersion.QueryVersion
+ - IGraphVersion::QueryVersion
 ---
 
 # IGraphVersion::QueryVersion
@@ -136,3 +136,4 @@ The version number is incremented every time there is a change in the set of fil
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphversion">IGraphVersion Interface</a>
+

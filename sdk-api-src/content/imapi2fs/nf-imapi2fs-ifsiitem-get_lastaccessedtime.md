@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiItem.get_LastAccessedTime
+ - IFsiItem::get_LastAccessedTime
 ---
 
 # IFsiItem::get_LastAccessedTime
@@ -75,3 +75,4 @@ CDFS (ISO 9660) sets the <i>LastAccessedTime</i> value retrieved by this method 
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastaccessedtime">IFsiItem::put_LastAccessedTime</a>
+

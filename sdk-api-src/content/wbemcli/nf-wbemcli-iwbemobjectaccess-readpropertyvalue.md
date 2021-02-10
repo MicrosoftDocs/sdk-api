@@ -44,7 +44,7 @@ api_location:
  - Fastprox.dll
  - Wbemess.dll
 api_name:
- - IWbemObjectAccess.ReadPropertyValue
+ - IWbemObjectAccess::ReadPropertyValue
 ---
 
 # IWbemObjectAccess::ReadPropertyValue
@@ -83,3 +83,4 @@ String data is returned as <b>null</b>-terminated <b>WCHAR</b> data.
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
+

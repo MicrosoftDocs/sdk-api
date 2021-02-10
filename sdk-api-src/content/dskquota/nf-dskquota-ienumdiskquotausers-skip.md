@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IEnumDiskQuotaUsers.Skip
+ - IEnumDiskQuotaUsers::Skip
 ---
 
 # IEnumDiskQuotaUsers::Skip
@@ -75,3 +75,4 @@ The return value is <b>S_OK</b> if the number of elements skipped is
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a>
+

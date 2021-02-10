@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Levels.Levels
+ - Levels::Levels
 ---
 
 # Levels::Levels
@@ -66,3 +66,4 @@ Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels"
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-levelsparams">LevelsParams</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICFormatConverter.Initialize
+ - IWICFormatConverter::Initialize
 ---
 
 # IWICFormatConverter::Initialize
@@ -185,3 +185,4 @@ SafeRelease(&pIDecoderFrame);
 SafeRelease(&pIDecoder);
 
 ```
+

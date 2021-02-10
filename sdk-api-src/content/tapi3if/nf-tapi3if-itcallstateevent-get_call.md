@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallStateEvent.get_Call
+ - ITCallStateEvent::get_Call
 ---
 
 # ITCallStateEvent::get_Call
@@ -111,3 +111,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>
+

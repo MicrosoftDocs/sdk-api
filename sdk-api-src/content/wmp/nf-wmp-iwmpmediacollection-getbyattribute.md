@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMediaCollection.getByAttribute
+ - IWMPMediaCollection::getByAttribute
 ---
 
 # IWMPMediaCollection::getByAttribute
@@ -143,3 +143,4 @@ There are two ways you ways you can retrieve an <b>IWMPMediaCollection</b> inter
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getall">IWMPPlaylistCollection::getAll</a>
+

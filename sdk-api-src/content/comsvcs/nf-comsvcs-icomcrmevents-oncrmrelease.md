@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMRelease
+ - IComCRMEvents::OnCRMRelease
 ---
 
 # IComCRMEvents::OnCRMRelease
@@ -69,3 +69,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomcrmevents">IComCRMEvents</a>
+

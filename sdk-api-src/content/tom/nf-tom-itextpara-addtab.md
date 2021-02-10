@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.AddTab
+ - ITextPara::AddTab
 ---
 
 # ITextPara::AddTab
@@ -279,3 +279,4 @@ It is assumed that there is never a tab at position zero. If multiple paragraphs
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

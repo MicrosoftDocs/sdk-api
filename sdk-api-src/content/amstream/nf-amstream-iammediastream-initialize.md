@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaStream.Initialize
+ - IAMMediaStream::Initialize
 ---
 
 # IAMMediaStream::Initialize
@@ -134,3 +134,4 @@ If no flags are set, then <i>pStreamObject</i> can be one of the following.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataAdviseHolder.EnumAdvise
+ - IDataAdviseHolder::EnumAdvise
 ---
 
 # IDataAdviseHolder::EnumAdvise
@@ -79,3 +79,4 @@ Adding more advisory connections while the enumerator object is active has an un
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>
+

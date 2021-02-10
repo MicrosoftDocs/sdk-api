@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - txlogpub
  - txlogpub/txlogpub
+api_name:
+ - txlogpub
 ---
 
 # Txlogpub.h header

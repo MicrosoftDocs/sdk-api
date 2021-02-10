@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup.GetExistingCACertificates
+ - ICertSrvSetup::GetExistingCACertificates
 ---
 
 # ICertSrvSetup::GetExistingCACertificates
@@ -73,3 +73,4 @@ The <b>CertSrvSetupKeyInformationCollection</b> object contains valid certificat
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
+ - _PSAPI_WS_WATCH_INFORMATION_EX
+ - PPSAPI_WS_WATCH_INFORMATION_EX
  - PSAPI_WS_WATCH_INFORMATION_EX
 ---
 
@@ -77,3 +79,4 @@ This member is reserved for future use.
 
 
 <a href="/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsecedit.dll
 api_name:
- - ISceSvcAttachmentData.Initialize
+ - ISceSvcAttachmentData::Initialize
 ---
 
 # ISceSvcAttachmentData::Initialize
@@ -92,3 +92,4 @@ The return value is an HRESULT. A value of S_OK indicates the method was success
 
 
 <a href="/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a>
+

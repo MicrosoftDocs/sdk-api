@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.BuildUpMath
+ - ITextRange2::BuildUpMath
 ---
 
 # ITextRange2::BuildUpMath
@@ -384,3 +384,4 @@ You should set the <b>tomNeedTermOp</b> flag should for formula autobuildup unle
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-linearize">ITextRange2::Linearize</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRFilterConfig9.SetNumberOfStreams
+ - IVMRFilterConfig9::SetNumberOfStreams
 ---
 
 # IVMRFilterConfig9::SetNumberOfStreams
@@ -130,3 +130,4 @@ The VMR creates as many input pins as are specified without attempting to determ
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo.GetAllGPRMs
+ - IDvdInfo::GetAllGPRMs
 ---
 
 # IDvdInfo::GetAllGPRMs
@@ -128,3 +128,4 @@ Use of GPRMs is title specific. GPRMs are general parameter registers. For an ex
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
+

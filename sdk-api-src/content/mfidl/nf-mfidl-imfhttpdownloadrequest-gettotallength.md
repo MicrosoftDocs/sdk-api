@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.GetTotalLength
+ - IMFHttpDownloadRequest::GetTotalLength
 ---
 
 # IMFHttpDownloadRequest::GetTotalLength
@@ -102,3 +102,4 @@ Microsoft Media Foundation invokes <b>GetTotalLength</b> only after having succe
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
+

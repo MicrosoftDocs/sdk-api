@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestProperties.GetBoolValue
+ - IAppxManifestProperties::GetBoolValue
 ---
 
 # IAppxManifestProperties::GetBoolValue
@@ -83,3 +83,4 @@ If a valid Boolean property with this name is not defined in the manifest, this 
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestproperties">IAppxManifestProperties</a>
+

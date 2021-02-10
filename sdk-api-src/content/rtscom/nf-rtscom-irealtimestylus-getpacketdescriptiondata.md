@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.GetPacketDescriptionData
+ - IRealTimeStylus::GetPacketDescriptionData
 ---
 
 # IRealTimeStylus::GetPacketDescriptionData
@@ -142,3 +142,4 @@ hr = piRtsSrc->GetPacketDescriptionData(tcid, &fInkToDeviceScaleX,
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+

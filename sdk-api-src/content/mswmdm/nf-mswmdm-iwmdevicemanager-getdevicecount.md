@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDeviceManager.GetDeviceCount
+ - IWMDeviceManager::GetDeviceCount
 ---
 
 # IWMDeviceManager::GetDeviceCount
@@ -77,3 +77,4 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager Interface</a>
+

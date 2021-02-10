@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IHolder.TrackResourceS
+ - IHolder::TrackResourceS
 ---
 
 # IHolder::TrackResourceS
@@ -113,3 +113,4 @@ The method failed. The resource has not been tracked. The likely cause is that t
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
+

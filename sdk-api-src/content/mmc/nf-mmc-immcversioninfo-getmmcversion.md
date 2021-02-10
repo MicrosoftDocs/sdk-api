@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IMMCVersionInfo.GetMMCVersion
+ - IMMCVersionInfo::GetMMCVersion
 ---
 
 # IMMCVersionInfo::GetMMCVersion
@@ -120,3 +120,4 @@ if (NULL != pVersionInfo)
     pVersionInfo = NULL;
 }
 ```
+

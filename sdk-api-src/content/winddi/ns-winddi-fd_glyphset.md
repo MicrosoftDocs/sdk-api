@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _FD_GLYPHSET
+ - PFD_GLYPHSET
  - FD_GLYPHSET
 ---
 
@@ -122,3 +124,4 @@ Is an array of <a href="/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a> s
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a>
+

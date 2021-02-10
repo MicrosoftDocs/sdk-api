@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidEVREvent.OnUserEvent
+ - IMSVidEVREvent::OnUserEvent
 ---
 
 # IMSVidEVREvent::OnUserEvent
@@ -82,3 +82,4 @@ The dispatch identifier (dispid) of this method is <b>dispidUserEvent</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidevrevent">IMSVidEVREvent</a>
+

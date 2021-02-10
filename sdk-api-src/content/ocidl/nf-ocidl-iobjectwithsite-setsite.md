@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IObjectWithSite.SetSite
+ - IObjectWithSite::SetSite
 ---
 
 # IObjectWithSite::SetSite
@@ -71,3 +71,4 @@ E_NOTIMPL is not allowedâ€”without implementation of the <b>SetSite</b> met
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a>
+

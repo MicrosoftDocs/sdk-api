@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
+ - tagSERVERCALL
  - SERVERCALL
 ---
 
@@ -75,3 +76,4 @@ The object cannot handle the call at this time. For example, an application migh
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-retryrejectedcall">IMessageFilter::RetryRejectedCall</a>
+

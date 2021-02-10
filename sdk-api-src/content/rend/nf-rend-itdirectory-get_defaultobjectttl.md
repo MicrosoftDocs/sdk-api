@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory.get_DefaultObjectTTL
+ - ITDirectory::get_DefaultObjectTTL
 ---
 
 # ITDirectory::get_DefaultObjectTTL
@@ -136,3 +136,4 @@ This method is not yet implemented.
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectory-put_defaultobjectttl">ITDirectory::put_DefaultObjectTTL</a>
+

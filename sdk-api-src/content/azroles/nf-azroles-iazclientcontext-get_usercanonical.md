@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext.UserCanonical
- - IAzClientContext.get_UserCanonical
- - AzClientContext.UserCanonical
+ - IAzClientContext::get_UserCanonical
 ---
 
 # IAzClientContext::get_UserCanonical
@@ -63,3 +61,4 @@ This property is read-only.
 The canonical client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameCanonical</b> specified for the <i>NameFormat</i> parameter. 
 
 An example of a  client name in canonical format is "example.fourthcoffee.com/software/Ben Smith".
+

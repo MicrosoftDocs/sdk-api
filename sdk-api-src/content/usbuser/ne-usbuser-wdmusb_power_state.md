@@ -44,6 +44,7 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
+ - _WDMUSB_POWER_STATE
  - WDMUSB_POWER_STATE
 ---
 
@@ -119,3 +120,4 @@ The USB stack uses the <b>WDMUSB_POWER_STATE</b> enumeration to report the power
 
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Constants and Enumerations</a>
+

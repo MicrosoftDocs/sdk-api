@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPostView.SetPostViewProps
+ - IWMWriterPostView::SetPostViewProps
 ---
 
 # IWMWriterPostView::SetPostViewProps
@@ -122,3 +122,4 @@ It is not possible to resize the video output using postview properties.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewprops">IWMWriterPostView::GetPostViewProps</a>
+

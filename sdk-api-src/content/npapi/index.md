@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - npapi
  - npapi/npapi
+api_name:
+ - npapi
 ---
 
 # Npapi.h header

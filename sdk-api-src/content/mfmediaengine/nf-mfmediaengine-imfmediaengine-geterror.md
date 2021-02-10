@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetError
+ - IMFMediaEngine::GetError
 ---
 
 # IMFMediaEngine::GetError
@@ -71,3 +71,4 @@ This method corresponds to the <b>error</b> attribute of the <b>HTMLMediaElement
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

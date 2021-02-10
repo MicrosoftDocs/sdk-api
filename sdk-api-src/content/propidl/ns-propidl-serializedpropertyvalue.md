@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Propidl.h
 api_name:
+ - tagSERIALIZEDPROPERTYVALUE
  - SERIALIZEDPROPERTYVALUE
 ---
 
@@ -67,3 +68,4 @@ Encodes type information about the serialized <a href="/windows/desktop/api/prop
 Type: <b>BYTE[1]</b>
 
 A variable-length additional data that depends on the type passed in <b>dwType</b>.
+

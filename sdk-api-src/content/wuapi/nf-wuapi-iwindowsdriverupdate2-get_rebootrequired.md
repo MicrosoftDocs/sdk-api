@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdate2.RebootRequired
- - IWindowsDriverUpdate2.get_RebootRequired
+ - IWindowsDriverUpdate2::get_RebootRequired
 ---
 
 # IWindowsDriverUpdate2::get_RebootRequired
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate2">IWindowsDriverUpdate2</a>
+

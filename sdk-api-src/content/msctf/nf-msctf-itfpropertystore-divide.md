@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfPropertyStore.Divide
+ - ITfPropertyStore::Divide
 ---
 
 # ITfPropertyStore::Divide
@@ -103,3 +103,4 @@ If this method returns any value other than S_OK, the original property store is
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
+

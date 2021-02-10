@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PlayToDevice.dll
 api_name:
- - IDevicePair.get_Server
+ - IDevicePair::get_Server
 ---
 
 # IDevicePair::streaming
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-idevicepair">IDevicePair</a>
+

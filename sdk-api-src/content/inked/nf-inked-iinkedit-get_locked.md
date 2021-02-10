@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.Locked
- - IInkEdit.get_Locked
- - IInkEdit.put_Locked
- - InkEdit.get_Locked
- - InkEdit.put_Locked
+ - IInkEdit::get_Locked
 ---
 
 # IInkEdit::get_Locked
@@ -68,3 +64,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

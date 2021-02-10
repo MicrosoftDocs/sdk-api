@@ -45,7 +45,7 @@ api_location:
  - Ncprov.dll
  - Wbemcore.dll
 api_name:
- - IWbemQualifierSet.GetNames
+ - IWbemQualifierSet::GetNames
 ---
 
 # IWbemQualifierSet::GetNames
@@ -109,3 +109,4 @@ For an example of using <b>SAFEARRAY</b>s of <b>BSTR</b>s, see
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-get">IWbemQualifierSet::Get</a>
+

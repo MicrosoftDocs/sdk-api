@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - __WMT_VIDEOIMAGE_SAMPLE
  - WMT_VIDEOIMAGE_SAMPLE
 ---
 
@@ -208,3 +209,4 @@ Not used.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

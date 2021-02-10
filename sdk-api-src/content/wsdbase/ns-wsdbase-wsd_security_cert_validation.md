@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wsdbase.h
 api_name:
+ - _WSD_SECURITY_CERT_VALIDATION
  - WSD_SECURITY_CERT_VALIDATION
 ---
 
@@ -174,3 +175,4 @@ If the application is built using Windows 8 SDK targeted for Windows 8 OS, <b>
 If the application is built using Windows 8 SDK targeted for Windows 7 OS, <b>WSD_SECURITY_CERT_VALIDATION</b> will resolve into the old structure (<a href="/previous-versions/windows/desktop/legacy/hh437346(v=vs.85)">WSD_SECURITY_CERT_VALIDATION_V1</a>). While it's a given that the application will be supported for Windows 7, it also  on Windows 8 since <b>wsdapi.dll</b> on Windows 8 will handle both the old and the newer versions of this structure.
 
 An application already built using Windows 7 SDK will use the old version of this structure. It will run fine on Windows 8 since <b>wsdapi.dll</b> on Windows 8 can handle both versions.
+

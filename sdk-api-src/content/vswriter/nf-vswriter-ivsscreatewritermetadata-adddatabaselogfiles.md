@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.AddDatabaseLogFiles
+ - IVssCreateWriterMetadata::AddDatabaseLogFiles
 ---
 
 # IVssCreateWriterMetadata::AddDatabaseLogFiles
@@ -201,3 +201,4 @@ The values of the <i>wszLogicalPath</i> and <i>wszDatabaseName</i> parameters sh
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">IVssCreateWriterMetadata::AddComponent</a>
+

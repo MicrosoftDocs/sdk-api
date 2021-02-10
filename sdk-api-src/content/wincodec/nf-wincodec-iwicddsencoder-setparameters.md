@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDdsEncoder.SetParameters
+ - IWICDdsEncoder::SetParameters
 ---
 
 # IWICDdsEncoder::SetParameters
@@ -90,3 +90,4 @@ Setting DDS parameters using this method provides the DDS encoder with informati
 
 
 <a href="/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>
+

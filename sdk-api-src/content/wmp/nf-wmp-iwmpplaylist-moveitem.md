@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylist.moveItem
+ - IWMPPlaylist::moveItem
 ---
 
 # IWMPPlaylist::moveItem
@@ -93,3 +93,4 @@ Before calling this method, you must have full access to the library. For more i
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IObjMgr.Remove
+ - IObjMgr::Remove
 ---
 
 # IObjMgr::Remove
@@ -73,3 +73,4 @@ Returns S_OK if successful, or a COM error code otherwise.
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-append">IObjMgr::Append</a>
+

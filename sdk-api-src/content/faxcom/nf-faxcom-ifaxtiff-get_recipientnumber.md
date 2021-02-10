@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff.RecipientNumber
- - IFaxTiff.get_RecipientNumber
+ - IFaxTiff::get_RecipientNumber
 ---
 
 # IFaxTiff::get_RecipientNumber
@@ -92,3 +91,4 @@ The <b>get_RecipientNumber</b> method allocates the memory required for the buff
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

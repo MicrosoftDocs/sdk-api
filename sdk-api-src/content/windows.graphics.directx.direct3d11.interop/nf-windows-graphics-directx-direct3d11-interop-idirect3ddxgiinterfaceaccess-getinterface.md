@@ -40,7 +40,7 @@ api_type:
 api_location:
  - D3D11.dll
 api_name:
- - GetInterface
+ - IDirect3DDxgiInterfaceAccess::GetInterface
 ---
 
 # GetInterface function

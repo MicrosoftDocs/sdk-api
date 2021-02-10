@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - WTSFreeMemoryExA
  - wtsapi32/WTSFreeMemoryExA
+ - WTSFreeMemoryEx
+ - wtsapi32/WTSFreeMemoryEx
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Wtsapi32.dll
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSFreeMemoryEx
  - WTSFreeMemoryExA
- - WTSFreeMemoryExW
-req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
+ - WTSFreeMemoryEx
 ---
 
 # WTSFreeMemoryExA function
@@ -129,3 +130,4 @@ Several Remote Desktop Services functions allocate buffers to return information
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_info_1a">WTS_SESSION_INFO_1</a>
+

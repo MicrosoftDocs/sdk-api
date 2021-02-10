@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_MUA_MixingInfo
  - DVD_MUA_MixingInfo
 ---
 
@@ -153,3 +154,4 @@ Possible values for <b>dwSpeakerPosition</b> are defined in Ksmedia.h as follows
 
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

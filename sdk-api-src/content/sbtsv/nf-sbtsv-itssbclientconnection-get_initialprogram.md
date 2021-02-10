@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbClientConnection.InitialProgram
- - ITsSbClientConnection.get_InitialProgram
+ - ITsSbClientConnection::get_InitialProgram
 ---
 
 # ITsSbClientConnection::get_InitialProgram
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
+

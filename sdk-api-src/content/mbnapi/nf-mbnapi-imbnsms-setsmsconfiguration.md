@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSms.SetSmsConfiguration
+ - IMbnSms::SetSmsConfiguration
 ---
 
 # IMbnSms::SetSmsConfiguration
@@ -141,3 +141,4 @@ This is an asynchronous operation that will return immediately. If the method re
 
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>
+

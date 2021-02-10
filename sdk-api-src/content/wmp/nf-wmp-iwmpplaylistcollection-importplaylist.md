@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylistCollection.importPlaylist
+ - IWMPPlaylistCollection::importPlaylist
 ---
 
 # IWMPPlaylistCollection::importPlaylist
@@ -111,3 +111,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-newplaylist">IWMPPlaylistCollection::newPlaylist</a>
+

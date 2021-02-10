@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _RESULTDATAITEM
  - RESULTDATAITEM
 ---
 
@@ -179,3 +180,4 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
+

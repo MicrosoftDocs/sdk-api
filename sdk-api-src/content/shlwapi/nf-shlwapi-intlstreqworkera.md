@@ -44,9 +44,7 @@ api_location:
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - IntlStrEqWorker
  - IntlStrEqWorkerA
- - IntlStrEqWorkerW
 ---
 
 # IntlStrEqWorkerA function
@@ -91,3 +89,4 @@ Returns <b>TRUE</b> if the first <i>nChar</i> characters are identical, or <b>FA
 ## -remarks
 
 This function retrieves the thread locale and uses <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> to determine whether the first <i>nChar</i> characters are identical.
+

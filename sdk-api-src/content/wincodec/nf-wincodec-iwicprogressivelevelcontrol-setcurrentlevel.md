@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICProgressiveLevelControl.SetCurrentLevel
+ - IWICProgressiveLevelControl::SetCurrentLevel
 ---
 
 # IWICProgressiveLevelControl::SetCurrentLevel
@@ -122,3 +122,4 @@ if (pProgressive)
 
 
 <a href="/windows/desktop/wic/-wic-progressive-decoding">Progressive Decoding Overview</a>
+

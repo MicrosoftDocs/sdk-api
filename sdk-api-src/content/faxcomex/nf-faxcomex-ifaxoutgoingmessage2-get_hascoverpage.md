@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage2.HasCoverPage
- - IFaxOutgoingMessage2.get_HasCoverPage
- - IFaxOutgoingMessage2.get_HasCoverPage
+ - IFaxOutgoingMessage2::get_HasCoverPage
 ---
 
 # IFaxOutgoingMessage2::get_HasCoverPage
@@ -66,3 +64,4 @@ Indicates if the fax has a cover page.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage2">IFaxOutgoingMessage2</a>
+

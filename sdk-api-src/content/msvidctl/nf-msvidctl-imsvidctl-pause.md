@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.Pause
+ - IMSVidCtl::Pause
 ---
 
 # IMSVidCtl::Pause
@@ -61,3 +61,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+

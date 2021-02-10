@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICComponentInfo.GetSigningStatus
+ - IWICComponentInfo::GetSigningStatus
 ---
 
 # IWICComponentInfo::GetSigningStatus
@@ -72,3 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Signing is unused by WIC. Therefore, all components WICComponentSigned.
 
 This function can be used to determine whether a component has no binary component or has been added to the disabled components list in the registry.
+

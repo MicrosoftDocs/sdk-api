@@ -9,6 +9,8 @@ tech.root: gamingdvcinfo
 f1_keywords:
  - gamingdeviceinformation
  - gamingdeviceinformation/gamingdeviceinformation
+api_name:
+ - gamingdeviceinformation
 ---
 
 # Gamingdeviceinformation.h header

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiViewGetErrorA
  - msiquery/MsiViewGetErrorA
+ - MsiViewGetError
+ - msiquery/MsiViewGetError
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiViewGetError
  - MsiViewGetErrorA
- - MsiViewGetErrorW
+ - MsiViewGetError
 ---
 
 # MsiViewGetErrorA function
@@ -478,3 +479,4 @@ Once MSIDBERROR_NOERROR is returned, no more validation errors remain. The MSIDB
 
 
 <a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
+

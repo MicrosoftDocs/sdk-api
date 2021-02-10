@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IPerformanceCounterDataCollector.DataSourceName
- - IPerformanceCounterDataCollector.get_DataSourceName
- - IPerformanceCounterDataCollector.put_DataSourceName
+ - IPerformanceCounterDataCollector::put_DataSourceName
 ---
 
 # IPerformanceCounterDataCollector::put_DataSourceName
@@ -65,3 +63,4 @@ Specify the data source name only if the <a href="/previous-versions/windows/des
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
+

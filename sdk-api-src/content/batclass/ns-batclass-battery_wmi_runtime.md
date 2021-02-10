@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
+ - _BATTERY_WMI_RUNTIME
+ - PBATTERY_WMI_RUNTIME
  - BATTERY_WMI_RUNTIME
 ---
 
@@ -71,3 +73,4 @@ This calculation may be based on the present rate of drain and not be very accur
 ## -see-also
 
 <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
+

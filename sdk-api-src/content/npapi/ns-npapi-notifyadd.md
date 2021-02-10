@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Npapi.h
 api_name:
+ - _NOTIFYADD
+ - LPNOTIFYADD
  - NOTIFYADD
 ---
 
@@ -128,3 +130,4 @@ The connection is being added to the recent connection list.
 </td>
 </tr>
 </table>
+

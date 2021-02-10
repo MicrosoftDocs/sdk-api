@@ -9,6 +9,8 @@ tech.root: tablet
 f1_keywords:
  - micaut
  - micaut/micaut
+api_name:
+ - micaut
 ---
 
 # Micaut.h header

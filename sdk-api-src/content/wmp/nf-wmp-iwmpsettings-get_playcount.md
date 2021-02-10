@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings.get_playCount
+ - IWMPSettings::get_playCount
 ---
 
 # IWMPSettings::get_playCount
@@ -91,3 +91,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_playcount">IWMPSettings::put_playCount</a>
+

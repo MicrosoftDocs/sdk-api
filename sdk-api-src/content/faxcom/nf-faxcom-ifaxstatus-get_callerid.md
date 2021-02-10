@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.CallerId
- - IFaxStatus.get_CallerId
+ - IFaxStatus::get_CallerId
 ---
 
 # IFaxStatus::get_CallerId
@@ -86,3 +85,4 @@ The <b>IFaxStatus::get_CallerId</b> method allocates the memory required for the
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

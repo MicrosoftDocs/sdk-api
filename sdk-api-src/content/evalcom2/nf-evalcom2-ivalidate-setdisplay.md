@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evalcom2.dll
 api_name:
- - IValidate.SetDisplay
+ - IValidate::SetDisplay
 ---
 
 # IValidate::SetDisplay
@@ -106,3 +106,4 @@ The <i>pDisplayFunction</i> is invalid.
 
 
 <a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
+ - IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent
 ---
 
 # IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent
@@ -92,3 +92,4 @@ Adjusting an event handler from within this method is not supported.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationstructurechangedeventhandler">IUIAutomationStructureChangedEventHandler</a>
+

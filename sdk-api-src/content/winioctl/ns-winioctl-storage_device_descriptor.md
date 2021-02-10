@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_DEVICE_DESCRIPTOR
+ - PSTORAGE_DEVICE_DESCRIPTOR
  - STORAGE_DEVICE_DESCRIPTOR
 ---
 
@@ -159,3 +161,4 @@ An application can determine the required buffer size by issuing a
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+

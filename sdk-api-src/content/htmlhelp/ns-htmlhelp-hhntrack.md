@@ -44,6 +44,7 @@ api_type:
 api_location:
  - HtmlHelp.h
 api_name:
+ - tagHHNTRACK
  - HHNTRACK
 ---
 
@@ -75,3 +76,4 @@ A pointer to the current <a href="/windows/desktop/api/htmlhelp/ns-htmlhelp-hh_w
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About structures</a>
+

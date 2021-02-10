@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl.IsVisible
+ - IMathInputControl::IsVisible
 ---
 
 # IMathInputControl::IsVisible
@@ -105,3 +105,4 @@ The <i>pvbShown</i> parameter is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
+

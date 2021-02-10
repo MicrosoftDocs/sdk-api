@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings.get_baseURL
+ - IWMPSettings::get_baseURL
 ---
 
 # IWMPSettings::get_baseURL
@@ -105,3 +105,4 @@ This method retrieves the base HTTP URL that is passed as the command parameter 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_baseurl">IWMPSettings::put_baseURL</a>
+

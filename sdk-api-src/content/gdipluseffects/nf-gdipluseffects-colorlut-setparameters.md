@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ColorLUT.SetParameters
+ - ColorLUT::SetParameters
 ---
 
 # ColorLUT::SetParameters
@@ -72,3 +72,4 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorlut-getparameters">ColorLUT::GetParameters</a>
+

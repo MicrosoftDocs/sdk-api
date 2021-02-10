@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateDesktopExW
  - winuser/CreateDesktopExW
+ - CreateDesktopEx
+ - winuser/CreateDesktopEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - CreateDesktopEx
- - CreateDesktopExA
  - CreateDesktopExW
+ - CreateDesktopEx
 ---
 
 # CreateDesktopExW function
@@ -182,3 +183,4 @@ The default size of the desktop heap depends on factors such as hardware archite
 
 
 <a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
+

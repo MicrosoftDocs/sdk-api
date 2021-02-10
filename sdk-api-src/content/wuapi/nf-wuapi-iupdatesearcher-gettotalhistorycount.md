@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher.GetTotalHistoryCount
+ - IUpdateSearcher::GetTotalHistoryCount
 ---
 
 # IUpdateSearcher::GetTotalHistoryCount
@@ -85,3 +85,4 @@ A parameter value is invalid or <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
+

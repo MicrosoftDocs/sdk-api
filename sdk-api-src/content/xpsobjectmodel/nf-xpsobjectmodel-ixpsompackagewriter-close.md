@@ -42,8 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter.Close
- - IXpsOMPackageWriter3D.Close
+ - IXpsOMPackageWriter::Close
 ---
 
 # IXpsOMPackageWriter::Close
@@ -120,3 +119,4 @@ After this method is called, calling any other <a href="/windows/desktop/api/xps
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

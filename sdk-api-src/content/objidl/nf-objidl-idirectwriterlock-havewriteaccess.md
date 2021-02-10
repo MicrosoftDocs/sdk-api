@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IDirectWriterLock.HaveWriteAccess
+ - IDirectWriterLock::HaveWriteAccess
 ---
 
 # IDirectWriterLock::HaveWriteAccess
@@ -65,3 +65,4 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>
+

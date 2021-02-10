@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterExportSensorData
+ - PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN
 ---
 
 # PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN callback function
@@ -220,3 +220,4 @@ SensorAdapterExportSensorData(
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManSession.Timeout
- - IWSManSession.get_Timeout
- - IWSManSession.put_Timeout
+ - IWSManSession::put_Timeout
 ---
 
 # IWSManSession::put_Timeout
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/WinRM/session-timeout">Session.Timeout</a>
+

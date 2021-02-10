@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DResource9.FreePrivateData
+ - IDirect3DResource9::FreePrivateData
 ---
 
 # IDirect3DResource9::FreePrivateData
@@ -74,3 +74,4 @@ Direct3D calls this method automatically when a resource is released.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
+

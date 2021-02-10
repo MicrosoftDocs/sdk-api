@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecStrings.GetName
+ - IWMCodecStrings::GetName
 ---
 
 # IWMCodecStrings::GetName
@@ -95,3 +95,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecstrings">IWMCodecStrings Interface</a>
+

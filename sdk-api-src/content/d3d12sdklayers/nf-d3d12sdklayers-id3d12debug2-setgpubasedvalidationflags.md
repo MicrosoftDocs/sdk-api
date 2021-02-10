@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12Debug2.SetGPUBasedValidationFlags
+ - ID3D12Debug2::SetGPUBasedValidationFlags
 ---
 
 ## -description

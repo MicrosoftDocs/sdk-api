@@ -43,8 +43,6 @@ api_location:
  - DbgHelp.dll
 api_name:
  - SymGetLineFromInlineContext
- - SymGetLineFromInlineContext
- - SymGetLineFromInlineContextW
 ---
 
 ## -description
@@ -120,3 +118,4 @@ SymGetLineFromInlineContextW(
 #ifdef DBGHELP_TRANSLATE_TCHAR
  #define SymGetLineFromInlineContext SymGetLineFromInlineContextW
 #endif</code></pre>
+

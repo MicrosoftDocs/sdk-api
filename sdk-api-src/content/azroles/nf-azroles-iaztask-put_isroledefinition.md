@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask.IsRoleDefinition
- - IAzTask.get_IsRoleDefinition
- - IAzTask.put_IsRoleDefinition
- - AzTask.IsRoleDefinition
+ - IAzTask::put_IsRoleDefinition
 ---
 
 # IAzTask::put_IsRoleDefinition

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspStatus.EnrollmentStatus
- - ICspStatus.get_EnrollmentStatus
+ - ICspStatus::get_EnrollmentStatus
 ---
 
 # ICspStatus::get_EnrollmentStatus
@@ -77,3 +76,4 @@ The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
+

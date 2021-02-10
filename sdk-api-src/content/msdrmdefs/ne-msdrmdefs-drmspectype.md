@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
+ - _DRMSPECTYPE
  - DRMSPECTYPE
 ---
 
@@ -71,3 +72,4 @@ File name.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations">AD RMS Enumerations</a>
+

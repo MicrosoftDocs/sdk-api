@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_POLICY_CONSTRAINTS
  - WS_POLICY_CONSTRAINTS
 ---
 
@@ -101,3 +102,4 @@ Setting this field to <b>NULL</b> indicates a constraint of no security.
 ### -field policyExtensions
 
 ### -field policyExtensionCount
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcGeneratorFilterMaxParameters.GetHashWindowSize
+ - IRdcGeneratorFilterMaxParameters::GetHashWindowSize
 ---
 
 # IRdcGeneratorFilterMaxParameters::GetHashWindowSize
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-sethashwindowsize">SetHashWindowSize</a>
+

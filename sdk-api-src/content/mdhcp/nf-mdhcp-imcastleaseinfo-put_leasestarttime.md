@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.put_LeaseStartTime
+ - IMcastLeaseInfo::put_LeaseStartTime
 ---
 
 # IMcastLeaseInfo::put_LeaseStartTime
@@ -108,3 +108,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_leasestarttime">get_LeaseStartTime</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation.End
+ - IWMDMOperation::End
 ---
 
 # IWMDMOperation::End
@@ -109,3 +109,4 @@ HRESULT End(HRESULT* phCompletionCode, IUnknown* pNewObject)
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
+

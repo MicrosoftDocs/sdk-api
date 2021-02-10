@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_RESERVATION_INFO_ARRAY
+ - LPDHCP_RESERVATION_INFO_ARRAY
  - DHCP_RESERVATION_INFO_ARRAY
 ---
 
@@ -73,3 +75,4 @@ Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4enumsubnetreservations">DhcpV4EnumSubnetReservations</a>
+

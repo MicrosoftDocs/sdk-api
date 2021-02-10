@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2.IsWindowedStereoEnabled
+ - IDXGIFactory2::IsWindowedStereoEnabled
 ---
 
 ## -description
@@ -73,3 +73,4 @@ The <a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tre
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
+

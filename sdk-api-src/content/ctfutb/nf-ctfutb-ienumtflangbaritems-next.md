@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfLangBarItems.Next
+ - IEnumTfLangBarItems::Next
 ---
 
 # IEnumTfLangBarItems::Next
@@ -118,3 +118,4 @@ The method reached the end of the enumeration before the specified number of ele
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
       </a>
+

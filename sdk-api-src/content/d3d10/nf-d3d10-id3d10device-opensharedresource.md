@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3d10.h
 api_name:
- - ID3D10Device.OpenSharedResource
+ - ID3D10Device::OpenSharedResource
 ---
 
 # ID3D10Device::OpenSharedResource
@@ -138,3 +138,4 @@ If a shared texture is updated on one device <a href="/windows/desktop/api/d3d10
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
+

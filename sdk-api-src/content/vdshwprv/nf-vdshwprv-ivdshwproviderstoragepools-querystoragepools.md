@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsHwProviderStoragePools.QueryStoragePools
+ - IVdsHwProviderStoragePools::QueryStoragePools
 ---
 
 # IVdsHwProviderStoragePools::QueryStoragePools
@@ -106,3 +106,4 @@ If a non-<b>NULL</b> value is specified in the <i>pPoolAttributes</i> parameter,
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdshwproviderstoragepools">IVdsHwProviderStoragePools</a>
+

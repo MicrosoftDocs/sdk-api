@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateTemplates.Count
- - IX509CertificateTemplates.get_Count
+ - IX509CertificateTemplates::get_Count
 ---
 
 # IX509CertificateTemplates::get_Count
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplates">IX509CertificateTemplates</a>
+

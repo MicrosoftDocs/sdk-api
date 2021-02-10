@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _PATHOBJ
  - PATHOBJ
 ---
 
@@ -175,3 +176,4 @@ The following GDI service routines are provided for PATHOBJ objects:
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>
+

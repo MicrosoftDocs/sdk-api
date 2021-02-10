@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizer2.get_Id
+ - IInkRecognizer2::get_Id
 ---
 
 # IInkRecognizer2::get_Id
@@ -70,3 +70,4 @@ To access this method, first create and instance of the <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer2">IInkRecognizer2 Interface</a>
+

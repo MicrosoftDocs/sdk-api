@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateSurfaceFactory
+ - IDCompositionDevice2::CreateSurfaceFactory
 ---
 
 # IDCompositionDevice2::CreateSurfaceFactory
@@ -93,3 +93,4 @@ A surface object remains alive as long as any of the surfaces or virtual surface
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createvirtualsurface">IDCompositionDevice2::CreateVirtualSurface</a>
+

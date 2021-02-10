@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeLongArray.GetValue
- - CCertEncodeLongArray.GetValue
+ - ICertEncodeLongArray::GetValue
 ---
 
 # ICertEncodeLongArray::GetValue
@@ -80,3 +79,4 @@ The return value is the <b>Long</b> value at the specified index.
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">ICertEncodeLongArray::SetValue</a>
+

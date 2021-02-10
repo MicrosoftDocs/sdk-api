@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - vmr9
  - vmr9/vmr9
+api_name:
+ - vmr9
 ---
 
 # Vmr9.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer.get_Count
+ - ITuningSpaceContainer::get_Count
 ---
 
 # ITuningSpaceContainer::get_Count
@@ -65,3 +65,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
+

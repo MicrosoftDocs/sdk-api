@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoUnit.Do
+ - IOleUndoUnit::Do
 ---
 
 # IOleUndoUnit::Do
@@ -88,3 +88,4 @@ See the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoMa
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
+

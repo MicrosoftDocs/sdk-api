@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _EVENT_MAP_INFO
  - EVENT_MAP_INFO
 ---
 
@@ -86,3 +87,4 @@ The EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP also indicates that you use the <b>In
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a>
+

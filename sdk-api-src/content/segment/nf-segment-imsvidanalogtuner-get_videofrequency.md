@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAnalogTuner.get_VideoFrequency
+ - IMSVidAnalogTuner::get_VideoFrequency
 ---
 
 # IMSVidAnalogTuner::get_VideoFrequency
@@ -73,3 +73,4 @@ This method is intended for diagnostic and testing purposes.
 
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner Interface</a>
+

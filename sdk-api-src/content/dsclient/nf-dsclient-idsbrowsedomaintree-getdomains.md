@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsBrowseDomainTree.GetDomains
+ - IDsBrowseDomainTree::GetDomains
 ---
 
 # IDsBrowseDomainTree::GetDomains
@@ -120,3 +120,4 @@ For more information about how to access and use the data provided by this metho
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">IDsBrowseDomainTree::FreeDomains</a>
+

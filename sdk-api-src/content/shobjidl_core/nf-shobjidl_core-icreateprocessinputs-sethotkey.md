@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ICreateProcessInputs.SetHotKey
+ - ICreateProcessInputs::SetHotKey
 ---
 
 # ICreateProcessInputs::SetHotKey
@@ -81,3 +81,4 @@ The hotkey to assign to the application. See the documentation of the <b>hStdIn<
 
 
 <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>
+

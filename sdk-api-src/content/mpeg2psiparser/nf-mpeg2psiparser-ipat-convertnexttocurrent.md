@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2PsiParser.h
 api_name:
- - IPAT.ConvertNextToCurrent
+ - IPAT::ConvertNextToCurrent
 ---
 
 # IPAT::ConvertNextToCurrent
@@ -116,3 +116,4 @@ This method applies only to <i>next</i> tables that have become current. Before 
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>
+

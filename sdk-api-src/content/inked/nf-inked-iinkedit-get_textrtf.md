@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.TextRTF
- - IInkEdit.get_TextRTF
- - IInkEdit.put_TextRTF
- - InkEdit.get_TextRTF
- - InkEdit.put_TextRTF
+ - IInkEdit::get_TextRTF
 ---
 
 # IInkEdit::get_TextRTF
@@ -72,3 +68,4 @@ Setting the TextRTF property replaces the entire contents of a control with the 
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

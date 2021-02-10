@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _QUOTA_LIMITS
+ - PQUOTA_LIMITS
  - QUOTA_LIMITS
 ---
 

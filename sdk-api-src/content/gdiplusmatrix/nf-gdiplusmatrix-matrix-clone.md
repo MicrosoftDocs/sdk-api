@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix.Clone
+ - Matrix::Clone
 ---
 
 # Matrix::Clone
@@ -83,3 +83,4 @@ This method returns a pointer to the new
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

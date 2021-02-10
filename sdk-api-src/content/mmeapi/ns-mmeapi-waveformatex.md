@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
+ - tWAVEFORMATEX
+ - PWAVEFORMATEX
  - WAVEFORMATEX
 ---
 
@@ -101,3 +103,4 @@ An example of a format that uses extra information is the Microsoft Adaptive Del
 
 
 <a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
+

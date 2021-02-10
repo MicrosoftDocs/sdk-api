@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _PKU2U_CERT_BLOB
+ - PPKU2U_CERT_BLOB
  - PKU2U_CERT_BLOB
 ---
 

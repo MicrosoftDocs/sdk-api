@@ -46,6 +46,8 @@ api_type:
 api_location:
  - QosObjs.h
 api_name:
+ - _QOS_FRIENDLY_NAME
+ - LPQOS_FRIENDLY_NAME
  - QOS_FRIENDLY_NAME
 ---
 
@@ -89,3 +91,4 @@ Programmers are encouraged to use the
 
 
 <a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
+

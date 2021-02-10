@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth.Activate
+ - IDirectMusicSynth::Activate
 ---
 
 # IDirectMusicSynth::Activate
@@ -150,3 +150,4 @@ Activation is mostly managed by the wave sink object. When <code>IDirectMusicSyn
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-activate">IDirectMusicSynthSink::Activate</a>
+

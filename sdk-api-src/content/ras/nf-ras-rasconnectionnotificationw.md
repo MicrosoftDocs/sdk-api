@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasConnectionNotificationW
  - ras/RasConnectionNotificationW
+ - RasConnectionNotification
+ - ras/RasConnectionNotification
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasConnectionNotification
- - RasConnectionNotificationA
  - RasConnectionNotificationW
+ - RasConnectionNotification
 ---
 
 # RasConnectionNotificationW function
@@ -159,3 +160,4 @@ When the event is signaled, use other RAS functions, such as
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Objsel.h
 api_name:
+ - _DSOP_INIT_INFO
+ - PDSOP_INIT_INFO
  - DSOP_INIT_INFO
 ---
 
@@ -115,3 +117,4 @@ Pointer to an array of null-terminated Unicode strings that contain the names of
 
 
 <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>
+

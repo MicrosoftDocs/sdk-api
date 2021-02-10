@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IConnector.ConnectTo
+ - IConnector::ConnectTo
 ---
 
 # IConnector::ConnectTo
@@ -116,3 +116,4 @@ One of the two connectors is already attached to another connector. For informat
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
+

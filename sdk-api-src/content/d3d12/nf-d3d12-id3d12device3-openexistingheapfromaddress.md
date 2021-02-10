@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - Id3d12device3.OpenExistingHeapFromAddress
+ - ID3D12Device3::OpenExistingHeapFromAddress
 ---
 
 ## -description
@@ -88,3 +88,4 @@ Heaps can be used for placed and reserved resources, as orthogonally as other he
 ## -see-also
 
 [ID3D12Device3 interface](./nn-d3d12-id3d12device3.md)
+

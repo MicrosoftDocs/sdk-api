@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - lmshare
  - lmshare/lmshare
+api_name:
+ - lmshare
 ---
 
 # Lmshare.h header

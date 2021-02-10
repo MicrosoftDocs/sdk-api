@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linemonitortone_tag
+ - LPLINEMONITORTONE
  - LINEMONITORTONE
 ---
 
@@ -102,3 +104,4 @@ A tone with all frequencies set to zero corresponds to silence. An application c
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a>
+

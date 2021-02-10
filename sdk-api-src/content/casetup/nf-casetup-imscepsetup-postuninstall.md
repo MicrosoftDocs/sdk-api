@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup.PostUnInstall
+ - IMSCEPSetup::PostUnInstall
 ---
 
 # IMSCEPSetup::PostUnInstall
@@ -61,3 +61,4 @@ This method does not return a value.
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
+

@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - editionupgradehelper
  - editionupgradehelper/editionupgradehelper
+api_name:
+ - editionupgradehelper
 ---
 
 # Editionupgradehelper.h header

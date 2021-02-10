@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IErrorInfo.GetDescription
+ - IErrorInfo::GetDescription
 ---
 
 # IErrorInfo::GetDescription
@@ -69,3 +69,4 @@ The text is returned in the language specified by the locale identifier (LCID) t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
+

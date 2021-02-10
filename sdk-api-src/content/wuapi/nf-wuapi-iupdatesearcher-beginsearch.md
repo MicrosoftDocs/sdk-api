@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher.BeginSearch
+ - IUpdateSearcher::BeginSearch
 ---
 
 # IUpdateSearcher::BeginSearch
@@ -118,3 +118,4 @@ When you use any asynchronous WUA API in your app, you might need to implement a
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
+

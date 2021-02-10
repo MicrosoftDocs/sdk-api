@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncSessionState.GetInfoForChangeApplication
+ - ISyncSessionState::GetInfoForChangeApplication
 ---
 
 # ISyncSessionState::GetInfoForChangeApplication
@@ -117,3 +117,4 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
+

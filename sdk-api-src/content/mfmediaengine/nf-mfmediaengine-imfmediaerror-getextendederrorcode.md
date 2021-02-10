@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaError.GetExtendedErrorCode
+ - IMFMediaError::GetExtendedErrorCode
 ---
 
 # IMFMediaError::GetExtendedErrorCode
@@ -61,3 +61,4 @@ Returns an <b>HRESULT</b> value that gives additional information about the last
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaerror">IMFMediaError</a>
+

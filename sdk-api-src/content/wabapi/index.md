@@ -9,6 +9,8 @@ tech.root: wab
 f1_keywords:
  - wabapi
  - wabapi/wabapi
+api_name:
+ - wabapi
 ---
 
 # Wabapi.h header

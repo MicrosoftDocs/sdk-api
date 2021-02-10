@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin.BeginFlush
+ - IPin::BeginFlush
 ---
 
 # IPin::BeginFlush
@@ -120,3 +120,4 @@ After <code>BeginFlush</code> is called, the pin rejects all samples from upstre
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.GetEventInterest
+ - IInkPicture::GetEventInterest
 ---
 
 # IInkPicture::GetEventInterest
@@ -133,3 +133,4 @@ An exception occurred during processing.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-seteventinterest">SetEventInterest Method</a>
+

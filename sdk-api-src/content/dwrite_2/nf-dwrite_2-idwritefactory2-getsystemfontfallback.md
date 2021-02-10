@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite_2.h
 api_name:
- - IDWriteFactory2.GetSystemFontFallback
+ - IDWriteFactory2::GetSystemFontFallback
 ---
 
 # IDWriteFactory2::GetSystemFontFallback

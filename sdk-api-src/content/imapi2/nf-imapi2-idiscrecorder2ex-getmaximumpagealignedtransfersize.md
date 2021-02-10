@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize
+ - IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
 ---
 
 # IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
@@ -106,3 +106,4 @@ Maximum page-aligned buffer size that a device can accept for a single command. 
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumnonpagealignedtransfersize">IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dwmapi.h
 api_name:
+ - _UNSIGNED_RATIO
  - UNSIGNED_RATIO
 ---
 

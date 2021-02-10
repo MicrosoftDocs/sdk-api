@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WdsPxe.h
 api_name:
+ - tagPXE_DHCPV6_MESSAGE
+ - PPXE_DHCPV6_MESSAGE
  - PXE_DHCPV6_MESSAGE
 ---
 
@@ -79,3 +81,4 @@ Byte 3  of the transaction-id DHCPv6 message.
 ### -field Options
 
 A <a href="/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_option">PXE_DHCPV6_OPTION</a> structure that specifies the DHCPV6 option.
+

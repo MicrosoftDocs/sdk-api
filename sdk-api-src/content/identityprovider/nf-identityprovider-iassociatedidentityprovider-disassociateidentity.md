@@ -43,7 +43,7 @@ api_location:
  - IdentityProvider.h
  - Identitystore.h
 api_name:
- - IAssociatedIdentityProvider.DisassociateIdentity
+ - IAssociatedIdentityProvider::DisassociateIdentity
 ---
 
 # IAssociatedIdentityProvider::DisassociateIdentity
@@ -72,3 +72,4 @@ If the method fails, it returns an error code. For a list of common error codes,
 ## -see-also
 
 <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iassociatedidentityprovider">IAssociatedIdentityProvider</a>
+

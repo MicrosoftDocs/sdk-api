@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1.dll
 api_name:
- - ID2D1Multithread.GetMultithreadProtected
+ - ID2D1Multithread::GetMultithreadProtected
 ---
 
 # ID2D1Multithread::GetMultithreadProtected
@@ -61,3 +61,4 @@ Returns true if the Direct2D factory was created as multi-threaded, or false if 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1multithread">ID2D1Multithread</a>
+

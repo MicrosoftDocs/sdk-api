@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymFindExecutableImageW
  - dbghelp/SymFindExecutableImageW
+ - SymFindExecutableImage
+ - dbghelp/SymFindExecutableImage
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymFindExecutableImage
- - SymFindExecutableImage
  - SymFindExecutableImageW
+ - SymFindExecutableImage
 ---
 
 # SymFindExecutableImageW function
@@ -113,3 +114,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfind_exe_file_callback">FindExecutableImageProc</a>
+

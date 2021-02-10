@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetBuffered
+ - IMFMediaEngine::GetBuffered
 ---
 
 # IMFMediaEngine::GetBuffered
@@ -71,3 +71,4 @@ The returned  <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfme
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

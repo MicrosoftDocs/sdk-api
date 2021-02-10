@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IETFilter.GetCurrRating
+ - IETFilter::GetCurrRating
 ---
 
 # IETFilter::GetCurrRating
@@ -73,3 +73,4 @@ Returns S_OK if successful, or an error code otherwise.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilter">IETFilter Interface</a>
+

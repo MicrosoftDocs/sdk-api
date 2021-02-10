@@ -46,7 +46,9 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
- - OCTET_STRING, *POCTET_STRING
+ - tagOCTET_STRING
+ - POCTET_STRING
+ - OCTET_STRING
 ---
 
 # OCTET_STRING structure

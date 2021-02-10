@@ -9,6 +9,8 @@ tech.root: dedup
 f1_keywords:
  - ddpbackup
  - ddpbackup/ddpbackup
+api_name:
+ - ddpbackup
 ---
 
 # Ddpbackup.h header

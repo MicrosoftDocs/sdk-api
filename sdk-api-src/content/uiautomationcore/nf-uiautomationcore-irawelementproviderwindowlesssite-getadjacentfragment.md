@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderWindowlessSite.GetAdjacentFragment
+ - IRawElementProviderWindowlessSite::GetAdjacentFragment
 ---
 
 # IRawElementProviderWindowlessSite::GetAdjacentFragment
@@ -135,3 +135,4 @@ IFACEMETHODIMP CProviderWindowlessSite::GetAdjacentFragment(
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite">IRawElementProviderWindowlessSite</a>
+

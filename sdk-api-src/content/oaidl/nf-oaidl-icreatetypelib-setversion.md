@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib.SetVersion
+ - ICreateTypeLib::SetVersion
 ---
 
 # ICreateTypeLib::SetVersion
@@ -98,3 +98,4 @@ The state of the type library is not valid for this operation.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
+

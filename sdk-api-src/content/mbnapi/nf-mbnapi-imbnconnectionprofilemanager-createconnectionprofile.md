@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionProfileManager.CreateConnectionProfile
+ - IMbnConnectionProfileManager::CreateConnectionProfile
 ---
 
 # IMbnConnectionProfileManager::CreateConnectionProfile
@@ -137,3 +137,4 @@ If the icon file location is specified in the profile data then the Mobile Broad
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>
+

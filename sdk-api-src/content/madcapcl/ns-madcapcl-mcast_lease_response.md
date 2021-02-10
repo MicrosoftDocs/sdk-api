@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Madcapcl.h
 api_name:
+ - _MCAST_LEASE_RESPONSE
+ - PMCAST_LEASE_RESPONSE
  - MCAST_LEASE_RESPONSE
 ---
 
@@ -119,3 +121,4 @@ Pointer to a buffer containing the granted IP addresses. For IPv4 addresses, the
 
 
 <a href="/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
+

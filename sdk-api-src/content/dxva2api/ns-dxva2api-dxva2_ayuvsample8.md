@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_AYUVSample8
  - DXVA2_AYUVSample8
 ---
 
@@ -79,3 +80,4 @@ Contains the alpha value.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

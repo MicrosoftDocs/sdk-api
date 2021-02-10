@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IConnector.IsConnected
+ - IConnector::IsConnected
 ---
 
 # IConnector::IsConnected
@@ -87,3 +87,4 @@ For a code example that calls the <b>IsConnected</b> method, see the implementat
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
+

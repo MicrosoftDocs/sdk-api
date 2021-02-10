@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsEngine.GetErrorDescription
+ - ISettingsEngine::GetErrorDescription
 ---
 
 # ISettingsEngine::GetErrorDescription
@@ -69,3 +69,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It may retu
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
+

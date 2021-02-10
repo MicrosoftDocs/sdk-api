@@ -9,6 +9,8 @@ tech.root: controls
 f1_keywords:
  - commoncontrols
  - commoncontrols/commoncontrols
+api_name:
+ - commoncontrols
 ---
 
 # Commoncontrols.h header

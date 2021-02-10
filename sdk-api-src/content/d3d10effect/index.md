@@ -9,6 +9,8 @@ tech.root: direct3d10
 f1_keywords:
  - d3d10effect
  - d3d10effect/d3d10effect
+api_name:
+ - d3d10effect
 ---
 
 # D3D10Effect.h header

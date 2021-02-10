@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsHwProviderStoragePools.CreateLunInStoragePool
+ - IVdsHwProviderStoragePools::CreateLunInStoragePool
 ---
 
 # IVdsHwProviderStoragePools::CreateLunInStoragePool
@@ -182,3 +182,4 @@ There is a subtle difference between the <b>E_INVALIDARG</b> and
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>
+

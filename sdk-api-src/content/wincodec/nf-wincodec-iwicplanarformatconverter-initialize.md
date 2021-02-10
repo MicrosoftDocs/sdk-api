@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPlanarFormatConverter.Initialize
+ - IWICPlanarFormatConverter::Initialize
 ---
 
 # IWICPlanarFormatConverter::Initialize
@@ -109,3 +109,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicplanarformatconverter">IWICPlanarFormatConverter</a>
+

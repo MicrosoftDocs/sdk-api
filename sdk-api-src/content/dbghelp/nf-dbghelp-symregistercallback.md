@@ -42,9 +42,6 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymRegisterCallback64
- - SymRegisterCallback64
- - SymRegisterCallbackW64
  - SymRegisterCallback
 ---
 
@@ -138,3 +135,4 @@ For a more extensive example, read <a href="/windows/desktop/Debug/getting-notif
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
+ - FWP_V6_ADDR_AND_MASK_
  - FWP_V6_ADDR_AND_MASK
 ---
 
@@ -73,3 +74,4 @@ by 112 0's.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

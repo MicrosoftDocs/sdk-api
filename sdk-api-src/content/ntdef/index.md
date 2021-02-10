@@ -9,6 +9,8 @@ tech.root: kernel
 f1_keywords:
  - ntdef
  - ntdef/ntdef
+api_name:
+ - ntdef
 ---
 
 # Ntdef.h header

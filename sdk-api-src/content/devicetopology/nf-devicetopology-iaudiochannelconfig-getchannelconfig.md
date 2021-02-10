@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IAudioChannelConfig.GetChannelConfig
+ - IAudioChannelConfig::GetChannelConfig
 ---
 
 # IAudioChannelConfig::GetChannelConfig
@@ -91,3 +91,4 @@ For information about channel-configuration masks, see the discussion of the <a 
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiochannelconfig-setchannelconfig">IAudioChannelConfig::SetChannelConfig</a>
+

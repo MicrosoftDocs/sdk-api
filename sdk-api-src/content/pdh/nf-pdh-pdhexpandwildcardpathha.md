@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhExpandWildCardPathHA
  - pdh/PdhExpandWildCardPathHA
+ - PdhExpandWildCardPathH
+ - pdh/PdhExpandWildCardPathH
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhExpandWildCardPathH
  - PdhExpandWildCardPathHA
- - PdhExpandWildCardPathHW
+ - PdhExpandWildCardPathH
 ---
 
 # PdhExpandWildCardPathHA function
@@ -235,3 +236,4 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>
+

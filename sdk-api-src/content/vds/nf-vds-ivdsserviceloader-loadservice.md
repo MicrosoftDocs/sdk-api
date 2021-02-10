@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceLoader.LoadService
+ - IVdsServiceLoader::LoadService
 ---
 
 # IVdsServiceLoader::LoadService
@@ -106,3 +106,4 @@ For a code example, see <a href="/windows/desktop/VDS/loading-vds">Loading VDS</
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsserviceloader">IVdsServiceLoader</a>
+

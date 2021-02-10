@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSetCollection.Clear
+ - IDataCollectorSetCollection::Clear
 ---
 
 # IDataCollectorSetCollection::Clear
@@ -65,3 +65,4 @@ Returns S_OK if successful.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-remove">IDataCollectorSetCollection::Remove</a>
+

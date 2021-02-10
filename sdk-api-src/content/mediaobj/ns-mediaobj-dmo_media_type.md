@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mediaobj.h
 api_name:
+ - _DMOMediaType
  - DMO_MEDIA_TYPE
 ---
 
@@ -188,3 +189,4 @@ This structure is identical to the DirectShow <a href="/windows/desktop/api/strm
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - ISearchManager2.CreateCatalog
+ - ISearchManager2::CreateCatalog
 ---
 
 # ISearchManager2::CreateCatalog
@@ -113,3 +113,4 @@ See the â€œManaging the Indexâ€ documentation for more info: http://msd
 ## -see-also
 
 <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchmanager2">ISearchManager2</a>
+

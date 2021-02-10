@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagPANOSE
+ - LPPANOSE
  - PANOSE
 ---
 
@@ -635,3 +637,4 @@ For Latin fonts, one of the following values.
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a>
+

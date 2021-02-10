@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSender.TSID
- - IFaxSender.get_TSID
- - IFaxSender.put_TSID
- - IFaxSender.get_TSID
- - IFaxSender.put_TSID
+ - IFaxSender::put_TSID
 ---
 
 # IFaxSender::put_TSID

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - _WMPortNumberRange
  - WM_PORT_NUMBER_RANGE
 ---
 
@@ -79,3 +80,4 @@ The <b>WM_PORT_NUMBER_RANGE</b> structure describes the range of port numbers us
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

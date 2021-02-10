@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleWriter3.Close
+ - IAppxBundleWriter3::Close
 ---
 
 # IAppxBundleWriter3::Close
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter3">IAppxBundleWriter3</a>
+

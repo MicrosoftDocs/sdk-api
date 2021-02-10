@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetUrlCacheConfigInfoA
  - winineti/GetUrlCacheConfigInfoA
+ - GetUrlCacheConfigInfo
+ - winineti/GetUrlCacheConfigInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - GetUrlCacheConfigInfo
  - GetUrlCacheConfigInfoA
- - GetUrlCacheConfigInfoW
+ - GetUrlCacheConfigInfo
 ---
 
 # GetUrlCacheConfigInfoA function
@@ -233,3 +234,4 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get
 ## -see-also
 
 <a href="/windows/desktop/api/winineti/ns-winineti-internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a>
+

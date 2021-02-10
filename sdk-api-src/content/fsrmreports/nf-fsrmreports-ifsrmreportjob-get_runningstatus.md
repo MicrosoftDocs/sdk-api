@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportJob.RunningStatus
- - IFsrmReportJob.get_RunningStatus
+ - IFsrmReportJob::get_RunningStatus
 ---
 
 # IFsrmReportJob::get_RunningStatus
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
+

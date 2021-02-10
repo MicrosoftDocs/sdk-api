@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - BeginResourceTypeControlAsUser callback
+ - PBEGIN_RESTYPECALL_AS_USER_ROUTINE
 ---
 
 # PBEGIN_RESTYPECALL_AS_USER_ROUTINE callback function
@@ -100,3 +100,4 @@ TBD
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
+

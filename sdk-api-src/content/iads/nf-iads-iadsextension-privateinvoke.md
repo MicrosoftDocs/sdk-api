@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsExtension.PrivateInvoke
+ - IADsExtension::PrivateInvoke
 ---
 
 # IADsExtension::PrivateInvoke
@@ -131,3 +131,4 @@ For more information about other return values, see  <a href="/windows/desktop/A
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">IADsExtension::PrivateGetIDsOfNames</a>
+

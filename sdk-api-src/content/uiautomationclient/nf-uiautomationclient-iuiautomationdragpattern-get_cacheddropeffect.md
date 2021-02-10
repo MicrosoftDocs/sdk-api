@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationDragPattern.CachedDropEffect
- - IUIAutomationDragPattern.get_CachedDropEffect
+ - IUIAutomationDragPattern::get_CachedDropEffect
 ---
 
 # IUIAutomationDragPattern::get_CachedDropEffect
@@ -76,3 +75,4 @@ In the source-only style of Microsoft UI Automation drag-and-drop, no elements i
 
 
 <a href="/windows/desktop/WinAuto/ui-automation-support-for-drag-and-drop">UI Automation Support for Drag-and-Drop</a>
+

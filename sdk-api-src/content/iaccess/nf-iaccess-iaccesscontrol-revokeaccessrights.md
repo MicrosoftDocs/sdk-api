@@ -42,7 +42,7 @@ api_type:
 api_location:
  - IAccess.h
 api_name:
- - IAccessControl.RevokeAccessRights
+ - IAccessControl::RevokeAccessRights
 ---
 
 # IAccessControl::RevokeAccessRights
@@ -77,3 +77,4 @@ Even after removing explicit entries, the trustees might still have access entri
 ## -see-also
 
 <a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
+

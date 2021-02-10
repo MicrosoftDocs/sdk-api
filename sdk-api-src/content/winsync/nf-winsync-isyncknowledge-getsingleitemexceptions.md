@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge.GetSingleItemExceptions
+ - ISyncKnowledge::GetSingleItemExceptions
 ---
 
 # ISyncKnowledge::GetSingleItemExceptions
@@ -119,3 +119,4 @@ Be aware that there is no single representation of knowledge. Equivalent knowled
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

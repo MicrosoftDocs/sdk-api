@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ICivicAddressReport.GetAddressLine1
+ - ICivicAddressReport::GetAddressLine1
 ---
 
 # ICivicAddressReport::GetAddressLine1
@@ -68,3 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-icivicaddressreport">ICivicAddressReport</a>
+

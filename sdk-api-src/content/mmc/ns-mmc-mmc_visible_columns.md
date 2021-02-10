@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_VISIBLE_COLUMNS
  - MMC_VISIBLE_COLUMNS
 ---
 
@@ -82,3 +83,4 @@ The order of visible columns may be different than the order of insertion by the
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
+

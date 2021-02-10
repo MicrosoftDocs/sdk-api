@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxgi1_5.h
 api_name:
+ - _DXGI_OFFER_RESOURCE_FLAGS
  - DXGI_OFFER_RESOURCE_FLAGS
 ---
 
@@ -63,3 +64,4 @@ Indicates the ability to allow memory de-commit by the DirectX Graphics Kernel.
 ## -see-also
 
 <a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
+

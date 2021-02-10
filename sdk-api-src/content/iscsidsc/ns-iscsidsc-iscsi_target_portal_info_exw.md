@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - ISCSI_TARGET_PORTAL_INFO_EX
- - ISCSI_TARGET_PORTAL_INFO_EXA
+ - PISCSI_TARGET_PORTAL_INFO_EXW
  - ISCSI_TARGET_PORTAL_INFO_EXW
 ---
 
@@ -175,3 +174,4 @@ A pointer to an <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscs
 
 > [!NOTE]
 > The iscsidsc.h header defines ISCSI_TARGET_PORTAL_INFO_EX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.SaveAsXML
+ - IVssBackupComponents::SaveAsXML
 ---
 
 # IVssBackupComponents::SaveAsXML
@@ -169,3 +169,4 @@ However,
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
+

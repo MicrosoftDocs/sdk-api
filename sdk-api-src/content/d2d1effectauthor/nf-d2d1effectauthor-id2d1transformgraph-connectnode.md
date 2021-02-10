@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1TransformGraph.ConnectNode
+ - ID2D1TransformGraph::ConnectNode
 ---
 
 # ID2D1TransformGraph::ConnectNode
@@ -101,3 +101,4 @@ Both nodes must already exist in the graph; otherwise, the call fails with <b>D2
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
+

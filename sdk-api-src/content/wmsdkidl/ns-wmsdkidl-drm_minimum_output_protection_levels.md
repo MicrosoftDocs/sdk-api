@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wmsdkidl.h
 api_name:
+ - __tagDRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
  - DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
 ---
 
@@ -83,3 +84,4 @@ This structure is used as a member of the <a href="/previous-versions/windows/de
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

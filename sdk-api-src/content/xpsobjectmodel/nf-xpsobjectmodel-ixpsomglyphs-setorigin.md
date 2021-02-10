@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.SetOrigin
+ - IXpsOMGlyphs::SetOrigin
 ---
 
 # IXpsOMGlyphs::SetOrigin
@@ -121,3 +121,4 @@ In the units of the effective coordinate space, the origin specifies the x and y
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+

@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest3.GetDispositionMessage
- - ICertRequest2.GetDispositionMessage
- - ICertRequest.GetDispositionMessage
- - CCertRequest.GetDispositionMessage
+ - ICertRequest::GetDispositionMessage
 ---
 
 # ICertRequest::GetDispositionMessage
@@ -134,3 +131,4 @@ error:
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
+

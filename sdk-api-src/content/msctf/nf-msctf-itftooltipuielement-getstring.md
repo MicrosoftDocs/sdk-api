@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfToolTipUIElement.GetString
+ - ITfToolTipUIElement::GetString
 ---
 
 # ITfToolTipUIElement::GetString

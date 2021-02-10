@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.get_FullScreenMode
+ - IVideoWindow::get_FullScreenMode
 ---
 
 # IVideoWindow::get_FullScreenMode
@@ -129,3 +129,4 @@ When the Filter Graph Manager is switching to full-screen mode, it calls this me
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_fullscreenmode">IVideoWindow::put_FullScreenMode</a>
+

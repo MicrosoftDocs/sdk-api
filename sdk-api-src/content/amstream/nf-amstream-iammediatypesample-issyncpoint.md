@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample.IsSyncPoint
+ - IAMMediaTypeSample::IsSyncPoint
 ---
 
 # IAMMediaTypeSample::IsSyncPoint
@@ -64,3 +64,4 @@ Returns S_OK if the beginning of the sample is a synchronization point, or S_FAL
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
+

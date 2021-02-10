@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - INamedPropertyBag.ReadPropertyNPB
+ - INamedPropertyBag::ReadPropertyNPB
 ---
 
 # INamedPropertyBag::ReadPropertyNPB
@@ -77,3 +77,4 @@ The address of a <b>VARIANT</b> that, when this method returns successfully, rec
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

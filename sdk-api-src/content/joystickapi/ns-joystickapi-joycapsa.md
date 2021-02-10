@@ -46,9 +46,9 @@ api_type:
 api_location:
  - joystickapi.h
 api_name:
- - JOYCAPS
+ - tagJOYCAPSA
+ - PJOYCAPSA
  - JOYCAPSA
- - JOYCAPSW
 ---
 
 # JOYCAPSA structure
@@ -207,3 +207,4 @@ Multimedia Joystick Structures
 
 > [!NOTE]
 > The joystickapi.h header defines JOYCAPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

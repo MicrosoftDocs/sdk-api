@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetTrusteeNameA
  - aclapi/GetTrusteeNameA
+ - GetTrusteeName
+ - aclapi/GetTrusteeName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Advapi32.dll
 api_name:
- - GetTrusteeName
  - GetTrusteeNameA
- - GetTrusteeNameW
+ - GetTrusteeName
 ---
 
 # GetTrusteeNameA function
@@ -93,3 +94,4 @@ The <b>GetTrusteeName</b> function does not allocate any memory.
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
+

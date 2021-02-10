@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_DOC_CTXT
+ - PCRYPT_XML_DOC_CTXT
  - CRYPT_XML_DOC_CTXT
 ---
 
@@ -77,3 +79,4 @@ The number of elements in the array pointed to by the <b>rgpSignature</b> member
 ### -field rgpSignature
 
 A pointer to an array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structures that contain XML signature information.
+

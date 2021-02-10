@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsAccessControlList.AddAce
+ - IADsAccessControlList::AddAce
 ---
 
 # IADsAccessControlList::AddAce
@@ -222,3 +222,4 @@ IADsAccessControlEntry *createAce(
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>
+

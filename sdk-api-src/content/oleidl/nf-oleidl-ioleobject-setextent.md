@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.SetExtent
+ - IOleObject::SetExtent
 ---
 
 # IOleObject::SetExtent
@@ -126,3 +126,4 @@ If an object's size is fixed, that is, if it cannot be set by its container, <b>
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">IViewObject2::GetExtent</a>
+

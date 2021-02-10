@@ -45,6 +45,7 @@ api_location:
  - ResApi.h
 api_name:
  - CLRES_V3_FUNCTIONS
+ - PCLRES_V3_FUNCTIONS
 ---
 
 # CLRES_V3_FUNCTIONS structure
@@ -126,3 +127,4 @@ Not supported starting with Windows Server 2016.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
+

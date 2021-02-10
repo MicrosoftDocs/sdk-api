@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportMulticastSessionPolicy.SlowClientHandling
- - IWdsTransportMulticastSessionPolicy.get_SlowClientHandling
- - IWdsTransportMulticastSessionPolicy.put_SlowClientHandling
+ - IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
 ---
 
 # IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportmulticastsessionpolicy">IWdsTransportMulticastSessionPolicy</a>
+

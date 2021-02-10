@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegCopyTreeW
  - winreg/RegCopyTreeW
+ - RegCopyTree
+ - winreg/RegCopyTree
 dev_langs:
  - c++
 topic_type:
@@ -51,9 +53,8 @@ api_location:
  - api-ms-win-core-registry-l1-1-1.dll
  - api-ms-win-core-registry-l2-2-0.dll
 api_name:
- - RegCopyTree
- - RegCopyTreeA
  - RegCopyTreeW
+ - RegCopyTree
 ---
 
 # RegCopyTreeW function
@@ -116,3 +117,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 ## -see-also
 
 <a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
+

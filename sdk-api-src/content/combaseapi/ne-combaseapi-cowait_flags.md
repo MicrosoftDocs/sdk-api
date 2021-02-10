@@ -44,6 +44,7 @@ api_type:
 api_location:
  - combaseapi.h
 api_name:
+ - tagCOWAIT_FLAGS
  - COWAIT_FLAGS
 ---
 
@@ -91,3 +92,4 @@ Enables dispatch of window messages from <a href="/windows/desktop/api/combaseap
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-isynchronizecontainer-waitmultiple">ISynchronizeContainer::WaitMultiple</a>
+

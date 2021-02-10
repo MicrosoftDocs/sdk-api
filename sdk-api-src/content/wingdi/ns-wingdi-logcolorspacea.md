@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - LOGCOLORSPACE
+ - tagLOGCOLORSPACEA
+ - LPLOGCOLORSPACEA
+ - LOGCOLORSPACEA
 ---
 
 # LOGCOLORSPACEA structure
@@ -197,3 +199,4 @@ If the lcsCSType member is set to LCS_sRGB or LCS_WINDOWS_COLOR_SPACE, the other
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+

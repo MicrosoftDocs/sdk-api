@@ -46,6 +46,8 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - _AMCOPPStatusOutput
+ - LPAMCOPPStatusOutput
  - AMCOPPStatusOutput
 ---
 
@@ -77,3 +79,4 @@ Buffer that contains the result of the status request.
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
+

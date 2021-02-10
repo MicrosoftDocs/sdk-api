@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsync.h
 api_name:
- - IDataRetrieverCallback.LoadChangeDataError
+ - IDataRetrieverCallback::LoadChangeDataError
 ---
 
 # IDataRetrieverCallback::LoadChangeDataError
@@ -83,3 +83,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-idataretrievercallback">IDataRetrieverCallback Interface</a>
+

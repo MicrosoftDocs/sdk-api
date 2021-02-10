@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
+ - IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
 ---
 
 # IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
@@ -69,3 +69,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariablecurvechangehandler2">IUIAnimationVariableCurveChangeHandler2</a>
+

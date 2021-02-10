@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IStreamConcatenate.Append
+ - IStreamConcatenate::Append
 ---
 
 # IStreamConcatenate::Append
@@ -95,3 +95,4 @@ To append more than one stream to this stream, call the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">IStreamConcatenate::Append2</a>
+

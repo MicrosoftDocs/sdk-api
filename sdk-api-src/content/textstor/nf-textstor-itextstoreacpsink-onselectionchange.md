@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACPSink.OnSelectionChange
+ - ITextStoreACPSink::OnSelectionChange
 ---
 
 # ITextStoreACPSink::OnSelectionChange
@@ -115,3 +115,4 @@ When calling this method, the application must be able to grant a <a href="/wind
 
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
+

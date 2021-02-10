@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.GetParentItem
- - IConsoleNameSpace2.GetParentItem
+ - IConsoleNameSpace::GetParentItem
 ---
 
 # IConsoleNameSpace::GetParentItem
@@ -82,3 +81,4 @@ If the given item has no parent, <b>NULL</b> is returned.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
+

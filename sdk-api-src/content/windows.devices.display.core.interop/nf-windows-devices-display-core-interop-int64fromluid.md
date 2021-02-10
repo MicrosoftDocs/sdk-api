@@ -35,7 +35,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - interop::Int64FromLuid
+ - Int64FromLuid
 f1_keywords:
  - Int64FromLuid
  - windows.devices.display.core.interop/Int64FromLuid

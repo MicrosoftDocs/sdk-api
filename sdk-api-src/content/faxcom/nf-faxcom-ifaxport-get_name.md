@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort.Name
- - IFaxPort.get_Name
+ - IFaxPort::get_Name
 ---
 
 # IFaxPort::get_Name
@@ -84,3 +83,4 @@ name. Use the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxport-get
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext.SetTarget
+ - ID2D1DeviceContext::SetTarget
 ---
 
 # ID2D1DeviceContext::SetTarget
@@ -155,3 +155,4 @@ If the bitmap and the device context are not in the same resource domain, the co
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-gettarget">ID2D1DeviceContext::GetTarget</a>
+

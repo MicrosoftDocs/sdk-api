@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPTranscodePolicy.allowTranscode
+ - IWMPTranscodePolicy::allowTranscode
 ---
 
 # IWMPTranscodePolicy::allowTranscode
@@ -86,3 +86,4 @@ If the format used by a digital media file is not supported, Windows Media Playe
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmptranscodepolicy">IWMPTranscodePolicy Interface</a>
+

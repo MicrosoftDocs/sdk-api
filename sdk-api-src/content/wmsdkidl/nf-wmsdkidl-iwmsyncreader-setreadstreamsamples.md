@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.SetReadStreamSamples
+ - IWMSyncReader::SetReadStreamSamples
 ---
 
 # IWMSyncReader::SetReadStreamSamples
@@ -131,3 +131,4 @@ You can call <b>SetReadStreamSamples</b> at any time after a file has been loade
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getreadstreamsamples">IWMSyncReader::GetReadStreamSamples</a>
+

@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionResult.TopConfidence
- - IInkRecognitionResult.get_TopConfidence
- - IInkRecognitionResult.get_TopConfidence
+ - IInkRecognitionResult::get_TopConfidence
 ---
 
 # IInkRecognitionResult::get_TopConfidence
@@ -83,3 +81,4 @@ Of the Microsoft <b>recognizers</b>, only the Microsoft English (US) Handwriting
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate">TopAlternate Property</a>
+

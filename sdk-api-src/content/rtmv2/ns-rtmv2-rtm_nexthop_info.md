@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
+ - _RTM_NEXTHOP_INFO
+ - PRTM_NEXTHOP_INFO
  - RTM_NEXTHOP_INFO
 ---
 
@@ -176,3 +178,4 @@ Handle to the destination with the indirect next-hop address. This member is onl
 
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthopinfo">RtmReleaseNextHopInfo</a>
+

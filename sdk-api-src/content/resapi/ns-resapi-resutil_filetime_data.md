@@ -45,6 +45,7 @@ api_location:
  - ResApi.h
 api_name:
  - RESUTIL_FILETIME_DATA
+ - PRESUTIL_FILETIME_DATA
 ---
 
 # RESUTIL_FILETIME_DATA structure

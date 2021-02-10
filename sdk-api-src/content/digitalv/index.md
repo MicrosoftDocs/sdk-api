@@ -9,6 +9,8 @@ tech.root: multimedia
 f1_keywords:
  - digitalv
  - digitalv/digitalv
+api_name:
+ - digitalv
 ---
 
 # Digitalv.h header

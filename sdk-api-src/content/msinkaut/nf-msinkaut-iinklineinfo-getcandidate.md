@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkLineInfo.GetCandidate
+ - IInkLineInfo::GetCandidate
 ---
 
 # IInkLineInfo::GetCandidate
@@ -128,3 +128,4 @@ If the <i>pwcRecogWord</i> buffer is not large enough to contain the recognition
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate">SetCandidate Method</a>
+

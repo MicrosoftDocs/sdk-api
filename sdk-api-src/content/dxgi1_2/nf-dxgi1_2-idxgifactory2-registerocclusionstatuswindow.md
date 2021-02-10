@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2.RegisterOcclusionStatusWindow
+ - IDXGIFactory2::RegisterOcclusionStatusWindow
 ---
 
 # IDXGIFactory2::RegisterOcclusionStatusWindow
@@ -88,3 +88,4 @@ Apps choose the Windows message that Windows sends when occlusion status changes
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
+

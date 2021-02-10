@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegCreateKeyTransactedW
  - winreg/RegCreateKeyTransactedW
+ - RegCreateKeyTransacted
+ - winreg/RegCreateKeyTransacted
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegCreateKeyTransacted
- - RegCreateKeyTransactedA
  - RegCreateKeyTransactedW
+ - RegCreateKeyTransacted
 ---
 
 # RegCreateKeyTransactedW function
@@ -271,3 +272,4 @@ An application cannot create a key that is a direct child of <b>HKEY_USERS</b> o
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+

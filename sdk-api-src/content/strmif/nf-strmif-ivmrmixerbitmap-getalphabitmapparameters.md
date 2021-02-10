@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMixerBitmap.GetAlphaBitmapParameters
+ - IVMRMixerBitmap::GetAlphaBitmapParameters
 ---
 
 # IVMRMixerBitmap::GetAlphaBitmapParameters
@@ -111,3 +111,4 @@ The mixer has not been loaded.
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>
+

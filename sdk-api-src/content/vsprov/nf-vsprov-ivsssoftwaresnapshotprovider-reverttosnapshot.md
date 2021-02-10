@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.RevertToSnapshot
+ - IVssSoftwareSnapshotProvider::RevertToSnapshot
 ---
 
 # IVssSoftwareSnapshotProvider::RevertToSnapshot
@@ -132,3 +132,4 @@ This operation cannot be canceled, or undone once completed. If the computer is 
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
+

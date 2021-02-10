@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertificatePolicy.PolicyQualifiers
- - ICertificatePolicy.get_PolicyQualifiers
+ - ICertificatePolicy::get_PolicyQualifiers
 ---
 
 # ICertificatePolicy::get_PolicyQualifiers
@@ -68,3 +67,4 @@ An empty <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineExtension.BeginCreateObject
+ - IMFMediaEngineExtension::BeginCreateObject
 ---
 
 # IMFMediaEngineExtension::BeginCreateObject
@@ -157,3 +157,4 @@ If the <b>BeginCreateObject</b> method succeeds, the operation should be perform
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension">IMFMediaEngineExtension</a>
+

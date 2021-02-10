@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumDateFormatsW
  - winnls/EnumDateFormatsW
+ - EnumDateFormats
+ - winnls/EnumDateFormats
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - EnumDateFormats
- - EnumDateFormatsA
  - EnumDateFormatsW
+ - EnumDateFormats
 ---
 
 # EnumDateFormatsW function
@@ -137,3 +138,4 @@ For details of operation of this function, see Remarks in <a href="/windows/desk
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

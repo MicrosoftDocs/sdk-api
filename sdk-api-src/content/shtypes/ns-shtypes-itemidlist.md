@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shtypes.h
 api_name:
+ - _ITEMIDLIST
  - ITEMIDLIST
 ---
 
@@ -106,3 +107,4 @@ Some examples of these modified types are:
 <li>PUITEMID_CHILD: The child <b>ITEMIDLIST</b> is unaligned. This is rarely used because memory for this <b>ITEMIDLIST</b> is owned by the parent PIDL, which is absolute. This means that modifications can be made only to the parent PIDL, and so the child PIDL would need to be constant.</li>
 </ul>
 This list is not exhaustive. Other types can also exist.
+

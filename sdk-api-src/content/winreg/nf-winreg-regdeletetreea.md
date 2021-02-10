@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegDeleteTreeA
  - winreg/RegDeleteTreeA
+ - RegDeleteTree
+ - winreg/RegDeleteTree
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - api-ms-win-core-registry-l1-1-1.dll
  - kernel32.dll
 api_name:
- - RegDeleteTree
  - RegDeleteTreeA
- - RegDeleteTreeW
+ - RegDeleteTree
 ---
 
 # RegDeleteTreeA function
@@ -117,3 +118,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
+

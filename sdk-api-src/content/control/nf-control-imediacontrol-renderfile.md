@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaControl.RenderFile
+ - IMediaControl::RenderFile
 ---
 
 # IMediaControl::RenderFile
@@ -70,3 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.AddRecord
+ - IMFASFMutualExclusion::AddRecord
 ---
 
 # IMFASFMutualExclusion::AddRecord
@@ -98,3 +98,4 @@ You can use records to create complex mutual exclusion scenarios by using multip
 
 
 <a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
+

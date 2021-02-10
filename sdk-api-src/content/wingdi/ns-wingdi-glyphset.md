@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagGLYPHSET
+ - PGLYPHSET
  - GLYPHSET
 ---
 
@@ -104,3 +106,4 @@ Array of Unicode ranges that are supported in the font.
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-wcrange">WCRANGE</a>
+

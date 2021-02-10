@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_CIPHER_TRANSFORM_ID0_
  - IPSEC_CIPHER_TRANSFORM_ID0
 ---
 
@@ -186,3 +187,4 @@ GCM (Galois Counter Mode) mode of operation.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

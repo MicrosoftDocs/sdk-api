@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPort.IpVersion
- - INetFwOpenPort.get_IpVersion
- - INetFwOpenPort.put_IpVersion
+ - INetFwOpenPort::get_IpVersion
 ---
 
 # INetFwOpenPort::get_IpVersion
@@ -72,3 +70,4 @@ Only <b>NET_FW_IP_VERSION_ANY</b> is supported and this is the default for new p
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_version">NET_FW_IP_VERSION</a>
+

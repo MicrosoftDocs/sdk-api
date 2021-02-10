@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat.Clone
+ - StringFormat::Clone
 ---
 
 # StringFormat::Clone
@@ -71,3 +71,4 @@ This method returns a pointer to the new
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
+

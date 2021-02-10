@@ -9,6 +9,8 @@ tech.root: netvista
 f1_keywords:
  - fwpstypes
  - fwpstypes/fwpstypes
+api_name:
+ - fwpstypes
 ---
 
 # Fwpstypes.h header

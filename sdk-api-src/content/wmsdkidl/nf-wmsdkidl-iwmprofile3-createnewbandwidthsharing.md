@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3.CreateNewBandwidthSharing
+ - IWMProfile3::CreateNewBandwidthSharing
 ---
 
 # IWMProfile3::CreateNewBandwidthSharing
@@ -126,3 +126,4 @@ You must configure the bandwidth sharing object before you use <b>AddBandwidthSh
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-addbandwidthsharing">IWMProfile3::AddBandwidthSharing</a>
+

@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSyncProgress.SyncItemBegin
+ - IOfflineFilesSyncProgress::SyncItemBegin
 ---
 
 # IOfflineFilesSyncProgress::SyncItemBegin
@@ -70,3 +70,4 @@ The return value is ignored.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
+

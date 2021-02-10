@@ -42,7 +42,7 @@ api_type:
 api_location:
  - storageprovider.h
 api_name:
- - IStorageProviderHandler.GetPropertyHandlerFromUri
+ - IStorageProviderHandler::GetPropertyHandlerFromUri
 ---
 
 # IStorageProviderHandler::GetPropertyHandlerFromUri
@@ -73,3 +73,4 @@ This method is used to convert a remote URI to a local file system path. That pa
 ## -see-also
 
 <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler">IStorageProviderHandler</a>
+

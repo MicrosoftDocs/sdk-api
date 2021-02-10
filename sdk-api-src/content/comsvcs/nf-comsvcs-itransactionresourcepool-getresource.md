@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionResourcePool.GetResource
+ - ITransactionResourcePool::GetResource
 ---
 
 # ITransactionResourcePool::GetResource
@@ -104,3 +104,4 @@ The <i>pPool</i> parameter did not match any object on the list of pooled object
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>
+

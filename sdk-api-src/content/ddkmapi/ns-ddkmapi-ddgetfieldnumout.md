@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDGETFIELDNUMOUT
+ - LPDDGETFIELDNUMOUT
  - DDGETFIELDNUMOUT
 ---
 
@@ -73,3 +75,4 @@ Specifies the hardware video port's field number.
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

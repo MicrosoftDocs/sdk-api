@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _LSA_FOREST_TRUST_COLLISION_INFORMATION
+ - PLSA_FOREST_TRUST_COLLISION_INFORMATION
  - LSA_FOREST_TRUST_COLLISION_INFORMATION
 ---
 
@@ -69,3 +71,4 @@ Pointer to a pointer to an array of <a href="/windows/win32/api/ntsecapi/ns-ntse
 ### -field Entries.size_is
 
 ### -field Entries.size_is.RecordCount
+

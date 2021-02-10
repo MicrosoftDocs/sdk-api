@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLink.SetIDList
- - IShellLinkA.SetIDList
- - IShellLinkW.SetIDList
+ - IShellLinkA::SetIDList
 ---
 
 # IShellLinkA::SetIDList

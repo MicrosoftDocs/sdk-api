@@ -42,8 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRunningTaskCollection.Count
- - IRunningTaskCollection.get_Count
+ - IRunningTaskCollection::get_Count
 ---
 
 # IRunningTaskCollection::get_Count
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a>
+

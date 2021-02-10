@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMLicenseBackup.BackupLicenses
+ - IWMLicenseBackup::BackupLicenses
 ---
 
 # IWMLicenseBackup::BackupLicenses
@@ -139,3 +139,4 @@ This method operates asynchronously, and an <b>IWMStatusCallback</b> object can 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferRecordingControl.get_RecordingStarted
+ - IMSVidStreamBufferRecordingControl::get_RecordingStarted
 ---
 
 # IMSVidStreamBufferRecordingControl::get_RecordingStarted
@@ -100,3 +100,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferrecordingcontrol">IMSVidStreamBufferRecordingControl Interface</a>
+

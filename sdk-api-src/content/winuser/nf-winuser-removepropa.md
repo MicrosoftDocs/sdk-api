@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - RemovePropA
  - winuser/RemovePropA
+ - RemoveProp
+ - winuser/RemoveProp
 dev_langs:
  - c++
 topic_type:
@@ -52,10 +55,8 @@ api_location:
  - ext-ms-win-ntuser-window-l1-1-3.dll
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - RemoveProp
  - RemovePropA
- - RemovePropW
-req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
+ - RemoveProp
 ---
 
 # RemovePropA function
@@ -129,3 +130,4 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-properties">De
 
 
 <a href="/windows/desktop/winmsg/window-properties">Window Properties</a>
+

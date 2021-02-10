@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CLASS_MEDIA_CHANGE_CONTEXT
+ - PCLASS_MEDIA_CHANGE_CONTEXT
  - CLASS_MEDIA_CHANGE_CONTEXT
 ---
 
@@ -89,3 +91,4 @@ The state information. This member can be one of the following values from the
 
 
 <a href="/windows/desktop/DevIO/dbt-deviceremovecomplete">DBT_DEVICEREMOVECOMPLETE</a>
+

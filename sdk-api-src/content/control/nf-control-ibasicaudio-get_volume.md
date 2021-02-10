@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicAudio.get_Volume
+ - IBasicAudio::get_Volume
 ---
 
 # IBasicAudio::get_Volume
@@ -110,3 +110,4 @@ Success.
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>
+

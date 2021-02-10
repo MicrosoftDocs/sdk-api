@@ -47,7 +47,9 @@ api_location:
  - Inaddr.h
  - Ipexport.h
 api_name:
- - IPAddr
+ - in_addr
+ - PIN_ADDR
+ - IN_ADDR
 ---
 
 # IN_ADDR structure
@@ -131,3 +133,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr(Winsock)</a>
+

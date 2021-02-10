@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - ExtractIconExW
  - shellapi/ExtractIconExW
+ - ExtractIconEx
+ - shellapi/ExtractIconEx
 dev_langs:
  - c++
 topic_type:
@@ -44,10 +47,8 @@ api_location:
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - ExtractIconEx
- - ExtractIconExA
  - ExtractIconExW
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
+ - ExtractIconEx
 ---
 
 # ExtractIconExW function
@@ -130,3 +131,4 @@ To retrieve the dimensions of the large and small icons, use this function with 
 
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
+

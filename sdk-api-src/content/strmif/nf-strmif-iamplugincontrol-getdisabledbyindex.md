@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMPluginControl.GetDisabledByIndex
+ - IAMPluginControl::GetDisabledByIndex
 ---
 
 # IAMPluginControl::GetDisabledByIndex
@@ -103,3 +103,4 @@ The <i>index</i> parameter is out of range.
 
 
 <a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
+

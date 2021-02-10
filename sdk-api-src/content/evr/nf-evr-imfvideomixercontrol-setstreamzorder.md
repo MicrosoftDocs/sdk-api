@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoMixerControl.SetStreamZOrder
+ - IMFVideoMixerControl::SetStreamZOrder
 ---
 
 # IMFVideoMixerControl::SetStreamZOrder
@@ -129,3 +129,4 @@ The EVR draws the video streams in the order of their z-order values, starting w
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>
+

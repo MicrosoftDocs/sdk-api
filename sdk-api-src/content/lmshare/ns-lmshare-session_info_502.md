@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
+ - _SESSION_INFO_502
+ - PSESSION_INFO_502
  - SESSION_INFO_502
 ---
 
@@ -186,3 +188,4 @@ Specifies the name of the transport that the client is using to communicate with
 
 
 <a href="/windows/desktop/NetShare/session-functions">Session Functions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynthSink.Activate
+ - IDirectMusicSynthSink::Activate
 ---
 
 # IDirectMusicSynthSink::Activate
@@ -137,3 +137,4 @@ For more information, see the description of the <b>IDirectMusic</b> interface i
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a>
+

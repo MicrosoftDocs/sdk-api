@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls.get_currentPositionString
+ - IWMPControls::get_currentPositionString
 ---
 
 # IWMPControls::get_currentPositionString
@@ -91,3 +91,4 @@ If the media item is less than an hour long, the current position is formatted a
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentposition">IWMPControls::get_currentPosition</a>
+

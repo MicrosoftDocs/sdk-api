@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.LegacyCsp
- - IX509PrivateKey.get_LegacyCsp
- - IX509PrivateKey.put_LegacyCsp
+ - IX509PrivateKey::put_LegacyCsp
 ---
 
 # IX509PrivateKey::put_LegacyCsp
@@ -89,3 +87,4 @@ Because  a previously specified <a href="/windows/desktop/api/certenroll/nf-cert
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

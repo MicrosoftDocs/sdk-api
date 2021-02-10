@@ -46,6 +46,8 @@ api_type:
 api_location:
  - vidcap.h
 api_name:
+ - __MIDL___MIDL_itf_vidcap_0000_0000_0001
+ - PKSTOPOLOGY_CONNECTION
  - KSTOPOLOGY_CONNECTION
 ---
 
@@ -84,3 +86,4 @@ If the value of the <b>ToNode</b> field is KSFILTER_NODE, this field specifies t
 
 
 <a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo">IKsTopologyInfo::get_ConnectionInfo</a>
+

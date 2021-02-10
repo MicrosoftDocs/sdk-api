@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin.EndOfStream
+ - IPin::EndOfStream
 ---
 
 # IPin::EndOfStream
@@ -109,3 +109,4 @@ This method sends an end-of-stream notification to the pin. The pin delivers the
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
+

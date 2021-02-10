@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo.SetAlignment
+ - ICreateTypeInfo::SetAlignment
 ---
 
 # ICreateTypeInfo::SetAlignment
@@ -136,3 +136,4 @@ The alignment is the minimum of the natural alignment (for example, byte data on
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent2.RateChange
+ - IMSVidStreamBufferSourceEvent2::RateChange
 ---
 
 # IMSVidStreamBufferSourceEvent2::RateChange
@@ -96,3 +96,4 @@ For both parameters, 1.0 represents normal speed. Fractional values are allowed.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent2">IMSVidStreamBufferSourceEvent2 Interface</a>
+

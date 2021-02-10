@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnEventLoggingConfigChange
- - IFaxServerNotify2.OnEventLoggingConfigChange
+ - _IFaxServerNotify2::OnEventLoggingConfigChange
 ---
 
 # _IFaxServerNotify2::OnEventLoggingConfigChange
@@ -74,3 +73,4 @@ To implement this functionality in Visual Basic, select and implement the approp
 ## -see-also
 
 <a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+

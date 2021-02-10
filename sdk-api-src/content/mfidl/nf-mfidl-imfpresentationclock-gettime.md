@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationClock.GetTime
+ - IMFPresentationClock::GetTime
 ---
 
 # IMFPresentationClock::GetTime
@@ -109,3 +109,4 @@ This method does not attempt to smooth out jitter or otherwise account for any i
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

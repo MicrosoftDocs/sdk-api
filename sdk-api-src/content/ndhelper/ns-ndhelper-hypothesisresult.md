@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
+ - tagHypothesisResult
  - HypothesisResult
 ---
 
@@ -85,3 +86,4 @@ If the hypothesis or any of its children indicated <b>DS_CONFIRMED</b> in a call
 
 
 <a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth">LowHealth</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_Interface_AliasW
  - cfgmgr32/CM_Get_Device_Interface_AliasW
+ - CM_Get_Device_Interface_Alias
+ - cfgmgr32/CM_Get_Device_Interface_Alias
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Get_Device_Interface_Alias
  - CM_Get_Device_Interface_AliasW
+ - CM_Get_Device_Interface_Alias
 ---
 
 # CM_Get_Device_Interface_AliasW function
@@ -133,3 +135,4 @@ The <i>pszDeviceInterface</i> parameter specifies a device interface instance fo
 For example, the function driver for a fault-tolerant volume could register and set two device interfaces, one of the fault-tolerant-volume interface class and one of the volume interface class. Another driver could call <b>CM_Get_Device_Interface_Alias</b> with the symbolic link for one of the interfaces and ask whether the other interface exists by specifying its interface class.
 
 Two device interfaces with <b>NULL</b> reference strings are aliases if they are exposed by the same underlying device and have different interface class GUIDs.
+

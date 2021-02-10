@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.QueryLuns
+ - IVdsSubSystem::QueryLuns
 ---
 
 # IVdsSubSystem::QueryLuns
@@ -166,3 +166,4 @@ If this method is called in two separate threads that are running simultaneously
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
+

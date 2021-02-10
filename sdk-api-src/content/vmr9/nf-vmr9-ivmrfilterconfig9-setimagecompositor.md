@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRFilterConfig9.SetImageCompositor
+ - IVMRFilterConfig9::SetImageCompositor
 ---
 
 # IVMRFilterConfig9::SetImageCompositor
@@ -127,3 +127,4 @@ before the compositor can be specified. The VMR manages all reference counting o
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

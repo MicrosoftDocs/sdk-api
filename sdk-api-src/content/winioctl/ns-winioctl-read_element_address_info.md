@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _READ_ELEMENT_ADDRESS_INFO
+ - PREAD_ELEMENT_ADDRESS_INFO
  - READ_ELEMENT_ADDRESS_INFO
 ---
 
@@ -86,3 +88,4 @@ An array of
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>
+

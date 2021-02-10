@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.ElementFromIAccessible
+ - IUIAutomation::ElementFromIAccessible
 ---
 
 # IUIAutomation::ElementFromIAccessible
@@ -93,3 +93,4 @@ The method returns E_INVALIDARG if the underlying implementation of the Microsof
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromhandlebuildcache">IUIAutomation::ElementFromHandleBuildCache</a>
+

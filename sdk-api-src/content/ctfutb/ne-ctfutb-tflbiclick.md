@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ctfutb.h
 api_name:
+ - __MIDL___MIDL_itf_ctfutb_0000_0010_0001
  - TfLBIClick
 ---
 
@@ -83,3 +84,4 @@ The user left-clicked the button.
 
 <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onclick">ITfLangBarItemButton::OnClick
       </a>
+

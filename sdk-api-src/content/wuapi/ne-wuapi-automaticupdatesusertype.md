@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
+ - tagAutomaticUpdatesUserType
  - AutomaticUpdatesUserType
 ---
 
@@ -67,3 +68,4 @@ Any administrator on the local computer.
 ## -remarks
 
 The AutomaticUpdatesUserType is used in conjunction with the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-checkpermission">IAutomaticUpdatesSettings2::CheckPermission</a> method.
+

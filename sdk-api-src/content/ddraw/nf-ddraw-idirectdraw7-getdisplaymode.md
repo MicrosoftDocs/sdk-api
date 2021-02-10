@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: bd31efc8-17c4-4744-a03b-a22a50c7d9c2
 ms.date: 12/05/2018
 ms.keywords: GetDisplayMode, GetDisplayMode method [DirectDraw], GetDisplayMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetDisplayMode method, IDirectDraw7.GetDisplayMode, IDirectDraw7::GetDisplayMode, ddraw/IDirectDraw7::GetDisplayMode, directdraw.idirectdraw7_getdisplaymode
-f1_keywords:
-- ddraw/IDirectDraw7.GetDisplayMode
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDraw7.GetDisplayMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDraw7::GetDisplayMode
+ - ddraw/IDirectDraw7::GetDisplayMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDraw7::GetDisplayMode
 ---
 
 ## -description
@@ -75,3 +76,4 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
+

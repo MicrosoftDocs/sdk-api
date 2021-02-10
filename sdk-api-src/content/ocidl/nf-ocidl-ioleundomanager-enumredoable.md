@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager.EnumRedoable
+ - IOleUndoManager::EnumRedoable
 ---
 
 # IOleUndoManager::EnumRedoable
@@ -93,3 +93,4 @@ This method calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
+

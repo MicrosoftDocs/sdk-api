@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_HostedProvider
  - MI_HostedProvider
 ---
 
@@ -68,3 +69,4 @@ Reserved for internal use.
 
 Pointer to the <a href="/windows/desktop/api/mi/ns-mi-mi_hostedproviderft">MI_HostedProviderFT</a> function 
       table.
+

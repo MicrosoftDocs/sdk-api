@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_PHYSICAL_DEVICE_DATA
+ - PSTORAGE_PHYSICAL_DEVICE_DATA
  - STORAGE_PHYSICAL_DEVICE_DATA
 ---
 
@@ -102,3 +104,4 @@ In units of kilobytes (1024 bytes).
 Reserved for future use.
 
 ### -field Reserved
+

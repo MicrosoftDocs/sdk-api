@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
+ - _MF_SINK_WRITER_STATISTICS
  - MF_SINK_WRITER_STATISTICS
 ---
 
@@ -127,3 +128,4 @@ The average rate, in media samples per 100-nanoseconds, at which the sink writer
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

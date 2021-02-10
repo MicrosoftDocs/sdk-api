@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: f74cc859-6991-4075-a7ef-83a67de06be6
 ms.date: 12/05/2018
 ms.keywords: GetKernelHandle, GetKernelHandle method [Display Devices], GetKernelHandle method [Display Devices],IDirectDrawKernel interface, IDirectDrawKernel interface [Display Devices],GetKernelHandle method, IDirectDrawKernel.GetKernelHandle, IDirectDrawKernel::GetKernelHandle, ddfncs_5c255735-5359-481b-b6cb-3bae2d934926.xml, ddkernel/IDirectDrawKernel::GetKernelHandle, display.idirectdrawkernel_getkernelhandle
-f1_keywords:
-- ddkernel/IDirectDrawKernel.GetKernelHandle
-dev_langs:
-- c++
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Desktop
@@ -29,44 +25,37 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ddkernel.h
-api_name:
-- IDirectDrawKernel.GetKernelHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawKernel::GetKernelHandle
+ - ddkernel/IDirectDrawKernel::GetKernelHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ddkernel.h
+api_name:
+ - IDirectDrawKernel::GetKernelHandle
 ---
-
-
 
 ## -description
 
-
 The <b>IDirectDrawKernel::GetKernelHandle</b> method returns a kernel-mode handle to the DirectDraw object.
-
 
 ## -parameters
 
-
-
-
-
-
-#### -param arg1
+### -param arg1
 
 Caller-supplied pointer into which the kernel-mode handle of the DirectDraw object is returned.
 
-
 ## -returns
-
-
 
 The method must return one of the following values:
 
@@ -109,7 +98,4 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
 

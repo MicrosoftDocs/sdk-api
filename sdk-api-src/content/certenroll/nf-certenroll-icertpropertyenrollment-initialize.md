@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyEnrollment.Initialize
+ - ICertPropertyEnrollment::Initialize
 ---
 
 # ICertPropertyEnrollment::Initialize
@@ -121,3 +121,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-se
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollment">ICertPropertyEnrollment</a>
+

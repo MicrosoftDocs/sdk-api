@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureExchange.TransferComplete
+ - ISCPSecureExchange::TransferComplete
 ---
 
 # ISCPSecureExchange::TransferComplete
@@ -113,3 +113,4 @@ An unspecified error occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
+

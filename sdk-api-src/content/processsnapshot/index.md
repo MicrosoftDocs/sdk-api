@@ -9,6 +9,8 @@ tech.root: proc_snap
 f1_keywords:
  - processsnapshot
  - processsnapshot/processsnapshot
+api_name:
+ - processsnapshot
 ---
 
 # Processsnapshot.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn.get_burnPlaylist
+ - IWMPCdromBurn::get_burnPlaylist
 ---
 
 # IWMPCdromBurn::get_burnPlaylist
@@ -95,3 +95,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+

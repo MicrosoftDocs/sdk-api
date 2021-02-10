@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
- - WSANAMESPACE_INFOEX
+ - _WSANAMESPACE_INFOEXA
+ - PWSANAMESPACE_INFOEXA
  - WSANAMESPACE_INFOEXA
- - WSANAMESPACE_INFOEXW
 ---
 
 # WSANAMESPACE_INFOEXA structure
@@ -232,3 +232,4 @@ The <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a>
+

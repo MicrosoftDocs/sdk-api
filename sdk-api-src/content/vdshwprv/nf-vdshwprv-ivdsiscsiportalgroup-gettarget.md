@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiPortalGroup.GetTarget
+ - IVdsIscsiPortalGroup::GetTarget
 ---
 
 # IVdsIscsiPortalGroup::GetTarget
@@ -120,3 +120,4 @@ The portal group object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsitarget">IVdsIscsiTarget</a>
+

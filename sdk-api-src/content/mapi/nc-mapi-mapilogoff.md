@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPILogoff
+ - MAPILOGOFF
 ---
 
 # MAPILOGOFF callback function
@@ -134,3 +134,4 @@ The call succeeded and the session was terminated.
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
+

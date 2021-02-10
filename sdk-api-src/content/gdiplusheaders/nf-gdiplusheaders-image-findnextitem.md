@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.FindNextItem
+ - Image::FindNextItem
 ---
 
 # Image::FindNextItem
@@ -110,3 +110,4 @@ while(Ok == stat)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getitemdata">Image::GetItemData</a>
+

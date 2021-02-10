@@ -9,6 +9,8 @@ tech.root: display
 f1_keywords:
  - ddrawi
  - ddrawi/ddrawi
+api_name:
+ - ddrawi
 ---
 
 # Ddrawi.h header

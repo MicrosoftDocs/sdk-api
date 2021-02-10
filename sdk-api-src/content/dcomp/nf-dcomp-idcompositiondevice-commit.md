@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice.Commit
+ - IDCompositionDevice::Commit
 ---
 
 # IDCompositionDevice::Commit
@@ -76,3 +76,4 @@ For an example, see <a href="/windows/desktop/directcomp/how-to--build-a-visual-
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a>
+

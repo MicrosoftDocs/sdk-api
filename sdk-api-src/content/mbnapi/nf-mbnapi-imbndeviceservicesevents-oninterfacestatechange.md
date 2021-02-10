@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnInterfaceStateChange
+ - IMbnDeviceServicesEvents::OnInterfaceStateChange
 ---
 
 # IMbnDeviceServicesEvents::OnInterfaceStateChange
@@ -90,3 +90,4 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
+

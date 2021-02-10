@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_event_watchlist_changed_data_tag
+ - PPEER_EVENT_WATCHLIST_CHANGED_DATA
  - PEER_EVENT_WATCHLIST_CHANGED_DATA
 ---
 
@@ -83,3 +85,4 @@ The p2phost.exe service must running to receive this event. P2phost.exe is launc
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

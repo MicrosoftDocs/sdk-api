@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - QueryFullProcessImageNameW
  - winbase/QueryFullProcessImageNameW
+ - QueryFullProcessImageName
+ - winbase/QueryFullProcessImageName
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-psapi-l1-1-0.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - QueryFullProcessImageName
- - QueryFullProcessImageNameA
  - QueryFullProcessImageNameW
+ - QueryFullProcessImageName
 ---
 
 # QueryFullProcessImageNameW function
@@ -135,3 +136,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+

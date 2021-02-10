@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore.get_status
+ - IWMPCore::get_status
 ---
 
 # IWMPCore::get_status
@@ -93,3 +93,4 @@ The <b>IWMPEvents::StatusChange</b> event is fired whenever this property change
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-statuschange">IWMPEvents::StatusChange</a>
+

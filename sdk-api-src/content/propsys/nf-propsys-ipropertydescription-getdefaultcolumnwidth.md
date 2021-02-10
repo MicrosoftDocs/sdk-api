@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription.GetDefaultColumnWidth
+ - IPropertyDescription::GetDefaultColumnWidth
 ---
 
 # IPropertyDescription::GetDefaultColumnWidth
@@ -78,3 +78,4 @@ If no value is set in the .propdesc file or if the method fails, the value point
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
+

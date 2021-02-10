@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectBlendVariable.GetBackingStore
+ - ID3D10EffectBlendVariable::GetBackingStore
 ---
 
 # ID3D10EffectBlendVariable::GetBackingStore
@@ -79,3 +79,4 @@ Effect variables are saved in memory in the backing store; when a technique is a
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectblendvariable">ID3D10EffectBlendVariable Interface</a>
+

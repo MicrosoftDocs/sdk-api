@@ -9,6 +9,8 @@ tech.root: vhd
 f1_keywords:
  - virtdisk
  - virtdisk/virtdisk
+api_name:
+ - virtdisk
 ---
 
 # Virtdisk.h header

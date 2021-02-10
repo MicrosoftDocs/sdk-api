@@ -9,6 +9,8 @@ tech.root: wmi
 f1_keywords:
  - wbemtime
  - wbemtime/wbemtime
+api_name:
+ - wbemtime
 ---
 
 # Wbemtime.h header

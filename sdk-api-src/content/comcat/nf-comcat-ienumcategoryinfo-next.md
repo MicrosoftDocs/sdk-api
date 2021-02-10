@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - IEnumCATEGORYINFO.Next
+ - IEnumCATEGORYINFO::Next
 ---
 
 # IEnumCATEGORYINFO::Next
@@ -79,3 +79,4 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 <a href="/windows/desktop/api/comcat/nn-comcat-ienumcategoryinfo">IEnumCATEGORYINFO</a>
+

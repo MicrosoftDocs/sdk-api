@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineRedirectW
  - tapi/lineRedirectW
+ - lineRedirect
+ - tapi/lineRedirect
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineRedirect
- - lineRedirectA
  - lineRedirectW
+ - lineRedirect
 ---
 
 # lineRedirectW function
@@ -121,3 +122,4 @@ Besides redirecting an incoming call, an application may have the option to acce
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
+

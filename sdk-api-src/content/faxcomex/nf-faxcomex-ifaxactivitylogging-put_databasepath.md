@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxActivityLogging.DatabasePath
- - IFaxActivityLogging.get_DatabasePath
- - IFaxActivityLogging.put_DatabasePath
- - IFaxActivityLogging.get_DatabasePath
- - IFaxActivityLogging.put_DatabasePath
+ - IFaxActivityLogging::put_DatabasePath
 ---
 
 # IFaxActivityLogging::put_DatabasePath
@@ -73,3 +69,4 @@ To read or write to this property, a user must have the <a href="/previous-versi
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxactivitylogging">IFaxActivityLogging</a>
+

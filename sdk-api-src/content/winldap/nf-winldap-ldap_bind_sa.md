@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_bind_sA
  - winldap/ldap_bind_sA
+ - ldap_bind_s
+ - winldap/ldap_bind_s
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_bind_s
  - ldap_bind_sA
- - ldap_bind_sW
+ - ldap_bind_s
 ---
 
 # ldap_bind_sA function
@@ -235,3 +236,4 @@ When all of the operations on the session handle are completed, the session must
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
+

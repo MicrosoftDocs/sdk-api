@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
  - MsClus.h
 api_name:
+ - __MIDL___MIDL_itf_msclus_0000_0000_0002
  - CLUSTER_MGMT_POINT_TYPE
 ---
 
@@ -88,3 +89,4 @@ The management point type is cluster name object (CNO) only.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
+

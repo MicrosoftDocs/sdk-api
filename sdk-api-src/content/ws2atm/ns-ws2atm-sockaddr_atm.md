@@ -45,6 +45,7 @@ api_location:
  - Ws2atm.h
 api_name:
  - sockaddr_atm
+ - PSOCKADDR_ATM
 ---
 
 # sockaddr_atm structure
@@ -167,3 +168,4 @@ If
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a>
+

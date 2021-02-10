@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_X509DATA
  - CRYPT_XML_X509DATA
 ---
 
@@ -63,3 +64,4 @@ The size, in bytes, of the buffer pointed to by the <b>rgX509Data</b> member.
 ### -field rgX509Data
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_x509data_item">CRYPT_XML_X509DATA_ITEM</a> structure that contains data to encode.
+

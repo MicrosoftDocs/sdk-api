@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ndattrib.h
 api_name:
+ - __MIDL___MIDL_itf_ndattrib_0000_0000_0002
  - REPAIR_RISK
 ---
 

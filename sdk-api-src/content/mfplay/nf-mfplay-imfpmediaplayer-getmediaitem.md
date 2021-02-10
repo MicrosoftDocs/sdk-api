@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.GetMediaItem
+ - IMFPMediaPlayer::GetMediaItem
 ---
 
 # IMFPMediaPlayer::GetMediaItem
@@ -130,3 +130,4 @@ The previous remark also applies to setting the media item in the <a href="/wind
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

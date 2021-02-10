@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzClientContext3.BizRuleParameters
- - IAzClientContext3.get_BizRuleParameters
+ - IAzClientContext3::get_BizRuleParameters
 ---
 
 # IAzClientContext3::get_BizRuleParameters

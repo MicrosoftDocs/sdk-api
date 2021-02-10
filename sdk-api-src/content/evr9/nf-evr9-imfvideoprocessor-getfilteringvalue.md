@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoProcessor.GetFilteringValue
+ - IMFVideoProcessor::GetFilteringValue
 ---
 
 # IMFVideoProcessor::GetFilteringValue
@@ -122,3 +122,4 @@ To find out which image filters the driver supports, call <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
+

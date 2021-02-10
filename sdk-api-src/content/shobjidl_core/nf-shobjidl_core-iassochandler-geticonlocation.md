@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IAssocHandler.GetIconLocation
+ - IAssocHandler::GetIconLocation
 ---
 
 # IAssocHandler::GetIconLocation
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 If the icon cannot be found, the function will return the path to the executable, and an icon index of zero.
 
 For performance reasons, an application may use the Shell image cache to retrieve the icon, rather than loading the icon directly from the path returned.  The path and icon index can be passed directly to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_getcachedimageindexa">Shell_GetCachedImageIndex</a>. One benefit of this is that the Shell cache can provide a default icon in the event that no icon was available for the application.
+

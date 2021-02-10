@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector.Tablet
- - IInkCollector.get_Tablet
- - InkCollector.get_Tablet
+ - IInkCollector::get_Tablet
 ---
 
 # IInkCollector::get_Tablet
@@ -90,3 +88,4 @@ Accessing this property within certain message handlers can result in the underl
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setsingletabletintegratedmode">SetSingleTabletIntegratedMode Method</a>
+

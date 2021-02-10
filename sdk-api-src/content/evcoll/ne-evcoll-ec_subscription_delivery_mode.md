@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Evcoll.h
 api_name:
+ - _EC_SUBSCRIPTION_DELIVERY_MODE
  - EC_SUBSCRIPTION_DELIVERY_MODE
 ---
 
@@ -63,3 +64,4 @@ Events are delivered through the subscription using the pull model.
 ### -field EcDeliveryModePush
 
 Events are delivered through the subscription using the push model.
+

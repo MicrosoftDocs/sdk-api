@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ISearchResult.Updates
- - ISearchResult.get_Updates
+ - ISearchResult::get_Updates
 ---
 
 # ISearchResult::get_Updates
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a>
+

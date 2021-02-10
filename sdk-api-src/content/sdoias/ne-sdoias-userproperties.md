@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _USERPROPERTIES
  - USERPROPERTIES
 ---
 
@@ -138,3 +139,4 @@ The properties that are available for a user object depend on where the user obj
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo">ISdoMachine::GetUserSDO</a>
+

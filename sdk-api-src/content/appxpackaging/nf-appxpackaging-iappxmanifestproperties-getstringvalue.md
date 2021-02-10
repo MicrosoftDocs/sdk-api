@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestProperties.GetStringValue
+ - IAppxManifestProperties::GetStringValue
 ---
 
 # IAppxManifestProperties::GetStringValue
@@ -96,3 +96,4 @@ For an example, see <a href="/windows/desktop/appxpkg/how-to-query-package-ident
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestproperties">IAppxManifestProperties</a>
+

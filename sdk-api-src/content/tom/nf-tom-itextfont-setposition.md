@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.SetPosition
+ - ITextFont::SetPosition
 ---
 
 # ITextFont::SetPosition
@@ -140,3 +140,4 @@ Displayed text typically has a zero value for this property. Positive values rai
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

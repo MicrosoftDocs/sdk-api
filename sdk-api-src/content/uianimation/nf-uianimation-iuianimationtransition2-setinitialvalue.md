@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.SetInitialValue
+ - IUIAnimationTransition2::SetInitialValue
 ---
 
 # IUIAnimationTransition2::SetInitialValue
@@ -69,3 +69,4 @@ Do not call this method after the transition has been added to a storyboard.
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a>
+

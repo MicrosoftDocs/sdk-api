@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IContextState.GetDeactivateOnReturn
+ - IContextState::GetDeactivateOnReturn
 ---
 
 # IContextState::GetDeactivateOnReturn
@@ -103,3 +103,4 @@ When <i>pbDeactivate</i> is <b>FALSE</b> for the root object of a transaction, t
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
+

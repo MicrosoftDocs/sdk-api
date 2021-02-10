@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinSafer.h
 api_name:
+ - _SAFER_OBJECT_INFO_CLASS
  - SAFER_OBJECT_INFO_CLASS
 ---
 
@@ -105,3 +106,4 @@ Queries for additional error codes set during rule processing.
 ## -remarks
 
 The <b>SAFER_OBJECT_INFO_CLASS</b> enumeration type is used by the <a href="/windows/desktop/api/winsafer/nf-winsafer-safergetlevelinformation">SaferGetLevelInformation</a> function.
+

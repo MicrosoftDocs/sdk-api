@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
+ - tagFORMATETC
+ - LPFORMATETC
  - FORMATETC
 ---
 
@@ -147,3 +149,4 @@ The <b>FORMATETC</b> structure is used by methods in the data transfer and prese
 
 
 <a href="/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a>
+

@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - ws2atm
  - ws2atm/ws2atm
+api_name:
+ - ws2atm
 ---
 
 # Ws2Atm.h header

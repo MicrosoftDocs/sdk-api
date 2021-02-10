@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_UNLOADED_MODULE
+ - PMINIDUMP_UNLOADED_MODULE
  - MINIDUMP_UNLOADED_MODULE
 ---
 
@@ -82,3 +84,4 @@ An RVA to a
 ## -see-also
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>
+

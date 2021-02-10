@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.EndIpAddress
- - IWdsTransportServicePolicy.get_EndIpAddress
- - IWdsTransportServicePolicy.put_EndIpAddress
+ - IWdsTransportServicePolicy::put_EndIpAddress
 ---
 
 # IWdsTransportServicePolicy::put_EndIpAddress
@@ -69,3 +67,4 @@ When setting the end IP address, this property validates that it is a valid mult
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
+

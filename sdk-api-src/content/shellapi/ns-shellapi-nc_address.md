@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Shellapi.h
 api_name:
+ - tagNC_ADDRESS
+ - PNC_ADDRESS
  - NC_ADDRESS
 ---
 
@@ -79,3 +81,4 @@ The prefix length corresponding to the address, if the address described by <b>p
 ## -remarks
 
 This structure is sent with the <a href="/windows/desktop/api/shellapi/nf-shellapi-netaddr_getaddress">NetAddr_GetAddress</a> macro.
+

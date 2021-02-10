@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.Renderer
- - IInkPicture.get_Renderer
- - IInkPicture.put_Renderer
- - InkPicture.get_Renderer
- - InkPicture.put_Renderer
+ - IInkPicture::get_Renderer
 ---
 
 # IInkPicture::get_Renderer
@@ -74,3 +70,4 @@ When handling certain window messages, changing the <b>Renderer</b> associated w
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+

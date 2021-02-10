@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView.SetClipboard
+ - IShellFolderView::SetClipboard
 ---
 
 # IShellFolderView::SetClipboard

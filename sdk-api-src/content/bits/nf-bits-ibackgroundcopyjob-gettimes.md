@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetTimes
+ - IBackgroundCopyJob::GetTimes
 ---
 
 # IBackgroundCopyJob::GetTimes
@@ -95,3 +95,4 @@ The <i>pTimes</i> parameter cannot be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/bits/ns-bits-bg_job_times">BG_JOB_TIMES</a>
+

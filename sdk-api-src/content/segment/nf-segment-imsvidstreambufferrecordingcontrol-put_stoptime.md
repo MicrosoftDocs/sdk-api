@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferRecordingControl.put_StopTime
+ - IMSVidStreamBufferRecordingControl::put_StopTime
 ---
 
 # IMSVidStreamBufferRecordingControl::put_StopTime
@@ -94,3 +94,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferrecordingcontrol">IMSVidStreamBufferRecordingControl Interface</a>
+

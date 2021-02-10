@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProvider.GetCredentialAt
+ - ICredentialProvider::GetCredentialAt
 ---
 
 # ICredentialProvider::GetCredentialAt
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method is required.
 
 The number of available credentials is retrieved by <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-getcredentialcount">ICredentialProvider::GetCredentialCount</a>. This method is used by the Logon UI or Credential UI in conjunction with <b>GetCredentialCount</b> to enumerate the credentials.
+

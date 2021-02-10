@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscMaster2.get_Item
+ - IDiscMaster2::get_Item
 ---
 
 # IDiscMaster2::get_Item
@@ -206,3 +206,4 @@ int __cdecl _tmain(int argc, TCHAR* argv[])
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">IDiscRecorder2::InitializeDiscRecorder</a>
+

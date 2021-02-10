@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo.SetDestinationPosition
+ - IBasicVideo::SetDestinationPosition
 ---
 
 # IBasicVideo::SetDestinationPosition
@@ -126,3 +126,4 @@ This method has the same effect as individually calling the <a href="/windows/de
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
+

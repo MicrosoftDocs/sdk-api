@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureAuthenticate.GetSecureQuery
+ - ISCPSecureAuthenticate::GetSecureQuery
 ---
 
 # ISCPSecureAuthenticate::GetSecureQuery
@@ -70,3 +70,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
+

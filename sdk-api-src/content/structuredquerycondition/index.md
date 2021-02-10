@@ -9,6 +9,8 @@ tech.root: search
 f1_keywords:
  - structuredquerycondition
  - structuredquerycondition/structuredquerycondition
+api_name:
+ - structuredquerycondition
 ---
 
 # Structuredquerycondition.h header

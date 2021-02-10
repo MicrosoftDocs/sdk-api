@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTrustedInput.GetInputTrustAuthority
+ - IMFTrustedInput::GetInputTrustAuthority
 ---
 
 # IMFTrustedInput::GetInputTrustAuthority
@@ -107,3 +107,4 @@ The ITA does not expose the requested interface.
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftrustedinput">IMFTrustedInput</a>
+

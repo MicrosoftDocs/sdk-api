@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.GetRecord
+ - IBitsPeerCacheAdministration::GetRecord
 ---
 
 # IBitsPeerCacheAdministration::GetRecord
@@ -96,3 +96,4 @@ Success
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumrecords">IBitsPeerCacheAdministration::EnumRecords</a>
+

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.MakeLocalPath
+ - Provider::MakeLocalPath
 ---
 
 # Provider::MakeLocalPath
@@ -72,3 +72,4 @@ Returns the full path in <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 ## -remarks
 
 Consider using <a href="/windows/desktop/api/provider/nf-provider-provider-getlocalinstancepath">Provider::GetLocalInstancePath</a> before using this method.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.GetOutboundHttpHeaders
+ - IWSDHttpMessageParameters::GetOutboundHttpHeaders
 ---
 
 # IWSDHttpMessageParameters::GetOutboundHttpHeaders
@@ -110,3 +110,4 @@ There are no headers available.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
+

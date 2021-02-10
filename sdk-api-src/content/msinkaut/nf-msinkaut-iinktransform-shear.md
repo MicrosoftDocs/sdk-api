@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform.Shear
+ - IInkTransform::Shear
 ---
 
 # IInkTransform::Shear
@@ -110,3 +110,4 @@ The transformation applied in this method is a pure shear only if one of the par
 
 
 <a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
+

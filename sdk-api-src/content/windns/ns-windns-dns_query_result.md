@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DNS_QUERY_RESULT
+ - PDNS_QUERY_RESULT
  - DNS_QUERY_RESULT
 ---
 
@@ -106,3 +108,4 @@ This value is reserved for future use and must be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/windns/ns-windns-dns_query_request">DNS_QUERY_REQUEST</a>
+

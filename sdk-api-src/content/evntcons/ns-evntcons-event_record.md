@@ -46,6 +46,8 @@ api_type:
 api_location:
  - relogger.h
 api_name:
+ - _EVENT_RECORD
+ - PEVENT_RECORD
  - EVENT_RECORD
 ---
 
@@ -121,3 +123,4 @@ The <b>EVENT_RECORD</b> structure is passed to the consumer's implementation of 
 
 
 <a href="/windows/desktop/ETW/opentrace">OpenTrace</a>
+

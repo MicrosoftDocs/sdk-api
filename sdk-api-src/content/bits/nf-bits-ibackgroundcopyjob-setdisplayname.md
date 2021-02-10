@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetDisplayName
+ - IBackgroundCopyJob::SetDisplayName
 ---
 
 # IBackgroundCopyJob::SetDisplayName
@@ -125,3 +125,4 @@ The display name is originally set when you create the job. For details on speci
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>
+

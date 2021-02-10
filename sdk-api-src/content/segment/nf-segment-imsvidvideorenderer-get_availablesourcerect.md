@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer.get_AvailableSourceRect
+ - IMSVidVideoRenderer::get_AvailableSourceRect
 ---
 
 # IMSVidVideoRenderer::get_AvailableSourceRect
@@ -69,3 +69,4 @@ The returned <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidR
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
+

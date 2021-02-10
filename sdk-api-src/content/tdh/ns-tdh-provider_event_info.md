@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _PROVIDER_EVENT_INFO
  - PROVIDER_EVENT_INFO
 ---
 
@@ -79,3 +80,4 @@ An array of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor"
 
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgetmanifesteventinformation">TdhGetManifestEventInformation</a>
+

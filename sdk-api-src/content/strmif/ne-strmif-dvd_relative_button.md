@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - __MIDL___MIDL_itf_strmif_0000_0132_0004
  - DVD_RELATIVE_BUTTON
 ---
 
@@ -79,3 +80,4 @@ Right button.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a>
+

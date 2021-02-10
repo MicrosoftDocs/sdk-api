@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer.ClipRectangle
- - IDynamicRenderer.get_ClipRectangle
- - IDynamicRenderer.put_ClipRectangle
- - IDynamicRenderer.get_ClipRectangle
- - IDynamicRenderer.put_ClipRectangle
+ - IDynamicRenderer::put_ClipRectangle
 ---
 
 # IDynamicRenderer::put_ClipRectangle
@@ -82,3 +78,4 @@ When calling the <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_clipregion">IDynamicRenderer::ClipRegion Property</a>
+

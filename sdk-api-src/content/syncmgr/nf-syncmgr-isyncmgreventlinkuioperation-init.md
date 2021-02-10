@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrEventLinkUIOperation.Init
+ - ISyncMgrEventLinkUIOperation::Init
 ---
 
 # ISyncMgrEventLinkUIOperation::Init
@@ -81,3 +81,4 @@ If you call <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallbac
 The interface that is used to implement custom event stores is <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgreventstore">ISyncMgrEventStore</a>.
 
 The <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a> provided in the <i>pEvent</i> parameter is not the same object that came from a custom event store.
+

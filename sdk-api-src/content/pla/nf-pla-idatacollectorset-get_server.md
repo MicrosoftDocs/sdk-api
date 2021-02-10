@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.Server
- - IDataCollectorSet.get_Server
+ - IDataCollectorSet::get_Server
 ---
 
 # IDataCollectorSet::get_Server
@@ -64,3 +63,4 @@ The name is set when you call the <a href="/previous-versions/windows/desktop/ap
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+

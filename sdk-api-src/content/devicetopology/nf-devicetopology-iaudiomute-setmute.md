@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IAudioMute.SetMute
+ - IAudioMute::SetMute
 ---
 
 # IAudioMute::SetMute
@@ -87,3 +87,4 @@ Out of memory.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute Interface</a>
+

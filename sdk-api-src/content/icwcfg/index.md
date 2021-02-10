@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - icwcfg
  - icwcfg/icwcfg
+api_name:
+ - icwcfg
 ---
 
 # Icwcfg.h header

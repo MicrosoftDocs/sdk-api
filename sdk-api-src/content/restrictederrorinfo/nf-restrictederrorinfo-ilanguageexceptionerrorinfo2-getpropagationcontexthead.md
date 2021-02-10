@@ -42,7 +42,7 @@ api_type:
 api_location:
  - restrictederrorinfo.h
 api_name:
- - ILanguageExceptionErrorInfo2.GetPropagationContextHead
+ - ILanguageExceptionErrorInfo2::GetPropagationContextHead
 ---
 
 # ILanguageExceptionErrorInfo2::GetPropagationContextHead
@@ -71,3 +71,4 @@ You can use <b>GetPropagationContextHead</b> to retrieve the linked list of <a h
 ## -see-also
 
 <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo2">ILanguageExceptionErrorInfo2</a>
+

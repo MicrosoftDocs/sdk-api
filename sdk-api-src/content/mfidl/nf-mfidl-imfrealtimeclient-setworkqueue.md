@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRealTimeClient.SetWorkQueue
+ - IMFRealTimeClient::SetWorkQueue
 ---
 
 # IMFRealTimeClient::SetWorkQueue
@@ -77,3 +77,4 @@ When the application unregisters the topology branch, the Media Session calls <b
 
 
 <a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss">IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS</a>
+

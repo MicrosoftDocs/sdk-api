@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPersistMediaPropertyBag.Save
+ - IPersistMediaPropertyBag::Save
 ---
 
 # IPersistMediaPropertyBag::Save
@@ -135,3 +135,4 @@ The <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter does
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>
+

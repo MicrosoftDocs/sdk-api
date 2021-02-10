@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.put_BufferUnderrunFreeDisabled
+ - IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled
 ---
 
 # IDiscFormat2TrackAtOnce::put_BufferUnderrunFreeDisabled
@@ -106,3 +106,4 @@ Buffer underrun can be an issue if the data stream does not enter the buffer fas
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_bufferunderrunfreedisabled">IDiscFormat2TrackAtOnce::get_BufferUnderrunFreeDisabled</a>
+

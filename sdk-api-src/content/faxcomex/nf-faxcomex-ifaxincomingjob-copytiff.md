@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJob.CopyTiff
+ - IFaxIncomingJob::CopyTiff
 ---
 
 # IFaxIncomingJob::CopyTiff
@@ -81,3 +81,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSource.MaxRatingsLevel
+ - IMSVidStreamBufferSource::MaxRatingsLevel
 ---
 
 # IMSVidStreamBufferSource::MaxRatingsLevel
@@ -95,3 +95,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/mstv/tv-ratings-components">TV Ratings Components</a>
+

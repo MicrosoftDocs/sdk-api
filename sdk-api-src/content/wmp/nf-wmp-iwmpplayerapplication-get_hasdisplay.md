@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayerApplication.get_hasDisplay
+ - IWMPPlayerApplication::get_hasDisplay
 ---
 
 # IWMPPlayerApplication::get_hasDisplay
@@ -95,3 +95,4 @@ Several Windows Media Player controls can be running remotely at the same time, 
 
 
 <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
+

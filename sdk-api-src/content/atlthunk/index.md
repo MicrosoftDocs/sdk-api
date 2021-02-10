@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - atlthunk
  - atlthunk/atlthunk
+api_name:
+ - atlthunk
 ---
 
 # Atlthunk.h header

@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SetupFindNextMatchLineW
  - setupapi/SetupFindNextMatchLineW
+ - SetupFindNextMatchLine
+ - setupapi/SetupFindNextMatchLine
 dev_langs:
  - c++
 topic_type:
@@ -42,10 +45,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupFindNextMatchLine
- - SetupFindNextMatchLineA
  - SetupFindNextMatchLineW
-req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
+ - SetupFindNextMatchLine
 ---
 
 # SetupFindNextMatchLineW function
@@ -112,3 +113,4 @@ If <i>ContextIn.Inf</i> references multiple INF files that have been appended to
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetlinebyindexa">SetupGetLineByIndex</a>
+

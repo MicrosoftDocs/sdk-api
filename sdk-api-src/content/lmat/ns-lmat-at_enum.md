@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmat.h
 api_name:
+ - _AT_ENUM
+ - PAT_ENUM
  - AT_ENUM
 ---
 
@@ -173,3 +175,4 @@ the <a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJob
 
 
 <a href="/windows/desktop/NetMgmt/schedule-functions">Schedule Functions</a>
+

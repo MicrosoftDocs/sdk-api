@@ -9,6 +9,8 @@ tech.root: snmp
 f1_keywords:
  - mgmtapi
  - mgmtapi/mgmtapi
+api_name:
+ - mgmtapi
 ---
 
 # Mgmtapi.h header

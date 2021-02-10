@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest3.GetCACertificate
- - ICertRequest2.GetCACertificate
- - ICertRequest.GetCACertificate
- - CCertRequest.GetCACertificate
+ - ICertRequest::GetCACertificate
 ---
 
 # ICertRequest::GetCACertificate
@@ -177,3 +174,4 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
+

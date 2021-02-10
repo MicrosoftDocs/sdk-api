@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPFolderMonitorServices.stopScan
+ - IWMPFolderMonitorServices::stopScan
 ---
 
 # IWMPFolderMonitorServices::stopScan
@@ -103,3 +103,4 @@ A scanning operation consists of two phases: scanning and updating. You can dete
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpfolderscanstate">WMPFolderScanState</a>
+

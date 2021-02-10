@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rasshost.h
 api_name:
+ - _SECURITY_MESSAGE
+ - PSECURITY_MESSAGE
  - SECURITY_MESSAGE
 ---
 
@@ -135,3 +137,4 @@ Specifies the name of the logon domain for the remote user if <b>dwMsgId</b> is 
 
 
 <a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+

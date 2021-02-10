@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.FinishOperations
+ - IFileOperationProgressSink::FinishOperations
 ---
 
 # IFileOperationProgressSink::FinishOperations
@@ -65,3 +65,4 @@ The return value of the final operation. Note that this is not the HRESULT retur
 Type: <b>HRESULT</b>
 
 Not used.
+

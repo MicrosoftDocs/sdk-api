@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.HashAlgorithm
- - ICEnroll4.get_HashAlgorithm
- - ICEnroll4.put_HashAlgorithm
- - ICEnroll3.HashAlgorithm
- - ICEnroll3.get_HashAlgorithm
- - ICEnroll3.put_HashAlgorithm
- - ICEnroll2.HashAlgorithm
- - ICEnroll2.get_HashAlgorithm
- - ICEnroll2.put_HashAlgorithm
- - ICEnroll.HashAlgorithm
- - ICEnroll.get_HashAlgorithm
- - ICEnroll.put_HashAlgorithm
- - CEnroll.HashAlgorithm
+ - ICEnroll::get_HashAlgorithm
 ---
 
 # ICEnroll::get_HashAlgorithm
@@ -125,3 +113,4 @@ else
 if ( NULL != bstrMyHashAlg )
     SysFreeString( bstrMyHashAlg);
 ```
+

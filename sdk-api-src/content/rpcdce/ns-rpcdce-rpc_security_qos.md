@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
+ - _RPC_SECURITY_QOS
+ - PRPC_SECURITY_QOS
  - RPC_SECURITY_QOS
 ---
 
@@ -308,3 +310,4 @@ This flag is designed to prevent a Denial of Service Attack. Using this flag for
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
+

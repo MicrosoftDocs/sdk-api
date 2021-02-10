@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.Tombstoned
- - IWdsTransportNamespace.get_Tombstoned
+ - IWdsTransportNamespace::get_Tombstoned
 ---
 
 # IWdsTransportNamespace::get_Tombstoned
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <b>TombstoneTime Property </b>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference.get_IsEncrypted
+ - ITDirectoryObjectConference::get_IsEncrypted
 ---
 
 # ITDirectoryObjectConference::get_IsEncrypted
@@ -135,3 +135,4 @@ This method is not yet implemented.
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_isencrypted">ITDirectoryObjectConference::put_IsEncrypted</a>
+

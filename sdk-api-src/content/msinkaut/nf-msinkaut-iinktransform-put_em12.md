@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform.eM12
- - IInkTransform.get_eM12
- - IInkTransform.put_eM12
- - InkTransform.get_eM12
- - InkTransform.put_eM12
+ - IInkTransform::put_eM12
 ---
 
 # IInkTransform::put_eM12
@@ -70,3 +66,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
+

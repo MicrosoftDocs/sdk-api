@@ -43,7 +43,7 @@ api_location:
  - Propsys.idl
  - Propsys.idl.dll
 api_name:
- - IPropertyStore.GetValue
+ - IPropertyStore::GetValue
 ---
 
 # IPropertyStore::GetValue
@@ -84,3 +84,4 @@ If the PROPERTYKEY referenced in key is not present in the property store, this 
 
 
 <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>
+

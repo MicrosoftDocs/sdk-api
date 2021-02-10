@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagCameraControlProperty
  - CameraControlProperty
 ---
 
@@ -128,3 +129,4 @@ For a given property, a particular device might implement only a subset of the l
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamcameracontrol">IAMCameraControl Interface</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateColorSpaceA
  - wingdi/CreateColorSpaceA
+ - CreateColorSpace
+ - wingdi/CreateColorSpace
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - CreateColorSpace
  - CreateColorSpaceA
- - CreateColorSpaceW
+ - CreateColorSpace
 ---
 
 # CreateColorSpaceA function
@@ -92,3 +93,4 @@ When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete 
 
 
 <a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+

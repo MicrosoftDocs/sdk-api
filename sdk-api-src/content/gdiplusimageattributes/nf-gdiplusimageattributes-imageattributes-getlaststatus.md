@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes.GetLastStatus
+ - ImageAttributes::GetLastStatus
 ---
 
 # ImageAttributes::GetLastStatus
@@ -83,3 +83,4 @@ The first time you call the <b>ImageAttributes::GetLastStatus</b> method of an
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

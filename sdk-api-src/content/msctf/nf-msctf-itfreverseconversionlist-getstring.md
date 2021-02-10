@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfReverseConversionList.GetString
+ - ITfReverseConversionList::GetString
 ---
 
 # ITfReverseConversionList::GetString
@@ -111,3 +111,4 @@ An unspecified error occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversionlist">ITfReverseConversionList</a>
+

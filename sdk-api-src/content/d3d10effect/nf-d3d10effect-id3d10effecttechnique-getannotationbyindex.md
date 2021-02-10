@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectTechnique.GetAnnotationByIndex
+ - ID3D10EffectTechnique::GetAnnotationByIndex
 ---
 
 # ID3D10EffectTechnique::GetAnnotationByIndex
@@ -73,3 +73,4 @@ Use an annotation to attach a piece of metadata to a technique.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttechnique">ID3D10EffectTechnique Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.GetAppProperty
+ - ITfContext::GetAppProperty
 ---
 
 # ITfContext::GetAppProperty
@@ -159,3 +159,4 @@ Application properties differ from text properties, obtained by <a href="/window
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfContext::GetProperty](nf-msctf-itfcontext-getproperty.md), [ITfReadOnlyProperty interface](nn-msctf-itfreadonlyproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)
+

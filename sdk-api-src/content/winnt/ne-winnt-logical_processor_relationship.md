@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _LOGICAL_PROCESSOR_RELATIONSHIP
  - LOGICAL_PROCESSOR_RELATIONSHIP
 ---
 
@@ -114,3 +115,4 @@ For an example, see <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlo
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+

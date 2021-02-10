@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath.GetServer
+ - IWbemPath::GetServer
 ---
 
 # IWbemPath::GetServer
@@ -74,3 +74,4 @@ This method can be used to determine how big a buffer is needed for <i>pszName</
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
+

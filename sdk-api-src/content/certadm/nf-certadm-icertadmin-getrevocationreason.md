@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.GetRevocationReason
- - ICertAdmin.GetRevocationReason
- - CCertAdmin.GetRevocationReason
+ - ICertAdmin::GetRevocationReason
 ---
 
 # ICertAdmin::GetRevocationReason
@@ -203,3 +201,4 @@ if (CA_DISP_REVOKED == nDisp)
 
 
 <a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a>
+

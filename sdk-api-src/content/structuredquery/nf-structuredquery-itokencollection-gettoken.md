@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - ITokenCollection.GetToken
+ - ITokenCollection::GetToken
 ---
 
 # ITokenCollection::GetToken

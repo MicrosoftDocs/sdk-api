@@ -46,6 +46,8 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
+ - _USB_UNICODE_NAME
+ - PUSB_UNICODE_NAME
  - USB_UNICODE_NAME
 ---
 
@@ -69,3 +71,4 @@ A pointer to the string.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+

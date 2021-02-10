@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx3.dll
 api_name:
- - IBackgroundCopyJob3.ReplaceRemotePrefix
+ - IBackgroundCopyJob3::ReplaceRemotePrefix
 ---
 
 # IBackgroundCopyJob3::ReplaceRemotePrefix
@@ -189,3 +189,4 @@ The following example shows how to call the <b>ReplaceRemotePrefix</b> method to
 
 
 <a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
+

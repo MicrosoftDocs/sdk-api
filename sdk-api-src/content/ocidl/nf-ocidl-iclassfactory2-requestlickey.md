@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IClassFactory2.RequestLicKey
+ - IClassFactory2::RequestLicKey
 ---
 
 # IClassFactory2::RequestLicKey
@@ -132,3 +132,4 @@ This method need not be implemented when a class factory does not support run-ti
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a>
+

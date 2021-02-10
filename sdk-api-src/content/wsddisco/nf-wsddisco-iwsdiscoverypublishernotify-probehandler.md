@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisherNotify.ProbeHandler
+ - IWSDiscoveryPublisherNotify::ProbeHandler
 ---
 
 # IWSDiscoveryPublisherNotify::ProbeHandler
@@ -75,3 +75,4 @@ The body of the Probe message passed to <i>pSoap</i> can be cast to a <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a>
+

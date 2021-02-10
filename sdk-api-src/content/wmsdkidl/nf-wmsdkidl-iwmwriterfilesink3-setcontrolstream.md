@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.SetControlStream
+ - IWMWriterFileSink3::SetControlStream
 ---
 
 # IWMWriterFileSink3::SetControlStream
@@ -107,3 +107,4 @@ You can have more than one control stream, by making multiple calls to this meth
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
+

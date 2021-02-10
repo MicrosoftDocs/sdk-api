@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_PROVIDER_PROP
+ - PVSS_PROVIDER_PROP
  - VSS_PROVIDER_PROP
 ---
 
@@ -92,3 +94,4 @@ Class identifier of the component registered in the local machine's COM catalog.
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a>
+

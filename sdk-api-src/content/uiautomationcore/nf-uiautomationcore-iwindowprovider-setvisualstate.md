@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IWindowProvider.SetVisualState
+ - IWindowProvider::SetVisualState
 ---
 
 # IWindowProvider::SetVisualState
@@ -85,3 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-get_windowvisualstate">WindowVisualState</a>
+

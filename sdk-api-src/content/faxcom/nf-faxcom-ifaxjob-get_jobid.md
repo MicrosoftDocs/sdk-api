@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.JobId
- - IFaxJob.get_JobId
+ - IFaxJob::get_JobId
 ---
 
 # IFaxJob::get_JobId
@@ -80,3 +79,4 @@ You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax jo
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
+

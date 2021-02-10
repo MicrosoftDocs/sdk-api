@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupQueueCopyA
  - setupapi/SetupQueueCopyA
+ - SetupQueueCopy
+ - setupapi/SetupQueueCopy
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupQueueCopy
  - SetupQueueCopyA
- - SetupQueueCopyW
+ - SetupQueueCopy
 ---
 
 # SetupQueueCopyA function
@@ -239,3 +240,4 @@ If a UNC directory is specified as the target directory of a file copy operation
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuerenamea">SetupQueueRename</a>
+

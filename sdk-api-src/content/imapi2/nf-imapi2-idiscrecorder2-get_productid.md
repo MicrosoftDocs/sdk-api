@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2.get_ProductId
+ - IDiscRecorder2::get_ProductId
 ---
 
 # IDiscRecorder2::get_ProductId
@@ -111,3 +111,4 @@ Value: 0x8007000E
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2._TryShell2Rename
+ - IBrowserService2::_TryShell2Rename
 ---
 
 # IBrowserService2::_TryShell2Rename
@@ -76,3 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is called in response to <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-notifyredirect">NotifyRedirect</a>.
+

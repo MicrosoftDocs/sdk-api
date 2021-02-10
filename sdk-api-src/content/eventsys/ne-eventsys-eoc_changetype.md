@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
+ - __MIDL_IEventObjectChange_0001
  - EOC_ChangeType
 ---
 
@@ -71,3 +72,4 @@ An existing object was deleted.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>
+

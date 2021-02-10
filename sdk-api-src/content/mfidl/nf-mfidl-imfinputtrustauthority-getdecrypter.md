@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFInputTrustAuthority.GetDecrypter
+ - IMFInputTrustAuthority::GetDecrypter
 ---
 
 # IMFInputTrustAuthority::GetDecrypter
@@ -118,3 +118,4 @@ The ITA must create a new instance of its decrypter for each call to <b>GetDecry
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
+

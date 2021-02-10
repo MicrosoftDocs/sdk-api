@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
+ - _MODULEINFO
+ - LPMODULEINFO
  - MODULEINFO
 ---
 
@@ -78,3 +80,4 @@ The load address of a module is the same as the <b>HMODULE</b> value. The inform
 ## -see-also
 
 <a href="/windows/desktop/api/psapi/nf-psapi-getmoduleinformation">GetModuleInformation</a>
+

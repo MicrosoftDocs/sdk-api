@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ws2ipdef.h
 api_name:
+ - group_filter
+ - PGROUP_FILTER
  - GROUP_FILTER
 ---
 
@@ -162,3 +164,4 @@ The <b>GROUP_FILTER</b> structure is defined in the <i>Ws2ipdef.h</i> header fil
 
 
 <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ipv6_mreq">ipv6_mreq</a>
+

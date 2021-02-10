@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11ShaderResourceView.GetDesc
+ - ID3D11ShaderResourceView::GetDesc
 ---
 
 # ID3D11ShaderResourceView::GetDesc
@@ -64,3 +64,4 @@ A pointer to a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_shader_resourc
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>
+

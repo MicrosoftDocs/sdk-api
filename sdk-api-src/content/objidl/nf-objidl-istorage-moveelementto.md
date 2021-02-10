@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage.MoveElementTo
+ - IStorage::MoveElementTo
 ---
 
 # IStorage::MoveElementTo
@@ -96,3 +96,4 @@ Before calling this method, the element to be moved must be closed, and the dest
 
 
 <a href="/windows/desktop/api/wtypes/ne-wtypes-stgmove">STGMOVE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IChannelAudioVolume.SetChannelVolume
+ - IChannelAudioVolume::SetChannelVolume
 ---
 
 # IChannelAudioVolume::SetChannelVolume
@@ -125,3 +125,4 @@ This method, if it succeeds, generates a channel-volume-change event regardless 
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-getchannelcount">IChannelAudioVolume::GetChannelCount</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - __MIDL___MIDL_itf_searchapi_0000_0013_0001
  - CLUSION_REASON
 ---
 
@@ -72,3 +73,4 @@ The URL has been included or excluded by a user rule. User rules are set either 
 ### -field CLUSIONREASON_GROUPPOLICY
 
  Not Supported.
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.SetBlendBellShape
+ - PathGradientBrush::SetBlendBellShape
 ---
 
 # PathGradientBrush::SetBlendBellShape
@@ -160,3 +160,4 @@ VOID Example_SetBlendShape(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblendtriangularshape">PathGradientBrush::SetBlendTriangularShape</a>
+

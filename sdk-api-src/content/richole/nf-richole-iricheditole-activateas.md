@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle.ActivateAs
+ - IRichEditOle::ActivateAs
 ---
 
 # IRichEditOle::ActivateAs
@@ -75,3 +75,4 @@ Returns S_OK on success, or a failure code otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
+

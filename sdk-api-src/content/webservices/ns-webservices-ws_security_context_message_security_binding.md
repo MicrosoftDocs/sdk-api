@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
  - WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
 ---
 
@@ -118,3 +119,4 @@ To use this binding on HTTP without SSL, the security description property <b>WS
 ### -field bootstrapSecurityDescription
 
 The security description for used to obtain the security context token.
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig.GetStreamName
+ - IWMStreamConfig::GetStreamName
 ---
 
 # IWMStreamConfig::GetStreamName
@@ -126,3 +126,4 @@ The stream name is not written to the header section of an ASF file. If you obta
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamname">IWMStreamConfig::SetStreamName</a>
+

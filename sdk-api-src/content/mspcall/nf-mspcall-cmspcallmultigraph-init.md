@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallMultiGraph.Init
+ - CMSPCallMultiGraph::Init
 ---
 
 # CMSPCallMultiGraph::Init
@@ -78,3 +78,4 @@ Reserved parameter.
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
+

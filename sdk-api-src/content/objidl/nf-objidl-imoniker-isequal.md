@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker.IsEqual
+ - IMoniker::IsEqual
 ---
 
 # IMoniker::IsEqual
@@ -121,3 +121,4 @@ Two monikers that compare as equal must hash to the same value using <a href="/w
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>
+

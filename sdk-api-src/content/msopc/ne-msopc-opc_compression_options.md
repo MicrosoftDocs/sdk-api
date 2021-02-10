@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
+ - __MIDL___MIDL_itf_msopc_0000_0002_0002
  - OPC_COMPRESSION_OPTIONS
 ---
 
@@ -111,3 +112,4 @@ Compression is optimized for high performance.
 
 
 <b>Reference</b>
+

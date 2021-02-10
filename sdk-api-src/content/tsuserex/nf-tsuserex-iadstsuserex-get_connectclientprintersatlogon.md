@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx.ConnectClientPrintersAtLogon
- - IADsTSUserEx.get_ConnectClientPrintersAtLogon
- - IADsTSUserEx.put_ConnectClientPrintersAtLogon
+ - IADsTSUserEx::get_ConnectClientPrintersAtLogon
 ---
 
 # IADsTSUserEx::get_ConnectClientPrintersAtLogon
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linetranslatecaps_tag
+ - LPLINETRANSLATECAPS
  - LINETRANSLATECAPS
 ---
 
@@ -126,3 +128,4 @@ This structure may not be extended.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
+

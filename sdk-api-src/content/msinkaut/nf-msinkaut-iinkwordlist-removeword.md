@@ -43,8 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkWordList.RemoveWord
- - InkWordList.RemoveWord
+ - IInkWordList::RemoveWord
 ---
 
 # IInkWordList::RemoveWord
@@ -143,3 +142,4 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
+

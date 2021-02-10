@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices.DecomposeHwndIdentityString
+ - IAccPropServices::DecomposeHwndIdentityString
 ---
 
 # IAccPropServices::DecomposeHwndIdentityString
@@ -97,3 +97,4 @@ May return other error codes under exceptional error conditions such as low memo
 ## -remarks
 
 This method succeeds only if the provided identity string is a <b>HWND</b>-based identity string. This method is useful when used in an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccpropserver">IAccPropServer</a> callback server that was registered with ANNO_CONTAINER scope because it allows the server to determine, from the given identity string, the child element (<i>idChild</i>) for which the client is calling the server.
+

@@ -45,6 +45,7 @@ api_location:
  - Tsgpolicyengine.h
  - TSGPolicyEngine.h
 api_name:
+ - __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0002
  - AAAccountingDataType
 ---
 
@@ -111,3 +112,4 @@ The following fields in the <a href="/windows/win32/api/tsgpolicyengine/ns-tsgpo
 ## -see-also
 
 <a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgaccountingengine-doaccounting">ITSGAccountingEngine::DoAccounting</a>
+

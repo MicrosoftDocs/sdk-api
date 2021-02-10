@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfLanguageProfiles.Clone
+ - IEnumTfLanguageProfiles::Clone
 ---
 
 # IEnumTfLanguageProfiles::Clone
@@ -94,3 +94,4 @@ A memory allocation failure occurred.
 ## -see-also
 
 [IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)
+

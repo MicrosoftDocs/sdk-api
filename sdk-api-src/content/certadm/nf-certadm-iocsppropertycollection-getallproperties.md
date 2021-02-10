@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPPropertyCollection.GetAllProperties
+ - IOCSPPropertyCollection::GetAllProperties
 ---
 
 # IOCSPPropertyCollection::GetAllProperties
@@ -76,3 +76,4 @@ This array is a two-dimensional array of elements, each of type <b>Variant</b>. 
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
+

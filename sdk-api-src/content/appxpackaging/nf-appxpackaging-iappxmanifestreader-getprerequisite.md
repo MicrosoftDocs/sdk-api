@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestReader.GetPrerequisite
+ - IAppxManifestReader::GetPrerequisite
 ---
 
 # IAppxManifestReader::GetPrerequisite
@@ -98,3 +98,4 @@ Prerequisites are specified using the <a href="/uwp/schemas/appxpackage/appxmani
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
+

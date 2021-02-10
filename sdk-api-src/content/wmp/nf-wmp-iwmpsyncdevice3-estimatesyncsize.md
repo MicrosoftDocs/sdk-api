@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice3.estimateSyncSize
+ - IWMPSyncDevice3::estimateSyncSize
 ---
 
 # IWMPSyncDevice3::estimateSyncSize
@@ -117,3 +117,4 @@ If you call this method and then call it again before the first estimation is co
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3">IWMPSyncDevice3 Interface</a>
+

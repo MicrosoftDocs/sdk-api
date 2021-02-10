@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ICreateProcessInputs.SetTitle
+ - ICreateProcessInputs::SetTitle
 ---
 
 # ICreateProcessInputs::SetTitle
@@ -73,3 +73,4 @@ api_name:
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreatingprocess-oncreating">ICreatingProcess::OnCreating</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePackage
+ - IXpsOMObjectFactory::CreatePackage
 ---
 
 # IXpsOMObjectFactory::CreatePackage
@@ -152,3 +152,4 @@ For information about using <a href="/windows/desktop/api/xpsobjectmodel/nn-xpso
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

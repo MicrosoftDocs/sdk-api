@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.ClearRenderTargetView
+ - ID3D11DeviceContext::ClearRenderTargetView
 ---
 
 # ID3D11DeviceContext::ClearRenderTargetView
@@ -88,3 +88,4 @@ When using <a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_leve
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

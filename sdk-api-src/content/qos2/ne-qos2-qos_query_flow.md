@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qos2.h
 api_name:
+ - _QOS_QUERY_FLOW
+ - PQOS_QUERY_FLOW
  - QOS_QUERY_FLOW
 ---
 
@@ -77,3 +79,4 @@ Indicates a request for the flow rate specified during the creation of an agreem
 
 
 <a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
+

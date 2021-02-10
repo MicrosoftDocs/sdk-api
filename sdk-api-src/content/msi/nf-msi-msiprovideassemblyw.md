@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiProvideAssemblyW
  - msi/MsiProvideAssemblyW
+ - MsiProvideAssembly
+ - msi/MsiProvideAssembly
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiProvideAssembly
- - MsiProvideAssemblyA
  - MsiProvideAssemblyW
+ - MsiProvideAssembly
 ---
 
 # MsiProvideAssemblyW function
@@ -382,3 +383,4 @@ Features with components that contain a corrupted file or the wrong version of a
 
 
 <a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
+

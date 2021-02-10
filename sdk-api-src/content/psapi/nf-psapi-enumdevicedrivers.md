@@ -47,7 +47,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - EnumDeviceDrivers
- - K32EnumDeviceDrivers
 ---
 
 # EnumDeviceDrivers function
@@ -111,3 +110,4 @@ For an example, see <a href="/windows/desktop/psapi/enumerating-all-device-drive
 
 
 <a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
+

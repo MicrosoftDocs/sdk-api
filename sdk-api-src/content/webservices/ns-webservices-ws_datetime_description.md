@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_DATETIME_DESCRIPTION
  - WS_DATETIME_DESCRIPTION
 ---
 
@@ -68,3 +69,4 @@ The minimum value.
 ### -field maxValue
 
 The maximum value.
+

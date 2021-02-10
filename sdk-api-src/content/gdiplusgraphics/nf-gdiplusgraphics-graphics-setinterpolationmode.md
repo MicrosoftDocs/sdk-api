@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.SetInterpolationMode
+ - Graphics::SetInterpolationMode
 ---
 
 # Graphics::SetInterpolationMode
@@ -84,3 +84,4 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-interpolation-mode-to-control-image-quality-during-scaling-use">Using Interpolation Mode to Control Image Quality During Scaling</a>
+

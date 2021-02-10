@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkExtendedProperties.Item
+ - IInkExtendedProperties::Item
 ---
 
 # IInkExtendedProperties::Item
@@ -212,3 +212,4 @@ For more information about the VARIANT and BSTR data types, see <a href="/window
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionSurface.SuspendDraw
+ - IDCompositionSurface::SuspendDraw
 ---
 
 # IDCompositionSurface::SuspendDraw
@@ -69,3 +69,4 @@ Because only one surface can be open for drawing at a time, calling <b>SuspendDr
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-resumedraw">IDCompositionSurface::ResumeDraw</a>
+

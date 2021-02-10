@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - IFilter.GetChunk
+ - IFilter::GetChunk
 ---
 
 # IFilter::GetChunk
@@ -176,3 +176,4 @@ Before returning the results of a call to the <b>GetChunk</b> method on an embed
 
 
 <a href="/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a>
+

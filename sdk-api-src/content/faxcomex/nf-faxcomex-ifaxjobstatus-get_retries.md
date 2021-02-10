@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxJobStatus.Retries
- - IFaxJobStatus.get_Retries
- - IFaxJobStatus.get_Retries
+ - IFaxJobStatus::get_Retries
 ---
 
 # IFaxJobStatus::get_Retries
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Visual Basic Example</a>
+

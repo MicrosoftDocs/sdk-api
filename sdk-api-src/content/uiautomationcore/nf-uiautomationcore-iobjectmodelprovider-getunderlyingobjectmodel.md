@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IObjectModelProvider.GetUnderlyingObjectModel
+ - IObjectModelProvider::GetUnderlyingObjectModel
 ---
 
 # IObjectModelProvider::GetUnderlyingObjectModel
@@ -73,3 +73,4 @@ Client applications can use the object model to directly access the content of t
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider">IObjectModelProvider</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - AuditLogon
+ - LSA_AUDIT_LOGON
 ---
 
 # LSA_AUDIT_LOGON callback function
@@ -107,3 +107,4 @@ A pointer to the <b>AuditLogon</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

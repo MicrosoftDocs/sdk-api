@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIOutput5.DuplicateOutput1
+ - IDXGIOutput5::DuplicateOutput1
 ---
 
 # IDXGIOutput5::DuplicateOutput1
@@ -123,3 +123,4 @@ The <i>pSupportedFormats</i> array should only contain display scan-out formats.
 
 
 <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgioutput5">IDXGIOutput5</a>
+

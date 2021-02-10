@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_GROUPS_AND_PRIVILEGES
+ - PTOKEN_GROUPS_AND_PRIVILEGES
  - TOKEN_GROUPS_AND_PRIVILEGES
 ---
 
@@ -281,3 +283,4 @@ Array of privileges.
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
+

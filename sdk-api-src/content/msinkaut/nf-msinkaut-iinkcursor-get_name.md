@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursor.Name
- - IInkCursor.get_Name
- - IInkCursor.get_Name
+ - IInkCursor::get_Name
 ---
 
 # IInkCursor::get_Name
@@ -68,3 +66,4 @@ Accessing this property within certain message handlers can result in the underl
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">InkCursor Interface</a>
+

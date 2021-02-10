@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetNtmsMediaPoolNameW
  - ntmsapi/GetNtmsMediaPoolNameW
+ - GetNtmsMediaPoolName
+ - ntmsapi/GetNtmsMediaPoolName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - GetNtmsMediaPoolName
- - GetNtmsMediaPoolNameA
  - GetNtmsMediaPoolNameW
+ - GetNtmsMediaPoolName
 ---
 
 # GetNtmsMediaPoolNameW function
@@ -165,3 +166,4 @@ The function was successful.
 
 > [!NOTE]
 > The ntmsapi.h header defines GetNtmsMediaPoolName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

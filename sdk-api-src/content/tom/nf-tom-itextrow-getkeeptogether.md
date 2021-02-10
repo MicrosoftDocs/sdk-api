@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.GetKeepTogether
+ - ITextRow::GetKeepTogether
 ---
 
 # ITextRow::GetKeepTogether
@@ -73,3 +73,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-setkeeptogether">ITextRow::SetKeepTogether</a>
+

@@ -43,13 +43,6 @@ api_location:
  - objidlbase.h
 api_name:
  - IObjContext
- - IObjContext.Reserved1
- - IObjContext.Reserved2
- - IObjContext.Reserved3
- - IObjContext.Reserved4
- - IObjContext.Reserved5
- - IObjContext.Reserved6
- - IObjContext.Reserved7
 ---
 
 # IObjContext interface

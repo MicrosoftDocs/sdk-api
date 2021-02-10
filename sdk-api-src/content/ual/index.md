@@ -9,6 +9,8 @@ tech.root: ual
 f1_keywords:
  - ual
  - ual/ual
+api_name:
+ - ual
 ---
 
 # Ual.h header

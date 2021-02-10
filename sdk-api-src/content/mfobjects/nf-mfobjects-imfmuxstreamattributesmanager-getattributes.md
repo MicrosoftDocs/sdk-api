@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFMuxStreamAttributesManager.GetAttributes
+ - IMFMuxStreamAttributesManager::GetAttributes
 ---
 
 # IMFMuxStreamAttributesManager::GetAttributes
@@ -115,3 +115,4 @@ The stream specified substream index is invalid. Call <a href="/windows/desktop/
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
+

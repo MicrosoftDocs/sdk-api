@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarItem.GetInfo
+ - ITfLangBarItem::GetInfo
 ---
 
 # ITfLangBarItem::GetInfo
@@ -99,3 +99,4 @@ The method was successful.
 
 <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO
       </a>
+

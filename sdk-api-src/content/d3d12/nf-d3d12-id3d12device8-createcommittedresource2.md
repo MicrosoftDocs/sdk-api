@@ -35,6 +35,7 @@ api_location:
 api_name:
  - ID3D12Device8::CreateCommittedResource2
 f1_keywords:
+ - ID3D12Device8::CreateCommittedResource2
  - d3d12/ID3D12Device8::CreateCommittedResource2
 dev_langs:
  - c++
@@ -132,3 +133,4 @@ This method may be called by multiple threads concurrently.
 ## -see-also
 
 * [Sampler feedback specification](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html)
+

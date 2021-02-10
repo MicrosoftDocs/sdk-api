@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics
+ - IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
 ---
 
 # IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
@@ -68,3 +68,4 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsremotefxgraphicsconnection">IWRdsRemoteFXGraphicsConnection</a>
+

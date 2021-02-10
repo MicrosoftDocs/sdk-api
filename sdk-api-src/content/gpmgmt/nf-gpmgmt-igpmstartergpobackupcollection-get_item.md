@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMStarterGPOBackupCollection.Item
- - IGPMStarterGPOBackupCollection.get_Item
+ - IGPMStarterGPOBackupCollection::get_Item
 ---
 
 # IGPMStarterGPOBackupCollection::get_Item
@@ -69,3 +68,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackupcollection">IGPMStarterGPOBackupCollection</a>
+

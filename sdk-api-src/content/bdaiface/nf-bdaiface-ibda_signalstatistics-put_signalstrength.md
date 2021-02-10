@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_SignalStatistics.put_SignalStrength
+ - IBDA_SignalStatistics::put_SignalStrength
 ---
 
 # IBDA_SignalStatistics::put_SignalStrength
@@ -73,3 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_signalstrength">IBDA_SignalStatistics::get_SignalStrength</a>
+

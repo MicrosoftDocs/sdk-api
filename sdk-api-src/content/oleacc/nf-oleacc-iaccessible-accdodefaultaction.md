@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.accDoDefaultAction
+ - IAccessible::accDoDefaultAction
 ---
 
 # IAccessible::accDoDefaultAction
@@ -174,3 +174,4 @@ HRESULT DoAction(IAccessible* pAcc)
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
+

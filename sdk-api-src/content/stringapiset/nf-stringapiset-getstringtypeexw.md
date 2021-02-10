@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetStringTypeExW
  - stringapiset/GetStringTypeExW
+ - GetStringTypeEx
+ - stringapiset/GetStringTypeEx
 dev_langs:
  - c++
 topic_type:
@@ -57,9 +59,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetStringTypeEx
- - GetStringTypeExA
  - GetStringTypeExW
+ - GetStringTypeEx
 ---
 
 # GetStringTypeExW function
@@ -154,3 +155,4 @@ The <i>Locale</i> parameter is only used to perform string conversion to Unicode
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

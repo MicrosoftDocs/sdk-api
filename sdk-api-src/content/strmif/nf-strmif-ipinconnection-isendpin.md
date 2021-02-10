@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPinConnection.IsEndPin
+ - IPinConnection::IsEndPin
 ---
 
 # IPinConnection::IsEndPin
@@ -105,3 +105,4 @@ Generally, a sink filter or a filter that splits or merges data should return S_
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
+

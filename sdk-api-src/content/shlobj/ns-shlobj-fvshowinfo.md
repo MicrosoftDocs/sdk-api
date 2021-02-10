@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
+ - LPFVSHOWINFO
  - FVSHOWINFO
 ---
 
@@ -127,3 +128,4 @@ The address of an interface that has its <a href="/windows/desktop/api/unknwn/nf
 Type: <b>OLECHAR[MAX_PATH]</b>
 
 The address of a string that specifies the name of a new file to display. A file viewer sets this member when a drag-and-drop operation drops a file on the file viewer's window.
+

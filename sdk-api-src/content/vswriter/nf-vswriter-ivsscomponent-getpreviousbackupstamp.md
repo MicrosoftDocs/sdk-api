@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetPreviousBackupStamp
+ - IVssComponent::GetPreviousBackupStamp
 ---
 
 # IVssComponent::GetPreviousBackupStamp
@@ -154,3 +154,4 @@ Typically, the string used to set the value found by
 
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+

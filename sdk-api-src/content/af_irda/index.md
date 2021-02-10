@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - af_irda
  - af_irda/af_irda
+api_name:
+ - af_irda
 ---
 
 # Af_Irda.h header

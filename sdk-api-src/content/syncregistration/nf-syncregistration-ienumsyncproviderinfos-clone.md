@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - IEnumSyncProviderInfos.Clone
+ - IEnumSyncProviderInfos::Clone
 ---
 
 # IEnumSyncProviderInfos::Clone
@@ -105,3 +105,4 @@ There was not enough memory available to clone the enumerator.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>
+

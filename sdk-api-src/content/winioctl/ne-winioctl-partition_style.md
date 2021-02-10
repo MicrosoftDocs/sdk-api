@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _PARTITION_STYLE
  - PARTITION_STYLE
 ---
 
@@ -73,3 +74,4 @@ Partition not formatted in either of the recognized formats—MBR or GPT.
 * [IOCTL_DISK_GET_PARTITION_INFO_EX](ni-winioctl-ioctl_disk_get_partition_info_ex.md)
 * [IOCTL_DISK_SET_PARTITION_INFO_EX](ni-winioctl-ioctl_disk_set_partition_info_ex.md)
 * [PARTITION_INFORMATION_EX](ns-winioctl-partition_information_ex.md)
+

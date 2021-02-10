@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWATTRIBUTE.Skip
- - IEnumCERTVIEWATTRIBUTE.Skip
+ - IEnumCERTVIEWATTRIBUTE::Skip
 ---
 
 # IEnumCERTVIEWATTRIBUTE::Skip
@@ -121,3 +120,4 @@ if (S_OK == hr)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-next">IEnumCERTVIEWATTRIBUTE:Next</a>
+

@@ -43,7 +43,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - INetworkCostManagerEvents
- - INetworkCostManagerEvents.CostChanged
 ---
 
 # INetworkCostManagerEvents interface
@@ -63,3 +62,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkCostManagerEvents</b>
 ## -see-also
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+

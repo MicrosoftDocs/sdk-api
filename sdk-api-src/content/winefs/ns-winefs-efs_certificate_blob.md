@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winefs.h
 api_name:
+ - _CERTIFICATE_BLOB
+ - PEFS_CERTIFICATE_BLOB
  - EFS_CERTIFICATE_BLOB
 ---
 
@@ -112,3 +114,4 @@ The binary certificate. The
 
 
 <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
+

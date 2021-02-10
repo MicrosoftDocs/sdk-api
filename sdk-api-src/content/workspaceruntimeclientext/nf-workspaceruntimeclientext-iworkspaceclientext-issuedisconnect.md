@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Workspaceruntimeclientext.h
 api_name:
- - IWorkspaceClientExt.IssueDisconnect
+ - IWorkspaceClientExt::IssueDisconnect
 ---
 
 # IWorkspaceClientExt::IssueDisconnect
@@ -61,3 +61,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a>
+

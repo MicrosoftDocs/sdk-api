@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterUIInfo.GetIcon
+ - IGetClusterUIInfo::GetIcon
 ---
 
 # IGetClusterUIInfo::GetIcon
@@ -70,3 +70,4 @@ With the <b>GetIcon</b> method, each property page
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusteruiinfo">IGetClusterUIInfo</a>
+

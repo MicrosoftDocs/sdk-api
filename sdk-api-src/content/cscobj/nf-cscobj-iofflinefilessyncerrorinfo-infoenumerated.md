@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSyncErrorInfo.InfoEnumerated
+ - IOfflineFilesSyncErrorInfo::InfoEnumerated
 ---
 
 # IOfflineFilesSyncErrorInfo::InfoEnumerated
@@ -74,3 +74,4 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncerrorinfo">IOfflineFilesSyncErrorInfo</a>
+

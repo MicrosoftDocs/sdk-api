@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_CHANGEPASSWORD_REQUEST
+ - PKERB_CHANGEPASSWORD_REQUEST
  - KERB_CHANGEPASSWORD_REQUEST
 ---
 
@@ -79,3 +81,4 @@ The <b>KERB_CHANGEPASSWORD_REQUEST</b> structure contains information used to ch
 ### -field Impersonating
 
 TRUE if the client is impersonating another <a href="/windows/desktop/SecGloss/s-gly">security principal</a>. Otherwise, false.
+

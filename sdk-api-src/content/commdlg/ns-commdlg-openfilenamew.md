@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
- - OPENFILENAME
- - OPENFILENAMEA
+ - tagOFNW
+ - LPOPENFILENAMEW
  - OPENFILENAMEW
 ---
 
@@ -606,3 +606,4 @@ For compatibility reasons, the Places Bar is hidden if <b>Flags</b> is set to <b
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation">SHGetSpecialFolderLocation</a>
+

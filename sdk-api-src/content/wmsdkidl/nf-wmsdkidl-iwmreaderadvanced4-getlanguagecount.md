@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.GetLanguageCount
+ - IWMReaderAdvanced4::GetLanguageCount
 ---
 
 # IWMReaderAdvanced4::GetLanguageCount
@@ -98,3 +98,4 @@ This method should not be confused with <a href="/windows/desktop/api/wmsdkidl/n
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-getlanguage">IWMReaderAdvanced4::GetLanguage</a>
+

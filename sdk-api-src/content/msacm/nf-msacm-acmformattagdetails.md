@@ -44,8 +44,6 @@ api_location:
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
  - acmFormatTagDetails
- - acmFormatTagDetailsA
- - acmFormatTagDetailsW
 ---
 
 # acmFormatTagDetails function
@@ -152,3 +150,4 @@ At least one parameter is invalid.
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

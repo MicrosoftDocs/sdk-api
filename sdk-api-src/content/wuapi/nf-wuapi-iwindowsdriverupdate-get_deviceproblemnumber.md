@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdate.DeviceProblemNumber
- - IWindowsDriverUpdate.get_DeviceProblemNumber
+ - IWindowsDriverUpdate::get_DeviceProblemNumber
 ---
 
 # IWindowsDriverUpdate::get_DeviceProblemNumber
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>
+

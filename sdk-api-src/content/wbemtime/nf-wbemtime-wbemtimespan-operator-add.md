@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan.operator+
+ - WBEMTimeSpan::operator+
 ---
 
 # WBEMTimeSpan::operator-add
@@ -68,3 +68,4 @@ Reference to a <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">
 ## -returns
 
 The method returns a new <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object, whose time span is equal to the sum of its two <b>WBEMTimeSpan</b> arguments.
+

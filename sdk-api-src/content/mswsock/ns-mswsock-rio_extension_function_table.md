@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mswsockdef.h
 api_name:
+ - _RIO_EXTENSION_FUNCTION_TABLE
+ - PRIO_EXTENSION_FUNCTION_TABLE
  - RIO_EXTENSION_FUNCTION_TABLE
 ---
 
@@ -177,3 +179,4 @@ Winsock registered I/O extension functions must be obtained at run time by makin
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
+

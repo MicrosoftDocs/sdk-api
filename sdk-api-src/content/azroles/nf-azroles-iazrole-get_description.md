@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole.Description
- - IAzRole.get_Description
- - IAzRole.put_Description
- - AzRole.Description
+ - IAzRole::get_Description
 ---
 
 # IAzRole::get_Description

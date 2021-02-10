@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - identitycommon
  - identitycommon/identitycommon
+api_name:
+ - identitycommon
 ---
 
 # Identitycommon.h header

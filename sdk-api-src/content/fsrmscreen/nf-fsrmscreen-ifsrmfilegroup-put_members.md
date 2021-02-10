@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileGroup.Members
- - IFsrmFileGroup.get_Members
- - IFsrmFileGroup.put_Members
+ - IFsrmFileGroup::put_Members
 ---
 
 # IFsrmFileGroup::put_Members
@@ -88,3 +86,4 @@ For an example, see
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff.Tsid
- - IFaxTiff.get_Tsid
+ - IFaxTiff::get_Tsid
 ---
 
 # IFaxTiff::get_Tsid
@@ -86,3 +85,4 @@ The <b>get_Tsid</b> method allocates the memory required for the buffer pointed 
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex.SendDvdStructure
+ - IDiscRecorder2Ex::SendDvdStructure
 ---
 
 # IDiscRecorder2Ex::SendDvdStructure
@@ -387,3 +387,4 @@ For details on specifying the fields of  the structure, see the SEND DISC STRUCT
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-readdvdstructure">IDiscRecorder2Ex::ReadDvdStructure</a>
+

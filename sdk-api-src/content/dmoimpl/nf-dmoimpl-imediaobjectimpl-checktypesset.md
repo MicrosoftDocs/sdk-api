@@ -45,7 +45,7 @@ api_location:
  - Msdmo.lib
  - Msdmo.dll
 api_name:
- - IMediaObjectImpl.CheckTypesSet
+ - IMediaObjectImpl::CheckTypesSet
 ---
 
 # IMediaObjectImpl::CheckTypesSet
@@ -70,3 +70,4 @@ The only two methods in <b>IMediaObject</b> that change the media type on a stre
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>
+

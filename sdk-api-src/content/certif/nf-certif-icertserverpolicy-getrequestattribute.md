@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy.GetRequestAttribute
- - CCertServerPolicy.GetRequestAttribute
+ - ICertServerPolicy::GetRequestAttribute
 ---
 
 # ICertServerPolicy::GetRequestAttribute
@@ -141,3 +140,4 @@ if (NULL != bstrAttribValue)
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
+

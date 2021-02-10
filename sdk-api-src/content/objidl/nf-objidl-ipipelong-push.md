@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IPipeLong.Push
+ - IPipeLong::Push
 ---
 
 # IPipeLong::Push
@@ -75,3 +75,4 @@ When the last of the data has been pushed, the caller must do one last push of <
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipipelong">IPipeLong</a>
+

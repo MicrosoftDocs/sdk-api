@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhTarget.GetNumericalProperty
+ - IFhTarget::GetNumericalProperty
 ---
 
 # IFhTarget::GetNumericalProperty
@@ -84,3 +84,4 @@ The <a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_target_property_type">FH_TAR
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getstringproperty">IFhTarget::GetStringProperty</a>
+

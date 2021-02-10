@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LoadLibraryA
  - libloaderapi/LoadLibraryA
+ - LoadLibrary
+ - libloaderapi/LoadLibrary
 dev_langs:
  - c++
 topic_type:
@@ -54,9 +56,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - LoadLibrary
  - LoadLibraryA
- - LoadLibraryW
+ - LoadLibrary
 ---
 
 # LoadLibraryA function
@@ -268,3 +269,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4.XMUNIBBLE4
+ - XMUNIBBLE4::XMUNIBBLE4
 ---
 
 # XMUNIBBLE4::XMUNIBBLE4(uint16_t)
@@ -110,3 +110,4 @@ The last 4 bits (bits 12-15) of <b>Packed</b> assigned, as an integer, to
 
 
 <a href="/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
+

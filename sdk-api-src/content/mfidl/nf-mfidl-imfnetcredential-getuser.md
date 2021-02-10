@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCredential.GetUser
+ - IMFNetCredential::GetUser
 ---
 
 # IMFNetCredential::GetUser
@@ -100,3 +100,4 @@ If the user name is not available, the method might succeed and set *<i>pcbData<
 
 
 <a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-setuser">IMFNetCredential::SetUser</a>
+

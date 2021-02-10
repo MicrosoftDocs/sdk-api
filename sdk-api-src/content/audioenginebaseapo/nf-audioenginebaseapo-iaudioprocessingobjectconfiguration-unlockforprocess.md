@@ -43,7 +43,7 @@ api_location:
  - Audioenginebaseapo.idl
  - Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObjectConfiguration.UnlockForProcess
+ - IAudioProcessingObjectConfiguration::UnlockForProcess
 ---
 
 ## -description

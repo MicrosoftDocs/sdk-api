@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmExportImport.ImportFileScreenTemplates
- - FsrmExportImport.ImportFileScreenTemplates
+ - IFsrmExportImport::ImportFileScreenTemplates
 ---
 
 # IFsrmExportImport::ImportFileScreenTemplates
@@ -88,3 +87,4 @@ You can also use the <a href="/previous-versions/windows/desktop/api/fsrmscreen/
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmexportimport">IFsrmExportImport</a>
+

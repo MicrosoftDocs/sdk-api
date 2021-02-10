@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
+ - tagSTGTY
  - STGTY
 ---
 
@@ -81,3 +82,4 @@ Indicates that the storage element is a property storage object.
 
 
 <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
+

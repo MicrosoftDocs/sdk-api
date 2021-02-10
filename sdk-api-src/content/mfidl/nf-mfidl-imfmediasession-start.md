@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession.Start
+ - IMFMediaSession::Start
 ---
 
 # IMFMediaSession::Start
@@ -176,3 +176,4 @@ This method is asynchronous. When the method completes, the Media Session sends 
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
+

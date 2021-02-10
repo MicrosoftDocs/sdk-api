@@ -9,6 +9,8 @@ tech.root: multimedia
 f1_keywords:
  - msacm
  - msacm/msacm
+api_name:
+ - msacm
 ---
 
 # Msacm.h header

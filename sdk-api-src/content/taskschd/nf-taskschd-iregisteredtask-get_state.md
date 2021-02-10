@@ -42,8 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask.State
- - IRegisteredTask.get_State
+ - IRegisteredTask::get_State
 ---
 
 # IRegisteredTask::get_State
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

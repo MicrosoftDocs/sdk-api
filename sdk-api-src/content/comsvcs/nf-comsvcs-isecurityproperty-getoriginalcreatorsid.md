@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityProperty.GetOriginalCreatorSID
+ - ISecurityProperty::GetOriginalCreatorSID
 ---
 
 # ISecurityProperty::GetOriginalCreatorSID
@@ -98,3 +98,4 @@ The current object does not have a context associated with it because either the
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
+

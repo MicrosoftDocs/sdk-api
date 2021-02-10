@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IInputObjectSite.OnFocusChangeIS
+ - IInputObjectSite::OnFocusChangeIS
 ---
 
 # IInputObjectSite::OnFocusChangeIS
@@ -75,3 +75,4 @@ Returns S_OK if the method was successful, or a COM-defined error code otherwise
 ## -remarks
 
 The calling object should call this method whenever one of its windows gains or loses the input focus.
+

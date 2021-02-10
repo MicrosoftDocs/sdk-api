@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferDataCounters.ResetData
+ - IStreamBufferDataCounters::ResetData
 ---
 
 # IStreamBufferDataCounters::ResetData
@@ -79,3 +79,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferdatacounters">IStreamBufferDataCounters Interface</a>
+

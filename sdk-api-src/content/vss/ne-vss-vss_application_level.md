@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_APPLICATION_LEVEL
+ - PVSS_APPLICATION_LEVEL
  - VSS_APPLICATION_LEVEL
 ---
 
@@ -116,3 +118,4 @@ The application level of a writer is set by
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
+

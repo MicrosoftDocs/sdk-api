@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectConstructString.get_ConstructString
+ - IObjectConstructString::get_ConstructString
 ---
 
 # IObjectConstructString::get_ConstructString
@@ -83,3 +83,4 @@ You can use this method when implementing <a href="/windows/desktop/api/comsvcs/
 
 
 <a href="/windows/desktop/cossdk/specifying-an-object-constructor-string-for-a-component">Specifying an Object Constructor String for a Component</a>
+

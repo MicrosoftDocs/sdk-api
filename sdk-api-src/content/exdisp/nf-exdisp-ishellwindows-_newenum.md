@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IShellWindows._NewEnum
+ - IShellWindows::_NewEnum
 ---
 
 # IShellWindows::_NewEnum
@@ -78,3 +78,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-get_count">IShellWindows::get_Count</a>
+

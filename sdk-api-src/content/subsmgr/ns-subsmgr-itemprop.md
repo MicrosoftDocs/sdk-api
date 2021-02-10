@@ -46,6 +46,8 @@ api_type:
 api_location:
  - subsmgr.h
 api_name:
+ - _tagITEMPROP
+ - LPITEMPROP
  - ITEMPROP
 ---
 
@@ -105,3 +107,4 @@ To preview attachments with a third-party protocol handler on computers running 
 ## -see-also
 
 <a href="/windows/desktop/search/iitempropertybag">IItemPropertyBag</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetBinaryTypeA
  - winbase/GetBinaryTypeA
+ - GetBinaryType
+ - winbase/GetBinaryType
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetBinaryType
  - GetBinaryTypeA
- - GetBinaryTypeW
+ - GetBinaryType
 ---
 
 # GetBinaryTypeA function
@@ -256,3 +257,4 @@ Yes
 
 
 <a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+

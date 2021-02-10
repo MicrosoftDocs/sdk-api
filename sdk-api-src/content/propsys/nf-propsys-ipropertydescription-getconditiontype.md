@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription.GetConditionType
+ - IPropertyDescription::GetConditionType
 ---
 
 # IPropertyDescription::GetConditionType
@@ -82,3 +82,4 @@ For more information, see the <i>conditionType</i> attribute of the <a href="/wi
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
+

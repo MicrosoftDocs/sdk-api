@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateTransform3DGroup
+ - IDCompositionDevice2::CreateTransform3DGroup
 ---
 
 # IDCompositionDevice2::CreateTransform3DGroup
@@ -93,3 +93,4 @@ The array entries in a 3D transform group cannot be changed. However, each trans
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
+

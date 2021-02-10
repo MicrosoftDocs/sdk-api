@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecLeakyBucket.SetBufferFullnessBits
+ - IWMCodecLeakyBucket::SetBufferFullnessBits
 ---
 
 # IWMCodecLeakyBucket::SetBufferFullnessBits
@@ -67,3 +67,4 @@ This method always returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-getbufferfullnessbits">IWMCodecLeakyBucket::GetBufferFullnessBits</a>
+

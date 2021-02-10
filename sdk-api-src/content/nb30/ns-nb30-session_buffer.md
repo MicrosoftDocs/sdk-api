@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Nb30.h
 api_name:
+ - _SESSION_BUFFER
+ - PSESSION_BUFFER
  - SESSION_BUFFER
 ---
 
@@ -151,7 +153,6 @@ Specifies the number of pending <b>NCBRECV</b> commands.
 
 Specifies the number of pending <b>NCBSEND</b> and <b>NCBCHAINSEND</b> commands.
 
-
 ## -see-also
 
 <b></b>
@@ -171,3 +172,4 @@ Specifies the number of pending <b>NCBSEND</b> and <b>NCBCHAINSEND</b> commands.
 
 
 <a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
+

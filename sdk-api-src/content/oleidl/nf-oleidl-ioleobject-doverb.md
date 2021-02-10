@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.DoVerb
+ - IOleObject::DoVerb
 ---
 
 # IOleObject::DoVerb
@@ -346,3 +346,4 @@ When showing a window as a result of <b>IOleObject::DoVerb</b>, it is very impor
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a>
+

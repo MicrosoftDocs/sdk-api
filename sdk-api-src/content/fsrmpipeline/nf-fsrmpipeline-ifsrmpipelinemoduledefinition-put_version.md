@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.Version
- - IFsrmPipelineModuleDefinition.get_Version
- - IFsrmPipelineModuleDefinition.put_Version
+ - IFsrmPipelineModuleDefinition::put_Version
 ---
 
 # IFsrmPipelineModuleDefinition::put_Version
@@ -65,3 +63,4 @@ This property is optional. There is no restriction to the version's format.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
+

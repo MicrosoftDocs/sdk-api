@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManager.GetSystemProfileCount
+ - IWMProfileManager::GetSystemProfileCount
 ---
 
 # IWMProfileManager::GetSystemProfileCount
@@ -127,3 +127,4 @@ The <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager2-setsys
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
+

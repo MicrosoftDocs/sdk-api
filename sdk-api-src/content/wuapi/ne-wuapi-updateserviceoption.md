@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
+ - tagUpdateServiceOption
  - UpdateServiceOption
 ---
 
@@ -71,3 +72,4 @@ The <b>UpdateServiceOption</b> enumeration  may require that you update Windows 
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-addscanpackageservice">IUpdateServiceManager::AddScanPackageService</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_CD_SECTOR_TYPE
+ - PIMAPI_CD_SECTOR_TYPE
  - IMAPI_CD_SECTOR_TYPE
 ---
 
@@ -111,3 +113,4 @@ Some sector types are not compatible with other sector types within a single ima
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-irawcdimagecreator">IRawCDImageCreator</a>
+

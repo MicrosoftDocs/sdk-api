@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateMatrixTransform
+ - IXpsOMObjectFactory::CreateMatrixTransform
 ---
 
 # IXpsOMObjectFactory::CreateMatrixTransform
@@ -160,3 +160,4 @@ else
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
+

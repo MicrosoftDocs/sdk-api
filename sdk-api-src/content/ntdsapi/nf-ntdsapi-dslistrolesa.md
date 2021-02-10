@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsListRolesA
  - ntdsapi/DsListRolesA
+ - DsListRoles
+ - ntdsapi/DsListRoles
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsListRoles
  - DsListRolesA
- - DsListRolesW
+ - DsListRoles
 ---
 
 # DsListRolesA function
@@ -124,3 +125,4 @@ Individual name conversion errors are reported in the returned <a href="/windows
 
 > [!NOTE]
 > The ntdsapi.h header defines DsListRoles as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

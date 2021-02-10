@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp.CustomStrokes
- - IInkDisp.get_CustomStrokes
- - InkDisp.get_CustomStrokes
+ - IInkDisp::get_CustomStrokes
 ---
 
 # IInkDisp::get_CustomStrokes
@@ -76,3 +74,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+

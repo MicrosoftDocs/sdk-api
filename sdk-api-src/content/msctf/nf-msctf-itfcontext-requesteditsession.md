@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.RequestEditSession
+ - ITfContext::RequestEditSession
 ---
 
 # ITfContext::RequestEditSession
@@ -226,3 +226,4 @@ A synchronous read/write request will fail if made when processing one of the fo
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession interface](nn-msctf-itfeditsession.md), [ITfStatusSink::OnStatusChange](nf-msctf-itfstatussink-onstatuschange.md), [ITfTextEditSink::OnEndEdit](nf-msctf-itftexteditsink-onendedit.md), [ITfTextLayoutSink::OnLayoutChange](nf-msctf-itftextlayoutsink-onlayoutchange.md)
+

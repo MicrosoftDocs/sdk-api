@@ -42,7 +42,7 @@ api_type:
 api_location:
  - functiondiscoveryapi.h
 api_name:
- - IFunctionDiscoveryNotification.OnUpdate
+ - IFunctionDiscoveryNotification::OnUpdate
 ---
 
 # IFunctionDiscoveryNotification::OnUpdate
@@ -144,3 +144,4 @@ HRESULT STDMETHODCALLTYPE CMyNotificationListener::OnUpdate(
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a>
+

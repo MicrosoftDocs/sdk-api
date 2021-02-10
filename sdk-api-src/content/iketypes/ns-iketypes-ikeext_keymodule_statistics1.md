@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_KEYMODULE_STATISTICS1_
  - IKEEXT_KEYMODULE_STATISTICS1
 ---
 
@@ -90,3 +91,4 @@ Current Extended Mode negotiation time.  This member is applicable for AuthIp on
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

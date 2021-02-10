@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl.h
 api_name:
- - IAccessibilityDockingServiceCallback.Undocked
+ - IAccessibilityDockingServiceCallback::Undocked
 ---
 
 # IAccessibilityDockingServiceCallback::Undocked
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservicecallback">IAccessibilityDockingServiceCallback</a>
+

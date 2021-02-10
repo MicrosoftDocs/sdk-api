@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcCertificateSet.Remove
+ - IOpcCertificateSet::Remove
 ---
 
 # IOpcCertificateSet::Remove
@@ -134,3 +134,4 @@ The <i>certificate</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
+

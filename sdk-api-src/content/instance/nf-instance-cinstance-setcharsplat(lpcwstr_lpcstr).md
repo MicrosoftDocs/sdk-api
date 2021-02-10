@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance.SetCharSplat
+ - CInstance::SetCharSplat
 ---
 
 # CInstance::SetCharSplat(LPCWSTR,LPCSTR)
@@ -80,3 +80,4 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attem
 
 
 <a href="/windows/desktop/WmiSdk/cinstance-setcharsplat">CInstance::SetCharSplat</a>
+

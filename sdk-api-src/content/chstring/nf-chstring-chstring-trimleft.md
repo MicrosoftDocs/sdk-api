@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.TrimLeft
- - ?TrimLeft@CHString@@QAEXXZ
- - ?TrimLeft@CHString@@QEAAXXZ
+ - CHString::TrimLeft
 ---
 
 # CHString::TrimLeft
@@ -74,3 +72,4 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-trimright">CHString::TrimRight</a>
+

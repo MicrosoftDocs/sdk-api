@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceSpecificProperty.GetType
+ - IDeviceSpecificProperty::GetType
 ---
 
 # IDeviceSpecificProperty::GetType
@@ -83,3 +83,4 @@ Pointer <i>pVType</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicespecificproperty">IDeviceSpecificProperty Interface</a>
+

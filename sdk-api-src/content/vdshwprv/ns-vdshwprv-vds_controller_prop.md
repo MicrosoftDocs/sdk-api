@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_CONTROLLER_PROP
+ - PVDS_CONTROLLER_PROP
  - VDS_CONTROLLER_PROP
 ---
 
@@ -145,3 +147,4 @@ The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getpropert
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
+

@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPort.Name
- - INetFwOpenPort.get_Name
- - INetFwOpenPort.put_Name
+ - INetFwOpenPort::put_Name
 ---
 
 # INetFwOpenPort::put_Name
@@ -68,3 +66,4 @@ This property is required.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
+

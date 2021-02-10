@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tspubplugin2com.h
 api_name:
- - ItsPubPlugin2.ResolvePersonalDesktop
+ - ItsPubPlugin2::ResolvePersonalDesktop
 ---
 
 # ItsPubPlugin2::ResolvePersonalDesktop
@@ -87,3 +87,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/tspubplugin2com/nn-tspubplugin2com-itspubplugin2">ItsPubPlugin2</a>
+

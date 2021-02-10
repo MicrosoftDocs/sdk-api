@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLDevice.GetParentDevice
+ - IDMLDevice::GetParentDevice
 ---
 
 # IDMLDevice::GetParentDevice
@@ -75,3 +75,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)
+

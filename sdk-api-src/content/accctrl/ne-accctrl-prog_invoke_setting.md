@@ -46,6 +46,8 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
+ - _PROGRESS_INVOKE_SETTING
+ - PPROG_INVOKE_SETTING
  - PROG_INVOKE_SETTING
 ---
 
@@ -84,3 +86,4 @@ Retry the tree operation.
 ### -field ProgressInvokePrePostError
 
 Invoke the progress function before and after applying security on the object and on the error.
+

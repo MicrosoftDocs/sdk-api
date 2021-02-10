@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.SetPalette
+ - IWICBitmapEncoder::SetPalette
 ---
 
 # IWICBitmapEncoder::SetPalette
@@ -72,3 +72,4 @@ Returns WINCODEC_ERR_UNSUPPORTEDOPERATION if the feature is not supported by the
 ## -remarks
 
 Only GIF images support an optional global palette, and you must set the global palette before adding any frames to the image. You only need to set the palette for indexed pixel formats.
+

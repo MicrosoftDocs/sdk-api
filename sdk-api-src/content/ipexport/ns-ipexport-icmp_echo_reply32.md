@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
+ - icmp_echo_reply32
+ - PICMP_ECHO_REPLY32
  - ICMP_ECHO_REPLY32
 ---
 
@@ -390,3 +392,4 @@ The <b>ICMP_ECHO_REPLY32</b> structure is defined in the <i>Ipexport.h</i> heade
 
 
 <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2ex">IcmpSendEcho2Ex</a>
+

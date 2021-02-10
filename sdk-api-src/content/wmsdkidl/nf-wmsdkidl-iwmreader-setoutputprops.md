@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader.SetOutputProps
+ - IWMReader::SetOutputProps
 ---
 
 # IWMReader::SetOutputProps
@@ -125,3 +125,4 @@ If this method is called while the reader is running, an <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputprops">IWMReader::GetOutputProps</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpAddress.GetTTL
+ - IWSDUdpAddress::GetTTL
 ---
 
 # IWSDUdpAddress::GetTTL
@@ -99,3 +99,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.SenderDepartment
- - IFaxDoc.get_SenderDepartment
- - IFaxDoc.put_SenderDepartment
+ - IFaxDoc::get_SenderDepartment
 ---
 
 # IFaxDoc::get_SenderDepartment
@@ -79,3 +77,4 @@ The <b>get_SenderDepartment</b> method allocates the memory required for the buf
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

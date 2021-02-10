@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.SetGraphicsPath
+ - PathGradientBrush::SetGraphicsPath
 ---
 
 # PathGradientBrush::SetGraphicsPath
@@ -64,3 +64,4 @@ Type: <b>const GraphicsPath*</b>
 Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 This method is not implemented.
+

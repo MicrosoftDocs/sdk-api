@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMultiMediaStream.GetEndOfStreamEventHandle
+ - IMultiMediaStream::GetEndOfStreamEventHandle
 ---
 
 # IMultiMediaStream::GetEndOfStreamEventHandle
@@ -107,3 +107,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
+

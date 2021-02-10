@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0025
  - ADS_SEARCHPREF_ENUM
 ---
 
@@ -597,3 +598,4 @@ HRESULT SetSearchPreferences2(
 
 <a href="/windows/desktop/AD/retrieving-deleted-objects">Retrieving
   Deleted Objects</a>
+

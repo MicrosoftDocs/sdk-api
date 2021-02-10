@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_THREAD_INFO
+ - PMINIDUMP_THREAD_INFO
  - MINIDUMP_THREAD_INFO
 ---
 

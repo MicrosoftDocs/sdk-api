@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - __MIDL___MIDL_itf_strmif_0000_0138_0001
  - AM_DVD_RENDERSTATUS
 ---
 
@@ -95,3 +96,4 @@ Combination of [AM_DVD_STREAM_FLAGS](/windows/desktop/api/strmif/ne-strmif-am_dv
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a>
+

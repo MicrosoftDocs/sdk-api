@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SEC_WINNT_AUTH_SHORT_VECTOR
+ - PSEC_WINNT_AUTH_SHORT_VECTOR
  - SEC_WINNT_AUTH_SHORT_VECTOR
 ---
 
@@ -65,3 +67,4 @@ The number of characters before the beginning of the data in a <a href="/windows
 ### -field ShortArrayCount
 
 The  number of characters in the array.
+

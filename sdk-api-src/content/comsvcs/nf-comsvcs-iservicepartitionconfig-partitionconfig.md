@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServicePartitionConfig.PartitionConfig
+ - IServicePartitionConfig::PartitionConfig
 ---
 
 # IServicePartitionConfig::PartitionConfig
@@ -69,3 +69,4 @@ The user must belong to any partition that is used to run the enclosed work.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepartitionconfig">IServicePartitionConfig</a>
+

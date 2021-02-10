@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDDrawExclModeVideoCallback.OnUpdateColorKey
+ - IDDrawExclModeVideoCallback::OnUpdateColorKey
 ---
 
 # IDDrawExclModeVideoCallback::OnUpdateColorKey
@@ -103,3 +103,4 @@ One of the parameters is invalid.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideocallback">IDDrawExclModeVideoCallback Interface</a>
+

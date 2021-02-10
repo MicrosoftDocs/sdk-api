@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFRealTimeClientEx.RegisterThreadsEx
+ - IMFRealTimeClientEx::RegisterThreadsEx
 ---
 
 # IMFRealTimeClientEx::RegisterThreadsEx
@@ -90,3 +90,4 @@ If the value of <code>*pdwTaskIndex</code> is nonzero on input, the parameter co
 
 
 <a href="/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
+

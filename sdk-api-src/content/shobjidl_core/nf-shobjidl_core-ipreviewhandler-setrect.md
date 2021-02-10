@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPreviewHandler.SetRect
+ - IPreviewHandler::SetRect
 ---
 
 # IPreviewHandler::SetRect
@@ -73,3 +73,4 @@ If called before the preview handler window has been created, the new <b>RECT</b
 If called after the preview handler window has been created, the preview handler window must be resized.
 
 If the preview handler is already rendering, then the preview must be resized without interrupting the render process.
+

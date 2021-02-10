@@ -41,7 +41,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.SetSegments
+ - IXpsOMGeometryFigure::SetSegments
 ---
 
 # IXpsOMGeometryFigure::SetSegments
@@ -599,3 +599,4 @@ UpdateSegmentData (
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_type">XPS_SEGMENT_TYPE</a>
+

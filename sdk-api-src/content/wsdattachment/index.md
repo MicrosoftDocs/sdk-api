@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - wsdattachment
  - wsdattachment/wsdattachment
+api_name:
+ - wsdattachment
 ---
 
 # Wsdattachment.h header

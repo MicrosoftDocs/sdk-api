@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _HMAC_Info
+ - PHMAC_INFO
  - HMAC_INFO
 ---
 
@@ -89,3 +91,4 @@ The count of bytes in <b>pbOuterString</b>. The CSP uses the default outer strin
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsethashparam">CryptSetHashParam</a>
+

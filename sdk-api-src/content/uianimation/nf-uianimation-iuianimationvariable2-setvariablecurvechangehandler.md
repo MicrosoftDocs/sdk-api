@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.SetVariableCurveChangeHandler
+ - IUIAnimationVariable2::SetVariableCurveChangeHandler
 ---
 
 # IUIAnimationVariable2::SetVariableCurveChangeHandler
@@ -69,3 +69,4 @@ Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href=
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariablecurvechangehandler2">IUIAnimationVariableCurveChangeHandler2</a>
+

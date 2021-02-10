@@ -42,7 +42,7 @@ api_type:
 api_location:
  - structuredquerycondition.h
 api_name:
- - ICondition.Clone
+ - ICondition::Clone
 ---
 
 # ICondition::Clone
@@ -89,3 +89,4 @@ Because there are no methods for modifying an <a href="/windows/desktop/api/stru
 
 
 <b>Reference</b>
+

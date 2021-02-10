@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mscandui.dll
 api_name:
- - ITfContextKeyEventSink.OnTestKeyUp
+ - ITfContextKeyEventSink::OnTestKeyUp
 ---
 
 # ITfContextKeyEventSink::OnTestKeyUp
@@ -91,3 +91,4 @@ The method was successful.
 ## -see-also
 
 [ITfContextKeyEventSink interface](nn-msctf-itfcontextkeyeventsink.md), [WM_KEYUP](/windows/desktop/inputdev/wm-keyup)
+

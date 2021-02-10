@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICameraControl.get_Zoom
+ - ICameraControl::get_Zoom
 ---
 
 # ICameraControl::get_Zoom
@@ -78,3 +78,4 @@ This method returns the optical zoom level only. To get the digital zoom level, 
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
+

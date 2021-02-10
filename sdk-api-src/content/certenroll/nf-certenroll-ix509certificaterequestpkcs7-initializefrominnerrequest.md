@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs7.InitializeFromInnerRequest
+ - IX509CertificateRequestPkcs7::InitializeFromInnerRequest
 ---
 
 # IX509CertificateRequestPkcs7::InitializeFromInnerRequest
@@ -102,3 +102,4 @@ This method sets the inner request object to the PKCS #10 request specified on i
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
+

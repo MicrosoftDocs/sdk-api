@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - _ComponentSummary
  - ComponentSummary
 ---
 
@@ -83,3 +84,4 @@ The name of the COM+ application, or the application name property configured fo
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
+

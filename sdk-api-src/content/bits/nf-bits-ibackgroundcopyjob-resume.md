@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.Resume
+ - IBackgroundCopyJob::Resume
 ---
 
 # IBackgroundCopyJob::Resume
@@ -114,3 +114,4 @@ If a job that is in the BG_JOB_STATE_TRANSIENT_ERROR or BG_JOB_STATE_ERROR state
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">IBackgroundCopyJob::Suspend</a>
+

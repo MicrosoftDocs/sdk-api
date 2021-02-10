@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StringCbVPrintf_lExA
  - strsafe/StringCbVPrintf_lExA
+ - StringCbVPrintf_lEx
+ - strsafe/StringCbVPrintf_lEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - StrSafe.h
 api_name:
- - StringCbVPrintf_lEx
  - StringCbVPrintf_lExA
- - StringCbVPrintf_lExW
+ - StringCbVPrintf_lEx
 ---
 
 # StringCbVPrintf_lExA function
@@ -213,3 +214,4 @@ In order to use this function, you must define the following macro in your heade
 
 > [!NOTE]
 > The strsafe.h header defines StringCbVPrintf_lEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

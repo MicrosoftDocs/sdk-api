@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcDigitalSignature.GetSignatureId
+ - IOpcDigitalSignature::GetSignatureId
 ---
 
 # IOpcDigitalSignature::GetSignatureId
@@ -146,3 +146,4 @@ To access the Id before the signature is generated, call the <a href="/previous-
 
 
 <b>Reference</b>
+

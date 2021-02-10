@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator.BeginFrame
+ - IAMVideoAccelerator::BeginFrame
 ---
 
 # IAMVideoAccelerator::BeginFrame
@@ -166,3 +166,4 @@ For each call to <b>BeginFrame</b>, the decoder must make a corresponding call t
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
+

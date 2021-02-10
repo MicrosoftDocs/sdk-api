@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolShadowCallback.InvokeTargetShadow
+ - IWTSProtocolShadowCallback::InvokeTargetShadow
 ---
 
 # IWTSProtocolShadowCallback::InvokeTargetShadow
@@ -113,3 +113,4 @@ The four parameters <i>pParam1</i>, <i>pParam2</i>, <i>pParam3</i>, and <i>pPara
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolshadowcallback">IWTSProtocolShadowCallback</a>
+

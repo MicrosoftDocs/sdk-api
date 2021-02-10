@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFRATE_DIRECTION
  - MFRATE_DIRECTION
 ---
 
@@ -75,3 +76,4 @@ Reverse playback.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

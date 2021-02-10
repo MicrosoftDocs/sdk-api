@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.GetEmbeddedObject
+ - ITextRange::GetEmbeddedObject
 ---
 
 # ITextRange::GetEmbeddedObject
@@ -114,3 +114,4 @@ If the start of this range does not have an embedded object or if the range sele
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

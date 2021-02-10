@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - SecureMemoryCacheCallback
+ - PSECURE_MEMORY_CACHE_CALLBACK
 ---
 
 # PSECURE_MEMORY_CACHE_CALLBACK callback function
@@ -116,3 +116,4 @@ To unregister the callback function, use the
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-removesecurememorycachecallback">RemoveSecureMemoryCacheCallback</a>
+

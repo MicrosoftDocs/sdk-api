@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceObject.UIDeactivate
+ - IOleInPlaceObject::UIDeactivate
 ---
 
 # IOleInPlaceObject::UIDeactivate
@@ -105,3 +105,4 @@ Resources such as menus and windows can be either cleaned up or kept in a hidden
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
+

@@ -44,7 +44,7 @@ api_location:
  - Fastprox.dll
  - Wbemess.dll
 api_name:
- - IWbemObjectAccess.GetPropertyInfoByHandle
+ - IWbemObjectAccess::GetPropertyInfoByHandle
 ---
 
 # IWbemObjectAccess::GetPropertyInfoByHandle
@@ -76,3 +76,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
+

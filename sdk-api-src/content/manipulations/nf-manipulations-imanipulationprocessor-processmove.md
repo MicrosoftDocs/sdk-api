@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor.ProcessMove
+ - IManipulationProcessor::ProcessMove
 ---
 
 # IManipulationProcessor::ProcessMove
@@ -94,3 +94,4 @@ This method takes a timestamp using system time rather than from the touch hardw
 
 
 <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup">ProcessUp</a>
+

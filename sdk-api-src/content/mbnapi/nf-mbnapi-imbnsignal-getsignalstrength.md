@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSignal.GetSignalStrength
+ - IMbnSignal::GetSignalStrength
 ---
 
 # IMbnSignal::GetSignalStrength
@@ -143,3 +143,4 @@ For recoverable errors <b>E_MBN_PIN_REQUIRED</b>, and <b>E_MBN_RADIO_POWER_OFF</
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a>
+

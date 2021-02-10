@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdCreateDIBSection
- - GdiEntry9
 ---
 
 # DdCreateDIBSection function
@@ -111,3 +110,4 @@ Applications are advised to use <a href="/windows/desktop/api/ddraw/nn-ddraw-idi
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
+ - _WSACOMPLETION
+ - PWSACOMPLETION
  - WSACOMPLETION
 ---
 
@@ -167,3 +169,4 @@ For a blocking function, set the <b>WSACOMPLETION</b> structure to null.
 ## -see-also
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsanspioctl">WSANSPIoctl</a>
+

@@ -41,8 +41,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - IOptionDescription.Labels
- - IOptionDescription.get_Labels
+ - IOptionDescription::get_Labels
 ---
 
 # IOptionDescription::get_Labels
@@ -67,3 +66,4 @@ When there is a single label, the valid values for this option are 0 (not chosen
 
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
+

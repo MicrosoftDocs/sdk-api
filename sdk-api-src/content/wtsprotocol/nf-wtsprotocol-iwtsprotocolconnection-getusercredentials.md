@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetUserCredentials
+ - IWTSProtocolConnection::GetUserCredentials
 ---
 
 # IWTSProtocolConnection::GetUserCredentials
@@ -71,3 +71,4 @@ If your protocol returns an <b>HRESULT</b> error code, or the user provides inco
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

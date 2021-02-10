@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation.TransferObjectData
+ - IWMDMOperation::TransferObjectData
 ---
 
 # IWMDMOperation::TransferObjectData
@@ -258,3 +258,4 @@ HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
 
 
 <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
+

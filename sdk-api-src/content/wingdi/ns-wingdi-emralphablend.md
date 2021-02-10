@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRALPHABLEND
+ - PEMRALPHABLEND
  - EMRALPHABLEND
 ---
 
@@ -157,3 +159,4 @@ This structure is to be used during metafile playback.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+

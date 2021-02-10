@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker.IsSystemMoniker
+ - IMoniker::IsSystemMoniker
 ---
 
 # IMoniker::IsSystemMoniker
@@ -120,3 +120,4 @@ Your implementation of this method must return MKSYS_NONE. You cannot use this f
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx.MaxDisconnectionTime
- - IADsTSUserEx.get_MaxDisconnectionTime
- - IADsTSUserEx.put_MaxDisconnectionTime
+ - IADsTSUserEx::get_MaxDisconnectionTime
 ---
 
 # IADsTSUserEx::get_MaxDisconnectionTime
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
+

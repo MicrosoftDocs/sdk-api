@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iphlpapi.h
 api_name:
+ - NET_ADDRESS_FORMAT_
  - NET_ADDRESS_FORMAT
 ---
 
@@ -85,3 +86,4 @@ The [NET_ADDRESS_INFO](/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_inf
 
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _MPRAPI_ADMIN_DLL_CALLBACKS
+ - PMPRAPI_ADMIN_DLL_CALLBACKS
  - MPRAPI_ADMIN_DLL_CALLBACKS
 ---
 
@@ -273,3 +275,4 @@ The following restrictions apply to the callback functions in the <b>MPRAPI_ADMI
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

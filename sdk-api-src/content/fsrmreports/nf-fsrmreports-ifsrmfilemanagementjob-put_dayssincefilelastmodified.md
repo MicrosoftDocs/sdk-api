@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.DaysSinceFileLastModified
- - IFsrmFileManagementJob.get_DaysSinceFileLastModified
- - IFsrmFileManagementJob.put_DaysSinceFileLastModified
+ - IFsrmFileManagementJob::put_DaysSinceFileLastModified
 ---
 
 # IFsrmFileManagementJob::put_DaysSinceFileLastModified
@@ -76,3 +74,4 @@ The job considers this condition met for a file if the file's last modified date
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

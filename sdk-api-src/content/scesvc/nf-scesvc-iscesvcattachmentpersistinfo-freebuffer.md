@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsecedit.dll
 api_name:
- - ISceSvcAttachmentPersistInfo.FreeBuffer
+ - ISceSvcAttachmentPersistInfo::FreeBuffer
 ---
 
 # ISceSvcAttachmentPersistInfo::FreeBuffer
@@ -74,3 +74,4 @@ You should call this method to free the data buffer returned by
 
 
 <a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">ISceSvcAttachmentPersistInfo::Save</a>
+

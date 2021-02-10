@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Websocket.h
 api_name:
+ - _WEB_SOCKET_PROPERTY
+ - PWEB_SOCKET_PROPERTY
  - WEB_SOCKET_PROPERTY
 ---
 
@@ -91,3 +93,4 @@ The size, in bytes, of the property pointed to by <b>pvValue</b>.
 
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
+

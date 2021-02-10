@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth.Open
+ - IDirectMusicSynth::Open
 ---
 
 # IDirectMusicSynth::Open
@@ -139,3 +139,4 @@ Avoid confusing the term DirectMusic "port" with a DMus port driver. A DirectMus
 
 
 <a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
+

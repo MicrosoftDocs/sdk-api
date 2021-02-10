@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - _MFBYTESTREAM_SEEK_ORIGIN
  - MFBYTESTREAM_SEEK_ORIGIN
 ---
 
@@ -71,3 +72,4 @@ The seek position is specified relative to the current read/write position in th
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge.SetLocalTickCount
+ - ISyncKnowledge::SetLocalTickCount
 ---
 
 # ISyncKnowledge::SetLocalTickCount
@@ -106,3 +106,4 @@ The tick count must be current before the knowledge is sent to another replica. 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

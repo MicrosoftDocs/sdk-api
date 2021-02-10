@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IRecordInfo.GetFieldNames
+ - IRecordInfo::GetFieldNames
 ---
 
 # IRecordInfo::GetFieldNames
@@ -127,3 +127,4 @@ In case of out of memory, <i>pcNames</i> points to error code.
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

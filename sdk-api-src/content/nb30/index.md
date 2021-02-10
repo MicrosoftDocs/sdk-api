@@ -9,6 +9,8 @@ tech.root: netbios
 f1_keywords:
  - nb30
  - nb30/nb30
+api_name:
+ - nb30
 ---
 
 # Nb30.h header

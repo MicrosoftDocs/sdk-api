@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider.OptionIds
- - ISpellCheckProvider.get_OptionIds
+ - ISpellCheckProvider::get_OptionIds
 ---
 
 # ISpellCheckProvider::get_OptionIds
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
+

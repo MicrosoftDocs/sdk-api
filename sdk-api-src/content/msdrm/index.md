@@ -9,6 +9,8 @@ tech.root: rm
 f1_keywords:
  - msdrm
  - msdrm/msdrm
+api_name:
+ - msdrm
 ---
 
 # Msdrm.h header

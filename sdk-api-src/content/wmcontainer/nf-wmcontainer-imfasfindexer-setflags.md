@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer.SetFlags
+ - IMFASFIndexer::SetFlags
 ---
 
 # IMFASFIndexer::SetFlags
@@ -103,3 +103,4 @@ The indexer object was  initialized before setting flags for it.  For more infor
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
+

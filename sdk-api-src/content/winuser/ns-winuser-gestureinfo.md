@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagGESTUREINFO
+ - PGESTUREINFO
  - GESTUREINFO
 ---
 
@@ -266,3 +268,4 @@ The following type is defined to represent a constant pointer to a <b>GESTUREINF
 
 
 <a href="/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Qmgr.h
 api_name:
+ - _FILESETINFO
  - FILESETINFO
 ---
 
@@ -69,3 +70,4 @@ Null-terminated string that contains the name of the file on the client. The fil
 ### -field dwSizeHint
 
 Not supported.
+

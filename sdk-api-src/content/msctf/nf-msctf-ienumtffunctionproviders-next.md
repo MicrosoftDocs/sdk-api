@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfFunctionProviders.Next
+ - IEnumTfFunctionProviders::Next
 ---
 
 # IEnumTfFunctionProviders::Next
@@ -113,3 +113,4 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfFunctionProviders interface](nn-msctf-ienumtffunctionproviders.md), [ITfFunctionProvider interface](nn-msctf-itffunctionprovider.md)
+

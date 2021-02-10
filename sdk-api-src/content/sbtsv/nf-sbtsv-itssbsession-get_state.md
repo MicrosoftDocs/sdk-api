@@ -42,9 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbSession.State
- - ITsSbSession.get_State
- - ITsSbSession.put_State
+ - ITsSbSession::get_State
 ---
 
 # ITsSbSession::get_State
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a>
+

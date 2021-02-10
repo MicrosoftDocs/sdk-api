@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib.ReleaseTLibAttr
+ - ITypeLib::ReleaseTLibAttr
 ---
 
 # ITypeLib::ReleaseTLibAttr
@@ -61,3 +61,4 @@ The TLIBATTR to be freed.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
+

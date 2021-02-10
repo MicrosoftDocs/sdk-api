@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Ntdef.h
 api_name:
- - ANSI_STRING
+ - _STRING
+ - STRING
 ---
 
 # STRING structure
@@ -115,3 +116,4 @@ The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that
 
 
 [UNICODE_STRING](./ns-ntdef-_unicode_string.md)
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkConnection.GetConnectionId
+ - INetworkConnection::GetConnectionId
 ---
 
 # INetworkConnection::GetConnectionId
@@ -65,3 +65,4 @@ Returns S_OK if the method succeeds.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
+

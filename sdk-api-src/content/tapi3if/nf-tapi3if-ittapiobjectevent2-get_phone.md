@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPIObjectEvent2.get_Phone
+ - ITTAPIObjectEvent2::get_Phone
 ---
 
 # ITTAPIObjectEvent2::get_Phone
@@ -78,3 +78,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent2">ITTAPIObjectEvent2</a>
+

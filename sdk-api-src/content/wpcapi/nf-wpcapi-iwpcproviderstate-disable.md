@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCProviderState.Disable
+ - IWPCProviderState::Disable
 ---
 
 # IWPCProviderState::Disable
@@ -67,3 +67,4 @@ This method is called for every registered provider when the current provider ch
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderstate">IWPCProviderState</a>
+

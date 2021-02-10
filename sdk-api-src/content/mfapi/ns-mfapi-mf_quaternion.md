@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - _MF_QUATERNION
  - MF_QUATERNION
 ---
 
@@ -75,3 +76,4 @@ W component of the vector.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

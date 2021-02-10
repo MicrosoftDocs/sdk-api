@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetFileSecurityA
  - winbase/SetFileSecurityA
+ - SetFileSecurity
+ - winbase/SetFileSecurity
 dev_langs:
  - c++
 topic_type:
@@ -51,9 +53,8 @@ api_location:
  - API-Ms-Win-Security-Base-Ansi-L1-1-0.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - SetFileSecurity
  - SetFileSecurityA
- - SetFileSecurityW
+ - SetFileSecurity
 ---
 
 # SetFileSecurityA function
@@ -133,3 +134,4 @@ The <b>SetFileSecurity</b> function is successful only if the following conditio
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
+

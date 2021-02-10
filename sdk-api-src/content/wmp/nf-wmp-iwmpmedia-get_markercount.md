@@ -42,9 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia.get_markerCount
- - IWMPMedia2.get_markerCount
- - IWMPMedia3.get_markerCount
+ - IWMPMedia::get_markerCount
 ---
 
 # IWMPMedia::get_markerCount
@@ -97,3 +95,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
+

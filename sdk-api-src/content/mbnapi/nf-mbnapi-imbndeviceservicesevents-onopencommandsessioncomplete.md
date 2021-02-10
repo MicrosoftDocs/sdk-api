@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnOpenCommandSessionComplete
+ - IMbnDeviceServicesEvents::OnOpenCommandSessionComplete
 ---
 
 # IMbnDeviceServicesEvents::OnOpenCommandSessionComplete
@@ -94,3 +94,4 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
+

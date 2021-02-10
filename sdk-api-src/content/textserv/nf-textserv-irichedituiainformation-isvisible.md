@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditUiaInformation.IsVisible
+ - IRichEditUiaInformation::IsVisible
 ---
 
 # IRichEditUiaInformation::IsVisible
@@ -63,3 +63,4 @@ Returns S_OK if the windowless rich edit control is visible, or S_FALSE otherwis
 ## -see-also
 
 <a href="/windows/desktop/api/textserv/nn-textserv-irichedituiainformation">IRichEditUiaInformation</a>
+

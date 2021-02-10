@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample2.SetProperties
+ - IMediaSample2::SetProperties
 ---
 
 # IMediaSample2::SetProperties
@@ -131,3 +131,4 @@ The standard implementation of this method does not support updating [AM_SAMPLE2
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample2">IMediaSample2 Interface</a>
+

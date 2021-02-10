@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
+ - tag_SCRIPT_CONTROL
  - SCRIPT_CONTROL
 ---
 
@@ -393,3 +394,4 @@ Reserved; always initialize to 0.
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

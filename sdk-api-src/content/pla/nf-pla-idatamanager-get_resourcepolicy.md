@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.ResourcePolicy
- - IDataManager.get_ResourcePolicy
- - IDataManager.put_ResourcePolicy
+ - IDataManager::get_ResourcePolicy
 ---
 
 # IDataManager::get_ResourcePolicy
@@ -69,3 +67,4 @@ The folders are deleted based on the resource policy until the disk resource con
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_folderactions">IDataManager::FolderActions</a>
+

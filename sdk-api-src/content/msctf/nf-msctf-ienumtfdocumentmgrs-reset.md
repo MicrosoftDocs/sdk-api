@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfDocumentMgrs.Reset
+ - IEnumTfDocumentMgrs::Reset
 ---
 
 # IEnumTfDocumentMgrs::Reset

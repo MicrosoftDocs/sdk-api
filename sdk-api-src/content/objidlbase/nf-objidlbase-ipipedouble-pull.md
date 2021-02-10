@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IPipeDouble.Pull
+ - IPipeDouble::Pull
 ---
 
 # IPipeDouble::Pull
@@ -77,3 +77,4 @@ When the <b>Pull</b> method is called, data is requested from the provider of th
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipipedouble">IPipeDouble</a>
+

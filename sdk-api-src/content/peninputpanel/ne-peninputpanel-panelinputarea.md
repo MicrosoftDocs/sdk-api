@@ -44,7 +44,8 @@ api_type:
 api_location:
  - peninputpanel.h
 api_name:
- - InputArea2
+ - __MIDL___MIDL_itf_peninputpanel_0000_0000_0003
+ - PanelInputArea
 ---
 
 # PanelInputArea enumeration

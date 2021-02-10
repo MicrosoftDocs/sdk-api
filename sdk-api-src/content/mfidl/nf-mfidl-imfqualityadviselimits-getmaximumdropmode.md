@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFQualityAdviseLimits.GetMaximumDropMode
+ - IMFQualityAdviseLimits::GetMaximumDropMode
 ---
 
 # IMFQualityAdviseLimits::GetMaximumDropMode
@@ -69,3 +69,4 @@ To get the current drop mode, call the <a href="/windows/desktop/api/mfidl/nf-mf
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadviselimits">IMFQualityAdviseLimits</a>
+

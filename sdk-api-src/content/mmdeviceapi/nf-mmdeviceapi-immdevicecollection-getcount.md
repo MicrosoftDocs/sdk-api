@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDeviceCollection.GetCount
+ - IMMDeviceCollection::GetCount
 ---
 
 # IMMDeviceCollection::GetCount
@@ -87,3 +87,4 @@ For a code example that calls the <b>GetCount</b> method, see <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection Interface</a>
+

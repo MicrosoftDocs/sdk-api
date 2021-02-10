@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponents.put_Item
+ - IComponents::put_Item
 ---
 
 # IComponents::put_Item
@@ -79,3 +79,4 @@ If the collection contains <i>n</i> items, valid indexes are in the range 0 to <
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-get_item">get_Item</a>
+

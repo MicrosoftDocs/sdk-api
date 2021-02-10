@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunnableObject.SetContainedObject
+ - IRunnableObject::SetContainedObject
 ---
 
 # IRunnableObject::SetContainedObject
@@ -81,3 +81,4 @@ Calling <b>SetContainedObject</b> is optional only when you know that the embedd
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olesetcontainedobject">OleSetContainedObject</a>
+

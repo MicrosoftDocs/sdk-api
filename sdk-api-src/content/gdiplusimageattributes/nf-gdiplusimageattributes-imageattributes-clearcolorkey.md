@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes.ClearColorKey
+ - ImageAttributes::ClearColorKey
 ---
 
 # ImageAttributes::ClearColorKey
@@ -198,3 +198,4 @@ The preceding code, along with a particular file, TestMetafile5.png, produced th
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
+

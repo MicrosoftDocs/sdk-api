@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - IMpeg2Stream.Initialize
+ - IMpeg2Stream::Initialize
 ---
 
 # IMpeg2Stream::Initialize
@@ -140,3 +140,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2stream">IMpeg2Stream Interface</a>
+

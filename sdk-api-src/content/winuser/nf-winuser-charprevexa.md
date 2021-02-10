@@ -47,7 +47,6 @@ api_location:
  - API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
  - CharPrevExA
- - CharPrevExA
 ---
 
 # CharPrevExA function
@@ -154,3 +153,4 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
+ - _CRYPT_PROVIDER_REGDEFUSAGE
+ - PCRYPT_PROVIDER_REGDEFUSAGE
  - CRYPT_PROVIDER_REGDEFUSAGE
 ---
 
@@ -89,3 +91,4 @@ Pointer to the name of the function that frees allocated memory when the <a href
 
 
 <a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustadddefaultforusage">WintrustAddDefaultForUsage</a>
+

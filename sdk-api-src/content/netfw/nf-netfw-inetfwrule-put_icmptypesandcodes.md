@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule.IcmpTypesAndCodes
- - INetFwRule.get_IcmpTypesAndCodes
- - INetFwRule.put_IcmpTypesAndCodes
+ - INetFwRule::put_IcmpTypesAndCodes
 ---
 
 # INetFwRule::put_IcmpTypesAndCodes
@@ -69,3 +67,4 @@ The <i>icmpTypesAndCodes</i> parameter is a list of ICMP types and codes     sep
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
+

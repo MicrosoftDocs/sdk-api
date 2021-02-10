@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer.StartReverseConnectListener
+ - IRDPSRAPIViewer::StartReverseConnectListener
 ---
 
 # IRDPSRAPIViewer::StartReverseConnectListener
@@ -105,3 +105,4 @@ The normal sequence of events for this procedure is as follows:
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>
+

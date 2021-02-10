@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shldisp.h
 api_name:
- - IShellFolderViewDual3.put_IconSize
+ - IShellFolderViewDual3::put_IconSize
 ---
 
 # IShellFolderViewDual3::put_IconSize

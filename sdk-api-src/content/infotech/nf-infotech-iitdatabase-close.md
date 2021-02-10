@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITDatabase.Close
+ - IITDatabase::Close
 ---
 
 # IITDatabase::Close
@@ -81,3 +81,4 @@ The database was successfully closed.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">IITDatabase</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - QueryTraceW
  - evntrace/QueryTraceW
+ - QueryTrace
+ - evntrace/QueryTrace
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-eventing-Legacy-l1-1-0.dll
  - advapi32legacy.dll
 api_name:
- - QueryTrace
- - QueryTraceA
  - QueryTraceW
+ - QueryTrace
 ---
 
 # QueryTraceW function
@@ -181,3 +182,4 @@ To update the property settings and session statistics for an event tracing sess
 
 
 <a href="/windows/desktop/ETW/queryalltraces">QueryAllTraces</a>
+

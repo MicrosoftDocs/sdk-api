@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.put_WindowState
+ - IVideoWindow::put_WindowState
 ---
 
 # IVideoWindow::put_WindowState
@@ -103,3 +103,4 @@ The video renderer filter is not connected.
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_windowstate">IVideoWindow::get_WindowState</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_DEPTH_STENCIL_VIEW_DESC.CD3D11_DEPTH_STENCIL_VIEW_DESC
+ - CD3D11_DEPTH_STENCIL_VIEW_DESC::CD3D11_DEPTH_STENCIL_VIEW_DESC
 ---
 
 # CD3D11_DEPTH_STENCIL_VIEW_DESC::CD3D11_DEPTH_STENCIL_VIEW_DESC(D3D11_DSV_DIMENSION,DXGI_FORMAT,UINT,UINT,UINT,UINT)
@@ -95,3 +95,4 @@ A value that describes whether the texture is read only.  Pass 0 to specify that
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>
+

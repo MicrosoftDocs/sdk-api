@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsController.GetProperties
+ - IVdsController::GetProperties
 ---
 
 # IVdsController::GetProperties
@@ -127,3 +127,4 @@ The controller object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>
+

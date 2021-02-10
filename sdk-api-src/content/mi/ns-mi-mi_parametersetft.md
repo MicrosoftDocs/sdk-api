@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ParameterSetFT
  - MI_ParameterSetFT
 ---
 
@@ -68,3 +69,4 @@ Gets a method's parameter information at the specified index. See <a href="/prev
 ### -field GetParameterCount
 
 Gets the number of parameters in a parameter set. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getparametercount">MI_ParameterSet_GetParameterCount</a>.
+

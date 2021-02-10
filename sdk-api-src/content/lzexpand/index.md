@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - lzexpand
  - lzexpand/lzexpand
+api_name:
+ - lzexpand
 ---
 
 # Lzexpand.h header

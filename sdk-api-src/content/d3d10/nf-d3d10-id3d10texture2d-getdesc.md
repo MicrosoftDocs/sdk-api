@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Texture2D.GetDesc
+ - ID3D10Texture2D::GetDesc
 ---
 
 # ID3D10Texture2D::GetDesc
@@ -64,3 +64,4 @@ Pointer to a resource description (see <a href="/windows/desktop/api/d3d10/ns-d3
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10texture2d">ID3D10Texture2D Interface</a>
+

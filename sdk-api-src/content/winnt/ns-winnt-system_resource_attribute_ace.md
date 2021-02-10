@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _SYSTEM_RESOURCE_ATTRIBUTE_ACE
+ - PSYSTEM_RESOURCE_ATTRIBUTE_ACE
  - SYSTEM_RESOURCE_ATTRIBUTE_ACE
 ---
 
@@ -69,3 +71,4 @@ The access policy associated with the SACL that contains this ACE.
 ### -field SidStart
 
 Specifies the first <b>DWORD</b> of a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>. The remaining bytes of the <b>SID</b>  are stored in contiguous memory after the <b>SidStart</b> member in a <a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_relative_v1">CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1</a> structure.
+

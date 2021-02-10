@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IFileDialogControlEvents.OnButtonClicked
+ - IFileDialogControlEvents::OnButtonClicked
 ---
 
 # IFileDialogControlEvents::OnButtonClicked
@@ -71,3 +71,4 @@ The ID of the button that the user clicked.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

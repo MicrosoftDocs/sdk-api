@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_RC2_CBC_PARAMETERS
+ - PCRYPT_RC2_CBC_PARAMETERS
  - CRYPT_RC2_CBC_PARAMETERS
 ---
 
@@ -156,3 +158,4 @@ Eight byte <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a>. 
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a>
+

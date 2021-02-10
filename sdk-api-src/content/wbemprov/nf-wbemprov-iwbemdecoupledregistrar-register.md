@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wmidcprv.dll
 api_name:
- - IWbemDecoupledRegistrar.Register
- - WbemDecoupledRegistrar.Register
+ - IWbemDecoupledRegistrar::Register
 ---
 
 # IWbemDecoupledRegistrar::Register

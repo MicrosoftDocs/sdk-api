@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo.get_AvgTimePerFrame
+ - IBasicVideo::get_AvgTimePerFrame
 ---
 
 # IBasicVideo::get_AvgTimePerFrame
@@ -76,3 +76,4 @@ To retrieve the actual frame rate during playback, use the <a href="/previous-ve
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
+

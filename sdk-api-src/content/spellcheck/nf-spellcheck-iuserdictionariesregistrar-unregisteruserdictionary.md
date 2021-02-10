@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - IUserDictionariesRegistrar.UnregisterUserDictionary
+ - IUserDictionariesRegistrar::UnregisterUserDictionary
 ---
 
 # IUserDictionariesRegistrar::UnregisterUserDictionary
@@ -103,3 +103,4 @@ Successful.
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-iuserdictionariesregistrar">IUserDictionariesRegistrar</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - _PSFEATURE_OUTPUT
+ - PPSFEATURE_OUTPUT
  - PSFEATURE_OUTPUT
 ---
 
@@ -77,3 +79,4 @@ The <b>PSFEATURE_OUTPUT</b> structure contains information about PostScript driv
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
+

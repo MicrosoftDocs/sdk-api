@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration.LocalRevocationInformation
- - IOCSPCAConfiguration.get_LocalRevocationInformation
- - IOCSPCAConfiguration.put_LocalRevocationInformation
+ - IOCSPCAConfiguration::get_LocalRevocationInformation
 ---
 
 # IOCSPCAConfiguration::get_LocalRevocationInformation
@@ -65,3 +63,4 @@ The CRL used for the <b>LocalRevocationInformation</b> property can be signed or
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
+

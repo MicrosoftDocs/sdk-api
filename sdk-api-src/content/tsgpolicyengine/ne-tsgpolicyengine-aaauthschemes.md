@@ -45,6 +45,7 @@ api_location:
  - Tsgpolicyengine.h
  - TSGPolicyEngine.h
 api_name:
+ - __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0001
  - AAAuthSchemes
 ---
 

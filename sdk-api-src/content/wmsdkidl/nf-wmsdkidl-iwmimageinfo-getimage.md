@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMImageInfo.GetImage
+ - IWMImageInfo::GetImage
 ---
 
 # IWMImageInfo::GetImage
@@ -256,3 +256,4 @@ The value referenced by one of the following parameters is less than the require
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmimageinfo">IWMImageInfo Interface</a>
+

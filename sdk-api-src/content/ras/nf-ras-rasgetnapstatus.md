@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - rasgetnapstatus
+ - RasGetNapStatus
 ---
 
 # RasGetNapStatus function
@@ -118,3 +118,4 @@ RASMAN could not find the handle in its list of handles.
 </td>
 </tr>
 </table>
+

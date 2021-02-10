@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.DecryptionBlt
+ - ID3D11VideoContext::DecryptionBlt
 ---
 
 # ID3D11VideoContext::DecryptionBlt
@@ -127,3 +127,4 @@ If the application uses <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
+

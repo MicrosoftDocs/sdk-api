@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.GetGPUThreadPriority
+ - IDirect3DDevice9Ex::GetGPUThreadPriority
 ---
 
 # IDirect3DDevice9Ex::GetGPUThreadPriority
@@ -76,3 +76,4 @@ This method will retrieve the priority of the thread stored with the Direct3D de
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
+

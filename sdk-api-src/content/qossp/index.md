@@ -9,6 +9,8 @@ tech.root: qos
 f1_keywords:
  - qossp
  - qossp/qossp
+api_name:
+ - qossp
 ---
 
 # Qossp.h header

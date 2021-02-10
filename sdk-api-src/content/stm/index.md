@@ -9,6 +9,8 @@ tech.root: rras
 f1_keywords:
  - stm
  - stm/stm
+api_name:
+ - stm
 ---
 
 # Stm.h header

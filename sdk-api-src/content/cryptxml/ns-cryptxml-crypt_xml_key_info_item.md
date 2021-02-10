@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_KEY_INFO_ITEM
  - CRYPT_XML_KEY_INFO_ITEM
 ---
 
@@ -147,3 +148,4 @@ A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_x509data">CRYPT_X
 ### -field Custom
 
 A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains user defined key information.
+

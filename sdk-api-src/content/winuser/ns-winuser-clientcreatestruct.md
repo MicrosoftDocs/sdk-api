@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagCLIENTCREATESTRUCT
+ - LPCLIENTCREATESTRUCT
  - CLIENTCREATESTRUCT
 ---
 
@@ -108,3 +110,4 @@ When the MDI client window is created by calling <a href="/windows/desktop/api/w
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

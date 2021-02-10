@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceMethods.Invoke
+ - IPortableDeviceServiceMethods::Invoke
 ---
 
 # IPortableDeviceServiceMethods::Invoke
@@ -89,3 +89,4 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/invoking-methods-synchronously">Invoking Service Methods</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat.GetDigitSubstitutionLanguage
+ - StringFormat::GetDigitSubstitutionLanguage
 ---
 
 # StringFormat::GetDigitSubstitutionLanguage
@@ -61,3 +61,4 @@ Type: <b>LANGID</b>
 
 This method returns a 16-bit value that forms a National Language Support (NLS) language identifier. This identifier indicates the language that corresponds with the substitution digits. For example, if this 
 						<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object uses Arabic substitution digits, then this method will return a value that indicates an Arabic language. An NLS language identifier is constructed by the MAKELANGID macro declared in Winnt.h.
+

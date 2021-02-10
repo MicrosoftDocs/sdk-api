@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - DS_REPL_PENDING_OPS
+ - _DS_REPL_PENDING_OPSW
+ - DS_REPL_PENDING_OPSW
 ---
 
 # DS_REPL_PENDING_OPSW structure
@@ -84,3 +85,4 @@ Contains an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_op
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_REMOVEDEVICE_PARAMS
+ - PSP_REMOVEDEVICE_PARAMS
  - SP_REMOVEDEVICE_PARAMS
 ---
 
@@ -99,3 +101,4 @@ The hardware profile ID for profile-specific changes. Zero specifies the current
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiremovedevice">SetupDiRemoveDevice</a>
+

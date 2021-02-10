@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_FRAME_FORMAT
  - DXVAHD_FRAME_FORMAT
 ---
 
@@ -87,3 +88,4 @@ Frame are interlaced. The bottom field of each frame is displayed first.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

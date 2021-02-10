@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OAIdl.h
 api_name:
+ - tagFUNCKIND
  - FUNCKIND
 ---
 
@@ -75,3 +76,4 @@ The function is accessed by static address and does not take an implicit this po
 ### -field FUNC_DISPATCH
 
 The function can be accessed only through <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
+

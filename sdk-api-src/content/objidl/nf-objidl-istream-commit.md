@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream.Commit
+ - IStream::Commit
 ---
 
 # IStream::Commit
@@ -80,3 +80,4 @@ The <b>IStream::Commit</b> method is useful on a direct mode stream when the imp
 
 
 <a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_ClientName
+ - IDiscFormat2RawCD::get_ClientName
 ---
 
 # IDiscFormat2RawCD::get_ClientName
@@ -102,3 +102,4 @@ Value: 0x8007000E
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_clientname">IDiscFormat2TrackAtOnce::put_ClientName</a>
+

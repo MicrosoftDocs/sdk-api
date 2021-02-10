@@ -9,6 +9,8 @@ tech.root: direct3d9
 f1_keywords:
  - d3d9helper
  - d3d9helper/d3d9helper
+api_name:
+ - d3d9helper
 ---
 
 # D3D9Helper.h header

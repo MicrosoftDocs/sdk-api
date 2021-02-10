@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CFrameworkQuery.GetQuery
- - ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ
+ - CFrameworkQuery::GetQuery
 ---
 
 # CFrameworkQuery::GetQuery
@@ -69,3 +68,4 @@ Returns the WQL command if the operation was successful and <b>NULL</b> otherwis
 ## -remarks
 
 If <b>GetQuery</b> is called within <a href="/windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)">Provider::GetObject</a>, the WQL command line does not contain a <a href="/windows/desktop/WmiSdk/select-statement-for-data-queries">WHERE</a> clause.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2.GetMainStory
+ - ITextDocument2::GetMainStory
 ---
 
 # ITextDocument2::GetMainStory
@@ -73,3 +73,4 @@ A rich edit control automatically includes the main story; a call to the <a href
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
+

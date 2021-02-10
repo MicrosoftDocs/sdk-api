@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressDeviceSpecificEvent.get_Call
+ - ITAddressDeviceSpecificEvent::get_Call
 ---
 
 # ITAddressDeviceSpecificEvent::get_Call
@@ -112,3 +112,4 @@ The <i>ppCall</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
+

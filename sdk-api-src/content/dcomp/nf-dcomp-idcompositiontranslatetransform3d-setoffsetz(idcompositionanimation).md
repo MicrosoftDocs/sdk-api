@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionTranslateTransform3D.SetOffsetZ
+ - IDCompositionTranslateTransform3D::SetOffsetZ
 ---
 
 # IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation)
@@ -85,3 +85,4 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsety(float)">IDCompositionTranslateTransform3D::SetOffsetY</a>
+

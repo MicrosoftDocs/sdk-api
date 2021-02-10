@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLink.SetHotkey
- - IShellLinkA.SetHotkey
- - IShellLinkW.SetHotkey
+ - IShellLinkA::SetHotkey
 ---
 
 # IShellLinkA::SetHotkey
@@ -71,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Setting a keyboard shortcut allows the user to activate the object by pressing a particular combination of keys.
+

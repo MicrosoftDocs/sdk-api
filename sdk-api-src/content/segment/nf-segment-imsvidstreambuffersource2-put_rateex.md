@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSource2.put_RateEx
+ - IMSVidStreamBufferSource2::put_RateEx
 ---
 
 # IMSVidStreamBufferSource2::put_RateEx
@@ -92,3 +92,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersource2">IMSVidStreamBufferSource2 Interface</a>
+

@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - windows.media.core.interop
  - windows.media.core.interop/windows.media.core.interop
+api_name:
+ - windows.media.core.interop
 ---
 
 # Windows.Media.Core.Interop.h header

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - eventsys.h
 api_name:
- - IEventClass2.PublisherID
- - IEventClass2.get_PublisherID
- - IEventClass2.put_PublisherID
+ - IEventClass2::put_PublisherID
 ---
 
 # IEventClass2::put_PublisherID
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>
+

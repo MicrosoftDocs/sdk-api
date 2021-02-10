@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocParser.AddToc
+ - ITocParser::AddToc
 ---
 
 # ITocParser::AddToc
@@ -95,3 +95,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
+

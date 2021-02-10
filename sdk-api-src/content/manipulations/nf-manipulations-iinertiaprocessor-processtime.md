@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor.ProcessTime
+ - IInertiaProcessor::ProcessTime
 ---
 
 # IInertiaProcessor::ProcessTime
@@ -77,3 +77,4 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 <a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-process">Process</a>
+

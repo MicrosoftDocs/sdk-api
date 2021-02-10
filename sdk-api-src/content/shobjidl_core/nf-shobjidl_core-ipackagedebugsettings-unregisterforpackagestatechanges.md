@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.UnregisterForPackageStateChanges
+ - IPackageDebugSettings::UnregisterForPackageStateChanges
 ---
 
 # IPackageDebugSettings::UnregisterForPackageStateChanges
@@ -73,3 +73,4 @@ Call the <b>UnregisterForPackageStateChanges</b> to stop receiving package state
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-registerforpackagestatechanges">RegisterForPackageStateChanges</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdVideoPortUpdate
+ - PDD_VPORTCB_UPDATE
 ---
 
 ## -description
@@ -102,3 +102,4 @@ When <b>dwFlags</b> is DDRAWI_VPORTSTOP, the driver should return immediately. T
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
+

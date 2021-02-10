@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputEffectDriver.DeviceID
+ - IDirectInputEffectDriver::DeviceID
 ---
 
 # IDirectInputEffectDriver::DeviceID
@@ -81,3 +81,4 @@ Returns S_OK if successful; otherwise, returns an error code.
 ## -remarks
 
 As an example of the <b>IDirectInputEffectDriver::DeviceID </b>method, if a device driver is passed <i>dwExternalID</i> = 2 and <i>dwInternalId</i> = 1, then unit 1 on the device corresponds to the joystick whose ID is 2.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMUINT4.XMUINT4
+ - XMUINT4::XMUINT4
 ---
 
 # XMUINT4::XMUINT4(const XMUINT4 &)
@@ -69,3 +69,4 @@ A value.
 <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)">XMUINT4 Constructors</a>
+

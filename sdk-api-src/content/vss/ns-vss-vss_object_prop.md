@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_OBJECT_PROP
+ - PVSS_OBJECT_PROP
  - VSS_OBJECT_PROP
 ---
 
@@ -106,3 +108,4 @@ In the case of <a href="/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_S
 
 
 <a href="/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
+

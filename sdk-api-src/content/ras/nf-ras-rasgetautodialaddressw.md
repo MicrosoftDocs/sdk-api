@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasGetAutodialAddressW
  - ras/RasGetAutodialAddressW
+ - RasGetAutodialAddress
+ - ras/RasGetAutodialAddress
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetAutodialAddress
- - RasGetAutodialAddressA
  - RasGetAutodialAddressW
+ - RasGetAutodialAddress
 ---
 
 # RasGetAutodialAddressW function
@@ -196,3 +197,4 @@ This value is of type <b>REG_SZ</b>.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

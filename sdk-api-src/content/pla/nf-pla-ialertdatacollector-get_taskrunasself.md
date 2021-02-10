@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IAlertDataCollector.TaskRunAsSelf
- - IAlertDataCollector.get_TaskRunAsSelf
- - IAlertDataCollector.put_TaskRunAsSelf
+ - IAlertDataCollector::get_TaskRunAsSelf
 ---
 
 # IAlertDataCollector::get_TaskRunAsSelf
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_task">IAlertDataCollector::Task</a>
+

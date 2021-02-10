@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetLocaleInfoW
  - winnls/GetLocaleInfoW
+ - GetLocaleInfo
+ - winnls/GetLocaleInfo
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetLocaleInfo
- - GetLocaleInfoA
  - GetLocaleInfoW
+ - GetLocaleInfo
 ---
 
 # GetLocaleInfoW function
@@ -185,3 +186,4 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 <a href="/windows/desktop/api/winnls/nf-winnls-setlocaleinfoa">SetLocaleInfo</a>
+

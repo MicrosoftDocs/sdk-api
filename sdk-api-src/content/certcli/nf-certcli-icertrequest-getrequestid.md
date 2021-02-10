@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest3.GetRequestId
- - ICertRequest2.GetRequestId
- - ICertRequest.GetRequestId
- - CCertRequest.GetRequestId
+ - ICertRequest::GetRequestId
 ---
 
 # ICertRequest::GetRequestId
@@ -90,3 +87,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
+

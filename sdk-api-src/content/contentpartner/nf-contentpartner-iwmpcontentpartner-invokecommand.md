@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.InvokeCommand
+ - IWMPContentPartner::InvokeCommand
 ---
 
 # IWMPContentPartner::InvokeCommand
@@ -105,3 +105,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+

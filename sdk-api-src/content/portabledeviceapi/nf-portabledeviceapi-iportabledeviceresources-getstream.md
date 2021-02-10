@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceResources.GetStream
+ - IPortableDeviceResources::GetStream
 ---
 
 # IPortableDeviceResources::GetStream
@@ -125,3 +125,4 @@ Applications should use the buffer size returned by <i>pdwOptimalBufferSize</i> 
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources Interface</a>
+

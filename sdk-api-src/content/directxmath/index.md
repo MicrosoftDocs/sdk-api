@@ -9,6 +9,8 @@ tech.root: dxmath
 f1_keywords:
  - directxmath
  - directxmath/directxmath
+api_name:
+ - directxmath
 ---
 
 # Directxmath.h header

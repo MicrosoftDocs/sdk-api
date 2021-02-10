@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib.SaveAllChanges
+ - ICreateTypeLib::SaveAllChanges
 ---
 
 # ICreateTypeLib::SaveAllChanges
@@ -138,3 +138,4 @@ You should not call any other <a href="/previous-versions/windows/desktop/api/oa
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
+

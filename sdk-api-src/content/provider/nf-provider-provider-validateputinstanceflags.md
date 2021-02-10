@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.ValidatePutInstanceFlags
- - ?ValidatePutInstanceFlags@Provider@@MAEJJ@Z
- - ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z
+ - Provider::ValidatePutInstanceFlags
 ---
 
 # Provider::ValidatePutInstanceFlags
@@ -82,3 +80,4 @@ At present, the <a href="/windows/desktop/api/provider/nl-provider-provider">Pro
 <li><b>WBEM_FLAG_CREATE_OR_UPDATE</b></li>
 <li><b>WBEM_FLAG_UPDATE_ONLY</b></li>
 </ul>
+

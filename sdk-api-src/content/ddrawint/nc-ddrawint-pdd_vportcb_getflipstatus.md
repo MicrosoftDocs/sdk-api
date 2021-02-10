@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdVideoPortGetFlipStatus
+ - PDD_VPORTCB_GETFLIPSTATUS
 ---
 
 ## -description
@@ -70,3 +70,4 @@ If the driver sets <b>ddRVal</b> to DDERR_WASSTILLDRAWING, DirectDraw will fail 
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportflipstatusdata">DD_GETVPORTFLIPSTATUSDATA</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateVirtualSurface
+ - IDCompositionDevice2::CreateVirtualSurface
 ---
 
 # IDCompositionDevice2::CreateVirtualSurface
@@ -154,3 +154,4 @@ This method fails if <i>initialWidth</i> or <i>initialHeight</i> exceeds 16,777,
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createsurface">IDCompositionDevice::CreateSurface</a>
+

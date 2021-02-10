@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.AddClosedCurve
+ - GraphicsPath::AddClosedCurve
 ---
 
 # GraphicsPath::AddClosedCurve(IN const PointF,IN INT,IN REAL)
@@ -159,3 +159,4 @@ VOID Example_AddClosedCurve(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

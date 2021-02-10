@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAsyncReader.RequestAllocator
+ - IAsyncReader::RequestAllocator
 ---
 
 # IAsyncReader::RequestAllocator
@@ -126,3 +126,4 @@ The input pin is responsible for committing and decommitting the allocator.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
+

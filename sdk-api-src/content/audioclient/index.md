@@ -9,6 +9,8 @@ tech.root: coreaudio
 f1_keywords:
  - audioclient
  - audioclient/audioclient
+api_name:
+ - audioclient
 ---
 
 # Audioclient.h header

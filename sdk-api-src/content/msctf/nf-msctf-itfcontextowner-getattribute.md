@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwner.GetAttribute
+ - ITfContextOwner::GetAttribute
 ---
 
 # ITfContextOwner::GetAttribute
@@ -107,3 +107,4 @@ Context owners using the default text store of the TSF manager can implement a s
 
 
 <a href="/windows/desktop/TSF/predefined-text-attributes">Predefined Text Attributes</a>
+

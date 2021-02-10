@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CurrentHorizontalViewSize
- - IUIAutomationScrollPattern.get_CurrentHorizontalViewSize
+ - IUIAutomationScrollPattern::get_CurrentHorizontalViewSize
 ---
 
 # IUIAutomationScrollPattern::get_CurrentHorizontalViewSize
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currentverticalviewsize">IUIAutomationScrollPattern::CurrentVerticalViewSize</a>
+

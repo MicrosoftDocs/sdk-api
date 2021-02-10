@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdGetDC
- - GdiEntry7
 ---
 
 # DdGetDC function
@@ -86,3 +85,4 @@ The returned DC must be freed by a call to <a href="/windows/desktop/DevNotes/-d
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

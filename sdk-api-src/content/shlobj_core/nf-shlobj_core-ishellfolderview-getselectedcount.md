@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView.GetSelectedCount
+ - IShellFolderView::GetSelectedCount
 ---
 
 # IShellFolderView::GetSelectedCount
@@ -67,3 +67,4 @@ A pointer to a value that, when this method returns successfully, receives the n
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive.GetOutput
+ - IMILBitmapEffectPrimitive::GetOutput
 ---
 
 # IMILBitmapEffectPrimitive::GetOutput
@@ -88,3 +88,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 If <i>pfModifyInPlace</i> is VARIANT_TRUE, the input image may be modified and returned.
             If the custom effect does not support in place modifications, set <i>pfModifyInPlace</i> to VARIANT_FALSE to indicate a new image was created.
+

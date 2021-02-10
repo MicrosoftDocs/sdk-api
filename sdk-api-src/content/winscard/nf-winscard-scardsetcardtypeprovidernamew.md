@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SCardSetCardTypeProviderNameW
  - winscard/SCardSetCardTypeProviderNameW
+ - SCardSetCardTypeProviderName
+ - winscard/SCardSetCardTypeProviderName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardSetCardTypeProviderName
- - SCardSetCardTypeProviderNameA
  - SCardSetCardTypeProviderNameW
+ - SCardSetCardTypeProviderName
 ---
 
 # SCardSetCardTypeProviderNameW function
@@ -202,3 +203,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 ## -see-also
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardgetcardtypeprovidernamea">SCardGetCardTypeProviderName</a>
+

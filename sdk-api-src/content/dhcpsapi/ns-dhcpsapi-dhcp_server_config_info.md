@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_SERVER_CONFIG_INFO
+ - LPDHCP_SERVER_CONFIG_INFO
  - DHCP_SERVER_CONFIG_INFO
 ---
 
@@ -181,3 +183,4 @@ Reserved. This field should be set to 0x00000000.
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfig">DhcpServerSetConfig</a>
+

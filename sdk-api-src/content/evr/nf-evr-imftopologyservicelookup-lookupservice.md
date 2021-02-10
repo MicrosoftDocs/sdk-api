@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFTopologyServiceLookup.LookupService
+ - IMFTopologyServiceLookup::LookupService
 ---
 
 # IMFTopologyServiceLookup::LookupService
@@ -225,3 +225,4 @@ The following interfaces are available from the mixer:
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imftopologyservicelookup">IMFTopologyServiceLookup</a>
+

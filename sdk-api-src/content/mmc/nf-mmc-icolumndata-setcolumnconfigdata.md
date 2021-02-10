@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IColumnData.SetColumnConfigData
+ - IColumnData::SetColumnConfigData
 ---
 
 # IColumnData::SetColumnConfigData
@@ -82,3 +82,4 @@ Calling
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>
+

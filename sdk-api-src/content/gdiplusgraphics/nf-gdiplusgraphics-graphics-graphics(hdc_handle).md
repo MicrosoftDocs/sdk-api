@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.Graphics
+ - Graphics::Graphics
 ---
 
 # Graphics::Graphics(IN HDC,IN HANDLE)
@@ -86,3 +86,4 @@ When you use this constructor to create a <b>Graphics::Graphics</b> object, make
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-optimizing-printing-by-providing-a-printer-handle-use">Optimizing Printing by Providing a Printer Handle</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Device.CreateDeviceContext
+ - ID2D1Device::CreateDeviceContext
 ---
 
 # ID2D1Device::CreateDeviceContext
@@ -87,3 +87,4 @@ The new device context will not have a  selected target bitmap. The caller must 
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget">ID2D1DeviceContext::SetTarget</a>
+

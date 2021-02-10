@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.MaxLength
- - IInkEdit.get_MaxLength
- - IInkEdit.put_MaxLength
- - InkEdit.get_MaxLength
- - InkEdit.put_MaxLength
+ - IInkEdit::put_MaxLength
 ---
 
 # IInkEdit::put_MaxLength
@@ -79,3 +75,4 @@ If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a 
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

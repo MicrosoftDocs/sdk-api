@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapterFactory::UnregisterEventNotification
+f1_keywords:
+ - IDXCoreAdapterFactory::UnregisterEventNotification
+ - dxcore_interface/IDXCoreAdapterFactory::UnregisterEventNotification
 ---
 
 ## -description
@@ -74,3 +77,4 @@ Once you unregister a cookie value, that value is then eligible for being return
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [IDXCoreAdapterFactory::UnregisterEventNotification](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

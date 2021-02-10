@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode.GetScanHeader
+ - IWICJpegFrameDecode::GetScanHeader
 ---
 
 # IWICJpegFrameDecode::GetScanHeader
@@ -75,3 +75,4 @@ Returns S_OK on successful completion.
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
+

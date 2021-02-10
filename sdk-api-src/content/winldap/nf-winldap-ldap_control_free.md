@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_control_free
- - ldap_control_freeA
- - ldap_control_freeW
 ---
 
 # ldap_control_free function
@@ -98,3 +96,4 @@ Use this function to free an <a href="/previous-versions/windows/desktop/api/win
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_vlv_controla">ldap_create_vlv_control</a>
+

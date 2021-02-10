@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedControlType
- - IUIAutomationElement.get_CachedControlType
+ - IUIAutomationElement::get_CachedControlType
 ---
 
 # IUIAutomationElement::get_CachedControlType
@@ -76,3 +75,4 @@ Control types describe a known interaction model for UI Automation elements with
 
 
 <b>Reference</b>
+

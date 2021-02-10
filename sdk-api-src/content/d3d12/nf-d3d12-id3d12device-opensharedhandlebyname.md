@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device.OpenSharedHandleByName
+ - ID3D12Device::OpenSharedHandleByName
 ---
 
 # ID3D12Device::OpenSharedHandleByName
@@ -83,3 +83,4 @@ This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphi
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+

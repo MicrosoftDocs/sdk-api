@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mprapi.h
 api_name:
+ - _ROUTER_CUSTOM_IKEv2_POLICY0
+ - PROUTER_CUSTOM_IKEv2_POLICY0
  - ROUTER_CUSTOM_IKEv2_POLICY0
 ---
 
@@ -83,3 +85,4 @@ A value that specifies the Diffie Hellman algorithm that should be used for Quic
 ### -field dwDhGroup
 
 A value that specifies the type of Diffie Hellman group used for Internet Key Exchange (IKE) key generation during MM SA negotiation. The allowed valued for this member are defined in [IKEEXT_DH_GROUP](/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group).
+

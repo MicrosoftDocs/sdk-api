@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMCOLOR.XMCOLOR
+ - XMCOLOR::XMCOLOR
 ---
 
 # XMCOLOR::XMCOLOR(XMCOLOR &&)
@@ -69,3 +69,4 @@ A value.
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 <a href="/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
+

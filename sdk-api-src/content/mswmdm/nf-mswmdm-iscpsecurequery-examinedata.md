@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureQuery.ExamineData
+ - ISCPSecureQuery::ExamineData
 ---
 
 # ISCPSecureQuery::ExamineData
@@ -187,3 +187,4 @@ If this method does not return S_OK or WMDM_E_MOREDATA, then Windows Media Devic
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
+

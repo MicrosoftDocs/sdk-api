@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IRecordInfo.IsMatchingType
+ - IRecordInfo::IsMatchingType
 ---
 
 # IRecordInfo::IsMatchingType
@@ -94,3 +94,4 @@ The record that is passed in does not match the current record information.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
+

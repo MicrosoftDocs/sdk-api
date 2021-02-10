@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRSTRETCHDIBITS
+ - PEMRSTRETCHDIBITS
  - EMRSTRETCHDIBITS
 ---
 
@@ -137,3 +139,4 @@ Logical height of the destination rectangle.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
+

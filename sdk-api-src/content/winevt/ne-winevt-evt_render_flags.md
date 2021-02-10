@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_RENDER_FLAGS
  - EVT_RENDER_FLAGS
 ---
 
@@ -67,3 +68,4 @@ Render the event as an XML string. For details on the contents of the XML string
 ### -field EvtRenderBookmark
 
 Render the bookmark as an XML string, so that you can easily persist the bookmark for use later.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_StartOfNextSession
+ - IDiscFormat2RawCD::get_StartOfNextSession
 ---
 
 # IDiscFormat2RawCD::get_StartOfNextSession
@@ -102,3 +102,4 @@ The client application that creates an image must provide appropriately sized le
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITResultSet.Add
+ - IITResultSet::Add
 ---
 
 # IITResultSet::Add(PROPID,LPCWSTR,PRIORITY)
@@ -108,3 +108,4 @@ This method is used to add a column for string properties.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>
+

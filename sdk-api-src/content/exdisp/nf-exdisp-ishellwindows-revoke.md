@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IShellWindows.Revoke
+ - IShellWindows::Revoke
 ---
 
 # IShellWindows::Revoke
@@ -84,3 +84,4 @@ Use the <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">I
 
 
 <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-registerpending">IShellWindows::RegisterPending</a>
+

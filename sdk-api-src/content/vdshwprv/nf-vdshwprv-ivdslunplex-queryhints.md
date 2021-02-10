@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLunPlex.QueryHints
+ - IVdsLunPlex::QueryHints
 ---
 
 # IVdsLunPlex::QueryHints
@@ -169,3 +169,4 @@ Note that calls to the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslu
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
+

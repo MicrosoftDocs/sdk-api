@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sxs.dll
 api_name:
- - IAssemblyName.GetProperty
+ - IAssemblyName::GetProperty
 ---
 
 # IAssemblyName::GetProperty
@@ -102,3 +102,4 @@ The method did not succeed.
 ## -see-also
 
 <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
+

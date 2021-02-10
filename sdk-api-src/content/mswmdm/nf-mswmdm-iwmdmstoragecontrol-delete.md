@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageControl.Delete
+ - IWMDMStorageControl::Delete
 ---
 
 # IWMDMStorageControl::Delete
@@ -121,3 +121,4 @@ If an application uses WMDM_MODE_THREAD and passes a non-null <i>pProgress</i> p
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-getstatus">IWMDMStorageGlobals::GetStatus</a>
+

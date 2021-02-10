@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget
+ - ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget
 ---
 
 # ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget
@@ -82,3 +82,4 @@ Your plug-in should call this method on the <a href="/windows/desktop/api/sbtsv/
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbloadbalancingnotifysink">ITsSbLoadBalancingNotifySink</a>
+

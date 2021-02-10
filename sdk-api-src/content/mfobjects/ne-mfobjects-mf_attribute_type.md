@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - _MF_ATTRIBUTE_TYPE
  - MF_ATTRIBUTE_TYPE
 ---
 
@@ -91,3 +92,4 @@ Byte array.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

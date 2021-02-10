@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
- - OPENFILENAME_NT4
- - OPENFILENAME_NT4A
+ - tagOFN_NT4W
+ - LPOPENFILENAME_NT4W
  - OPENFILENAME_NT4W
 ---
 

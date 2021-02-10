@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.IsVisible
+ - Graphics::IsVisible
 ---
 
 # Graphics::IsVisible(IN const Rect &)
@@ -78,3 +78,4 @@ If the specified rectangle intersects the visible clipping region, this method r
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+

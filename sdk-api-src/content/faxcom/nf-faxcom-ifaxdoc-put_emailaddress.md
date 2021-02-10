@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.EmailAddress
- - IFaxDoc.get_EmailAddress
- - IFaxDoc.put_EmailAddress
+ - IFaxDoc::put_EmailAddress
 ---
 
 # IFaxDoc::put_EmailAddress
@@ -79,3 +77,4 @@ The <b>get_EmailAddress</b> method allocates the memory required for the buffer 
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

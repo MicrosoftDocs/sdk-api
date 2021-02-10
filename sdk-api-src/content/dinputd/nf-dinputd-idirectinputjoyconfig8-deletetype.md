@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputJoyConfig8.DeleteType
+ - IDirectInputJoyConfig8::DeleteType
 ---
 
 ## -description
@@ -87,3 +87,4 @@ One or more parameters was invalid.
 </td>
 </tr>
 </table>
+

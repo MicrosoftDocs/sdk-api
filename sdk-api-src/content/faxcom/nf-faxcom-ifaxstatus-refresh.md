@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.Refresh
- - IFaxStatus.Refresh
+ - IFaxStatus::Refresh
 ---
 
 # IFaxStatus::Refresh
@@ -70,3 +69,4 @@ It is recommended that you limit calls to this method because frequent calls to 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a>
+

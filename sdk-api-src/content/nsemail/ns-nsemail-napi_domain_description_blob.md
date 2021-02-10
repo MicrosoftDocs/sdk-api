@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Nsemail.h
 api_name:
+ - napi_domain_description_blob_tag
  - NAPI_DOMAIN_DESCRIPTION_BLOB
 ---
 
@@ -111,3 +112,4 @@ The <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceproviders
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a>
+

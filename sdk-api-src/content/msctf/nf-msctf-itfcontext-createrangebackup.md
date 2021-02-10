@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.CreateRangeBackup
+ - ITfContext::CreateRangeBackup
 ---
 
 # ITfContext::CreateRangeBackup
@@ -150,3 +150,4 @@ This method creates a copy of the range that it can use to restore the data in <
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfRangeBackup interface](nn-msctf-itfrangebackup.md), [ITfRangeBackup::Restore](nf-msctf-itfrangebackup-restore.md), [Ranges: Clones and Backups](/windows/desktop/TSF/ranges)
+

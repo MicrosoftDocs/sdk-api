@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CObjectPathParser.UnParse
+ - CObjectPathParser::Unparse
 ---
 
 # CObjectPathParser::Unparse
@@ -76,3 +76,4 @@ A structure that contains the WMI path.
 ## -see-also
 
 <a href="/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>
+

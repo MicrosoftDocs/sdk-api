@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetCAsForTemplate
+ - IX509EnrollmentPolicyServer::GetCAsForTemplate
 ---
 
 # IX509EnrollmentPolicyServer::GetCAsForTemplate
@@ -89,3 +89,4 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicy
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.GetAnyOperationsAborted
+ - IFileOperation::GetAnyOperationsAborted
 ---
 
 # IFileOperation::GetAnyOperationsAborted
@@ -73,3 +73,4 @@ Call this method after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_c
 You should call <b>IFileOperation::GetAnyOperationsAborted</b> regardless of whether <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> returned a success or failure code. A success code can be returned even if the operation was stopped by the user or the system.
 
 This method provides the same functionality as the <b>fAnyOperationsAborted</b> member of the <a href="/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure used by the legacy function <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a>.
+

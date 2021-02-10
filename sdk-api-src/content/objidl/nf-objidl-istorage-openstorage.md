@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage.OpenStorage
+ - IStorage::OpenStorage
 ---
 
 # IStorage::OpenStorage
@@ -98,3 +98,4 @@ Storage objects can be opened with STGM_DELETEONRELEASE, in which case the objec
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-createstorage">IStorage::CreateStorage</a>
+

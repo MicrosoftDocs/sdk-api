@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
+ - _RSVP_STATUS_INFO
+ - LPRSVP_STATUS_INFO
  - RSVP_STATUS_INFO
 ---
 
@@ -96,3 +98,4 @@ When applications register their interest in FD_QOS events (see
 
 
 <a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
+

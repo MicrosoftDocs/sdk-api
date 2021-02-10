@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManager.SaveProfile
+ - IWMProfileManager::SaveProfile
 ---
 
 # IWMProfileManager::SaveProfile
@@ -126,3 +126,4 @@ To load a saved custom profile, copy the contents of the profile from the .prx f
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
+

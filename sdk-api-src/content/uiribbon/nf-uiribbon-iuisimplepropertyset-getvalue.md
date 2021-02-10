@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUISimplePropertySet.GetValue
+ - IUISimplePropertySet::GetValue
 ---
 
 # IUISimplePropertySet::GetValue
@@ -187,3 +187,4 @@ private:
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+

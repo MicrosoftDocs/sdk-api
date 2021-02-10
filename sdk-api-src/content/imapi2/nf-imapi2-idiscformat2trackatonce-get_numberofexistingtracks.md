@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks
+ - IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks
 ---
 
 # IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks
@@ -132,3 +132,4 @@ The value is zero if:
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
+

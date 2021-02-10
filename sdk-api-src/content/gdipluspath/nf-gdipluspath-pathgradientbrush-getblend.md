@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.GetBlend
+ - PathGradientBrush::GetBlend
 ---
 
 # PathGradientBrush::GetBlend
@@ -203,3 +203,4 @@ VOID Example_GetBlend(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

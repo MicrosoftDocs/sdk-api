@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaPropertyStorage.GetPropertyStream
+ - IWiaPropertyStorage::GetPropertyStream
 ---
 
 # IWiaPropertyStorage::GetPropertyStream
@@ -87,3 +87,4 @@ When it is finished using the item's property stream, the application must relea
 
 
 <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a>
+

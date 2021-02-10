@@ -44,6 +44,7 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
+ - __MIDL___MIDL_itf_msrdc_0000_0000_0015
  - SimilarityFileId
 ---
 
@@ -63,3 +64,4 @@ The similarity file ID for the file.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
+

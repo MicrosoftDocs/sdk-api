@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
+ - tagIMEAPPLETUI
+ - LPIMEAPPLETUI
  - IMEAPPLETUI
 ---
 
@@ -97,3 +99,4 @@ Reserved.
 ### -field lReserved2
 
 Reserved.
+

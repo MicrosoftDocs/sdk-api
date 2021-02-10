@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationAutoScrollBehavior.SetConfiguration
+ - IDirectManipulationAutoScrollBehavior::SetConfiguration
 ---
 
 # IDirectManipulationAutoScrollBehavior::SetConfiguration
@@ -81,3 +81,4 @@ spAutoScrollBehavior->SetConfiguration(DIRECTMANIPULATION_MOTION_TRANSLATEX, DIR
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationautoscrollbehavior">IDirectManipulationAutoScrollBehavior</a>
+

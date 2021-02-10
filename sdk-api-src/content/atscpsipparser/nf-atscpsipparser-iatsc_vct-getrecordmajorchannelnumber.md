@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordMajorChannelNumber
+ - IATSC_VCT::GetRecordMajorChannelNumber
 ---
 
 # IATSC_VCT::GetRecordMajorChannelNumber
@@ -118,3 +118,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_vct">IATSC_VCT Interface</a>
+

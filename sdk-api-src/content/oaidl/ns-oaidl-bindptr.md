@@ -46,6 +46,8 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
+ - tagBINDPTR
+ - LPBINDPTR
  - BINDPTR
 ---
 
@@ -69,3 +71,4 @@ Pointer to a variable, constant, or data member.
 ### -field lptcomp
 
 The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> that binds the pointer.
+

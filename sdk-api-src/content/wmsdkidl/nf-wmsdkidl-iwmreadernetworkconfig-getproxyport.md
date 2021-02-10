@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetProxyPort
+ - IWMReaderNetworkConfig::GetProxyPort
 ---
 
 # IWMReaderNetworkConfig::GetProxyPort
@@ -116,3 +116,4 @@ NULL or invalid argument passed in.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxyport">IWMReaderNetworkConfig::SetProxyPort</a>
+

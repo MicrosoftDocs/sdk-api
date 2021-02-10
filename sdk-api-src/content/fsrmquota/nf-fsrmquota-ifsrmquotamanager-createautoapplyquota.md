@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.CreateAutoApplyQuota
- - IFsrmQuotaManagerEx.CreateAutoApplyQuota
- - FsrmQuotaManager.CreateAutoApplyQuota
+ - IFsrmQuotaManager::CreateAutoApplyQuota
 ---
 
 # IFsrmQuotaManager::CreateAutoApplyQuota
@@ -111,3 +109,4 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/defining-a-
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

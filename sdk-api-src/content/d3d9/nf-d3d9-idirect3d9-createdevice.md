@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9.CreateDevice
+ - IDirect3D9::CreateDevice
 ---
 
 # IDirect3D9::CreateDevice
@@ -166,3 +166,4 @@ If you attempt to create a device on a 0x0 sized window, <b>CreateDevice</b> wil
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-reset">Reset</a>
+

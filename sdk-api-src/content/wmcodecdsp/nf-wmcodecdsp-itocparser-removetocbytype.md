@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocParser.RemoveTocByType
+ - ITocParser::RemoveTocByType
 ---
 
 # ITocParser::RemoveTocByType
@@ -91,3 +91,4 @@ You might want to design several different type of tables of contents. In that c
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
+

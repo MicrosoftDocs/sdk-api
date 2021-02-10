@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - tagWMT_OFFSET_FORMAT
  - WMT_OFFSET_FORMAT
 ---
 
@@ -83,3 +84,4 @@ Used to specify approximate seeking. This type of offset seeks to the closest ke
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
+

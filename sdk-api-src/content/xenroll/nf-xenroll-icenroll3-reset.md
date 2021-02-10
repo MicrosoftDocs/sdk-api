@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.Reset
- - ICEnroll3.Reset
- - CEnroll.Reset
+ - ICEnroll3::Reset
 ---
 
 # ICEnroll3::Reset
@@ -77,3 +75,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+

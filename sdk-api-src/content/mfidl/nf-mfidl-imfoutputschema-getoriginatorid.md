@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFOutputSchema.GetOriginatorID
+ - IMFOutputSchema::GetOriginatorID
 ---
 
 # IMFOutputSchema::GetOriginatorID
@@ -88,3 +88,4 @@ All of the policy objects and output schemas from the same ITA should return the
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputschema">IMFOutputSchema</a>
+

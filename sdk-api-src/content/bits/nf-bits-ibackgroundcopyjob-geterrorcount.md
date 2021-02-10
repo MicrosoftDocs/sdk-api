@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetErrorCount
+ - IBackgroundCopyJob::GetErrorCount
 ---
 
 # IBackgroundCopyJob::GetErrorCount
@@ -73,3 +73,4 @@ BITS also increases the count each time it tries to transfer the job when the jo
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a>
+

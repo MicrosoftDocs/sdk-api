@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_PROBE_MATCH_LIST
  - WSD_PROBE_MATCH_LIST
 ---
 
@@ -83,3 +84,4 @@ Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_matc
 
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_matches">WSD_PROBE_MATCHES</a>
+

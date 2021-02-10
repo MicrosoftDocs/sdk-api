@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Lpmapi.h
 api_name:
+ - rsvpmsgobjs
  - RSVP_MSG_OBJS
 ---
 
@@ -132,3 +133,4 @@ Pointer to an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-a
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_session">RSVP_SESSION</a>
+

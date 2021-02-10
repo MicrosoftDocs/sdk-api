@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.IsSyncPoint
+ - IMediaSample::IsSyncPoint
 ---
 
 # IMediaSample::IsSyncPoint
@@ -70,3 +70,4 @@ A filter can begin a stream at any synchronization point. With some compression 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
+

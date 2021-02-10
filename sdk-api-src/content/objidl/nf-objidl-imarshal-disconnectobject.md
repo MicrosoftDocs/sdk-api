@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMarshal.DisconnectObject
+ - IMarshal::DisconnectObject
 ---
 
 # IMarshal::DisconnectObject
@@ -83,3 +83,4 @@ If you are implementing this method for an immutable object, such as a moniker, 
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
+

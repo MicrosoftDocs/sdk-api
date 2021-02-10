@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJobs.get__NewEnum
+ - IFaxIncomingJobs::get__NewEnum
 ---
 
 # IFaxIncomingJobs::get__NewEnum
@@ -77,3 +77,4 @@ In Microsoft Visual Basic, you do not need to use the <b>__NewEnum</b> property 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingjobs">IFaxIncomingJobs</a>
+

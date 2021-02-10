@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetNtmsObjectInformationA
  - ntmsapi/SetNtmsObjectInformationA
+ - SetNtmsObjectInformation
+ - ntmsapi/SetNtmsObjectInformation
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - SetNtmsObjectInformation
  - SetNtmsObjectInformationA
- - SetNtmsObjectInformationW
+ - SetNtmsObjectInformation
 ---
 
 # SetNtmsObjectInformationA function
@@ -345,3 +346,4 @@ The following is the list of objects that have members that can be updated.
 
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
+

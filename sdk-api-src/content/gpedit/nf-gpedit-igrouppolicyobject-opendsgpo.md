@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject.OpenDSGPO
+ - IGroupPolicyObject::OpenDSGPO
 ---
 
 # IGroupPolicyObject::OpenDSGPO
@@ -101,3 +101,4 @@ To create a new GPO in the Active Directory, you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-new">New</a>
+

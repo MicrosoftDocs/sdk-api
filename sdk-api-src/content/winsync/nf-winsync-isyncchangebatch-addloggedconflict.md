@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatch.AddLoggedConflict
+ - ISyncChangeBatch::AddLoggedConflict
 ---
 
 # ISyncChangeBatch::AddLoggedConflict
@@ -143,3 +143,4 @@ Conflicts that are added to the change batch are not added to a group. A group d
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

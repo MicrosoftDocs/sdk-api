@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sptip.dll
 api_name:
- - ITfSpeechUIServer.UpdateBalloon
+ - ITfSpeechUIServer::UpdateBalloon
 ---
 
 # ITfSpeechUIServer::UpdateBalloon
@@ -97,3 +97,4 @@ The method was successful.
 
 <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
       </a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_TIMECODE
  - DVD_TIMECODE
 ---
 
@@ -110,3 +111,4 @@ DVD timecode is binary coded decimal (BCD) encoded in the format 0xHhMmSsFf, whe
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

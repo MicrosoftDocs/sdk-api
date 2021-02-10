@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymFromName
- - SymFromName
- - SymFromNameW
 ---
 
 # SymFromName function
@@ -98,3 +96,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a>
+

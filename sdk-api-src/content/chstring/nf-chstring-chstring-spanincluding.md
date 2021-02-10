@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.SpanIncluding
+ - CHString::SpanIncluding
 ---
 
 # CHString::SpanIncluding
@@ -101,3 +101,4 @@ assert( res.IsEmpty( ) );
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-spanexcluding">CHString::SpanExcluding</a>
+

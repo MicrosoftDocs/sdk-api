@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement2.CachedOptimizeForVisualContent
- - IUIAutomationElement2.get_CachedOptimizeForVisualContent
+ - IUIAutomationElement2::get_CachedOptimizeForVisualContent
 ---
 
 # IUIAutomationElement2::get_CachedOptimizeForVisualContent
@@ -76,3 +75,4 @@ A value of TRUE indicates that the provider optimizes for visual content, while 
 
 
 <b>Reference</b>
+

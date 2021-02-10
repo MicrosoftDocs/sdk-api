@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityFileIdTable.Append
+ - ISimilarityFileIdTable::Append
 ---
 
 # ISimilarityFileIdTable::Append
@@ -75,3 +75,4 @@ If the <b>Append</b> method fails, the similarity file ID table is marked as cor
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
+

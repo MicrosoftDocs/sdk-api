@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplateImported.OverwriteOnCommit
- - IFsrmQuotaTemplateImported.get_OverwriteOnCommit
- - IFsrmQuotaTemplateImported.put_OverwriteOnCommit
+ - IFsrmQuotaTemplateImported::get_OverwriteOnCommit
 ---
 
 # IFsrmQuotaTemplateImported::get_OverwriteOnCommit
@@ -70,3 +68,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

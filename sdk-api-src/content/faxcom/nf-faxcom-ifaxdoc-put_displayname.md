@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.DisplayName
- - IFaxDoc.get_DisplayName
- - IFaxDoc.put_DisplayName
+ - IFaxDoc::put_DisplayName
 ---
 
 # IFaxDoc::put_DisplayName
@@ -77,3 +75,4 @@ The <b>get_DisplayName</b> method allocates the memory required for the buffer p
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

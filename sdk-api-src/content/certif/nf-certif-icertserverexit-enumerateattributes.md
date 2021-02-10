@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit.EnumerateAttributes
- - CCertServerExit.EnumerateAttributes
+ - ICertServerExit::EnumerateAttributes
 ---
 
 # ICertServerExit::EnumerateAttributes
@@ -92,3 +91,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getrequestattribute">ICertServerExit::GetRequestAttribute</a>
+

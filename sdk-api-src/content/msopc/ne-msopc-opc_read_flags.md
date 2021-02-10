@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
+ - __MIDL___MIDL_itf_msopc_0000_0002_0004
  - OPC_READ_FLAGS
 ---
 
@@ -120,3 +121,4 @@ The Packaging APIs do not use the <i>OPC</i> core properties feature; therefore,
 
 
 <b>Reference</b>
+

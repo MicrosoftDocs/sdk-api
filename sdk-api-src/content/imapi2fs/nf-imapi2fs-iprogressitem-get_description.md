@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IProgressItem.get_Description
+ - IProgressItem::get_Description
 ---
 
 # IProgressItem::get_Description
@@ -85,3 +85,4 @@ Value: 0x80004003
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
+

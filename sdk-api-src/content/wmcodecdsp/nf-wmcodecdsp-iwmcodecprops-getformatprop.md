@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecProps.GetFormatProp
+ - IWMCodecProps::GetFormatProp
 ---
 
 # IWMCodecProps::GetFormatProp
@@ -118,3 +118,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/mfpkey-vbrqualityproperty">MFPKEY_VBRQUALITY</a>
+

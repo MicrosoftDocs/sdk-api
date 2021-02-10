@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidPlaybackEvent.EndOfMedia
+ - IMSVidPlaybackEvent::EndOfMedia
 ---
 
 # IMSVidPlaybackEvent::EndOfMedia
@@ -74,3 +74,4 @@ The dispatch identifier (dispid) of this method is <b>eventidEndOfMedia</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidplaybackevent">IMSVidPlaybackEvent Interface</a>
+

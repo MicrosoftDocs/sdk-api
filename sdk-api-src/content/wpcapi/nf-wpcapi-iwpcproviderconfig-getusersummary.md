@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCProviderConfig.GetUserSummary
+ - IWPCProviderConfig::GetUserSummary
 ---
 
 # IWPCProviderConfig::GetUserSummary
@@ -75,3 +75,4 @@ The user summary string is used to display information under each user in the Pa
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderconfig">IWPCProviderConfig</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.CreateVertexDeclaration
+ - IDirect3DDevice9::CreateVertexDeclaration
 ---
 
 # IDirect3DDevice9::CreateVertexDeclaration
@@ -81,3 +81,4 @@ See the <a href="/windows/desktop/direct3d9/vertex-declaration">Vertex Declarati
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+

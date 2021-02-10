@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Scesvc.h
 api_name:
+ - _SCESVC_ANALYSIS_INFO_
+ - PSCESVC_ANALYSIS_INFO
  - SCESVC_ANALYSIS_INFO
 ---
 
@@ -87,3 +89,4 @@ Pointer to an array of
 
 
 <a href="/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>
+

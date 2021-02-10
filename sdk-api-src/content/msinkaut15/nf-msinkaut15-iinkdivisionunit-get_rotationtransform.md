@@ -43,9 +43,7 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnit.RotationTransform
- - IInkDivisionUnit.get_RotationTransform
- - IInkDivisionUnit.get_RotationTransform
+ - IInkDivisionUnit::get_RotationTransform
 ---
 
 # IInkDivisionUnit::get_RotationTransform
@@ -77,3 +75,4 @@ Use this property to level handwriting or to accurately draw lines or shapes aro
 
 
 <a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
+

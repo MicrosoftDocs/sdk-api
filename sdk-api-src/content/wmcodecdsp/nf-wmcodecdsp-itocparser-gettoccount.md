@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocParser.GetTocCount
+ - ITocParser::GetTocCount
 ---
 
 # ITocParser::GetTocCount
@@ -87,3 +87,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
+

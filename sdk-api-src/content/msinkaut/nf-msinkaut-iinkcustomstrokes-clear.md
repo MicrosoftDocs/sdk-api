@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCustomStrokes.Clear
+ - IInkCustomStrokes::Clear
 ---
 
 # IInkCustomStrokes::Clear
@@ -102,3 +102,4 @@ An exception occurred inside the method.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>
+

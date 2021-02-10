@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_DISC_SIDE
  - DVD_DISC_SIDE
 ---
 
@@ -75,3 +76,4 @@ This enumeration is used in the <a href="/windows/desktop/api/strmif/nf-strmif-i
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">IDvdInfo2::GetDVDVolumeInfo</a>
+

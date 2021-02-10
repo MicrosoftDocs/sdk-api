@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromRip.startRip
+ - IWMPCdromRip::startRip
 ---
 
 # IWMPCdromRip::startRip
@@ -93,3 +93,4 @@ Ripping a CD by using the <b>IWMPCdromRip</b> interface has the same effect as r
 
 
 <a href="/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
+

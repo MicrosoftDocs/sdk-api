@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioengineendpoint.h
 api_name:
- - IHardwareAudioEngineBase.SetEngineDeviceFormat
+ - IHardwareAudioEngineBase::SetEngineDeviceFormat
 ---
 
 # IHardwareAudioEngineBase::SetEngineDeviceFormat
@@ -73,3 +73,4 @@ The <b>SetEngineDeviceFormat</b> method returns <b>S_OK</b> to indicate that it 
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4.XMUNIBBLE4
+ - XMUNIBBLE4::XMUNIBBLE4
 ---
 
 # XMUNIBBLE4::XMUNIBBLE4
@@ -75,3 +75,4 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 
 
 <a href="/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
+

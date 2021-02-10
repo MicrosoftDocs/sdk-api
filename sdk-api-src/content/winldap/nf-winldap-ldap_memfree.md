@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_memfree
- - ldap_memfreeA
- - ldap_memfreeW
 ---
 
 # ldap_memfree function
@@ -86,3 +84,4 @@ Call <b>ldap_memfree</b> to free strings, such as the attribute names returned b
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_open">ldap_open</a>
+

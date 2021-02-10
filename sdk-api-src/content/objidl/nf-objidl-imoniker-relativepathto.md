@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker.RelativePathTo
+ - IMoniker::RelativePathTo
 ---
 
 # IMoniker::RelativePathTo
@@ -173,3 +173,4 @@ For certain types of monikers, you cannot use your <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/objbase/nf-objbase-monikerrelativepathto">MonikerRelativePathTo</a>
+

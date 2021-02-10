@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Cmnquery.h
 api_name:
+ - LPCQFORM
  - CQFORM
 ---
 
@@ -100,3 +101,4 @@ Pointer to a null-terminated Unicode string that contains the title of the query
 
 
 <a href="/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">IQueryForm::AddForms</a>
+

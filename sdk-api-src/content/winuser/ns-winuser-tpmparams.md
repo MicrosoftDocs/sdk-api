@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagTPMPARAMS
  - TPMPARAMS
 ---
 
@@ -83,3 +84,4 @@ The rectangle to be excluded when positioning the window, in screen coordinates.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>
+

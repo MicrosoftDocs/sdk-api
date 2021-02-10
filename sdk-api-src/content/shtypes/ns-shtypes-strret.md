@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shtypes.h
 api_name:
+ - _STRRET
  - STRRET
 ---
 
@@ -103,3 +104,4 @@ The buffer to receive the display name.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a>
+

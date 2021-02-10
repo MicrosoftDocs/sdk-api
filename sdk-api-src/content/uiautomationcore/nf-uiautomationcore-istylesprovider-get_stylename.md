@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IStylesProvider.StyleName
- - IStylesProvider.get_StyleName
+ - IStylesProvider::get_StyleName
 ---
 
 # IStylesProvider::get_StyleName
@@ -64,3 +63,4 @@ The style name typically indicates the role of the element in the document, such
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-istylesprovider">IStylesProvider</a>
+

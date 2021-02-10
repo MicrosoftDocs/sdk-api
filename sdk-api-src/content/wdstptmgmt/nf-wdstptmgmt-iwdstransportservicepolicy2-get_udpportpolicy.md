@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy2.UdpPortPolicy
- - IWdsTransportServicePolicy2.get_UdpPortPolicy
- - IWdsTransportServicePolicy2.put_UdpPortPolicy
+ - IWdsTransportServicePolicy2::get_UdpPortPolicy
 ---
 
 # IWdsTransportServicePolicy2::get_UdpPortPolicy
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_udp_port_policy">WDSTRANSPORT_UDP_PORT_POLICY</a>
+

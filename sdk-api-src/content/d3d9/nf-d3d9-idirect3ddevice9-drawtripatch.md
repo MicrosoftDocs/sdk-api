@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.DrawTriPatch
+ - IDirect3DDevice9::DrawTriPatch
 ---
 
 # IDirect3DDevice9::DrawTriPatch
@@ -95,3 +95,4 @@ For dynamic patches, the patch data changes for every rendering of the patch so 
 
 
 <a href="/windows/desktop/direct3d9/using-higher-order-primitives">Using Higher-Order Primitives (Direct3D 9)</a>
+

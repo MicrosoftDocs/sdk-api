@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ICreateProcessInputs.AddCreateFlags
+ - ICreateProcessInputs::AddCreateFlags
 ---
 
 # ICreateProcessInputs::AddCreateFlags
@@ -85,3 +85,4 @@ Any creation flags that were previously set will remain set. This method does no
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-setcreateflags">SetCreateFlags</a>
+

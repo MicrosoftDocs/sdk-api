@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMetadataPicture.get_URL
+ - IWMPMetadataPicture::get_URL
 ---
 
 # IWMPMetadataPicture::get_URL
@@ -81,3 +81,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmetadatapicture">IWMPMetadataPicture Interface</a>
+

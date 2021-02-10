@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - hyphresult
  - HYPHRESULT
 ---
 
@@ -89,3 +90,4 @@ This structure is used with the <a href="/windows/win32/api/richedit/ns-richedit
 
 
 <b>Reference</b>
+

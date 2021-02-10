@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo.GetAllSPRMs
+ - IDvdInfo::GetAllSPRMs
 ---
 
 # IDvdInfo::GetAllSPRMs
@@ -128,3 +128,4 @@ For use of individual registers, see the DVD-Video specification.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
+

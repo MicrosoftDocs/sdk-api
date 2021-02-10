@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_CLASSINSTALL_HEADER
+ - PSP_CLASSINSTALL_HEADER
  - SP_CLASSINSTALL_HEADER
 ---
 
@@ -131,3 +133,4 @@ However, a component does not have to set this field when passing class install 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassinstallparamsa">SetupDiSetClassInstallParams</a>
+

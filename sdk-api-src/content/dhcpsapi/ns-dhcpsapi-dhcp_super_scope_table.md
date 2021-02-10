@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_SUPER_SCOPE_TABLE
+ - LPDHCP_SUPER_SCOPE_TABLE
  - DHCP_SUPER_SCOPE_TABLE
 ---
 
@@ -81,3 +83,4 @@ A "superscope" is the set of all subnets defined on a DHCP server, and hence all
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetsuperscopeinfov4">DhcpGetSuperScopeInfoV4</a>
+

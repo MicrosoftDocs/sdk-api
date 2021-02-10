@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeDateArray.Decode
- - CCertEncodeDateArray.Decode
+ - ICertEncodeDateArray::Decode
 ---
 
 # ICertEncodeDateArray::Decode
@@ -84,3 +83,4 @@ For an example that uses the <b>Decode</b> method, see the <a href="/windows/des
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-encode">ICertEncodeDateArray::Encode</a>
+

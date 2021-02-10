@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ReportIScsiInitiatorListW
  - iscsidsc/ReportIScsiInitiatorListW
+ - ReportIScsiInitiatorList
+ - iscsidsc/ReportIScsiInitiatorList
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - ReportIscsiInitiatorList
- - ReportIscsiInitiatorListA
- - ReportIscsiInitiatorListW
+ - ReportIScsiInitiatorListW
+ - ReportIScsiInitiatorList
 ---
 
 # ReportIScsiInitiatorListW function

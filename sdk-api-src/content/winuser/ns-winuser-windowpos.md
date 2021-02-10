@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagWINDOWPOS
+ - LPWINDOWPOS
  - WINDOWPOS
 ---
 
@@ -281,3 +283,4 @@ Displays the window.
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

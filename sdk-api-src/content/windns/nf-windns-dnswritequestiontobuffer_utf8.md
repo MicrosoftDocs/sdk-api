@@ -42,7 +42,6 @@ api_type:
 api_location:
  - Dnsapi.dll
 api_name:
- - DnsWriteQuestionToBuffer_W
  - DnsWriteQuestionToBuffer_UTF8
 ---
 
@@ -123,3 +122,4 @@ DnsWriteQuestionToBuffer_UTF8(
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
+

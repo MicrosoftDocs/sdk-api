@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsADSystemInfo.GetTrees
+ - IADsADSystemInfo::GetTrees
 ---
 
 # IADsADSystemInfo::GetTrees
@@ -69,3 +69,4 @@ This method supports the standard <b>HRESULT</b> return values. For more informa
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsadsysteminfo">IADsADSystemInfo</a>
+

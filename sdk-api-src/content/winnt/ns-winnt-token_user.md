@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_USER
+ - PTOKEN_USER
  - TOKEN_USER
 ---
 
@@ -110,3 +112,4 @@ Specifies a
 
 
 <a href="/windows/desktop/api/winnt/ne-winnt-token_type">TOKEN_TYPE</a>
+

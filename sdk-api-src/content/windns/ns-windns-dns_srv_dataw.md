@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_SRV_DATA
+ - PDNS_SRV_DATAW
+ - DNS_SRV_DATAW
 ---
 
 # DNS_SRV_DATAW structure

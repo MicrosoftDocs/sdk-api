@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzClientContext3.GetOperations
+ - IAzClientContext3::GetOperations
 ---
 
 # IAzClientContext3::GetOperations
@@ -67,3 +67,4 @@ The address of a pointer to the collection of operations that the principal repr
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+

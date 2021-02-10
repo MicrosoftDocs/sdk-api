@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
+ - _DXAPI_INTERFACE
+ - PDXAPI_INTERFACE
  - DXAPI_INTERFACE
 ---
 
@@ -133,3 +135,4 @@ Points to the driver-supplied <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcStringFree
- - RpcStringFreeA
- - RpcStringFreeW
 ---
 
 # RpcStringFree function
@@ -102,3 +100,4 @@ An application is responsible for calling
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a>
+

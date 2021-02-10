@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.CreateTrigger
+ - IScheduledWorkItem::CreateTrigger
 ---
 
 # IScheduledWorkItem::CreateTrigger
@@ -154,3 +154,4 @@ For an example of how to set the trigger criteria when creating a new trigger, s
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>
+

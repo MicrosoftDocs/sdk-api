@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdate5.AutoSelection
- - IWindowsDriverUpdate5.get_AutoSelection
+ - IWindowsDriverUpdate5::get_AutoSelection
 ---
 
 # IWindowsDriverUpdate5::get_AutoSelection
@@ -64,3 +63,4 @@ The AutoSelection property indicates whether the update will be automatically se
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate5">IWindowsUpdateDriver5</a>
+

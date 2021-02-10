@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscRecorder.QueryMediaInfo
+ - IDiscRecorder::QueryMediaInfo
 ---
 
 # IDiscRecorder::QueryMediaInfo
@@ -85,3 +85,4 @@ Using this method allows the calculation of parameters such as the amount of fre
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
+

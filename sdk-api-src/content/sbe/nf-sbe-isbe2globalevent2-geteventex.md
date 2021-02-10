@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2GlobalEvent2.GetEventEx
+ - ISBE2GlobalEvent2::GetEventEx
 ---
 
 # ISBE2GlobalEvent2::GetEventEx
@@ -102,3 +102,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2spanningevent-getevent">ISBE2SpanningEvent::GetEvent</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
- - ICMPV6_ECHO_REPLY
+ - icmpv6_echo_reply_lh
+ - PICMPV6_ECHO_REPLY_LH
+ - ICMPV6_ECHO_REPLY_LH
 ---
 
 # ICMPV6_ECHO_REPLY_LH structure
@@ -427,3 +429,4 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 
 <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpclosehandle">IcmpCloseHandle</a>
+

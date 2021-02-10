@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - IAppPublisher.GetCategories
+ - IAppPublisher::GetCategories
 ---
 
 # IAppPublisher::GetCategories
@@ -91,3 +91,4 @@ size_t CategoryListArraySize = sizeof(APPCATEGORYINFO) * pInfoList->cCategory;
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
+

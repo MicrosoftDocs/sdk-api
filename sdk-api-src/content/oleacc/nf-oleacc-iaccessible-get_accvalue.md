@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.get_accValue
+ - IAccessible::get_accValue
 ---
 
 # IAccessible::get_accValue
@@ -116,3 +116,4 @@ Numeric values returned from scroll bar and trackbar accessible objects indicate
 
 
 <a href="/windows/desktop/WinAuto/value-property">Value Property</a>
+

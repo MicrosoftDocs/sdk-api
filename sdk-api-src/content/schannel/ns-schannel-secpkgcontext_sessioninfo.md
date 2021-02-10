@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
+ - _SecPkgContext_SessionInfo
+ - PSecPkgContext_SessionInfo
  - SecPkgContext_SessionInfo
 ---
 
@@ -91,3 +93,4 @@ An array of up to 32 bytes that identifies the session.
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>
+

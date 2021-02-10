@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Casetup.h
 api_name:
+ - __MIDL___MIDL_itf_casetup_0000_0005_0001
  - CEPSetupProperty
 ---
 
@@ -83,3 +84,4 @@ The property value indicates  whether to set up the Enrollment Policy Server in 
 
 
 <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-setproperty">SetProperty</a>
+

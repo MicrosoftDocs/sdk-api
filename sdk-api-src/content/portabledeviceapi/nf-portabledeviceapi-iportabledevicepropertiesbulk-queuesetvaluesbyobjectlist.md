@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulk.QueueSetValuesByObjectList
+ - IPortableDevicePropertiesBulk::QueueSetValuesByObjectList
 ---
 
 # IPortableDevicePropertiesBulk::QueueSetValuesByObjectList
@@ -100,3 +100,4 @@ The queued request is not started until the application calls <a href="/windows/
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectlist">IPortableDevicePropertiesBulk::QueueGetValuesByObjectList</a>
+

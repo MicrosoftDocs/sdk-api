@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WSASocketW
  - winsock2/WSASocketW
+ - WSASocket
+ - winsock2/WSASocket
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSASocket
- - WSASocketA
  - WSASocketW
+ - WSASocket
 ---
 
 # WSASocketW function
@@ -1090,3 +1091,4 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
+

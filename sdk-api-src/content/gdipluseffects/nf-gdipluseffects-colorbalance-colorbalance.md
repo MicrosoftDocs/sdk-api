@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ColorBalance.ColorBalance
+ - ColorBalance::ColorBalance
 ---
 
 # ColorBalance::ColorBalance
@@ -66,3 +66,4 @@ Creates a new <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-col
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorbalanceparams">ColorBalanceParams</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - relogger.h
 api_name:
+ - _EVENT_DESCRIPTOR
+ - PEVENT_DESCRIPTOR
  - EVENT_DESCRIPTOR
 ---
 
@@ -191,3 +193,4 @@ This structure is also included in the <a href="/windows/desktop/api/evntcons/ns
 
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgetmanifesteventinformation">TdhGetManifestEventInformation</a>
+

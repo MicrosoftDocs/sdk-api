@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IEVRVideoStreamControl.GetStreamActiveState
+ - IEVRVideoStreamControl::GetStreamActiveState
 ---
 
 # IEVRVideoStreamControl::GetStreamActiveState
@@ -68,3 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol">IEVRVideoStreamControl</a>
+

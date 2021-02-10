@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IInitializeCommand.Initialize
+ - IInitializeCommand::Initialize
 ---
 
 # IInitializeCommand::Initialize
@@ -71,3 +71,4 @@ Pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

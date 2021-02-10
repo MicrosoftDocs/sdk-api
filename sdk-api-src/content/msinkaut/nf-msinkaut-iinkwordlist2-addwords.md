@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkWordList2.AddWords
+ - IInkWordList2::AddWords
 ---
 
 # IInkWordList2::AddWords
@@ -153,3 +153,4 @@ To access this method, first create and instance of the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
+

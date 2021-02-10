@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IOpLockStatus.GetOplockEventHandle
+ - IOpLockStatus::GetOplockEventHandle
 ---
 
 # IOpLockStatus::GetOplockEventHandle
@@ -65,3 +65,4 @@ Receives a pointer to the handle of the event associated with the OpLock, or <b>
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

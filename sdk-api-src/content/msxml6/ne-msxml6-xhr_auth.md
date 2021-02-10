@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
+ - _XHR_AUTH
  - XHR_AUTH
 ---
 
@@ -71,3 +72,4 @@ Enable authentication to the proxy and disable auth to the server.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
+

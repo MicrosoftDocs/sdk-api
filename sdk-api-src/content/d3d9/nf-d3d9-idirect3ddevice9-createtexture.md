@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.CreateTexture
+ - IDirect3DDevice9::CreateTexture
 ---
 
 # IDirect3DDevice9::CreateTexture
@@ -164,3 +164,4 @@ In Windows Vista CreateTexture can create a texture from a system memory pointer
 
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+

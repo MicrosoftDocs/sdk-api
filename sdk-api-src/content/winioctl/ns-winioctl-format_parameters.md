@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _FORMAT_PARAMETERS
+ - PFORMAT_PARAMETERS
  - FORMAT_PARAMETERS
 ---
 
@@ -86,3 +88,4 @@ The ending head location.
 
 
 <a href="/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
+

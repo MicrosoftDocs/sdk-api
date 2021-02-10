@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.DeleteItems
+ - IFileOperation::DeleteItems
 ---
 
 # IFileOperation::DeleteItems
@@ -83,3 +83,4 @@ This method does not delete the items, it merely declares the items to be delete
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-deleteitem">IFileOperation::DeleteItem</a>
+

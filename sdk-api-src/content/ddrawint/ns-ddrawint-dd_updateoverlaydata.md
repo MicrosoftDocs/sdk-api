@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_UPDATEOVERLAYDATA
+ - PDD_UPDATEOVERLAYDATA
  - DD_UPDATEOVERLAYDATA
 ---
 
@@ -254,3 +256,4 @@ Used by the DirectDraw API and should not be filled in by the driver.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.NonMembers
- - IAzApplicationGroup.get_NonMembers
- - AzApplicationGroup.NonMembers
+ - IAzApplicationGroup::get_NonMembers
 ---
 
 # IAzApplicationGroup::get_NonMembers
@@ -67,3 +65,4 @@ This property is ignored unless the <a href="/windows/desktop/api/azroles/nf-azr
 In JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
 
 Denying membership to an account in an application group does not prevent that account from being assigned to a role through a different application group, nor from being granted permission to a resource through assignment to any other role.
+

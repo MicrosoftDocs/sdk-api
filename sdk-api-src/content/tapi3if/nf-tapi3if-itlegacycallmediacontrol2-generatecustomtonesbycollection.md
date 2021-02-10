@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.GenerateCustomTonesByCollection
+ - ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
 ---
 
 # ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
@@ -141,3 +141,4 @@ When tone generation finishes, an event of type TE_GENERATEEVENT is generated.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
+

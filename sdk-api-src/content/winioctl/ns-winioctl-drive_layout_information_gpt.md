@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DRIVE_LAYOUT_INFORMATION_GPT
+ - PDRIVE_LAYOUT_INFORMATION_GPT
  - DRIVE_LAYOUT_INFORMATION_GPT
 ---
 
@@ -88,3 +90,4 @@ The maximum number of partitions that can be defined in the usable block.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
+

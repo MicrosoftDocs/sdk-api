@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.BeginSendRequest
+ - IMFHttpDownloadRequest::BeginSendRequest
 ---
 
 # IMFHttpDownloadRequest::BeginSendRequest
@@ -114,3 +114,4 @@ The implementation of <b>BeginWrite</b> does not need to make a private copy of 
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
+

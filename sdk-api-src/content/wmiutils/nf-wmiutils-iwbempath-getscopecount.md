@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath.GetScopeCount
+ - IWbemPath::GetScopeCount
 ---
 
 # IWbemPath::GetScopeCount
@@ -66,3 +66,4 @@ This method returns the following values.
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
+

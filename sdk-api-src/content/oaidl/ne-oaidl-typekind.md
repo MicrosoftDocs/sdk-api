@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
+ - tagTYPEKIND
  - TYPEKIND
 ---
 
@@ -91,3 +92,4 @@ A union, all of whose members have an offset of zero.
 ### -field TKIND_MAX
 
 End of enum marker.
+

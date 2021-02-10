@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMLinearGradientBrush.Clone
+ - IXpsOMLinearGradientBrush::Clone
 ---
 
 # IXpsOMLinearGradientBrush::Clone
@@ -117,3 +117,4 @@ This method does not update any of the resource pointers in the copy.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

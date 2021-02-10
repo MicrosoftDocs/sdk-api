@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.ConfidenceAlternates
- - IInkRecognitionAlternate.get_ConfidenceAlternates
- - IInkRecognitionAlternate.get_ConfidenceAlternates
+ - IInkRecognitionAlternate::get_ConfidenceAlternates
 ---
 
 # IInkRecognitionAlternate::get_ConfidenceAlternates
@@ -84,3 +82,4 @@ This property is an alternative to the <a href="/windows/desktop/api/msinkaut/nf
 
 
 <a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty Constants</a>
+

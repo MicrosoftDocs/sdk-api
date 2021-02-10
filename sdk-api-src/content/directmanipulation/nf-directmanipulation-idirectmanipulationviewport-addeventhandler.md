@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.AddEventHandler
+ - IDirectManipulationViewport::AddEventHandler
 ---
 
 # IDirectManipulationViewport::AddEventHandler
@@ -82,3 +82,4 @@ The event callback is fired from the thread that owns the specified window. Cons
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
+

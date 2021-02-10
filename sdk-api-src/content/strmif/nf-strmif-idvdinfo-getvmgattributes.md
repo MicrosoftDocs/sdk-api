@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo.GetVMGAttributes
+ - IDvdInfo::GetVMGAttributes
 ---
 
 # IDvdInfo::GetVMGAttributes
@@ -128,3 +128,4 @@ The video manager contains a separate group of streams, such as the DVD_MENU_Tit
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
+

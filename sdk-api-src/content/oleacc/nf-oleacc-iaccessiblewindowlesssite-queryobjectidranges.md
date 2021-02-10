@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessibleWindowlessSite.QueryObjectIdRanges
+ - IAccessibleWindowlessSite::QueryObjectIdRanges
 ---
 
 # IAccessibleWindowlessSite::QueryObjectIdRanges
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessiblewindowlesssite">IAccessibleWindowlessSite</a>
+

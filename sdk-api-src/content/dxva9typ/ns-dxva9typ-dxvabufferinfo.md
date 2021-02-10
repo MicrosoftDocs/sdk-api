@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
+ - _DXVABufferInfo
  - DXVABufferInfo
 ---
 
@@ -76,3 +77,4 @@ The size of the relevant data in the buffer, in bytes.
 
 
 <a href="/windows/desktop/medfound/idirect3ddxvadevice9">IDirect3DDXVADevice9</a>
+

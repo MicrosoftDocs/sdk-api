@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSink.Shutdown
+ - IMFMediaSink::Shutdown
 ---
 
 # IMFMediaSink::Shutdown
@@ -101,3 +101,4 @@ After this method returns, all methods on the media sink return MF_E_SHUTDOWN,  
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
+

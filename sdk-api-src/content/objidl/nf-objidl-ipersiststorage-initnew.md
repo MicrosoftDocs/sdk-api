@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStorage.InitNew
+ - IPersistStorage::InitNew
 ---
 
 # IPersistStorage::InitNew
@@ -149,3 +149,4 @@ Your implementation of this method should return the CO_E_ALREADYINITIALIZED err
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
+

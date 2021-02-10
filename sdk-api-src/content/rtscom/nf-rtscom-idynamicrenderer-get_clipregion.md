@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer.ClipRegion
- - IDynamicRenderer.get_ClipRegion
- - IDynamicRenderer.put_ClipRegion
- - IDynamicRenderer.get_ClipRegion
- - IDynamicRenderer.put_ClipRegion
+ - IDynamicRenderer::get_ClipRegion
 ---
 
 # IDynamicRenderer::get_ClipRegion
@@ -76,3 +72,4 @@ Data can be rendered to any defined surface. The collection surface for dynamic 
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_cliprectangle">IDynamicRenderer::ClipRectangle Property</a>
+

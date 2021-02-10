@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing.EndSubscribeToMultipleOperations
+ - IWSDServiceProxyEventing::EndSubscribeToMultipleOperations
 ---
 
 # IWSDServiceProxyEventing::EndSubscribeToMultipleOperations
@@ -87,3 +87,4 @@ The method is used to obtain the results from a previous asynchronous <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>
+

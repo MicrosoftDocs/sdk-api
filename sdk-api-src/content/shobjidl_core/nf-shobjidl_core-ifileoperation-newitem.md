@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.NewItem
+ - IFileOperation::NewItem
 ---
 
 # IFileOperation::NewItem
@@ -122,3 +122,4 @@ This method does not create the new item, it merely declares the item to be crea
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-prenewitem">PreNewItem</a>
+

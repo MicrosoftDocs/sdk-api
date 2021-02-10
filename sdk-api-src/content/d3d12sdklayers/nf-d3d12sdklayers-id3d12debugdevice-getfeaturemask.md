@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12DebugDevice.GetFeatureMask
+ - ID3D12DebugDevice::GetFeatureMask
 ---
 
 # ID3D12DebugDevice::GetFeatureMask
@@ -69,3 +69,4 @@ Mask of feature-mask flags,
 
 
 <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice-setfeaturemask">ID3D12DebugDevice::SetFeatureMask</a>
+

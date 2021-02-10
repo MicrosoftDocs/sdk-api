@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAsyncReader.Request
+ - IAsyncReader::Request
 ---
 
 # IAsyncReader::Request
@@ -196,3 +196,4 @@ CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
+

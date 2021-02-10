@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureCustomObjectSet.GetEnumerator
+ - IOpcSignatureCustomObjectSet::GetEnumerator
 ---
 
 # IOpcSignatureCustomObjectSet::GetEnumerator
@@ -134,3 +134,4 @@ The <i>customObjectEnumerator</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
+

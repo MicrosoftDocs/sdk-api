@@ -42,8 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma.LanguageID
- - IMbnSmsReadMsgTextCdma.get_LanguageID
+ - IMbnSmsReadMsgTextCdma::get_LanguageID
 ---
 
 # IMbnSmsReadMsgTextCdma::get_LanguageID
@@ -63,3 +62,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a>
+

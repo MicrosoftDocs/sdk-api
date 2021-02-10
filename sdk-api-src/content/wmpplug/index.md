@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmpplug
  - wmpplug/wmpplug
+api_name:
+ - wmpplug
 ---
 
 # Wmpplug.h header

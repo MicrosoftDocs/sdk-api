@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.EnableLanguageProfile
+ - ITfInputProcessorProfiles::EnableLanguageProfile
 ---
 
 # ITfInputProcessorProfiles::EnableLanguageProfile
@@ -111,3 +111,4 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofilebydefault">ITfInputProcessorProfiles::EnableLanguageProfileByDefault
       </a>
+

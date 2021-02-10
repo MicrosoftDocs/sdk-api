@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMTOOLTIPSCREATED
+ - LPNMTOOLTIPSCREATED
  - NMTOOLTIPSCREATED
 ---
 
@@ -69,3 +71,4 @@ An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The window handle to the tooltip control created.
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSetTargetPathA
  - msiquery/MsiSetTargetPathA
+ - MsiSetTargetPath
+ - msiquery/MsiSetTargetPath
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSetTargetPath
  - MsiSetTargetPathA
- - MsiSetTargetPathW
+ - MsiSetTargetPath
 ---
 
 # MsiSetTargetPathA function
@@ -104,3 +105,4 @@ If the function fails, you can obtain extended error information by using <a hre
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">Installer Location Functions</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFContentInfo.GetHeaderSize
+ - IMFASFContentInfo::GetHeaderSize
 ---
 
 # IMFASFContentInfo::GetHeaderSize
@@ -125,3 +125,4 @@ The header of an ASF file or stream can be passed to the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>
+

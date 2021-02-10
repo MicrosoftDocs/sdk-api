@@ -46,6 +46,8 @@ api_type:
 api_location:
  - joystickapi.h
 api_name:
+ - joyinfoex_tag
+ - PJOYINFOEX
  - JOYINFOEX
 ---
 
@@ -272,3 +274,4 @@ Multimedia Joystick Structures
 
 
 <a href="/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a>
+

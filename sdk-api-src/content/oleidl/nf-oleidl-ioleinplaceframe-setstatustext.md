@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceFrame.SetStatusText
+ - IOleInPlaceFrame::SetStatusText
 ---
 
 # IOleInPlaceFrame::SetStatusText
@@ -137,3 +137,4 @@ To avoid potential problems, all objects being activated in place should process
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _QCMINFO
  - QCMINFO
 ---
 
@@ -105,3 +106,4 @@ See <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-qu
 
 
 <a href="/windows/desktop/shell/sfvm-mergemenu">SFVM_MERGEMENU</a>
+

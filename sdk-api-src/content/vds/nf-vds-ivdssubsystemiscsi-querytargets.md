@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystemIscsi.QueryTargets
+ - IVdsSubSystemIscsi::QueryTargets
 ---
 
 # IVdsSubSystemIscsi::QueryTargets
@@ -144,3 +144,4 @@ Another operation is in progress. This operation cannot proceed until previous o
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystemiscsi">IVdsSubSystemIscsi</a>
+

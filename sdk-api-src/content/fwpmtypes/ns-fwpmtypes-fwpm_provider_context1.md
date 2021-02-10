@@ -7,10 +7,6 @@ tech.root: fwp
 ms.assetid: 34727579-9baf-4d50-b973-e864ddf651b0
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT1, FWPM_PROVIDER_CONTEXT1 structure [Filtering], FWPM_PROVIDER_CONTEXT1_, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context1_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT1
-f1_keywords:
-- fwpmtypes/FWPM_PROVIDER_CONTEXT1
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_PROVIDER_CONTEXT1
 targetos: Windows
 req.typenames: FWPM_PROVIDER_CONTEXT1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_PROVIDER_CONTEXT1_
+ - fwpmtypes/FWPM_PROVIDER_CONTEXT1_
+ - FWPM_PROVIDER_CONTEXT1
+ - fwpmtypes/FWPM_PROVIDER_CONTEXT1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_PROVIDER_CONTEXT1_
+ - FWPM_PROVIDER_CONTEXT1
 ---
 
 # FWPM_PROVIDER_CONTEXT1 structure
@@ -110,7 +114,6 @@ See [IPSEC_TRANSPORT_POLICY1](../ipsectypes/ns-ipsectypes-ipsec_transport_policy
 Available when **type** is **FWPM_IPSEC_AUTHIP_QM_TUNNEL_CONTEXT**.
 
 See [IPSEC_TUNNEL_POLICY1](../ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1.md) for more information.
-
 
 ### -field ikeMmPolicy
 
@@ -185,3 +188,4 @@ The last element is additional information returned when getting/enumerating obj
 [IPSEC_TUNNEL_POLICY1](../ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1.md)
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
+

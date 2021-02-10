@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetCustomObjects
+ - IXpsSigningOptions::GetCustomObjects
 ---
 
 # IXpsSigningOptions::GetCustomObjects
@@ -87,3 +87,4 @@ If a custom object must be signed, a reference to  that object  must be added  t
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

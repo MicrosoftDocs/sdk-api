@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Structuredquerycondition.h
 api_name:
+ - tagCONDITION_OPERATION
  - CONDITION_OPERATION
 ---
 
@@ -161,3 +162,4 @@ In Windows 7, this enumeration is defined in structuredquerycondition.idl and s
 
 
 <b>Reference</b>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IUserNotificationCallback.OnContextMenu
+ - IUserNotificationCallback::OnContextMenu
 ---
 
 # IUserNotificationCallback::OnContextMenu
@@ -67,3 +67,4 @@ In the case where user presses SHIFT+F10, the pointer points to the center of th
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

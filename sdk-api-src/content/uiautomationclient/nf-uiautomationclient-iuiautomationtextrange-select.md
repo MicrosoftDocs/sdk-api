@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.Select
+ - IUIAutomationTextRange::Select
 ---
 
 # IUIAutomationTextRange::Select
@@ -75,3 +75,4 @@ If the <b>Select</b> method is called on a text range object that represents a d
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

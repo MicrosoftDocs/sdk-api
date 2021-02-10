@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIDeviceManager.GetVideoService
+ - IMFDXGIDeviceManager::GetVideoService
 ---
 
 # IMFDXGIDeviceManager::GetVideoService
@@ -149,3 +149,4 @@ For more info see, <a href="/windows/desktop/medfound/supporting-direct3d-11-vid
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
+

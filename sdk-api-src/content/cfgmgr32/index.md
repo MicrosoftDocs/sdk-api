@@ -9,6 +9,8 @@ tech.root: devinst
 f1_keywords:
  - cfgmgr32
  - cfgmgr32/cfgmgr32
+api_name:
+ - cfgmgr32
 ---
 
 # Cfgmgr32.h header

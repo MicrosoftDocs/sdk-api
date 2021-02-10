@@ -43,6 +43,7 @@ api_type:
 api_location:
  - 
 api_name:
+ - _JChColorF
  - JChColorF
 ---
 

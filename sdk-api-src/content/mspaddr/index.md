@@ -9,6 +9,8 @@ tech.root: tapi3
 f1_keywords:
  - mspaddr
  - mspaddr/mspaddr
+api_name:
+ - mspaddr
 ---
 
 # Mspaddr.h header

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationAnnotationPattern.CurrentAnnotationTypeId
- - IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId
+ - IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId
 ---
 
 # IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationannotationpattern">IUIAutomationAnnotationPattern</a>
+

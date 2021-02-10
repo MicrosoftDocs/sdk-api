@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 18bc8018-b00c-40ef-a54a-e2eecdb835a9
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetClipper method, IDirectDrawSurface7.SetClipper, IDirectDrawSurface7::SetClipper, SetClipper, SetClipper method [DirectDraw], SetClipper method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetClipper, directdraw.idirectdrawsurface7_setclipper
-f1_keywords:
-- ddraw/IDirectDrawSurface7.SetClipper
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.SetClipper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::SetClipper
+ - ddraw/IDirectDrawSurface7::SetClipper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7::SetClipper
 ---
 
 ## -description
@@ -77,15 +78,7 @@ When you set a clipper to a surface for the first time, <b>SetClipper</b> increm
 
 You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetClipper</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
 
- 

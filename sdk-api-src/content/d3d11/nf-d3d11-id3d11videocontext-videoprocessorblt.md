@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorBlt
+ - ID3D11VideoContext::VideoProcessorBlt
 ---
 
 ## -description
@@ -99,3 +99,4 @@ If the application uses <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_query">
 ## -see-also
 
 [ID3D11VideoContext interface](./nn-d3d11-id3d11videocontext.md)
+

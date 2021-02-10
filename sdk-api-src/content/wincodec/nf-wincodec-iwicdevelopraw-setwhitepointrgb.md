@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetWhitePointRGB
+ - IWICDevelopRaw::SetWhitePointRGB
 ---
 
 # IWICDevelopRaw::SetWhitePointRGB
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Due to other white point setting methods (e.g. <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setwhitepointkelvin">SetWhitePointKelvin</a>), care must be taken by codec implementers to ensure proper interoperability. For instance, if the caller sets via a named white point then the codec implementer may whis to disable reading back the correspoinding Kelvin temperature. In specific cases where the codec implementer wishes to deny a given action because of previous calls, <b>WINCODEC_ERR_WRONGSTATE</b> should be returned.
+

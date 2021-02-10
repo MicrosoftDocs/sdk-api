@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.WriteMedia
+ - IDiscFormat2RawCD::WriteMedia
 ---
 
 # IDiscFormat2RawCD::WriteMedia
@@ -470,3 +470,4 @@ DAO-96 also supports variations in the subcode content, such as CD+G and CD-Text
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a>
+

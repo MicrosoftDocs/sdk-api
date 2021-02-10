@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSink.GetOutputMediaType
+ - IMFCaptureSink::GetOutputMediaType
 ---
 
 # IMFCaptureSink::GetOutputMediaType
@@ -98,3 +98,4 @@ The <i>dwSinkStreamIndex</i> parameter is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
+

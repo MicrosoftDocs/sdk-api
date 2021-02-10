@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wia_xp.h
 api_name:
+ - _WIA_DEV_CAP
+ - PWIA_DEV_CAP
  - WIA_DEV_CAP
 ---
 
@@ -113,3 +115,4 @@ Specifies a string that represents the location and resource ID of the icon that
 Type: <b>BSTR</b>
 
 Specifies a string that represents command line arguments.
+

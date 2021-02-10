@@ -45,6 +45,8 @@ api_type:
 api_location:
  - ntddkbd.h
 api_name:
+ - _KEYBOARD_EXTENDED_ATTRIBUTES
+ - PKEYBOARD_EXTENDED_ATTRIBUTES
  - KEYBOARD_EXTENDED_ATTRIBUTES
 ---
 
@@ -158,3 +160,4 @@ This information comes from HID Keyboard Report Descriptor described in [HID Usa
 [IOCTL_KEYBOARD_QUERY_ATTRIBUTES](ni-ntddkbd-ioctl_keyboard_query_attributes.md)
 
 [HID Usage Table Review Request 42: Consumer Page Keyboard Assist Controls](https://www.usb.org/sites/default/files/hutrr42c_0.pdf)
+

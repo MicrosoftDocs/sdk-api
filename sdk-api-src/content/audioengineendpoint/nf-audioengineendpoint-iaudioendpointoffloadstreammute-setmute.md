@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamMute.SetMute
+ - IAudioEndpointOffloadStreamMute::SetMute
 ---
 
 # IAudioEndpointOffloadStreamMute::SetMute
@@ -65,3 +65,4 @@ The <b>SetMute</b> method returns <b>S_OK</b> to indicate that it has completed 
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammute">IAudioEndpointOffloadStreamMute</a>
+

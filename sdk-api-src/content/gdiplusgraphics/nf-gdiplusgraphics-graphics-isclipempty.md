@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.IsClipEmpty
+ - Graphics::IsClipEmpty
 ---
 
 # Graphics::IsClipEmpty
@@ -121,3 +121,4 @@ VOID Example_IsClipEmpty(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstgraphicspath_incombinemode)">SetClip Methods</a>
+

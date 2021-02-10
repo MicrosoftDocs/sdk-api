@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2.DisableMcn
+ - IDiscRecorder2::DisableMcn
 ---
 
 # IDiscRecorder2::DisableMcn
@@ -158,3 +158,4 @@ Note that DisableMcn increments a reference count each time it is called. The <a
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>
+

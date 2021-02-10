@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocatorNotifyCallbackTemp.NotifyRelease
+ - IMemAllocatorNotifyCallbackTemp::NotifyRelease
 ---
 
 # IMemAllocatorNotifyCallbackTemp::NotifyRelease
@@ -70,3 +70,4 @@ In general, this call can occur on any thread, and the caller may be holding cri
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocatornotifycallbacktemp">IMemAllocatorNotifyCallbackTemp Interface</a>
+

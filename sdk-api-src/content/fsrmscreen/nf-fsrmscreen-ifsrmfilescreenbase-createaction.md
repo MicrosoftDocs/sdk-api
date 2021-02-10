@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenBase.CreateAction
+ - IFsrmFileScreenBase::CreateAction
 ---
 
 # IFsrmFileScreenBase::CreateAction
@@ -88,3 +88,4 @@ For an example, see
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
+

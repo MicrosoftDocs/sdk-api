@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - ntlsa
  - ntlsa/ntlsa
+api_name:
+ - ntlsa
 ---
 
 # Ntlsa.h header

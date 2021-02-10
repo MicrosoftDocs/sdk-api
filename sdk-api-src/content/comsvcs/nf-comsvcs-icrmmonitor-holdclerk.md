@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmMonitor.HoldClerk
+ - ICrmMonitor::HoldClerk
 ---
 
 # ICrmMonitor::HoldClerk
@@ -109,3 +109,4 @@ The specified CRM clerk was not found. It may have completed before it could be 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitor">ICrmMonitor</a>
+

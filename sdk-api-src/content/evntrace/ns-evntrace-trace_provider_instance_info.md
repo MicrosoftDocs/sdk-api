@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
+ - _TRACE_PROVIDER_INSTANCE_INFO
+ - PTRACE_PROVIDER_INSTANCE_INFO
  - TRACE_PROVIDER_INSTANCE_INFO
 ---
 
@@ -112,3 +114,4 @@ The provider is not registered; however, one or more sessions have enabled the p
 
 
 <a href="/windows/desktop/ETW/trace-guid-info">TRACE_GUID_INFO</a>
+

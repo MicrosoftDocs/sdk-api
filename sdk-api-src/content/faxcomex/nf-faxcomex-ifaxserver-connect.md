@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.Connect
+ - IFaxServer::Connect
 ---
 
 # IFaxServer::Connect
@@ -83,3 +83,4 @@ To connect to the local server, set the <i>bstrServerName</i> parameter to <b>NU
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-retrieving-server-properties">Visual Basic Example</a>
+

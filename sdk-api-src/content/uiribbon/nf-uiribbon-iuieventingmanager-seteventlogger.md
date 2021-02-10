@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiribbon.dll
 api_name:
- - IUIEventingManager.SetEventLogger
+ - IUIEventingManager::SetEventLogger
 ---
 
 # IUIEventingManager::SetEventLogger
@@ -75,3 +75,4 @@ Call <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize"
 
 
 <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuieventingmanager">IUIEventingManager</a>
+

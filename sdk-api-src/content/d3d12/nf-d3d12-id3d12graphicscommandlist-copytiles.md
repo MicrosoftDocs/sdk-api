@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.CopyTiles
+ - ID3D12GraphicsCommandList::CopyTiles
 ---
 
 # ID3D12GraphicsCommandList::CopyTiles
@@ -120,3 +120,4 @@ The memory layout of the tiles in the non-tiled buffer resource side of the copy
 
 
 <a href="/windows/desktop/direct3d11/tiled-resources">Tiled resources</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1.SetRotation
+ - IDXGISwapChain1::SetRotation
 ---
 
 # IDXGISwapChain1::SetRotation
@@ -80,3 +80,4 @@ You can only use <b>SetRotation</b> to rotate the back buffers for flip-model sw
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
+

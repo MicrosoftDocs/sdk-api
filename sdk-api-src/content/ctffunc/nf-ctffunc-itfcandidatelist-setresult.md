@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tiptsf.dll
 api_name:
- - ITfCandidateList.SetResult
+ - ITfCandidateList::SetResult
 ---
 
 # ITfCandidateList::SetResult
@@ -115,3 +115,4 @@ A typical reconversion operation would include the following operations.
 
 <a href="/windows/win32/api/ctffunc/ne-ctffunc-tfcandidateresult">TfCandidateResult
       </a>
+

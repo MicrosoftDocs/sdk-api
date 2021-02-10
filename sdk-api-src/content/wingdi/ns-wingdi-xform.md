@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagXFORM
+ - PXFORM
  - XFORM
 ---
 
@@ -219,3 +221,4 @@ The following list describes how the members are used for each operation.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>
+

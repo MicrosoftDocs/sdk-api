@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.SetCustomSink
+ - IMFCapturePreviewSink::SetCustomSink
 ---
 
 # IMFCapturePreviewSink::SetCustomSink
@@ -69,3 +69,4 @@ This method overrides the default selection of the media sink for preview.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink">IMFCapturePreviewSink</a>
+

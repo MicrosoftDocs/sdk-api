@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspstrm.h
 api_name:
- - CMSPStream.Init
+ - CMSPStream::Init
 ---
 
 # CMSPStream::Init
@@ -82,3 +82,4 @@ Descriptor of
 ## -see-also
 
 <a href="/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>
+

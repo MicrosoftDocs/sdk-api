@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRule.Refresh
- - IFaxOutboundRoutingRule.Refresh
+ - IFaxOutboundRoutingRule::Refresh
 ---
 
 # IFaxOutboundRoutingRule::Refresh
@@ -76,3 +75,4 @@ When the <b>IFaxOutboundRoutingRule::Refresh</b> method is called, any configura
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
+

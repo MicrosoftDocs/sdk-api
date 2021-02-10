@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.GetAllTabletContextIds
+ - IRealTimeStylus::GetAllTabletContextIds
 ---
 
 # IRealTimeStylus::GetAllTabletContextIds
@@ -123,3 +123,4 @@ if (SUCCEEDED(g_pRealTimeStylus->GetAllTabletContextIds(&ulTcidCount, &pTcids)))
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+

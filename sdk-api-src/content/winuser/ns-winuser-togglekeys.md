@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagTOGGLEKEYS
+ - LPTOGGLEKEYS
  - TOGGLEKEYS
 ---
 
@@ -157,3 +159,4 @@ An application uses a <b>TOGGLEKEYS</b> structure when calling the <a href="/win
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

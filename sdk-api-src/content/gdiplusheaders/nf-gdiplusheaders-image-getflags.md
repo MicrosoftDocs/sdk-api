@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.GetFlags
+ - Image::GetFlags
 ---
 
 # Image::GetFlags
@@ -77,3 +77,4 @@ This method returns a value that holds a set of single-bit flags. The flags are 
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

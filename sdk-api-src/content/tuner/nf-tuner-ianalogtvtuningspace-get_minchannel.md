@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IAnalogTVTuningSpace.get_MinChannel
+ - IAnalogTVTuningSpace::get_MinChannel
 ---
 
 # IAnalogTVTuningSpace::get_MinChannel
@@ -69,3 +69,4 @@ An NTSC tuning space connected to an antenna will return a value of 2.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace Interface</a>
+

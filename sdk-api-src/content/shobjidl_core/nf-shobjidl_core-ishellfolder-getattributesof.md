@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder.GetAttributesOf
- - IShellFolder2.GetAttributesOf
+ - IShellFolder::GetAttributesOf
 ---
 
 # IShellFolder::GetAttributesOf
@@ -121,3 +120,4 @@ The SFGAO_NONENUMERATED attribute indicates an item that is not returned by the 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
+

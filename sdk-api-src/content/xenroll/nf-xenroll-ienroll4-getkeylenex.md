@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4.GetKeyLenEx
+ - IEnroll4::GetKeyLenEx
 ---
 
 # IEnroll4::GetKeyLenEx
@@ -144,3 +144,4 @@ For additional details on the XEKL_KEYSIZE_INC value, see PP_SIG_KEYSIZE_INC usa
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

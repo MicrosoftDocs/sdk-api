@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.GetItemName
+ - IPhotoAcquireItem::GetItemName
 ---
 
 # IPhotoAcquireItem::GetItemName
@@ -88,3 +88,4 @@ The file name consists of the display name and the extension, even if the <b>Hid
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
+

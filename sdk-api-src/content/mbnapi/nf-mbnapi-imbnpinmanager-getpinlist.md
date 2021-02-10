@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPinManager.GetPinList
+ - IMbnPinManager::GetPinList
 ---
 
 # IMbnPinManager::GetPinList
@@ -134,3 +134,4 @@ On the recoverable errors <b>E_MBN_PIN_REQUIRED</b>, <b>E_MBN_SIM_NOT_INSERTED</
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent3.ContentPrimarilyAudio
+ - IMSVidStreamBufferSourceEvent3::ContentPrimarilyAudio
 ---
 
 # IMSVidStreamBufferSourceEvent3::ContentPrimarilyAudio
@@ -70,3 +70,4 @@ This event is sent when the <a href="/previous-versions/windows/desktop/legacy/d
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent3">IMSVidStreamBufferSourceEvent3 Interface</a>
+

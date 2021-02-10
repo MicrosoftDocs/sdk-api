@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxPackageWriter.AddPayloadFile
+ - IAppxPackageWriter::AddPayloadFile
 ---
 
 # IAppxPackageWriter::AddPayloadFile
@@ -171,3 +171,4 @@ For an example, see <a href="/windows/desktop/appxpkg/how-to-create-a-package">H
 
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>
+

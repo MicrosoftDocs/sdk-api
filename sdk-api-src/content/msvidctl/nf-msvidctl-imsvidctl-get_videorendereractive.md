@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.get_VideoRendererActive
+ - IMSVidCtl::get_VideoRendererActive
 ---
 
 # IMSVidCtl::get_VideoRendererActive
@@ -69,3 +69,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_videorendereractive">IMSVidCtl::put_VideoRendererActive</a>
+

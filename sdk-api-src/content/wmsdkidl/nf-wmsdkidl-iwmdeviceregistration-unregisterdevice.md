@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDeviceRegistration.UnregisterDevice
+ - IWMDeviceRegistration::UnregisterDevice
 ---
 
 # IWMDeviceRegistration::UnregisterDevice
@@ -115,3 +115,4 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>
+

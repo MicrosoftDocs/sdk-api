@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallIndirect.GetIID
+ - ICallIndirect::GetIID
 ---
 
 # ICallIndirect::GetIID
@@ -106,3 +106,4 @@ An unexpected error has occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
+

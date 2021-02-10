@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11DeviceContext.FinishCommandList
+ - ID3D11DeviceContext::FinishCommandList
 ---
 
 # ID3D11DeviceContext::FinishCommandList
@@ -105,3 +105,4 @@ For more information about how to use <b>FinishCommandList</b>, see <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

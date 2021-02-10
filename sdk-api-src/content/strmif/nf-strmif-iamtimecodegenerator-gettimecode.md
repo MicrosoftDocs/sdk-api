@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeGenerator.GetTimecode
+ - IAMTimecodeGenerator::GetTimecode
 ---
 
 # IAMTimecodeGenerator::GetTimecode
@@ -78,3 +78,4 @@ Use this method to obtain the most recent timecode value available in the stream
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settimecode">IAMTimecodeGenerator::SetTimecode</a>
+

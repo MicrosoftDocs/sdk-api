@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateFontA
  - wingdi/CreateFontA
+ - CreateFont
+ - wingdi/CreateFont
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - CreateFont
  - CreateFontA
- - CreateFontW
+ - CreateFont
 ---
 
 # CreateFontA function
@@ -891,3 +892,4 @@ For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+

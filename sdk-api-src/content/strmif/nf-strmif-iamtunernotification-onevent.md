@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMTunerNotification.OnEvent
+ - IAMTunerNotification::OnEvent
 ---
 
 # IAMTunerNotification::OnEvent
@@ -71,3 +71,4 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtunernotification">IAMTunerNotification Interface</a>
+

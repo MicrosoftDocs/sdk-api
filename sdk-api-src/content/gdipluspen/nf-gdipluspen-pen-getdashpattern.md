@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.GetDashPattern
+ - Pen::GetDashPattern
 ---
 
 # Pen::GetDashPattern
@@ -142,3 +142,4 @@ VOID Example_GetDashPattern(HDC hdc
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+

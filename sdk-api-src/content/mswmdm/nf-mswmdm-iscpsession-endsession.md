@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSession.EndSession
+ - ISCPSession::EndSession
 ---
 
 # ISCPSession::EndSession
@@ -63,7 +63,6 @@ Pointer to the context.
 
 <b>DWORD</b> containing the size of context.
 
-
 ## -returns
 
 If the method succeeds, it returns S_OK. If the method fails, it returns an <b>HRESULT</b> error code.
@@ -71,3 +70,4 @@ If the method succeeds, it returns S_OK. If the method fails, it returns an <b>H
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession Interface</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.InPlaceBoundingRectangle
- - ITextInputPanel.get_InPlaceBoundingRectangle
- - ITextInputPanel.get_InPlaceBoundingRectangle
+ - ITextInputPanel::get_InPlaceBoundingRectangle
 ---
 
 # ITextInputPanel::get_InPlaceBoundingRectangle
@@ -152,3 +150,4 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
+

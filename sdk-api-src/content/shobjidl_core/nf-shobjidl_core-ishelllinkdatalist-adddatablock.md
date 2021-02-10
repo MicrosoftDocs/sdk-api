@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkDataList.AddDataBlock
+ - IShellLinkDataList::AddDataBlock
 ---
 
 # IShellLinkDataList::AddDataBlock
@@ -69,3 +69,4 @@ Returns S_OK if successful, or a COM error code otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>
+

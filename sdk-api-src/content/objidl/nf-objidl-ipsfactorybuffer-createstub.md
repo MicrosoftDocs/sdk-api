@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IPSFactoryBuffer.CreateStub
+ - IPSFactoryBuffer::CreateStub
 ---
 
 # IPSFactoryBuffer::CreateStub
@@ -81,3 +81,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 <a href="/windows/desktop/com/stub">Stub</a>
+

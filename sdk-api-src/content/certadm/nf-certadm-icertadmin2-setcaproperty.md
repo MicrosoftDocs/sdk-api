@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.SetCAProperty
+ - ICertAdmin2::SetCAProperty
 ---
 
 # ICertAdmin2::SetCAProperty
@@ -227,3 +227,4 @@ If the function fails, the return value is an <b>HRESULT</b> that indicates the 
 
 
 <a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>
+

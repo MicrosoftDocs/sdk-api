@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink.GetSourceMoniker
+ - IOleLink::GetSourceMoniker
 ---
 
 # IOleLink::GetSourceMoniker
@@ -103,3 +103,4 @@ The container specifies the absolute moniker when it calls one of the <a href="/
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-getsourcemoniker">IOleLink::GetSourceMoniker</a>
+

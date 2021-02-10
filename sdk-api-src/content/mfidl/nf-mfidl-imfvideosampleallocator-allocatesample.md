@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFVideoSampleAllocator.AllocateSample
+ - IMFVideoSampleAllocator::AllocateSample
 ---
 
 # IMFVideoSampleAllocator::AllocateSample
@@ -108,3 +108,4 @@ No samples are available.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
+

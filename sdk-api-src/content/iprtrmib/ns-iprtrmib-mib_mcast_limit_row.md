@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iprtrmib.h
 api_name:
+ - PMIB_MCAST_LIMIT_ROW
  - MIB_MCAST_LIMIT_ROW
 ---
 
@@ -67,3 +68,4 @@ The rate limit for a multicast interface.
 ## -see-also
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>
+

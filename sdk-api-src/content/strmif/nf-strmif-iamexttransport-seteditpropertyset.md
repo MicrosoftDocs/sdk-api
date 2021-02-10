@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.SetEditPropertySet
+ - IAMExtTransport::SetEditPropertySet
 ---
 
 # IAMExtTransport::SetEditPropertySet
@@ -162,3 +162,4 @@ SetEditProperty(EditId, ED_EDIT_SEEK, OATRUE);
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-geteditpropertyset">IAMExtTransport::GetEditPropertySet</a>
+

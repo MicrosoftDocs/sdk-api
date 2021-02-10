@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaphostpeertypes.h
 api_name:
+ - tagEapHostPeerMethodResultReason
  - EapHostPeerMethodResultReason
 ---
 
@@ -77,3 +78,4 @@ The  authentication process was completely normally.
 
 
 <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresult">EapHostPeerGetResult</a>
+

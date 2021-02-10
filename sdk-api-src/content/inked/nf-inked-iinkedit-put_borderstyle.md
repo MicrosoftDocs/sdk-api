@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.BorderStyle
- - IInkEdit.get_BorderStyle
- - IInkEdit.put_BorderStyle
- - InkEdit.get_BorderStyle
- - InkEdit.put_BorderStyle
+ - IInkEdit::put_BorderStyle
 ---
 
 # IInkEdit::put_BorderStyle
@@ -68,3 +64,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

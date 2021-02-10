@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDGETAUTOFLIPOUT
+ - LPDDGETAUTOFLIPOUT
  - DDGETAUTOFLIPOUT
 ---
 
@@ -85,3 +87,4 @@ Specifies whether the field is an even or odd field of an interlaced video signa
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

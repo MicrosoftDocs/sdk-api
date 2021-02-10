@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetProxySettings
+ - IBackgroundCopyJob::GetProxySettings
 ---
 
 # IBackgroundCopyJob::GetProxySettings
@@ -111,3 +111,4 @@ One or more of the parameters is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setproxysettings">IBackgroundCopyJob::SetProxySettings</a>
+

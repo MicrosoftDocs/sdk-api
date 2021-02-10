@@ -45,8 +45,6 @@ api_location:
  - winmmbase.dll
 api_name:
  - mixerGetDevCaps
- - mixerGetDevCapsA
- - mixerGetDevCapsW
 ---
 
 # mixerGetDevCaps function
@@ -129,3 +127,4 @@ This function also accepts a mixer device handle returned by the <a href="/previ
 
 
 <a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
+

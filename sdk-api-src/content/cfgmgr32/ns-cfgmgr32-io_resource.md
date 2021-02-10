@@ -46,6 +46,8 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
+ - IO_Resource_s
+ - PIO_RESOURCE
  - IO_RESOURCE
 ---
 
@@ -81,3 +83,4 @@ An [IO_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range) array.
 
 
 [IO_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)
+

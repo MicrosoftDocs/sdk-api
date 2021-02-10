@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - NTMS_CHANGERINFORMATION
- - NTMS_CHANGERINFORMATIONA
+ - _NTMS_CHANGERINFORMATIONW
  - NTMS_CHANGERINFORMATIONW
 ---
 
@@ -117,3 +116,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+

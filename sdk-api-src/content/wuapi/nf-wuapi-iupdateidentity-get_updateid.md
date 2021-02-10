@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateIdentity.UpdateID
- - IUpdateIdentity.get_UpdateID
+ - IUpdateIdentity::get_UpdateID
 ---
 
 # IUpdateIdentity::get_UpdateID
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a>
+

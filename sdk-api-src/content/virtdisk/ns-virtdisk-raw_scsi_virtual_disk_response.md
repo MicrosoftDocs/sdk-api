@@ -47,6 +47,8 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _RAW_SCSI_VIRTUAL_DISK_RESPONSE
+ - PRAW_SCSI_VIRTUAL_DISK_RESPONSE
  - RAW_SCSI_VIRTUAL_DISK_RESPONSE
 ---
 
@@ -78,3 +80,4 @@ Length, in bytes, of the sense buffer.
 ### -field Version1.DataTransferLength
 
 Length, in bytes, of the buffer to be transferred.
+

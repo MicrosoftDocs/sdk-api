@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegistrationInfo.Date
- - IRegistrationInfo.get_Date
- - IRegistrationInfo.put_Date
+ - IRegistrationInfo::put_Date
 ---
 
 # IRegistrationInfo::put_Date
@@ -69,3 +67,4 @@ When reading or writing XML for a task, the registration date is specified using
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

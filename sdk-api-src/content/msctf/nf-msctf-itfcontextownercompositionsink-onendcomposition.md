@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwnerCompositionSink.OnEndComposition
+ - ITfContextOwnerCompositionSink::OnEndComposition
 ---
 
 # ITfContextOwnerCompositionSink::OnEndComposition
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionSink interface](nn-msctf-itfcontextownercompositionsink.md)
+

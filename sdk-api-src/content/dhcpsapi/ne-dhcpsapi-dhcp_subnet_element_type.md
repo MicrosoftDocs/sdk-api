@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_SUBNET_ELEMENT_TYPE_V5
+ - LPDHCP_SUBNET_ELEMENT_TYPE
  - DHCP_SUBNET_ELEMENT_TYPE
 ---
 
@@ -91,3 +93,4 @@ The subnet element contains the IP addresses served by BOOTP to the subnet (spec
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
+

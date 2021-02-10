@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PrivateFontCollection.PrivateFontCollection
+ - PrivateFontCollection::PrivateFontCollection
 ---
 
 # PrivateFontCollection::PrivateFontCollection(const PrivateFontCollection &)
@@ -54,3 +54,4 @@ api_name:
 Creates an empty <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object.
 
 ## -parameters
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - ICatInformation.IsClassOfCategories
+ - ICatInformation::IsClassOfCategories
 ---
 
 # ICatInformation::IsClassOfCategories
@@ -83,3 +83,4 @@ If the class ID is of one of the specified categories, the return value is S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
+

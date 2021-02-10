@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_CHANNEL_ENCODER
  - WS_CHANNEL_ENCODER
 ---
 
@@ -118,3 +119,4 @@ When using <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_b
 
 When the channel is finished using the encoder instance it will free it via the
                 <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_encoder_callback">WS_FREE_ENCODER_CALLBACK</a>.
+

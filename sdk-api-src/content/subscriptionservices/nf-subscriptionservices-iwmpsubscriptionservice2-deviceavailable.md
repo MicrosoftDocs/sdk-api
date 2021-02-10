@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionService2.deviceAvailable
+ - IWMPSubscriptionService2::deviceAvailable
 ---
 
 # IWMPSubscriptionService2::deviceAvailable
@@ -108,3 +108,4 @@ The string contained in <i>bstrDeviceName</i> is not the same name retrieved by 
 
 
 <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback">IWMPSubscriptionServiceCallback Interface</a>
+

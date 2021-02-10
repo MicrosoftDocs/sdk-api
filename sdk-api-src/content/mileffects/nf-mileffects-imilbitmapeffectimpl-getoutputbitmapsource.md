@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectImpl.GetOutputBitmapSource
+ - IMILBitmapEffectImpl::GetOutputBitmapSource
 ---
 
 # IMILBitmapEffectImpl::GetOutputBitmapSource
@@ -83,3 +83,4 @@ A pointer that receives a pointer to the output <a href="/windows/desktop/api/wi
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

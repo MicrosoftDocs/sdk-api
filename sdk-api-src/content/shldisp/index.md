@@ -9,6 +9,8 @@ tech.root: lwef
 f1_keywords:
  - shldisp
  - shldisp/shldisp
+api_name:
+ - shldisp
 ---
 
 # Shldisp.h header

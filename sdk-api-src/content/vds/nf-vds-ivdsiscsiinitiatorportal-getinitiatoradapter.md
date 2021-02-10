@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiInitiatorPortal.GetInitiatorAdapter
+ - IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 ---
 
 # IVdsIscsiInitiatorPortal::GetInitiatorAdapter
@@ -91,3 +91,4 @@ The initiator adapter was returned successfully.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsiscsiinitiatorportal">IVdsIscsiInitiatorPortal</a>
+

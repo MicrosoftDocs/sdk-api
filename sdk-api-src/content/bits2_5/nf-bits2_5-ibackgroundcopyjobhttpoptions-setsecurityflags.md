@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions.SetSecurityFlags
+ - IBackgroundCopyJobHttpOptions::SetSecurityFlags
 ---
 
 # IBackgroundCopyJobHttpOptions::SetSecurityFlags
@@ -263,3 +263,4 @@ Note that setting BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT may affect the result whe
 
 
 <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getsecurityflags">IBackgroundCopyJobHttpOptions::GetSecurityFlags</a>
+

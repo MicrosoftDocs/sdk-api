@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocationEvents.OnLocationChanged
+ - ILocationEvents::OnLocationChanged
 ---
 
 # ILocationEvents::OnLocationChanged
@@ -179,3 +179,4 @@ STDMETHODIMP CLocationEvents::OnLocationChanged(REFIID reportType, ILocationRepo
 }
 
 ```
+

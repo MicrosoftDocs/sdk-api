@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Asynchronous.GetData
+ - ID3D10Asynchronous::GetData
 ---
 
 # ID3D10Asynchronous::GetData
@@ -256,3 +256,4 @@ The number of parallel counters that a video card has is available from <b>NumDe
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous Interface</a>
+

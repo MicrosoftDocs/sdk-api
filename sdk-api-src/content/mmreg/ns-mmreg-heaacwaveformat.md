@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mmreg.h
 api_name:
+ - heaacwaveformat_tag
  - HEAACWAVEFORMAT
 ---
 
@@ -67,3 +68,4 @@ A byte array that contains the value of AudioSpecificConfig(), as defined by ISO
 ## -remarks
 
 Use this structure to access the AudioSpecificConfig() data that follows an <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo">HEAACWAVEINFO</a> structure. This data is present only when the <b>wStructType</b> member of the <b>HEAACWAVEFORMAT</b> structure is zero.
+

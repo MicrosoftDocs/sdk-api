@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2.GetCookie
+ - ITextFont2::GetCookie
 ---
 
 # ITextFont2::GetCookie
@@ -77,3 +77,4 @@ This value is purely for the use of the client and has no meaning to the Text Ob
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-setcookie">ITextFont2::SetCookie</a>
+

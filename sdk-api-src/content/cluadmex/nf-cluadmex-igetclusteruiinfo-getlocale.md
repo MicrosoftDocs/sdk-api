@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterUIInfo.GetLocale
+ - IGetClusterUIInfo::GetLocale
 ---
 
 # IGetClusterUIInfo::GetLocale
@@ -72,3 +72,4 @@ Returns the locale identifier to be used with property and wizard pages.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusteruiinfo">IGetClusterUIInfo</a>
+

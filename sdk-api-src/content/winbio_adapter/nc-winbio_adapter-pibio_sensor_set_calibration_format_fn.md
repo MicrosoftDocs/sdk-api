@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterSetCalibrationFormat
+ - PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN
 ---
 
 # PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN callback function
@@ -120,3 +120,4 @@ Any other error code will cause the Biometric Service to log the error and abort
 ## -remarks
 
 The Sensor Adapter should store a copy of this UUID value for later use in interpreting the contents of any calibration buffers sent to its <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_accept_calibration_data_fn">SensorAdapterAcceptCalibrationData</a> method.
+

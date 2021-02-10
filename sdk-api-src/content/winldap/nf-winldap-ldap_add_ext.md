@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_add_ext
- - ldap_add_extA
- - ldap_add_extW
 ---
 
 # ldap_add_ext function
@@ -152,3 +150,4 @@ Functions
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
+

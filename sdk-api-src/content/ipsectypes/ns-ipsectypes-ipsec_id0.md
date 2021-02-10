@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_ID0_
  - IPSEC_ID0
 ---
 
@@ -87,3 +88,4 @@ Unused parameter. This should always be 0.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

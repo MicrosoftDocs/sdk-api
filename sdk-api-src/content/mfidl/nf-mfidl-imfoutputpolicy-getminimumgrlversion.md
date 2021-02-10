@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFOutputPolicy.GetMinimumGRLVersion
+ - IMFOutputPolicy::GetMinimumGRLVersion
 ---
 
 # IMFOutputPolicy::GetMinimumGRLVersion
@@ -84,3 +84,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a>
+

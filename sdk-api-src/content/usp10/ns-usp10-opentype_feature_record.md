@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
+ - opentype_feature_record
  - OPENTYPE_FEATURE_RECORD
 ---
 
@@ -98,3 +99,4 @@ Value indicating how to apply the feature tag. Possible values are defined in th
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IATSCTuningSpace.put_MaxMinorChannel
+ - IATSCTuningSpace::put_MaxMinorChannel
 ---
 
 # IATSCTuningSpace::put_MaxMinorChannel
@@ -69,3 +69,4 @@ This property must be set before calling <a href="/previous-versions/windows/des
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsctuningspace">IATSCTuningSpace Interface</a>
+

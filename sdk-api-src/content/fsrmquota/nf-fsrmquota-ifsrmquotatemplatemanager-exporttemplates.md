@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplateManager.ExportTemplates
- - FsrmQuotaTemplateManager.ExportTemplates
+ - IFsrmQuotaTemplateManager::ExportTemplates
 ---
 
 # IFsrmQuotaTemplateManager::ExportTemplates
@@ -90,3 +89,4 @@ Typically, you use this method to save the templates to a file. You can then cop
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

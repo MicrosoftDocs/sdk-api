@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMC_DATA_INFO
+ - PCMC_DATA_INFO
  - CMC_DATA_INFO
 ---
 
@@ -97,3 +99,4 @@ Array of
 ## -remarks
 
 All tagged arrays are optional.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IEnumSTATPROPSETSTG.Clone
+ - IEnumSTATPROPSETSTG::Clone
 ---
 
 # IEnumSTATPROPSETSTG::Clone
@@ -103,3 +103,4 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
+

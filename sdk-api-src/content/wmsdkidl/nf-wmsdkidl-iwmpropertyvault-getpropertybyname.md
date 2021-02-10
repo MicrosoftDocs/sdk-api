@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPropertyVault.GetPropertyByName
+ - IWMPropertyVault::GetPropertyByName
 ---
 
 # IWMPropertyVault::GetPropertyByName
@@ -136,3 +136,4 @@ You must make two calls to <b>GetPropertyByName</b> to properly retrieve the val
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty">IWMPropertyVault::SetProperty</a>
+

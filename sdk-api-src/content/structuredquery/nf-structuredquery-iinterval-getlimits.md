@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IInterval.GetLimits
+ - IInterval::GetLimits
 ---
 
 # IInterval::GetLimits
@@ -138,3 +138,4 @@ The highest value in the range is also 3 (explicitly included), and the interval
 <td>All integers are included in the interval.</td>
 </tr>
 </table>
+

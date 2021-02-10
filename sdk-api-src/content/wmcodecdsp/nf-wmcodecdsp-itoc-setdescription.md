@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - IToc.SetDescription
+ - IToc::SetDescription
 ---
 
 # IToc::SetDescription
@@ -91,3 +91,4 @@ You can use this method to associate any description with the table of contents.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
+

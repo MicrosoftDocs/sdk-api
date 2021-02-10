@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots
+ - IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
@@ -148,3 +148,4 @@ VSS_ID     /* SnapshotSetId */
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
+

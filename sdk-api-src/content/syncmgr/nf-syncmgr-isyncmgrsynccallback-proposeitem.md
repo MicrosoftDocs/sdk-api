@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback.ProposeItem
+ - ISyncMgrSyncCallback::ProposeItem
 ---
 
 # ISyncMgrSyncCallback::ProposeItem
@@ -112,3 +112,4 @@ HRESULT CMyDeviceHandler::Synchronize(...)
 }
 
 ```
+

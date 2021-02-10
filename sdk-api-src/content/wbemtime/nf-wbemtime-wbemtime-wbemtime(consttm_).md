@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.WBEMTime
- - ??0WBEMTime@@QAE@ABUtm@@@Z
+ - WBEMTime::WBEMTime
 ---
 
 # WBEMTime::WBEMTime(const tm &)
@@ -65,3 +64,4 @@ The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> overload class const
 ### -param tmin [ref]
 
 ANSI C <b>tm</b> structure. A <b>tm</b> structure holds a time value using individual members and expressed as the number of years, months, day of month, hours, minutes, and seconds elapsed since 1900. For more information, see <a href="https://msdn.microsoft.com/library/default.aspx">MSDN</a>.
+

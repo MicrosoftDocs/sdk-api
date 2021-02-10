@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - PSTORAGE_PROTOCOL_ATA_DATA_TYPE
  - STORAGE_PROTOCOL_ATA_DATA_TYPE
 ---
 

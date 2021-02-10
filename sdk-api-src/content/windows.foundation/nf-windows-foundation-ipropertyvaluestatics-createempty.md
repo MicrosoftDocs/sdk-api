@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateEmpty
+ - IPropertyValueStatics::CreateEmpty
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -113,3 +113,4 @@ Use the <b>CreateEmpty</b>  method to represent an empty or unset property value
 ## -see-also
 
 <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
+

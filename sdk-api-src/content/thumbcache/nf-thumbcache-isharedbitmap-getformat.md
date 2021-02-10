@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Thumbcache.h
 api_name:
- - ISharedBitmap.GetFormat
+ - ISharedBitmap::GetFormat
 ---
 
 # ISharedBitmap::GetFormat

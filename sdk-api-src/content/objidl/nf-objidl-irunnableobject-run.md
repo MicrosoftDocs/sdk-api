@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunnableObject.Run
+ - IRunnableObject::Run
 ---
 
 # IRunnableObject::Run
@@ -84,3 +84,4 @@ An embedded object must hold a lock on its embedding container while it is in th
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a>
+

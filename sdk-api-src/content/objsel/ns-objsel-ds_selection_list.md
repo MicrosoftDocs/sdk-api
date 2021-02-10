@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Objsel.h
 api_name:
+ - _DS_SELECTION_LIST
+ - PDS_SELECTION_LIST
  - DS_SELECTION_LIST
 ---
 
@@ -90,3 +92,4 @@ Contains an array of <a href="/windows/desktop/api/objsel/ns-objsel-ds_selection
 
 
 <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-invokedialog">IDsObjectPicker::InvokeDialog</a>
+

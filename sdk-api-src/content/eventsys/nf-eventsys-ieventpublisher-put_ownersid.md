@@ -42,9 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventPublisher.OwnerSID
- - IEventPublisher.get_OwnerSID
- - IEventPublisher.put_OwnerSID
+ - IEventPublisher::put_OwnerSID
 ---
 
 # IEventPublisher::put_OwnerSID
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">IEventPublisher</a>
+

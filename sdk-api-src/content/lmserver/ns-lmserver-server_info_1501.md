@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1501
+ - PSERVER_INFO_1501
  - SERVER_INFO_1501
 ---
 
@@ -78,3 +80,4 @@ Specifies the number of files that one session can open.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetPropertyNameLength
+ - ID2D1Properties::GetPropertyNameLength
 ---
 
 # ID2D1Properties::GetPropertyNameLength
@@ -85,3 +85,4 @@ The value returned by this method can be used to ensure that the buffer size for
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+

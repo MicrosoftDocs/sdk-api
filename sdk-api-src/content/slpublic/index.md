@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - slpublic
  - slpublic/slpublic
+api_name:
+ - slpublic
 ---
 
 # Slpublic.h header

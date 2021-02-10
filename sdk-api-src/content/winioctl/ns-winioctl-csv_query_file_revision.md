@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CSV_QUERY_FILE_REVISION
+ - PCSV_QUERY_FILE_REVISION
  - CSV_QUERY_FILE_REVISION
 ---
 
@@ -102,3 +104,4 @@ Revision tracking is per file, not per stream, so the output changes whenever th
 
 
 <a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
+

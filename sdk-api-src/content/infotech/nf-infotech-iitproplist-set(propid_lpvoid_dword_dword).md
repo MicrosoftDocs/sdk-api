@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList.Set
+ - IITPropList::Set
 ---
 
 # IITPropList::Set(PROPID,LPVOID,DWORD,DWORD)
@@ -190,3 +190,4 @@ Use this method to set properties stored in a buffer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
+

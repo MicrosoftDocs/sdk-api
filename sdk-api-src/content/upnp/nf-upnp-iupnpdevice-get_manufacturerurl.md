@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice.get_ManufacturerURL
+ - IUPnPDevice::get_ManufacturerURL
 ---
 
 # IUPnPDevice::get_ManufacturerURL
@@ -74,3 +74,4 @@ This property is optional and <i>pbstr</i> can return <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturername">IUPnPDevice::ManufacturerName</a>
+

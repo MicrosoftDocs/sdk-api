@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - mixerGetControlDetailsW
  - mmeapi/mixerGetControlDetailsW
+ - mixerGetControlDetails
+ - mmeapi/mixerGetControlDetails
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-mm-mme-l1-1-0.dll
  - winmmbase.dll
 api_name:
- - mixerGetControlDetails
- - mixerGetControlDetailsA
  - mixerGetControlDetailsW
+ - mixerGetControlDetails
 ---
 
 # mixerGetControlDetailsW function
@@ -226,3 +227,4 @@ All members of the <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrolde
 
 
 <a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_NegoStatus
+ - PSecPkgContext_NegoStatus
  - SecPkgContext_NegoStatus
 ---
 

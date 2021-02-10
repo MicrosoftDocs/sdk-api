@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CROSS_CERT_DIST_POINTS_INFO
+ - PCROSS_CERT_DIST_POINTS_INFO
  - CROSS_CERT_DIST_POINTS_INFO
 ---
 
@@ -70,3 +72,4 @@ Count of the number of elements in the <b>rgDistPoint</b> member array.
 
 Array of 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structures for distribution points for updating cross certificates.
+

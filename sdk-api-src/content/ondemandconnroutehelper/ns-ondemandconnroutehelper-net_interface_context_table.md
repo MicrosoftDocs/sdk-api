@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OnDemandConnRouteHelper.h
 api_name:
+ - _NET_INTERFACE_CONTEXT_TABLE
  - NET_INTERFACE_CONTEXT_TABLE
 ---
 
@@ -75,3 +76,4 @@ An array of <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnr
 
 
 <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a>
+

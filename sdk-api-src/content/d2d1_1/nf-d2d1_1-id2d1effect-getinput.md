@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Effect.GetInput
+ - ID2D1Effect::GetInput
 ---
 
 # ID2D1Effect::GetInput
@@ -89,3 +89,4 @@ If the input index is out of range, the returned image will be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
+

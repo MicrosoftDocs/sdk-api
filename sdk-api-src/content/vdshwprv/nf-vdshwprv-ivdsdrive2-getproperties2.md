@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsDrive2.GetProperties2
+ - IVdsDrive2::GetProperties2
 ---
 
 # IVdsDrive2::GetProperties2
@@ -76,3 +76,4 @@ This method must return zero (S_OK) to indicate success, or an implementation-sp
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsdrive2">IVdsDrive2</a>
+

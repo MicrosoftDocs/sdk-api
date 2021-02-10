@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyCallback2.FileTransferred
+ - IBackgroundCopyCallback2::FileTransferred
 ---
 
 # IBackgroundCopyCallback2::FileTransferred
@@ -91,3 +91,4 @@ The <b>FileTransferred</b> callback is for download jobs or the reply portion of
 
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a>
+

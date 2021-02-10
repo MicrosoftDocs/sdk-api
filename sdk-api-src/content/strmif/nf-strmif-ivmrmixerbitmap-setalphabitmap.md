@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMixerBitmap.SetAlphaBitmap
+ - IVMRMixerBitmap::SetAlphaBitmap
 ---
 
 # IVMRMixerBitmap::SetAlphaBitmap
@@ -145,3 +145,4 @@ The method might return <b>E_INVALIDARG</b> for several reasons:
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>
+

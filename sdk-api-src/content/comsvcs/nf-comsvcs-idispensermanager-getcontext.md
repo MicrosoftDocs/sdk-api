@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IDispenserManager.GetContext
+ - IDispenserManager::GetContext
 ---
 
 # IDispenserManager::GetContext
@@ -69,3 +69,4 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
+

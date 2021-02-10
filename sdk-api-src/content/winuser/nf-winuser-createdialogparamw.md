@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - CreateDialogParamW
  - winuser/CreateDialogParamW
+ - CreateDialogParam
+ - winuser/CreateDialogParam
 dev_langs:
  - c++
 topic_type:
@@ -45,10 +48,8 @@ api_location:
  - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - CreateDialogParam
- - CreateDialogParamA
  - CreateDialogParamW
-req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
+ - CreateDialogParam
 ---
 
 # CreateDialogParamW function
@@ -166,3 +167,4 @@ After <b>CreateDialogParam</b> returns, the application displays the dialog box 
 
 
 <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
+

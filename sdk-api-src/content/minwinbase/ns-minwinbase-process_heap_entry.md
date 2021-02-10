@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _PROCESS_HEAP_ENTRY
+ - LPPROCESS_HEAP_ENTRY
  - PROCESS_HEAP_ENTRY
 ---
 
@@ -274,3 +276,4 @@ Pointer to the first invalid memory block in this heap region.
 
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
+

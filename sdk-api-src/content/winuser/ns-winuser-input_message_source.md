@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagINPUT_MESSAGE_SOURCE
  - INPUT_MESSAGE_SOURCE
 ---
 
@@ -67,3 +68,4 @@ The ID (<a href="/windows/desktop/api/winuser/ne-winuser-input_message_origin_id
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_sourceid/input-source-identification-reference">Input Source Identification Reference</a>
+

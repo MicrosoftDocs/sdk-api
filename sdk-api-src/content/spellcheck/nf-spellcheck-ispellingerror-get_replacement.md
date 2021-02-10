@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellingError.Replacement
- - ISpellingError.get_Replacement
+ - ISpellingError::get_Replacement
 ---
 
 # ISpellingError::get_Replacement
@@ -72,3 +71,4 @@ If the <a href="/windows/desktop/api/spellcheck/ne-spellcheck-corrective_action"
 
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>
+

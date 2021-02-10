@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.BeginReadPayload
+ - IMFHttpDownloadRequest::BeginReadPayload
 ---
 
 # IMFHttpDownloadRequest::BeginReadPayload
@@ -103,3 +103,4 @@ Microsoft Media Foundation never invokes <b>BeginReadPayload</b> while a previou
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
+

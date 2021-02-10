@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
+ - tACMFORMATDETAILS
+ - PACMFORMATDETAILS
  - ACMFORMATDETAILS
 ---
 
@@ -178,3 +180,4 @@ String that describes the format for the <b>dwFormatTag</b> type. If the <a href
 
 
 <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
+

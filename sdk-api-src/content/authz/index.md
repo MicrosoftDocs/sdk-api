@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - authz
  - authz/authz
+api_name:
+ - authz
 ---
 
 # Authz.h header

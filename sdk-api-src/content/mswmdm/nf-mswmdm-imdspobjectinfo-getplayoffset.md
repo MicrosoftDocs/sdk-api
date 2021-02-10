@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPObjectInfo.GetPlayOffset
+ - IMDSPObjectInfo::GetPlayOffset
 ---
 
 # IMDSPObjectInfo::GetPlayOffset
@@ -85,3 +85,4 @@ For folders or file systems containing playable files, the value returned indica
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset">IMDSPObjectInfo::SetPlayOffset</a>
+

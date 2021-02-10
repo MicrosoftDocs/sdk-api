@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IEnumResources.Clone
+ - IEnumResources::Clone
 ---
 
 # IEnumResources::Clone
@@ -65,3 +65,4 @@ Contains the address of an <a href="/windows/desktop/api/shobjidl_core/nn-shobji
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

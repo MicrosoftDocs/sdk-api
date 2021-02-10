@@ -43,7 +43,7 @@ api_location:
  - Deviceaccess.lib
  - Deviceaccess.dll
 api_name:
- - IDeviceIoControl.DeviceIoControlSync
+ - IDeviceIoControl::DeviceIoControlSync
 ---
 
 # IDeviceIoControl::DeviceIoControlSync
@@ -90,3 +90,4 @@ Because  this is a synchronous method, you must not use it on a thread that can'
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>
+

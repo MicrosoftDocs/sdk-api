@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.GetShellItem
+ - ISearchFolderItemFactory::GetShellItem
 ---
 
 # ISearchFolderItemFactory::GetShellItem
@@ -83,3 +83,4 @@ When the retrieved <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromidlist">SHCreateItemFromIDList</a>
+

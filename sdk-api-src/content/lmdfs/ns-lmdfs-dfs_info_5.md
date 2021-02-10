@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_5
+ - PDFS_INFO_5
  - DFS_INFO_5
 ---
 
@@ -251,3 +253,4 @@ To retrieve information about targets and target priorities, use the
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

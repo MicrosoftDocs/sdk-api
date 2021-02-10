@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStreamSelect.Enable
+ - IAMStreamSelect::Enable
 ---
 
 # IAMStreamSelect::Enable
@@ -157,3 +157,4 @@ The pins are not connected.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamselect">IAMStreamSelect Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagDIBSECTION
+ - LPDIBSECTION
  - DIBSECTION
 ---
 
@@ -108,3 +110,4 @@ The offset to the bitmap's bit values within the file mapping object referenced 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+

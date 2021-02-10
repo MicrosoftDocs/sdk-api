@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
+ - __MIDL___MIDL_itf_winsync_0000_0000_0001
  - SYNC_PROVIDER_ROLE
 ---
 
@@ -71,3 +72,4 @@ Changes flow from the source provider to the destination provider in a synchroni
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
+

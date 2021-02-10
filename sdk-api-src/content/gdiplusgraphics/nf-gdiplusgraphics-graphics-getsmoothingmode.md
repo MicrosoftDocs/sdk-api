@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.GetSmoothingMode
+ - Graphics::GetSmoothingMode
 ---
 
 # Graphics::GetSmoothingMode
@@ -119,3 +119,4 @@ VOID Example_GetSmoothingMode(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-bitmaps-use">Loading and Displaying Bitmaps</a>
+

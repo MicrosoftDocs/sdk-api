@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Subauth.h
 api_name:
+ - _OLD_LARGE_INTEGER
+ - POLD_LARGE_INTEGER
  - OLD_LARGE_INTEGER
 ---
 

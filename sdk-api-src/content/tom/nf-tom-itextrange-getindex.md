@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.GetIndex
+ - ITextRange::GetIndex
 ---
 
 # ITextRange::GetIndex
@@ -122,3 +122,4 @@ The index value returned by the <b>ITextRange::GetIndex</b> method is not valid 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

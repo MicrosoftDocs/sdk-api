@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetContentType
+ - IXpsOMCoreProperties::SetContentType
 ---
 
 # IXpsOMCoreProperties::SetContentType
@@ -78,3 +78,4 @@ specific use and intended audience. Examples of <b>contentType</b>  values inclu
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

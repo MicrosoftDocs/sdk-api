@@ -45,6 +45,7 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _MERGE_VIRTUAL_DISK_FLAG
  - MERGE_VIRTUAL_DISK_FLAG
 ---
 
@@ -66,3 +67,4 @@ Contains virtual hard disk (VHD) merge request flags.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

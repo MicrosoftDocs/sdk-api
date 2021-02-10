@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin.GetConfiguration
+ - IOCSPAdmin::GetConfiguration
 ---
 
 # IOCSPAdmin::GetConfiguration
@@ -175,3 +175,4 @@ The method fails if you try to call it more than once for a given <b>OCSPAdmin</
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDigitsGatheredEvent.get_GatherTermination
+ - ITDigitsGatheredEvent::get_GatherTermination
 ---
 
 # ITDigitsGatheredEvent::get_GatherTermination
@@ -96,3 +96,4 @@ The <i>pGatherTermination</i> parameter is not a valid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitsgatheredevent">ITDigitsGatheredEvent</a>
+

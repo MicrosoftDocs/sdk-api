@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.SetOutputFilenameTemplate
+ - IPhotoAcquireSettings::SetOutputFilenameTemplate
 ---
 
 # IPhotoAcquireSettings::SetOutputFilenameTemplate
@@ -158,3 +158,4 @@ C:\Documents and Settings\shauniv\My Documents\My Pictures\2003-11-14, Meghan's 
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
+

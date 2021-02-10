@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _ENGSAFESEMAPHORE
  - ENGSAFESEMAPHORE
 ---
 
@@ -87,3 +88,4 @@ Once the safe semaphore is initialized, the driver can call <a href="/windows/de
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-engreleasesemaphore">EngReleaseSemaphore</a>
+

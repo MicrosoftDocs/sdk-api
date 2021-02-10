@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMF2DBuffer.ContiguousCopyFrom
+ - IMF2DBuffer::ContiguousCopyFrom
 ---
 
 # IMF2DBuffer::ContiguousCopyFrom
@@ -102,3 +102,4 @@ For a definition of contiguous as it applies to 2-D buffers, see the Remarks sec
 
 
 <a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
+

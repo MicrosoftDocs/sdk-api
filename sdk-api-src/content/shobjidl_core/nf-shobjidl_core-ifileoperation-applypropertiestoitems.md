@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation.ApplyPropertiesToItems
+ - IFileOperation::ApplyPropertiesToItems
 ---
 
 # IFileOperation::ApplyPropertiesToItems
@@ -84,3 +84,4 @@ This method does not apply the properties to the items, it merely declares the i
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitem">IFileOperation::ApplyPropertiesToItem</a>
+

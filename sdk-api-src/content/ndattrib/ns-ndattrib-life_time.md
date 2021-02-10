@@ -46,7 +46,9 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
- - LIFE_TIME, *PLIFE_TIME
+ - tagLIFE_TIME
+ - PLIFE_TIME
+ - LIFE_TIME
 ---
 
 # LIFE_TIME structure

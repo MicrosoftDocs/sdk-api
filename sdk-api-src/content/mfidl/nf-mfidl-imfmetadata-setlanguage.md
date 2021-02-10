@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMetadata.SetLanguage
+ - IMFMetadata::SetLanguage
 ---
 
 # IMFMetadata::SetLanguage
@@ -74,3 +74,4 @@ For more information about language tags, see RFC 1766, "Tags for the Identifica
 
 
 <a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>
+

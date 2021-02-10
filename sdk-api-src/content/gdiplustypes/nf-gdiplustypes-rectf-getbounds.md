@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - RectF.GetBounds
+ - RectF::GetBounds
 ---
 
 # RectF::GetBounds
@@ -93,3 +93,4 @@ Pointer to a
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

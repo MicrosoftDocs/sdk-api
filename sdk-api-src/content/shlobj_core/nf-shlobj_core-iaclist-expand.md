@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IACList.Expand
+ - IACList::Expand
 ---
 
 # IACList::Expand
@@ -75,3 +75,4 @@ For example, assuming that the client's namespace consists of all the files and 
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist">IACList</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _msgfilter
  - MSGFILTER
 ---
 
@@ -85,3 +86,4 @@ The
 ## -see-also
 
 <a href="https://msdn.microsoft.com/96cf0047-baae-46cd-82e8-ab6f3f353260">EN_MSGFILTER</a>
+

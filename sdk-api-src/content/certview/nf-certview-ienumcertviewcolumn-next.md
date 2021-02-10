@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.Next
- - IEnumCERTVIEWCOLUMN.Next
+ - IEnumCERTVIEWCOLUMN::Next
 ---
 
 # IEnumCERTVIEWCOLUMN::Next
@@ -198,3 +197,4 @@ if (NULL != bstrColName)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getvalue">IEnumCERTVIEWCOLUMN::GetValue</a>
+

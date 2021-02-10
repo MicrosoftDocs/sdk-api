@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _FAT_STATISTICS
+ - PFAT_STATISTICS
  - FAT_STATISTICS
 ---
 
@@ -100,3 +102,4 @@ The number of write operations that were not cached. This value includes sub-wri
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-filesystem_statistics">FILESYSTEM_STATISTICS</a>
+

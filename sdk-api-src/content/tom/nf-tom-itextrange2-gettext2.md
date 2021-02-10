@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.GetText2
+ - ITextRange2::GetText2
 ---
 
 # ITextRange2::GetText2
@@ -193,3 +193,4 @@ This method includes the special flag <b>tomLanguageTag</b> to get the BCP-47 la
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-settext2">ITextRange2::SetText2</a>
+

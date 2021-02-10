@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.Run
+ - IMSVidCtl::Run
 ---
 
 # IMSVidCtl::Run
@@ -65,3 +65,4 @@ This method builds the filter graph if the state is unbuilt, and puts the graph 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+

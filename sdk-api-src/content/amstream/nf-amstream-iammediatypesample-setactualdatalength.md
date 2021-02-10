@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample.SetActualDataLength
+ - IAMMediaTypeSample::SetActualDataLength
 ---
 
 # IAMMediaTypeSample::SetActualDataLength
@@ -96,3 +96,4 @@ The buffer is not big enough.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
+

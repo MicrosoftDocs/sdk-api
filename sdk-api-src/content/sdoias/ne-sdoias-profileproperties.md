@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _PROFILEPROPERTIES
  - PROFILEPROPERTIES
 ---
 
@@ -70,3 +71,4 @@ The attributes associated with the profile.
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-napproperties">NAPPROPERTIES</a>
+

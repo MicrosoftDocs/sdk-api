@@ -44,6 +44,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
+ - __MIDL___MIDL_itf_sbe_0000_0015_0001
  - SBE2_STREAM_DESC
 ---
 
@@ -85,3 +86,4 @@ Reserved.
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-structures">Stream Buffer Engine Structures</a>
+

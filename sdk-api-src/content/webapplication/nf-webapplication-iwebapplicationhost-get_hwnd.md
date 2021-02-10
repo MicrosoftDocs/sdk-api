@@ -42,8 +42,7 @@ api_type:
 api_location:
  - webapplication.h
 api_name:
- - IWebApplicationHost.HWND
- - IWebApplicationHost.get_HWND
+ - IWebApplicationHost::get_HWND
 ---
 
 # IWebApplicationHost::get_HWND
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>
+

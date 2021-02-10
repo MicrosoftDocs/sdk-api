@@ -44,7 +44,6 @@ api_location:
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
  - MsiSetExternalUIRecord
- - MsiSetExternalUIRecord
 ---
 
 # MsiSetExternalUIRecord function
@@ -345,3 +344,4 @@ For more information about using a record-based external handler, see <a href="/
 
 
 <a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
+

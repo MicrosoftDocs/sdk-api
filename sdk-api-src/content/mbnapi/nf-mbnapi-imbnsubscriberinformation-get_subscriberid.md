@@ -42,8 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSubscriberInformation.SubscriberID
- - IMbnSubscriberInformation.get_SubscriberID
+ - IMbnSubscriberInformation::get_SubscriberID
 ---
 
 # IMbnSubscriberInformation::get_SubscriberID
@@ -69,3 +68,4 @@ Normally, this value is available only when the ready state of the device is <b>
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation">IMbnSubscriberInformation</a>
+

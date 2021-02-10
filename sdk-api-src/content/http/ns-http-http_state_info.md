@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_STATE_INFO
+ - PHTTP_STATE_INFO
  - HTTP_STATE_INFO
 ---
 
@@ -105,3 +107,4 @@ When the <b>HttpServerStateProperty</b> is set on a server session or a URL grou
 
 
 <a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
+

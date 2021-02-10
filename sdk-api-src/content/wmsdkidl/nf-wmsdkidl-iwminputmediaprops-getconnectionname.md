@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMInputMediaProps.GetConnectionName
+ - IWMInputMediaProps::GetConnectionName
 ---
 
 # IWMInputMediaProps::GetConnectionName
@@ -118,3 +118,4 @@ The connection name is the same as the input name specified on one (or more) of 
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps Interface</a>
+

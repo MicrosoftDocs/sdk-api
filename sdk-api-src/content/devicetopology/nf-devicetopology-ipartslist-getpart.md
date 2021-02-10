@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPartsList.GetPart
+ - IPartsList::GetPart
 ---
 
 # IPartsList::GetPart
@@ -110,3 +110,4 @@ For a code example that calls the <b>GetPart</b> method, see the implementation 
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getcount">IPartsList::GetCount</a>
+

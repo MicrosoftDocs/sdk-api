@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice.GetVendorExtension
+ - IWCNDevice::GetVendorExtension
 ---
 
 # IWCNDevice::GetVendorExtension
@@ -121,3 +121,4 @@ The buffer specified by <i>pbBuffer</i> is not large enough to contain the retur
 ## -see-also
 
 <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
+

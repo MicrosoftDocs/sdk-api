@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink.SetUpdateOptions
+ - IOleLink::SetUpdateOptions
 ---
 
 # IOleLink::SetUpdateOptions
@@ -122,3 +122,4 @@ For both manual and automatic links, the linked object updates the cache wheneve
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
+

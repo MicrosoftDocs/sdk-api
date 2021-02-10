@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulk.Start
+ - IPortableDevicePropertiesBulk::Start
 ---
 
 # IPortableDevicePropertiesBulk::Start
@@ -103,3 +103,4 @@ The GUID passed to <i>pContext</i> does not match a queued operation.
 
 
 <a href="/windows/desktop/wpd_sdk/setting-properties-for-multiple-objects">Setting Properties for Multiple Objects</a>
+

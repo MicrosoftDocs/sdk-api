@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetRestoreSubcomponentCount
+ - IVssComponent::GetRestoreSubcomponentCount
 ---
 
 # IVssComponent::GetRestoreSubcomponentCount
@@ -113,3 +113,4 @@ The caller is out of memory or other system resources.
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoresubcomponent">IVssComponent::GetRestoreSubcomponent</a>
+

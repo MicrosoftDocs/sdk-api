@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder.SetNameOf
- - IShellFolder2.SetNameOf
+ - IShellFolder::SetNameOf
 ---
 
 # IShellFolder::SetNameOf
@@ -108,3 +107,4 @@ SHChangeNotify(SHCNE_RENAMEFOLDER, SHCNF_IDLIST, pidlFullOld, pidlFullNew);
 
 
 This call prevents both the old and new names being displayed in the view.
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage.GetDate
+ - IWMDMStorage::GetDate
 ---
 
 # IWMDMStorage::GetDate
@@ -92,3 +92,4 @@ hr = pStorage->GetDate(&lastModified);
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
+

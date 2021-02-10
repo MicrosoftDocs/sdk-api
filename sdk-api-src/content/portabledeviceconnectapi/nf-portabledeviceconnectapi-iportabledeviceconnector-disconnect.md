@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGuids.lib
  - PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector.Disconnect
+ - IPortableDeviceConnector::Disconnect
 ---
 
 # IPortableDeviceConnector::Disconnect
@@ -92,3 +92,4 @@ Once the disconnection completes, the WPD API will no longer enumerate this devi
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
+

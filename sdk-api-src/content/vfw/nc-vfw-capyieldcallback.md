@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
- - capYieldCallback
+ - CAPYIELDCALLBACK
 ---
 
 # CAPYIELDCALLBACK callback function
@@ -73,3 +73,4 @@ The capture window calls the yield callback function at least once for every cap
 
 
 <a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
+

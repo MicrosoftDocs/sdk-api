@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_LOG_FIELDS_DATA
+ - PHTTP_LOG_FIELDS_DATA
  - HTTP_LOG_FIELDS_DATA
 ---
 
@@ -203,3 +205,4 @@ Unless this structure is passed, the response will not be logged, even when the 
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
+

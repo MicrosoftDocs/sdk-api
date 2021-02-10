@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHSetFolderPathW
  - shlobj_core/SHSetFolderPathW
+ - SHSetFolderPath
+ - shlobj_core/SHSetFolderPath
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
  - Windows.Storage.dll
 api_name:
- - SHSetFolderPath
- - SHSetFolderPathA
  - SHSetFolderPathW
+ - SHSetFolderPath
 ---
 
 # SHSetFolderPathW function
@@ -148,3 +149,4 @@ It is recommended that the paths be expressed as Unicode strings because folder 
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath">IKnownFolder::SetPath</a>
+

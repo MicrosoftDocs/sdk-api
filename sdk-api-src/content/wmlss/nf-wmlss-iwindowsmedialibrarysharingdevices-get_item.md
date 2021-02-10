@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDevices.get_Item
+ - IWindowsMediaLibrarySharingDevices::get_Item
 ---
 
 # IWindowsMediaLibrarySharingDevices::get_Item
@@ -91,3 +91,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingdevices-get_count">IWindowsMediaLibrarySharingDevices::get_Count</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings2.IncludeRecommendedUpdates
- - IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
- - IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates
+ - IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
 ---
 
 # IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
@@ -74,3 +72,4 @@ The <b>ReadOnly</b> property may change after the <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings2">IAutomaticUpdatesSettings2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsUser.Groups
+ - IADsUser::Groups
 ---
 
 # IADsUser::Groups
@@ -82,3 +82,4 @@ This method supports the standard return values, including S_OK. For other retur
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
+

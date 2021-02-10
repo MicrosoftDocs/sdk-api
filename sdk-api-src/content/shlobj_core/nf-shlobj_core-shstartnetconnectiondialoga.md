@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHStartNetConnectionDialogA
  - shlobj_core/SHStartNetConnectionDialogA
+ - SHStartNetConnectionDialog
+ - shlobj_core/SHStartNetConnectionDialog
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHStartNetConnectionDialog
  - SHStartNetConnectionDialogA
- - SHStartNetConnectionDialogW
+ - SHStartNetConnectionDialog
 ---
 
 # SHStartNetConnectionDialogA function

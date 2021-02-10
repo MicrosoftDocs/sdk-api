@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Werapi.h
 api_name:
+ - _WER_REPORT_INFORMATION
+ - PWER_REPORT_INFORMATION
  - WER_REPORT_INFORMATION
 ---
 
@@ -93,3 +95,4 @@ A handle to the parent window.
 ## -see-also
 
 <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
+

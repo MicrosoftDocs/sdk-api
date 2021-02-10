@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray.CHStringArray
- - ??0CHStringArray@@QAE@XZ
- - ??0CHStringArray@@QEAA@XZ
+ - CHStringArray::CHStringArray
 ---
 
 # CHStringArray::CHStringArray
@@ -62,3 +60,4 @@ api_name:
 The <b>CHStringArray</b> constructor constructs an empty <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> array.
 
 ## -parameters
+

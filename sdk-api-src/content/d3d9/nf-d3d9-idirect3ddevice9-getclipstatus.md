@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.GetClipStatus
+ - IDirect3DDevice9::GetClipStatus
 ---
 
 # IDirect3DDevice9::GetClipStatus
@@ -85,3 +85,4 @@ Clip status is used during software vertex processing. Therefore, this method is
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipstatus">IDirect3DDevice9::SetClipStatus</a>
+

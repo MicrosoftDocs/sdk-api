@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IPublisherFilter.PrepareToFire
+ - IPublisherFilter::PrepareToFire
 ---
 
 # IPublisherFilter::PrepareToFire
@@ -236,3 +236,4 @@ COM+ is required for this operation, but it is not installed.
 
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a>
+

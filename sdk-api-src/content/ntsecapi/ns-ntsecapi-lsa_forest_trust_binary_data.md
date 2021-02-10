@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _LSA_FOREST_TRUST_BINARY_DATA
+ - PLSA_FOREST_TRUST_BINARY_DATA
  - LSA_FOREST_TRUST_BINARY_DATA
 ---
 
@@ -75,3 +77,4 @@ Size of the structure in bytes.
 ### -field Buffer
 
 Pointer to an array of type <b>UCHAR</b> that contains the binary data. The buffer can contain at most 128 KB of data.
+

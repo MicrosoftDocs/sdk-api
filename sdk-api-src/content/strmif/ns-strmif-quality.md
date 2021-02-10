@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagQuality
  - Quality
 ---
 
@@ -75,3 +76,4 @@ Value that specifies the time when DirectShow created this structure, which is u
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

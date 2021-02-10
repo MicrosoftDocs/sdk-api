@@ -44,10 +44,6 @@ api_location:
  - FrameDyn.dll
 api_name:
  - CWbemGlueFactory
- - CreateInstance
- - LockServer
- - ??1CWbemGlueFactory@@QAE@XZ
- - ??1CWbemGlueFactory@@QEAA@XZ
 ---
 
 # CWbemGlueFactory class
@@ -66,3 +62,4 @@ The <b>CWbemGlueFactory</b> class is part of the WMI Provider Framework. The Pro
 ## -remarks
 
 The destructor for the class is <b>CWbemGlueFactory::~CWbemGlueFactory.</b>
+

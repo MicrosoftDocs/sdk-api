@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_GENUS_TYPE
  - WBEM_GENUS_TYPE
 ---
 
@@ -63,3 +64,4 @@ Contains constants used to distinguish between classes and instances.
 ## -see-also
 
 <a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
+

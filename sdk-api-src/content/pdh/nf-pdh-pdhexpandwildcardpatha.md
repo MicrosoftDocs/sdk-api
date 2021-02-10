@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhExpandWildCardPathA
  - pdh/PdhExpandWildCardPathA
+ - PdhExpandWildCardPath
+ - pdh/PdhExpandWildCardPath
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhExpandWildCardPath
  - PdhExpandWildCardPathA
- - PdhExpandWildCardPathW
+ - PdhExpandWildCardPath
 ---
 
 # PdhExpandWildCardPathA function
@@ -252,3 +253,4 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpathha">PdhExpandWildCardPathH</a>
+

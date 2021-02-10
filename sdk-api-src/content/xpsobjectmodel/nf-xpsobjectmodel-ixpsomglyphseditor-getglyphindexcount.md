@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.GetGlyphIndexCount
+ - IXpsOMGlyphsEditor::GetGlyphIndexCount
 ---
 
 # IXpsOMGlyphsEditor::GetGlyphIndexCount
@@ -106,3 +106,4 @@ To get the glyph indices, call <a href="/windows/desktop/api/xpsobjectmodel/nf-x
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

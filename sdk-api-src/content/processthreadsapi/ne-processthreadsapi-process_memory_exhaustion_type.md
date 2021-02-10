@@ -46,6 +46,8 @@ api_type:
 api_location:
  - processthreadsapi.h
 api_name:
+ - _PROCESS_MEMORY_EXHAUSTION_TYPE
+ - PPROCESS_MEMORY_EXHAUSTION_TYPE
  - PROCESS_MEMORY_EXHAUSTION_TYPE
 ---
 

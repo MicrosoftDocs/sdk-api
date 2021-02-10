@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SetupOpenInfFileW
  - setupapi/SetupOpenInfFileW
+ - SetupOpenInfFile
+ - setupapi/SetupOpenInfFile
 dev_langs:
  - c++
 topic_type:
@@ -44,10 +47,8 @@ api_location:
  - Ext-MS-Win-setupapi-inf-l1-1-0.dll
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupOpenInfFile
- - SetupOpenInfFileA
  - SetupOpenInfFileW
-req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
+ - SetupOpenInfFile
 ---
 
 # SetupOpenInfFileW function
@@ -149,3 +150,4 @@ For legacy INF files, the <i>InfClass</i> string must match the type specified i
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>
+

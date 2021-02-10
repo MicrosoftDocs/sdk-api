@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.DynamicRendering
- - IInkOverlay.get_DynamicRendering
- - IInkOverlay.put_DynamicRendering
- - InkOverlay.get_DynamicRendering
- - InkOverlay.put_DynamicRendering
+ - IInkOverlay::put_DynamicRendering
 ---
 
 # IInkOverlay::put_DynamicRendering
@@ -70,3 +66,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+

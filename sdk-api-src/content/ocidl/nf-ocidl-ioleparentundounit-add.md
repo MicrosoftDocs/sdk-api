@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleParentUndoUnit.Add
+ - IOleParentUndoUnit::Add
 ---
 
 # IOleParentUndoUnit::Add
@@ -73,3 +73,4 @@ The parent undo unit or undo manager must accept any undo unit given to it, unle
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-add">IOleUndoManager::Add</a>
+

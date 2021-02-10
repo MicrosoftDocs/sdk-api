@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemConfigureRefresher.AddEnum
+ - IWbemConfigureRefresher::AddEnum
 ---
 
 # IWbemConfigureRefresher::AddEnum
@@ -98,3 +98,4 @@ The supplied class must specify a valid class, which is provided by the High-Per
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemconfigurerefresher">IWbemConfigureRefresher</a>
+

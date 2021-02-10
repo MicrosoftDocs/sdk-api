@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionManager2.UnregisterDuckNotification
+ - IAudioSessionManager2::UnregisterDuckNotification
 ---
 
 # IAudioSessionManager2::UnregisterDuckNotification
@@ -98,3 +98,4 @@ After the application calls <b>UnregisterDuckNotification</b>, any pending event
 
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2">IAudioSessionManager2</a>
+

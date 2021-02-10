@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IDispenserDriver.EnlistResource
+ - IDispenserDriver::EnlistResource
 ---
 
 # IDispenserDriver::EnlistResource
@@ -120,3 +120,4 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+

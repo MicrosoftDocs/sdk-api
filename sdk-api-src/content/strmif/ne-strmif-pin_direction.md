@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - _PinDirection
  - PIN_DIRECTION
 ---
 
@@ -71,3 +72,4 @@ Output pin.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-ipin-querydirection">IPin::QueryDirection</a>
+

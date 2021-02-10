@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertySystem.FormatForDisplay
+ - IPropertySystem::FormatForDisplay
 ---
 
 # IPropertySystem::FormatForDisplay
@@ -259,3 +259,4 @@ If the property key does not correspond to a property description in any of the 
 <td>Semicolon separated values—a semicolon is used regardless of locale.</td>
 </tr>
 </table>
+

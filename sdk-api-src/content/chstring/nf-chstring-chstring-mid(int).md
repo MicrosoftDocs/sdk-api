@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.Mid
+ - CHString::Mid
 ---
 
 # CHString::Mid(int)
@@ -96,3 +96,4 @@ assert( s.Mid( 2, 3 ) == L"cde" );
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>
+

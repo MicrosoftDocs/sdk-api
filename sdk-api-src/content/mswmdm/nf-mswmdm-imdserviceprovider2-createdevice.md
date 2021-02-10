@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDServiceProvider2.CreateDevice
+ - IMDServiceProvider2::CreateDevice
 ---
 
 # IMDServiceProvider2::CreateDevice
@@ -82,3 +82,4 @@ Windows Media Device Manager calls this method when an application starts, or wh
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2 Interface</a>
+

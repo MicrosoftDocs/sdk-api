@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUser.Invalidate
+ - IDiskQuotaUser::Invalidate
 ---
 
 # IDiskQuotaUser::Invalidate
@@ -69,3 +69,4 @@ This method returns <b>S_OK</b>.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
+

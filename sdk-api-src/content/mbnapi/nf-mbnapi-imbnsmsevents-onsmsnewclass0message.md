@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsEvents.OnSmsNewClass0Message
+ - IMbnSmsEvents::OnSmsNewClass0Message
 ---
 
 # IMbnSmsEvents::OnSmsNewClass0Message
@@ -82,3 +82,4 @@ For CDMA devices, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_TEXT</b>, then the ca
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
+

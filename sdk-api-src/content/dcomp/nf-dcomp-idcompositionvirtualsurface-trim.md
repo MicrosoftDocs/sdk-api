@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVirtualSurface.Trim
+ - IDCompositionVirtualSurface::Trim
 ---
 
 # IDCompositionVirtualSurface::Trim
@@ -93,3 +93,4 @@ This method fails if <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositions
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-resize">IDCompositionVirtualSurface::Resize</a>
+

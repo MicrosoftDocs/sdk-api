@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLink.GetArguments
- - IShellLinkA.GetArguments
- - IShellLinkW.GetArguments
- - IShellLinkW.GetArguments
- - IShellLinkA.GetArguments
+ - IShellLinkA::GetArguments
 ---
 
 # IShellLinkA::GetArguments
@@ -95,3 +91,4 @@ In Windows 7 and later, it is recommended that you retrieve argument strings th
 
 
 <b>IShellLinkW</b>
+

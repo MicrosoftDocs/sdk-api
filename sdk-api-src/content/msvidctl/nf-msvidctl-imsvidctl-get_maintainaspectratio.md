@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.get_MaintainAspectRatio
+ - IMSVidCtl::get_MaintainAspectRatio
 ---
 
 # IMSVidCtl::get_MaintainAspectRatio
@@ -115,3 +115,4 @@ NULL pointer argument.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_maintainaspectratio">IMSVidCtl::put_MaintainAspectRatio</a>
+

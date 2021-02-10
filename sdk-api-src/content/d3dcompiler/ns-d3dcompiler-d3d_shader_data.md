@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3Dcompiler.h
 api_name:
+ - _D3D_SHADER_DATA
  - D3D_SHADER_DATA
 ---
 
@@ -71,3 +72,4 @@ An array of <b>D3D_SHADER_DATA</b> structures is passed to <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-structs">Structures</a>
+

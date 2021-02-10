@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIDevice2.EnqueueSetEvent
+ - IDXGIDevice2::EnqueueSetEvent
 ---
 
 # IDXGIDevice2::EnqueueSetEvent
@@ -129,3 +129,4 @@ void BlockingFinish( IDXGIDevice2* pDevice )
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgidevice2">IDXGIDevice2</a>
+

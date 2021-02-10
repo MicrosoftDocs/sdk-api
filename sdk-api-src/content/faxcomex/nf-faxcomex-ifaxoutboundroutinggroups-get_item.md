@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingGroups.get_Item
+ - IFaxOutboundRoutingGroups::get_Item
 ---
 
 # IFaxOutboundRoutingGroups::get_Item
@@ -89,3 +89,4 @@ To return the group consisting of all of the devices, set <i>vIndex</i> equal to
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>
+

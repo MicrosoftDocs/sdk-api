@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WTypes.h
 api_name:
+ - tagQUERYCONTEXT
  - QUERYCONTEXT
 ---
 
@@ -83,3 +84,4 @@ The low version number.
 
 
 <a href="/windows/desktop/api/objbase/nf-objbase-coinstall">CoInstall</a>
+

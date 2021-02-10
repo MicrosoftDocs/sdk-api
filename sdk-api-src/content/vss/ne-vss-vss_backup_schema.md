@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_BACKUP_SCHEMA
+ - PVSS_BACKUP_SCHEMA
  - VSS_BACKUP_SCHEMA
 ---
 
@@ -285,3 +287,4 @@ A writer that does not support the backup schema corresponding to a requester's 
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>
+

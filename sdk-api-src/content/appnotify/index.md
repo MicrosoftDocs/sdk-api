@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - appnotify
  - appnotify/appnotify
+api_name:
+ - appnotify
 ---
 
 # Appnotify.h header

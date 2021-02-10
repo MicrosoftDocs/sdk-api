@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_APP_SEQUENCE
  - WSD_APP_SEQUENCE
 ---
 
@@ -104,3 +105,4 @@ This setting identifies a message within the context of a sequence identifier an
 ## -see-also
 
 <a href="/windows/desktop/WsdApi/appsequence-validation-rules">AppSequence Validation Rules</a>
+

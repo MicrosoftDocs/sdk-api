@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificate.ParentWindow
- - ISignerCertificate.get_ParentWindow
- - ISignerCertificate.put_ParentWindow
+ - ISignerCertificate::get_ParentWindow
 ---
 
 # ISignerCertificate::get_ParentWindow
@@ -81,3 +79,4 @@ Call this property to specify a window ID before calling the <a href="/windows/d
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
+

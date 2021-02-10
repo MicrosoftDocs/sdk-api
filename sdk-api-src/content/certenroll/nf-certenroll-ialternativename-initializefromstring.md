@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IAlternativeName.InitializeFromString
+ - IAlternativeName::InitializeFromString
 ---
 
 # IAlternativeName::InitializeFromString
@@ -177,3 +177,4 @@ You can use the <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternat
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionalternativenames">IX509ExtensionAlternativeNames</a>
+

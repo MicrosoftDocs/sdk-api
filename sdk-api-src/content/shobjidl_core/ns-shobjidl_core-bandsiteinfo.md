@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
+ - tagBANDSITEINFO
  - BANDSITEINFO
 ---
 
@@ -175,3 +176,4 @@ Removes the "Close Toolbar" and "Show Title" choices from the menu.
 #### BSIS_FIXEDORDER (0x00000400)
 
 <b>Internet Explorer 7 and later</b>. Prevents items from being reordered.
+

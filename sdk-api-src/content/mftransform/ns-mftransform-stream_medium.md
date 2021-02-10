@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mftransform.h
 api_name:
+ - _STREAM_MEDIUM
+ - PSTREAM_MEDIUM
  - STREAM_MEDIUM
 ---
 
@@ -73,3 +75,4 @@ This structure is used internally by the Microsoft Media Foundation AVStream pro
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

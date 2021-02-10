@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError.GetFile
+ - IBackgroundCopyError::GetFile
 ---
 
 # IBackgroundCopyError::GetFile
@@ -102,3 +102,4 @@ The error is not associated with a local or remote file. The <i>ppFile</i> param
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">IBackgroundCopyError::GetErrorDescription</a>
+

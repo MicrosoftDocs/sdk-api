@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform.ProcessInput
+ - IMFDeviceTransform::ProcessInput
 ---
 
 # IMFDeviceTransform::ProcessInput
@@ -154,3 +154,4 @@ If an MFT encounters a non-fatal error in the input data, it can simply drop the
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
+

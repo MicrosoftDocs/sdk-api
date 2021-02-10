@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLink.GetHotkey
- - IShellLinkA.GetHotkey
- - IShellLinkW.GetHotkey
+ - IShellLinkA::GetHotkey
 ---
 
 # IShellLinkA::GetHotkey

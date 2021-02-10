@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCatalogManager.ReindexSearchRoot
+ - ISearchCatalogManager::ReindexSearchRoot
 ---
 
 # ISearchCatalogManager::ReindexSearchRoot
@@ -71,3 +71,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The indexer begins an incremental crawl of all start pages under <i>pszRootURL</i> upon successful return of method.
 
 Old information remains in the catalog until replaced by new information during the re-indexing.
+

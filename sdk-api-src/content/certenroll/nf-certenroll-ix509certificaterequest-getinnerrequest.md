@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest.GetInnerRequest
+ - IX509CertificateRequest::GetInnerRequest
 ---
 
 # IX509CertificateRequest::GetInnerRequest
@@ -118,3 +118,4 @@ A top-level request object can be a PKCS #10, PKCS #7, or CMC request. The follo
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
+

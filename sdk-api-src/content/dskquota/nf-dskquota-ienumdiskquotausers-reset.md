@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IEnumDiskQuotaUsers.Reset
+ - IEnumDiskQuotaUsers::Reset
 ---
 
 # IEnumDiskQuotaUsers::Reset
@@ -69,3 +69,4 @@ The return value is <b>S_OK</b>.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a>
+

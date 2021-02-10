@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_STATISTICS
+ - PTOKEN_STATISTICS
  - TOKEN_STATISTICS
 ---
 
@@ -150,3 +152,4 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
+

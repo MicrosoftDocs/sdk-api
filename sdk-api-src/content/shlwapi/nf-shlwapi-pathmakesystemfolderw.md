@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PathMakeSystemFolderW
  - shlwapi/PathMakeSystemFolderW
+ - PathMakeSystemFolder
+ - shlwapi/PathMakeSystemFolder
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathMakeSystemFolder
- - PathMakeSystemFolderA
  - PathMakeSystemFolderW
+ - PathMakeSystemFolder
 ---
 
 # PathMakeSystemFolderW function

@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - winml
  - winml/winml
+api_name:
+ - winml
 ---
 
 # Winml.h header

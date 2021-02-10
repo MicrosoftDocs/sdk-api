@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription.GetRelativeDescription
+ - IPropertyDescription::GetRelativeDescription
 ---
 
 # IPropertyDescription::GetRelativeDescription
@@ -96,3 +96,4 @@ It is the responsibility of the calling application to release <i>ppszDesc1</i> 
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
+

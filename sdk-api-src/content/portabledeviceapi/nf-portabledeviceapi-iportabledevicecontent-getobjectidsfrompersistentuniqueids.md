@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs
+ - IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs
 ---
 
 # IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs
@@ -120,3 +120,4 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-an-object-identifier-from-a-persistent-unique-identifier">Retrieving an Object Identifier from a Persistent Unique Identifier</a>
+

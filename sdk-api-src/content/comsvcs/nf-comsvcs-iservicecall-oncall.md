@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceCall.OnCall
+ - IServiceCall::OnCall
 ---
 
 # IServiceCall::OnCall
@@ -73,3 +73,4 @@ To achieve the best performance from the system, the context configuration of th
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicecall">IServiceCall</a>
+

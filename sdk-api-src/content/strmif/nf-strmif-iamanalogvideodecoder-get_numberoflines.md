@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder.get_NumberOfLines
+ - IAMAnalogVideoDecoder::get_NumberOfLines
 ---
 
 # IAMAnalogVideoDecoder::get_NumberOfLines
@@ -99,3 +99,4 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
+

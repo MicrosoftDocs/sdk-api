@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
+ - ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
 ---
 
 # ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
@@ -109,3 +109,4 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
+

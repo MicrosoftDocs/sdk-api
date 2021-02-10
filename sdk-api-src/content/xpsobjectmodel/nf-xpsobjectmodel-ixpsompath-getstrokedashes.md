@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeDashes
+ - IXpsOMPath::GetStrokeDashes
 ---
 
 # IXpsOMPath::GetStrokeDashes
@@ -110,3 +110,4 @@ The method succeeded.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
+

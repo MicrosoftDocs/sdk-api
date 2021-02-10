@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList4.SetPipelineState1
+ - ID3D12GraphicsCommandList4::SetPipelineState1
 ---
 
 # ID3D12GraphicsCommandList4::SetPipelineState1
@@ -67,3 +67,4 @@ This method is an alternative to <a href="/windows/desktop/api/d3d12/nf-d3d12-id
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
+

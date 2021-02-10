@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.SetHostNames
+ - IOleObject::SetHostNames
 ---
 
 # IOleObject::SetHostNames
@@ -89,3 +89,4 @@ The "object short type" refers to a form of an object's name short enough to be 
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>
+

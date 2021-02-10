@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPreviewHandler.TranslateAccelerator
+ - IPreviewHandler::TranslateAccelerator
 ---
 
 # IPreviewHandler::TranslateAccelerator
@@ -79,3 +79,4 @@ The preview handler then has the option to call <a href="/windows/desktop/api/sh
 It is also acceptable for the preview handler to avoid using the table altogether and call <b>IPreviewHandler::TranslateAccelerator</b> for every keystroke. Note that all preview handlers running in low-integrity processes must use this method.
 
 When a tab key is pressed, if a preview handler has more than one tab stop it is responsible for moving keyboard focus within those tab stops.  If the current keyboard focus is on one of those tab stops, and advancing the keyboard focus would move it to another previewer tab stop, the previewer should call SetFocus on the next tab stop.  Otherwise the tab key should be forwarded to the host to handle tabbing out of the previewer.
+

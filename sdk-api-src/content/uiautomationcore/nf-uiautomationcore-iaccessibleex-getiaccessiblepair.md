@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IAccessibleEx.GetIAccessiblePair
+ - IAccessibleEx::GetIAccessiblePair
 ---
 
 # IAccessibleEx::GetIAccessiblePair
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>
+

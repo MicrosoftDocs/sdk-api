@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmp
  - wmp/wmp
+api_name:
+ - wmp
 ---
 
 # Wmp.h header

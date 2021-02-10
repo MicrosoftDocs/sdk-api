@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_ECCKEY_BLOB
+ - PBCRYPT_ECCKEY_BLOB
  - BCRYPT_ECCKEY_BLOB
 ---
 

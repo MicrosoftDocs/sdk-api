@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetwork.SetName
+ - INetwork::SetName
 ---
 
 # INetwork::SetName
@@ -98,3 +98,4 @@ The maximum length of a network name can be 128 characters and cannot contain sp
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
+

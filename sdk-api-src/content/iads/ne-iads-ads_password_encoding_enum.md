@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0026
  - ADS_PASSWORD_ENCODING_ENUM
 ---
 
@@ -75,3 +76,4 @@ Passwords are not encoded and are transmitted in plaintext.
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>
+

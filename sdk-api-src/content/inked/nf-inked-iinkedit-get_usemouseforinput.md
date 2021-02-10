@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.UseMouseForInput
- - IInkEdit.get_UseMouseForInput
- - IInkEdit.put_UseMouseForInput
- - InkEdit.get_UseMouseForInput
- - InkEdit.put_UseMouseForInput
+ - IInkEdit::get_UseMouseForInput
 ---
 
 # IInkEdit::get_UseMouseForInput
@@ -74,3 +70,4 @@ This property should only be changed if the <a href="/windows/desktop/api/inked/
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

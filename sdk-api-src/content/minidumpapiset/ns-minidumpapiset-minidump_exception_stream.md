@@ -45,6 +45,7 @@ api_location:
  - minidumpapiset.h
 api_name:
  - MINIDUMP_EXCEPTION_STREAM
+ - PMINIDUMP_EXCEPTION_STREAM
 ---
 
 # MINIDUMP_EXCEPTION_STREAM structure
@@ -89,3 +90,4 @@ In this context, a data stream is a set of data in a minidump file.
 
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+

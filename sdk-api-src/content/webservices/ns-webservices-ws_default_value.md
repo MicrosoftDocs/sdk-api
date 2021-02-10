@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_DEFAULT_VALUE
  - WS_DEFAULT_VALUE
 ---
 
@@ -64,3 +65,4 @@ A pointer to the default value.
 ### -field valueSize
 
 The size of the default value, in bytes.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.CreateNotificationAction
+ - IFsrmFileManagementJob::CreateNotificationAction
 ---
 
 # IFsrmFileManagementJob::CreateNotificationAction
@@ -115,3 +115,4 @@ The action is deleted when the notification is deleted.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

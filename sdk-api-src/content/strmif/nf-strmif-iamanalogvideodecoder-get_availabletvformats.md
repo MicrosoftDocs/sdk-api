@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder.get_AvailableTVFormats
+ - IAMAnalogVideoDecoder::get_AvailableTVFormats
 ---
 
 # IAMAnalogVideoDecoder::get_AvailableTVFormats
@@ -70,3 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
+

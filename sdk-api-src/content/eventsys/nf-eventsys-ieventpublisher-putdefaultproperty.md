@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventPublisher.PutDefaultProperty
+ - IEventPublisher::PutDefaultProperty
 ---
 
 # IEventPublisher::PutDefaultProperty
@@ -73,3 +73,4 @@ An <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">EventPubl
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">IEventPublisher</a>
+

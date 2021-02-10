@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumSyncChangeUnits.Next
+ - IEnumSyncChangeUnits::Next
 ---
 
 # IEnumSyncChangeUnits::Next
@@ -111,3 +111,4 @@ This method currently only supports retrieval of a single change unit. Therefore
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsyncchangeunits">IEnumSyncChangeUnits Interface</a>
+

@@ -45,6 +45,7 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _OPEN_VIRTUAL_DISK_FLAG
  - OPEN_VIRTUAL_DISK_FLAG
 ---
 
@@ -111,3 +112,4 @@ Indicates the VHD file is to be opened without opening any differencing-chain pa
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

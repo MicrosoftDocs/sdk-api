@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSource.GetDeviceId
+ - IPhotoAcquireSource::GetDeviceId
 ---
 
 # IPhotoAcquireSource::GetDeviceId
@@ -88,3 +88,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
+

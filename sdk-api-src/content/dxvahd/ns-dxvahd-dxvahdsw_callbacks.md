@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHDSW_CALLBACKS
  - DXVAHDSW_CALLBACKS
 ---
 
@@ -141,3 +142,4 @@ At initialization, the   DXVA-HD runtime calls the plug-in device's <a href="/wi
 
 
 <a href="/windows/desktop/api/dxvahd/nc-dxvahd-pdxvahdsw_plugin">PDXVAHDSW_Plugin</a>
+

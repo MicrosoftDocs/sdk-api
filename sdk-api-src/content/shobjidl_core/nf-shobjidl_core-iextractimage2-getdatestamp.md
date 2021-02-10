@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IExtractImage2.GetDateStamp
+ - IExtractImage2::GetDateStamp
 ---
 
 # IExtractImage2::GetDateStamp
@@ -65,3 +65,4 @@ A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">
 Type: <b>HRESULT</b>
 
 Return S_OK if successful, or a COM-defined error code otherwise.
+

@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput.ReleaseOwnership
+ - IDXGIOutput::ReleaseOwnership
 ---
 
 # IDXGIOutput::ReleaseOwnership
@@ -62,3 +62,4 @@ If you are not using a swap chain, get access to an output by calling <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
+

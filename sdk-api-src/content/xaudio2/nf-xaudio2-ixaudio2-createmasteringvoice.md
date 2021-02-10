@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2.CreateMasteringVoice
+ - IXAudio2::CreateMasteringVoice
 ---
 
 # IXAudio2::CreateMasteringVoice
@@ -169,3 +169,4 @@ Windows 10 (XAudio2.9);
 
 
 <a href="/windows/desktop/xaudio2/xaudio2-sample-rate-conversions">XAudio2 Sample Rate Conversions</a>
+

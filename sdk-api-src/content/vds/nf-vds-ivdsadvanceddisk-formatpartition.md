@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk.FormatPartition
+ - IVdsAdvancedDisk::FormatPartition
 ---
 
 # IVdsAdvancedDisk::FormatPartition
@@ -174,3 +174,4 @@ If an OEM partition is formatted as FAT or FAT32, the partition type does not ch
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
+

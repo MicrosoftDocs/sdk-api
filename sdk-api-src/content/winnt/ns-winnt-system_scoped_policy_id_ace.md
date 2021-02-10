@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _SYSTEM_SCOPED_POLICY_ID_ACE
+ - PSYSTEM_SCOPED_POLICY_ID_ACE
  - SYSTEM_SCOPED_POLICY_ID_ACE
 ---
 
@@ -69,3 +71,4 @@ The access policy associated with the SACL that contains this ACE.
 ### -field SidStart
 
 Specifies the first <b>DWORD</b> of a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>.
+

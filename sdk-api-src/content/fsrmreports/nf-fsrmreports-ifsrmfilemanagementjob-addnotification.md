@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.AddNotification
+ - IFsrmFileManagementJob::AddNotification
 ---
 
 # IFsrmFileManagementJob::AddNotification
@@ -130,3 +130,4 @@ To associate an action with the notification value, call the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotification-createfmjnotification">MSFT_FSRMFMJNotification::CreateFMJNotification</a>
+

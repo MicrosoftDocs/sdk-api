@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT_CAPABILITY_DROP0_
  - FWPM_NET_EVENT_CAPABILITY_DROP0
 ---
 

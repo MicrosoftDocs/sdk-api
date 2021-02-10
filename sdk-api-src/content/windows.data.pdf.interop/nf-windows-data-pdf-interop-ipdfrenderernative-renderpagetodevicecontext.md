@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Data.Pdf.dll
 api_name:
- - IPdfRendererNative.RenderPageToDeviceContext
+ - IPdfRendererNative::RenderPageToDeviceContext
 ---
 
 # IPdfRendererNative::pdf
@@ -93,3 +93,4 @@ The page output operation succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a>
+

@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdReleaseDC
- - GdiEntry8
 ---
 
 # DdReleaseDC function
@@ -78,3 +77,4 @@ Applications that need to obtain a DC for a DirectDraw surface can  use <a href=
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

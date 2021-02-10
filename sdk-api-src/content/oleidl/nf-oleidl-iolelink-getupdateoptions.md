@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink.GetUpdateOptions
+ - IOleLink::GetUpdateOptions
 ---
 
 # IOleLink::GetUpdateOptions
@@ -77,3 +77,4 @@ This method returns S_OK on success.
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
+

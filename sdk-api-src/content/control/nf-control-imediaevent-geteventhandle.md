@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEvent.GetEventHandle
+ - IMediaEvent::GetEventHandle
 ---
 
 # IMediaEvent::GetEventHandle
@@ -91,3 +91,4 @@ Another way for applications to monitor the event queue is by calling the <a hre
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader.GetMetafileSize
+ - MetafileHeader::GetMetafileSize
 ---
 
 # MetafileHeader::GetMetafileSize
@@ -80,3 +80,4 @@ This method returns a <b>UINT</b> that specifies the size, in bytes, of the meta
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+

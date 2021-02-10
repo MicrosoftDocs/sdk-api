@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceFinderCallback.SearchComplete
+ - IUPnPDeviceFinderCallback::SearchComplete
 ---
 
 # IUPnPDeviceFinderCallback::SearchComplete
@@ -84,3 +84,4 @@ The initial search can take a long time to complete. The <b>SearchComplete</b> c
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefindercallback">IUPnPDeviceFinderCallback</a>
+

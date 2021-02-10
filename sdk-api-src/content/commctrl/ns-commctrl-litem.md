@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagLITEM
+ - PLITEM
  - LITEM
 ---
 
@@ -206,3 +208,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>[MAX_LIN
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>[L_MAX_URL_LENGTH]</b>
 
 <b>WCHAR</b> string that contains the URL represented by the link. The maximum number of characters in the array is L_MAX_URL_LENGTH.
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
  - DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA
 ---
 
@@ -117,3 +118,4 @@ HRESULT DXVAHD_SetBackgroundColor(
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

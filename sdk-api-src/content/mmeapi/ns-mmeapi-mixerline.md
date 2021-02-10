@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
+ - tMIXERLINE
+ - PMIXERLINE
  - MIXERLINE
 ---
 
@@ -505,3 +507,4 @@ Audio Mixers
 
 
 <a href="/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a>
+

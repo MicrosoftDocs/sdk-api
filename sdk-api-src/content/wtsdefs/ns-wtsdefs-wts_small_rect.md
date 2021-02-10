@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_SMALL_RECT
+ - PWTS_SMALL_RECT
  - WTS_SMALL_RECT
 ---
 

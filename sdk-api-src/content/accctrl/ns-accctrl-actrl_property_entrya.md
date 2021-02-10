@@ -46,9 +46,9 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - ACTRL_PROPERTY_ENTRY
+ - _ACTRL_PROPERTY_ENTRYA
+ - PACTRL_PROPERTY_ENTRYA
  - ACTRL_PROPERTY_ENTRYA
- - ACTRL_PROPERTY_ENTRYW
 ---
 
 # ACTRL_PROPERTY_ENTRYA structure
@@ -114,3 +114,4 @@ To create an <b>ACTRL_PROPERTY_ENTRY</b> structure that denies all access to an 
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>
+

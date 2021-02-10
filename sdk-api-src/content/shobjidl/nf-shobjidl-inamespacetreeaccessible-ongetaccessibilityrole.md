@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeAccessible.OnGetAccessibilityRole
+ - INameSpaceTreeAccessible::OnGetAccessibilityRole
 ---
 
 # INameSpaceTreeAccessible::OnGetAccessibilityRole
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is called when the accessibility role for a Shell item is retrieved.
+

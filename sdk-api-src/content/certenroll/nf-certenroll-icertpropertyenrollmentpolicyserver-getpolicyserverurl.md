@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl
+ - ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
@@ -108,3 +108,4 @@ The property value has not been initialized.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
+

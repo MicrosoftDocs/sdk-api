@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_err2string
- - ldap_err2stringA
- - ldap_err2stringW
 ---
 
 # ldap_err2string function
@@ -79,3 +77,4 @@ The return value is a static pointer to the character string. Do not free this s
 
 
 <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceManager.GetDeviceForService
+ - IPortableDeviceServiceManager::GetDeviceForService
 ---
 
 # IPortableDeviceServiceManager::GetDeviceForService
@@ -105,3 +105,4 @@ An application can retrieve a PnP service identifier by calling the <b>GetDevice
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager">IPortableDeviceServiceManager Interface</a>
+

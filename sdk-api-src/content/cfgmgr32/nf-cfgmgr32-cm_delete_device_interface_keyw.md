@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Delete_Device_Interface_KeyW
  - cfgmgr32/CM_Delete_Device_Interface_KeyW
+ - CM_Delete_Device_Interface_Key
+ - cfgmgr32/CM_Delete_Device_Interface_Key
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +48,8 @@ api_location:
  - API-Ms-Win-Devices-Config-L1-1-1.dll
  - CfgMgr32.dll
 api_name:
- - CM_Delete_Device_Interface_Key
  - CM_Delete_Device_Interface_KeyW
+ - CM_Delete_Device_Interface_Key
 ---
 
 # CM_Delete_Device_Interface_KeyW function
@@ -78,3 +80,4 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfaceregkey">SetupDiDeleteDeviceInterfaceRegKey</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - activationregistration.h
 api_name:
- - IActivatableClassRegistration.get_Attributes
+ - IActivatableClassRegistration::get_Attributes
 ---
 
 # IActivatableClassRegistration::get_Attributes
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration">RoGetActivatableClassRegistration</a>
+

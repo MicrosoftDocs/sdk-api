@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetLanguage
+ - IXpsOMVisual::SetLanguage
 ---
 
 # IXpsOMVisual::SetLanguage
@@ -110,3 +110,4 @@ The recommended encoding for the <b>Language</b> property is specified in Intern
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

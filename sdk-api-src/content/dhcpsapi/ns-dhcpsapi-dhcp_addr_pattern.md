@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_ADDR_PATTERN
+ - LPDHCP_ADDR_PATTERN
  - DHCP_ADDR_PATTERN
 ---
 
@@ -74,3 +76,4 @@ If <b>TRUE</b>, <b>Pattern</b> contains a wildcard pattern; if <b>FALSE</b>, <b>
 ### -field Pattern
 
 Array of BYTE values that contain the pattern or hardware address.
+

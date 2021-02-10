@@ -43,7 +43,6 @@ api_location:
  - wmp.h
 api_name:
  - IWMPMediaCollection
- - IWMPMediaCollection.isDeleted
 ---
 
 # IWMPMediaCollection interface
@@ -67,3 +66,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaCollection</b> inter
 
 
 <a href="/windows/desktop/WMP/interfaces">Interfaces</a>
+

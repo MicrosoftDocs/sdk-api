@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdSetGammaRamp
- - GdiEntry15
 ---
 
 # DdSetGammaRamp function
@@ -85,3 +84,4 @@ It is recommended that applications use the <b>IDirectDrawGammaControl::SetGamma
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

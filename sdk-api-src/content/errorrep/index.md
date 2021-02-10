@@ -9,6 +9,8 @@ tech.root: wer
 f1_keywords:
  - errorrep
  - errorrep/errorrep
+api_name:
+ - errorrep
 ---
 
 # Errorrep.h header

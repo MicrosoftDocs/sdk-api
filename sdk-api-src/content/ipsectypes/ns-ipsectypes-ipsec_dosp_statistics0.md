@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_DOSP_STATISTICS0_
  - IPSEC_DOSP_STATISTICS0
 ---
 
@@ -135,3 +136,4 @@ The current number of per internal IP address rate limit queues for inbound IPv6
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

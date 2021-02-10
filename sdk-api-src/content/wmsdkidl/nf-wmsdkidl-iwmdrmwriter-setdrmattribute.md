@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMWriter.SetDRMAttribute
+ - IWMDRMWriter::SetDRMAttribute
 ---
 
 # IWMDRMWriter::SetDRMAttribute
@@ -111,3 +111,4 @@ hr = pDRMWriter->SetDRMAttribute( 0, g_wszWMDRM_ContentID,
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>
+

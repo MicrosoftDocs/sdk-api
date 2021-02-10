@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIStreaming.Begin
+ - IAVIStreaming::Begin
 ---
 
 # IAVIStreaming::Begin
@@ -95,3 +95,4 @@ HRESULT Begin(LONG lStart, LONG lEnd, LONG lRate);
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IWindowProvider.CanMinimize
- - IWindowProvider.get_CanMinimize
+ - IWindowProvider::get_CanMinimize
 ---
 
 # IWindowProvider::get_CanMinimize
@@ -76,3 +75,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Nspapi.h
 api_name:
- - SERVICE_TYPE_VALUE_ABS
+ - _SERVICE_TYPE_VALUE_ABSA
+ - PSERVICE_TYPE_VALUE_ABSA
  - SERVICE_TYPE_VALUE_ABSA
- - SERVICE_TYPE_VALUE_ABSW
 ---
 
 # SERVICE_TYPE_VALUE_ABSA structure
@@ -291,3 +291,4 @@ When you use the
 
 
 <a href="/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
+

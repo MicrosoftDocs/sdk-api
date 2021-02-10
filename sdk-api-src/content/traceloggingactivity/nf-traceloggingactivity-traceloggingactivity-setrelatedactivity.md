@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingActivity.SetRelatedActivity
+ - TraceLoggingActivity::SetRelatedActivity
 ---
 
 # TraceLoggingActivity::SetRelatedActivity
@@ -65,3 +65,4 @@ TBD
 ## -see-also
 
 <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity</a>
+

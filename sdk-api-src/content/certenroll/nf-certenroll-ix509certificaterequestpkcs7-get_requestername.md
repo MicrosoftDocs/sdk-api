@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs7.RequesterName
- - IX509CertificateRequestPkcs7.get_RequesterName
- - IX509CertificateRequestPkcs7.put_RequesterName
+ - IX509CertificateRequestPkcs7::get_RequesterName
 ---
 
 # IX509CertificateRequestPkcs7::get_RequesterName
@@ -81,3 +79,4 @@ This property is only used when the enrollment agent is enrolling on behalf of a
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
+

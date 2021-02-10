@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionService2.serviceEvent
+ - IWMPSubscriptionService2::serviceEvent
 ---
 
 # IWMPSubscriptionService2::serviceEvent
@@ -93,3 +93,4 @@ Your code should not perform lengthy operations synchronously when Windows Media
 
 
 <a href="/windows/desktop/api/subscriptionservices/ne-subscriptionservices-wmpsubscriptionserviceevent">WMPSubscriptionServiceEvent</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionProfileManager.GetConnectionProfile
+ - IMbnConnectionProfileManager::GetConnectionProfile
 ---
 
 # IMbnConnectionProfileManager::GetConnectionProfile
@@ -144,3 +144,4 @@ If a new profile has been created using <a href="/windows/desktop/api/mbnapi/nf-
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>
+

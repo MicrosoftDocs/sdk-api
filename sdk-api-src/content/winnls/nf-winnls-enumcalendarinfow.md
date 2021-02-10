@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumCalendarInfoW
  - winnls/EnumCalendarInfoW
+ - EnumCalendarInfo
+ - winnls/EnumCalendarInfo
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - EnumCalendarInfo
- - EnumCalendarInfoA
  - EnumCalendarInfoW
+ - EnumCalendarInfo
 ---
 
 # EnumCalendarInfoW function
@@ -149,3 +150,4 @@ See Remarks for <a href="/windows/desktop/api/winnls/nf-winnls-enumcalendarinfoe
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateReversalTransition
+ - IUIAnimationTransitionLibrary2::CreateReversalTransition
 ---
 
 # IUIAnimationTransitionLibrary2::CreateReversalTransition
@@ -79,3 +79,4 @@ A reversal transition smoothly changes direction over the specified duration. Th
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
+

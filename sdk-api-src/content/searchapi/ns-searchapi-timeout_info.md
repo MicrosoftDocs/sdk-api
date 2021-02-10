@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - _TIMEOUT_INFO
  - TIMEOUT_INFO
 ---
 

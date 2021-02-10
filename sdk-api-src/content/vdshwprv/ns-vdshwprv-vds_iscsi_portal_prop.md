@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_ISCSI_PORTAL_PROP
+ - PVDS_ISCSI_PORTAL_PROP
  - VDS_ISCSI_PORTAL_PROP
 ---
 
@@ -89,3 +91,4 @@ The status of the portal, enumerated by
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_iscsi_portal_status">VDS_ISCSI_PORTAL_STATUS</a>
+

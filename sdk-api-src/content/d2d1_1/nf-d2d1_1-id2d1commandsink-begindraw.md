@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.BeginDraw
+ - ID2D1CommandSink::BeginDraw
 ---
 
 # ID2D1CommandSink::BeginDraw
@@ -71,3 +71,4 @@ This method always returns <b>S_OK</b>.
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">ID2D1RenderTarget::BeginDraw</a>
+

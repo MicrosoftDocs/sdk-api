@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer.GetIndexByteStreamCount
+ - IMFASFIndexer::GetIndexByteStreamCount
 ---
 
 # IMFASFIndexer::GetIndexByteStreamCount
@@ -99,3 +99,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
+

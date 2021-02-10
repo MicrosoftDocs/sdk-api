@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.ScrollBars
- - IInkEdit.get_ScrollBars
- - IInkEdit.put_ScrollBars
- - InkEdit.get_ScrollBars
- - InkEdit.put_ScrollBars
+ - IInkEdit::put_ScrollBars
 ---
 
 # IInkEdit::put_ScrollBars
@@ -80,3 +76,4 @@ Scroll bars are displayed only if the contents of the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

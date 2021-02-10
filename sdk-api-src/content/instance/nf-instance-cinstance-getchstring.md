@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance.GetCHString
- - ?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z
- - ?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z
+ - CInstance::GetCHString
 ---
 
 # CInstance::GetCHString
@@ -74,3 +72,4 @@ Buffer to receive the string property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a nonstring property or a nonexistent property. More information is available in the log file, Framework.log.
+

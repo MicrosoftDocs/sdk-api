@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _MPRAPI_OBJECT_HEADER
+ - PMPRAPI_OBJECT_HEADER
  - MPRAPI_OBJECT_HEADER
 ---
 
@@ -126,3 +128,4 @@ The size, in bytes,  of the structure based on <b>type</b> and <b>revision</b>.
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
+

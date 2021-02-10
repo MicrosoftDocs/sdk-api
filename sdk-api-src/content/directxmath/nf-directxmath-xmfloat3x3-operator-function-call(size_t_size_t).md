@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT3X3.operator ()
+ - XMFLOAT3X3::operator()
 ---
 
 # XMFLOAT3X3::operator-function-call(size_t,size_t)

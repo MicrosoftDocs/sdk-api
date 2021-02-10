@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisterCallback.Advise
+ - IWMRegisterCallback::Advise
 ---
 
 # IWMRegisterCallback::Advise
@@ -82,3 +82,4 @@ When the application has finished using the sink object, use the <b>Unadvise</b>
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistercallback-unadvise">IWMRegisterCallback::Unadvise</a>
+

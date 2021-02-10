@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_BIOMETRIC_DATA
+ - PCERT_BIOMETRIC_DATA
  - CERT_BIOMETRIC_DATA
 ---
 
@@ -133,3 +135,4 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHE
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_biometric_ext_info">CERT_BIOMETRIC_EXT_INFO</a>
+

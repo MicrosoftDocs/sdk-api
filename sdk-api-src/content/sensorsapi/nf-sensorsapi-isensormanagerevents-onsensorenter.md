@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorManagerEvents.OnSensorEnter
+ - ISensorManagerEvents::OnSensorEnter
 ---
 
 # ISensorManagerEvents::OnSensorEnter
@@ -91,3 +91,4 @@ To know when a sensor is disconnected, subscribe to the <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents">ISensorManagerEvents</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask.GetParameters
+ - ITask::GetParameters
 ---
 
 # ITask::GetParameters
@@ -113,3 +113,4 @@ Not enough memory is available.
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itask-setparameters">SetParameters</a>
+

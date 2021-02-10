@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - wglUseFontOutlinesA
  - wingdi/wglUseFontOutlinesA
+ - wglUseFontOutlines
+ - wingdi/wglUseFontOutlines
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - opengl32.dll
 api_name:
- - wglUseFontOutlines
  - wglUseFontOutlinesA
- - wglUseFontOutlinesW
+ - wglUseFontOutlines
 ---
 
 # wglUseFontOutlinesA function
@@ -183,3 +184,4 @@ glCallLists(24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World.");
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa">wglUseFontBitmaps</a>
+

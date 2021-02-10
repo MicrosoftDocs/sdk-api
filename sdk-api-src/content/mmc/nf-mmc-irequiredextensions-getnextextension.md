@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IRequiredExtensions.GetNextExtension
+ - IRequiredExtensions::GetNextExtension
 ---
 
 # IRequiredExtensions::GetNextExtension
@@ -78,3 +78,4 @@ If another value is returned, MMC considers the return an indicator of the end o
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">IRequiredExtensions::GetFirstExtension</a>
+

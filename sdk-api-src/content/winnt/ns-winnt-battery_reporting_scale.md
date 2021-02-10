@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - PBATTERY_REPORTING_SCALE
  - BATTERY_REPORTING_SCALE
 ---
 
@@ -76,3 +77,4 @@ The total number of <b>BATTERY_REPORTING_SCALE</b> entries returned from <a href
 
 
 <a href="/windows/desktop/Power/ioctl-battery-query-status">IOCTL_BATTERY_QUERY_STATUS</a>
+

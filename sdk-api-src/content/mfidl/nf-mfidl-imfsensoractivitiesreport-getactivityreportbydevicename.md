@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorActivitiesReport.GetActivityReportByDeviceName
+ - IMFSensorActivitiesReport::GetActivityReportByDeviceName
 ---
 
 # IMFSensorActivitiesReport::GetActivityReportByDeviceName
@@ -151,3 +151,4 @@ No sensor with the specified symbolic name was found.
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a>
+

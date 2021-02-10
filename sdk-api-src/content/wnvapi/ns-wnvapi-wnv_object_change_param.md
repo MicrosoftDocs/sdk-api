@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
+ - _WNV_OBJECT_CHANGE_PARAM
+ - PWNV_OBJECT_CHANGE_PARAM
  - WNV_OBJECT_CHANGE_PARAM
 ---
 
@@ -83,3 +85,4 @@ There is currently only one type of object defined and tracked in this structure
 ## -see-also
 
 <a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
+

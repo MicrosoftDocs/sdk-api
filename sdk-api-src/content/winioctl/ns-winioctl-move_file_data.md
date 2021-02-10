@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PMOVE_FILE_DATA
  - MOVE_FILE_DATA
 ---
 
@@ -122,3 +123,4 @@ For more information about shadow copies, see <a href="/windows/desktop/VSS/abou
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>
+

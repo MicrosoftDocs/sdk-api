@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan.Clear
+ - WBEMTimeSpan::Clear
 ---
 
 # WBEMTimeSpan::Clear
@@ -60,3 +60,4 @@ api_name:
 The <b>Clear</b> method sets the time span to INVALID_TIME.
 
 ## -parameters
+

@@ -9,6 +9,8 @@ tech.root: tablet
 f1_keywords:
  - rtscom
  - rtscom/rtscom
+api_name:
+ - rtscom
 ---
 
 # Rtscom.h header

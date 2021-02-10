@@ -46,7 +46,9 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - MIXERCONTROLDETAILS
+ - tMIXERCONTROLDETAILS_SIGNED
+ - PMIXERCONTROLDETAILS_SIGNED
+ - MIXERCONTROLDETAILS_SIGNED
 ---
 
 # MIXERCONTROLDETAILS_SIGNED structure
@@ -108,3 +110,4 @@ MIXERCONTROL_CONTROLTYPE_SLIDER
 
 
 <a href="/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
+

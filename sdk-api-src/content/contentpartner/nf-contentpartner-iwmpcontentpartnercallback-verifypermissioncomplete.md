@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.VerifyPermissionComplete
+ - IWMPContentPartnerCallback::VerifyPermissionComplete
 ---
 
 # IWMPContentPartnerCallback::VerifyPermissionComplete
@@ -105,3 +105,4 @@ Windows Media Player previously requested permission to synchronize the content 
 
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth.Download
+ - IDirectMusicSynth::Download
 ---
 
 # IDirectMusicSynth::Download
@@ -228,3 +228,4 @@ Depending on the synthesizer implementation, the synthesizer might decide to use
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-unload">IDirectMusicSynth::Unload</a>
+

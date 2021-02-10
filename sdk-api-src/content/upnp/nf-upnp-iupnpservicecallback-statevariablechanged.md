@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceCallback.StateVariableChanged
+ - IUPnPServiceCallback::StateVariableChanged
 ---
 
 # IUPnPServiceCallback::StateVariableChanged
@@ -83,3 +83,4 @@ The application should return S_OK.
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPServiceCallback</a>
+

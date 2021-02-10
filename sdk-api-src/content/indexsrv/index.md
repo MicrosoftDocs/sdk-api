@@ -9,6 +9,8 @@ tech.root: indexsrv
 f1_keywords:
  - indexsrv
  - indexsrv/indexsrv
+api_name:
+ - indexsrv
 ---
 
 # Indexsrv.h header

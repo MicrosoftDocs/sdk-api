@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern.CurrentIsSelectionRequired
- - IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired
+ - IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired
 ---
 
 # IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired
@@ -64,3 +63,4 @@ This property can be dynamic. For example, the initial state of a control might 
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a>
+

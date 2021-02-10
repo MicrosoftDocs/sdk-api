@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext2.CreateImageSourceFromDxgi
+ - ID2D1DeviceContext2::CreateImageSourceFromDxgi
 ---
 
 ## -description
@@ -198,3 +198,4 @@ If provided, the source rectangles must be within the bounds of the correspondin
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
+

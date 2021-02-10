@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
- - DhcpNewPktHook
+ - LPDHCP_NEWPKT
 ---
 
 # LPDHCP_NEWPKT callback function
@@ -108,3 +108,4 @@ If a third-party DLL needs to keep track of a given packet and its progress thro
 
 <a href="/previous-versions/windows/desktop/dhcp/how-the-dhcp-server-api-operates">How the
 		  DHCP Server API Operates</a>
+

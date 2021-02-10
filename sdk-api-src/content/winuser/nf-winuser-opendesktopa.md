@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - OpenDesktopA
  - winuser/OpenDesktopA
+ - OpenDesktop
+ - winuser/OpenDesktop
 dev_langs:
  - c++
 topic_type:
@@ -44,10 +47,8 @@ api_location:
  - Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - OpenDesktop
  - OpenDesktopA
- - OpenDesktopW
-req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-1 (introduced in Windows 10, version 10.0.14393)
+ - OpenDesktop
 ---
 
 # OpenDesktopA function
@@ -149,3 +150,4 @@ If the <i>dwDesiredAccess</i> parameter specifies the <b>READ_CONTROL</b>, <b>WR
 
 
 <a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
+

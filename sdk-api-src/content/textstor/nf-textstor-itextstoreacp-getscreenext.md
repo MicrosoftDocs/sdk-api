@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP.GetScreenExt
+ - ITextStoreACP::GetScreenExt
 ---
 
 # ITextStoreACP::GetScreenExt
@@ -117,3 +117,4 @@ If the text is not currently displayed, for example, if the document window is m
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
+

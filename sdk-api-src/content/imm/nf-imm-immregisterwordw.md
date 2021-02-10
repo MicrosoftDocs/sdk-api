@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ImmRegisterWordW
  - imm/ImmRegisterWordW
+ - ImmRegisterWord
+ - imm/ImmRegisterWord
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Imm32.dll
 api_name:
- - ImmRegisterWord
- - ImmRegisterWordA
  - ImmRegisterWordW
+ - ImmRegisterWord
 ---
 
 ## -description
@@ -126,3 +127,4 @@ An IME independent software vendor (ISV) can define private styles for an IME in
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+

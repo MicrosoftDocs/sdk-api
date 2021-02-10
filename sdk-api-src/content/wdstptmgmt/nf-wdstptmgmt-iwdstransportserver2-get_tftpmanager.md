@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer2.TftpManager
- - IWdsTransportServer2.get_TftpManager
+ - IWdsTransportServer2::get_TftpManager
 ---
 
 # IWdsTransportServer2::get_TftpManager
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver2">IWdsTransportServer2</a>
+

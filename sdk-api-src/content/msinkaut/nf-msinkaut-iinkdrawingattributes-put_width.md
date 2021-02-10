@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.Width
- - IInkDrawingAttributes.get_Width
- - IInkDrawingAttributes.put_Width
- - InkDrawingAttributes.get_Width
- - InkDrawingAttributes.put_Width
+ - IInkDrawingAttributes::put_Width
 ---
 
 # IInkDrawingAttributes::put_Width
@@ -88,3 +84,4 @@ Precision is limited to one one-thousandth of a HIMETRIC unit (three digits to t
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip">PenTip Property</a>
+

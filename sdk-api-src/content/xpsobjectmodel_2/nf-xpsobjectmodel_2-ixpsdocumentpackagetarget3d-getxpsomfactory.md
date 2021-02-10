@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XpsObjectModel_2.h
 api_name:
- - IXpsDocumentPackageTarget3D.GetXpsOMFactory
+ - IXpsDocumentPackageTarget3D::GetXpsOMFactory
 ---
 
 # IXpsDocumentPackageTarget3D::GetXpsOMFactory
@@ -65,3 +65,4 @@ Returns the appropriate HRESULT error code.
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsdocumentpackagetarget3d">IXpsDocumentPackageTarget3D</a>
+

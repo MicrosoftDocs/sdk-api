@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyNotifySink.OnChanged
+ - IPropertyNotifySink::OnChanged
 ---
 
 # IPropertyNotifySink::OnChanged
@@ -69,3 +69,4 @@ S_OK is returned in all cases even when the sink does not need [<a href="/window
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a>
+

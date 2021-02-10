@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - linePickup
- - linePickupA
- - linePickupW
 ---
 
 # linePickup function
@@ -151,3 +149,4 @@ After
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
+

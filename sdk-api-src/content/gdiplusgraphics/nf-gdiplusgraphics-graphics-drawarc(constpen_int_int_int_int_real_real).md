@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawArc
+ - Graphics::DrawArc
 ---
 
 # Graphics::DrawArc(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
@@ -134,3 +134,4 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+

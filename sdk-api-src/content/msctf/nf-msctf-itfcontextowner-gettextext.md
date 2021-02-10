@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwner.GetTextExt
+ - ITfContextOwner::GetTextExt
 ---
 
 # ITfContextOwner::GetTextExt
@@ -153,3 +153,4 @@ If the document window is minimized, or if the specified text is not currently v
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
       </a>
+

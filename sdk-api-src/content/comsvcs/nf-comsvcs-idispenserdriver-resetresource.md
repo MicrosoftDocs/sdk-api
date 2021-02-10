@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IDispenserDriver.ResetResource
+ - IDispenserDriver::ResetResource
 ---
 
 # IDispenserDriver::ResetResource
@@ -109,3 +109,4 @@ The resource may still be enlisted at this time, so <b>ResetResource</b> cannot 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.Abandon
+ - IDirectManipulationViewport::Abandon
 ---
 
 # IDirectManipulationViewport::Abandon
@@ -65,3 +65,4 @@ Once <b>Abandon</b> has been called, do not make subsequent function calls on th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
+

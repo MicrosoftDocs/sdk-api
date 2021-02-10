@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.IsVisible
+ - Graphics::IsVisible
 ---
 
 # Graphics::IsVisible(IN INT,IN INT,IN INT,IN INT)
@@ -92,3 +92,4 @@ If the specified rectangle intersects the visible clipping region, this method r
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisibleclipempty">Graphics::IsVisibleClipEmpty</a>
+

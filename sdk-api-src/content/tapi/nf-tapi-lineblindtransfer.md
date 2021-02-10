@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineBlindTransfer
- - lineBlindTransferA
- - lineBlindTransferW
 ---
 
 # lineBlindTransfer function
@@ -109,3 +107,4 @@ The application's call handle remains valid after the transfer has completed. Th
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a>
+

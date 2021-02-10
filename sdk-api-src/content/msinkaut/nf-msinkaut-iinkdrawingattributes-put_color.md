@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.Color
- - IInkDrawingAttributes.get_Color
- - IInkDrawingAttributes.put_Color
- - InkDrawingAttributes.get_Color
- - InkDrawingAttributes.put_Color
+ - IInkDrawingAttributes::put_Color
 ---
 
 # IInkDrawingAttributes::put_Color
@@ -90,3 +86,4 @@ To effectively enable High Contrast mode, you must set the ink collector's <a hr
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_supporthighcontrastink">SupportHighContrastInk Property</a>
+

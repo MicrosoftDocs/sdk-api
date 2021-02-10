@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSkinManager.SetVisualStyle
+ - IWMPSkinManager::SetVisualStyle
 ---
 
 # IWMPSkinManager::SetVisualStyle
@@ -84,3 +84,4 @@ Windows XP calls this method when the user changes the current theme. The curren
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpskinmanager">IWMPSkinManager Interface</a>
+

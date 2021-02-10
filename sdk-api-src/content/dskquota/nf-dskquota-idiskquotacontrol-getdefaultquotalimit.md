@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaControl.GetDefaultQuotaLimit
+ - IDiskQuotaControl::GetDefaultQuotaLimit
 ---
 
 # IDiskQuotaControl::GetDefaultQuotaLimit
@@ -157,3 +157,4 @@ An unexpected exception occurred.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
+

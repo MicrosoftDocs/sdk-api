@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_CHANNEL_CONFIG_PROPERTY_ID
  - EVT_CHANNEL_CONFIG_PROPERTY_ID
 ---
 
@@ -193,3 +194,4 @@ This enumeration value marks the end of the enumeration values.
 
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.SetSubscript
+ - ITextFont::SetSubscript
 ---
 
 # ITextFont::SetSubscript
@@ -159,3 +159,4 @@ Insufficient memory.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

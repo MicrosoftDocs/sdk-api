@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfMouseTrackerACP.AdviseMouseSink
+ - ITfMouseTrackerACP::AdviseMouseSink
 ---
 
 # ITfMouseTrackerACP::AdviseMouseSink
@@ -139,3 +139,4 @@ The value placed in <i>pdwCookie</i> will be saved by the caller and passed to t
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
+

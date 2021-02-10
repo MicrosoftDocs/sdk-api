@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_ENDPOINT_POLICY_EXTENSION
  - WS_ENDPOINT_POLICY_EXTENSION
 ---
 
@@ -95,3 +96,4 @@ The following assertions are not allowed as policy extension because they might 
 &lt;wsa10p:UsingAddressing.../&gt;
 &lt;binp:BinaryEncoding.../&gt;
 &lt;mtomp:OptimizedMimeSerialization.../&gt;</code></pre>
+

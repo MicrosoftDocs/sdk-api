@@ -42,8 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManSession.Error
- - IWSManSession.get_Error
+ - IWSManSession::get_Error
 ---
 
 # IWSManSession::get_Error
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinRM/session-error">Session.Error</a>
+

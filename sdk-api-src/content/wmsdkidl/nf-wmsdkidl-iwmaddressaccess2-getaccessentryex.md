@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMAddressAccess2.GetAccessEntryEx
+ - IWMAddressAccess2::GetAccessEntryEx
 ---
 
 # IWMAddressAccess2::GetAccessEntryEx
@@ -86,3 +86,4 @@ The caller must release the returned <b>BSTR</b> values, by calling <b>SysFreeSt
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess2">IWMAddressAccess2 Interface</a>
+

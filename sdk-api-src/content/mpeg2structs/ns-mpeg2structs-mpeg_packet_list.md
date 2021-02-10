@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
+ - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0015
+ - PMPEG_PACKET_LIST
  - MPEG_PACKET_LIST
 ---
 
@@ -73,3 +75,4 @@ Specifies a pointer to an array of <a href="/previous-versions/windows/desktop/a
 
 
 <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_stream_buffer">MPEG_STREAM_BUFFER Structure</a>
+

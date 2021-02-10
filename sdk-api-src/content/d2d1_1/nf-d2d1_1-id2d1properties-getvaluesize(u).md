@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties.GetValueSize
+ - ID2D1Properties::GetValueSize
 ---
 
 # ID2D1Properties::GetValueSize(U)
@@ -85,3 +85,4 @@ This method returns zero if <i>index</i> does not exist.
 �
 
 �
+

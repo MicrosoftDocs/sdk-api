@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region.IsVisible
+ - Region::IsVisible
 ---
 
 # Region::IsVisible(IN const Point &,IN const Graphics)
@@ -136,3 +136,4 @@ VOID Example_IsVisiblePoint(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

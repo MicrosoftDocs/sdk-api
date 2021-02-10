@@ -42,7 +42,7 @@ api_type:
 api_location:
  - thumbcache.h
 api_name:
- - IThumbnailCachePrimer.PageInThumbnail
+ - IThumbnailCachePrimer::PageInThumbnail
 ---
 
 # IThumbnailCachePrimer::PageInThumbnail
@@ -67,3 +67,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcacheprimer">IThumbnailCachePrimer</a>
+

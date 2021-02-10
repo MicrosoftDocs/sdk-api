@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineWebSupport.DisconnectWebAudio
+ - IMFMediaEngineWebSupport::DisconnectWebAudio
 ---
 
 # IMFMediaEngineWebSupport::DisconnectWebAudio
@@ -61,3 +61,4 @@ Returns S_OK on successful completion.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginewebsupport">IMFMediaEngineWebSupport</a>
+

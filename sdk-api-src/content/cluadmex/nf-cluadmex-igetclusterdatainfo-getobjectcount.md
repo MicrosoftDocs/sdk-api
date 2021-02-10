@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterDataInfo.GetObjectCount
+ - IGetClusterDataInfo::GetObjectCount
 ---
 
 # IGetClusterDataInfo::GetObjectCount
@@ -72,3 +72,4 @@ Because <a href="/previous-versions/windows/desktop/mscs/cluster-administrator">
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterdatainfo">IGetClusterDataInfo</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole.DeleteAppMember
- - AzRole.DeleteAppMember
+ - IAzRole::DeleteAppMember
 ---
 
 # IAzRole::DeleteAppMember
@@ -66,3 +65,4 @@ Reserved for future use.
 ## -remarks
 
 To view the list of application groups that belong to the role, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a> property.
+

@@ -9,6 +9,8 @@ tech.root: tsf
 f1_keywords:
  - msctfmonitorapi
  - msctfmonitorapi/msctfmonitorapi
+api_name:
+ - msctfmonitorapi
 ---
 
 # Msctfmonitorapi.h header

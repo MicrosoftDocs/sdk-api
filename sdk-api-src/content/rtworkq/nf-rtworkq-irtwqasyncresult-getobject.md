@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult.GetObject
+ - IRtwqAsyncResult::GetObject
 ---
 
 # IRtwqAsyncResult::GetObject
@@ -94,3 +94,4 @@ There is no object associated with this asynchronous result.
 ## -see-also
 
 <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>
+

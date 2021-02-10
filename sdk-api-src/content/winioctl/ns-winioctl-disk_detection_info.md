@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DISK_DETECTION_INFO
+ - PDISK_DETECTION_INFO
  - DISK_DETECTION_INFO
 ---
 

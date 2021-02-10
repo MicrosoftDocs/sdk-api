@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider.FillInLunInfo
+ - IVssHardwareSnapshotProvider::FillInLunInfo
 ---
 
 # IVssHardwareSnapshotProvider::FillInLunInfo
@@ -194,3 +194,4 @@ If the <b>FillInLunInfo</b> method is
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
+

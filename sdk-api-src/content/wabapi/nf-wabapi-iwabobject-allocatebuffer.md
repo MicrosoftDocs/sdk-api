@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject.AllocateBuffer
+ - IWABObject::AllocateBuffer
 ---
 
 # IWABObject::AllocateBuffer
@@ -77,3 +77,4 @@ Type: <b>HRESULT</b>
 
 Returns S_OK if the requested buffer was successfully 
 			allocated.
+

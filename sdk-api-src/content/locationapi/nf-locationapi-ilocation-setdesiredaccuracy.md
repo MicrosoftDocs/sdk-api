@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocation.SetDesiredAccuracy
+ - ILocation::SetDesiredAccuracy
 ---
 
 # ILocation::SetDesiredAccuracy
@@ -112,3 +112,4 @@ The value of <i>desiredAccuracy</i> is not supported in the <a href="/previous-v
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
+

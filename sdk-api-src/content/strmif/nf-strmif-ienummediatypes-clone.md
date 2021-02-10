@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumMediaTypes.Clone
+ - IEnumMediaTypes::Clone
 ---
 
 # IEnumMediaTypes::Clone
@@ -129,3 +129,4 @@ If the set of media types changes, the enumerator is no longer consistent with t
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes Interface</a>
+

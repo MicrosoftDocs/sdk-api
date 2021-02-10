@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDeviceProperty.get_Value
+ - IWindowsMediaLibrarySharingDeviceProperty::get_Value
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperty::get_Value

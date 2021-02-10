@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.ShutdownApplication
+ - ICOMAdminCatalog::ShutdownApplication
 ---
 
 # ICOMAdminCatalog::ShutdownApplication
@@ -94,3 +94,4 @@ The application does not exist.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

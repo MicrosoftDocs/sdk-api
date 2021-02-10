@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CachedChildId
- - IUIAutomationLegacyIAccessiblePattern.get_CachedChildId
+ - IUIAutomationLegacyIAccessiblePattern::get_CachedChildId
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedChildId
@@ -64,3 +63,4 @@ If the element is not a child element, CHILDID_SELF (0) is returned.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern">IUIAutomationLegacyIAccessiblePattern</a>
+

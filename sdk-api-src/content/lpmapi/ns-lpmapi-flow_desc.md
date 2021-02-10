@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Lpmapi.h
 api_name:
+ - flow_desc
  - FLOW_DESC
 ---
 
@@ -92,3 +93,4 @@ Filter spec for the flow, expressed as a <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a>
+

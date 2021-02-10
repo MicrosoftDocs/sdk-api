@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallMediaEvent.get_Error
+ - ITCallMediaEvent::get_Error
 ---
 
 # ITCallMediaEvent::get_Error
@@ -110,3 +110,4 @@ The <i>phrError</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>
+

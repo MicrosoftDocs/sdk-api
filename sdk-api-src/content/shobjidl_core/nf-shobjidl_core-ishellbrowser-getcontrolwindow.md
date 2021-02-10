@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser.GetControlWindow
+ - IShellBrowser::GetControlWindow
 ---
 
 # IShellBrowser::GetControlWindow
@@ -107,3 +107,4 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 <b>GetControlWindow</b> returns the window handle to these controls if they exist in your implementation.
 
 See also <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
+

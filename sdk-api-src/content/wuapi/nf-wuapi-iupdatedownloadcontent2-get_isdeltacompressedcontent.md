@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateDownloadContent2.IsDeltaCompressedContent
- - IUpdateDownloadContent2.get_IsDeltaCompressedContent
+ - IUpdateDownloadContent2::get_IsDeltaCompressedContent
 ---
 
 # IUpdateDownloadContent2::get_IsDeltaCompressedContent
@@ -64,3 +63,4 @@ The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdat
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a>
+

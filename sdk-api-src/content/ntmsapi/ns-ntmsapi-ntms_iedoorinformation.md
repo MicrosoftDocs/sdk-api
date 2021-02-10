@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
+ - _NTMS_IEDOORINFORMATION
  - NTMS_IEDOORINFORMATION
 ---
 
@@ -125,3 +126,4 @@ If the <b>MaxOpenSecs</b> member is zero, an operator request to close the door 
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+

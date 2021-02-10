@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetVolumeInformationW
  - fileapi/GetVolumeInformationW
+ - GetVolumeInformation
+ - fileapi/GetVolumeInformation
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - GetVolumeInformation
- - GetVolumeInformationA
  - GetVolumeInformationW
+ - GetVolumeInformation
 ---
 
 # GetVolumeInformationW function
@@ -536,3 +537,4 @@ If the volume supports file system transactions, the function returns
 
 
 <a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
+

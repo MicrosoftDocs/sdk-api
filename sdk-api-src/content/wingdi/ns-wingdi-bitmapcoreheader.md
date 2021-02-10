@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagBITMAPCOREHEADER
+ - LPBITMAPCOREHEADER
  - BITMAPCOREHEADER
 ---
 
@@ -103,3 +105,4 @@ pColor = ((LPBYTE) pBitmapCoreInfo +
 
 
 <a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+

@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-1 (introduced in Windows 8.1)
 f1_keywords:
  - SetupDiOpenDeviceInfoW
  - setupapi/SetupDiOpenDeviceInfoW
+ - SetupDiOpenDeviceInfo
+ - setupapi/SetupDiOpenDeviceInfo
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +46,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiOpenDeviceInfo
  - SetupDiOpenDeviceInfoW
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-1 (introduced in Windows 8.1)
+ - SetupDiOpenDeviceInfo
 ---
 
 # SetupDiOpenDeviceInfoW function
@@ -137,3 +139,4 @@ If the new device information element is successfully opened but the caller-supp
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinfo">SetupDiEnumDeviceInfo</a>
+

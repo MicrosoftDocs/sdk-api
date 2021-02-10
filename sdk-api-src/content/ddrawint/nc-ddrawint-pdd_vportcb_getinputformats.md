@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdVideoPortGetInputFormats
+ - PDD_VPORTCB_GETINPUTFORMATS
 ---
 
 ## -description
@@ -84,3 +84,4 @@ If the <b>dwFlags</b> member of the DD_GETVPORTINPUTFORMATDATA structure is set 
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportinputformatdata">DD_GETVPORTINPUTFORMATDATA</a>
+

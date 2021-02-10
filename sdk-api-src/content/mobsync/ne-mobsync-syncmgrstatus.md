@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
+ - _tagSYNCMGRSTATUS
  - SYNCMGRSTATUS
 ---
 
@@ -99,3 +100,4 @@ The item has been deleted. This value has been deprecated for Windows Vista and
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">ISyncMgrSynchronize::SetItemStatus</a>
+

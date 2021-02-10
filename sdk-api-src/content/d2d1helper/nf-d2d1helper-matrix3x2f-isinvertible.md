@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - Matrix3x2F.IsInvertible
+ - Matrix3x2F::IsInvertible
 ---
 
 # Matrix3x2F::IsInvertible
@@ -63,3 +63,4 @@ true if the matrix is invertible; otherwise, false.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
+

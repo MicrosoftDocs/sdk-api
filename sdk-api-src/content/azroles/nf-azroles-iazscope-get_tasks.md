@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope.Tasks
- - IAzScope.get_Tasks
- - AzScope.Tasks
+ - IAzScope::get_Tasks
 ---
 
 # IAzScope::get_Tasks
@@ -61,3 +59,4 @@ This property is read-only.
 ## -remarks
 
 This property can be used only to enumerate <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> objects that are direct child objects of the <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object.
+

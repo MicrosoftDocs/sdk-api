@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDiscoveryProvider.SearchById
+ - IWSDiscoveryProvider::SearchById
 ---
 
 # IWSDiscoveryProvider::SearchById
@@ -128,3 +128,4 @@ For information about troubleshooting applications calling this method, see <a h
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
+

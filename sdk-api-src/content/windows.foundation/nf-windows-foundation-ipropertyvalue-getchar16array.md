@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValue.GetChar16Array
+ - IPropertyValue::GetChar16Array
 ---
 
 # IPropertyValue::IPropertyValue
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createchar16array">IPropertyValueStatics::CreateChar16Array</a>
+

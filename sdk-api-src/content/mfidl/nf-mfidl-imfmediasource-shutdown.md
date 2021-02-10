@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSource.Shutdown
+ - IMFMediaSource::Shutdown
 ---
 
 # IMFMediaSource::Shutdown
@@ -90,3 +90,4 @@ After this method is called, methods on the media source and all of its media st
 
 
 <a href="/windows/desktop/medfound/media-sources">Media Sources</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iprtrmib.h
 api_name:
+ - _MIB_IPMCAST_BOUNDARY
+ - PMIB_IPMCAST_BOUNDARY
  - MIB_IPMCAST_BOUNDARY
 ---
 
@@ -165,3 +167,4 @@ Note that the <i>Iprtrmib.h</i> header file is automatically included in the <i>
 ## -see-also
 
 <a href="/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_ipmcast_boundary_table">MIB_IPMCAST_BOUNDARY_TABLE</a>
+

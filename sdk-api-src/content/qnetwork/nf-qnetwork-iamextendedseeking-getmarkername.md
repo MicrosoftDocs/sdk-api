@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMExtendedSeeking.GetMarkerName
+ - IAMExtendedSeeking::GetMarkerName
 ---
 
 # IAMExtendedSeeking::GetMarkerName
@@ -77,3 +77,4 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 <a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-getmarkertime">IAMExtendedSeeking::GetMarkerTime</a>
+

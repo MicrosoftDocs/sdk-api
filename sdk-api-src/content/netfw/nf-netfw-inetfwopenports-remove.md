@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPorts.Remove
+ - INetFwOpenPorts::Remove
 ---
 
 # INetFwOpenPorts::Remove
@@ -170,3 +170,4 @@ If the port is already
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>
+

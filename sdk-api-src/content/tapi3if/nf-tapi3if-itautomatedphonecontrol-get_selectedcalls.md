@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_SelectedCalls
+ - ITAutomatedPhoneControl::get_SelectedCalls
 ---
 
 # ITAutomatedPhoneControl::get_SelectedCalls
@@ -88,3 +88,4 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
+

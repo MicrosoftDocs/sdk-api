@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _FILETIME
+ - PFILETIME
  - FILETIME
 ---
 
@@ -111,3 +113,4 @@ For an example, see
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer-r1">ULARGE_INTEGER</a>
+

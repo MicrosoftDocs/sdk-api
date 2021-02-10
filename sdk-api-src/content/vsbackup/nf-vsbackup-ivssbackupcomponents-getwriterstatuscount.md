@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.GetWriterStatusCount
+ - IVssBackupComponents::GetWriterStatusCount
 ---
 
 # IVssBackupComponents::GetWriterStatusCount
@@ -142,3 +142,4 @@ The number of writers returned by
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_writer_state">VSS_WRITER_STATE</a>
+

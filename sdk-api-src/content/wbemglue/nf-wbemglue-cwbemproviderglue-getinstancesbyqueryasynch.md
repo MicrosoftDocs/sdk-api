@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetInstancesByQueryAsynch
+ - CWbemProviderGlue::GetInstancesByQueryAsynch
 ---
 
 # CWbemProviderGlue::GetInstancesByQueryAsynch
@@ -109,3 +109,4 @@ For performance reasons, when calling this function, specify only the properties
 Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous communication instead of asynchronous.  If you require asynchronous communication see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 For more information about using methods semisynchronously see <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)">CWbemProviderGlue::GetInstancesByQuery</a> and <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentEnabler.Cancel
+ - IMFContentEnabler::Cancel
 ---
 
 # IMFContentEnabler::Cancel
@@ -88,3 +88,4 @@ The content enabler sends an <a href="/windows/desktop/medfound/meenablercomplet
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
+

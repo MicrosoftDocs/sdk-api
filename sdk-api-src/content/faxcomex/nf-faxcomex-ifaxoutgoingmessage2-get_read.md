@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage2.Read
- - IFaxOutgoingMessage2.get_Read
- - IFaxOutgoingMessage2.put_Read
- - IFaxOutgoingMessage2.get_Read
- - IFaxOutgoingMessage2.put_Read
+ - IFaxOutgoingMessage2::get_Read
 ---
 
 # IFaxOutgoingMessage2::get_Read
@@ -74,3 +70,4 @@ A change to this value is not committed to the server until <a href="/previous-v
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage2">IFaxOutgoingMessage2</a>
+

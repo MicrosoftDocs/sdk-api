@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.SetRangeByFrame
+ - IWMSyncReader::SetRangeByFrame
 ---
 
 # IWMSyncReader::SetRangeByFrame
@@ -129,3 +129,4 @@ You can call <b>SetRangeByFrame</b> at any time after a file has been loaded in 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange">IWMSyncReader::SetRange</a>
+

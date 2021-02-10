@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ISynchronizeContainer.AddSynchronize
+ - ISynchronizeContainer::AddSynchronize
 ---
 
 # ISynchronizeContainer::AddSynchronize
@@ -102,3 +102,4 @@ A synchronization container can hold pointers to as many as 63 synchronization o
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer">ISynchronizeContainer</a>
+

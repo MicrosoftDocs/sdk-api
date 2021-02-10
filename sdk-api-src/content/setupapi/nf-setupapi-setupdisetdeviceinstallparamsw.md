@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiSetDeviceInstallParamsW
  - setupapi/SetupDiSetDeviceInstallParamsW
+ - SetupDiSetDeviceInstallParams
+ - setupapi/SetupDiSetDeviceInstallParams
 dev_langs:
  - c++
 topic_type:
@@ -43,7 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetDeviceInstallParams - SetupDiSetDeviceInstallParamsW
+ - SetupDiSetDeviceInstallParamsW
+ - SetupDiSetDeviceInstallParams
 ---
 
 # SetupDiSetDeviceInstallParamsW function
@@ -85,3 +88,4 @@ All parameters are validated before any changes are made. Therefore, a return va
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstallparamsa">SetupDiGetDeviceInstallParams</a>
+

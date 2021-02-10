@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineGetDevCapsA
  - tapi/lineGetDevCapsA
+ - lineGetDevCaps
+ - tapi/lineGetDevCaps
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGetDevCaps
  - lineGetDevCapsA
- - lineGetDevCapsW
+ - lineGetDevCaps
 ---
 
 # lineGetDevCapsA function
@@ -135,3 +136,4 @@ One of the members in the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateextversion">lineNegotiateExtVersion</a>
+

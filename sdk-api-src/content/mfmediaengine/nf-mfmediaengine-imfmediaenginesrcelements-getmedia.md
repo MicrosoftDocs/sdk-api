@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElements.GetMedia
+ - IMFMediaEngineSrcElements::GetMedia
 ---
 
 # IMFMediaEngineSrcElements::GetMedia
@@ -73,3 +73,4 @@ The string returned in <i>pMedia</i> should be a media-query string that conform
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements">IMFMediaEngineSrcElements</a>
+

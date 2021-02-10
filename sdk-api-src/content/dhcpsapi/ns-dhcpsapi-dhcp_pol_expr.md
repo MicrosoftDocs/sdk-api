@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_POL_EXPR
+ - PDHCP_POL_EXPR
  - DHCP_POL_EXPR
 ---
 
@@ -73,3 +75,4 @@ Integer that specifies the expression index that corresponds to this constituent
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_expr_array">DHCP_POL_EXPR_ARRAY</a>
+

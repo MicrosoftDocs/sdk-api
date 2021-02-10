@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkExtendedProperties.Count
- - IInkExtendedProperties.get_Count
- - IInkExtendedProperties.get_Count
+ - IInkExtendedProperties::get_Count
 ---
 
 # IInkExtendedProperties::get_Count
@@ -63,3 +61,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
+

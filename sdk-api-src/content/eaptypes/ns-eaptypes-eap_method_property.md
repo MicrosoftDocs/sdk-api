@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EapTypes.h
 api_name:
+ - _EAP_METHOD_PROPERTY
  - EAP_METHOD_PROPERTY
 ---
 
@@ -64,8 +65,6 @@ An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_type">
 
 An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a> enumeration value that describes the data type of the value specified in <b>eapMethodPropertyValue</b>.
 
-
-
 ### -field eapMethodPropertyValue
 
 An <a href="/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_value">EAP_METHOD_PROPERTY_VALUE</a> union that contains the method property value.
@@ -81,3 +80,4 @@ An <a href="/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-eap_meth
 
 
 <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
+

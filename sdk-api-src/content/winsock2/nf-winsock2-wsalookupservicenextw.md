@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WSALookupServiceNextW
  - winsock2/WSALookupServiceNextW
+ - WSALookupServiceNext
+ - winsock2/WSALookupServiceNext
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSALookupServiceNext
- - WSALookupServiceNextA
  - WSALookupServiceNextW
+ - WSALookupServiceNext
 ---
 
 # WSALookupServiceNextW function
@@ -509,3 +510,4 @@ The following table describes how the query results are represented in the
 
 
 <a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+

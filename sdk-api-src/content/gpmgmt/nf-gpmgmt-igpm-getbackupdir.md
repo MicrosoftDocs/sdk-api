@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM.GetBackupDir
- - GPM.GetBackupDir
+ - IGPM::GetBackupDir
 ---
 
 # IGPM::GetBackupDir
@@ -92,3 +91,4 @@ Returns a reference to a <b>GPMBackupDir</b> object.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>
+

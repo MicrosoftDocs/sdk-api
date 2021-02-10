@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialog.ClearClientData
+ - IFileDialog::ClearClientData
 ---
 
 # IFileDialog::ClearClientData
@@ -63,3 +63,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Persisted information can be associated with an application or a GUID. If a GUID was set by using <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid">IFileDialog::SetClientGuid</a>, that GUID is used to clear persisted information.
+

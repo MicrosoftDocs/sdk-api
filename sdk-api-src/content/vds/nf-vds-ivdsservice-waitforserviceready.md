@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.WaitForServiceReady
+ - IVdsService::WaitForServiceReady
 ---
 
 # IVdsService::WaitForServiceReady
@@ -98,3 +98,4 @@ VDS must initialize successfully before an application can call the methods expo
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
+

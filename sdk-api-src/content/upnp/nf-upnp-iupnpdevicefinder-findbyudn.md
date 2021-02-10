@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceFinder.FindByUDN
+ - IUPnPDeviceFinder::FindByUDN
 ---
 
 # IUPnPDeviceFinder::FindByUDN
@@ -83,3 +83,4 @@ This method returns as soon as a device that matches the specified UDN is found.
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
+

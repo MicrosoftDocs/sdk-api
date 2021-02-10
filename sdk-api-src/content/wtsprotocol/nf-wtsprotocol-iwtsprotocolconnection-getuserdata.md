@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetUserData
+ - IWTSProtocolConnection::GetUserData
 ---
 
 # IWTSProtocolConnection::GetUserData
@@ -71,3 +71,4 @@ The Remote Desktop Services service merges all policy data, including listener s
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputFormatCount
+ - IWMSyncReader::GetOutputFormatCount
 ---
 
 # IWMSyncReader::GetOutputFormatCount
@@ -116,3 +116,4 @@ There is no file loaded in the synchronous reader.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputformat">IWMSyncReader::GetOutputFormat</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer.get_enabled
+ - IWMPPlayer::get_enabled
 ---
 
 # IWMPPlayer::get_enabled
@@ -95,3 +95,4 @@ If the <b>VARIANT_BOOL</b> received from <b>get_enabled</b> equals <b>FALSE</b>,
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enabled">IWMPPlayer::put_enabled</a>
+

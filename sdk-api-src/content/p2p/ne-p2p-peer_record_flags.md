@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_record_flags_tag
  - PEER_RECORD_FLAGS
 ---
 

@@ -46,7 +46,8 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - KDHELP64
+ - _KDHELP
+ - PKDHELP
  - KDHELP
 ---
 
@@ -140,3 +141,4 @@ typedef struct _KDHELP {
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
+

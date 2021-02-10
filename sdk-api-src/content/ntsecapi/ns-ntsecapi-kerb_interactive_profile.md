@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_INTERACTIVE_PROFILE
+ - PKERB_INTERACTIVE_PROFILE
  - KERB_INTERACTIVE_PROFILE
 ---
 
@@ -151,3 +153,4 @@ The user logged on using a domain local group.
 </td>
 </tr>
 </table>
+

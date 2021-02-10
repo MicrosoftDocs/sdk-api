@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPQuery.beginNextGroup
+ - IWMPQuery::beginNextGroup
 ---
 
 # IWMPQuery::beginNextGroup
@@ -97,3 +97,4 @@ Beginning a new condition group implies that you have completed the current cond
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpquery">IWMPQuery Interface</a>
+

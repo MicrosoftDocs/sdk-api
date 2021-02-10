@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfInsertAtSelection.InsertTextAtSelection
+ - ITfInsertAtSelection::InsertTextAtSelection
 ---
 
 # ITfInsertAtSelection::InsertTextAtSelection
@@ -204,3 +204,4 @@ To insert an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataOb
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection
       </a>
+

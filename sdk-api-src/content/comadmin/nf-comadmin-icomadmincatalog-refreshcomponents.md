@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.RefreshComponents
+ - ICOMAdminCatalog::RefreshComponents
 ---
 
 # ICOMAdminCatalog::RefreshComponents
@@ -71,3 +71,4 @@ Only CLSID information is updated to RegDB. No interface or method information i
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

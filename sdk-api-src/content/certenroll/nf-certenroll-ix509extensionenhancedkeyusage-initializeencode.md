@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionEnhancedKeyUsage.InitializeEncode
+ - IX509ExtensionEnhancedKeyUsage::InitializeEncode
 ---
 
 # IX509ExtensionEnhancedKeyUsage::InitializeEncode
@@ -96,3 +96,4 @@ You can retrieve the following properties for this extension:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionenhancedkeyusage">IX509ExtensionEnhancedKeyUsage</a>
+

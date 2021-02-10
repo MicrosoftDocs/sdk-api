@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentSession.put_State
+ - ITAgentSession::put_State
 ---
 
 # ITAgentSession::put_State
@@ -146,3 +146,4 @@ This method wraps the TAPI 2.1
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetagentstate">lineSetAgentSessionState</a>
+

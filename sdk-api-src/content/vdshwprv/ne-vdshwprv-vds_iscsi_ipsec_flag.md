@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_ISCSI_IPSEC_FLAG
  - VDS_ISCSI_IPSEC_FLAG
 ---
 
@@ -96,3 +97,4 @@ These flags are identical to the definitions for the iSNS portal security
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_ISCSI_IPSEC_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_ISCSI_IPSEC_FLAG</b> enumeration constant.</div>
 <div> </div>
+

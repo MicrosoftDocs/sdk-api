@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - DxGetCurrentAutoflip
+ - PDX_GETCURRENTAUTOFLIP
 ---
 
 ## -description
@@ -52,12 +52,15 @@ The<i> DxGetCurrentAutoflip</i> callback function is called when the device is h
 ## -parameters
 
 ### -param Arg1
+
 Points to the miniport driver's device extension.
 
 ### -param Arg2
+
 Points to the <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetcurrentautoflipininfo">DDGETCURRENTAUTOFLIPININFO</a> structure that contains the VPE object information.
 
 ### -param Arg3
+
 Points to the <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetcurrentautoflipoutinfo">DDGETCURRENTAUTOFLIPOUTINFO</a> structure that contains the surface information.
 
 ## -returns
@@ -73,3 +76,4 @@ The <i>DxGetCurrentAutoflip</i> function returns the current index in the autofl
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetcurrentautoflipininfo">DDGETCURRENTAUTOFLIPININFO</a>
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetcurrentautoflipoutinfo">DDGETCURRENTAUTOFLIPOUTINFO</a>
+

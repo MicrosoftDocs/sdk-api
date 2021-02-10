@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath.RemoveAllScopes
+ - IWbemPath::RemoveAllScopes
 ---
 
 # IWbemPath::RemoveAllScopes
@@ -62,3 +62,4 @@ This method returns an <b>HRESULT</b> with one of the values in the following.
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
+

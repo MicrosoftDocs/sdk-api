@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertificationAuthorities.ComputeSiteCosts
+ - ICertificationAuthorities::ComputeSiteCosts
 ---
 
 # ICertificationAuthorities::ComputeSiteCosts
@@ -63,3 +63,4 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthorities">ICertificationAuthorities</a>
+

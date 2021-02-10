@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IVisualTreeService.ClearChildren
+ - IVisualTreeService::ClearChildren
 ---
 
 # IVisualTreeService::ClearChildren
@@ -70,3 +70,4 @@ For any collection method, the caller should query the properties of a known ele
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>
+

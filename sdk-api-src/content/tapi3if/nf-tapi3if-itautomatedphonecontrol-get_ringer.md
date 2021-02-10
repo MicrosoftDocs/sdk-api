@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_Ringer
+ - ITAutomatedPhoneControl::get_Ringer
 ---
 
 # ITAutomatedPhoneControl::get_Ringer
@@ -71,3 +71,4 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-startringer">StartRinger</a>
+

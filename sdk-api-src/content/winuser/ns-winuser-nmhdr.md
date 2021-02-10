@@ -44,6 +44,7 @@ api_type:
 api_location:
  - richedit.h
 api_name:
+ - tagNMHDR
  - NMHDR
 ---
 
@@ -73,3 +74,4 @@ An identifier of the control sending the message.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A notification code. This member can be one of the common notification codes (see Notifications under <a href="/windows/desktop/Controls/common-control-reference">General Control Reference</a>), or it can be a control-specific notification code.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_RST.GetRecordRunningStatus
+ - IDVB_RST::GetRecordRunningStatus
 ---
 
 # IDVB_RST::GetRecordRunningStatus
@@ -151,3 +151,4 @@ ETSI EN 300 468 defines the following values for the running_status field.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_rst">IDVB_RST Interface</a>
+

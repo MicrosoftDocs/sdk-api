@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProviderCollection.CreateTraceDataProvider
+ - ITraceDataProviderCollection::CreateTraceDataProvider
 ---
 
 # ITraceDataProviderCollection::CreateTraceDataProvider
@@ -65,3 +65,4 @@ Returns S_OK if successful.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
+

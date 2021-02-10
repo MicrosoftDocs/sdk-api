@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow.get_Top
+ - IVideoWindow::get_Top
 ---
 
 # IVideoWindow::get_Top
@@ -114,3 +114,4 @@ The video renderer filter is not connected.
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_top">IVideoWindow::put_Top</a>
+

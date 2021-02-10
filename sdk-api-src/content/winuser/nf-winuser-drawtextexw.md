@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 f1_keywords:
  - DrawTextExW
  - winuser/DrawTextExW
+ - DrawTextEx
+ - winuser/DrawTextEx
 dev_langs:
  - c++
 topic_type:
@@ -48,10 +51,8 @@ api_location:
  - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - DrawTextEx
- - DrawTextExA
  - DrawTextExW
-req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
+ - DrawTextEx
 ---
 
 # DrawTextExW function
@@ -398,3 +399,4 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+

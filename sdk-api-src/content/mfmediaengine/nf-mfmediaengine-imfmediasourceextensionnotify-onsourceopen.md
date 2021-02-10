@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaSourceExtensionNotify.OnSourceOpen
+ - IMFMediaSourceExtensionNotify::OnSourceOpen
 ---
 
 # IMFMediaSourceExtensionNotify::OnSourceOpen
@@ -57,3 +57,4 @@ Used to indicate that the  media source has opened.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextensionnotify">IMFMediaSourceExtensionNotify</a>
+

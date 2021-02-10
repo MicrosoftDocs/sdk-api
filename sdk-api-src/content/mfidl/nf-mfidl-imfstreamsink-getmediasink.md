@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFStreamSink.GetMediaSink
+ - IMFStreamSink::GetMediaSink
 ---
 
 # IMFStreamSink::GetMediaSink
@@ -110,3 +110,4 @@ This stream was removed from the media sink and is no longer valid.
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
+

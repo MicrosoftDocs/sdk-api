@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITfCreatePropertyStore.IsStoreSerializable
+ - ITfCreatePropertyStore::IsStoreSerializable
 ---
 
 # ITfCreatePropertyStore::IsStoreSerializable
@@ -95,3 +95,4 @@ The method was successful.
 ## -see-also
 
 [ITfCreatePropertyStore interface](nn-msctf-itfcreatepropertystore.md), [ITfPropertyStore interface](nn-msctf-itfpropertystore.md), [ITfPropertyStore::GetType](nf-msctf-itfpropertystore-gettype.md), [ITfRange interface](nn-msctf-itfrange.md)
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetAllowUnTrustedCA
+ - IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
 ---
 
 # IX509EnrollmentPolicyServer::GetAllowUnTrustedCA
@@ -85,3 +85,4 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
+

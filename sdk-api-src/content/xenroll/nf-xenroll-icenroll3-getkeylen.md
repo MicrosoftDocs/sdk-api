@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.GetKeyLen
- - ICEnroll3.GetKeyLen
- - CEnroll.GetKeyLen
+ - ICEnroll3::GetKeyLen
 ---
 
 # ICEnroll3::GetKeyLen
@@ -129,3 +127,4 @@ else
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+

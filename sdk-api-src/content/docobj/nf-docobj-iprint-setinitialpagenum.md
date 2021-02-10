@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IPrint.SetInitialPageNum
+ - IPrint::SetInitialPageNum
 ---
 
 # IPrint::SetInitialPageNum
@@ -71,3 +71,4 @@ Not all implementations permit the initial page number to be set, as some implem
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.SetRange
+ - ITextRange::SetRange
 ---
 
 # ITextRange::SetRange
@@ -96,3 +96,4 @@ If the text range is a selection, you can set the attributes of the selection by
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

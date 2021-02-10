@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
- - IImePadApplet.Notify
+ - IImePadApplet::Notify
 ---
 
 # IImePadApplet::Notify
@@ -120,3 +120,4 @@ Additional information specific to <i>notify</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
+

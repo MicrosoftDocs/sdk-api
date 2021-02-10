@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback.Progress
+ - ISyncMgrSynchronizeCallback::Progress
 ---
 
 # ISyncMgrSynchronizeCallback::Progress
@@ -127,3 +127,4 @@ Registered applications should call this method to provide normal feedback even 
 
 
 <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrprogressitem">SYNCMGRPROGRESSITEM</a>
+

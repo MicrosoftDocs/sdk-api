@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
+ - IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState
 ---
 
 # IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState
@@ -100,3 +100,4 @@ computer's Public Music, Public Pictures, and Public Videos folders.</div>
 
 
 <a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a>
+

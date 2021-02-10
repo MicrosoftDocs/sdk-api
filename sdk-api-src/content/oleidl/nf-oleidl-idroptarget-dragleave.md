@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IDropTarget.DragLeave
+ - IDropTarget::DragLeave
 ---
 
 # IDropTarget::DragLeave
@@ -109,3 +109,4 @@ To implement <b>IDropTarget::DragLeave</b>, you must remove any target feedback 
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
+

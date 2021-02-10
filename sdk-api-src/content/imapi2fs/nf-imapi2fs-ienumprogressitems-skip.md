@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IEnumProgressItems.Skip
+ - IEnumProgressItems::Skip
 ---
 
 # IEnumProgressItems::Skip
@@ -87,3 +87,4 @@ If there are fewer elements left in the sequence than the requested number of el
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
+

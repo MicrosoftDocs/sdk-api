@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap.Bitmap
+ - Bitmap::Bitmap
 ---
 
 # Bitmap::Bitmap(IN INT,IN INT,IN PixelFormat)
@@ -97,3 +97,4 @@ Optional. Integer that specifies the pixel format of the bitmap. The
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

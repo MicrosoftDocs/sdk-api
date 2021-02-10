@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetCurrencyFormatA
  - winnls/GetCurrencyFormatA
+ - GetCurrencyFormat
+ - winnls/GetCurrencyFormat
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - GetCurrencyFormat
  - GetCurrencyFormatA
- - GetCurrencyFormatW
+ - GetCurrencyFormat
 ---
 
 # GetCurrencyFormatA function
@@ -154,3 +155,4 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

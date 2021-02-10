@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2.put_UseStreamingWrite12
+ - IWriteEngine2::put_UseStreamingWrite12
 ---
 
 # IWriteEngine2::put_UseStreamingWrite12
@@ -106,3 +106,4 @@ Value: 0x80004005
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_usestreamingwrite12">IWriteEngine2::get_UseStreamingWrite12</a>
+

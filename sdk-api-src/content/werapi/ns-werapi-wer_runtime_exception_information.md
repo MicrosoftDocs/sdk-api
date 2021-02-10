@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Werapi.h
 api_name:
+ - _WER_RUNTIME_EXCEPTION_INFORMATION
+ - PWER_RUNTIME_EXCEPTION_INFORMATION
  - WER_RUNTIME_EXCEPTION_INFORMATION
 ---
 
@@ -85,3 +87,4 @@ A pointer to a constant, null-terminated string that contains the size of the ex
 ## -see-also
 
 <a href="/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event">OutOfProcessExceptionEventCallback</a>
+

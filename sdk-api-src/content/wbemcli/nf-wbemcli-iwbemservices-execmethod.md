@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecMethod
+ - IWbemServices::ExecMethod
 ---
 
 # IWbemServices::ExecMethod
@@ -137,3 +137,4 @@ If <i>ppOutParams</i> is not <b>NULL</b>, the client can determine the method's 
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync">IWbemServices::ExecMethodAsync</a>
+

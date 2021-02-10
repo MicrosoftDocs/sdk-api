@@ -42,7 +42,7 @@ api_type:
 api_location:
  - portabledeviceapi.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetSupportedFormatProperties
+ - IPortableDeviceServiceCapabilities::GetSupportedFormatProperties
 ---
 
 # IPortableDeviceServiceCapabilities::GetSupportedFormatProperties
@@ -75,3 +75,4 @@ An application can also retrieve the properties for an object by calling the <a 
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
+ - ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
 ---
 
 # ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
@@ -152,3 +152,4 @@ The pointers retrieved with <a href="/windows/desktop/api/spatialaudioclient/nf-
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+

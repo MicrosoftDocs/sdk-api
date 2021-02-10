@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList.SaveData
+ - IITPropList::SaveData
 ---
 
 # IITPropList::SaveData
@@ -101,3 +101,4 @@ Make sure to pass a buffer large enough to hold the property list. Use <a href="
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
+

@@ -9,6 +9,8 @@ tech.root: netmgmt
 f1_keywords:
  - lmremutl
  - lmremutl/lmremutl
+api_name:
+ - lmremutl
 ---
 
 # Lmremutl.h header

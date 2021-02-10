@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT_CLASSIFY_DROP1_
  - FWPM_NET_EVENT_CLASSIFY_DROP1
 ---
 
@@ -96,3 +97,4 @@ Indicates whether the packet originated from (or was heading to) the loopback ad
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
+

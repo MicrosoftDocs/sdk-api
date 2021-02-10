@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
+ - _CRYPT_PROVIDER_FUNCTIONS
+ - PCRYPT_PROVIDER_FUNCTIONS
  - CRYPT_PROVIDER_FUNCTIONS
 ---
 
@@ -123,3 +125,4 @@ A pointer to a <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_f
 ### -field pfnCleanupPolicy
 
 A pointer to the function that cleans up private data.
+

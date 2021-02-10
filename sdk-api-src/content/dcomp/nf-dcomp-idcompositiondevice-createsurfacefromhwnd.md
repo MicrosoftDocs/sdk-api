@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateSurfaceFromHwnd
+ - IDCompositionDevice::CreateSurfaceFromHwnd
 ---
 
 ## -description
@@ -113,3 +113,4 @@ if (SUCCEEDED(hr))
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createsurface">IDCompositionDevice::CreateSurface</a>
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createsurfacefromhandle">IDCompositionDevice::CreateSurfaceFromHandle</a>
+

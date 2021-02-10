@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmCollection._NewEnum
- - IFsrmCollection.get__NewEnum
+ - IFsrmCollection::get__NewEnum
 ---
 
 # IFsrmCollection::get__NewEnum
@@ -81,3 +80,4 @@ If the item is an <b>HRESULT</b> value, the variant type is
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
+

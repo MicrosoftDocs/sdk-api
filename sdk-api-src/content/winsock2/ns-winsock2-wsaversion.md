@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
+ - _WSAVersion
+ - PWSAVERSION
  - WSAVERSION
 ---
 
@@ -70,3 +72,4 @@ Version of Windows Sockets.
 ## -see-also
 
 <a href="/windows/desktop/api/winsock2/ne-winsock2-wsaecomparator">WSAECOMPARATOR</a>
+

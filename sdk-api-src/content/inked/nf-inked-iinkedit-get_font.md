@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.Font
- - IInkEdit.get_Font
- - IInkEdit.put_Font
- - InkEdit.get_Font
- - InkEdit.putref_Font
+ - IInkEdit::get_Font
 ---
 
 # IInkEdit::get_Font
@@ -74,3 +70,4 @@ Use the <b>Font</b> property of an <a href="/windows/desktop/tablet/inkedit-cont
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

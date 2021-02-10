@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo.put_SourceHeight
+ - IBasicVideo::put_SourceHeight
 ---
 
 # IBasicVideo::put_SourceHeight
@@ -70,3 +70,4 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
+

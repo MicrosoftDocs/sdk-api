@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient.fIsAuthenticated
+ - CSecureChannelClient::fIsAuthenticated
 ---
 
 # CSecureChannelClient::fIsAuthenticated
@@ -79,3 +79,4 @@ Applications do not need to call this method, but service providers call the cor
 
 
 <a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+

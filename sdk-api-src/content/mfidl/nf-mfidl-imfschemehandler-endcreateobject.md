@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSchemeHandler.EndCreateObject
+ - IMFSchemeHandler::EndCreateObject
 ---
 
 # IMFSchemeHandler::EndCreateObject
@@ -111,3 +111,4 @@ Call this method from inside the <a href="/windows/desktop/api/mfobjects/nf-mfob
 
 
 <a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
+

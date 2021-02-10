@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADs.GetInfoEx
+ - IADs::GetInfoEx
 ---
 
 # IADs::GetInfoEx
@@ -161,3 +161,4 @@ if(pADs)
 
 <a href="/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
+

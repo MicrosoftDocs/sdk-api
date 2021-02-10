@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AsyncInfo.h
 api_name:
- - IAsyncInfo.Cancel
+ - IAsyncInfo::Cancel
 ---
 
 # IAsyncInfo::Cancel
@@ -63,3 +63,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/asyncinfo/nn-asyncinfo-iasyncinfo">IAsyncInfo</a>
+

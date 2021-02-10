@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2._FindTBar
+ - IBrowserService2::_FindTBar
 ---
 
 # IBrowserService2::_FindTBar
@@ -66,3 +66,4 @@ A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnkno
 Type: <b>UINT</b>
 
 The index of the browser toolbar item.
+

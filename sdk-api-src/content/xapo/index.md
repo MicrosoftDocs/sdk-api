@@ -9,6 +9,8 @@ tech.root: xaudio2
 f1_keywords:
  - xapo
  - xapo/xapo
+api_name:
+ - xapo
 ---
 
 # Xapo.h header

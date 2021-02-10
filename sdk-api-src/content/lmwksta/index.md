@@ -9,6 +9,8 @@ tech.root: netmgmt
 f1_keywords:
  - lmwksta
  - lmwksta/lmwksta
+api_name:
+ - lmwksta
 ---
 
 # Lmwksta.h header

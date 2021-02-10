@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winnt.h
 api_name:
+ - _PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY
+ - PPROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY
  - PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY
 ---
 
@@ -83,3 +85,4 @@ Prevents legacy extension point DLLs from being loaded into the process.
 #### - ReservedFlags : 31
 
 This member is reserved for system use.
+

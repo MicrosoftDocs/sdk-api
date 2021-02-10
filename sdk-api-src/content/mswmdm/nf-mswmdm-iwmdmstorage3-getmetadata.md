@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage3.GetMetadata
+ - IWMDMStorage3::GetMetadata
 ---
 
 # IWMDMStorage3::GetMetadata
@@ -208,3 +208,4 @@ HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata">IWMDMStorage4::GetSpecifiedMetadata</a>
+

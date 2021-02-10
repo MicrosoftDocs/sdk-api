@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
+ - _RTM_ENTITY_EXPORT_METHODS
+ - PRTM_ENTITY_EXPORT_METHODS
  - RTM_ENTITY_EXPORT_METHODS
 ---
 
@@ -70,3 +72,4 @@ Specifies which methods the client is exporting.
 ## -see-also
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>
+

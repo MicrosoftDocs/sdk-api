@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceScheduledCastAutoStart.MinimumClients
- - IWdsTransportNamespaceScheduledCastAutoStart.get_MinimumClients
- - IWdsTransportNamespaceScheduledCastAutoStart.put_MinimumClients
+ - IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients
 ---
 
 # IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastautostart">IWdsTransportNamespaceScheduledCastAutoStart</a>
+

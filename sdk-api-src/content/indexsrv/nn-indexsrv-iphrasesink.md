@@ -43,7 +43,6 @@ api_location:
  - Indexsrv.h
 api_name:
  - IPhraseSink
- - IPhraseSink.PutSmallPhrase
 ---
 
 # IPhraseSink interface
@@ -75,3 +74,4 @@ Indexing Service creates and initializes instances of the PhraseSink object. The
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a>
+

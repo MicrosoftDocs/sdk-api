@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer.RetryDelay
- - IFaxServer.get_RetryDelay
- - IFaxServer.put_RetryDelay
- - IFaxServer.get_RetryDelay
- - IFaxServer.put_RetryDelay
+ - IFaxServer::get_RetryDelay
 ---
 
 # IFaxServer::get_RetryDelay
@@ -79,3 +75,4 @@ A transmission might not be sent on the first attempt for various reasons. For e
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagVMRGUID
  - VMRGUID
 ---
 
@@ -71,3 +72,4 @@ In DirectX 9.0 and later, the monitor is identified by an integer index, not by 
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

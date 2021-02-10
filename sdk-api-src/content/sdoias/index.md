@@ -9,6 +9,8 @@ tech.root: cimwin32
 f1_keywords:
  - sdoias
  - sdoias/sdoias
+api_name:
+ - sdoias
 ---
 
 # Sdoias.h header

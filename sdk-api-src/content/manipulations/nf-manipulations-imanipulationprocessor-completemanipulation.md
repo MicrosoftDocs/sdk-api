@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor.CompleteManipulation
+ - IManipulationProcessor::CompleteManipulation
 ---
 
 # IManipulationProcessor::CompleteManipulation
@@ -74,3 +74,4 @@ During a Windows Touch gesture, manipulation gets started as soon as first touch
 
 
 <a href="/windows/desktop/wintouch/mtmethods">Methods</a>
+

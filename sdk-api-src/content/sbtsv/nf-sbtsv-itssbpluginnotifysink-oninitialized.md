@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbPluginNotifySink.OnInitialized
+ - ITsSbPluginNotifySink::OnInitialized
 ---
 
 # ITsSbPluginNotifySink::OnInitialized
@@ -69,3 +69,4 @@ Plug-ins should call this method after they complete their initialization proces
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginnotifysink">ITsSbPluginNotifySink</a>
+

@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents3.PrefetchFileEnd
+ - IOfflineFilesEvents3::PrefetchFileEnd
 ---
 
 # IOfflineFilesEvents3::PrefetchFileEnd
@@ -70,3 +70,4 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents3">IOfflineFilesEvents3</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVolume9.GetPrivateData
+ - IDirect3DVolume9::GetPrivateData
 ---
 
 # IDirect3DVolume9::GetPrivateData
@@ -91,3 +91,4 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-setprivatedata">IDirect3DVolume9::SetPrivateData</a>
+

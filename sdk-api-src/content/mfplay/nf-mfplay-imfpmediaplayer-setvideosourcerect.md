@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.SetVideoSourceRect
+ - IMFPMediaPlayer::SetVideoSourceRect
 ---
 
 # IMFPMediaPlayer::SetVideoSourceRect
@@ -129,3 +129,4 @@ To set the video position before playback starts, call this method inside your e
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

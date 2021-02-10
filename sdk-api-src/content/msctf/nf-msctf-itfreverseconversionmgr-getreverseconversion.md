@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfReverseConversionMgr.GetReverseConversion
+ - ITfReverseConversionMgr::GetReverseConversion
 ---
 
 # ITfReverseConversionMgr::GetReverseConversion
@@ -174,3 +174,4 @@ When niether the <b>TF_RCM_HINT_COLLISION</b> or <b>TF_RCM_HINT_READING_LENGTH</
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversionmgr">ITfReverseConversionMgr</a>
+

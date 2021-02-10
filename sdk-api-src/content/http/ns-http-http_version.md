@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_VERSION
+ - PHTTP_VERSION
  - HTTP_VERSION
 ---
 
@@ -88,3 +90,4 @@ The HTTP Server API provides a number of macros that can be used to evaluate the
 
 
 <a href="/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
+

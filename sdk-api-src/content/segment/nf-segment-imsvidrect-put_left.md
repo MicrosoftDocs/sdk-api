@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidRect.put_Left
+ - IMSVidRect::put_Left
 ---
 
 # IMSVidRect::put_Left
@@ -77,3 +77,4 @@ Setting the left x-coordinate also changes the width of the rectangle. For examp
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-get_left">IMSVidRect::get_Left</a>
+

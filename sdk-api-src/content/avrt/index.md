@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - avrt
  - avrt/avrt
+api_name:
+ - avrt
 ---
 
 # Avrt.h header

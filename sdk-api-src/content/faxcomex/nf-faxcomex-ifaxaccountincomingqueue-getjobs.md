@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccountIncomingQueue.GetJobs
- - IFaxAccountIncomingQueue.GetJobs
+ - IFaxAccountIncomingQueue::GetJobs
 ---
 
 # IFaxAccountIncomingQueue::GetJobs
@@ -80,3 +79,4 @@ If the setting "All incoming faxes are viewable by everyone" is true (see <a hre
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountincomingqueue">IFaxAccountIncomingQueue</a>
+

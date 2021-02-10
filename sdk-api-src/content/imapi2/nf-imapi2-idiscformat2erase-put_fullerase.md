@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Erase.put_FullErase
+ - IDiscFormat2Erase::put_FullErase
 ---
 
 # IDiscFormat2Erase::put_FullErase
@@ -77,3 +77,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_fullerase">IDiscFormat2Erase::get_FullErase</a>
+

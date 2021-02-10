@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1502
+ - PSERVER_INFO_1502
  - SERVER_INFO_1502
 ---
 
@@ -78,3 +80,4 @@ Specifies the maximum number of virtual circuits permitted per client.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

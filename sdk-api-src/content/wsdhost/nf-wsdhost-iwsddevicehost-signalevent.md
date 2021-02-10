@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost.SignalEvent
+ - IWSDDeviceHost::SignalEvent
 ---
 
 # IWSDDeviceHost::SignalEvent
@@ -117,3 +117,4 @@ The host is not started. Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-i
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.FillPie
+ - Graphics::FillPie
 ---
 
 # Graphics::FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL)
@@ -135,3 +135,4 @@ VOID Example_FillPie(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

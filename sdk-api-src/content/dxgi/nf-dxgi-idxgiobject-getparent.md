@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIObject.GetParent
+ - IDXGIObject::GetParent
 ---
 
 # IDXGIObject::GetParent
@@ -80,3 +80,4 @@ Returns one of the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
+

@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_POOL_CUSTOM_ATTRIBUTES
+ - PVDS_POOL_CUSTOM_ATTRIBUTES
  - VDS_POOL_CUSTOM_ATTRIBUTES
 ---
 
@@ -81,3 +83,4 @@ A custom attribute can be used to indicate, for example, the RAID types that can
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">VDS_POOL_ATTRIBUTES</a>
+

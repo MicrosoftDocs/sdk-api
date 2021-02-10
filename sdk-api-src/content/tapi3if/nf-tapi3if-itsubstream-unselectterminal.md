@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITSubStream.UnselectTerminal
+ - ITSubStream::UnselectTerminal
 ---
 
 # ITSubStream::UnselectTerminal
@@ -139,3 +139,4 @@ Successfully unselecting the last terminal from a substream effectively ceases a
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

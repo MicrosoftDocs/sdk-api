@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Objsel.dll
 api_name:
- - IDsObjectPicker.Initialize
+ - IDsObjectPicker::Initialize
 ---
 
 # IDsObjectPicker::Initialize
@@ -78,3 +78,4 @@ Returns a standard error code or one of the following values.
 
 
 <a href="/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a>
+

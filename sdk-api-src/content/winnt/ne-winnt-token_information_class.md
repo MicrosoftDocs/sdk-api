@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_INFORMATION_CLASS
+ - PTOKEN_INFORMATION_CLASS
  - TOKEN_INFORMATION_CLASS
 ---
 
@@ -337,3 +339,4 @@ The maximum value for this enumeration.
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user_claims">TOKEN_USER_CLAIMS</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _FILE_STORAGE_INFO
+ - PFILE_STORAGE_INFO
  - FILE_STORAGE_INFO
 ---
 
@@ -145,3 +147,4 @@ If a volume is built on top of storage devices with different properties (for ex
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
+

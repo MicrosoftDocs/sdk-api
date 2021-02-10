@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Device1.SetResidencyPriority
+ - ID3D12Device1::SetResidencyPriority
 ---
 
 # ID3D12Device1::SetResidencyPriority
@@ -85,3 +85,4 @@ For more information, refer to <a href="/windows/desktop/direct3d12/residency">R
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
+

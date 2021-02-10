@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.EraserWidth
- - IInkOverlay.get_EraserWidth
- - IInkOverlay.put_EraserWidth
- - InkOverlay.get_EraserWidth
- - InkOverlay.put_EraserWidth
+ - IInkOverlay::get_EraserWidth
 ---
 
 # IInkOverlay::get_EraserWidth
@@ -94,3 +90,4 @@ This property applies only when the <a href="/windows/desktop/api/msinkaut/nf-ms
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode">InkOverlayEraserMode Enumeration</a>
+

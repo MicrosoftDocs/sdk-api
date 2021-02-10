@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration.Retries
- - IFaxConfiguration.get_Retries
- - IFaxConfiguration.put_Retries
+ - IFaxConfiguration::get_Retries
 ---
 
 # IFaxConfiguration::get_Retries
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
+

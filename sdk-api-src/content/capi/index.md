@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - capi
  - capi/capi
+api_name:
+ - capi
 ---
 
 # Capi.h header

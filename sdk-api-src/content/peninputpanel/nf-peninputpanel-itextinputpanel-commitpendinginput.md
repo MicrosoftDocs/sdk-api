@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.CommitPendingInput
+ - ITextInputPanel::CommitPendingInput
 ---
 
 # ITextInputPanel::CommitPendingInput
@@ -114,3 +114,4 @@ The recognition result is sent to the control to which the <a href="/windows/des
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged">ITextInputPanelEventSink::InPlaceVisibilityChanged Method</a>
+

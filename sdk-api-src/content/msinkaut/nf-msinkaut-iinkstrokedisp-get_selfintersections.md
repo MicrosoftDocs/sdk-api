@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.SelfIntersections
- - IInkStrokeDisp.get_SelfIntersections
- - IInkStrokeDisp.get_SelfIntersections
+ - IInkStrokeDisp::get_SelfIntersections
 ---
 
 # IInkStrokeDisp::get_SelfIntersections
@@ -73,3 +71,4 @@ A floating point index is a float value that represents a location somewhere bet
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+

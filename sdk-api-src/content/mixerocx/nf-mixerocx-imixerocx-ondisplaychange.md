@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCX.OnDisplayChange
+ - IMixerOCX::OnDisplayChange
 ---
 
 # IMixerOCX::OnDisplayChange
@@ -78,3 +78,4 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
+

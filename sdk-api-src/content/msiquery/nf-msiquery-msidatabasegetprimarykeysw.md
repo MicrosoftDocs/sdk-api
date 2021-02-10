@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDatabaseGetPrimaryKeysW
  - msiquery/MsiDatabaseGetPrimaryKeysW
+ - MsiDatabaseGetPrimaryKeys
+ - msiquery/MsiDatabaseGetPrimaryKeys
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiDatabaseGetPrimaryKeys
- - MsiDatabaseGetPrimaryKeysA
  - MsiDatabaseGetPrimaryKeysW
+ - MsiDatabaseGetPrimaryKeys
 ---
 
 # MsiDatabaseGetPrimaryKeysW function
@@ -97,3 +98,4 @@ Note that it is recommended to use variables of type PMSIHANDLE because the inst
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>
+

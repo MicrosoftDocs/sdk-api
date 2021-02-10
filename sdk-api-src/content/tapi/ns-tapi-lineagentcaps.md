@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - lineagentcaps_tag
+ - LPLINEAGENTCAPS
  - LINEAGENTCAPS
 ---
 
@@ -168,3 +170,4 @@ GUID for ACD proxy associated with the line. This element is exposed only to app
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetagentstate">lineSetAgentState</a>
+

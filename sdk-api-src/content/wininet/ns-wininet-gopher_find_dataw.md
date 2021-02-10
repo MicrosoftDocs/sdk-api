@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - GOPHER_FIND_DATA
- - GOPHER_FIND_DATAA
+ - LPGOPHER_FIND_DATAW
  - GOPHER_FIND_DATAW
 ---
 
@@ -353,3 +352,4 @@ File locator. An application can pass the locator string to
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetfindnextfilea">InternetFindNextFile</a>
+

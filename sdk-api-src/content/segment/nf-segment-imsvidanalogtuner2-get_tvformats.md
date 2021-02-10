@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAnalogTuner2.get_TVFormats
+ - IMSVidAnalogTuner2::get_TVFormats
 ---
 
 # IMSVidAnalogTuner2::get_TVFormats
@@ -188,3 +188,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner2">IMSVidAnalogTuner2 Interface</a>
+

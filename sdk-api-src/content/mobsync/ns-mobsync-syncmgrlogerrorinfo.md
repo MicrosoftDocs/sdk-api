@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
+ - _tagSYNCMGRLOGERRORINFO
+ - LPSYNCMGRLOGERRORINFO
  - SYNCMGRLOGERRORINFO
 ---
 
@@ -115,3 +117,4 @@ The item where the error occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dinputd.h
 api_name:
- - IDirectInputJoyConfig8.Unacquire
+ - IDirectInputJoyConfig8::Unacquire
 ---
 
 # IDirectInputJoyConfig8::Unacquire
@@ -61,3 +61,4 @@ Returns DI_OK if successful; otherwise, returns a COM error code.
 ## -remarks
 
 Before unacquiring configuration mode, the application performs an <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-sendnotify">IDirectInputJoyConfig8::SendNotify</a> to propagate the changes in the joystick configuration to all device drivers and applications. Applications that hold interfaces to a joystick that is materially affected by a change in configuration should receive the DIERR_DEVICECHANGE error code until the device is reinitialized. Examples of material changes to configuration include altering the number of axes or the number of buttons. In comparison, changes to device calibration are handled internally by DirectInput and are transparent to the application.
+

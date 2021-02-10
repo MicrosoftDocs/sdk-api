@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - RPC_BINDING_HANDLE_TEMPLATE_V1
+ - _RPC_BINDING_HANDLE_TEMPLATE_V1_A
+ - PRPC_BINDING_HANDLE_TEMPLATE_V1_A
  - RPC_BINDING_HANDLE_TEMPLATE_V1_A
- - RPC_BINDING_HANDLE_TEMPLATE_V1_W
 ---
 
 # RPC_BINDING_HANDLE_TEMPLATE_V1_A structure
@@ -93,7 +93,6 @@ A <a href="/windows/desktop/Rpc/protocol-sequence-constants">protocol sequence s
 * **ncacn_ip_tcp** - Specifies RPC over TCP/IP.
 * **ncacn_np** - Specifies RPC over named pipes.
 * **ncacn_http** - Specifies RPC over HTTP.
-	
 
 ### -field NetworkAddress
 
@@ -162,3 +161,4 @@ The following table demonstrates the behavior of static and dynamic binding hand
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
+

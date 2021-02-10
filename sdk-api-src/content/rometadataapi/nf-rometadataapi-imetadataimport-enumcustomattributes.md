@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.EnumCustomAttributes
+ - IMetaDataImport::EnumCustomAttributes
 ---
 
 # IMetaDataImport::EnumCustomAttributes
@@ -101,3 +101,4 @@ The actual number of token values returned in <i>rgCustomAttributes</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

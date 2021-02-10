@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _ENG_TIME_FIELDS
+ - PENG_TIME_FIELDS
  - ENG_TIME_FIELDS
 ---
 
@@ -97,3 +99,4 @@ The driver is responsible for allocating the ENG_TIME_FIELDS structure and passi
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/nf-winddi-engquerylocaltime">EngQueryLocalTime</a>
+

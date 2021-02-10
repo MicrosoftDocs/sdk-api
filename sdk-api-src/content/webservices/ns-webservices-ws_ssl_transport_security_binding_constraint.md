@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
  - WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
 ---
 
@@ -71,3 +72,4 @@ When <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalter
                     entire contents of this structure will be filled out.
 
 ### -field out.clientCertCredentialRequired
+

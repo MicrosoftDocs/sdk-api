@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagWINDOWPLACEMENT
  - WINDOWPLACEMENT
 ---
 
@@ -324,3 +325,4 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkContainer.GetNextLink
- - IOleUILinkContainerA.GetNextLink
- - IOleUILinkContainerW.GetNextLink
+ - IOleUILinkContainerW::GetNextLink
 ---
 
 # IOleUILinkContainerW::GetNextLink
@@ -80,3 +78,4 @@ Call this method to enumerate the links in a container. If the value passed in <
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinkupdateoptions">IOleUILinkContainer::SetLinkUpdateOptions</a>
+

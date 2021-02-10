@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice.showSettings
+ - IWMPSyncDevice::showSettings
 ---
 
 # IWMPSyncDevice::showSettings
@@ -133,3 +133,4 @@ Note that the events for docking and undocking Windows Media Player will occur n
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+

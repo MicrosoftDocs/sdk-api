@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Nb30.h
 api_name:
+ - _FIND_NAME_HEADER
+ - PFIND_NAME_HEADER
  - FIND_NAME_HEADER
 ---
 
@@ -95,3 +97,4 @@ The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> mem
 
 
 <a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
+

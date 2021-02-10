@@ -47,6 +47,8 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _SET_VIRTUAL_DISK_INFO
+ - PSET_VIRTUAL_DISK_INFO
  - SET_VIRTUAL_DISK_INFO
 ---
 
@@ -132,3 +134,4 @@ The path of the file for the parent VHD.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

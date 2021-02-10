@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFSSLCertificateManager.BeginGetClientCertificate
+ - IMFSSLCertificateManager::BeginGetClientCertificate
 ---
 
 # IMFSSLCertificateManager::BeginGetClientCertificate
@@ -81,3 +81,4 @@ When the operation completes, the callback object's <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>
+

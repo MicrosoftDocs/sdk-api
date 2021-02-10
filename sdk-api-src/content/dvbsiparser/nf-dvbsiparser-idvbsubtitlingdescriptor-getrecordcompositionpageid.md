@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbSubtitlingDescriptor.GetRecordCompositionPageID
+ - IDvbSubtitlingDescriptor::GetRecordCompositionPageID
 ---
 
 # IDvbSubtitlingDescriptor::GetRecordCompositionPageID
@@ -80,3 +80,4 @@ may additionally be signalled in segments containing data on which the compositi
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>
+

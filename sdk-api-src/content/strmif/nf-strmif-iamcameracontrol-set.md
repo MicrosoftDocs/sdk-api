@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCameraControl.Set
+ - IAMCameraControl::Set
 ---
 
 # IAMCameraControl::Set
@@ -90,3 +90,4 @@ If the <i>Flags</i> parameter is <b>CameraControl_Flags_Auto</b>, the method ign
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-get">IAMCameraControl::Get</a>
+

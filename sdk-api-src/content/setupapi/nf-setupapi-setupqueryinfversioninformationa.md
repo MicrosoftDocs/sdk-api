@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupQueryInfVersionInformationA
  - setupapi/SetupQueryInfVersionInformationA
+ - SetupQueryInfVersionInformation
+ - setupapi/SetupQueryInfVersionInformation
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupQueryInfVersionInformation
  - SetupQueryInfVersionInformationA
- - SetupQueryInfVersionInformationW
+ - SetupQueryInfVersionInformation
 ---
 
 # SetupQueryInfVersionInformationA function
@@ -164,3 +165,4 @@ FileType = MICROSOFT_FILE</code></pre>
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueryinffileinformationa">SetupQueryInfFileInformation</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume2.GetProperties2
+ - IVdsVolume2::GetProperties2
 ---
 
 # IVdsVolume2::GetProperties2
@@ -108,3 +108,4 @@ Note that a unique volume identifier is not the same as a volume GUID path. To f
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolume2">IVdsVolume2</a>
+

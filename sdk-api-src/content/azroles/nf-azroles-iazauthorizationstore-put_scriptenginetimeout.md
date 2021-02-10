@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore.ScriptEngineTimeout
- - IAzAuthorizationStore.get_ScriptEngineTimeout
- - IAzAuthorizationStore.put_ScriptEngineTimeout
- - AzAuthorizationStore.ScriptEngineTimeout
+ - IAzAuthorizationStore::put_ScriptEngineTimeout
 ---
 
 # IAzAuthorizationStore::put_ScriptEngineTimeout
@@ -58,3 +55,4 @@ The <b>ScriptEngineTimeout</b> property sets or retrieves the time in millisecon
 This property is read/write.
 
 ## -parameters
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dmoreg.h
 api_name:
+ - _DMO_PARTIAL_MEDIATYPE
+ - PDMO_PARTIAL_MEDIATYPE
  - DMO_PARTIAL_MEDIATYPE
 ---
 
@@ -69,3 +71,4 @@ Subtype GUID. Use GUID_NULL to match any subtype.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
+

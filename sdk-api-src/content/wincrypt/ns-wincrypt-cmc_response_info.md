@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMC_RESPONSE_INFO
+ - PCMC_RESPONSE_INFO
  - CMC_RESPONSE_INFO
 ---
 
@@ -88,3 +90,4 @@ Array of
 ## -remarks
 
 All tagged arrays are optional.
+

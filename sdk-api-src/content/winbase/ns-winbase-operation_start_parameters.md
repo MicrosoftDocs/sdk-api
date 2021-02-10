@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _OPERATION_START_PARAMETERS
+ - POPERATION_START_PARAMETERS
  - OPERATION_START_PARAMETERS
 ---
 
@@ -129,3 +131,4 @@ Specifies that the system should only track the activities of the calling thread
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a>
+

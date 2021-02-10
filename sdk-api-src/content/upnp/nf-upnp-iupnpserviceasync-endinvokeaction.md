@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync.EndInvokeAction
+ - IUPnPServiceAsync::EndInvokeAction
 ---
 
 # IUPnPServiceAsync::EndInvokeAction
@@ -178,3 +178,4 @@ An HTTP error occurred. Use the <a href="/windows/desktop/api/upnp/nf-upnp-iupnp
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>
+

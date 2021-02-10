@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetUserProvidedClock
+ - IWMReaderAdvanced::GetUserProvidedClock
 ---
 
 # IWMReaderAdvanced::GetUserProvidedClock
@@ -101,3 +101,4 @@ The <i>pfUserClock</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setuserprovidedclock">IWMReaderAdvanced::SetUserProvidedClock</a>
+

@@ -43,11 +43,7 @@ api_location:
  - Shdocvw.dll
  - Shdocvw.dll.dll
 api_name:
- - IWebBrowser2.TheaterMode
- - IWebBrowser2.get_TheaterMode
- - IWebBrowser2.put_TheaterMode
- - IWebBrowser2.put_TheaterMode
- - IWebBrowser2.get_TheaterMode
+ - IWebBrowser2::put_TheaterMode
 ---
 
 # IWebBrowser2::put_TheaterMode
@@ -72,3 +68,4 @@ The WebBrowser object saves the value of this property, but otherwise ignores it
 ## -see-also
 
 <a href="/windows/desktop/api/exdisp/nn-exdisp-iwebbrowser2">IWebBrowser2</a>
+

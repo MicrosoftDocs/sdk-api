@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_UPDATENONLOCALHEAPDATA
+ - PDD_UPDATENONLOCALHEAPDATA
  - DD_UPDATENONLOCALHEAPDATA
 ---
 
@@ -93,3 +95,4 @@ Unused on Microsoft Windows 2000 and later versions of the operating system.
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemMgr.UnadviseItemsSink
+ - ITfLangBarItemMgr::UnadviseItemsSink
 ---
 
 # ITfLangBarItemMgr::UnadviseItemsSink
@@ -79,3 +79,4 @@ This method has no return values.
 
 <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemssink">ITfLangBarItemMgr::AdviseItemsSink
       </a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhEnumMachinesW
  - pdh/PdhEnumMachinesW
+ - PdhEnumMachines
+ - pdh/PdhEnumMachines
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhEnumMachines
- - PdhEnumMachinesA
  - PdhEnumMachinesW
+ - PdhEnumMachines
 ---
 
 # PdhEnumMachinesW function
@@ -128,3 +129,4 @@ You should call this function twice, the first time to get the required buffer s
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhenummachinesha">PdhEnumMachinesH</a>
+

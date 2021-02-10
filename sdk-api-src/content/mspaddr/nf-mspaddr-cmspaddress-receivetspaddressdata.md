@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspaddr.h
 api_name:
- - CMSPAddress.ReceiveTSPAddressData
+ - CMSPAddress::ReceiveTSPAddressData
 ---
 
 # CMSPAddress::ReceiveTSPAddressData

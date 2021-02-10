@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.GenKeyFlags
- - ICEnroll4.get_GenKeyFlags
- - ICEnroll4.put_GenKeyFlags
- - ICEnroll3.GenKeyFlags
- - ICEnroll3.get_GenKeyFlags
- - ICEnroll3.put_GenKeyFlags
- - ICEnroll2.GenKeyFlags
- - ICEnroll2.get_GenKeyFlags
- - ICEnroll2.put_GenKeyFlags
- - ICEnroll.GenKeyFlags
- - ICEnroll.get_GenKeyFlags
- - ICEnroll.put_GenKeyFlags
- - CEnroll.GenKeyFlags
+ - ICEnroll::put_GenKeyFlags
 ---
 
 # ICEnroll::put_GenKeyFlags
@@ -152,3 +140,4 @@ else
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+

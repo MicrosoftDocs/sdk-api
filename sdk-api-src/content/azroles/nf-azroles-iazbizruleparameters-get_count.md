@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzBizRuleParameters.Count
- - IAzBizRuleParameters.get_Count
+ - IAzBizRuleParameters::get_Count
 ---
 
 # IAzBizRuleParameters::get_Count
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleparameters">IAzClientContext3::BizRuleParameters</a>
+

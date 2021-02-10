@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _SFVM_PROPPAGE_DATA
  - SFVM_PROPPAGE_DATA
 ---
 
@@ -71,3 +72,4 @@ A pointer to a <a href="/windows/desktop/api/prsht/nc-prsht-lpfnaddpropsheetpage
 Type: <b>LPARAM</b>
 
 The details of the property sheet to be added. When this function is used by Windows Explorer, it provides <b>lParam</b> through the system folder view object's <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-addpropertysheetpages">IShellView::AddPropertySheetPages</a> method. The callback function can then pass the information to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a>.
+

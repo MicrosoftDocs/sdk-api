@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsEvents.OnSmsReadComplete
+ - IMbnSmsEvents::OnSmsReadComplete
 ---
 
 # IMbnSmsEvents::OnSmsReadComplete
@@ -185,3 +185,4 @@ If a read request results in a large amount of messages being read, then <b>OnSm
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
+

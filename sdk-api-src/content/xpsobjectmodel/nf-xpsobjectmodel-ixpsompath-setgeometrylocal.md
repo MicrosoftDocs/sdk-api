@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetGeometryLocal
+ - IXpsOMPath::SetGeometryLocal
 ---
 
 # IXpsOMPath::SetGeometryLocal
@@ -174,3 +174,4 @@ Neither <b>SetGeometryLocal</b> nor <a href="/windows/desktop/api/xpsobjectmodel
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

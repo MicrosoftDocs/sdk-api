@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterExportEngineData
+ - PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN
 ---
 
 # PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN callback function
@@ -249,3 +249,4 @@ cleanup:
 
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

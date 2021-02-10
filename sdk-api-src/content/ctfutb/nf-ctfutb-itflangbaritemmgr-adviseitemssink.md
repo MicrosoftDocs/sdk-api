@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemMgr.AdviseItemsSink
+ - ITfLangBarItemMgr::AdviseItemsSink
 ---
 
 # ITfLangBarItemMgr::AdviseItemsSink
@@ -124,3 +124,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemsink">ITfLangBarItemSink</a>
+

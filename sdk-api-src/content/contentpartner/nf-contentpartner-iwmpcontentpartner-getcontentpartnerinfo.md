@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.GetContentPartnerInfo
+ - IWMPContentPartner::GetContentPartnerInfo
 ---
 
 # IWMPContentPartner::GetContentPartnerInfo
@@ -129,3 +129,4 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that indicates the user nam
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+

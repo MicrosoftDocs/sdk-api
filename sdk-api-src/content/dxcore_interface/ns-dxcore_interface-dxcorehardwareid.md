@@ -38,6 +38,9 @@ api_location:
  - dxcore.dll
 api_name:
  - DXCoreHardwareID
+f1_keywords:
+ - DXCoreHardwareID
+ - dxcore_interface/DXCoreHardwareID
 ---
 
 ## -description
@@ -73,3 +76,4 @@ The PCI ID of the adapter's revision number.
 ## -see-also
 
 [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

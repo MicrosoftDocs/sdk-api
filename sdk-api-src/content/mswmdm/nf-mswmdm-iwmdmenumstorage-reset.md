@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMEnumStorage.Reset
+ - IWMDMEnumStorage::Reset
 ---
 
 # IWMDMEnumStorage::Reset
@@ -69,3 +69,4 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage Interface</a>
+

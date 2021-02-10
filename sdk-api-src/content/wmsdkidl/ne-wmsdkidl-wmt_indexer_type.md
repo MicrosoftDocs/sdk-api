@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - tagWMT_INDEXER_TYPE
  - WMT_INDEXER_TYPE
 ---
 
@@ -71,3 +72,4 @@ The indexer will construct an index using SMPTE time codes as indexes.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
+

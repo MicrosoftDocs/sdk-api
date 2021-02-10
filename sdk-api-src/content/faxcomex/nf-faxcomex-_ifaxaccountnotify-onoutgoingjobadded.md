@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - _IFaxAccountNotify.OnOutgoingJobAdded
- - IFaxAccountNotify.OnOutgoingJobAdded
+ - _IFaxAccountNotify::OnOutgoingJobAdded
 ---
 
 # _IFaxAccountNotify::OnOutgoingJobAdded
@@ -80,3 +79,4 @@ To implement this functionality in Visual Basic, select and implement the approp
 ## -see-also
 
 <a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
+

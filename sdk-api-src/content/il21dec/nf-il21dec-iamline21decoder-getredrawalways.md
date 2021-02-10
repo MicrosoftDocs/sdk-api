@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLine21Decoder.GetRedrawAlways
+ - IAMLine21Decoder::GetRedrawAlways
 ---
 
 # IAMLine21Decoder::GetRedrawAlways
@@ -120,3 +120,4 @@ Success
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setredrawalways">IAMLine21Decoder::SetRedrawAlways</a>
+

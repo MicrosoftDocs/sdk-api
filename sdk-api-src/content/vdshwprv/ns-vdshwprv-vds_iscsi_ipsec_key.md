@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_ISCSI_IPSEC_KEY
  - VDS_ISCSI_IPSEC_KEY
 ---
 
@@ -69,3 +70,4 @@ Reserved for future use.
 ### -field ulKeySize
 
 Reserved for future use.
+

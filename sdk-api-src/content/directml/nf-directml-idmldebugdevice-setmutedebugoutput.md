@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLDebugDevice.SetMuteDebugOutput
+ - IDMLDebugDevice::SetMuteDebugOutput
 ---
 
 # IDMLDebugDevice::SetMuteDebugOutput
@@ -63,3 +63,4 @@ If <b>TRUE</b>, DirectML is muted, and it will not send messages to the <a href=
 ## -see-also
 
 [IDMLDebugDevice](/windows/win32/api/directml/nn-directml-idmldebugdevice)
+

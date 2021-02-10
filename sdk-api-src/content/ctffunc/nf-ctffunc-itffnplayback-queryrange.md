@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnPlayBack.QueryRange
+ - ITfFnPlayBack::QueryRange
 ---
 
 # ITfFnPlayBack::QueryRange
@@ -122,3 +122,4 @@ The current implementation of this method is simple. It clones <i>pRange</i>, pl
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
+ - __MIDL___MIDL_itf_msopc_0001_0076_0005
  - OPC_SIGNATURE_TIME_FORMAT
 ---
 
@@ -279,3 +280,4 @@ Time zone designator with a leading zero. Possible values:  Z, +<i>hh</i>:<i>mm<
 
 
 <a href="https://www.w3.org/TR/xmldsig-core/">W3C Recommendation, XML Signature and Syntax Processing</a>
+

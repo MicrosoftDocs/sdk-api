@@ -42,10 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManResourceLocator.ResourceURI
- - IWSManResourceLocator.get_ResourceURI
- - IWSManResourceLocator.put_ResourceURI
- - WSMan.ResourceURI
+ - IWSManResourceLocator::put_ResourceURI
 ---
 
 # IWSManResourceLocator::put_ResourceURI
@@ -78,3 +75,4 @@ The corresponding scripting method is <a href="/windows/desktop/WinRM/resourcelo
 
 
 <a href="/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>
+

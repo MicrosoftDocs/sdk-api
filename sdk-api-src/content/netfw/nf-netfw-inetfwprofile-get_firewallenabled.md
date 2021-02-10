@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwProfile.FirewallEnabled
- - INetFwProfile.get_FirewallEnabled
- - INetFwProfile.put_FirewallEnabled
+ - INetFwProfile::get_FirewallEnabled
 ---
 
 # INetFwProfile::get_FirewallEnabled
@@ -68,3 +66,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
+

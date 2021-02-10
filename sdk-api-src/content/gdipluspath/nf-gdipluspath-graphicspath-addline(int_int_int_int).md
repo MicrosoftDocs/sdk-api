@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.AddLine
+ - GraphicsPath::AddLine
 ---
 
 # GraphicsPath::AddLine(IN INT,IN INT,IN INT,IN INT)
@@ -122,3 +122,4 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

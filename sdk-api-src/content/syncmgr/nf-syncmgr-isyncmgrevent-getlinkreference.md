@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrEvent.GetLinkReference
+ - ISyncMgrEvent::GetLinkReference
 ---
 
 # ISyncMgrEvent::GetLinkReference
@@ -72,3 +72,4 @@ The link reference is executed when the user clicks on the hot link. When the us
             
 
 The event is expected to allocate the string buffer using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, which Sync Center uses to deallocate the string buffer.
+

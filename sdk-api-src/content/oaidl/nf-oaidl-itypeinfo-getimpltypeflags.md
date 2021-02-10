@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo.GetImplTypeFlags
+ - ITypeInfo::GetImplTypeFlags
 ---
 
 # ITypeInfo::GetImplTypeFlags
@@ -116,3 +116,4 @@ The flags are associated with the act of inheritance, and not with the inherited
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_OFFLINE_REASON
  - OFFLINEFILES_OFFLINE_REASON
 ---
 
@@ -91,3 +92,4 @@ The item is online.
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-setconnectstate">IOfflineFilesConnectionInfo::SetConnectState</a>
+

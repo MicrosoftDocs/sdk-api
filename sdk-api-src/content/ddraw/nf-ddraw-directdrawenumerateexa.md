@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DirectDrawEnumerateExA
  - ddraw/DirectDrawEnumerateExA
+ - DirectDrawEnumerateEx
+ - ddraw/DirectDrawEnumerateEx
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Ddraw.dll
  - Ext-MS-Win-DX-DDraw-L1-1-0.dll
 api_name:
- - DirectDrawEnumerateEx
  - DirectDrawEnumerateExA
- - DirectDrawEnumerateExW
+ - DirectDrawEnumerateEx
 ---
 
 # DirectDrawEnumerateExA function
@@ -108,3 +109,4 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 
 > [!NOTE]
 > The ddraw.h header defines DirectDrawEnumerateEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

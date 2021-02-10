@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionReflection.GetFunctionParameter
+ - ID3D11FunctionReflection::GetFunctionParameter
 ---
 
 # ID3D11FunctionReflection::GetFunctionParameter
@@ -69,3 +69,4 @@ A pointer to a <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11fu
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionreflection">ID3D11FunctionReflection</a>
+

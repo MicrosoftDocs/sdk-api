@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_CHANNEL_REFERENCE_FLAGS
  - EVT_CHANNEL_REFERENCE_FLAGS
 ---
 
@@ -71,3 +72,4 @@ Specifies that the channel is imported.
 
 
 <a href="/windows/desktop/WES/eventmanifestschema-importchanneltype-complextype">ImportChannelType Complex Type</a>
+

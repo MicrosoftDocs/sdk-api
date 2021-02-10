@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IViewObject.Unfreeze
+ - IViewObject::Unfreeze
 ---
 
 # IViewObject::Unfreeze
@@ -87,3 +87,4 @@ Error in the unfreezing process or the object is currently not frozen.
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">IViewObject::Freeze</a>
+

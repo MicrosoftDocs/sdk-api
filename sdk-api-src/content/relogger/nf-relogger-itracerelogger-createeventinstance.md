@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceRelogger.CreateEventInstance
+ - ITraceRelogger::CreateEventInstance
 ---
 
 # ITraceRelogger::CreateEventInstance
@@ -89,3 +89,4 @@ Event metadata will be pulled from <i>TraceHandle</i> but can be modified by the
 
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
+

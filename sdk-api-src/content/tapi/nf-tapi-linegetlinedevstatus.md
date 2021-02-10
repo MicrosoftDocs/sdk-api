@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetLineDevStatus
- - lineGetLineDevStatusA
- - lineGetLineDevStatusW
 ---
 
 # lineGetLineDevStatus function
@@ -94,3 +92,4 @@ An application uses
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a>
+

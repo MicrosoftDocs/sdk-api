@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IVisualTreeService2.ReplaceResource
+ - IVisualTreeService2::ReplaceResource
 ---
 
 # IVisualTreeService2::ReplaceResource
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">IVisualTreeService3::RemoveDictionaryItem</a>
+

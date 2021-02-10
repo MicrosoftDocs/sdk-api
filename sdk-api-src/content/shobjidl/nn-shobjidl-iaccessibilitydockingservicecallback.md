@@ -43,7 +43,6 @@ api_location:
  - shobjidl.h
 api_name:
  - IAccessibilityDockingServiceCallback
- - IAccessibilityDockingServiceCallback.Undocked
 ---
 
 # IAccessibilityDockingServiceCallback interface

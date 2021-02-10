@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ifdef.h
 api_name:
+ - _NET_IF_ACCESS_TYPE
+ - PNET_IF_ACCESS_TYPE
  - NET_IF_ACCESS_TYPE
 ---
 
@@ -83,3 +85,4 @@ Specifies point-to-multipoint access that supports non-broadcast multi-access (N
 ### -field NET_IF_ACCESS_MAXIMUM
 
 A maximum value for testing purposes.
+

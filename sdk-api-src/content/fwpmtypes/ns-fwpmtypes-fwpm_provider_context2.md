@@ -44,6 +44,7 @@ api_type:
 api_location:
  - fwpmtypes.h
 api_name:
+ - FWPM_PROVIDER_CONTEXT2_
  - FWPM_PROVIDER_CONTEXT2
 ---
 
@@ -209,3 +210,4 @@ The last element is additional information returned when getting/enumerating obj
 [IPSEC_TUNNEL_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2.md)
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
+

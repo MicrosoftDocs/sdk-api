@@ -46,8 +46,6 @@ api_location:
  - API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
  - mmioInstallIOProc
- - mmioInstallIOProcA
- - mmioInstallIOProcW
 ---
 
 # mmioInstallIOProc function
@@ -99,3 +97,4 @@ Flag indicating whether the I/O procedure is being installed, removed, or locate
 ## -returns
 
 Returns the address of the I/O procedure installed, removed, or located. Returns <b>NULL</b> if there is an error.
+

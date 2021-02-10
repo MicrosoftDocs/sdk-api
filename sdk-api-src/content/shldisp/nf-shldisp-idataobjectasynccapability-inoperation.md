@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDataObjectAsyncCapability.InOperation
+ - IDataObjectAsyncCapability::InOperation
 ---
 
 # IDataObjectAsyncCapability::InOperation
@@ -73,3 +73,4 @@ This method is called by the drop source after <a href="/windows/desktop/api/ole
 ## -see-also
 
 <a href="/windows/desktop/api/shldisp/nn-shldisp-idataobjectasynccapability">IDataObjectAsyncCapability</a>
+

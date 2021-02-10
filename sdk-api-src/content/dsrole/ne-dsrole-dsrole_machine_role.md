@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dsrole.h
 api_name:
+ - _DSROLE_MACHINE_ROLE
  - DSROLE_MACHINE_ROLE
 ---
 
@@ -87,3 +88,4 @@ The computer is a primary domain controller.
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
+

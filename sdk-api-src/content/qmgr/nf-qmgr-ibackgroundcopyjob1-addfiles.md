@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1.AddFiles
+ - IBackgroundCopyJob1::AddFiles
 ---
 
 # IBackgroundCopyJob1::AddFiles
@@ -111,3 +111,4 @@ User does not have permission to write to the specified directory on the client.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
+

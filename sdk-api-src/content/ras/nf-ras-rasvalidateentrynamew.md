@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasValidateEntryNameW
  - ras/RasValidateEntryNameW
+ - RasValidateEntryName
+ - ras/RasValidateEntryName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasValidateEntryName
- - RasValidateEntryNameA
  - RasValidateEntryNameW
+ - RasValidateEntryName
 ---
 
 # RasValidateEntryNameW function
@@ -270,3 +271,4 @@ DWORD __cdecl wmain(){
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

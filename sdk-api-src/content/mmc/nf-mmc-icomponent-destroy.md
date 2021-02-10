@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent.Destroy
+ - IComponent::Destroy
 ---
 
 # IComponent::Destroy
@@ -72,3 +72,4 @@ Only the console calls this method.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsUser.SetPassword
+ - IADsUser::SetPassword
 ---
 
 ## -description
@@ -140,3 +140,4 @@ HRESULT SetPassword(IADsUser *pUser, BSTR password)
 
 
 <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
+

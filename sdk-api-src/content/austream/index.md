@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - austream
  - austream/austream
+api_name:
+ - austream
 ---
 
 # Austream.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - ISectionList.Initialize
+ - ISectionList::Initialize
 ---
 
 # ISectionList::Initialize
@@ -148,3 +148,4 @@ This method is either synchronous or asynchronous, depending on the request type
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
+

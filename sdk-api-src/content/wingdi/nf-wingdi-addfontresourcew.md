@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - AddFontResourceW
  - wingdi/AddFontResourceW
+ - AddFontResource
+ - wingdi/AddFontResource
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - AddFontResource
- - AddFontResourceA
  - AddFontResourceW
+ - AddFontResource
 ---
 
 # AddFontResourceW function
@@ -208,3 +209,4 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 <a href="/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
+

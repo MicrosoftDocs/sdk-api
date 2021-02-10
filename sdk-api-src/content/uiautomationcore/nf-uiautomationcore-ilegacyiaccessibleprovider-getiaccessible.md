@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - ILegacyIAccessibleProvider.GetIAccessible
+ - ILegacyIAccessibleProvider::GetIAccessible
 ---
 
 # ILegacyIAccessibleProvider::GetIAccessible
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider">ILegacyIAccessibleProvider</a>
+

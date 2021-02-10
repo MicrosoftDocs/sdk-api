@@ -9,6 +9,8 @@ tech.root: ad
 f1_keywords:
  - dsparse
  - dsparse/dsparse
+api_name:
+ - dsparse
 ---
 
 # Dsparse.h header

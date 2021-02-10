@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasGetCountryInfoA
  - ras/RasGetCountryInfoA
+ - RasGetCountryInfo
+ - ras/RasGetCountryInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasGetCountryInfo
  - RasGetCountryInfoA
- - RasGetCountryInfoW
+ - RasGetCountryInfo
 ---
 
 # RasGetCountryInfoA function
@@ -162,3 +163,4 @@ To enumerate information for all countries/regions in the Windows Telephony list
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

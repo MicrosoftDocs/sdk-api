@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegRestoreKeyA
  - winreg/RegRestoreKeyA
+ - RegRestoreKey
+ - winreg/RegRestoreKey
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegRestoreKey
  - RegRestoreKeyA
- - RegRestoreKeyW
+ - RegRestoreKey
 ---
 
 # RegRestoreKeyA function
@@ -173,3 +174,4 @@ If <i>hKey</i> represents a key in a remote computer, the path described by <i>l
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
+

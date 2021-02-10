@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wincodec.h
 api_name:
- - ProgressNotificationCallback
+ - PFNProgressNotification
 ---
 
 # PFNProgressNotification callback function
@@ -101,3 +101,4 @@ To register your callback function, query the encoder or decoder for the <a href
 
 
 <a href="/windows/desktop/api/wincodec/ne-wincodec-wicprogressoperation">WICProgressOperation</a>
+

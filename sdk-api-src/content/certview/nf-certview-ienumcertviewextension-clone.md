@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION.Clone
- - IEnumCERTVIEWEXTENSION.Clone
+ - IEnumCERTVIEWEXTENSION::Clone
 ---
 
 # IEnumCERTVIEWEXTENSION::Clone
@@ -98,3 +97,4 @@ if (NULL != pEnumExt2)
 ## -see-also
 
 <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewextension">IEnumCERTVIEWEXTENSION</a>
+

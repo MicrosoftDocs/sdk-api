@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationInteractionEventHandler.OnInteraction
+ - IDirectManipulationInteractionEventHandler::OnInteraction
 ---
 
 # IDirectManipulationInteractionEventHandler::OnInteraction
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationinteractioneventhandler">IDirectManipulationInteractionEventHandler</a>
+

@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - MENUITEMINFO
- - MENUITEMINFOA
+ - tagMENUITEMINFOW
+ - LPMENUITEMINFOW
  - MENUITEMINFOW
 ---
 
@@ -688,3 +688,4 @@ The menu can display items using text, bitmaps, or both.
 
 
 <a href="/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a>
+

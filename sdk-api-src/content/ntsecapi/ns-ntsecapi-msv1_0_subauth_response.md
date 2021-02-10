@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _MSV1_0_SUBAUTH_RESPONSE
+ - PMSV1_0_SUBAUTH_RESPONSE
  - MSV1_0_SUBAUTH_RESPONSE
 ---
 
@@ -72,3 +74,4 @@ Indicates the length, in bytes, of the buffer returned by <b>SubAuthReturnBuffer
 ### -field SubAuthReturnBuffer
 
 Contains the subauthentication package response. The format and content of this buffer is specific to the subauthentication package. For more information, see the documentation for specific subauthentication packages.
+

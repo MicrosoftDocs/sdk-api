@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.VolumeIndex
- - IFsrmPropertyBag.get_VolumeIndex
+ - IFsrmPropertyBag::get_VolumeIndex
 ---
 
 # IFsrmPropertyBag::get_VolumeIndex
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
+

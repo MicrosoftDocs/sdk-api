@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsTable.Append
+ - ISimilarityTraitsTable::Append
 ---
 
 # ISimilarityTraitsTable::Append
@@ -73,3 +73,4 @@ The application must supply <i>fileIndex</i> values that are greater than zero a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>
+

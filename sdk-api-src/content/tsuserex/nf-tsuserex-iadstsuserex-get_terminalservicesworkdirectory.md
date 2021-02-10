@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx.TerminalServicesWorkDirectory
- - IADsTSUserEx.get_TerminalServicesWorkDirectory
- - IADsTSUserEx.put_TerminalServicesWorkDirectory
+ - IADsTSUserEx::get_TerminalServicesWorkDirectory
 ---
 
 # IADsTSUserEx::get_TerminalServicesWorkDirectory
@@ -72,3 +70,4 @@ For an example, see <a href="/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuse
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
+

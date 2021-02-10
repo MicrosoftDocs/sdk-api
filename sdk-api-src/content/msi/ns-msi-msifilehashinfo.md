@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Msi.h
 api_name:
+ - _MSIFILEHASHINFO
+ - PMSIFILEHASHINFO
  - MSIFILEHASHINFO
 ---
 
@@ -87,3 +89,4 @@ The file hash entered into the fields of the MsiFileHash table must be obtained 
 
 
 <a href="/windows/desktop/api/msi/nf-msi-msigetfilehasha">MsiGetFileHash</a>
+

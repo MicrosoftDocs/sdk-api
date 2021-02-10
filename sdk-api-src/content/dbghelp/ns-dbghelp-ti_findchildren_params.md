@@ -44,6 +44,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _TI_FINDCHILDREN_PARAMS
  - TI_FINDCHILDREN_PARAMS
 ---
 
@@ -72,3 +73,4 @@ An array of type indexes. There is one index per child.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocManagerNotificationSink.OnInterfaceAdd
+ - IDot11AdHocManagerNotificationSink::OnInterfaceAdd
 ---
 
 # IDot11AdHocManagerNotificationSink::OnInterfaceAdd
@@ -94,3 +94,4 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>
+

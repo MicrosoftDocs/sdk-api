@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagBITMAPINFO
+ - LPBITMAPINFO
  - BITMAPINFO
 ---
 
@@ -130,3 +132,4 @@ A bitmap is packed when the bitmap array immediately follows the <b>BITMAPINFO</
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>
+

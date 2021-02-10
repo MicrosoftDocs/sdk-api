@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Cchannel.h
 api_name:
- - VirtualChannelWrite
+ - VIRTUALCHANNELWRITE
 ---
 
 # VIRTUALCHANNELWRITE callback function
@@ -107,3 +107,4 @@ The server add-in at the server end of the virtual channel calls the
 
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelread">WTSVirtualChannelRead</a>
+

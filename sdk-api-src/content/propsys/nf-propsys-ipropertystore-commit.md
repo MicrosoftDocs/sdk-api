@@ -43,7 +43,7 @@ api_location:
  - Propsys.idl
  - Propsys.idl.dll
 api_name:
- - IPropertyStore.Commit
+ - IPropertyStore::Commit
 ---
 
 # IPropertyStore::Commit
@@ -108,3 +108,4 @@ Property handlers must ensure that property changes result in a valid destinatio
 ## -see-also
 
 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
+

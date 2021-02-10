@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMResizerProps.GetFullCropRegion
+ - IWMResizerProps::GetFullCropRegion
 ---
 
 # IWMResizerProps::GetFullCropRegion
@@ -111,3 +111,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>
+

@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - lmstats
  - lmstats/lmstats
+api_name:
+ - lmstats
 ---
 
 # Lmstats.h header

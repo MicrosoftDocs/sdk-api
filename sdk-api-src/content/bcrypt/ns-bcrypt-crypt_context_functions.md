@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _CRYPT_CONTEXT_FUNCTIONS
+ - PCRYPT_CONTEXT_FUNCTIONS
  - CRYPT_CONTEXT_FUNCTIONS
 ---
 
@@ -69,3 +71,4 @@ An array of pointers to null-terminated Unicode strings that contain the identif
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumcontextfunctions">BCryptEnumContextFunctions</a>
+

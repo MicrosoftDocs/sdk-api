@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.GetErrorRetryInterval
+ - IScheduledWorkItem::GetErrorRetryInterval
 ---
 
 # IScheduledWorkItem::GetErrorRetryInterval
@@ -123,3 +123,4 @@ Not implemented.
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-seterrorretryinterval">SetErrorRetryInterval</a>
+

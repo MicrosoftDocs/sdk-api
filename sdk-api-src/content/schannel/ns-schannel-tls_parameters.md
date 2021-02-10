@@ -28,6 +28,7 @@ api_location:
  - schannel.h
 api_name:
  - _TLS_PARAMETERS
+ - PTLS_PARAMETERS
  - TLS_PARAMETERS
 f1_keywords:
  - _TLS_PARAMETERS
@@ -90,3 +91,4 @@ Otherwise, schannel may fail TLS handshakes in order to honor the TLS_PARAMETERS
 [SCH_CREDENTIALS](ns-schannel-sch_credentials.md)
 
 [CRYPTO_SETTINGS](ns-schannel-crypto_settings.md)
+

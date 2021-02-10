@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - PMCHITTESTINFO
  - MCHITTESTINFO
 ---
 
@@ -266,3 +267,4 @@ The column number for the calendar grid that the given point was over. For examp
 ## -remarks
 
 Columns and rows in this control use a zero-based index system, that is, the first column or row has an index of zero.
+

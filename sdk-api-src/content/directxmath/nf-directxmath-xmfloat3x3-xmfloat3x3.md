@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT3X3.XMFLOAT3X3
+ - XMFLOAT3X3::XMFLOAT3X3
 ---
 
 # XMFLOAT3X3::XMFLOAT3X3
@@ -75,3 +75,4 @@ Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath
 
 
 <a href="/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>
+

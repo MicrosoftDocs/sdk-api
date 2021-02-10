@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_MX_DATA
+ - PDNS_MX_DATAW
+ - DNS_MX_DATAW
 ---
 
 # DNS_MX_DATAW structure

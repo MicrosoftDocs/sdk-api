@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide.DrawnBox
- - IInkRecognizerGuide.get_DrawnBox
- - IInkRecognizerGuide.put_DrawnBox
- - InkRecognizerGuide.get_DrawnBox
- - InkRecognizerGuide.put_DrawnBox
+ - IInkRecognizerGuide::get_DrawnBox
 ---
 
 # IInkRecognizerGuide::get_DrawnBox
@@ -82,3 +78,4 @@ The writing box specifies the boundaries of the ink to the recognizer.The drawn 
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox">WritingBox Property</a>
+

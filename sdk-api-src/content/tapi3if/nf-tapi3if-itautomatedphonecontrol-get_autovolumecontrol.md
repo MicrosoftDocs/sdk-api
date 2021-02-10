@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_AutoVolumeControl
+ - ITAutomatedPhoneControl::get_AutoVolumeControl
 ---
 
 # ITAutomatedPhoneControl::get_AutoVolumeControl
@@ -84,3 +84,4 @@ The <b>AutoVolumeControl</b> property functions only when the value of the <b>Ph
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_phonehandlingenabled">put_PhoneHandlingEnabled</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCredential.LoggedOnUser
+ - IMFNetCredential::LoggedOnUser
 ---
 
 # IMFNetCredential::LoggedOnUser
@@ -84,3 +84,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a>
+

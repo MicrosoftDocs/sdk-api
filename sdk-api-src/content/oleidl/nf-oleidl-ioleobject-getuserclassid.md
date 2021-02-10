@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.GetUserClassID
+ - IOleObject::GetUserClassID
 ---
 
 # IOleObject::GetUserClassID
@@ -111,3 +111,4 @@ The operation failed.
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-setconvertstg">SetConvertStg</a>
+

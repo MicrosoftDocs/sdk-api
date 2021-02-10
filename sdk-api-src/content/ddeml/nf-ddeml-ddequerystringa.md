@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DdeQueryStringA
  - ddeml/DdeQueryStringA
+ - DdeQueryString
+ - ddeml/DdeQueryString
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DdeQueryString
  - DdeQueryStringA
- - DdeQueryStringW
+ - DdeQueryString
 ---
 
 # DdeQueryStringA function
@@ -143,3 +144,4 @@ If the
 
 
 <b>Reference</b>
+

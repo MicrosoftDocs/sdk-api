@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRepetitionPattern.Interval
- - IRepetitionPattern.get_Interval
- - IRepetitionPattern.put_Interval
+ - IRepetitionPattern::put_Interval
 ---
 
 # IRepetitionPattern::put_Interval
@@ -71,3 +69,4 @@ When reading or writing XML for a task, the repetition interval is specified in 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

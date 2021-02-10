@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceManager.RemoveService
+ - IUpdateServiceManager::RemoveService
 ---
 
 # IUpdateServiceManager::RemoveService
@@ -129,3 +129,4 @@ Attempt to register  or remove an unknown service.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
+

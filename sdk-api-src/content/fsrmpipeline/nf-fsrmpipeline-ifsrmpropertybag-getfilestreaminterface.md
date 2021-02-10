@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.GetFileStreamInterface
+ - IFsrmPropertyBag::GetFileStreamInterface
 ---
 
 # IFsrmPropertyBag::GetFileStreamInterface
@@ -87,3 +87,4 @@ To ensure the caller can be authorized for access, it must be a module that has 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
+

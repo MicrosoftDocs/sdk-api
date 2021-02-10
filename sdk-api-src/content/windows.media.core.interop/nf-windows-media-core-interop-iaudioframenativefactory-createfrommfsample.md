@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.core.interop.h
 api_name:
- - IAudioFrameNativeFactory.CreateFromMFSample
+ - IAudioFrameNativeFactory::CreateFromMFSample
 ---
 
 # IAudioFrameNativeFactory::core
@@ -87,3 +87,4 @@ Returns S_OK on successful completion.
 ## -see-also
 
 <a href="/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenativefactory">IAudioFrameNativeFactory</a>
+

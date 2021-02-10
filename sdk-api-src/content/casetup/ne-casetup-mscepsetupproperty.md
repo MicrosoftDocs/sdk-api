@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Casetup.h
 api_name:
+ - __MIDL___MIDL_itf_casetup_0000_0003_0001
  - MSCEPSetupProperty
 ---
 
@@ -111,3 +112,4 @@ A <b>VT_BSTR</b> value that specifies the URL for use by routers to connect and 
 ### -field ENUM_CEPSETUPPROP_CHALLENGEURL
 
 A <b>VT_BSTR</b> value that specifies the URL for use by router administrators to connect and obtain a challenge phrase. By default, setup uses http://<i>MachineName</i>/certsrv/mscep/, where <i>MachineName</i> is the local machine name. This is a read-only property.
+

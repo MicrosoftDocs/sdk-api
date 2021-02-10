@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IEnumExtraSearch.Next
+ - IEnumExtraSearch::Next
 ---
 
 # IEnumExtraSearch::Next
@@ -77,3 +77,4 @@ The number of objects actually enumerated. This may be less than <i>celt</i>.
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a COM-defined error code otherwise.
+

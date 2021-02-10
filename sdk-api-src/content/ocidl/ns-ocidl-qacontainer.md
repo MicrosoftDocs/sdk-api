@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagQACONTAINER
  - QACONTAINER
 ---
 
@@ -131,3 +132,4 @@ If an interface pointer in the <b>QACONTAINER</b> structure is <b>NULL</b> it do
 
 
 <a href="/windows/desktop/api/ocidl/ne-ocidl-qacontainerflags">QACONTAINERFLAGS</a>
+

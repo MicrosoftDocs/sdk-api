@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDGETKERNELCAPSOUT
+ - LPDDGETKERNELCAPSOUT
  - DDGETKERNELCAPSOUT
 ---
 
@@ -77,3 +79,4 @@ Can be a combination of the flags in the <b>dwIRQCaps</b> member of DDKERNELCAPS
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

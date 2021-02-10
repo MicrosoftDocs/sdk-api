@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter.GetCurrentProfileGuid
+ - IConfigAsfWriter::GetCurrentProfileGuid
 ---
 
 # IConfigAsfWriter::GetCurrentProfileGuid
@@ -77,3 +77,4 @@ This method applies only when the WM ASF Writer filter is configured with a syst
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
+

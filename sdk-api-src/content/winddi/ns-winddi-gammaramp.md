@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _GAMMARAMP
+ - PGAMMARAMP
  - GAMMARAMP
 ---
 
@@ -73,3 +75,4 @@ Is the 256-entry ramp for the blue color channel.
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvicmsetdevicegammaramp">DrvIcmSetDeviceGammaRamp</a>
+

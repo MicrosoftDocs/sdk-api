@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP.AdviseSink
+ - ITextStoreACP::AdviseSink
 ---
 
 # ITextStoreACP::AdviseSink
@@ -216,3 +216,4 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
 
 <a href="/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants
       </a>
+

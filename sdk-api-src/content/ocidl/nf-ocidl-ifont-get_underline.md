@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.get_Underline
+ - IFont::get_Underline
 ---
 
 # IFont::get_Underline
@@ -101,3 +101,4 @@ The address in the <i>pUnderline</i> parameter is not valid. For example, it may
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_underline">IFont::put_Underline</a>
+

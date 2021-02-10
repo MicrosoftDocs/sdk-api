@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingActivity.TraceLoggingActivity
+ - TraceLoggingActivity::TraceLoggingActivity
 ---
 
 # TraceLoggingActivity::TraceLoggingActivity

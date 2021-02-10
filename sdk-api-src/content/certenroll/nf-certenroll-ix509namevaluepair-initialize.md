@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509NameValuePair.Initialize
+ - IX509NameValuePair::Initialize
 ---
 
 # IX509NameValuePair::Initialize
@@ -83,3 +83,4 @@ You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509nam
 
 
 <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a>
+

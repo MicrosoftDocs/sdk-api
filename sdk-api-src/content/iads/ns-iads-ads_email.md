@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0014
+ - PADS_EMAIL
  - ADS_EMAIL
 ---
 
@@ -69,3 +71,4 @@ Type of the email message.
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
+

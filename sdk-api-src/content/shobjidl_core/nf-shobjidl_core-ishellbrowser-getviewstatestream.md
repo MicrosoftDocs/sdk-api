@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser.GetViewStateStream
+ - IShellBrowser::GetViewStateStream
 ---
 
 # IShellBrowser::GetViewStateStream
@@ -102,3 +102,4 @@ Use <b>GetViewStateStream</b> when the view is being created to read in the save
 Each Shell view should have its own view stream. Windows Explorer implements a most recently used (MRU) list of view streams that are stored on a per-user basis in the registry.
 
 See also <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
+

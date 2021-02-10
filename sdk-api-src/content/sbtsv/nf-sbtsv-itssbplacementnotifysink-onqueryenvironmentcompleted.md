@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted
+ - ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted
 ---
 
 # ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted
@@ -78,3 +78,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a>
+

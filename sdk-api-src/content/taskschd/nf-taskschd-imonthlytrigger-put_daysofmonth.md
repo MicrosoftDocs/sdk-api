@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IMonthlyTrigger.DaysOfMonth
- - IMonthlyTrigger.get_DaysOfMonth
- - IMonthlyTrigger.put_DaysOfMonth
+ - IMonthlyTrigger::put_DaysOfMonth
 ---
 
 # IMonthlyTrigger::put_DaysOfMonth
@@ -240,3 +238,4 @@ When reading or writing your own XML for a task, the days of the month are speci
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
+ - _PARAM_BUFFER
+ - LPPARAM_BUFFER
  - PARAM_BUFFER
 ---
 
@@ -73,3 +75,4 @@ Buffer containing the parameter.
 ## -see-also
 
 <a href="/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE</a>
+

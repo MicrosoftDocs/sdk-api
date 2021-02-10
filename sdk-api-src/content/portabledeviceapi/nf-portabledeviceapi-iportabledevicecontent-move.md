@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.Move
+ - IPortableDeviceContent::Move
 ---
 
 # IPortableDeviceContent::Move
@@ -142,3 +142,4 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>
+

@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.ChildRealTimeStylusPlugin
- - IRealTimeStylus.get_ChildRealTimeStylusPlugin
- - IRealTimeStylus.put_ChildRealTimeStylusPlugin
- - IRealTimeStylus.get_ChildRealTimeStylusPlugin
- - IRealTimeStylus.put_ChildRealTimeStylusPlugin
+ - IRealTimeStylus::get_ChildRealTimeStylusPlugin
 ---
 
 # IRealTimeStylus::get_ChildRealTimeStylusPlugin
@@ -99,3 +95,4 @@ With the exception of <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimest
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+

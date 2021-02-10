@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WTSQueryUserConfigW
  - wtsapi32/WTSQueryUserConfigW
+ - WTSQueryUserConfig
+ - wtsapi32/WTSQueryUserConfig
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wtsapi32.dll
 api_name:
- - WTSQueryUserConfig
- - WTSQueryUserConfigA
  - WTSQueryUserConfigW
+ - WTSQueryUserConfig
 ---
 
 # WTSQueryUserConfigW function
@@ -117,3 +118,4 @@ Any domain controller can set or query user configuration information. Use the
 
 
 <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a>
+

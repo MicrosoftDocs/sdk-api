@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FaxComex.h
 api_name:
- - IFaxDevices.get_ItemById
+ - IFaxDevices::get_ItemById
 ---
 
 # IFaxDevices::get_ItemById
@@ -87,3 +87,4 @@ To retrieve an item from the <a href="/previous-versions/windows/desktop/fax/-mf
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
+

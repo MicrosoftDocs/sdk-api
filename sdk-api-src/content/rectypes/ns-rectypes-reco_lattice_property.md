@@ -44,6 +44,7 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
+ - tagRECO_LATTICE_PROPERTY
  - RECO_LATTICE_PROPERTY
 ---
 
@@ -135,3 +136,4 @@ A ULONG value containing the line that the element belongs to as determined by t
 
 
 <a href="/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
+

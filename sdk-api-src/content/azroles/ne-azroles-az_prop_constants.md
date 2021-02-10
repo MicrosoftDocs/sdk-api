@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
+ - tagAZ_PROP_CONSTANTS
  - AZ_PROP_CONSTANTS
 ---
 
@@ -251,3 +252,4 @@ The <b>AZ_PROP_CONSTANTS</b> enumeration defines constants used by Authorization
 ### -field AZ_CLIENT_CONTEXT_GET_GROUP_RECURSIVE
 
 ### -field AZ_CLIENT_CONTEXT_GET_GROUPS_STORE_LEVEL_ONLY
+

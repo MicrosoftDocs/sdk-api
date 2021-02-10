@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
+ - LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
  - DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
 ---
 
@@ -73,3 +75,4 @@ Pointer to an array of  <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a>
+

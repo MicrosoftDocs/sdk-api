@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagHANDLETABLE
+ - PHANDLETABLE
  - HANDLETABLE
 ---
 
@@ -77,3 +79,4 @@ An array of handles.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+

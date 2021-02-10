@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValue.GetBoolean
+ - IPropertyValue::GetBoolean
 ---
 
 # IPropertyValue::IPropertyValue
@@ -113,3 +113,4 @@ The type of <i>value</i> does not match the value of the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
+

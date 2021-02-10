@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkExtendedProperty.Data
- - IInkExtendedProperty.get_Data
- - IInkExtendedProperty.put_Data
- - IInkExtendedProperty.get_Data
- - IInkExtendedProperty.put_Data
+ - IInkExtendedProperty::get_Data
 ---
 
 # IInkExtendedProperty::get_Data
@@ -70,3 +66,4 @@ The data consists of information that cannot otherwise be set on the object, suc
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtended Property Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile.RemoveStream
+ - IMFASFProfile::RemoveStream
 ---
 
 # IMFASFProfile::RemoveStream
@@ -100,3 +100,4 @@ After a stream is removed, the ASF profile object reassigns stream indexes so th
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-setstream">IMFASFProfile::SetStream</a>
+

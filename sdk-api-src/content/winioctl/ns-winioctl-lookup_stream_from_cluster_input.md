@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _LOOKUP_STREAM_FROM_CLUSTER_INPUT
+ - PLOOKUP_STREAM_FROM_CLUSTER_INPUT
  - LOOKUP_STREAM_FROM_CLUSTER_INPUT
 ---
 
@@ -79,3 +81,4 @@ An array of one or more clusters to look up.
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

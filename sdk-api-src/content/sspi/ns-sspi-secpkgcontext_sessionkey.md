@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_SessionKey
+ - PSecPkgContext_SessionKey
  - SecPkgContext_SessionKey
 ---
 
@@ -65,3 +67,4 @@ Size, in bytes, of the session key.
 ### -field SessionKey
 
 The session key for the security context.
+

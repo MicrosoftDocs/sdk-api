@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPorts.get_Item
+ - IFaxPorts::get_Item
 ---
 
 # IFaxPorts::get_Item
@@ -103,3 +103,4 @@ A fax client application can also access the <a href="/previous-versions/windows
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_count">IFaxPorts::get_Count</a>
+

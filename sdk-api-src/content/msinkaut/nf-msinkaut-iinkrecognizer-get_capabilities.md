@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizer.Capabilities
- - IInkRecognizer.get_Capabilities
- - IInkRecognizer.get_Capabilities
+ - IInkRecognizer::get_Capabilities
 ---
 
 # IInkRecognizer::get_Capabilities
@@ -84,3 +82,4 @@ For information about how to request various recognizer capabilities, or modes, 
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+

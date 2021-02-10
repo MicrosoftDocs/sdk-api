@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OpenTraceW
  - evntrace/OpenTraceW
+ - OpenTrace
+ - evntrace/OpenTrace
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-Eventing-Legacy-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - OpenTrace
- - OpenTraceA
  - OpenTraceW
+ - OpenTrace
 ---
 
 # OpenTraceW function
@@ -195,3 +196,4 @@ For an example that uses <b>OpenTrace</b>, see
 
 
 <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>
+

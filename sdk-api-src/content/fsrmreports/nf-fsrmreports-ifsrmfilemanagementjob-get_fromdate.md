@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.FromDate
- - IFsrmFileManagementJob.get_FromDate
- - IFsrmFileManagementJob.put_FromDate
+ - IFsrmFileManagementJob::get_FromDate
 ---
 
 # IFsrmFileManagementJob::get_FromDate
@@ -83,3 +81,4 @@ Typically, you set this date to be greater than the shortest notification period
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

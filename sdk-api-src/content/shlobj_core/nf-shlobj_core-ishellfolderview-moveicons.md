@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView.MoveIcons
+ - IShellFolderView::MoveIcons
 ---
 
 # IShellFolderView::MoveIcons
@@ -63,3 +63,4 @@ Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject
 Type: <b>HRESULT</b>
 
 This method is not implemented.
+

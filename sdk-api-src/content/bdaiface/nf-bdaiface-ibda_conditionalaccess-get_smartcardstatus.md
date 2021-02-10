@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess.get_SmartCardStatus
+ - IBDA_ConditionalAccess::get_SmartCardStatus
 ---
 
 # IBDA_ConditionalAccess::get_SmartCardStatus
@@ -81,3 +81,4 @@ All three parameters must be non-NULL or the method fails and returns <b>E_POINT
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
+

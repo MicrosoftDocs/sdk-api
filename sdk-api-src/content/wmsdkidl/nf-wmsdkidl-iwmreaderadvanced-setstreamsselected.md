@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.SetStreamsSelected
+ - IWMReaderAdvanced::SetStreamsSelected
 ---
 
 # IWMReaderAdvanced::SetStreamsSelected
@@ -121,3 +121,4 @@ To deliver samples by stream number, you must receive uncompressed stream sample
 
 
 <a href="/windows/desktop/wmformat/to-use-manual-stream-selection">To Use Manual Stream Selection</a>
+

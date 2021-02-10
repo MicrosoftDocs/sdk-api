@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.QueryMaskedDisks
+ - IVdsService::QueryMaskedDisks
 ---
 
 # IVdsService::QueryMaskedDisks
@@ -84,3 +84,4 @@ This method is not implemented.
 </td>
 </tr>
 </table>
+

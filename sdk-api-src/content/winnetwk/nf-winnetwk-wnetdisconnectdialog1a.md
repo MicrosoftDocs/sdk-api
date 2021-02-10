@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WNetDisconnectDialog1A
  - winnetwk/WNetDisconnectDialog1A
+ - WNetDisconnectDialog1
+ - winnetwk/WNetDisconnectDialog1
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Mpr.dll
  - API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
 api_name:
- - WNetDisconnectDialog1
  - WNetDisconnectDialog1A
- - WNetDisconnectDialog1W
+ - WNetDisconnectDialog1
 ---
 
 # WNetDisconnectDialog1A function
@@ -175,3 +176,4 @@ A network-specific error occurred. Call the
 
 > [!NOTE]
 > The winnetwk.h header defines WNetDisconnectDialog1 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

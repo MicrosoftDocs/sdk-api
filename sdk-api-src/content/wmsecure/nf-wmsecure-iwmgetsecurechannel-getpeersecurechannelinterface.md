@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsecure.h
 api_name:
- - IWMGetSecureChannel.GetPeerSecureChannelInterface
+ - IWMGetSecureChannel::GetPeerSecureChannelInterface
 ---
 
 # IWMGetSecureChannel::GetPeerSecureChannelInterface
@@ -68,3 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wmsecure/nn-wmsecure-iwmgetsecurechannel">IWMGetSecureChannel</a>
+

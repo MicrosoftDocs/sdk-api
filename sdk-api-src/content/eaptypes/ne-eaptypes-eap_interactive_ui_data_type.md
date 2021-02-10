@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
+ - _EAP_INTERACTIVE_UI_DATA_TYPE
  - EAP_INTERACTIVE_UI_DATA_TYPE
 ---
 

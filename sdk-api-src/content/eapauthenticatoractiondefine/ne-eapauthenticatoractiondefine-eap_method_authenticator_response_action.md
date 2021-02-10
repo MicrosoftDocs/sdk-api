@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EapAuthenticatorActionDefine.h
 api_name:
+ - _EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
  - EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
 ---
 

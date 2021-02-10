@@ -36,6 +36,7 @@ api_location:
  - p2p.h
 api_name:
  - peer_collab_event_data_tag
+ - PPEER_COLLAB_EVENT_DATA
  - PEER_COLLAB_EVENT_DATA
 ---
 
@@ -87,3 +88,4 @@ A <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_request_status_changed_dat
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

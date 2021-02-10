@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderPlaylistBurn.EndPlaylistBurn
+ - IWMReaderPlaylistBurn::EndPlaylistBurn
 ---
 
 # IWMReaderPlaylistBurn::EndPlaylistBurn
@@ -90,3 +90,4 @@ To abort the playlist burn process after your status callback receives the WMT_I
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>
+

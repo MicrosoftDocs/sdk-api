@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbContentDescriptor.GetRecordContentNibbles
+ - IDvbContentDescriptor::GetRecordContentNibbles
 ---
 
 # IDvbContentDescriptor::GetRecordContentNibbles
@@ -81,3 +81,4 @@ and countries.)
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcontentdescriptor">IDvbContentDescriptor</a>
+

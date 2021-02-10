@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIDebug.ReportLiveObjects
+ - IDXGIDebug::ReportLiveObjects
 ---
 
 # IDXGIDebug::ReportLiveObjects
@@ -74,3 +74,4 @@ Returns S_OK if successful; an error code otherwise. For a list of error codes, 
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>
+

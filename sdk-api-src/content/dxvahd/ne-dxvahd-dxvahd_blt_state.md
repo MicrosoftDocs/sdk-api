@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_BLT_STATE
  - DXVAHD_BLT_STATE
 ---
 
@@ -93,3 +94,4 @@ Specifies that the state data contains a private DXVA-HD blit state.  Use this s
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

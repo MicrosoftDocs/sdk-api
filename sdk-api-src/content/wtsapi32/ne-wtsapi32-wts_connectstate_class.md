@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
+ - _WTS_CONNECTSTATE_CLASS
  - WTS_CONNECTSTATE_CLASS
 ---
 
@@ -107,3 +108,4 @@ The WinStation is initializing.
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a>
+

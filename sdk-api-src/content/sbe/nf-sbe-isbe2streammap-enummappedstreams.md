@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2StreamMap.EnumMappedStreams
+ - ISBE2StreamMap::EnumMappedStreams
 ---
 
 # ISBE2StreamMap::EnumMappedStreams
@@ -82,3 +82,4 @@ In Windows 7, only one stream at a time can be mapped to an output pin, although
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
+

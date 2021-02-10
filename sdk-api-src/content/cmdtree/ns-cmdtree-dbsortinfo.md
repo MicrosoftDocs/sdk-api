@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBSORTINFO
  - DBSORTINFO
 ---
 
@@ -72,3 +73,4 @@ locale identifier
 The locale identifier (LCID) specifies a set of user preference information related to the user's language. It determines how times are formatted, how items are alphabetically sorted, and how strings are compared.
 
 For additional information on LCIDs see <a href="/previous-versions/ms776264(v=vs.85)">Locales</a>.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface.InEmergencyMode
+ - IMbnInterface::InEmergencyMode
 ---
 
 # IMbnInterface::InEmergencyMode
@@ -101,3 +101,4 @@ If a device cannot register on the network for any reason, then the device may a
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
+

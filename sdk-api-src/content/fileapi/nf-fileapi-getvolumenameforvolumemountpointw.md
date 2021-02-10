@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetVolumeNameForVolumeMountPointW
  - fileapi/GetVolumeNameForVolumeMountPointW
+ - GetVolumeNameForVolumeMountPoint
+ - fileapi/GetVolumeNameForVolumeMountPoint
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - GetVolumeNameForVolumeMountPoint
- - GetVolumeNameForVolumeMountPointA
  - GetVolumeNameForVolumeMountPointW
+ - GetVolumeNameForVolumeMountPoint
 ---
 
 # GetVolumeNameForVolumeMountPointW function
@@ -173,3 +174,4 @@ Mount points aren't supported by ReFS volumes.
 
 
 <a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
+

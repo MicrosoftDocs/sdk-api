@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_RENDER_CONTEXT_FLAGS
  - EVT_RENDER_CONTEXT_FLAGS
 ---
 
@@ -75,3 +76,4 @@ You cannot specify the EvtRenderContextValues flag with the EvtRenderContextSyst
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a>
+

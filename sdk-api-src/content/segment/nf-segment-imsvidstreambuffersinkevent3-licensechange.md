@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSinkEvent3.LicenseChange
+ - IMSVidStreamBufferSinkEvent3::LicenseChange
 ---
 
 # IMSVidStreamBufferSinkEvent3::LicenseChange
@@ -70,3 +70,4 @@ Return S_OK or an error code.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent3">IMSVidStreamBufferSinkEvent3 Interface</a>
+

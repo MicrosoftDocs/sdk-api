@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SCardIntroduceCardTypeA
  - winscard/SCardIntroduceCardTypeA
+ - SCardIntroduceCardType
+ - winscard/SCardIntroduceCardType
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardIntroduceCardType
  - SCardIntroduceCardTypeA
- - SCardIntroduceCardTypeW
+ - SCardIntroduceCardType
 ---
 
 # SCardIntroduceCardTypeA function
@@ -192,3 +193,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardlistcardsa">SCardListCards</a>
+

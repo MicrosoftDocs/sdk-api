@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetUDPPortRanges
+ - IWMReaderNetworkConfig::SetUDPPortRanges
 ---
 
 # IWMReaderNetworkConfig::SetUDPPortRanges
@@ -113,3 +113,4 @@ If no ranges are specified by the application, port numbers are selected by the 
 
 
 <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_port_number_range">WM_PORT_NUMBER_RANGE</a>
+

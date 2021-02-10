@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ws2ipdef.h
 api_name:
+ - group_source_req
+ - PGROUP_SOURCE_REQ
  - GROUP_SOURCE_REQ
 ---
 
@@ -115,3 +117,4 @@ The <b>GROUP_SOURCE_REQ</b> structure is defined in the <i>Ws2ipdef.h</i> header
 
 
 <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ipv6_mreq">ipv6_mreq</a>
+

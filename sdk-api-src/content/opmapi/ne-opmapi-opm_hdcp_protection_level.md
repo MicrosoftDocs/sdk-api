@@ -44,6 +44,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
+ - _OPM_HDCP_PROTECTION_LEVEL
  - OPM_HDCP_PROTECTION_LEVEL
 ---
 
@@ -75,3 +76,4 @@ This enumeration is numerically equivalent to the <b>COPP_HDCP_Protection_Level<
 ## -see-also
 
 <a href="/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>
+

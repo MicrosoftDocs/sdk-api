@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_102
+ - PDFS_INFO_102
  - DFS_INFO_102
 ---
 
@@ -81,3 +83,4 @@ Specifies the time-out, in seconds, to apply to the specified DFS root or link.
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawDriverString
+ - Graphics::DrawDriverString
 ---
 
 # Graphics::DrawDriverString
@@ -148,3 +148,4 @@ This method does not support the handling of complex scripts and assumes that th
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

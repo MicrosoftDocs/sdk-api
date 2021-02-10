@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrControl.ActivateHandler
+ - ISyncMgrControl::ActivateHandler
 ---
 
 # ISyncMgrControl::ActivateHandler
@@ -126,3 +126,4 @@ void MiscProc(...)
 }
 
 ```
+

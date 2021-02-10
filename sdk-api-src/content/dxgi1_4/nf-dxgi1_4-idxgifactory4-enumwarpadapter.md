@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory4.EnumWarpAdapter
+ - IDXGIFactory4::EnumWarpAdapter
 ---
 
 # IDXGIFactory4::EnumWarpAdapter
@@ -87,3 +87,4 @@ For more information, see <a href="/windows/desktop/direct3ddxgi/dxgi-1-4-improv
 
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgifactory4">IDXGIFactory4</a>
+

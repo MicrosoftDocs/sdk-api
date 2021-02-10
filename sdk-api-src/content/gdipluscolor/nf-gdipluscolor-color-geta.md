@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color.GetA
+ - Color::GetA
 ---
 
 # Color::GetA
@@ -96,3 +96,4 @@ This method returns the alpha component of this color.
 
 
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
+

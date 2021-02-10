@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IMediaStreamFilter.SupportSeeking
+ - IMediaStreamFilter::SupportSeeking
 ---
 
 # IMediaStreamFilter::SupportSeeking
@@ -96,3 +96,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
+

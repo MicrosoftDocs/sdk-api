@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - OpenWindowStationW
  - winuser/OpenWindowStationW
+ - OpenWindowStation
+ - winuser/OpenWindowStation
 dev_langs:
  - c++
 topic_type:
@@ -47,10 +50,8 @@ api_location:
  - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - OpenWindowStation
- - OpenWindowStationA
  - OpenWindowStationW
-req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-1 (introduced in Windows 10, version 10.0.14393)
+ - OpenWindowStation
 ---
 
 # OpenWindowStationW function
@@ -115,3 +116,4 @@ After you are done with the handle, you must call
 
 
 <a href="/windows/desktop/winstation/window-stations">Window Stations</a>
+

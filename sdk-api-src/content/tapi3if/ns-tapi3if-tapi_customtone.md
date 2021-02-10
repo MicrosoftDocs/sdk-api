@@ -45,6 +45,7 @@ api_location:
  - Tapi3if.h
 api_name:
  - TAPI_CUSTOMTONE
+ - LPTAPI_CUSTOMTONE
 ---
 
 # TAPI_CUSTOMTONE structure
@@ -84,3 +85,4 @@ The volume level at which to generate the tone.
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a>
+

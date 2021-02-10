@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_PROPERTY
+ - PCRYPT_XML_PROPERTY
  - CRYPT_XML_PROPERTY
 ---
 
@@ -69,3 +71,4 @@ A pointer to a buffer that contains the property value.
 ### -field cbValue
 
 The size, in bytes, of the property value buffer pointed to by the <b>pvValue</b> member.
+

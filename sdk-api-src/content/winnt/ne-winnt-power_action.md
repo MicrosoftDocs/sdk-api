@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - PPOWER_ACTION
  - POWER_ACTION
 ---
 
@@ -101,3 +102,4 @@ Warm eject.
 
 
 <a href="/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
+

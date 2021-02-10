@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo.GetPackageId
+ - IAppxBundleManifestPackageInfo::GetPackageId
 ---
 
 # IAppxBundleManifestPackageInfo::GetPackageId
@@ -73,3 +73,4 @@ Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnkno
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>
+

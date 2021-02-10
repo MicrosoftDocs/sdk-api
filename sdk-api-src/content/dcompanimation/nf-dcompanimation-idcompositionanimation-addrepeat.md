@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionAnimation.AddRepeat
+ - IDCompositionAnimation::AddRepeat
 ---
 
 # IDCompositionAnimation::AddRepeat
@@ -139,3 +139,4 @@ HRESULT MyCreateAnimatedScaleTransform(IDCompositionDevice *pDevice,
 ## -see-also
 
 <a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>
+

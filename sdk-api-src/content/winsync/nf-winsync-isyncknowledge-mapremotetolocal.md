@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge.MapRemoteToLocal
+ - ISyncKnowledge::MapRemoteToLocal
 ---
 
 # ISyncKnowledge::MapRemoteToLocal
@@ -114,3 +114,4 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

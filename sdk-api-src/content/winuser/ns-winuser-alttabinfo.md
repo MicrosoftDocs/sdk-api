@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagALTTABINFO
+ - PALTTABINFO
  - ALTTABINFO
 ---
 
@@ -127,3 +129,4 @@ The top-left corner of the first icon.
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

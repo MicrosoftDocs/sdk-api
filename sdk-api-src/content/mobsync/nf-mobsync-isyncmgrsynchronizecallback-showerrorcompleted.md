@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback.ShowErrorCompleted
+ - ISyncMgrSynchronizeCallback::ShowErrorCompleted
 ---
 
 # ISyncMgrSynchronizeCallback::ShowErrorCompleted
@@ -116,3 +116,4 @@ The registered application's handler should not call this method unless a succes
 
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a>
+

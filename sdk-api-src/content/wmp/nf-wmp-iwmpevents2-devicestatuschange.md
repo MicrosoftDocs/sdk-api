@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents2.DeviceStatusChange
+ - IWMPEvents2::DeviceStatusChange
 ---
 
 # IWMPEvents2::DeviceStatusChange
@@ -85,3 +85,4 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 <a href="/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>
+

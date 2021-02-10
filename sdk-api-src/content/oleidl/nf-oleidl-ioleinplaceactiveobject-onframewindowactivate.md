@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.OnFrameWindowActivate
+ - IOleInPlaceActiveObject::OnFrameWindowActivate
 ---
 
 # IOleInPlaceActiveObject::OnFrameWindowActivate
@@ -73,3 +73,4 @@ This method returns S_OK on success.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+

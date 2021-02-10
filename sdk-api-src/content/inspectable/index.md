@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - inspectable
  - inspectable/inspectable
+api_name:
+ - inspectable
 ---
 
 # Inspectable.h header

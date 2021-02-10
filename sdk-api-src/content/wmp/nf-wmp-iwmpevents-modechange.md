@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.ModeChange
+ - IWMPEvents::ModeChange
 ---
 
 # IWMPEvents::ModeChange
@@ -80,3 +80,4 @@ Indicates the new state of the specified mode.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

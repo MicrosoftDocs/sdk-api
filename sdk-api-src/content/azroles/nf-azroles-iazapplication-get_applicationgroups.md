@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication.ApplicationGroups
- - IAzApplication.get_ApplicationGroups
- - AzApplication.ApplicationGroups
+ - IAzApplication::get_ApplicationGroups
 ---
 
 # IAzApplication::get_ApplicationGroups
@@ -61,3 +59,4 @@ This property is read-only.
 ## -remarks
 
 This property can be used only to enumerate <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects that are direct child objects of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
+

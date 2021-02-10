@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItemContainer.GetSyncItemEnumerator
+ - ISyncMgrSyncItemContainer::GetSyncItemEnumerator
 ---
 
 # ISyncMgrSyncItemContainer::GetSyncItemEnumerator
@@ -97,3 +97,4 @@ STDMETHODIMP CMyDeviceHandler::GetSyncItemEnumerator(
 }
 
 ```
+

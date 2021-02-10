@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IEnumOleDocumentViews.Skip
+ - IEnumOleDocumentViews::Skip
 ---
 
 # IEnumOleDocumentViews::Skip
@@ -65,3 +65,4 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a>
+

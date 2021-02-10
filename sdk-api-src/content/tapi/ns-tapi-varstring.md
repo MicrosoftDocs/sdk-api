@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - varstring_tag
+ - LPVARSTRING
  - VARSTRING
 ---
 
@@ -95,3 +97,4 @@ If a string cannot be returned in a variable structure, the <b>dwStringSize</b> 
 <li><b>dwStringOffset</b> is nonzero and <b>dwStringSize</b> is zero.</li>
 <li><b>dwStringOffset</b> is nonzero, <b>dwStringSize</b> is 1, and the byte at the given offset is zero.</li>
 </ul>
+

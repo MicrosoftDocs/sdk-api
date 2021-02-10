@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControl.OnMnemonic
+ - IOleControl::OnMnemonic
 ---
 
 # IOleControl::OnMnemonic
@@ -109,3 +109,4 @@ If a control changes the contents of its <a href="/windows/desktop/api/ocidl/ns-
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-oncontrolinfochanged">IOleControlSite::OnControlInfoChanged</a>
+

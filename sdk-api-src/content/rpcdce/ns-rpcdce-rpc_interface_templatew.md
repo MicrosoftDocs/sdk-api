@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - RPC_INTERFACE_TEMPLATE
- - RPC_INTERFACE_TEMPLATEA
+ - PRPC_INTERFACE_TEMPLATEW
  - RPC_INTERFACE_TEMPLATEW
 ---
 
@@ -163,3 +162,4 @@ In some cases, the RPC run time may call the security-callback function more tha
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupdeactivate">RpcServerInterfaceGroupDeactivate</a>
+

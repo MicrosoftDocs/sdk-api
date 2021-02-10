@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterResourceInfo.GetResourceHandle
+ - IGetClusterResourceInfo::GetResourceHandle
 ---
 
 # IGetClusterResourceInfo::GetResourceHandle
@@ -79,3 +79,4 @@ If <b>GetResourceHandle</b> is
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>
+

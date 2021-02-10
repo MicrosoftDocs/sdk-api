@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumResourceNamesA
  - winbase/EnumResourceNamesA
+ - EnumResourceNames
+ - winbase/EnumResourceNames
 dev_langs:
  - c++
 topic_type:
@@ -44,12 +46,12 @@ api_location:
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
  - KernelBase.dll
 api_name:
- - EnumResourceNames
  - EnumResourceNamesA
- - EnumResourceNamesW
+ - EnumResourceNames
 ---
 
 # EnumResourceNamesA function
+
 
 ## -description
 
@@ -121,3 +123,4 @@ For an example, see [Creating a Resource List](/windows/desktop/menurc/using-res
 ### Reference
 
 - [Menus and Other Resources](/windows/desktop/menurc/resources)
+

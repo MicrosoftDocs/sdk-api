@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.Selected
- - IX509EnrollmentStatus.get_Selected
- - IX509EnrollmentStatus.put_Selected
+ - IX509EnrollmentStatus::get_Selected
 ---
 
 # IX509EnrollmentStatus::get_Selected
@@ -65,3 +63,4 @@ This property is currently used only to identify which cryptographic provider/al
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
+

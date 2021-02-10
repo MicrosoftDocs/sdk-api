@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFCLOCK_PROPERTIES
  - MFCLOCK_PROPERTIES
 ---
 
@@ -138,3 +139,4 @@ Jitter due to dropping to normal thread execution before time stamping.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetSystemWindowsDirectoryA
  - sysinfoapi/GetSystemWindowsDirectoryA
+ - GetSystemWindowsDirectory
+ - sysinfoapi/GetSystemWindowsDirectory
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetSystemWindowsDirectory
  - GetSystemWindowsDirectoryA
- - GetSystemWindowsDirectoryW
+ - GetSystemWindowsDirectory
 ---
 
 # GetSystemWindowsDirectoryA function
@@ -113,3 +114,4 @@ With Terminal Services, the
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - tagDEVINFO
+ - PDEVINFO
  - DEVINFO
 ---
 
@@ -679,3 +681,4 @@ For driver-defined graphics DDI functions that receive a ROP4 input argument, on
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
+

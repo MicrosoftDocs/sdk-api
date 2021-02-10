@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - AuditSetGlobalSaclW
  - ntsecapi/AuditSetGlobalSaclW
+ - AuditSetGlobalSacl
+ - ntsecapi/AuditSetGlobalSacl
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Security-audit-l1-1-1.dll
  - sechost.dll
 api_name:
- - AuditSetGlobalSacl
- - AuditSetGlobalSaclA
  - AuditSetGlobalSaclW
+ - AuditSetGlobalSacl
 ---
 
 # AuditSetGlobalSaclW function
@@ -113,3 +114,4 @@ To successfully call this function, the caller must have <b>SeSecurityPrivilege<
 
 > [!NOTE]
 > The ntsecapi.h header defines AuditSetGlobalSacl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadResult.GetUpdateResult
+ - IDownloadResult::GetUpdateResult
 ---
 
 # IDownloadResult::GetUpdateResult
@@ -71,3 +71,4 @@ error code.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadresult">IDownloadResult</a>
+

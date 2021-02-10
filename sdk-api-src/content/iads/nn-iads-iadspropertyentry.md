@@ -43,7 +43,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsPropertyEntry
- - PropertyEntry
 ---
 
 # IADsPropertyEntry interface
@@ -91,3 +90,4 @@ Use the property methods of <b>IADsPropertyEntry</b> to examine and manipulate i
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

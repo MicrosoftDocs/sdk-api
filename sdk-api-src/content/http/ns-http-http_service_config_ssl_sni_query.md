@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_SERVICE_CONFIG_SSL_SNI_QUERY
+ - PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY
  - HTTP_SERVICE_CONFIG_SSL_SNI_QUERY
 ---
 
@@ -129,3 +131,4 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
+

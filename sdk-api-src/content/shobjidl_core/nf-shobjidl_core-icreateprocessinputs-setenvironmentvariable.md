@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ICreateProcessInputs.SetEnvironmentVariable
+ - ICreateProcessInputs::SetEnvironmentVariable
 ---
 
 # ICreateProcessInputs::SetEnvironmentVariable
@@ -77,3 +77,4 @@ If a variable with the same name already exists in the environment of the create
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreatingprocess-oncreating">ICreatingProcess::OnCreating</a>
+

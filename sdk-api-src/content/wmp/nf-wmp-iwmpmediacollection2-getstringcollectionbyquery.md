@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMediaCollection2.getStringCollectionByQuery
+ - IWMPMediaCollection2::getStringCollectionByQuery
 ---
 
 # IWMPMediaCollection2::getStringCollectionByQuery
@@ -123,3 +123,4 @@ When the compound query specified by the <i>pQuery</i> parameter contains a cond
 
 
 <a href="/windows/desktop/WMP/mediatype-attribute">MediaType Attribute</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.SubstituteKeyboardLayout
+ - ITfInputProcessorProfiles::SubstituteKeyboardLayout
 ---
 
 # ITfInputProcessorProfiles::SubstituteKeyboardLayout
@@ -110,3 +110,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
+

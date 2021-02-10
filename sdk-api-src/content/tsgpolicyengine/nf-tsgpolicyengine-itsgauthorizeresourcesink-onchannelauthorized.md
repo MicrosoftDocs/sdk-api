@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGPolicyEngine.h
 api_name:
- - ITSGAuthorizeResourceSink.OnChannelAuthorized
+ - ITSGAuthorizeResourceSink::OnChannelAuthorized
 ---
 
 # ITSGAuthorizeResourceSink::OnChannelAuthorized
@@ -99,3 +99,4 @@ For a sample that uses the <b>OnChannelAuthorized</b> method, see the [Remote De
 ## -see-also
 
 <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgauthorizeresourcesink">ITSGAuthorizeResourceSink</a>
+

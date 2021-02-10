@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _MPR_CREDENTIALSEX_1
+ - PMPR_CREDENTIALSEX_1
  - MPR_CREDENTIALSEX_1
 ---
 
@@ -79,3 +81,4 @@ To a delete a pre-shared key, call
 
 
 <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentialsex">MprAdminInterfaceSetCredentialsEx</a>
+

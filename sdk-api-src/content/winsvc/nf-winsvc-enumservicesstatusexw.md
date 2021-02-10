@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumServicesStatusExW
  - winsvc/EnumServicesStatusExW
+ - EnumServicesStatusEx
+ - winsvc/EnumServicesStatusEx
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - API-Ms-Win-Service-Core-L1-1-2.dll
  - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
 api_name:
- - EnumServicesStatusEx
- - EnumServicesStatusExA
  - EnumServicesStatusExW
+ - EnumServicesStatusEx
 ---
 
 # EnumServicesStatusExW function
@@ -330,3 +331,4 @@ If the caller does not have the <b>SERVICE_QUERY_STATUS</b> access right to a se
 
 
 <a href="/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
+

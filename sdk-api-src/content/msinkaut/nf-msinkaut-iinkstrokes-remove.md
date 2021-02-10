@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokes.Remove
+ - IInkStrokes::Remove
 ---
 
 # IInkStrokes::Remove
@@ -168,3 +168,4 @@ After calling the <b>Remove</b> method, the strokes in the collection are reorde
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-removestrokes">RemoveStrokes Method</a>
+

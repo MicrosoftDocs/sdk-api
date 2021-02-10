@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _LOAD_DLL_DEBUG_INFO
+ - LPLOAD_DLL_DEBUG_INFO
  - LOAD_DLL_DEBUG_INFO
 ---
 
@@ -105,3 +107,4 @@ A value that indicates whether a filename specified by <b>lpImageName</b> is Uni
 
 
 <a href="/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a>
+

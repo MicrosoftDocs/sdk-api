@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLBindingTable.BindTemporaryResource
+ - IDMLBindingTable::BindTemporaryResource
 ---
 
 # IDMLBindingTable::BindTemporaryResource
@@ -84,3 +84,4 @@ An optional pointer to a [DML_BINDING_DESC](/windows/win32/api/directml/ns-direc
 
 
 [IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlbindingtable)
+

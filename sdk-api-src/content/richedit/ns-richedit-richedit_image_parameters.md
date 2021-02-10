@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - tagRICHEDIT_IMAGE_PARAMETERS
  - RICHEDIT_IMAGE_PARAMETERS
 ---
 
@@ -123,3 +124,4 @@ The height, in HIMETRIC units, of the image.
 ## -see-also
 
 <a href="/windows/desktop/Controls/em-insertimage">EM_INSERTIMAGE</a>
+

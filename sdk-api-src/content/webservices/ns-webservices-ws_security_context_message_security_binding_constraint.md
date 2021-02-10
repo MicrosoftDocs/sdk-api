@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT
  - WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT
 ---
 
@@ -75,3 +76,4 @@ This specifies how the security context token should be attached to a message.
 ### -field bootstrapSecurityConstraint
 
 This specifies the bootstrap security used to establish the secure conversation context.
+

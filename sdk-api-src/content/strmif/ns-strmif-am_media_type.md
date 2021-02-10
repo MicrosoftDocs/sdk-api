@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - _AMMediaType
  - AM_MEDIA_TYPE
 ---
 
@@ -254,3 +255,4 @@ To obtain detailed information about a specified media type for debugging purpos
 
 
 <a href="/windows/desktop/DirectShow/media-types">Media Types</a>
+

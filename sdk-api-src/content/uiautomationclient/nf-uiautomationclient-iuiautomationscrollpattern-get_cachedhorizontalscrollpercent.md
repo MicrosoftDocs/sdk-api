@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CachedHorizontalScrollPercent
- - IUIAutomationScrollPattern.get_CachedHorizontalScrollPercent
+ - IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent
 ---
 
 # IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedverticalscrollpercent">IUIAutomationScrollPattern::CachedVerticalScrollPercent</a>
+

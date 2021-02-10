@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.KeySpec
- - ICEnroll4.get_KeySpec
- - ICEnroll4.put_KeySpec
- - ICEnroll3.KeySpec
- - ICEnroll3.get_KeySpec
- - ICEnroll3.put_KeySpec
- - ICEnroll2.KeySpec
- - ICEnroll2.get_KeySpec
- - ICEnroll2.put_KeySpec
- - ICEnroll.KeySpec
- - ICEnroll.get_KeySpec
- - ICEnroll.put_KeySpec
- - CEnroll.KeySpec
+ - ICEnroll::put_KeySpec
 ---
 
 # ICEnroll::put_KeySpec
@@ -118,3 +106,4 @@ if (FAILED( hr ))
 else
     printf( "KeySpec set to %d\n", AT_KEYEXCHANGE );
 ```
+

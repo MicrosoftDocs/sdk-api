@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_TIMEOUT_LIMIT_INFO
+ - PHTTP_TIMEOUT_LIMIT_INFO
  - HTTP_TIMEOUT_LIMIT_INFO
 ---
 
@@ -187,3 +189,4 @@ Setting a timeout to zero on a server session causes the HTTP Server API to reve
 
 
 <a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
+

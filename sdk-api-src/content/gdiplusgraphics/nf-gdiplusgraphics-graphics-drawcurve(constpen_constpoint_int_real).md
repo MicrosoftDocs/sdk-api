@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawCurve
+ - Graphics::DrawCurve
 ---
 
 # Graphics::DrawCurve(IN const Pen,IN const Point,IN INT,IN REAL)
@@ -157,3 +157,4 @@ VOID Example_DrawCurve3(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+

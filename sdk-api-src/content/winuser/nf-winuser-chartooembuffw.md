@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-chartranslation-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - CharToOemBuffW
  - winuser/CharToOemBuffW
+ - CharToOemBuff
+ - winuser/CharToOemBuff
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - User32.dll
  - Ext-MS-Win-NTUser-chartranslation-l1-1-0.dll
 api_name:
- - CharToOemBuff
- - CharToOemBuffA
  - CharToOemBuffW
-req.apiset: ext-ms-win-ntuser-chartranslation-l1-1-0 (introduced in Windows 8)
+ - CharToOemBuff
 ---
 
 # CharToOemBuffW function
@@ -116,3 +117,4 @@ Unlike the <a href="/windows/desktop/api/winuser/nf-winuser-chartooema">CharToOe
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgDocument.GetRoot
+ - ID2D1SvgDocument::GetRoot
 ---
 
 # ID2D1SvgDocument::GetRoot
@@ -63,3 +63,4 @@ Outputs the root element of the document.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgdocument">ID2D1SvgDocument</a>
+

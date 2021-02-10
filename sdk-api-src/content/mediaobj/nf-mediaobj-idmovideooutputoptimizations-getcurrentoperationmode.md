@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IDMOVideoOutputOptimizations.GetCurrentOperationMode
+ - IDMOVideoOutputOptimizations::GetCurrentOperationMode
 ---
 
 # IDMOVideoOutputOptimizations::GetCurrentOperationMode
@@ -110,3 +110,4 @@ Success
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-idmovideooutputoptimizations">IDMOVideoOutputOptimizations Interface</a>
+

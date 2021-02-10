@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourceNotification.NotifyClientConnectionStateChange
+ - ITsSbResourceNotification::NotifyClientConnectionStateChange
 ---
 
 # ITsSbResourceNotification::NotifyClientConnectionStateChange
@@ -126,3 +126,4 @@ RD Connection Broker calls the <b>NotifyClientConnectionStateChange</b> method 
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
+

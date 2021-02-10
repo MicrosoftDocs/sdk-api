@@ -41,8 +41,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyDescription.Description
- - ICertPropertyDescription.get_Description
+ - ICertPropertyDescription::get_Description
 ---
 
 # ICertPropertyDescription::get_Description
@@ -75,3 +74,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyfriendlyname">ICertPropertyFriendlyName</a>
+

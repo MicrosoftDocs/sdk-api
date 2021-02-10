@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcStubBuffer.CountRefs
+ - IRpcStubBuffer::CountRefs
 ---
 
 # IRpcStubBuffer::CountRefs
@@ -61,3 +61,4 @@ This method returns the total number of references that a stub has on the server
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
+

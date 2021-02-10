@@ -44,9 +44,7 @@ api_location:
  - wfapi.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication.Scope
- - INetFwAuthorizedApplication.get_Scope
- - INetFwAuthorizedApplication.put_Scope
+ - INetFwAuthorizedApplication::get_Scope
 ---
 
 # INetFwAuthorizedApplication::get_Scope
@@ -83,3 +81,4 @@ To create a custom scope, use the <a href="/previous-versions/windows/desktop/ap
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_scope">NET_FW_SCOPE</a>
+

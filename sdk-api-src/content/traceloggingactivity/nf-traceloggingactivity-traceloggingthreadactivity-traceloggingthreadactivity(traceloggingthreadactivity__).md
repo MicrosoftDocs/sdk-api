@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingThreadActivity.TraceLoggingThreadActivity
+ - TraceLoggingThreadActivity::TraceLoggingThreadActivity
 ---
 
 # TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)
@@ -90,3 +90,4 @@ A reference to a <b>TraceLoggingThreadActivity</b>.
 
 
 <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity-r1">TraceLoggingThreadActivity</a>
+

@@ -9,6 +9,8 @@ tech.root: netmgmt
 f1_keywords:
  - lmserver
  - lmserver/lmserver
+api_name:
+ - lmserver
 ---
 
 # Lmserver.h header

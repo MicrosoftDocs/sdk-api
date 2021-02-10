@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - windowsstoragecom
  - windowsstoragecom/windowsstoragecom
+api_name:
+ - windowsstoragecom
 ---
 
 # Windowsstoragecom.h header

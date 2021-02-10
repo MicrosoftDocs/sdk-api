@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMNetShowExProps.get_SourceProtocol
+ - IAMNetShowExProps::get_SourceProtocol
 ---
 
 # IAMNetShowExProps::get_SourceProtocol
@@ -106,3 +106,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowexprops">IAMNetShowExProps Interface</a>
+

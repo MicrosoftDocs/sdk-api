@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+ - PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER
  - FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 ---
 
@@ -147,3 +149,4 @@ Size in bytes of a cluster for this volume. This value must be a power of 2, mus
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

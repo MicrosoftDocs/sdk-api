@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _SECURITY_LOGON_TYPE
+ - PSECURITY_LOGON_TYPE
  - SECURITY_LOGON_TYPE
 ---
 
@@ -107,3 +109,4 @@ Same as <b>RemoteInteractive</b>, except used internally for auditing purposes.
 ### -field CachedUnlock
 
 The logon is an attempt to unlock a workstation.
+

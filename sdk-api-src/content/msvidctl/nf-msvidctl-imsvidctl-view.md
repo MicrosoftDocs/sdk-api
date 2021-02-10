@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.View
+ - IMSVidCtl::View
 ---
 
 # IMSVidCtl::View
@@ -121,3 +121,4 @@ hr = pVidControl->View(&varFileName);
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputsavailable">IMSVidCtl::get_InputsAvailable</a>
+

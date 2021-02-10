@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - sbe
  - sbe/sbe
+api_name:
+ - sbe
 ---
 
 # Sbe.h header

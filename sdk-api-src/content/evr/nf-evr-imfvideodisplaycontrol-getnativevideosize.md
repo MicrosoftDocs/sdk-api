@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetNativeVideoSize
+ - IMFVideoDisplayControl::GetNativeVideoSize
 ---
 
 # IMFVideoDisplayControl::GetNativeVideoSize
@@ -124,3 +124,4 @@ You can set <i>pszVideo</i> or <i>pszARVideo</i> to <b>NULL</b>, but not both.
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
+

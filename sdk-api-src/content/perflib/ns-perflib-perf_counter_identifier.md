@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
+ - _PERF_COUNTER_IDENTIFIER
+ - PPERF_COUNTER_IDENTIFIER
  - PERF_COUNTER_IDENTIFIER
 ---
 
@@ -118,3 +120,4 @@ order in which the  query gets the results.
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterinfo">PerfQueryCounterInfo</a>
+

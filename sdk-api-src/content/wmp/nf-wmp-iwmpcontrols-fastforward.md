@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls.fastForward
+ - IWMPControls::fastForward
 ---
 
 # IWMPControls::fastForward
@@ -101,3 +101,4 @@ The <b>fastForward</b> method does not work for live broadcasts and certain medi
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_rate">IWMPSettings::put_rate</a>
+

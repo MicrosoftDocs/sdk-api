@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmStorageModuleImplementation.UseDefinitions
+ - IFsrmStorageModuleImplementation::UseDefinitions
 ---
 
 # IFsrmStorageModuleImplementation::UseDefinitions
@@ -75,3 +75,4 @@ The storage module may optionally use the collection of property definitions whe
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>
+

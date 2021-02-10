@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIFactory.GetWindowAssociation
+ - IDXGIFactory::GetWindowAssociation
 ---
 
 # IDXGIFactory::GetWindowAssociation
@@ -79,3 +79,4 @@ Returns a code that indicates success or failure. <b>S_OK</b> indicates success,
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
+

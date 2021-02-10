@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterResourceInfo.GetResourceNetworkName
+ - IGetClusterResourceInfo::GetResourceNetworkName
 ---
 
 # IGetClusterResourceInfo::GetResourceNetworkName
@@ -137,3 +137,4 @@ The name of the network is stored in the Network Name resource's Name private pr
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>
+

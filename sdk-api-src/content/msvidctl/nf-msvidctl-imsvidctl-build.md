@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.Build
+ - IMSVidCtl::Build
 ---
 
 # IMSVidCtl::Build
@@ -69,3 +69,4 @@ This method builds a filter graph using the current input device. To select an i
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-decompose">IMSVidCtl::Decompose</a>
+

@@ -9,6 +9,8 @@ tech.root: buses
 f1_keywords:
  - winusb
  - winusb/winusb
+api_name:
+ - winusb
 ---
 
 # Winusb.h header

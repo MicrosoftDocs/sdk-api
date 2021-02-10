@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer.GenerateIndexEntries
+ - IMFASFIndexer::GenerateIndexEntries
 ---
 
 # IMFASFIndexer::GenerateIndexEntries
@@ -123,3 +123,4 @@ You cannot use this method while reading an index, only when writing an index.
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
+

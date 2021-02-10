@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsEvents.OnSetSmsConfigurationComplete
+ - IMbnSmsEvents::OnSetSmsConfigurationComplete
 ---
 
 # IMbnSmsEvents::OnSetSmsConfigurationComplete
@@ -139,3 +139,4 @@ This method is used to notify an application of the completion of a set SMS conf
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify.SetDDrawDevice
+ - IVMRSurfaceAllocatorNotify::SetDDrawDevice
 ---
 
 # IVMRSurfaceAllocatorNotify::SetDDrawDevice
@@ -78,3 +78,4 @@ The VMR needs to know which DirectDraw device is being used at any given time in
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

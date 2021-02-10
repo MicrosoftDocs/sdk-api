@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceProxy.GetServiceProxyById
+ - IWSDDeviceProxy::GetServiceProxyById
 ---
 
 # IWSDDeviceProxy::GetServiceProxyById
@@ -131,3 +131,4 @@ There is no endpoint associated with the service proxy.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
+

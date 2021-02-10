@@ -47,6 +47,8 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
+ - _MIB_IPMCAST_GLOBAL
+ - PMIB_IPMCAST_GLOBAL
  - MIB_IPMCAST_GLOBAL
 ---
 
@@ -79,3 +81,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
+

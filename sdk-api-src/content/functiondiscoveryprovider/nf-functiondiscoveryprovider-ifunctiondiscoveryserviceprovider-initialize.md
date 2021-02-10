@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryServiceProvider.Initialize
+ - IFunctionDiscoveryServiceProvider::Initialize
 ---
 
 # IFunctionDiscoveryServiceProvider::Initialize
@@ -108,3 +108,4 @@ Any error code indicates failure. The provider should return an appropriate erro
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider">IFunctionDiscoveryServiceProvider</a>
+

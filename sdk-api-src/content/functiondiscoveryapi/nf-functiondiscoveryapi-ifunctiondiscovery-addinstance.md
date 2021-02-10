@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionDiscovery.AddInstance
+ - IFunctionDiscovery::AddInstance
 ---
 
 # IFunctionDiscovery::AddInstance
@@ -185,3 +185,4 @@ Access permission to change HKEY_LOCAL_MACHINE\SYSTEM registry keys is required 
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
+

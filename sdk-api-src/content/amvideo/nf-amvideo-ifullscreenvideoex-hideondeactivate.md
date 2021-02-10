@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx.HideOnDeactivate
+ - IFullScreenVideoEx::HideOnDeactivate
 ---
 
 # IFullScreenVideoEx::HideOnDeactivate
@@ -116,3 +116,4 @@ Success.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
+

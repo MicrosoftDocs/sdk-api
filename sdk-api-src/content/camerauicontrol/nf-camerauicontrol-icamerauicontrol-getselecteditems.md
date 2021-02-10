@@ -42,7 +42,7 @@ api_type:
 api_location:
  - camerauicontrol.h
 api_name:
- - ICameraUIControl.GetSelectedItems
+ - ICameraUIControl::GetSelectedItems
 ---
 
 # ICameraUIControl::GetSelectedItems
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontrol">ICameraUIControl</a>
+

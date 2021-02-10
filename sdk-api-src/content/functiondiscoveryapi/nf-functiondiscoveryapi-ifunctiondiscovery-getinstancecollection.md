@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionDiscovery.GetInstanceCollection
+ - IFunctionDiscovery::GetInstanceCollection
 ---
 
 # IFunctionDiscovery::GetInstanceCollection
@@ -174,3 +174,4 @@ See interface constraints on <a href="/windows/desktop/api/functiondiscoveryapi/
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
+

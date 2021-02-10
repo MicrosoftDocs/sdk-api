@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.LoadPackageFile
+ - IXpsSignatureManager::LoadPackageFile
 ---
 
 # IXpsSignatureManager::LoadPackageFile
@@ -129,3 +129,4 @@ After <b>LoadPackageFile</b> or <a href="/windows/desktop/api/xpsdigitalsignatur
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

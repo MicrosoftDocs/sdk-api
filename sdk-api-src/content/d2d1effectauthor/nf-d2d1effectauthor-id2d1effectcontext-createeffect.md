@@ -43,7 +43,7 @@ api_location:
  - D2D1.lib
  - D2D1.dll
 api_name:
- - ID2D1EffectContext.CreateEffect
+ - ID2D1EffectContext::CreateEffect
 ---
 
 # ID2D1EffectContext::CreateEffect
@@ -122,3 +122,4 @@ The created effect does not reference count the DLL from which the effect was cr
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
+

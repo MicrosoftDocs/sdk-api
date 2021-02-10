@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - BackupEventLogW
  - winbase/BackupEventLogW
+ - BackupEventLog
+ - winbase/BackupEventLog
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Advapi32.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
 api_name:
- - BackupEventLog
- - BackupEventLogA
  - BackupEventLogW
-req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
+ - BackupEventLog
 ---
 
 # BackupEventLogW function
@@ -92,3 +93,4 @@ The <b>BackupEventLog</b> function fails with the ERROR_PRIVILEGE_NOT_HELD error
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
+

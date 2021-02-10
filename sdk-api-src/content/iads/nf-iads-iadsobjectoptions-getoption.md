@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsObjectOptions.GetOption
+ - IADsObjectOptions::GetOption
 ---
 
 # IADsObjectOptions::GetOption
@@ -77,3 +77,4 @@ The method supports the standard return values, including <b>S_OK</b> if the ope
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
+

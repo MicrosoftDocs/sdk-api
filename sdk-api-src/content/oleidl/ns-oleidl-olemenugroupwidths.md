@@ -46,6 +46,8 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
+ - tagOleMenuGroupWidths
+ - LPOLEMENUGROUPWIDTHS
  - OLEMENUGROUPWIDTHS
 ---
 
@@ -73,3 +75,4 @@ A container application and an object server use this structure to build a share
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a>
+

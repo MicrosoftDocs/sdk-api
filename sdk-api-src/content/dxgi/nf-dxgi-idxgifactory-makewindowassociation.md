@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIFactory.MakeWindowAssociation
+ - IDXGIFactory::MakeWindowAssociation
 ---
 
 ## -description
@@ -114,3 +114,4 @@ A Microsoft Win32 application can use <b>MakeWindowAssociation</b> to control fu
 <a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI interfaces</a>
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
+

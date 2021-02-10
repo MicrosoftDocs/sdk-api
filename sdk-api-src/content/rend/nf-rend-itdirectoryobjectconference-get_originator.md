@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference.get_Originator
+ - ITDirectoryObjectConference::get_Originator
 ---
 
 # ITDirectoryObjectConference::get_Originator
@@ -143,3 +143,4 @@ The originator's name, along with the machine name set in
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_originator">ITDirectoryObjectConference::put_Originator</a>
+

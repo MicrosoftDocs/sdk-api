@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _RETRIEVAL_POINTER_BASE
+ - PRETRIEVAL_POINTER_BASE
  - RETRIEVAL_POINTER_BASE
 ---
 
@@ -64,3 +66,4 @@ The volume-relative sector offset to the first allocatable unit on the file syst
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>
+

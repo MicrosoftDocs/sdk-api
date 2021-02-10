@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_INTERFACE_VERSION
+ - PBCRYPT_INTERFACE_VERSION
  - BCRYPT_INTERFACE_VERSION
 ---
 

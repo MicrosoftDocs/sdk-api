@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumStreamIdMap.Next
+ - IEnumStreamIdMap::Next
 ---
 
 # IEnumStreamIdMap::Next
@@ -82,3 +82,4 @@ If <i>cRequest</i> &gt;= 0 and <i>pcReceived</i> is not <b>NULL</b>, upon return
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumstreamidmap">IEnumStreamIdMap Interface</a>
+

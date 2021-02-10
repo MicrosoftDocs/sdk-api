@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationDragPattern.GetCurrentGrabbedItems
+ - IUIAutomationDragPattern::GetCurrentGrabbedItems
 ---
 
 # IUIAutomationDragPattern::GetCurrentGrabbedItems
@@ -73,3 +73,4 @@ If the user is dragging multiple items, the items are represented by a single ma
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdragpattern">IUIAutomationDragPattern</a>
+

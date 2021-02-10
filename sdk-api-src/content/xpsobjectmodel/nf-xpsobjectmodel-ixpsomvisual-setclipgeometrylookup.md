@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetClipGeometryLookup
+ - IXpsOMVisual::SetClipGeometryLookup
 ---
 
 # IXpsOMVisual::SetClipGeometryLookup
@@ -197,3 +197,4 @@ Neither <b>SetClipGeometryLookup</b> nor <a href="/windows/desktop/api/xpsobject
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

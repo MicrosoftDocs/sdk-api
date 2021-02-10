@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia
+ - IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia
 ---
 
 # IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia
@@ -118,3 +118,4 @@ If called during an <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2t
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_usedsectorsonmedia">IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia</a>
+

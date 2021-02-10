@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IStylesProvider.ExtendedProperties
- - IStylesProvider.get_ExtendedProperties
+ - IStylesProvider::get_ExtendedProperties
 ---
 
 # IStylesProvider::get_ExtendedProperties
@@ -64,3 +63,4 @@ The extended properties must be localized because they are intended to be consum
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-istylesprovider">IStylesProvider</a>
+

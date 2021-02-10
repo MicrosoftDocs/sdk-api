@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IConfigurationDataCollector.FileMaxRecursiveDepth
- - IConfigurationDataCollector.get_FileMaxRecursiveDepth
- - IConfigurationDataCollector.put_FileMaxRecursiveDepth
+ - IConfigurationDataCollector::get_FileMaxRecursiveDepth
 ---
 
 # IConfigurationDataCollector::get_FileMaxRecursiveDepth
@@ -73,3 +71,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_files">IConfigurationDataCollector::Files</a>
+

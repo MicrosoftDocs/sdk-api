@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHGetUnreadMailCountW
  - shellapi/SHGetUnreadMailCountW
+ - SHGetUnreadMailCount
+ - shellapi/SHGetUnreadMailCount
 dev_langs:
  - c++
 topic_type:
@@ -42,8 +44,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHGetUnreadMailCount
  - SHGetUnreadMailCountW
+ - SHGetUnreadMailCount
 ---
 
 # SHGetUnreadMailCountW function
@@ -96,3 +98,4 @@ The maximum size, in characters, of the ShellExecute command buffer pointed to b
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

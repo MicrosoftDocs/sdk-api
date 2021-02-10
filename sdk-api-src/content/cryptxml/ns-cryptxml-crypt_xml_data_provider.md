@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_DATA_PROVIDER
+ - PCRYPT_XML_DATA_PROVIDER
  - CRYPT_XML_DATA_PROVIDER
 ---
 
@@ -75,3 +77,4 @@ A pointer to a <a href="/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_
 ### -field pfnClose
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_data_provider_close">PFN_CRYPT_XML_DATA_PROVIDER_CLOSE</a> callback function used to release the data provider. When you have finished using the data provider, you must release it.
+

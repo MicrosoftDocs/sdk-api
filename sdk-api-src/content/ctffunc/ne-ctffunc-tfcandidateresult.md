@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
+ - __MIDL_ITfCandidateList_0001
  - TfCandidateResult
 ---
 
@@ -72,3 +73,4 @@ The reconversion operation has been canceled.
 
 <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">ITfCandidateList::SetResult
       </a>
+

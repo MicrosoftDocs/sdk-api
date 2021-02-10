@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponentData.Notify
+ - IComponentData::Notify
 ---
 
 # IComponentData::Notify
@@ -120,3 +120,4 @@ For more information, see the individual notifications. The snap-in should retur
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
+

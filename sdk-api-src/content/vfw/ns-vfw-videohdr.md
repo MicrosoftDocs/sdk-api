@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
+ - videohdr_tag
+ - PVIDEOHDR
  - VIDEOHDR
 ---
 
@@ -120,3 +122,4 @@ Reserved for driver.
 
 
 <a href="/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a>
+

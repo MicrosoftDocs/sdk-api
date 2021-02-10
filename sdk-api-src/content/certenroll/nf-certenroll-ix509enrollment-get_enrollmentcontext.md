@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment.EnrollmentContext
- - IX509Enrollment.get_EnrollmentContext
+ - IX509Enrollment::get_EnrollmentContext
 ---
 
 # IX509Enrollment::get_EnrollmentContext
@@ -74,3 +73,4 @@ Before calling this property, you must initialize the <a href="/windows/desktop/
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
+

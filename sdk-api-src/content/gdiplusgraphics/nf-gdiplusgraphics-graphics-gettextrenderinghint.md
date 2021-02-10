@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.GetTextRenderingHint
+ - Graphics::GetTextRenderingHint
 ---
 
 # Graphics::GetTextRenderingHint
@@ -70,3 +70,4 @@ This method returns an element of the <a href="/windows/desktop/api/gdiplusenums
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-textrenderinghint">TextRenderingHint</a>
+

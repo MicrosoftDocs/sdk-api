@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IDMOVideoOutputOptimizations.GetCurrentSampleRequirements
+ - IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
 ---
 
 # IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
@@ -118,3 +118,4 @@ The DMO will return only the flags that were agreed to in the <b>SetOperationMod
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-idmovideooutputoptimizations">IDMOVideoOutputOptimizations Interface</a>
+

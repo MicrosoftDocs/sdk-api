@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - ENUMTEXTMETRIC
+ - tagENUMTEXTMETRICA
+ - PENUMTEXTMETRICA
  - ENUMTEXTMETRICA
- - ENUMTEXTMETRICW
 ---
 
 # ENUMTEXTMETRICA structure
@@ -120,3 +120,4 @@ The <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>, <a
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-newtextmetricexa">NEWTEXTMETRICEX</a>
+

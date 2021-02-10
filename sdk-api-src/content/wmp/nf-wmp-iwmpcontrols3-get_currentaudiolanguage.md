@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls3.get_currentAudioLanguage
+ - IWMPControls3::get_currentAudioLanguage
 ---
 
 # IWMPControls3::get_currentAudioLanguage
@@ -117,3 +117,4 @@ When working with DVD content, specifying an LCID will cause the first available
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguage">IWMPControls3::put_currentAudioLanguage</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_SERVICE_STATE
+ - PWTS_SERVICE_STATE
  - WTS_SERVICE_STATE
 ---
 
@@ -69,3 +71,4 @@ A value of the <a href="/windows/desktop/api/wtsdefs/ne-wtsdefs-wts_rcm_drain_st
 ## -remarks
 
 This structure is used by the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifyservicestatechange">NotifyServiceStateChange</a> method.
+

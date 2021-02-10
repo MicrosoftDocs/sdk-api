@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary.Append
+ - IXpsOMDictionary::Append
 ---
 
 # IXpsOMDictionary::Append
@@ -130,3 +130,4 @@ The figure that follows illustrates how the dictionary is changed by the <b>Appe
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

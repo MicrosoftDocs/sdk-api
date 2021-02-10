@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1018
+ - PSERVER_INFO_1018
  - SERVER_INFO_1018
 ---
 
@@ -93,3 +95,4 @@ The delta value allows randomly varied announce rates. For example, if the sv<i>
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

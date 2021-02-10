@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource2.SetCredentialsEx
+ - IWMSInternalAdminNetSource2::SetCredentialsEx
 ---
 
 # IWMSInternalAdminNetSource2::SetCredentialsEx
@@ -102,3 +102,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource2-getcredentialsex">IWMSInternalAdminNetSource2::GetCredentialsEx</a>
+

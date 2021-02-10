@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.h
 api_name:
- - ITfThreadMgr2.GetFunctionProvider
+ - ITfThreadMgr2::GetFunctionProvider
 ---
 
 # ITfThreadMgr2::GetFunctionProvider
@@ -140,3 +140,4 @@ A function provider registers by calling the TSF manager <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
+

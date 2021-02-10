@@ -34,6 +34,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateServiceA
  - winsvc/CreateServiceA
+ - CreateService
+ - winsvc/CreateService
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-1-0.dll
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - CreateService
  - CreateServiceA
- - CreateServiceW
+ - CreateService
 ---
 
 # CreateServiceA function
@@ -675,3 +676,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
+

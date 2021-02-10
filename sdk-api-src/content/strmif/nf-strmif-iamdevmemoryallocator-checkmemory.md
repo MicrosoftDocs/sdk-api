@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMDevMemoryAllocator.CheckMemory
+ - IAMDevMemoryAllocator::CheckMemory
 ---
 
 # IAMDevMemoryAllocator::CheckMemory
@@ -75,3 +75,4 @@ The hardware filter typically uses this method to test whether the pointer actua
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator Interface</a>
+

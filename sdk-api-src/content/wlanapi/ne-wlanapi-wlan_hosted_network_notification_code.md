@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
+ - _WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+ - PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE
  - WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 ---
 
@@ -151,3 +153,4 @@ the <i>pData</i> member of <a href="/previous-versions/windows/desktop/legacy/ms
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
+

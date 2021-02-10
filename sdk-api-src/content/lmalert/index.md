@@ -9,6 +9,8 @@ tech.root: netmgmt
 f1_keywords:
  - lmalert
  - lmalert/lmalert
+api_name:
+ - lmalert
 ---
 
 # Lmalert.h header

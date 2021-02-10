@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplateManager.ImportTemplates
- - FsrmQuotaTemplateManager.ImportTemplates
+ - IFsrmQuotaTemplateManager::ImportTemplates
 ---
 
 # IFsrmQuotaTemplateManager::ImportTemplates
@@ -99,3 +98,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

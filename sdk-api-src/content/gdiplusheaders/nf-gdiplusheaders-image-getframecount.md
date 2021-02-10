@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.GetFrameCount
+ - Image::GetFrameCount
 ---
 
 # Image::GetFrameCount
@@ -98,3 +98,4 @@ This method returns the number of frames in the specified dimension of this
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)">Image::SaveAdd Methods</a>
+

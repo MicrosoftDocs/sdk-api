@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition.ValueDescriptions
- - IFsrmPropertyDefinition.get_ValueDescriptions
- - IFsrmPropertyDefinition.put_ValueDescriptions
+ - IFsrmPropertyDefinition::put_ValueDescriptions
 ---
 
 # IFsrmPropertyDefinition::put_ValueDescriptions
@@ -70,3 +68,4 @@ There is a one-to-one relationship between these descriptions and the list of po
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
+

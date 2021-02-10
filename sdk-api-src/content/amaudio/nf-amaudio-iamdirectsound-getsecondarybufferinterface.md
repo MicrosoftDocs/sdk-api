@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDirectSound.GetSecondaryBufferInterface
+ - IAMDirectSound::GetSecondaryBufferInterface
 ---
 
 # IAMDirectSound::GetSecondaryBufferInterface
@@ -68,3 +68,4 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>
+

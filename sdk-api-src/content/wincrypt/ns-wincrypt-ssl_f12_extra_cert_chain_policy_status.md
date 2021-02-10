@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+ - PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
  - SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 ---
 
@@ -165,3 +167,4 @@ The error string provided if any certificates in the chain have weak cryptograph
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a>
+

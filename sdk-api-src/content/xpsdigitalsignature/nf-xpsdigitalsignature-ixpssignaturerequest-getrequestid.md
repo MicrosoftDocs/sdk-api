@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest.GetRequestId
+ - IXpsSignatureRequest::GetRequestId
 ---
 
 # IXpsSignatureRequest::GetRequestId
@@ -128,3 +128,4 @@ This method allocates the memory used by the string that is returned in <i>reque
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

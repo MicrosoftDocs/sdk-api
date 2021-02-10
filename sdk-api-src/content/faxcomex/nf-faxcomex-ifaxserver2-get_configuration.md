@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer2.Configuration
- - IFaxServer2.get_Configuration
+ - IFaxServer2::get_Configuration
 ---
 
 # IFaxServer2::get_Configuration
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver2">IFaxServer2</a>
+

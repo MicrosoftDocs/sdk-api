@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUSHORTN2.XMUSHORTN2
+ - XMUSHORTN2::XMUSHORTN2
 ---
 
 # XMUSHORTN2::XMUSHORTN2(float,float)
@@ -111,3 +111,4 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmushortn2-ctor">XMUSHORTN2 Constructors</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
+ - tagWORDREP_BREAK_TYPE
  - WORDREP_BREAK_TYPE
 ---
 
@@ -82,3 +83,4 @@ A chapter break is placed between this word and the previous word.
 
 
 <a href="/windows/desktop/search/iwordsink-putword">IWordSink::PutWord</a>
+

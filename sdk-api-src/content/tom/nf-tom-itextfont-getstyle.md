@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.GetStyle
+ - ITextFont::GetStyle
 ---
 
 # ITextFont::GetStyle
@@ -121,3 +121,4 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

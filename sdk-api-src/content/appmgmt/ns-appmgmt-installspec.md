@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Appmgmt.h
 api_name:
+ - _INSTALLSPEC
  - INSTALLSPEC
 ---
 
@@ -111,3 +112,4 @@ This parameter is reserved and should not be used.
 
 
 <a href="/windows/desktop/api/appmgmt/nf-appmgmt-uninstallapplication">UninstallApplication</a>
+

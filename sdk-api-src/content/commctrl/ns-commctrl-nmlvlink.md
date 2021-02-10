@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMLVLINK
+ - PNMLVLINK
  - NMLVLINK
 ---
 
@@ -83,3 +85,4 @@ Index of the item that contains the link.
 Type: <b>int</b>
 
 Subitem, if any. This member may be <b>NULL</b>. For a link in a group header, this is the group identifier, as set in <a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.
+

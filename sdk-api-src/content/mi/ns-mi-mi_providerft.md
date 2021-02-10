@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ProviderFT
  - MI_ProviderFT
 ---
 
@@ -179,3 +180,4 @@ The server calls this function to carry out a CIM extrinsic method
 
 
 <a href="/previous-versions/windows/desktop/legacy/dn759660(v=vs.85)">MI_ProviderFT_Unsubscribe</a>
+

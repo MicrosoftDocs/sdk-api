@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.SetCellIndex
+ - ITextRow::SetCellIndex
 ---
 
 # ITextRow::SetCellIndex
@@ -87,3 +87,4 @@ You can get or set parameters for an active cell.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-setcellcount">ITextRow::SetCellCount</a>
+

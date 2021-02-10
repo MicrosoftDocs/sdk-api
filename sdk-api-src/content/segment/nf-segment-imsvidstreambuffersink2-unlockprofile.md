@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink2.UnlockProfile
+ - IMSVidStreamBufferSink2::UnlockProfile
 ---
 
 # IMSVidStreamBufferSink2::UnlockProfile
@@ -84,3 +84,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink2">IMSVidStreamBufferSink2 Interface</a>
+

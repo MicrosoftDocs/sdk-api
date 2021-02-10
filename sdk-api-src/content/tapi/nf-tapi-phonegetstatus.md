@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - phoneGetStatus
- - phoneGetStatusA
- - phoneGetStatusW
 ---
 
 # phoneGetStatus function
@@ -87,3 +85,4 @@ An application can use this function to determine the current state of an open p
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+

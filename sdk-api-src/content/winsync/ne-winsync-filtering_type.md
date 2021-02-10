@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
+ - __MIDL___MIDL_itf_winsync_0000_0000_0008
  - FILTERING_TYPE
 ---
 
@@ -72,3 +73,4 @@ A replica that does not keep ghosts for items that are not in the filter indicat
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
+

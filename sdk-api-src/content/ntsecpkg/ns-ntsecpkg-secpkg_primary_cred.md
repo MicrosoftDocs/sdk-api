@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_PRIMARY_CRED
+ - PSECPKG_PRIMARY_CRED
  - SECPKG_PRIMARY_CRED
 ---
 
@@ -173,3 +175,4 @@ For cached logons, the RPC identifier of the package that performs the logon is 
 #define PRIMARY_CRED_LOGON_PACKAGE_SHIFT 24
 
 ```
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.AddAlternativeLocationMapping
+ - IVssBackupComponents::AddAlternativeLocationMapping
 ---
 
 # IVssBackupComponents::AddAlternativeLocationMapping
@@ -271,3 +271,4 @@ An alternate location mapping is used only during a restore operation and should
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.SetBackColor
+ - ITextFont::SetBackColor
 ---
 
 # ITextFont::SetBackColor
@@ -180,3 +180,4 @@ Insufficient memory.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

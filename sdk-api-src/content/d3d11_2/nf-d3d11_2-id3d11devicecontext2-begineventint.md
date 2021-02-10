@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_2.h
 api_name:
- - ID3D11DeviceContext2.BeginEventInt
+ - ID3D11DeviceContext2::BeginEventInt
 ---
 
 # ID3D11DeviceContext2::BeginEventInt
@@ -69,3 +69,4 @@ A signed data value that will be logged to ETW when ETW logging is active.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
+

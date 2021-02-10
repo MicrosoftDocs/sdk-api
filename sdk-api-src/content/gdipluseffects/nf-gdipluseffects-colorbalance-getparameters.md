@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ColorBalance.GetParameters
+ - ColorBalance::GetParameters
 ---
 
 # ColorBalance::GetParameters
@@ -83,3 +83,4 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorbalance-setparameters">ColorBalance::SetParameters</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.GetFileProperty
+ - IFsrmPropertyBag::GetFileProperty
 ---
 
 # IFsrmPropertyBag::GetFileProperty
@@ -77,3 +77,4 @@ Use the property name specified in the rule's <a href="/previous-versions/window
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-setfileproperty">IFsrmPropertyBag::SetFileProperty</a>
+

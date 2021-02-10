@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
+ - ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
 ---
 
 # ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
@@ -120,3 +120,4 @@ This object does not contain prerequisite knowledge.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangewithprerequisite">ISyncChangeWithPrerequisite Interface</a>
+

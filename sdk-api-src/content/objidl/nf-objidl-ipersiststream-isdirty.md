@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStream.IsDirty
+ - IPersistStream::IsDirty
 ---
 
 # IPersistStream::IsDirty
@@ -70,3 +70,4 @@ Note that the OLE-provided implementations of the <b>IPersistStream::IsDirty</b>
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
+

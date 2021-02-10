@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
+ - _EapCredential
  - EapCredential
 ---
 
@@ -59,8 +60,6 @@ The <b>EapCredential</b> structure contains information about the credentials ty
 ### -field credType
 
 The <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a> for the  credentials passed in the <i>credentials</i> parameter.
-
-
 
 ### -field credData
 
@@ -95,3 +94,4 @@ If <b>credType</b> is set to <b>EAP_SIM_CREDENTIAL</b>, use an <a href="/windows
 
 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a>
+

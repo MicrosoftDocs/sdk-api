@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.SetWidowControl
+ - ITextPara::SetWidowControl
 ---
 
 # ITextPara::SetWidowControl
@@ -200,3 +200,4 @@ A widow is created when the last line of a paragraph is printed by itself at the
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

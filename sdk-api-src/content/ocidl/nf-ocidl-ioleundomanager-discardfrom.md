@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager.DiscardFrom
+ - IOleUndoManager::DiscardFrom
 ---
 
 # IOleUndoManager::DiscardFrom
@@ -108,3 +108,4 @@ If there is an open parent unit and the <b>DiscardFrom</b> method is called and 
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-close">IOleUndoManager::Close</a>
+

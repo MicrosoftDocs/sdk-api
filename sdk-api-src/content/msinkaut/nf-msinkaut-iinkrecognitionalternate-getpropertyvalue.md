@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.GetPropertyValue
+ - IInkRecognitionAlternate::GetPropertyValue
 ---
 
 # IInkRecognitionAlternate::GetPropertyValue
@@ -265,3 +265,4 @@ Cannot allocate memory to complete the operation.
 
 
 <a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty Constants</a>
+

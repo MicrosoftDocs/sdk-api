@@ -9,6 +9,8 @@ tech.root: htmlhelp
 f1_keywords:
  - htmlhelp
  - htmlhelp/htmlhelp
+api_name:
+ - htmlhelp
 ---
 
 # Htmlhelp.h header

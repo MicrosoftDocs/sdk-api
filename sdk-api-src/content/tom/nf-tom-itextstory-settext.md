@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tom.h
 api_name:
- - ITextStory.SetText
+ - ITextStory::SetText
 ---
 
 # ITextStory::SetText
@@ -155,3 +155,4 @@ Insufficient memory.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextstory-gettext">ITextStory::GetText</a>
+

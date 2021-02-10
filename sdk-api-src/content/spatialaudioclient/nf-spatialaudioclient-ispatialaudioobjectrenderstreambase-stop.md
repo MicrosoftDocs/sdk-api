@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase.Stop
+ - ISpatialAudioObjectRenderStreamBase::Stop
 ---
 
 # ISpatialAudioObjectRenderStreamBase::Stop
@@ -134,3 +134,4 @@ The media associated with the spatial audio stream uses an unsupported format.
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+

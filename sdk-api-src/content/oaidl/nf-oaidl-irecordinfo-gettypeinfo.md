@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IRecordInfo.GetTypeInfo
+ - IRecordInfo::GetTypeInfo
 ---
 
 # IRecordInfo::GetTypeInfo
@@ -116,3 +116,4 @@ The state of the type library is not valid for this operation.
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
+

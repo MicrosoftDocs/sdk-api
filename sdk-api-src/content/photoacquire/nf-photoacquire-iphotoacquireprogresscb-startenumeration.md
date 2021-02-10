@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.StartEnumeration
+ - IPhotoAcquireProgressCB::StartEnumeration
 ---
 
 # IPhotoAcquireProgressCB::StartEnumeration
@@ -99,3 +99,4 @@ The method is not implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
+

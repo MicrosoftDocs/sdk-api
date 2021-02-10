@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_QC_STATEMENTS_EXT_INFO
+ - PCERT_QC_STATEMENTS_EXT_INFO
  - CERT_QC_STATEMENTS_EXT_INFO
 ---
 
@@ -73,3 +75,4 @@ An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_qc_statement
 
 
 <a href="https://www.ietf.org/rfc/rfc3739.txt">RFC 3739</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IAudioInputSelector.SetSelection
+ - IAudioInputSelector::SetSelection
 ---
 
 # IAudioInputSelector::SetSelection
@@ -108,3 +108,4 @@ For a code example that calls the <b>SetSelection</b> method, see the implementa
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getlocalid">IPart::GetLocalId</a>
+

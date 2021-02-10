@@ -46,8 +46,6 @@ api_location:
  - API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
  - mmioRename
- - mmioRenameA
- - mmioRenameW
 ---
 
 # mmioRename function
@@ -78,3 +76,4 @@ Flags for the rename operation. This parameter should be set to zero.
 ## -returns
 
 Returns zero if the file was renamed. Otherwise, returns an error code returned from <b>mmioRename</b> or from the I/O procedure.
+

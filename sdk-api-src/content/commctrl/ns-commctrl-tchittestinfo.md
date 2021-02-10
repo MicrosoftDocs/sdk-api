@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagTCHITTESTINFO
+ - LPTCHITTESTINFO
  - TCHITTESTINFO
 ---
 
@@ -131,3 +133,4 @@ TCHT_ONITEM is a bitwise-OR operation on TCHT_ONITEMICON and TCHT_ONITEMLABEL.
 ## -see-also
 
 <a href="/windows/desktop/Controls/tcm-hittest">TCM_HITTEST</a>
+

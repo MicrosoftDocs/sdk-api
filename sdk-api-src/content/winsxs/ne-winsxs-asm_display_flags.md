@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winsxs.h
 api_name:
+ - __MIDL_IAssemblyName_0003
  - ASM_DISPLAY_FLAGS
 ---
 
@@ -83,3 +84,4 @@ Include the processor architecture.
 ### -field ASM_DISPLAYF_LANGUAGEID
 
 Reserved.
+

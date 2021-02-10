@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_add_s
- - ldap_add_sA
- - ldap_add_sW
 ---
 
 # ldap_add_s function
@@ -119,3 +117,4 @@ Multithreading: Calls to <b>ldap_add_s</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
+

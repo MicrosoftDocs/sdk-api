@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
- - ITMSPAddress.ReceiveTSPData
+ - ITMSPAddress::ReceiveTSPData
 ---
 
 # ITMSPAddress::ReceiveTSPData
@@ -148,3 +148,4 @@ The semantics of the data passed in the buffer are specific to each TSP/MSP pair
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

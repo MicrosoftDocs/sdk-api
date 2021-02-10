@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.RemoveFromSelection
+ - IUIAutomationTextRange::RemoveFromSelection
 ---
 
 # IUIAutomationTextRange::RemoveFromSelection
@@ -71,3 +71,4 @@ The text insertion point moves to the area of the removed highlight. Providing a
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

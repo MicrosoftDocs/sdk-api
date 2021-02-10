@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFELanguage.Close
+ - IFELanguage::Close
 ---
 
 # IFELanguage::Close
@@ -63,3 +63,4 @@ This method must be called after your last use of the <a href="/windows/desktop/
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
+

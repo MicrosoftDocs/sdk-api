@@ -42,7 +42,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
- - IOPMVideoOutput.StartInitialization
+ - IOPMVideoOutput::StartInitialization
 ---
 
 # IOPMVideoOutput::StartInitialization
@@ -91,3 +91,4 @@ The method returns a COPP certificate chain. The certificate chain is returned a
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

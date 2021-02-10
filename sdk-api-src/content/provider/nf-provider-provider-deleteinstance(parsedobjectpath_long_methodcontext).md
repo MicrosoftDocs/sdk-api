@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.DeleteInstance
+ - Provider::DeleteInstance
 ---
 
 # Provider::DeleteInstance(ParsedObjectPath,long,MethodContext)
@@ -99,3 +99,4 @@ WMI invokes <b>DeleteInstance</b> when a client calls <a href="/windows/desktop/
 <li>Delete the instance.</li>
 </ol>
 For more information about deleting instances, see <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstance">IWbemServices::DeleteInstance</a>.
+

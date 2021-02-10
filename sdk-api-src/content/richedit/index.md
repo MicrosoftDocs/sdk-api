@@ -9,6 +9,8 @@ tech.root: controls
 f1_keywords:
  - richedit
  - richedit/richedit
+api_name:
+ - richedit
 ---
 
 # Richedit.h header

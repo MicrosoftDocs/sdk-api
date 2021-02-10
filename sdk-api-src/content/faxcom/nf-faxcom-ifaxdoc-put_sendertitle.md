@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.SenderTitle
- - IFaxDoc.get_SenderTitle
- - IFaxDoc.put_SenderTitle
+ - IFaxDoc::put_SenderTitle
 ---
 
 # IFaxDoc::put_SenderTitle
@@ -79,3 +77,4 @@ The <b>get_SenderTitle</b> method allocates the memory required for the buffer p
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

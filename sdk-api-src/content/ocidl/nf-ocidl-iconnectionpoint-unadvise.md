@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IConnectionPoint.Unadvise
+ - IConnectionPoint::Unadvise
 ---
 
 # IConnectionPoint::Unadvise
@@ -98,3 +98,4 @@ When an advisory connection is terminated, the connection point calls the <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
+

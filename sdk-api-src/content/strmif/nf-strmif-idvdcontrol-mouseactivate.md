@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl.MouseActivate
+ - IDvdControl::MouseActivate
 ---
 
 # IDvdControl::MouseActivate
@@ -79,3 +79,4 @@ This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, D
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
+

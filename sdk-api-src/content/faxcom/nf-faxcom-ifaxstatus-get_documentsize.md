@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.DocumentSize
- - IFaxStatus.get_DocumentSize
+ - IFaxStatus::get_DocumentSize
 ---
 
 # IFaxStatus::get_DocumentSize
@@ -84,3 +83,4 @@ You can use the <b>DocumentSize</b> property of a <a href="/previous-versions/wi
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxstatus-get-documentname-vb">IFaxStatus::get_DocumentName</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _FILE_ID_INFO
+ - PFILE_ID_INFO
  - FILE_ID_INFO
 ---
 
@@ -86,3 +88,4 @@ The 128-bit file identifier for the file. The file identifier and the volume ser
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
+

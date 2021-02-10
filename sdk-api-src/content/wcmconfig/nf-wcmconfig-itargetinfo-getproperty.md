@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ITargetInfo.GetProperty
+ - ITargetInfo::GetProperty
 ---
 
 # ITargetInfo::GetProperty
@@ -113,3 +113,4 @@ Indicates that there are insufficient resources to return information to the use
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
+

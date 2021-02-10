@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePage
+ - IXpsOMObjectFactory::CreatePage
 ---
 
 # IXpsOMObjectFactory::CreatePage
@@ -198,3 +198,4 @@ else
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

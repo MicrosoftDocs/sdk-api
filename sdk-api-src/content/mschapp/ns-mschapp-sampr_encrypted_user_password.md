@@ -46,6 +46,8 @@ api_type:
 api_location:
  - MsChapp.h
 api_name:
+ - _SAMPR_ENCRYPTED_USER_PASSWORD
+ - PSAMPR_ENCRYPTED_USER_PASSWORD
  - SAMPR_ENCRYPTED_USER_PASSWORD
 ---
 
@@ -69,3 +71,4 @@ An array contains an encrypted password. The contents of the array are calculate
 
 
 <a href="/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword2">MSChapSrvChangePassword2</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystemImportTarget.SetImportTarget
+ - IVdsSubSystemImportTarget::SetImportTarget
 ---
 
 # IVdsSubSystemImportTarget::SetImportTarget
@@ -133,3 +133,4 @@ The operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdssubsystemimporttarget">IVdsSubSystemImportTarget</a>
+

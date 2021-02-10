@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IAsyncErrorNotify.OnError
+ - IAsyncErrorNotify::OnError
 ---
 
 # IAsyncErrorNotify::OnError
@@ -71,3 +71,4 @@ The batch work itself is implemented in <a href="/windows/desktop/api/comsvcs/nf
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iasyncerrornotify">IAsyncErrorNotify</a>
+

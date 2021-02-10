@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
+ - _PDH_STATISTICS
+ - PPDH_STATISTICS
  - PDH_STATISTICS
 ---
 
@@ -83,3 +85,4 @@ Mean of the values.
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhcomputecounterstatistics">PdhComputeCounterStatistics</a>
+

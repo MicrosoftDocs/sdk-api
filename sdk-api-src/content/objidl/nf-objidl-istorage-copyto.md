@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage.CopyTo
+ - IStorage::CopyTo
 ---
 
 # IStorage::CopyTo
@@ -123,3 +123,4 @@ pstg->CopyTo(0, Null, Null, pstgDest)
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-revert">IStorage::Revert</a>
+

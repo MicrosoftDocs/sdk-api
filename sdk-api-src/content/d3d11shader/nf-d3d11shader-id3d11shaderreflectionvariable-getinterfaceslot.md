@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflectionVariable.GetInterfaceSlot
+ - ID3D11ShaderReflectionVariable::GetInterfaceSlot
 ---
 
 # ID3D11ShaderReflectionVariable::GetInterfaceSlot
@@ -96,3 +96,4 @@ pd3dImmediateContext->PSSetShader( g_pPixelShader, g_dynamicLinkageArray, g_iNum
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectionvariable">ID3D11ShaderReflectionVariable Interface</a>
+

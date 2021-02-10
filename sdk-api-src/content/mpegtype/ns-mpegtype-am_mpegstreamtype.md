@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mpegtype.h
 api_name:
+ - tagAM_MPEGSTREAMTYPE
  - AM_MPEGSTREAMTYPE
 ---
 
@@ -83,3 +84,4 @@ Format data. The size of this array, in bytes, is given in the <b>mt.cbFormat</b
 
 
 <a href="/windows/desktop/DirectShow/mpeg-1-media-types">MEPG-1 Media Types</a>
+

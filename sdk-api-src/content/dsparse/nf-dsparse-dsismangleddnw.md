@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsIsMangledDnW
  - dsparse/DsIsMangledDnW
+ - DsIsMangledDn
+ - dsparse/DsIsMangledDn
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsIsMangledDn
- - DsIsMangledDnA
  - DsIsMangledDnW
+ - DsIsMangledDn
 ---
 
 # DsIsMangledDnW function
@@ -84,3 +85,4 @@ Returns <b>TRUE</b> if the first relative distinguished name in <i>pszDn</i> is 
 
 > [!NOTE]
 > The dsparse.h header defines DsIsMangledDn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

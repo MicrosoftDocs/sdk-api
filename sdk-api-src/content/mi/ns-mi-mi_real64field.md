@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_Real64Field
  - MI_Real64Field
 ---
 
@@ -95,3 +96,4 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 ## -remarks
 
 This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="/windows/win32/wmisdk/key-qualifier">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.
+

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.Copy
+ - IPortableDeviceContent::Copy
 ---
 
 # IPortableDeviceContent::Copy
@@ -119,3 +119,4 @@ If the specified device supports copy operations to a functional storage, the <i
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
+

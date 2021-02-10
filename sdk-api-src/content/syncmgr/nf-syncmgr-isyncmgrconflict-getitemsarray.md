@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrConflict.GetItemsArray
+ - ISyncMgrConflict::GetItemsArray
 ---
 
 # ISyncMgrConflict::GetItemsArray
@@ -65,3 +65,4 @@ The address of a pointer to an <a href="/windows/desktop/api/syncmgr/nn-syncmgr-
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

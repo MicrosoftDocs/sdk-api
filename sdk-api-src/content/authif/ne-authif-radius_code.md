@@ -44,6 +44,7 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
+ - _RADIUS_CODE
  - RADIUS_CODE
 ---
 
@@ -118,3 +119,4 @@ The packet was discarded.
 
 
 <a href="/previous-versions/ms688462(v=vs.85)">SetResponseType</a>
+

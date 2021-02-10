@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - ITextChildProvider.TextRange
- - ITextChildProvider.get_TextRange
+ - ITextChildProvider::get_TextRange
 ---
 
 # ITextChildProvider::get_TextRange
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider">ITextChildProvider</a>
+

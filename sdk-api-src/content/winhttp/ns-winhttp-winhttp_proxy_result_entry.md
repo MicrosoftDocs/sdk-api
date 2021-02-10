@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winhttp.h
 api_name:
+ - _WINHTTP_PROXY_RESULT_ENTRY
  - WINHTTP_PROXY_RESULT_ENTRY
 ---
 
@@ -91,3 +92,4 @@ This structure is stored in an array inside of a <a href="/windows/desktop/api/w
 
 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>
+

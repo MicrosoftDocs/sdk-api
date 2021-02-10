@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmRule.NamespaceRoots
- - IFsrmRule.get_NamespaceRoots
- - IFsrmRule.put_NamespaceRoots
+ - IFsrmRule::put_NamespaceRoots
 ---
 
 # IFsrmRule::put_NamespaceRoots
@@ -68,3 +66,4 @@ Note that FSRM supports only NTFS file systems—you cannot specify paths on ReF
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
+

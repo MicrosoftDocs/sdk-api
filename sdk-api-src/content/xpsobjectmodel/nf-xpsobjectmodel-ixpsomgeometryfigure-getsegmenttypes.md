@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.GetSegmentTypes
+ - IXpsOMGeometryFigure::GetSegmentTypes
 ---
 
 # IXpsOMGeometryFigure::GetSegmentTypes
@@ -145,3 +145,4 @@ For an example of how to use this method in a program, see the code example in <
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_type">XPS_SEGMENT_TYPE</a>
+

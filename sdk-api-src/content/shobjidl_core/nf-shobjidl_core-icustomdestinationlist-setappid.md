@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList.SetAppID
+ - ICustomDestinationList::SetAppID
 ---
 
 # ICustomDestinationList::SetAppID
@@ -107,3 +107,4 @@ Some applications will not declare an explicit AppUserModelID and should not cal
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+

@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - certmod
  - certmod/certmod
+api_name:
+ - certmod
 ---
 
 # Certmod.h header

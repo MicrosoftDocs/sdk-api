@@ -9,6 +9,8 @@ tech.root: iscsidisc
 f1_keywords:
  - iscsidsc
  - iscsidsc/iscsidsc
+api_name:
+ - iscsidsc
 ---
 
 # Iscsidsc.h header

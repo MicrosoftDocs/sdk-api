@@ -44,6 +44,7 @@ api_type:
 api_location:
  - coml2api.h
 api_name:
+ - tagSTGOPTIONS
  - STGOPTIONS
 ---
 
@@ -102,3 +103,4 @@ Specifies the name of a file whose Encrypted File System (EFS) metadata will be 
 
 
 <a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>
+

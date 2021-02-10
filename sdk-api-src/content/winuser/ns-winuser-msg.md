@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagMSG
+ - PMSG
  - MSG
 ---
 
@@ -121,3 +123,4 @@ The cursor position, in screen coordinates, when the message was posted.
 
 
 <b>Reference</b>
+

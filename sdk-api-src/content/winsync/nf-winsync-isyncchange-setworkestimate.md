@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChange.SetWorkEstimate
+ - ISyncChange::SetWorkEstimate
 ---
 
 # ISyncChange::SetWorkEstimate
@@ -89,3 +89,4 @@ The work estimate is only meaningful when the <b>ISyncChange</b> object represen
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
+

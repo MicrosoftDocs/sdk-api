@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRule.GroupName
- - IFaxOutboundRoutingRule.get_GroupName
- - IFaxOutboundRoutingRule.put_GroupName
- - IFaxOutboundRoutingRule.get_GroupName
- - IFaxOutboundRoutingRule.put_GroupName
+ - IFaxOutboundRoutingRule::get_GroupName
 ---
 
 # IFaxOutboundRoutingRule::get_GroupName
@@ -77,3 +73,4 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
+

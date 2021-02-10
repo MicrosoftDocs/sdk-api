@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Rect.Rect
+ - Rect::Rect
 ---
 
 # Rect::Rect(IN INT,IN INT,IN INT,IN INT)
@@ -102,3 +102,4 @@ Integer used to initialize the height of this rectangle.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

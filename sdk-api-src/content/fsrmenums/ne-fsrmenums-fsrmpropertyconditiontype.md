@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fsrm.h
 api_name:
+ - _FsrmPropertyConditionType
  - FsrmPropertyConditionType
 ---
 
@@ -127,3 +128,4 @@ The property condition is met if the property value matches the specified patter
 
 
 [IFsrmPropertyCondition.Type](../fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_type.md)
+

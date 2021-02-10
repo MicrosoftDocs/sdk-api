@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 559d9381-1135-47de-9bbe-49aa8d97f5d3
 ms.date: 12/05/2018
 ms.keywords: GetUniquenessValue, GetUniquenessValue method [DirectDraw], GetUniquenessValue method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetUniquenessValue method, IDirectDrawSurface7.GetUniquenessValue, IDirectDrawSurface7::GetUniquenessValue, ddraw/IDirectDrawSurface7::GetUniquenessValue, directdraw.idirectdrawsurface7_getuniquenessvalue
-f1_keywords:
-- ddraw/IDirectDrawSurface7.GetUniquenessValue
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.GetUniquenessValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::GetUniquenessValue
+ - ddraw/IDirectDrawSurface7::GetUniquenessValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7::GetUniquenessValue
 ---
 
 ## -description
@@ -71,15 +72,7 @@ The only defined uniqueness value is 0, which indicates that the surface is like
 
 You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetUniquenessValue</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
 
- 

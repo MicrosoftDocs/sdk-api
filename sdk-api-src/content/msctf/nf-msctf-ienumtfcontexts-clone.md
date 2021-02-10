@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfContexts.Clone
+ - IEnumTfContexts::Clone
 ---
 
 # IEnumTfContexts::Clone
@@ -94,3 +94,4 @@ A memory allocation failure occurred.
 ## -see-also
 
 [IEnumTfContexts interface](nn-msctf-ienumtfcontexts.md), [ITfContext interface](nn-msctf-itfcontext.md)
+

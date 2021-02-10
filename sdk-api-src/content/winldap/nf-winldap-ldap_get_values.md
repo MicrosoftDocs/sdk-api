@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_get_values
- - ldap_get_valuesA
- - ldap_get_valuesW
 ---
 
 # ldap_get_values function
@@ -122,3 +120,4 @@ Certain LDAP servers place limits on the number of attribute string values that 
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
+

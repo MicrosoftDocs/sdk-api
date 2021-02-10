@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_TIMESTAMP_PARA
+ - PCRYPT_TIMESTAMP_PARA
  - CRYPT_TIMESTAMP_PARA
 ---
 
@@ -80,3 +82,4 @@ The number of elements in the array pointed to by the <b>rgExtension</b> member.
 ### -field rgExtension
 
 A pointer to an array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures that contain extension information that is passed in the request.
+

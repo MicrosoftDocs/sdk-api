@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
+ - _AD_GENERAL_PARAMS
+ - LPAD_GENERAL_PARAMS
  - AD_GENERAL_PARAMS
 ---
 
@@ -98,3 +100,4 @@ Indicates the existence of a network element in the data path that does not supp
 ## -see-also
 
 <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendPropertySheet.CreatePropertyPages
+ - IExtendPropertySheet::CreatePropertyPages
 ---
 
 # IExtendPropertySheet::CreatePropertyPages
@@ -107,3 +107,4 @@ MMCFreeNotifyHandle should be called, see
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-mmcfreenotifyhandle">MMCFreeNotifyHandle</a>
+

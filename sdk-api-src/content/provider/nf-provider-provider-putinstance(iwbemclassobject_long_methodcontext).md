@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.PutInstance
+ - Provider::PutInstance
 ---
 
 # Provider::PutInstance(IWbemClassObject,long,MethodContext)
@@ -116,3 +116,4 @@ If your provider does not support the changes requested by the client, you shoul
 
 </li>
 </ol>
+

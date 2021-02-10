@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorGroup.GetSensorDeviceCount
+ - IMFSensorGroup::GetSensorDeviceCount
 ---
 
 # IMFSensorGroup::GetSensorDeviceCount
@@ -114,3 +114,4 @@ The term "device" in this context could refer to a physical device, a custom med
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
+

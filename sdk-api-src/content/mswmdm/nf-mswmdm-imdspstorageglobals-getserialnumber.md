@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorageGlobals.GetSerialNumber
+ - IMDSPStorageGlobals::GetSerialNumber
 ---
 
 # IMDSPStorageGlobals::GetSerialNumber
@@ -89,3 +89,4 @@ Not all storage media support serial numbers. The return code must always be che
 
 
 <a href="/windows/desktop/WMDM/wmdmid">WMDMID</a>
+

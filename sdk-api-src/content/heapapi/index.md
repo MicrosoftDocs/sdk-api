@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - heapapi
  - heapapi/heapapi
+api_name:
+ - heapapi
 ---
 
 # Heapapi.h header

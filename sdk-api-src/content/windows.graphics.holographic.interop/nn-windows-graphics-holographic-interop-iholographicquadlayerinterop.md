@@ -25,7 +25,6 @@ api_type:
 api_location:
  - windows.graphics.holographic.interop.h
 api_name:
- - interop::IHolographicQuadLayerInterop
  - IHolographicQuadLayerInterop
 f1_keywords:
  - IHolographicQuadLayerInterop
@@ -103,3 +102,4 @@ if (!m_D3D12ContentBuffer[m_contentBufferIndex])
 ```
 
 ## -see-also
+

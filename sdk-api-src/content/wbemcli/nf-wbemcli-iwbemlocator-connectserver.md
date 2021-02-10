@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Wbemcore.dll
 api_name:
- - IWbemLocator.ConnectServer
- - WbemAuthenticatedLocator.ConnectServer
- - WbemAdministrativeLocator.ConnectServer
- - WbemUnauthenticatedLocator.ConnectServer
- - WbemLocator.ConnectServer
+ - IWbemLocator::ConnectServer
 ---
 
 # IWbemLocator::ConnectServer
@@ -223,3 +219,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_connect_options">WBEM_CONNECT_OPTIONS</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.IsRealTime
+ - IWMWriterAdvanced::IsRealTime
 ---
 
 # IWMWriterAdvanced::IsRealTime
@@ -103,3 +103,4 @@ By default, the writer does not run in real time.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogCollection.Remove
+ - ICatalogCollection::Remove
 ---
 
 # ICatalogCollection::Remove
@@ -73,3 +73,4 @@ These changes are not reflected in the COM+ catalog data store until you call <a
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
+

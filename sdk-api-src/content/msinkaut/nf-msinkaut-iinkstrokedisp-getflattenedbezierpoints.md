@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetFlattenedBezierPoints
+ - IInkStrokeDisp::GetFlattenedBezierPoints
 ---
 
 # IInkStrokeDisp::GetFlattenedBezierPoints
@@ -175,3 +175,4 @@ You should ideally set the <i>fittingError</i> parameter between 0 and 500. If t
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints">IInkStrokeDisp::BezierPoints Property</a>
+

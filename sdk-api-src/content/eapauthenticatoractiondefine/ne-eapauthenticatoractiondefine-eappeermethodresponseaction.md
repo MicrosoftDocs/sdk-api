@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EapAuthenticatorActionDefine.h
 api_name:
+ - tagEapPeerMethodResponseAction
  - EapPeerMethodResponseAction
 ---
 

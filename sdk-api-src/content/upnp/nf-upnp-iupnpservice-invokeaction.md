@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPService.InvokeAction
+ - IUPnPService::InvokeAction
 ---
 
 # IUPnPService::InvokeAction
@@ -310,3 +310,4 @@ When an application invokes the method <b>InvokeAction</b>, it includes a list o
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
+

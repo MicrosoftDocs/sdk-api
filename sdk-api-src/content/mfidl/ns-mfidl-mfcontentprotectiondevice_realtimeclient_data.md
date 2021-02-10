@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
  - MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
 ---
 
@@ -71,3 +72,4 @@ The base priority of the thread that runs the MMCSS task.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

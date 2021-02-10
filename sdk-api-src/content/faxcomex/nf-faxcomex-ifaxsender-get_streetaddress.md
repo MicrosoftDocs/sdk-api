@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSender.StreetAddress
- - IFaxSender.get_StreetAddress
- - IFaxSender.put_StreetAddress
- - IFaxSender.get_StreetAddress
- - IFaxSender.put_StreetAddress
+ - IFaxSender::get_StreetAddress
 ---
 
 # IFaxSender::get_StreetAddress
@@ -75,3 +71,4 @@ The street address should also include the city, state, zip code (postal code) a
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

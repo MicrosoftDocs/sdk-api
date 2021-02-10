@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.TestDevice
+ - IDirect3DDeviceManager9::TestDevice
 ---
 
 # IDirect3DDeviceManager9::TestDevice
@@ -113,3 +113,4 @@ If the method returns DXVA2_E_NEW_VIDEO_DEVICE, call <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>
+

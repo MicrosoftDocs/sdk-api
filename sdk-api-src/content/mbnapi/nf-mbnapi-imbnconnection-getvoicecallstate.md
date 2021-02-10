@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnection.GetVoiceCallState
+ - IMbnConnection::GetVoiceCallState
 ---
 
 # IMbnConnection::GetVoiceCallState
@@ -134,3 +134,4 @@ For the recoverable errors <b>E_MBN_PIN_REQUIRED</b>, <b>E_MBN_SIM_NOT_INSERTED<
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskService.GetRunningTasks
+ - ITaskService::GetRunningTasks
 ---
 
 # ITaskService::GetRunningTasks
@@ -135,3 +135,4 @@ The user has not connected to the service.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

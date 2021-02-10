@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - _DS_REPL_ATTR_META_DATA_2
  - DS_REPL_ATTR_META_DATA_2
 ---
 
@@ -91,3 +92,4 @@ Pointer to a null-terminated Unicode string that contains the distinguished name
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
+

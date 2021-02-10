@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IFilterMapper.UnregisterPin
+ - IFilterMapper::UnregisterPin
 ---
 
 # IFilterMapper::UnregisterPin
@@ -67,3 +67,4 @@ Name of the pin.
 ## -returns
 
 Returns an <b>HRESULT</b> value.
+

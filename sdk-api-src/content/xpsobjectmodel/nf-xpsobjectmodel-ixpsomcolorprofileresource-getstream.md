@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMColorProfileResource.GetStream
+ - IXpsOMColorProfileResource::GetStream
 ---
 
 # IXpsOMColorProfileResource::GetStream
@@ -85,3 +85,4 @@ This method calls the stream's <b>Clone</b> method to create the stream returned
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

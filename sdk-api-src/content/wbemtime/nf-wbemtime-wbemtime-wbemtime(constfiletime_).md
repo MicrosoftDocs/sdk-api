@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.WBEMTime
- - ??0WBEMTime@@QAE@ABU_FILETIME@@@Z
- - ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z
+ - WBEMTime::WBEMTime
 ---
 
 # WBEMTime::WBEMTime(const FILETIME &)
@@ -66,3 +64,4 @@ The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>  overload class cons
 ### -param ft [ref]
 
 MFC <b>FILETIME</b> structure that represents the number of 100-nanosecond intervals since January 1, 1601, as a 64-bit value.
+

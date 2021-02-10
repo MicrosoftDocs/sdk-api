@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaBuffer.SetLength
+ - IMediaBuffer::SetLength
 ---
 
 # IMediaBuffer::SetLength
@@ -74,3 +74,4 @@ This method sets the size of the valid data currently in the buffer, not the buf
 
 
 <a href="/windows/desktop/DirectShow/implementing-imediabuffer">Implementing IMediaBuffer</a>
+

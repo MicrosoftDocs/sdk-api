@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _endropfiles
  - ENDROPFILES
 ---
 
@@ -79,3 +80,4 @@ Character position at which the dropped files would be inserted.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Indicates whether the specified character position is protected (<b>TRUE</b>) or not protected (<b>FALSE</b>).
+

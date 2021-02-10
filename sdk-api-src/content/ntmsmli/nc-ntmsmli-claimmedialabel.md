@@ -42,7 +42,7 @@ api_type:
 api_location:
  - NtmsMli.h
 api_name:
- - ClaimMediaLabel
+ - CLAIMMEDIALABEL
 ---
 
 # CLAIMMEDIALABEL callback function
@@ -117,3 +117,4 @@ When a media label library uses the
 
 
 <a href="/windows/desktop/api/ntmsmli/ns-ntmsmli-medialabelinfo">MediaLabelInfo</a>
+

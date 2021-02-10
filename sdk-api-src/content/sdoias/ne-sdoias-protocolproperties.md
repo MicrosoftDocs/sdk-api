@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _PROTOCOLPROPERTIES
  - PROTOCOLPROPERTIES
 ---
 

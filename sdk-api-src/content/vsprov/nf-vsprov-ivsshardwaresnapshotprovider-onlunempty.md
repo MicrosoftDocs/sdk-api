@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider.OnLunEmpty
+ - IVssHardwareSnapshotProvider::OnLunEmpty
 ---
 
 # IVssHardwareSnapshotProvider::OnLunEmpty
@@ -159,3 +159,4 @@ Some examples:
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
+

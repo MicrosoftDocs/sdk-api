@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfMenu.AddMenuItem
+ - ITfMenu::AddMenuItem
 ---
 
 # ITfMenu::AddMenuItem
@@ -142,3 +142,4 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/TSF/tf-lbmenuf--constants">TF_LBMENUF_* Constants
       </a>
+

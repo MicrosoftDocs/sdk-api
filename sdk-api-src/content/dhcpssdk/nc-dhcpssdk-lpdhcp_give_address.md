@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
- - DhcpAddressOfferHook
+ - LPDHCP_GIVE_ADDRESS
 ---
 
 # LPDHCP_GIVE_ADDRESS callback function
@@ -139,3 +139,4 @@ Implementations of the
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a>
+

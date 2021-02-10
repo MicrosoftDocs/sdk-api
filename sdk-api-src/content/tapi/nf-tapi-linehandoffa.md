@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineHandoffA
  - tapi/lineHandoffA
+ - lineHandoff
+ - tapi/lineHandoff
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineHandoff
  - lineHandoffA
- - lineHandoffW
+ - lineHandoff
 ---
 
 # lineHandoffA function
@@ -153,3 +154,4 @@ If none of the media modes succeeded in making a determination, only the UNKNOWN
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a>
+

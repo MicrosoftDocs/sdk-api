@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor.GetState
+ - ISensor::GetState
 ---
 
 # ISensor::GetState
@@ -105,3 +105,4 @@ NULL was passed in for pState.
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
+

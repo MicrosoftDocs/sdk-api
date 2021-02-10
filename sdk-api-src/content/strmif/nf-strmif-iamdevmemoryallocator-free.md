@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMDevMemoryAllocator.Free
+ - IAMDevMemoryAllocator::Free
 ---
 
 # IAMDevMemoryAllocator::Free
@@ -75,3 +75,4 @@ This method frees a block of memory from the pool.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator Interface</a>
+

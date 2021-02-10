@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcOptions.Set
+ - IRpcOptions::Set
 ---
 
 # IRpcOptions::Set
@@ -77,3 +77,4 @@ See <a href="/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a> 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a>
+

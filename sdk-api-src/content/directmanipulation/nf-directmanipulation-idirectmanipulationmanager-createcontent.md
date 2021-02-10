@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationManager.CreateContent
+ - IDirectManipulationManager::CreateContent
 ---
 
 # IDirectManipulationManager::CreateContent
@@ -83,3 +83,4 @@ Secondary content is created independently from the viewport. There is no limit 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a>
+

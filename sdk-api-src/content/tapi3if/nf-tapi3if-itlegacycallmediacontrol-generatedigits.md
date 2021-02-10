@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl.GenerateDigits
+ - ITLegacyCallMediaControl::GenerateDigits
 ---
 
 # ITLegacyCallMediaControl::GenerateDigits
@@ -121,3 +121,4 @@ The application must use
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>
+

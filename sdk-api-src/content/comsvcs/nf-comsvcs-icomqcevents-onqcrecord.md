@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComQCEvents.OnQCRecord
+ - IComQCEvents::OnQCRecord
 ---
 
 # IComQCEvents::OnQCRecord
@@ -85,3 +85,4 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomqcevents">IComQCEvents</a>
+

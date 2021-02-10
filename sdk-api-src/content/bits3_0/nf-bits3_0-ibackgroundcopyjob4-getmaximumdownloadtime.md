@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJob4.GetMaximumDownloadTime
+ - IBackgroundCopyJob4::GetMaximumDownloadTime
 ---
 
 # IBackgroundCopyJob4::GetMaximumDownloadTime
@@ -92,3 +92,4 @@ The value is the maximum elapsed time that the job can spend in the CONNECTING o
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setmaximumdownloadtime">IBackgroundCopyJob4::SetMaximumDownloadTime</a>
+

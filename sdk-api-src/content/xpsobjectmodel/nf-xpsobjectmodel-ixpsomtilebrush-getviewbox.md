@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush.GetViewbox
+ - IXpsOMTileBrush::GetViewbox
 ---
 
 # IXpsOMTileBrush::GetViewbox
@@ -120,3 +120,4 @@ The preceding parameter values correspond to the  source image as:<dl>
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+

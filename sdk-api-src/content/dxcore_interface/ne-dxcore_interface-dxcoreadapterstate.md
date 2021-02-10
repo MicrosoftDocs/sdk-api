@@ -39,6 +39,9 @@ api_location:
  - dxcore.dll
 api_name:
  - DXCoreAdapterState
+f1_keywords:
+ - DXCoreAdapterState
+ - dxcore_interface/DXCoreAdapterState
 ---
 
 ## -description
@@ -74,3 +77,4 @@ When calling [SetState](/windows/win32/api/dxcore_interface/nf-dxcore_interface-
 ## -see-also
 
 [IDXCoreAdapter::QueryState](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate), [IDXCoreAdapter::SetState](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+

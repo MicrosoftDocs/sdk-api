@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0001_0077_0002
  - ADS_SECURITY_INFO_ENUM
 ---
 
@@ -242,3 +243,4 @@ void TestObjectOptions()
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>
+

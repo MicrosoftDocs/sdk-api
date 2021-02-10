@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.Existing
- - IX509PrivateKey.get_Existing
- - IX509PrivateKey.put_Existing
+ - IX509PrivateKey::put_Existing
 ---
 
 # IX509PrivateKey::put_Existing
@@ -65,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

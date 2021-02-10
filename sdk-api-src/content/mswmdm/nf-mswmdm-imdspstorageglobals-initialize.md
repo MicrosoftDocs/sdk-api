@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorageGlobals.Initialize
+ - IMDSPStorageGlobals::Initialize
 ---
 
 # IMDSPStorageGlobals::Initialize
@@ -110,3 +110,4 @@ If WMDM_MODE_BLOCK is specified, <b>Initialize</b> does not return until formatt
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
+

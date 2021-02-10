@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_KEY_VERIFY_MESSAGE_PARA
+ - PCRYPT_KEY_VERIFY_MESSAGE_PARA
  - CRYPT_KEY_VERIFY_MESSAGE_PARA
 ---
 
@@ -82,3 +84,4 @@ This member is not used and should be set to <b>NULL</b>.
 <b>Windows Server 2003 and Windows XP:  </b>A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to be used to verify a signed message. The CSP identified by this handle is used for <a href="/windows/desktop/SecGloss/h-gly">hashing</a> and for signature verification.Unless there is a strong reason for using a specific cryptographic provider, set this member to  zero to use the default RSA or DSS provider.
 
 This member's data type is <b>HCRYPTPROV</b>.
+

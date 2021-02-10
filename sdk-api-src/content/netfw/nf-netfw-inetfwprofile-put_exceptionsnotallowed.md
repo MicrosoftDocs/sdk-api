@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwProfile.ExceptionsNotAllowed
- - INetFwProfile.get_ExceptionsNotAllowed
- - INetFwProfile.put_ExceptionsNotAllowed
+ - INetFwProfile::put_ExceptionsNotAllowed
 ---
 
 # INetFwProfile::put_ExceptionsNotAllowed
@@ -71,3 +69,4 @@ All interfaces are firewalled. This means that all the exceptions; such as Globa
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
+

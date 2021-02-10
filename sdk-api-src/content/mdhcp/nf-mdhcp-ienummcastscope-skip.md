@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IEnumMcastScope.Skip
+ - IEnumMcastScope::Skip
 ---
 
 # IEnumMcastScope::Skip
@@ -98,3 +98,4 @@ Number of elements skipped was not <i>celt</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a>
+

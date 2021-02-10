@@ -49,8 +49,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - StopTrace
- - StopTraceA
- - StopTraceW
 ---
 
 # StopTrace macro
@@ -116,3 +114,4 @@ Note that it is not safe to stop a trace session from DllMain.
 
 
 <a href="/windows/desktop/ETW/starttrace">StartTrace</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls.get_isAvailable
+ - IWMPControls::get_isAvailable
 ---
 
 # IWMPControls::get_isAvailable
@@ -160,3 +160,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-stop">IWMPControls::stop</a>
+

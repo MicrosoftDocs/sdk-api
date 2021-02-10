@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVdProvider.AddVDisk
+ - IVdsVdProvider::AddVDisk
 ---
 
 # IVdsVdProvider::AddVDisk
@@ -94,3 +94,4 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvdprovider">IVdsVdProvider</a>
+

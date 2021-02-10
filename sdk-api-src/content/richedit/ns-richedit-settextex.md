@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _settextex
  - SETTEXTEX
 ---
 
@@ -130,3 +131,4 @@ The code page used to translate the text to Unicode. If <b>codepage</b> is 1200 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a>
+

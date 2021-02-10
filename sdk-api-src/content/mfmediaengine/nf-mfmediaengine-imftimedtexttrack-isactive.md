@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextTrack.IsActive
+ - IMFTimedTextTrack::IsActive
 ---
 
 # IMFTimedTextTrack::IsActive
@@ -63,3 +63,4 @@ Returns whether the timed-text track is active. If <b>TRUE</b>, the timed-text t
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
+

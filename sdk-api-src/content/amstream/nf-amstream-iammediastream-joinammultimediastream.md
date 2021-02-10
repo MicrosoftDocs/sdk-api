@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaStream.JoinAMMultiMediaStream
+ - IAMMediaStream::JoinAMMultiMediaStream
 ---
 
 # IAMMediaStream::JoinAMMultiMediaStream
@@ -73,3 +73,4 @@ Applications should not call this method.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
+

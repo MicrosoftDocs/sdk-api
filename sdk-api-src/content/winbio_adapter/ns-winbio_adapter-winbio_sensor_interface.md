@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
+ - _WINBIO_SENSOR_INTERFACE
+ - PWINBIO_SENSOR_INTERFACE
  - WINBIO_SENSOR_INTERFACE
 ---
 
@@ -201,3 +203,4 @@ A pointer to your implementation of the <a href="/windows/desktop/api/winbio_ada
 
 
 <a href="/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioquerysensorinterface">WbioQuerySensorInterface</a>
+

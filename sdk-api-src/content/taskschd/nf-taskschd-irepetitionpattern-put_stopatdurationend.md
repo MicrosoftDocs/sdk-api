@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRepetitionPattern.StopAtDurationEnd
- - IRepetitionPattern.get_StopAtDurationEnd
- - IRepetitionPattern.put_StopAtDurationEnd
+ - IRepetitionPattern::put_StopAtDurationEnd
 ---
 
 # IRepetitionPattern::put_StopAtDurationEnd
@@ -69,3 +67,4 @@ When reading or writing XML for a task, this information is specified in the <a 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

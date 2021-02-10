@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_count_valuesW
  - winldap/ldap_count_valuesW
+ - ldap_count_values
+ - winldap/ldap_count_values
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_count_values
- - ldap_count_valuesA
  - ldap_count_valuesW
+ - ldap_count_values
 ---
 
 # ldap_count_valuesW function
@@ -103,3 +104,4 @@ The <b>ldap_count_values</b> function returns the number of values in an array o
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>
+

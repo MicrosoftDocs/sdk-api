@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_TASK_DISPLAY_BITMAP
  - MMC_TASK_DISPLAY_BITMAP
 ---
 
@@ -108,3 +109,4 @@ If both <b>szMouseOverBitmap</b> and <b>szMouseOffBitmap</b> point to a <b>NULL<
 
 
 <a href="/windows/desktop/api/mmc/ne-mmc-mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
+

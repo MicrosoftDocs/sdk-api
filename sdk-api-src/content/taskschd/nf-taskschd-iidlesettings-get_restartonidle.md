@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IIdleSettings.RestartOnIdle
- - IIdleSettings.get_RestartOnIdle
- - IIdleSettings.put_RestartOnIdle
+ - IIdleSettings::get_RestartOnIdle
 ---
 
 # IIdleSettings::get_RestartOnIdle
@@ -71,3 +69,4 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

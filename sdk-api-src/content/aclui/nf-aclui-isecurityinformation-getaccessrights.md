@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation.GetAccessRights
+ - ISecurityInformation::GetAccessRights
 ---
 
 # ISecurityInformation::GetAccessRights
@@ -163,3 +163,4 @@ The access control editor does not free the pointer returned in <i>ppAccess</i>.
 
 
 <a href="/windows/desktop/api/aclui/ns-aclui-si_access">SI_ACCESS</a>
+

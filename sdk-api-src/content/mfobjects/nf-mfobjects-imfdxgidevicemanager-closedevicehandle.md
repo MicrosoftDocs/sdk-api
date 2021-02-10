@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIDeviceManager.CloseDeviceHandle
+ - IMFDXGIDeviceManager::CloseDeviceHandle
 ---
 
 # IMFDXGIDeviceManager::CloseDeviceHandle
@@ -98,3 +98,4 @@ The specified handle is not a Direct3D device handle.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
+

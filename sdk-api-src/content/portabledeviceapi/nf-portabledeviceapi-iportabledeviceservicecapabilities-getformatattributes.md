@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetFormatAttributes
+ - IPortableDeviceServiceCapabilities::GetFormatAttributes
 ---
 
 # IPortableDeviceServiceCapabilities::GetFormatAttributes
@@ -85,3 +85,4 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-supported-formats">Retrieving Supported Service Formats</a>
+

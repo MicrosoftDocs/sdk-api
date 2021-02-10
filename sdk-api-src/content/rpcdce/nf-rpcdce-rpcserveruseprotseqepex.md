@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcServerUseProtseqEpEx
- - RpcServerUseProtseqEpExA
- - RpcServerUseProtseqEpExW
 ---
 
 # RpcServerUseProtseqEpEx function
@@ -230,3 +228,4 @@ For more information, see
 
 
 Writing a Secure RPC Client or Server
+

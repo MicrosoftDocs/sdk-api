@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup.GetProviderNameList
+ - ICertSrvSetup::GetProviderNameList
 ---
 
 # ICertSrvSetup::GetProviderNameList
@@ -61,3 +61,4 @@ A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string r
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRadioEvents.OnRadioStateChange
+ - IMbnRadioEvents::OnRadioStateChange
 ---
 
 # IMbnRadioEvents::OnRadioStateChange
@@ -72,3 +72,4 @@ New software and hardware radio states can be obtained from the passed <i>newInt
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a>
+

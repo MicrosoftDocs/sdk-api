@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioClient.IsAudioObjectFormatSupported
+ - ISpatialAudioClient::IsAudioObjectFormatSupported
 ---
 
 # ISpatialAudioClient::IsAudioObjectFormatSupported
@@ -65,3 +65,4 @@ If the specified format is supported, it returns S_OK. If specified format is un
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
+

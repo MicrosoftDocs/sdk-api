@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerTarget.AddRefFromReferenceTracker
+ - IReferenceTrackerTarget::AddRefFromReferenceTracker
 ---
 
 # IReferenceTrackerTarget::xaml
@@ -61,3 +61,4 @@ Indicates that the reference tracker is returning the target XAML object(s) from
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget">IReferenceTrackerTarget</a>
+

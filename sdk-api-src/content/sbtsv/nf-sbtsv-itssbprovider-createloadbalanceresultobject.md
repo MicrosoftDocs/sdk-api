@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbProvider.CreateLoadBalanceResultObject
+ - ITsSbProvider::CreateLoadBalanceResultObject
 ---
 
 # ITsSbProvider::CreateLoadBalanceResultObject
@@ -82,3 +82,4 @@ object.
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>
+

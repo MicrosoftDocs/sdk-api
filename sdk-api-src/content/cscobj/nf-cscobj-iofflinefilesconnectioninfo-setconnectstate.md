@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesConnectionInfo.SetConnectState
+ - IOfflineFilesConnectionInfo::SetConnectState
 ---
 
 # IOfflineFilesConnectionInfo::SetConnectState
@@ -116,3 +116,4 @@ The <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefil
 
 
 <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_connect_state">OFFLINEFILES_CONNECT_STATE</a>
+

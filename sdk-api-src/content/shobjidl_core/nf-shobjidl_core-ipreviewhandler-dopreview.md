@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPreviewHandler.DoPreview
+ - IPreviewHandler::DoPreview
 ---
 
 # IPreviewHandler::DoPreview
@@ -133,3 +133,4 @@ Aditionally, this method should be called only after <a href="/windows/desktop/a
 
 <div class="alert"><b>Note</b>  Do not actually create the previewer window until this method has been called.</div>
 <div> </div>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcEpRegisterNoReplaceA
  - rpcdce/RpcEpRegisterNoReplaceA
+ - RpcEpRegisterNoReplace
+ - rpcdce/RpcEpRegisterNoReplace
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcEpRegisterNoReplace
  - RpcEpRegisterNoReplaceA
- - RpcEpRegisterNoReplaceW
+ - RpcEpRegisterNoReplace
 ---
 
 # RpcEpRegisterNoReplaceA function
@@ -244,3 +245,4 @@ Each element added to the endpoint-map database logically contains the following
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
+

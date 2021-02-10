@@ -42,9 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManResourceLocator.FragmentDialect
- - IWSManResourceLocator.get_FragmentDialect
- - IWSManResourceLocator.put_FragmentDialect
+ - IWSManResourceLocator::put_FragmentDialect
 ---
 
 # IWSManResourceLocator::put_FragmentDialect
@@ -69,3 +67,4 @@ The dialect string defaults to the XPath 1.0 specification. For more information
 
 
 <a href="/windows/desktop/WinRM/resourcelocator-fragmentdialect">ResourceLocator.FragmentDialect</a>
+

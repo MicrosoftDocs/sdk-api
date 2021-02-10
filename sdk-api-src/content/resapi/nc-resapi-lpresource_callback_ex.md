@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - ResourceCallbackEx
+ - LPRESOURCE_CALLBACK_EX
 ---
 
 # LPRESOURCE_CALLBACK_EX callback function

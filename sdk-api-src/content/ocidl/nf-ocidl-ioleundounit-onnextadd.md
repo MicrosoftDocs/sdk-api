@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoUnit.OnNextAdd
+ - IOleUndoUnit::OnNextAdd
 ---
 
 # IOleUndoUnit::OnNextAdd
@@ -78,3 +78,4 @@ Note that parent units merely delegate this method to their most recently added 
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
+

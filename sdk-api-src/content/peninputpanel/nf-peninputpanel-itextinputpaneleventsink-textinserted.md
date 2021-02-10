@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.TextInserted
+ - ITextInputPanelEventSink::TextInserted
 ---
 
 # ITextInputPanelEventSink::TextInserted
@@ -57,7 +57,6 @@ Occurs when the Tablet PC Input Panel has inserted text into the control with in
 ### -param Ink [in]
 
 Array of <a href="/windows/desktop/tablet/inkdisp-class">Ink</a> objects in the Input Panel.
-
 
 ## -returns
 
@@ -107,3 +106,4 @@ There is a minimum of one <a href="/windows/desktop/tablet/inkdisp-class">Ink</a
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting">ITextInputPanelEventSink::TextInserting Method</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.GetMoniker
+ - IOleObject::GetMoniker
 ---
 
 # IOleObject::GetMoniker
@@ -107,3 +107,4 @@ The <b>IOleObject::GetMoniker</b> method returns an object's moniker. Like <a hr
 
 
 <a href="/windows/desktop/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK</a>
+

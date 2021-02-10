@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.EnumModuleRefs
+ - IMetaDataImport::EnumModuleRefs
 ---
 
 # IMetaDataImport::EnumModuleRefs
@@ -93,3 +93,4 @@ The number of ModuleRef tokens returned in <i>rgModuleRefs</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

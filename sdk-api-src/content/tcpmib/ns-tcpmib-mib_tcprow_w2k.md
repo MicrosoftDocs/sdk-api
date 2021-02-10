@@ -47,7 +47,9 @@ api_location:
  - Tcpmib.h
  - Iprtrmib.h
 api_name:
- - MIB_TCPROW
+ - _MIB_TCPROW_W2K
+ - PMIB_TCPROW_W2K
+ - MIB_TCPROW_W2K
 ---
 
 # MIB_TCPROW_W2K structure
@@ -511,3 +513,4 @@ int main()
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
+

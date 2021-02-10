@@ -9,6 +9,8 @@ tech.root: indexsrv
 f1_keywords:
  - oledbguid
  - oledbguid/oledbguid
+api_name:
+ - oledbguid
 ---
 
 # Oledbguid.h header

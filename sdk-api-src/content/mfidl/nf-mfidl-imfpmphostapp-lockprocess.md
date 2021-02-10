@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfidl.h
 api_name:
- - IMFPMPHostApp.LockProcess
+ - IMFPMPHostApp::LockProcess
 ---
 
 # IMFPMPHostApp::LockProcess
@@ -73,3 +73,4 @@ When this method is called, it increments the lock count on the PMP process. For
 
 
 <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
- - ID3D10ShaderReflectionType.GetMemberTypeByIndex
+ - ID3D10ShaderReflectionType::GetMemberTypeByIndex
 ---
 
 # ID3D10ShaderReflectionType::GetMemberTypeByIndex
@@ -69,3 +69,4 @@ A pointer to a <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10sh
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectiontype">ID3D10ShaderReflectionType Interface</a>
+

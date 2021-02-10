@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration.RevokeEvent
+ - ISyncProviderRegistration::RevokeEvent
 ---
 
 # ISyncProviderRegistration::RevokeEvent
@@ -99,3 +99,4 @@ This method closes the specified <b>HANDLE</b> and cleans up any related memory.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
+

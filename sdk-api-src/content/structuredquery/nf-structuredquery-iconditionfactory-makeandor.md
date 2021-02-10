@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionFactory.MakeAndOr
+ - IConditionFactory::MakeAndOr
 ---
 
 # IConditionFactory::MakeAndOr
@@ -118,3 +118,4 @@ There are no special condition trees for <b>TRUE</b> and <b>FALSE</b>. However, 
 
 
 <b>Reference</b>
+

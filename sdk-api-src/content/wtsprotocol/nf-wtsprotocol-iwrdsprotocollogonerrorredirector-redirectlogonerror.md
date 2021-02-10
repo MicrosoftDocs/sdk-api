@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolLogonErrorRedirector.RedirectLogonError
+ - IWRdsProtocolLogonErrorRedirector::RedirectLogonError
 ---
 
 # IWRdsProtocolLogonErrorRedirector::RedirectLogonError
@@ -145,3 +145,4 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollogonerrorredirector">IWRdsProtocolLogonErrorRedirector</a>
+

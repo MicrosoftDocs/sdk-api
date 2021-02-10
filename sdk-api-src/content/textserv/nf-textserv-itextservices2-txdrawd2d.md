@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices2.TxDrawD2D
+ - ITextServices2::TxDrawD2D
 ---
 
 # ITextServices2::TxDrawD2D
@@ -114,3 +114,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/textserv/nl-textserv-itextservices2">ITextServices2</a>
+

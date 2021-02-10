@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Pla.h
 api_name:
+ - __MIDL___MIDL_itf_pla_0001_0043_0009
  - WeekDays
 ---
 
@@ -95,3 +96,4 @@ Run every day of the week.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_days">ISchedule::Days</a>
+

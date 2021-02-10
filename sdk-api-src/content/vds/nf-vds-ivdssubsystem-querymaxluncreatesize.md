@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.QueryMaxLunCreateSize
+ - IVdsSubSystem::QueryMaxLunCreateSize
 ---
 
 # IVdsSubSystem::QueryMaxLunCreateSize
@@ -191,3 +191,4 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegSaveKeyExA
  - winreg/RegSaveKeyExA
+ - RegSaveKeyEx
+ - winreg/RegSaveKeyEx
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegSaveKeyEx
  - RegSaveKeyExA
- - RegSaveKeyExW
+ - RegSaveKeyEx
 ---
 
 # RegSaveKeyExA function
@@ -209,3 +210,4 @@ The calling process must have the SE_BACKUP_NAME privilege enabled. For more inf
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+

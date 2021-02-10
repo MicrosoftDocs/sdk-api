@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagLOGBRUSH
+ - PLOGBRUSH
  - LOGBRUSH
 ---
 
@@ -222,3 +224,4 @@ Although <b>lbColor</b> controls the foreground color of a hatch brush, the <a h
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
+

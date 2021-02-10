@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cloneviewhelper.h
 api_name:
- - IViewHelper.GetConnectedIDs
+ - IViewHelper::GetConnectedIDs
 ---
 
 # IViewHelper::GetConnectedIDs
@@ -184,3 +184,4 @@ In the first call to <b>GetConnectedIDs</b>, the <i>pulID </i>parameter is set t
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a>
+

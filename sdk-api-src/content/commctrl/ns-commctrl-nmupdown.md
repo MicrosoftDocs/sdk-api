@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - _NM_UPDOWN
+ - LPNMUPDOWN
  - NMUPDOWN
 ---
 
@@ -89,3 +91,4 @@ Signed integer value that represents the proposed change in the up-down control'
 
 
 <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
+

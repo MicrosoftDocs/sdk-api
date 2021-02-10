@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
+ - PCRYPT_XML_CRYPTO_PROVIDER
  - CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
 ---
 
@@ -93,3 +95,4 @@ A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc
 ### -field fpCryptXmlGetAlgorithmInfo
 
 A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetalgorithminfo">CryptXmlDllGetAlgorithmInfo</a> function.
+

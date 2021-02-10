@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateRectangleClip
+ - IDCompositionDevice2::CreateRectangleClip
 ---
 
 # IDCompositionDevice2::CreateRectangleClip
@@ -77,3 +77,4 @@ A newly created clip object has a static value of <a href="https://msdn.microsof
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_)">IDCompositionVisual::SetClip</a>
+

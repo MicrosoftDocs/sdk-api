@@ -9,6 +9,8 @@ tech.root: lwef
 f1_keywords:
  - wmiutils
  - wmiutils/wmiutils
+api_name:
+ - wmiutils
 ---
 
 # Wmiutils.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidXDSEvent.RatingChange
+ - IMSVidXDSEvent::RatingChange
 ---
 
 # IMSVidXDSEvent::RatingChange
@@ -90,3 +90,4 @@ Return S_OK or an error code.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidxdsevent">IMSVidXDSEvent Interface</a>
+

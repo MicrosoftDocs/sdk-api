@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectConnectionsInfo.GetNumberInputs
+ - IMILBitmapEffectConnectionsInfo::GetNumberInputs
 ---
 
 # IMILBitmapEffectConnectionsInfo::GetNumberInputs

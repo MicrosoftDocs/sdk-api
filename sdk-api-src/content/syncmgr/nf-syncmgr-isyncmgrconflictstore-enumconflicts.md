@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrConflictStore.EnumConflicts
+ - ISyncMgrConflictStore::EnumConflicts
 ---
 
 # ISyncMgrConflictStore::EnumConflicts
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If the sync handler, sync item, or partner name is <b>NULL</b>, the conflict store ignores that parameter.
+

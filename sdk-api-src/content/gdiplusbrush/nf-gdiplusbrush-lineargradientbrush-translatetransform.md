@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.TranslateTransform
+ - LinearGradientBrush::TranslateTransform
 ---
 
 # LinearGradientBrush::TranslateTransform
@@ -166,3 +166,4 @@ VOID Example_TranslateTrans(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

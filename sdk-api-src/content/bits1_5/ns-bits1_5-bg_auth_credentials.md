@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bits1_5.h
 api_name:
+ - __MIDL_IBackgroundCopyJob2_0003
  - BG_AUTH_CREDENTIALS
 ---
 
@@ -87,3 +88,4 @@ Identifies the credentials to use for the specified authentication scheme. For d
 
 
 <a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">IBackgroundCopyJob2::SetCredentials</a>
+

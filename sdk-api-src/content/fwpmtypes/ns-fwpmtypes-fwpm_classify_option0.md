@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_CLASSIFY_OPTION0_
  - FWPM_CLASSIFY_OPTION0
 ---
 
@@ -138,3 +139,4 @@ The following table lists possible values for the members of a <b>FWPM_CLASSIFY_
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup.SetAccountInformation
+ - IMSCEPSetup::SetAccountInformation
 ---
 
 # IMSCEPSetup::SetAccountInformation
@@ -71,3 +71,4 @@ If NDES is configured for an enterprise <a href="/windows/desktop/SecGloss/c-gly
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
+

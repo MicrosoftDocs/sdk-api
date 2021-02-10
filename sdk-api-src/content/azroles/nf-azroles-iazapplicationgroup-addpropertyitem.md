@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup.AddPropertyItem
- - AzApplicationGroup.AddPropertyItem
+ - IAzApplicationGroup::AddPropertyItem
 ---
 
 # IAzApplicationGroup::AddPropertyItem
@@ -137,3 +136,4 @@ Reserved for future use.
 ## -remarks
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
+

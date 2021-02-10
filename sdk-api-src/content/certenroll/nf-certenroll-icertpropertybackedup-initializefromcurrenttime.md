@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyBackedUp.InitializeFromCurrentTime
+ - ICertPropertyBackedUp::InitializeFromCurrentTime
 ---
 
 # ICertPropertyBackedUp::InitializeFromCurrentTime
@@ -110,3 +110,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-se
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertybackedup">ICertPropertyBackedUp</a>
+

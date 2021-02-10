@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterCancel
+ - PIBIO_SENSOR_CANCEL_FN
 ---
 
 # PIBIO_SENSOR_CANCEL_FN callback function
@@ -151,3 +151,4 @@ SensorAdapterCancel(
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

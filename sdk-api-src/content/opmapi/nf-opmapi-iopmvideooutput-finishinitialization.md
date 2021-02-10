@@ -42,7 +42,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
- - IOPMVideoOutput.FinishInitialization
+ - IOPMVideoOutput::FinishInitialization
 ---
 
 # IOPMVideoOutput::FinishInitialization
@@ -125,3 +125,4 @@ The application must use cryptographically secure random numbers. The <b>CryptGe
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionMatrixTransform.SetMatrixElement
+ - IDCompositionMatrixTransform::SetMatrixElement
 ---
 
 # IDCompositionMatrixTransform::SetMatrixElement(int,int,float)
@@ -87,3 +87,4 @@ If the specified element was previously animated, this method removes the animat
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionmatrixtransform">IDCompositionMatrixTransform</a>
+

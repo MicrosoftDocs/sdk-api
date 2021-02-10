@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.TaskRunAsSelf
- - IDataCollectorSet.get_TaskRunAsSelf
- - IDataCollectorSet.put_TaskRunAsSelf
+ - IDataCollectorSet::get_TaskRunAsSelf
 ---
 
 # IDataCollectorSet::get_TaskRunAsSelf
@@ -69,3 +67,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">IDataCollectorSet::TaskUserTextArguments</a>
+

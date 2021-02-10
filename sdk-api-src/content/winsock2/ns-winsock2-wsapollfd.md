@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
+ - pollfd
+ - PWSAPOLLFD
  - WSAPOLLFD
 ---
 
@@ -165,3 +167,4 @@ If the <b>fd</b> member of the <b>WSAPOLLFD</b> structure is set to a negative v
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
+

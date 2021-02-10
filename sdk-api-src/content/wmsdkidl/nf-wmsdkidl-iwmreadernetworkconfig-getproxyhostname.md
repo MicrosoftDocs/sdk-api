@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetProxyHostName
+ - IWMReaderNetworkConfig::GetProxyHostName
 ---
 
 # IWMReaderNetworkConfig::GetProxyHostName
@@ -130,3 +130,4 @@ The host name is ignored if the proxy setting is WMT_PROXY_SETTING_AUTO or WMT_P
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxysettings">IWMReaderNetworkConfig::SetProxySettings</a>
+

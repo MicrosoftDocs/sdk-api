@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_DATETIME
  - WS_DATETIME
 ---
 
@@ -74,3 +75,4 @@ The time in 100 nanosecond units, with 0 representing 12:00:00 midnight January 
 ### -field format
 
 The format that is used when representing this time as text.
+

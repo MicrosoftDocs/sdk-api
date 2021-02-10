@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - RPC_BINDING_HANDLE_TEMPLATE_V1
- - RPC_BINDING_HANDLE_TEMPLATE_V1_A
+ - _RPC_BINDING_HANDLE_TEMPLATE_V1_W
+ - PRPC_BINDING_HANDLE_TEMPLATE_V1_W
  - RPC_BINDING_HANDLE_TEMPLATE_V1_W
 ---
 
@@ -173,3 +173,4 @@ The following table demonstrates the behavior of static and dynamic binding hand
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagACCESSTIMEOUT
+ - LPACCESSTIMEOUT
  - ACCESSTIMEOUT
 ---
 
@@ -125,3 +127,4 @@ Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

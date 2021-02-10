@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1010
+ - PUSER_INFO_1010
  - USER_INFO_1010
 ---
 
@@ -136,3 +138,4 @@ The accounts operator privilege is enabled.
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

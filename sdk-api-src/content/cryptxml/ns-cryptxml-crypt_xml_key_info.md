@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_KEY_INFO
+ - PCRYPT_XML_KEY_INFO
  - CRYPT_XML_KEY_INFO
 ---
 
@@ -77,3 +79,4 @@ A pointer to an array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-cryp
 ### -field hVerifyKey
 
 Optional. The handle of data  derived from the first key value.
+

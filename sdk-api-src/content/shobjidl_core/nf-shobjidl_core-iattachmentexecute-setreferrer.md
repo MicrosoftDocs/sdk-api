@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IAttachmentExecute.SetReferrer
+ - IAttachmentExecute::SetReferrer
 ---
 
 # IAttachmentExecute::SetReferrer
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Calling <b>IAttachmentExecute::SetReferrer</b> is optional.
 
 <b>IAttachmentExecute::SetReferrer</b> is only used to determine the security zone and its associated policies.
+

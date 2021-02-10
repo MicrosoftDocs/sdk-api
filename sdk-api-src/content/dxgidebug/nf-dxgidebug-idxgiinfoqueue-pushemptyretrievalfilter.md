@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PushEmptyRetrievalFilter
+ - IDXGIInfoQueue::PushEmptyRetrievalFilter
 ---
 
 # IDXGIInfoQueue::PushEmptyRetrievalFilter
@@ -72,3 +72,4 @@ An empty retrieval filter allows all messages to pass through.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DStateBlock9.GetDevice
+ - IDirect3DStateBlock9::GetDevice
 ---
 
 # IDirect3DStateBlock9::GetDevice
@@ -71,3 +71,4 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dstateblock9">IDirect3DStateBlock9</a>
+

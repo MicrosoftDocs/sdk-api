@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.CleanupObsoleteMountPoints
+ - IVdsService::CleanupObsoleteMountPoints
 ---
 
 # IVdsService::CleanupObsoleteMountPoints
@@ -127,3 +127,4 @@ In addition, if the volume contains any mounted folders,
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
+

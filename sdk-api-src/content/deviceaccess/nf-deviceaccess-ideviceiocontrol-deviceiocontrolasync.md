@@ -43,7 +43,7 @@ api_location:
  - Deviceaccess.lib
  - Deviceaccess.dll
 api_name:
- - IDeviceIoControl.DeviceIoControlAsync
+ - IDeviceIoControl::DeviceIoControlAsync
 ---
 
 # IDeviceIoControl::DeviceIoControlAsync
@@ -96,3 +96,4 @@ An operation that the system (operating system or device driver) fails immediate
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition.put_StopTime
+ - IMediaPosition::put_StopTime
 ---
 
 # IMediaPosition::put_StopTime
@@ -114,3 +114,4 @@ The stop time ignores the start time and the playback rate. For example, if the 
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _getcontextmenuex
  - GETCONTEXTMENUEX
 ---
 
@@ -133,3 +134,4 @@ Not used; must be zero.
 ## -see-also
 
 <a href="/windows/win32/api/richole/nf-richole-iricheditolecallback-getcontextmenu">IRichEditOleCallback::GetContextMenu</a>
+

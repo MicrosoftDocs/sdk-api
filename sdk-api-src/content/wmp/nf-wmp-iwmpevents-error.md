@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.Error
+ - IWMPEvents::Error
 ---
 
 # IWMPEvents::Error
@@ -57,3 +57,4 @@ The <b>Error</b> event occurs when the Windows Media Player control has an error
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

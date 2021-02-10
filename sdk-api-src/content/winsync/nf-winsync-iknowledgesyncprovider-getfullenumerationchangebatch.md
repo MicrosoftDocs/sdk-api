@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IKnowledgeSyncProvider.GetFullEnumerationChangeBatch
+ - IKnowledgeSyncProvider::GetFullEnumerationChangeBatch
 ---
 
 # IKnowledgeSyncProvider::GetFullEnumerationChangeBatch
@@ -132,3 +132,4 @@ This method enumerates, in sorted order by item ID, changes that have an item ID
 
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-reference">Windows Sync Reference</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eapAuthenticatorTypes.h
 api_name:
+ - _EAP_AUTHENTICATOR_SEND_TIMEOUT
  - EAP_AUTHENTICATOR_SEND_TIMEOUT
 ---
 

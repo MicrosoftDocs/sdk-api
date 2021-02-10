@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor.GetLastModified
+ - IUrlAccessor::GetLastModified
 ---
 
 # IUrlAccessor::GetLastModified
@@ -72,3 +72,4 @@ This method is used to determine whether a URL has changed since the last time i
             
 
 Directory URLs are always processed regardless of the time stamp returned by this method.
+

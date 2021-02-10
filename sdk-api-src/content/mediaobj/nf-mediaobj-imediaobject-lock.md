@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject.Lock
+ - IMediaObject::Lock
 ---
 
 # IMediaObject::Lock

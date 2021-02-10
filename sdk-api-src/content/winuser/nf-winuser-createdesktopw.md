@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - CreateDesktopW
  - winuser/CreateDesktopW
+ - CreateDesktop
+ - winuser/CreateDesktop
 dev_langs:
  - c++
 topic_type:
@@ -46,10 +49,8 @@ api_location:
  - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - CreateDesktop
- - CreateDesktopA
  - CreateDesktopW
-req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
+ - CreateDesktop
 ---
 
 # CreateDesktopW function
@@ -177,3 +178,4 @@ The values for the "SharedSection" substring are described as follows:
 
 
 <a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
+

@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetVideoWindow
+ - IMFVideoDisplayControl::GetVideoWindow
 ---
 
 # IMFVideoDisplayControl::GetVideoWindow
@@ -107,3 +107,4 @@ There is no default clipping window. The application must set the clipping windo
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
+

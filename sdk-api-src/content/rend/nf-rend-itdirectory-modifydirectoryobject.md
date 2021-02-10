@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory.ModifyDirectoryObject
+ - ITDirectory::ModifyDirectoryObject
 ---
 
 # ITDirectory::ModifyDirectoryObject
@@ -130,3 +130,4 @@ Some attributes cannot be modified, and an attempt to modify them will fail. For
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+

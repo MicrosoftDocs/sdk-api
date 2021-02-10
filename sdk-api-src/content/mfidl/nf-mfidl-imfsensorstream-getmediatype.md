@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorStream.GetMediaType
+ - IMFSensorStream::GetMediaType
 ---
 
 # IMFSensorStream::GetMediaType
@@ -114,3 +114,4 @@ The <i>dwIndex</i> is not in the allowed range.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>
+

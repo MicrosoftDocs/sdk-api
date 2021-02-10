@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetCreator
+ - IXpsOMCoreProperties::SetCreator
 ---
 
 # IXpsOMCoreProperties::SetCreator
@@ -78,3 +78,4 @@ the resource.
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetAllInstances
- - ?GetAllInstances@CWbemProviderGlue@@SGJPBGPAV?$TRefPointerCollection@VCInstance@@@@0PAVMethodContext@@@Z
+ - CWbemProviderGlue::GetAllInstances
 ---
 
 # CWbemProviderGlue::GetAllInstances
@@ -87,3 +86,4 @@ The method returns <b>WBEM_S_NO_ERROR</b> if the operation was successful, <b>WB
 The <b>GetAllInstances</b> method allows framework providers to access data from another provider without having to make a WMI API call. Framework providers pass the name of the provider to <b>GetAllInstances</b>, which returns a list of all of the instances that the provider supports.
 
 This method is semantically equivalent to the query SELECT * FROM <i>pszBaseClassName</i> WHERE __Class = <i>pszBaseClassName</i>.
+

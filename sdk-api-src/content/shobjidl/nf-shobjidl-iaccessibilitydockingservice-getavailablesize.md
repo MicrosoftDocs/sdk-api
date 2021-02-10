@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IAccessibilityDockingService.GetAvailableSize
+ - IAccessibilityDockingService::GetAvailableSize
 ---
 
 # IAccessibilityDockingService::GetAvailableSize
@@ -151,3 +151,4 @@ This example shows this method in use.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/hh448546(v=vs.85)">IAccessibilityDockingService</a>
+

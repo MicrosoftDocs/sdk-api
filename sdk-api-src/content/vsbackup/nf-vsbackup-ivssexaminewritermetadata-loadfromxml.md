@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadata.LoadFromXML
+ - IVssExamineWriterMetadata::LoadFromXML
 ---
 
 # IVssExamineWriterMetadata::LoadFromXML
@@ -156,3 +156,4 @@ Users should not tamper with this metadata document.
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml">IVssExamineWriterMetadata::SaveAsXML</a>
+

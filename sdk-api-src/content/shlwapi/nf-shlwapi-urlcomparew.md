@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UrlCompareW
  - shlwapi/UrlCompareW
+ - UrlCompare
+ - shlwapi/UrlCompare
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Core-url-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - UrlCompare
- - UrlCompareA
  - UrlCompareW
+ - UrlCompare
 ---
 
 # UrlCompareW function
@@ -96,3 +97,4 @@ For best results, you should first canonicalize the URLs with <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcmpw">StrCmp</a>
+

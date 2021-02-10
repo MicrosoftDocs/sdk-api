@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2.put_EndingSectorsPerSecond
+ - IWriteEngine2::put_EndingSectorsPerSecond
 ---
 
 # IWriteEngine2::put_EndingSectorsPerSecond
@@ -122,3 +122,4 @@ This is used to optimize sleep time in the write engine.
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond">IWriteEngine2::put_StartingSectorsPerSecond</a>
+

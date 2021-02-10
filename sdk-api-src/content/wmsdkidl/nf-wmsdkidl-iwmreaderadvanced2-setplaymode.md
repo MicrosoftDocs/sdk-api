@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.SetPlayMode
+ - IWMReaderAdvanced2::SetPlayMode
 ---
 
 # IWMReaderAdvanced2::SetPlayMode
@@ -76,3 +76,4 @@ The default play mode is WMT_PLAY_MODE_AUTOSELECT, which enables the reader to p
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getplaymode">IWMReaderAdvanced2::GetPlayMode</a>
+

@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - UnregisterClassW
  - winuser/UnregisterClassW
+ - UnregisterClass
+ - winuser/UnregisterClass
 dev_langs:
  - c++
 topic_type:
@@ -50,10 +53,8 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
  - ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - UnregisterClass
- - UnregisterClassA
  - UnregisterClassW
-req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
+ - UnregisterClass
 ---
 
 # UnregisterClassW function
@@ -121,3 +122,4 @@ No window classes registered by a DLL are unregistered when the .dll is unloaded
 
 
 <a href="/windows/desktop/winmsg/window-classes">Window Classes</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image.SelectActiveFrame
+ - Image::SelectActiveFrame
 ---
 
 # Image::SelectActiveFrame
@@ -114,3 +114,4 @@ Among all the image formats currently supported by GDI+, the only formats that s
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
+

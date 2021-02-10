@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog.QueryApplicationFile
+ - ICOMAdminCatalog::QueryApplicationFile
 ---
 
 # ICOMAdminCatalog::QueryApplicationFile
@@ -85,3 +85,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMediaProps.GetMediaType
+ - IWMMediaProps::GetMediaType
 ---
 
 # IWMMediaProps::GetMediaType
@@ -124,3 +124,4 @@ You must make two calls to <b>GetMediaType</b>. On the first call, pass <b>NULL<
 
 
 <a href="/windows/desktop/wmformat/media-types">Media Types</a>
+

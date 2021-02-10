@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider.Query
+ - IFunctionDiscoveryProvider::Query
 ---
 
 # IFunctionDiscoveryProvider::Query
@@ -123,3 +123,4 @@ If <b>Query</b> returns <b>E_PENDING</b>, the provider must call the <a href="/w
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
+

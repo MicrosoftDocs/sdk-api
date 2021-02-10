@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.InitializeFromPrivateKey
+ - IX509CertificateRequestPkcs10::InitializeFromPrivateKey
 ---
 
 # IX509CertificateRequestPkcs10::InitializeFromPrivateKey
@@ -151,3 +151,4 @@ No private key is created at this point. If the <a href="/windows/desktop/api/ce
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+

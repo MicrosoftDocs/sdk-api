@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2.Commit
+ - IDCompositionDevice2::Commit
 ---
 
 # IDCompositionDevice2::Commit
@@ -78,3 +78,4 @@ An application that uses multiple devices must call
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
+

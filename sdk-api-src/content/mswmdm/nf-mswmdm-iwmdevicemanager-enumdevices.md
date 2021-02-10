@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDeviceManager.EnumDevices
+ - IWMDeviceManager::EnumDevices
 ---
 
 # IWMDeviceManager::EnumDevices
@@ -89,3 +89,4 @@ This method returns devices based on earlier versions of Windows Media Device Ma
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">IWMDeviceManager2::EnumDevices2</a>
+

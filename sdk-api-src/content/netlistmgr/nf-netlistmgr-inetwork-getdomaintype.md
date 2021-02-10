@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetwork.GetDomainType
+ - INetwork::GetDomainType
 ---
 
 # INetwork::GetDomainType
@@ -65,3 +65,4 @@ Returns S_OK if the method succeeds.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
+

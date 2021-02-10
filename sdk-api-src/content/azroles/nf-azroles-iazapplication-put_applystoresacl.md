@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication.ApplyStoreSacl
- - IAzApplication.get_ApplyStoreSacl
- - IAzApplication.put_ApplyStoreSacl
- - AzApplication.ApplyStoreSacl
+ - IAzApplication::put_ApplyStoreSacl
 ---
 
 # IAzApplication::put_ApplyStoreSacl
@@ -64,3 +61,4 @@ This property is read/write.
 Policy audits are generated when the underlying policy store is modified. Both success and failure audits are requested.
 
 This property controls policy auditing only for the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object and its child objects.
+

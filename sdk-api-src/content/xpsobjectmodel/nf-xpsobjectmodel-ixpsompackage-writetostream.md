@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.WriteToStream
+ - IXpsOMPackage::WriteToStream
 ---
 
 # IXpsOMPackage::WriteToStream
@@ -151,3 +151,4 @@ The <i>optimizeMarkupSize</i> value determines whether the markup inside the ind
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

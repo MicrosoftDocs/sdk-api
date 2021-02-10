@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.RootStoreName
- - ICEnroll4.get_RootStoreName
- - ICEnroll4.put_RootStoreName
- - ICEnroll3.RootStoreName
- - ICEnroll3.get_RootStoreName
- - ICEnroll3.put_RootStoreName
- - ICEnroll2.RootStoreName
- - ICEnroll2.get_RootStoreName
- - ICEnroll2.put_RootStoreName
- - ICEnroll.RootStoreName
- - ICEnroll.get_RootStoreName
- - ICEnroll.put_RootStoreName
- - CEnroll.RootStoreName
+ - ICEnroll::put_RootStoreName
 ---
 
 # ICEnroll::put_RootStoreName
@@ -118,3 +106,4 @@ if ( FAILED ( hr ) )
 else
     printf( "RootStoreName was set to : %ws\n", bstrNewName );
 ```
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAsyncReader.SyncReadAligned
+ - IAsyncReader::SyncReadAligned
 ---
 
 # IAsyncReader::SyncReadAligned
@@ -118,3 +118,4 @@ This method performs an unbuffered read, so it might be faster than the <a href=
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
+

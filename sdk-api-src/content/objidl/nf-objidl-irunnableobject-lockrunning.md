@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunnableObject.LockRunning
+ - IRunnableObject::LockRunning
 ---
 
 # IRunnableObject::LockRunning
@@ -84,3 +84,4 @@ Most implementations of <b>IRunnableObject::LockRunning</b> call <a href="/windo
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a>
+

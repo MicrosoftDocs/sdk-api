@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DRIVE_LAYOUT_INFORMATION_MBR
+ - PDRIVE_LAYOUT_INFORMATION_MBR
  - DRIVE_LAYOUT_INFORMATION_MBR
 ---
 
@@ -78,3 +80,4 @@ The signature of the drive.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
+

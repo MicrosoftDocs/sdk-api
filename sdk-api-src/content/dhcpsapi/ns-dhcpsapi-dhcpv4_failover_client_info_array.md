@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCPV4_FAILOVER_CLIENT_INFO_ARRAY
+ - LPDHCPV4_FAILOVER_CLIENT_INFO_ARRAY
  - DHCPV4_FAILOVER_CLIENT_INFO_ARRAY
 ---
 
@@ -69,3 +71,4 @@ Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv4
 ### -field Clients.size_is
 
 ### -field Clients.size_is.NumElements
+

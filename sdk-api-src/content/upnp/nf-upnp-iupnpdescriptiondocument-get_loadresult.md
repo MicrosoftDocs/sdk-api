@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDescriptionDocument.get_LoadResult
+ - IUPnPDescriptionDocument::get_LoadResult
 ---
 
 # IUPnPDescriptionDocument::get_LoadResult
@@ -125,3 +125,4 @@ This property specifies the error that the <a href="/windows/desktop/api/upnp/nf
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>
+

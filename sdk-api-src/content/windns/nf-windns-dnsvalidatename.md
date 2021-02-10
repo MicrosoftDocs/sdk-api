@@ -43,9 +43,6 @@ api_location:
  - Dnsapi.dll
 api_name:
  - DnsValidateName
- - DnsValidateName_A
- - DnsValidateName_W
- - DnsValidateName_UTF8
 ---
 
 # DnsValidateName macro
@@ -163,3 +160,4 @@ The
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
+

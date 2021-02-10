@@ -43,8 +43,6 @@ api_location:
  - Avifil32.dll
 api_name:
  - AVIFileCreateStream
- - AVIFileCreateStreamA
- - AVIFileCreateStreamW
 ---
 
 # AVIFileCreateStream function
@@ -89,3 +87,4 @@ The argument <i>pfile</i> is a pointer to an <a href="/windows/desktop/api/vfw/n
 
 
 <a href="/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a>
+

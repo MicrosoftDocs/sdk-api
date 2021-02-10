@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetFontRenderingEmSize
+ - IXpsOMGlyphs::GetFontRenderingEmSize
 ---
 
 # IXpsOMGlyphs::GetFontRenderingEmSize
@@ -110,3 +110,4 @@ If the value of <i>fontRenderingEmSize</i> is 0.0, no text is displayed.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

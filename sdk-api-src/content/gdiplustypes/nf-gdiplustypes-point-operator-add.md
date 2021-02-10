@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Point.operator+
+ - Point::operator+
 ---
 
 # Point::operator-add
@@ -102,3 +102,4 @@ Point point3 = point1 + point2;
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings.IdleSettings
- - ITaskSettings.get_IdleSettings
- - ITaskSettings.put_IdleSettings
+ - ITaskSettings::get_IdleSettings
 ---
 
 # ITaskSettings::get_IdleSettings
@@ -78,3 +76,4 @@ All other triggers are delayed until battery saver is off. For more information 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

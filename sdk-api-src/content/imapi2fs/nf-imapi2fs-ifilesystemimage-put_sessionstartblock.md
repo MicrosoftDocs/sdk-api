@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage.put_SessionStartBlock
+ - IFileSystemImage::put_SessionStartBlock
 ---
 
 # IFileSystemImage::put_SessionStartBlock
@@ -73,3 +73,4 @@ If the previous session is imported, the session start block cannot be changed m
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_sessionstartblock">IFileSystemImage::get_SessionStartBlock</a>
+

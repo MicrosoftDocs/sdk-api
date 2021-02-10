@@ -42,7 +42,7 @@ api_type:
 api_location:
  - workspaceruntime.h
 api_name:
- - IWorkspace3.SetClaimsToken
+ - IWorkspace3::SetClaimsToken
 ---
 
 # IWorkspace3::SetClaimsToken
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>
+

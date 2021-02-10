@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUS_CSV_VOLUME_INFO
+ - PCLUS_CSV_VOLUME_INFO
  - CLUS_CSV_VOLUME_INFO
 ---
 
@@ -85,3 +87,4 @@ The volume <b>GUID</b> path of the CSV.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

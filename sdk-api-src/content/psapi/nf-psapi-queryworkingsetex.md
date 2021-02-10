@@ -47,7 +47,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - QueryWorkingSetEx
- - K32QueryWorkingSetEx
 ---
 
 # QueryWorkingSetEx function
@@ -100,3 +99,4 @@ For an example, see <a href="/windows/desktop/Memory/allocating-memory-from-a-nu
 <a href="/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a>
 
 <a href="/windows/desktop/psapi/working-set-information">Working Set Information</a>
+

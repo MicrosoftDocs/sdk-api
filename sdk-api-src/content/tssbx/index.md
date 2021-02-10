@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - tssbx
  - tssbx/tssbx
+api_name:
+ - tssbx
 ---
 
 # Tssbx.h header

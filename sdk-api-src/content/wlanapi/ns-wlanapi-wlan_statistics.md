@@ -45,6 +45,7 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_STATISTICS
+ - PWLAN_STATISTICS
 ---
 
 # WLAN_STATISTICS structure
@@ -101,3 +102,4 @@ An array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_frame_stat
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
+

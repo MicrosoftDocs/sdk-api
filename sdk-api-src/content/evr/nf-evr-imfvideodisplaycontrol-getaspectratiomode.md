@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetAspectRatioMode
+ - IMFVideoDisplayControl::GetAspectRatioMode
 ---
 
 # IMFVideoDisplayControl::GetAspectRatioMode
@@ -103,3 +103,4 @@ The video renderer has been shut down.
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
+

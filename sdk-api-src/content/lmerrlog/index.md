@@ -9,6 +9,8 @@ tech.root: netmgmt
 f1_keywords:
  - lmerrlog
  - lmerrlog/lmerrlog
+api_name:
+ - lmerrlog
 ---
 
 # Lmerrlog.h header

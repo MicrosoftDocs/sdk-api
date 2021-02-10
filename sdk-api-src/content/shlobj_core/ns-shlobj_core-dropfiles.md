@@ -46,6 +46,8 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - _DROPFILES
+ - LPDROPFILES
  - DROPFILES
 ---
 
@@ -81,3 +83,4 @@ A nonclient area flag. If this member is <b>TRUE</b>, <b>pt</b> specifies the sc
 Type: <b>BOOL</b>
 
 A value that indicates whether the file contains ANSI or Unicode characters. If the value is zero, the file contains ANSI characters. Otherwise, it contains Unicode characters.
+

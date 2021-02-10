@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - LPEXP_DARWIN_LINK
  - EXP_DARWIN_LINK
 ---
 
@@ -90,3 +91,4 @@ The link's ID in the form of an Unicode string.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">IShellLinkDataList::GetFlags</a>
+

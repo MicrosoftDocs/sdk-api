@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.EnumMembersWithName
+ - IMetaDataImport::EnumMembersWithName
 ---
 
 # IMetaDataImport::EnumMembersWithName
@@ -105,3 +105,4 @@ This method enumerates fields and methods, but not properties or events. Unlike 
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

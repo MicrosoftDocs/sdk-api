@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1.dll
 api_name:
- - ID2D1TransformGraph.GetInputCount
+ - ID2D1TransformGraph::GetInputCount
 ---
 
 # ID2D1TransformGraph::GetInputCount
@@ -63,3 +63,4 @@ The number of inputs to this transform graph.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
+

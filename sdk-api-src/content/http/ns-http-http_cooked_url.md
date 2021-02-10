@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_COOKED_URL
+ - PHTTP_COOKED_URL
  - HTTP_COOKED_URL
 ---
 
@@ -103,3 +105,4 @@ For example, if <b>pFullUrl</b> is "http://www.fabrikam.com/path1/path2/file.ext
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
+

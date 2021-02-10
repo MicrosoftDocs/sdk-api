@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.IsDurationKnown
+ - IUIAnimationTransition2::IsDurationKnown
 ---
 
 # IUIAnimationTransition2::IsDurationKnown
@@ -69,3 +69,4 @@ This method should not be called when the storyboard to which the transition has
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition2-getduration">IUIAnimationTransition2::GetDuration</a>
+

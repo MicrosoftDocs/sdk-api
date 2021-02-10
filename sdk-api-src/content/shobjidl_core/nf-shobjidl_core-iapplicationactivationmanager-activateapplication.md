@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IApplicationActivationManager.ActivateApplication
+ - IApplicationActivationManager::ActivateApplication
 ---
 
 # IApplicationActivationManager::ActivateApplication
@@ -115,3 +115,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">IPackageDebugSettings::EnableDebugging</a>
+

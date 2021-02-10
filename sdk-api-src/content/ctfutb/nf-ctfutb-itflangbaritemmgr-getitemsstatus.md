@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemMgr.GetItemsStatus
+ - ITfLangBarItemMgr::GetItemsStatus
 ---
 
 # ITfLangBarItemMgr::GetItemsStatus
@@ -118,3 +118,4 @@ This method causes the <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbar
 
 <a href="/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_* Constants
       </a>
+

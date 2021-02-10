@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IUserInputString.GetDefault
+ - IUserInputString::GetDefault
 ---
 
 # IUserInputString::GetDefault
@@ -95,3 +95,4 @@ The pointer passed was <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
+

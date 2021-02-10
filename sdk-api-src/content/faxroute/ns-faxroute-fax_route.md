@@ -46,6 +46,8 @@ api_type:
 api_location:
  - FaxRoute.h
 api_name:
+ - _FAX_ROUTE
+ - PFAX_ROUTE
  - FAX_ROUTE
 ---
 
@@ -175,3 +177,4 @@ The fax routing method can use the <a href="/windows/desktop/api/fileapi/nf-file
 
 
 <a href="/previous-versions/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a>
+

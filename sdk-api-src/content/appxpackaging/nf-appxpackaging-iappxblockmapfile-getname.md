@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBlockMapFile.GetName
+ - IAppxBlockMapFile::GetName
 ---
 
 # IAppxBlockMapFile::GetName
@@ -73,3 +73,4 @@ The caller is responsible for deallocating the memory used for <i>name</i>. Use 
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapfile">IAppxBlockMapFile</a>
+

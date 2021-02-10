@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tcpmib.h
 api_name:
+ - _MIB_TCP6TABLE
+ - PMIB_TCP6TABLE
  - MIB_TCP6TABLE
 ---
 
@@ -258,3 +260,4 @@ int wmain()
 
 
 <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
+

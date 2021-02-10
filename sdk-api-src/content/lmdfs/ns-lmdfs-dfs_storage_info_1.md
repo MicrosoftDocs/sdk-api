@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_STORAGE_INFO_1
+ - PDFS_STORAGE_INFO_1
  - DFS_STORAGE_INFO_1
 ---
 
@@ -99,3 +101,4 @@ This structure is used as the <b>Storage</b> member of the <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_6">DFS_INFO_6</a>
+

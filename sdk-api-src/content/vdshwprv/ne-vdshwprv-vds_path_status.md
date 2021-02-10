@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_PATH_STATUS
  - VDS_PATH_STATUS
 ---
 
@@ -84,3 +85,4 @@ The path is in standby mode.
 ## -see-also
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
+

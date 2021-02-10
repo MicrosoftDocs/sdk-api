@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrier.GetSupportedCellularClasses
+ - IMbnMultiCarrier::GetSupportedCellularClasses
 ---
 
 # IMbnMultiCarrier::GetSupportedCellularClasses
@@ -130,3 +130,4 @@ The operation is not supported by the device. This may be returned by devices wh
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
+

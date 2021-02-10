@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMBackupDirEx
- - GPMBackupDirEx
 ---
 
 # IGPMBackupDirEx interface
@@ -91,3 +90,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDirEx</b> interface
 
 
 <b>IGPMStarterGPOBackupCollection</b>
+

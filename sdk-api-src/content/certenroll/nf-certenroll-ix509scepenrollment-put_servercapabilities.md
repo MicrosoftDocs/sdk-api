@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509SCEPEnrollment.ServerCapabilities
- - IX509SCEPEnrollment.put_ServerCapabilities
+ - IX509SCEPEnrollment::put_ServerCapabilities
 ---
 
 # IX509SCEPEnrollment::put_ServerCapabilities
@@ -66,3 +65,4 @@ This property must be set before calling the <a href="/windows/desktop/api/certe
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
+

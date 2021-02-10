@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort.Rings
- - IFaxPort.get_Rings
- - IFaxPort.put_Rings
+ - IFaxPort::get_Rings
 ---
 
 # IFaxPort::get_Rings
@@ -79,3 +77,4 @@ The fax server ignores the <b>IFaxPort::get_Rings</b> property unless the specif
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a>
+

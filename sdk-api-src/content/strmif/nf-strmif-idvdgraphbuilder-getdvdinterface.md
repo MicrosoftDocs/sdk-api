@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdGraphBuilder.GetDvdInterface
+ - IDvdGraphBuilder::GetDvdInterface
 ---
 
 # IDvdGraphBuilder::GetDvdInterface
@@ -148,3 +148,4 @@ To get other interfaces, call <a href="/windows/desktop/api/strmif/nf-strmif-idv
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder Interface</a>
+

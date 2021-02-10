@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument.CoverPageType
- - IFaxDocument.get_CoverPageType
- - IFaxDocument.put_CoverPageType
+ - IFaxDocument::put_CoverPageType
 ---
 
 # IFaxDocument::put_CoverPageType
@@ -75,3 +73,4 @@ Provide the name of the cover page in the <a href="/previous-versions/windows/de
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
+

@@ -9,6 +9,8 @@ tech.root: ncd
 f1_keywords:
  - wsdtypes
  - wsdtypes/wsdtypes
+api_name:
+ - wsdtypes
 ---
 
 # Wsdtypes.h header

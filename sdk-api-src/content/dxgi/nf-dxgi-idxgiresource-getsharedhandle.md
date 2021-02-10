@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIResource.GetSharedHandle
+ - IDXGIResource::GetSharedHandle
 ---
 
 # IDXGIResource::GetSharedHandle
@@ -82,3 +82,4 @@ The creator of a shared resource must not destroy the resource until all intende
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcontainer.h
 api_name:
- - IMFDRMNetHelper.ProcessLicenseRequest
+ - IMFDRMNetHelper::ProcessLicenseRequest
 ---
 
 # IMFDRMNetHelper::ProcessLicenseRequest
@@ -113,3 +113,4 @@ The media sink was shut down.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfdrmnethelper">IMFDRMNetHelper</a>
+

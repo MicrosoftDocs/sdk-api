@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlayNotify.OnPaletteChange
+ - IOverlayNotify::OnPaletteChange
 ---
 
 # IOverlayNotify::OnPaletteChange
@@ -78,3 +78,4 @@ Before returning, the filter should copy the array of <b>RGBQUAD</b> values, if 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify Interface</a>
+

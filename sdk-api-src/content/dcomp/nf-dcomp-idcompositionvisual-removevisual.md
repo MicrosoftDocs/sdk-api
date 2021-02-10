@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual.RemoveVisual
+ - IDCompositionVisual::RemoveVisual
 ---
 
 # IDCompositionVisual::RemoveVisual
@@ -87,3 +87,4 @@ This method fails if <i>visual</i> is not a child of the parent visual.
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-removeallvisuals">IDCompositionVisual::RemoveAllVisuals</a>
+

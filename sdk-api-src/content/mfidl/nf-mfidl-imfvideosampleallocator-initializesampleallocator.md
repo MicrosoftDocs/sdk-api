@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFVideoSampleAllocator.InitializeSampleAllocator
+ - IMFVideoSampleAllocator::InitializeSampleAllocator
 ---
 
 # IMFVideoSampleAllocator::InitializeSampleAllocator
@@ -101,3 +101,4 @@ Invalid media type.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
+

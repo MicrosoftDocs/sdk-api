@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
+ - _TRACE_GUID_INFO
+ - PTRACE_GUID_INFO
  - TRACE_GUID_INFO
 ---
 
@@ -73,3 +75,4 @@ Use the size of this structure to access the first <a href="/windows/desktop/ETW
 ## -see-also
 
 <a href="/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a>
+

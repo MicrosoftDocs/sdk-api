@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_DESTROYSURFACEDATA
+ - PDD_DESTROYSURFACEDATA
  - DD_DESTROYSURFACEDATA
 ---
 
@@ -81,3 +83,4 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a>
+

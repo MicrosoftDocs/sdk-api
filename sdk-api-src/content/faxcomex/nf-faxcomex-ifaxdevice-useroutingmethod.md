@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice.UseRoutingMethod
- - IFaxDevice.UseRoutingMethod
+ - IFaxDevice::UseRoutingMethod
 ---
 
 # IFaxDevice::UseRoutingMethod
@@ -88,3 +87,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
+

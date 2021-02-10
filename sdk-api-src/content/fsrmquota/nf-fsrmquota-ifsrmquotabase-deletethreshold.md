@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.DeleteThreshold
+ - IFsrmQuotaBase::DeleteThreshold
 ---
 
 # IFsrmQuotaBase::DeleteThreshold
@@ -78,3 +78,4 @@ All the actions associated with the threshold are also deleted. Note that the ac
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_STATE_PRIVATE_DATA
  - DXVAHD_STREAM_STATE_PRIVATE_DATA
 ---
 
@@ -113,3 +114,4 @@ The caller allocates the <b>pData</b> array. Set the <b>DataSize</b> member to t
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue.SetStatusObject
- - ?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z
- - ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z
+ - CWbemProviderGlue::SetStatusObject
 ---
 
 # CWbemProviderGlue::SetStatusObject
@@ -90,3 +88,4 @@ Pointer to the value to be put in the <b>PrivilegesRequired</b> property of the 
 ## -returns
 
 The method returns <b>TRUE</b> if successful, and <b>FALSE</b> otherwise.
+

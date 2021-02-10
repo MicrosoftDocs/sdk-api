@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget.CreatePortalGroup
+ - IVdsIscsiTarget::CreatePortalGroup
 ---
 
 # IVdsIscsiTarget::CreatePortalGroup
@@ -155,3 +155,4 @@ Another operation is in progress; this operation cannot proceed until the previo
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsitarget">IVdsIscsiTarget</a>
+

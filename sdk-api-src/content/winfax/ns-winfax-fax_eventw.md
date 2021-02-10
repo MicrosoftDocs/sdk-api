@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - FAX_EVENT
- - FAX_EVENTA
+ - _FAX_EVENTW
+ - PFAX_EVENTW
  - FAX_EVENTW
 ---
 
@@ -399,3 +399,4 @@ If the application receives events using notification messages, it can use the <
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
+ - ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider
 ---
 
 # ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider
@@ -114,3 +114,4 @@ There was not enough memory available to create and register the synchronization
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
+

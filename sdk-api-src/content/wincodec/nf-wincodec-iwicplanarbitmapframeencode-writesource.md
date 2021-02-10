@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPlanarBitmapFrameEncode.WriteSource
+ - IWICPlanarBitmapFrameEncode::WriteSource
 ---
 
 # IWICPlanarBitmapFrameEncode::WriteSource
@@ -177,3 +177,4 @@ The supported pixel formats of the bitmap sources passed into this method are as
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapframeencode">IWICPlanarBitmapFrameEncode</a>
+

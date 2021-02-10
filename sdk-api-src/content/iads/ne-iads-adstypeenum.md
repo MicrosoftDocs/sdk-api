@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0001
  - ADSTYPEENUM
 ---
 
@@ -183,3 +184,4 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+

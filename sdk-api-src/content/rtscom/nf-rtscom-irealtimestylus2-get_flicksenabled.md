@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus2.get_FlicksEnabled
+ - IRealTimeStylus2::get_FlicksEnabled
 ---
 
 # IRealTimeStylus2::get_FlicksEnabled
@@ -65,3 +65,4 @@ This method can return one of these values.
 ## -see-also
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus2">IRealTimeStylus2 Interface</a>
+

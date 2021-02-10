@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample2Config.GetSurface
+ - IMediaSample2Config::GetSurface
 ---
 
 # IMediaSample2Config::GetSurface
@@ -88,3 +88,4 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample2config">IMediaSample2Config Interface</a>
+

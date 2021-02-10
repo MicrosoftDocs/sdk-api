@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPMPClient.SetPMPHost
+ - IMFPMPClient::SetPMPHost
 ---
 
 # IMFPMPClient::SetPMPHost
@@ -78,3 +78,4 @@ The <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphost">IMFPMPHost</a> poin
 
 
 <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
+

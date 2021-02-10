@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILockBytes.LockRegion
+ - ILockBytes::LockRegion
 ---
 
 # ILockBytes::LockRegion
@@ -125,3 +125,4 @@ A
 
 
 <a href="/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
+

@@ -46,8 +46,9 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
- - SP_DEVINFO_LIST_DETAIL_DATA
- - sp_devinfo_list_detail_data_a
+ - _SP_DEVINFO_LIST_DETAIL_DATA_A
+ - PSP_DEVINFO_LIST_DETAIL_DATA_A
+ - SP_DEVINFO_LIST_DETAIL_DATA_A
 ---
 
 # SP_DEVINFO_LIST_DETAIL_DATA_A structure
@@ -85,3 +86,4 @@ A NULL-terminated string that contains the name of the remote computer. If the d
 
 > [!NOTE]
 > The setupapi.h header defines SP_DEVINFO_LIST_DETAIL_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RasSetEntryPropertiesW
  - ras/RasSetEntryPropertiesW
+ - RasSetEntryProperties
+ - ras/RasSetEntryProperties
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasSetEntryProperties
- - RasSetEntryPropertiesA
  - RasSetEntryPropertiesW
+ - RasSetEntryProperties
 ---
 
 # RasSetEntryPropertiesW function
@@ -242,3 +243,4 @@ The combined path is the correct location for the phone-book file.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+

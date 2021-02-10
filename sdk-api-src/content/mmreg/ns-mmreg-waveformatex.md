@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmreg.h
 api_name:
+ - tWAVEFORMATEX
+ - PWAVEFORMATEX
  - WAVEFORMATEX
 ---
 
@@ -219,3 +221,4 @@ If <b>wFormatTag</b> = WAVE_FORMAT_EXTENSIBLE, set <b>cbSize</b> to <code>sizeof
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
+

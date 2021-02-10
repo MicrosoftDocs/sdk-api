@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - AXESLIST
+ - tagAXESLISTA
+ - PAXESLISTA
  - AXESLISTA
- - AXESLISTW
 ---
 
 # AXESLISTA structure
@@ -104,3 +104,4 @@ The information on the axes of a multiple master font are specified by the <a hr
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.MailTo
- - IFsrmFileManagementJob.get_MailTo
- - IFsrmFileManagementJob.put_MailTo
+ - IFsrmFileManagementJob::put_MailTo
 ---
 
 # IFsrmFileManagementJob::put_MailTo
@@ -79,3 +77,4 @@ The email message is sent only if the job finishes successfully. Email is not se
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

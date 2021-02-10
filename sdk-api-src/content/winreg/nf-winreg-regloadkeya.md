@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegLoadKeyA
  - winreg/RegLoadKeyA
+ - RegLoadKey
+ - winreg/RegLoadKey
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegLoadKey
  - RegLoadKeyA
- - RegLoadKeyW
+ - RegLoadKey
 ---
 
 # RegLoadKeyA function
@@ -153,3 +154,4 @@ The calling process must have the SE_RESTORE_NAME and SE_BACKUP_NAME privileges 
 
 
 <a href="/windows/desktop/SysInfo/registry-hives">Registry Hive</a>
+

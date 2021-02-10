@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk2.SetSANMode
+ - IVdsDisk2::SetSANMode
 ---
 
 # IVdsDisk2::SetSANMode
@@ -117,3 +117,4 @@ Setting the SAN mode of a disk to offline is called "offlining" the disk. Settin
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsdisk2">IVdsDisk2</a>
+

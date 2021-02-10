@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
+ - _RPC_BINDING_HANDLE_OPTIONS_V1
+ - PRPC_BINDING_HANDLE_OPTIONS_V1
  - RPC_BINDING_HANDLE_OPTIONS_V1
 ---
 
@@ -116,3 +118,4 @@ If this structure is not specified in a call to <a href="/windows/desktop/api/rp
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
+

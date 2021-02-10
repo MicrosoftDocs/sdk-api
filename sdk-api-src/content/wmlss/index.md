@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmlss
  - wmlss/wmlss
+api_name:
+ - wmlss
 ---
 
 # Wmlss.h header

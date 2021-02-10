@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspStatus.Initialize
+ - ICspStatus::Initialize
 ---
 
 # ICspStatus::Initialize
@@ -100,3 +100,4 @@ An <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStat
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
+

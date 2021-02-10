@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform.ScaleTransform
+ - IInkTransform::ScaleTransform
 ---
 
 # IInkTransform::ScaleTransform
@@ -111,3 +111,4 @@ For the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkS
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move">Move Method</a>
+

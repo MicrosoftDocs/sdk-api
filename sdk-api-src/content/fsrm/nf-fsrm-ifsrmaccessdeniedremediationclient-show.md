@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmAccessDeniedRemediationClient.Show
+ - IFsrmAccessDeniedRemediationClient::Show
 ---
 
 # IFsrmAccessDeniedRemediationClient::Show
@@ -108,3 +108,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_CLIPPER_LOCAL
+ - PDD_CLIPPER_LOCAL
  - DD_CLIPPER_LOCAL
 ---
 

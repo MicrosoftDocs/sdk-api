@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFEDictionary.GetWords
+ - IFEDictionary::GetWords
 ---
 
 # IFEDictionary::GetWords
@@ -454,3 +454,4 @@ The client must call <a href="/windows/desktop/api/msime/nf-msime-ifedictionary-
 
 
 <a href="/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a>
+

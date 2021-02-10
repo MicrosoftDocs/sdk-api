@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - _DS_REPL_OP_TYPE
  - DS_REPL_OP_TYPE
 ---
 
@@ -87,3 +88,4 @@ Indicates the addition, deletion, or update of outbound change notification data
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
+

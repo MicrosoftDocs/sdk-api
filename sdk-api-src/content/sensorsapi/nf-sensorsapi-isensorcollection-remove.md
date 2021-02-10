@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorCollection.Remove
+ - ISensorCollection::Remove
 ---
 
 # ISensorCollection::Remove
@@ -94,3 +94,4 @@ The specified sensor is not part of the collection.
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
+

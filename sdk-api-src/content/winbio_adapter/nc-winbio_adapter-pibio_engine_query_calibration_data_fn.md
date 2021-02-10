@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterQueryCalibrationData
+ - PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN
 ---
 
 # PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN callback function
@@ -140,3 +140,4 @@ The <b>EngineAdapterQueryCalibrationData</b> method can independently control th
 <td>Zero</td>
 </tr>
 </table>
+

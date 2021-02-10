@@ -42,8 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter.AddResource
- - IXpsOMPackageWriter3D.AddResource
+ - IXpsOMPackageWriter::AddResource
 ---
 
 # IXpsOMPackageWriter::AddResource
@@ -160,3 +159,4 @@ This method returns an error when <i>resource</i> references a resource that has
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

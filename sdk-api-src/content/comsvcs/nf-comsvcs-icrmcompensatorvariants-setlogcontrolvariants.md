@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmCompensatorVariants.SetLogControlVariants
+ - ICrmCompensatorVariants::SetLogControlVariants
 ---
 
 # ICrmCompensatorVariants::SetLogControlVariants
@@ -69,3 +69,4 @@ To write additional log records, use the <a href="/windows/desktop/api/comsvcs/n
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>
+

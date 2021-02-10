@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ControlTraceA
  - evntrace/ControlTraceA
+ - ControlTrace
+ - evntrace/ControlTrace
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - AdvApi32Legacy.dll
  - KernelBase.dll
 api_name:
- - ControlTrace
  - ControlTraceA
- - ControlTraceW
+ - ControlTrace
 ---
 
 # ControlTraceA function
@@ -340,3 +341,4 @@ This function supersedes the <a href="/windows/desktop/ETW/flushtrace">FlushTrac
 
 
 <a href="/windows/desktop/ETW/starttrace">StartTrace</a>
+

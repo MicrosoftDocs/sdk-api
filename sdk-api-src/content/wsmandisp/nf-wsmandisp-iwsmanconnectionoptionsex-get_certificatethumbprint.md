@@ -42,9 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManConnectionOptionsEx.CertificateThumbprint
- - IWSManConnectionOptionsEx.get_CertificateThumbprint
- - IWSManConnectionOptionsEx.put_CertificateThumbprint
+ - IWSManConnectionOptionsEx::get_CertificateThumbprint
 ---
 
 # IWSManConnectionOptionsEx::get_CertificateThumbprint
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptionsex">IWSManConnectionOptionsEx</a>
+

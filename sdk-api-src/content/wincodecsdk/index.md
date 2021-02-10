@@ -9,6 +9,8 @@ tech.root: wic
 f1_keywords:
  - wincodecsdk
  - wincodecsdk/wincodecsdk
+api_name:
+ - wincodecsdk
 ---
 
 # Wincodecsdk.h header

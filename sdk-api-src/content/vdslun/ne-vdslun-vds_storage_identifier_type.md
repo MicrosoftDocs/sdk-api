@@ -44,6 +44,7 @@ api_type:
 api_location:
  - VdsLun.h
 api_name:
+ - _VDS_STORAGE_IDENTIFIER_TYPE
  - VDS_STORAGE_IDENTIFIER_TYPE
 ---
 
@@ -107,3 +108,4 @@ The <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_S
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
+

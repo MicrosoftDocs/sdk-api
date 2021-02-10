@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - edpwin32
  - edpwin32/edpwin32
+api_name:
+ - edpwin32
 ---
 
 # Edpwin32.h header

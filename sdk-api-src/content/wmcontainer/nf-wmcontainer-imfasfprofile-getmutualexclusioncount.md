@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile.GetMutualExclusionCount
+ - IMFASFProfile::GetMutualExclusionCount
 ---
 
 # IMFASFProfile::GetMutualExclusionCount
@@ -96,3 +96,4 @@ Multiple mutual exclusion objects may be required for streams that are mutually 
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusion">IMFASFProfile::GetMutualExclusion</a>
+

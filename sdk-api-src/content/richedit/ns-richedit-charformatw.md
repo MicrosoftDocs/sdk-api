@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - CHARFORMAT
- - CHARFORMATA
+ - _charformatw
  - CHARFORMATW
 ---
 
@@ -349,3 +348,4 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 <b>Reference</b>
+

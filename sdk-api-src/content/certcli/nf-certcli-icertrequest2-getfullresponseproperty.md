@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest3.GetFullResponseProperty
- - ICertRequest2.GetFullResponseProperty
- - ICertRequest.GetFullResponseProperty
- - CCertRequest.GetFullResponseProperty
+ - ICertRequest2::GetFullResponseProperty
 ---
 
 # ICertRequest2::GetFullResponseProperty
@@ -465,3 +462,4 @@ After the <b>ICertRequest3::GetFullResponseProperty</b> method returns its data,
 <li>
 <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll4-getcertfromresponse">ICEnroll4::GetCertFromResponse</a> can be called to parse the certificate from the response.</li>
 </ul>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials
+ - ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
 ---
 
 # ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
@@ -108,3 +108,4 @@ The <b>SetApplicationPoolCredentials</b> method determines whether the user cred
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
+

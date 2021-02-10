@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WTSSetUserConfigW
  - wtsapi32/WTSSetUserConfigW
+ - WTSSetUserConfig
+ - wtsapi32/WTSSetUserConfig
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wtsapi32.dll
 api_name:
- - WTSSetUserConfig
- - WTSSetUserConfigA
  - WTSSetUserConfigW
+ - WTSSetUserConfig
 ---
 
 # WTSSetUserConfigW function
@@ -134,3 +135,4 @@ WTSSetUserConfig( strServer.GetBuffer(0),
 
 
 <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a>
+

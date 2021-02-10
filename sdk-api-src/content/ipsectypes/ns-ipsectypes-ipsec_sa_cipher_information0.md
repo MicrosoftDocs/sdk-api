@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_SA_CIPHER_INFORMATION0_
  - IPSEC_SA_CIPHER_INFORMATION0
 ---
 
@@ -79,3 +80,4 @@ Key used for the encryption algorithm as specified by [FWP_BYTE_BLOB](/windows/d
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

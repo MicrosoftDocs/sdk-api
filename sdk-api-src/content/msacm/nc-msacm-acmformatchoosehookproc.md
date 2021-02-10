@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
- - acmFormatChooseHookProc
+ - ACMFORMATCHOOSEHOOKPROC
 ---
 
 # ACMFORMATCHOOSEHOOKPROC callback function
@@ -85,3 +85,4 @@ You should use this function the same way as you use the Common Dialog hook func
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

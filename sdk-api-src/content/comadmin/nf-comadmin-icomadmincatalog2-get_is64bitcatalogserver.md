@@ -42,8 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.Is64BitCatalogServer
- - ICOMAdminCatalog2.get_Is64BitCatalogServer
+ - ICOMAdminCatalog2::get_Is64BitCatalogServer
 ---
 
 # ICOMAdminCatalog2::get_Is64BitCatalogServer
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
+

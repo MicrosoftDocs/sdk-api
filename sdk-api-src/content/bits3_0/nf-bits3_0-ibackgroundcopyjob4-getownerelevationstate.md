@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJob4.GetOwnerElevationState
+ - IBackgroundCopyJob4::GetOwnerElevationState
 ---
 
 # IBackgroundCopyJob4::GetOwnerElevationState
@@ -90,3 +90,4 @@ Note that if the job was created with an elevated token, all subsequent updates 
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>
+

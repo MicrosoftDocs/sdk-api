@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgr.AssociateFocus
+ - ITfThreadMgr::AssociateFocus
 ---
 
 # ITfThreadMgr::AssociateFocus
@@ -145,3 +145,4 @@ if(m_pPrevDocMgr)
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus
       </a>
+

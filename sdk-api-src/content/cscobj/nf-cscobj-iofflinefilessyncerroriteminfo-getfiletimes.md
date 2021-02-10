@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSyncErrorItemInfo.GetFileTimes
+ - IOfflineFilesSyncErrorItemInfo::GetFileTimes
 ---
 
 # IOfflineFilesSyncErrorItemInfo::GetFileTimes
@@ -70,3 +70,4 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncerroriteminfo">IOfflineFilesSyncErrorItemInfo</a>
+

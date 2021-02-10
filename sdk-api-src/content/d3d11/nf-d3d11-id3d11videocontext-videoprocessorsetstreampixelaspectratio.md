@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio
+ - ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio
 ---
 
 # ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio
@@ -89,3 +89,4 @@ The default pixel aspect ratio is 1:1 (square pixels).
 
 
 <a href="/windows/desktop/medfound/picture-aspect-ratio">Picture Aspect Ratio</a>
+

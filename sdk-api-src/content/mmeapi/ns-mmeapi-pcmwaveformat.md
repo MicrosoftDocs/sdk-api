@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
+ - pcmwaveformat_tag
+ - PPCMWAVEFORMAT
  - PCMWAVEFORMAT
 ---
 
@@ -81,3 +83,4 @@ Number of bits per sample.
 
 
 <a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
+

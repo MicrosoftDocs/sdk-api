@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetRawAlertTextLen
+ - ISCTE_EAS::GetRawAlertTextLen
 ---
 
 # ISCTE_EAS::GetRawAlertTextLen
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getalerttext">ISCTE_EAS::GetAlertText</a>
+

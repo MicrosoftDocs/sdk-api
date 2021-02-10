@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - GetNeighbors
+ - PGET_NEIGHBORS
 ---
 
 # PGET_NEIGHBORS callback function
@@ -147,3 +147,4 @@ Only multicast routing protocols are required implement this function. Non-multi
 ## -see-also
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pget_mfe_status">GetMfeStatus</a>
+

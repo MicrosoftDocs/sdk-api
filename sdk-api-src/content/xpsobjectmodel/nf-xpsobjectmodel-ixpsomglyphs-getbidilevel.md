@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetBidiLevel
+ - IXpsOMGlyphs::GetBidiLevel
 ---
 
 # IXpsOMGlyphs::GetBidiLevel
@@ -110,3 +110,4 @@ The range of allowed values for this property is between 0 and 61, inclusive, an
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

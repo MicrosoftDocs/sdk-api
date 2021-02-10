@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - credentialprovider
  - credentialprovider/credentialprovider
+api_name:
+ - credentialprovider
 ---
 
 # Credentialprovider.h header

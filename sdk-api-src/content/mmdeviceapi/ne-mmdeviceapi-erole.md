@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
+ - __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002
  - ERole
 ---
 
@@ -89,3 +90,4 @@ For more information, see <a href="/windows/desktop/CoreAudio/device-roles">Devi
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a>
+

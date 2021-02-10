@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.GetProperties
+ - IVdsSubSystem::GetProperties
 ---
 
 # IVdsSubSystem::GetProperties
@@ -133,3 +133,4 @@ The subsystem object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>
+

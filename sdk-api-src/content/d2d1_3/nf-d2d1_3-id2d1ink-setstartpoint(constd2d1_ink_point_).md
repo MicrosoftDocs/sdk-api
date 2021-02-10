@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - ID2D1Ink.SetStartPoint
+ - ID2D1Ink::SetStartPoint
 ---
 
 # ID2D1Ink::SetStartPoint(const D2D1_INK_POINT &)
@@ -63,3 +63,4 @@ The new starting point for this ink object.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1ink">ID2D1Ink</a>
+

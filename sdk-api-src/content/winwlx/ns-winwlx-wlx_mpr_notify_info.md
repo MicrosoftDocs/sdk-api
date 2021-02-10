@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
+ - _WLX_MPR_NOTIFY_INFO
+ - PWLX_MPR_NOTIFY_INFO
  - WLX_MPR_NOTIFY_INFO
 ---
 
@@ -99,3 +101,4 @@ A pointer to the plaintext old password of the user account whose password has j
 
 
 The string pointed to by <b>pszOldPassword</b> must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
+

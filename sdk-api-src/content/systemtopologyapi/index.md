@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - systemtopologyapi
  - systemtopologyapi/systemtopologyapi
+api_name:
+ - systemtopologyapi
 ---
 
 # Systemtopologyapi.h header

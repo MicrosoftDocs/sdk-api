@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.PlaylistCollectionPlaylistRemoved
+ - IWMPEvents::PlaylistCollectionPlaylistRemoved
 ---
 
 # IWMPEvents::PlaylistCollectionPlaylistRemoved
@@ -65,3 +65,4 @@ Specifies the name of the playlist that was removed.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

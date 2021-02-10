@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupGetSourceFileLocationA
  - setupapi/SetupGetSourceFileLocationA
+ - SetupGetSourceFileLocation
+ - setupapi/SetupGetSourceFileLocation
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupGetSourceFileLocation
  - SetupGetSourceFileLocationA
- - SetupGetSourceFileLocationW
+ - SetupGetSourceFileLocation
 ---
 
 # SetupGetSourceFileLocationA function
@@ -120,3 +121,4 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetsourceinfoa">SetupGetSourceInfo</a>
+

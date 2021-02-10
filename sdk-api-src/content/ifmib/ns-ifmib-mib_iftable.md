@@ -47,6 +47,8 @@ api_location:
  - Ifmib.h
  - Iprtrmib.h
 api_name:
+ - _MIB_IFTABLE
+ - PMIB_IFTABLE
  - MIB_IFTABLE
 ---
 
@@ -108,3 +110,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
+

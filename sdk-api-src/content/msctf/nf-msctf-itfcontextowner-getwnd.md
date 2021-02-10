@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwner.GetWnd
+ - ITfContextOwner::GetWnd
 ---
 
 # ITfContextOwner::GetWnd

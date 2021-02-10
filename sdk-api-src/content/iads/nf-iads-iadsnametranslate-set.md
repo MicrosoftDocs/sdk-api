@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsNameTranslate.Set
+ - IADsNameTranslate::Set
 ---
 
 # IADsNameTranslate::Set
@@ -168,3 +168,4 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::Set</b> m
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
+

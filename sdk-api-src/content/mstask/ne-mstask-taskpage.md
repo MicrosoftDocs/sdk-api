@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mstask.h
 api_name:
+ - _TASKPAGE
  - TASKPAGE
 ---
 
@@ -162,3 +163,4 @@ This page provides the following UI elements:
 
 
 <a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
+

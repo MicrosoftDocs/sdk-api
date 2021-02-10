@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputJoyConfig8.OpenTypeKey
+ - IDirectInputJoyConfig8::OpenTypeKey
 ---
 
 # IDirectInputJoyConfig8::OpenTypeKey
@@ -113,3 +113,4 @@ A Win32 error code if access to the key is denied by registry permissions or som
 ## -remarks
 
 Control panel applications can use the registry key opened by this method to store per-type persistent information, such as global configuration parameters. Such private information should be kept in a subkey named <b>OEM</b>; do not store private information in the main type key. Control panel applications can also use this key to read configuration information, such as the strings to use for device calibration prompts. The application should use <b>RegCloseKey</b> to close the registry key.
+

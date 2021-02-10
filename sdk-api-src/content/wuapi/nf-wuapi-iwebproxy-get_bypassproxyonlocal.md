@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWebProxy.BypassProxyOnLocal
- - IWebProxy.get_BypassProxyOnLocal
- - IWebProxy.put_BypassProxyOnLocal
+ - IWebProxy::get_BypassProxyOnLocal
 ---
 
 # IWebProxy::get_BypassProxyOnLocal
@@ -65,3 +63,4 @@ The value of the <b>BypassProxyOnLocal</b> property is ignored if the value of t
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
+

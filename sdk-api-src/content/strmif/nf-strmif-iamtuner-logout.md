@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner.Logout
+ - IAMTuner::Logout
 ---
 
 # IAMTuner::Logout
@@ -66,3 +66,4 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

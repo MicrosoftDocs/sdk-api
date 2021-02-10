@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbSiParser.Initialize
+ - IDvbSiParser::Initialize
 ---
 
 # IDvbSiParser::Initialize
@@ -114,3 +114,4 @@ Until this method is called, all other methods on this interface fail.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>
+

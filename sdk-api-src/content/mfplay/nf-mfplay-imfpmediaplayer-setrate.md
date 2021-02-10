@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.SetRate
+ - IMFPMediaPlayer::SetRate
 ---
 
 # IMFPMediaPlayer::SetRate
@@ -125,3 +125,4 @@ The new rate applies only to the current media item. Setting a new media item re
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

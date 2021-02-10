@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
  - WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
 ---
 
@@ -91,3 +92,4 @@ This enumeration is used by the following methods:
 <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectlogonerror">RedirectLogonError</a>
 </li>
 </ul>
+

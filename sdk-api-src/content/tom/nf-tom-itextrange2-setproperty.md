@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.SetProperty
+ - ITextRange2::SetProperty
 ---
 
 # ITextRange2::SetProperty
@@ -79,3 +79,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getproperty">ITextRange2::GetProperty</a>
+

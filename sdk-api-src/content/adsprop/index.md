@@ -9,6 +9,8 @@ tech.root: ad
 f1_keywords:
  - adsprop
  - adsprop/adsprop
+api_name:
+ - adsprop
 ---
 
 # Adsprop.h header

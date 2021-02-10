@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymSrvStoreFile
- - SymSrvStoreFile
- - SymSrvStoreFileW
 ---
 
 # SymSrvStoreFile function
@@ -155,3 +153,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 ## -see-also
 
 <a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+

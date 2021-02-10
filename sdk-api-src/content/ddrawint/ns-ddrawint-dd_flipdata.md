@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_FLIPDATA
+ - PDD_FLIPDATA
  - DD_FLIPDATA
 ---
 
@@ -190,3 +192,4 @@ Points to the DD_SURFACE_LOCAL structure describing the left target surface to f
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
+

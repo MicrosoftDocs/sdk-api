@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice.GetAttribute
+ - IWCNDevice::GetAttribute
 ---
 
 # IWCNDevice::GetAttribute
@@ -125,3 +125,4 @@ To only query the size of an attribute, a value of 0 (zero) can be passed via <i
 
 
 <b>WCN_ATTRIBUTE_TYPE</b>
+

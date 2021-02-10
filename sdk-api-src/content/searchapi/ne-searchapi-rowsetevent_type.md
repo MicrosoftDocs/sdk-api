@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - __MIDL___MIDL_itf_searchapi_0000_0023_0002
  - ROWSETEVENT_TYPE
 ---
 
@@ -117,3 +118,4 @@ Check out the <a href="/windows/win32/search/-search-sample-searchevents">Search
 
 
 <a href="/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
+

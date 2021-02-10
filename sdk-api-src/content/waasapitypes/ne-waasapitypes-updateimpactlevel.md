@@ -44,6 +44,7 @@ api_type:
 api_location:
  - waasapitypes.h
 api_name:
+ - tagUpdateImpactLevel
  - UpdateImpactLevel
 ---
 
@@ -75,3 +76,4 @@ The device has been out-of-date for a long time. This device may have security v
 ## -remarks
 
 When <a href="/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a> is called, an <a href="/windows/desktop/api/waasapitypes/ns-waasapitypes-osupdateassessment">OSUpdateAssessment</a> structure is returned. Within the structure there is an <b>assessmentForCurrent</b> and <b>assessmentForUpToDate</b>. Both of these are <a href="/windows/desktop/api/waasapitypes/ns-waasapitypes-updateassessment">UpdateAssessment</a> structures. Both members have an <b>UpdateImpactLevel</b> enumeration, which indicates a high, medium, low or no impact for a device running an out-of-date OS. The These levels are determined by the value of <b>daysOutOfDate</b>.
+

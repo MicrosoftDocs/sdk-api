@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionAnimation.AddCubic
+ - IDCompositionAnimation::AddCubic
 ---
 
 # IDCompositionAnimation::AddCubic
@@ -182,3 +182,4 @@ HRESULT DoAnimatedRotation(IDCompositionDevice *pDevice,
 
 
 <a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>
+

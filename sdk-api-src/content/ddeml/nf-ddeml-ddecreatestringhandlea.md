@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DdeCreateStringHandleA
  - ddeml/DdeCreateStringHandleA
+ - DdeCreateStringHandle
+ - ddeml/DdeCreateStringHandle
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DdeCreateStringHandle
  - DdeCreateStringHandleA
- - DdeCreateStringHandleW
+ - DdeCreateStringHandle
 ---
 
 # DdeCreateStringHandleA function
@@ -147,3 +148,4 @@ hszNew = DdeCreateStringHandle(idInst, pszInst, CP_WINANSI);
 
 
 <b>Reference</b>
+

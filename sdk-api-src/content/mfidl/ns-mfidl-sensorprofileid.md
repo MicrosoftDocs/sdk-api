@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 29BF454E-60DD-4709-A1B2-2A46C3BD3F42
 ms.date: 12/05/2018
 ms.keywords: PSENSORPROFILEID, PSENSORPROFILEID structure pointer [Media Foundation], SENSORPROFILEID, SENSORPROFILEID structure [Media Foundation], mf.sensorprofileid, mfidl/PSENSORPROFILEID, mfidl/SENSORPROFILEID
-f1_keywords:
-- mfidl/SENSORPROFILEID
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- SENSORPROFILEID
 targetos: Windows
 req.typenames: SENSORPROFILEID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_mfidl_0000_0114_0001
+ - mfidl/__MIDL___MIDL_itf_mfidl_0000_0114_0001
+ - SENSORPROFILEID
+ - mfidl/SENSORPROFILEID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - __MIDL___MIDL_itf_mfidl_0000_0114_0001
+ - SENSORPROFILEID
 ---
 
 # SENSORPROFILEID structure
@@ -49,25 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a sensor profile ID.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Type
 
-A <a href="/windows/desktop/medfound/sensor-profile-guids">Sensor Profile GUID</a> that describes the type of sensor profile. 
-
+A <a href="/windows/desktop/medfound/sensor-profile-guids">Sensor Profile GUID</a> that describes the type of sensor profile.
 
 ### -field Index
 
 The index of the sensor profile.
 
-
 ### -field Unused
 
 Not currently used.
+

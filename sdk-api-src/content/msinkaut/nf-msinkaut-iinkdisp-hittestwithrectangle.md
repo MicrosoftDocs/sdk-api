@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp.HitTestWithRectangle
+ - IInkDisp::HitTestWithRectangle
 ---
 
 # IInkDisp::HitTestWithRectangle
@@ -145,3 +145,4 @@ To determine which points of a known stroke intersect the test area, call the <a
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

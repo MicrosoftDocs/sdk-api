@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - ISnapinAbout.GetSnapinImage
+ - ISnapinAbout::GetSnapinImage
 ---
 
 # ISnapinAbout::GetSnapinImage
@@ -72,3 +72,4 @@ ISnapinAbout interface is released.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
+

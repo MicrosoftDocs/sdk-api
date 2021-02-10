@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsServiceOperations.Start
+ - IADsServiceOperations::Start
 ---
 
 # IADsServiceOperations::Start
@@ -65,3 +65,4 @@ This method supports the standard return values, including S_OK. For more inform
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
+

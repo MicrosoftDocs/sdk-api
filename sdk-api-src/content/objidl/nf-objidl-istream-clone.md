@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream.Clone
+ - IStream::Clone
 ---
 
 # IStream::Clone
@@ -76,3 +76,4 @@ The initial setting of the seek pointer in the cloned stream instance is the sam
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istream-copyto">IStream::CopyTo</a>
+

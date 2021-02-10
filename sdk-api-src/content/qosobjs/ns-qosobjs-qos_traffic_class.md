@@ -46,6 +46,8 @@ api_type:
 api_location:
  - QosObjs.h
 api_name:
+ - _QOS_TRAFFIC_CLASS
+ - LPQOS_TRAFFIC_CLASS
  - QOS_TRAFFIC_CLASS
 ---
 
@@ -134,3 +136,4 @@ ServiceType to 802.1 TrafficClass.</div>
 
 
 <a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
+

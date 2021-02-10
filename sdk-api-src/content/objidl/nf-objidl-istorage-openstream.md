@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage.OpenStream
+ - IStorage::OpenStream
 ---
 
 # IStorage::OpenStream
@@ -95,3 +95,4 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.CreateOffscreenPlainSurfaceEx
+ - IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx
 ---
 
 # IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx
@@ -117,3 +117,4 @@ Off-screen plain surfaces are always lockable, regardless of their pool types.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
+

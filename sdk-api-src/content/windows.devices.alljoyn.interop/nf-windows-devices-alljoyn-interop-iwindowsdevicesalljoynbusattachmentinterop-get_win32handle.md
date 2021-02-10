@@ -42,8 +42,7 @@ api_type:
 api_location:
  - windows.devices.alljoyn.interop.h
 api_name:
- - IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
- - IInspectable .get_Win32Handle
+ - IWindowsDevicesAllJoynBusAttachmentInterop::get_Win32Handle
 ---
 
 # IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn
@@ -70,3 +69,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 
 <a href="/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentinterop">IWindowsDevicesAllJoynBusAttachmentInterop</a>
+

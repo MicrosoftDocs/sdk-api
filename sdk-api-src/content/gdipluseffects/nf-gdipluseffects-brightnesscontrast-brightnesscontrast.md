@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - BrightnessContrast.BrightnessContrast
+ - BrightnessContrast::BrightnessContrast
 ---
 
 # BrightnessContrast::BrightnessContrast
@@ -66,3 +66,4 @@ Creates a new <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-bri
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-brightnesscontrastparams">BrightnessContrastParams</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferSource.SetStreamSink
+ - IStreamBufferSource::SetStreamSink
 ---
 
 # IStreamBufferSource::SetStreamSink
@@ -89,3 +89,4 @@ Several Stream Buffer Source filters can stream from the same sink filter.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersource">IStreamBufferSource Interface</a>
+

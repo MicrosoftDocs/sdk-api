@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF3.OfflineVolume
+ - IVdsVolumeMF3::OfflineVolume
 ---
 
 # IVdsVolumeMF3::OfflineVolume
@@ -95,3 +95,4 @@ When a volume that is online
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumemf3">IVdsVolumeMF3</a>
+

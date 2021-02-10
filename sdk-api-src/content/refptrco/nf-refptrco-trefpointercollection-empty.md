@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - TRefPointerCollection.Empty
+ - TRefPointerCollection::Empty
 ---
 
 # TRefPointerCollection::Empty
@@ -60,3 +60,4 @@ api_name:
 The <b>Empty</b> method removes all items from the collection.
 
 ## -parameters
+

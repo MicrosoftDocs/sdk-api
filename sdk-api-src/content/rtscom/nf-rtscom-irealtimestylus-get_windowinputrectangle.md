@@ -42,11 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.WindowInputRectangle
- - IRealTimeStylus.get_WindowInputRectangle
- - IRealTimeStylus.put_WindowInputRectangle
- - IRealTimeStylus.get_WindowInputRectangle
- - IRealTimeStylus.put_WindowInputRectangle
+ - IRealTimeStylus::get_WindowInputRectangle
 ---
 
 # IRealTimeStylus::get_WindowInputRectangle
@@ -85,3 +81,4 @@ The E_INVALIDOPERATION HRESULT is returned when you attempt to set this property
 
 
 <a href="/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
+

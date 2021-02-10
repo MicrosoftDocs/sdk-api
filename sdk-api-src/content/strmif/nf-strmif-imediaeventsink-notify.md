@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEventSink.Notify
+ - IMediaEventSink::Notify
 ---
 
 # IMediaEventSink::Notify
@@ -82,3 +82,4 @@ The event is queued but not delivered to the application on this thread. For a l
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaeventsink">IMediaEventSink Interface</a>
+

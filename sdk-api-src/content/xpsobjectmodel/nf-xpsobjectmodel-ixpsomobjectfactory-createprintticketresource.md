@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePrintTicketResource
+ - IXpsOMObjectFactory::CreatePrintTicketResource
 ---
 
 # IXpsOMObjectFactory::CreatePrintTicketResource
@@ -121,3 +121,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

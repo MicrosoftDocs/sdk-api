@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask.GetInstances
+ - IRegisteredTask::GetInstances
 ---
 
 # IRegisteredTask::GetInstances
@@ -120,3 +120,4 @@ NULL was passed into the <i>ppRunningTasks</i> parameter.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

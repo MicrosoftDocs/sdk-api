@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.get_accSelection
+ - IAccessible::get_accSelection
 ---
 
 # IAccessible::get_accSelection
@@ -195,3 +195,4 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accSelection(VARIANT *pvarChildren)
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
+

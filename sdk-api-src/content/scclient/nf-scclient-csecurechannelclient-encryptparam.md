@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient.EncryptParam
+ - CSecureChannelClient::EncryptParam
 ---
 
 # CSecureChannelClient::EncryptParam
@@ -118,3 +118,4 @@ For example code, see <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperat
 
 
 <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
+

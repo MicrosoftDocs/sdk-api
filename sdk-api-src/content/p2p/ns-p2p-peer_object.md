@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_object_tag
+ - PPEER_OBJECT
  - PEER_OBJECT
 ---
 
@@ -87,3 +89,4 @@ The lifetime of a peer object is tied to the lifetime of the application that re
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

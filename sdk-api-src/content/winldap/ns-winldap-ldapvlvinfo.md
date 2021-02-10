@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
+ - ldapvlvinfo
+ - PLDAPVLVInfo
  - LDAPVLVInfo
 ---
 
@@ -167,3 +169,4 @@ Be aware that a sort control must accompany a VLV search request to specify the 
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
+

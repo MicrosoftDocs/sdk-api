@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
+ - _DDFLIPOVERLAYINFO
+ - PDDFLIPOVERLAYINFO
  - DDFLIPOVERLAYINFO
 ---
 
@@ -104,3 +106,4 @@ The target surface contains the odd field of video data.
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a>
+

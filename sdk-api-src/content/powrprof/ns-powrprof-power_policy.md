@@ -46,6 +46,8 @@ api_type:
 api_location:
  - PowrProf.h
 api_name:
+ - _POWER_POLICY
+ - PPOWER_POLICY
  - POWER_POLICY
 ---
 
@@ -91,3 +93,4 @@ A
 
 
 <a href="/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>
+

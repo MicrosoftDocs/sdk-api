@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IObjectWithPropertyKey.GetPropertyKey
+ - IObjectWithPropertyKey::GetPropertyKey
 ---
 
 # IObjectWithPropertyKey::GetPropertyKey
@@ -65,3 +65,4 @@ When this returns, contains the property key.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

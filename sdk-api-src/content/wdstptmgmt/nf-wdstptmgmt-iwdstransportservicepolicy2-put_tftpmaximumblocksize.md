@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy2.TftpMaximumBlockSize
- - IWdsTransportServicePolicy2.get_TftpMaximumBlockSize
- - IWdsTransportServicePolicy2.put_TftpMaximumBlockSize
+ - IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
 ---
 
 # IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy2">IWdsTransportServicePolicy2</a>
+

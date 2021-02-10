@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem2.QueryMaxLunCreateSize2
+ - IVdsSubSystem2::QueryMaxLunCreateSize2
 ---
 
 # IVdsSubSystem2::QueryMaxLunCreateSize2
@@ -178,3 +178,4 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a>
+

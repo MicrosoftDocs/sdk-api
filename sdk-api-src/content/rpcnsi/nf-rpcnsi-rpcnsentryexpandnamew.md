@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsEntryExpandNameW
  - rpcnsi/RpcNsEntryExpandNameW
+ - RpcNsEntryExpandName
+ - rpcnsi/RpcNsEntryExpandName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsEntryExpandName
- - RpcNsEntryExpandNameA
  - RpcNsEntryExpandNameW
+ - RpcNsEntryExpandName
 ---
 
 # RpcNsEntryExpandNameW function
@@ -133,3 +134,4 @@ The returned expanded entry name accounts for local name translations and for di
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

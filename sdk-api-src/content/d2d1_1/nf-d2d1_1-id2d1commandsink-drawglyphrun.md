@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.DrawGlyphRun
+ - ID2D1CommandSink::DrawGlyphRun
 ---
 
 # ID2D1CommandSink::DrawGlyphRun
@@ -105,3 +105,4 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawglyphrun">ID2D1DeviceContext::DrawGlyphRun</a>
+

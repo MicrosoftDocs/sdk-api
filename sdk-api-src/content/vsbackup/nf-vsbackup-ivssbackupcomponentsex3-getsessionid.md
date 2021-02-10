@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsBackup.h
 api_name:
- - IVssBackupComponentsEx3.GetSessionId
+ - IVssBackupComponentsEx3::GetSessionId
 ---
 
 # IVssBackupComponentsEx3::GetSessionId
@@ -75,3 +75,4 @@ As a best practice, writers and requesters should include the session ID in all 
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
+

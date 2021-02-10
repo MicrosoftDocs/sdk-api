@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.EnumProperties
+ - ITfContext::EnumProperties
 ---
 
 # ITfContext::EnumProperties
@@ -121,3 +121,4 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
+

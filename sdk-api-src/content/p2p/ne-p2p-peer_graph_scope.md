@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_graph_scope_tag
  - PEER_GRAPH_SCOPE
 ---
 

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.QueryRevertStatus
+ - IVssBackupComponents::QueryRevertStatus
 ---
 
 # IVssBackupComponents::QueryRevertStatus
@@ -203,3 +203,4 @@ The revert operation will continue even if the computer is rebooted, and cannot 
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-reverttosnapshot">IVssBackupComponents::RevertToSnapshot</a>
+

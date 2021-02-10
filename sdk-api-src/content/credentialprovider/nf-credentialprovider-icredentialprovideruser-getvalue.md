@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Authui.dll
 api_name:
- - ICredentialProviderUser.GetValue
+ - ICredentialProviderUser::GetValue
 ---
 
 # ICredentialProviderUser::GetValue
@@ -122,3 +122,4 @@ The PKEY_Identity_DisplayName, PKEY_Identity_UserName, PKEY_Identity_QualifiedUs
 
 
 <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getstringvalue">ICredentialProviderUser::GetStringValue</a>
+

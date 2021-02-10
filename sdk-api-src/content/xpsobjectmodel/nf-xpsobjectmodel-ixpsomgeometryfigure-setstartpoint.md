@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.SetStartPoint
+ - IXpsOMGeometryFigure::SetStartPoint
 ---
 
 # IXpsOMGeometryFigure::SetStartPoint
@@ -117,3 +117,4 @@ One of the fields in  the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjec
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.DisableWriterInstances
+ - IVssBackupComponents::DisableWriterInstances
 ---
 
 # IVssBackupComponents::DisableWriterInstances
@@ -154,3 +154,4 @@ If you call <b>DisableWriterInstances</b>, you must do so before calling the <a 
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>
+

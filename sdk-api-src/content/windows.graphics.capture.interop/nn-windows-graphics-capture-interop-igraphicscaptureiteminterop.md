@@ -32,7 +32,7 @@ api_type:
 api_location:
  - windows.h
 api_name:
- - interop::IGraphicsCaptureItemInterop
+ - IGraphicsCaptureItemInterop
 ---
 
 ## -description
@@ -44,3 +44,4 @@ Desktop interop interface for the [GraphicsCaptureItem](/uwp/api/windows.graphic
 ## -remarks
 
 ## -see-also
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumPageFilesA
  - psapi/EnumPageFilesA
+ - EnumPageFiles
+ - psapi/EnumPageFiles
 dev_langs:
  - c++
 topic_type:
@@ -47,12 +49,8 @@ api_location:
  - API-MS-Win-Core-PsAPI-L1-1-0.dll
  - KernelBase.dll
 api_name:
- - EnumPageFiles
  - EnumPageFilesA
- - EnumPageFilesW
- - K32EnumPageFiles
- - K32EnumPageFilesW
- - K32EnumPageFilesA
+ - EnumPageFiles
 ---
 
 # EnumPageFilesA function
@@ -112,3 +110,4 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 <a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
+

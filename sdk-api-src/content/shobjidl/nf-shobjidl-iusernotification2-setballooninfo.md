@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IUserNotification2.SetBalloonInfo
+ - IUserNotification2::SetBalloonInfo
 ---
 
 # IUserNotification2::SetBalloonInfo
@@ -150,3 +150,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-setballooninfo">SetBalloonInfo</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.KeySpec
- - IX509PrivateKey.get_KeySpec
- - IX509PrivateKey.put_KeySpec
+ - IX509PrivateKey::get_KeySpec
 ---
 
 # IX509PrivateKey::get_KeySpec
@@ -66,3 +64,4 @@ If you specify a value of XCN_AT_SIGNATURE, the <b>KeySpec</b> property automati
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

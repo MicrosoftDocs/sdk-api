@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVPManager.GetVideoPortIndex
+ - IVPManager::GetVideoPortIndex
 ---
 
 # IVPManager::GetVideoPortIndex
@@ -78,3 +78,4 @@ This method returns the current video port index being used by the Video Port Ma
 
 
 [SetVideoPortIndex](/windows/desktop/api/strmif/nf-strmif-ivpmanager-setvideoportindex)
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderQuery.GetQueryConstraints
+ - IFunctionDiscoveryProviderQuery::GetQueryConstraints
 ---
 
 # IFunctionDiscoveryProviderQuery::GetQueryConstraints
@@ -73,3 +73,4 @@ The provider should examine all constraints to determine the query to perform.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderquery">IFunctionDiscoveryProviderQuery</a>
+

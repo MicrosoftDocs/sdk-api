@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_ECC_CMS_SHARED_INFO
+ - PCRYPT_ECC_CMS_SHARED_INFO
  - CRYPT_ECC_CMS_SHARED_INFO
 ---
 
@@ -82,3 +84,4 @@ The following table contains the definition of the array dimension.
 ## -see-also
 
 <a href="https://www.ietf.org/rfc/rfc3278.txt">RFC 3278</a>
+

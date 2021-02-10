@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SendDlgItemMessageW
  - winuser/SendDlgItemMessageW
+ - SendDlgItemMessage
+ - winuser/SendDlgItemMessage
 dev_langs:
  - c++
 topic_type:
@@ -45,10 +48,8 @@ api_location:
  - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - SendDlgItemMessage
- - SendDlgItemMessageA
  - SendDlgItemMessageW
-req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
+ - SendDlgItemMessage
 ---
 
 # SendDlgItemMessageW function
@@ -132,3 +133,4 @@ For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creatin
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
+

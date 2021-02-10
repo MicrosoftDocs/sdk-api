@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_IPADDRESS
  - VDS_IPADDRESS
 ---
 
@@ -123,3 +124,4 @@ The TCP port number.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a>
+

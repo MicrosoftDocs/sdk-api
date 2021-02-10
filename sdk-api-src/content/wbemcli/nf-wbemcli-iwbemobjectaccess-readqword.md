@@ -44,7 +44,7 @@ api_location:
  - Fastprox.dll
  - Wbemess.dll
 api_name:
- - IWbemObjectAccess.ReadQWORD
+ - IWbemObjectAccess::ReadQWORD
 ---
 
 # IWbemObjectAccess::ReadQWORD
@@ -71,3 +71,4 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the property was <b
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
+

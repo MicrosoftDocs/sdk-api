@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - ISimpleCommandCreator.GetDefaultCatalog
+ - ISimpleCommandCreator::GetDefaultCatalog
 ---
 
 # ISimpleCommandCreator::GetDefaultCatalog
@@ -73,3 +73,4 @@ If this method succeeds, it returns the contents of the IsapiDefaultCatalogDirec
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-isimplecommandcreator">ISimpleCommandCreator</a>
+

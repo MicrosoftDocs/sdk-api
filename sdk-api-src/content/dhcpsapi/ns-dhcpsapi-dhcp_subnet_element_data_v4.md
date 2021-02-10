@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_SUBNET_ELEMENT_DATA_V4
+ - LPDHCP_SUBNET_ELEMENT_DATA_V4
  - DHCP_SUBNET_ELEMENT_DATA_V4
 ---
 
@@ -84,10 +86,6 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V4</b> structure defines an element that describ
 
 ### -field Element.IpUsedCluster.case.DhcpIpUsedClusters
 
-
-
-
-
 ### -field Element
 
 ### -field Element.IpRange
@@ -119,3 +117,4 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V4</b> structure defines an element that describ
 
 
 <a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a>
+

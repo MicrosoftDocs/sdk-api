@@ -42,7 +42,7 @@ api_type:
 api_location:
  - IAccess.h
 api_name:
- - IAccessControl.GetAllAccessRights
+ - IAccessControl::GetAllAccessRights
 ---
 
 # IAccessControl::GetAllAccessRights
@@ -83,3 +83,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
+

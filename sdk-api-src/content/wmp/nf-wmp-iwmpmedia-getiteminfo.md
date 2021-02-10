@@ -42,9 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia.getItemInfo
- - IWMPMedia2.getItemInfo
- - IWMPMedia3.getItemInfo
+ - IWMPMedia::getItemInfo
 ---
 
 # IWMPMedia::getItemInfo
@@ -166,3 +164,4 @@ attribute, as shown in the following table:<table>
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-setiteminfo">IWMPMedia::setItemInfo</a>
+

@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice.CSID
- - IFaxDevice.get_CSID
- - IFaxDevice.put_CSID
- - IFaxDevice.get_CSID
- - IFaxDevice.put_CSID
+ - IFaxDevice::get_CSID
 ---
 
 # IFaxDevice::get_CSID
@@ -76,3 +72,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-configuring-a-fax-device">Visual Basic Example</a>
+

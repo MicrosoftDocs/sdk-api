@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetDVDTextNumberOfLanguages
+ - IDvdInfo2::GetDVDTextNumberOfLanguages
 ---
 
 # IDvdInfo2::GetDVDTextNumberOfLanguages
@@ -124,3 +124,4 @@ If the DVD does not contain any text strings, the method succeeds, but <i>pulNum
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
+

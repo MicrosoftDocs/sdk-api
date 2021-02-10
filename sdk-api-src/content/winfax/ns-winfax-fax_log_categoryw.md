@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - FAX_LOG_CATEGORY
- - FAX_LOG_CATEGORYA
+ - _FAX_LOG_CATEGORYW
+ - PFAX_LOG_CATEGORYW
  - FAX_LOG_CATEGORYW
 ---
 
@@ -192,3 +192,4 @@ The fax client application passes the <b>FAX_LOG_CATEGORY</b> structure in a cal
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetloggingcategoriesa">FaxSetLoggingCategories</a>
+

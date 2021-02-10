@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_POL_COND
+ - PDHCP_POL_COND
  - DHCP_POL_COND
 ---
 
@@ -97,3 +99,4 @@ Integer that specifies the length of <b>Value</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_cond_array">DHCP_POL_COND_ARRAY</a>
+

@@ -47,6 +47,8 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _CREATE_VIRTUAL_DISK_PARAMETERS
+ - PCREATE_VIRTUAL_DISK_PARAMETERS
  - CREATE_VIRTUAL_DISK_PARAMETERS
 ---
 
@@ -364,3 +366,4 @@ typedef struct _CREATE_VIRTUAL_DISK_PARAMETERS {
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323701(v=vs.85)">VHD Structures</a>
+

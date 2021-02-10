@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagAspectInfoFlag
  - DVASPECTINFOFLAG
 ---
 
@@ -63,3 +64,4 @@ Indicates that the object can support optimized rendering of itself. Because mos
 ## -see-also
 
 <a href="/windows/win32/api/ocidl/ns-ocidl-dvaspectinfo">DVASPECTINFO</a>
+

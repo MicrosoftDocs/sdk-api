@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wiavideo.dll
 api_name:
- - IWiaVideo.PreviewVisible
- - IWiaVideo.get_PreviewVisible
- - IWiaVideo.put_PreviewVisible
+ - IWiaVideo::put_PreviewVisible
 ---
 
 # IWiaVideo::put_PreviewVisible
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a>
+

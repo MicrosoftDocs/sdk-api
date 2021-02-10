@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _SHRINK_VOLUME_INFORMATION
+ - PSHRINK_VOLUME_INFORMATION
  - SHRINK_VOLUME_INFORMATION
 ---
 
@@ -109,3 +111,4 @@ The number of sectors that should be in the shrunken volume. Used only when the 
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_shrink_volume">FSCTL_SHRINK_VOLUME</a>
+

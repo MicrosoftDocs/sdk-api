@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignaturePartReferenceSet.Create
+ - IOpcSignaturePartReferenceSet::Create
 ---
 
 # IOpcSignaturePartReferenceSet::Create
@@ -185,3 +185,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

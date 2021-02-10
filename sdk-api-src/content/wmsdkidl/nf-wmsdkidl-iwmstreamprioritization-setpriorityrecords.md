@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamPrioritization.SetPriorityRecords
+ - IWMStreamPrioritization::SetPriorityRecords
 ---
 
 # IWMStreamPrioritization::SetPriorityRecords
@@ -132,3 +132,4 @@ This method does not verify that the streams specified are valid for the profile
 
 
 <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record">WM_STREAM_PRIORITY_RECORD</a>
+

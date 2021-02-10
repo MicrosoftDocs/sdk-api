@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
+ - _COPP_HDCP_Protection_Level
  - COPP_HDCP_Protection_Level
 ---
 
@@ -89,3 +90,4 @@ For more information about HDCP, see http://www.digital-cp.com/.
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
+

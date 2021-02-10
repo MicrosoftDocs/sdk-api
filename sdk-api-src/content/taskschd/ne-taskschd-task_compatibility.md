@@ -44,6 +44,7 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
+ - _TASK_COMPATIBILITY
  - TASK_COMPATIBILITY
 ---
 
@@ -89,3 +90,4 @@ Once the task <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-g
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
+

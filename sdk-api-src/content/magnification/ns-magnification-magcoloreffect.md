@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Magnification.h
 api_name:
+ - tagMAGCOLOREFFECT
+ - PMAGCOLOREFFECT
  - MAGCOLOREFFECT
 ---
 
@@ -71,3 +73,4 @@ The values in the matrix are for red, blue, green, alpha, and color translation.
 <a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetcoloreffect">MagGetColorEffect</a>
 
 <a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetcoloreffect">MagSetColorEffect</a>
+

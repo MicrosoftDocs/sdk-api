@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallingCard.get_PermanentCardID
+ - ITCallingCard::get_PermanentCardID
 ---
 
 # ITCallingCard::get_PermanentCardID
@@ -117,3 +117,4 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard">ITCallingCard</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.GetBounds
+ - GraphicsPath::GetBounds
 ---
 
 # GraphicsPath::GetBounds(OUT Rect,IN const Matrix,IN const Pen)
@@ -155,3 +155,4 @@ Color(255, 0, 0, 0)Color(255, 255, 0,  0)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+

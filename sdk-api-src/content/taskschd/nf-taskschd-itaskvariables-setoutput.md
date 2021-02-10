@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskVariables.SetOutput
+ - ITaskVariables::SetOutput
 ---
 
 # ITaskVariables::SetOutput
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskvariables">ITaskVariables</a>
+

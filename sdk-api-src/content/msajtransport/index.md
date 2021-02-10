@@ -9,6 +9,8 @@ tech.root: alljoyn
 f1_keywords:
  - msajtransport
  - msajtransport/msajtransport
+api_name:
+ - msajtransport
 ---
 
 # Msajtransport.h header

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVdProvider.GetVDiskFromDisk
+ - IVdsVdProvider::GetVDiskFromDisk
 ---
 
 # IVdsVdProvider::GetVDiskFromDisk
@@ -90,3 +90,4 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvdprovider">IVdsVdProvider</a>
+

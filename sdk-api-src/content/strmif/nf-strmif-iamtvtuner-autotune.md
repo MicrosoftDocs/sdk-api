@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTVTuner.AutoTune
+ - IAMTVTuner::AutoTune
 ---
 
 # IAMTVTuner::AutoTune
@@ -84,3 +84,4 @@ This method handles the channel-to-frequency conversion and scans for the most p
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

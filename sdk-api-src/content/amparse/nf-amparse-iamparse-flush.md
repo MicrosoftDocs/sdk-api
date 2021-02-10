@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMParse.Flush
+ - IAMParse::Flush
 ---
 
 # IAMParse::Flush
@@ -70,3 +70,4 @@ Although this method can make transitions much more immediate, it can also make 
 
 
 <a href="/windows/desktop/api/amparse/nn-amparse-iamparse">IAMParse Interface</a>
+

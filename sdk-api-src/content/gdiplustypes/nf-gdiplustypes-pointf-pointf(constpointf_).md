@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PointF.PointF
+ - PointF::PointF
 ---
 
 # PointF::PointF(IN const PointF &)
@@ -76,3 +76,4 @@ Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-class-pointf-constructors">PointF Constructors</a>
+

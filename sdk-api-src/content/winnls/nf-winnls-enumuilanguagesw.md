@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumUILanguagesW
  - winnls/EnumUILanguagesW
+ - EnumUILanguages
+ - winnls/EnumUILanguages
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - EnumUILanguages
- - EnumUILanguagesA
  - EnumUILanguagesW
+ - EnumUILanguages
 ---
 
 # EnumUILanguagesW function
@@ -210,3 +211,4 @@ characters in length. For example, en-US will be passed as "0409" and en as "000
 
 
 <a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
+

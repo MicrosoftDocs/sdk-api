@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LoadEnclaveImageW
  - enclaveapi/LoadEnclaveImageW
+ - LoadEnclaveImage
+ - enclaveapi/LoadEnclaveImage
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - kernel32.dll
  - api-ms-win-core-enclave-l1-1-0.dll
 api_name:
- - LoadEnclaveImage
- - LoadEnclaveIUmageA
  - LoadEnclaveImageW
+ - LoadEnclaveImage
 ---
 
 # LoadEnclaveImageW function
@@ -81,3 +82,4 @@ A NULL-terminated string that contains the name of the image to load.
 
 
 <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
+

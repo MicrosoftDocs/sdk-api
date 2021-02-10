@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylist.get_name
+ - IWMPPlaylist::get_name
 ---
 
 # IWMPPlaylist::get_name
@@ -91,3 +91,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-put_name">IWMPPlaylist::put_name</a>
+

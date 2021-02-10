@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winuser.h
 api_name:
+ - tagINPUT_MESSAGE_ORIGIN_ID
  - INPUT_MESSAGE_ORIGIN_ID
 ---
 
@@ -77,3 +78,4 @@ The system has injected the input message.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_sourceid/enumerations">Enumerations</a>
+

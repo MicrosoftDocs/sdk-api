@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_SEQUENCE_OF_ANY
+ - PCRYPT_SEQUENCE_OF_ANY
  - CRYPT_SEQUENCE_OF_ANY
 ---
 
@@ -66,3 +68,4 @@ Number of elements in the <b>rgValue</b> array.
 
 An array of 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structures.
+

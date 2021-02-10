@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_STATE
  - DXVAHD_STREAM_STATE
 ---
 
@@ -155,3 +156,4 @@ Use this state for proprietary or device-specific parameters.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

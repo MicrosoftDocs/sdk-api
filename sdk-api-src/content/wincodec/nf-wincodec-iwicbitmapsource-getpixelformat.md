@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapSource.GetPixelFormat
+ - IWICBitmapSource::GetPixelFormat
 ---
 
 # IWICBitmapSource::GetPixelFormat
@@ -70,3 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The pixel format returned by this method is not necessarily the pixel format the image is stored as.
             The codec may perform a format conversion from the storage pixel format to an output pixel format.
+

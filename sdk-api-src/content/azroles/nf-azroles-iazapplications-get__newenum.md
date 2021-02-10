@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplications._NewEnum
- - IAzApplications.get__NewEnum
- - AzApplications._NewEnum
+ - IAzApplications::get__NewEnum
 ---
 
 # IAzApplications::get__NewEnum
@@ -61,3 +59,4 @@ This property is read-only.
 ## -remarks
 
 This property is provided for use by the <code>For Each</code> keyword in Visual Basic and the <code>foreach</code> keyword in Visual C#.
+

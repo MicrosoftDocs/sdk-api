@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider2.ShowContextMenu
+ - ITextRangeProvider2::ShowContextMenu
 ---
 
 # ITextRangeProvider2::ShowContextMenu
@@ -71,3 +71,4 @@ If showing the context menu would typically result in the insertion point moving
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider2">ITextRangeProvider2</a>
+

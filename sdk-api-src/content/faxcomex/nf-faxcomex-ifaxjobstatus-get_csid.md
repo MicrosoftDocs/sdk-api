@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxJobStatus.CSID
- - IFaxJobStatus.get_CSID
- - IFaxJobStatus.get_CSID
+ - IFaxJobStatus::get_CSID
 ---
 
 # IFaxJobStatus::get_CSID
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Visual Basic Example</a>
+

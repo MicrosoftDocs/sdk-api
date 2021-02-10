@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _PRIVILEGE_SET
+ - PPRIVILEGE_SET
  - PRIVILEGE_SET
 ---
 
@@ -128,3 +130,4 @@ A privilege is used to control access to an object or service more strictly than
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck">PrivilegeCheck</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPPropertyCollection.DeleteProperty
+ - IOCSPPropertyCollection::DeleteProperty
 ---
 
 # IOCSPPropertyCollection::DeleteProperty
@@ -61,3 +61,4 @@ A string that contains the name of the property to remove.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
+

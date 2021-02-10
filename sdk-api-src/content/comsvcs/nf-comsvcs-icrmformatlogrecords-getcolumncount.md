@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmFormatLogRecords.GetColumnCount
+ - ICrmFormatLogRecords::GetColumnCount
 ---
 
 # ICrmFormatLogRecords::GetColumnCount
@@ -94,3 +94,4 @@ A <b>NULL</b> pointer was provided as an argument.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>
+

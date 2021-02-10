@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PopRetrievalFilter
+ - IDXGIInfoQueue::PopRetrievalFilter
 ---
 
 # IDXGIInfoQueue::PopRetrievalFilter
@@ -66,3 +66,4 @@ Pops a retrieval filter from the top of the retrieval-filter stack.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
+

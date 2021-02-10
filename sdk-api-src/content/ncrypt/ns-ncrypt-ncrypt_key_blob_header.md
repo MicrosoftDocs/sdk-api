@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ncrypt.h
 api_name:
+ - _NCRYPT_KEY_BLOB_HEADER
+ - PNCRYPT_KEY_BLOB_HEADER
  - NCRYPT_KEY_BLOB_HEADER
 ---
 
@@ -86,3 +88,4 @@ Size, in bytes, of the <b>BLOB</b>.
 
 
 <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a>
+

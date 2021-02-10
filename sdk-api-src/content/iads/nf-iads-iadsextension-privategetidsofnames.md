@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsExtension.PrivateGetIDsOfNames
+ - IADsExtension::PrivateGetIDsOfNames
 ---
 
 # IADsExtension::PrivateGetIDsOfNames
@@ -114,3 +114,4 @@ STDMETHOD(PrivateGetIDsOfNames)(REFIID riid, OLECHAR ** rgszNames, unsigned int 
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">IDispatch::GetIDsOfNames</a>
+

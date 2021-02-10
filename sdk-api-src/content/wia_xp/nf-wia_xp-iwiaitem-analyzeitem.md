@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItem.AnalyzeItem
+ - IWiaItem::AnalyzeItem
 ---
 
 # IWiaItem::AnalyzeItem
@@ -73,3 +73,4 @@ This method is used with scanners to detect what type of data is on a page. When
 Image processing and OCR software can use this capability to detect graphics and text on a page. This method adds the regions it creates into the WIA device's <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> tree. The application can select the individual regions and use the standard data transfer methods to acquire data from them.
 
 If necessary, applications can override the regions created by this method.
+

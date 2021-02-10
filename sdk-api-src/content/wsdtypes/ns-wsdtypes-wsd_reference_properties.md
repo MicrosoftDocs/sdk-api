@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_REFERENCE_PROPERTIES
  - WSD_REFERENCE_PROPERTIES
 ---
 
@@ -63,3 +64,4 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_eleme
 ## -see-also
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>
+

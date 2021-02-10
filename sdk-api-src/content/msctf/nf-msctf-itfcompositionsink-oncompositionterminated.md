@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imekrcic.dll
 api_name:
- - ITfCompositionSink.OnCompositionTerminated
+ - ITfCompositionSink::OnCompositionTerminated
 ---
 
 # ITfCompositionSink::OnCompositionTerminated
@@ -73,3 +73,4 @@ There is no required action for the TSF text service when this method is called.
 ## -see-also
 
 [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfCompositionSink interface](nn-msctf-itfcompositionsink.md), [ITfContextComposition::StartComposition](nf-msctf-itfcontextcomposition-startcomposition.md), [TfEditCookie](/windows/desktop/TSF/tfeditcookie)
+

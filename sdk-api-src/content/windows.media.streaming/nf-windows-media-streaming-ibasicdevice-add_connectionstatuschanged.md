@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IBasicDevice.add_ConnectionStatusChanged
+ - IBasicDevice::add_ConnectionStatusChanged
 ---
 
 # IBasicDevice::streaming
@@ -91,3 +91,4 @@ To unregister the event handler that was registered by this method, pass the <i>
 ## -see-also
 
 <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
+

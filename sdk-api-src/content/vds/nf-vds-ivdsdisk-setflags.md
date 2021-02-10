@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk.SetFlags
+ - IVdsDisk::SetFlags
 ---
 
 # IVdsDisk::SetFlags
@@ -138,3 +138,4 @@ VDS implements this method.
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
+

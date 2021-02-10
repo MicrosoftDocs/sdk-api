@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _CRYPT_PROVIDER_REFS
+ - PCRYPT_PROVIDER_REFS
  - CRYPT_PROVIDER_REFS
 ---
 
@@ -69,3 +71,4 @@ An array of <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">C
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptresolveproviders">BCryptResolveProviders</a>
+

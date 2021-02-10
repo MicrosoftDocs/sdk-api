@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode.GetTopoNodeID
+ - IMFTopologyNode::GetTopoNodeID
 ---
 
 # IMFTopologyNode::GetTopoNodeID
@@ -81,3 +81,4 @@ To find a node in a topology by its identifier, call <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

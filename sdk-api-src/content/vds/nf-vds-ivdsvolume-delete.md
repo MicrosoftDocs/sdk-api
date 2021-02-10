@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume.Delete
+ - IVdsVolume::Delete
 ---
 
 # IVdsVolume::Delete
@@ -119,3 +119,4 @@ VDS prevents the deletion of the current system and boot volumes, as well as the
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>
+

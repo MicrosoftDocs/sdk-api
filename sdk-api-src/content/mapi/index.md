@@ -9,6 +9,8 @@ tech.root: mapi
 f1_keywords:
  - mapi
  - mapi/mapi
+api_name:
+ - mapi
 ---
 
 # Mapi.h header

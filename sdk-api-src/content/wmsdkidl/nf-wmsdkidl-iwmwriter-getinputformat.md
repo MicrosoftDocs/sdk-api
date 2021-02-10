@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter.GetInputFormat
+ - IWMWriter::GetInputFormat
 ---
 
 # IWMWriter::GetInputFormat
@@ -113,3 +113,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>
+

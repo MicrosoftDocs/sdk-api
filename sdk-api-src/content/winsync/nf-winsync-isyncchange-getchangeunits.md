@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChange.GetChangeUnits
+ - ISyncChange::GetChangeUnits
 ---
 
 # ISyncChange::GetChangeUnits
@@ -113,3 +113,4 @@ The change contains no change units.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - ISearchManager.SetParameter
+ - ISearchManager::SetParameter
 ---
 
 # ISearchManager::SetParameter
@@ -77,3 +77,4 @@ This method returns E_InvalidArg as an error code when called.
 ## -remarks
 
 Check out the <a href="/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.
+

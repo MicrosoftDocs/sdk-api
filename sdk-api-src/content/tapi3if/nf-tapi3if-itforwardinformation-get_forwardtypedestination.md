@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITForwardInformation.get_ForwardTypeDestination
+ - ITForwardInformation::get_ForwardTypeDestination
 ---
 
 # ITForwardInformation::get_ForwardTypeDestination
@@ -142,3 +142,4 @@ The application must use
 
 
 <a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
+

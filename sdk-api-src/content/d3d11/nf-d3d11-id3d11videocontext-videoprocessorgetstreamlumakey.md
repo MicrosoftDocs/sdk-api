@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorGetStreamLumaKey
+ - ID3D11VideoContext::VideoProcessorGetStreamLumaKey
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamLumaKey
@@ -77,3 +77,4 @@ Receives the upper bound for the luma key. The valid range is [0…1].
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
+

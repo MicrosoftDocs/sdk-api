@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.DisplayName
- - IFaxJob.get_DisplayName
+ - IFaxJob::get_DisplayName
 ---
 
 # IFaxJob::get_DisplayName
@@ -83,3 +82,4 @@ You can use the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxjob-ge
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
+

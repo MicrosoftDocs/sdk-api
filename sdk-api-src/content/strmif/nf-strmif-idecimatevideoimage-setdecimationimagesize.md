@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDecimateVideoImage.SetDecimationImageSize
+ - IDecimateVideoImage::SetDecimationImageSize
 ---
 
 # IDecimateVideoImage::SetDecimationImageSize
@@ -103,3 +103,4 @@ The decoder can decimate the video to the requested size.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idecimatevideoimage">IDecimateVideoImage Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFPluginControl.IsDisabled
+ - IMFPluginControl::IsDisabled
 ---
 
 # IMFPluginControl::IsDisabled
@@ -109,3 +109,4 @@ The specified CLSID is not in the blocked list.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
+

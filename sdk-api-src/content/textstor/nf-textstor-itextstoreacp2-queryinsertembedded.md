@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2.QueryInsertEmbedded
+ - ITextStoreACP2::QueryInsertEmbedded
 ---
 
 # ITextStoreACP2::QueryInsertEmbedded
@@ -118,3 +118,4 @@ The clipboard formats supported by the document are dependent on the application
 
 
 <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-insertembeddedatselection">InsertEmbeddedAtSelection</a>
+

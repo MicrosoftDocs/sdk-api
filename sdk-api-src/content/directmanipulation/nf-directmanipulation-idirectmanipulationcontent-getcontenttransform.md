@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationContent.GetContentTransform
+ - IDirectManipulationContent::GetContentTransform
 ---
 
 # IDirectManipulationContent::GetContentTransform
@@ -86,3 +86,4 @@ When this method returns, the format of <i>matrix</i> is:
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
+

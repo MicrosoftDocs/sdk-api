@@ -43,8 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwService.Type
- - INetFwService.get_Type
+ - INetFwService::get_Type
 ---
 
 # INetFwService::get_Type
@@ -67,3 +66,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_service_type">NET_FW_SERVICE_TYPE</a>
+

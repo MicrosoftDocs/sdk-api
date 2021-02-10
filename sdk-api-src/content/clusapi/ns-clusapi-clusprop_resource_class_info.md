@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_RESOURCE_CLASS_INFO
+ - PCLUSPROP_RESOURCE_CLASS_INFO
 ---
 
 # CLUSPROP_RESOURCE_CLASS_INFO structure
@@ -96,3 +97,4 @@ A resource class identifies resources of similar capability. A
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

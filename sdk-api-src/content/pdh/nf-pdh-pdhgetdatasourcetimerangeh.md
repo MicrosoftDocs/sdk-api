@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhGetDataSourceTimeRangeH
  - pdh/PdhGetDataSourceTimeRangeH
+ - PdhGetDataSourceTimeRange
+ - pdh/PdhGetDataSourceTimeRange
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - Pdh.dll
 api_name:
  - PdhGetDataSourceTimeRangeH
+ - PdhGetDataSourceTimeRange
 ---
 
 # PdhGetDataSourceTimeRangeH function
@@ -127,3 +130,4 @@ The current data source is a real-time data source.
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - __MIDL___MIDL_itf_strmif_0000_0132_0001
  - VALID_UOP_FLAG
 ---
 
@@ -163,3 +164,4 @@ Annex J command: Video_Presentation_Mode_Change.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentuops">IDvdInfo2::GetCurrentUOPS</a>
+

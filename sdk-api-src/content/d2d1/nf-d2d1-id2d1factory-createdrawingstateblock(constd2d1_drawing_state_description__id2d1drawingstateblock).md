@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory.CreateDrawingStateBlock
+ - ID2D1Factory::CreateDrawingStateBlock
 ---
 
 # ID2D1Factory::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION &,ID2D1DrawingStateBlock)

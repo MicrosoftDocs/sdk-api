@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKey.EncryptionStrength
- - IX509AttributeArchiveKey.get_EncryptionStrength
+ - IX509AttributeArchiveKey::get_EncryptionStrength
 ---
 
 # IX509AttributeArchiveKey::get_EncryptionStrength
@@ -73,3 +72,4 @@ You can call the following properties to retrieve the raw data:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekey">IX509AttributeArchiveKey</a>
+

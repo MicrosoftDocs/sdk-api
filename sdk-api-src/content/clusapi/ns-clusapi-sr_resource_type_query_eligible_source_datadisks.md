@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _SR_RESOURCE_TYPE_ELIGIBLE_SOURCE_DATADISKS
+ - PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS
  - SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS
 ---
 
@@ -69,3 +71,4 @@ The cluster resource identifier of the data disk.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
+

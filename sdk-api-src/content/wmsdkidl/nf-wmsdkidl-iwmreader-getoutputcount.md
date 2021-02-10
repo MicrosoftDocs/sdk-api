@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader.GetOutputCount
+ - IWMReader::GetOutputCount
 ---
 
 # IWMReader::GetOutputCount
@@ -118,3 +118,4 @@ This method is synchronous and does not result in any messages being sent to the
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputprops">IWMReader::GetOutputProps</a>
+

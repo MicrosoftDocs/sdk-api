@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure2.SetFFTransitionRates
+ - IStreamBufferConfigure2::SetFFTransitionRates
 ---
 
 # IStreamBufferConfigure2::SetFFTransitionRates
@@ -119,3 +119,4 @@ The decoder may drop frames as well, depending on the data rate, the monitor ref
 
 
 <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffermediaseeking2-setrateex">IStreamBufferMediaSeeking2::SetRateEx</a>
+

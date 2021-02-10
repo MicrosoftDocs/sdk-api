@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.SenderCompany
- - IFaxJob.get_SenderCompany
+ - IFaxJob::get_SenderCompany
 ---
 
 # IFaxJob::get_SenderCompany
@@ -79,3 +78,4 @@ If the sender's company is not available, the <b>IFaxJob::get_SenderCompany</b> 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
+

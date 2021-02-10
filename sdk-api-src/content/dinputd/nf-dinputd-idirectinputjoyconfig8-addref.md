@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dinputd.h
 api_name:
- - IDirectInputJoyConfig8.AddRef
+ - IDirectInputJoyConfig8::AddRef
 ---
 
 # IDirectInputJoyConfig8::AddRef

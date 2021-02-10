@@ -9,6 +9,8 @@ tech.root: setup
 f1_keywords:
  - mergemod
  - mergemod/mergemod
+api_name:
+ - mergemod
 ---
 
 # Mergemod.h header

@@ -43,7 +43,7 @@ api_location:
  - d3dcsx.lib
  - d3dcsx.dll
 api_name:
- - ID3DX11FFT.GetInverseScale
+ - ID3DX11FFT::GetInverseScale
 ---
 
 # ID3DX11FFT::GetInverseScale
@@ -64,3 +64,4 @@ Scale for inverse transforms.
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11fft">ID3DX11FFT</a>
+

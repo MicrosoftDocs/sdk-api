@@ -42,8 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.Resume
- - IRDPSRAPISharingSession.Resume
+ - IRDPSRAPISharingSession::Resume
 ---
 
 # IRDPSRAPISharingSession::Resume
@@ -66,3 +65,4 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
+

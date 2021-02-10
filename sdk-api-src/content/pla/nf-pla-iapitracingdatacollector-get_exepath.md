@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IApiTracingDataCollector.ExePath
- - IApiTracingDataCollector.get_ExePath
- - IApiTracingDataCollector.put_ExePath
+ - IApiTracingDataCollector::get_ExePath
 ---
 
 # IApiTracingDataCollector::get_ExePath
@@ -69,3 +67,4 @@ If the executable file is currently running, the trace occurs the next time the 
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_includemodules">IApiTracingDataCollector::IncludeModules</a>
+

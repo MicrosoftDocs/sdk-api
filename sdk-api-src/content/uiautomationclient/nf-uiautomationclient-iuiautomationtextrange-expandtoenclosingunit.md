@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.ExpandToEnclosingUnit
+ - IUIAutomationTextRange::ExpandToEnclosingUnit
 ---
 
 # IUIAutomationTextRange::ExpandToEnclosingUnit
@@ -111,3 +111,4 @@ ExpandToEnclosingUnit respects both visible and hidden text.
 ## -see-also
 
 [IUIAutomationTextRange interface](nn-uiautomationclient-iuiautomationtextrange.md), [UI Automation Support for Textual Content](/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview)
+

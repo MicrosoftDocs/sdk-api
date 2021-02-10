@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.dll
 api_name:
- - IPropertySystem.UnregisterPropertySchema
+ - IPropertySystem::UnregisterPropertySchema
 ---
 
 # IPropertySystem::UnregisterPropertySchema
@@ -106,3 +106,4 @@ This method fails with E_ACCESSDENIED if the calling context does not have prope
 ## -see-also
 
 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IInitializeWithFile.Initialize
+ - IInitializeWithFile::Initialize
 ---
 
 # IInitializeWithFile::Initialize
@@ -93,3 +93,4 @@ The file pointed to by <i>pszFilePath</i> must remain open for the lifetime of t
 If the file cannot be opened according to the method's parameter values, this method returns a suitable error code.
 
 A handler instance should be initialized only once in its lifetime. Attempts by the calling application to reinitialize the handler should result in the error <code>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</code>.
+

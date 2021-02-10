@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - AzAuthorizationStore.DeleteApplication
- - IAzAuthorizationStore.DeleteApplication
+ - IAzAuthorizationStore::DeleteApplication
 ---
 
 # IAzAuthorizationStore::DeleteApplication
@@ -66,3 +65,4 @@ Reserved for future use.
 ## -remarks
 
 If the deleted <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object has child objects, those objects are deleted, as well. If there are any <b>IAzApplication</b> references to an <b>IAzApplication</b> object that has been deleted from the cache, the <b>IAzApplication</b> object can no longer be used. In C++, you must release references to deleted <b>IAzApplication</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In  Visual Basic, references to deleted objects are automatically released.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClock.GetCharacteristics
+ - IAudioClock::GetCharacteristics
 ---
 
 # IAudioClock::GetCharacteristics
@@ -83,3 +83,4 @@ Parameter <i>pdwCharacteristics</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock Interface</a>
+

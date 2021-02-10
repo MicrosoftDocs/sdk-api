@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winhttp.h
 api_name:
+ - LPWINHTTP_PROXY_INFO
  - WINHTTP_PROXY_INFO
 ---
 
@@ -126,3 +127,4 @@ The proxy bypass list contains one or more server names separated by semicolons 
 
 <a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
+

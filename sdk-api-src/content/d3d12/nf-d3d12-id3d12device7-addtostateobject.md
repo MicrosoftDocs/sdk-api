@@ -35,6 +35,7 @@ api_location:
 api_name:
  - ID3D12Device7::AddToStateObject
 f1_keywords:
+ - ID3D12Device7::AddToStateObject
  - d3d12/ID3D12Device7::AddToStateObject
 dev_langs:
  - c++
@@ -83,3 +84,4 @@ Behavior is undefined if shader identifiers are retrieved for new shaders from t
 For more info, see [AddToStateObject](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html#addtostateobject).
 
 ## -see-also
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocParser.Commit
+ - ITocParser::Commit
 ---
 
 # ITocParser::Commit
@@ -83,3 +83,4 @@ You can associate a TOC Parser object with a media file by calling <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern2.CurrentLastSelectedItem
- - IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem
+ - IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem
 ---
 
 # IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern2">IUIAutomationSelectionPattern2</a>
+

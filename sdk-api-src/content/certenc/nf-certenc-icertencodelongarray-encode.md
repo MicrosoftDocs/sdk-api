@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeLongArray.Encode
- - CCertEncodeLongArray.Encode
+ - ICertEncodeLongArray::Encode
 ---
 
 # ICertEncodeLongArray::Encode
@@ -90,3 +89,4 @@ The return value is the ASN.1-encoded <b>LONG</b> array.
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">ICertEncodeLongArray::SetValue</a>
+

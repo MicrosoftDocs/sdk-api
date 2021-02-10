@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - phoneGetDevCaps
- - phoneGetDevCapsA
- - phoneGetDevCapsW
 ---
 
 # phoneGetDevCaps function
@@ -114,3 +112,4 @@ TAPI and extension version numbers are those under which TAPI, Telephony DLL, an
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a>
+

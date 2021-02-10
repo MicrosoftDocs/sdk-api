@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumCall.Reset
+ - IEnumCall::Reset
 ---
 
 # IEnumCall::Reset
@@ -91,3 +91,4 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/Tapi/call-object">Call Object</a>
+

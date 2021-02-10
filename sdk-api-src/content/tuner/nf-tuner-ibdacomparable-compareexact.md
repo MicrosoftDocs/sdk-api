@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IBDAComparable.CompareExact
+ - IBDAComparable::CompareExact
 ---
 
 # IBDAComparable::CompareExact
@@ -82,3 +82,4 @@ For example, DirectShow implements the <b>IBDAComparable::CompareExact</b> metho
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
+

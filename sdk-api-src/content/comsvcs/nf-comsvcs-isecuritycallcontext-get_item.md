@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityCallContext.get_Item
+ - ISecurityCallContext::get_Item
 ---
 
 # ISecurityCallContext::get_Item
@@ -124,3 +124,4 @@ The security call context collection represents a security call context, which p
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
+

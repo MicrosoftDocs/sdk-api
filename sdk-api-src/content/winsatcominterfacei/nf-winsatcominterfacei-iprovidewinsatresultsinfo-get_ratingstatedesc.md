@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo.RatingStateDesc
- - IProvideWinSATResultsInfo.get_RatingStateDesc
+ - IProvideWinSATResultsInfo::get_RatingStateDesc
 ---
 
 # IProvideWinSATResultsInfo::get_RatingStateDesc
@@ -70,3 +69,4 @@ If the assessment is valid, the string is "Windows Experience Index"; otherwise,
 
 
 <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate">IProvideWinSATResultsInfo::AssessmentState</a>
+

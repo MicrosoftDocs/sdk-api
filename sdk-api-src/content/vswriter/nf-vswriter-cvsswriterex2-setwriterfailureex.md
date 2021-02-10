@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriterEx2.SetWriterFailureEx
+ - CVssWriterEx2::SetWriterFailureEx
 ---
 
 # CVssWriterEx2::SetWriterFailureEx
@@ -179,3 +179,4 @@ If a writer's event handler (such as <a href="/windows/desktop/api/vswriter/nf-v
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getwriterstatusex">IVssBackupComponentsEx3::GetWriterStatusEx</a>
+

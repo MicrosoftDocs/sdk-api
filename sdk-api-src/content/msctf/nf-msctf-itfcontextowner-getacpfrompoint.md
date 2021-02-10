@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwner.GetACPFromPoint
+ - ITfContextOwner::GetACPFromPoint
 ---
 
 # ITfContextOwner::GetACPFromPoint
@@ -155,3 +155,4 @@ Use the illustration to determine the character position returned based on the f
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
+

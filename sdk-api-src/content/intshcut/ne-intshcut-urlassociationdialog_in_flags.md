@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Intshcut.h
 api_name:
+ - urlassociationdialog_in_flags
  - URLASSOCIATIONDIALOG_IN_FLAGS
 ---
 
@@ -63,3 +64,4 @@ Use the default file name (that is, "Internet Shortcut").
 ### -field URLASSOCDLG_FL_REGISTER_ASSOC
 
 Register the selected application as the handler for the protocol specified in the <i>pcszURL</i> parameter of <a href="/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga">URLAssociationDialog</a>. The application is registered only if this flag is set and the user indicates that a persistent association is desired.
+

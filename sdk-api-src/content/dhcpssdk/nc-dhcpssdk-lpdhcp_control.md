@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
- - DhcpControlHook
+ - LPDHCP_CONTROL
 ---
 
 # LPDHCP_CONTROL callback function
@@ -95,3 +95,4 @@ This routine should not block.
 
 <a href="/previous-versions/windows/desktop/dhcp/how-the-dhcp-server-api-operates">How the
 		  DHCP Server API Operates</a>
+

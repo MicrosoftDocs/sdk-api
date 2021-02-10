@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDTransportAddress.SetTransportAddress
+ - IWSDTransportAddress::SetTransportAddress
 ---
 
 # IWSDTransportAddress::SetTransportAddress
@@ -110,3 +110,4 @@ Insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
+

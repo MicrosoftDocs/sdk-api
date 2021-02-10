@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _IKEV2_CONFIG_PARAMS
+ - PIKEV2_CONFIG_PARAMS
  - IKEV2_CONFIG_PARAMS
 ---
 
@@ -120,3 +122,4 @@ An <a href="/windows/desktop/RRAS/router-management-data-types">IKEV2_TUNNEL_CON
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
+

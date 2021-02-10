@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ContextFT
  - MI_ContextFT
 ---
 
@@ -211,4 +212,4 @@ Sends a progress message to the client. See
 
 Sends streamed parameter data to the requestor. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_writestreamparameter">MI_Context_WriteStreamParameter</a>.
-       
+

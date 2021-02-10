@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1VertexBuffer.Unmap
+ - ID2D1VertexBuffer::Unmap
 ---
 
 # ID2D1VertexBuffer::Unmap
@@ -87,3 +87,4 @@ After this method returns, the mapped memory from the vertex buffer is no longer
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1vertexbuffer">ID2D1VertexBuffer</a>
+

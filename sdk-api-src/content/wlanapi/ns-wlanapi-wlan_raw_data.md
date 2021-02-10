@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WLAN_RAW_DATA
+ - PWLAN_RAW_DATA
  - WLAN_RAW_DATA
 ---
 
@@ -107,3 +109,4 @@ For more information about PSD IEs, including a discussion of the format of an I
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>
+

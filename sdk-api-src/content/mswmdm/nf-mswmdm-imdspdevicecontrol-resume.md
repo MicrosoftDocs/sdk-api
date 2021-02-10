@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDeviceControl.Resume
+ - IMDSPDeviceControl::Resume
 ---
 
 # IMDSPDeviceControl::Resume
@@ -117,3 +117,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-pause">IMDSPDeviceControl::Pause</a>
+

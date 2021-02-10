@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_SA_CONTEXT_CHANGE0_
  - IPSEC_SA_CONTEXT_CHANGE0
 ---
 
@@ -71,3 +72,4 @@ Identifier of the IPsec SA context that changed.
 ## -see-also
 
 [IPSEC_SA_CONTEXT_EVENT_TYPE0](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)
+

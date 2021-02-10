@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentServerSetup.Install
+ - ICertificateEnrollmentServerSetup::Install
 ---
 
 # ICertificateEnrollmentServerSetup::Install
@@ -167,3 +167,4 @@ Updates the security descriptor of the Deleted Objects container in Active Direc
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
+

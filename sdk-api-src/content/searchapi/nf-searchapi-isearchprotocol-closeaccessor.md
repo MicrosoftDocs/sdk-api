@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchProtocol.CloseAccessor
+ - ISearchProtocol::CloseAccessor
 ---
 
 # ISearchProtocol::CloseAccessor
@@ -72,3 +72,4 @@ The protocol host will release the <i>pAccessor</i> pointer passed to this metho
             
 
 Accessors can be created and maintained in a pool, as resources to be used by protocol handlers when needed, and this might improve performance. If you are implementing a pool of <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> objects, use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> to add an <b>IUrlAccessor</b> to your pool.
+

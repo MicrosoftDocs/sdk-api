@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_GUID_DESCRIPTION
  - WS_GUID_DESCRIPTION
 ---
 
@@ -60,3 +61,4 @@ An optional type description used with <a href="/windows/desktop/api/webservices
 ### -field value
 
 The required value.
+

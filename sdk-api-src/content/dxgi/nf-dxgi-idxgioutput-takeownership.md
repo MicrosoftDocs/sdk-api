@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput.TakeOwnership
+ - IDXGIOutput::TakeOwnership
 ---
 
 # IDXGIOutput::TakeOwnership
@@ -85,3 +85,4 @@ If a Windows Store app uses <b>TakeOwnership</b>, it fails with <a href="/window
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
+

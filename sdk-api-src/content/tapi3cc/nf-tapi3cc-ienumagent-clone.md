@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumAgent.Clone
+ - IEnumAgent::Clone
 ---
 
 # IEnumAgent::Clone
@@ -128,3 +128,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsrm.h
 api_name:
+ - _RM_SEND_WINDOW
  - RM_SEND_WINDOW
 ---
 
@@ -89,3 +90,4 @@ The combination of these members can affect the resources used on a PGM sender's
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
+

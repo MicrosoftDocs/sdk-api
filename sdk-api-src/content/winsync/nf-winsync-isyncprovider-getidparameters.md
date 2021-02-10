@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncProvider.GetIdParameters
+ - ISyncProvider::GetIdParameters
 ---
 
 # ISyncProvider::GetIdParameters
@@ -99,3 +99,4 @@ This method is used to get the ID format schema from the two providers that are 
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
+

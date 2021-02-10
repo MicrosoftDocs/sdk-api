@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Ifdef.h
 api_name:
- - NET_PHYSICAL_LOCATION
+ - _NET_PHYSICAL_LOCATION_LH
+ - PNET_PHYSICAL_LOCATION_LH
+ - NET_PHYSICAL_LOCATION_LH
 ---
 
 # NET_PHYSICAL_LOCATION_LH structure
@@ -94,3 +96,4 @@ NET_PHYSICAL_LOCATION contains information that remains constant during the life
 
 
 <a href="/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
+

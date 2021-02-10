@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.Verify
+ - IX509PrivateKey::Verify
 ---
 
 # IX509PrivateKey::Verify
@@ -151,3 +151,4 @@ If <b>VerifySilent</b> or <b>VerifySmartCardSilent</b> values are set and the cr
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

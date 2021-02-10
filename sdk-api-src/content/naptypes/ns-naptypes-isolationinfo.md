@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
+ - tagIsolationInfo
  - IsolationInfo
 ---
 
@@ -83,3 +84,4 @@ A <a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedStrin
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
+

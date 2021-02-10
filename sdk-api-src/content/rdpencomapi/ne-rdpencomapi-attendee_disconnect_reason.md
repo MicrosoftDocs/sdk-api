@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rdpencomapi.h
 api_name:
+ - __MIDL___MIDL_itf_rdpencomapi_0000_0000_0002
  - ATTENDEE_DISCONNECT_REASON
 ---
 
@@ -79,3 +80,4 @@ Maximum enumeration value.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendeedisconnectinfo-get_reason">Reason Property of IRDPSRAPIAttendeeDisconnectInfo</a>
+

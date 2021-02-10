@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.SetColorScheme
+ - IOleObject::SetColorScheme
 ---
 
 # IOleObject::SetColorScheme
@@ -109,3 +109,4 @@ The <b>IOleObject::SetColorScheme</b> method sends the container application's r
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
+

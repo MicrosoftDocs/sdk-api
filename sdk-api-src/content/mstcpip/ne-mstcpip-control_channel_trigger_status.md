@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
+ - PCONTROL_CHANNEL_TRIGGER_STATUS
  - CONTROL_CHANNEL_TRIGGER_STATUS
 ---
 
@@ -106,3 +107,4 @@ A <a href="/windows/desktop/api/mswsock/ne-mswsock-rio_notification_completion_t
 
 
 <a href="/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a>
+

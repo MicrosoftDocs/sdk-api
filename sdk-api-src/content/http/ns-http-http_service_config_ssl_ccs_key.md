@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_SERVICE_CONFIG_SSL_CCS_KEY
+ - PHTTP_SERVICE_CONFIG_SSL_CCS_KEY
  - HTTP_SERVICE_CONFIG_SSL_CCS_KEY
 ---
 
@@ -89,3 +91,4 @@ A <a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR
 
 
 <a href="/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
+

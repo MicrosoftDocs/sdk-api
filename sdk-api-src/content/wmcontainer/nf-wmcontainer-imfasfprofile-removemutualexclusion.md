@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile.RemoveMutualExclusion
+ - IMFASFProfile::RemoveMutualExclusion
 ---
 
 # IMFASFProfile::RemoveMutualExclusion
@@ -100,3 +100,4 @@ When a mutual exclusion object is removed from the profile, the ASF profile obje
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusion">IMFASFProfile::GetMutualExclusion</a>
+

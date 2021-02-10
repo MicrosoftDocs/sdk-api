@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.GSSetSamplers
+ - ID3D11DeviceContext::GSSetSamplers
 ---
 
 # ID3D11DeviceContext::GSSetSamplers
@@ -105,3 +105,4 @@ The method will hold a reference to the interfaces passed in.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

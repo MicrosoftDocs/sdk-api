@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IDTFilter2.GetCurrLicenseExpDate
+ - IDTFilter2::GetCurrLicenseExpDate
 ---
 
 # IDTFilter2::GetCurrLicenseExpDate
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter2">IDTFilter2 Interface</a>
+

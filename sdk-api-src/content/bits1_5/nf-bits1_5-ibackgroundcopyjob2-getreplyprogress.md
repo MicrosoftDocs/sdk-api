@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.GetReplyProgress
+ - IBackgroundCopyJob2::GetReplyProgress
 ---
 
 # IBackgroundCopyJob2::GetReplyProgress
@@ -106,3 +106,4 @@ The <i>pProgress</i> parameter cannot be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_REPLY_PROGRESS</a>
+

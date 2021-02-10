@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.Save
+ - Graphics::Save
 ---
 
 # Graphics::Save
@@ -170,3 +170,4 @@ VOID Example_Save2(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>
+

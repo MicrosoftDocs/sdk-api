@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_OPTION_SCOPE_INFO6
+ - LPDHCP_OPTION_SCOPE_INFO6
  - DHCP_OPTION_SCOPE_INFO6
 ---
 
@@ -70,8 +72,6 @@ The DHCP_OPTION_SCOPE_INFO6 structure defines the data associated with a DHCP op
 
 ### -field ScopeInfo.ReservedScopeInfo.case.DhcpReservedOptions6
 
-
-
 ### -field ScopeInfo.switch_type
 
 ### -field ScopeInfo.switch_type.DHCP_OPTION_SCOPE_TYPE6
@@ -95,3 +95,4 @@ DHCP_RESERVED_SCOPE6 structure that contains the reserved DHCP scope information
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_scope_type6">DHCP_OPTION_SCOPE_TYPE6</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wtypesbase.h
 api_name:
+ - tagBLOB
+ - LPBLOB
  - BLOB
 ---
 
@@ -85,3 +87,4 @@ This structure does not describe the nature of the data pointed to by <b>pBlobDa
 
 
 <a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
+

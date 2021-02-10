@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10SwitchToRef.GetUseRef
+ - ID3D10SwitchToRef::GetUseRef
 ---
 
 # ID3D10SwitchToRef::GetUseRef
@@ -69,3 +69,4 @@ A software device implements rendering in software using the CPU with no hardwar
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10switchtoref">ID3D10SwitchToRef Interface</a>
+

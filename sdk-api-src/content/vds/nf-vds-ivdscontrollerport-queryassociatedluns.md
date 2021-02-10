@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsControllerPort.QueryAssociatedLuns
+ - IVdsControllerPort::QueryAssociatedLuns
 ---
 
 # IVdsControllerPort::QueryAssociatedLuns
@@ -158,3 +158,4 @@ This operation is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontrollerport">IVdsControllerPort</a>
+

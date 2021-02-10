@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.Rules
- - IDataManager.get_Rules
- - IDataManager.put_Rules
+ - IDataManager::put_Rules
 ---
 
 # IDataManager::put_Rules
@@ -136,3 +134,4 @@ The following schema defines the rules that you can specify. The <b>Rules</b> el
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
+

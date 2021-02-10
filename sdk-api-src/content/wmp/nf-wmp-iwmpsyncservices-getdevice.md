@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncServices.getDevice
+ - IWMPSyncServices::getDevice
 ---
 
 # IWMPSyncServices::getDevice
@@ -102,3 +102,4 @@ Windows Media Player is currently busy initializing devices. Please try again la
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices">IWMPSyncServices Interface</a>
+

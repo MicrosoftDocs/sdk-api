@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl.AddFunctionName
+ - IMathInputControl::AddFunctionName
 ---
 
 # IMathInputControl::AddFunctionName
@@ -102,3 +102,4 @@ This function is used to add custom math functions that do not exist in the defa
 
 
 <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-removefunctionname">RemoveFunctionName</a>
+

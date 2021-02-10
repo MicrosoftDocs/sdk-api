@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ImmEscapeA
  - imm/ImmEscapeA
+ - ImmEscape
+ - imm/ImmEscape
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-imm-l1-1-0.dll
  - ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmEscape
  - ImmEscapeA
- - ImmEscapeW
+ - ImmEscape
 ---
 
 # ImmEscapeA function
@@ -107,3 +108,4 @@ LRESULT lRet = ImmEscape(hKL,
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+

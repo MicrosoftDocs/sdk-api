@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure.SetDirectory
+ - IStreamBufferConfigure::SetDirectory
 ---
 
 # IStreamBufferConfigure::SetDirectory
@@ -102,3 +102,4 @@ Backing files are created as hidden sytem files.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure">IStreamBufferConfigure Interface</a>
+

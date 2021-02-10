@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _FILE_LEVEL_TRIM_OUTPUT
+ - PFILE_LEVEL_TRIM_OUTPUT
  - FILE_LEVEL_TRIM_OUTPUT
 ---
 
@@ -68,3 +70,4 @@ Contains the number of ranges that were successfully processed. This may be less
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a>
+

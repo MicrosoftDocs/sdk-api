@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl.SetBorderColor
+ - IMFVideoDisplayControl::SetBorderColor
 ---
 
 # IMFVideoDisplayControl::SetBorderColor
@@ -109,3 +109,4 @@ The border color is not used for letterboxing. To change the letterbox color, ca
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
+

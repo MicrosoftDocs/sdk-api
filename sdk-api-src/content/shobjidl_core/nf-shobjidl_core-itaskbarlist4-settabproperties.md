@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITaskbarList4.SetTabProperties
+ - ITaskbarList4::SetTabProperties
 ---
 
 # ITaskbarList4::SetTabProperties
@@ -79,3 +79,4 @@ An application might want to use the thumbnail or peek representation of its ass
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4">ITaskbarList4</a>
+

@@ -9,6 +9,8 @@ tech.root: rpc
 f1_keywords:
  - rpcnsi
  - rpcnsi/rpcnsi
+api_name:
+ - rpcnsi
 ---
 
 # Rpcnsi.h header

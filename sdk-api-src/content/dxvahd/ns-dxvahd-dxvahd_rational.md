@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_RATIONAL
  - DXVAHD_RATIONAL
 ---
 
@@ -81,3 +82,4 @@ Values of the form <i>n</i>/0, where <i>n</i> is nonzero, are invalid.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

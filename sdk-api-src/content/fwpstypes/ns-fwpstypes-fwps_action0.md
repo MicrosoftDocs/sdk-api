@@ -44,6 +44,7 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
+ - FWPS_ACTION0_
  - FWPS_ACTION0
 ---
 
@@ -182,3 +183,4 @@ An FWPS_ACTION0 structure is contained within an
 
 
 <a href="/windows-hardware/drivers/ddi/content/_netvista/">notifyFn</a>
+

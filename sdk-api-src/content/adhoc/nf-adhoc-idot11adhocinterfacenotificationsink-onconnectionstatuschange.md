@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange
+ - IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange
 ---
 
 # IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange
@@ -98,3 +98,4 @@ This notification is triggered when the connection status changes as a result of
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterfacenotificationsink">IDot11AdHocInterfaceNotificationSink</a>
+

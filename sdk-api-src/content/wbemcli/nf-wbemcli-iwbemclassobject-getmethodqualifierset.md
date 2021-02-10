@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.GetMethodQualifierSet
+ - IWbemClassObject::GetMethodQualifierSet
 ---
 
 # IWbemClassObject::GetMethodQualifierSet
@@ -83,3 +83,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 Because each method may have its own qualifiers, use this call to retrieve the 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemqualifierset">IWbemQualifierSet</a> pointer, which allows the caller to add, edit, or delete such qualifiers.
+

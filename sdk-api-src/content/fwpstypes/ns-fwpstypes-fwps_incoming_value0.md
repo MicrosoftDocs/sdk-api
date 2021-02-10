@@ -44,6 +44,7 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
+ - FWPS_INCOMING_VALUE0_
  - FWPS_INCOMING_VALUE0
 ---
 
@@ -81,3 +82,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
+

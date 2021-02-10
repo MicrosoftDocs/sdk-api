@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IHeaderCtrl.DeleteColumn
+ - IHeaderCtrl::DeleteColumn
 ---
 
 # IHeaderCtrl::DeleteColumn
@@ -79,3 +79,4 @@ This method returns <i>E_FAIL</i> when an item has already been inserted into th
 
 
 <a href="/previous-versions/windows/desktop/mmc/iheaderctrl2-and-column-persistence">IHeaderCtrl2 and Column Persistence</a>
+

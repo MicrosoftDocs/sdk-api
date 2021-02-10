@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidGenericSink2.ResetFilterList
+ - IMSVidGenericSink2::ResetFilterList
 ---
 
 # IMSVidGenericSink2::ResetFilterList
@@ -85,3 +85,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidgenericsink2">IMSVidGenericSink2 Interface</a>
+

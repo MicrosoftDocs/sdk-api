@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_application_registration_info_tag
+ - PPEER_APPLICATION_REGISTRATION_INFO
  - PEER_APPLICATION_REGISTRATION_INFO
 ---
 
@@ -87,3 +89,4 @@ A peer application has a GUID representing a single specific application. When a
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
+

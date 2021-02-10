@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTimecodeTranslate.BeginConvertHNSToTimecode
+ - IMFTimecodeTranslate::BeginConvertHNSToTimecode
 ---
 
 # IMFTimecodeTranslate::BeginConvertHNSToTimecode
@@ -114,3 +114,4 @@ When the asynchronous method completes, the callback object's <a href="/windows/
 
 
 <a href="/windows/desktop/medfound/mftime">MFTIME</a>
+

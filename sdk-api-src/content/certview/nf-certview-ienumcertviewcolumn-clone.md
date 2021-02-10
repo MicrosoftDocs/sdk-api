@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.Clone
- - IEnumCERTVIEWCOLUMN.Clone
+ - IEnumCERTVIEWCOLUMN::Clone
 ---
 
 # IEnumCERTVIEWCOLUMN::Clone
@@ -101,3 +100,4 @@ if (NULL != pEnumCol2)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewcolumn">IEnumCERTVIEWROW::EnumCertViewColumn</a>
+

@@ -9,6 +9,8 @@ tech.root: search
 f1_keywords:
  - structuredquery
  - structuredquery/structuredquery
+api_name:
+ - structuredquery
 ---
 
 # Structuredquery.h header

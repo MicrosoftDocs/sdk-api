@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Authz.h
 api_name:
+ - _AUTHZ_INIT_INFO
+ - PAUTHZ_INIT_INFO
  - AUTHZ_INIT_INFO
 ---
 
@@ -85,3 +87,4 @@ Pointer to the <a href="/windows/desktop/SecAuthZ/authzgetcentralaccesspolicycal
 ### -field pfnFreeCentralAccessPolicy
 
 Pointer to the <a href="/windows/desktop/SecAuthZ/authzfreecentralaccesspolicycallback">AuthzFreeCentralAccessPolicyCallback</a> callback function called by the resource manager to free the Central Access Policy allocated by the callback to get a central access policy. This parameter can be <b>NULL</b> if no callback function is specified for pfnGetCentralAccessPolicy
+

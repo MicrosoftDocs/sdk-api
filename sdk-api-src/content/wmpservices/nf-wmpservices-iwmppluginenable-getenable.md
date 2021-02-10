@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPPluginEnable.GetEnable
+ - IWMPPluginEnable::GetEnable
 ---
 
 # IWMPPluginEnable::GetEnable
@@ -73,3 +73,4 @@ This value is set by Windows Media Player in the <b>IWMPPluginEnable::SetEnable<
 
 
 <a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmppluginenable-setenable">IWMPPluginEnable::SetEnable</a>
+

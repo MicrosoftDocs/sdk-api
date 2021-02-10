@@ -41,8 +41,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin.OCSPServiceProperties
- - IOCSPAdmin.get_OCSPServiceProperties
+ - IOCSPAdmin::get_OCSPServiceProperties
 ---
 
 # IOCSPAdmin::get_OCSPServiceProperties
@@ -163,3 +162,4 @@ The <a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Va
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
+

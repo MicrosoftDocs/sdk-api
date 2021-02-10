@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_READER_INPUT
  - WS_XML_READER_INPUT
 ---
 
@@ -60,3 +61,4 @@ Specifies where the reader should obtain the bytes that comprise the xml documen
 
 A <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_reader_input_type">WS_XML_READER_INPUT_TYPE</a> enumeration that
           indicates the type of input to which this structure refers.
+

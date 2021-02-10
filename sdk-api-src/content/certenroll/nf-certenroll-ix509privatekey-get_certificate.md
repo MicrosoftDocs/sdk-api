@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.Certificate
- - IX509PrivateKey.get_Certificate
- - IX509PrivateKey.put_Certificate
+ - IX509PrivateKey::get_Certificate
 ---
 
 # IX509PrivateKey::get_Certificate
@@ -67,3 +65,4 @@ The <b>Certificate</b> property compares the public key associated with the <a h
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

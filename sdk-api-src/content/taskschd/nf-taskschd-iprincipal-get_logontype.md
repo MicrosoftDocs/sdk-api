@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IPrincipal.LogonType
- - IPrincipal.get_LogonType
- - IPrincipal.put_LogonType
+ - IPrincipal::get_LogonType
 ---
 
 # IPrincipal::get_LogonType
@@ -82,3 +80,4 @@ All other triggers are delayed until battery saver is off. For more information 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

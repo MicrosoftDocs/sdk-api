@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Clfsw32.dll
 api_name:
- - LsnGreater
+ - ClfsLsnGreater
 ---
 
 # ClfsLsnGreater function
@@ -83,3 +83,4 @@ LSNs from different streams are not comparable. Do not use this function to comp
 
 
 <a href="/windows/desktop/api/clfs/nf-clfs-clfslsnnull">LsnNull</a>
+

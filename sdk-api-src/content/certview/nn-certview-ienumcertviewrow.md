@@ -43,7 +43,6 @@ api_location:
  - Certadm.dll
 api_name:
  - IEnumCERTVIEWROW
- - IEnumCERTVIEWROW.Clone
 ---
 
 # IEnumCERTVIEWROW interface
@@ -79,3 +78,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWROW</b> interfac
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

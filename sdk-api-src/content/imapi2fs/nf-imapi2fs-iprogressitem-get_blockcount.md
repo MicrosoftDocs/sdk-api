@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IProgressItem.get_BlockCount
+ - IProgressItem::get_BlockCount
 ---
 
 # IProgressItem::get_BlockCount
@@ -93,3 +93,4 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock">IProgressItem::get_LastBlock</a>
+

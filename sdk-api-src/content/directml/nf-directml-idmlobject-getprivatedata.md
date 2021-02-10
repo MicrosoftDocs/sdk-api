@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLObject.GetPrivateData
+ - IDMLObject::GetPrivateData
 ---
 
 ## -description
@@ -82,3 +82,4 @@ If the data returned is a pointer to an [IUnknown](/windows/win32/api/unknwn/nn-
 ## -see-also
 
 [IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)
+

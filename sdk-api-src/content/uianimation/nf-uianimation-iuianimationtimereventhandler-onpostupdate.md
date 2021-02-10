@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimerEventHandler.OnPostUpdate
+ - IUIAnimationTimerEventHandler::OnPostUpdate
 ---
 
 # IUIAnimationTimerEventHandler::OnPostUpdate
@@ -83,3 +83,4 @@ For each tick, a timer calls the following sequence of methods:
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimereventhandler">IUIAnimationTimerEventHandler</a>
+

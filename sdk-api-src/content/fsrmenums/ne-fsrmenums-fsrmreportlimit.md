@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmReportLimit
  - FsrmReportLimit
 ---
 
@@ -134,3 +135,4 @@ You specify the  value for the limit in the <i>limitValue</i> parameter when cal
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setreportsizelimit">IFsrmReportManager::SetReportSizeLimit</a>
+

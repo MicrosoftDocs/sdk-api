@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.graphics.imaging.interop.dll
 api_name:
- - ISoftwareBitmapNative.GetData
+ - ISoftwareBitmapNative::GetData
 ---
 
 # ISoftwareBitmapNative::imaging
@@ -75,3 +75,4 @@ Returns S_OK on successful completion. Returns E_NOINTERFACE if the requested in
 ## -see-also
 
 <a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>
+

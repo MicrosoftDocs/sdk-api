@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IDesktopWallpaper.SetPosition
+ - IDesktopWallpaper::SetPosition
 ---
 
 # IDesktopWallpaper::SetPosition
@@ -87,3 +87,4 @@ The desktop wallpaper is already displayed as asked for in <i>position</i>.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getposition">IDesktopWallpaper::GetPosition</a>
+

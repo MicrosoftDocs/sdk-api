@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12StateObjectProperties.GetShaderIdentifier
+ - ID3D12StateObjectProperties::GetShaderIdentifier
 ---
 
 # ID3D12StateObjectProperties::GetShaderIdentifier
@@ -71,3 +71,4 @@ If the shader isn’t fully resolved in the state object, the return value is <b
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
+

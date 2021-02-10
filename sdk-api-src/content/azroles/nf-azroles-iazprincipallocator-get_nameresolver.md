@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzPrincipalLocator.NameResolver
- - IAzPrincipalLocator.get_NameResolver
+ - IAzPrincipalLocator::get_NameResolver
 ---
 
 # IAzPrincipalLocator::get_NameResolver
@@ -56,3 +55,4 @@ The <b>NameResolver</b> method gets a pointer to the <a href="/windows/desktop/a
 This property is read-only.
 
 ## -parameters
+

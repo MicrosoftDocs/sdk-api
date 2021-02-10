@@ -43,7 +43,7 @@ api_location:
  - Wmvcore.lib
  - Wmvcore.dll
 api_name:
- - IWMVideoMediaProps.SetMaxKeyFrameSpacing
+ - IWMVideoMediaProps::SetMaxKeyFrameSpacing
 ---
 
 # IWMVideoMediaProps::SetMaxKeyFrameSpacing
@@ -74,3 +74,4 @@ A key frame is a video frame that can be rendered without any information being 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-getmaxkeyframespacing">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>
+

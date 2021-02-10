@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceIscsi.SetAllIpsecSecurity
+ - IVdsServiceIscsi::SetAllIpsecSecurity
 ---
 
 # IVdsServiceIscsi::SetAllIpsecSecurity
@@ -93,3 +93,4 @@ This method is not supported in this release.
 </td>
 </tr>
 </table>
+

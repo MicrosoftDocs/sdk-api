@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMSHORT4.operator =
+ - XMSHORT4::operator=
 ---
 
 # XMSHORT4::operator-assign

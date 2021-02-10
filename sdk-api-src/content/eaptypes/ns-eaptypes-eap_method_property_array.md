@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EapTypes.h
 api_name:
+ - _EAP_METHOD_PROPERTY_ARRAY
  - EAP_METHOD_PROPERTY_ARRAY
 ---
 
@@ -77,3 +78,4 @@ Pointer to the address of the first element in an array of <a href="/windows/des
 
 
 <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
+

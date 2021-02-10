@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector.ClockType
- - ITraceDataCollector.get_ClockType
- - ITraceDataCollector.put_ClockType
+ - ITraceDataCollector::put_ClockType
 ---
 
 # ITraceDataCollector::put_ClockType
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
+

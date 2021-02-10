@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer.put_uiMode
+ - IWMPPlayer::put_uiMode
 ---
 
 # IWMPPlayer::put_uiMode
@@ -158,3 +158,4 @@ During full-screen playback, Windows Media Player hides the mouse cursor when th
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode">IWMPRemoteMediaServices::GetCustomUIMode</a>
+

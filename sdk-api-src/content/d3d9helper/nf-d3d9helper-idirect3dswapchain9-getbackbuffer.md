@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DSwapChain9.GetBackBuffer
+ - IDirect3DSwapChain9::GetBackBuffer
 ---
 
 # IDirect3DSwapChain9::GetBackBuffer
@@ -91,3 +91,4 @@ Calling this method will increase the internal reference count on the <a href="/
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getfrontbufferdata">IDirect3DSwapChain9::GetFrontBufferData</a>
+

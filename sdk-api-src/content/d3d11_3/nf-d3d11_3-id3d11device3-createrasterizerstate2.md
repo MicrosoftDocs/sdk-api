@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device3.CreateRasterizerState2
+ - ID3D11Device3::CreateRasterizerState2
 ---
 
 # ID3D11Device3::CreateRasterizerState2
@@ -76,3 +76,4 @@ This method returns E_OUTOFMEMORY if there is insufficient memory to create the 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
+

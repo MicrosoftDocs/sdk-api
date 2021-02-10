@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage4.SetReferences
+ - IWMDMStorage4::SetReferences
 ---
 
 # IWMDMStorage4::SetReferences
@@ -93,3 +93,4 @@ The situation may arise where an <b>IWMDMStorage4</b> interface pointer correspo
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getreferences">IWMDMStorage4::GetReferences</a>
+

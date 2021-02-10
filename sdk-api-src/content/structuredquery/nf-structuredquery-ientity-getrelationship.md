@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IEntity.GetRelationship
+ - IEntity::GetRelationship
 ---
 
 # IEntity::GetRelationship
@@ -71,3 +71,4 @@ Receives the address of a pointer to the requested <a href="/windows/desktop/api
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, S_FALSE if there is no matching relationship, or an error value otherwise.
+

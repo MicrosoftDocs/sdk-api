@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device.CreateReservedResource
+ - ID3D12Device::CreateReservedResource
 ---
 
 ## -description
@@ -116,3 +116,4 @@ These resource types can only be created when the adapter supports tiled resourc
 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+

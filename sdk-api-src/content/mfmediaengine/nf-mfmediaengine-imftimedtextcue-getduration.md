@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextCue.GetDuration
+ - IMFTimedTextCue::GetDuration
 ---
 
 # IMFTimedTextCue::GetDuration
@@ -63,3 +63,4 @@ Returns the duration time of the cue in the track.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>
+

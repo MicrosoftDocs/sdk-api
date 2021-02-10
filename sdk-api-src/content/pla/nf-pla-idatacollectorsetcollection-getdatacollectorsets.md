@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSetCollection.GetDataCollectorSets
+ - IDataCollectorSetCollection::GetDataCollectorSets
 ---
 
 # IDataCollectorSetCollection::GetDataCollectorSets
@@ -104,3 +104,4 @@ The method enumerates only those sets that have been previously saved using <a h
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
+

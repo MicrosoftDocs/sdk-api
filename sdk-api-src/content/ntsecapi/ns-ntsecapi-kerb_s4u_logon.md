@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_S4U_LOGON
+ - PKERB_S4U_LOGON
  - KERB_S4U_LOGON
 ---
 
@@ -106,3 +108,4 @@ The <b>Buffer</b> member of the <a href="/windows/desktop/api/subauth/ns-subauth
 A <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the realm of the client, if known. If the realm is not known, this member can be <b>NULL</b>.
 
 The <b>Buffer</b> member of the <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>KERB_S4U_LOGON</b> structure.
+

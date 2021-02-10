@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcRelationshipSelectorEnumerator.MoveNext
+ - IOpcRelationshipSelectorEnumerator::MoveNext
 ---
 
 # IOpcRelationshipSelectorEnumerator::MoveNext
@@ -185,3 +185,4 @@ The enumerator is invalid because the underlying set has changed.
 
 
 <b>Reference</b>
+

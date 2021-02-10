@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMLVODSTATECHANGE
+ - LPNMLVODSTATECHANGE
  - NMLVODSTATECHANGE
 ---
 
@@ -88,3 +90,4 @@ Value indicating the new state for the item or items. This member can be any val
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value indicating the old state for the item or items. This member can be any valid combination of the <a href="/windows/desktop/Controls/list-view-item-states">list-view item states</a>.
+

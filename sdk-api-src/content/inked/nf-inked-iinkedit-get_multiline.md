@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.MultiLine
- - IInkEdit.get_MultiLine
- - IInkEdit.put_MultiLine
- - InkEdit.get_MultiLine
- - InkEdit.put_MultiLine
+ - IInkEdit::get_MultiLine
 ---
 
 # IInkEdit::get_MultiLine
@@ -77,3 +73,4 @@ You can also add scroll bars to a larger <a href="/windows/desktop/tablet/inkedi
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

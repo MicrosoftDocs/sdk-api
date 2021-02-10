@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Filter.h
 api_name:
+ - tagFILTERREGION
  - FILTERREGION
 ---
 
@@ -78,3 +79,4 @@ The <b>cwcExtent</b> member might specify a number of characters (starting from 
 ## -see-also
 
 <a href="/windows/desktop/api/filter/nf-filter-ifilter-bindregion">IFilter::BindRegion</a>
+

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetBoundingBox
+ - IInkStrokeDisp::GetBoundingBox
 ---
 
 # IInkStrokeDisp::GetBoundingBox
@@ -154,3 +154,4 @@ When the bounding box is affected by the pen width, then this width is scaled ap
 
 
 <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
+

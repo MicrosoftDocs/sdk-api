@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.get_Name
+ - ITPluggableTerminalSuperclassRegistration::get_Name
 ---
 
 # ITPluggableTerminalSuperclassRegistration::get_Name
@@ -111,3 +111,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-put_name">put_Name</a>
+

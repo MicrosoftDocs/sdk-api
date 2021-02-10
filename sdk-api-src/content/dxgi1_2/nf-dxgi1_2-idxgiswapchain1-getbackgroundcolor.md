@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetBackgroundColor
+ - IDXGISwapChain1::GetBackgroundColor
 ---
 
 # IDXGISwapChain1::GetBackgroundColor
@@ -81,3 +81,4 @@ A pointer to a <a href="/windows/desktop/direct3ddxgi/dxgi-rgba">DXGI_RGBA</a> s
 
 
 <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-setbackgroundcolor">IDXGISwapChain1::SetBackgroundColor</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Device.GetAdapterLuid
+ - ID3D12Device::GetAdapterLuid
 ---
 
 # ID3D12Device::GetAdapterLuid
@@ -72,3 +72,4 @@ A locally unique identifier (LUID) is a 64-bit value that is guaranteed to be un
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+

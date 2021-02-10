@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWMComponent.GetComponentInfo
+ - IVssWMComponent::GetComponentInfo
 ---
 
 # IVssWMComponent::GetComponentInfo
@@ -144,3 +144,4 @@ The caller is responsible for freeing the returned
 
 
 <a href="/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a>
+

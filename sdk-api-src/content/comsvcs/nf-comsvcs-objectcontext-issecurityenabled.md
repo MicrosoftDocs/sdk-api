@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectContext.IsSecurityEnabled
+ - ObjectContext::IsSecurityEnabled
 ---
 
 # ObjectContext::IsSecurityEnabled
@@ -98,3 +98,4 @@ In the COM+ environment, server and library applications can use role-based secu
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
+

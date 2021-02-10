@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCustomStrokes.Remove
+ - IInkCustomStrokes::Remove
 ---
 
 # IInkCustomStrokes::Remove
@@ -179,3 +179,4 @@ For more information about the BSTR data type, see <a href="/windows/desktop/tab
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+

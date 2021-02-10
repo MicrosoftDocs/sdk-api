@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceConsumer.AcquireResource
+ - IResourceConsumer::AcquireResource
 ---
 
 # IResourceConsumer::AcquireResource
@@ -113,3 +113,4 @@ The method may return some other error code, if the consumer fails to acquire th
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer Interface</a>
+

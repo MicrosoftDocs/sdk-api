@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
+ - _SI_OBJECT_INFO
+ - PSI_OBJECT_INFO
  - SI_OBJECT_INFO
 ---
 
@@ -532,3 +534,4 @@ GUID for the object. This member is ignored unless the SI_OBJECT_GUID flag is se
 
 
 <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a>
+

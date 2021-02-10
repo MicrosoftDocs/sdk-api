@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _MMC_SORT_SET_DATA
  - MMC_SORT_SET_DATA
 ---
 
@@ -110,3 +111,4 @@ The user can hide columns using the Choose Columns dialog.
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
+

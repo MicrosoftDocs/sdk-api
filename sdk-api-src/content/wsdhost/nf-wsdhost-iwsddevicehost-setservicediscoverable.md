@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost.SetServiceDiscoverable
+ - IWSDDeviceHost::SetServiceDiscoverable
 ---
 
 # IWSDDeviceHost::SetServiceDiscoverable
@@ -105,3 +105,4 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
+

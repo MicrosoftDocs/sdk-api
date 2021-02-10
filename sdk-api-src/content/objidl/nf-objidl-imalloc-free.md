@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMalloc.Free
+ - IMalloc::Free
 ---
 
 # IMalloc::Free
@@ -69,3 +69,4 @@ This method frees a block of memory previously allocated through a call to <a hr
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_CREATE_VDISK_PARAMETERS
+ - PVDS_CREATE_VDISK_PARAMETERS
  - VDS_CREATE_VDISK_PARAMETERS
 ---
 
@@ -87,3 +89,4 @@ A <b>NULL</b>-terminated wide-character string that contains an optional path to
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsvdprovider-createvdisk">IVdsVdProvider::CreateVDisk</a>
+

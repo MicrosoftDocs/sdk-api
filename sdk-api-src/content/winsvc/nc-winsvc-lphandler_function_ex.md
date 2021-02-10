@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WinSvc.h
 api_name:
- - HandlerEx
+ - LPHANDLER_FUNCTION_EX
 ---
 
 # LPHANDLER_FUNCTION_EX callback function
@@ -554,3 +554,4 @@ Services can also use the
 
 
 <a href="/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a>
+

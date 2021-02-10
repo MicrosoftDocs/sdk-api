@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderProperties.SetValue
+ - IProviderProperties::SetValue
 ---
 
 # IProviderProperties::SetValue
@@ -108,3 +108,4 @@ The <i>pIFunctionInstance</i>, <i>pvProviderInstanceContext</i>, or <i>ppropVar<
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a>
+

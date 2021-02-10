@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - _SEARCH_ITEM_CHANGE
  - SEARCH_ITEM_CHANGE
 ---
 
@@ -86,3 +87,4 @@ Pointer to a null-terminated Unicode string containing the URL of the item in a 
 Type: <b>LPWSTR</b>
 
 Pointer to a null-terminated Unicode string containing the old URL of the item in a SEARCH_CHANGE_MOVE_RENAME or SEARCH_CHANGE_DELETE notification.
+

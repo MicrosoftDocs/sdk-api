@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMetadataProvider.GetMFMetadata
+ - IMFMetadataProvider::GetMFMetadata
 ---
 
 # IMFMetadataProvider::GetMFMetadata
@@ -111,3 +111,4 @@ No metadata is available for the requested stream or presentation.
 
 
 <a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>
+

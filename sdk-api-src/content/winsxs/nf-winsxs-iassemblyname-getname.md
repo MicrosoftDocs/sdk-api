@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sxs.dll
 api_name:
- - IAssemblyName.GetName
+ - IAssemblyName::GetName
 ---
 
 # IAssemblyName::GetName
@@ -102,3 +102,4 @@ This method is equivalent to using the <a href="/windows/desktop/api/winsxs/nf-w
 ## -see-also
 
 <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
+

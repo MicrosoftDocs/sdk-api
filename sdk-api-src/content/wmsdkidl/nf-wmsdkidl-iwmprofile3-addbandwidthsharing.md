@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3.AddBandwidthSharing
+ - IWMProfile3::AddBandwidthSharing
 ---
 
 # IWMProfile3::AddBandwidthSharing
@@ -150,3 +150,4 @@ Making a call to <b>AddBandwidthSharing</b> without first using the methods of <
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removebandwidthsharing">IWMProfile3::RemoveBandwidthSharing</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_SIGNED_INFO
+ - PCRYPT_XML_SIGNED_INFO
  - CRYPT_XML_SIGNED_INFO
 ---
 
@@ -85,3 +87,4 @@ A pointer to an array of pointers to <a href="/windows/desktop/api/cryptxml/ns-c
 ### -field Encoded
 
 A  <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the XML encoded <b>SignedInfo</b> element.
+

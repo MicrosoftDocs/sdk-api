@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IMediaRendererFactory.CreateMediaRendererFromBasicDeviceAsync
+ - IMediaRendererFactory::CreateMediaRendererFromBasicDeviceAsync
 ---
 
 # IMediaRendererFactory::streaming
@@ -87,3 +87,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/hh828924(v=vs.85)">IMediaRendererFactory</a>
+

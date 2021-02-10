@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
+ - LPAVICOMPRESSOPTIONS
  - AVICOMPRESSOPTIONS
 ---
 
@@ -217,3 +218,4 @@ AVIFile Functions and Macros
 
 
 <a href="/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a>
+

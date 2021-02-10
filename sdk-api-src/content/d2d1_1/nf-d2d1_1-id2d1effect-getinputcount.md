@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Effect.GetInputCount
+ - ID2D1Effect::GetInputCount
 ---
 
 # ID2D1Effect::GetInputCount
@@ -67,3 +67,4 @@ This method returns the number of inputs to the effect.
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
+

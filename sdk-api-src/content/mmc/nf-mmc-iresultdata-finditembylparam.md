@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData.FindItemByLParam
- - IResultData2.FindItemByLParam
+ - IResultData::FindItemByLParam
 ---
 
 # IResultData::FindItemByLParam
@@ -80,3 +79,4 @@ This method does not support virtual lists.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
+

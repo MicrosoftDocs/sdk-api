@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_PHYSICAL_ADAPTER_DATA
+ - PSTORAGE_PHYSICAL_ADAPTER_DATA
  - STORAGE_PHYSICAL_ADAPTER_DATA
 ---
 
@@ -100,3 +102,4 @@ Reserved.
 ### -field Vendor [8]
 
 Specifies the adapter vendor.
+

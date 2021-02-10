@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspaceScriptable.OnAuthenticated
- - IWorkspaceScriptable2.OnAuthenticated
- - IWorkspaceScriptable3.OnAuthenticated
- - Workspace.OnAuthenticated
+ - IWorkspaceScriptable::OnAuthenticated
 ---
 
 # IWorkspaceScriptable::OnAuthenticated
@@ -80,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>
+

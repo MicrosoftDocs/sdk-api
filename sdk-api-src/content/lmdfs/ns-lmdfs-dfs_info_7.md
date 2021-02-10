@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_7
+ - PDFS_INFO_7
  - DFS_INFO_7
 ---
 
@@ -75,3 +77,4 @@ If a DFS namespace server does not support generation <b>GUID</b>s, the
      <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> contains a null 
      <b>GUID</b> (all zeros). This structure cannot be used with 
      <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>.
+

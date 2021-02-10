@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl.SetCustomPaint
+ - IMathInputControl::SetCustomPaint
 ---
 
 # IMathInputControl::SetCustomPaint
@@ -73,3 +73,4 @@ If custom painting is enabled, the button or background will be rendered at leas
 ## -see-also
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
+

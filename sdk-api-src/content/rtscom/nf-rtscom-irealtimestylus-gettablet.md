@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.GetTablet
+ - IRealTimeStylus::GetTablet
 ---
 
 # IRealTimeStylus::GetTablet
@@ -106,3 +106,4 @@ if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
 
 
 <b>RealTimeStylus Class</b>
+

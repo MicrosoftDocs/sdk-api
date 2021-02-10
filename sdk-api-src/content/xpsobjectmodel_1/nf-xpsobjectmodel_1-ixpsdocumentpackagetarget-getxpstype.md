@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xpsobjectmodel_1.h
 api_name:
- - IXpsDocumentPackageTarget.GetXpsType
+ - IXpsDocumentPackageTarget::GetXpsType
 ---
 
 # IXpsDocumentPackageTarget::GetXpsType
@@ -69,3 +69,4 @@ This method returns an HRESULT value. If the method call fails, it returns the a
 
 
 <a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a>
+

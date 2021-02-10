@@ -44,6 +44,7 @@ api_type:
 api_location:
  - peninputpanel.h
 api_name:
+ - __MIDL___MIDL_itf_peninputpanel_0000_0000_0002
  - InPlaceState
 ---
 

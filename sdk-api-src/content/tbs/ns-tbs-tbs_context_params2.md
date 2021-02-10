@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tbs.h
 api_name:
+ - tdTBS_CONTEXT_PARAMS2
+ - PTBS_CONTEXT_PARAMS2
  - TBS_CONTEXT_PARAMS2
 ---
 

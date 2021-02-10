@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFont.HasCharacter
+ - IDWriteFont::HasCharacter
 ---
 
 # IDWriteFont::HasCharacter

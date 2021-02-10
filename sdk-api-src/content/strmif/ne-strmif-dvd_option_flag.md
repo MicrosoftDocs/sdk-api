@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - __MIDL___MIDL_itf_strmif_0000_0132_0003
  - DVD_OPTION_FLAG
 ---
 
@@ -481,3 +482,4 @@ The following table lists the default values for the Boolean flags.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a>
+

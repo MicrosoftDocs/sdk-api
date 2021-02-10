@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetIconSize
+ - ISearchFolderItemFactory::SetIconSize
 ---
 
 # ISearchFolderItemFactory::SetIconSize
@@ -65,3 +65,4 @@ The icon size.
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
+

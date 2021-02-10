@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUSTER_BATCH_COMMAND
  - CLUSTER_BATCH_COMMAND
 ---
 
@@ -162,3 +163,4 @@ The <b>wzName</b> and <b>lpData</b> pointers are valid until the batch
 
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-structures">Failover Cluster Structures</a>
+

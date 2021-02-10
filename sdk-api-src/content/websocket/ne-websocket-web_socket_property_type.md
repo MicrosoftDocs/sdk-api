@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Websocket.h
 api_name:
+ - _WEB_SOCKET_PROPERTY_TYPE
  - WEB_SOCKET_PROPERTY_TYPE
 ---
 
@@ -133,3 +134,4 @@ Used with <a href="/windows/desktop/api/websocket/nf-websocket-websocketgetgloba
 
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
+

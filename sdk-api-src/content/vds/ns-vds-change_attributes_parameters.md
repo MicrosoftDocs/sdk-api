@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _CHANGE_ATTRIBUTES_PARAMETERS
  - CHANGE_ATTRIBUTES_PARAMETERS
 ---
 
@@ -195,3 +196,4 @@ The
 
 
 <a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
+

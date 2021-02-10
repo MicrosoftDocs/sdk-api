@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - NTMS_OBJECTINFORMATION
+ - _NTMS_OBJECTINFORMATIONA
+ - LPNTMS_OBJECTINFORMATIONA
  - NTMS_OBJECTINFORMATIONA
- - NTMS_OBJECTINFORMATIONW
 ---
 
 # NTMS_OBJECTINFORMATIONA structure
@@ -408,8 +408,6 @@ Description of the device or system control object. The description of device an
 
 ### -field Info.Computer.case.NTMS_COMPUTER
 
-
-
 ### -field Info
 
 Device or system control object-specific information. The format of this information depends on the <b>dwType</b> member.
@@ -525,3 +523,4 @@ All members of the
 
 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage.TSID
- - IFaxOutgoingMessage.get_TSID
- - IFaxOutgoingMessage.get_TSID
+ - IFaxOutgoingMessage::get_TSID
 ---
 
 # IFaxOutgoingMessage::get_TSID
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
+

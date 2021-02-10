@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStream.Seek
+ - IMFByteStream::Seek
 ---
 
 # IMFByteStream::Seek
@@ -108,3 +108,4 @@ Other methods that can update the current position are <a href="/windows/desktop
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
+

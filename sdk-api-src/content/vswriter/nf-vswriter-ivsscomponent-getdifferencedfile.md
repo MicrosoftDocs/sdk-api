@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetDifferencedFile
+ - IVssComponent::GetDifferencedFile
 ---
 
 # IVssComponent::GetDifferencedFile
@@ -249,3 +249,4 @@ There is no method in the
 
 
 <a href="/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
+

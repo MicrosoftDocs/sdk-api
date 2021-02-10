@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SCardForgetCardTypeA
  - winscard/SCardForgetCardTypeA
+ - SCardForgetCardType
+ - winscard/SCardForgetCardType
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardForgetCardType
  - SCardForgetCardTypeA
- - SCardForgetCardTypeW
+ - SCardForgetCardType
 ---
 
 # SCardForgetCardTypeA function
@@ -144,3 +145,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardintroducecardtypea">SCardIntroduceCardType</a>
+

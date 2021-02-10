@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush.TextureBrush
+ - TextureBrush::TextureBrush
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT)
@@ -148,3 +148,4 @@ The brush will have width and height equal to 256 and 512, respectively. The bru
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a>
+

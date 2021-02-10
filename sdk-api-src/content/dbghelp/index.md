@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - dbghelp
  - dbghelp/dbghelp
+api_name:
+ - dbghelp
 ---
 
 # Dbghelp.h header

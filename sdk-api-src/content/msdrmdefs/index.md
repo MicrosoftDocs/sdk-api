@@ -9,6 +9,8 @@ tech.root: rm
 f1_keywords:
  - msdrmdefs
  - msdrmdefs/msdrmdefs
+api_name:
+ - msdrmdefs
 ---
 
 # Msdrmdefs.h header

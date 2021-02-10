@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_version_data_tag
+ - PPEER_VERSION_DATA
  - PEER_VERSION_DATA
 ---
 
@@ -73,3 +75,4 @@ Specifies the highest version of the Peer Infrastructure that the Peer DLL insta
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a>
+

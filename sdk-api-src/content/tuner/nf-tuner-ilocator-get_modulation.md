@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ILocator.get_Modulation
+ - ILocator::get_Modulation
 ---
 
 # ILocator::get_Modulation
@@ -69,3 +69,4 @@ See <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator Interface</a>
+

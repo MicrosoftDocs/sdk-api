@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StartDocA
  - wingdi/StartDocA
+ - StartDoc
+ - wingdi/StartDoc
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-GDI-print-l1-1-0.dll
  - GDI32Full.dll
 api_name:
- - StartDoc
  - StartDocA
- - StartDocW
+ - StartDoc
 ---
 
 # StartDocA function
@@ -116,3 +117,4 @@ For a sample program that uses this function, see <a href="/windows/desktop/prin
 
 
 <a href="/windows/desktop/printdocs/setjob">SetJob</a>
+

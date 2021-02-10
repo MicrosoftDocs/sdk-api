@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfReadOnlyProperty.GetContext
+ - ITfReadOnlyProperty::GetContext
 ---
 
 # ITfReadOnlyProperty::GetContext
@@ -110,3 +110,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>
+

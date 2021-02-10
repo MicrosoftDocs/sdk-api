@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDescriptionDocument.LoadAsync
+ - IUPnPDescriptionDocument::LoadAsync
 ---
 
 # IUPnPDescriptionDocument::LoadAsync
@@ -188,3 +188,4 @@ If this function returns S_OK,
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a>
+

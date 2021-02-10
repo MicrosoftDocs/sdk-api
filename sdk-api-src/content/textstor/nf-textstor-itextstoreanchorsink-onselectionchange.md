@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnSelectionChange
+ - ITextStoreAnchorSink::OnSelectionChange
 ---
 
 # ITextStoreAnchorSink::OnSelectionChange
@@ -117,3 +117,4 @@ Applications should expect reentrant client calls to <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
+

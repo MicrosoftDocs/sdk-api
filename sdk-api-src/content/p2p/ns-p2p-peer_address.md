@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_address_tag
+ - PPEER_ADDRESS
  - PEER_ADDRESS
 ---
 
@@ -89,3 +91,4 @@ Specifies the IP address of the node in the Peer Infrastructure.
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopendirectconnection">PeerGroupOpenDirectConnection</a>
+

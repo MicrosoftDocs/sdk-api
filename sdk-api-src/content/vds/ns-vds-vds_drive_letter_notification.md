@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_DRIVE_LETTER_NOTIFICATION
  - VDS_DRIVE_LETTER_NOTIFICATION
 ---
 
@@ -127,3 +128,4 @@ An application can receive drive-letter events by implementing the
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
+

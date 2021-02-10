@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetAlertText
+ - ISCTE_EAS::GetAlertText
 ---
 
 # ISCTE_EAS::GetAlertText
@@ -106,3 +106,4 @@ The returned string is taken from the alert_text field, as defined by ANSI-J-STD
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
+

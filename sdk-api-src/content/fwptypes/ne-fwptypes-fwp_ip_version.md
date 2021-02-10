@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
+ - FWP_IP_VERSION_
  - FWP_IP_VERSION
 ---
 

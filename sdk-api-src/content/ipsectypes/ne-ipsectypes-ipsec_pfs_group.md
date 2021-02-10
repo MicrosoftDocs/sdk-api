@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_PFS_GROUP_
  - IPSEC_PFS_GROUP
 ---
 
@@ -108,3 +109,4 @@ Maximum value for testing only.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">WFP Enumerated Types</a>
+

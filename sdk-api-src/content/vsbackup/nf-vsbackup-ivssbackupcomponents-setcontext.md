@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.SetContext
+ - IVssBackupComponents::SetContext
 ---
 
 # IVssBackupComponents::SetContext
@@ -166,3 +166,4 @@ For a complete discussion of the permitted shadow copy contexts, see
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+

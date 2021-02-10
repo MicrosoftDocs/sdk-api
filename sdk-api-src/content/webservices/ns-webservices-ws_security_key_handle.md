@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SECURITY_KEY_HANDLE
  - WS_SECURITY_KEY_HANDLE
 ---
 

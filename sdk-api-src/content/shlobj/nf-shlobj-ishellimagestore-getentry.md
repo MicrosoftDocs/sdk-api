@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageStore.GetEntry
+ - IShellImageStore::GetEntry
 ---
 
 # IShellImageStore::GetEntry
@@ -112,3 +112,4 @@ The stream cannot be found.
 ## -remarks
 
 It is the caller's responsibility to free the handle after a call to this method.
+

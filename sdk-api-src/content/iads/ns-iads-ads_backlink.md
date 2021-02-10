@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0008
+ - PADS_BACKLINK
  - ADS_BACKLINK
 ---
 
@@ -73,3 +75,4 @@ A <b>Back Link</b> attribute contains one or more servers that hold an external 
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
+

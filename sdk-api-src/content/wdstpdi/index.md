@@ -9,6 +9,8 @@ tech.root: wds
 f1_keywords:
  - wdstpdi
  - wdstpdi/wdstpdi
+api_name:
+ - wdstpdi
 ---
 
 # Wdstpdi.h header

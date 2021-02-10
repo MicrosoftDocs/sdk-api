@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2.GetPreferredFont
+ - ITextDocument2::GetPreferredFont
 ---
 
 # ITextDocument2::GetPreferredFont
@@ -533,3 +533,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
+

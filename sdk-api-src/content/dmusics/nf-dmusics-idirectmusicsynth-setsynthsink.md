@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth.SetSynthSink
+ - IDirectMusicSynth::SetSynthSink
 ---
 
 # IDirectMusicSynth::SetSynthSink
@@ -117,3 +117,4 @@ The <i>pSynthSink</i> parameter follows the <a href="/windows-hardware/drivers/a
 ## -see-also
 
 <a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
+

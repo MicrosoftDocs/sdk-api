@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.WriteCertToCSP
- - ICEnroll4.get_WriteCertToCSP
- - ICEnroll4.put_WriteCertToCSP
- - ICEnroll3.WriteCertToCSP
- - ICEnroll3.get_WriteCertToCSP
- - ICEnroll3.put_WriteCertToCSP
- - ICEnroll2.WriteCertToCSP
- - ICEnroll2.get_WriteCertToCSP
- - ICEnroll2.put_WriteCertToCSP
- - ICEnroll.WriteCertToCSP
- - ICEnroll.get_WriteCertToCSP
- - ICEnroll.put_WriteCertToCSP
- - CEnroll.WriteCertToCSP
+ - ICEnroll::put_WriteCertToCSP
 ---
 
 # ICEnroll::put_WriteCertToCSP
@@ -117,3 +105,4 @@ if (FAILED( hr ))
 else
     printf( "WriteCertToCSP set to TRUE\n" );
 ```
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarItem.Show
+ - ITfLangBarItem::Show
 ---
 
 # ITfLangBarItem::Show
@@ -110,3 +110,4 @@ This method is only useful when the item has the TF_LBI_STYLE_HIDDENSTATUSCONTRO
 
 <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate
       </a>
+

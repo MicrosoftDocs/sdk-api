@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ntddkbd.h
 api_name:
+ - _KEYBOARD_INPUT_DATA
+ - PKEYBOARD_INPUT_DATA
  - KEYBOARD_INPUT_DATA
 ---
 
@@ -136,3 +138,4 @@ In response to an <a href="/previous-versions/ff542213(v=vs.85)">IRP_MJ_READ (Kb
 
 
 <a href="/previous-versions/ff542324(v=vs.85)">KeyboardClassServiceCallback</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFByteStreamCacheControl2.IsBackgroundTransferActive
+ - IMFByteStreamCacheControl2::IsBackgroundTransferActive
 ---
 
 # IMFByteStreamCacheControl2::IsBackgroundTransferActive
@@ -69,3 +69,4 @@ Background transfer might stop because the cache limit was reached (see <a href=
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol2">IMFByteStreamCacheControl2</a>
+

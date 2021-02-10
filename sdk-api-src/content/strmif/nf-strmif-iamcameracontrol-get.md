@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCameraControl.Get
+ - IAMCameraControl::Get
 ---
 
 # IAMCameraControl::Get
@@ -86,3 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-set">IAMCameraControl::Set</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - HelperAttributeInfo, *PHelperAttributeInfo
+ - tagHelperAttributeInfo
+ - PHelperAttributeInfo
+ - HelperAttributeInfo
 ---
 
 # HelperAttributeInfo structure
@@ -77,3 +79,4 @@ The type of helper attribute.
 
 
 <a href="/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a>
+

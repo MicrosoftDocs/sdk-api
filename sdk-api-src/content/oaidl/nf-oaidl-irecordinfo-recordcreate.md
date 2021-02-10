@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IRecordInfo.RecordCreate
+ - IRecordInfo::RecordCreate
 ---
 
 # IRecordInfo::RecordCreate
@@ -67,3 +67,4 @@ The records created must be freed by calling <a href="/previous-versions/windows
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
+

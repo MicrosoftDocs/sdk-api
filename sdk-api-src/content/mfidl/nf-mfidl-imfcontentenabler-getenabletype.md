@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentEnabler.GetEnableType
+ - IMFContentEnabler::GetEnableType
 ---
 
 # IMFContentEnabler::GetEnableType
@@ -123,3 +123,4 @@ The following GUIDs are defined for the <i>pType</i> parameter.
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
+

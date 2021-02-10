@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegQueryInfoKeyA
  - winreg/RegQueryInfoKeyA
+ - RegQueryInfoKey
+ - winreg/RegQueryInfoKey
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - api-ms-win-core-registry-l1-1-1.dll
  - kernel32.dll
 api_name:
- - RegQueryInfoKey
  - RegQueryInfoKeyA
- - RegQueryInfoKeyW
+ - RegQueryInfoKey
 ---
 
 # RegQueryInfoKeyA function
@@ -181,3 +182,4 @@ If the <i>lpClass</i> buffer is too small to receive the name of the class, the 
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
+

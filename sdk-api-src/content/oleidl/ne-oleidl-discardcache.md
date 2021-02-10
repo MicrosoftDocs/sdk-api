@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
+ - tagDISCARDCACHE
  - DISCARDCACHE
 ---
 
@@ -67,3 +68,4 @@ The cache can be discarded without saving it.
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache2-discardcache">IOleCache2::DiscardCache</a>
+

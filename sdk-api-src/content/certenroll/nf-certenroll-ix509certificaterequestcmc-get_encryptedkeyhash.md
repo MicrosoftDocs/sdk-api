@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.EncryptedKeyHash
- - IX509CertificateRequestCmc.get_EncryptedKeyHash
+ - IX509CertificateRequestCmc::get_EncryptedKeyHash
 ---
 
 # IX509CertificateRequestCmc::get_EncryptedKeyHash
@@ -64,3 +63,4 @@ For more information about archiving private keys, see the <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
+

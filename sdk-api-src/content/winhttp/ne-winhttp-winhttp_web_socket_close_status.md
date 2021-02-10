@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winhttp.h
 api_name:
+ - _WINHTTP_WEB_SOCKET_CLOSE_STATUS
  - WINHTTP_WEB_SOCKET_CLOSE_STATUS
 ---
 
@@ -124,3 +125,4 @@ The
 
 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>
+

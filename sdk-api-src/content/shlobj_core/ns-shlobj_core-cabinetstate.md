@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - LPCABINETSTATE
  - CABINETSTATE
 ---
 
@@ -197,3 +198,4 @@ Display folders.
 #### SHCONTF_NONFOLDERS
 
 Display non-folder items.
+

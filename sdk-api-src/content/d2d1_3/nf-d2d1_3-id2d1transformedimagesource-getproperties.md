@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2D1.dll
 api_name:
- - ID2D1TransformedImageSource.GetProperties
+ - ID2D1TransformedImageSource::GetProperties
 ---
 
 # ID2D1TransformedImageSource::GetProperties
@@ -64,3 +64,4 @@ the properties specified when the transformed image source was created.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource">ID2D1TransformedImageSource</a>
+

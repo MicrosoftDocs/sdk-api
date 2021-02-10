@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit.EnumerateExtensions
- - CCertServerExit.EnumerateExtensions
+ - ICertServerExit::EnumerateExtensions
 ---
 
 # ICertServerExit::EnumerateExtensions
@@ -150,3 +149,4 @@ if (NULL != bstrExt)
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">ICertServerExit::GetCertificateExtensionFlags</a>
+

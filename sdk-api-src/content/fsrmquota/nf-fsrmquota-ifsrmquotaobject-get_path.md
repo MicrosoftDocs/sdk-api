@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaObject.Path
- - IFsrmQuotaObject.get_Path
+ - IFsrmQuotaObject::get_Path
 ---
 
 # IFsrmQuotaObject::get_Path
@@ -72,3 +71,4 @@ The path is specified when you create the quota object.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
+

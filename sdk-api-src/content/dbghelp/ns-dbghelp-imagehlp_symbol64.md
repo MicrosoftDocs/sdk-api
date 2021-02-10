@@ -46,10 +46,9 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _IMAGEHLP_SYMBOL64
+ - PIMAGEHLP_SYMBOL64
  - IMAGEHLP_SYMBOL64
- - IMAGEHLP_SYMBOL64
- - IMAGEHLP_SYMBOLW64
- - IMAGEHLP_SYMBOL
 ---
 
 # IMAGEHLP_SYMBOL64 structure
@@ -114,3 +113,4 @@ This structure supersedes the <b>IMAGEHLP_SYMBOL</b> structure. For more informa
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromname">SymGetSymFromName64</a>
+

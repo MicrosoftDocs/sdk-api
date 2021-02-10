@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IAutoComplete.Init
+ - IAutoComplete::Init
 ---
 
 # IAutoComplete::Init
@@ -87,3 +87,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>
+

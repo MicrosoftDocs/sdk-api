@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - SERVICE_FAILURE_ACTIONS
- - SERVICE_FAILURE_ACTIONSA
+ - _SERVICE_FAILURE_ACTIONSW
+ - LPSERVICE_FAILURE_ACTIONSW
  - SERVICE_FAILURE_ACTIONSW
 ---
 
@@ -152,3 +152,4 @@ The service control manager counts the number of times each service has failed s
 
 
 <a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
+

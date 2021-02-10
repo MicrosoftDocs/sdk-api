@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wscapi.lib
 api_name:
+ - _WSC_SECURITY_SIGNATURE_STATUS
  - WSC_SECURITY_SIGNATURE_STATUS
 ---
 

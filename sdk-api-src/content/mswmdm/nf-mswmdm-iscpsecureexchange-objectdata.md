@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureExchange.ObjectData
+ - ISCPSecureExchange::ObjectData
 ---
 
 # ISCPSecureExchange::ObjectData
@@ -140,3 +140,4 @@ To transfer data, Windows Media Device Manager calls the <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
+

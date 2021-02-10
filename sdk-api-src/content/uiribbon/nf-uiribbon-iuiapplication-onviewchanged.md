@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIApplication.OnViewChanged
+ - IUIApplication::OnViewChanged
 ---
 
 # IUIApplication::OnViewChanged
@@ -193,3 +193,4 @@ STDMETHODIMP CApplication::OnViewChanged(
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+

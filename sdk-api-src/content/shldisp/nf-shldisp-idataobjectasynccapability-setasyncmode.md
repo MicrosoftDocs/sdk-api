@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDataObjectAsyncCapability.SetAsyncMode
+ - IDataObjectAsyncCapability::SetAsyncMode
 ---
 
 # IDataObjectAsyncCapability::SetAsyncMode
@@ -75,3 +75,4 @@ If <i>fDoOpAsync</i> is set to <b>VARIANT_TRUE</b>, <b>SetAsyncMode</b> must cal
 ## -see-also
 
 <a href="/windows/desktop/api/shldisp/nn-shldisp-idataobjectasynccapability">IDataObjectAsyncCapability</a>
+

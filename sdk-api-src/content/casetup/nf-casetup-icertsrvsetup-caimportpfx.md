@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup.CAImportPFX
+ - ICertSrvSetup::CAImportPFX
 ---
 
 # ICertSrvSetup::CAImportPFX
@@ -86,3 +86,4 @@ If the PFX file contains multiple certificates and keys, <b>CAImportPFX</b> inst
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
+

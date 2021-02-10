@@ -45,8 +45,6 @@ api_location:
  - winmmbase.dll
 api_name:
  - auxGetDevCaps
- - auxGetDevCapsA
- - auxGetDevCapsW
 ---
 
 # auxGetDevCaps function
@@ -116,3 +114,4 @@ The device identifier in <i>uDeviceID</i> varies from zero to one less than the 
 
 
 <a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
+

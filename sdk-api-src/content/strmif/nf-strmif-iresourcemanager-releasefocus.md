@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceManager.ReleaseFocus
+ - IResourceManager::ReleaseFocus
 ---
 
 # IResourceManager::ReleaseFocus
@@ -136,3 +136,4 @@ Use this method when the object of focus is about to be destroyed to ensure that
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
+

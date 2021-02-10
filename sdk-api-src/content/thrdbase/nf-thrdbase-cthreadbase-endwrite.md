@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CThreadBase.EndWrite
- - ?Empty@CHString@@QEAAXXZ
+ - CThreadBase::EndWrite
 ---
 
 # CThreadBase::EndWrite
@@ -61,3 +60,4 @@ api_name:
 The <b>EndWrite</b> method provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework. <a href="/windows/desktop/api/thrdbase/nl-thrdbase-cthreadbase">CThreadBase</a> is called internally.
 
 ## -parameters
+

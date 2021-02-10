@@ -42,9 +42,7 @@ api_type:
 api_location:
  - libloaderapi.h
 api_name:
- - EnumResNameProc
- - EnumResNameProcA
- - EnumResNameProcW
+ - ENUMRESNAMEPROCW
 ---
 
 ## -description
@@ -69,13 +67,13 @@ The type of resource for which the name is being enumerated. Alternately, rather
 
 Type: <b>LPTSTR</b>
 
-The name of a resource of the type being enumerated. Alternately, rather than a pointer, this parameter can be <code>MAKEINTRESOURCE(ID)</code>, where ID is the integer identifier of the resource. For more information, see the Remarks section below. 
+The name of a resource of the type being enumerated. Alternately, rather than a pointer, this parameter can be <code>MAKEINTRESOURCE(ID)</code>, where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
 ### -param lParam [in]
 
 Type: <b>LONG_PTR</b>
 
-An application-defined parameter passed to the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> function. This parameter can be used in error checking. 
+An application-defined parameter passed to the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> function. This parameter can be used in error checking.
 
 ## -returns
 
@@ -119,3 +117,4 @@ If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+

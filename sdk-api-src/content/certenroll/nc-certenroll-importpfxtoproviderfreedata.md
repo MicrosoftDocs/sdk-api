@@ -43,7 +43,6 @@ api_location:
  - certenroll.h
  - wincrypt.h
 api_name:
- - (FNIMPORTPFXTOPROVIDERFREEDATA)
  - ImportPFXToProviderFreeData
 ---
 

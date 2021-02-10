@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IQualProp.get_AvgFrameRate
+ - IQualProp::get_AvgFrameRate
 ---
 
 # IQualProp::get_AvgFrameRate
@@ -74,3 +74,4 @@ The actual frame rate during playback might be less than the authored frame rate
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-iqualprop">IQualProp Interface</a>
+

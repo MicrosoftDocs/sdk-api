@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificates.Count
- - ISignerCertificates.get_Count
+ - ISignerCertificates::get_Count
 ---
 
 # ISignerCertificates::get_Count
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificates">ISignerCertificates</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderPublishing.CreateInstance
+ - IProviderPublishing::CreateInstance
 ---
 
 # IProviderPublishing::CreateInstance
@@ -119,3 +119,4 @@ One of the parameters contains an invalid argument.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpublishing">IProviderPublishing</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressTranslationInfo.get_CurrentCountryCode
+ - ITAddressTranslationInfo::get_CurrentCountryCode
 ---
 
 # ITAddressTranslationInfo::get_CurrentCountryCode
@@ -115,3 +115,4 @@ Corresponds to the <b>dwCurrentCountry</b> member of the TAPI 2
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
+

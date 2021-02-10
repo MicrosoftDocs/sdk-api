@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _DICTIONARYPROPERTIES
  - DICTIONARYPROPERTIES
 ---
 
@@ -80,3 +81,4 @@ The dictionary is the collection of all possible attributes. It includes some at
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdictionarysdo">ISdoMachine::GetDictionarySDO</a>
+

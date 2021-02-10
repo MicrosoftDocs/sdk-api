@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPathname.SetDisplayType
+ - IADsPathname::SetDisplayType
 ---
 
 # IADsPathname::SetDisplayType
@@ -73,3 +73,4 @@ This method supports the standard return values, including the following:
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
+

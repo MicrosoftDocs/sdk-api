@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_PRIVATE_KEY_INFO
+ - PCRYPT_PRIVATE_KEY_INFO
  - CRYPT_PRIVATE_KEY_INFO
 ---
 
@@ -84,3 +86,4 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attributes">CRYPT_ATT
 
 
 <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func">PCRYPT_RESOLVE_HCRYPTPROV_FUNC</a>
+

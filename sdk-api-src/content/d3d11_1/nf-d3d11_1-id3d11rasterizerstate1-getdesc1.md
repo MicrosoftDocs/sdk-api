@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11RasterizerState1.GetDesc1
+ - ID3D11RasterizerState1::GetDesc1
 ---
 
 # ID3D11RasterizerState1::GetDesc1
@@ -66,3 +66,4 @@ You use the description for rasterizer state in a call to the <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11rasterizerstate1">ID3D11RasterizerState1</a>
+

@@ -9,6 +9,8 @@ tech.root: tapi2
 f1_keywords:
  - tapi
  - tapi/tapi
+api_name:
+ - tapi
 ---
 
 # Tapi.h header

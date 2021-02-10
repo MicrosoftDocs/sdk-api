@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
+ - PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
  - CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 ---
 
@@ -82,3 +84,4 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DA
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
+

@@ -44,10 +44,12 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_DestinationOptionsFT
  - MI_DestinationOptionsFT
 ---
 
 # MI_DestinationOptionsFT structure
+
 
 ## -description
 
@@ -114,3 +116,4 @@ TBD
 ### -field GetInterval
 
 TBD
+

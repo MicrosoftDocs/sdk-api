@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wdstptmgmt.h
 api_name:
+ - __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0007
+ - PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
  - WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
 ---
 
@@ -69,3 +71,4 @@ Indicates that the server should use the <a href="/previous-versions/windows/des
 ### -field WdsTptIpAddressSourceRange
 
 Indicates that the server should automatically select an available address from a multicast address range manually configured by the administrator.
+

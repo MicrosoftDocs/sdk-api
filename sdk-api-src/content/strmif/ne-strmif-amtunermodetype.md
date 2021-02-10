@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagAMTunerModeType
  - AMTunerModeType
 ---
 
@@ -79,3 +80,4 @@ Indicates Digital Satellite Service (DSS) tuner mode.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

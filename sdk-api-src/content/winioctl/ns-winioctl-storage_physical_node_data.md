@@ -45,6 +45,8 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
+ - _STORAGE_PHYSICAL_NODE_DATA
+ - PSTORAGE_PHYSICAL_NODE_DATA
  - STORAGE_PHYSICAL_NODE_DATA
 ---
 
@@ -88,3 +90,4 @@ The data offset from the beginning of the data structure. The buffer contains an
 ### -field Reserved [3]
 
 Specifies if the storage adapter is reserved.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IQuickActivate.QuickActivate
+ - IQuickActivate::QuickActivate
 ---
 
 # IQuickActivate::QuickActivate
@@ -93,3 +93,4 @@ The <b>IPersist*::Load</b> and <b>IPersist*::InitNew</b> methods should be calle
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>
+

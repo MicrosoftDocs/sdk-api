@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc.CoverpageNote
- - IFaxDoc.get_CoverpageNote
- - IFaxDoc.put_CoverpageNote
+ - IFaxDoc::get_CoverpageNote
 ---
 
 # IFaxDoc::get_CoverpageNote
@@ -79,3 +77,4 @@ The <b>get_CoverpageNote</b> method allocates the memory required for the buffer
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

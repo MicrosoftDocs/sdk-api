@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Resource.GetType
+ - ID3D10Resource::GetType
 ---
 
 # ID3D10Resource::GetType
@@ -64,3 +64,4 @@ Pointer to the resource type (see <a href="/windows/desktop/api/d3d10/ne-d3d10-d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
+

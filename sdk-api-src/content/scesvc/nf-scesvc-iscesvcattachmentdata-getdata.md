@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsecedit.dll
 api_name:
- - ISceSvcAttachmentData.GetData
+ - ISceSvcAttachmentData::GetData
 ---
 
 # ISceSvcAttachmentData::GetData
@@ -125,3 +125,4 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was 
 
 
 <a href="/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>
+

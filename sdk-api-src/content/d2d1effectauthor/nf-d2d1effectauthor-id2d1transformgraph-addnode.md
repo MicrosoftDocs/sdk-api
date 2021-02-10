@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1TransformGraph.AddNode
+ - ID2D1TransformGraph::AddNode
 ---
 
 # ID2D1TransformGraph::AddNode
@@ -93,3 +93,4 @@ Only interfaces derived from <a href="/windows/desktop/api/d2d1effectauthor/nn-d
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
+

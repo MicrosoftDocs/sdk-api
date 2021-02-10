@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMediaStream.SendEndOfStream
+ - IMediaStream::SendEndOfStream
 ---
 
 # IMediaStream::SendEndOfStream
@@ -71,3 +71,4 @@ Applications do not call this internal method.
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
+

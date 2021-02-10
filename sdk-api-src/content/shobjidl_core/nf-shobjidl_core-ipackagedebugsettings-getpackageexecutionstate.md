@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.GetPackageExecutionState
+ - IPackageDebugSettings::GetPackageExecutionState
 ---
 
 # IPackageDebugSettings::GetPackageExecutionState
@@ -77,3 +77,4 @@ Debuggers can use the <b>GetPackageExecutionState</b> to understand if the appli
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
+

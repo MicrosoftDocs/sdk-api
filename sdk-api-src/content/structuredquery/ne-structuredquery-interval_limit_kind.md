@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
+ - tagINTERVAL_LIMIT_KIND
  - INTERVAL_LIMIT_KIND
 ---
 
@@ -71,3 +72,4 @@ This is typically used as a lower bound. The specified value is ignored because 
 ### -field ILK_POSITIVE_INFINITY
 
 This is typically used as an upper bound. The specified value is ignored because the range begins (or ends) at positive infinity. For example, an integer range that includes every value greater than or equal to 3 would have <b>ILK_EXPLICIT_INCLUDED</b> and 3 for the lower bound and <b>ILK_POSITIVE_INFINITY</b> for the upper bound.
+

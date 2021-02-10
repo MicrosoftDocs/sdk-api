@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SCardUIDlgSelectCardA
  - winscard/SCardUIDlgSelectCardA
+ - SCardUIDlgSelectCard
+ - winscard/SCardUIDlgSelectCard
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Scarddlg.dll
 api_name:
- - SCardUIDlgSelectCard
  - SCardUIDlgSelectCardA
- - SCardUIDlgSelectCardW
+ - SCardUIDlgSelectCard
 ---
 
 # SCardUIDlgSelectCardA function
@@ -172,3 +173,4 @@ else
 ## -see-also
 
 <a href="/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a>
+

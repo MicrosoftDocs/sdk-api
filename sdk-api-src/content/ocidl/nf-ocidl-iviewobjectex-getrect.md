@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IViewObjectEx.GetRect
+ - IViewObjectEx::GetRect
 ---
 
 # IViewObjectEx::GetRect
@@ -130,3 +130,4 @@ Objects should return the rectangle covering all transparent or irregular parts.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
+

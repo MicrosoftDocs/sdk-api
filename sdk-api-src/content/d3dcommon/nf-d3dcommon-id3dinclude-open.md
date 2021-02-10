@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3DInclude.Open
+ - ID3DInclude::Open
 ---
 
 # ID3DInclude::Open
@@ -105,3 +105,4 @@ The user-implemented method must return S_OK. If <b>Open</b> fails when it reads
 
 
 <a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-close">ID3DInclude::Close</a>
+

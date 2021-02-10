@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_FILTER_CAPS
  - DXVAHD_FILTER_CAPS
 ---
 
@@ -95,3 +96,4 @@ The device can perform <i>anamorphic scaling</i>. Anamorphic scaling can be used
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

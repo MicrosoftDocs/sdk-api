@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _MESSAGE_RESOURCE_BLOCK
+ - PMESSAGE_RESOURCE_BLOCK
  - MESSAGE_RESOURCE_BLOCK
 ---
 
@@ -97,3 +99,4 @@ The offset, in bytes, from the beginning of the <a href="/windows/desktop/api/wi
 
 
 <a href="/windows/desktop/menurc/resources">Resources</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - VdsLun.h
 api_name:
+ - _VDS_STORAGE_DEVICE_ID_DESCRIPTOR
  - VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 ---
 
@@ -88,3 +89,4 @@ Storage devices can have multiple identifiers, and each of these identifiers can
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
+

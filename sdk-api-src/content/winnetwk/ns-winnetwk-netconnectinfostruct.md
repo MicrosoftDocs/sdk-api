@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnetwk.h
 api_name:
+ - _NETCONNECTINFOSTRUCT
+ - LPNETCONNECTINFOSTRUCT
  - NETCONNECTINFOSTRUCT
 ---
 
@@ -140,3 +142,4 @@ The delay introduced by the network when sending information, in milliseconds. I
 ### -field dwOptDataSize
 
 A recommendation for the size of data, in bytes, that is most efficiently sent through the network when an application makes a single request to the network resource. For example, for a disk network resource, this value might be 2048 or 512 when writing a block of data.
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagRAWINPUTHEADER
+ - PRAWINPUTHEADER
  - RAWINPUTHEADER
 ---
 
@@ -111,3 +113,4 @@ To get more information on the device, use <b>hDevice</b> in a call to [GetRawIn
 <b>Reference</b>
 
 [WM_INPUT](/windows/win32/inputdev/wm-input)
+

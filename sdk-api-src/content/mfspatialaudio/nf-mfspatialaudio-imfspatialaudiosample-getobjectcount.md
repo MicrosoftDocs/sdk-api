@@ -43,7 +43,7 @@ api_location:
  - mfobjects.lib
  - mfobjects.dll
 api_name:
- - IMFSpatialAudioSample.GetObjectCount
+ - IMFSpatialAudioSample::GetObjectCount
 ---
 
 # IMFSpatialAudioSample::GetObjectCount
@@ -95,3 +95,4 @@ The supplied pointer is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpQueryCredentialsAttributes
+ - SpQueryCredentialsAttributesFn
 ---
 
 # SpQueryCredentialsAttributesFn callback function
@@ -174,3 +174,4 @@ A pointer to the <b>SpQueryCredentialsAttributes</b> function is available in th
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
+

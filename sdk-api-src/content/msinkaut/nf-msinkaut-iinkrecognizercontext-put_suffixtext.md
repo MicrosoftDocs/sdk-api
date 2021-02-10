@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.SuffixText
- - IInkRecognizerContext.get_SuffixText
- - IInkRecognizerContext.put_SuffixText
- - InkRecognizerContext.get_SuffixText
- - InkRecognizerContext.put_SuffixText
+ - IInkRecognizerContext::put_SuffixText
 ---
 
 # IInkRecognizerContext::put_SuffixText
@@ -98,3 +94,4 @@ If your application provides a correction interface when converting ink to text,
 
 
 <a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Strokes Property</a>
+

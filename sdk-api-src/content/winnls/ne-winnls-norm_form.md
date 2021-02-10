@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winnls.h
 api_name:
+ - _NORM_FORM
  - NORM_FORM
 ---
 
@@ -95,3 +96,4 @@ For more information about the normalization forms, see <a href="/windows/deskto
 
 
 <a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaEvents.OnUserNameChanged
+ - IDiskQuotaEvents::OnUserNameChanged
 ---
 
 # IDiskQuotaEvents::OnUserNameChanged
@@ -75,3 +75,4 @@ The return value is ignored.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumChangeUnitExceptions.Next
+ - IEnumChangeUnitExceptions::Next
 ---
 
 # IEnumChangeUnitExceptions::Next
@@ -118,3 +118,4 @@ If there are no more change unit exceptions to retrieve.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumchangeunitexceptions">IEnumChangeUnitExceptions Interface</a>
+

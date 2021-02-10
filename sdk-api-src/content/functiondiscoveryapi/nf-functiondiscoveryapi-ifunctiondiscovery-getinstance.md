@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionDiscovery.GetInstance
+ - IFunctionDiscovery::GetInstance
 ---
 
 # IFunctionDiscovery::GetInstance
@@ -138,3 +138,4 @@ Some function discovery providers return their query results with the <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
+

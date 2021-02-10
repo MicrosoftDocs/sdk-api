@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - NSTCSTYLE
+ - _NSTCSTYLE
 ---
 
 # _NSTCSTYLE enumeration
@@ -310,3 +310,4 @@ Three values have effect only in conjunction with NSTCS_CHECKBOXES: NSTCS_PARTIA
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-initialize">INameSpaceTreeControl::Initialize</a>
+

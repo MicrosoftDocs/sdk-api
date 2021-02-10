@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId
+ - ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId
 ---
 
 # ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId
@@ -154,3 +154,4 @@ This method is used to obtain an <b>ISyncProviderConfigUIInfo</b> directly when 
 
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
+

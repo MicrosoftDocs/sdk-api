@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
+ - _X509Certificate
+ - PX509Certificate
  - X509Certificate
 ---
 
@@ -89,3 +91,4 @@ A pointer to a string that specifies the subject of the certificate.
 ### -field pPublicKey
 
 A pointer to the <a href="/windows/desktop/SecGloss/p-gly">public key</a> used to create the signature for the certificate.
+

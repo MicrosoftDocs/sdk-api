@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_ITEM_TIME
  - OFFLINEFILES_ITEM_TIME
 ---
 
@@ -71,3 +72,4 @@ Use the item's last-write time.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">IOfflineFilesItemFilter::GetTimeFilter</a>
+

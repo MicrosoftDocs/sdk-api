@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidFeatures.Remove
+ - IMSVidFeatures::Remove
 ---
 
 # IMSVidFeatures::Remove
@@ -135,3 +135,4 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-add">IMSVidFeatures::Add</a>
+

@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11View.GetResource
+ - ID3D11View::GetResource
 ---
 
 # ID3D11View::GetResource
@@ -68,3 +68,4 @@ This function increments the reference count of the resource by one, so it is ne
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a>
+

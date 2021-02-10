@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStreamControl.CreateStream
+ - ITStreamControl::CreateStream
 ---
 
 # ITStreamControl::CreateStream
@@ -183,3 +183,4 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a>
+

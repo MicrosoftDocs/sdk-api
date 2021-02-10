@@ -9,6 +9,8 @@ tech.root: dshow
 f1_keywords:
  - errors
  - errors/errors
+api_name:
+ - errors
 ---
 
 # Errors.h header

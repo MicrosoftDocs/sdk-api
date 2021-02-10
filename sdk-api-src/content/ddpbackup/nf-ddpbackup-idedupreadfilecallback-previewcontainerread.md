@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DdpBackup.h
 api_name:
- - IDedupReadFileCallback.PreviewContainerRead
+ - IDedupReadFileCallback::PreviewContainerRead
 ---
 
 # IDedupReadFileCallback::PreviewContainerRead
@@ -81,3 +81,4 @@ This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It c
 
 
 <a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
+

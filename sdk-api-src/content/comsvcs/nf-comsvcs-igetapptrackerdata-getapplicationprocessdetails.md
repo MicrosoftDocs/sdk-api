@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IGetAppTrackerData.GetApplicationProcessDetails
+ - IGetAppTrackerData::GetApplicationProcessDetails
 ---
 
 # IGetAppTrackerData::GetApplicationProcessDetails
@@ -124,3 +124,4 @@ You may request any or all of the information available for the process by passi
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
+

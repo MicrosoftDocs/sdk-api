@@ -44,6 +44,7 @@ api_type:
 api_location:
  - waasapitypes.h
 api_name:
+ - tagOSUpdateAssessment
  - OSUpdateAssessment
 ---
 
@@ -95,3 +96,4 @@ The latest applicable OS build in the device's servicing train. This value is us
 ### -field upToDateOSReleaseTime
 
 The published timestamp of the release date for the up-to-date OS build.
+

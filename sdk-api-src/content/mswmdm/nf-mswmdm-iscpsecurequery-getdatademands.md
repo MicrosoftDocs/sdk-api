@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureQuery.GetDataDemands
+ - ISCPSecureQuery::GetDataDemands
 ---
 
 # ISCPSecureQuery::GetDataDemands
@@ -171,3 +171,4 @@ If this method does not return S_OK, then Windows Media Device Manager does not 
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
+

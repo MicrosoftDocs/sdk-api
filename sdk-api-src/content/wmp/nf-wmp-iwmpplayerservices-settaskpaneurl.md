@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayerServices.setTaskPaneURL
+ - IWMPPlayerServices::setTaskPaneURL
 ---
 
 # IWMPPlayerServices::setTaskPaneURL
@@ -126,3 +126,4 @@ This method is used only when remoting the Windows Media Player control. This me
 
 
 <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
+

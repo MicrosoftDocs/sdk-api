@@ -42,9 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsConfiguration.ServiceCenterAddress
- - IMbnSmsConfiguration.get_ServiceCenterAddress
- - IMbnSmsConfiguration.put_ServiceCenterAddress
+ - IMbnSmsConfiguration::get_ServiceCenterAddress
 ---
 
 # IMbnSmsConfiguration::get_ServiceCenterAddress
@@ -73,3 +71,4 @@ When setting <i>scAddress</i>, the calling application must use either of these 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>
+

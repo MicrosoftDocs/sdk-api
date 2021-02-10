@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVolume9.GetDevice
+ - IDirect3DVolume9::GetDevice
 ---
 
 # IDirect3DVolume9::GetDevice
@@ -76,3 +76,4 @@ Calling this method will increase the internal reference count on the <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_ISSUER_SERIAL
  - CRYPT_XML_ISSUER_SERIAL
 ---
 
@@ -63,3 +64,4 @@ A pointer to a null-terminated wide character string that contains the issuer of
 ### -field wszSerial
 
 A pointer to a null-terminated wide character string that contains the serial number of the certificate.
+

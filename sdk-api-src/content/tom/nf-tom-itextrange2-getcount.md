@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.GetCount
+ - ITextRange2::GetCount
 ---
 
 # ITextRange2::GetCount
@@ -75,3 +75,4 @@ See <a href="/windows/desktop/api/tom/nf-tom-itextrange2-addsubrange">ITextRange
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+

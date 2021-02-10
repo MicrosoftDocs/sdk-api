@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _DOT11_NETWORK
+ - PDOT11_NETWORK
  - DOT11_NETWORK
 ---
 
@@ -69,3 +71,4 @@ A <a href="/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> value 
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network_list">DOT11_NETWORK_LIST</a>
+

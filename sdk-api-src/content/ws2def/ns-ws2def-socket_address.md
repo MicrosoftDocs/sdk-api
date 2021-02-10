@@ -47,6 +47,8 @@ api_location:
  - Ws2def.h
  - Winsock2.h
 api_name:
+ - _SOCKET_ADDRESS
+ - PSOCKET_ADDRESS
  - SOCKET_ADDRESS
 ---
 
@@ -93,3 +95,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a>
+

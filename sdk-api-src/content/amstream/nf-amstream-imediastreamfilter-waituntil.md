@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IMediaStreamFilter.WaitUntil
+ - IMediaStreamFilter::WaitUntil
 ---
 
 # IMediaStreamFilter::WaitUntil
@@ -111,3 +111,4 @@ If the graph does not have a reference clock, the method returns E_FAIL.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.ReleaseHDC
+ - Graphics::ReleaseHDC
 ---
 
 # Graphics::ReleaseHDC
@@ -76,3 +76,4 @@ Handle to a device context obtained by a previous call to the <a href="/windows/
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethdc">Graphics::GetHDC</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Audioenginebaseapo.idl
  - Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject.GetInputChannelCount
+ - IAudioProcessingObject::GetInputChannelCount
 ---
 
 # IAudioProcessingObject::GetInputChannelCount
@@ -70,3 +70,4 @@ The input channel count that is returned refers to the input side of the APO.
 ## -see-also
 
 <a href="/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent
+ - IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent
 ---
 
 # IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent
@@ -79,3 +79,4 @@ Instead of calling <a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVMR9.SetAllocator
+ - IMSVidVMR9::SetAllocator
 ---
 
 # IMSVidVMR9::SetAllocator
@@ -92,3 +92,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_REQUEST_HEADERS
+ - PHTTP_REQUEST_HEADERS
  - HTTP_REQUEST_HEADERS
 ---
 
@@ -97,3 +99,4 @@ Fixed-size array of
 
 
 <a href="/windows/desktop/api/http/ns-http-http_unknown_header">HTTP_UNKNOWN_HEADER</a>
+

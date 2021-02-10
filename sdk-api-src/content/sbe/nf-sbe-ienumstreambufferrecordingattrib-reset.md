@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IEnumStreamBufferRecordingAttrib.Reset
+ - IEnumStreamBufferRecordingAttrib::Reset
 ---
 
 # IEnumStreamBufferRecordingAttrib::Reset
@@ -61,3 +61,4 @@ Returns an <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib Interface</a>
+

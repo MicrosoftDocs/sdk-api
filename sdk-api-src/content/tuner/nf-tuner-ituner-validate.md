@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner.Validate
+ - ITuner::Validate
 ---
 
 # ITuner::Validate
@@ -73,3 +73,4 @@ The Network Provider will first query for its preferred tune request interface(s
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
+

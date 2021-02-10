@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource.FindProxyForURL
+ - IWMSInternalAdminNetSource::FindProxyForURL
 ---
 
 # IWMSInternalAdminNetSource::FindProxyForURL
@@ -123,3 +123,4 @@ When you have finished making calls to <b>FindProxyForURL</b>, you must call <a 
 ## -see-also
 
 <a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
+

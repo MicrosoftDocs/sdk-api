@@ -42,7 +42,7 @@ api_type:
 api_location:
  - prnasnot.dll
 api_name:
- - IPrintAsyncNotifyChannel.SendNotification
+ - IPrintAsyncNotifyChannel::SendNotification
 ---
 
 # IPrintAsyncNotifyChannel::SendNotification
@@ -197,3 +197,4 @@ A listener receiving an initial notification on a bidirectional channel might no
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
+

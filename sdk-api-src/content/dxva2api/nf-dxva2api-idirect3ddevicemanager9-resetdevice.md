@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.ResetDevice
+ - IDirect3DDeviceManager9::ResetDevice
 ---
 
 # IDirect3DDeviceManager9::ResetDevice
@@ -123,3 +123,4 @@ If this method succeeds, all open device handles become invalid.
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>
+

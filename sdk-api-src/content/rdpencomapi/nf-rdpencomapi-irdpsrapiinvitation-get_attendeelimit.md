@@ -42,10 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation.AttendeeLimit
- - IRDPSRAPIInvitation.get_AttendeeLimit
- - IRDPSRAPIInvitation.put_AttendeeLimit
- - RDPSRAPIInvitation.AttendeeLimit
+ - IRDPSRAPIInvitation::get_AttendeeLimit
 ---
 
 # IRDPSRAPIInvitation::get_AttendeeLimit
@@ -66,3 +63,4 @@ The password is set when the invitation is created and can be modified using <b>
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
+

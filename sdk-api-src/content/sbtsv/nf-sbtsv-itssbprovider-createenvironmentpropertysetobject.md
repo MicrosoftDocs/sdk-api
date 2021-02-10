@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbProvider.CreateEnvironmentPropertySetObject
+ - ITsSbProvider::CreateEnvironmentPropertySetObject
 ---
 
 # ITsSbProvider::CreateEnvironmentPropertySetObject
@@ -73,3 +73,4 @@ Plug-ins can use this method to create an environment property set object.
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>
+

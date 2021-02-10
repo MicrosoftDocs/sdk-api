@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IStemmerConfig.SetLocaleInfo
+ - IStemmerConfig::SetLocaleInfo
 ---
 
 # IStemmerConfig::SetLocaleInfo
@@ -102,3 +102,4 @@ Locale described by the parameters is not supported.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-istemmerconfig">IStemmerConfig</a>
+

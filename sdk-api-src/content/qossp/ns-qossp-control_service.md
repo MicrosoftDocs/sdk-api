@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
+ - _CONTROL_SERVICE
+ - LPCONTROL_SERVICE
  - CONTROL_SERVICE
 ---
 
@@ -196,3 +198,4 @@ The <b>Length</b> value can be added to the pointer to the structure to obtain t
 
 
 <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>
+

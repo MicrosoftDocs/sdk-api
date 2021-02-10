@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.SetCallback
+ - IWMPContentPartner::SetCallback
 ---
 
 # IWMPContentPartner::SetCallback
@@ -89,3 +89,4 @@ Windows Media Player calls this function when instantiating the plug-in to provi
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage.ReadPropertyNames
+ - IPropertyStorage::ReadPropertyNames
 ---
 
 # IPropertyStorage::ReadPropertyNames
@@ -91,3 +91,4 @@ String names mapped to property IDs must be unique within the set.
 
 
 <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">IPropertyStorage::WritePropertyNames</a>
+

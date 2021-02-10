@@ -44,6 +44,7 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE
  - MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE
 ---
 
@@ -95,3 +96,4 @@ The information represented by each of these values can vary by operating system
 ## -see-also
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_object_information">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
+

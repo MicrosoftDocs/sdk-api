@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterIdentifyAll
+ - PIBIO_ENGINE_IDENTIFY_ALL_FN
 ---
 
 # PIBIO_ENGINE_IDENTIFY_ALL_FN callback function
@@ -101,3 +101,4 @@ The engine adapter is responsible for allocating the array of <a href="/windows/
 
 
 The values of the individual <a href="/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> items in the <i>PresenceArray</i> will determine the events generated for client applications. See the discussion of the <b>WINBIO_PRESENCE</b> structure for details.
+

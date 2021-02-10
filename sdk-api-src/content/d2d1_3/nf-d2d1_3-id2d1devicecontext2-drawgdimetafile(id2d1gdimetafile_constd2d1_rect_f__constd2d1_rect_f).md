@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext2.DrawGdiMetafile
+ - ID2D1DeviceContext2::DrawGdiMetafile
 ---
 
 # ID2D1DeviceContext2::DrawGdiMetafile(ID2D1GdiMetafile,const D2D1_RECT_F &,const D2D1_RECT_F)
@@ -81,3 +81,4 @@ The rectangle of the source metafile that will be drawn, relative to the upper l
 
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
+

@@ -47,8 +47,6 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
  - GetPrivateProfileSection
- - GetPrivateProfileSectionA
- - GetPrivateProfileSectionW
 ---
 
 # GetPrivateProfileSection function
@@ -134,3 +132,4 @@ Comments (any line that starts with a semicolon) are stripped out and not return
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>
+

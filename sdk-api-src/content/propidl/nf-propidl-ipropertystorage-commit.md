@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage.Commit
+ - IPropertyStorage::Commit
 ---
 
 # IPropertyStorage::Commit
@@ -136,3 +136,4 @@ omit the call to <b>IPropertyStorage::Commit</b>. Calling IUnknown::Release on t
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>
+

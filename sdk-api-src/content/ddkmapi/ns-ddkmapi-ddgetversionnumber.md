@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDGETVERSIONNUMBER
+ - LPDDGETVERSIONNUMBER
  - DDGETVERSIONNUMBER
 ---
 
@@ -77,3 +79,4 @@ Specifies the minor version number (DXAPI_MINORVERSION defined in <i>ddkmapi.h</
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

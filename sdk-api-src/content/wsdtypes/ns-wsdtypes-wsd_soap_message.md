@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_SOAP_MESSAGE
  - WSD_SOAP_MESSAGE
 ---
 
@@ -71,3 +72,4 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_type"
 ## -see-also
 
 <a href="/windows/desktop/WsdApi/discovery-and-metadata-exchange-message-patterns">Discovery and Metadata Exchange Messages</a>
+

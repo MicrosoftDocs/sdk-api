@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit
+ - IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit
 ---
 
 # IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit
@@ -74,3 +74,4 @@ Get and set the message count limit with <a href="/windows/desktop/api/dxgidebug
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
+

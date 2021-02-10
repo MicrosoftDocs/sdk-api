@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule.Protocol
- - INetFwRule.get_Protocol
- - INetFwRule.put_Protocol
+ - INetFwRule::get_Protocol
 ---
 
 # INetFwRule::get_Protocol
@@ -71,3 +69,4 @@ A list of protocol numbers is available at the  <a href="https://www.iana.org/as
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
+

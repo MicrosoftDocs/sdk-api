@@ -42,9 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription.SubscriptionName
- - IEventSubscription.get_SubscriptionName
- - IEventSubscription.put_SubscriptionName
+ - IEventSubscription::get_SubscriptionName
 ---
 
 # IEventSubscription::get_SubscriptionName
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+

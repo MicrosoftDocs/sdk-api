@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_DEVICE_INTERFACE_DATA
+ - PSP_DEVICE_INTERFACE_DATA
  - SP_DEVICE_INTERFACE_DATA
 ---
 
@@ -121,3 +123,4 @@ A SetupAPI function that takes an instance of the SP_DEVICE_INTERFACE_DATA struc
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacedefault">SetupDiSetDeviceInterfaceDefault</a>
+

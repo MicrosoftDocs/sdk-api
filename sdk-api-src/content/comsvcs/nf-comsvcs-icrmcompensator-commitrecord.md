@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmCompensator.CommitRecord
+ - ICrmCompensator::CommitRecord
 ---
 
 # ICrmCompensator::CommitRecord
@@ -75,3 +75,4 @@ The CRM Compensator can choose to forget the record that was delivered to it dur
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>
+

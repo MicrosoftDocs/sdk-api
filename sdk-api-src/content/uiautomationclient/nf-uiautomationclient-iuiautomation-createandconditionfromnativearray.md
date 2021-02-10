@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateAndConditionFromNativeArray
+ - IUIAutomation::CreateAndConditionFromNativeArray
 ---
 
 # IUIAutomation::CreateAndConditionFromNativeArray
@@ -117,3 +117,4 @@ This method calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref
 
 
 <b>Reference</b>
+

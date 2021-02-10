@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509Enrollment2.InitializeFromTemplate
+ - IX509Enrollment2::InitializeFromTemplate
 ---
 
 # IX509Enrollment2::InitializeFromTemplate
@@ -168,3 +168,4 @@ The <b>InitializeFromTemplate</b> method:
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.LockDevice
+ - IDirect3DDeviceManager9::LockDevice
 ---
 
 # IDirect3DDeviceManager9::LockDevice
@@ -205,3 +205,4 @@ HRESULT LockDevice(
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
+ - _MFT_OUTPUT_DATA_BUFFER
+ - PMFT_OUTPUT_DATA_BUFFER
  - MFT_OUTPUT_DATA_BUFFER
 ---
 
@@ -147,3 +149,4 @@ Each call to <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransfo
 
 
 <a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+

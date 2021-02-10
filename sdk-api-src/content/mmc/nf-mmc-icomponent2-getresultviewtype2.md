@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent2.GetResultViewType2
+ - IComponent2::GetResultViewType2
 ---
 
 # IComponent2::GetResultViewType2
@@ -92,3 +92,4 @@ If the snap-in is implementing an OCX (ActiveX control) view, then the snap-in c
 
 
 <a href="/previous-versions/windows/desktop/mmc/restoring-result-views">Restoring Result Views</a>
+

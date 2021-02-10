@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2.GetPositionSubSuper
+ - ITextFont2::GetPositionSubSuper
 ---
 
 # ITextFont2::GetPositionSubSuper
@@ -79,3 +79,4 @@ Subscripts and superscripts in math zones are handled using the <a href="/window
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-setpositionsubsuper">ITextFont2::SetPositionSubSuper</a>
+

@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.BeginEnumeration
+ - IWbemClassObject::BeginEnumeration
 ---
 
 # IWbemClassObject::BeginEnumeration
@@ -99,3 +99,4 @@ GROUP 2
 
 
 <a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
+ - WINTRUST_BLOB_INFO_
+ - PWINTRUST_BLOB_INFO
  - WINTRUST_BLOB_INFO
 ---
 
@@ -93,3 +95,4 @@ This member is reserved. Do not use it.
 ### -field pbMemSignedMsg
 
 This member is reserved. Do not use it.
+

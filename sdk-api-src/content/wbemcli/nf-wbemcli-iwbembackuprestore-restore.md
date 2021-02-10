@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemBackupRestore.Restore
+ - IWbemBackupRestore::Restore
 ---
 
 # IWbemBackupRestore::Restore
@@ -98,3 +98,4 @@ pInt->Restore(
         WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN
       );
 ```
+

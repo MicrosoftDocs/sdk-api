@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsMgmtEntryInqIfIdsA
  - rpcnsi/RpcNsMgmtEntryInqIfIdsA
+ - RpcNsMgmtEntryInqIfIds
+ - rpcnsi/RpcNsMgmtEntryInqIfIds
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsMgmtEntryInqIfIds
  - RpcNsMgmtEntryInqIfIdsA
- - RpcNsMgmtEntryInqIfIdsW
+ - RpcNsMgmtEntryInqIfIds
 ---
 
 # RpcNsMgmtEntryInqIfIdsA function
@@ -179,3 +180,4 @@ The
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
+ - tagDBRELEVANTDOCUMENT
  - DBRELEVANTDOCUMENT
 ---
 
@@ -62,3 +63,4 @@ The <b>DBRELEVANTDOCUMENT</b> structure is reserved for future use.
 ### -field lWeight
 
 ### -field vDocument
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaControl.CreateEnumUsers
+ - IDiskQuotaControl::CreateEnumUsers
 ---
 
 # IDiskQuotaControl::CreateEnumUsers
@@ -204,3 +204,4 @@ An unexpected exception occurred.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
+

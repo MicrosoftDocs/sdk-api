@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509CertificateRequestPkcs10V3.ChallengePassword
- - IX509CertificateRequestPkcs10V3.get_ChallengePassword
- - IX509CertificateRequestPkcs10V3.put_ChallengePassword
+ - IX509CertificateRequestPkcs10V3::get_ChallengePassword
 ---
 
 # IX509CertificateRequestPkcs10V3::get_ChallengePassword
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>
+

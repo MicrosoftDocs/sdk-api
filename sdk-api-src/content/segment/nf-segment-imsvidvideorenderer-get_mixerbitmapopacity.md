@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer.get_MixerBitmapOpacity
+ - IMSVidVideoRenderer::get_MixerBitmapOpacity
 ---
 
 # IMSVidVideoRenderer::get_MixerBitmapOpacity
@@ -77,3 +77,4 @@ If the static bitmap image is set, the VMR alpha-blends the bitmap onto the vide
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmapopacity">IMSVidVideoRenderer::put_MixerBitmapOpacity</a>
+

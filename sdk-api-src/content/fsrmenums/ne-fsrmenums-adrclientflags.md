@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _AdrClientFlags
  - AdrClientFlags
 ---
 
@@ -76,3 +77,4 @@ ADR client operations should fail if the computer is not joined to a domain.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
+

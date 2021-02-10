@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPStringCollection.item
+ - IWMPStringCollection::item
 ---
 
 # IWMPStringCollection::item
@@ -105,3 +105,4 @@ To use this method, read access to the library is required. For more information
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>
+

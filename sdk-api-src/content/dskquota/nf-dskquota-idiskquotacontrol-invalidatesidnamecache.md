@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaControl.InvalidateSidNameCache
+ - IDiskQuotaControl::InvalidateSidNameCache
 ---
 
 # IDiskQuotaControl::InvalidateSidNameCache
@@ -137,3 +137,4 @@ In general, there is no reason to call this method. It is included to provide a 
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
+

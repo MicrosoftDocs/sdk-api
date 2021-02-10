@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.LineNumber
- - IInkRecognitionAlternate.get_LineNumber
- - IInkRecognitionAlternate.get_LineNumber
+ - IInkRecognitionAlternate::get_LineNumber
 ---
 
 # IInkRecognitionAlternate::get_LineNumber
@@ -75,3 +73,4 @@ Line numbers begin with 1.
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+

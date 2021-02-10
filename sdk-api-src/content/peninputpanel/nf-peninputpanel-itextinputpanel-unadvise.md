@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.Unadvise
+ - ITextInputPanel::Unadvise
 ---
 
 # ITextInputPanel::Unadvise
@@ -103,3 +103,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise">ITextInputPanel::Advise Method</a>
+

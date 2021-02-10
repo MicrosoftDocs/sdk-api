@@ -44,6 +44,7 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
+ - FWPS_FILTER_CONDITION0_
  - FWPS_FILTER_CONDITION0
 ---
 
@@ -99,3 +100,4 @@ The
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff552437(v=vs.85)">FWP_MATCH_TYPE</a>
+

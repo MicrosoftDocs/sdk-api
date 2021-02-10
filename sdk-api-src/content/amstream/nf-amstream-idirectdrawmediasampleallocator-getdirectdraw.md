@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawMediaSampleAllocator.GetDirectDraw
+ - IDirectDrawMediaSampleAllocator::GetDirectDraw
 ---
 
 # IDirectDrawMediaSampleAllocator::GetDirectDraw
@@ -74,3 +74,4 @@ The caller should release the returned <b>IDirectDraw</b> pointer, except when c
 
 
 <a href="/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator">IDirectDrawMediaSampleAllocator Interface</a>
+

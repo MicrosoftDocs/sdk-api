@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_LOGGING_INFO
+ - PHTTP_LOGGING_INFO
  - HTTP_LOGGING_INFO
 ---
 
@@ -433,3 +435,4 @@ For information on the log file formats, see the <a href="/previous-versions/iis
 
 
 <a href="/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
+

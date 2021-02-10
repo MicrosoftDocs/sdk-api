@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateHardLinkA
  - winbase/CreateHardLinkA
+ - CreateHardLink
+ - winbase/CreateHardLink
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-Core-File-l2-1-2.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - CreateHardLink
  - CreateHardLinkA
- - CreateHardLinkW
+ - CreateHardLink
 ---
 
 # CreateHardLinkA function
@@ -257,3 +258,4 @@ The following code snippet shows you how to call
 
 
 <a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+

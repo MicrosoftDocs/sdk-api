@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.put_InputActive
+ - IMSVidCtl::put_InputActive
 ---
 
 # IMSVidCtl::put_InputActive
@@ -77,3 +77,4 @@ If the Video Control's state is not <b>STATE_UNBUILT</b>, call the <a href="/pre
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_state">IMSVidCtl::get_State</a>
+

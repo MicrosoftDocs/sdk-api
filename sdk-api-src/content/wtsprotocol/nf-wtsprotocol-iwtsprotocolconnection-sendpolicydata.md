@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.SendPolicyData
+ - IWTSProtocolConnection::SendPolicyData
 ---
 
 # IWTSProtocolConnection::SendPolicyData
@@ -67,3 +67,4 @@ The <b>SendPolicyData</b> method is the second method called by the Remote Deskt
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

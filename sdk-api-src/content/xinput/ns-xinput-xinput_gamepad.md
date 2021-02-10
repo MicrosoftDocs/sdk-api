@@ -46,6 +46,8 @@ api_type:
 api_location:
  - XInput.h
 api_name:
+ - _XINPUT_GAMEPAD
+ - PXINPUT_GAMEPAD
  - XINPUT_GAMEPAD
 ---
 
@@ -176,3 +178,4 @@ The constant XINPUT_GAMEPAD_TRIGGER_THRESHOLD may be used as the value which <i>
 
 
 <a href="/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetfState</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IGestureRecognizer.EnableGestures
+ - IGestureRecognizer::EnableGestures
 ---
 
 # IGestureRecognizer::EnableGestures
@@ -85,3 +85,4 @@ You cannot enable <b>AllGestures</b> in conjunction with any other gestures.
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-get_enabled">IGestureRecognizer::Enabled Property</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMNameCollection.GetAt
+ - IXpsOMNameCollection::GetAt
 ---
 
 # IXpsOMNameCollection::GetAt
@@ -83,3 +83,4 @@ This method allocates the memory used by the string that is returned in <i>name<
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

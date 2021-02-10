@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
+ - _WLX_CONSOLESWITCH_CREDENTIALS_INFO
+ - PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
  - WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
 ---
 
@@ -191,3 +193,4 @@ Length in bytes of any GINA-specific data. Set to zero if there is no GINA speci
 ### -field PrivateData
 
 Buffer containing any GINA-specific data.
+

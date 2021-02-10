@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicAudio.get_Balance
+ - IBasicAudio::get_Balance
 ---
 
 # IBasicAudio::get_Balance
@@ -114,3 +114,4 @@ The balance ranges from -10,000 to 10,000. The value -10,000 means the right cha
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>
+

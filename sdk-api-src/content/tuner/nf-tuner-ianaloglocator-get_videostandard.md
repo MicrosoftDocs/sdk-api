@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IAnalogLocator.get_VideoStandard
+ - IAnalogLocator::get_VideoStandard
 ---
 
 # IAnalogLocator::get_VideoStandard
@@ -69,3 +69,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianaloglocator-put_videostandard">put_VideoStandard</a>
+

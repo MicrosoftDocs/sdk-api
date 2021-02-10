@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportJob.MailTo
- - IFsrmReportJob.get_MailTo
- - IFsrmReportJob.put_MailTo
+ - IFsrmReportJob::put_MailTo
 ---
 
 # IFsrmReportJob::put_MailTo
@@ -71,3 +69,4 @@ The email message is sent only if the job finishes successfully. Email is not se
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - PowrProf.h
 api_name:
+ - _THERMAL_EVENT
+ - PTHERMAL_EVENT
  - THERMAL_EVENT
 ---
 
@@ -89,3 +91,4 @@ A pointer to a NULL-terminated, wide-character string that identifies the sensor
 ## -see-also
 
 <a href="/previous-versions/dn915117(v=vs.85)">Thermal management in Windows</a>
+

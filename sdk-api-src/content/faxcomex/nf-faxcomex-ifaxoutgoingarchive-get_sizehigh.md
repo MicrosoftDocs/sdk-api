@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive.SizeHigh
- - IFaxOutgoingArchive.get_SizeHigh
- - IFaxOutgoingArchive.get_SizeHigh
+ - IFaxOutgoingArchive::get_SizeHigh
 ---
 
 # IFaxOutgoingArchive::get_SizeHigh
@@ -77,3 +75,4 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-outgoing-archive">Visual Basic Example</a>
+

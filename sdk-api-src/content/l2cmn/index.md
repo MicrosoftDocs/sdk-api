@@ -9,6 +9,8 @@ tech.root: netvista
 f1_keywords:
  - l2cmn
  - l2cmn/l2cmn
+api_name:
+ - l2cmn
 ---
 
 # L2Cmn.h header

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMF2DBuffer.GetScanline0AndPitch
+ - IMF2DBuffer::GetScanline0AndPitch
 ---
 
 # IMF2DBuffer::GetScanline0AndPitch
@@ -111,3 +111,4 @@ Before calling this method, you must lock the buffer by calling <a href="/window
 
 
 <a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
+

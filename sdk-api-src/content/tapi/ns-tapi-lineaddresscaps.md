@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - lineaddresscaps_tag
+ - LPLINEADDRESSCAPS
  - LINEADDRESSCAPS
 ---
 
@@ -418,3 +420,4 @@ The members <b>dwPredictiveAutoTransferStates</b> through <b>dwAvailableMediaMod
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetcalltreatment">lineSetCallTreatment</a>
+

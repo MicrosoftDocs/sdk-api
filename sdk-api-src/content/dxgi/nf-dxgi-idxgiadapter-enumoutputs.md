@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIAdapter.EnumOutputs
+ - IDXGIAdapter::EnumOutputs
 ---
 
 # IDXGIAdapter::EnumOutputs
@@ -116,3 +116,4 @@ while(pAdapter->EnumOutputs(i, &pOutput) != DXGI_ERROR_NOT_FOUND)
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a>
+

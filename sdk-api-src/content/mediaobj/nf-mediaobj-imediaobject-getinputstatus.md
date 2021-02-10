@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject.GetInputStatus
+ - IMediaObject::GetInputStatus
 ---
 
 # IMediaObject::GetInputStatus
@@ -138,3 +138,4 @@ The status of an input stream can change only as the result of one of the follow
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
+

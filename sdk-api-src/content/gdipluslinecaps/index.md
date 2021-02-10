@@ -9,6 +9,8 @@ tech.root: gdiplus
 f1_keywords:
  - gdipluslinecaps
  - gdipluslinecaps/gdipluslinecaps
+api_name:
+ - gdipluslinecaps
 ---
 
 # Gdipluslinecaps.h header

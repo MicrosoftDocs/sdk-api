@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_POLICY_DATA
+ - PWTS_POLICY_DATA
  - WTS_POLICY_DATA
 ---
 
@@ -140,3 +142,4 @@ This structure is used by the following methods:
 <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getuserdata">GetUserData</a>
 </li>
 </ul>
+

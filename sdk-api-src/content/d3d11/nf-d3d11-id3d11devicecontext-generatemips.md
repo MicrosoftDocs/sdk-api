@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.GenerateMips
+ - ID3D11DeviceContext::GenerateMips
 ---
 
 # ID3D11DeviceContext::GenerateMips
@@ -142,3 +142,4 @@ For all other unsupported formats, <b>GenerateMips</b> will silently fail.
 
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

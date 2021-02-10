@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMMessageParser.ParseRegistrationReqMsg
+ - IWMDRMMessageParser::ParseRegistrationReqMsg
 ---
 
 # IWMDRMMessageParser::ParseRegistrationReqMsg
@@ -117,3 +117,4 @@ After parsing the message with this method, you can search the device database t
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmmessageparser">IWMDRMMessageParser Interface</a>
+

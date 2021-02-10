@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig.SetBufferWindow
+ - IWMStreamConfig::SetBufferWindow
 ---
 
 # IWMStreamConfig::SetBufferWindow
@@ -84,3 +84,4 @@ The new value will not take effect in the profile until you call <a href="/windo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getbufferwindow">IWMStreamConfig::GetBufferWindow</a>
+

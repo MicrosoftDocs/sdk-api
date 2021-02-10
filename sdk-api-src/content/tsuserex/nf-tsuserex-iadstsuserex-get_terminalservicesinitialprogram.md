@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx.TerminalServicesInitialProgram
- - IADsTSUserEx.get_TerminalServicesInitialProgram
- - IADsTSUserEx.put_TerminalServicesInitialProgram
+ - IADsTSUserEx::get_TerminalServicesInitialProgram
 ---
 
 # IADsTSUserEx::get_TerminalServicesInitialProgram
@@ -85,3 +83,4 @@ Wscript.echo usr.TerminalServicesWorkDirectory
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
+

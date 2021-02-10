@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ws2def.h
 api_name:
+ - _SOCKET_ADDRESS_LIST
+ - PSOCKET_ADDRESS_LIST
  - SOCKET_ADDRESS_LIST
 ---
 
@@ -121,3 +123,4 @@ For more information about querying the current list of local transport addresse
 
 
 <a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
+

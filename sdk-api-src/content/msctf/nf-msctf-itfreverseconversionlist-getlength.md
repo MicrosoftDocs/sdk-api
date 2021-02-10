@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfReverseConversionList.GetLength
+ - ITfReverseConversionList::GetLength
 ---
 
 # ITfReverseConversionList::GetLength
@@ -67,3 +67,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversionlist">ITfReverseConversionList</a>
+

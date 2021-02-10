@@ -9,6 +9,8 @@ tech.root: p2p
 f1_keywords:
  - pnrpdef
  - pnrpdef/pnrpdef
+api_name:
+ - pnrpdef
 ---
 
 # Pnrpdef.h header

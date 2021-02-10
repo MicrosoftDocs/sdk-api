@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.CreateNewFrame
+ - IWICBitmapEncoder::CreateNewFrame
 ---
 
 # IWICBitmapEncoder::CreateNewFrame
@@ -95,3 +95,4 @@ For formats that support encoding multiple frames (for example, TIFF, JPEG-XR), 
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder">IWICBitmapEncoder</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DDCOMPBUFFERINFO
+ - LPDDCOMPBUFFERINFO
  - DDCOMPBUFFERINFO
 ---
 
@@ -89,3 +91,4 @@ Points to a <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_d
 ## -remarks
 
 This structure passes this information to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompcompbuffdata">DD_GETMOCOMPCOMPBUFFDATA</a> structure.
+

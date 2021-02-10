@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_TICKET_UNLOCK_LOGON
+ - PKERB_TICKET_UNLOCK_LOGON
  - KERB_TICKET_UNLOCK_LOGON
 ---
 
@@ -69,3 +71,4 @@ It is used by
 
 <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the logon identifier of the current <a href="/windows/desktop/SecGloss/l-gly">logon session</a>. This ID was previously returned from the initial logon by 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
+

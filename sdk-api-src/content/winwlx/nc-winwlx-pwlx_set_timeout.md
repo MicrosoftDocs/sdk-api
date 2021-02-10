@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxSetTimeout
+ - PWLX_SET_TIMEOUT
 ---
 
 # PWLX_SET_TIMEOUT callback function
@@ -102,3 +102,4 @@ The new time-out was not accepted.
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+

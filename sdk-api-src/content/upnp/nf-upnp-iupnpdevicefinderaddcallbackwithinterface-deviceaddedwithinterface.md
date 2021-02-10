@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface
+ - IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
 ---
 
 # IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
@@ -82,3 +82,4 @@ The UPnP framework will query to see if the <a href="/windows/desktop/api/upnp/n
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a>
+

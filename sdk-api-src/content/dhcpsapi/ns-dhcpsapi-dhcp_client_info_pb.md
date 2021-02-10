@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_INFO_PB
+ - LPDHCP_CLIENT_INFO_PB
  - DHCP_CLIENT_INFO_PB
 ---
 
@@ -311,3 +313,4 @@ Pointer to a null-terminated Unicode string that represents the DHCP server poli
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getclientinfo">DhcpV4GetClientInfo</a>
+

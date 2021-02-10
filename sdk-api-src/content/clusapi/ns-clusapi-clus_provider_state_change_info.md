@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUS_PROVIDER_STATE_CHANGE_INFO
+ - PCLUS_PROVIDER_STATE_CHANGE_INFO
  - CLUS_PROVIDER_STATE_CHANGE_INFO
 ---
 
@@ -117,3 +119,4 @@ The globally unique ID of the provider resource. This value can also be passed t
 
 
 <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_SETCOLORKEYDATA
+ - PDD_SETCOLORKEYDATA
  - DD_SETCOLORKEYDATA
 ---
 
@@ -142,3 +144,4 @@ This is not used on Microsoft Windows 2000 and later.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setcolorkey">DdSetColorKey</a>
+

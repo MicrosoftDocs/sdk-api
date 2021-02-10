@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
  - DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
 ---
 
@@ -97,3 +98,4 @@ If the <b>Enable</b> member is <b>FALSE</b>, the device ignores the values of <b
 
 
 <a href="/windows/desktop/medfound/picture-aspect-ratio">Picture Aspect Ratio</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - austream.h
 api_name:
- - IMemoryData.GetInfo
+ - IMemoryData::GetInfo
 ---
 
 # IMemoryData::GetInfo
@@ -79,3 +79,4 @@ This method determines how much data the object currently contains as last set b
 ## -see-also
 
 <a href="/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>
+

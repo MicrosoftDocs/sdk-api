@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFMuxStreamMediaTypeManager.GetMediaType
+ - IMFMuxStreamMediaTypeManager::GetMediaType
 ---
 
 # IMFMuxStreamMediaTypeManager::GetMediaType
@@ -126,3 +126,4 @@ The media type of the specified substream is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
+

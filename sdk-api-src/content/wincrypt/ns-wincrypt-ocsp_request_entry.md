@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _OCSP_REQUEST_ENTRY
+ - POCSP_REQUEST_ENTRY
  - OCSP_REQUEST_ENTRY
 ---
 
@@ -85,3 +87,4 @@ An array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_
 
 
 <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>
+

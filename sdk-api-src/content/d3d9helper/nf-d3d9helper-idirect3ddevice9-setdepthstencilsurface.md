@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetDepthStencilSurface
+ - IDirect3DDevice9::SetDepthStencilSurface
 ---
 
 # IDirect3DDevice9::SetDepthStencilSurface
@@ -88,3 +88,4 @@ Cube textures differ from other surfaces in that they are collections of surface
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdepthstencilsurface">IDirect3DDevice9::GetDepthStencilSurface</a>
+

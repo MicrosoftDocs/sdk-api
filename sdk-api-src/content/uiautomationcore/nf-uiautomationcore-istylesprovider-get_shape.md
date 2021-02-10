@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IStylesProvider.Shape
- - IStylesProvider.get_Shape
+ - IStylesProvider::get_Shape
 ---
 
 # IStylesProvider::get_Shape
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-istylesprovider">IStylesProvider</a>
+

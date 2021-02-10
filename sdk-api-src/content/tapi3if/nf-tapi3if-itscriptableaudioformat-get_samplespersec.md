@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.get_SamplesPerSec
+ - ITScriptableAudioFormat::get_SamplesPerSec
 ---
 
 # ITScriptableAudioFormat::get_SamplesPerSec
@@ -101,3 +101,4 @@ The <i>pVal</i> argument is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_samplespersec">put_SamplesPerSec</a>
+

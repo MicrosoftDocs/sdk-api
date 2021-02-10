@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineConfigDialogEdit
- - lineConfigDialogEditA
- - lineConfigDialogEditW
 ---
 
 # lineConfigDialogEdit function
@@ -148,3 +146,4 @@ The difference between this function and
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a>
+

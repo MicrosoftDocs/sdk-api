@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_READER_BUFFER_INPUT
  - WS_XML_READER_BUFFER_INPUT
 ---
 
@@ -67,3 +68,4 @@ A pointer to the bytes of data that comprise the encoded form of the xml.  The r
 ### -field encodedDataSize
 
 The length of the encodedData.
+

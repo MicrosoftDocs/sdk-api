@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAudioStreamVolume.GetAllVolumes
+ - IMFAudioStreamVolume::GetAllVolumes
 ---
 
 # IMFAudioStreamVolume::GetAllVolumes
@@ -92,3 +92,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage.Id
- - IFaxIncomingMessage.get_Id
- - IFaxIncomingMessage.get_Id
+ - IFaxIncomingMessage::get_Id
 ---
 
 # IFaxIncomingMessage::get_Id
@@ -73,3 +71,4 @@ Note that this is the same value that identified the associated fax job when the
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-archive">Visual Basic Example</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetNamedWhitePoint
+ - IWICDevelopRaw::SetNamedWhitePoint
 ---
 
 # IWICDevelopRaw::SetNamedWhitePoint
@@ -75,3 +75,4 @@ If the named white points are not supported by the raw image, a best effort shou
 If the raw file containes named white points not supported by this API, the codec implementer should support the named white points in the API.
 
 Due to other white point setting methods (e.g. <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setwhitepointkelvin">SetWhitePointKelvin</a>), care must be taken by codec implementers to ensure proper interoperability. For instance, if the caller sets via a named white point then the codec implementer may whis to disable reading back the correspoinding Kelvin temperature. In specific cases where the codec implementer wishes to deny a given action because of previous calls, <b>WINCODEC_ERR_WRONGSTATE</b> should be returned.
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.GetSyncTolerance
+ - IWMWriterAdvanced::GetSyncTolerance
 ---
 
 # IWMWriterAdvanced::GetSyncTolerance
@@ -105,3 +105,4 @@ The default tolerance is 3000 milliseconds.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance">IWMWriterAdvanced::SetSyncTolerance</a>
+

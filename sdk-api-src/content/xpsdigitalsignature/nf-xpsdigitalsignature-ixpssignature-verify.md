@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignature.Verify
+ - IXpsSignature::Verify
 ---
 
 # IXpsSignature::Verify
@@ -148,3 +148,4 @@ For more information on the different types of signature statuses that can be de
 
 
 <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_signature_status">XPS_SIGNATURE_STATUS</a>
+

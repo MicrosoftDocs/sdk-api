@@ -47,6 +47,8 @@ api_location:
  - Dpapi.h
  - Wincrypt.h
 api_name:
+ - _CRYPTPROTECT_PROMPTSTRUCT
+ - PCRYPTPROTECT_PROMPTSTRUCT
  - CRYPTPROTECT_PROMPTSTRUCT
 ---
 
@@ -111,3 +113,4 @@ A string containing the text of a prompt to be displayed.
 
 
 <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a>
+

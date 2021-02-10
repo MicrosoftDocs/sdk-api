@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
+ - _IMESHF
  - IMESHF
 ---
 
@@ -91,3 +92,4 @@ Dictionary copyright information.
 
 
 <a href="/windows/desktop/api/msime/nf-msime-ifedictionary-setheader">IFEDictionary::SetHeader</a>
+

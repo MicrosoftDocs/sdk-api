@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.Open
+ - IWMRegisteredDevice::Open
 ---
 
 # IWMRegisteredDevice::Open
@@ -105,3 +105,4 @@ Call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-close">IWMRegisteredDevice::Close</a>
+

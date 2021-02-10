@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.BackupComplete
+ - IVssBackupComponents::BackupComplete
 ---
 
 # IVssBackupComponents::BackupComplete
@@ -190,3 +190,4 @@ The calling application is responsible for calling <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">IVssBackupComponents::SetBackupSucceeded</a>
+

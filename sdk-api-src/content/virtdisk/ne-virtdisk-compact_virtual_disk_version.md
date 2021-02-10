@@ -45,6 +45,7 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _COMPACT_VIRTUAL_DISK_VERSION
  - COMPACT_VIRTUAL_DISK_VERSION
 ---
 
@@ -68,3 +69,4 @@ Contains the version of the virtual hard disk (VHD) <a href="/windows/win32/api/
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

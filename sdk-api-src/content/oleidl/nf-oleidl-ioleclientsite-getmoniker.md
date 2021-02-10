@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleClientSite.GetMoniker
+ - IOleClientSite::GetMoniker
 ---
 
 # IOleClientSite::GetMoniker
@@ -111,3 +111,4 @@ In some very specialized cases, an object may no longer need a moniker previousl
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">IOleObject::SetMoniker</a>
+

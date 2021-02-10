@@ -48,7 +48,6 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
  - StrCatChainW
- - StrCatChainW
 ---
 
 # StrCatChainW function
@@ -93,3 +92,4 @@ Returns the offset of the null character after the last character added to <i>ps
 ## -remarks
 
 <b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The final string is not guaranteed to be null-terminated. Consider using one of the following alternatives: <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatnexa">StringCbCatNEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatexa">StringCchCatEx</a>, or <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>. You should review <a href="/windows/desktop/shell/sec-shell">Security Considerations: Microsoft Windows Shell</a> before continuing.
+

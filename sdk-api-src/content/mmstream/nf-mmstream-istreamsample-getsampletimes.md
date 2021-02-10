@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IStreamSample.GetSampleTimes
+ - IStreamSample::GetSampleTimes
 ---
 
 # IStreamSample::GetSampleTimes
@@ -105,3 +105,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/DirectShow/multimedia-streaming-data-types">Multimedia Streaming Data Types</a>
+

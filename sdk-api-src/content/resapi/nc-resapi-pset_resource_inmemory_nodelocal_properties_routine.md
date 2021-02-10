@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - SetResourceInMemoryNodeLocalProperties callback
+ - PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
 ---
 
 # PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function
@@ -68,3 +68,4 @@ The size of the <i>propertyListBuffer</i> parameter.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
+

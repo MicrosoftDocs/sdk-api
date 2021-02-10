@@ -44,6 +44,7 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
+ - FWPS_DISCARD_MODULE0_
  - FWPS_DISCARD_MODULE0
 ---
 
@@ -85,3 +86,4 @@ The
 ## -see-also
 
 [FWPS_DISCARD_METADATA0](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0)
+

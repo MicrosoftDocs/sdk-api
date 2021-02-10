@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - tagWMT_MUSICSPEECH_CLASS_MODE
  - WMT_MUSICSPEECH_CLASS_MODE
 ---
 
@@ -71,3 +72,4 @@ Compression optimized for a mixture of music and speech.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IConfigAviMux.GetOutputCompatibilityIndex
+ - IConfigAviMux::GetOutputCompatibilityIndex
 ---
 
 # IConfigAviMux::GetOutputCompatibilityIndex
@@ -124,3 +124,4 @@ The AVI Mux filter always creates an AVI 2.0 index ('indx' format). If the value
 
 
 [IConfigAviMux::SetOutputCompatibilityIndex](/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex)
+

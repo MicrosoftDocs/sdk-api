@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation.ContainerName
- - ICertSrvSetupKeyInformation.get_ContainerName
- - ICertSrvSetupKeyInformation.put_ContainerName
+ - ICertSrvSetupKeyInformation::put_ContainerName
 ---
 
 # ICertSrvSetupKeyInformation::put_ContainerName
@@ -65,3 +63,4 @@ If the <a href="/windows/desktop/SecGloss/p-gly">private key</a> already exists,
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
+

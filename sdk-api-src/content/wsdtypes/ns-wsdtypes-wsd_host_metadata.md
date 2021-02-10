@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_HOST_METADATA
  - WSD_HOST_METADATA
 ---
 
@@ -63,3 +64,4 @@ Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_me
 ### -field Hosted
 
 Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata_list">WSD_SERVICE_METADATA_LIST</a> structure that represents the singly linked list of services hosted by the parent service.
+

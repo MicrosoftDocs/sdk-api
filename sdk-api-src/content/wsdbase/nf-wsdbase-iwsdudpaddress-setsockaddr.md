@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpAddress.SetSockaddr
+ - IWSDUdpAddress::SetSockaddr
 ---
 
 # IWSDUdpAddress::SetSockaddr
@@ -138,3 +138,4 @@ No buffer space available.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
+

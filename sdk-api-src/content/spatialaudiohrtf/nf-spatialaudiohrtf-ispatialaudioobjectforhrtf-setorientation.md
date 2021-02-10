@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf.SetOrientation
+ - ISpatialAudioObjectForHrtf::SetOrientation
 ---
 
 # ISpatialAudioObjectForHrtf::SetOrientation
@@ -100,3 +100,4 @@ If <b>SetOrientation</b> is never called, the default value of an identity matri
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _RESULT_VIEW_TYPE_INFO
+ - PRESULT_VIEW_TYPE_INFO
  - RESULT_VIEW_TYPE_INFO
 ---
 
@@ -197,3 +199,4 @@ The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointe
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-drag-and-drop-to-result-pane-items">Using Drag and Drop to Result Pane Items</a>
+

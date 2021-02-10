@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfileMgr.GetProfile
+ - ITfInputProcessorProfileMgr::GetProfile
 ---
 
 # ITfInputProcessorProfileMgr::GetProfile
@@ -148,3 +148,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
+

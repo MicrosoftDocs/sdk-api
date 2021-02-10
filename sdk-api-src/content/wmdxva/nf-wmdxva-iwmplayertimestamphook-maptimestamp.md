@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmdxva.h
 api_name:
- - IWMPlayerTimestampHook.MapTimestamp
+ - IWMPlayerTimestampHook::MapTimestamp
 ---
 
 # IWMPlayerTimestampHook::MapTimestamp
@@ -73,3 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/wmdxva/nn-wmdxva-iwmplayertimestamphook">IWMPlayerTimestampHook Interface</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCertificate.SerialNumber
- - IX509CertificateRequestCertificate.get_SerialNumber
- - IX509CertificateRequestCertificate.put_SerialNumber
+ - IX509CertificateRequestCertificate::put_SerialNumber
 ---
 
 # IX509CertificateRequestCertificate::put_SerialNumber
@@ -84,3 +82,4 @@ After calling <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certif
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
+

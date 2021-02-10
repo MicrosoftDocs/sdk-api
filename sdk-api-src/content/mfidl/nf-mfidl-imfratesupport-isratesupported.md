@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRateSupport.IsRateSupported
+ - IMFRateSupport::IsRateSupported
 ---
 
 # IMFRateSupport::IsRateSupported
@@ -129,3 +129,4 @@ The object does not support the specified rate.
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport">IMFRateSupport</a>
+

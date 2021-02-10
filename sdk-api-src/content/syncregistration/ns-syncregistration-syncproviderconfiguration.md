@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
+ - _SyncProviderConfiguration
  - SyncProviderConfiguration
 ---
 
@@ -96,3 +97,4 @@ One of the following constants that represent the architectures supported by the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-structures">Windows Sync Registration Structures</a>
+

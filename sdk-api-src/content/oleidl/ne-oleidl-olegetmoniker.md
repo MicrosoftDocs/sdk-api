@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
+ - tagOLEGETMONIKER
  - OLEGETMONIKER
 ---
 
@@ -87,3 +88,4 @@ If the OLEGETMONIKER_FORCEASSIGN flag causes a container to create a moniker for
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmoniker">IOleObject::GetMoniker</a>
+

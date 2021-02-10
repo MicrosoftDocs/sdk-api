@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.Reverse
+ - GraphicsPath::Reverse
 ---
 
 # GraphicsPath::Reverse
@@ -136,3 +136,4 @@ VOID ReverseExample(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+

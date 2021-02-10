@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.PreRestore
+ - IVssBackupComponents::PreRestore
 ---
 
 # IVssBackupComponents::PreRestore
@@ -154,3 +154,4 @@ For more information about the ASR writer, see <a href="/windows/desktop/VSS/in-
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+

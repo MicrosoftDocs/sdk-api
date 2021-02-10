@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPostView.GetReceivePostViewSamples
+ - IWMWriterPostView::GetReceivePostViewSamples
 ---
 
 # IWMWriterPostView::GetReceivePostViewSamples
@@ -105,3 +105,4 @@ NULL value passed to <i>pfReceivePostViewSamples</i>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setreceivepostviewsamples">IWMWriterPostView::SetReceivePostViewSamples</a>
+

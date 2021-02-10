@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.InitializeFromPublicKey
+ - IX509CertificateRequestPkcs10::InitializeFromPublicKey
 ---
 
 # IX509CertificateRequestPkcs10::InitializeFromPublicKey
@@ -111,3 +111,4 @@ The method does not create a private key. The use of this method implies that th
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+

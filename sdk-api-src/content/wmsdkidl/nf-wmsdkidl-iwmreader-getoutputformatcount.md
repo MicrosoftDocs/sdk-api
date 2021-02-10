@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader.GetOutputFormatCount
+ - IWMReader::GetOutputFormatCount
 ---
 
 # IWMReader::GetOutputFormatCount
@@ -84,3 +84,4 @@ This method is synchronous and does not result in any messages being sent to the
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat">IWMReader::GetOutputFormat</a>
+

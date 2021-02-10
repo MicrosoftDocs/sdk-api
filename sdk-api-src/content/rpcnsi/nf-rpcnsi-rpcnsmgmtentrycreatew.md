@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsMgmtEntryCreateW
  - rpcnsi/RpcNsMgmtEntryCreateW
+ - RpcNsMgmtEntryCreate
+ - rpcnsi/RpcNsMgmtEntryCreate
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsMgmtEntryCreate
- - RpcNsMgmtEntryCreateA
  - RpcNsMgmtEntryCreateW
+ - RpcNsMgmtEntryCreate
 ---
 
 # RpcNsMgmtEntryCreateW function
@@ -169,3 +170,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrydeletea">RpcNsMgmtEntryDelete</a>
+

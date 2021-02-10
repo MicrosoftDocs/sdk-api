@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.CanBuySilent
+ - IWMPContentPartner::CanBuySilent
 ---
 
 # IWMPContentPartner::CanBuySilent
@@ -97,3 +97,4 @@ The format of the string returned in <i>pbstrTotalPrice</i> is known only to the
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile.SetStream
+ - IMFASFProfile::SetStream
 ---
 
 # IMFASFProfile::SetStream
@@ -112,3 +112,4 @@ If the stream number in the ASF stream configuration object is already included 
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
+

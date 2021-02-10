@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - IHandWrittenTextInsertion.InsertRecognitionResultsArray
+ - IHandwrittenTextInsertion::InsertRecognitionResultsArray
 ---
 
 # IHandwrittenTextInsertion::InsertRecognitionResultsArray
@@ -77,3 +77,4 @@ This element is declared in Peninputpanel.h.
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion">IHandWrittenTextInsertion</a>
+

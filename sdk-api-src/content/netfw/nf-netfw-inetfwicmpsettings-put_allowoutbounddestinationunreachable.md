@@ -43,9 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowOutboundDestinationUnreachable
- - INetFwIcmpSettings.get_AllowOutboundDestinationUnreachable
- - INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
+ - INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable
 ---
 
 # INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable
@@ -68,3 +66,4 @@ This setting is common to IPv4 and IPv6.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwicmpsettings">INetFwIcmpSettings</a>
+

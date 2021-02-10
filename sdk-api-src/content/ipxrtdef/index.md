@@ -9,6 +9,8 @@ tech.root: rras
 f1_keywords:
  - ipxrtdef
  - ipxrtdef/ipxrtdef
+api_name:
+ - ipxrtdef
 ---
 
 # Ipxrtdef.h header

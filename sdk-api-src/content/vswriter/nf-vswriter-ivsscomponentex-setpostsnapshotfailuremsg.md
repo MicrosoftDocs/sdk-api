@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponentEx.SetPostSnapshotFailureMsg
+ - IVssComponentEx::SetPostSnapshotFailureMsg
 ---
 
 # IVssComponentEx::SetPostSnapshotFailureMsg
@@ -134,3 +134,4 @@ The failure message that is set by
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getpostsnapshotfailuremsg">IVssComponentEx::GetPostSnapshotFailureMsg</a>
+

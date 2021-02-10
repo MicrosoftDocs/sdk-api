@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactPropertyCollection.GetPropertyVersion
+ - IContactPropertyCollection::GetPropertyVersion
 ---
 
 # IContactPropertyCollection::GetPropertyVersion

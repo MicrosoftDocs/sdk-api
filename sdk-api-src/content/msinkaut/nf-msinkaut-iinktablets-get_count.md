@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablets.Count
- - IInkTablets.get_Count
- - InkTablets.get_Count
+ - IInkTablets::get_Count
 ---
 
 # IInkTablets::get_Count
@@ -68,3 +66,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets Collection</a>
+

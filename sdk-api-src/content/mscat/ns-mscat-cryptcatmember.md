@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mscat.h
 api_name:
+ - CRYPTCATMEMBER_
  - CRYPTCATMEMBER
 ---
 
@@ -109,3 +110,4 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_AT
 
 
 <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a>
+

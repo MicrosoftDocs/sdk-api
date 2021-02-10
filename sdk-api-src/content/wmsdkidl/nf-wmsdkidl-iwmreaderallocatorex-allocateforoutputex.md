@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMReaderAllocatorEx.AllocateForOutputEx
+ - IWMReaderAllocatorEx::AllocateForOutputEx
 ---
 
 # IWMReaderAllocatorEx::AllocateForOutputEx
@@ -116,3 +116,4 @@ When you allocate a sample in your implementation of this method, you should cal
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderallocatorex">IWMReaderAllocatorEx Interface</a>
+

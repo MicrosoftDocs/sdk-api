@@ -45,7 +45,9 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - IP_ADAPTER_ADDRESSES
+ - _IP_ADAPTER_ADDRESSES_LH
+ - PIP_ADAPTER_ADDRESSES_LH
+ - IP_ADAPTER_ADDRESSES_LH
 ---
 
 # IP_ADAPTER_ADDRESSES_LH structure
@@ -1291,3 +1293,4 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
+

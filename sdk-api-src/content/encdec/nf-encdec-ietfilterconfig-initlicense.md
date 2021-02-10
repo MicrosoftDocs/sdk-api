@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IETFilterConfig.InitLicense
+ - IETFilterConfig::InitLicense
 ---
 
 # IETFilterConfig::InitLicense
@@ -65,3 +65,4 @@ Returns an <b>HRESULT</b>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilterconfig">IETFilterConfig Interface</a>
+

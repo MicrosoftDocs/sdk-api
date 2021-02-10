@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dcommon.h
 api_name:
- - ID3DDestructionNotifier.UnregisterDestructionCallback
+ - ID3DDestructionNotifier::UnregisterDestructionCallback
 ---
 
 ## -description
@@ -63,3 +63,4 @@ If this function suceeds, it returns **S_OK**.
 <a href="/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionnotifier">ID3DDestructionNotifier</a>
 
 <a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a>
+

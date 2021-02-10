@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcServerInqDefaultPrincName
- - RpcServerInqDefaultPrincNameA
- - RpcServerInqDefaultPrincNameW
 ---
 
 # RpcServerInqDefaultPrincName function
@@ -112,3 +110,4 @@ This function is the recommended way to obtain the server principal name to be p
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>
+

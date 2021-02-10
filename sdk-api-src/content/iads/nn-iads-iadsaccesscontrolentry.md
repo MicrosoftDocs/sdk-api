@@ -43,7 +43,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsAccessControlEntry
- - AccessControlEntry
 ---
 
 # IADsAccessControlEntry interface
@@ -100,3 +99,4 @@ Some of the <b>IADsAccessControlEntry</b> property
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

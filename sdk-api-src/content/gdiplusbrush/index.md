@@ -9,6 +9,8 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusbrush
  - gdiplusbrush/gdiplusbrush
+api_name:
+ - gdiplusbrush
 ---
 
 # Gdiplusbrush.h header

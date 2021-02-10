@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.IsDownloaded
- - IUpdate.get_IsDownloaded
+ - IUpdate::get_IsDownloaded
 ---
 
 # IUpdate::get_IsDownloaded
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
+

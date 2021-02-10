@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SECURITY_BINDING
  - WS_SECURITY_BINDING
 ---
 
@@ -85,3 +86,4 @@ setting.
 ### -field propertyCount
 
 The count of elements in the properties array.
+

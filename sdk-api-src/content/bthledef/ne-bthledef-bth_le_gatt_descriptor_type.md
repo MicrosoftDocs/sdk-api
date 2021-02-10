@@ -46,6 +46,8 @@ api_type:
 api_location:
  - BthLEDef.h
 api_name:
+ - _BTH_LE_GATT_DESCRIPTOR_TYPE
+ - PBTH_LE_GATT_DESCRIPTOR_TYPE
  - BTH_LE_GATT_DESCRIPTOR_TYPE
 ---
 
@@ -96,3 +98,4 @@ The characteristic value is customized.
 
 
 <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
+

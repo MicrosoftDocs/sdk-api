@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateCubicTransition
+ - IUIAnimationTransitionLibrary2::CreateCubicTransition
 ---
 
 # IUIAnimationTransitionLibrary2::CreateCubicTransition
@@ -89,3 +89,4 @@ The following figure shows the effect on an animation variable over time during 
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
+

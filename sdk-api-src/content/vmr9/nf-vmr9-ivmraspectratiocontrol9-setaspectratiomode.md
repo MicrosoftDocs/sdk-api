@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRAspectRatioControl9.SetAspectRatioMode
+ - IVMRAspectRatioControl9::SetAspectRatioMode
 ---
 
 # IVMRAspectRatioControl9::SetAspectRatioMode
@@ -103,3 +103,4 @@ Success
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

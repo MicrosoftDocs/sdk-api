@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region.Equals
+ - Region::Equals
 ---
 
 # Region::Equals
@@ -87,3 +87,4 @@ If this region is identical to the specified region, this method returns <b>TRUE
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
+

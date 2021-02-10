@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.dll
 api_name:
- - ISBE2MediaTypeProfile.AddStream
+ - ISBE2MediaTypeProfile::AddStream
 ---
 
 # ISBE2MediaTypeProfile::AddStream
@@ -96,3 +96,4 @@ Invalid parameter.
 
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
+

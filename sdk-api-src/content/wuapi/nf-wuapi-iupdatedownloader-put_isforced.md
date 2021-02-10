@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateDownloader.IsForced
- - IUpdateDownloader.get_IsForced
- - IUpdateDownloader.put_IsForced
+ - IUpdateDownloader::put_IsForced
 ---
 
 # IUpdateDownloader::put_IsForced
@@ -65,3 +63,4 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implemen
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
+

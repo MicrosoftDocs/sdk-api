@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush.SetTransform
+ - TextureBrush::SetTransform
 ---
 
 # TextureBrush::SetTransform
@@ -130,3 +130,4 @@ VOID Example_SetTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

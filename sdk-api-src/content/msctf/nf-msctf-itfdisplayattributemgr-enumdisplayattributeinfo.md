@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
+ - ITfDisplayAttributeMgr::EnumDisplayAttributeInfo
 ---
 
 # ITfDisplayAttributeMgr::EnumDisplayAttributeInfo
@@ -116,3 +116,4 @@ The enumerator object cannot be initialized.
 ## -see-also
 
 [ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md)
+

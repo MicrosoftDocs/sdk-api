@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
+ - NET_FW_RULE_DIRECTION_
  - NET_FW_RULE_DIRECTION
 ---
 
@@ -75,3 +76,4 @@ This value is used for boundary checking only and is not valid for application p
 
 
 <a href="/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
+ - _SP_NEWDEVICEWIZARD_DATA
+ - PSP_NEWDEVICEWIZARD_DATA
  - SP_NEWDEVICEWIZARD_DATA
 ---
 
@@ -103,3 +105,4 @@ The handle to the top-level window of the hardware installation wizard .
 
 
 <a href="/windows-hardware/drivers/install/dif-newdevicewizard-select">DIF_NEWDEVICEWIZARD_SELECT</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagTVHITTESTINFO
+ - LPTVHITTESTINFO
  - TVHITTESTINFO
 ---
 
@@ -203,3 +205,4 @@ To the right of the client area.
 Type: <b>HTREEITEM</b>
 
 Handle to the item that occupies the point.
+

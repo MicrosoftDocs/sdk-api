@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICBitmapSourceTransform.GetClosestPixelFormat
+ - IWICBitmapSourceTransform::GetClosestPixelFormat
 ---
 
 # IWICBitmapSourceTransform::GetClosestPixelFormat
@@ -75,3 +75,4 @@ The Windows provided codecs provide the following support:
 <li>BMP, ICO, GIF, TIFF: No implementation of <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a>.</li>
 <li>JPEG, PNG, JPEG-XR: Trivial support (always returns the same value as <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getpixelformat">IWICBitmapFrameDecode::GetPixelFormat</a>).</li>
 </ul>
+

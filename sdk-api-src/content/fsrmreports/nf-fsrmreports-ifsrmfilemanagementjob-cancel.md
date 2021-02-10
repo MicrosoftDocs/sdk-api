@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.Cancel
+ - IFsrmFileManagementJob::Cancel
 ---
 
 # IFsrmFileManagementJob::Cancel
@@ -80,3 +80,4 @@ Cancels the job if the value of its
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

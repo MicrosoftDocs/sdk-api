@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor.GetSelection
+ - ITextStoreAnchor::GetSelection
 ---
 
 # ITextStoreAnchor::GetSelection
@@ -161,3 +161,4 @@ TF_DEFAULT_SELECTION
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
       </a>
+

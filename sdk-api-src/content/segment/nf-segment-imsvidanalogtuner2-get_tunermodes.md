@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAnalogTuner2.get_TunerModes
+ - IMSVidAnalogTuner2::get_TunerModes
 ---
 
 # IMSVidAnalogTuner2::get_TunerModes
@@ -124,3 +124,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner2">IMSVidAnalogTuner2 Interface</a>
+

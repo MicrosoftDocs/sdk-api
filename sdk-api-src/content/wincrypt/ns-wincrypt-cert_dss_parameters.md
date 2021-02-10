@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_DSS_PARAMETERS
+ - PCERT_DSS_PARAMETERS
  - CERT_DSS_PARAMETERS
 ---
 
@@ -69,3 +71,4 @@ Prime Q. It is 20 bytes in length. The most significant bit of the most signific
 ### -field g
 
 Generator G. Must be the same length as <b>p</b> (must be padded with 0x00 bytes if it is less).
+

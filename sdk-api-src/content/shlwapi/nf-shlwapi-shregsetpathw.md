@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHRegSetPathW
  - shlwapi/SHRegSetPathW
+ - SHRegSetPath
+ - shlwapi/SHRegSetPath
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-ShCore-Registry-l1-1-0.dll
  - API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
- - SHRegSetPath
- - SHRegSetPathA
  - SHRegSetPathW
+ - SHRegSetPath
 ---
 
 # SHRegSetPathW function
@@ -145,3 +146,4 @@ The environment variables listed in the above table might not all be set on any 
 
 > [!NOTE]
 > The shlwapi.h header defines SHRegSetPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SetupLogErrorW
  - setupapi/SetupLogErrorW
+ - SetupLogError
+ - setupapi/SetupLogError
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Setupapi.dll
  - Ext-MS-Win-setupapi-logging-l1-1-0.dll
 api_name:
- - SetupLogError
- - SetupLogErrorA
  - SetupLogErrorW
-req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
+ - SetupLogError
 ---
 
 # SetupLogErrorW function
@@ -98,3 +99,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="/windows/desktop/SetupApi/overview">Overview</a>
+

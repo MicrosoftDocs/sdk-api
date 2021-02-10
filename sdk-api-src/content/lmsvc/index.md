@@ -9,6 +9,8 @@ tech.root: netmgmt
 f1_keywords:
  - lmsvc
  - lmsvc/lmsvc
+api_name:
+ - lmsvc
 ---
 
 # Lmsvc.h header

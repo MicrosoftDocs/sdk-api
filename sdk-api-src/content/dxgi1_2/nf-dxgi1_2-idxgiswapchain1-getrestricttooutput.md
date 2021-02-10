@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetRestrictToOutput
+ - IDXGISwapChain1::GetRestrictToOutput
 ---
 
 # IDXGISwapChain1::GetRestrictToOutput
@@ -72,3 +72,4 @@ The output is also owned by the adapter on which the swap chain's device was cre
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
+

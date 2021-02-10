@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileSystemBindData.GetFindData
+ - IFileSystemBindData::GetFindData
 ---
 
 # IFileSystemBindData::GetFindData
@@ -69,3 +69,4 @@ Returns S_OK.
 ## -remarks
 
 This method provides bind context information to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a>. The client accesses the object by calling <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getobjectparam">IBindCtx::GetObjectParam</a> with the <i>pszKey</i> parameter set to the string "File System Bind Data".
+

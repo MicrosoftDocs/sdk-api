@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT4.operator =
+ - XMFLOAT4::operator=
 ---
 
 # XMFLOAT4::operator-assign

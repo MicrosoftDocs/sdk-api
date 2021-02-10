@@ -9,6 +9,8 @@ tech.root: wmi
 f1_keywords:
  - chptrarr
  - chptrarr/chptrarr
+api_name:
+ - chptrarr
 ---
 
 # Chptrarr.h header

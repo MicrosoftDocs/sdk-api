@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vss.h
 api_name:
+ - _VSS_FILE_SPEC_BACKUP_TYPE
+ - PVSS_FILE_SPEC_BACKUP_TYPE
  - VSS_FILE_SPEC_BACKUP_TYPE
 ---
 
@@ -223,3 +225,4 @@ Requesters or writers can recover a file set's file specification backup type by
 
 
 <a href="/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
+

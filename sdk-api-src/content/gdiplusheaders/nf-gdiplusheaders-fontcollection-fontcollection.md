@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontCollection.FontCollection
+ - FontCollection::FontCollection
 ---
 
 # FontCollection::FontCollection
@@ -74,3 +74,4 @@ Creates an empty <b>FontCollection::FontCollection</b> object.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx3.dll
 api_name:
- - IBackgroundCopyJob3.AddFileWithRanges
+ - IBackgroundCopyJob3::AddFileWithRanges
 ---
 
 # IBackgroundCopyJob3::AddFileWithRanges
@@ -275,3 +275,4 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>
+

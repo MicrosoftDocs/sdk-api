@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.ContainerName
- - ICEnroll4.get_ContainerName
- - ICEnroll4.put_ContainerName
- - ICEnroll3.ContainerName
- - ICEnroll3.get_ContainerName
- - ICEnroll3.put_ContainerName
- - ICEnroll2.ContainerName
- - ICEnroll2.get_ContainerName
- - ICEnroll2.put_ContainerName
- - ICEnroll.ContainerName
- - ICEnroll.get_ContainerName
- - ICEnroll.put_ContainerName
- - CEnroll.ContainerName
+ - ICEnroll::put_ContainerName
 ---
 
 # ICEnroll::put_ContainerName
@@ -120,3 +108,4 @@ if ( FAILED ( hr ) )
 else
     printf( "ContainerName was set to %ws\n", bstrMyName );
 ```
+

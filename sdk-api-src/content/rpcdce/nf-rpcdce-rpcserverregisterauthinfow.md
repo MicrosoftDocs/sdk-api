@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcServerRegisterAuthInfoW
  - rpcdce/RpcServerRegisterAuthInfoW
+ - RpcServerRegisterAuthInfo
+ - rpcdce/RpcServerRegisterAuthInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcServerRegisterAuthInfo
- - RpcServerRegisterAuthInfoA
  - RpcServerRegisterAuthInfoW
+ - RpcServerRegisterAuthInfo
 ---
 
 # RpcServerRegisterAuthInfoW function
@@ -225,3 +226,4 @@ The authentication service that a client application specifies (using
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
+

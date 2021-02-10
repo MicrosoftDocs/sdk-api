@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sptip.dll
 api_name:
- - IEnumTfLatticeElements.Reset
+ - IEnumTfLatticeElements::Reset
 ---
 
 # IEnumTfLatticeElements::Reset

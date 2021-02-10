@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
+ - _PSAPI_WS_WATCH_INFORMATION
+ - PPSAPI_WS_WATCH_INFORMATION
  - PSAPI_WS_WATCH_INFORMATION
 ---
 
@@ -69,3 +71,4 @@ A pointer to the page that was added to the working set.
 ## -see-also
 
 <a href="/windows/desktop/api/psapi/nf-psapi-getwschanges">GetWsChanges</a>
+

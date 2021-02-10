@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionResult.SetResultOnStrokes
+ - IInkRecognitionResult::SetResultOnStrokes
 ---
 
 # IInkRecognitionResult::SetResultOnStrokes
@@ -118,3 +118,4 @@ After you assign results to a collection of strokes, you can then store the stro
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult">RecognitionResult Property</a>
+

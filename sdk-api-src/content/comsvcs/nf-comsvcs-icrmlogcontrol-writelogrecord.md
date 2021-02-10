@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmLogControl.WriteLogRecord
+ - ICrmLogControl::WriteLogRecord
 ---
 
 # ICrmLogControl::WriteLogRecord
@@ -139,3 +139,4 @@ You should not include pointer types within datastructures contained in BLOBs in
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
+

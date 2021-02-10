@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation.LastModified
- - IFsrmClassifierModuleImplementation.get_LastModified
+ - IFsrmClassifierModuleImplementation::get_LastModified
 ---
 
 # IFsrmClassifierModuleImplementation::get_LastModified
@@ -68,3 +67,4 @@ A value corresponding to <b>FsrmAlwaysModified</b> can be returned if the classi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
+

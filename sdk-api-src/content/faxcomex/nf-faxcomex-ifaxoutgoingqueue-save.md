@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.Save
- - IFaxOutgoingQueue.Save
+ - IFaxOutgoingQueue::Save
 ---
 
 # IFaxOutgoingQueue::Save
@@ -76,3 +75,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-the-outgoing-queue-properties">Setting the Outgoing Queue Properties</a>
+

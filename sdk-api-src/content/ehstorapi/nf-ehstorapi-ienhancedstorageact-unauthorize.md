@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.Unauthorize
+ - IEnhancedStorageACT::Unauthorize
 ---
 
 # IEnhancedStorageACT::Unauthorize
@@ -79,3 +79,4 @@ Unauthorization completed successfully.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
+

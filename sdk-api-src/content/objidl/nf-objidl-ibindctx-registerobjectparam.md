@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx.RegisterObjectParam
+ - IBindCtx::RegisterObjectParam
 ---
 
 # IBindCtx::RegisterObjectParam
@@ -101,3 +101,4 @@ When you register an object using this method, the object is not released until 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
+

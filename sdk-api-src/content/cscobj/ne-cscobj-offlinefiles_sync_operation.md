@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_SYNC_OPERATION
  - OFFLINEFILES_SYNC_OPERATION
 ---
 
@@ -91,3 +92,4 @@ Operation was preparing for the synchronization.  Preparation involves obtaining
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncerrorinfo-getsyncoperation">IOfflineFilesSyncErrorInfo::GetSyncOperation</a>
+

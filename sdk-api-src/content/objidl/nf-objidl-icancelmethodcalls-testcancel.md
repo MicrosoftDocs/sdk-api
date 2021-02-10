@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ICancelMethodCalls.TestCancel
+ - ICancelMethodCalls::TestCancel
 ---
 
 # ICancelMethodCalls::TestCancel
@@ -71,3 +71,4 @@ This method can be called from both the client and the server.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
+

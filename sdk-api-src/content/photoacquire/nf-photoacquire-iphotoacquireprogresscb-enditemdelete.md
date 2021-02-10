@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.EndItemDelete
+ - IPhotoAcquireProgressCB::EndItemDelete
 ---
 
 # IPhotoAcquireProgressCB::EndItemDelete
@@ -103,3 +103,4 @@ This method is not yet implemented
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterPushDataToEngine
+ - PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN
 ---
 
 # PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback function
@@ -94,7 +94,6 @@ If this flag and the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag a
 * **WINBIO_DATA_FLAG_RAW**
 
 The sample should be placed in the <xref targtype="struct" rid="secbiomet.winbio_bir">WINBIO_BIR</xref> object in the format in which it was captured.
-
 
 ### -param RejectDetail [out]
 
@@ -275,3 +274,4 @@ SensorAdapterPushDataToEngine(
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

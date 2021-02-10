@@ -9,6 +9,8 @@ tech.root: sens
 f1_keywords:
  - sensevts
  - sensevts/sensevts
+api_name:
+ - sensevts
 ---
 
 # Sensevts.h header

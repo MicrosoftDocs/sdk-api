@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
+ - midiproptimediv_tag
+ - LPMIDIPROPTIMEDIV
  - MIDIPROPTIMEDIV
 ---
 
@@ -81,3 +83,4 @@ The time division property is read or written by the <a href="/previous-versions
 
 
 <a href="/previous-versions/dd798490(v=vs.85)">midiStreamProperty</a>
+

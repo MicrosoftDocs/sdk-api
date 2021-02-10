@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tom.h
 api_name:
- - ITextStory.GetIndex
+ - ITextStory::GetIndex
 ---
 
 # ITextStory::GetIndex
@@ -73,3 +73,4 @@ The index is used with the <a href="/windows/desktop/api/tom/nf-tom-itextdocumen
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
+

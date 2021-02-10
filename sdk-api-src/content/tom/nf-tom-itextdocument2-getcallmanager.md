@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2.GetCallManager
+ - ITextDocument2::GetCallManager
 ---
 
 # ITextDocument2::GetCallManager
@@ -77,3 +77,4 @@ The call manager object is opaque to the caller. The Text Object Model (TOM) eng
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-releasecallmanager">ITextDocument2::ReleaseCallManager</a>
+

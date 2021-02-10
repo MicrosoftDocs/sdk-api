@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _GET_LENGTH_INFORMATION
+ - PGET_LENGTH_INFORMATION
  - GET_LENGTH_INFORMATION
 ---
 
@@ -65,3 +67,4 @@ The length of the disk, volume, or partition, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>
+

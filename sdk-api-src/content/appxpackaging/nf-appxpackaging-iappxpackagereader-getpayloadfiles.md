@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxPackageReader.GetPayloadFiles
+ - IAppxPackageReader::GetPayloadFiles
 ---
 
 # IAppxPackageReader::GetPayloadFiles
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getpayloadfile">IAppxPackageReader::GetPayloadFile</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMVIEWCHANGE
+ - LPNMVIEWCHANGE
  - NMVIEWCHANGE
 ---
 
@@ -123,3 +125,4 @@ Century view.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 New view. One of the constants listed at <b>dwOldView</b>.
+

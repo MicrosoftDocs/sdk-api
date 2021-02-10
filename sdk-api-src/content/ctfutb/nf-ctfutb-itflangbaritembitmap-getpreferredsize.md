@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemBitmap.GetPreferredSize
+ - ITfLangBarItemBitmap::GetPreferredSize
 ---
 
 # ITfLangBarItemBitmap::GetPreferredSize
@@ -91,3 +91,4 @@ The method was successful.
 
 
 <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+

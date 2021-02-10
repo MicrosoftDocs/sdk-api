@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PREAD_FILE_USN_DATA
  - READ_FILE_USN_DATA
 ---
 
@@ -74,3 +75,4 @@ The highest version of the USN change journal accepted by the application. If th
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

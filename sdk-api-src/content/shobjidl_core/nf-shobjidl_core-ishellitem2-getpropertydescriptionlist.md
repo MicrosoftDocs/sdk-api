@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItem2.GetPropertyDescriptionList
+ - IShellItem2::GetPropertyDescriptionList
 ---
 
 # IShellItem2::GetPropertyDescriptionList
@@ -77,3 +77,4 @@ Contains the address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipro
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

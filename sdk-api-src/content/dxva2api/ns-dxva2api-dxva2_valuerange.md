@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_ValueRange
  - DXVA2_ValueRange
 ---
 
@@ -83,3 +84,4 @@ All values in this structure are specified as <a href="/windows/desktop/api/dxva
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

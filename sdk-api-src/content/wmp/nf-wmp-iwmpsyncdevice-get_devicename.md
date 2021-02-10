@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice.get_deviceName
+ - IWMPSyncDevice::get_deviceName
 ---
 
 # IWMPSyncDevice::get_deviceName
@@ -108,3 +108,4 @@ This method retrieves the device name that appears in the Windows XP user interf
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>
+

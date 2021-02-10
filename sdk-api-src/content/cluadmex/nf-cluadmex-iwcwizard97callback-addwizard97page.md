@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWCWizard97Callback.AddWizard97Page
+ - IWCWizard97Callback::AddWizard97Page
 ---
 
 # IWCWizard97Callback::AddWizard97Page
@@ -121,3 +121,4 @@ To add non-Wizard97 pages, use
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">IWEExtendWizard97::CreateWizard97Pages</a>
+

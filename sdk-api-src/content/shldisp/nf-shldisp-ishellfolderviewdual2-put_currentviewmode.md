@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shldisp.h
 api_name:
- - IShellFolderViewDual2.put_CurrentViewMode
+ - IShellFolderViewDual2::put_CurrentViewMode
 ---
 
 # IShellFolderViewDual2::put_CurrentViewMode
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual2-get_currentviewmode">IShellFolderViewDual2::get_CurrentViewMode</a>
+

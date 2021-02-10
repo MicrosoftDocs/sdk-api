@@ -47,6 +47,8 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
+ - _MIB_IPNETTABLE
+ - PMIB_IPNETTABLE
  - MIB_IPNETTABLE
 ---
 
@@ -93,3 +95,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a>
+

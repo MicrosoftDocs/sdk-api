@@ -44,7 +44,6 @@ api_location:
  - imagehlp.dll
 api_name:
  - SymUnloadModule64
- - SymUnloadModule
 ---
 
 # SymUnloadModule64 function
@@ -109,3 +108,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
+

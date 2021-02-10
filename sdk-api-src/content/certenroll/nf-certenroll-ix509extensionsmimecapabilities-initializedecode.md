@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionSmimeCapabilities.InitializeDecode
+ - IX509ExtensionSmimeCapabilities::InitializeDecode
 ---
 
 # IX509ExtensionSmimeCapabilities::InitializeDecode
@@ -102,3 +102,4 @@ You can retrieve the following properties for this extension:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSink.AddStream
+ - IMFCaptureSink::AddStream
 ---
 
 # IMFCaptureSink::AddStream
@@ -176,3 +176,4 @@ The <i>dwSourceStreamIndex</i> parameter is invalid, or the specified source str
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
+

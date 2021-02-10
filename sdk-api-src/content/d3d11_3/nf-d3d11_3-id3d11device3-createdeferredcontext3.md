@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device3.CreateDeferredContext3
+ - ID3D11Device3::CreateDeferredContext3
 ---
 
 # ID3D11Device3::CreateDeferredContext3
@@ -103,3 +103,4 @@ Returns S_OK if successful; otherwise, returns one of the following:
 
 
 <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">ID3D11Device::CreateDeferredContext</a>
+

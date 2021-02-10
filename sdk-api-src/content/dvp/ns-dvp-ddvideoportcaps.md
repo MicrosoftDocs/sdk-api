@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dvp.h
 api_name:
+ - _DDVIDEOPORTCAPS
+ - LPDDVIDEOPORTCAPS
  - DDVIDEOPORTCAPS
 ---
 
@@ -568,3 +570,4 @@ The driver reports the capabilities described by the DDVIDEOPORTCAPS structure w
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+

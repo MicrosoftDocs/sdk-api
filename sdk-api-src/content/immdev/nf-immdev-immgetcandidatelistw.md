@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ImmGetCandidateListW
  - immdev/ImmGetCandidateListW
+ - ImmGetCandidateList
+ - immdev/ImmGetCandidateList
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - imm32.dll
 api_name:
- - ImmGetCandidateList
- - ImmGetCandidateListA
  - ImmGetCandidateListW
+ - ImmGetCandidateList
 ---
 
 # ImmGetCandidateListW function
@@ -94,3 +95,4 @@ The function returns 0 if it does not succeed.
 
 > [!NOTE]
 > The immdev.h header defines ImmGetCandidateList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

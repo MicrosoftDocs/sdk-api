@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateSemaphoreA
  - winbase/CreateSemaphoreA
+ - CreateSemaphore
+ - winbase/CreateSemaphore
 dev_langs:
  - c++
 topic_type:
@@ -55,8 +57,7 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
  - CreateSemaphoreA
- - CreateSemaphoreA
- - CreateSemaphoreW
+ - CreateSemaphore
 ---
 
 # CreateSemaphoreA function
@@ -182,3 +183,4 @@ For an example that uses
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

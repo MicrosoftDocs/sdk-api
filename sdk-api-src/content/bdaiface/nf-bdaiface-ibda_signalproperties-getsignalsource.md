@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_SignalProperties.GetSignalSource
+ - IBDA_SignalProperties::GetSignalSource
 ---
 
 # IBDA_SignalProperties::GetSignalSource
@@ -81,3 +81,4 @@ This method returns whatever value was last set by calling <a href="/windows/des
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-putsignalsource">PutSignalSource</a>
+

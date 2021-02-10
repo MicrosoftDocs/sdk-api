@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate2.CopyToCache
+ - IUpdate2::CopyToCache
 ---
 
 # IUpdate2::CopyToCache
@@ -116,3 +116,4 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implemen
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>
+

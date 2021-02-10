@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISurface1.ReleaseDC
+ - IDXGISurface1::ReleaseDC
 ---
 
 # IDXGISurface1::ReleaseDC
@@ -91,3 +91,4 @@ Prior to resizing buffers you must release all outstanding DCs.
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface1">IDXGISurface1</a>
+

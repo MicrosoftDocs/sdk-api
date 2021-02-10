@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage.GetName
+ - IWMDMStorage::GetName
 ---
 
 # IWMDMStorage::GetName
@@ -77,3 +77,4 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
+

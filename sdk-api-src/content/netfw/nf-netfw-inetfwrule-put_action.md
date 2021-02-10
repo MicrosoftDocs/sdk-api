@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule.Action
- - INetFwRule.get_Action
- - INetFwRule.put_Action
+ - INetFwRule::put_Action
 ---
 
 # INetFwRule::put_Action
@@ -70,3 +68,4 @@ Also see the restrictions on changing properties described in the Remarks sectio
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_action">NET_FW_ACTION</a>
+

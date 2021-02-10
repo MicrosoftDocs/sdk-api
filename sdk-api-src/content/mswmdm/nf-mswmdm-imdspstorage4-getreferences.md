@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage4.GetReferences
+ - IMDSPStorage4::GetReferences
 ---
 
 # IMDSPStorage4::GetReferences
@@ -89,3 +89,4 @@ If the count of references is 0, service provider must return an array of refere
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-setreferences">IMDSPStorage4::SetReferences</a>
+

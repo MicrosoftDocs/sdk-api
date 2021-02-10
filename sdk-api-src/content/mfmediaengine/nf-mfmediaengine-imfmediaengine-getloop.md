@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetLoop
+ - IMFMediaEngine::GetLoop
 ---
 
 # IMFMediaEngine::GetLoop
@@ -67,3 +67,4 @@ If looping is enabled, the Media Engine seeks to the start of the content when p
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

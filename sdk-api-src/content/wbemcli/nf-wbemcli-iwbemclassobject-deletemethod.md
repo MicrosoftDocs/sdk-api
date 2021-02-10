@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.DeleteMethod
+ - IWbemClassObject::DeleteMethod
 ---
 
 # IWbemClassObject::DeleteMethod
@@ -88,3 +88,4 @@ You may not delete methods inherited from parent classes.
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-putmethod">IWbemClassObject::PutMethod</a>
+

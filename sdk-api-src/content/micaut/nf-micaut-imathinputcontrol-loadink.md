@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl.LoadInk
+ - IMathInputControl::LoadInk
 ---
 
 # IMathInputControl::LoadInk
@@ -74,3 +74,4 @@ When that ink exceeds the control's current size, and automatic growth is enable
 
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
+

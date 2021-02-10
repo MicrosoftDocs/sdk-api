@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ICategoryCollection.Count
- - ICategoryCollection.get_Count
+ - ICategoryCollection::get_Count
 ---
 
 # ICategoryCollection::get_Count
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-icategorycollection">ICategoryCollection</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SECURITY_CONTEXT_PROPERTY
  - WS_SECURITY_CONTEXT_PROPERTY
 ---
 
@@ -67,3 +68,4 @@ The property value.
 ### -field valueSize
 
 The size of the property value
+

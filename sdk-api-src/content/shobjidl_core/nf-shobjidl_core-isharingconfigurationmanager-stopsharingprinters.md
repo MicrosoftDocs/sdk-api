@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISharingConfigurationManager.StopSharingPrinters
+ - ISharingConfigurationManager::StopSharingPrinters
 ---
 
 # ISharingConfigurationManager::StopSharingPrinters

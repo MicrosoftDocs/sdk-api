@@ -45,8 +45,6 @@ api_location:
  - advapi32legacy.dll
 api_name:
  - QueryTrace
- - QueryTraceA
- - QueryTraceW
 ---
 
 # QueryTrace macro
@@ -102,3 +100,4 @@ To update the property settings and session statistics for an event tracing sess
 
 
 <a href="/windows/desktop/ETW/queryalltraces">QueryAllTraces</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode.GetNodeType
+ - IMFTopologyNode::GetNodeType
 ---
 
 # IMFTopologyNode::GetNodeType
@@ -88,3 +88,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLMLattice.QueryType
+ - ITfLMLattice::QueryType
 ---
 
 # ITfLMLattice::QueryType
@@ -103,3 +103,4 @@ Either <i>pfSupported</i> is invalid or the specified lattice type is not suppor
 
 <a href="/windows/desktop/TSF/lattice-types">Lattice Types
       </a>
+

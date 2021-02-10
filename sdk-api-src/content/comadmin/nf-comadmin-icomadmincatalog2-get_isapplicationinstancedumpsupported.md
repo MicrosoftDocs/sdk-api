@@ -42,8 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.IsApplicationInstanceDumpSupported
- - ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported
+ - ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported
 ---
 
 # ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
+

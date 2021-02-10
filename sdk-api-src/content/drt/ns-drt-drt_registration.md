@@ -46,6 +46,8 @@ api_type:
 api_location:
  - drt.h
 api_name:
+ - drt_registration_tag
+ - PDRT_REGISTRATION
  - DRT_REGISTRATION
 ---
 
@@ -77,3 +79,4 @@ The application data associated with the key. The <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
+

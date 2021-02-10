@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
+ - tagTYMED
  - TYMED
 ---
 
@@ -115,3 +116,4 @@ During data transfer operations, a storage medium is specified. This medium must
 
 
 <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a>
+

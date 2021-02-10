@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIDevice4.ReclaimResources1
+ - IDXGIDevice4::ReclaimResources1
 ---
 
 # IDXGIDevice4::ReclaimResources1
@@ -91,3 +91,4 @@ To reclaim shared resources, call <b>ReclaimResources1</b> only on one of the sh
 
 
 <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a>
+

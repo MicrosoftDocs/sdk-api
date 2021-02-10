@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetNtmsObjectAttributeW
  - ntmsapi/GetNtmsObjectAttributeW
+ - GetNtmsObjectAttribute
+ - ntmsapi/GetNtmsObjectAttribute
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - GetNtmsObjectAttribute
- - GetNtmsObjectAttributeA
  - GetNtmsObjectAttributeW
+ - GetNtmsObjectAttribute
 ---
 
 # GetNtmsObjectAttributeW function
@@ -286,3 +287,4 @@ The following is the list of objects that require special access rights.
 
 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectattributea">SetNtmsObjectAttribute</a>
+

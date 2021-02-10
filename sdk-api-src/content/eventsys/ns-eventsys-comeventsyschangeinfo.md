@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
+ - __MIDL___MIDL_itf_eventsys_0000_0009_0001
  - COMEVENTSYSCHANGEINFO
 ---
 
@@ -83,3 +84,4 @@ This member is reserved.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange2">IEventObjectChange2</a>
+

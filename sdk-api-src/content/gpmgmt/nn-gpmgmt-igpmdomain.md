@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMDomain
- - GPMDomain
 ---
 
 # IGPMDomain interface
@@ -103,3 +102,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMDomain</b> interface inhe
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
+

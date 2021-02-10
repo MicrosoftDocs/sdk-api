@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.GetSelection
+ - ITfContext::GetSelection
 ---
 
 # ITfContext::GetSelection
@@ -182,3 +182,4 @@ if(SUCCEEDED(hr) && (uFetched > 0))
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [TF_SELECTION structure](ns-msctf-tf_selection.md), [ITfContext::SetSelection](nf-msctf-itfcontext-setselection.md)
+

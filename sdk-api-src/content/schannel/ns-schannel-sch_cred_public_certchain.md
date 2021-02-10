@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
+ - _SCH_CRED_PUBLIC_CERTCHAIN
+ - PSCH_CRED_PUBLIC_CERTCHAIN
  - SCH_CRED_PUBLIC_CERTCHAIN
 ---
 
@@ -75,3 +77,4 @@ Pointer to an X.509 leaf certificate.
 ## -remarks
 
 This structure does not directly support certificate chains. If a server needs to use certificate chains, the intermediate certificates can be placed in the <a href="/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA) <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> and Schannel will automatically pick them up from there.
+

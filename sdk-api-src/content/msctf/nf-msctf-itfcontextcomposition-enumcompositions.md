@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfContextComposition.EnumCompositions
+ - ITfContextComposition::EnumCompositions
 ---
 
 # ITfContextComposition::EnumCompositions
@@ -127,3 +127,4 @@ The context object is not on a document stack.
 ## -see-also
 
 [IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md)
+

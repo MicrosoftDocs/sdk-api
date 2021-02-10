@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingQueue.Blocked
- - IFaxIncomingQueue.get_Blocked
- - IFaxIncomingQueue.put_Blocked
+ - IFaxIncomingQueue::get_Blocked
 ---
 
 # IFaxIncomingQueue::get_Blocked
@@ -69,3 +67,4 @@ If this property is equal to <b>TRUE</b>, the inbound job queue is blocked and t
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingqueue">IFaxIncomingQueue</a>
+

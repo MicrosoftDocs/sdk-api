@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.Outline
+ - GraphicsPath::Outline
 ---
 
 # GraphicsPath::Outline
@@ -151,3 +151,4 @@ VOID OutlineExample(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

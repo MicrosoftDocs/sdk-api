@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPErrorItem.get_errorContext
+ - IWMPErrorItem::get_errorContext
 ---
 
 # IWMPErrorItem::get_errorContext
@@ -89,3 +89,4 @@ The error context is information that is used by Microsoft to provide additional
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>
+

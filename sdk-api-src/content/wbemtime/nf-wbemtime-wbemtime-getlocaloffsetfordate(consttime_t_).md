@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.GetLocalOffsetForDate
+ - WBEMTime::GetLocalOffsetForDate
 ---
 
 # WBEMTime::GetLocalOffsetForDate(const time_t &)
@@ -79,3 +79,4 @@ Returns the offset in minutes (+ or -) between GMT and local time for the time s
 ## -remarks
 
 These are public static functions which permit their usage anywhere without having a <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object.
+

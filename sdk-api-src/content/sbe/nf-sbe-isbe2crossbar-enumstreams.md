@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2Crossbar.EnumStreams
+ - ISBE2Crossbar::EnumStreams
 ---
 
 # ISBE2Crossbar::EnumStreams
@@ -116,3 +116,4 @@ No streams found.
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
+

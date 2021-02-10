@@ -46,11 +46,9 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - IMAGE_OPTIONAL_HEADER
- - IMAGE_OPTIONAL_HEADER32
+ - _IMAGE_OPTIONAL_HEADER
  - PIMAGE_OPTIONAL_HEADER32
- - IMAGE_OPTIONAL_HEADER64
- - PIMAGE_OPTIONAL_HEADER64
+ - IMAGE_OPTIONAL_HEADER32
 ---
 
 # IMAGE_OPTIONAL_HEADER32 structure
@@ -824,3 +822,4 @@ typedef struct _IMAGE_OPTIONAL_HEADER64 {
 
 
 <a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
+

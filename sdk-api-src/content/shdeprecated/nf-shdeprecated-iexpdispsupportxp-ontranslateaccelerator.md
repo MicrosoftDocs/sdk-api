@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shdeprecated.h
 api_name:
- - IExpDispSupportXP.OnTranslateAccelerator
+ - IExpDispSupportXP::OnTranslateAccelerator
 ---
 
 # IExpDispSupportXP::OnTranslateAccelerator
@@ -71,3 +71,4 @@ Specifies the flags describing the state of the Control, Alt, and Shift keys. Th
 Type: <b>HRESULT</b>
 
 Returns <b>E_NOTIMPL</b>.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart.GetLocalId
+ - IPart::GetLocalId
 ---
 
 # IPart::GetLocalId
@@ -120,3 +120,4 @@ For code examples that use the <b>GetLocalId</b> method, see the following topic
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
+

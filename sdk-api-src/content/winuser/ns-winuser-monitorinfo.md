@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagMONITORINFO
+ - LPMONITORINFO
  - MONITORINFO
 ---
 
@@ -114,3 +116,4 @@ The following flag is defined.
 
 
 <a href="/windows/desktop/gdi/multiple-display-monitors-structures">Multiple Display Monitors Structures</a>
+

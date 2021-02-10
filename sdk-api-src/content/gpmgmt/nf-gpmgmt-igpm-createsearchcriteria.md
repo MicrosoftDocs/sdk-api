@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM.CreateSearchCriteria
- - GPM.CreateSearchCriteria
+ - IGPM::CreateSearchCriteria
 ---
 
 # IGPM::CreateSearchCriteria
@@ -78,3 +77,4 @@ Returns a reference to a <b>GPMSearchCriteria</b> object.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
+

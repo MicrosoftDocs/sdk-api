@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwProduct.RuleCategories
- - INetFwProduct.get_RuleCategories
- - INetFwProduct.put_RuleCategories
+ - INetFwProduct::put_RuleCategories
 ---
 
 # INetFwProduct::put_RuleCategories
@@ -64,3 +62,4 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_category">NET_FW_RULE_CATEGORY</a>
+

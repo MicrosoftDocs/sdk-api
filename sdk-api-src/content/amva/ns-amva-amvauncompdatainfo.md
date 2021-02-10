@@ -46,6 +46,8 @@ api_type:
 api_location:
  - amva.h
 api_name:
+ - _tag_AMVAUncompDataInfo
+ - LPAMVAUncompDataInfo
  - AMVAUncompDataInfo
 ---
 
@@ -77,3 +79,4 @@ A <b>DDPIXELFORMAT</b> structure that specifies the pixel format of the uncompre
 
 
 <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getcompbufferinfo">IAMVideoAccelerator::GetCompBufferInfo</a>
+

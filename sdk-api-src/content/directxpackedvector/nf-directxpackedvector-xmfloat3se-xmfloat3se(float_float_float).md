@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3SE.XMFLOAT3SE
+ - XMFLOAT3SE::XMFLOAT3SE
 ---
 
 # XMFLOAT3SE::XMFLOAT3SE(float,float,float)
@@ -109,3 +109,4 @@ Because of the change in floating point format during the instantiation of an in
 
 
 <a href="/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>
+

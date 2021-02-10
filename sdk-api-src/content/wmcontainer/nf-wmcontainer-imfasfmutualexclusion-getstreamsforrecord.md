@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.GetStreamsForRecord
+ - IMFASFMutualExclusion::GetStreamsForRecord
 ---
 
 # IMFASFMutualExclusion::GetStreamsForRecord
@@ -96,3 +96,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
+

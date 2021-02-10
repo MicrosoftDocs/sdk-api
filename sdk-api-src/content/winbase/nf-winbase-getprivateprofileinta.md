@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetPrivateProfileIntA
  - winbase/GetPrivateProfileIntA
+ - GetPrivateProfileInt
+ - winbase/GetPrivateProfileInt
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-Privateprofile-l1-1-1.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GetPrivateProfileInt
  - GetPrivateProfileIntA
- - GetPrivateProfileIntW
+ - GetPrivateProfileInt
 ---
 
 # GetPrivateProfileIntA function
@@ -137,3 +138,4 @@ When looking at values in the registry that specify other registry locations, th
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
+

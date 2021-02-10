@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfComposition.EndComposition
+ - ITfComposition::EndComposition
 ---
 
 # ITfComposition::EndComposition
@@ -118,3 +118,4 @@ This method causes the GUID_PROP_COMPOSING property to be removed from the text 
 ## -see-also
 
 [ITfContextOwnerCompositionServices::TerminateComposition](nf-msctf-itfcontextownercompositionservices-terminatecomposition.md), [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md)
+

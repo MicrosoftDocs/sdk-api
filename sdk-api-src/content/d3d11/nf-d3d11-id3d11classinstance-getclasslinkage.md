@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11ClassInstance.GetClassLinkage
+ - ID3D11ClassInstance::GetClassLinkage
 ---
 
 # ID3D11ClassInstance::GetClassLinkage
@@ -72,3 +72,4 @@ For more information about using the <a href="/windows/desktop/api/d3d11/nn-d3d1
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tspubplugin2com.h
 api_name:
- - ItsPubPlugin2.GetResource2
+ - ItsPubPlugin2::GetResource2
 ---
 
 # ItsPubPlugin2::GetResource2
@@ -73,3 +73,4 @@ This method must always  return <b>E_NOTIMPL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/tspubplugin2com/nn-tspubplugin2com-itspubplugin2">ItsPubPlugin2</a>
+

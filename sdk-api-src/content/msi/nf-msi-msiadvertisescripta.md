@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiAdvertiseScriptA
  - msi/MsiAdvertiseScriptA
+ - MsiAdvertiseScript
+ - msi/MsiAdvertiseScript
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiAdvertiseScript
  - MsiAdvertiseScriptA
- - MsiAdvertiseScriptW
+ - MsiAdvertiseScript
 ---
 
 # MsiAdvertiseScriptA function
@@ -271,3 +272,4 @@ The process calling this function must be running under the LocalSystem account.
 ## -see-also
 
 <a href="/windows/desktop/Msi/installation-context">Installation Context</a>
+

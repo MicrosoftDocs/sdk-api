@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller.IsForced
- - IUpdateInstaller.get_IsForced
- - IUpdateInstaller.put_IsForced
+ - IUpdateInstaller::put_IsForced
 ---
 
 # IUpdateInstaller::put_IsForced
@@ -67,3 +65,4 @@ Before you use <b>IsForced</b> to force an installation, determine whether the u
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDVSplitter.DiscardAlternateVideoFrames
+ - IDVSplitter::DiscardAlternateVideoFrames
 ---
 
 # IDVSplitter::DiscardAlternateVideoFrames
@@ -99,3 +99,4 @@ Filter is paused or running.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvsplitter">IDVSplitter Interface</a>
+

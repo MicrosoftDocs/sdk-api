@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
+ - _ONEX_AUTH_STATUS
  - ONEX_AUTH_STATUS
 ---
 
@@ -105,3 +106,4 @@ The <b>ONEX_AUTH_STATUS</b> specifies the possible values for the 802.1X authent
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
+

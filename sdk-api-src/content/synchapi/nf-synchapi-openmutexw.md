@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OpenMutexW
  - synchapi/OpenMutexW
+ - OpenMutex
+ - synchapi/OpenMutex
 dev_langs:
  - c++
 topic_type:
@@ -54,9 +56,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - OpenMutex
- - OpenMutexA
  - OpenMutexW
+ - OpenMutex
 ---
 
 # OpenMutexW function
@@ -151,3 +152,4 @@ For an example that uses
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

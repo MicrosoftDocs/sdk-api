@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellMenu.SetMenuToolbar
+ - IShellMenu::SetMenuToolbar
 ---
 
 # IShellMenu::SetMenuToolbar
@@ -90,3 +90,4 @@ The Menuband does not own the non-ref counted object.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

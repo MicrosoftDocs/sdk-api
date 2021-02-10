@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetConnectionBandwidth
+ - IWMReaderNetworkConfig::GetConnectionBandwidth
 ---
 
 # IWMReaderNetworkConfig::GetConnectionBandwidth
@@ -107,3 +107,4 @@ If you want to determine the connection bandwidth before receiving a sample, use
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setconnectionbandwidth">IWMReaderNetworkConfig::SetConnectionBandwidth</a>
+

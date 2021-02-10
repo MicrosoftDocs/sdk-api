@@ -43,6 +43,8 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
+ - _STORAGE_ADAPTER_SERIAL_NUMBER
+ - PSTORAGE_ADAPTER_SERIAL_NUMBER
  - STORAGE_ADAPTER_SERIAL_NUMBER
 ---
 

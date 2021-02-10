@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IRawCDImageCreator.get_MediaCatalogNumber
+ - IRawCDImageCreator::get_MediaCatalogNumber
 ---
 
 # IRawCDImageCreator::get_MediaCatalogNumber
@@ -77,3 +77,4 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_mediacatalognumber">IRawCDImageCreator::put_MediaCatalogNumber</a>
+

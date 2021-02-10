@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WRDS_LISTENER_SETTINGS
+ - PWRDS_LISTENER_SETTINGS
  - WRDS_LISTENER_SETTINGS
 ---
 
@@ -71,5 +73,4 @@ The structure is a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listene
 ### -field WRdsListenerSetting
 
 A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_setting">WRDS_LISTENER_SETTING</a> structure that specifies the listener settings.
-
 

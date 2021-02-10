@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioenginebaseapo.h
 api_name:
- - IAudioSystemEffectsCustomFormats.GetFormatCount
+ - IAudioSystemEffectsCustomFormats::GetFormatCount
 ---
 
 # IAudioSystemEffectsCustomFormats::GetFormatCount
@@ -69,3 +69,4 @@ For more information about sAPOs, see <a href="/windows-hardware/drivers/audio/t
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/system-effects-audio-processing-objects">System Effects Audio Processing Objects</a>
+

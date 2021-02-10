@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
+ - _ONEX_AUTH_IDENTITY
  - ONEX_AUTH_IDENTITY
 ---
 
@@ -115,3 +116,4 @@ If the <b>fOneXAuthParams</b> member in the <a href="/windows/desktop/api/dot1x/
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
+

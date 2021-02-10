@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced2.GetInputSetting
+ - IWMWriterAdvanced2::GetInputSetting
 ---
 
 # IWMWriterAdvanced2::GetInputSetting
@@ -144,3 +144,4 @@ You should make two calls to <b>GetInputSetting</b> for each setting you want to
 
 
 <a href="/windows/desktop/wmformat/to-set-input-settings">To Set Input Settings</a>
+

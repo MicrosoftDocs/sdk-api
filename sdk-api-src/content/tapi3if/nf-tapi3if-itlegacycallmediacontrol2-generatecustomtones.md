@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.GenerateCustomTones
+ - ITLegacyCallMediaControl2::GenerateCustomTones
 ---
 
 # ITLegacyCallMediaControl2::GenerateCustomTones
@@ -87,3 +87,4 @@ This method translates to a call to the TAPI 2.<i>x</i>
 
 
 <a href="/windows/desktop/api/tapi3if/ns-tapi3if-tapi_customtone">TAPI_CUSTOMTONE</a>
+

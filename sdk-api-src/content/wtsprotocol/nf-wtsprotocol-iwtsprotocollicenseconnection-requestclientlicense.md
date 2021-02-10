@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolLicenseConnection.RequestClientLicense
+ - IWTSProtocolLicenseConnection::RequestClientLicense
 ---
 
 # IWTSProtocolLicenseConnection::RequestClientLicense
@@ -83,3 +83,4 @@ For more information about the byte arrays exchanged in this call, see <a href="
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollicenseconnection">IWTSProtocolLicenseConnection</a>
+

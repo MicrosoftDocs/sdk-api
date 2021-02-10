@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiExtractPatchXMLDataW
  - msi/MsiExtractPatchXMLDataW
+ - MsiExtractPatchXMLData
+ - msi/MsiExtractPatchXMLData
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiExtractPatchXMLData
- - MsiExtractPatchXMLDataA
  - MsiExtractPatchXMLDataW
+ - MsiExtractPatchXMLData
 ---
 
 # MsiExtractPatchXMLDataW function
@@ -188,3 +189,4 @@ The <a href="/windows/desktop/Msi/installer-extractpatchxmldata">ExtractPatchXML
 
 
 <a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+

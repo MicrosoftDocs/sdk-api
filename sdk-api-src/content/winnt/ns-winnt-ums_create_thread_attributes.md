@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _UMS_CREATE_THREAD_ATTRIBUTES
+ - PUMS_CREATE_THREAD_ATTRIBUTES
  - UMS_CREATE_THREAD_ATTRIBUTES
 ---
 
@@ -71,3 +73,4 @@ A pointer to a UMS thread context for the worker thread to be created. This poin
 ### -field UmsCompletionList
 
 A pointer to a UMS completion list. This pointer is provided by the <a href="/windows/desktop/api/winbase/nf-winbase-createumscompletionlist">CreateUmsCompletionList</a> function. The newly created worker thread is queued to the specified completion list.
+

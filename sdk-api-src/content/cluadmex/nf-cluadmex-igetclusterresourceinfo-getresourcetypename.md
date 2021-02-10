@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterResourceInfo.GetResourceTypeName
+ - IGetClusterResourceInfo::GetResourceTypeName
 ---
 
 # IGetClusterResourceInfo::GetResourceTypeName
@@ -137,3 +137,4 @@ The buffer pointed to by <i>lpResTypeName</i> is too small to hold the requested
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsNameTranslate.Get
+ - IADsNameTranslate::Get
 ---
 
 # IADsNameTranslate::Get
@@ -165,3 +165,4 @@ The following VBScript/ASP code example shows how to translate a distinguished n
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
+

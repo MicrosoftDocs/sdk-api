@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionContext.CreateInstance
+ - ITransactionContext::CreateInstance
 ---
 
 # ITransactionContext::CreateInstance
@@ -73,3 +73,4 @@ If the Microsoft Distributed Transaction Coordinator is not running and the obje
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>
+

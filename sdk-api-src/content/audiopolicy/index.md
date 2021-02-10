@@ -9,6 +9,8 @@ tech.root: coreaudio
 f1_keywords:
  - audiopolicy
  - audiopolicy/audiopolicy
+api_name:
+ - audiopolicy
 ---
 
 # Audiopolicy.h header

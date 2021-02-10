@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dpapi.h
 api_name:
+ - _CRYPTOAPI_BLOB
+ - PCRYPT_INTEGER_BLOB
  - CRYPT_INTEGER_BLOB
 ---
 
@@ -101,3 +103,4 @@ A pointer to a block of data bytes.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
+

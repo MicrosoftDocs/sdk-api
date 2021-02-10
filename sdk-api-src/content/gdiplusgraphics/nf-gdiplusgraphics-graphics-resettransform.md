@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.ResetTransform
+ - Graphics::ResetTransform
 ---
 
 # Graphics::ResetTransform
@@ -139,3 +139,4 @@ VOID Example_ResetTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

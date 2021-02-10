@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPinEvents.OnDisableComplete
+ - IMbnPinEvents::OnDisableComplete
 ---
 
 # IMbnPinEvents::OnDisableComplete
@@ -169,3 +169,4 @@ If repeated attempts with the wrong PIN causes <b>attemptsRemaining</b> to becom
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents">IMbnPinEvents</a>
+

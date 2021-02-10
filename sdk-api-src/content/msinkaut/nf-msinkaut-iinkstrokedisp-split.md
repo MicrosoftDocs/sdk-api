@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.Split
+ - IInkStrokeDisp::Split
 ---
 
 # IInkStrokeDisp::Split
@@ -152,3 +152,4 @@ When an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkS
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+

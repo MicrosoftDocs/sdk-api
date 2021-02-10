@@ -9,6 +9,8 @@ tech.root: eaphost
 f1_keywords:
  - eapauthenticatoractiondefine
  - eapauthenticatoractiondefine/eapauthenticatoractiondefine
+api_name:
+ - eapauthenticatoractiondefine
 ---
 
 # Eapauthenticatoractiondefine.h header

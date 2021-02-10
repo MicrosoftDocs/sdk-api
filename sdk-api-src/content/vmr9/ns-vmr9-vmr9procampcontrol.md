@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - _VMR9ProcAmpControl
  - VMR9ProcAmpControl
 ---
 
@@ -87,3 +88,4 @@ The valid range of values for each property depends on the graphics device drive
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
+ - _APTTYPEQUALIFIER
  - APTTYPEQUALIFIER
 ---
 
@@ -87,3 +88,4 @@ This qualifier is only valid when the <i>pAptType</i> parameter of the <a href="
 ## -see-also
 
 <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype">CoGetApartmentType</a>
+

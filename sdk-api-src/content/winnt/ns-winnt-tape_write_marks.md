@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TAPE_WRITE_MARKS
+ - PTAPE_WRITE_MARKS
  - TAPE_WRITE_MARKS
 ---
 

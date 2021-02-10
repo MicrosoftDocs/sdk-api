@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSink.GetStreamSinkCount
+ - IMFMediaSink::GetStreamSinkCount
 ---
 
 # IMFMediaSink::GetStreamSinkCount
@@ -99,3 +99,4 @@ The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutd
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
+

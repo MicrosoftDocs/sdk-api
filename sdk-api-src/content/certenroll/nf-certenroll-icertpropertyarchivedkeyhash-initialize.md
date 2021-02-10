@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyArchivedKeyHash.Initialize
+ - ICertPropertyArchivedKeyHash::Initialize
 ---
 
 # ICertPropertyArchivedKeyHash::Initialize
@@ -102,3 +102,4 @@ The object is already initialized.
 
 
 <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_keyarchivalcertificate">KeyArchivalCertificate</a>
+

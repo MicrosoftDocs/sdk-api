@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmuse.h
 api_name:
+ - _USE_INFO_2
+ - PUSE_INFO_2
  - USE_INFO_2
 ---
 
@@ -287,3 +289,4 @@ Specifying a <b>ui2_local</b> member that is <b>NULL</b> requests authentication
 
 
 <a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>
+

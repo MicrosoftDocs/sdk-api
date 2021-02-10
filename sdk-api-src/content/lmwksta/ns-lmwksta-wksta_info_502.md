@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmwksta.h
 api_name:
+ - _WKSTA_INFO_502
+ - PWKSTA_INFO_502
  - WKSTA_INFO_502
 ---
 
@@ -288,3 +290,4 @@ Reserved.
 
 
 <a href="/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
+

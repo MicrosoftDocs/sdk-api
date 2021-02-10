@@ -45,6 +45,7 @@ api_location:
  - dxmini.h
 api_name:
  - DDVIDEOPORTDATA
+ - LPDDVIDEOPORTDATA
 ---
 
 # DDVIDEOPORTDATA structure
@@ -258,3 +259,4 @@ Reserved for use by the miniport driver.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>
+

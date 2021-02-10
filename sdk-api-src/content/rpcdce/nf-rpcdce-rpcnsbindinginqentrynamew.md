@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsBindingInqEntryNameW
  - rpcdce/RpcNsBindingInqEntryNameW
+ - RpcNsBindingInqEntryName
+ - rpcdce/RpcNsBindingInqEntryName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcNsBindingInqEntryName
- - RpcNsBindingInqEntryNameA
  - RpcNsBindingInqEntryNameW
+ - RpcNsBindingInqEntryName
 ---
 
 # RpcNsBindingInqEntryNameW function
@@ -207,3 +208,4 @@ If the binding handle specified in the <i>Binding</i> parameter was not returned
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

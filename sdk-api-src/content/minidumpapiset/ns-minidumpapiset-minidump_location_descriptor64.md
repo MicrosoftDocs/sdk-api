@@ -44,7 +44,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - MINIDUMP_LOCATION_DESCRIPTOR
+ - _MINIDUMP_LOCATION_DESCRIPTOR64
+ - MINIDUMP_LOCATION_DESCRIPTOR64
 ---
 
 # MINIDUMP_LOCATION_DESCRIPTOR64 structure
@@ -90,3 +91,4 @@ typedef struct _MINIDUMP_LOCATION_DESCRIPTOR64 {
 
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
+

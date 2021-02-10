@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - ShellAboutA
  - shellapi/ShellAboutA
+ - ShellAbout
+ - shellapi/ShellAbout
 dev_langs:
  - c++
 topic_type:
@@ -42,10 +45,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ShellAbout
  - ShellAboutA
- - ShellAboutW
-req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
+ - ShellAbout
 ---
 
 # ShellAboutA function

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - _DS_REPL_OPW_BLOB
  - DS_REPL_OPW_BLOB
 ---
 
@@ -149,3 +150,4 @@ Contains the <b>objectGuid</b> of the directory system agent object identified b
 
 
 <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
+

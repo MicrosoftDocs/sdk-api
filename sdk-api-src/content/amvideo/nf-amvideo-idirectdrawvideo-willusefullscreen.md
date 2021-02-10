@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo.WillUseFullScreen
+ - IDirectDrawVideo::WillUseFullScreen
 ---
 
 # IDirectDrawVideo::WillUseFullScreen
@@ -74,3 +74,4 @@ For a description of this feature, see <a href="/previous-versions/ms785118(v=vs
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
+

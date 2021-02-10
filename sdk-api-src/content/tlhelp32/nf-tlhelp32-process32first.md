@@ -50,8 +50,6 @@ api_location:
  - API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
  - Process32First
- - Process32First
- - Process32FirstW
 ---
 
 # Process32First function
@@ -114,3 +112,4 @@ For an example, see
 
 
 <a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
+

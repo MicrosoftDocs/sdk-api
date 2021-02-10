@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_TIMESTAMP_CONTEXT
+ - PCRYPT_TIMESTAMP_CONTEXT
  - CRYPT_TIMESTAMP_CONTEXT
 ---
 
@@ -69,3 +71,4 @@ A pointer to a buffer that contains an <a href="/windows/desktop/SecGloss/a-gly"
 ### -field pTimeStamp
 
 A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure that contains a signed data content type in Cryptographic Message Syntax (CMS) format.
+

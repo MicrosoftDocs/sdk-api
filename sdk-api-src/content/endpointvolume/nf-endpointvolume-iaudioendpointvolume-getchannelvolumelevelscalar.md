@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.GetChannelVolumeLevelScalar
+ - IAudioEndpointVolume::GetChannelVolumeLevelScalar
 ---
 
 # IAudioEndpointVolume::GetChannelVolumeLevelScalar
@@ -108,3 +108,4 @@ The normalized volume levels that are retrieved by this method are suitable to r
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelcount">IAudioEndpointVolume::GetChannelCount</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWROW.Skip
- - IEnumCERTVIEWROW.Skip
+ - IEnumCERTVIEWROW::Skip
 ---
 
 # IEnumCERTVIEWROW::Skip
@@ -151,3 +150,4 @@ if (NULL != pEnumRow)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-reset">IEnumCERTVIEWROW::Reset</a>
+

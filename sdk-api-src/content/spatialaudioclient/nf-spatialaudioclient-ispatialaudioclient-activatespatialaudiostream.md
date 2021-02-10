@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioClient.ActivateSpatialAudioStream
+ - ISpatialAudioClient::ActivateSpatialAudioStream
 ---
 
 # ISpatialAudioClient::ActivateSpatialAudioStream
@@ -128,3 +128,4 @@ hr = spatialAudioClient->ActivateSpatialAudioStream(&activationParams, __uuidof(
 
 
 <a href="/windows/desktop/api/spatialaudiometadata/ns-spatialaudiometadata-spatialaudioobjectrenderstreamformetadataactivationparams">SpatialAudioObjectRenderStreamForMetadataActivationParams</a>
+

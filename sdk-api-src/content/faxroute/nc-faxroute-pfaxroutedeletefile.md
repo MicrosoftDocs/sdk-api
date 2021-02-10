@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FaxRoute.h
 api_name:
- - FaxRouteDeleteFile
+ - PFAXROUTEDELETEFILE
 ---
 
 # PFAXROUTEDELETEFILE callback function
@@ -108,3 +108,4 @@ The <b>PFAXROUTEDELETEFILE</b> data type defines a pointer to a <i>FaxRouteDelet
 
 
 <a href="/previous-versions/windows/desktop/api/faxroute/nf-faxroute-faxrouteinitialize">FaxRouteInitialize</a>
+

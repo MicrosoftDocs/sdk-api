@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
+ - tACMDRIVERDETAILS
+ - PACMDRIVERDETAILS
  - ACMDRIVERDETAILS
 ---
 
@@ -214,3 +216,4 @@ Null-terminated string that provides special feature information for the driver.
 
 
 <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
+

@@ -9,6 +9,8 @@ tech.root: mschap
 f1_keywords:
  - mschapp
  - mschapp/mschapp
+api_name:
+ - mschapp
 ---
 
 # Mschapp.h header

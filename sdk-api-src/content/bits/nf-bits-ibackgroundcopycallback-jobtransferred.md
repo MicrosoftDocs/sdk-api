@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bits.h
 api_name:
- - IBackgroundCopyCallback.JobTransferred
+ - IBackgroundCopyCallback::JobTransferred
 ---
 
 # IBackgroundCopyCallback::JobTransferred
@@ -107,3 +107,4 @@ See the example code for the
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a>
+

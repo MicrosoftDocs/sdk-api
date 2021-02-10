@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmPipelineModuleType
  - FsrmPipelineModuleType
 ---
 
@@ -85,3 +86,4 @@ The module is a classifier module. A classifier module assigns property values t
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduledefinition-get_moduletype">IFsrmPipelineModuleDefinition.ModuleType</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT_IKEEXT_EM_FAILURE1_
  - FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
 ---
 
@@ -141,3 +142,4 @@ Type of traffic for which the embedded quick mode was being negotiated.
 [IPSEC_TRAFFIC_TYPE](../ipsectypes/ne-ipsectypes-ipsec_traffic_type.md)
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhGetCounterInfoW
  - pdh/PdhGetCounterInfoW
+ - PdhGetCounterInfo
+ - pdh/PdhGetCounterInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhGetCounterInfo
- - PdhGetCounterInfoA
  - PdhGetCounterInfoW
+ - PdhGetCounterInfo
 ---
 
 # PdhGetCounterInfoW function
@@ -137,3 +138,4 @@ You should call this function twice, the first time to get the required buffer s
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/ns-pdh-pdh_counter_info_a">PDH_COUNTER_INFO</a>
+

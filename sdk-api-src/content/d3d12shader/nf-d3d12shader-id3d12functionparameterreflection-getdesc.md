@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
- - ID3D12FunctionParameterReflection.GetDesc
+ - ID3D12FunctionParameterReflection::GetDesc
 ---
 
 # ID3D12FunctionParameterReflection::GetDesc
@@ -69,3 +69,4 @@ Returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionparameterreflection">ID3D12FunctionParameterReflection</a>
+

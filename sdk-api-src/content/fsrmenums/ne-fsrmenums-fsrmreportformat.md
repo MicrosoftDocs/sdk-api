@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmReportFormat
  - FsrmReportFormat
 ---
 
@@ -83,3 +84,4 @@ The report is rendered in XML.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_formats">IFsrmReportJob::Formats</a>
+

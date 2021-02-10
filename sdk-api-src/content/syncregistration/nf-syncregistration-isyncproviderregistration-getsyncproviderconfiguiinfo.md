@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration.GetSyncProviderConfigUIInfo
+ - ISyncProviderRegistration::GetSyncProviderConfigUIInfo
 ---
 
 # ISyncProviderRegistration::GetSyncProviderConfigUIInfo
@@ -128,3 +128,4 @@ This method is used to get and set the configuration UI properties for the speci
 
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
+

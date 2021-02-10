@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - winsock
  - winsock/winsock
+api_name:
+ - winsock
 ---
 
 # Winsock.h header

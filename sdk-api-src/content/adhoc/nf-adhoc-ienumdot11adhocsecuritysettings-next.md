@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IEnumDot11AdHocSecuritySettings.Next
+ - IEnumDot11AdHocSecuritySettings::Next
 ---
 
 # IEnumDot11AdHocSecuritySettings::Next
@@ -146,3 +146,4 @@ A pointer passed as a parameter is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>
+

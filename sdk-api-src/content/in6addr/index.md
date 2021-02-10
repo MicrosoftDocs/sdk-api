@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - in6addr
  - in6addr/in6addr
+api_name:
+ - in6addr
 ---
 
 # In6Addr.h header

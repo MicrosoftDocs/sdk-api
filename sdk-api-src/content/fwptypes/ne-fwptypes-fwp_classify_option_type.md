@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
+ - FWP_CLASSIFY_OPTION_TYPE_
  - FWP_CLASSIFY_OPTION_TYPE
 ---
 
@@ -124,3 +125,4 @@ Maximum value for testing purposes.
 ## -see-also
 
 [FWPM_CLASSIFY_OPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0)
+

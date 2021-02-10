@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMonitorConfig.GetMonitor
+ - IVMRMonitorConfig::GetMonitor
 ---
 
 # IVMRMonitorConfig::GetMonitor
@@ -118,3 +118,4 @@ The allocator-presenter has not been loaded.
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSms.SmsSendCdmaPdu
+ - IMbnSms::SmsSendCdmaPdu
 ---
 
 # IMbnSms::SmsSendCdmaPdu
@@ -157,3 +157,4 @@ This is an asynchronous operation and method call will return immediately. If me
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a>
+

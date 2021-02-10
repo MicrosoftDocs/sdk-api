@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ISearchJob.RequestAbort
+ - ISearchJob::RequestAbort
 ---
 
 # ISearchJob::RequestAbort
@@ -61,3 +61,4 @@ Returns <b>S_OK</b> if successful. Otherwise, returns  a COM or Windows error co
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
+

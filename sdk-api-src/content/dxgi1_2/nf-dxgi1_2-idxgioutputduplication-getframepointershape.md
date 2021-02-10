@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutputDuplication.GetFramePointerShape
+ - IDXGIOutputDuplication::GetFramePointerShape
 ---
 
 # IDXGIOutputDuplication::GetFramePointerShape
@@ -103,3 +103,4 @@ The <i>pPointerShapeInfo</i> parameter describes the new pointer shape.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
+

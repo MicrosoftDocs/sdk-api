@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectPass.GetDesc
+ - ID3D10EffectPass::GetDesc
 ---
 
 # ID3D10EffectPass::GetDesc
@@ -77,3 +77,4 @@ A pass is a block of code that sets render state and shaders (which in turn sets
 
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectpass">ID3D10EffectPass</a>
+

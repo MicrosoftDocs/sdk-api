@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
+ - _FsrmQuotaFlags
  - FsrmQuotaFlags
 ---
 
@@ -90,3 +91,4 @@ You can set the <b>FsrmQuotaFlags_Enforce</b> and
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotabase-get_quotaflags">IFsrmQuotaBase::QuotaFlags</a>
+

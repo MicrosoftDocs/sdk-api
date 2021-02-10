@@ -9,6 +9,8 @@ tech.root: menurc
 f1_keywords:
  - resourceindexer
  - resourceindexer/resourceindexer
+api_name:
+ - resourceindexer
 ---
 
 # Resourceindexer.h header

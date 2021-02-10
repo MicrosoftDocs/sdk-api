@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FaxConnectFaxServerA
  - winfax/FaxConnectFaxServerA
+ - FaxConnectFaxServer
+ - winfax/FaxConnectFaxServer
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxConnectFaxServer
  - FaxConnectFaxServerA
- - FaxConnectFaxServerW
+ - FaxConnectFaxServer
 ---
 
 # FaxConnectFaxServerA function
@@ -143,3 +144,4 @@ The fax client application must call the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a>
+

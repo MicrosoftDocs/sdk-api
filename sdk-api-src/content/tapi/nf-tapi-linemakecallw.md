@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineMakeCallW
  - tapi/lineMakeCallW
+ - lineMakeCall
+ - tapi/lineMakeCall
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineMakeCall
- - lineMakeCallA
  - lineMakeCallW
+ - lineMakeCall
 ---
 
 # lineMakeCallW function
@@ -164,3 +165,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
+

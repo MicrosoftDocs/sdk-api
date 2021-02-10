@@ -46,6 +46,8 @@ api_type:
 api_location:
  - SRRestorePtAPI.h
 api_name:
+ - _SMGRSTATUS
+ - PSTATEMGRSTATUS
  - STATEMGRSTATUS
 ---
 
@@ -109,3 +111,4 @@ The following table lists the status codes returned in the <b>nStatus</b> member
 ## -see-also
 
 <a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
+

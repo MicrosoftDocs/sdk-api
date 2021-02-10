@@ -43,7 +43,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsBackLink
- - BackLink
 ---
 
 # IADsBackLink interface
@@ -60,3 +59,4 @@ The <b>IADsBackLink</b> interface provides methods for an ADSI client to access 
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

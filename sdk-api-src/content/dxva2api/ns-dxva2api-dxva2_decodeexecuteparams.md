@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_DecodeExecuteParams
  - DXVA2_DecodeExecuteParams
 ---
 
@@ -75,3 +76,4 @@ Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeexte
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

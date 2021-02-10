@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice.Capabilities
+ - IPortableDevice::Capabilities
 ---
 
 # IPortableDevice::Capabilities
@@ -104,3 +104,4 @@ The <i>ppCapabilities</i> argument was a <b>NULL</b> pointer.
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-the-rendering-capabilities-supported-by-a-device">Retrieving the Rendering Capabilities Supported by a Device</a>
+

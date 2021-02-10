@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Documenttarget.h
 api_name:
- - IPrintDocumentPackageTarget.GetPackageTargetTypes
+ - IPrintDocumentPackageTarget::GetPackageTargetTypes
 ---
 
 # IPrintDocumentPackageTarget::GetPackageTargetTypes
@@ -73,3 +73,4 @@ In the case of a multi-format driver, the first GUID returned in the <i>targetTy
 ## -see-also
 
 <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
+

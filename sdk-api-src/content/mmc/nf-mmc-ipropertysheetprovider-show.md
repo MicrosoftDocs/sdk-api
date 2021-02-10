@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider.Show
+ - IPropertySheetProvider::Show
 ---
 
 # IPropertySheetProvider::Show
@@ -81,3 +81,4 @@ In situations in which the snap-in creates a property sheet in a call to <a href
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
+

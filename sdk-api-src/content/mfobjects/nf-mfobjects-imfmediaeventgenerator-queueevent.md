@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaEventGenerator.QueueEvent
+ - IMFMediaEventGenerator::QueueEvent
 ---
 
 # IMFMediaEventGenerator::QueueEvent
@@ -111,3 +111,4 @@ The object was shut down.
 
 
 <a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
+

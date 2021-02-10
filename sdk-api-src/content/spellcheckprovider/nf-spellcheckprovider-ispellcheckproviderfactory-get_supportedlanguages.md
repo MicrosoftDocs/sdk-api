@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProviderFactory.SupportedLanguages
- - ISpellCheckProviderFactory.get_SupportedLanguages
+ - ISpellCheckProviderFactory::get_SupportedLanguages
 ---
 
 # ISpellCheckProviderFactory::get_SupportedLanguages
@@ -72,3 +71,4 @@ The supported languages are specific, not neutral. For Hebrew, for example, the 
 
 
 <a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckproviderfactory">ISpellCheckProviderFactory</a>
+

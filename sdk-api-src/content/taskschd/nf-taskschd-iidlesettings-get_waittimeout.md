@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IIdleSettings.WaitTimeout
- - IIdleSettings.get_WaitTimeout
- - IIdleSettings.put_WaitTimeout
+ - IIdleSettings::get_WaitTimeout
 ---
 
 # IIdleSettings::get_WaitTimeout
@@ -71,3 +69,4 @@ If a task is triggered by an idle trigger, then the <b>WaitTimeout</b> property 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

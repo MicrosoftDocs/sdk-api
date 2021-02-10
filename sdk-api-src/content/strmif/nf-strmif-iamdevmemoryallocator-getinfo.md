@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMDevMemoryAllocator.GetInfo
+ - IAMDevMemoryAllocator::GetInfo
 ---
 
 # IAMDevMemoryAllocator::GetInfo
@@ -87,3 +87,4 @@ Use this method to find out the total amount of memory available. This method re
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
  - MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 ---
 
@@ -91,3 +92,4 @@ Array of <a href="/windows/win32/api/mfidl/ns-mfidl-mfinputtrustauthority_access
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - PHTTP_SERVICE_CONFIG_CACHE_SET
  - HTTP_SERVICE_CONFIG_CACHE_SET
 ---
 
@@ -67,3 +68,4 @@ Configuration cache parameter.
 ## -see-also
 
 <a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
+

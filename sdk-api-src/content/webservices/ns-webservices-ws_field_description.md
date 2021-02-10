@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_FIELD_DESCRIPTION
  - WS_FIELD_DESCRIPTION
 ---
 
@@ -153,3 +154,4 @@ The minimum and maximum number of repeating elements
             
 
 In other cases this field does not need to be specified (it can be <b>NULL</b>).
+

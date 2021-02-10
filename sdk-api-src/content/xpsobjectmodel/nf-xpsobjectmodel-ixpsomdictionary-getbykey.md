@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary.GetByKey
+ - IXpsOMDictionary::GetByKey
 ---
 
 # IXpsOMDictionary::GetByKey
@@ -85,3 +85,4 @@ The interface pointers stored in a dictionary will usually point to interfaces, 
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

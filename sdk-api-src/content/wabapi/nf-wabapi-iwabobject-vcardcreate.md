@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject.VCardCreate
+ - IWABObject::VCardCreate
 ---
 
 # IWABObject::VCardCreate
@@ -105,3 +105,4 @@ The complete file name must be specified. If the file already exists,
 
 
 <a href="/previous-versions/windows/desktop/wab/-wab-vcardprops">Importing and Exporting Named Properties Through vCards</a>
+

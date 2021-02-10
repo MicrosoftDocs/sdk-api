@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory.CreateDxgiSurfaceRenderTarget
+ - ID2D1Factory::CreateDxgiSurfaceRenderTarget
 ---
 
 ## -description
@@ -134,3 +134,4 @@ hr = m_pSwapChain->GetBuffer(
 <a href="/windows/win32/Direct2D/direct2d-and-direct3d-interoperation-overview">Direct2D and Direct3D Interoperability Overview</a>
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+

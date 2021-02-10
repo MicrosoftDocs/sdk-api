@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - AbortSystemShutdownW
  - winreg/AbortSystemShutdownW
+ - AbortSystemShutdown
+ - winreg/AbortSystemShutdown
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
  - API-MS-Win-Core-Shutdown-Ansi-L1-1-0.dll
 api_name:
- - AbortSystemShutdown
- - AbortSystemShutdownA
  - AbortSystemShutdownW
+ - AbortSystemShutdown
 ---
 
 # AbortSystemShutdownW function
@@ -114,3 +115,4 @@ For an example, see
 
 <a href="/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown
     Functions</a>
+

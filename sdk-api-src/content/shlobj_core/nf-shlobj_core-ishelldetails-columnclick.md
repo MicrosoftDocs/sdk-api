@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellDetails.ColumnClick
+ - IShellDetails::ColumnClick
 ---
 
 # IShellDetails::ColumnClick
@@ -80,3 +80,4 @@ For Windows 2000 and later systems, folder objects should implement <a href="/w
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">IShellDetails::GetDetailsOf</a>
+

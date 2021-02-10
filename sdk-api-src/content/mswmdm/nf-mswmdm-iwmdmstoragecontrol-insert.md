@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageControl.Insert
+ - IWMDMStorageControl::Insert
 ---
 
 # IWMDMStorageControl::Insert
@@ -193,3 +193,4 @@ If an application uses WMDM_MODE_THREAD and passes a non-<b>null</b><i>pProgress
 
 
 <a href="/windows/desktop/WMDM/writing-files-to-the-device">Writing Files to the Device</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - TimerProc
+ - TIMERPROC
 ---
 
 # TIMERPROC callback function
@@ -102,3 +102,4 @@ The number of milliseconds that have elapsed since the system was started. This 
 
 
 <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
+

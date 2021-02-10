@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocEntry.GetDescriptionData
+ - ITocEntry::GetDescriptionData
 ---
 
 # ITocEntry::GetDescriptionData
@@ -110,3 +110,4 @@ You can associate only one description data block with a given entry at a given 
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptiondata">SetDescriptionData</a>
+

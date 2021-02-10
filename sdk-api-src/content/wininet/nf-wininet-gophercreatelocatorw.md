@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GopherCreateLocatorW
  - wininet/GopherCreateLocatorW
+ - GopherCreateLocator
+ - wininet/GopherCreateLocator
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - GopherCreateLocator
- - GopherCreateLocatorA
  - GopherCreateLocatorW
+ - GopherCreateLocator
 ---
 
 # GopherCreateLocatorW function
@@ -123,3 +124,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 ## -see-also
 
 <a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
+

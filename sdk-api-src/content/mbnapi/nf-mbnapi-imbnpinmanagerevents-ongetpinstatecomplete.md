@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPinManagerEvents.OnGetPinStateComplete
+ - IMbnPinManagerEvents::OnGetPinStateComplete
 ---
 
 # IMbnPinManagerEvents::OnGetPinStateComplete
@@ -143,3 +143,4 @@ On successful completion, <i>pinInfo</i> contains information about PIN next exp
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents">IMbnPinManagerEvents</a>
+

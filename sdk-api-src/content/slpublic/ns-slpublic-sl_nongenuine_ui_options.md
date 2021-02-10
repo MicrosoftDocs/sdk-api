@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Slpublic.h
 api_name:
+ - _tagSL_NONGENUINE_UI_OPTIONS
  - SL_NONGENUINE_UI_OPTIONS
 ---
 
@@ -67,3 +68,4 @@ A pointer to an <b>SLID</b> structure that specifies an application that display
 ### -field hResultUI
 
 The return value that the <a href="/windows/desktop/api/slpublic/nf-slpublic-slisgenuinelocal">SLIsGenuineLocal</a> function returns when an installation is not genuine.
+

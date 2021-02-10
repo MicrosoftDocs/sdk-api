@@ -9,6 +9,8 @@ tech.root: bluetooth
 f1_keywords:
  - bluetoothapis
  - bluetoothapis/bluetoothapis
+api_name:
+ - bluetoothapis
 ---
 
 # Bluetoothapis.h header

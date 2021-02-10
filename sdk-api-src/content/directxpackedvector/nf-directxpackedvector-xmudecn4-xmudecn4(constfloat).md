@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUDECN4.XMUDECN4
+ - XMUDECN4::XMUDECN4
 ---
 
 # XMUDECN4::XMUDECN4(const float)
@@ -95,3 +95,4 @@ instance.v =  ( (uint32_t)_w1 << 30) |
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4">XMUDECN4</a>
 
 <a href="/windows/desktop/dxmath/xmudecn4-ctor">XMUDECN4 Constructors</a>
+

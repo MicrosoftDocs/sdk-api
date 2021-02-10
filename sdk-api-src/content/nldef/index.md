@@ -9,6 +9,8 @@ tech.root: iphlp
 f1_keywords:
  - nldef
  - nldef/nldef
+api_name:
+ - nldef
 ---
 
 # Nldef.h header

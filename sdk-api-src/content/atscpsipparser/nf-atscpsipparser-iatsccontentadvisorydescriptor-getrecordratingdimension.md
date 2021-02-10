@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IAtscContentAdvisoryDescriptor.GetRecordRatingDimension
+ - IAtscContentAdvisoryDescriptor::GetRecordRatingDimension
 ---
 
 # IAtscContentAdvisoryDescriptor::GetRecordRatingDimension
@@ -107,3 +107,4 @@ The <i>bIndexOuter</i> or <i>bIndexInner</i> parameter is out of bounds.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
+

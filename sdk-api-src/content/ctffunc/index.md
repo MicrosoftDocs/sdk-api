@@ -9,6 +9,8 @@ tech.root: tsf
 f1_keywords:
  - ctffunc
  - ctffunc/ctffunc
+api_name:
+ - ctffunc
 ---
 
 # Ctffunc.h header

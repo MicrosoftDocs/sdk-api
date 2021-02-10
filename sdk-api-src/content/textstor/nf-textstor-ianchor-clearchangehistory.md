@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IAnchor.ClearChangeHistory
+ - IAnchor::ClearChangeHistory
 ---
 
 # IAnchor::ClearChangeHistory
@@ -88,3 +88,4 @@ Applications should clear the anchor change history flags after receiving this c
 
 <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">IAnchor::GetChangeHistory
       </a>
+

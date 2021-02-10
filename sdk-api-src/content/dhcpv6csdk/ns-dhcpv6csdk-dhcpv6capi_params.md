@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpv6csdk.h
 api_name:
+ - _DHCPV6CAPI_PARAMS
+ - PDHCPV6CAPI_PARAMS
  - DHCPV6CAPI_PARAMS
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchLanguageSupport.GetDiacriticSensitivity
+ - ISearchLanguageSupport::GetDiacriticSensitivity
 ---
 
 # ISearchLanguageSupport::GetDiacriticSensitivity
@@ -65,3 +65,4 @@ On return, contains a pointer to the sensitivity setting. <b>FALSE</b> indicates
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

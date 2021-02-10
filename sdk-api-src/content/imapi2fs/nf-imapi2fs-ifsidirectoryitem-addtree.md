@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem.AddTree
+ - IFsiDirectoryItem::AddTree
 ---
 
 # IFsiDirectoryItem::AddTree
@@ -308,3 +308,4 @@ If an exception occurs during processing, the file system image reverts to its p
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>
+

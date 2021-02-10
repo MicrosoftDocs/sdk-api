@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEvent.CancelDefaultHandling
+ - IMediaEvent::CancelDefaultHandling
 ---
 
 # IMediaEvent::CancelDefaultHandling
@@ -103,3 +103,4 @@ To restore the default handling for an event, call the <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
+

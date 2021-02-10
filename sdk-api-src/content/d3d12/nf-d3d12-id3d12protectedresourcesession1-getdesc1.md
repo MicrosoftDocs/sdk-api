@@ -35,6 +35,7 @@ api_location:
 api_name:
  - ID3D12ProtectedResourceSession1::GetDesc1
 f1_keywords:
+ - ID3D12ProtectedResourceSession1::GetDesc1
  - d3d12/ID3D12ProtectedResourceSession1::GetDesc1
 dev_langs:
  - c++
@@ -51,3 +52,4 @@ A [D3D12_PROTECTED_RESOURCE_SESSION_DESC1](./ns-d3d12-d3d12_protected_resource_s
 ## -see-also
 
 * [ID3D12ProtectedResourceSession1](./nn-d3d12-id3d12protectedresourcesession1.md)
+

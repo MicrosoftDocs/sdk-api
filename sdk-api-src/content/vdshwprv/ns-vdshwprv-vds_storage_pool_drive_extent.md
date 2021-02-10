@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_STORAGE_POOL_DRIVE_EXTENT
+ - PVDS_STORAGE_POOL_DRIVE_EXTENT
  - VDS_STORAGE_POOL_DRIVE_EXTENT
 ---
 
@@ -80,3 +82,4 @@ Size, in bytes, of the drive extent.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
+

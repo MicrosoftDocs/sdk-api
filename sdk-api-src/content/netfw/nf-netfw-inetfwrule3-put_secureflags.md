@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule3.SecureFlags
- - INetFwRule3.get_SecureFlags
- - INetFwRule3.put_SecureFlags
+ - INetFwRule3::put_SecureFlags
 ---
 
 # INetFwRule3::put_SecureFlags
@@ -65,3 +63,4 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_authenticate_type">NET_FW_AUTHENTICATE_TYPE</a>
+

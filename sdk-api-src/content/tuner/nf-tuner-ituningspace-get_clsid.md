@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace.get_CLSID
+ - ITuningSpace::get_CLSID
 ---
 
 # ITuningSpace::get_CLSID
@@ -71,3 +71,4 @@ The returned CLSID represents the COM object that implements this tuning space. 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
+

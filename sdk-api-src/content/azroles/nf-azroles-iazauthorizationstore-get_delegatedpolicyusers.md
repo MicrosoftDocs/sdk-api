@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore.DelegatedPolicyUsers
- - IAzAuthorizationStore.get_DelegatedPolicyUsers
- - AzAuthorizationStore.DelegatedPolicyUsers
+ - IAzAuthorizationStore::get_DelegatedPolicyUsers
 ---
 
 # IAzAuthorizationStore::get_DelegatedPolicyUsers
@@ -65,3 +63,4 @@ Delegated policy users are principals that are allowed to read the subset of the
 <div class="alert"><b>Note</b>  Delegated policy users are not supported for XML stores.</div>
 <div> </div>
 In  JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
+

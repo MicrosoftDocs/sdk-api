@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionEvents.OnConnectStateChange
+ - IMbnConnectionEvents::OnConnectStateChange
 ---
 
 # IMbnConnectionEvents::OnConnectStateChange
@@ -72,3 +72,4 @@ An application can use <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnec
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>
+

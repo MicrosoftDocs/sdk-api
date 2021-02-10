@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokes.Add
+ - IInkStrokes::Add
 ---
 
 # IInkStrokes::Add
@@ -157,3 +157,4 @@ Use this method to add one stroke to an <a href="/previous-versions/windows/desk
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

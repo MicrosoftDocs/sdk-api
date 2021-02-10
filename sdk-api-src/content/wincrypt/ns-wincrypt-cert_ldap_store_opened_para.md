@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_LDAP_STORE_OPENED_PARA
+ - PCERT_LDAP_STORE_OPENED_PARA
  - CERT_LDAP_STORE_OPENED_PARA
 ---
 
@@ -69,3 +71,4 @@ The address of a null-terminated Unicode string that contains the LDAP query str
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
+

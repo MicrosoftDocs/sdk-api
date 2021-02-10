@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StrFormatKBSizeW
  - shlwapi/StrFormatKBSizeW
+ - StrFormatKBSize
+ - shlwapi/StrFormatKBSize
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - StrFormatKBSize
- - StrFormatKBSizeA
  - StrFormatKBSizeW
+ - StrFormatKBSize
 ---
 
 # StrFormatKBSizeW function
@@ -98,3 +99,4 @@ In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 
 
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
+

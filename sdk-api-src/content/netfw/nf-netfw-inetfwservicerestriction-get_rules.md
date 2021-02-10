@@ -42,8 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwServiceRestriction.Rules
- - INetFwServiceRestriction.get_Rules
+ - INetFwServiceRestriction::get_Rules
 ---
 
 # INetFwServiceRestriction::get_Rules
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>
+

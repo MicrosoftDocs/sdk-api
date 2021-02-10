@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoProcAmp.Set
+ - IAMVideoProcAmp::Set
 ---
 
 # IAMVideoProcAmp::Set
@@ -91,3 +91,4 @@ If the <i>pCapsFlags</i> parameter is <b>VideoProcAmp_Flags_Auto</b>, the <i>lVa
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-get">IAMVideoProcAmp::Get</a>
+

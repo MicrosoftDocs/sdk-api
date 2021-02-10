@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF.QueryAccessPaths
+ - IVdsVolumeMF::QueryAccessPaths
 ---
 
 # IVdsVolumeMF::QueryAccessPaths
@@ -126,3 +126,4 @@ The drive letter appears as the first access path in <i>pwszPathArray</i>.
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-deleteaccesspath">IVdsVolumeMF::DeleteAccessPath</a>
+

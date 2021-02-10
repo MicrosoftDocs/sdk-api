@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib.CreateTypeInfo
+ - ICreateTypeLib::CreateTypeInfo
 ---
 
 # ICreateTypeLib::CreateTypeInfo
@@ -162,3 +162,4 @@ Use <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeli
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
+

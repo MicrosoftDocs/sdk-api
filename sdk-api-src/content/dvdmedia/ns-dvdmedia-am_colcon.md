@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
+ - _AM_COLCON
+ - PAM_COLCON
  - AM_COLCON
 ---
 
@@ -97,3 +99,4 @@ This structure is contained within the <a href="/previous-versions/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-subpicture-property-set">DVD Subpicture Property Set</a>
+

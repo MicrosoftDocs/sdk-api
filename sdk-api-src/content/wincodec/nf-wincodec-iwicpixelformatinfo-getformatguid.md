@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICPixelFormatInfo.GetFormatGUID
+ - IWICPixelFormatInfo::GetFormatGUID
 ---
 
 # IWICPixelFormatInfo::GetFormatGUID

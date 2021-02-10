@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_DATA_CHUNK_TYPE
+ - PHTTP_DATA_CHUNK_TYPE
  - HTTP_DATA_CHUNK_TYPE
 ---
 
@@ -78,3 +80,4 @@ The data source is a fragment cache data block. The union should be interpreted 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>This flag is not supported.
 
 ### -field HttpDataChunkMaximum
+

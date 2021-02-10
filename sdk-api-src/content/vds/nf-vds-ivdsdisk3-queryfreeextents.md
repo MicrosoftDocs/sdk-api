@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - IVdsDisk3.QueryFreeExtents
+ - IVdsDisk3::QueryFreeExtents
 ---
 
 # IVdsDisk3::QueryFreeExtents
@@ -124,3 +124,4 @@ The alignment value that is specified in the <i>ulAlign</i> parameter is not a m
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsdisk3">IVdsDisk3</a>
+

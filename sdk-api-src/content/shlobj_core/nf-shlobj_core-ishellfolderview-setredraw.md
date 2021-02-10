@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlobj_core.h
 api_name:
- - IShellFolderView.SetRedraw
+ - IShellFolderView::SetRedraw
 ---
 
 # IShellFolderView::SetRedraw
@@ -71,3 +71,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method sends the <a href="/windows/desktop/gdi/wm-setredraw">WM_SETREDRAW</a> message to the ListView object that the view contains.
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush.GetWrapMode
+ - PathGradientBrush::GetWrapMode
 ---
 
 # PathGradientBrush::GetWrapMode
@@ -135,3 +135,4 @@ VOID Example_GetWrapMode(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-tiling-a-shape-with-an-image-use">Tiling a Shape with an Image</a>
+

@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_TKEY_DATA
+ - PDNS_TKEY_DATAW
+ - DNS_TKEY_DATAW
 ---
 
 # DNS_TKEY_DATAW structure

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyRenewal.InitializeFromCertificateHash
+ - ICertPropertyRenewal::InitializeFromCertificateHash
 ---
 
 # ICertPropertyRenewal::InitializeFromCertificateHash
@@ -113,3 +113,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-se
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a>
+

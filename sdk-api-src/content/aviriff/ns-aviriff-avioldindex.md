@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Aviriff.h
 api_name:
+ - _avioldindex
  - AVIOLDINDEX
 ---
 
@@ -167,3 +168,4 @@ This structure consists of the initial RIFF chunk (the <b>fcc</b> and <b>cb</b> 
 
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

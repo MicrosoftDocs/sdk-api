@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProviderFactory.CreateSpellCheckProvider
+ - ISpellCheckProviderFactory::CreateSpellCheckProvider
 ---
 
 # ISpellCheckProviderFactory::CreateSpellCheckProvider
@@ -125,3 +125,4 @@ Successful.
 
 
 <a href="/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckproviderfactory-issupported">ISpellCheckProviderFactory::IsSupported</a>
+

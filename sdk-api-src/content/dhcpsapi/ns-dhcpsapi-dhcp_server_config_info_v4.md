@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_SERVER_CONFIG_INFO_V4
+ - LPDHCP_SERVER_CONFIG_INFO_V4
  - DHCP_SERVER_CONFIG_INFO_V4
 ---
 
@@ -197,3 +199,4 @@ Specifies whether or not to enable audit logging on the DHCP server. A value of 
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfigv4">DhcpServerSetConfigV4</a>
+

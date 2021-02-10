@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIApplication.Windows
- - IRDPSRAPIApplication.get_Windows
- - RDPSRAPIApplication.Windows
+ - IRDPSRAPIApplication::get_Windows
 ---
 
 # IRDPSRAPIApplication::get_Windows
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a>
+

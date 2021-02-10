@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_issue_credential_flags_tag
  - PEER_GROUP_ISSUE_CREDENTIAL_FLAGS
 ---
 

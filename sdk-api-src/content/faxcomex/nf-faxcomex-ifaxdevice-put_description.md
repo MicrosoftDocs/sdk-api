@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice.Description
- - IFaxDevice.get_Description
- - IFaxDevice.put_Description
- - IFaxDevice.get_Description
- - IFaxDevice.put_Description
+ - IFaxDevice::put_Description
 ---
 
 # IFaxDevice::put_Description
@@ -71,3 +67,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-configuring-a-fax-device">Visual Basic Example</a>
+

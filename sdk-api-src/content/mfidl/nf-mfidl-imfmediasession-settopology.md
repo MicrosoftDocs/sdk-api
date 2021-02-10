@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession.SetTopology
+ - IMFMediaSession::SetTopology
 ---
 
 # IMFMediaSession::SetTopology
@@ -167,3 +167,4 @@ This method is asynchronous. If the method returns S_OK, the Media Session sends
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
+

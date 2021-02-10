@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesResults.LastSearchSuccessDate
- - IAutomaticUpdatesResults.get_LastSearchSuccessDate
+ - IAutomaticUpdatesResults::get_LastSearchSuccessDate
 ---
 
 # IAutomaticUpdatesResults::get_LastSearchSuccessDate
@@ -64,3 +63,4 @@ Calls to <b>LastSearchSuccessDate</b> by public users do not update this propert
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatesresults">IAutomaticUpdatesResults</a>
+

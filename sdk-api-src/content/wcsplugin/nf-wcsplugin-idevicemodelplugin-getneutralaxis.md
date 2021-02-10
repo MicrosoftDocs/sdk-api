@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.GetNeutralAxis
+ - IDeviceModelPlugIn::GetNeutralAxis
 ---
 
 # IDeviceModelPlugIn::GetNeutralAxis
@@ -85,3 +85,4 @@ There is no requirement that the samples be uniformly spaced in any color space.
 
 
 <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
+

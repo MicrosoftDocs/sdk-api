@@ -47,6 +47,8 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
+ - _MIB_IPMCAST_MFE_STATS
+ - PMIB_IPMCAST_MFE_STATS
  - MIB_IPMCAST_MFE_STATS
 ---
 
@@ -175,3 +177,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a>
+

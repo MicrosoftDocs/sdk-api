@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession.Close
+ - IMFMediaSession::Close
 ---
 
 # IMFMediaSession::Close
@@ -125,3 +125,4 @@ All other methods return MF_E_INVALIDREQUEST, or else queue an event with that e
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
+

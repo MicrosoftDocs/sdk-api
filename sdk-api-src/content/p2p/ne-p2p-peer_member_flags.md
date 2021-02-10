@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_member_flags_tag
  - PEER_MEMBER_FLAGS
 ---
 
@@ -63,3 +64,4 @@ The member is present in the peer group.
 ## -see-also
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>
+

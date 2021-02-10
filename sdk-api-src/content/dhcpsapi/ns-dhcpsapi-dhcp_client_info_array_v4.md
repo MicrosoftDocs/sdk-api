@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_INFO_ARRAY_V4
+ - LPDHCP_CLIENT_INFO_ARRAY_V4
  - DHCP_CLIENT_INFO_ARRAY_V4
 ---
 
@@ -73,3 +75,4 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_cli
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a>
+

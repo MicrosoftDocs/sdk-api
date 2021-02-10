@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_LISTENER_PROPERTY
  - WS_LISTENER_PROPERTY
 ---
 
@@ -69,3 +70,4 @@ A pointer to the value to set.
 ### -field valueSize
 
 The size, in bytes, of the memory pointed to by value.
+

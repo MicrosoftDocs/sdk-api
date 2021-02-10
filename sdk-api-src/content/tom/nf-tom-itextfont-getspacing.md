@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.GetSpacing
+ - ITextFont::GetSpacing
 ---
 
 # ITextFont::GetSpacing
@@ -118,3 +118,4 @@ Displayed text typically has an intercharacter spacing value of zero. Positive v
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

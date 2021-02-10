@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMap.Item
- - IValueMap.get_Item
+ - IValueMap::get_Item
 ---
 
 # IValueMap::get_Item
@@ -64,3 +63,4 @@ This property is the object's default property.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
+

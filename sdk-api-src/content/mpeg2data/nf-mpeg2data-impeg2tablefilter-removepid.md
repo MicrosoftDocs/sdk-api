@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - IMpeg2TableFilter.RemovePID
+ - IMpeg2TableFilter::RemovePID
 ---
 
 # IMpeg2TableFilter::RemovePID
@@ -65,3 +65,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2tablefilter">IMpeg2TableFilter Interface</a>
+

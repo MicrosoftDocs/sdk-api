@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed
+ - IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed
 ---
 
 # IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed
@@ -391,3 +391,4 @@ Note that the write speed is based on the media write speeds. The value of this 
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a>
+

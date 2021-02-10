@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
+ - tagOLEWHICHMK
  - OLEWHICHMK
 ---
 
@@ -79,3 +80,4 @@ The full moniker of the object. Binding to this moniker results in a connection 
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setmoniker">IOleObject::SetMoniker</a>
+

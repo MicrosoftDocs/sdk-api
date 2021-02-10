@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
+ - _PSAPI_WORKING_SET_EX_BLOCK
+ - PPSAPI_WORKING_SET_EX_BLOCK
  - PSAPI_WORKING_SET_EX_BLOCK
 ---
 
@@ -149,3 +151,4 @@ Reserved. This member is only available on 64-bit code running on 64-bit edition
 
 
 <a href="/windows/desktop/api/psapi/nf-psapi-queryworkingsetex">QueryWorkingSetEx</a>
+

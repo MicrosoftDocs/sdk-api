@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStorage.IsDirty
+ - IPersistStorage::IsDirty
 ---
 
 # IPersistStorage::IsDirty
@@ -75,3 +75,4 @@ A container with one or more contained objects must maintain an internal dirty f
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
+

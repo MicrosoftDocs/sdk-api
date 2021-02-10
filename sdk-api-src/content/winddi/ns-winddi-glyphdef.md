@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _GLYPHDEF
  - GLYPHDEF
 ---
 
@@ -71,3 +72,4 @@ If <b>ppo</b> is defined, this member is a pointer to a <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
+

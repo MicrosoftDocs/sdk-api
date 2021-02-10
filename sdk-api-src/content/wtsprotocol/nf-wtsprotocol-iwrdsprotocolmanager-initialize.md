@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolManager.Initialize
+ - IWRdsProtocolManager::Initialize
 ---
 
 # IWRdsProtocolManager::Initialize
@@ -73,3 +73,4 @@ A possible use for this method is to add a reference to the interface object poi
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>
+

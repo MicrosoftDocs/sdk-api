@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidPlayback.get_CanStep
+ - IMSVidPlayback::get_CanStep
 ---
 
 # IMSVidPlayback::get_CanStep
@@ -162,3 +162,4 @@ hr = m_pPlayback->get_CanStep(VARIANT_FALSE, &fCan);
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPError.clearErrorQueue
+ - IWMPError::clearErrorQueue
 ---
 
 # IWMPError::clearErrorQueue
@@ -85,3 +85,4 @@ You should set a <b>VARIANT_BOOL</b> to <b>FALSE</b> and pass it into <b>IWMPSet
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError Interface</a>
+

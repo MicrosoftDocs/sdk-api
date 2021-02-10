@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayerCallback.OnMediaPlayerEvent
+ - IMFPMediaPlayerCallback::OnMediaPlayerEvent
 ---
 
 # IMFPMediaPlayerCallback::OnMediaPlayerEvent
@@ -160,3 +160,4 @@ void STDMETHODCALLTYPE PlayerCallback::OnMediaPlayerEvent(MFP_EVENT_HEADER * pEv
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

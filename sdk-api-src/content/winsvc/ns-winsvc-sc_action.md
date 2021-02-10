@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
+ - _SC_ACTION
+ - LPSC_ACTION
  - SC_ACTION
 ---
 
@@ -135,3 +137,4 @@ This structure is used by the
 
 
 <a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
+

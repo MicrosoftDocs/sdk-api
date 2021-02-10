@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_MUA_Coeff
  - DVD_MUA_Coeff
 ---
 
@@ -95,3 +96,4 @@ Audio channel 1 = coeff[0].beta * value[0]  + coeff[1].beta * value[1] + ...
 
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

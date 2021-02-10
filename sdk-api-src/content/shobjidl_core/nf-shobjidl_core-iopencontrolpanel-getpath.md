@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IOpenControlPanel.GetPath
+ - IOpenControlPanel::GetPath
 ---
 
 # IOpenControlPanel::GetPath
@@ -110,3 +110,4 @@ If <i>pszName</i> is <b>NULL</b> then one of these two values is returned:
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel">IOpenControlPanel</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.SetProgressCallback
+ - ISyncMgrSynchronize::SetProgressCallback
 ---
 
 # ISyncMgrSynchronize::SetProgressCallback
@@ -99,3 +99,4 @@ Before the <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize"
 
 
 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
+

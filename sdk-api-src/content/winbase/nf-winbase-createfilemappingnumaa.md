@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateFileMappingNumaA
  - winbase/CreateFileMappingNumaA
+ - CreateFileMappingNuma
+ - winbase/CreateFileMappingNuma
 dev_langs:
  - c++
 topic_type:
@@ -51,9 +53,8 @@ api_location:
  - Kernel32Legacy.dll
  - API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - CreateFileMappingNuma
  - CreateFileMappingNumaA
- - CreateFileMappingNumaW
+ - CreateFileMappingNuma
 ---
 
 # CreateFileMappingNumaA function
@@ -595,3 +596,4 @@ Yes
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
+

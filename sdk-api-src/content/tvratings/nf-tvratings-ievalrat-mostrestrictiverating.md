@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tvratings.h
 api_name:
- - IEvalRat.MostRestrictiveRating
+ - IEvalRat::MostRestrictiveRating
 ---
 
 # IEvalRat::MostRestrictiveRating
@@ -145,3 +145,4 @@ The method returns S_FALSE if the ratings systems are not the same. There may no
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>
+

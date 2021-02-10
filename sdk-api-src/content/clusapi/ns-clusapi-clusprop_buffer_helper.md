@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_BUFFER_HELPER
+ - PCLUSPROP_BUFFER_HELPER
 ---
 
 # CLUSPROP_BUFFER_HELPER structure
@@ -419,3 +420,4 @@ void ClusDocEx_UsingCBH()
 
 
 <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
+

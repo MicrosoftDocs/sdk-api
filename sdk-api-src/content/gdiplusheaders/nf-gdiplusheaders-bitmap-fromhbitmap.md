@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap.FromHBITMAP
+ - Bitmap::FromHBITMAP
 ---
 
 # Bitmap::FromHBITMAP
@@ -104,3 +104,4 @@ This method does not preserve the alpha channel of the source GDI bitmap.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
+

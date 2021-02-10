@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IDragProvider.GetGrabbedItems
+ - IDragProvider::GetGrabbedItems
 ---
 
 # IDragProvider::GetGrabbedItems
@@ -70,3 +70,4 @@ If the user is dragging multiple items, the items are represented by a single ma
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider">IDragProvider</a>
+

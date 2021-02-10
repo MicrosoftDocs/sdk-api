@@ -43,9 +43,6 @@ api_location:
  - QmgrPrxy.dll
 api_name:
  - IBackgroundCopyJob1
- - IBackgroundCopyJob1.CancelJob
- - IBackgroundCopyJob1.SwitchToForeground
- - IBackgroundCopyJob1.GetTimes
 ---
 
 # IBackgroundCopyJob1 interface

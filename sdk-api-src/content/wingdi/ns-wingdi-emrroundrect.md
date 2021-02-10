@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRROUNDRECT
+ - PEMRROUNDRECT
  - EMRROUNDRECT
 ---
 
@@ -81,3 +83,4 @@ Width and height, in logical units, of the ellipse used to draw rounded corners.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-roundrect">RoundRect</a>
+

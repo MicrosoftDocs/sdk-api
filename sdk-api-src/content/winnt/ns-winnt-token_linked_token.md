@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_LINKED_TOKEN
+ - PTOKEN_LINKED_TOKEN
  - TOKEN_LINKED_TOKEN
 ---
 
@@ -63,3 +65,4 @@ The <b>TOKEN_LINKED_TOKEN</b> structure contains a handle to a token. This token
 A handle to the linked token.
 
 When you have finished using the handle, close it by calling the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsComputerOperations.Status
+ - IADsComputerOperations::Status
 ---
 
 # IADsComputerOperations::Status
@@ -75,3 +75,4 @@ For other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">A
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

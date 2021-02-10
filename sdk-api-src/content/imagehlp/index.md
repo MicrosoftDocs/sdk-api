@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - imagehlp
  - imagehlp/imagehlp
+api_name:
+ - imagehlp
 ---
 
 # Imagehlp.h header

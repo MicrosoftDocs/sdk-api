@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITResultSet.GetRowCount
+ - IITResultSet::GetRowCount
 ---
 
 # IITResultSet::GetRowCount
@@ -85,3 +85,4 @@ The number of rows was successfully retrieved.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>
+

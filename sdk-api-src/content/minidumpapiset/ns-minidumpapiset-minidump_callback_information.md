@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_CALLBACK_INFORMATION
+ - PMINIDUMP_CALLBACK_INFORMATION
  - MINIDUMP_CALLBACK_INFORMATION
 ---
 
@@ -75,3 +77,4 @@ The application-defined data for <b>CallbackRoutine</b>.
 
 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
+

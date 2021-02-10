@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITStaticAudioTerminal.get_WaveId
+ - ITStaticAudioTerminal::get_WaveId
 ---
 
 # ITStaticAudioTerminal::get_WaveId
@@ -74,3 +74,4 @@ All other terminals must return the correct wave ID, even if the internal implem
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstaticaudioterminal">ITStaticAudioTerminal</a>
+

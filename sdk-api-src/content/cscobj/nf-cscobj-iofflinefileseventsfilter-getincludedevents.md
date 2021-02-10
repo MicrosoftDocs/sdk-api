@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEventsFilter.GetIncludedEvents
+ - IOfflineFilesEventsFilter::GetIncludedEvents
 ---
 
 # IOfflineFilesEventsFilter::GetIncludedEvents
@@ -82,3 +82,4 @@ Return <b>S_OK</b> if implemented, <b>E_NOTIMPL</b> if not implemented.
 
 
 <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a>
+

@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide.GuideData
- - IInkRecognizerGuide.get_GuideData
- - IInkRecognizerGuide.put_GuideData
- - InkRecognizerGuide.get_GuideData
- - InkRecognizerGuide.put_GuideData
+ - IInkRecognizerGuide::put_GuideData
 ---
 
 # IInkRecognizerGuide::put_GuideData
@@ -74,3 +70,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
+

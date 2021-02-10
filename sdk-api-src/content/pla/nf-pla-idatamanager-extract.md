@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.Extract
+ - IDataManager::Extract
 ---
 
 # IDataManager::Extract
@@ -73,3 +73,4 @@ Returns S_OK if successful.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>
+

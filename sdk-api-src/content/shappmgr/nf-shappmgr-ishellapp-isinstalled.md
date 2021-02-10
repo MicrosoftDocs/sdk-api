@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellApp.IsInstalled
+ - IShellApp::IsInstalled
 ---
 
 # IShellApp::IsInstalled
@@ -104,3 +104,4 @@ Application publishers should determine if the application is currently installe
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
+

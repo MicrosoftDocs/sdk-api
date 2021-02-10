@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_FTSET_INFO
+ - PCLUSPROP_FTSET_INFO
 ---
 
 # CLUSPROP_FTSET_INFO structure
@@ -70,3 +71,4 @@ A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_ftset_
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

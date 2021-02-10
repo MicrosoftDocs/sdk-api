@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - CreateSharedMemory
+ - LSA_CREATE_SHARED_MEMORY
 ---
 
 # LSA_CREATE_SHARED_MEMORY callback function
@@ -102,3 +102,4 @@ Pointers to these functions are available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

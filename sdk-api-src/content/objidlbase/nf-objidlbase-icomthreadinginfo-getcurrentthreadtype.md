@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IComThreadingInfo.GetCurrentThreadType
+ - IComThreadingInfo::GetCurrentThreadType
 ---
 
 # IComThreadingInfo::GetCurrentThreadType
@@ -94,3 +94,4 @@ The caller is not executing in an apartment.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>
+

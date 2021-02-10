@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData.SelectPage
+ - IShellImageData::SelectPage
 ---
 
 # IShellImageData::SelectPage

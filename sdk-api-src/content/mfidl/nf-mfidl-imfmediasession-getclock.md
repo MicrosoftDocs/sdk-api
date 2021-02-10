@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession.GetClock
+ - IMFMediaSession::GetClock
 ---
 
 # IMFMediaSession::GetClock
@@ -110,3 +110,4 @@ The application can query the returned <a href="/windows/desktop/api/mfidl/nn-mf
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
+

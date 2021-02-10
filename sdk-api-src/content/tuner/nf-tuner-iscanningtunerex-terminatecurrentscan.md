@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tuner.h
 api_name:
- - IScanningTunerEx.TerminateCurrentScan
+ - IScanningTunerEx::TerminateCurrentScan
 ---
 
 # IScanningTunerEx::TerminateCurrentScan
@@ -99,3 +99,4 @@ Success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
+

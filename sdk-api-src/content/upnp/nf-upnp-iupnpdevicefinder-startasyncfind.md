@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceFinder.StartAsyncFind
+ - IUPnPDeviceFinder::StartAsyncFind
 ---
 
 # IUPnPDeviceFinder::StartAsyncFind
@@ -78,3 +78,4 @@ You can have more than one
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-cancelasyncfind">IUPnPDeviceFinder::CancelAsyncFind</a>
+

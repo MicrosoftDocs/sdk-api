@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxFile.GetStream
+ - IAppxFile::GetStream
 ---
 
 # IAppxFile::GetStream
@@ -97,3 +97,4 @@ Instances of <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>
+

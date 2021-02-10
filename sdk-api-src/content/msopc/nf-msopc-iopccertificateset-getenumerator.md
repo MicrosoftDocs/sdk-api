@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcCertificateSet.GetEnumerator
+ - IOpcCertificateSet::GetEnumerator
 ---
 
 # IOpcCertificateSet::GetEnumerator
@@ -134,3 +134,4 @@ The <i>certificateEnumerator</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticateUserSink.DisconnectUser
+ - ITSGAuthenticateUserSink::DisconnectUser
 ---
 
 # ITSGAuthenticateUserSink::DisconnectUser
@@ -73,3 +73,4 @@ The authentication plug-in can use this method to disconnect the client as neede
 
 
 <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a>
+

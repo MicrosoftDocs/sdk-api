@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tspi.h
 api_name:
- - Line_Event
+ - LINEEVENT
 ---
 
 # LINEEVENT callback function
@@ -99,3 +99,4 @@ This function differs from the callback function defined at the TAPI level in th
 
 
 <a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a>
+

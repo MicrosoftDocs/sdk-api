@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices.ExecMethodAsync
+ - IWbemServices::ExecMethodAsync
 ---
 
 # IWbemServices::ExecMethodAsync
@@ -253,3 +253,4 @@ STDMETHODIMP CMyMethodProvider::ExecMethodAsync(BSTR ObjectPath,
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync">IWbemServices::ExecMethodAsync</a>
+

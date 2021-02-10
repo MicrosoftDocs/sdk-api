@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo.GetRefTypeOfImplType
+ - ITypeInfo::GetRefTypeOfImplType
 ---
 
 # ITypeInfo::GetRefTypeOfImplType
@@ -116,3 +116,4 @@ If the TKIND_DISPATCH type description is for a dual interface, the TKIND_INTERF
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
+

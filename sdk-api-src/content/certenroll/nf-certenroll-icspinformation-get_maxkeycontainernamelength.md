@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation.MaxKeyContainerNameLength
- - ICspInformation.get_MaxKeyContainerNameLength
+ - ICspInformation::get_MaxKeyContainerNameLength
 ---
 
 # ICspInformation::get_MaxKeyContainerNameLength
@@ -117,3 +116,4 @@ The key container name can be specified and retrieved by calling the <a href="/w
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+

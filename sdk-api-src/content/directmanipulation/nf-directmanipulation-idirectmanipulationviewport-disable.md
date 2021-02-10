@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.Disable
+ - IDirectManipulationViewport::Disable
 ---
 
 # IDirectManipulationViewport::Disable
@@ -79,3 +79,4 @@ HRESULT hr = pViewport->Disable();
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
+

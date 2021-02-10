@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer.get_Loudness
+ - IAMAudioInputMixer::get_Loudness
 ---
 
 # IAMAudioInputMixer::get_Loudness
@@ -91,3 +91,4 @@ If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_loudness">IAMAudioInputMixer::put_Loudness</a>
+

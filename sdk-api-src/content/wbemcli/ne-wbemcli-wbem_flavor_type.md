@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_FLAVOR_TYPE
  - WBEM_FLAVOR_TYPE
 ---
 
@@ -113,3 +114,4 @@ The qualifier is not required in the basic class definition and can be moved to 
 
 
 <a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
+

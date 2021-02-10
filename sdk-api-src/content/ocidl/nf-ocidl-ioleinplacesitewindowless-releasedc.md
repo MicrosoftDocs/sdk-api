@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.ReleaseDC
+ - IOleInPlaceSiteWindowless::ReleaseDC
 ---
 
 # IOleInPlaceSiteWindowless::ReleaseDC
@@ -73,3 +73,4 @@ An object calls this method to notify its container that the object is done with
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-getdc">IOleInPlaceSiteWindowless::GetDC</a>
+

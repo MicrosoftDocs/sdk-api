@@ -46,6 +46,7 @@ api_location:
  - MsClus.h
 api_name:
  - RESOURCE_FAILURE_INFO
+ - PRESOURCE_FAILURE_INFO
 ---
 
 # RESOURCE_FAILURE_INFO structure
@@ -72,3 +73,4 @@ The amount of time remaining for the <a href="/previous-versions/windows/desktop
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
+

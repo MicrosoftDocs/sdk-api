@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteTextAnalysisSink1.SetGlyphOrientation
+ - IDWriteTextAnalysisSink1::SetGlyphOrientation
 ---
 
 # IDWriteTextAnalysisSink1::SetGlyphOrientation

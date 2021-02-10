@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannel.SetAccess
+ - IRDPSRAPIVirtualChannel::SetAccess
 ---
 
 # IRDPSRAPIVirtualChannel::SetAccess
@@ -91,3 +91,4 @@ This method must be called for each attendee that will receive data over the cha
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>
+

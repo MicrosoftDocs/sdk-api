@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IUIAutomationRegistrar.RegisterProperty
+ - IUIAutomationRegistrar::RegisterProperty
 ---
 
 # IUIAutomationRegistrar::RegisterProperty
@@ -79,3 +79,4 @@ The property ID can be used in various property methods, including <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationregistrar">IUIAutomationRegistrar</a>
+

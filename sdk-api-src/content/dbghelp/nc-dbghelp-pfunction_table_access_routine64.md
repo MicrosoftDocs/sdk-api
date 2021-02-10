@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - FunctionTableAccessProc64
+ - PFUNCTION_TABLE_ACCESS_ROUTINE64
 ---
 
 ## -description
@@ -102,3 +102,4 @@ PVOID
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
+

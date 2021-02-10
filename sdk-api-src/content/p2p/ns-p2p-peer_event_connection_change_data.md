@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_event_connection_change_data_tag
+ - PPEER_EVENT_CONNECTION_CHANGE_DATA
  - PEER_EVENT_CONNECTION_CHANGE_DATA
 ---
 
@@ -146,8 +148,6 @@ Specifies the unique ID for the node that has changed.
 </tr>
 </table>
 
-
-
 ## -see-also
 
 <a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
@@ -155,3 +155,4 @@ Specifies the unique ID for the node that has changed.
 
 
 [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)
+

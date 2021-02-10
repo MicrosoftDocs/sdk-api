@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControlSite.OnControlInfoChanged
+ - IOleControlSite::OnControlInfoChanged
 ---
 
 # IOleControlSite::OnControlInfoChanged
@@ -65,3 +65,4 @@ This method returns S_OK in all cases.
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
+

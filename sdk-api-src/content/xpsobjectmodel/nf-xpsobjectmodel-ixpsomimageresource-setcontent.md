@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMImageResource.SetContent
+ - IXpsOMImageResource::SetContent
 ---
 
 # IXpsOMImageResource::SetContent
@@ -91,3 +91,4 @@ Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomima
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
+

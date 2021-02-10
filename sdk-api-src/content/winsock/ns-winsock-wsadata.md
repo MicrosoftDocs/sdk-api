@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winsock.h
 api_name:
+ - WSAData
  - WSADATA
 ---
 
@@ -183,3 +184,4 @@ if ( LOBYTE( wsaData.wVersion ) != 2 ||
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
+

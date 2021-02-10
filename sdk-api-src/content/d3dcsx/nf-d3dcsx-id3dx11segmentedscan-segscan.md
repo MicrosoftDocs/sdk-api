@@ -43,7 +43,7 @@ api_location:
  - d3dcsx.lib
  - d3dcsx.dll
 api_name:
- - ID3DX11SegmentedScan.SegScan
+ - ID3DX11SegmentedScan::SegScan
 ---
 
 # ID3DX11SegmentedScan::SegScan
@@ -106,3 +106,4 @@ The format of the resource view to which the <i>pSrcElementFlags</i> parameter p
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11segmentedscan">ID3DX11SegmentedScan</a>
+

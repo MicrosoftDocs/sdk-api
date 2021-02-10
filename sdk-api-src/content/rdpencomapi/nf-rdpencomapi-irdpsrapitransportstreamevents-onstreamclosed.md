@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStreamEvents.OnStreamClosed
+ - IRDPSRAPITransportStreamEvents::OnStreamClosed
 ---
 
 # IRDPSRAPITransportStreamEvents::OnStreamClosed
@@ -63,3 +63,4 @@ An <b>HRESULT</b> value that specifies if the stream was closed normally or due 
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreamevents">IRDPSRAPITransportStreamEvents</a>
+

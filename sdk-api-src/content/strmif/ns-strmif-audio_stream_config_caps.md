@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - _AUDIO_STREAM_CONFIG_CAPS
  - AUDIO_STREAM_CONFIG_CAPS
 ---
 
@@ -103,3 +104,4 @@ Granularity of the frequency. For example, the filter might specify 11025 Hz to 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a>
+

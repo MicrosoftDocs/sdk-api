@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_CALL_PROPERTY
  - WS_CALL_PROPERTY
 ---
 
@@ -69,3 +70,4 @@ Pointer to a buffer for the value of the property.
 ### -field valueSize
 
 The size of buffer in bytes.
+

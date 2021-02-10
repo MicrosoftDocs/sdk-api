@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_parse_resultW
  - winldap/ldap_parse_resultW
+ - ldap_parse_result
+ - winldap/ldap_parse_result
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_parse_result
- - ldap_parse_resultA
  - ldap_parse_resultW
+ - ldap_parse_result
 ---
 
 # ldap_parse_resultW function
@@ -140,3 +141,4 @@ When they are no longer needed, free the <i>ErrorMessage</i> and <i>MatchedDNs</
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFSourceBuffer.GetTimeStampOffset
+ - IMFSourceBuffer::GetTimeStampOffset
 ---
 
 # IMFSourceBuffer::GetTimeStampOffset
@@ -61,3 +61,4 @@ The timestamp offset.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
+

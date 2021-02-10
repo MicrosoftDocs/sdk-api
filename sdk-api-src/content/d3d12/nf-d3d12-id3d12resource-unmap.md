@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Resource.Unmap
+ - ID3D12Resource::Unmap
 ---
 
 # ID3D12Resource::Unmap
@@ -83,3 +83,4 @@ Refer to the extensive Remarks and Examples for the <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/direct3d12/subresources">Subresources</a>
+

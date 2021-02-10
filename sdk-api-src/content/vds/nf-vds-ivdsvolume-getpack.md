@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume.GetPack
+ - IVdsVolume::GetPack
 ---
 
 # IVdsVolume::GetPack
@@ -90,3 +90,4 @@ The method completed successfully.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a>
+

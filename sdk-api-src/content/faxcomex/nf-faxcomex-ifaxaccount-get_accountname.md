@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccount.AccountName
- - IFaxAccount.get_AccountName
+ - IFaxAccount::get_AccountName
 ---
 
 # IFaxAccount::get_AccountName
@@ -72,3 +71,4 @@ If the account is on the same server as the fax server, just the &lt;user_name&g
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>
+

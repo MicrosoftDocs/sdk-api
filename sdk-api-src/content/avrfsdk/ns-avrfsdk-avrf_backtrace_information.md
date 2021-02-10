@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Avrfsdk.h
 api_name:
+ - _AVRF_BACKTRACE_INFORMATION
+ - PAVRF_BACKTRACE_INFORMATION
  - AVRF_BACKTRACE_INFORMATION
 ---
 
@@ -77,3 +79,4 @@ An array of addresses returned traces. The number cannot exceed AVRF_MAX_TRACES,
 
 
 <a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
+

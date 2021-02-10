@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 2CCAB3EE-EEF2-4C36-8F8E-23B93A45B1FF
 ms.date: 12/05/2018
 ms.keywords: D2D_MATRIX_4X3_F, D2D_MATRIX_4X3_F structure [Direct2D], dcommon/D2D_MATRIX_4X3_F, direct2d.d2d_matrix_4x3_f
-f1_keywords:
-- dcommon/D2D_MATRIX_4X3_F
-dev_langs:
-- c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dcommon.h
-api_name:
-- D2D_MATRIX_4X3_F
 targetos: Windows
 req.typenames: D2D_MATRIX_4X3_F
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D_MATRIX_4X3_F
+ - dcommon/D2D_MATRIX_4X3_F
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dcommon.h
+api_name:
+ - D2D_MATRIX_4X3_F
 ---
 
 ## -description
@@ -133,3 +134,4 @@ The <b>D2D1_MATRIX_4X3_F</b> structure is type defined from a <b>D2D_MATRIX_4X3_
 ```cpp
 typedef D2D_MATRIX_4X3_F D2D1_MATRIX_4X3_F;
 ```
+

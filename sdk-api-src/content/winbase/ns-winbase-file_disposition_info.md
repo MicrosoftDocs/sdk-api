@@ -47,6 +47,8 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
+ - _FILE_DISPOSITION_INFO
+ - PFILE_DISPOSITION_INFO
  - FILE_DISPOSITION_INFO
 ---
 
@@ -73,3 +75,4 @@ Indicates whether the file should be deleted. Set to <b>TRUE</b> to delete the f
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
+

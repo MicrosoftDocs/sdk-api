@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10Debug.GetFeatureMask
+ - ID3D10Debug::GetFeatureMask
 ---
 
 # ID3D10Debug::GetFeatureMask
@@ -63,3 +63,4 @@ Mask of feature-mask flags bitwise ORed together. If a flag is present, then tha
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10debug">ID3D10Debug Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
+ - _SFV_SETITEMPOS
  - SFV_SETITEMPOS
 ---
 
@@ -67,3 +68,4 @@ A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITE
 Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure indicating the position of the item.
+

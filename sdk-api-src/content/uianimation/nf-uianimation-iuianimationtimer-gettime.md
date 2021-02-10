@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimer.GetTime
+ - IUIAnimationTimer::GetTime
 ---
 
 # IUIAnimationTimer::GetTime
@@ -80,3 +80,4 @@ For an example, see <a href="/windows/desktop/UIAnimation/introducing-windows-an
 
 
 <a href="/windows/desktop/UIAnimation/ui-animation-seconds">UI_ANIMATION_SECONDS</a>
+

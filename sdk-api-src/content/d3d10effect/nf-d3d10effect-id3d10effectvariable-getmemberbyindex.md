@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.GetMemberByIndex
+ - ID3D10EffectVariable::GetMemberByIndex
 ---
 
 # ID3D10EffectVariable::GetMemberByIndex
@@ -73,3 +73,4 @@ If the effect variable is an structure, use this method to look up a member by i
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable Interface</a>
+

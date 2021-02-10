@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
+ - _DRMID
  - DRMID
 ---
 
@@ -114,3 +115,4 @@ wszID = wszIDin
 
 
 <a href="/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a>
+

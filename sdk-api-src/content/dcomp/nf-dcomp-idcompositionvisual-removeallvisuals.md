@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual.RemoveAllVisuals
+ - IDCompositionVisual::RemoveAllVisuals
 ---
 
 # IDCompositionVisual::RemoveAllVisuals
@@ -79,3 +79,4 @@ This method can be called even if this visual has no children.
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-removevisual">IDCompositionVisual::RemoveVisual</a>
+

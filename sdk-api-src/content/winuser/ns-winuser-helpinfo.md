@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagHELPINFO
+ - LPHELPINFO
  - HELPINFO
 ---
 
@@ -97,3 +99,4 @@ The help context identifier of the window or control.
 Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the screen coordinates of the mouse cursor. This is useful for providing help based on the position of the mouse cursor.
+

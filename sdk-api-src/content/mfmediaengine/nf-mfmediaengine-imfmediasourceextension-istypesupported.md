@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaSourceExtension.IsTypeSupported
+ - IMFMediaSourceExtension::IsTypeSupported
 ---
 
 # IMFMediaSourceExtension::IsTypeSupported
@@ -65,3 +65,4 @@ The media type to check support for.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
+

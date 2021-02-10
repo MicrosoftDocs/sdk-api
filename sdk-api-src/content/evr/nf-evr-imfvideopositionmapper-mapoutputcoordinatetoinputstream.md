@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoPositionMapper.MapOutputCoordinateToInputStream
+ - IMFVideoPositionMapper::MapOutputCoordinateToInputStream
 ---
 
 # IMFVideoPositionMapper::MapOutputCoordinateToInputStream
@@ -140,3 +140,4 @@ Note that <i>x1</i> and <i>y1</i> might fall outside the range [0...1] if P lies
 ## -see-also
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper">IMFVideoPositionMapper</a>
+

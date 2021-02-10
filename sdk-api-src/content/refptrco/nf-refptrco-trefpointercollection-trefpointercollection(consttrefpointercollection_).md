@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - TRefPointerCollection.TRefPointerCollection
+ - TRefPointerCollection::TRefPointerCollection
 ---
 
 # TRefPointerCollection::TRefPointerCollection(const TRefPointerCollection &)
@@ -64,3 +64,4 @@ This constructor initializes a new <a href="/windows/desktop/api/refptrco/nl-ref
 ### -param trpc [ref]
 
 Reference to the <a href="/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> object.
+

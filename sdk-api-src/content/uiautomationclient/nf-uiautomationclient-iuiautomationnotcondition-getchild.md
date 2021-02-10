@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationNotCondition.GetChild
+ - IUIAutomationNotCondition::GetChild
 ---
 
 # IUIAutomationNotCondition::GetChild
@@ -77,3 +77,4 @@ The returned condition is the one that was used in creating this condition.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationnotcondition">IUIAutomationNotCondition</a>
+

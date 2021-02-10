@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObject.SetVolume
+ - ISpatialAudioObject::SetVolume
 ---
 
 # ISpatialAudioObject::SetVolume
@@ -100,3 +100,4 @@ If <b>SetVolume</b> is never called, the default value of 1.0 is used. After <b>
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a>
+

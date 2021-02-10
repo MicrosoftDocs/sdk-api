@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IMPEG2Component.get_PCRPID
+ - IMPEG2Component::get_PCRPID
 ---
 
 # IMPEG2Component::get_PCRPID
@@ -65,3 +65,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2component">IMPEG2Component Interface</a>
+

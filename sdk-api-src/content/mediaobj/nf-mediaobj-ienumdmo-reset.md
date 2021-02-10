@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IEnumDMO.Reset
+ - IEnumDMO::Reset
 ---
 
 # IEnumDMO::Reset
@@ -62,3 +62,4 @@ Returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-ienumdmo">IEnumDMO Interface</a>
+

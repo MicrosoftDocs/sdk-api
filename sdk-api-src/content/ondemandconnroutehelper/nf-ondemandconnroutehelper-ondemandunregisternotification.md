@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OnDemandConnRouteHelper.dll
 api_name:
- - OnDemandUnregisterNotification
+ - OnDemandUnRegisterNotification
 ---
 
 # OnDemandUnRegisterNotification function
@@ -65,3 +65,4 @@ Returns S_OK on success.
 ## -see-also
 
 <a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-ondemandregisternotification">OnDemandRegisterNotification</a>
+

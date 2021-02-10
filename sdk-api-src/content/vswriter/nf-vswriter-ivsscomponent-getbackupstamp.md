@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetBackupStamp
+ - IVssComponent::GetBackupStamp
 ---
 
 # IVssComponent::GetBackupStamp
@@ -156,3 +156,4 @@ Requesters merely store the backup stamps in the Backup Components Document; the
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">IVssComponent::SetBackupStamp</a>
+

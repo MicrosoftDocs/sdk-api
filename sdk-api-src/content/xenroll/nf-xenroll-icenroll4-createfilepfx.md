@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.createFilePFX
- - CEnroll.createFilePFX
+ - ICEnroll4::createFilePFX
 ---
 
 # ICEnroll4::createFilePFX
@@ -76,3 +75,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 When this method is called from script, the method displays a user interface that asks whether the user will allow a write operation to the file system.
+

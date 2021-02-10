@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice2.setItemInfo
+ - IWMPSyncDevice2::setItemInfo
 ---
 
 # IWMPSyncDevice2::setItemInfo
@@ -201,3 +201,4 @@ Requires Windows Media Player 12.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2 Interface</a>
+

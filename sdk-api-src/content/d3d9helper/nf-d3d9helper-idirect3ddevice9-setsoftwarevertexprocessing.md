@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetSoftwareVertexProcessing
+ - IDirect3DDevice9::SetSoftwareVertexProcessing
 ---
 
 # IDirect3DDevice9::SetSoftwareVertexProcessing
@@ -87,3 +87,4 @@ In Direct3D 9, use <b>SetSoftwareVertexProcessing</b> instead. This new API is n
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsoftwarevertexprocessing">IDirect3DDevice9::GetSoftwareVertexProcessing</a>
+

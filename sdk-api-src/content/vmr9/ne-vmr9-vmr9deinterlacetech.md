@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - __MIDL___MIDL_itf_vmr9_0000_0013_0002
  - VMR9DeinterlaceTech
 ---
 
@@ -95,3 +96,4 @@ The algorithm identifies objects within a sequence of video fields. Before it re
 
 
 <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9deinterlacecaps">VMR9DeinterlaceCaps Structure</a>
+

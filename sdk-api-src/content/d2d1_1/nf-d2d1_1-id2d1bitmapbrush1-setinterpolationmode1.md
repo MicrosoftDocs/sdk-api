@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1BitmapBrush1.SetInterpolationMode1
+ - ID2D1BitmapBrush1::SetInterpolationMode1
 ---
 
 # ID2D1BitmapBrush1::SetInterpolationMode1
@@ -70,3 +70,4 @@ The mode to use.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1">ID2D1BitmapBrush1</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionEffectGroup.SetTransform3D
+ - IDCompositionEffectGroup::SetTransform3D
 ---
 
 # IDCompositionEffectGroup::SetTransform3D
@@ -97,3 +97,4 @@ If the <i>transform3D</i> parameter is NULL, the effect group does not apply any
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontranslatetransform3d">IDCompositionTranslateTransform3D</a>
+

@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcServerUseProtseqIfEx
- - RpcServerUseProtseqIfExA
- - RpcServerUseProtseqIfExW
 ---
 
 # RpcServerUseProtseqIfEx function
@@ -221,3 +219,4 @@ To register all protocol sequences from the IDL file, a server calls
 
 
 Writing a Secure RPC Client or Server
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _NET_DISPLAY_USER
+ - PNET_DISPLAY_USER
  - NET_DISPLAY_USER
 ---
 
@@ -337,3 +339,4 @@ The index of the last entry returned by the
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

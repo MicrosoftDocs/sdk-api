@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - EditStreamCallback
+ - EDITSTREAMCALLBACK
 ---
 
 # EDITSTREAMCALLBACK callback function
@@ -127,3 +127,4 @@ The control calls the callback function repeatedly, transferring a portion of th
 
 
 <b>Reference</b>
+

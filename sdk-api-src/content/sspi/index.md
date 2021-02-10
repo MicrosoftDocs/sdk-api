@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - sspi
  - sspi/sspi
+api_name:
+ - sspi
 ---
 
 # Sspi.h header

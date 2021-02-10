@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCSettings.GetLastSettingsChangeTime
+ - IWPCSettings::GetLastSettingsChangeTime
 ---
 
 # IWPCSettings::GetLastSettingsChangeTime
@@ -105,3 +105,4 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
+

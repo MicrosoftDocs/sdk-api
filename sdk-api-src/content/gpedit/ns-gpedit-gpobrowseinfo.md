@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Gpedit.h
 api_name:
+ - tag_GPOBROWSEINFO
+ - LPGPOBROWSEINFO
  - GPOBROWSEINFO
 ---
 
@@ -195,3 +197,4 @@ The object might be linked to an organizational unit.
 
 
 <a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
+

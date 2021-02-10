@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInvalidProductLicenseException.Product
- - IInvalidProductLicenseException.get_Product
+ - IInvalidProductLicenseException::get_Product
 ---
 
 # IInvalidProductLicenseException::get_Product
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinvalidproductlicenseexception">IInvalidProductLicenseException</a>
+

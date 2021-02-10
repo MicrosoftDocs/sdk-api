@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetViewportRect
+ - IDirectManipulationViewport::SetViewportRect
 ---
 
 # IDirectManipulationViewport::SetViewportRect
@@ -69,3 +69,4 @@ The viewport rectangle specifies the region of content that is visible to the us
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
+

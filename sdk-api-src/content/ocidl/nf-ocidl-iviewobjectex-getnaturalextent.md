@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IViewObjectEx.GetNaturalExtent
+ - IViewObjectEx::GetNaturalExtent
 ---
 
 # IViewObjectEx::GetNaturalExtent
@@ -203,3 +203,4 @@ If the object is active, the following occurs:
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
+

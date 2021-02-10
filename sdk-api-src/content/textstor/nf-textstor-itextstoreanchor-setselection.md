@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor.SetSelection
+ - ITextStoreAnchor::SetSelection
 ---
 
 # ITextStoreAnchor::SetSelection
@@ -143,3 +143,4 @@ The caller does not have a read/write lock.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
       </a>
+

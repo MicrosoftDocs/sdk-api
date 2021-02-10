@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IExecAction.WorkingDirectory
- - IExecAction.get_WorkingDirectory
- - IExecAction.put_WorkingDirectory
+ - IExecAction::get_WorkingDirectory
 ---
 
 # IExecAction::get_WorkingDirectory
@@ -71,3 +69,4 @@ The path is checked to make sure it is valid when the task is registered, not wh
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

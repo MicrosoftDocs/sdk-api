@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiPortalGroup.RemovePortal
+ - IVdsIscsiPortalGroup::RemovePortal
 ---
 
 # IVdsIscsiPortalGroup::RemovePortal
@@ -152,3 +152,4 @@ The <i>portalID</i> parameter does not refer to an existing object.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsiportalgroup">IVdsIscsiPortalGroup</a>
+

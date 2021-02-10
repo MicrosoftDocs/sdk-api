@@ -43,11 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMSOMCollection
- - IGPMSOMCollection.Count
- - IGPMSOMCollection.get_Count
- - IGPMSOMCollection.Item
- - IGPMSOMCollection.get_Item
- - GPMSOMCollection
 ---
 
 # IGPMSOMCollection interface
@@ -78,3 +73,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSOMCollection</b> interfa
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeystrokeMgr.SimulatePreservedKey
+ - ITfKeystrokeMgr::SimulatePreservedKey
 ---
 
 # ITfKeystrokeMgr::SimulatePreservedKey
@@ -129,3 +129,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - IWTSSBPlugin.Initialize
+ - IWTSSBPlugin::Initialize
 ---
 
 # IWTSSBPlugin::Initialize
@@ -93,3 +93,4 @@ Your implementation of <b>Initialize</b> must return <b>S_OK</b> immediately if 
 
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
+

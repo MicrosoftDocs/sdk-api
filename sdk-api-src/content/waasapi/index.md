@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - waasapi
  - waasapi/waasapi
+api_name:
+ - waasapi
 ---
 
 # Waasapi.h header

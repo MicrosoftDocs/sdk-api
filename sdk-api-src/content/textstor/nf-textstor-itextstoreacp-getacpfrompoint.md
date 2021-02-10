@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP.GetACPFromPoint
+ - ITextStoreACP::GetACPFromPoint
 ---
 
 # ITextStoreACP::GetACPFromPoint
@@ -194,3 +194,4 @@ For the point 2 screen coordinates, the method returns <b>TF_E_INVALIDPOINT</b> 
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector.ExtendedModes
- - ITraceDataCollector.get_ExtendedModes
- - ITraceDataCollector.put_ExtendedModes
+ - ITraceDataCollector::get_ExtendedModes
 ---
 
 # ITraceDataCollector::get_ExtendedModes
@@ -120,3 +118,4 @@ For a description of all log file modes and their values, see <a href="/windows/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
+

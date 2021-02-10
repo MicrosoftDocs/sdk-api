@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFactory4.ComputeGlyphOrigins
+ - IDWriteFactory4::ComputeGlyphOrigins
 ---
 
 ## -description

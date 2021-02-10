@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment.Initialize
+ - IX509Enrollment::Initialize
 ---
 
 # IX509Enrollment::Initialize
@@ -90,3 +90,4 @@ The <b>Initialize</b> method creates a new key pair and initializes empty collec
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
+

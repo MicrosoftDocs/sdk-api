@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.CopyPalette
+ - IWICBitmapDecoder::CopyPalette
 ---
 
 # IWICBitmapDecoder::CopyPalette
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>CopyPalette</b> returns a global palette (a palette that applies to all the frames in the image) if there is one; otherwise, it returns WINCODEC_ERR_PALETTEUNAVAILABLE. If an image doesn't have a global palette, it may still have a frame-level palette, which can be retrieved using <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypalette">IWICBitmapFrameDecode::CopyPalette</a>.
+

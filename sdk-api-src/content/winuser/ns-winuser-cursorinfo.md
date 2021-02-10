@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagCURSORINFO
+ - PCURSORINFO
  - CURSORINFO
 ---
 
@@ -141,3 +143,4 @@ A   structure that receives the screen coordinates of the cursor.
 
 
 <b>Reference</b>
+

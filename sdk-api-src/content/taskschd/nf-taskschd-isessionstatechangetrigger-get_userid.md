@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ISessionStateChangeTrigger.UserId
- - ISessionStateChangeTrigger.get_UserId
- - ISessionStateChangeTrigger.put_UserId
+ - ISessionStateChangeTrigger::get_UserId
 ---
 
 # ISessionStateChangeTrigger::get_UserId
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger">ISessionStateChangeTrigger</a>
+

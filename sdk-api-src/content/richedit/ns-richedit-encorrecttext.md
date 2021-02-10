@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _encorrecttext
  - ENCORRECTTEXT
 ---
 
@@ -124,3 +125,4 @@ The new selection contains more than one COM object.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/d6f6278f-ff63-4f6a-a352-2b4d70df3e1a">EN_CORRECTTEXT</a>
+

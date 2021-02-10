@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccountOutgoingArchive.SizeHigh
- - IFaxAccountOutgoingArchive.get_SizeHigh
- - IFaxAccountOutgoingArchive.get_SizeHigh
+ - IFaxAccountOutgoingArchive::get_SizeHigh
 ---
 
 # IFaxAccountOutgoingArchive::get_SizeHigh
@@ -75,3 +73,4 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountoutgoingarchive">IFaxAccountOutgoingArchive</a>
+

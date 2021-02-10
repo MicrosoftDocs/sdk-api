@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStrings.Item
+ - ITextStrings::Item
 ---
 
 # ITextStrings::Item
@@ -79,3 +79,4 @@ The first string corresponds to Index = 1 and the last to Count which is given b
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
+

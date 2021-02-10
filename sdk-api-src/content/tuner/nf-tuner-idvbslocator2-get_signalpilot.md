@@ -42,9 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDVBSLocator2.SignalPilot
- - IDVBSLocator2.get_SignalPilot
- - IDVBSLocator2.put_SignalPilot
+ - IDVBSLocator2::get_SignalPilot
 ---
 
 # IDVBSLocator2::get_SignalPilot
@@ -66,3 +64,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/mstv/pilot">Pilot</a>
+

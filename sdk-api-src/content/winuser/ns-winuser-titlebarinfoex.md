@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagTITLEBARINFOEX
+ - PTITLEBARINFOEX
  - TITLEBARINFOEX
 ---
 
@@ -226,3 +228,4 @@ An array that receives a structure for each element of the title bar. The struct
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
+

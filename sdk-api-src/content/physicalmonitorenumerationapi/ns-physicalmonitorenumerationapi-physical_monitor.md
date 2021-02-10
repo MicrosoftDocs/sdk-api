@@ -46,6 +46,8 @@ api_type:
 api_location:
  - PhysicalMonitorEnumerationAPI.h
 api_name:
+ - _PHYSICAL_MONITOR
+ - LPPHYSICAL_MONITOR
  - PHYSICAL_MONITOR
 ---
 
@@ -81,3 +83,4 @@ A physical monitor description is always an array of 128 characters.
 
 
 <a href="/windows/desktop/Monitor/monitor-configuration-structures">Monitor Configuration Structures</a>
+

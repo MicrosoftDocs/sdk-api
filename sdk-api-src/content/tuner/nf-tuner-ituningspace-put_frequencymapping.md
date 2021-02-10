@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace.put_FrequencyMapping
+ - ITuningSpace::put_FrequencyMapping
 ---
 
 # ITuningSpace::put_FrequencyMapping
@@ -69,3 +69,4 @@ This method is used by the network provider to store a string that contains the 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
+

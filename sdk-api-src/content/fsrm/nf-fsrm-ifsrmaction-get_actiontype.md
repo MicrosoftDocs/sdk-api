@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmAction.ActionType
- - IFsrmAction.get_ActionType
+ - IFsrmAction::get_ActionType
 ---
 
 # IFsrmAction::get_ActionType
@@ -79,3 +78,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
+

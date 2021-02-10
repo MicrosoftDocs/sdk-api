@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
+ - LPINTERNET_CERTIFICATE_INFO
  - INTERNET_CERTIFICATE_INFO
 ---
 
@@ -101,3 +102,4 @@ Applications requesting this information must free pointers that are allocated a
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
+

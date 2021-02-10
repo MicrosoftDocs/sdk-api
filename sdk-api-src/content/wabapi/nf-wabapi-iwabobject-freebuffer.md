@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject.FreeBuffer
+ - IWABObject::FreeBuffer
 ---
 
 # IWABObject::FreeBuffer
@@ -69,3 +69,4 @@ Type: <b>HRESULT</b>
 
 Returns S_OK if the call succeeded 
 			and freed the memory requested.
+

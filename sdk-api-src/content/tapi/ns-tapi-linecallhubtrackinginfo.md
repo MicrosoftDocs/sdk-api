@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linecallhubtrackinginfo_tag
+ - LPLINECALLHUBTRACKINGINFO
  - LINECALLHUBTRACKINGINFO
 ---
 
@@ -96,3 +98,4 @@ Current tracking, as represented by a <a href="/windows/desktop/Tapi/linecallhub
 
 
 <a href="/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallhubtracking">TSPI_lineSetCallHubTracking</a>
+

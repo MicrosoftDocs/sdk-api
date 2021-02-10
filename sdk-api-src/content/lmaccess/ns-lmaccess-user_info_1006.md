@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_1006
+ - PUSER_INFO_1006
  - USER_INFO_1006
 ---
 
@@ -80,3 +82,4 @@ Pointer to a Unicode string specifying the path of the home directory for the us
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
+

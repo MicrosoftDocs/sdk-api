@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback.AddItemToSession
+ - ISyncMgrSyncCallback::AddItemToSession
 ---
 
 # ISyncMgrSyncCallback::AddItemToSession
@@ -111,3 +111,4 @@ HRESULT CMyDeviceHandler::Synchronize(...)
 }
 
 ```
+

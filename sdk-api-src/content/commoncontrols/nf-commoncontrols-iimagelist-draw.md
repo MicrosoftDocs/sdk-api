@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList.Draw
+ - IImageList::Draw
 ---
 
 # IImageList::Draw
@@ -72,3 +72,4 @@ Overlay images draw transparently over the primary image specified in the <b>i</
 		
 
 To use <b>IImageList::Draw</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

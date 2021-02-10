@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateRequestPkcs10V2.InitializeFromPublicKeyTemplate
+ - IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate
 ---
 
 # IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate
@@ -166,3 +166,4 @@ The method does not create a private key. The use of this method implies that th
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v2">IX509CertificateRequestPkcs10V2</a>
+

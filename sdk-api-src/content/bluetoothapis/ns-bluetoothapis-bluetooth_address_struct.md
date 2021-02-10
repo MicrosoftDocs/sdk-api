@@ -44,7 +44,8 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - BLUETOOTH_ADDRESS
+ - _BLUETOOTH_ADDRESS
+ - BLUETOOTH_ADDRESS_STRUCT
 ---
 
 # BLUETOOTH_ADDRESS_STRUCT structure

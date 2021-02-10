@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetCommandLineA
  - processenv/GetCommandLineA
+ - GetCommandLine
+ - processenv/GetCommandLine
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - GetCommandLine
  - GetCommandLineA
- - GetCommandLineW
+ - GetCommandLine
 ---
 
 # GetCommandLineA function
@@ -87,3 +88,4 @@ To convert the command line to an <i>argv</i> style array of strings, pass the r
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 <a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+

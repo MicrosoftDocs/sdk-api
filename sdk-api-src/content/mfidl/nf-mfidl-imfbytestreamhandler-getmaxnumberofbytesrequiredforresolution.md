@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStreamHandler.GetMaxNumberOfBytesRequiredForResolution
+ - IMFByteStreamHandler::GetMaxNumberOfBytesRequiredForResolution
 ---
 
 # IMFByteStreamHandler::GetMaxNumberOfBytesRequiredForResolution
@@ -88,3 +88,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
+

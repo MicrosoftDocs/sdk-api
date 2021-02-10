@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - IStemmer.GenerateWordForms
+ - IStemmer::GenerateWordForms
 ---
 
 # IStemmer::GenerateWordForms
@@ -110,3 +110,4 @@ Invalid argument. Either <i>pwcInBuf</i> or <i>pWordFormSink</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>
+

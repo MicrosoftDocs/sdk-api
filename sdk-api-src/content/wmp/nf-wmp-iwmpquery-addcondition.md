@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPQuery.addCondition
+ - IWMPQuery::addCondition
 ---
 
 # IWMPQuery::addCondition
@@ -169,3 +169,4 @@ The following table lists the supported values for <i>bstrOperator</i>.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpquery">IWMPQuery Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetOutputStereoMode
+ - ID3D11VideoContext::VideoProcessorSetOutputStereoMode
 ---
 
 # ID3D11VideoContext::VideoProcessorSetOutputStereoMode
@@ -71,3 +71,4 @@ To use this feature, the driver must support stereo video, indicated by the <b>D
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
+

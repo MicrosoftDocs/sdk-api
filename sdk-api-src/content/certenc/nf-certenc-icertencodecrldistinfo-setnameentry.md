@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo.SetNameEntry
- - CCertEncodeCRLDistInfo.SetNameEntry
+ - ICertEncodeCRLDistInfo::SetNameEntry
 ---
 
 # ICertEncodeCRLDistInfo::SetNameEntry
@@ -145,3 +144,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-setnamecount">ICertEncodeCRLDistInfo::SetNameCount</a>
+

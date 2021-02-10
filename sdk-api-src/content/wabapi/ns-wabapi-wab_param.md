@@ -47,6 +47,8 @@ api_type:
 api_location:
  - Wabapi.h
 api_name:
+ - _tagWAB_PARAM
+ - LPWAB_PARAM
  - WAB_PARAM
 ---
 
@@ -100,3 +102,4 @@ Invokes WAB in an Identity-aware session using Identity-Manager based profiles. 
 Type: <b>GUID</b>
 
 Value of type <b>GUID</b> that specifies the GUID that identifies the calling application's property sheet extensions. The GUID can be used to determine whether the extension property sheets are displayed or not. Available only on Internet Explorer 5 or later.
+

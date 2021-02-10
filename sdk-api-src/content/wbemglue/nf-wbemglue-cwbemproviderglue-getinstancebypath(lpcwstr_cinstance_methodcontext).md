@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetInstanceByPath
- - ?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z
- - ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z
+ - CWbemProviderGlue::GetInstanceByPath
 ---
 
 # CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext)
@@ -106,3 +104,4 @@ Although <i>pMethodContext</i> has a default value of <b>NULL</b>, a
     <a href="/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the 
     instance using 
     <a href="/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>.
+

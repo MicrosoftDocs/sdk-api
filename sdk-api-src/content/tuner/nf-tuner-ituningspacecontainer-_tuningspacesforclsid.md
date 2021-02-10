@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer._TuningSpacesForCLSID
+ - ITuningSpaceContainer::_TuningSpacesForCLSID
 ---
 
 # ITuningSpaceContainer::_TuningSpacesForCLSID
@@ -75,3 +75,4 @@ This method matches against the CLSID returned by the <a href="/previous-version
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
+

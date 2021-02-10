@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingActivity.Provider
+ - TraceLoggingActivity::Provider
 ---
 
 # TraceLoggingActivity::Provider
@@ -61,3 +61,4 @@ The handle to the TraceLogging provider associated with this activity.
 ## -see-also
 
 <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
+

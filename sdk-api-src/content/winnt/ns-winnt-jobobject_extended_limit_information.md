@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _JOBOBJECT_EXTENDED_LIMIT_INFORMATION
+ - PJOBOBJECT_EXTENDED_LIMIT_INFORMATION
  - JOBOBJECT_EXTENDED_LIMIT_INFORMATION
 ---
 
@@ -108,3 +110,4 @@ To register for notifications  that a job has exceeded its peak memory limit whi
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+

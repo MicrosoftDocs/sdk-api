@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_SECURITY_FLAGS
  - WBEM_SECURITY_FLAGS
 ---
 
@@ -98,3 +99,4 @@ Specifies that the account can  publish events to the instance of <a href="/wind
 
 
 <a href="/windows/desktop/WmiSdk/namespace-access-rights-constants">Namespace Access Rights Constants</a>
+

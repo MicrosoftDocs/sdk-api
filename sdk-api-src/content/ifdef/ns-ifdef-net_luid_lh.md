@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Ifdef.h
 api_name:
- - NET_LUID
+ - _NET_LUID_LH
+ - PNET_LUID_LH
+ - NET_LUID_LH
 ---
 
 # NET_LUID_LH structure
@@ -245,3 +247,4 @@ The values for the <b>IfType</b> bitfield are defined in the <i>Ipifcons.h</i> i
 
 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
+

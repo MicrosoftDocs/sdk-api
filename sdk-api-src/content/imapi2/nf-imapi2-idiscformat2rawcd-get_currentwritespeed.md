@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_CurrentWriteSpeed
+ - IDiscFormat2RawCD::get_CurrentWriteSpeed
 ---
 
 # IDiscFormat2RawCD::get_CurrentWriteSpeed
@@ -391,3 +391,4 @@ Note that the write speed is based on the media write speeds. The value of this 
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds">IDiscFormat2RawCD::get_SupportedWriteSpeeds</a>
+

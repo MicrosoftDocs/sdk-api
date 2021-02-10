@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkLineInfo.GetInkExtent
+ - IInkLineInfo::GetInkExtent
 ---
 
 # IInkLineInfo::GetInkExtent
@@ -128,3 +128,4 @@ If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then th
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>
+

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice.Cancel
+ - IPortableDevice::Cancel
 ---
 
 # IPortableDevice::Cancel
@@ -90,3 +90,4 @@ Also, note that if the <b>Cancel</b> method is invoked before an <b>IStream::Wri
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
+

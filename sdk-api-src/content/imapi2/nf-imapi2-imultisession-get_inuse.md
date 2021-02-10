@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IMultisession.get_InUse
+ - IMultisession::get_InUse
 ---
 
 # IMultisession::get_InUse
@@ -89,3 +89,4 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">IMultisession::put_InUse</a>
+

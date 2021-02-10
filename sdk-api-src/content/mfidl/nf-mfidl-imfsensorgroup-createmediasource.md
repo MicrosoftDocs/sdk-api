@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorGroup.CreateMediaSource
+ - IMFSensorGroup::CreateMediaSource
 ---
 
 # IMFSensorGroup::CreateMediaSource
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
+

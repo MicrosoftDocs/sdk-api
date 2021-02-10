@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.GetCRL
- - ICertAdmin.GetCRL
- - CCertAdmin.GetCRL
+ - ICertAdmin::GetCRL
 ---
 
 # ICertAdmin::GetCRL
@@ -231,3 +229,4 @@ error:
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+

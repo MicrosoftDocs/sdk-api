@@ -9,6 +9,8 @@ tech.root: intl
 f1_keywords:
  - spellcheck
  - spellcheck/spellcheck
+api_name:
+ - spellcheck
 ---
 
 # Spellcheck.h header

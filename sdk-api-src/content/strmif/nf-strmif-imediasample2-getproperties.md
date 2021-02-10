@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample2.GetProperties
+ - IMediaSample2::GetProperties
 ---
 
 # IMediaSample2::GetProperties
@@ -109,3 +109,4 @@ For efficiency, the <b>pMediaType</b> member returned in <b>AM_SAMPLE2_PROPERTIE
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample2">IMediaSample2 Interface</a>
+

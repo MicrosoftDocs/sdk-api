@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFECommon.InvokeWordRegDialog
+ - IFECommon::InvokeWordRegDialog
 ---
 
 # IFECommon::InvokeWordRegDialog
@@ -70,3 +70,4 @@ otherwise <b>E_FAIL</b>.
 
 
 <a href="/windows/desktop/api/msime/ns-msime-imedlg">IMEDLG</a>
+

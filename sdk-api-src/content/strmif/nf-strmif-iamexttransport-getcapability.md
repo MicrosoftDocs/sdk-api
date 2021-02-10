@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.GetCapability
+ - IAMExtTransport::GetCapability
 ---
 
 # IAMExtTransport::GetCapability
@@ -250,3 +250,4 @@ For the following flags, the method returns a value in the <i>pdblValue</i> para
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
+

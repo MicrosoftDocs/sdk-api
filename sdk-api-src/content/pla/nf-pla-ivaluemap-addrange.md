@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMap.AddRange
+ - IValueMap::AddRange
 ---
 
 # IValueMap::AddRange
@@ -73,3 +73,4 @@ Returns S_OK if successful.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-remove">IValueMap::Remove</a>
+

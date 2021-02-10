@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Brush.Clone
+ - Brush::Clone
 ---
 
 # Brush::Clone
@@ -94,3 +94,4 @@ This method returns a pointer to the new
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
+

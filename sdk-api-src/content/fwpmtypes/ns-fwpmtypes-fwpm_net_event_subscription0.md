@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT_SUBSCRIPTION0_
  - FWPM_NET_EVENT_SUBSCRIPTION0
 ---
 
@@ -72,3 +73,4 @@ Identifies the session which created the subscription.
 ## -remarks
 
 <b>FWPM_NET_EVENT_SUBSCRIPTION0</b> is a specific implementation of FWPM_NET_EVENT_SUBSCRIPTION. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+

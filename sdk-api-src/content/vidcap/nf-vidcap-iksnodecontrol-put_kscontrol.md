@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IKsNodeControl.put_KsControl
+ - IKsNodeControl::put_KsControl
 ---
 
 # IKsNodeControl::put_KsControl
@@ -73,3 +73,4 @@ The KsProxy filter calls this method with a pointer to its own <b>IKsControl</b>
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-iksnodecontrol">IKsNodeControl Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWEExtendContextMenu.AddContextMenuItems
+ - IWEExtendContextMenu::AddContextMenuItems
 ---
 
 # IWEExtendContextMenu::AddContextMenuItems
@@ -213,3 +213,4 @@ To add context menu items and to implement code that executes when your context 
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
+

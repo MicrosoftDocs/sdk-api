@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - PasswordFilter
+ - PSAM_PASSWORD_FILTER_ROUTINE
 ---
 
 # PSAM_PASSWORD_FILTER_ROUTINE callback function
@@ -145,3 +145,4 @@ Any process exception that is not handled within this function may cause securit
 
 
 <a href="/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_notification_routine">PasswordChangeNotify</a>
+

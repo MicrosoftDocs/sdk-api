@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.FillRegion
+ - Graphics::FillRegion
 ---
 
 # Graphics::FillRegion
@@ -128,3 +128,4 @@ VOID Example_FillRegion(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

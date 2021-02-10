@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3.GetStreamPrioritization
+ - IWMProfile3::GetStreamPrioritization
 ---
 
 # IWMProfile3::GetStreamPrioritization
@@ -128,3 +128,4 @@ Many profiles do not have a stream prioritization assigned to them. If you call 
 
 
 <a href="/windows/desktop/wmformat/stream-prioritization-object">Stream Prioritization Object</a>
+

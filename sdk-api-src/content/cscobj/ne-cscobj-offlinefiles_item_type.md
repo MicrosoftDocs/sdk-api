@@ -44,6 +44,7 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
+ - tagOFFLINEFILES_ITEM_TYPE
  - OFFLINEFILES_ITEM_TYPE
 ---
 
@@ -95,3 +96,4 @@ The item is a server.
 
 
 <a href="/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesshareitem">IOfflineFilesShareItem</a>
+

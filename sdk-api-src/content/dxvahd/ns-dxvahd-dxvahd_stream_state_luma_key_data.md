@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_STATE_LUMA_KEY_DATA
  - DXVAHD_STREAM_STATE_LUMA_KEY_DATA
 ---
 
@@ -134,3 +135,4 @@ HRESULT DXVAHD_SetLumaKey(
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

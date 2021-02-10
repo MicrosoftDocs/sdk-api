@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessageIterator.Message
- - IFaxOutgoingMessageIterator.get_Message
+ - IFaxOutgoingMessageIterator::get_Message
 ---
 
 # IFaxOutgoingMessageIterator::get_Message
@@ -72,3 +71,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
+

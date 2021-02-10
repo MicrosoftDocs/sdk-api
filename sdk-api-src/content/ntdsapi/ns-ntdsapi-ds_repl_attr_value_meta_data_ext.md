@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - _DS_REPL_ATTR_VALUE_META_DATA_EXT
  - DS_REPL_ATTR_VALUE_META_DATA_EXT
 ---
 
@@ -88,3 +89,4 @@ An array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_
 
 
 <a href="/windows/desktop/AD/domain-controller-and-replication-management-structures">Domain Controller and Replication Management Structures</a>
+

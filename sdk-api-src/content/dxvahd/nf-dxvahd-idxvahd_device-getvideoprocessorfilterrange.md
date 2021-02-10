@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - IDXVAHD_Device.GetVideoProcessorFilterRange
+ - IDXVAHD_Device::GetVideoProcessorFilterRange
 ---
 
 # IDXVAHD_Device::GetVideoProcessorFilterRange
@@ -106,3 +106,4 @@ To find out which image filters the device supports, check the <b>FilterCaps</b>
 
 
 <a href="/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a>
+

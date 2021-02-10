@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IDTFilterConfig.GetSecureChannelObject
+ - IDTFilterConfig::GetSecureChannelObject
 ---
 
 # IDTFilterConfig::GetSecureChannelObject
@@ -69,3 +69,4 @@ If the method succeeds, the caller must release the <b>IUnknown</b> interface.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilterconfig">IDTFilterConfig Interface</a>
+

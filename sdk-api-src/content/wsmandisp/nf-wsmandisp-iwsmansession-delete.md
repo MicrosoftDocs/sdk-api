@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManSession.Delete
+ - IWSManSession::Delete
 ---
 
 # IWSManSession::Delete
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinRM/session-delete">Session.Delete</a>
+

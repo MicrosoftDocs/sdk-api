@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DIndexBuffer9.Lock
+ - IDirect3DIndexBuffer9::Lock
 ---
 
 # IDirect3DIndexBuffer9::Lock
@@ -115,3 +115,4 @@ See <a href="/windows/desktop/direct3d9/programming-tips">Programming Tips (Dire
 
 
 <a href="/windows/desktop/direct3d9/index-buffers">Index Buffers (Direct3D 9)</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemQuery.FreeMemory
+ - IWbemQuery::FreeMemory
 ---
 
 # IWbemQuery::FreeMemory
@@ -66,3 +66,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call.
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
+

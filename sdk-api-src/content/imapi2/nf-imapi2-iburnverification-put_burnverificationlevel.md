@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IBurnVerification.put_BurnVerificationLevel
+ - IBurnVerification::put_BurnVerificationLevel
 ---
 
 # IBurnVerification::put_BurnVerificationLevel
@@ -73,3 +73,4 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_burn_verification_level">IMAPI_BURN_VERIFICATION_LEVEL</a>
+

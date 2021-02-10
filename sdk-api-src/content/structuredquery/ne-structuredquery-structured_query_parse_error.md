@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
+ - tagSTRUCTURED_QUERY_PARSE_ERROR
  - STRUCTURED_QUERY_PARSE_ERROR
 ---
 
@@ -87,3 +88,4 @@ Any other parse error.
 ## -see-also
 
 <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-irichchunk">IRichChunk</a>
+

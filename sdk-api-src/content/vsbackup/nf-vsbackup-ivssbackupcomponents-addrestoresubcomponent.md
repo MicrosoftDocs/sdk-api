@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.AddRestoreSubcomponent
+ - IVssBackupComponents::AddRestoreSubcomponent
 ---
 
 # IVssBackupComponents::AddRestoreSubcomponent
@@ -242,3 +242,4 @@ See <a href="/windows/desktop/VSS/working-with-selectability-for-restore-and-sub
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncCallback2.OnChangeFailed
+ - ISyncCallback2::OnChangeFailed
 ---
 
 # ISyncCallback2::OnChangeFailed
@@ -99,3 +99,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback2">ISyncCallback2 Interface</a>
+

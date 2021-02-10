@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor.GetSupportedDataFields
+ - ISensor::GetSupportedDataFields
 ---
 
 # ISensor::GetSupportedDataFields
@@ -94,3 +94,4 @@ NULL was passed in for ppDataFields.
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob.Type
- - IFaxJob.get_Type
+ - IFaxJob::get_Type
 ---
 
 # IFaxJob::get_Type
@@ -72,3 +71,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
+

@@ -9,6 +9,8 @@ tech.root: bluetooth
 f1_keywords:
  - ws2bth
  - ws2bth/ws2bth
+api_name:
+ - ws2bth
 ---
 
 # Ws2Bth.h header

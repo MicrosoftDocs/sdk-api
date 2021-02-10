@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetCommandOptions
+ - IPortableDeviceCapabilities::GetCommandOptions
 ---
 
 # IPortableDeviceCapabilities::GetCommandOptions
@@ -99,3 +99,4 @@ If this method is called for the WPD_COMMAND_STORAGE_FORMAT command and the <i>p
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+

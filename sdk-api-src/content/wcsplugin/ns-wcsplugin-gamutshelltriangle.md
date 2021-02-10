@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
+ - _GamutShellTriangle
  - GamutShellTriangle
 ---
 
@@ -71,3 +72,4 @@ An array of three vertex indices that are used for accessing a vertex buffer.
 
 
 <a href="/previous-versions/windows/desktop/wcs/windows-color-system-schemas-and-algorithms">Windows Color System Schemas and Algorithms</a>
+

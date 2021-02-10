@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureQuery.MakeDecision
+ - ISCPSecureQuery::MakeDecision
 ---
 
 # ISCPSecureQuery::MakeDecision
@@ -208,3 +208,4 @@ This method is called after the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-i
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
+

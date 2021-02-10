@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICryptAttribute.InitializeFromValues
+ - ICryptAttribute::InitializeFromValues
 ---
 
 # ICryptAttribute::InitializeFromValues
@@ -83,3 +83,4 @@ The <b>InitializeFromValues</b> method uses the first <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
+

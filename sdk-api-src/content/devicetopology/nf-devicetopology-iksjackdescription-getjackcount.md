@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IKsJackDescription.GetJackCount
+ - IKsJackDescription::GetJackCount
 ---
 
 # IKsJackDescription::GetJackCount
@@ -94,3 +94,4 @@ After calling this method to retrieve the jack count, call the <a href="/windows
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_compare_ext_sW
  - winldap/ldap_compare_ext_sW
+ - ldap_compare_ext_s
+ - winldap/ldap_compare_ext_s
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_compare_ext_s
- - ldap_compare_ext_sA
  - ldap_compare_ext_sW
+ - ldap_compare_ext_s
 ---
 
 # ldap_compare_ext_sW function
@@ -131,3 +132,4 @@ Multithreading: Calls to <b>ldap_compare_ext_s</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s">ldap_compare_s</a>
+

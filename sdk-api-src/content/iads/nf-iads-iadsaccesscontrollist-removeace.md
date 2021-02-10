@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsAccessControlList.RemoveAce
+ - IADsAccessControlList::RemoveAce
 ---
 
 # IADsAccessControlList::RemoveAce
@@ -75,3 +75,4 @@ For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
+

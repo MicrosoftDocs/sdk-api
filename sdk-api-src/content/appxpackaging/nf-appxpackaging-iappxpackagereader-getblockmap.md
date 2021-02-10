@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxPackageReader.GetBlockMap
+ - IAppxPackageReader::GetBlockMap
 ---
 
 # IAppxPackageReader::GetBlockMap
@@ -73,3 +73,4 @@ The package block map is validated when the package reader is created using <a h
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>
+

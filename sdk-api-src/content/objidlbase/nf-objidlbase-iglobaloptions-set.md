@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IGlobalOptions.Set
+ - IGlobalOptions::Set
 ---
 
 # IGlobalOptions::Set
@@ -70,3 +70,4 @@ The return value is S_OK if the property was set successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
+

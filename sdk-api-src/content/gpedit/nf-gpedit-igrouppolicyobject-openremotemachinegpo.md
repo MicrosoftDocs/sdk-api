@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject.OpenRemoteMachineGPO
+ - IGroupPolicyObject::OpenRemoteMachineGPO
 ---
 
 # IGroupPolicyObject::OpenRemoteMachineGPO
@@ -106,3 +106,4 @@ To retrieve the computer name of a remote GPO, you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openlocalmachinegpo">OpenLocalMachineGPO</a>
+

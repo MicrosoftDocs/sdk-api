@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceProxy.Init
+ - IWSDDeviceProxy::Init
 ---
 
 # IWSDDeviceProxy::Init
@@ -127,3 +127,4 @@ This method is called by <a href="/windows/desktop/api/wsdclient/nf-wsdclient-ws
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject.GetDisplayName
+ - IGroupPolicyObject::GetDisplayName
 ---
 
 # IGroupPolicyObject::GetDisplayName
@@ -94,3 +94,4 @@ To set the display name for a GPO, you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-setdisplayname">SetDisplayName</a>
+

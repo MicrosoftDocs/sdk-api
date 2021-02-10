@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - IPrintDialogServices.GetCurrentPortName
+ - IPrintDialogServices::GetCurrentPortName
 ---
 
 # IPrintDialogServices::GetCurrentPortName
@@ -95,3 +95,4 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 <b>Reference</b>
+

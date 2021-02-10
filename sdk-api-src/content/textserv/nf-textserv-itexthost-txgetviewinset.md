@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost.TxGetViewInset
+ - ITextHost::TxGetViewInset
 ---
 
 # ITextHost::TxGetViewInset
@@ -88,3 +88,4 @@ The view inset is available from the host at all times, active or inactive.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
+

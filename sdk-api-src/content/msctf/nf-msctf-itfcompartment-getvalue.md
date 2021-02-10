@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfCompartment.GetValue
+ - ITfCompartment::GetValue
 ---
 
 # ITfCompartment::GetValue
@@ -120,3 +120,4 @@ The caller must recognize the supplied data format in order to use the data. The
 ## -see-also
 
 [ITfCompartment interface](nn-msctf-itfcompartment.md), [ITfCompartment::SetValue](nf-msctf-itfcompartment-setvalue.md), [ITfCompartmentMgr::ClearCompartment](nf-msctf-itfcompartmentmgr-clearcompartment.md), [VariantClear function](../oleauto/nf-oleauto-variantclear.md)
+

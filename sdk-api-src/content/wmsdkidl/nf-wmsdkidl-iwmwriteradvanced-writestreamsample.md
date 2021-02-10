@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.WriteStreamSample
+ - IWMWriterAdvanced::WriteStreamSample
 ---
 
 # IWMWriterAdvanced::WriteStreamSample
@@ -173,3 +173,4 @@ You can use both <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-wr
 
 
 <a href="/windows/desktop/wmformat/writing-compressed-samples">Writing Compressed Samples</a>
+

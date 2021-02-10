@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage.get_BootImageOptions
+ - IFileSystemImage::get_BootImageOptions
 ---
 
 # IFileSystemImage::get_BootImageOptions
@@ -119,3 +119,4 @@ Value: 0xC0AAB148
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">IFileSystemImage::put_BootImageOptions</a>
+

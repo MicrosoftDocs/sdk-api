@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx.GetCurrentMode
+ - IFullScreenVideoEx::GetCurrentMode
 ---
 
 # IFullScreenVideoEx::GetCurrentMode
@@ -110,3 +110,4 @@ The filter did not load DirectDraw.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
+

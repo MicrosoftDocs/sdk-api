@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_ASYNC_OPERATION
  - WS_ASYNC_OPERATION
 ---
 
@@ -60,3 +61,4 @@ Used with the <a href="/windows/desktop/api/webservices/nf-webservices-wsasyncex
 ### -field function
 
 The asynchronous function to invoke.
+

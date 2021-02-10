@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationEventHandlerGroup.AddChangesEventHandler
+ - IUIAutomationEventHandlerGroup::AddChangesEventHandler
 ---
 
 # IUIAutomationEventHandlerGroup::AddChangesEventHandler
@@ -86,3 +86,4 @@ Before implementing an event handler, you should be familiar with the threading 
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationeventhandlergroup">IUIAutomationEventHandlerGroup</a>
+

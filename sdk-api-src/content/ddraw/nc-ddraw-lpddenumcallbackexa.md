@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: D3D31978-D450-40B3-8C61-1F2662C1BA50
 ms.date: 12/05/2018
 ms.keywords: DDEnumCallbackEx, DDEnumCallbackEx callback function [DirectDraw], LPDDENUMCALLBACKEX, LPDDENUMCALLBACKEX callback, LPDDENUMCALLBACKEXA, LPDDENUMCALLBACKEXW, ddraw/DDEnumCallbackEx, directdraw.ddenumcallbackex
-f1_keywords:
-- ddraw/DDEnumCallbackEx
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ddraw.h
-api_name:
-- DDEnumCallbackEx
-- lpddenumcallbackexa
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPDDENUMCALLBACKEXA
+ - ddraw/LPDDENUMCALLBACKEXA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ddraw.h
+api_name:
+ - LPDDENUMCALLBACKEXA
 ---
 
 ## -description
@@ -87,3 +87,4 @@ If UNICODE is defined, the string values are returned as type LPWSTR, rather tha
 
 > [!NOTE]
 > The ddraw.h header defines LPDDENUMCALLBACKEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

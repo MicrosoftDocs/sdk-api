@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationExpandCollapsePattern.Collapse
+ - IUIAutomationExpandCollapsePattern::Collapse
 ---
 
 # IUIAutomationExpandCollapsePattern::Collapse
@@ -69,3 +69,4 @@ There are cases when a element that is marked as a leaf node might not know whet
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationexpandcollapsepattern">IUIAutomationExpandCollapsePattern</a>
+

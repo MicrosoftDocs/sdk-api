@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig.GetBufferWindow
+ - IWMStreamConfig::GetBufferWindow
 ---
 
 # IWMStreamConfig::GetBufferWindow
@@ -101,3 +101,4 @@ The <i>pmsBufferWindow</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbufferwindow">IWMStreamConfig::SetBufferWindow</a>
+

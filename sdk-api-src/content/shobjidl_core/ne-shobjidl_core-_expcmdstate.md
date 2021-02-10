@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - EXPCMDSTATE
+ - _EXPCMDSTATE
 ---
 
 # _EXPCMDSTATE enumeration
@@ -89,3 +89,4 @@ The item is displayed with a check box and that check box is checked. <b>ECS_CHE
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommandstate-getstate">IExplorerCommandState::GetState</a>
+

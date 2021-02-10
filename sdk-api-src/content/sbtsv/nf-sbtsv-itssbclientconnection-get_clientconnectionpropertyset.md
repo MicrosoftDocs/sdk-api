@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbClientConnection.ClientConnectionPropertySet
- - ITsSbClientConnection.get_ClientConnectionPropertySet
+ - ITsSbClientConnection::get_ClientConnectionPropertySet
 ---
 
 # ITsSbClientConnection::get_ClientConnectionPropertySet
@@ -67,3 +66,4 @@ By default, Remote Desktop Connection Broker (RD Connection Broker) sets the fo
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCrossbar.get_PinCounts
+ - IAMCrossbar::get_PinCounts
 ---
 
 # IAMCrossbar::get_PinCounts
@@ -111,3 +111,4 @@ The other <a href="/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossba
 
 
 <a href="/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>
+

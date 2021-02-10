@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo.AssessmentState
- - IProvideWinSATResultsInfo.get_AssessmentState
+ - IProvideWinSATResultsInfo::get_AssessmentState
 ---
 
 # IProvideWinSATResultsInfo::get_AssessmentState
@@ -66,3 +65,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a>
+

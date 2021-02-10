@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaSourceExtension.GetDuration
+ - IMFMediaSourceExtension::GetDuration
 ---
 
 # IMFMediaSourceExtension::GetDuration
@@ -61,3 +61,4 @@ The duration of the media source in 100-nanosecond units.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
+

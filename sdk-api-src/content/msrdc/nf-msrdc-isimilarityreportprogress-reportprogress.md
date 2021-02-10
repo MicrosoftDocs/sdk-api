@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityReportProgress.ReportProgress
+ - ISimilarityReportProgress::ReportProgress
 ---
 
 # ISimilarityReportProgress::ReportProgress
@@ -73,3 +73,4 @@ If the application returns an error code such as <b>E_FAIL</b>, the similarity o
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityreportprogress">ISimilarityReportProgress</a>
+

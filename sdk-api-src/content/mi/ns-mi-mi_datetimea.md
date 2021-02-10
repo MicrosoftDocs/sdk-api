@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_DatetimeA
  - MI_DatetimeA
 ---
 
@@ -63,3 +64,4 @@ An array of <a href="/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a> 
 ### -field size
 
 Number of items in the data array.
+

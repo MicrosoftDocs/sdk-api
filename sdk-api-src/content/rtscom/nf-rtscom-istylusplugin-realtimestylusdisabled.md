@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.RealTimeStylusDisabled
+ - IStylusPlugin::RealTimeStylusDisabled
 ---
 
 # IStylusPlugin::RealTimeStylusDisabled
@@ -85,3 +85,4 @@ This method is called when the RTS object has been disabled, or when a plug-in i
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+

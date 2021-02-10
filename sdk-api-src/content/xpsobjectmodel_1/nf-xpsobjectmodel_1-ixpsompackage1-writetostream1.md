@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMPackage1.WriteToStream1
+ - IXpsOMPackage1::WriteToStream1
 ---
 
 # IXpsOMPackage1::WriteToStream1
@@ -86,3 +86,4 @@ XPS_E_INVALID_CONTENT_TYPE: An image resource in the package is of a type that i
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsompackage1">IXpsOMPackage1</a>
+

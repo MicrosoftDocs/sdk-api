@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.SetTransportAudioParameters
+ - IAMExtTransport::SetTransportAudioParameters
 ---
 
 # IAMExtTransport::SetTransportAudioParameters
@@ -119,3 +119,4 @@ Specify an exact channel or channels in <i>Value</i> by selecting ED_AUDIO_1 thr
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-gettransportaudioparameters">IAMExtTransport::GetTransportAudioParameters</a>
+

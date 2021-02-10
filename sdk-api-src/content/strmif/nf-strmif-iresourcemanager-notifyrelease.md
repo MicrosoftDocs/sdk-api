@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceManager.NotifyRelease
+ - IResourceManager::NotifyRelease
 ---
 
 # IResourceManager::NotifyRelease
@@ -144,3 +144,4 @@ Use this method in response to an <a href="/windows/desktop/api/strmif/nf-strmif
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
+

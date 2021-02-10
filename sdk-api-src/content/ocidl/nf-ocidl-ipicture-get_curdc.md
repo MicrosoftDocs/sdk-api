@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture.get_CurDC
+ - IPicture::get_CurDC
 ---
 
 # IPicture::get_CurDC
@@ -106,3 +106,4 @@ The caller always owns any device contexts passed between it and the picture obj
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-selectpicture">IPicture::SelectPicture</a>
+

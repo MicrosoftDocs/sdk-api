@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxEncryptedBundleWriter3.AddExternalPackageReference
+ - IAppxEncryptedBundleWriter3::AddExternalPackageReference
 ---
 
 # IAppxEncryptedBundleWriter3::AddExternalPackageReference
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedbundlewriter3">IAppxEncryptedBundleWriter3</a>
+

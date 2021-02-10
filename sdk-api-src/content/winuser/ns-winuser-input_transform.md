@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagINPUT_TRANSFORM
  - INPUT_TRANSFORM
 ---
 
@@ -211,3 +212,4 @@ A 4x4 matrix, represented as a two-dimensional array.
 
 
 <a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsAccessControlList.CopyAccessList
+ - IADsAccessControlList::CopyAccessList
 ---
 
 # IADsAccessControlList::CopyAccessList
@@ -197,3 +197,4 @@ Cleanup:
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
+

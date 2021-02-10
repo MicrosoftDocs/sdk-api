@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceIscsi.QueryInitiatorAdapters
+ - IVdsServiceIscsi::QueryInitiatorAdapters
 ---
 
 # IVdsServiceIscsi::QueryInitiatorAdapters
@@ -101,3 +101,4 @@ The <i>ppEnum</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsserviceiscsi">IVdsServiceIscsi</a>
+

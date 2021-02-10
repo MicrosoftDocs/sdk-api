@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmGetFiles.get_ModuleFiles
+ - IMsmGetFiles::get_ModuleFiles
 ---
 
 # IMsmGetFiles::get_ModuleFiles
@@ -145,3 +145,4 @@ The function failed.
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
+

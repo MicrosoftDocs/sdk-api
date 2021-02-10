@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDMessageParameters.SetRemoteAddress
+ - IWSDMessageParameters::SetRemoteAddress
 ---
 
 # IWSDMessageParameters::SetRemoteAddress
@@ -88,3 +88,4 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
+

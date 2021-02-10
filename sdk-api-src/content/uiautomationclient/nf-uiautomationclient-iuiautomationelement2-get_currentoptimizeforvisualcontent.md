@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement2.CurrentOptimizeForVisualContent
- - IUIAutomationElement2.get_CurrentOptimizeForVisualContent
+ - IUIAutomationElement2::get_CurrentOptimizeForVisualContent
 ---
 
 # IUIAutomationElement2::get_CurrentOptimizeForVisualContent
@@ -72,3 +71,4 @@ A value of TRUE indicates that the provider optimizes for visual content, while 
 
 
 <b>Reference</b>
+

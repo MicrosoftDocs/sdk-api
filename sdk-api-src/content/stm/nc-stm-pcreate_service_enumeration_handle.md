@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - CreateServiceEnumerationHandle
+ - PCREATE_SERVICE_ENUMERATION_HANDLE
 ---
 
 # PCREATE_SERVICE_ENUMERATION_HANDLE callback function
@@ -167,3 +167,4 @@ One of the  parameters is invalid.
 
 
 <a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
+

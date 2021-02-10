@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+ - PVDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
  - VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
 ---
 
@@ -147,3 +149,4 @@ The values of this enumeration are used in the <b>ulSupportedRaidTypeFlags</b> m
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a>
+

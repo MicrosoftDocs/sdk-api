@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netplwiz.dll
 api_name:
- - IPublishingWizard.Initialize
+ - IPublishingWizard::Initialize
 ---
 
 # IPublishingWizard::Initialize
@@ -182,3 +182,4 @@ hr = pPublish->Initialize(pDataObject,  // A data object that represents files o
 
 
 <b>IPublishingWizard::Initialize</b> does not actually display the initialized wizard. See the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic for information on how to display the wizard.
+

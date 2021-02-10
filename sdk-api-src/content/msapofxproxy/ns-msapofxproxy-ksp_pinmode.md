@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Msapofxproxy.h
 api_name:
+ - tagKSP_PINMODE
+ - PKSP_PINMODE
  - KSP_PINMODE
 ---
 
@@ -71,3 +73,4 @@ The audio processing mode (or modes) supported by the pin factory.
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem.RemoveTree
+ - IFsiDirectoryItem::RemoveTree
 ---
 
 # IFsiDirectoryItem::RemoveTree
@@ -209,3 +209,4 @@ You can delete the entire file-system image by calling this method for the root 
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>
+

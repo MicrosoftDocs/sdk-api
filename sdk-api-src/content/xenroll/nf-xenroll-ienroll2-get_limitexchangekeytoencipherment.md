@@ -42,12 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll2.LimitExchangeKeyToEncipherment
- - IEnroll2.get_LimitExchangeKeyToEncipherment
- - IEnroll2.put_LimitExchangeKeyToEncipherment
- - IEnroll4.LimitExchangeKeyToEncipherment
- - IEnroll4.get_LimitExchangeKeyToEncipherment
- - IEnroll4.put_LimitExchangeKeyToEncipherment
+ - IEnroll2::get_LimitExchangeKeyToEncipherment
 ---
 
 # IEnroll2::get_LimitExchangeKeyToEncipherment
@@ -95,3 +90,4 @@ If the value for this property is <b>TRUE</b>, an AT_KEYEXCHANGE request will co
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
+

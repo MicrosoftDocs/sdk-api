@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _USER_INFO_24
+ - PUSER_INFO_24
  - USER_INFO_24
 ---
 
@@ -96,3 +98,4 @@ On Windows 8 and Windows Server 2012, the Internet identity for a connected ac
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+

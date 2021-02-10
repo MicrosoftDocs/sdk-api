@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP.GetTextExt
+ - ITextStoreACP::GetTextExt
 ---
 
 # ITextStoreACP::GetTextExt
@@ -157,3 +157,4 @@ If the document window is minimized, or if the specified text is not currently v
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
       </a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ICancelMethodCalls.Cancel
+ - ICancelMethodCalls::Cancel
 ---
 
 # ICancelMethodCalls::Cancel
@@ -123,3 +123,4 @@ If a method that returns an <b>HRESULT</b> is canceled, the return value will be
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
+

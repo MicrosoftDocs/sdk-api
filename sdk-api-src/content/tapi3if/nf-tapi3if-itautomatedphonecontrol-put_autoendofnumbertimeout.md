@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.put_AutoEndOfNumberTimeout
+ - ITAutomatedPhoneControl::put_AutoEndOfNumberTimeout
 ---
 
 # ITAutomatedPhoneControl::put_AutoEndOfNumberTimeout
@@ -83,3 +83,4 @@ The <b>AutoEndOfNumberTimeout</b> property controls only what happens after at l
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-get_autoendofnumbertimeout">get_AutoEndOfNumberTimeout</a>
+

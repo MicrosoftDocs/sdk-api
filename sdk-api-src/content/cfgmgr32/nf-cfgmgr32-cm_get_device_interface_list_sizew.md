@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_Interface_List_SizeW
  - cfgmgr32/CM_Get_Device_Interface_List_SizeW
+ - CM_Get_Device_Interface_List_Size
+ - cfgmgr32/CM_Get_Device_Interface_List_Size
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Devices-Config-L1-1-0.dll
  - API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Get_Device_Interface_List_Size
- - CM_Get_Device_Interface_List_SizeA
  - CM_Get_Device_Interface_List_SizeW
+ - CM_Get_Device_Interface_List_Size
 ---
 
 # CM_Get_Device_Interface_List_SizeW function
@@ -128,3 +129,4 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 
 > [!NOTE]
 > The cfgmgr32.h header defines CM_Get_Device_Interface_List_Size as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

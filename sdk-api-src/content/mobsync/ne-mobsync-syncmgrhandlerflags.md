@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
+ - _tagSYNCMGRHANDLERFLAGS
  - SYNCMGRHANDLERFLAGS
 ---
 
@@ -81,3 +82,4 @@ All flags are still valid for previous versions of Windows.
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>
+

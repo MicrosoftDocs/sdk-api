@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_EthernetFilter.PutMulticastMode
+ - IBDA_EthernetFilter::PutMulticastMode
 ---
 
 # IBDA_EthernetFilter::PutMulticastMode
@@ -77,3 +77,4 @@ See the Windows DDK for possible values.
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ethernetfilter">IBDA_EthernetFilter Interface</a>
+

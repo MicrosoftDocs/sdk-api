@@ -9,6 +9,8 @@ tech.root: stg
 f1_keywords:
  - coml2api
  - coml2api/coml2api
+api_name:
+ - coml2api
 ---
 
 # Coml2Api.h header

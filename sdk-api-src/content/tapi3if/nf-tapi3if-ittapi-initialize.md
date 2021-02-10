@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI.Initialize
+ - ITTAPI::Initialize
 ---
 
 # ITTAPI::Initialize
@@ -107,3 +107,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
+

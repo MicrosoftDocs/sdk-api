@@ -49,8 +49,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - GetTextMetrics
- - GetTextMetricsA
- - GetTextMetricsW
 ---
 
 # GetTextMetrics function
@@ -114,3 +112,4 @@ For an example, see "Displaying Keyboard Input" in <a href="/windows/desktop/inp
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a>
+

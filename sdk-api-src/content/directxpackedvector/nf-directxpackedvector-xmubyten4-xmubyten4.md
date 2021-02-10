@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUBYTEN4.XMUBYTEN4
+ - XMUBYTEN4::XMUBYTEN4
 ---
 
 # XMUBYTEN4::XMUBYTEN4
@@ -75,3 +75,4 @@ Default constructor for <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9
 
 
 <a href="/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>
+

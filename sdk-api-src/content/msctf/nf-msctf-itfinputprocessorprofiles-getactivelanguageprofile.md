@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.GetActiveLanguageProfile
+ - ITfInputProcessorProfiles::GetActiveLanguageProfile
 ---
 
 # ITfInputProcessorProfiles::GetActiveLanguageProfile
@@ -140,3 +140,4 @@ A memory allocation error occurred.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
+

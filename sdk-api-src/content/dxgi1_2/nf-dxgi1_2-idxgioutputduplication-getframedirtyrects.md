@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutputDuplication.GetFrameDirtyRects
+ - IDXGIOutputDuplication::GetFrameDirtyRects
 ---
 
 # IDXGIOutputDuplication::GetFrameDirtyRects
@@ -128,3 +128,4 @@ The buffer contains the list of dirty <a href="/windows/desktop/api/windef/ns-wi
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
+

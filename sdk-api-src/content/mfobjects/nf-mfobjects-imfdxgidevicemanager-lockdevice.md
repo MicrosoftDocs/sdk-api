@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIDeviceManager.LockDevice
+ - IMFDXGIDeviceManager::LockDevice
 ---
 
 # IMFDXGIDeviceManager::LockDevice
@@ -161,3 +161,4 @@ If <i>fBlock</i> is <b>TRUE</b>, this method can potentially deadlock. For examp
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
+

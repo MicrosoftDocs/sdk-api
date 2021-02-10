@@ -46,6 +46,8 @@ api_type:
 api_location:
  - windef.h
 api_name:
+ - _POINTL
+ - PPOINTL
  - POINTL
 ---
 
@@ -77,3 +79,4 @@ The POINTL structure is identical to the <a href="/windows/desktop/api/windef/ns
 
 
 <a href="/windows/desktop/api/windef/ns-windef-points">POINTS</a>
+

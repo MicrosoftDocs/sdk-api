@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DATE_TIME
+ - PDATE_TIME
  - DATE_TIME
 ---
 
@@ -69,3 +71,4 @@ Specifies the upper 32 bits of the time value.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info">DHCP_CLIENT_INFO</a>
+

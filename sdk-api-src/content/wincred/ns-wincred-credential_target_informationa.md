@@ -46,7 +46,9 @@ api_type:
 api_location:
  - WinCred.h
 api_name:
- - CREDENTIAL_TARGET_INFORMATION
+ - _CREDENTIAL_TARGET_INFORMATIONA
+ - PCREDENTIAL_TARGET_INFORMATIONA
+ - CREDENTIAL_TARGET_INFORMATIONA
 ---
 
 # CREDENTIAL_TARGET_INFORMATIONA structure
@@ -128,3 +130,4 @@ Array specifying the credential types acceptable by the authentication package u
 
 > [!NOTE]
 > The wincred.h header defines CREDENTIAL_TARGET_INFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

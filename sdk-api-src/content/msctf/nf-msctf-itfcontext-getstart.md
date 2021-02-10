@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext.GetStart
+ - ITfContext::GetStart
 ---
 
 # ITfContext::GetStart
@@ -153,3 +153,4 @@ An unspecified error occurred.
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md)
+

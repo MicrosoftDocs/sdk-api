@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - tagNMOBJECTNOTIFY
+ - LPNMOBJECTNOTIFY
  - NMOBJECTNOTIFY
 ---
 
@@ -89,3 +91,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 COM success or failure flags. The application processing the notification code sets this member.
 
 ### -field dwFlags
+

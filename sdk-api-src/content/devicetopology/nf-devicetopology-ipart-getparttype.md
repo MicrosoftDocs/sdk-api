@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart.GetPartType
+ - IPart::GetPartType
 ---
 
 # IPart::GetPartType
@@ -91,3 +91,4 @@ For a code example that uses this method, see the implementation of the SelectCa
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
+

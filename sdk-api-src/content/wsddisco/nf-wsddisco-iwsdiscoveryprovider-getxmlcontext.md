@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryProvider.GetXMLContext
+ - IWSDiscoveryProvider::GetXMLContext
 ---
 
 # IWSDiscoveryProvider::GetXMLContext
@@ -116,3 +116,4 @@ Returns an optional context for the XML state of the transaction. If the service
 
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
+

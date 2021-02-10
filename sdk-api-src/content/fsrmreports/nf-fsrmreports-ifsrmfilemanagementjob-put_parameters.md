@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.Parameters
- - IFsrmFileManagementJob.get_Parameters
- - IFsrmFileManagementJob.put_Parameters
+ - IFsrmFileManagementJob::put_Parameters
 ---
 
 # IFsrmFileManagementJob::put_Parameters
@@ -75,3 +73,4 @@ There is no limit to the length of the parameter name or value, nor is there a l
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

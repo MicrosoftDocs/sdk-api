@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateTranslateTransform3D
+ - IDCompositionDevice::CreateTranslateTransform3D
 ---
 
 # IDCompositionDevice::CreateTranslateTransform3D
@@ -81,3 +81,4 @@ A newly created 3D translation transform has a static value of 0 for the OffsetX
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
+

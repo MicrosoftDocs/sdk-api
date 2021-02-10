@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_REQUEST_INFO
+ - PCERT_REQUEST_INFO
  - CERT_REQUEST_INFO
 ---
 
@@ -110,3 +112,4 @@ A pointer to an array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cryp
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencodecertificate">CryptSignAndEncodeCertificate</a>
+

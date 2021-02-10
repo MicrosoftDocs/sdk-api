@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.SetHdc
+ - IFont::SetHdc
 ---
 
 # IFont::SetHdc
@@ -110,3 +110,4 @@ The caller retains ownership of this device context which must remain valid for 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+

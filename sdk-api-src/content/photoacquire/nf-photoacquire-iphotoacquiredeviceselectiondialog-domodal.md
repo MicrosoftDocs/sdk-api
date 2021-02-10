@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireDeviceSelectionDialog.DoModal
+ - IPhotoAcquireDeviceSelectionDialog::DoModal
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::DoModal
@@ -141,3 +141,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiredeviceselectiondialog">IPhotoAcquireDeviceSelectionDialog Interface</a>
+

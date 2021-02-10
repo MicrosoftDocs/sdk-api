@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _SECURITY_QUALITY_OF_SERVICE
+ - PSECURITY_QUALITY_OF_SERVICE
  - SECURITY_QUALITY_OF_SERVICE
 ---
 
@@ -82,3 +84,4 @@ Specifies whether the server may enable or disable <a href="/windows/desktop/Sec
 
 
 <a href="/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+

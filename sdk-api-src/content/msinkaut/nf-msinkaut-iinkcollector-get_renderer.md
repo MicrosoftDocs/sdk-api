@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector.Renderer
- - IInkCollector.get_Renderer
- - InkCollector.get_Renderer
+ - IInkCollector::get_Renderer
 ---
 
 # IInkCollector::get_Renderer
@@ -72,3 +70,4 @@ When handling certain window messages, changing the <a href="/windows/desktop/ta
 
 
 <a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
+

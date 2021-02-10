@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IContextMenuProvider.AddPrimaryExtensionItems
+ - IContextMenuProvider::AddPrimaryExtensionItems
 ---
 
 # IContextMenuProvider::AddPrimaryExtensionItems
@@ -81,3 +81,4 @@ Other values can be returned, depending on the implementation of
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProviderEx.OnReuseLuns
+ - IVssHardwareSnapshotProviderEx::OnReuseLuns
 ---
 
 # IVssHardwareSnapshotProviderEx::OnReuseLuns
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotproviderex">IVssHardwareSnapshotProviderEx</a>
+

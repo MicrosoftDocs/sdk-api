@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISharingConfigurationManager.GetSharePermissions
+ - ISharingConfigurationManager::GetSharePermissions
 ---
 
 # ISharingConfigurationManager::GetSharePermissions
@@ -71,3 +71,4 @@ A pointer to a value that, when this method returns successfully, receives one o
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

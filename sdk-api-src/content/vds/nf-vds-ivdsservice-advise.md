@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService.Advise
+ - IVdsService::Advise
 ---
 
 # IVdsService::Advise
@@ -129,3 +129,4 @@ To receive notifications from underlying software and hardware providers, VDS pa
 
 
 <a href="/windows/desktop/VDS/vds-notification-model">VDS Notifications</a>
+

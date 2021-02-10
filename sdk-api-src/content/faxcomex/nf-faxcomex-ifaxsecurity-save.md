@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSecurity.Save
- - IFaxSecurity.Save
+ - IFaxSecurity::Save
 ---
 
 # IFaxSecurity::Save
@@ -72,3 +71,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity">IFaxSecurity</a>
+

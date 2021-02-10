@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dinputd.h
 api_name:
- - IDirectInputJoyConfig8.Release
+ - IDirectInputJoyConfig8::Release
 ---
 
 # IDirectInputJoyConfig8::Release
@@ -61,3 +61,4 @@ Returns the new reference count of the object.
 ## -remarks
 
 The DirectInputJoyConfig object deallocates itself when its reference count reaches 0. Use the <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-addref">IDirectInputJoyConfig8::AddRef</a> method to increase the reference count of the object by 1.
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetIScsiTargetInformationW
  - iscsidsc/GetIScsiTargetInformationW
+ - GetIScsiTargetInformation
+ - iscsidsc/GetIScsiTargetInformation
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - GetIscsiTargetInformation
- - GetIscsiTargetInformationA
- - GetIscsiTargetInformationW
+ - GetIScsiTargetInformationW
+ - GetIScsiTargetInformation
 ---
 
 # GetIScsiTargetInformationW function
@@ -112,3 +113,4 @@ Since the information associated with a target is relative to the way in which i
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-target_information_class">TARGET_INFORMATION_CLASS</a>
+

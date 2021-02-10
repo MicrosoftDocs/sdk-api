@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.GetEnableThinning
+ - IWMReaderNetworkConfig2::GetEnableThinning
 ---
 
 # IWMReaderNetworkConfig2::GetEnableThinning
@@ -114,3 +114,4 @@ This feature applies only to content streaming from a server running Windows Med
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablethinning">IWMReaderNetworkConfig2::SetEnableThinning</a>
+

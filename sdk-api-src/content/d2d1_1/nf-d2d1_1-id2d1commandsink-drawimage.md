@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink.DrawImage
+ - ID2D1CommandSink::DrawImage
 ---
 
 # ID2D1CommandSink::DrawImage
@@ -105,3 +105,4 @@ Because the image can itself be a command list or contain an effect graph that i
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a>
+

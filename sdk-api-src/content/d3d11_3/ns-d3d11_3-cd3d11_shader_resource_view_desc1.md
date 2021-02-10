@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11_3.h
 api_name:
- - D3D11_SHADER_RESOURCE_VIEW_DESC1
+ - CD3D11_SHADER_RESOURCE_VIEW_DESC1
 ---
 
 # CD3D11_SHADER_RESOURCE_VIEW_DESC1 structure
@@ -148,3 +148,4 @@ Create a shader-resource-view description by calling <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
+

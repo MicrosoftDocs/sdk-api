@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeCspProvider.Signature
- - IX509AttributeCspProvider.get_Signature
+ - IX509AttributeCspProvider::get_Signature
 ---
 
 # IX509AttributeCspProvider::get_Signature
@@ -73,3 +72,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributecs
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributecspprovider">IX509AttributeCspProvider</a>
+

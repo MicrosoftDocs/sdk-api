@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
+ - _CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+ - PCRYPTUI_WIZ_DIGITAL_SIGN_INFO
  - CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 ---
 
@@ -230,3 +232,4 @@ A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_
 ## -see-also
 
 <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
+

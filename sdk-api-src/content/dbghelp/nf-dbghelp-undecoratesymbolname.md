@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - UnDecorateSymbolName
- - UnDecorateSymbolName
- - UnDecorateSymbolNameW
 ---
 
 # UnDecorateSymbolName function
@@ -308,3 +306,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a>
+

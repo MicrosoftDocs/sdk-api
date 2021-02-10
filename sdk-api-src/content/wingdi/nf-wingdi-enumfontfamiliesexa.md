@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumFontFamiliesExA
  - wingdi/EnumFontFamiliesExA
+ - EnumFontFamiliesEx
+ - wingdi/EnumFontFamiliesEx
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Font-L1-1-3.dll
  - GDI32Full.dll
 api_name:
- - EnumFontFamiliesEx
  - EnumFontFamiliesExA
- - EnumFontFamiliesExW
+ - EnumFontFamiliesEx
 ---
 
 # EnumFontFamiliesExA function
@@ -245,3 +246,4 @@ When the graphics mode on the device context is set to GM_ADVANCED using the Set
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
+

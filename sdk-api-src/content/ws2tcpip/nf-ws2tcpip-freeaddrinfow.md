@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FreeAddrInfoW
  - ws2tcpip/FreeAddrInfoW
+ - FreeAddrInfo
+ - ws2tcpip/FreeAddrInfo
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - Ws2_32.dll
 api_name:
  - FreeAddrInfoW
+ - FreeAddrInfo
 ---
 
 # FreeAddrInfoW function
@@ -109,3 +112,4 @@ Macros in the Winsock header file define a mixed-case function name of <b>FreeAd
 
 
 <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
+

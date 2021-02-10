@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorActivitiesReport.GetCount
+ - IMFSensorActivitiesReport::GetCount
 ---
 
 # IMFSensorActivitiesReport::GetCount
@@ -103,3 +103,4 @@ The <i>pcCount</i> parameter is null.
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a>
+

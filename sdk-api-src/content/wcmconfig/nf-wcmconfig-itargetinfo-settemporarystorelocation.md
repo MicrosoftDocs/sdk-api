@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ITargetInfo.SetTemporaryStoreLocation
+ - ITargetInfo::SetTemporaryStoreLocation
 ---
 
 # ITargetInfo::SetTemporaryStoreLocation
@@ -105,3 +105,4 @@ Indicates that system resources are low.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
+ - _AM_DVD_STREAM_FLAGS
  - AM_DVD_STREAM_FLAGS
 ---
 
@@ -75,3 +76,4 @@ DVD subpicture stream.
 
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

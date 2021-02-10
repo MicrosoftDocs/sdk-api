@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter.ConfigureFilterUsingProfileGuid
+ - IConfigAsfWriter::ConfigureFilterUsingProfileGuid
 ---
 
 # IConfigAsfWriter::ConfigureFilterUsingProfileGuid
@@ -117,3 +117,4 @@ Beginning with the Windows Media Format 9 Series SDK, no new system profiles hav
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
+

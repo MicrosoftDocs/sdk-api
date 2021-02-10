@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture.get_KeepOriginalFormat
+ - IPicture::get_KeepOriginalFormat
 ---
 
 # IPicture::get_KeepOriginalFormat
@@ -98,3 +98,4 @@ The value of <i>pKeep</i> is not valid. For example, it may be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-put_keeporiginalformat">IPicture::put_KeepOriginalFormat</a>
+

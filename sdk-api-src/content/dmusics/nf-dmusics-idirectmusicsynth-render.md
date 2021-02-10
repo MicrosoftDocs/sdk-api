@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth.Render
+ - IDirectMusicSynth::Render
 ---
 
 # IDirectMusicSynth::Render
@@ -140,3 +140,4 @@ For more information, see the description of the <b>IDirectMusic</b> interface i
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings.put_invokeURLs
+ - IWMPSettings::put_invokeURLs
 ---
 
 # IWMPSettings::put_invokeURLs
@@ -97,3 +97,4 @@ Digital media files and streams can contain URL script commands. When a URL scri
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_invokeurls">IWMPSettings::get_invokeURLs</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost.Stop
+ - IWSDDeviceHost::Stop
 ---
 
 # IWSDDeviceHost::Stop
@@ -107,3 +107,4 @@ Calling <b>Stop</b> is not necessary if the host has not been started.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
+

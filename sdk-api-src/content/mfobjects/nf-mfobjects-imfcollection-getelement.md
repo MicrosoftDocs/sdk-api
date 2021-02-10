@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFCollection.GetElement
+ - IMFCollection::GetElement
 ---
 
 # IMFCollection::GetElement
@@ -102,3 +102,4 @@ HRESULT GetCollectionObject(IMFCollection *pCollection,
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIStream.Create
+ - IAVIStream::Create
 ---
 
 # IAVIStream::Create
@@ -91,3 +91,4 @@ HRESULT Create(LONG lParam1, LONG lParam2)
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+

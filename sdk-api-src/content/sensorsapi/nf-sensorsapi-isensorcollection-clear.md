@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorCollection.Clear
+ - ISensorCollection::Clear
 ---
 
 # ISensorCollection::Clear
@@ -83,3 +83,4 @@ This method calls <b>Release</b> on all sensor interface pointers in the collect
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
+

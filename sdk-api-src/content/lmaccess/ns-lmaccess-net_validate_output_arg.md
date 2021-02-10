@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
+ - _NET_VALIDATE_OUTPUT_ARG
+ - PNET_VALIDATE_OUTPUT_ARG
  - NET_VALIDATE_OUTPUT_ARG
 ---
 
@@ -188,3 +190,4 @@ Note that it is the application's responsibility to save all the data in the <b>
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

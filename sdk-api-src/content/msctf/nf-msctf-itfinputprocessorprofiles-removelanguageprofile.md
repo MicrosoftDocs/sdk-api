@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.RemoveLanguageProfile
+ - ITfInputProcessorProfiles::RemoveLanguageProfile
 ---
 
 # ITfInputProcessorProfiles::RemoveLanguageProfile
@@ -107,3 +107,4 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
+

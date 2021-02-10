@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - _ROI_AREA
+ - PROI_AREA
  - ROI_AREA
 ---
 
@@ -73,3 +75,4 @@ Specifies the  quantization parameter delta for the specified region from the re
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

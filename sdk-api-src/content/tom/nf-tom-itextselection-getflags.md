@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextSelection.GetFlags
+ - ITextSelection::GetFlags
 ---
 
 # ITextSelection::GetFlags
@@ -128,3 +128,4 @@ The method returns an
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

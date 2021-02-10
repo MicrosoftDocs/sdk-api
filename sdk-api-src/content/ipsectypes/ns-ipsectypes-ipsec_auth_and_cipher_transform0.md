@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_AUTH_AND_CIPHER_TRANSFORM0_
  - IPSEC_AUTH_AND_CIPHER_TRANSFORM0
 ---
 
@@ -80,3 +81,4 @@ Encryption specific information as specified by [IPSEC_CIPHER_TRANSFORM0](/windo
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

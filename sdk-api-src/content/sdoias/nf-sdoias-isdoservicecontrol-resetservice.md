@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoServiceControl.ResetService
+ - ISdoServiceControl::ResetService
 ---
 
 # ISdoServiceControl::ResetService
@@ -75,3 +75,4 @@ The data refresh begins 5 seconds after the last call to
 
 
 <a href="/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol">ISdoServiceControl</a>
+

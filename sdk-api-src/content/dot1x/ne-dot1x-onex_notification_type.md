@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
+ - _ONEX_NOTIFICATION_TYPE
  - ONEX_NOTIFICATION_TYPE
 ---
 
@@ -113,3 +114,4 @@ The callback function is called with a pointer to a <a href="/previous-versions/
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
+

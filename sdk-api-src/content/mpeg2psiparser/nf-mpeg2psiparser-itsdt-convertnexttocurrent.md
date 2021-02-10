@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2PsiParser.h
 api_name:
- - ITSDT.ConvertNextToCurrent
+ - ITSDT::ConvertNextToCurrent
 ---
 
 # ITSDT::ConvertNextToCurrent
@@ -121,3 +121,4 @@ This method applies only to <i>next</i> tables that have become current. Before 
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-itsdt">ITSDT Interface</a>
+

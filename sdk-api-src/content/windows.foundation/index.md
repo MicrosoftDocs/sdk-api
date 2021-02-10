@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - windows.foundation
  - windows.foundation/windows.foundation
+api_name:
+ - windows.foundation
 ---
 
 # Windows.Foundation.h header

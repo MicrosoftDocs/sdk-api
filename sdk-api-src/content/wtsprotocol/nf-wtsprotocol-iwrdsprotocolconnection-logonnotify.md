@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.LogonNotify
+ - IWRdsProtocolConnection::LogonNotify
 ---
 
 # IWRdsProtocolConnection::LogonNotify
@@ -85,3 +85,4 @@ This is an event notification and you should return immediately from this method
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
+

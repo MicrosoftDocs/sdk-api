@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient2.SetClientProperties
+ - IAudioClient2::SetClientProperties
 ---
 
 # IAudioClient2::SetClientProperties
@@ -77,3 +77,4 @@ Starting with Windows 10, hardware-offloaded audio streams must be event driven
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
+

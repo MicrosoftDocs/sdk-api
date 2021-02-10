@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystemIscsi.CreateTarget
+ - IVdsSubSystemIscsi::CreateTarget
 ---
 
 # IVdsSubSystemIscsi::CreateTarget
@@ -208,3 +208,4 @@ A non-unique name was specified in the <i>pwszIscsiName</i> parameter.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>
+

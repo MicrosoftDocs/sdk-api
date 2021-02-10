@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter.~CVssWriter
+ - CVssWriter::~CVssWriter
 ---
 
 # CVssWriter::~CVssWriter
@@ -61,3 +61,4 @@ This destructor is virtual and may be overridden by derived objects.
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+

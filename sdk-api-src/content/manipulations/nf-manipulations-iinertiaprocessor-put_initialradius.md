@@ -42,9 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor.InitialRadius
- - IInertiaProcessor.get_InitialRadius
- - IInertiaProcessor.put_InitialRadius
+ - IInertiaProcessor::put_InitialRadius
 ---
 
 # IInertiaProcessor::put_InitialRadius
@@ -80,3 +78,4 @@ Call this function to set initial state of inertia. You would call this function
 
 
 <a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
+

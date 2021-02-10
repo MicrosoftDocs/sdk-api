@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress.EnumerateCalls
+ - ITAddress::EnumerateCalls
 ---
 
 # ITAddress::EnumerateCalls
@@ -126,3 +126,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">ITAddress::get_Calls</a>
+

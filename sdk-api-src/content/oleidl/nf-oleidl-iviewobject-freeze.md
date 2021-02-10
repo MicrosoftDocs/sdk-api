@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IViewObject.Freeze
+ - IViewObject::Freeze
 ---
 
 # IViewObject::Freeze
@@ -146,3 +146,4 @@ While in a frozen state, view notifications are not sent. Pending view notificat
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">IViewObject::Unfreeze</a>
+

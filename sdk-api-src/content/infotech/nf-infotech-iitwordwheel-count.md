@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITWordWheel.Count
+ - IITWordWheel::Count
 ---
 
 # IITWordWheel::Count
@@ -109,3 +109,4 @@ The <i>pcEntries</i> parameter was an invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>
+

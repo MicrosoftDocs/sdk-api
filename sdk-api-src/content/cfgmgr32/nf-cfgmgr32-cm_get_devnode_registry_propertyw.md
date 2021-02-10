@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_DevNode_Registry_PropertyW
  - cfgmgr32/CM_Get_DevNode_Registry_PropertyW
+ - CM_Get_DevNode_Registry_Property
+ - cfgmgr32/CM_Get_DevNode_Registry_Property
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +48,8 @@ api_location:
  - API-Ms-Win-Devices-Config-L1-1-1.dll
  - CfgMgr32.dll
 api_name:
- - CM_Get_DevNode_Registry_Property
  - CM_Get_DevNode_Registry_PropertyW
+ - CM_Get_DevNode_Registry_Property
 ---
 
 # CM_Get_DevNode_Registry_PropertyW function
@@ -106,3 +108,4 @@ For information about how to use device instance handles that are bound to the l
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
+

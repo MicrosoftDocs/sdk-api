@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFSeekInfo.GetNearestKeyFrames
+ - IMFSeekInfo::GetNearestKeyFrames
 ---
 
 # IMFSeekInfo::GetNearestKeyFrames
@@ -110,3 +110,4 @@ If an application seeks to a non–key frame, the decoder must start decoding fr
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfseekinfo">IMFSeekInfo</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.IsEqual
+ - ITextFont::IsEqual
 ---
 
 # ITextFont::IsEqual
@@ -91,3 +91,4 @@ The text font objects are equal only if <i>pFont</i> belongs to the same Text Ob
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

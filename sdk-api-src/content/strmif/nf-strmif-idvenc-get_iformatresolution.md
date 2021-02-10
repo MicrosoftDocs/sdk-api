@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDVEnc.get_IFormatResolution
+ - IDVEnc::get_IFormatResolution
 ---
 
 # IDVEnc::get_IFormatResolution
@@ -86,3 +86,4 @@ Returns S_OK if successful. Otherwise, returns E_FAIL or another error code.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvenc">IDVEnc Interface</a>
+

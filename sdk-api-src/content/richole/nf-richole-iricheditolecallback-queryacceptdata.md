@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOleCallback.QueryAcceptData
+ - IRichEditOleCallback::QueryAcceptData
 ---
 
 # IRichEditOleCallback::QueryAcceptData
@@ -127,3 +127,4 @@ Returns <b>S_OK</b> on success. See Remarks.
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
+

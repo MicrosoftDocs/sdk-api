@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.Cost
- - IX509EnrollmentPolicyServer.get_Cost
- - IX509EnrollmentPolicyServer.put_Cost
+ - IX509EnrollmentPolicyServer::put_Cost
 ---
 
 # IX509EnrollmentPolicyServer::put_Cost
@@ -65,3 +63,4 @@ If multiple CEP servers have the same ID value (specified when the <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
+

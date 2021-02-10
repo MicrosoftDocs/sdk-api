@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - TRefPointerCollection.GetNext
+ - TRefPointerCollection::GetNext
 ---
 
 # TRefPointerCollection::GetNext
@@ -68,3 +68,4 @@ Denotes the position of an item in a <a href="/windows/desktop/api/refptrco/nl-r
 ## -returns
 
 The <b>GetNext</b> method returns the address of the next item by position in the <a href="/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> collection.
+

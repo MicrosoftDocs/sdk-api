@@ -46,6 +46,8 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
+ - CS_Des_s
+ - PCS_DES
  - CS_DES
 ---
 
@@ -95,3 +97,4 @@ The class-specific signature identified by <b>CSD_SignatureLength</b> and <b>CSD
 
 
 [CS_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource)
+

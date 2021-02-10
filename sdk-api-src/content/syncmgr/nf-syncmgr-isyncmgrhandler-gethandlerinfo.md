@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandler.GetHandlerInfo
+ - ISyncMgrHandler::GetHandlerInfo
 ---
 
 # ISyncMgrHandler::GetHandlerInfo
@@ -91,3 +91,4 @@ STDMETHODIMP CMyDeviceHandler::GetHandlerInfo(
 }
 
 ```
+

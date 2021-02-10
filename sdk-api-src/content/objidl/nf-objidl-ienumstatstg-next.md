@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IEnumSTATSTG.Next
+ - IEnumSTATSTG::Next
 ---
 
 # IEnumSTATSTG::Next
@@ -102,3 +102,4 @@ The number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
+

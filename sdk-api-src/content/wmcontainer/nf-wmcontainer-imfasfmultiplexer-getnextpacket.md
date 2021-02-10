@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMultiplexer.GetNextPacket
+ - IMFASFMultiplexer::GetNextPacket
 ---
 
 # IMFASFMultiplexer::GetNextPacket
@@ -104,3 +104,4 @@ If no packets are ready, the method returns <b>S_OK</b> but does not return a sa
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
+

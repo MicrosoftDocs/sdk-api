@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings2.requestMediaAccessRights
+ - IWMPSettings2::requestMediaAccessRights
 ---
 
 # IWMPSettings2::requestMediaAccessRights
@@ -120,3 +120,4 @@ Applications running on the user's computer are not required to use this method.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights">IWMPSettings2::get_mediaAccessRights</a>
+

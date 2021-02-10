@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 2CC9051B-09B1-49F5-9392-3E0AE3AB1277
 ms.date: 12/05/2018
 ms.keywords: D3D12_PIPELINE_STATE_STREAM_DESC, D3D12_PIPELINE_STATE_STREAM_DESC structure, d3d12/D3D12_PIPELINE_STATE_STREAM_DESC, direct3d12.d3d12_pipeline_state_stream_desc
-f1_keywords:
-- d3d12/D3D12_PIPELINE_STATE_STREAM_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_PIPELINE_STATE_STREAM_DESC
 targetos: Windows
 req.typenames: D3D12_PIPELINE_STATE_STREAM_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_PIPELINE_STATE_STREAM_DESC
+ - d3d12/D3D12_PIPELINE_STATE_STREAM_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_PIPELINE_STATE_STREAM_DESC
 ---
 
 # D3D12_PIPELINE_STATE_STREAM_DESC structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a pipeline state stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeInBytes
 
@@ -64,17 +60,13 @@ Describes a pipeline state stream.
 
 Specifies the size of the opaque data structure pointed to by the pPipelineStateSubobjectStream member, in bytes.
 
-
 ### -field pPipelineStateSubobjectStream
 
 <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_reads_(_Inexpressible_("Dependentonsizeofsubobjects"))</code>
 
 Specifies the address of a data structure that describes as a bytestream an arbitrary pipeline state subobject.
 
-
 ## -remarks
-
-
 
 Use this structure with the **[ID3D12Device1::CreatePipelineState](/windows/win32/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate)** method to create pipeline state objects. 
 
@@ -103,20 +95,14 @@ If a subobject is not provided (excluding the above required subobjects), the ru
 
 Consider using the `d3dx12.h` extensions for C++, which provide a set of helper structs for all pipeline subobjects (for example, the above struct is very similar to `CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER`). This header can be found under the **[DirectX-Graphics-Samples]**(https://github.com/microsoft/DirectX-Graphics-Samples/blob/master/Libraries/D3DX12/d3dx12.h) repo on github.
 
-### -runtime-validation
+## -runtime-validation
 
 The runtime will validate the PSO desc is either a compute, mesh, or graphics pipeline, that all subobjects are recognised types, and that there are not duplicate subobjects.
 
 > [!NOTE]
-> Some subobjects are considered to be a "derived" version of others for the purposes of recognising duplicated subobjects. For example, if the runtime discovers a **[D3D12_DEPTH_STENCIL_DESC](windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc)** subobject, and then later a **[D3D12_DEPTH_STENCIL_DESC1](windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc1)**, it will consider these duplicate subobjects and fail. 
-
+> Some subobjects are considered to be a "derived" version of others for the purposes of recognising duplicated subobjects. For example, if the runtime discovers a **[D3D12_DEPTH_STENCIL_DESC](windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc)** subobject, and then later a **[D3D12_DEPTH_STENCIL_DESC1](windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc1)**, it will consider these duplicate subobjects and fail.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
- 
 
- 

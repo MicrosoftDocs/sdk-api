@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - EnumDirTreeProc
+ - PENUMDIRTREE_CALLBACK
 ---
 
 # PENUMDIRTREE_CALLBACK callback function
@@ -80,3 +80,4 @@ To stop enumeration, the callback function must return <b>TRUE</b>.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-enumdirtree">EnumDirTree</a>
+

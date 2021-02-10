@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagKEYBDINPUT
+ - PKEYBDINPUT
  - KEYBDINPUT
 ---
 
@@ -169,3 +171,4 @@ An additional value associated with the keystroke. Use the <a href="/windows/des
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
+

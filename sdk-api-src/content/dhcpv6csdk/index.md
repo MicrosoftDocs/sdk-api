@@ -9,6 +9,8 @@ tech.root: dhcp
 f1_keywords:
  - dhcpv6csdk
  - dhcpv6csdk/dhcpv6csdk
+api_name:
+ - dhcpv6csdk
 ---
 
 # Dhcpv6Csdk.h header

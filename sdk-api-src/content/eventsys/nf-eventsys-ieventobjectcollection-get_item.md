@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEventObjectCollection.Item
- - IEventObjectCollection.get_Item
+ - IEventObjectCollection::get_Item
 ---
 
 # IEventObjectCollection::get_Item
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtension.MinorVersion
- - IFaxInboundRoutingExtension.get_MinorVersion
- - IFaxInboundRoutingExtension.get_MinorVersion
+ - IFaxInboundRoutingExtension::get_MinorVersion
 ---
 
 # IFaxInboundRoutingExtension::get_MinorVersion
@@ -73,3 +71,4 @@ The standard format for build numbers is MajorVersion.MinorVersion.MajorBuild.Mi
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
+

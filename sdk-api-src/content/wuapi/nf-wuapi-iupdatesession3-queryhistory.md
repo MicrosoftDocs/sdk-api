@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSession3.QueryHistory
+ - IUpdateSession3::QueryHistory
 ---
 
 # IUpdateSession3::QueryHistory
@@ -140,3 +140,4 @@ For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0'" finds updates for
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession3">IUpdateSession3</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.SetPreroll
+ - IMediaSample::SetPreroll
 ---
 
 # IMediaSample::SetPreroll
@@ -74,3 +74,4 @@ Returns S_OK, or an <b>HRESULT</b> value indicating the cause of the error.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-imediasample-ispreroll">IMediaSample::IsPreroll</a>
+

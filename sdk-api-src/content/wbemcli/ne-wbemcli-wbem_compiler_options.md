@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEM_COMPILER_OPTIONS
  - WBEM_COMPILER_OPTIONS
 ---
 
@@ -81,3 +82,4 @@ Contains option flags for <a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofc
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
+

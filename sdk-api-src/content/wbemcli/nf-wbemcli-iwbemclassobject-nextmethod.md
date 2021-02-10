@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject.NextMethod
+ - IWbemClassObject::NextMethod
 ---
 
 # IWbemClassObject::NextMethod
@@ -100,3 +100,4 @@ The caller begins the enumeration sequence using
 
 <div class="alert"><b>Note</b>  The caller must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemClassObject::Release</a> on the <i>ppInSignature</i> and <i>ppOutSignature</i> pointers when these objects are no longer required.</div>
 <div> </div>
+

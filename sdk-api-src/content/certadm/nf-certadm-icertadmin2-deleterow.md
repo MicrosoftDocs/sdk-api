@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.DeleteRow
- - ICertAdmin.DeleteRow
- - CCertAdmin.DeleteRow
+ - ICertAdmin2::DeleteRow
 ---
 
 # ICertAdmin2::DeleteRow
@@ -194,3 +192,4 @@ The number of rows deleted.
 
 
 <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IConnectionPoint.Advise
+ - IConnectionPoint::Advise
 ---
 
 # IConnectionPoint::Advise
@@ -131,3 +131,4 @@ The <i>pdwCookie</i> value must be unique for each connection to any given insta
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
+

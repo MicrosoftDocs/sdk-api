@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _RUN
+ - PRUN
  - RUN
 ---
 
@@ -73,3 +75,4 @@ If the <a href="/windows-hardware/drivers/">clip region</a> is complex, a single
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
+

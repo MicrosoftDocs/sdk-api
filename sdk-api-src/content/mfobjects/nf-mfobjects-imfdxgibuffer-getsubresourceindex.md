@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIBuffer.GetSubresourceIndex
+ - IMFDXGIBuffer::GetSubresourceIndex
 ---
 
 # IMFDXGIBuffer::GetSubresourceIndex
@@ -71,3 +71,4 @@ For more information about texture subresources, see <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
+

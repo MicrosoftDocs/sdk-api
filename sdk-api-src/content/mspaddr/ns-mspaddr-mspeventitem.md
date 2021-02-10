@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mspaddr.h
 api_name:
+ - PMSPEVENTITEM
  - MSPEVENTITEM
 ---
 

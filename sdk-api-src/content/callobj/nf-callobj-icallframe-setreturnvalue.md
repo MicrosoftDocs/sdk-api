@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame.SetReturnValue
+ - ICallFrame::SetReturnValue
 ---
 
 # ICallFrame::SetReturnValue
@@ -61,3 +61,4 @@ The new return value.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
+ - _MESSAGE
+ - PMESSAGE
  - MESSAGE
 ---
 
@@ -90,3 +92,4 @@ Identifies the interface associated with a SAVE_INTERFACE_CONFIG_INFO event.
 
 
 <a href="/windows/desktop/api/routprot/ns-routprot-update_complete_message">UPDATE_COMPLETE_MESSAGE</a>
+

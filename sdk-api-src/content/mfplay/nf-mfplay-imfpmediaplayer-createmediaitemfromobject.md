@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.CreateMediaItemFromObject
+ - IMFPMediaPlayer::CreateMediaItemFromObject
 ---
 
 # IMFPMediaPlayer::CreateMediaItemFromObject
@@ -168,3 +168,4 @@ If <i>pIUnknownObj</i> points to a media source, you can configure the source at
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

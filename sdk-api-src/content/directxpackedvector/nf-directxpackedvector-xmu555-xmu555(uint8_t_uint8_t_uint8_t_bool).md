@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU555.XMU555
+ - XMU555::XMU555
 ---
 
 # XMU555::XMU555(uint8_t,uint8_t,uint8_t,bool)
@@ -104,3 +104,4 @@ instance.v =  (((uint16_t)_w1) ? 0x8000 : 0) |
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
 <a href="/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
+

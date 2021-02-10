@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Aviriff.h
 api_name:
+ - _avimainheader
  - AVIMAINHEADER
 ---
 
@@ -179,3 +180,4 @@ The header file Vfw.h defines a <b>MainAVIHeader</b> structure that is equivalen
 
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

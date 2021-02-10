@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage2.Save
- - IFaxOutgoingMessage2.Save
+ - IFaxOutgoingMessage2::Save
 ---
 
 # IFaxOutgoingMessage2::Save
@@ -79,3 +78,4 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage2">IFaxOutgoingMessage2</a>
+

@@ -44,7 +44,7 @@ api_location:
  - Gdiplus.lib
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush.GetRectangle
+ - LinearGradientBrush::GetRectangle
 ---
 
 # LinearGradientBrush::GetRectangle
@@ -83,3 +83,4 @@ The <a href="/previous-versions/ms535352(v=vs.85)">LinearGradientBrush::GetRecta
 </table>
 
 ## -parameters
+

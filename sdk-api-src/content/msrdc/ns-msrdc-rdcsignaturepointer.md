@@ -44,6 +44,7 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
+ - __MIDL___MIDL_itf_msrdc_0000_0000_0008
  - RdcSignaturePointer
 ---
 
@@ -90,3 +91,4 @@ Address of an array of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">
 
 
 <a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
+

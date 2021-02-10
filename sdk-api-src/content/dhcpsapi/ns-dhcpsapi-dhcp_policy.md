@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _DHCP_POLICY
+ - PDHCP_POLICY
  - DHCP_POLICY
 ---
 
@@ -101,3 +103,4 @@ A pointer to a null-terminated Unicode string that contains the description of t
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_policy_fields_to_update">DHCP_POLICY_FIELDS_TO_UPDATE</a>
+

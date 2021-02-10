@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.Destroy
+ - IPhotoProgressDialog::Destroy
 ---
 
 # IPhotoProgressDialog::Destroy
@@ -84,3 +84,4 @@ Calling <code>Destroy</code> is the only way to close the progress dialog box. I
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
+

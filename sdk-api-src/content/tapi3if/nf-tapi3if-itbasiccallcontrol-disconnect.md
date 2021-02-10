@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl.Disconnect
+ - ITBasicCallControl::Disconnect
 ---
 
 # ITBasicCallControl::Disconnect
@@ -138,3 +138,4 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
+

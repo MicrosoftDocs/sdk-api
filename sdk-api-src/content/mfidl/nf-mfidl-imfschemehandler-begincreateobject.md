@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSchemeHandler.BeginCreateObject
+ - IMFSchemeHandler::BeginCreateObject
 ---
 
 # IMFSchemeHandler::BeginCreateObject
@@ -164,3 +164,4 @@ When the operation completes, the scheme handler calls the <a href="/windows/des
 
 
 <a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
+

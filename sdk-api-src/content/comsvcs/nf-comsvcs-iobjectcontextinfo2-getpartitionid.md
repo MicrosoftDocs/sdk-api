@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectContextInfo2.GetPartitionId
+ - IObjectContextInfo2::GetPartitionId
 ---
 
 # IObjectContextInfo2::GetPartitionId
@@ -94,3 +94,4 @@ COM+ partitions are not enabled.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a>
+

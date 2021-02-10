@@ -42,10 +42,11 @@ api_type:
 api_location:
  - Winperf.h
 api_name:
- - CollectPerformanceData
+ - PM_COLLECT_PROC
 ---
 
 # PM_COLLECT_PROC callback function
+
 
 ## -description
 
@@ -93,7 +94,7 @@ Set *lpNumObjectTypes* to the number of object [types](ns-winperf-perf_object_ty
 If this function fails, set *lpNumObjectTypes* to zero.
 
 > [!NOTE]
-> This parameter is annotated as both *In* and *Out*, however this parameter should not be used as input. 
+> This parameter is annotated as both *In* and *Out*, however this parameter should not be used as input.
 
 ## -returns
 
@@ -144,3 +145,4 @@ See [Implementing CollectPerformanceData](/windows/desktop/PerfCtrs/implementing
 
 - <a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
 - [ClosePerformanceData](/windows/desktop/api/winperf/nc-winperf-pm_close_proc)
+

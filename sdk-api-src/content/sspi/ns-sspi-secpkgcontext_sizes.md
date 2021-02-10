@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_Sizes
+ - PSecPkgContext_Sizes
  - SecPkgContext_Sizes
 ---
 
@@ -83,3 +85,4 @@ Size of the security trailer to be appended to messages. This member should be z
 
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
+

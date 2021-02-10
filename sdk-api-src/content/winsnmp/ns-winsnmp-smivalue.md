@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winsnmp.h
 api_name:
+ - smiLPVALUE
  - smiVALUE
 ---
 
@@ -339,3 +340,4 @@ Because the WinSNMP application allocates memory for input descriptors with vari
 
 
 <a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>
+

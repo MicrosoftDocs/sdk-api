@@ -42,7 +42,7 @@ api_type:
 api_location:
  - printmanagerinterop.h
 api_name:
- - IPrintManagerInterop.ShowPrintUIForWindowAsync
+ - IPrintManagerInterop::ShowPrintUIForWindowAsync
 ---
 
 # IPrintManagerInterop::ShowPrintUIForWindowAsync
@@ -85,3 +85,4 @@ You can use the <b>ShowPrintUIForWindowAsync</b> method to show the print UI for
 
 
 <a href="/uwp/api/windows.graphics.printing.printmanager.showprintuiasync">ShowPrintUIAsync</a>
+

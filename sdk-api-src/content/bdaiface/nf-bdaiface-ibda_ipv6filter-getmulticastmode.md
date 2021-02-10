@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_IPV6Filter.GetMulticastMode
+ - IBDA_IPV6Filter::GetMulticastMode
 ---
 
 # IBDA_IPV6Filter::GetMulticastMode
@@ -73,3 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ipv4filter-putmulticastmode">PutMulticastMode</a>
+

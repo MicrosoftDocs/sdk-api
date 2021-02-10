@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponentData2.QueryDispatch
+ - IComponentData2::QueryDispatch
 ---
 
 # IComponentData2::QueryDispatch
@@ -94,3 +94,4 @@ If successful, the return value is S_OK. Other return values indicate an error c
 
 
 <a href="/previous-versions/windows/desktop/mmc/view-snapinselectionobject">View.SnapinSelectionObject</a>
+

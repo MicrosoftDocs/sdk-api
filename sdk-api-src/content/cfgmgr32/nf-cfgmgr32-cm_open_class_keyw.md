@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Open_Class_KeyW
  - cfgmgr32/CM_Open_Class_KeyW
+ - CM_Open_Class_Key
+ - cfgmgr32/CM_Open_Class_Key
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +48,8 @@ api_location:
  - API-Ms-Win-Devices-Config-L1-1-1.dll
  - CfgMgr32.dll
 api_name:
- - CM_Open_Class_Key
  - CM_Open_Class_KeyW
+ - CM_Open_Class_Key
 ---
 
 # CM_Open_Class_KeyW function
@@ -126,3 +128,4 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopenclassregkeyexa">SetupDiOpenClassRegKeyEx</a>
+

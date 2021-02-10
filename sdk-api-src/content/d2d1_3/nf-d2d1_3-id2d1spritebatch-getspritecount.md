@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1SpriteBatch.GetSpriteCount
+ - ID2D1SpriteBatch::GetSpriteCount
 ---
 
 # ID2D1SpriteBatch::GetSpriteCount
@@ -63,3 +63,4 @@ Returns the number of sprites in this sprite batch
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1spritebatch">ID2D1SpriteBatch</a>
+

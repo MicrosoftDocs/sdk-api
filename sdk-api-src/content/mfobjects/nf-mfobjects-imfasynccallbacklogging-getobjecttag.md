@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfobjects.h
 api_name:
- - IMFAsyncCallbackLogging.GetObjectTag
+ - IMFAsyncCallbackLogging::GetObjectTag
 ---
 
 # IMFAsyncCallbackLogging::GetObjectTag
@@ -61,3 +61,4 @@ The tag of the object.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallbacklogging">IMFAsyncCallbackLogging</a>
+

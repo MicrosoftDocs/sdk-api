@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SessDirPublicTypes.h
 api_name:
+ - _TARGET_TYPE
  - TARGET_TYPE
 ---
 

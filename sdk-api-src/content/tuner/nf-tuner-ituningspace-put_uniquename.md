@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace.put_UniqueName
+ - ITuningSpace::put_UniqueName
 ---
 
 # ITuningSpace::put_UniqueName
@@ -69,3 +69,4 @@ If you attempt to add a new tuning space to the System Tuning Spaces collection,
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
+ - _PERF_MULTI_COUNTERS
+ - PPERF_MULTI_COUNTERS
  - PERF_MULTI_COUNTERS
 ---
 
@@ -83,3 +85,4 @@ contain a <b>PERF_MULTI_COUNTERS</b> block within the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
+

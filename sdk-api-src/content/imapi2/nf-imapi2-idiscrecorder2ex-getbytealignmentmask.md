@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetByteAlignmentMask
+ - IDiscRecorder2Ex::GetByteAlignmentMask
 ---
 
 # IDiscRecorder2Ex::GetByteAlignmentMask
@@ -119,3 +119,4 @@ The data buffer for <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandsenddatatodevice">IDiscRecorder2Ex::SendCommandSendDataToDevice</a>
+

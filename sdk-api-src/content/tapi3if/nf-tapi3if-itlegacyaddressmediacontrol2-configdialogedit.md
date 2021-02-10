@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyAddressMediaControl2.ConfigDialogEdit
+ - ITLegacyAddressMediaControl2::ConfigDialogEdit
 ---
 
 # ITLegacyAddressMediaControl2::ConfigDialogEdit
@@ -100,3 +100,4 @@ This method translates to a TAPI 2.<i>x</i>
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol2-configdialog">ITLegacyAddressMediaControl2::ConfigDialog</a>
+

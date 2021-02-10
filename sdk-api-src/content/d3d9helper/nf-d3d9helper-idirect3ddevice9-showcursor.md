@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.ShowCursor
+ - IDirect3DDevice9::ShowCursor
 ---
 
 # IDirect3DDevice9::ShowCursor
@@ -103,3 +103,4 @@ Or users might want to call the <a href="/windows/desktop/api/d3d9/nf-d3d9-idire
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcursorproperties">IDirect3DDevice9::SetCursorProperties</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
+ - __MIDL___MIDL_itf_tapi3_0000_0018_0002
  - MSP_CALL_EVENT
 ---
 
@@ -98,3 +99,4 @@ No more data can be sent to or received from this stream. This happens when a se
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

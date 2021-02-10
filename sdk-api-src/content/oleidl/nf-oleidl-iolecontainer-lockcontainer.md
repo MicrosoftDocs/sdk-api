@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleContainer.LockContainer
+ - IOleContainer::LockContainer
 ---
 
 # IOleContainer::LockContainer
@@ -106,3 +106,4 @@ An embedded object calls <b>LockContainer</b> to keep its container running when
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">IRunnableObject::Run</a>
+

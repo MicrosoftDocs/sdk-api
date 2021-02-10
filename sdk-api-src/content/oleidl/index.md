@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - oleidl
  - oleidl/oleidl
+api_name:
+ - oleidl
 ---
 
 # Oleidl.h header

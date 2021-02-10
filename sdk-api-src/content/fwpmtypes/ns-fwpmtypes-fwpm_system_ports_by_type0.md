@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_SYSTEM_PORTS_BY_TYPE0_
  - FWPM_SYSTEM_PORTS_BY_TYPE0
 ---
 
@@ -79,3 +80,4 @@ Array of IP port numbers for the specified type.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

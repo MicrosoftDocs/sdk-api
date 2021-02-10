@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhEnumMachinesHA
  - pdh/PdhEnumMachinesHA
+ - PdhEnumMachinesH
+ - pdh/PdhEnumMachinesH
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhEnumMachinesH
  - PdhEnumMachinesHA
- - PdhEnumMachinesHW
+ - PdhEnumMachinesH
 ---
 
 # PdhEnumMachinesHA function
@@ -129,3 +130,4 @@ You should call this function twice, the first time to get the required buffer s
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhconnectmachinea">PdhConnectMachine</a>
+

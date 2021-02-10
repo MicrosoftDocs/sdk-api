@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGPEInformation.GetHint
+ - IGPEInformation::GetHint
 ---
 
 # IGPEInformation::GetHint
@@ -118,3 +118,4 @@ You may want to customize your application's user interface based on the result 
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
+

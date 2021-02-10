@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1530
+ - PSERVER_INFO_1530
  - SERVER_INFO_1530
 ---
 
@@ -78,3 +80,4 @@ Specifies the minimum number of available receive work items that the server req
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

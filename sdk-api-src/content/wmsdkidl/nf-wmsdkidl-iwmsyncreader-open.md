@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader.Open
+ - IWMSyncReader::Open
 ---
 
 # IWMSyncReader::Open
@@ -80,3 +80,4 @@ The synchronous reader does not support streaming media. Passing a URL as <i>pws
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-openstream">IWMSyncReader::OpenStream</a>
+

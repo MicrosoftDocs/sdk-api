@@ -44,6 +44,7 @@ api_type:
 api_location:
  - fwpmtypes.h
 api_name:
+ - FWPM_NET_EVENT_HEADER2_
  - FWPM_NET_EVENT_HEADER2
 ---
 
@@ -180,3 +181,4 @@ The security identifier (SID) representing the package identifier (also referred
 [FWP_BYTE_BLOB](../fwptypes/ns-fwptypes-fwp_byte_blob.md)
 
 [FWP_IP_VERSION](../fwptypes/ne-fwptypes-fwp_ip_version.md)
+

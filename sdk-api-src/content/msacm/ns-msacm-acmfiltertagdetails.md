@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
+ - tACMFILTERTAGDETAILS
+ - PACMFILTERTAGDETAILS
  - ACMFILTERTAGDETAILS
 ---
 
@@ -162,3 +164,4 @@ String that describes the <b>dwFilterTag</b> type. This string is always returne
 
 
 <a href="/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum">acmFilterTagEnum</a>
+

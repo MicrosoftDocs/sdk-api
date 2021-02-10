@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemBalloon.GetPreferredSize
+ - ITfLangBarItemBalloon::GetPreferredSize
 ---
 
 # ITfLangBarItemBalloon::GetPreferredSize
@@ -103,3 +103,4 @@ If the ballon text will not fit into the preferred size obtained from this metho
 
 
 <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.CompareStart
+ - ITfRange::CompareStart
 ---
 
 # ITfRange::CompareStart
@@ -225,3 +225,4 @@ This method will never return 0 unless the two anchors are in a single region. I
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
+

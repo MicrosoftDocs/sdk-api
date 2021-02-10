@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegReplaceKeyA
  - winreg/RegReplaceKeyA
+ - RegReplaceKey
+ - winreg/RegReplaceKey
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegReplaceKey
  - RegReplaceKeyA
- - RegReplaceKeyW
+ - RegReplaceKey
 ---
 
 # RegReplaceKeyA function
@@ -152,3 +153,4 @@ The calling process must have the SE_RESTORE_NAME and SE_BACKUP_NAME privileges 
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1.GetStatus
+ - IBackgroundCopyJob1::GetStatus
 ---
 
 # IBackgroundCopyJob1::GetStatus
@@ -144,3 +144,4 @@ Successfully retrieved the state of the job.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
+

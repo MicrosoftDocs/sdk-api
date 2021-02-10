@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk.DeletePartition
+ - IVdsAdvancedDisk::DeletePartition
 ---
 
 # IVdsAdvancedDisk::DeletePartition
@@ -187,3 +187,4 @@ The partition was deleted successfully, but VDS failed to update the boot option
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsadvanceddisk">IVdsAdvancedDisk</a>
+

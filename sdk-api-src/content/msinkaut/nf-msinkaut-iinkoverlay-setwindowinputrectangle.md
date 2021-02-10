@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.SetWindowInputRectangle
+ - IInkOverlay::SetWindowInputRectangle
 ---
 
 # IInkOverlay::SetWindowInputRectangle
@@ -168,3 +168,4 @@ You cannot pass in a rectangle where the value of the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+

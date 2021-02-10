@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync.BeginSubscribeToEvents
+ - IUPnPServiceAsync::BeginSubscribeToEvents
 ---
 
 # IUPnPServiceAsync::BeginSubscribeToEvents
@@ -112,3 +112,4 @@ Calling this method multiple times will result in the addition of multiple callb
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endsubscribetoevents">IUPnPServiceAsync::EndSubscribeToEvents</a>
+

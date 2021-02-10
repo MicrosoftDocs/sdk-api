@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsContainer.MoveHere
+ - IADsContainer::MoveHere
 ---
 
 # IADsContainer::MoveHere
@@ -271,3 +271,4 @@ Cleanup:
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp.Clip
+ - IInkDisp::Clip
 ---
 
 # IInkDisp::Clip
@@ -161,3 +161,4 @@ For more information on ink data, see <a href="/windows/desktop/tablet/ink-data"
 
 
 <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
+

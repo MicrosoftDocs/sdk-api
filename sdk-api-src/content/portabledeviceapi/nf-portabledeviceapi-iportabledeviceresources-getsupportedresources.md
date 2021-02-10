@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceResources.GetSupportedResources
+ - IPortableDeviceResources::GetSupportedResources
 ---
 
 # IPortableDeviceResources::GetSupportedResources
@@ -103,3 +103,4 @@ The list of resources returned by this method includes all resources that the ob
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources Interface</a>
+

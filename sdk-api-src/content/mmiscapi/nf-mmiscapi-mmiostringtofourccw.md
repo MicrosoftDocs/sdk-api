@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - mmioStringToFOURCCW
  - mmiscapi/mmioStringToFOURCCW
+ - mmioStringToFOURCC
+ - mmiscapi/mmioStringToFOURCC
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - winmmbase.dll
  - API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioStringToFOURCC
- - mmioStringToFOURCCA
  - mmioStringToFOURCCW
+ - mmioStringToFOURCC
 ---
 
 # mmioStringToFOURCCW function

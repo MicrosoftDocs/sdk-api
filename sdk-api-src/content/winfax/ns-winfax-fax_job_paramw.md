@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - FAX_JOB_PARAM
- - FAX_JOB_PARAMA
+ - _FAX_JOB_PARAMW
+ - PFAX_JOB_PARAMW
  - FAX_JOB_PARAMW
 ---
 
@@ -256,3 +256,4 @@ A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
+

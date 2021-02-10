@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ncrypt.h
 api_name:
+ - __NCRYPT_UI_POLICY
  - NCRYPT_UI_POLICY
 ---
 
@@ -115,3 +116,4 @@ A pointer to a null-terminated Unicode string that contains the text that will b
 ### -field pszDescription
 
 A pointer to a null-terminated Unicode string that contains the text that will be displayed in the strong key dialog box as the description of the key. If this member is <b>NULL</b>, a default description will be used in the strong key dialog box.  This member is used both when the key is completed and when the key is used.
+

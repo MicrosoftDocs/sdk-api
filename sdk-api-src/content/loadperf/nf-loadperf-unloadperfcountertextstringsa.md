@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UnloadPerfCounterTextStringsA
  - loadperf/UnloadPerfCounterTextStringsA
+ - UnloadPerfCounterTextStrings
+ - loadperf/UnloadPerfCounterTextStrings
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Loadperf.dll
 api_name:
- - UnloadPerfCounterTextStrings
  - UnloadPerfCounterTextStringsA
- - UnloadPerfCounterTextStringsW
+ - UnloadPerfCounterTextStrings
 ---
 
 # UnloadPerfCounterTextStringsA function
@@ -86,3 +87,4 @@ This function provides an API to the functionality provided by <b>Unlodctr</b> t
 ## -see-also
 
 <a href="/windows/desktop/api/loadperf/nf-loadperf-loadperfcountertextstringsa">LoadPerfCounterTextStrings</a>
+

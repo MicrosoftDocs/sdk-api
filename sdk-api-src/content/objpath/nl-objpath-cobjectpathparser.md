@@ -44,8 +44,6 @@ api_location:
  - FrameDyn.dll
 api_name:
  - CObjectPathParser
- - ??1CObjectPathParser@@QAE@XZ
- - ??1CObjectPathParser@@QEAA@XZ
 ---
 
 # CObjectPathParser class
@@ -114,3 +112,4 @@ Converts a structure that contains the parsed path to a string.
 </td>
 </tr>
 </table>
+

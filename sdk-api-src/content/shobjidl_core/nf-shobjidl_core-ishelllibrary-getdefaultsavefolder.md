@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary.GetDefaultSaveFolder
+ - IShellLibrary::GetDefaultSaveFolder
 ---
 
 # IShellLibrary::GetDefaultSaveFolder
@@ -101,3 +101,4 @@ For best results, use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h,  for 
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
+

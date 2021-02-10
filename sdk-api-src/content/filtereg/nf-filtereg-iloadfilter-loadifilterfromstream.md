@@ -42,7 +42,7 @@ api_type:
 api_location:
  - filtereg.h
 api_name:
- - ILoadFilter.LoadIFilterFromStream
+ - ILoadFilter::LoadIFilterFromStream
 ---
 
 # ILoadFilter::LoadIFilterFromStream
@@ -79,3 +79,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/filtereg/nn-filtereg-iloadfilter">ILoadFilter</a>
+

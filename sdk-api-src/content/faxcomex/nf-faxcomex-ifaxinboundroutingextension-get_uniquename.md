@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtension.UniqueName
- - IFaxInboundRoutingExtension.get_UniqueName
- - IFaxInboundRoutingExtension.get_UniqueName
+ - IFaxInboundRoutingExtension::get_UniqueName
 ---
 
 # IFaxInboundRoutingExtension::get_UniqueName
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
+

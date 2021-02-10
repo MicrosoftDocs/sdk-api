@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IRootStorage.SwitchToFile
+ - IRootStorage::SwitchToFile
 ---
 
 # IRootStorage::SwitchToFile
@@ -93,3 +93,4 @@ If you are implementing your own storage objects, the
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>
+

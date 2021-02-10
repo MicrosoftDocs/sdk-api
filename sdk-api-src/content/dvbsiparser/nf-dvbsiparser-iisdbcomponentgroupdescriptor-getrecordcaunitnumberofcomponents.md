@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbComponentGroupDescriptor.GetRecordCAUnitNumberOfComponents
+ - IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents
 ---
 
 # IIsdbComponentGroupDescriptor::GetRecordCAUnitNumberOfComponents
@@ -83,3 +83,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcomponentgroupdescriptor-getrecordnumberofcaunit">IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit</a>
+

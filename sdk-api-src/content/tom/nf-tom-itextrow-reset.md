@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow.Reset
+ - ITextRow::Reset
 ---
 
 # ITextRow::Reset
@@ -98,3 +98,4 @@ Insufficient memory.
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
+

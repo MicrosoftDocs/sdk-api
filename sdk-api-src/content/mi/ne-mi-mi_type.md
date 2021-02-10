@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_Type
  - MI_Type
 ---
 
@@ -187,3 +188,4 @@ Array of <b>MI_INSTANCE</b> types.
 ### -field MI_ARRAY
 
 MI_ARRAY is not an actual type, rather this is the bit that signifies  the type is an array.
+

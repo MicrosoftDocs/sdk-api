@@ -44,6 +44,7 @@ api_type:
 api_location:
  - FunctionDiscoveryAPI.h
 api_name:
+ - tagSystemVisibilityFlags
  - SystemVisibilityFlags
 ---
 

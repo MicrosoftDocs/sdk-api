@@ -45,6 +45,7 @@ api_location:
  - Routprot.h
 api_name:
  - IPV6_LOCAL_BINDING
+ - PIPV6_LOCAL_BINDING
 ---
 
 # IPV6_LOCAL_BINDING structure
@@ -86,3 +87,4 @@ Since an adapter can have more than one IP address, the
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
+

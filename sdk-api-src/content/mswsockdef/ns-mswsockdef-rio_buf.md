@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mswsockdef.h
 api_name:
+ - _RIO_BUF
+ - PRIO_BUF
  - RIO_BUF
 ---
 
@@ -107,3 +109,4 @@ The <b>RIO_BUF</b> structure is defined in the <i>Mswsockdef.h</i> header file w
 
 
 <a href="/windows/desktop/WinSock/rio-bufferid">RIO_BUFFERID</a>
+

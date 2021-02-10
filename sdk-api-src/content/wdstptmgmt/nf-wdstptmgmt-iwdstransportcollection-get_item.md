@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportCollection.Item
- - IWdsTransportCollection.get_Item
- - IWdsTransportCollection.put_Item
+ - IWdsTransportCollection::get_Item
 ---
 
 # IWdsTransportCollection::get_Item
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcollection">IWdsTransportCollection</a>
+

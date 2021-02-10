@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMBYTE2.XMBYTE2
+ - XMBYTE2::XMBYTE2
 ---
 
 # XMBYTE2::XMBYTE2(const float)
@@ -80,3 +80,4 @@ instance.y = (int8_t)min( max( pArray[1] -127.0 ), 127.0 );
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
 
 <a href="/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>
+

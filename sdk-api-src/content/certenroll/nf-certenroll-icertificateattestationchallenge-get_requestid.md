@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - ICertificateAttestationChallenge.RequestID
- - ICertificateAttestationChallenge.get_RequestID
+ - ICertificateAttestationChallenge::get_RequestID
 ---
 
 # ICertificateAttestationChallenge::get_RequestID
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificateattestationchallenge">ICertificateAttestationChallenge</a>
+

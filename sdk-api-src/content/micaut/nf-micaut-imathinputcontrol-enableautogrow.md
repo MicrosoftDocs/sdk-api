@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl.EnableAutoGrow
+ - IMathInputControl::EnableAutoGrow
 ---
 
 # IMathInputControl::EnableAutoGrow
@@ -69,3 +69,4 @@ Automatic growth is enabled by default.
 ## -see-also
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
+

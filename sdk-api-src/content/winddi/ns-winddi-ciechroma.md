@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _CIECHROMA
  - CIECHROMA
 ---
 
@@ -89,3 +90,4 @@ The value of the <b>Y</b> member of this structure should be in the range from 0
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
+

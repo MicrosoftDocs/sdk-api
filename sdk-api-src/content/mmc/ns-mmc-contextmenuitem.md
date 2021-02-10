@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _CONTEXTMENUITEM
  - CONTEXTMENUITEM
 ---
 
@@ -328,3 +329,4 @@ Validate the item parameters, but do not add the menu item. Return result code t
 
 
 <a href="/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
+

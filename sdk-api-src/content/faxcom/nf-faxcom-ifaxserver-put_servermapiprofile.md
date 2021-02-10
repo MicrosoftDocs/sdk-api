@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer.ServerMapiProfile
- - IFaxServer.get_ServerMapiProfile
- - IFaxServer.put_ServerMapiProfile
- - IFaxServer.get_ServerMapiProfile
- - IFaxServer.put_ServerMapiProfile
+ - IFaxServer::put_ServerMapiProfile
 ---
 
 # IFaxServer::put_ServerMapiProfile
@@ -85,3 +81,4 @@ The <b>IFaxServer::get_ServerMapiProfile</b> method allocates the memory require
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

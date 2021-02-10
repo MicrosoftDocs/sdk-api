@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_TRANSFORM_INFO
+ - PCRYPT_XML_TRANSFORM_INFO
  - CRYPT_XML_TRANSFORM_INFO
 ---
 
@@ -139,3 +141,4 @@ For XML canonicalization transforms, the buffer size specified by the <b>cbBuffe
 
 
 <a href="/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMultiMediaStream.GetDuration
+ - IMultiMediaStream::GetDuration
 ---
 
 # IMultiMediaStream::GetDuration
@@ -129,3 +129,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
+

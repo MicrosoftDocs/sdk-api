@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
+ - _MIB_UNICASTIPADDRESS_TABLE
+ - PMIB_UNICASTIPADDRESS_TABLE
  - MIB_UNICASTIPADDRESS_TABLE
 ---
 
@@ -306,3 +308,4 @@ int __cdecl wmain()
 
 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
+

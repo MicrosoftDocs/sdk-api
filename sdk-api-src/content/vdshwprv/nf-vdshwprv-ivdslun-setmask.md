@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun.SetMask
+ - IVdsLun::SetMask
 ---
 
 # IVdsLun::SetMask
@@ -234,3 +234,4 @@ After a LUN is unmasked to a target machine or masked from a target machine, the
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a>
+

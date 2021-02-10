@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumFeedClockVector.Clone
+ - IEnumFeedClockVector::Clone
 ---
 
 # IEnumFeedClockVector::Clone
@@ -102,3 +102,4 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>
+

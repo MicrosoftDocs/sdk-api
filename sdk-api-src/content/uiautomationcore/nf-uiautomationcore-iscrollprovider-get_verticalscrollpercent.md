@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IScrollProvider.VerticalScrollPercent
- - IScrollProvider.get_VerticalScrollPercent
+ - IScrollProvider::get_VerticalScrollPercent
 ---
 
 # IScrollProvider::get_VerticalScrollPercent
@@ -80,3 +79,4 @@ The vertical scroll position can be reported as <b>UIA_ScrollPatternNoScroll</b>
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost2.TxIsDoubleClickPending
+ - ITextHost2::TxIsDoubleClickPending
 ---
 
 # ITextHost2::TxIsDoubleClickPending
@@ -63,3 +63,4 @@ Returns <b>TRUE</b> if a <a href="/windows/desktop/inputdev/wm-lbuttondblclk">WM
 ## -see-also
 
 <a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
+

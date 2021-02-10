@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - CLFS_WRITE_ENTRY
+ - _CLS_WRITE_ENTRY
+ - PCLS_WRITE_ENTRY
+ - CLS_WRITE_ENTRY
 ---
 
 # CLS_WRITE_ENTRY structure
@@ -69,3 +71,4 @@ The length of the log record data buffer, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a>
+

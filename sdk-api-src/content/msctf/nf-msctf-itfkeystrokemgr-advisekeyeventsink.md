@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeystrokeMgr.AdviseKeyEventSink
+ - ITfKeystrokeMgr::AdviseKeyEventSink
 ---
 
 # ITfKeystrokeMgr::AdviseKeyEventSink
@@ -127,3 +127,4 @@ The foreground key event sink receives all keyboard events. A non-foreground key
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate
       </a>
+

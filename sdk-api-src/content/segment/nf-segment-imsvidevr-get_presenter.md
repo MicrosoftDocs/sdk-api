@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidEVR.get_Presenter
+ - IMSVidEVR::get_Presenter
 ---
 
 # IMSVidEVR::get_Presenter
@@ -65,3 +65,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidevr">IMSVidEVR</a>
+

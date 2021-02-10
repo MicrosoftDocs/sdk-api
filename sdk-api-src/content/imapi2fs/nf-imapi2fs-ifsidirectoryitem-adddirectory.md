@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem.AddDirectory
+ - IFsiDirectoryItem::AddDirectory
 ---
 
 # IFsiDirectoryItem::AddDirectory
@@ -146,3 +146,4 @@ The parent directory for the new subdirectory must already exist within the file
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>
+

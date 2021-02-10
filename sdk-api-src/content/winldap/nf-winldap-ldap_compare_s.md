@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_compare_s
- - ldap_compare_sA
- - ldap_compare_sW
 ---
 
 # ldap_compare_s function
@@ -128,3 +126,4 @@ Multithreading: Calls to <b>ldap_compare_s</b> are
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CurrentMaximum
- - IUIAutomationRangeValuePattern.get_CurrentMaximum
+ - IUIAutomationRangeValuePattern::get_CurrentMaximum
 ---
 
 # IUIAutomationRangeValuePattern::get_CurrentMaximum

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapLock.GetDataPointer
+ - IWICBitmapLock::GetDataPointer
 ---
 
 # IWICBitmapLock::GetDataPointer
@@ -151,3 +151,4 @@ In the following example, the data pointed to by the <a href="/windows/desktop/a
     return hr;
 
 ```
+

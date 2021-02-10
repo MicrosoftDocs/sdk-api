@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winnls.h
 api_name:
- - UILANGUAGE_ENUMPROC
+ - UILANGUAGE_ENUMPROCW
 ---
 
 # UILANGUAGE_ENUMPROCW callback function
@@ -110,3 +110,4 @@ delegate System.Boolean EnumUILanguagesProc(
 
 
 <a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
+

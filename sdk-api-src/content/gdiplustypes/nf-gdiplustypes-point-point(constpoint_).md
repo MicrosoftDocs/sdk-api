@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Point.Point
+ - Point::Point
 ---
 
 # Point::Point(IN const Point &)
@@ -76,3 +76,4 @@ Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point"
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

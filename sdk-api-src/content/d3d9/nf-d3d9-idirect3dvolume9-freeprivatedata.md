@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVolume9.FreePrivateData
+ - IDirect3DVolume9::FreePrivateData
 ---
 
 # IDirect3DVolume9::FreePrivateData
@@ -82,3 +82,4 @@ Direct3D calls this method automatically when a volume is released.
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-setprivatedata">IDirect3DVolume9::SetPrivateData</a>
+

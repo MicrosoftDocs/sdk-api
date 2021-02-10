@@ -42,16 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.WriteCertToUserDS
- - ICEnroll4.get_WriteCertToUserDS
- - ICEnroll4.put_WriteCertToUserDS
- - ICEnroll3.WriteCertToUserDS
- - ICEnroll3.get_WriteCertToUserDS
- - ICEnroll3.put_WriteCertToUserDS
- - ICEnroll2.WriteCertToUserDS
- - ICEnroll2.get_WriteCertToUserDS
- - ICEnroll2.put_WriteCertToUserDS
- - CEnroll.WriteCertToUserDS
+ - ICEnroll2::put_WriteCertToUserDS
 ---
 
 # ICEnroll2::put_WriteCertToUserDS
@@ -109,3 +100,4 @@ if (FAILED( hr ))
 else
     printf( "WriteCertToUserDS set to TRUE\n" );
 ```
+

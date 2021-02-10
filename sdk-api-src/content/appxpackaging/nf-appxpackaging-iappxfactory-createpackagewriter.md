@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxFactory.CreatePackageWriter
+ - IAppxFactory::CreatePackageWriter
 ---
 
 # IAppxFactory::CreatePackageWriter
@@ -132,3 +132,4 @@ For an example, see <a href="/windows/desktop/appxpkg/how-to-create-a-package">H
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfactory">IAppxFactory</a>
+

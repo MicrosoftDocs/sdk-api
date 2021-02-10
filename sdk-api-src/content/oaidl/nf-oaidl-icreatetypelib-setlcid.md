@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib.SetLcid
+ - ICreateTypeLib::SetLcid
 ---
 
 # ICreateTypeLib::SetLcid
@@ -131,3 +131,4 @@ For more information on national language IDs, see <a href="/previous-versions/w
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winhttp.h
 api_name:
+ - _WINHTTP_WEB_SOCKET_BUFFER_TYPE
  - WINHTTP_WEB_SOCKET_BUFFER_TYPE
 ---
 

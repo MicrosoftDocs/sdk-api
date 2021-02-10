@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - _MFStandardVideoFormat
  - MFStandardVideoFormat
 ---
 
@@ -103,3 +104,4 @@ ATSC digital television, HD progressive (720p)
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

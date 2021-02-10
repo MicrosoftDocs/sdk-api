@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _TYPE1_FONT
  - TYPE1_FONT
 ---
 
@@ -77,3 +78,4 @@ Each PostScript Type1 font comes with two separate files: a .<i>pfm</i> file and
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
+

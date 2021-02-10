@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IStreamAsync.CancelIo
+ - IStreamAsync::CancelIo
 ---
 
 # IStreamAsync::CancelIo

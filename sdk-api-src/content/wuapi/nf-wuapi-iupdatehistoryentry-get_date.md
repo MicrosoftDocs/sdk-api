@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateHistoryEntry.Date
- - IUpdateHistoryEntry.get_Date
+ - IUpdateHistoryEntry::get_Date
 ---
 
 # IUpdateHistoryEntry::get_Date
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
+ - tagXHR_CERT
  - XHR_CERT
 ---
 
@@ -75,3 +76,4 @@ A pointer to the buffer that contains the encoded certificate.
 
 
 <a href="/previous-versions/windows/desktop/ixhr2/ixmlhttprequest3-setclientcertificate">SetClientCertificate</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager.ItemByIndex
- - IX509PolicyServerListManager.get_ItemByIndex
+ - IX509PolicyServerListManager::get_ItemByIndex
 ---
 
 # IX509PolicyServerListManager::get_ItemByIndex
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlistmanager">IX509PolicyServerListManager</a>
+

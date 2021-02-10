@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2.SetSubpictureState
+ - IDvdControl2::SetSubpictureState
 ---
 
 # IDvdControl2::SetSubpictureState
@@ -154,3 +154,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectsubpicturestream">SelectSubpictureStream</a>
+

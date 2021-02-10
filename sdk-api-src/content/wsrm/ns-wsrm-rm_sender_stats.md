@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsrm.h
 api_name:
+ - _RM_SENDER_STATS
  - RM_SENDER_STATS
 ---
 
@@ -146,3 +147,4 @@ Total original data (ODATA) packets sent.
 
 <a href="/windows/desktop/WinSock/socket-options">Socket
   Options</a>
+

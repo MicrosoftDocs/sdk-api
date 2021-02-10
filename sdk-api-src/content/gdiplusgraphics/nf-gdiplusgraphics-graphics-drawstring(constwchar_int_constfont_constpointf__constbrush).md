@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.DrawString
+ - Graphics::DrawString
 ---
 
 # Graphics::DrawString(const WCHAR,INT,const Font,const PointF &,const Brush)
@@ -154,3 +154,4 @@ VOID Example_DrawString2(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
+

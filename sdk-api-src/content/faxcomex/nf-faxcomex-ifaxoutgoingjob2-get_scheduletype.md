@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob2.ScheduleType
- - IFaxOutgoingJob2.get_ScheduleType
- - IFaxOutgoingJob2.get_ScheduleType
+ - IFaxOutgoingJob2::get_ScheduleType
 ---
 
 # IFaxOutgoingJob2::get_ScheduleType
@@ -69,3 +67,4 @@ This property can indicate the following: the fax should be transmitted right aw
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob2">IFaxOutgoingJob2</a>
+

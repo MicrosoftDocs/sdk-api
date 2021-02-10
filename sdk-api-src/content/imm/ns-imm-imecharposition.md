@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Imm.h
 api_name:
+ - tagIMECHARPOSITION
+ - PIMECHARPOSITION
  - IMECHARPOSITION
 ---
 
@@ -93,3 +95,4 @@ When an application uses IME to draw the composition string, the members of this
 
 
 <a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
+

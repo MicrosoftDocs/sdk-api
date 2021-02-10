@@ -46,6 +46,8 @@ api_type:
 api_location:
  - tvout.h
 api_name:
+ - _VIDEOPARAMETERS
+ - PVIDEOPARAMETERS
  - VIDEOPARAMETERS
 ---
 
@@ -503,3 +505,4 @@ OEM-specific copy protection data. This member is valid for both the VP_COMMAND_
 
 
 <a href="/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
+

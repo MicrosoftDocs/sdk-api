@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
+ - tagRPC_EE_INFO_PARAM
  - RPC_EE_INFO_PARAM
 ---
 
@@ -152,3 +153,4 @@ The
 
 
 <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>
+

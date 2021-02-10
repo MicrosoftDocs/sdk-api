@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagPOINTERINACTIVE
  - POINTERINACTIVE
 ---
 
@@ -96,3 +97,4 @@ If the drop occurs on the embedded object, the object is UI-activated and will g
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a>
+

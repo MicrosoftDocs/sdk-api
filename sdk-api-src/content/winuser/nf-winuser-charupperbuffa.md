@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CharUpperBuffA
  - winuser/CharUpperBuffA
+ - CharUpperBuff
+ - winuser/CharUpperBuff
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-DownLevel-user32-l1-1-0.dll
  - API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - CharUpperBuff
  - CharUpperBuffA
- - CharUpperBuffW
+ - CharUpperBuff
 ---
 
 # CharUpperBuffA function
@@ -130,3 +131,4 @@ For an example, see <a href="/windows/desktop/FileIO/creating-and-using-a-tempor
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
+

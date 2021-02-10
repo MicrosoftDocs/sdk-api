@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d10_1shader.h
 api_name:
+ - _D3D10_SHADER_DEBUG_SCOPETYPE
  - D3D10_SHADER_DEBUG_SCOPETYPE
 ---
 
@@ -99,3 +100,4 @@ The <b>D3D10_SHADER_DEBUG_SCOPETYPE</b> enumeration is used to specify scope typ
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-enums">Shader Enumerations</a>
+

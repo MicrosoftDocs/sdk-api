@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithms.IndexByObjectId
- - ICspAlgorithms.get_IndexByObjectId
+ - ICspAlgorithms::get_IndexByObjectId
 ---
 
 # ICspAlgorithms::get_IndexByObjectId
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithms">ICspAlgorithms</a>
+

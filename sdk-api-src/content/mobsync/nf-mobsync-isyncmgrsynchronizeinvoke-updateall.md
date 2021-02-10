@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeInvoke.UpdateAll
+ - ISyncMgrSynchronizeInvoke::UpdateAll
 ---
 
 # ISyncMgrSynchronizeInvoke::UpdateAll
@@ -85,3 +85,4 @@ This method returns immediately and the synchronization manager performs the syn
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>
+

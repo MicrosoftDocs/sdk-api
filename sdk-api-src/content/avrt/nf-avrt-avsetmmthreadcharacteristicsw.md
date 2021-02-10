@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - AvSetMmThreadCharacteristicsW
  - avrt/AvSetMmThreadCharacteristicsW
+ - AvSetMmThreadCharacteristics
+ - avrt/AvSetMmThreadCharacteristics
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Avrt.dll
 api_name:
- - AvSetMmThreadCharacteristics
- - AvSetMmThreadCharacteristicsA
  - AvSetMmThreadCharacteristicsW
+ - AvSetMmThreadCharacteristics
 ---
 
 # AvSetMmThreadCharacteristicsW function
@@ -129,3 +130,4 @@ When the task is completed, call the <a href="/windows/desktop/api/avrt/nf-avrt-
 ## -see-also
 
 <a href="/windows/desktop/ProcThread/multimedia-class-scheduler-service">Multimedia Class Scheduler Service</a>
+

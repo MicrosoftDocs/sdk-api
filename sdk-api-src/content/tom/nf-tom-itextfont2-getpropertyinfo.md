@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2.GetPropertyInfo
+ - ITextFont2::GetPropertyInfo
 ---
 
 # ITextFont2::GetPropertyInfo
@@ -81,3 +81,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
+

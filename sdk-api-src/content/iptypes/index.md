@@ -9,6 +9,8 @@ tech.root: iphlp
 f1_keywords:
  - iptypes
  - iptypes/iptypes
+api_name:
+ - iptypes
 ---
 
 # Iptypes.h header

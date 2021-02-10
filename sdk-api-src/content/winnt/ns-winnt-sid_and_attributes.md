@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _SID_AND_ATTRIBUTES
+ - PSID_AND_ATTRIBUTES
  - SID_AND_ATTRIBUTES
 ---
 
@@ -81,3 +83,4 @@ A group is represented by a SID. SIDs have attributes that indicate whether they
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
+

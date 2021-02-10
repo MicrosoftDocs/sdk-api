@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJobManager.GetFileManagementJob
- - FsrmFileManagementJobManager.GetFileManagementJob
+ - IFsrmFileManagementJobManager::GetFileManagementJob
 ---
 
 # IFsrmFileManagementJobManager::GetFileManagementJob
@@ -78,3 +77,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjobmanager-enumfilemanagementjobs">IFsrmFileManagementJobManager::EnumFileManagementJobs</a>
+

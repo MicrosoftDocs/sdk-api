@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastAddressAllocation.get_Scopes
+ - IMcastAddressAllocation::get_Scopes
 ---
 
 # IMcastAddressAllocation::get_Scopes
@@ -137,3 +137,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
+ - _OPM_OUTPUT_ID_DATA
  - OPM_OUTPUT_ID_DATA
 ---
 
@@ -75,3 +76,4 @@ The unique identifier of the monitor associated with this video output.
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

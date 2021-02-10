@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlayIdentifier.GetOverlayInfo
+ - IShellIconOverlayIdentifier::GetOverlayInfo
 ---
 
 # IShellIconOverlayIdentifier::GetOverlayInfo

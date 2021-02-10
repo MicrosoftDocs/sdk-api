@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IShellWindows.ProcessAttachDetach
+ - IShellWindows::ProcessAttachDetach
 ---
 
 # IShellWindows::ProcessAttachDetach

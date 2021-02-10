@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest3.RetrievePending
- - ICertRequest2.RetrievePending
- - ICertRequest.RetrievePending
- - CCertRequest.RetrievePending
+ - ICertRequest::RetrievePending
 ---
 
 # ICertRequest::RetrievePending
@@ -218,3 +215,4 @@ if ( NULL != bstrCA )
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
+

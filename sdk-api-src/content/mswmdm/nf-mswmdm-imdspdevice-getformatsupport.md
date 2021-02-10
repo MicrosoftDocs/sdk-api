@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice.GetFormatSupport
+ - IMDSPDevice::GetFormatSupport
 ---
 
 # IMDSPDevice::GetFormatSupport
@@ -91,3 +91,4 @@ This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOT
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
+

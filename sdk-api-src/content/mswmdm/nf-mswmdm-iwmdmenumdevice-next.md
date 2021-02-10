@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMEnumDevice.Next
+ - IWMDMEnumDevice::Next
 ---
 
 # IWMDMEnumDevice::Next
@@ -135,3 +135,4 @@ while(pEnumDevice->Next(1, &pIWMDMDevice, &ulFetched) == S_OK)
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">IWMDeviceManager::EnumDevices</a>
+

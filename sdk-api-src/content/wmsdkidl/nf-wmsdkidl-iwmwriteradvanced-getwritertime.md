@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.GetWriterTime
+ - IWMWriterAdvanced::GetWriterTime
 ---
 
 # IWMWriterAdvanced::GetWriterTime
@@ -105,3 +105,4 @@ The writer can be running in real time. Call the <a href="/windows/desktop/api/w
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
+

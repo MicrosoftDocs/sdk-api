@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase.GetService
+ - ISpatialAudioObjectRenderStreamBase::GetService
 ---
 
 # ISpatialAudioObjectRenderStreamBase::GetService
@@ -168,3 +168,4 @@ The <b>GetService</b> method supports the following service interfaces:
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+

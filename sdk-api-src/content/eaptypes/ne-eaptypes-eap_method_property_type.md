@@ -44,6 +44,7 @@ api_type:
 api_location:
  - EapTypes.h
 api_name:
+ - _EAP_METHOD_PROPERTY_TYPE
  - EAP_METHOD_PROPERTY_TYPE
 ---
 
@@ -193,3 +194,4 @@ String property method for specifying any vendor-specific property of the EAP me
 
 
 <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStreamHandler.CancelObjectCreation
+ - IMFByteStreamHandler::CancelObjectCreation
 ---
 
 # IMFByteStreamHandler::CancelObjectCreation
@@ -92,3 +92,4 @@ You can use this method to cancel a previous call to <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
+

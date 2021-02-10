@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCWebSettings.GetSettings
+ - IWPCWebSettings::GetSettings
 ---
 
 # IWPCWebSettings::GetSettings
@@ -94,3 +94,4 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcwebsettings">IWPCWebSettings</a>
+

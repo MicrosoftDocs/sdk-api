@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer.put_Mono
+ - IAMAudioInputMixer::put_Mono
 ---
 
 # IAMAudioInputMixer::put_Mono
@@ -124,3 +124,4 @@ In mono mode, a stereo recording of this input will have the same data in both c
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_mono">IAMAudioInputMixer::get_Mono</a>
+

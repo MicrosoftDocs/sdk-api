@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMCanvas.GetUseAliasedEdgeMode
+ - IXpsOMCanvas::GetUseAliasedEdgeMode
 ---
 
 # IXpsOMCanvas::GetUseAliasedEdgeMode
@@ -137,3 +137,4 @@ The property that is returned by this method corresponds to the <b>RenderOptions
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

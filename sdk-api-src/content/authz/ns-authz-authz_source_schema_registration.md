@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Authz.h
 api_name:
+ - _AUTHZ_SOURCE_SCHEMA_REGISTRATION
+ - PAUTHZ_SOURCE_SCHEMA_REGISTRATION
  - AUTHZ_SOURCE_SCHEMA_REGISTRATION
 ---
 
@@ -136,3 +138,4 @@ An array of <a href="/windows/win32/api/authz/ns-authz-authz_registration_object
 
 
 <a href="/windows/desktop/api/authz/nf-authz-authzinstallsecurityeventsource">AuthzInstallSecurityEventSource</a>
+

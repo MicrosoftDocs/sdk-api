@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_FILE_SYSTEM_PROP
+ - PVDS_FILE_SYSTEM_PROP
  - VDS_FILE_SYSTEM_PROP
 ---
 
@@ -108,3 +110,4 @@ The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-getfilesystempropertie
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
+

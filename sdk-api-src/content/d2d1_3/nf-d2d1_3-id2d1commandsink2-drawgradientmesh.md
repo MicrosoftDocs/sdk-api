@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink2.DrawGradientMesh
+ - ID2D1CommandSink2::DrawGradientMesh
 ---
 
 # ID2D1CommandSink2::DrawGradientMesh
@@ -67,3 +67,4 @@ This method does not return a value.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>
+

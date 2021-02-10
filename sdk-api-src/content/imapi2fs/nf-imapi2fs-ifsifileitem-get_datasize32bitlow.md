@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiFileItem.get_DataSize32BitLow
+ - IFsiFileItem::get_DataSize32BitLow
 ---
 
 # IFsiFileItem::get_DataSize32BitLow
@@ -93,3 +93,4 @@ This property and <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileite
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">IFsiFileItem::get_DataSize</a>
+

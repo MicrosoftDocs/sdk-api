@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
+ - tagNapNotifyType
  - NapNotifyType
 ---
 
@@ -79,3 +80,4 @@ A notification of type <b>napNotifyTypeQuarState</b>  is sent whenever the isola
 
 
 <a href="/windows/desktop/NAP/uninitializenapagentnotifier">UninitializeNapAgentNotifier</a>
+

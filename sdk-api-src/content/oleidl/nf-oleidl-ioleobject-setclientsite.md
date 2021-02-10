@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject.SetClientSite
+ - IOleObject::SetClientSite
 ---
 
 # IOleObject::SetClientSite
@@ -121,3 +121,4 @@ Implementation consists simply of incrementing the reference count on, and stori
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dsrole.h
 api_name:
+ - _DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
  - DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
 ---
 
@@ -89,3 +90,4 @@ The <a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininforma
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
+

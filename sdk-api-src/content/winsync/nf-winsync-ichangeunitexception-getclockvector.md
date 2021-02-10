@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IChangeUnitException.GetClockVector
+ - IChangeUnitException::GetClockVector
 ---
 
 # IChangeUnitException::GetClockVector
@@ -99,3 +99,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumclockvector">IEnumClockVector Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl.get_State
+ - IMSVidCtl::get_State
 ---
 
 # IMSVidCtl::get_State
@@ -94,3 +94,4 @@ NULL pointer argument.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+

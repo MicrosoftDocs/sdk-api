@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMDevMemoryControl.WriteSync
+ - IAMDevMemoryControl::WriteSync
 ---
 
 # IAMDevMemoryControl::WriteSync
@@ -115,3 +115,4 @@ The <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemorycontrol">IAMDevMe
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemorycontrol">IAMDevMemoryControl Interface</a>
+

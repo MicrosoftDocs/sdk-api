@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelServer.MACFinal
+ - CSecureChannelServer::MACFinal
 ---
 
 # CSecureChannelServer::MACFinal
@@ -110,3 +110,4 @@ Possible values include, but are not limited to, those in the following table.
 
 
 <a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>
+

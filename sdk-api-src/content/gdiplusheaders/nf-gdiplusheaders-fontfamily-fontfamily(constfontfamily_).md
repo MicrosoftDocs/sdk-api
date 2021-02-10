@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusheaders.h
 api_name:
- - FontFamily.FontFamily
+ - FontFamily::FontFamily
 ---
 
 # FontFamily::FontFamily(const FontFamily &)
@@ -78,3 +78,4 @@ Creates a <a href="/previous-versions/ms536183(v=vs.85)">FontFamily::FontFamily<
 </table>
 
 ## -parameters
+

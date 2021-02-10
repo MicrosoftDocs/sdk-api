@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpGetCredentials
+ - SpGetCredentialsFn
 ---
 
 # SpGetCredentialsFn callback function
@@ -113,3 +113,4 @@ A pointer to the <b>SpGetCredentials</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
+

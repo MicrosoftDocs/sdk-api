@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServices.get__NewEnum
+ - IUPnPServices::get__NewEnum
 ---
 
 # IUPnPServices::get__NewEnum
@@ -99,3 +99,4 @@ This property is not visible in Visual Basic; use the <b>for...each...next</b> p
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IBitmapData.GetSourceBitmapDescription
+ - IBitmapData::GetSourceBitmapDescription
 ---
 
 # IBitmapData::GetSourceBitmapDescription
@@ -69,3 +69,4 @@ This will have the same value as the <a href="/previous-versions/windows/desktop
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ibitmapdata">IBitmapData</a>
+

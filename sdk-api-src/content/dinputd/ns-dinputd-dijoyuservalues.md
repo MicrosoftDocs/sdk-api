@@ -45,6 +45,7 @@ api_location:
  - Dinputd.h
 api_name:
  - DIJOYUSERVALUES
+ - LPDIJOYUSERVALUES
 ---
 
 # DIJOYUSERVALUES structure

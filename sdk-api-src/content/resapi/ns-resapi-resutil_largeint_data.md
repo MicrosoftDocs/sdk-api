@@ -45,6 +45,7 @@ api_location:
  - ResApi.h
 api_name:
  - RESUTIL_LARGEINT_DATA
+ - PRESUTIL_LARGEINT_DATA
 ---
 
 # RESUTIL_LARGEINT_DATA structure
@@ -75,3 +76,4 @@ The maximum value.
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_ulargeint_data">RESUTIL_ULARGEINT_DATA</a>
+

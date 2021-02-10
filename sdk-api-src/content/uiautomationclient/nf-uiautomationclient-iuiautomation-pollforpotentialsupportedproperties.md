@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.PollForPotentialSupportedProperties
+ - IUIAutomation::PollForPotentialSupportedProperties
 ---
 
 # IUIAutomation::PollForPotentialSupportedProperties
@@ -107,3 +107,4 @@ There is no guarantee that the element will support any particular property when
 
 
 <b>Reference</b>
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage4.GetSpecifiedMetadata
+ - IWMDMStorage4::GetSpecifiedMetadata
 ---
 
 # IWMDMStorage4::GetSpecifiedMetadata
@@ -107,3 +107,4 @@ Requesting a single property is a special case of this method. If the client req
 
 
 <a href="/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmdeviceapi.h
 api_name:
- - IActivateAudioInterfaceAsyncOperation.GetActivateResult
+ - IActivateAudioInterfaceAsyncOperation::GetActivateResult
 ---
 
 # IActivateAudioInterfaceAsyncOperation::GetActivateResult
@@ -95,3 +95,4 @@ The returned <i>activatedInterface</i> may be <b>NULL</b> if <i>activateResult</
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation">IActivateAudioInterfaceAsyncOperation</a>
+

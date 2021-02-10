@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMBufferNegotiation.SuggestAllocatorProperties
+ - IAMBufferNegotiation::SuggestAllocatorProperties
 ---
 
 # IAMBufferNegotiation::SuggestAllocatorProperties
@@ -148,3 +148,4 @@ pIAMBufferNegotiation-&gt;SuggestAllocatorProperties(&amp;AllocProp);
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iambuffernegotiation">IAMBufferNegotiation Interface</a>
+

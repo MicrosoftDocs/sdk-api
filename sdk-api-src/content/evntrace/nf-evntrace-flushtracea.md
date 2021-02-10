@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FlushTraceA
  - evntrace/FlushTraceA
+ - FlushTrace
+ - evntrace/FlushTrace
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-eventing-Legacy-l1-1-0.dll
  - advapi32legacy.dll
 api_name:
- - FlushTrace
  - FlushTraceA
- - FlushTraceW
+ - FlushTrace
 ---
 
 # FlushTraceA function
@@ -163,3 +164,4 @@ Note that it is not safe to flush buffers from DllMain.
 ## -see-also
 
 <a href="/windows/desktop/ETW/controltrace">ControlTrace</a>
+

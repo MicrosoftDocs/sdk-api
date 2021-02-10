@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
+ - _CRYPT_XML_OBJECT
+ - PCRYPT_XML_OBJECT
  - CRYPT_XML_OBJECT
 ---
 
@@ -91,3 +93,4 @@ Optional. A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">C
     Applications can use the <b>CRYPT_XML_FLAG_ALWAYS_RETURN_ENCODED_OBJECT</b> flag
     to always receive an encoded <b>Object</b> element.</div>
 <div> </div>
+

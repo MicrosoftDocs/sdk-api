@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker.Enum
+ - IMoniker::Enum
 ---
 
 # IMoniker::Enum
@@ -123,3 +123,4 @@ If the new moniker class has no discernible internal structure, your implementat
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+

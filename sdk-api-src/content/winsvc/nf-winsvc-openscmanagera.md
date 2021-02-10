@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OpenSCManagerA
  - winsvc/OpenSCManagerA
+ - OpenSCManager
+ - winsvc/OpenSCManager
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-1-0.dll
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - OpenSCManager
  - OpenSCManagerA
- - OpenSCManagerW
+ - OpenSCManager
 ---
 
 # OpenSCManagerA function
@@ -172,3 +173,4 @@ For an example, see
 
 
 <a href="/windows/desktop/Services/service-functions">Service Functions</a>
+

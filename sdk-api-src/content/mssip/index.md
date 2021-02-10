@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - mssip
  - mssip/mssip
+api_name:
+ - mssip
 ---
 
 # Mssip.h header

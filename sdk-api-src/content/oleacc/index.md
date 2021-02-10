@@ -9,6 +9,8 @@ tech.root: winauto
 f1_keywords:
  - oleacc
  - oleacc/oleacc
+api_name:
+ - oleacc
 ---
 
 # Oleacc.h header

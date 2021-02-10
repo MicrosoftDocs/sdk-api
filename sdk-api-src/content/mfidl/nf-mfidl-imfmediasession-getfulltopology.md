@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession.GetFullTopology
+ - IMFMediaSession::GetFullTopology
 ---
 
 # IMFMediaSession::GetFullTopology
@@ -122,3 +122,4 @@ The topology returned in <i>ppFullTopo</i> is a full topology, not a partial top
 
 
 <a href="/windows/desktop/medfound/topoid">TOPOID</a>
+

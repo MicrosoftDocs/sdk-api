@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidDevice.get_Category
+ - IMSVidDevice::get_Category
 ---
 
 # IMSVidDevice::get_Category
@@ -102,3 +102,4 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
+

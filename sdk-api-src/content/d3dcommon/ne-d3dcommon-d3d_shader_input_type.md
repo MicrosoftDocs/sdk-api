@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3DCommon.h
 api_name:
+ - _D3D_SHADER_INPUT_TYPE
  - D3D_SHADER_INPUT_TYPE
 ---
 
@@ -166,3 +167,4 @@ The shader resource is a read-and-write structured buffer that uses the built-in
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
+

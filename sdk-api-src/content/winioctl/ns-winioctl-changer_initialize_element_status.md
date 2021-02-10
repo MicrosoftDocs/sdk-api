@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CHANGER_INITIALIZE_ELEMENT_STATUS
+ - PCHANGER_INITIALIZE_ELEMENT_STATUS
  - CHANGER_INITIALIZE_ELEMENT_STATUS
 ---
 
@@ -85,3 +87,4 @@ This member is applicable only if CHANGER_BAR_CODE_SCANNER_INSTALLED is set in t
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_initialize_element_status">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+

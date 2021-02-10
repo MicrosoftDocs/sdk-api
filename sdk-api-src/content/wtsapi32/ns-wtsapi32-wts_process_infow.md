@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - WTS_PROCESS_INFO
- - WTS_PROCESS_INFOA
+ - _WTS_PROCESS_INFOW
+ - PWTS_PROCESS_INFOW
  - WTS_PROCESS_INFOW
 ---
 
@@ -86,3 +86,4 @@ Pointer to the user
 
 > [!NOTE]
 > The wtsapi32.h header defines WTS_PROCESS_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

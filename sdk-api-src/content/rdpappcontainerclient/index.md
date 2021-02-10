@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - rdpappcontainerclient
  - rdpappcontainerclient/rdpappcontainerclient
+api_name:
+ - rdpappcontainerclient
 ---
 
 # Rdpappcontainerclient.h header

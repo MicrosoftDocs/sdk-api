@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - ID2D1ImageSourceFromWic.GetSource
+ - ID2D1ImageSourceFromWic::GetSource
 ---
 
 # ID2D1ImageSourceFromWic::GetSource
@@ -63,3 +63,4 @@ On return contains the bitmap image source.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>
+

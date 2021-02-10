@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesFileSysInfo.GetTimes
+ - IOfflineFilesFileSysInfo::GetTimes
 ---
 
 # IOfflineFilesFileSysInfo::GetTimes
@@ -88,3 +88,4 @@ The time values returned directly correspond to the Win32 file time values used 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesfilesysinfo">IOfflineFilesFileSysInfo</a>
+

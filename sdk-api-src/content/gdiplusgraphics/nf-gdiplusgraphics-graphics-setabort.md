@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics.SetAbort
+ - Graphics::SetAbort
 ---
 
 # Graphics::SetAbort

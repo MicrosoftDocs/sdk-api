@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICBitmapSourceTransform.CopyPixels
+ - IWICBitmapSourceTransform::CopyPixels
 ---
 
 # IWICBitmapSourceTransform::CopyPixels
@@ -166,3 +166,4 @@ If a <i>dstTransform</i> is specified, the stride is the transformed stride, and
 
 
 <a href="/windows/desktop/wic/-wic-samples">Samples and Code Examples</a>
+

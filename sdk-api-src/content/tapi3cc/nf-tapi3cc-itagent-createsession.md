@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent.CreateSession
+ - ITAgent::CreateSession
 ---
 
 # ITAgent::CreateSession
@@ -179,3 +179,4 @@ Some telephone environments require a personal identification number to open a s
 
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
+

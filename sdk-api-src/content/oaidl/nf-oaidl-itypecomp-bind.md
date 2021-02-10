@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeComp.Bind
+ - ITypeComp::Bind
 ---
 
 # ITypeComp::Bind
@@ -158,3 +158,4 @@ The caller should use the returned <a href="/previous-versions/windows/desktop/a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a>
+

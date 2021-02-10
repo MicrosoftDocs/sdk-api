@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - IStemmer.Init
+ - IStemmer::Init
 ---
 
 # IStemmer::Init
@@ -130,3 +130,4 @@ You must initialize the stemmer. The <b>IStemmer::Init</b> method must be called
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextStyle.IsExternal
+ - IMFTimedTextStyle::IsExternal
 ---
 
 # IMFTimedTextStyle::IsExternal
@@ -63,3 +63,4 @@ Returns whether the timed-text style is external. If <b>TRUE</b>, the timed-text
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextstyle">IMFTimedTextStyle</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiSetDevicePropertyW
  - setupapi/SetupDiSetDevicePropertyW
+ - SetupDiSetDeviceProperty
+ - setupapi/SetupDiSetDeviceProperty
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetDeviceProperty
  - SetupDiSetDevicePropertyW
+ - SetupDiSetDeviceProperty
 ---
 
 # SetupDiSetDevicePropertyW function
@@ -240,3 +242,4 @@ To retrieve a device instance property, call <a href="/windows/desktop/api/setup
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertykeys">SetupDiGetDevicePropertyKeys</a>
+

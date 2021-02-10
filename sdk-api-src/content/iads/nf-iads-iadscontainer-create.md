@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsContainer.Create
+ - IADsContainer::Create
 ---
 
 # IADsContainer::Create
@@ -81,3 +81,4 @@ This method supports the standard return values, including S_OK for a successful
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+

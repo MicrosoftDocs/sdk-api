@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription.GetRelativeDescriptionType
+ - IPropertyDescription::GetRelativeDescriptionType
 ---
 
 # IPropertyDescription::GetRelativeDescriptionType
@@ -76,3 +76,4 @@ The information retrieved by this method comes from the <i>relativeDescriptionTy
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
+

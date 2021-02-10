@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRateControl.GetRate
+ - IMFRateControl::GetRate
 ---
 
 # IMFRateControl::GetRate
@@ -92,3 +92,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol">IMFRateControl</a>
+

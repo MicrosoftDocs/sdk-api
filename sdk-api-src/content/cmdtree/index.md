@@ -9,6 +9,8 @@ tech.root: indexsrv
 f1_keywords:
  - cmdtree
  - cmdtree/cmdtree
+api_name:
+ - cmdtree
 ---
 
 # Cmdtree.h header

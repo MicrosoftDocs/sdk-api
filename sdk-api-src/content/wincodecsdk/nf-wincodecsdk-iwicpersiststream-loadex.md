@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPersistStream.LoadEx
+ - IWICPersistStream::LoadEx
 ---
 
 # IWICPersistStream::LoadEx
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 NULL can be passed in for <i>pguidPreferredVendor</i> to indicate no preference.
+

@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.IAGetPrimitiveTopology
+ - ID3D11DeviceContext::IAGetPrimitiveTopology
 ---
 
 # ID3D11DeviceContext::IAGetPrimitiveTopology
@@ -64,3 +64,4 @@ A pointer to the type of primitive, and ordering of the primitive data (see <a h
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

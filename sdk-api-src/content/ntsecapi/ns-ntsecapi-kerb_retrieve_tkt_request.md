@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_RETRIEVE_TKT_REQUEST
+ - PKERB_RETRIEVE_TKT_REQUEST
  - KERB_RETRIEVE_TKT_REQUEST
 ---
 
@@ -292,3 +294,4 @@ Values greater than 127 are reserved for local values and may change without not
 ### -field CredentialsHandle
 
 An SSPI credentials handle used in place of a logon session identifier.
+

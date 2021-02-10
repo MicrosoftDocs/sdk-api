@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSession.GetSecureQuery
+ - ISCPSession::GetSecureQuery
 ---
 
 # ISCPSession::GetSecureQuery
@@ -70,3 +70,4 @@ This method should be used to obtain a secure query object when using secure con
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession Interface</a>
+

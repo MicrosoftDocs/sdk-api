@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFVideoMediaType.GetVideoRepresentation
+ - IMFVideoMediaType::GetVideoRepresentation
 ---
 
 # IMFVideoMediaType::GetVideoRepresentation
@@ -104,3 +104,4 @@ Instead of calling this method, applications should set the <a href="/windows/de
 
 
 <a href="/windows/desktop/medfound/media-types">Media Types</a>
+

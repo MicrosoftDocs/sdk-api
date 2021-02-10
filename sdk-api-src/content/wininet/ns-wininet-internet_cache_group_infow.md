@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - INTERNET_CACHE_GROUP_INFO
- - INTERNET_CACHE_GROUP_INFOA
+ - _INTERNET_CACHE_GROUP_INFOW
+ - LPINTERNET_CACHE_GROUP_INFOW
  - INTERNET_CACHE_GROUP_INFOW
 ---
 
@@ -106,3 +106,4 @@ Group name.
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-seturlcachegroupattributea">SetUrlCacheGroupAttribute</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
+ - IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
@@ -147,3 +147,4 @@ HRESULT PostFinalCommitSnapshots(
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
+

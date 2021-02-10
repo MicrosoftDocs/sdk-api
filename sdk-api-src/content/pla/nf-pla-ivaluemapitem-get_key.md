@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMapItem.Key
- - IValueMapItem.get_Key
- - IValueMapItem.put_Key
+ - IValueMapItem::get_Key
 ---
 
 # IValueMapItem::get_Key
@@ -65,3 +63,4 @@ Note that if you set the <a href="/previous-versions/windows/desktop/api/pla/nf-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
+

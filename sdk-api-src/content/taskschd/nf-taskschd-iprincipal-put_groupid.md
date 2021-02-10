@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IPrincipal.GroupId
- - IPrincipal.get_GroupId
- - IPrincipal.put_GroupId
+ - IPrincipal::put_GroupId
 ---
 
 # IPrincipal::put_GroupId
@@ -75,3 +73,4 @@ When reading or writing XML for a task, the group identifier for a principal is 
 
 
 <a href="/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid">UserId</a>
+

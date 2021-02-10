@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
+ - _QualityOfService
+ - LPQOS
  - QOS
 ---
 
@@ -86,3 +88,4 @@ Most applications can fulfill their quality of service requirements without usin
 
 
 <a href="/previous-versions/aa374467(v=vs.80)">ProviderSpecific Buffer</a>
+

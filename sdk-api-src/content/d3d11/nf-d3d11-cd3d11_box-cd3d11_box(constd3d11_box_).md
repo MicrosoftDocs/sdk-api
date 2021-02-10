@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_BOX.CD3D11_BOX
+ - CD3D11_BOX::CD3D11_BOX
 ---
 
 # CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &)
@@ -62,3 +62,4 @@ Instantiates a new instance of a CD3D11_BOX structure that is initialized with a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151614(v=vs.85)">CD3D11_BOX</a>
+

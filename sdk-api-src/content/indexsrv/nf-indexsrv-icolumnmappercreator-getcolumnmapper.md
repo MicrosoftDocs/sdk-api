@@ -42,7 +42,7 @@ api_type:
 api_location:
  - indexsrv.h
 api_name:
- - IColumnMapperCreator.GetColumnMapper
+ - IColumnMapperCreator::GetColumnMapper
 ---
 
 # IColumnMapperCreator::GetColumnMapper
@@ -73,3 +73,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-icolumnmappercreator">IColumnMapperCreator</a>
+

@@ -9,6 +9,8 @@ tech.root: taskschd
 f1_keywords:
  - mstask
  - mstask/mstask
+api_name:
+ - mstask
 ---
 
 # Mstask.h header

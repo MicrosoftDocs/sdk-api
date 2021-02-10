@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Rect.Offset
+ - Rect::Offset
 ---
 
 # Rect::Offset(IN INT,IN INT)
@@ -88,3 +88,4 @@ Integer that specifies the amount to move the rectangle vertically.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
- - WSANSCLASSINFO
+ - _WSANSClassInfoW
+ - PWSANSCLASSINFOW
+ - WSANSCLASSINFOW
 ---
 
 # WSANSCLASSINFOW structure
@@ -92,3 +94,4 @@ The <b>WSANSCLASSINFO</b> structure is defined differently depending on whether 
 ## -see-also
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFO</a>
+

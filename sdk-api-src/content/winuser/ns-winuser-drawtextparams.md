@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagDRAWTEXTPARAMS
+ - LPDRAWTEXTPARAMS
  - DRAWTEXTPARAMS
 ---
 
@@ -89,3 +91,4 @@ Receives the number of characters processed by <a href="/windows/desktop/api/win
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+

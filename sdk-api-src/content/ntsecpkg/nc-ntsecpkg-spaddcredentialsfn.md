@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpAddCredentials
+ - SpAddCredentialsFn
 ---
 
 # SpAddCredentialsFn callback function
@@ -109,7 +109,6 @@ Optional. Pointer to supplemental authentication data.
 
 Pointer to a function in the caller's address space that generates <a href="/windows/desktop/SecGloss/s-gly">session keys</a>.
 
-
 ### -param GetKeyArgument [in]
 
 Pointer to the argument used with the <i>GetKeyFunction</i> function.
@@ -118,7 +117,6 @@ Pointer to the argument used with the <i>GetKeyFunction</i> function.
 
 Pointer to a 
 <a href="/windows/desktop/SecAuthN/timestamp">TimeStamp</a> that receives the time the credentials handle expires.
-
 
 ## -returns
 
@@ -141,3 +139,4 @@ A pointer to the <b>SpAddCredentials</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
+

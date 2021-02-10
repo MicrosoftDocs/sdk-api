@@ -45,6 +45,7 @@ api_location:
  - ddrawint.h
 api_name:
  - DD_KERNELCALLBACKS
+ - PDD_KERNELCALLBACKS
 ---
 
 # DD_KERNELCALLBACKS structure
@@ -121,3 +122,4 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_kernelcb_syncvideoport">DdSyncVideoPortData</a>
+

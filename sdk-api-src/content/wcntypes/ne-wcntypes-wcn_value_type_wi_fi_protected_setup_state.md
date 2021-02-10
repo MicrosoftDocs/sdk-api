@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
+ - tagWCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
  - WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
 ---
 
@@ -75,3 +76,4 @@ A device is considered 'not configured' if it is using factory default wireless 
 ## -see-also
 
 <a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IEnumTfCandidates.Next
+ - IEnumTfCandidates::Next
 ---
 
 # IEnumTfCandidates::Next
@@ -118,3 +118,4 @@ The method reached the end of the enumeration before the specified number of ele
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString
       </a>
+

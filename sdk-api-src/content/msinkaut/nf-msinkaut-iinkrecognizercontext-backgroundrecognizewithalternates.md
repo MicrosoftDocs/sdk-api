@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.BackgroundRecognizeWithAlternates
+ - IInkRecognizerContext::BackgroundRecognizeWithAlternates
 ---
 
 # IInkRecognizerContext::BackgroundRecognizeWithAlternates
@@ -143,3 +143,4 @@ The <a href="/windows/desktop/tablet/inkrecognizercontext-recognitionwithalterna
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+

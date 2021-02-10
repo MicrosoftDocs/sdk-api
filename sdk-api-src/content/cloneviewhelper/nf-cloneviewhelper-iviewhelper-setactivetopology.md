@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cloneviewhelper.h
 api_name:
- - IViewHelper.SetActiveTopology
+ - IViewHelper::SetActiveTopology
 ---
 
 # IViewHelper::SetActiveTopology
@@ -170,3 +170,4 @@ For the topology that the <b>SetActiveTopology</b> parameters specify to take af
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff568169(v=vs.85)">IViewHelper::GetActiveTopology</a>
+

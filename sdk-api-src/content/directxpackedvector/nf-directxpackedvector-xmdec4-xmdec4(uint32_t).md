@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMDEC4.XMDEC4
+ - XMDEC4::XMDEC4
 ---
 
 # XMDEC4::XMDEC4(uint32_t)
@@ -111,3 +111,4 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an integer, to
 
 
 <a href="/windows/desktop/dxmath/xmdec4-ctor">XMDEC4 Constructors</a>
+

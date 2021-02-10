@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_free_controls
- - ldap_free_controlsA
- - ldap_free_controlsW
 ---
 
 # ldap_free_controls function
@@ -72,3 +70,4 @@ If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
 If the function fails, an error code is returned. For more information, see 
        <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+

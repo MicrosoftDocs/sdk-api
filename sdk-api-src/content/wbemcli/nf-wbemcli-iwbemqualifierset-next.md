@@ -45,7 +45,7 @@ api_location:
  - Ncprov.dll
  - Wbemcore.dll
 api_name:
- - IWbemQualifierSet.Next
+ - IWbemQualifierSet::Next
 ---
 
 # IWbemQualifierSet::Next
@@ -95,3 +95,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
+

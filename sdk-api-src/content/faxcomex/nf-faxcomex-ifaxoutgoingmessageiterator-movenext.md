@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessageIterator.MoveNext
- - IFaxOutgoingMessageIterator.MoveNext
+ - IFaxOutgoingMessageIterator::MoveNext
 ---
 
 # IFaxOutgoingMessageIterator::MoveNext
@@ -76,3 +75,4 @@ The method will fail if the <a href="/previous-versions/windows/desktop/fax/-mfa
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
+

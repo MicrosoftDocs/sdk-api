@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetProxyPort
+ - IWMReaderNetworkConfig::SetProxyPort
 ---
 
 # IWMReaderNetworkConfig::SetProxyPort
@@ -113,3 +113,4 @@ By default, the port numbers are 1755 for MMS and 80 for HTTP. The correct port 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxysettings">IWMReaderNetworkConfig::SetProxySettings</a>
+

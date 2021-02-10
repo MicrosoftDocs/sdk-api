@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.BeginPrepareSnapshot
+ - IVssSoftwareSnapshotProvider::BeginPrepareSnapshot
 ---
 
 # IVssSoftwareSnapshotProvider::BeginPrepareSnapshot
@@ -198,3 +198,4 @@ Unexpected error. The error code is logged in the error log file. For more infor
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
+

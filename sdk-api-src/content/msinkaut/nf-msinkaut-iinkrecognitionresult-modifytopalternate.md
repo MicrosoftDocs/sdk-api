@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionResult.ModifyTopAlternate
+ - IInkRecognitionResult::ModifyTopAlternate
 ---
 
 # IInkRecognitionResult::ModifyTopAlternate
@@ -165,3 +165,4 @@ The alternate used in the function can be a word alternate in an entire sentence
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topstring">TopString Property</a>
+

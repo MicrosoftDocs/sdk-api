@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LsaLookup.h
 api_name:
+ - _POLICY_DNS_DOMAIN_INFO
+ - PPOLICY_DNS_DOMAIN_INFO
  - POLICY_DNS_DOMAIN_INFO
 ---
 
@@ -109,3 +111,4 @@ If the computer associated with the <a href="/windows/desktop/SecMgmt/policy-obj
 
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
+

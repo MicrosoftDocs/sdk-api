@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDeviceEnumerator.GetDevice
+ - IMMDeviceEnumerator::GetDevice
 ---
 
 # IMMDeviceEnumerator::GetDevice
@@ -154,3 +154,4 @@ For code examples that use the <b>GetDevice</b> method, see the following topics
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
+

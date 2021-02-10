@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D9Caps.h
 api_name:
+ - _D3DPSHADERCAPS2_0
  - D3DPSHADERCAPS2_0
 ---
 
@@ -93,3 +94,4 @@ The number of instruction slots supported. See <b>D3DPSHADERCAPS2_0</b>.
 
 
 <a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-structures">Direct3D Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBlockMapBlocksEnumerator.GetHasCurrent
+ - IAppxBlockMapBlocksEnumerator::GetHasCurrent
 ---
 
 # IAppxBlockMapBlocksEnumerator::GetHasCurrent
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblocksenumerator">IAppxBlockMapBlocksEnumerator</a>
+

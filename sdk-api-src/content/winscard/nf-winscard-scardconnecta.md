@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SCardConnectA
  - winscard/SCardConnectA
+ - SCardConnect
+ - winscard/SCardConnect
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - Ext-MS-Win-wlan-scard-l1-1-0.dll
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardConnect
  - SCardConnectA
- - SCardConnectW
+ - SCardConnect
 ---
 
 # SCardConnectA function
@@ -313,3 +314,4 @@ switch ( dwAP )
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a>
+

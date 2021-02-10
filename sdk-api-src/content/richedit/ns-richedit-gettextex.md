@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _gettextex
  - GETTEXTEX
 ---
 
@@ -159,3 +160,4 @@ The <a href="/windows/desktop/Controls/em-gettextex">EM_GETTEXTEX</a> message is
 ## -see-also
 
 <a href="/windows/desktop/Controls/em-gettextex">EM_GETTEXTEX</a>
+

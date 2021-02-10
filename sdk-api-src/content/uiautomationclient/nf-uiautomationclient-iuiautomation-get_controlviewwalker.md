@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation.ControlViewWalker
- - IUIAutomation.get_ControlViewWalker
+ - IUIAutomation::get_ControlViewWalker
 ---
 
 # IUIAutomation::get_ControlViewWalker
@@ -72,3 +71,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_rawviewwalker">RawViewWalker</a>
+

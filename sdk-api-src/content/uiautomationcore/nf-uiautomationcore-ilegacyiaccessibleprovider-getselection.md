@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - ILegacyIAccessibleProvider.GetSelection
+ - ILegacyIAccessibleProvider::GetSelection
 ---
 
 # ILegacyIAccessibleProvider::GetSelection
@@ -81,3 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>Reference</b>
+

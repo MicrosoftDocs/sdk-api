@@ -9,6 +9,8 @@ tech.root: xaudio2
 f1_keywords:
  - xapobase
  - xapobase/xapobase
+api_name:
+ - xapobase
 ---
 
 # Xapobase.h header

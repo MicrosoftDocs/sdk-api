@@ -44,6 +44,7 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
+ - tagLINE_SEGMENT
  - LINE_SEGMENT
 ---
 
@@ -67,3 +68,4 @@ Point that represents the end of the line segment. The point is in ink space coo
 ## -see-also
 
 [LINE_METRICS Enumeration](./ne-rectypes-line_metrics.md)
+

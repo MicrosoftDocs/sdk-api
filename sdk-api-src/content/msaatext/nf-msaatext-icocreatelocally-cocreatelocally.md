@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - ICoCreateLocally.CoCreateLocally
+ - ICoCreateLocally::CoCreateLocally
 ---
 
 # ICoCreateLocally::CoCreateLocally
@@ -124,3 +124,4 @@ The client does not have sufficient permissions to create this object in the ser
 </td>
 </tr>
 </table>
+

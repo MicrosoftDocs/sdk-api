@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMObjectFactory1.CreatePackageWriterOnStream1
+ - IXpsOMObjectFactory1::CreatePackageWriterOnStream1
 ---
 
 # IXpsOMObjectFactory1::CreatePackageWriterOnStream1
@@ -137,3 +137,4 @@ Use this method to produce a package writer for either an MSXPS document or an O
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
+

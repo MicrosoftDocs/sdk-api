@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache2.RenameItemEx
+ - IOfflineFilesCache2::RenameItemEx
 ---
 
 # IOfflineFilesCache2::RenameItemEx
@@ -82,3 +82,4 @@ If you need to minimize the chance that the item is in use, call the <a href="/p
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache2">IOfflineFilesCache2</a>
+

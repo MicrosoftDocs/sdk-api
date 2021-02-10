@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentEnabler.IsAutomaticSupported
+ - IMFContentEnabler::IsAutomaticSupported
 ---
 
 # IMFContentEnabler::IsAutomaticSupported
@@ -94,3 +94,4 @@ If this method returns <b>FALSE</b> in the <i>pfAutomatic</i> parameter, the app
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
+

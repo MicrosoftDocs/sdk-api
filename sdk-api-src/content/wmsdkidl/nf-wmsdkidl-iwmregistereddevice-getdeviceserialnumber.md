@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.GetDeviceSerialNumber
+ - IWMRegisteredDevice::GetDeviceSerialNumber
 ---
 
 # IWMRegisteredDevice::GetDeviceSerialNumber
@@ -90,3 +90,4 @@ Together, the device serial number and the device certificate uniquely identify 
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
+

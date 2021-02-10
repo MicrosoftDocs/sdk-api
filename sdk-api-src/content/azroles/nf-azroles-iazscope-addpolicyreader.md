@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope.AddPolicyReader
- - AzScope.AddPolicyReader
+ - IAzScope::AddPolicyReader
 ---
 
 # IAzScope::AddPolicyReader
@@ -70,3 +69,4 @@ Policy readers for an object can read attributes for the object and for child ob
 To view the list of policy readers, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyreaders">PolicyReaders</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.
+

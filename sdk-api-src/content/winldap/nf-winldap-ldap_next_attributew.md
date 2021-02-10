@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_next_attributeW
  - winldap/ldap_next_attributeW
+ - ldap_next_attribute
+ - winldap/ldap_next_attribute
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_next_attribute
- - ldap_next_attributeA
  - ldap_next_attributeW
+ - ldap_next_attribute
 ---
 
 # ldap_next_attributeW function
@@ -137,3 +138,4 @@ The
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
+

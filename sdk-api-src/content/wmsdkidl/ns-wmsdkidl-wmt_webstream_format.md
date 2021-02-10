@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - _WMT_WEBSTREAM_FORMAT
  - WMT_WEBSTREAM_FORMAT
 ---
 
@@ -75,3 +76,4 @@ The <b>WMT_WEBSTREAM_FORMAT</b> structure contains information about a Web strea
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

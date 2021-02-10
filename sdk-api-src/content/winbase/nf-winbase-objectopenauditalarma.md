@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ObjectOpenAuditAlarmA
  - winbase/ObjectOpenAuditAlarmA
+ - ObjectOpenAuditAlarm
+ - winbase/ObjectOpenAuditAlarm
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ObjectOpenAuditAlarm
  - ObjectOpenAuditAlarmA
- - ObjectOpenAuditAlarmW
+ - ObjectOpenAuditAlarm
 ---
 
 # ObjectOpenAuditAlarmA function
@@ -184,3 +185,4 @@ The <b>ObjectOpenAuditAlarm</b> function requires the calling application to hav
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+

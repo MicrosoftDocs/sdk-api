@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfSourceSingle.UnadviseSingleSink
+ - ITfSourceSingle::UnadviseSingleSink
 ---
 
 # ITfSourceSingle::UnadviseSingleSink
@@ -142,3 +142,4 @@ The advise sink is not installed.
 </td>
 </tr>
 </table>
+

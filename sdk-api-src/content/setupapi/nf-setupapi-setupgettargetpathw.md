@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupGetTargetPathW
  - setupapi/SetupGetTargetPathW
+ - SetupGetTargetPath
+ - setupapi/SetupGetTargetPath
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupGetTargetPath
- - SetupGetTargetPathA
  - SetupGetTargetPathW
+ - SetupGetTargetPath
 ---
 
 # SetupGetTargetPathW function
@@ -121,3 +122,4 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetsourceinfoa">SetupGetSourceInfo</a>
+

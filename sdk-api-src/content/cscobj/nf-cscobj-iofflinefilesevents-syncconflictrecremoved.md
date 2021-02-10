@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents.SyncConflictRecRemoved
+ - IOfflineFilesEvents::SyncConflictRecRemoved
 ---
 
 # IOfflineFilesEvents::SyncConflictRecRemoved
@@ -78,3 +78,4 @@ The return value is ignored.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
+

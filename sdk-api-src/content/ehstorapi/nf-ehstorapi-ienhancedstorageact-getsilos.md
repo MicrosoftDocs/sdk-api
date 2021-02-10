@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.GetSilos
+ - IEnhancedStorageACT::GetSilos
 ---
 
 # IEnhancedStorageACT::GetSilos
@@ -117,3 +117,4 @@ The memory containing the array of <a href="/previous-versions/windows/desktop/a
 
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
+

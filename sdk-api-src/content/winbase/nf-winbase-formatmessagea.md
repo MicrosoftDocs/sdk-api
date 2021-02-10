@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FormatMessageA
  - winbase/FormatMessageA
+ - FormatMessage
+ - winbase/FormatMessage
 dev_langs:
  - c++
 topic_type:
@@ -49,9 +51,8 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - FormatMessage
  - FormatMessageA
- - FormatMessageW
+ - FormatMessage
 ---
 
 # FormatMessageA function
@@ -598,3 +599,4 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
 
 
 Message Tables
+

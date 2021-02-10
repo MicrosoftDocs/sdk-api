@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStrokeBuilder.AppendPackets
+ - IStrokeBuilder::AppendPackets
 ---
 
 # IStrokeBuilder::AppendPackets
@@ -125,3 +125,4 @@ STDMETHODIMP CStrokeBuilderPlugin::Packets(
 
 
 <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
+

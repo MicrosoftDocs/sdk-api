@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
+ - IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
 ---
 
 # IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
@@ -85,3 +85,4 @@ This method is not supported in this release.
 </td>
 </tr>
 </table>
+

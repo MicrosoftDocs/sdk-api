@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IEnumExtraSearch.Clone
+ - IEnumExtraSearch::Clone
 ---
 
 # IEnumExtraSearch::Clone
@@ -69,3 +69,4 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 ## -remarks
 
 The new enumerator should be created with the same state as the current one. Use the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-skip">IEnumExtraSearch::Skip</a> method to advance the enumeration index to the appropriate value before returning.
+

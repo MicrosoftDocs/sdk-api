@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetPlaybackRate
+ - IMFMediaEngine::GetPlaybackRate
 ---
 
 # IMFMediaEngine::GetPlaybackRate
@@ -65,3 +65,4 @@ This method corresponds to getting the <b>playbackRate</b> attribute of the <b>H
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

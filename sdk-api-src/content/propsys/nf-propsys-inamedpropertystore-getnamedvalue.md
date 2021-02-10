@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - INamedPropertyStore.GetNamedValue
+ - INamedPropertyStore::GetNamedValue
 ---
 
 # INamedPropertyStore::GetNamedValue
@@ -75,3 +75,4 @@ Returns S_OK if successful, or an error value otherwise.
                     
 
 If the property named in <i>pszName</i> is not found in the property store, this method returns S_OK and the <i>pv</i> member is set to VT_EMPTY.
+

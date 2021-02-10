@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdCreatePalette
+ - PDD_CREATEPALETTE
 ---
 
 ## -description
@@ -62,3 +62,4 @@ Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createpaletted
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createpalettedata">DD_CREATEPALETTEDATA</a>
+

@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - aclui
  - aclui/aclui
+api_name:
+ - aclui
 ---
 
 # Aclui.h header

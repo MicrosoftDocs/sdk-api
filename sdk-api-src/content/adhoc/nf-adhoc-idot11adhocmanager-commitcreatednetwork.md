@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocManager.CommitCreatedNetwork
+ - IDot11AdHocManager::CommitCreatedNetwork
 ---
 
 # IDot11AdHocManager::CommitCreatedNetwork
@@ -156,3 +156,4 @@ A pointer passed as a parameter is not valid.
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">IDot11AdHocManager::CreateNetwork</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument.Unfreeze
+ - ITextDocument::Unfreeze
 ---
 
 # ITextDocument::Unfreeze
@@ -97,3 +97,4 @@ Note, if edit collection is active, screen updating is suppressed, even if the f
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - IEnumSyncMgrEvents.Next
+ - IEnumSyncMgrEvents::Next
 ---
 
 # IEnumSyncMgrEvents::Next
@@ -77,3 +77,4 @@ A pointer to the number of events fetched.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

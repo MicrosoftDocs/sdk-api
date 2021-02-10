@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.GetStatus
+ - IBackgroundCopyGroup::GetStatus
 ---
 
 # IBackgroundCopyGroup::GetStatus
@@ -136,3 +136,4 @@ Successfully retrieved the state of the group.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
+

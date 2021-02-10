@@ -46,6 +46,8 @@ api_type:
 api_location:
  - timezoneapi.h
 api_name:
+ - _TIME_ZONE_INFORMATION
+ - PTIME_ZONE_INFORMATION
  - TIME_ZONE_INFORMATION
 ---
 
@@ -223,3 +225,4 @@ For an example, see <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-set
 
 
 <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-settimezoneinformation">SetTimeZoneInformation</a>
+

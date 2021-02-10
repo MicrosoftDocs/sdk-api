@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - InternetEnumPerSiteCookieDecisionW
  - wininet/InternetEnumPerSiteCookieDecisionW
+ - InternetEnumPerSiteCookieDecision
+ - wininet/InternetEnumPerSiteCookieDecision
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetEnumPerSiteCookieDecision
- - InternetEnumPerSiteCookieDecisionA
  - InternetEnumPerSiteCookieDecisionW
+ - InternetEnumPerSiteCookieDecision
 ---
 
 # InternetEnumPerSiteCookieDecisionW function
@@ -110,3 +111,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-privacysetzonepreferencew">PrivacySetZonePreferenceW</a>
+

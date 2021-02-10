@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wmpdevices.h
 api_name:
+ - _WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
  - WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
 ---
 
@@ -67,3 +68,4 @@ The index of the first value to retrieve. This value is always zero for the firs
 ## -see-also
 
 <a href="/windows/desktop/WMP/windows-media-device-manager-device-extensions-for-metadata-transfer">Windows Media Device Manager Device Extensions for Metadata Transfer</a>
+

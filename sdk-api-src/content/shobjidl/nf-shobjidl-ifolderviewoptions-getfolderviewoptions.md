@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ExplorerFrame.dll
 api_name:
- - IFolderViewOptions.GetFolderViewOptions
+ - IFolderViewOptions::GetFolderViewOptions
 ---
 
 # IFolderViewOptions::GetFolderViewOptions
@@ -65,3 +65,4 @@ A bitmask that, when this method returns successfully, receives the <a href="/wi
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

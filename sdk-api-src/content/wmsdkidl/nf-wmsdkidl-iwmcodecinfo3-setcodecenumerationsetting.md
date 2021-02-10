@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecInfo3.SetCodecEnumerationSetting
+ - IWMCodecInfo3::SetCodecEnumerationSetting
 ---
 
 # IWMCodecInfo3::SetCodecEnumerationSetting
@@ -198,3 +198,4 @@ The return value of a call made to this method does not guarantee support of a c
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3 Interface</a>
+

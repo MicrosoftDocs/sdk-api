@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTrustedOutput.GetOutputTrustAuthorityCount
+ - IMFTrustedOutput::GetOutputTrustAuthorityCount
 ---
 
 # IMFTrustedOutput::GetOutputTrustAuthorityCount
@@ -66,3 +66,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftrustedoutput">IMFTrustedOutput</a>
+

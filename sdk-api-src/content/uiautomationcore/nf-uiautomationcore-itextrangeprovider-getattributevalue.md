@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider.GetAttributeValue
+ - ITextRangeProvider::GetAttributeValue
 ---
 
 # ITextRangeProvider::GetAttributeValue
@@ -106,3 +106,4 @@ The <b>GetAttributeValue</b> method should retrieve the attribute value regardle
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

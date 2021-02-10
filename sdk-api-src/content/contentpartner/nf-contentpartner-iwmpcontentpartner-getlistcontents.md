@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.GetListContents
+ - IWMPContentPartner::GetListContents
 ---
 
 # IWMPContentPartner::GetListContents
@@ -105,3 +105,4 @@ Retrieving list contents is an asynchronous operation. This method should initia
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+

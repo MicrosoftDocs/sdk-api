@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CThreadBase.BeginWrite
- - ?BeginWrite@CThreadBase@@QAEHK@Z
+ - CThreadBase::BeginWrite
 ---
 
 # CThreadBase::BeginWrite
@@ -69,3 +68,4 @@ Timeout for the write data operation. The default is no timeout.
 ## -returns
 
 This method does not return a value.
+

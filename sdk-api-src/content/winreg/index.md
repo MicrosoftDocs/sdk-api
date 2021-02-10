@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - winreg
  - winreg/winreg
+api_name:
+ - winreg
 ---
 
 # Winreg.h header

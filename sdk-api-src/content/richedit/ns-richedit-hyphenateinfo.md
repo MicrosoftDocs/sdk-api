@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - tagHyphenateInfo
  - HYPHENATEINFO
 ---
 
@@ -93,3 +94,4 @@ This structure is used with the <a href="https://msdn.microsoft.com/70ccb698-e44
 
 
 <b>Reference</b>
+

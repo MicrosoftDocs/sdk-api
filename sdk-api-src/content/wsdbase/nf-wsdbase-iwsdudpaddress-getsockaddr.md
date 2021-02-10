@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpAddress.GetSockaddr
+ - IWSDUdpAddress::GetSockaddr
 ---
 
 # IWSDUdpAddress::GetSockaddr
@@ -105,3 +105,4 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
+

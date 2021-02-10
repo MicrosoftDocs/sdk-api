@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _IMAGE_SECTION_HEADER
+ - PIMAGE_SECTION_HEADER
  - IMAGE_SECTION_HEADER
 ---
 
@@ -607,3 +609,4 @@ The section can be written to.
 
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
+

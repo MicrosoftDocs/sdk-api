@@ -42,9 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule.Direction
- - INetFwRule.get_Direction
- - INetFwRule.put_Direction
+ - INetFwRule::put_Direction
 ---
 
 # INetFwRule::put_Direction
@@ -71,3 +69,4 @@ Also see the restrictions on changing properties described in the Remarks sectio
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_direction">NET_FW_RULE_DIRECTION</a>
+

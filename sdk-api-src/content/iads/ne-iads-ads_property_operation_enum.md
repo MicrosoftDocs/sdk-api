@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0027
  - ADS_PROPERTY_OPERATION_ENUM
 ---
 
@@ -88,3 +89,4 @@ Because Visual Basic Scripting Edition (VBScript) cannot read data from a type l
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iads-putex">IADs.PutEx</a>
+

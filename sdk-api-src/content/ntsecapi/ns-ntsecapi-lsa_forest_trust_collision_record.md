@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _LSA_FOREST_TRUST_COLLISION_RECORD
+ - PLSA_FOREST_TRUST_COLLISION_RECORD
  - LSA_FOREST_TRUST_COLLISION_RECORD
 ---
 
@@ -140,3 +142,4 @@ The following table lists the possible values for this member when the <b>Type</
 ### -field Name
 
 <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the collision record.
+

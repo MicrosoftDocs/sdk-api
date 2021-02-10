@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2.SetState
+ - IDvdControl2::SetState
 ---
 
 # IDvdControl2::SetState
@@ -88,3 +88,4 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::Restore
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
+

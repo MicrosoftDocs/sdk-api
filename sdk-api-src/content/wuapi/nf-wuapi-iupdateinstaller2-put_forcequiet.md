@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller2.ForceQuiet
- - IUpdateInstaller2.get_ForceQuiet
- - IUpdateInstaller2.put_ForceQuiet
+ - IUpdateInstaller2::put_ForceQuiet
 ---
 
 # IUpdateInstaller2::put_ForceQuiet
@@ -65,3 +63,4 @@ You cannot forcibly silence some updates. If an update does not support this act
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller2">IUpdateInstaller2</a>
+

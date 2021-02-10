@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - AzAuthorizationStore.AddPropertyItem
- - IAzAuthorizationStore.AddPropertyItem
+ - IAzAuthorizationStore::AddPropertyItem
 ---
 
 # IAzAuthorizationStore::AddPropertyItem
@@ -147,3 +146,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
+

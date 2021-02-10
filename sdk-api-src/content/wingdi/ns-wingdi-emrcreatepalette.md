@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRCREATEPALETTE
+ - PEMRCREATEPALETTE
  - EMRCREATEPALETTE
 ---
 
@@ -89,3 +91,4 @@ A <a href="/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> stru
 
 
 <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
+

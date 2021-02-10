@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetwork.get_IsConnected
+ - INetwork::get_IsConnected
 ---
 
 # INetwork::get_IsConnected
@@ -65,3 +65,4 @@ Returns S_OK if successful.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
+

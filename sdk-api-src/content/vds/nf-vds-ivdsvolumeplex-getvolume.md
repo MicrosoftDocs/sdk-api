@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumePlex.GetVolume
+ - IVdsVolumePlex::GetVolume
 ---
 
 # IVdsVolumePlex::GetVolume
@@ -72,3 +72,4 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumeplex">IVdsVolumePlex</a>
+

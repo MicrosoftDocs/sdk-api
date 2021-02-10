@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.SetValue
+ - IUIAutomationLegacyIAccessiblePattern::SetValue
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::SetValue
@@ -73,3 +73,4 @@ This method is supported only for some elements (usually edit controls).
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern">IUIAutomationLegacyIAccessiblePattern</a>
+

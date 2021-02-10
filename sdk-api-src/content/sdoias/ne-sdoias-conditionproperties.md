@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _CONDITIONPROPERTIES
  - CONDITIONPROPERTIES
 ---
 
@@ -73,3 +74,4 @@ The
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-policyproperties">POLICYPROPERTIES</a>
+

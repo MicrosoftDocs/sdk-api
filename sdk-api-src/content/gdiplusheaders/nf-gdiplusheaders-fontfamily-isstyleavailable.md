@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontFamily.IsStyleAvailable
+ - FontFamily::IsStyleAvailable
 ---
 
 # FontFamily::IsStyleAvailable
@@ -114,3 +114,4 @@ VOID Example_IsStyleAvailable(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a>
+

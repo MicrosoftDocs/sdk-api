@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbProvisioningPluginNotifySink.OnJobCancelled
+ - ITsSbProvisioningPluginNotifySink::OnJobCancelled
 ---
 
 # ITsSbProvisioningPluginNotifySink::OnJobCancelled
@@ -61,3 +61,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovisioningpluginnotifysink">ITsSbProvisioningPluginNotifySink</a>
+

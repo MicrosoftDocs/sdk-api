@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin.Connect
+ - IPin::Connect
 ---
 
 # IPin::Connect
@@ -161,3 +161,4 @@ This method verifies that the connection is possible. If the pin rejects the con
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
+

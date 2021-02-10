@@ -9,6 +9,8 @@ tech.root: direct3d12
 f1_keywords:
  - d3d12
  - d3d12/d3d12
+api_name:
+ - d3d12
 ---
 
 # D3D12.h header

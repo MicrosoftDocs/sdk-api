@@ -44,6 +44,7 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
+ - tagSystemHealthAgentState
  - SystemHealthAgentState
 ---
 
@@ -85,3 +86,4 @@ A <a href="/windows/desktop/api/naptypes/ns-naptypes-fixupinfo">FixupInfo</a> st
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
+

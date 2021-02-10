@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2.GetSelection
+ - IFolderView2::GetSelection
 ---
 
 # IFolderView2::GetSelection
@@ -100,3 +100,4 @@ The IShellItemArray returned has zero items.
 </td>
 </tr>
 </table>
+

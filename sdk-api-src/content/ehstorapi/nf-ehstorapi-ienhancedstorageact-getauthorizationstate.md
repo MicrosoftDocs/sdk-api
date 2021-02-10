@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.GetAuthorizationState
+ - IEnhancedStorageACT::GetAuthorizationState
 ---
 
 # IEnhancedStorageACT::GetAuthorizationState
@@ -94,3 +94,4 @@ The current authorization state was retrieved successfully.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
+

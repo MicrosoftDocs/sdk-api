@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagExtentMode
  - DVEXTENTMODE
 ---
 
@@ -71,3 +72,4 @@ Indicates that the container will provide a proposed size to the object for its 
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>
+

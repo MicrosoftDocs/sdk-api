@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.Tsid
- - IFaxStatus.get_Tsid
+ - IFaxStatus::get_Tsid
 ---
 
 # IFaxStatus::get_Tsid
@@ -86,3 +85,4 @@ The <b>IFaxStatus::get_Tsid</b> method allocates the memory required for the buf
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

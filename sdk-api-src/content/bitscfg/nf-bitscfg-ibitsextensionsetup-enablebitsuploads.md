@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsMgr.dll
 api_name:
- - IBITSExtensionSetup.EnableBITSUploads
+ - IBITSExtensionSetup::EnableBITSUploads
 ---
 
 # IBITSExtensionSetup::EnableBITSUploads
@@ -78,3 +78,4 @@ See the example for the
 ## -see-also
 
 <a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-disablebitsuploads">IBITSExtensionSetup::DisableBITSUploads</a>
+

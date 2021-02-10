@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace.get_DefaultLocator
+ - ITuningSpace::get_DefaultLocator
 ---
 
 # ITuningSpace::get_DefaultLocator
@@ -75,3 +75,4 @@ If the tuning space does not have a default locator, this method succeeds but re
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_defaultlocator">ITuningSpace::put_DefaultLocator</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.AuthenticateClientToSession
+ - IWTSProtocolConnection::AuthenticateClientToSession
 ---
 
 # IWTSProtocolConnection::AuthenticateClientToSession
@@ -63,3 +63,4 @@ A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_session_id">
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+
