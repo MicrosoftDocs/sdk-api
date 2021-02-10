@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
+ - _TRACE_PROVIDER_INFO
  - TRACE_PROVIDER_INFO
 ---
 
@@ -71,3 +72,4 @@ Offset to a null-terminated Unicode string that contains the name of the provide
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-provider_enumeration_info">PROVIDER_ENUMERATION_INFO</a>
+

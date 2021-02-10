@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetDevConfig
- - lineGetDevConfigA
- - lineGetDevConfigW
 ---
 
 # lineGetDevConfig function
@@ -128,3 +126,4 @@ The exact format of the data contained within the structure is specific to the l
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a>
+

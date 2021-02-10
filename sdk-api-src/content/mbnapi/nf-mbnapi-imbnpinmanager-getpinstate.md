@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPinManager.GetPinState
+ - IMbnPinManager::GetPinState
 ---
 
 # IMbnPinManager::GetPinState
@@ -131,3 +131,4 @@ While this operation is in progress,  if the Mobile Broadband device gets remove
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>
+

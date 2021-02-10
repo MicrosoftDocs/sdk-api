@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider.MoveEndpointByRange
+ - ITextRangeProvider::MoveEndpointByRange
 ---
 
 # ITextRangeProvider::MoveEndpointByRange
@@ -101,3 +101,4 @@ If the endpoint being moved crosses the other endpoint of the same text range, t
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

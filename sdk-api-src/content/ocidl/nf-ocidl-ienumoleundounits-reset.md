@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IEnumOleUndoUnits.Reset
+ - IEnumOleUndoUnits::Reset
 ---
 
 # IEnumOleUndoUnits::Reset
@@ -65,3 +65,4 @@ There is no guarantee that the same set of objects will be enumerated after the 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumoleundounits">IEnumOleUndoUnits</a>
+

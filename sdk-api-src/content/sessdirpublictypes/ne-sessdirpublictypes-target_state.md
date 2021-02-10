@@ -44,6 +44,7 @@ api_type:
 api_location:
  - SessDirPublicTypes.h
 api_name:
+ - _TARGET_STATE
  - TARGET_STATE
 ---
 
@@ -103,3 +104,4 @@ The target is stopped.
 
 
 <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetstate">TargetState</a>
+

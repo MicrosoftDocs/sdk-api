@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdReenableDirectDrawObject
- - GdiEntry10
 ---
 
 # DdReenableDirectDrawObject function
@@ -87,3 +86,4 @@ DirectDraw or <a href="/windows/desktop/direct3d10/d3d10-graphics-reference">Dir
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

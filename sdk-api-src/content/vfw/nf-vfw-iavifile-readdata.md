@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIFile.ReadData
+ - IAVIFile::ReadData
 ---
 
 # IAVIFile::ReadData
@@ -90,3 +90,4 @@ HRESULT ReadData(DWORD fcc, LPVOID lp, LONG *lpcb);
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
+

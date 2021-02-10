@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetInstancePropertiesByPath
+ - CWbemProviderGlue::GetInstancePropertiesByPath
 ---
 
 # CWbemProviderGlue::GetInstancePropertiesByPath
@@ -98,3 +98,4 @@ In the current version of the provider framework, <i>pszInstancePath</i> must re
 
 
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancekeysbypath">GetInstanceKeysByPath</a>
+

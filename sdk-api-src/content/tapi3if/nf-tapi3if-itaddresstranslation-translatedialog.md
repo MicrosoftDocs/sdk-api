@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressTranslation.TranslateDialog
+ - ITAddressTranslation::TranslateDialog
 ---
 
 # ITAddressTranslation::TranslateDialog
@@ -205,3 +205,4 @@ The
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linetranslatedialog">LineTranslateDialog</a>
+

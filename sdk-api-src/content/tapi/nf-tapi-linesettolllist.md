@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineSetTollList
- - lineSetTollListA
- - lineSetTollListW
 ---
 
 # lineSetTollList function
@@ -98,3 +96,4 @@ LINEERR_BADDEVICEID, LINEERR_NODRIVER, LINEERR_INVALAPPHANDLE, LINEERR_NOMEM, LI
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IActiveDesktopP.SetSafeMode
+ - IActiveDesktopP::SetSafeMode
 ---
 
 # IActiveDesktopP::SetSafeMode
@@ -85,3 +85,4 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 <a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
+

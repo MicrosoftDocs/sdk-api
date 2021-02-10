@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProvider.Level
- - ITraceDataProvider.get_Level
+ - ITraceDataProvider::get_Level
 ---
 
 # ITraceDataProvider::get_Level
@@ -72,3 +71,4 @@ If you use <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
+

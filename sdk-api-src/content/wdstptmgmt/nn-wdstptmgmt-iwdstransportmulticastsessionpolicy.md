@@ -43,18 +43,6 @@ api_location:
  - Wdstptmgmt.dll
 api_name:
  - IWdsTransportMulticastSessionPolicy
- - IWdsTransportMulticastSessionPolicy.SlowClientHandling
- - IWdsTransportMulticastSessionPolicy.get_SlowClientHandling
- - IWdsTransportMulticastSessionPolicy.put_SlowClientHandling
- - IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold
- - IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold
- - IWdsTransportMulticastSessionPolicy.put_AutoDisconnectThreshold
- - IWdsTransportMulticastSessionPolicy.MultistreamStreamCount
- - IWdsTransportMulticastSessionPolicy.get_MultistreamStreamCount
- - IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
- - IWdsTransportMulticastSessionPolicy.SlowClientFallback
- - IWdsTransportMulticastSessionPolicy.get_SlowClientFallback
- - IWdsTransportMulticastSessionPolicy.put_SlowClientFallback
 ---
 
 # IWdsTransportMulticastSessionPolicy interface
@@ -67,3 +55,4 @@ This interface represents the multicast session policy portion of a WDS Transpor
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
+

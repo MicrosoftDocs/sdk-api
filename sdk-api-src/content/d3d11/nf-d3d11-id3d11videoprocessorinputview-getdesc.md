@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoProcessorInputView.GetDesc
+ - ID3D11VideoProcessorInputView::GetDesc
 ---
 
 # ID3D11VideoProcessorInputView::GetDesc
@@ -61,3 +61,4 @@ A pointer to a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processo
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessorinputview">ID3D11VideoProcessorInputView</a>
+

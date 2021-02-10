@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - mcx
  - mcx/mcx
+api_name:
+ - mcx
 ---
 
 # Mcx.h header

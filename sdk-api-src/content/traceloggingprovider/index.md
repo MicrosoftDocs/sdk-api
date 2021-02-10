@@ -9,6 +9,8 @@ tech.root: tracelogging
 f1_keywords:
  - traceloggingprovider
  - traceloggingprovider/traceloggingprovider
+api_name:
+ - traceloggingprovider
 ---
 
 # Traceloggingprovider.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocationReport.GetSensorID
+ - ILocationReport::GetSensorID
 ---
 
 # ILocationReport::GetSensorID
@@ -88,3 +88,4 @@ The following example demonstrates how to call <b>GetSensorID</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>
+

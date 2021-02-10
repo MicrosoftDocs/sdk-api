@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.SetFlags
+ - IScheduledWorkItem::SetFlags
 ---
 
 # IScheduledWorkItem::SetFlags
@@ -209,3 +209,4 @@ This method is used to set those flags used by any type of scheduled work item. 
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a>
+

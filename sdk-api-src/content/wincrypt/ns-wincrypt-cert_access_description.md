@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_ACCESS_DESCRIPTION
+ - PCERT_ACCESS_DESCRIPTION
  - CERT_ACCESS_DESCRIPTION
 ---
 
@@ -93,3 +95,4 @@ For the szOID_PKIX_CA_REPOSITORY method, <b>AccessLocation</b> specifies either 
 
 
 <a href="https://www.ietf.org/rfc/rfc3280.txt">RFC 3280</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Lpmapi.h
 api_name:
+ - policy_decision
  - POLICY_DECISION
 ---
 
@@ -72,3 +73,4 @@ RSVP-defined error value.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>
+

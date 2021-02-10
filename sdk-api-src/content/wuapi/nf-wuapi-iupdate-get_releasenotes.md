@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate.ReleaseNotes
- - IUpdate.get_ReleaseNotes
+ - IUpdate::get_ReleaseNotes
 ---
 
 # IUpdate::get_ReleaseNotes
@@ -66,3 +65,4 @@ If a language preference is not specified by the <a href="/windows/desktop/api/w
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+

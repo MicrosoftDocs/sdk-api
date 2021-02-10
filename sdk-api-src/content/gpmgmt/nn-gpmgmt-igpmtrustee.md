@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMTrustee
- - GPMTrustee
 ---
 
 # IGPMTrustee interface
@@ -70,3 +69,4 @@ The
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
+

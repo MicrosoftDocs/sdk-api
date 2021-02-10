@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - _MT_ARBITRARY_HEADER
  - MT_ARBITRARY_HEADER
 ---
 
@@ -93,3 +94,4 @@ The Format Data field of the Type-Specific Data field is contained in the <a hre
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

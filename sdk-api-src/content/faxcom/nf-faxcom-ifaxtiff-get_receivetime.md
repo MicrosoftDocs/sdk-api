@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff.ReceiveTime
- - IFaxTiff.get_ReceiveTime
+ - IFaxTiff::get_ReceiveTime
 ---
 
 # IFaxTiff::get_ReceiveTime
@@ -96,3 +95,4 @@ The <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-rawreceiv
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

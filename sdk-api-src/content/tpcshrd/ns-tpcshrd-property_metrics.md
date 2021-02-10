@@ -46,6 +46,8 @@ api_type:
 api_location:
  - tpcshrd.h
 api_name:
+ - _PROPERTY_METRICS
+ - PPROPERTY_METRICS
  - PROPERTY_METRICS
 ---
 
@@ -81,3 +83,4 @@ The maximum value, in logical units, that the tablet reports for this property. 
 
 
 <a href="/windows/desktop/api/tpcshrd/ne-tpcshrd-property_units">PROPERTY_UNITS Enumeration</a>
+

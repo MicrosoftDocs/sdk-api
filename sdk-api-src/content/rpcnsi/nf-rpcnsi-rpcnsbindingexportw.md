@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsBindingExportW
  - rpcnsi/RpcNsBindingExportW
+ - RpcNsBindingExport
+ - rpcnsi/RpcNsBindingExport
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsBindingExport
- - RpcNsBindingExportA
  - RpcNsBindingExportW
+ - RpcNsBindingExport
 ---
 
 # RpcNsBindingExportW function
@@ -311,3 +312,4 @@ A server entry must have at least one binding handle to exist. As a result, expo
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
+

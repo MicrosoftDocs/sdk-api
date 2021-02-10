@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.Login
+ - IWMPContentPartner::Login
 ---
 
 # IWMPContentPartner::Login
@@ -109,3 +109,4 @@ To decrypt the user name and password, use the <b>CryptUnprotectData</b> functio
 
 
 <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-logout">IWMPContentPartner::Logout</a>
+

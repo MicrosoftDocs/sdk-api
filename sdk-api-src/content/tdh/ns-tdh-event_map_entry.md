@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
- - EVENT_MAP_ENTRY, *PEVENT_MAP_ENTRY
+ - _EVENT_MAP_ENTRY
+ - EVENT_MAP_ENTRY
 ---
 
 # EVENT_MAP_ENTRY structure
@@ -77,3 +78,4 @@ For maps defined in a manifest, the string will contain a space at the end of th
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>
+

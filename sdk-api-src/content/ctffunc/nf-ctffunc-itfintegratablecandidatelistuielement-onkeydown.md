@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement.OnKeyDown
+ - ITfIntegratableCandidateListUIElement::OnKeyDown
 ---
 
 # ITfIntegratableCandidateListUIElement::OnKeyDown
@@ -99,3 +99,4 @@ The <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextkeyeventsink-onkeydow
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement">ITfIntegratableCandidateListUIElement</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.OnVideoStreamTick
+ - IMFMediaEngine::OnVideoStreamTick
 ---
 
 # IMFMediaEngine::OnVideoStreamTick
@@ -100,3 +100,4 @@ Do not call this method in rendering mode or audio-only mode.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

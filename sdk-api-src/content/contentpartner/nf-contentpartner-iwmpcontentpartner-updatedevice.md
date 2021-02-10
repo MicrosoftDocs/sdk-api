@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner.UpdateDevice
+ - IWMPContentPartner::UpdateDevice
 ---
 
 # IWMPContentPartner::UpdateDevice
@@ -89,3 +89,4 @@ You must call <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwm
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+

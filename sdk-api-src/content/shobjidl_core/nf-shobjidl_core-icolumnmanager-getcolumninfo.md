@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IColumnManager.GetColumnInfo
+ - IColumnManager::GetColumnInfo
 ---
 
 # IColumnManager::GetColumnInfo
@@ -111,3 +111,4 @@ Indicates that cbSize member of <i>pcmci</i> does not equal the size of CM_COLUM
 </td>
 </tr>
 </table>
+

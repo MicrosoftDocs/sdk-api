@@ -43,6 +43,7 @@ api_type:
 api_location:
  - Bits1_5.h
 api_name:
+ - __MIDL_IBackgroundCopyJob2_0001
  - BG_BASIC_CREDENTIALS
 ---
 
@@ -93,3 +94,4 @@ You can specify the user name like this.
 ## -see-also
 
 <a href="/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials_union">BG_AUTH_CREDENTIALS_UNION</a>
+

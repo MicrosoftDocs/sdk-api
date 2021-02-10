@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
+ - _GLYPHBITS
  - GLYPHBITS
 ---
 
@@ -85,3 +86,4 @@ GDI will make this request of drivers that have antialiased fonts (see the descr
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a>
+

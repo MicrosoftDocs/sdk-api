@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IMonthlyDOWTrigger.DaysOfWeek
- - IMonthlyDOWTrigger.get_DaysOfWeek
- - IMonthlyDOWTrigger.put_DaysOfWeek
+ - IMonthlyDOWTrigger::get_DaysOfWeek
 ---
 
 # IMonthlyDOWTrigger::get_DaysOfWeek
@@ -115,3 +113,4 @@ When reading or writing XML for a task, the days of the week of a monthly day-of
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+

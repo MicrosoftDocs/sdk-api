@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - DNS_NAPTR_DATA
+ - PDNS_NAPTR_DATAA
+ - DNS_NAPTR_DATAA
 ---
 
 # DNS_NAPTR_DATAA structure

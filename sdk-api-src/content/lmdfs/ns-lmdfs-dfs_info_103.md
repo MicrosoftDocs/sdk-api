@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
+ - _DFS_INFO_103
+ - PDFS_INFO_103
  - DFS_INFO_103
 ---
 
@@ -159,3 +161,4 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+

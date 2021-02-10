@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winnt.h
 api_name:
+ - _ENCLAVE_CREATE_INFO_SGX
+ - PENCLAVE_CREATE_INFO_SGX
  - ENCLAVE_CREATE_INFO_SGX
 ---
 
@@ -73,3 +75,4 @@ For more information about the <b>SECS</b> structure, see the Intel SGX Programm
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
+

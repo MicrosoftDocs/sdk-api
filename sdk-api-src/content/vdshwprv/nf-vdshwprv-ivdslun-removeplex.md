@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun.RemovePlex
+ - IVdsLun::RemovePlex
 ---
 
 # IVdsLun::RemovePlex
@@ -185,3 +185,4 @@ If a caller invokes the <b>RemovePlex</b> method
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a>
+

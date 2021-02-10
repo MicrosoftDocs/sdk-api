@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Credssp.h
 api_name:
+ - _CREDSSP_CRED
+ - PCREDSSP_CRED
  - CREDSSP_CRED
 ---
 
@@ -77,3 +79,4 @@ A pointer to a set of Negotiate credentials.
 
 
 <a href="/windows/win32/api/credssp/ne-credssp-credspp_submit_type">CREDSPP_SUBMIT_TYPE</a>
+

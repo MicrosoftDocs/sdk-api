@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxRecipient.FaxNumber
- - IFaxRecipient.get_FaxNumber
- - IFaxRecipient.put_FaxNumber
- - IFaxRecipient.get_FaxNumber
- - IFaxRecipient.put_FaxNumber
+ - IFaxRecipient::put_FaxNumber
 ---
 
 # IFaxRecipient::put_FaxNumber
@@ -77,3 +73,4 @@ If this string contains a canonical fax number (defined in the <a href="/windows
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipient">IFaxRecipient</a>
+

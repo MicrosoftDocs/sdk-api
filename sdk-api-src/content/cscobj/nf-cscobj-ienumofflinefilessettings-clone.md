@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IEnumOfflineFilesSettings.Clone
+ - IEnumOfflineFilesSettings::Clone
 ---
 
 # IEnumOfflineFilesSettings::Clone
@@ -66,3 +66,4 @@ Returns <b>S_OK</b> if the enumerator is created successfully, or an error value
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilessettings">IEnumOfflineFilesSettings</a>
+

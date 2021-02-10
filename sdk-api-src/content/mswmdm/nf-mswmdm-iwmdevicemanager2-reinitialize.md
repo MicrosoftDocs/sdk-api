@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDeviceManager2.Reinitialize
+ - IWMDeviceManager2::Reinitialize
 ---
 
 # IWMDeviceManager2::Reinitialize
@@ -70,3 +70,4 @@ Windows Media Device Manager monitors Plug and Play (PnP) notifications to keep 
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">IWMDeviceManager2::EnumDevices2</a>
+

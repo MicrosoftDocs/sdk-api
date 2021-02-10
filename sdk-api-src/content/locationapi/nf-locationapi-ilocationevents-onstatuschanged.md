@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocationEvents.OnStatusChanged
+ - ILocationEvents::OnStatusChanged
 ---
 
 # ILocationEvents::OnStatusChanged
@@ -117,3 +117,4 @@ STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a>
+

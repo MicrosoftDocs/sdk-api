@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITTerminal.get_TerminalClass
+ - ITTerminal::get_TerminalClass
 ---
 
 # ITTerminal::get_TerminalClass
@@ -121,3 +121,4 @@ The application must use
 
 
 <a href="/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
+

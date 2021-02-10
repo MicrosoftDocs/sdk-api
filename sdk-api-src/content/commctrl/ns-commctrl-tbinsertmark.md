@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - LPTBINSERTMARK
  - TBINSERTMARK
 ---
 
@@ -105,3 +106,4 @@ The insertion mark is on the background of the toolbar. This flag is only used w
 </td>
 </tr>
 </table>
+

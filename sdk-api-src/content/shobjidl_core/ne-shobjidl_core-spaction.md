@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
+ - _SPACTION
  - SPACTION
 ---
 
@@ -115,3 +116,4 @@ A local search is being performed.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
+

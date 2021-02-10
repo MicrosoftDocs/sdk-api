@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetCachedChildren
+ - IUIAutomationElement::GetCachedChildren
 ---
 
 # IUIAutomationElement::GetCachedChildren
@@ -97,3 +97,4 @@ If the cache request specified that children were to be cached at this level, bu
 
 
 <a href="/windows/desktop/WinAuto/uiauto-treeoverview">UI Automation Tree Overview</a>
+

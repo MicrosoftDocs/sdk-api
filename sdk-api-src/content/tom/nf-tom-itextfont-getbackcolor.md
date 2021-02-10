@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.GetBackColor
+ - ITextFont::GetBackColor
 ---
 
 # ITextFont::GetBackColor
@@ -147,3 +147,4 @@ The font object is attached to a range that has been deleted.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

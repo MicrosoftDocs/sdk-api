@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.Flush
- - ?Flush@Provider@@MAEXXZ
- - ?Flush@Provider@@MEAAXXZ
+ - Provider::Flush
 ---
 
 # Provider::Flush
@@ -69,3 +67,4 @@ Override this method only if your framework provider allocates memory that can b
 
 <div class="alert"><b>Note</b>  Because your provider may be called after a call to <b>Flush</b>, you must be prepared to re-create any items released by the call to <b>Flush</b>.</div>
 <div> </div>
+

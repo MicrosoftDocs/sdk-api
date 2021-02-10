@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser.TranslateAcceleratorSB
+ - IShellBrowser::TranslateAcceleratorSB
 ---
 
 # IShellBrowser::TranslateAcceleratorSB
@@ -79,3 +79,4 @@ This method is similar to the <a href="/windows/desktop/api/oleidl/nf-oleidl-iol
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
+

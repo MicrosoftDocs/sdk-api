@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgr.CreateDocumentMgr
+ - ITfThreadMgr::CreateDocumentMgr
 ---
 
 # ITfThreadMgr::CreateDocumentMgr
@@ -114,3 +114,4 @@ The caller must release the document manager when it is no longer required.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
+

@@ -9,6 +9,8 @@ tech.root: tsf
 f1_keywords:
  - textstor
  - textstor/textstor
+api_name:
+ - textstor
 ---
 
 # Textstor.h header

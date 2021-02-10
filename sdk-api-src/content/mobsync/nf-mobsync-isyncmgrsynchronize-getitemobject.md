@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.GetItemObject
+ - ISyncMgrSynchronize::GetItemObject
 ---
 
 # ISyncMgrSynchronize::GetItemObject
@@ -103,3 +103,4 @@ This method exists only for forward compatibility. Currently, there are no inter
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
+

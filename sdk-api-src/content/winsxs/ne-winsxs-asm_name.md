@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winsxs.h
 api_name:
+ - __MIDL_IAssemblyName_0001
  - ASM_NAME
 ---
 

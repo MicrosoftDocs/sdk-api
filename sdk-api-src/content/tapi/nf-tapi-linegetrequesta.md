@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - lineGetRequestA
  - tapi/lineGetRequestA
+ - lineGetRequest
+ - tapi/lineGetRequest
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGetRequest
  - lineGetRequestA
- - lineGetRequestW
+ - lineGetRequest
 ---
 
 # lineGetRequestA function
@@ -125,3 +126,4 @@ The subsequent LINE_REQUEST should not be ignored because it is not repeated by 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>
+

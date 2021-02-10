@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator2.GetFinalValue
+ - IUIAnimationInterpolator2::GetFinalValue
 ---
 
 # IUIAnimationInterpolator2::GetFinalValue
@@ -75,3 +75,4 @@ Windows Animation can call <a href="/windows/desktop/api/uianimation/nf-uianimat
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a>
+

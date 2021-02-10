@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyFiles.Next
+ - IEnumBackgroundCopyFiles::Next
 ---
 
 # IEnumBackgroundCopyFiles::Next
@@ -103,3 +103,4 @@ Returned less than the number of requested elements.
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a>
+

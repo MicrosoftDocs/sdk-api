@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
+ - ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
 ---
 
 # ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
@@ -105,3 +105,4 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangewithprerequisite">ISyncChangeWithPrerequisite Interface</a>
+

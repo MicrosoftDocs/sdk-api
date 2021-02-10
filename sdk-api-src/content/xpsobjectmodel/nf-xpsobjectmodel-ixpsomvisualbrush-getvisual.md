@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush.GetVisual
+ - IXpsOMVisualBrush::GetVisual
 ---
 
 # IXpsOMVisualBrush::GetVisual
@@ -189,3 +189,4 @@ This method returns an  <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjec
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

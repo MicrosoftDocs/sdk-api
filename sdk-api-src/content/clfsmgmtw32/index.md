@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - clfsmgmtw32
  - clfsmgmtw32/clfsmgmtw32
+api_name:
+ - clfsmgmtw32
 ---
 
 # Clfsmgmtw32.h header

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter.IsBootableSystemStateBackedUp
+ - CVssWriter::IsBootableSystemStateBackedUp
 ---
 
 # CVssWriter::IsBootableSystemStateBackedUp
@@ -111,3 +111,4 @@ Bootable system state will not be backed up.
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
+

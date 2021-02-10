@@ -47,6 +47,8 @@ api_location:
  - WinBase.h
  - processthreadsapi.h
 api_name:
+ - _PROCESS_INFORMATION
+ - PPROCESS_INFORMATION
  - PROCESS_INFORMATION
 ---
 
@@ -103,3 +105,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-createprocesswithtokenw">CreateProcessWithTokenW</a>
+

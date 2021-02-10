@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.EnumParams
+ - IMetaDataImport::EnumParams
 ---
 
 # IMetaDataImport::EnumParams
@@ -97,3 +97,4 @@ The number of ParamDef tokens returned in <i>rParams</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

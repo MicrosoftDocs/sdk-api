@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
+ - IRawElementProviderWindowlessSite::GetRuntimeIdPrefix
 ---
 
 # IRawElementProviderWindowlessSite::GetRuntimeIdPrefix
@@ -118,3 +118,4 @@ IFACEMETHODIMP CProviderWindowlessSite::GetRuntimeIdPrefix(
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite">IRawElementProviderWindowlessSite</a>
+

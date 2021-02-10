@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_LOCALIZED_STRING_LIST
  - WSD_LOCALIZED_STRING_LIST
 ---
 

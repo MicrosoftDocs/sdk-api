@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
+ - _DXVACompBufferInfo
  - DXVACompBufferInfo
 ---
 
@@ -97,3 +98,4 @@ To create the compressed surfaces, call <a href="/windows/desktop/medfound/idire
 
 
 <a href="/windows/desktop/medfound/idirect3dvideodevice9-getdxvacompressedbufferinfo">IDirect3DVideoDevice9::GetDXVACompressedBufferInfo</a>
+

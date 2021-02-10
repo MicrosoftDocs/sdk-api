@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPDeviceProvider.Stop
+ - IUPnPDeviceProvider::Stop
 ---
 
 # IUPnPDeviceProvider::Stop
@@ -66,3 +66,4 @@ When implementing this method, return S_OK if the method succeeds. Otherwise, re
 
 
 <a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-start">IUPnPDeviceProvider::Start</a>
+

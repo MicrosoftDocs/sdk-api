@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport.GetTransportVideoParameters
+ - IAMExtTransport::GetTransportVideoParameters
 ---
 
 # IAMExtTransport::GetTransportVideoParameters
@@ -131,3 +131,4 @@ If <i>Param</i> equals ED_TRANSVIDEO_SET_SOURCE, <i>pValue</i> receives the inde
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportvideoparameters">IAMExtTransport::SetTransportVideoParameters</a>
+

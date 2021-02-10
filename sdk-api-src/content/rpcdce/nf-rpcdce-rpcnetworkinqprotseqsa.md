@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNetworkInqProtseqsA
  - rpcdce/RpcNetworkInqProtseqsA
+ - RpcNetworkInqProtseqs
+ - rpcdce/RpcNetworkInqProtseqs
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcNetworkInqProtseqs
  - RpcNetworkInqProtseqsA
- - RpcNetworkInqProtseqsW
+ - RpcNetworkInqProtseqs
 ---
 
 # RpcNetworkInqProtseqsA function
@@ -117,3 +118,4 @@ The server is responsible for calling the
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid">RpcNetworkIsProtseqValid</a>
+

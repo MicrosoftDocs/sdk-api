@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OpenNtmsSessionW
  - ntmsapi/OpenNtmsSessionW
+ - OpenNtmsSession
+ - ntmsapi/OpenNtmsSession
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - OpenNtmsSession
- - OpenNtmsSessionA
  - OpenNtmsSessionW
+ - OpenNtmsSession
 ---
 
 # OpenNtmsSessionW function
@@ -196,3 +197,4 @@ Sessions are thread-safe but cannot be passed among processes.
 
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Session Management Functions</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - FaxEnableRoutingMethodA
  - winfax/FaxEnableRoutingMethodA
+ - FaxEnableRoutingMethod
+ - winfax/FaxEnableRoutingMethod
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxEnableRoutingMethod
  - FaxEnableRoutingMethodA
- - FaxEnableRoutingMethodW
+ - FaxEnableRoutingMethod
 ---
 
 # FaxEnableRoutingMethodA function
@@ -159,3 +160,4 @@ Call the <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxop
 
 
 <a href="/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a>
+

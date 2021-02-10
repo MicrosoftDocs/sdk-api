@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl.Answer
+ - ITBasicCallControl::Answer
 ---
 
 # ITBasicCallControl::Answer
@@ -126,3 +126,4 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>
+

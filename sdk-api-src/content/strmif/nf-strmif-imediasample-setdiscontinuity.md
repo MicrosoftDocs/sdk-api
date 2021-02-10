@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample.SetDiscontinuity
+ - IMediaSample::SetDiscontinuity
 ---
 
 # IMediaSample::SetDiscontinuity
@@ -74,3 +74,4 @@ Returns S_OK, or an <b>HRESULT</b> value indicating the cause of the error.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-imediasample-isdiscontinuity">IMediaSample::IsDiscontinuity</a>
+

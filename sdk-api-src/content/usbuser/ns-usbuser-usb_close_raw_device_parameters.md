@@ -46,6 +46,8 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
+ - _USB_CLOSE_RAW_DEVICE_PARAMETERS
+ - PUSB_CLOSE_RAW_DEVICE_PARAMETERS
  - USB_CLOSE_RAW_DEVICE_PARAMETERS
 ---
 
@@ -71,3 +73,4 @@ The USB_CLOSE_RAW_DEVICE_PARAMETERS structure is used with the USBUSER_OP_CLOSE_
 ## -see-also
 
 <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
+

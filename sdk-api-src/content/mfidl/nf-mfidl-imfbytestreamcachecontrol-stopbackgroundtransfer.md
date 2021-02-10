@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFByteStreamCacheControl.StopBackgroundTransfer
+ - IMFByteStreamCacheControl::StopBackgroundTransfer
 ---
 
 # IMFByteStreamCacheControl::StopBackgroundTransfer
@@ -70,3 +70,4 @@ The byte stream resumes transferring data to the cache if the application does o
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>
+

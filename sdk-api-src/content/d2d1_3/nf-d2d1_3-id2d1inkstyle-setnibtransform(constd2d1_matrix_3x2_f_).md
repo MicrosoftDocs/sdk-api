@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - ID2D1InkStyle.SetNibTransform
+ - ID2D1InkStyle::SetNibTransform
 ---
 
 # ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F &)
@@ -63,3 +63,4 @@ The transform to apply to this style’s nib shape. Note that the translation co
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a>
+

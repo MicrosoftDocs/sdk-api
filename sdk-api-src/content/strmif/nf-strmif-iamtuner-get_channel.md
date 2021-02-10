@@ -43,8 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner.get_Channel
- - IAMTVTuner.get_Channel
+ - IAMTuner::get_Channel
 ---
 
 # IAMTuner::get_Channel
@@ -113,3 +112,4 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
+

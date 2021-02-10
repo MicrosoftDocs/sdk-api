@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSource.put_UnratedDelay
+ - IMSVidStreamBufferSource::put_UnratedDelay
 ---
 
 # IMSVidStreamBufferSource::put_UnratedDelay
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">IMSVidStreamBufferSource::put_BlockUnrated</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbGlobalStore.QuerySessionBySessionId
+ - ITsSbGlobalStore::QuerySessionBySessionId
 ---
 
 # ITsSbGlobalStore::QuerySessionBySessionId
@@ -83,3 +83,4 @@ in Remote Desktop Connection Broker (RD Connection Broker). The target objects 
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbglobalstore">ITsSbGlobalStore</a>
+

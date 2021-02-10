@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DiInstallDriverW
  - newdev/DiInstallDriverW
+ - DiInstallDriver
+ - newdev/DiInstallDriver
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Newdev.lib
  - Newdev.dll
 api_name:
- - DiInstallDriver
  - DiInstallDriverW
+ - DiInstallDriver
 ---
 
 # DiInstallDriverW function
@@ -183,3 +185,4 @@ To install a selected driver on a selected device, call <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiInstallDevice</a>
+

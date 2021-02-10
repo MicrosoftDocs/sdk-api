@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationPropertyCondition.PropertyConditionFlags
- - IUIAutomationPropertyCondition.get_PropertyConditionFlags
+ - IUIAutomationPropertyCondition::get_PropertyConditionFlags
 ---
 
 # IUIAutomationPropertyCondition::get_PropertyConditionFlags

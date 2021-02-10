@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFAudioConstriction
  - MFAudioConstriction
 ---
 
@@ -83,3 +84,4 @@ Values defined by the <b>MFAudioConstriction</b> enumeration matches the <b>EAud
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

@@ -9,6 +9,8 @@ tech.root: toolhelp
 f1_keywords:
  - tlhelp32
  - tlhelp32/tlhelp32
+api_name:
+ - tlhelp32
 ---
 
 # Tlhelp32.h header

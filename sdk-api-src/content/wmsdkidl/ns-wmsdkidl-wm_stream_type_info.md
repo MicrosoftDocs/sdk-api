@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - _WMStreamTypeInfo
  - WM_STREAM_TYPE_INFO
 ---
 
@@ -71,3 +72,4 @@ None.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
+

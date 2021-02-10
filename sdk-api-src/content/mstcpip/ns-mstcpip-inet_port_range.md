@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
+ - _INET_PORT_RANGE
+ - PINET_PORT_RANGE
  - INET_PORT_RANGE
 ---
 
@@ -119,3 +121,4 @@ The
 
 
 <a href="/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>
+

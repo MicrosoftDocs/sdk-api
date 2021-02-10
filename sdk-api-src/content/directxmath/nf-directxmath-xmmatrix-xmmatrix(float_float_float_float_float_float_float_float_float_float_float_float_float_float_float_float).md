@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMMATRIX.XMMATRIX
+ - XMMATRIX::XMMATRIX
 ---
 
 # XMMATRIX::XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
@@ -164,3 +164,4 @@ The following pseudocode example demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
+

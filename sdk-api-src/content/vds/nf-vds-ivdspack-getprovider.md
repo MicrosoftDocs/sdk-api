@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack.GetProvider
+ - IVdsPack::GetProvider
 ---
 
 # IVdsPack::GetProvider
@@ -102,3 +102,4 @@ The dynamic provider cache is corrupt.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsprovider">IVdsProvider</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsSecurityUtility.ConvertSecurityDescriptor
+ - IADsSecurityUtility::ConvertSecurityDescriptor
 ---
 
 # IADsSecurityUtility::ConvertSecurityDescriptor
@@ -125,3 +125,4 @@ Returns <b>S_OK</b> if successful or a COM or Win32 error code otherwise. Possib
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
+

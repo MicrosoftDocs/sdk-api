@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.Subject
- - IX509CertificateRequestPkcs10.get_Subject
- - IX509CertificateRequestPkcs10.put_Subject
+ - IX509CertificateRequestPkcs10::get_Subject
 ---
 
 # IX509CertificateRequestPkcs10::get_Subject
@@ -81,3 +79,4 @@ You must set this property before calling the <a href="/windows/desktop/api/cert
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+

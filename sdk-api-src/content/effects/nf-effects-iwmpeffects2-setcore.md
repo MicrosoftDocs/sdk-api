@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects2.SetCore
+ - IWMPEffects2::SetCore
 ---
 
 # IWMPEffects2::SetCore
@@ -71,3 +71,4 @@ This method is not called when Windows Media Player instantiates the visualizati
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
+

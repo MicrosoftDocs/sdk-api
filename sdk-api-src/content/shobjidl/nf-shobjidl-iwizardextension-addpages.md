@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IWizardExtension.AddPages
+ - IWizardExtension::AddPages
 ---
 
 # IWizardExtension::AddPages
@@ -94,3 +94,4 @@ g_iwe->AddPages(&hpages[2], ARRAYSIZE(hpages)-2, &nPages);
 
 
 Do not confuse wizard pages, which are <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures, with hosted HTML pages. One wizard dialog page can host many sequential HTML pages. This method supplies the number of wizard dialog pages added by the wizard extension, not the number of server-side HTML pages which are displayed in it.
+

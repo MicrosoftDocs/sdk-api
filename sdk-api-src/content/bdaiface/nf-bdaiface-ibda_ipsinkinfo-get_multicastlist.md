@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_IPSinkInfo.get_MulticastList
+ - IBDA_IPSinkInfo::get_MulticastList
 ---
 
 # IBDA_IPSinkInfo::get_MulticastList
@@ -82,3 +82,4 @@ The method allocates the memory for the array. The caller must free the memory b
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ipsinkinfo">IBDA_IPSinkInfo Interface</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.NamespaceRoots
- - IFsrmFileManagementJob.get_NamespaceRoots
- - IFsrmFileManagementJob.put_NamespaceRoots
+ - IFsrmFileManagementJob::get_NamespaceRoots
 ---
 
 # IFsrmFileManagementJob::get_NamespaceRoots
@@ -86,3 +84,4 @@ Note that FSRM supports only NTFS file systems—you cannot specify paths on ReF
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
+

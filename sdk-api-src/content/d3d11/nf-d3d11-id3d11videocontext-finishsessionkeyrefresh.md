@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext.FinishSessionKeyRefresh
+ - ID3D11VideoContext::FinishSessionKeyRefresh
 ---
 
 # ID3D11VideoContext::FinishSessionKeyRefresh
@@ -71,3 +71,4 @@ Before calling this method, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
+

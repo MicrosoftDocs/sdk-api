@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymFromNameW
  - dbghelp/SymFromNameW
+ - SymFromName
+ - dbghelp/SymFromName
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymFromName
- - SymFromName
  - SymFromNameW
+ - SymFromName
 ---
 
 # SymFromNameW function
@@ -104,3 +105,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a>
+

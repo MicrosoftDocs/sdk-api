@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
+ - _MIB_UNICASTIPADDRESS_ROW
+ - PMIB_UNICASTIPADDRESS_ROW
  - MIB_UNICASTIPADDRESS_ROW
 ---
 
@@ -627,3 +629,4 @@ int __cdecl wmain()
 
 
 <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.RelativePath
- - IFsrmPropertyBag.get_RelativePath
+ - IFsrmPropertyBag::get_RelativePath
 ---
 
 # IFsrmPropertyBag::get_RelativePath
@@ -66,3 +65,4 @@ The caller should not expect that the relative path returned will consistently h
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
+

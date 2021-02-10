@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.RetrieveContents
+ - IWdsTransportNamespace::RetrieveContents
 ---
 
 # IWdsTransportNamespace::RetrieveContents
@@ -73,3 +73,4 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
+

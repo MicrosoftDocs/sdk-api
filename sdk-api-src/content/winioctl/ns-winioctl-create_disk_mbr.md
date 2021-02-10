@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _CREATE_DISK_MBR
+ - PCREATE_DISK_MBR
  - CREATE_DISK_MBR
 ---
 
@@ -79,3 +81,4 @@ The
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
+

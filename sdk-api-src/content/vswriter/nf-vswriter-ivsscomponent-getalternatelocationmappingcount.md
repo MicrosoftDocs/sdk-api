@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetAlternateLocationMappingCount
+ - IVssComponent::GetAlternateLocationMappingCount
 ---
 
 # IVssComponent::GetAlternateLocationMappingCount
@@ -124,3 +124,4 @@ The count is updated by calls to
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">IVssComponent::GetAlternateLocationMapping</a>
+

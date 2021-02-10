@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.ExportPublicKey
+ - IX509PrivateKey::ExportPublicKey
 ---
 
 # IX509PrivateKey::ExportPublicKey
@@ -71,3 +71,4 @@ You must call <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privat
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
+ - _WNV_POLICY_MISMATCH_PARAM
+ - PWNV_POLICY_MISMATCH_PARAM
  - WNV_POLICY_MISMATCH_PARAM
 ---
 
@@ -95,3 +97,4 @@ For a detailed description of network virtualization concepts and terminology, s
 ## -see-also
 
 <a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
+

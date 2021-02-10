@@ -46,6 +46,8 @@ api_type:
 api_location:
  - joystickapi.h
 api_name:
+ - joyinfo_tag
+ - PJOYINFO
  - JOYINFO
 ---
 

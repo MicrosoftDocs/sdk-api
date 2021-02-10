@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.GetGamutBoundaryMeshSize
+ - IDeviceModelPlugIn::GetGamutBoundaryMeshSize
 ---
 
 # IDeviceModelPlugIn::GetGamutBoundaryMeshSize
@@ -85,3 +85,4 @@ This function is called by the <a href="/previous-versions/windows/desktop/wcs/c
 
 
 <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
+

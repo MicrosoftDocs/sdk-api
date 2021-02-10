@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - mfmediacapture
  - mfmediacapture/mfmediacapture
+api_name:
+ - mfmediacapture
 ---
 
 # Mfmediacapture.h header

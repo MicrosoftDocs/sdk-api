@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IConnector.GetDeviceIdConnectedTo
+ - IConnector::GetDeviceIdConnectedTo
 ---
 
 # IConnector::GetDeviceIdConnectedTo
@@ -122,3 +122,4 @@ This method is functionally equivalent to, but more efficient than, the followin
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a>
+

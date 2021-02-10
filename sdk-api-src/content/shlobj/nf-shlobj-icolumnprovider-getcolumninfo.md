@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IColumnProvider.GetColumnInfo
+ - IColumnProvider::GetColumnInfo
 ---
 
 # IColumnProvider::GetColumnInfo
@@ -108,3 +108,4 @@ This method is called to assign an index to the column and to ask for details on
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider">IColumnProvider</a>
+

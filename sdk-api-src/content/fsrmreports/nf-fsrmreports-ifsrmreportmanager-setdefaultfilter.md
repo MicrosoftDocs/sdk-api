@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportManager.SetDefaultFilter
- - FsrmReportManager.SetDefaultFilter
+ - IFsrmReportManager::SetDefaultFilter
 ---
 
 # IFsrmReportManager::SetDefaultFilter
@@ -152,3 +151,4 @@ The default filter values are used for report actions.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
+

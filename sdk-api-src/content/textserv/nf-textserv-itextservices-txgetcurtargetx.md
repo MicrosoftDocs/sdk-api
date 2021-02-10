@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices.TxGetCurTargetX
+ - ITextServices::TxGetCurTargetX
 ---
 
 # ITextServices::TxGetCurTargetX
@@ -122,3 +122,4 @@ The target caret position is expressed as an x-coordinate on the display because
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

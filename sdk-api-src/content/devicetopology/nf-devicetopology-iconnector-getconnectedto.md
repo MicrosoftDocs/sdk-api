@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IConnector.GetConnectedTo
+ - IConnector::GetConnectedTo
 ---
 
 # IConnector::GetConnectedTo
@@ -111,3 +111,4 @@ For information about Software_IO connections, see <a href="/windows/win32/api/d
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
+

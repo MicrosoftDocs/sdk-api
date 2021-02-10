@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bits.h
 api_name:
+ - _BG_JOB_PROGRESS
  - BG_JOB_PROGRESS
 ---
 
@@ -87,3 +88,4 @@ Number of files transferred.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">IBackgroundCopyJob::GetProgress</a>
+

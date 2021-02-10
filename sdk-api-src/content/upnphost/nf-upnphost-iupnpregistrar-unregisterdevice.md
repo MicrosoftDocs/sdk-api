@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPRegistrar.UnregisterDevice
+ - IUPnPRegistrar::UnregisterDevice
 ---
 
 # IUPnPRegistrar::UnregisterDevice
@@ -90,3 +90,4 @@ This method removes a device from the device host. If <i>fPermanent</i> is <b>TR
 
 
 <a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">IUPnPReregistrar::RegisterRunningDevice</a>
+

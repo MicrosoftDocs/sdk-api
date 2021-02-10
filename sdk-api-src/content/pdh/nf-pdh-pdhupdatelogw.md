@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PdhUpdateLogW
  - pdh/PdhUpdateLogW
+ - PdhUpdateLog
+ - pdh/PdhUpdateLog
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhUpdateLog
- - PdhUpdateLogA
  - PdhUpdateLogW
+ - PdhUpdateLog
 ---
 
 # PdhUpdateLogW function
@@ -136,3 +137,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhupdatelogfilecatalog">PdhUpdateLogFileCatalog</a>
+

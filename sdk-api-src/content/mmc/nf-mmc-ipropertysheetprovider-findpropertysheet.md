@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider.FindPropertySheet
+ - IPropertySheetProvider::FindPropertySheet
 ---
 
 # IPropertySheetProvider::FindPropertySheet
@@ -83,3 +83,4 @@ Items in the scope pane are owned by the console so there is no need to interact
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
+

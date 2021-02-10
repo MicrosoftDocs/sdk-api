@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - tagWMT_WATERMARK_ENTRY_TYPE
  - WMT_WATERMARK_ENTRY_TYPE
 ---
 
@@ -71,3 +72,4 @@ Identifies a watermarking DMO for video.
 
 
 <a href="/windows/desktop/wmformat/watermarking-support">Watermarking Support</a>
+

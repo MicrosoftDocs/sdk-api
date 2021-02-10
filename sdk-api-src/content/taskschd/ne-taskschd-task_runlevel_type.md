@@ -44,6 +44,7 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
+ - _TASK_RUNLEVEL
  - TASK_RUNLEVEL_TYPE
 ---
 
@@ -67,3 +68,4 @@ Tasks will be run with the highest privileges.
 ## -see-also
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
+

@@ -42,11 +42,7 @@ api_type:
 api_location:
  - inked.h
 api_name:
- - IInkEdit.SelColor
- - IInkEdit.get_SelColor
- - IInkEdit.put_SelColor
- - InkEdit.get_SelColor
- - InkEdit.put_SelColor
+ - IInkEdit::get_SelColor
 ---
 
 # IInkEdit::get_SelColor
@@ -73,3 +69,4 @@ If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-con
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

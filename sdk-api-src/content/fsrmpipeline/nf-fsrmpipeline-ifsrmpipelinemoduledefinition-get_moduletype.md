@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.ModuleType
- - IFsrmPipelineModuleDefinition.get_ModuleType
+ - IFsrmPipelineModuleDefinition::get_ModuleType
 ---
 
 # IFsrmPipelineModuleDefinition::get_ModuleType
@@ -64,3 +63,4 @@ The type is specified when you call the <a href="/previous-versions/windows/desk
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
+

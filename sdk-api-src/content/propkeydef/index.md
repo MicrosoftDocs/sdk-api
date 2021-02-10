@@ -9,6 +9,8 @@ tech.root: shell
 f1_keywords:
  - propkeydef
  - propkeydef/propkeydef
+api_name:
+ - propkeydef
 ---
 
 # Propkeydef.h header

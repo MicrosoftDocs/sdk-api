@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemMgr.AdviseItemSink
+ - ITfLangBarItemMgr::AdviseItemSink
 ---
 
 # ITfLangBarItemMgr::AdviseItemSink
@@ -158,3 +158,4 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/TSF/predefined-lang-bar-items">Predefined language bar items
       </a>
+

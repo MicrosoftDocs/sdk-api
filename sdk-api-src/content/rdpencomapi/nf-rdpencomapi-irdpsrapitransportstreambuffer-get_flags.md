@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - IRDPSRAPITransportStreamBuffer::Flags
+ - IRDPSRAPITransportStreamBuffer::get_Flags
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_Flags
@@ -58,3 +58,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
+

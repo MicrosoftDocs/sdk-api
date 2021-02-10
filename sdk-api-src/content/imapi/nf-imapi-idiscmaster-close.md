@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMaster.Close
+ - IDiscMaster::Close
 ---
 
 # IDiscMaster::Close
@@ -68,3 +68,4 @@ Closing an already closed interface returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
+

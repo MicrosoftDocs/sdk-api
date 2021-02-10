@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMLicenseRestore.CancelLicenseRestore
+ - IWMLicenseRestore::CancelLicenseRestore
 ---
 
 # IWMLicenseRestore::CancelLicenseRestore
@@ -72,3 +72,4 @@ This method operates asynchronously, and a call to this method cancels a restore
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore Interface</a>
+

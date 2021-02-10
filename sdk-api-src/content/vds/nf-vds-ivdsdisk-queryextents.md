@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk.QueryExtents
+ - IVdsDisk::QueryExtents
 ---
 
 # IVdsDisk::QueryExtents
@@ -143,3 +143,4 @@ If the disk is a dynamic disk, it must be online. If it is a basic disk or a raw
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_extent">VDS_DISK_EXTENT</a>
+

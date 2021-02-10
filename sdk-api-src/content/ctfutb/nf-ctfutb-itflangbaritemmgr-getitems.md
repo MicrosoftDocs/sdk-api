@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemMgr.GetItems
+ - ITfLangBarItemMgr::GetItems
 ---
 
 # ITfLangBarItemMgr::GetItems
@@ -134,3 +134,4 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/TSF/tf-lbi-status--constants">TF_LBI_STATUS_* Constants
       </a>
+

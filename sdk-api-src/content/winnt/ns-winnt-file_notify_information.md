@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _FILE_NOTIFY_INFORMATION
+ - PFILE_NOTIFY_INFORMATION
  - FILE_NOTIFY_INFORMATION
 ---
 
@@ -147,3 +149,4 @@ If there is both a short and long name for the file, the function will return on
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>
+

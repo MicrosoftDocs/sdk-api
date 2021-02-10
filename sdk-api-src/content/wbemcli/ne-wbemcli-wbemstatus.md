@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
+ - tag_WBEMSTATUS
  - WBEMSTATUS
 ---
 

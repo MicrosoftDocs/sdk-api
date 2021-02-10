@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _JOBOBJECT_SECURITY_LIMIT_INFORMATION
+ - PJOBOBJECT_SECURITY_LIMIT_INFORMATION
  - JOBOBJECT_SECURITY_LIMIT_INFORMATION
 ---
 
@@ -181,3 +183,4 @@ Starting with Windows Vista, you must set security limitations individually for
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
+

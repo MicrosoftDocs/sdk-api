@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
+ - _RPC_ASYNC_EVENT
  - RPC_ASYNC_EVENT
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DrawingStateBlock1.GetDescription
+ - ID2D1DrawingStateBlock1::GetDescription
 ---
 
 # ID2D1DrawingStateBlock1::GetDescription
@@ -63,3 +63,4 @@ When this method returns, contains the antialiasing mode, transform, tags, primi
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1drawingstateblock1">ID2D1DrawingStateBlock1</a>
+

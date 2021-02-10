@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFInputTrustAuthority.UpdateAccess
+ - IMFInputTrustAuthority::UpdateAccess
 ---
 
 # IMFInputTrustAuthority::UpdateAccess
@@ -88,3 +88,4 @@ The ITA can update its internal state if needed. If the method returns a failure
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
+

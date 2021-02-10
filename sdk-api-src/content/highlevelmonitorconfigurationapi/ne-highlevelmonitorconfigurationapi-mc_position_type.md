@@ -44,6 +44,7 @@ api_type:
 api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
+ - _MC_POSITION_TYPE
  - MC_POSITION_TYPE
 ---
 
@@ -75,3 +76,4 @@ Vertical position.
 
 
 <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareaposition">SetMonitorDisplayAreaPosition</a>
+

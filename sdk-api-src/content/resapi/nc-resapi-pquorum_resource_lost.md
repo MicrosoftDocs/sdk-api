@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - QuorumResourceLost
+ - PQUORUM_RESOURCE_LOST
 ---
 
 # PQUORUM_RESOURCE_LOST callback function
@@ -84,3 +84,4 @@ The <i>QuorumResourceLost</i> callback function is
 
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
+

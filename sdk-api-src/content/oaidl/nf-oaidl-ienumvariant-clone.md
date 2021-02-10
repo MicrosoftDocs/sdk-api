@@ -42,7 +42,7 @@ api_type:
 api_location:
  - stdole.dll
 api_name:
- - IEnumVARIANT.Clone
+ - IEnumVARIANT::Clone
 ---
 
 # IEnumVARIANT::Clone
@@ -135,3 +135,4 @@ error:
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
+

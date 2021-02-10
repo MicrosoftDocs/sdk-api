@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDockingWindowSite.RequestBorderSpaceDW
+ - IDockingWindowSite::RequestBorderSpaceDW
 ---
 
 # IDockingWindowSite::RequestBorderSpaceDW
@@ -79,3 +79,4 @@ Returns S_OK if the border space request is approved or modified, or an error va
 
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-idockingwindowsite">IDockingWindowSite</a>
+

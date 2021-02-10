@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement.SetIntegrationStyle
+ - ITfIntegratableCandidateListUIElement::SetIntegrationStyle
 ---
 
 # ITfIntegratableCandidateListUIElement::SetIntegrationStyle
@@ -105,3 +105,4 @@ If an app needs a keyboard-integrated experience, it can set a <b>GUID</b> for t
 
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-enduielement">ITfUIElementSink::EndUIElement</a>
+

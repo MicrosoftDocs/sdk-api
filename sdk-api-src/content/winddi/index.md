@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - winddi
  - winddi/winddi
+api_name:
+ - winddi
 ---
 
 # Winddi.h header

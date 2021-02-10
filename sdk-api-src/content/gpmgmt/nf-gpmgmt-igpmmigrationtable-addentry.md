@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMMigrationTable.AddEntry
- - GPMMigrationTable.AddEntry
+ - IGPMMigrationTable::AddEntry
 ---
 
 ## -description
@@ -110,3 +109,4 @@ Returns a reference to a <b>GPMMapEntry</b> object.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>
+

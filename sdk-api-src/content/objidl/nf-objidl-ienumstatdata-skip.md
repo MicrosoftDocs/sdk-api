@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IEnumSTATDATA.Skip
+ - IEnumSTATDATA::Skip
 ---
 
 # IEnumSTATDATA::Skip
@@ -65,3 +65,4 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>
+

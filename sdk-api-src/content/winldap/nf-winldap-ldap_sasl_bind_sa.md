@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_sasl_bind_sA
  - winldap/ldap_sasl_bind_sA
+ - ldap_sasl_bind_s
+ - winldap/ldap_sasl_bind_s
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_sasl_bind_s
  - ldap_sasl_bind_sA
- - ldap_sasl_bind_sW
+ - ldap_sasl_bind_s
 ---
 
 # ldap_sasl_bind_sA function
@@ -136,3 +137,4 @@ The <b>ldap_sasl_bind_s</b> function binds to an LDAP server using the Simple Au
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>
+

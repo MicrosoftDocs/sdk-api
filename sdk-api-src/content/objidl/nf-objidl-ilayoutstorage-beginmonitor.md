@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILayoutStorage.BeginMonitor
+ - ILayoutStorage::BeginMonitor
 ---
 
 # ILayoutStorage::BeginMonitor
@@ -80,3 +80,4 @@ A call to
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-layoutscript">ILayoutStorage::LayoutScript</a>
+

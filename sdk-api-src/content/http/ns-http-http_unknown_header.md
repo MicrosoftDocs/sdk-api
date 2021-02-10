@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_UNKNOWN_HEADER
+ - PHTTP_UNKNOWN_HEADER
  - HTTP_UNKNOWN_HEADER
 ---
 
@@ -90,3 +92,4 @@ A pointer to a string of octets that specifies the values for this header. Use <
 
 
 <a href="/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
+

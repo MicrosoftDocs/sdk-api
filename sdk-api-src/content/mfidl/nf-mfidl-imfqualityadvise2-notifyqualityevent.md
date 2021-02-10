@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFQualityAdvise2.NotifyQualityEvent
+ - IMFQualityAdvise2::NotifyQualityEvent
 ---
 
 # IMFQualityAdvise2::NotifyQualityEvent
@@ -73,3 +73,4 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2">IMFQualityAdvise2</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - ITravelLog.CountEntries
+ - ITravelLog::CountEntries
 ---
 
 # ITravelLog::CountEntries
@@ -66,3 +66,4 @@ A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknow
 Type: <b>DWORD</b>
 
 The number of entries in the travel log.
+

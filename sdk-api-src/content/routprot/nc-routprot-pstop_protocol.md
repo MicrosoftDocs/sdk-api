@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - StopProtocol
+ - PSTOP_PROTOCOL
 ---
 
 # PSTOP_PROTOCOL callback function
@@ -78,3 +78,4 @@ If routing protocol is shutting down asynchronously, the return value is ERROR_P
 
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>
+

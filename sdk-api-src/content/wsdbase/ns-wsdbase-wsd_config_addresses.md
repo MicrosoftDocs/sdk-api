@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wsdbase.h
 api_name:
+ - _WSD_CONFIG_ADDRESSES
+ - PWSD_CONFIG_ADDRESSES
  - WSD_CONFIG_ADDRESSES
 ---
 
@@ -67,3 +69,4 @@ If <i>pszLocalId</i> contains a logical address, the resulting behavior is a map
 ### -field dwAddressCount
 
 The number of items in the <b>addresses</b> array.
+

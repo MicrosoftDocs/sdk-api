@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItemContainer.GetSyncItem
+ - ISyncMgrSyncItemContainer::GetSyncItem
 ---
 
 # ISyncMgrSyncItemContainer::GetSyncItem
@@ -71,3 +71,4 @@ When this method returns, contains the address of a pointer to an <a href="/wind
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if the handler does not recognize the ID specified at <i>ppszItemID</i>.
+

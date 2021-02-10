@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemConfigureRefresher.AddObjectByTemplate
+ - IWbemConfigureRefresher::AddObjectByTemplate
 ---
 
 # IWbemConfigureRefresher::AddObjectByTemplate
@@ -114,3 +114,4 @@ It is not necessary for the user to explicitly remove added objects. The client 
 
 
 <a href="/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
+

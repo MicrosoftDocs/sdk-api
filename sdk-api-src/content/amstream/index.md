@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - amstream
  - amstream/amstream
+api_name:
+ - amstream
 ---
 
 # Amstream.h header

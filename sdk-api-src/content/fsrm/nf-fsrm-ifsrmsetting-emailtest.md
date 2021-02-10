@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmSetting.EmailTest
- - FsrmSetting.EmailTest
+ - IFsrmSetting::EmailTest
 ---
 
 # IFsrmSetting::EmailTest
@@ -159,3 +158,4 @@ cleanup:
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
+

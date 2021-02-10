@@ -43,8 +43,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateService2.IsDefaultAUService
- - IUpdateService2.get_IsDefaultAUService
+ - IUpdateService2::get_IsDefaultAUService
 ---
 
 # IUpdateService2::get_IsDefaultAUService
@@ -61,3 +60,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice2">IUpdateService2</a>
+

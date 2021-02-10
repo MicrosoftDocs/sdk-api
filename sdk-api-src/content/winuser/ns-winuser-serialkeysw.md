@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - SERIALKEYS
+ - tagSERIALKEYSW
+ - LPSERIALKEYSW
+ - SERIALKEYSW
 ---
 
 # SERIALKEYSW structure
@@ -204,3 +206,4 @@ An application uses this structure when calling the <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

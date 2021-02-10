@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager.Update
+ - IUIAnimationManager::Update
 ---
 
 # IUIAnimationManager::Update
@@ -126,3 +126,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a>
+

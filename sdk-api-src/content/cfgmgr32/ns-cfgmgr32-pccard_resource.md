@@ -46,6 +46,8 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
+ - PcCard_Resource_s
+ - PPCCARD_RESOURCE
  - PCCARD_RESOURCE
 ---
 
@@ -65,3 +67,4 @@ A [PCCARD_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des) structure.
 ## -see-also
 
 [PCCARD_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des)
+

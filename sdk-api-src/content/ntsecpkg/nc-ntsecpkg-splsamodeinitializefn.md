@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpLsaModeInitialize
+ - SpLsaModeInitializeFn
 ---
 
 # SpLsaModeInitializeFn callback function
@@ -87,3 +87,4 @@ The <i>ppTables</i> parameter should contain one
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+

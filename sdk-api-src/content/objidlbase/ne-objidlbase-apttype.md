@@ -44,6 +44,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
+ - _APTTYPE
  - APTTYPE
 ---
 
@@ -83,3 +84,4 @@ The main single-threaded apartment.
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype">IComThreadingInfo::GetCurrentApartmentType</a>
+

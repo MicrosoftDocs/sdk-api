@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D11SDKLayers.h
 api_name:
+ - D3D11_SHADER_TRACKING_OPTION
  - D3D11_SHADER_TRACKING_OPTIONS
 ---
 
@@ -142,3 +143,4 @@ This enumeration is used by the following methods:
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-enums">Layer Enumerations</a>
+

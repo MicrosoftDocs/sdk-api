@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_STREAM_DATA
  - DXVAHD_STREAM_DATA
 ---
 
@@ -154,3 +155,4 @@ Here are some example patterns:
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

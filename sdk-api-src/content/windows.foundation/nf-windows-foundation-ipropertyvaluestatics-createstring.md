@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateString
+ - IPropertyValueStatics::CreateString
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -123,3 +123,4 @@ Use the <a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestring
 
 
 <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
+

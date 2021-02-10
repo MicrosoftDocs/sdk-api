@@ -46,6 +46,7 @@ api_location:
  - FileExtd.h
 api_name:
  - FILE_ID_DESCRIPTOR
+ - LPFILE_ID_DESCRIPTOR
 ---
 
 # FILE_ID_DESCRIPTOR structure
@@ -141,3 +142,4 @@ A <a href="/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a> stru
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>
+

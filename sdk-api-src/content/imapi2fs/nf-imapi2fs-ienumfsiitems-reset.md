@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IEnumFsiItems.Reset
+ - IEnumFsiItems::Reset
 ---
 
 # IEnumFsiItems::Reset
@@ -61,3 +61,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumfsiitems">IEnumFsiItems</a>
+

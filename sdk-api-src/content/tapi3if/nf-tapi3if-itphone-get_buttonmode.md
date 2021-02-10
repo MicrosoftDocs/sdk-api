@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone.get_ButtonMode
+ - ITPhone::get_ButtonMode
 ---
 
 # ITPhone::get_ButtonMode
@@ -98,3 +98,4 @@ The two following
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttonmode">put_ButtonMode</a>
+

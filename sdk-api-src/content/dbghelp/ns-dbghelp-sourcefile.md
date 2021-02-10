@@ -46,9 +46,9 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
+ - _SOURCEFILE
+ - PSOURCEFILE
  - SOURCEFILE
- - SOURCEFILE
- - SOURCEFILEW
 ---
 
 # SOURCEFILE structure
@@ -71,3 +71,4 @@ The fully qualified source file name.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiles">SymEnumSourceFiles</a>
+

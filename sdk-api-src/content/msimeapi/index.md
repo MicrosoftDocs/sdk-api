@@ -9,6 +9,8 @@ tech.root: intl
 f1_keywords:
  - msimeapi
  - msimeapi/msimeapi
+api_name:
+ - msimeapi
 ---
 
 # Msimeapi.h header

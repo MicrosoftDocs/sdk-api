@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Davclnt.h
 api_name:
- - DavFreeCredCallback
+ - PFNDAVAUTHCALLBACK_FREECRED
 ---
 
 # PFNDAVAUTHCALLBACK_FREECRED callback function
@@ -79,3 +79,4 @@ This callback function should free only the buffer that the <b>pBuffer</b> membe
 
 
 <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>
+

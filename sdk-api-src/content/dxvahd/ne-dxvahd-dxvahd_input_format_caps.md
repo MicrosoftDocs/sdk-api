@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_INPUT_FORMAT_CAPS
  - DXVAHD_INPUT_FORMAT_CAPS
 ---
 
@@ -95,3 +96,4 @@ Similarly, a device that supports de-interlacing is not required to support dein
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - ISimpleAudioVolume.SetMute
+ - ISimpleAudioVolume::SetMute
 ---
 
 # ISimpleAudioVolume::SetMute
@@ -118,3 +118,4 @@ The client can get the muting state of the audio session by calling the <a href=
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-getmute">ISimpleAudioVolume::GetMute</a>
+

@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.Confidence
- - IInkRecognitionAlternate.get_Confidence
- - IInkRecognitionAlternate.get_Confidence
+ - IInkRecognitionAlternate::get_Confidence
 ---
 
 # IInkRecognitionAlternate::get_Confidence
@@ -87,3 +85,4 @@ Of the Microsoft recognizers, only the Microsoft English (US) Handwriting Recogn
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionconfidence">InkRecognitionConfidence Enumeration</a>
+

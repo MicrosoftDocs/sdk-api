@@ -9,6 +9,8 @@ tech.root: netmgmt
 f1_keywords:
  - atacct
  - atacct/atacct
+api_name:
+ - atacct
 ---
 
 # Atacct.h header

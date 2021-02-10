@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetClipPlane
+ - IDirect3DDevice9::SetClipPlane
 ---
 
 # IDirect3DDevice9::SetClipPlane
@@ -88,3 +88,4 @@ This method does not enable the clipping plane equation being set. To enable a c
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane">IDirect3DDevice9::GetClipPlane</a>
+

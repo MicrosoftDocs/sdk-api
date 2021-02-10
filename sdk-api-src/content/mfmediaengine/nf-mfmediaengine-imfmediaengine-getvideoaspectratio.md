@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetVideoAspectRatio
+ - IMFMediaEngine::GetVideoAspectRatio
 ---
 
 # IMFMediaEngine::GetVideoAspectRatio
@@ -77,3 +77,4 @@ The Media Engine automatically converts the pixel aspect ratio to 1:1 (square pi
 
 
 <a href="/windows/desktop/medfound/picture-aspect-ratio">Picture Aspect Ratio</a>
+

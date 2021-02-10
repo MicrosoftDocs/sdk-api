@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSequencerSource.UpdateTopology
+ - IMFSequencerSource::UpdateTopology
 ---
 
 # IMFSequencerSource::UpdateTopology
@@ -107,3 +107,4 @@ This method is asynchronous. When the operation is completed, the sequencer sour
 
 
 <a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
+

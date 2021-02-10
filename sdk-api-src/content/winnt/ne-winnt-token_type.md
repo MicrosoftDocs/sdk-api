@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_TYPE
  - TOKEN_TYPE
 ---
 
@@ -115,3 +116,4 @@ Indicates an impersonation token.
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
+

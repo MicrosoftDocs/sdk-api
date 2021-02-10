@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReport.Name
- - IFsrmReport.get_Name
- - IFsrmReport.put_Name
+ - IFsrmReport::get_Name
 ---
 
 # IFsrmReport::get_Name
@@ -75,3 +73,4 @@ For an example, see
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
+

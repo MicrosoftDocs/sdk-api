@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_XML_WRITER_TEXT_ENCODING
  - WS_XML_WRITER_TEXT_ENCODING
 ---
 
@@ -63,3 +64,4 @@ The base type for all types that derive from <a href="/windows/desktop/api/webse
 ### -field charSet
 
 Indicates the text encoding of the bytes.  This may not be <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a>.
+

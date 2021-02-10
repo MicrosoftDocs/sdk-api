@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _ROUTER_INTERFACE_TYPE
  - ROUTER_INTERFACE_TYPE
 ---
 
@@ -108,3 +109,4 @@ The interface is a dial-on-demand (DOD) interface.
 
 
 <a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
+

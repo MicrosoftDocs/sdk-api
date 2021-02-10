@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache.EnumSettingObjects
+ - IOfflineFilesCache::EnumSettingObjects
 ---
 
 # IOfflineFilesCache::EnumSettingObjects
@@ -70,3 +70,4 @@ A known setting may be retrieved by name using <a href="/previous-versions/windo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
+

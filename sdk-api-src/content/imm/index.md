@@ -9,6 +9,8 @@ tech.root: intl
 f1_keywords:
  - imm
  - imm/imm
+api_name:
+ - imm
 ---
 
 # Imm.h header

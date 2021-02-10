@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_NIT.GetCountOfTableDescriptors
+ - IDVB_NIT::GetCountOfTableDescriptors
 ---
 
 # IDVB_NIT::GetCountOfTableDescriptors
@@ -99,3 +99,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_nit">IDVB_NIT Interface</a>
+

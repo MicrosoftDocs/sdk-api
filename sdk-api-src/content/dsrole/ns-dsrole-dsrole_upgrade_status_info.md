@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dsrole.h
 api_name:
+ - _DSROLE_UPGRADE_STATUS_INFO
+ - PDSROLE_UPGRADE_STATUS_INFO
  - DSROLE_UPGRADE_STATUS_INFO
 ---
 
@@ -85,3 +87,4 @@ If an upgrade is in progress, this member contains one of the <a href="/windows/
 
 
 <a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
+

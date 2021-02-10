@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccServerDocMgr.NewDocument
+ - IAccServerDocMgr::NewDocument
 ---
 
 # IAccServerDocMgr::NewDocument
@@ -78,3 +78,4 @@ If successful, returns S_OK.
 ## -remarks
 
 The server application calls the <b>IAccServerDocMgr::NewDocument</b> method to notify the Microsoft Active Accessibility run time that a document is available. Calling <b>NewDocument</b> adds the document to the Microsoft Active Accessibility store so that clients can access the document.
+

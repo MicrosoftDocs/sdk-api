@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesConnectionInfo.TransitionOnline
+ - IOfflineFilesConnectionInfo::TransitionOnline
 ---
 
 # IOfflineFilesConnectionInfo::TransitionOnline
@@ -90,3 +90,4 @@ Note that the entire scope of the item is transitioned online, not just the item
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-transitionoffline">IOfflineFilesConnectionInfo::TransitionOffline</a>
+

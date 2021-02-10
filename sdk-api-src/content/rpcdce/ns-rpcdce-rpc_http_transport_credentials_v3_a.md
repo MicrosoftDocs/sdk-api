@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - RPC_HTTP_TRANSPORT_CREDENTIALS_V3
+ - _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A
+ - PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_A
  - RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A
- - RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W
 ---
 
 # RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A structure
@@ -272,3 +272,4 @@ If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANS
 
 
 <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
+

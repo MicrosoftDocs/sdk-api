@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - FAX_GLOBAL_ROUTING_INFO
+ - _FAX_GLOBAL_ROUTING_INFOA
+ - PFAX_GLOBAL_ROUTING_INFOA
  - FAX_GLOBAL_ROUTING_INFOA
- - FAX_GLOBAL_ROUTING_INFOW
 ---
 
 # FAX_GLOBAL_ROUTING_INFOA structure
@@ -150,3 +150,4 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetglobalroutinginfoa">FaxSetGlobalRoutingInfo</a>
+

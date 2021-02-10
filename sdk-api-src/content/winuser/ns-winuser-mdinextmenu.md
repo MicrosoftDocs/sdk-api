@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagMDINEXTMENU
+ - PMDINEXTMENU
  - MDINEXTMENU
 ---
 
@@ -91,3 +93,4 @@ A handle to the window to receive the menu notification messages.
 
 
 <a href="/windows/desktop/menurc/wm-nextmenu">WM_NEXTMENU</a>
+

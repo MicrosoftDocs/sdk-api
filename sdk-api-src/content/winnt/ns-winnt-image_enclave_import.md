@@ -46,6 +46,8 @@ api_type:
 api_location:
  - winnt.h
 api_name:
+ - _IMAGE_ENCLAVE_IMPORT
+ - PIMAGE_ENCLAVE_IMPORT
  - IMAGE_ENCLAVE_IMPORT
 ---
 

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMResourceControl.Reserve
+ - IAMResourceControl::Reserve
 ---
 
 # IAMResourceControl::Reserve
@@ -78,3 +78,4 @@ A resource can be reserved multiple times. If the method returns S_OK, the filte
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamresourcecontrol">IAMResourceControl Interface</a>
+

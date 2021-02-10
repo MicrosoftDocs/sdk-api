@@ -43,8 +43,7 @@ api_location:
  - Certidl.lib
  - Certidl.dll
 api_name:
- - ICertManageModule.SetProperty
- - CCertManageModule.SetProperty
+ - ICertManageModule::SetProperty
 ---
 
 # ICertManageModule::SetProperty
@@ -182,3 +181,4 @@ HRESULT CCertManagePolicyModule::SetProperty(
 
 
 <a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>
+

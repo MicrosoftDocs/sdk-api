@@ -46,6 +46,8 @@ api_type:
 api_location:
  - drt.h
 api_name:
+ - _DRT_ADDRESS
+ - PDRT_ADDRESS
  - DRT_ADDRESS
 ---
 
@@ -77,3 +79,4 @@ Round trip time to this node.
 ## -see-also
 
 <a href="/windows/desktop/api/drt/ns-drt-drt_address_list">DRT_ADDRESS_LIST</a>
+

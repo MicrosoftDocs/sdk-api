@@ -9,6 +9,8 @@ tech.root: controls
 f1_keywords:
  - shlobj
  - shlobj/shlobj
+api_name:
+ - shlobj
 ---
 
 # Shlobj.h header

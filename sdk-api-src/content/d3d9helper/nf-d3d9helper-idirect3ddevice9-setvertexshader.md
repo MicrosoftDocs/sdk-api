@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetVertexShader
+ - IDirect3DDevice9::SetVertexShader
 ---
 
 # IDirect3DDevice9::SetVertexShader
@@ -78,3 +78,4 @@ To set a fixed-function vertex shader (after having set a programmable vertex sh
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshader">IDirect3DDevice9::GetVertexShader</a>
+

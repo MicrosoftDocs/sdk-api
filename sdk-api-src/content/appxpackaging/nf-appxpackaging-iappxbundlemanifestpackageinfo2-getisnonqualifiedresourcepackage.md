@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage
+ - IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage
 ---
 
 # IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage
@@ -71,3 +71,4 @@ For more information on app resources, see <a href="/windows/uwp/app-resources/"
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo2">IAppxBundleManifestPackageInfo2</a>
+

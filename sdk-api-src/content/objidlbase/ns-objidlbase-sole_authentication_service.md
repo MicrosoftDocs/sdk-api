@@ -44,6 +44,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
+ - tagSOLE_AUTHENTICATION_SERVICE
  - SOLE_AUTHENTICATION_SERVICE
 ---
 
@@ -79,3 +80,4 @@ When used in <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitialize
 
 
 <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices">CoQueryAuthenticationServices</a>
+

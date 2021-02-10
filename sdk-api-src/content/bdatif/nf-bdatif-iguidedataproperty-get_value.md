@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IGuideDataProperty.get_Value
+ - IGuideDataProperty::get_Value
 ---
 
 # IGuideDataProperty::get_Value
@@ -91,3 +91,4 @@ If the name of the property is "Description.Name" then the value of the property
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataproperty">IGuideDataProperty Interface</a>
+

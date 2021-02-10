@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstanceCollection.Item
+ - IFunctionInstanceCollection::Item
 ---
 
 # IFunctionInstanceCollection::Item
@@ -104,3 +104,4 @@ The <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-i
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
+

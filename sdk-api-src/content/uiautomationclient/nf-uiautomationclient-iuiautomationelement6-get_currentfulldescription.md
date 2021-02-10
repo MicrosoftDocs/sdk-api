@@ -42,8 +42,7 @@ api_type:
 api_location:
  - uiautomationclient.h
 api_name:
- - IUIAutomationElement6.CurrentFullDescription
- - IUIAutomationElement6.get_CurrentFullDescription
+ - IUIAutomationElement6::get_CurrentFullDescription
 ---
 
 # IUIAutomationElement6::get_CurrentFullDescription
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>
+

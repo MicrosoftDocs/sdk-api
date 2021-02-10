@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.Approve
+ - IWMRegisteredDevice::Approve
 ---
 
 # IWMRegisteredDevice::Approve
@@ -100,3 +100,4 @@ Call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-isapproved">IWMRegisteredDevice::IsApproved</a>
+

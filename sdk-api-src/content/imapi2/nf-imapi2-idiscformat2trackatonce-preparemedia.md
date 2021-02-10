@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.PrepareMedia
+ - IDiscFormat2TrackAtOnce::PrepareMedia
 ---
 
 # IDiscFormat2TrackAtOnce::PrepareMedia
@@ -436,3 +436,4 @@ Note that Media Change Notification (MCN) and the <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>
+

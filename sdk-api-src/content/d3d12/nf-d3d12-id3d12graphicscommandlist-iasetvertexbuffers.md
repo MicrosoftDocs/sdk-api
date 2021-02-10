@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.IASetVertexBuffers
+ - ID3D12GraphicsCommandList::IASetVertexBuffers
 ---
 
 # ID3D12GraphicsCommandList::IASetVertexBuffers
@@ -79,3 +79,4 @@ Specifies the vertex buffer views in an array of <a href="/windows/desktop/api/d
 
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
+

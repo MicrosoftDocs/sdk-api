@@ -9,6 +9,8 @@ tech.root: rras
 f1_keywords:
  - rasshost
  - rasshost/rasshost
+api_name:
+ - rasshost
 ---
 
 # Rasshost.h header

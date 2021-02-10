@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - tagHistogramGrid
  - HistogramGrid
 ---
 
@@ -79,3 +80,4 @@ Absolute coordinates of the region on the sensor output that the histogram is co
 
 
 <a href="/windows/desktop/api/mfapi/ns-mfapi-histogramheader">HistogramHeader</a>
+

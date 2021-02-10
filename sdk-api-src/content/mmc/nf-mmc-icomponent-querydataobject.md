@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent.QueryDataObject
+ - IComponent::QueryDataObject
 ---
 
 # IComponent::QueryDataObject
@@ -118,3 +118,4 @@ These data objects can be passed to the same snap-in or to extension snap-ins th
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+

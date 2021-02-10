@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponentType.get_MediaSubType
+ - IComponentType::get_MediaSubType
 ---
 
 # IComponentType::get_MediaSubType
@@ -69,3 +69,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType Interface</a>
+

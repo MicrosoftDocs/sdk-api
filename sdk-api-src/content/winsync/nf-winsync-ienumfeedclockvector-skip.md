@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumFeedClockVector.Skip
+ - IEnumFeedClockVector::Skip
 ---
 
 # IEnumFeedClockVector::Skip
@@ -102,3 +102,4 @@ The enumerator reaches the end of its list before it can skip <i>cSyncVersions</
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - tagSCROLLINFO
+ - LPSCROLLINFO
  - SCROLLINFO
 ---
 
@@ -187,3 +189,4 @@ Specifies the immediate position of a scroll box that the user is dragging. An a
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a>
+

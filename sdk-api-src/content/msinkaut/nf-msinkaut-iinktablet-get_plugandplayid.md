@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablet.PlugAndPlayID
- - IInkTablet.get_PlugAndPlayID
- - IInkTablet.get_PlugAndPlayID
+ - IInkTablet::get_PlugAndPlayId
 ---
 
 # IInkTablet::get_PlugAndPlayId
@@ -78,3 +76,4 @@ The property value is based upon the <a href="/windows-hardware/drivers/ddi/cont
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionFactory.MakeNot
+ - IConditionFactory::MakeNot
 ---
 
 # IConditionFactory::MakeNot
@@ -112,3 +112,4 @@ Applications that need to execute queries based on the condition tree would typi
 
 
 <b>Reference</b>
+

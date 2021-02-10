@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_PROTOCOL_STATUS
+ - PWTS_PROTOCOL_STATUS
  - WTS_PROTOCOL_STATUS
 ---
 
@@ -85,3 +87,4 @@ An array of up to 100 counters.
 ## -remarks
 
 This structure is used by the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getprotocolstatus">GetProtocolStatus</a> method.
+

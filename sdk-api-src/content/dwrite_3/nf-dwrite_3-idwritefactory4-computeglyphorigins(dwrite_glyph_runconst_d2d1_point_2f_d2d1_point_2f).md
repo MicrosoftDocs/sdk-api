@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFactory4.ComputeGlyphOrigins
+ - IDWriteFactory4::ComputeGlyphOrigins
 ---
 
 ## -description
@@ -83,3 +83,4 @@ The transform and DPI have no effect on the origin scaling. They are solely used
 ## -see-also
 
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory4">IDWriteFactory4</a>
+

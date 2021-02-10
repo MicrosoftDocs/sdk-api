@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain3.ResizeBuffers1
+ - IDXGISwapChain3::ResizeBuffers1
 ---
 
 # IDXGISwapChain3::ResizeBuffers1

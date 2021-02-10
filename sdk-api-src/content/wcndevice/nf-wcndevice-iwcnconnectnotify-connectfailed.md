@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNConnectNotify.ConnectFailed
+ - IWCNConnectNotify::ConnectFailed
 ---
 
 # IWCNConnectNotify::ConnectFailed
@@ -69,3 +69,4 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
+

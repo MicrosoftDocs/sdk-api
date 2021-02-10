@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage.GetStorageGlobals
+ - IWMDMStorage::GetStorageGlobals
 ---
 
 # IWMDMStorage::GetStorageGlobals
@@ -81,3 +81,4 @@ The <b>IWMDMStorageGlobals</b> interface returned provides methods for accessing
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
+

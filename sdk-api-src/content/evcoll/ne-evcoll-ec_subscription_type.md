@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Evcoll.h
 api_name:
+ - _EC_SUBSCRIPTION_TYPE
  - EC_SUBSCRIPTION_TYPE
 ---
 
@@ -63,3 +64,4 @@ Allows you to define an event subscription on an event collector computer withou
 ### -field EcSubscriptionTypeCollectorInitiated
 
 The computer that receives forwarded events from event sources (other computers that the events were published on) initiates the subscription. You specify all the event sources at the time the subscription is created.
+

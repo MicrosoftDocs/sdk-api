@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVertexBuffer9.Lock
+ - IDirect3DVertexBuffer9::Lock
 ---
 
 # IDirect3DVertexBuffer9::Lock
@@ -115,3 +115,4 @@ For information about using D3DLOCK_DISCARD or D3DLOCK_NOOVERWRITE with <b>IDire
 
 
 <a href="/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
+

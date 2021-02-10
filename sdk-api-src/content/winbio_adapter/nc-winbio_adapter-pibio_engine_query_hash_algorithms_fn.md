@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterQueryHashAlgorithms
+ - PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN
 ---
 
 # PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN callback function
@@ -210,3 +210,4 @@ cleanup:
 
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+

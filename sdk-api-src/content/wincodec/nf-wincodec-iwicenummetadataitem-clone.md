@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICEnumMetadataItem.Clone
+ - IWICEnumMetadataItem::Clone
 ---
 
 # IWICEnumMetadataItem::Clone
@@ -65,3 +65,4 @@ A pointer that receives a pointer to the <a href="/windows/desktop/api/wincodec/
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

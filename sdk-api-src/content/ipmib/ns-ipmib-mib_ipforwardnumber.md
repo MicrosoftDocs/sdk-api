@@ -47,6 +47,8 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
+ - _MIB_IPFORWARDNUMBER
+ - PMIB_IPFORWARDNUMBER
  - MIB_IPFORWARDNUMBER
 ---
 
@@ -79,3 +81,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardtable">MIB_IPFORWARDTABLE</a>
+

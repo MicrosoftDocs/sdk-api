@@ -45,6 +45,7 @@ api_location:
  - ResApi.h
 api_name:
  - RESOURCE_STATUS
+ - PRESOURCE_STATUS
 ---
 
 # RESOURCE_STATUS structure
@@ -151,3 +152,4 @@ For more information, see
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>
+

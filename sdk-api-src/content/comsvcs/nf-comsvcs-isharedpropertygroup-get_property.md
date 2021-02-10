@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISharedPropertyGroup.get_Property
+ - ISharedPropertyGroup::get_Property
 ---
 
 # ISharedPropertyGroup::get_Property
@@ -103,3 +103,4 @@ The shared property with the name specified in the <i>Name</i> parameter does no
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
+

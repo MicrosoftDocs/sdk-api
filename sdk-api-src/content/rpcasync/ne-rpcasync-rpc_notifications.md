@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
+ - _RPC_NOTIFICATIONS
  - RPC_NOTIFICATIONS
 ---
 
@@ -77,3 +78,4 @@ The RPC call has been canceled.
 
 
 <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverunsubscribefornotification">RpcServerUnsubscribeForNotification</a>
+

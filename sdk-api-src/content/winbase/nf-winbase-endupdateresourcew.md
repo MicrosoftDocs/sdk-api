@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EndUpdateResourceW
  - winbase/EndUpdateResourceW
+ - EndUpdateResource
+ - winbase/EndUpdateResource
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - EndUpdateResource
- - EndUpdateResourceA
  - EndUpdateResourceW
+ - EndUpdateResource
 ---
 
 # EndUpdateResourceW function
@@ -112,3 +113,4 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Updating R
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>
+

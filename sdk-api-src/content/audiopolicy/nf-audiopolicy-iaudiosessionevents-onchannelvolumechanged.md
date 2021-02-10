@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionEvents.OnChannelVolumeChanged
+ - IAudioSessionEvents::OnChannelVolumeChanged
 ---
 
 # IAudioSessionEvents::OnChannelVolumeChanged
@@ -93,3 +93,4 @@ For a code example that implements the methods in the <b>IAudioSessionEvents</b>
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">IChannelAudioVolume::SetChannelVolume</a>
+

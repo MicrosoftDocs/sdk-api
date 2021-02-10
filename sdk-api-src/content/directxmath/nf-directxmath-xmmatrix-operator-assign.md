@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMMATRIX.operator =
+ - XMMATRIX::operator=
 ---
 
 # XMMATRIX::operator-assign

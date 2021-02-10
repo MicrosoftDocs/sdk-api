@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMEnumDevice.Skip
+ - IWMDMEnumDevice::Skip
 ---
 
 # IWMDMEnumDevice::Skip
@@ -81,3 +81,4 @@ If the requested number of devices to skip is greater than the remaining devices
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice Interface</a>
+

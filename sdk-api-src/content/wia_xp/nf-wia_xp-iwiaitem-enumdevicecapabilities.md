@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItem.EnumDeviceCapabilities
+ - IWiaItem::EnumDeviceCapabilities
 ---
 
 # IWiaItem::EnumDeviceCapabilities
@@ -94,3 +94,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Use this method to create an enumerator object to obtain the set of commands and events that a WIA device supports. You can use the <i>lFlags</i> parameter to specify which kinds of device capabilities to enumerate. The <b>IWiaItem::EnumDeviceCapabilities</b> method stores the address of the interface of the enumerator object in the <i>ppIEnumWIA_DEV_CAPS</i> parameter.
 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnumWIA_DEV_CAPS</i> parameter.
+

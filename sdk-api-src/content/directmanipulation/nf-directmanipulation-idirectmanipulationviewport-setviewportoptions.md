@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetViewportOptions
+ - IDirectManipulationViewport::SetViewportOptions
 ---
 
 # IDirectManipulationViewport::SetViewportOptions
@@ -71,3 +71,4 @@ Calling this method with <a href="/previous-versions/windows/desktop/api/directm
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
+

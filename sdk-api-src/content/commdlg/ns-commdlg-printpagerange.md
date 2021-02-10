@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
+ - tagPRINTPAGERANGE
  - PRINTPAGERANGE
 ---
 
@@ -71,3 +72,4 @@ The last page of the range.
 ## -see-also
 
 <a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+

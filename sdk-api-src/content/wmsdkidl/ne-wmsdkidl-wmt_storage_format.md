@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
+ - tagWMT_STORAGE_FORMAT
  - WMT_STORAGE_FORMAT
 ---
 
@@ -71,3 +72,4 @@ Storage format MP3 is supported for reading, but not writing.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
+

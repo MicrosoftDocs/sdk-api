@@ -42,7 +42,7 @@ api_type:
 api_location:
  - storageprovider.h
 api_name:
- - IStorageProviderPropertyHandler.SaveProperties
+ - IStorageProviderPropertyHandler::SaveProperties
 ---
 
 # IStorageProviderPropertyHandler::SaveProperties
@@ -69,3 +69,4 @@ Attempting to save properties that are not managed by the sync engine should res
 ## -see-also
 
 <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a>
+

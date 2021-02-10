@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgrEx.ActivateEx
+ - ITfThreadMgrEx::ActivateEx
 ---
 
 # ITfThreadMgrEx::ActivateEx
@@ -169,3 +169,4 @@ One or more parameters are invalid.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgrex">ITfThreadMgrEx</a>
+

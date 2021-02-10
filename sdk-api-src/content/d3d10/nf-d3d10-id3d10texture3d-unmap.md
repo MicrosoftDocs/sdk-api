@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Texture3D.Unmap
+ - ID3D10Texture3D::Unmap
 ---
 
 # ID3D10Texture3D::Unmap
@@ -80,3 +80,4 @@ Unmap() in Direct3D 10 is analogous to resource Unlock() in Direct3D 9.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10texture3d">ID3D10Texture3D Interface</a>
+

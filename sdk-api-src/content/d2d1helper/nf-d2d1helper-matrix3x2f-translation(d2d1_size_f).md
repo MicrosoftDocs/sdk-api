@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - Matrix3x2F.Translation
+ - Matrix3x2F::Translation
 ---
 
 # Matrix3x2F::Translation
@@ -78,3 +78,4 @@ When calling this method, specify the x and y displacements and create  a <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
+

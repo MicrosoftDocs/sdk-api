@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects.Render
+ - IWMPEffects::Render
 ---
 
 # IWMPEffects::Render
@@ -81,3 +81,4 @@ The device context is normalized by this method.
 
 
 <a href="/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel">TimedLevel</a>
+

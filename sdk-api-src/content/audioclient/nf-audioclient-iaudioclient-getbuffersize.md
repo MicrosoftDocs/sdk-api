@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient.GetBufferSize
+ - IAudioClient::GetBufferSize
 ---
 
 # IAudioClient::GetBufferSize
@@ -145,3 +145,4 @@ For code examples that call the <b>GetBufferSize</b> method, see the following t
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
+

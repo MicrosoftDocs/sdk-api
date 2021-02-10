@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetRestoreOptions
+ - IVssComponent::GetRestoreOptions
 ---
 
 # IVssComponent::GetRestoreOptions
@@ -147,3 +147,4 @@ If no restore options have been set, S_FALSE is returned.
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupoptions">IVssComponent::GetBackupOptions</a>
+

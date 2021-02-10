@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_graph_event_data_tag
+ - PPEER_GRAPH_EVENT_DATA
  - PEER_GRAPH_EVENT_DATA
 ---
 
@@ -117,3 +119,4 @@ This member is given a value if the <a href="/windows/desktop/api/p2p/ns-p2p-pee
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgeteventdata">PeerGraphGetEventData</a>
+

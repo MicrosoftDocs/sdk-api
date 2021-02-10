@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _SYSTEM_LOGICAL_PROCESSOR_INFORMATION
+ - PSYSTEM_LOGICAL_PROCESSOR_INFORMATION
  - SYSTEM_LOGICAL_PROCESSOR_INFORMATION
 ---
 
@@ -178,3 +180,4 @@ Reserved. Do not use.
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+

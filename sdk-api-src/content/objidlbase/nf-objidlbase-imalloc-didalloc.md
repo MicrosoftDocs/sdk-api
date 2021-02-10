@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMalloc.DidAlloc
+ - IMalloc::DidAlloc
 ---
 
 # IMalloc::DidAlloc
@@ -105,3 +105,4 @@ This method cannot determine whether this allocator allocated the block of memor
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
+

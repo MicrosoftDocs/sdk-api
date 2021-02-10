@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSManDisp.h
 api_name:
- - IWSManConnectionOptionsEx2.ProxyAutoDetect
+ - IWSManConnectionOptionsEx2::ProxyAutoDetect
 ---
 
 # IWSManConnectionOptionsEx2::ProxyAutoDetect
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptionsex2">IWSManConnectionOptionsEx2</a>
+

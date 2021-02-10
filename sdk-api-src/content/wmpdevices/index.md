@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmpdevices
  - wmpdevices/wmpdevices
+api_name:
+ - wmpdevices
 ---
 
 # Wmpdevices.h header

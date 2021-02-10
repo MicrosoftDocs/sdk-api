@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer.ReleaseCachedData
+ - IDynamicRenderer::ReleaseCachedData
 ---
 
 # IDynamicRenderer::ReleaseCachedData
@@ -84,3 +84,4 @@ The <b>IDynamicRenderer::ReleaseCachedData Method</b> method enables you to rele
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
+

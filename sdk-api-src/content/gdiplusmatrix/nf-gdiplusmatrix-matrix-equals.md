@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix.Equals
+ - Matrix::Equals
 ---
 
 # Matrix::Equals
@@ -84,3 +84,4 @@ If the elements of the two matrices are the same, this method returns <b>TRUE</b
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
+

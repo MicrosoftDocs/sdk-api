@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.MouseIcon
- - IInkPicture.get_MouseIcon
- - IInkPicture.put_MouseIcon
- - InkPicture.get_MouseIcon
- - InkPicture.put_MouseIcon
+ - IInkPicture::put_MouseIcon
 ---
 
 # IInkPicture::put_MouseIcon
@@ -86,3 +82,4 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer">MousePointer Property</a>
+

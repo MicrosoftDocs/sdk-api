@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IAlternativeName.InitializeFromOtherName
+ - IAlternativeName::InitializeFromOtherName
 ---
 
 # IAlternativeName::InitializeFromOtherName
@@ -130,3 +130,4 @@ You can use this function to initialize an <a href="/windows/desktop/api/certenr
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
+

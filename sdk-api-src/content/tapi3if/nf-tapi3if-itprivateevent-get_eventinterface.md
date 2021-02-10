@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPrivateEvent.get_EventInterface
+ - ITPrivateEvent::get_EventInterface
 ---
 
 # ITPrivateEvent::get_EventInterface
@@ -106,3 +106,4 @@ The <i>pEventInterface</i> parameter is not a valid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent">ITPrivateEvent</a>
+

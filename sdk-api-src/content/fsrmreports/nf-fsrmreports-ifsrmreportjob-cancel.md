@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportJob.Cancel
+ - IFsrmReportJob::Cancel
 ---
 
 # IFsrmReportJob::Cancel
@@ -61,3 +61,4 @@ The method returns the following return values.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
+

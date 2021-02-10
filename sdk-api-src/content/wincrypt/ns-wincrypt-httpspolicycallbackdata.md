@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _HTTPSPolicyCallbackData
+ - PHTTPSPolicyCallbackData
  - HTTPSPolicyCallbackData
 ---
 
@@ -174,3 +176,4 @@ A pointer to a null-terminated wide character string that contains the server na
 If the string is Punycode encoded, then the server name from the certificate, either the DNS name or common name, is converted to a Punycode encoded string. Matching is then performed, label-by-label if the name contains wildcards, or a case-insensitive exact match otherwise. 
 
 If the string contains Unicode characters outside of the ASCII character set and the subject name, either the DNS name or common name, is a Punycode encoded string then it is Punycode encoded before comparison.
+

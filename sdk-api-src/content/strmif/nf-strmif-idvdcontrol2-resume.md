@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2.Resume
+ - IDvdControl2::Resume
 ---
 
 # IDvdControl2::Resume
@@ -145,3 +145,4 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::RootMen
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
+

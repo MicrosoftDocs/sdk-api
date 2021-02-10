@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateExpressWriterMetadata.SetRestoreMethod
+ - IVssCreateExpressWriterMetadata::SetRestoreMethod
 ---
 
 # IVssCreateExpressWriterMetadata::SetRestoreMethod
@@ -174,3 +174,4 @@ If the restore method is VSS_RME_STOP_RESTORE_START or VSS_RME_RESTORE_STOP_STAR
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
+

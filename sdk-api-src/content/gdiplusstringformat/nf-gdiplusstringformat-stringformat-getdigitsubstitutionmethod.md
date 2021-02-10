@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat.GetDigitSubstitutionMethod
+ - StringFormat::GetDigitSubstitutionMethod
 ---
 
 # StringFormat::GetDigitSubstitutionMethod
@@ -67,3 +67,4 @@ This method returns an element of the
 ## -remarks
 
 The digit substitution method replaces, in a string, Western European digits with digits that correspond to a user's locale or language.
+

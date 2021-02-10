@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalEventSink.FireEvent
+ - ITPluggableTerminalEventSink::FireEvent
 ---
 
 # ITPluggableTerminalEventSink::FireEvent
@@ -72,3 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
+

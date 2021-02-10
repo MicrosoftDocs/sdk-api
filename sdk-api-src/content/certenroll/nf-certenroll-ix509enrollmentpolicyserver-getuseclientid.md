@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetUseClientId
+ - IX509EnrollmentPolicyServer::GetUseClientId
 ---
 
 # IX509EnrollmentPolicyServer::GetUseClientId
@@ -89,3 +89,4 @@ This method returns <b>VARIANT_TRUE</b> if the <b>PsfUseClientId</b> bit is set 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
+

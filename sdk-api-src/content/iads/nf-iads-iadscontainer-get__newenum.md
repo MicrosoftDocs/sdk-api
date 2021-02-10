@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsContainer.get__NewEnum
+ - IADsContainer::get__NewEnum
 ---
 
 # IADsContainer::get__NewEnum
@@ -166,3 +166,4 @@ pEnum->Release();
 
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+

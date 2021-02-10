@@ -44,6 +44,7 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_connection_info_tag
  - PEER_CONNECTION_INFO
 ---
 
@@ -91,3 +92,4 @@ Specifies the address of a remote node. The address is contained in a <a href="/
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupenumconnections">PeerGroupEnumConnections</a>
+

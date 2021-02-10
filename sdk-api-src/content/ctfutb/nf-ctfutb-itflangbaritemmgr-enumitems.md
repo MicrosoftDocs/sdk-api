@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemMgr.EnumItems
+ - ITfLangBarItemMgr::EnumItems
 ---
 
 # ITfLangBarItemMgr::EnumItems
@@ -120,3 +120,4 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12SharingContract.Present
+ - ID3D12SharingContract::Present
 ---
 
 # ID3D12SharingContract::Present
@@ -73,3 +73,4 @@ If provided, indicates which window the tools should use for displaying addition
 ## -see-also
 
 [ID3D12SharingContract](/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract)
+

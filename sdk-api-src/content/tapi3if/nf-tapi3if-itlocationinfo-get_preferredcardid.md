@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLocationInfo.get_PreferredCardID
+ - ITLocationInfo::get_PreferredCardID
 ---
 
 # ITLocationInfo::get_PreferredCardID
@@ -119,3 +119,4 @@ The value that this method returns corresponds to the <b>dwPreferredCardID</b> m
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
+

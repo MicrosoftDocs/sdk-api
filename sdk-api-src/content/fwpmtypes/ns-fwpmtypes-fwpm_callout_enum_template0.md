@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_CALLOUT_ENUM_TEMPLATE0_
  - FWPM_CALLOUT_ENUM_TEMPLATE0
 ---
 
@@ -71,3 +72,4 @@ Uniquely identifies a layer. If this member is non-NULL, only callouts associate
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

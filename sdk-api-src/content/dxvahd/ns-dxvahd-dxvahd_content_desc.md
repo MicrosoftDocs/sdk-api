@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_CONTENT_DESC
  - DXVAHD_CONTENT_DESC
 ---
 
@@ -104,3 +105,4 @@ Frame rates are expressed as ratios. For example, 30 frames per second (fps) is 
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

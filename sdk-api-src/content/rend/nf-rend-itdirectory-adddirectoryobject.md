@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory.AddDirectoryObject
+ - ITDirectory::AddDirectoryObject
 ---
 
 # ITDirectory::AddDirectoryObject
@@ -122,3 +122,4 @@ This method is not implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+

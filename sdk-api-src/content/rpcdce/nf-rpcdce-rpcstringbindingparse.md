@@ -43,8 +43,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcStringBindingParse
- - RpcStringBindingParseA
- - RpcStringBindingParseW
 ---
 
 # RpcStringBindingParse function
@@ -175,3 +173,4 @@ If any field of the <i>StringBinding</i> parameter is empty,
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+

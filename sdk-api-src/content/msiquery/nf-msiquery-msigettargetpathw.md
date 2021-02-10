@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetTargetPathW
  - msiquery/MsiGetTargetPathW
+ - MsiGetTargetPath
+ - msiquery/MsiGetTargetPath
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetTargetPath
- - MsiGetTargetPathA
  - MsiGetTargetPathW
+ - MsiGetTargetPath
 ---
 
 # MsiGetTargetPathW function
@@ -112,3 +113,4 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 <a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
+

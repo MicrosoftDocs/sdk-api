@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumPluggableSuperclassInfo.Next
+ - IEnumPluggableSuperclassInfo::Next
 ---
 
 # IEnumPluggableSuperclassInfo::Next
@@ -135,3 +135,4 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalsuperclassinfo">ITPluggableTerminalSuperclassInfo</a>
+

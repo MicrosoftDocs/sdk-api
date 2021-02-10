@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking.GetDuration
+ - IMediaSeeking::GetDuration
 ---
 
 # IMediaSeeking::GetDuration
@@ -80,3 +80,4 @@ Depending on the source format, the duration might not be exact. For example, if
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
+

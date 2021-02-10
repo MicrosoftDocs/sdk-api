@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort.Priority
- - IFaxPort.get_Priority
- - IFaxPort.put_Priority
+ - IFaxPort::put_Priority
 ---
 
 # IFaxPort::put_Priority
@@ -79,3 +77,4 @@ When the fax server initiates an outgoing fax transmission, it chooses the fax p
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a>
+

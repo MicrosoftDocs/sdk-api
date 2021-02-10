@@ -43,7 +43,7 @@ api_location:
  - Vscmgr.lib
  - Vscmgr.dll
 api_name:
- - ITpmVirtualSmartCardManager.CreateVirtualSmartCard
+ - ITpmVirtualSmartCardManager::CreateVirtualSmartCard
 ---
 
 # ITpmVirtualSmartCardManager::CreateVirtualSmartCard
@@ -124,3 +124,4 @@ When the method succeeds, the <i>ppszInstanceId</i> parameter points to the Unic
 ## -see-also
 
 <a href="/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanager">ITpmVirtualSmartCardManager</a>
+

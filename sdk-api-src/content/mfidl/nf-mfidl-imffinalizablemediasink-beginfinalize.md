@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFFinalizableMediaSink.BeginFinalize
+ - IMFFinalizableMediaSink::BeginFinalize
 ---
 
 # IMFFinalizableMediaSink::BeginFinalize
@@ -94,3 +94,4 @@ When the finalize operation is complete, the callback object's <a href="/windows
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imffinalizablemediasink">IMFFinalizableMediaSink</a>
+

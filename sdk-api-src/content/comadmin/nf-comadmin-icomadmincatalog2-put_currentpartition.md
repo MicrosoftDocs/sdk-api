@@ -42,8 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.CurrentPartition
- - ICOMAdminCatalog2.put_CurrentPartition
+ - ICOMAdminCatalog2::put_CurrentPartition
 ---
 
 # ICOMAdminCatalog2::put_CurrentPartition
@@ -60,3 +59,4 @@ This property is write-only.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
+

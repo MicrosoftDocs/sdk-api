@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.BeginEvent
+ - ID3D12GraphicsCommandList::BeginEvent
 ---
 
 # ID3D12GraphicsCommandList::BeginEvent
@@ -82,3 +82,4 @@ To mark the start of an instrumentation region at the current location within a 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
+

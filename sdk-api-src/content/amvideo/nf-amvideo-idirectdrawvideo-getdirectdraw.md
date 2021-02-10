@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetDirectDraw
+ - IDirectDrawVideo::GetDirectDraw
 ---
 
 # IDirectDrawVideo::GetDirectDraw
@@ -74,3 +74,4 @@ If an application wants to load DirectDraw but allow the renderer to also alloca
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
+

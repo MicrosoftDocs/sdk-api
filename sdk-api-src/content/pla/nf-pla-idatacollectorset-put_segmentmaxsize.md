@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.SegmentMaxSize
- - IDataCollectorSet.get_SegmentMaxSize
- - IDataCollectorSet.put_SegmentMaxSize
+ - IDataCollectorSet::put_SegmentMaxSize
 ---
 
 # IDataCollectorSet::put_SegmentMaxSize
@@ -75,3 +73,4 @@ PLA tries to limit the log file size to this value; however, the actual size of 
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxduration">IDataCollectorSet::SegmentMaxDuration</a>
+

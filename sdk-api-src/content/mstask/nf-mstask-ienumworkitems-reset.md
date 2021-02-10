@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IEnumWorkItems.Reset
+ - IEnumWorkItems::Reset
 ---
 
 # IEnumWorkItems::Reset
@@ -111,3 +111,4 @@ The
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">IEnumWorkItems::Skip</a>
+

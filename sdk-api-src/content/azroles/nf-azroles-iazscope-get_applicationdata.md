@@ -42,10 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope.ApplicationData
- - IAzScope.get_ApplicationData
- - IAzScope.put_ApplicationData
- - AzScope.ApplicationData
+ - IAzScope::get_ApplicationData
 ---
 
 # IAzScope::get_ApplicationData

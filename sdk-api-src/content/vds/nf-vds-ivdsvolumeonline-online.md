@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeOnline.Online
+ - IVdsVolumeOnline::Online
 ---
 
 # IVdsVolumeOnline::Online
@@ -116,3 +116,4 @@ To take the volume offline, call <a href="/windows/desktop/api/vds/nf-vds-ivdsvo
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumeonline">IVdsVolumeOnline</a>
+

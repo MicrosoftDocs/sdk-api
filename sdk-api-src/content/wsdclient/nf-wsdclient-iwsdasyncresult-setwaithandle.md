@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDAsyncResult.SetWaitHandle
+ - IWSDAsyncResult::SetWaitHandle
 ---
 
 # IWSDAsyncResult::SetWaitHandle
@@ -109,3 +109,4 @@ Do not close <i>hWaitHandle</i> until after the asynchronous operation has compl
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
+

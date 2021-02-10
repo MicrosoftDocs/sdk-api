@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - dciman
  - dciman/dciman
+api_name:
+ - dciman
 ---
 
 # Dciman.h header

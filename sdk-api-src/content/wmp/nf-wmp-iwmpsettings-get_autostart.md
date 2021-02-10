@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings.get_autoStart
+ - IWMPSettings::get_autoStart
 ---
 
 # IWMPSettings::get_autoStart
@@ -109,3 +109,4 @@ If <i>pfAutoStart</i> is <b>TRUE</b>, the media item will begin playing when <b>
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_autostart">IWMPSettings::put_autoStart</a>
+

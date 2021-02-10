@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetLeft
+ - IDCompositionRectangleClip::SetLeft
 ---
 
 # IDCompositionRectangleClip::SetLeft(float)
@@ -78,3 +78,4 @@ If the Left property was previously animated, this method removes the animation 
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
+

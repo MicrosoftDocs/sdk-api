@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionCertificatePolicies.InitializeDecode
+ - IX509ExtensionCertificatePolicies::InitializeDecode
 ---
 
 # IX509ExtensionCertificatePolicies::InitializeDecode
@@ -102,3 +102,4 @@ You can retrieve the following properties for this extension:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensioncertificatepolicies">IX509ExtensionCertificatePolicies</a>
+

@@ -43,7 +43,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - INetworkCostManager
- - INetworkCostManager.GetCost
 ---
 
 # INetworkCostManager interface
@@ -67,3 +66,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkCostManager</b> inter
 
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+

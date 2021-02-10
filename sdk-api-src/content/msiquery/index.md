@@ -9,6 +9,8 @@ tech.root: setup
 f1_keywords:
  - msiquery
  - msiquery/msiquery
+api_name:
+ - msiquery
 ---
 
 # Msiquery.h header

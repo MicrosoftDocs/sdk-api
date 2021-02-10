@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMPEG2StreamIdMap.EnumStreamIdMap
+ - IMPEG2StreamIdMap::EnumStreamIdMap
 ---
 
 # IMPEG2StreamIdMap::EnumStreamIdMap
@@ -74,3 +74,4 @@ Currently, there is only one stream ID mapped to a given pin, therefore this col
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-impeg2streamidmap">IMPEG2StreamIdMap Interface</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiLocateComponentW
  - msi/MsiLocateComponentW
+ - MsiLocateComponent
+ - msi/MsiLocateComponent
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiLocateComponent
- - MsiLocateComponentA
  - MsiLocateComponentW
+ - MsiLocateComponent
 ---
 
 # MsiLocateComponentW function
@@ -209,3 +210,4 @@ The feature is not published. The application should have determined this earlie
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
+

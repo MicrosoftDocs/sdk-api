@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara.GetTabCount
+ - ITextPara::GetTabCount
 ---
 
 # ITextPara::GetTabCount
@@ -149,3 +149,4 @@ The tab count of a new instance can be nonzero, depending on the underlying text
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

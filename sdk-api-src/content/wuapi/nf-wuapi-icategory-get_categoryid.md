@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ICategory.CategoryID
- - ICategory.get_CategoryID
+ - ICategory::get_CategoryID
 ---
 
 # ICategory::get_CategoryID
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a>
+

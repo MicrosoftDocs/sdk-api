@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _SCOPE_MIB_INFO
+ - LPSCOPE_MIB_INFO
  - SCOPE_MIB_INFO
 ---
 
@@ -81,3 +83,4 @@ Contains the number of IP addresses currently in the offer state for this scope.
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linequeuelist_tag
+ - LPLINEQUEUELIST
  - LINEQUEUELIST
 ---
 
@@ -100,3 +102,4 @@ Offset from the beginning of the structure to an array of
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetqueuelista">lineGetQueueList</a>
+

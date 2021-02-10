@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher.EscapeString
+ - IUpdateSearcher::EscapeString
 ---
 
 # IUpdateSearcher::EscapeString
@@ -89,3 +89,4 @@ A parameter value is invalid or <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
+

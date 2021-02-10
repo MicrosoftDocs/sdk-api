@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern.Move
+ - IUIAutomationTransformPattern::Move
 ---
 
 # IUIAutomationTransformPattern::Move
@@ -87,3 +87,4 @@ An element cannot be moved, resized or rotated such that its resulting screen lo
 
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>
+

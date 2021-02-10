@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumPins.Clone
+ - IEnumPins::Clone
 ---
 
 # IEnumPins::Clone
@@ -125,3 +125,4 @@ If the number of pins changes, the enumerator is no longer consistent with the f
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>
+

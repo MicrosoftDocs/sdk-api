@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher2.IgnoreDownloadPriority
- - IUpdateSearcher2.get_IgnoreDownloadPriority
- - IUpdateSearcher2.put_IgnoreDownloadPriority
+ - IUpdateSearcher2::get_IgnoreDownloadPriority
 ---
 
 # IUpdateSearcher2::get_IgnoreDownloadPriority
@@ -65,3 +63,4 @@ The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher2">IUpdateSearch
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher2">IUpdateSearcher2</a>
+

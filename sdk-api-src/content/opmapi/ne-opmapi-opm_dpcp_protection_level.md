@@ -44,6 +44,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
+ - _OPM_DPCP_PROTECTION_LEVEL
  - OPM_DPCP_PROTECTION_LEVEL
 ---
 
@@ -71,3 +72,4 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>
+

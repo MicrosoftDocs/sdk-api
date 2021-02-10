@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_Server
  - MI_Server
 ---
 
@@ -76,3 +77,4 @@ Pointer to <a href="/windows/desktop/api/mi/ns-mi-mi_propertyset">MI_PropertySet
 ### -field filterFT
 
 Pointer to <a href="/windows/desktop/api/mi/ns-mi-mi_filter">MI_Filter</a> function table.
+

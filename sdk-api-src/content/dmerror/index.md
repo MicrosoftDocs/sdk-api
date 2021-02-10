@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - dmerror
  - dmerror/dmerror
+api_name:
+ - dmerror
 ---
 
 # Dmerror.h header

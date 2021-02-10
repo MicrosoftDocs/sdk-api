@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2PsiParser.h
 api_name:
- - IGenericDescriptor.GetLength
+ - IGenericDescriptor::GetLength
 ---
 
 # IGenericDescriptor::GetLength
@@ -99,3 +99,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor Interface</a>
+

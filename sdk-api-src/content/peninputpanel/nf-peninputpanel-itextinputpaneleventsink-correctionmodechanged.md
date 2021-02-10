@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.CorrectionModeChanged
+ - ITextInputPanelEventSink::CorrectionModeChanged
 ---
 
 # ITextInputPanelEventSink::CorrectionModeChanged
@@ -112,3 +112,4 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanging">ITextInputPanelEventSink::CorrectionModeChanging Method</a>
+

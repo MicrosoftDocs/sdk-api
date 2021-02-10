@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaType.IsCompressedFormat
+ - IMFMediaType::IsCompressedFormat
 ---
 
 # IMFMediaType::IsCompressedFormat
@@ -85,3 +85,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/medfound/media-types">Media Types</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel.SetInPlaceVisibility
+ - ITextInputPanel::SetInPlaceVisibility
 ---
 
 # ITextInputPanel::SetInPlaceVisibility
@@ -149,3 +149,4 @@ void CCOMTIPDlg::OnEnSetfocusEdit1()
 
 
 <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>
+

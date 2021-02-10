@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsControllerPort.GetController
+ - IVdsControllerPort::GetController
 ---
 
 # IVdsControllerPort::GetController
@@ -116,3 +116,4 @@ The controller port object is no longer present.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontrollerport">IVdsControllerPort</a>
+

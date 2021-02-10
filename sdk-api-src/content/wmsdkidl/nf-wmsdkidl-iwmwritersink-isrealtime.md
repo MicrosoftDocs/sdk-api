@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterSink.IsRealTime
+ - IWMWriterSink::IsRealTime
 ---
 
 # IWMWriterSink::IsRealTime
@@ -68,3 +68,4 @@ This method is implemented by the application. It should always return S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink Interface</a>
+

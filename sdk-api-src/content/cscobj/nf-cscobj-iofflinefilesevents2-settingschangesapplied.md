@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents2.SettingsChangesApplied
+ - IOfflineFilesEvents2::SettingsChangesApplied
 ---
 
 # IOfflineFilesEvents2::SettingsChangesApplied
@@ -66,3 +66,4 @@ After the Offline Files service reports that it has detected changes in Group Po
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents2">IOfflineFilesEvents2</a>
+

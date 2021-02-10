@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IFolderAction.Actions
- - IFolderAction.get_Actions
- - IFolderAction.put_Actions
+ - IFolderAction::get_Actions
 ---
 
 # IFolderAction::get_Actions
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>
+

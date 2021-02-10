@@ -44,6 +44,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
+ - tagDOT11_ADHOC_AUTH_ALGORITHM
  - DOT11_ADHOC_AUTH_ALGORITHM
 ---
 
@@ -102,3 +103,4 @@ Authentication and cipher algorithms are used in pairs. The following table show
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>
+

@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.AttachMode
- - IInkOverlay.get_AttachMode
- - IInkOverlay.put_AttachMode
- - InkOverlay.get_AttachMode
- - InkOverlay.put_AttachMode
+ - IInkOverlay::get_AttachMode
 ---
 
 # IInkOverlay::get_AttachMode
@@ -85,3 +81,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayattachmode">InkOverlayAttachMode Enumeration</a>
+

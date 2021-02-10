@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataDispenser.OpenScope
+ - IMetaDataDispenser::OpenScope
 ---
 
 ## -description
@@ -88,3 +88,4 @@ The in-memory copy of the metadata can be queried using methods from one of the 
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a>
+

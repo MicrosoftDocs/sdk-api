@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_HostedProviderFT
  - MI_HostedProviderFT
 ---
 
@@ -63,3 +64,4 @@ See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_c
 
 See 
       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_getapplication">MI_HostedProvider_GetApplication</a>.
+

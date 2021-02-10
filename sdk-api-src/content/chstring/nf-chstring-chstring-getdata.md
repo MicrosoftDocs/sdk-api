@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString.GetData
+ - CHString::GetData
 ---
 
 # CHString::GetData
@@ -68,3 +68,4 @@ If the <b>GetData</b> method is successful, it returns a pointer to the data in 
 ## -see-also
 
 <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
+

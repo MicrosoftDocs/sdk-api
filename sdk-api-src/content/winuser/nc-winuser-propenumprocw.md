@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - PropEnumProc
- - PropEnumProcA
- - PropEnumProcW
+ - PROPENUMPROCW
 ---
 
 # PROPENUMPROCW callback function
@@ -120,3 +118,4 @@ The following restrictions apply to this callback function:
 
 
 <a href="/windows/desktop/winmsg/window-properties">Window Properties</a>
+

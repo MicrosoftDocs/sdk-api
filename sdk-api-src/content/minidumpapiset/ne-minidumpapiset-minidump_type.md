@@ -44,6 +44,7 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
+ - _MINIDUMP_TYPE
  - MINIDUMP_TYPE
 ---
 
@@ -236,3 +237,4 @@ Indicates which flags are valid.
 ## -see-also
 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
+

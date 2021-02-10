@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetRoleTextA
  - oleacc/GetRoleTextA
+ - GetRoleText
+ - oleacc/GetRoleText
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Oleacc.dll
  - ext-ms-win-oleacc-l1-1-1.dll
 api_name:
- - GetRoleText
  - GetRoleTextA
- - GetRoleTextW
+ - GetRoleText
 ---
 
 # GetRoleTextA function
@@ -87,3 +88,4 @@ If the string resource does not exist, or if the <i>lpszRole</i> parameter is no
 
 > [!NOTE]
 > The oleacc.h header defines GetRoleText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxFolders.OutgoingQueue
- - IFaxFolders.get_OutgoingQueue
- - IFaxFolders.get_OutgoingQueue
+ - IFaxFolders::get_OutgoingQueue
 ---
 
 # IFaxFolders::get_OutgoingQueue
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-the-outgoing-queue-properties">Visual Basic Example</a>
+

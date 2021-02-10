@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFClockStateSink.OnClockStop
+ - IMFClockStateSink::OnClockStop
 ---
 
 # IMFClockStateSink::OnClockStop
@@ -117,3 +117,4 @@ If an object is already stopped, it should return <b>S_OK</b> from <b>OnClockSto
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

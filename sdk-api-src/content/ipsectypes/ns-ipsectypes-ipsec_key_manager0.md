@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ipsectypes.h
 api_name:
+ - _IPSEC_KEY_MANAGER0
  - IPSEC_KEY_MANAGER0
 ---
 
@@ -112,3 +113,4 @@ Time, in seconds, after which the <b>keyDictation</b> callback must return in or
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

@@ -32,6 +32,7 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_POWER_SETTING
+ - PWLAN_POWER_SETTING
  - WLAN_POWER_SETTING
 ---
 
@@ -69,3 +70,4 @@ The supplied power setting is invalid.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
+

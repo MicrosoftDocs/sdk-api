@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterCreateKey
+ - PIBIO_ENGINE_CREATE_KEY_FN
 ---
 
 # PIBIO_ENGINE_CREATE_KEY_FN callback function
@@ -88,3 +88,4 @@ If the sensor cannot create the key, <b>WINBIO_E_KEY_CREATION_FAILED</b> must be
 ## -remarks
 
 Only a single key will be in use at any time. If <b>EngineAdapterCreateKey</b> is called when the engine has knowledge of a preexisting key, the preexisting key must be overwritten with the new one.
+

@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - RPC_BINDING_HANDLE_SECURITY_V1
+ - _RPC_BINDING_HANDLE_SECURITY_V1_A
+ - PRPC_BINDING_HANDLE_SECURITY_V1_A
  - RPC_BINDING_HANDLE_SECURITY_V1_A
- - RPC_BINDING_HANDLE_SECURITY_V1_W
 ---
 
 # RPC_BINDING_HANDLE_SECURITY_V1_A structure
@@ -201,3 +201,4 @@ The following table summarizes the default security settings for the different p
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
+

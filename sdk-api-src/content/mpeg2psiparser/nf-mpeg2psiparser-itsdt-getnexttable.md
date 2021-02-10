@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2PsiParser.h
 api_name:
- - ITSDT.GetNextTable
+ - ITSDT::GetNextTable
 ---
 
 # ITSDT::GetNextTable
@@ -93,3 +93,4 @@ This method applies only to current tables. Otherwise, the method returns E_ACCE
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-itsdt">ITSDT Interface</a>
+

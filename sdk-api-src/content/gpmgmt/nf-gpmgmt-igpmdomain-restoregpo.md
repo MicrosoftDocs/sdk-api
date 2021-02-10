@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMDomain.RestoreGPO
- - GPMDomain.RestoreGPO
+ - IGPMDomain::RestoreGPO
 ---
 
 ## -description
@@ -126,3 +125,4 @@ As a best practice, we recommend that you validate the DC in a restore operation
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
+

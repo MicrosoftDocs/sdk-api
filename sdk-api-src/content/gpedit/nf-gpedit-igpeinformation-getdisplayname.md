@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGPEInformation.GetDisplayName
+ - IGPEInformation::GetDisplayName
 ---
 
 # IGPEInformation::GetDisplayName
@@ -89,3 +89,4 @@ To retrieve the unique name for the GPO (typically a GUID), you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
+

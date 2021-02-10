@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureReference.GetDigestValue
+ - IOpcSignatureReference::GetDigestValue
 ---
 
 # IOpcSignatureReference::GetDigestValue
@@ -140,3 +140,4 @@ This method allocates memory used by the buffer returned in <i>digestValue</i>. 
 
 
 <b>Reference</b>
+

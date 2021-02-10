@@ -45,7 +45,8 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
- - ENTRYLIST
+ - _SBinaryArray
+ - SBinaryArray
 ---
 
 # SBinaryArray structure
@@ -68,3 +69,4 @@ Variable of type <b>ULONG</b> that specifies the number of entry identifiers.
 Type: <b><a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a>*</b>
 
 Array of variables of type <a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> that specify the entry identifiers.
+

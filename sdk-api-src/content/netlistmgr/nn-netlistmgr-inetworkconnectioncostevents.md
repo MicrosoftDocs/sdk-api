@@ -43,7 +43,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - INetworkConnectionCostEvents
- - INetworkConnectionCostEvents.ConnectionCostChanged
 ---
 
 # INetworkConnectionCostEvents interface

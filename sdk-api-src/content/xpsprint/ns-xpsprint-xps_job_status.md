@@ -44,6 +44,7 @@ api_type:
 api_location:
  - XpsPrint.h
 api_name:
+ - __MIDL___MIDL_itf_xpsprint_0000_0000_0002
  - XPS_JOB_STATUS
 ---
 
@@ -97,3 +98,4 @@ The error state of the job.  If the job finishes without an error, this value wi
 
 
 <a href="/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - storageprovider.h
 api_name:
- - IStorageProviderPropertyHandler.RetrieveProperties
+ - IStorageProviderPropertyHandler::RetrieveProperties
 ---
 
 # IStorageProviderPropertyHandler::RetrieveProperties
@@ -79,3 +79,4 @@ Any properties that are not managed by the sync engine should return <b>VT_EMPTY
 ## -see-also
 
 <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a>
+

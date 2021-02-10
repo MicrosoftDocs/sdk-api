@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IEnumTuneRequests.Reset
+ - IEnumTuneRequests::Reset
 ---
 
 # IEnumTuneRequests::Reset
@@ -83,3 +83,4 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumtunerequests">IEnumTuneRequests Interface</a>
+

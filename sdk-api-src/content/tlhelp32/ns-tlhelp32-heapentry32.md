@@ -44,6 +44,7 @@ api_type:
 api_location:
  - TlHelp32.h
 api_name:
+ - tagHEAPENTRY32
  - HEAPENTRY32
 ---
 
@@ -138,3 +139,4 @@ The heap identifier. This is not a handle, and has meaning only to the tool help
 
 
 <a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32next">Heap32Next</a>
+

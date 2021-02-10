@@ -42,8 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogCollection.RemoveEnabled
- - ICatalogCollection.get_RemoveEnabled
+ - ICatalogCollection::get_RemoveEnabled
 ---
 
 # ICatalogCollection::get_RemoveEnabled
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
+

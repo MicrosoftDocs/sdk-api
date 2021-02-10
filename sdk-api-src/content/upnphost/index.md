@@ -9,6 +9,8 @@ tech.root: upnp
 f1_keywords:
  - upnphost
  - upnphost/upnphost
+api_name:
+ - upnphost
 ---
 
 # Upnphost.h header

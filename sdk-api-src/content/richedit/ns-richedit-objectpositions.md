@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
+ - _objectpositions
  - OBJECTPOSITIONS
 ---
 
@@ -89,3 +90,4 @@ This is used in the <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-
 
 
 <b>Reference</b>
+

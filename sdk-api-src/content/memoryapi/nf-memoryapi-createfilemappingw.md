@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateFileMappingW
  - memoryapi/CreateFileMappingW
+ - CreateFileMapping
+ - memoryapi/CreateFileMapping
 dev_langs:
  - c++
 topic_type:
@@ -58,9 +60,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - CreateFileMapping
- - CreateFileMappingA
  - CreateFileMappingW
+ - CreateFileMapping
 ---
 
 # CreateFileMappingW function
@@ -641,3 +642,4 @@ File Mapping Functions
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
+

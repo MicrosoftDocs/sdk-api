@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
+ - _DD_GETVPORTFIELDDATA
+ - PDD_GETVPORTFIELDDATA
  - DD_GETVPORTFIELDDATA
 ---
 
@@ -81,3 +83,4 @@ Used by the DirectDraw API and should not be filled in by the driver.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getfield">DdVideoPortGetField</a>
+

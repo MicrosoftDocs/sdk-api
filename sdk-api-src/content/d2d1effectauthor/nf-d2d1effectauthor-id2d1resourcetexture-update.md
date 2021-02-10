@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1ResourceTexture.Update
+ - ID2D1ResourceTexture::Update
 ---
 
 # ID2D1ResourceTexture::Update
@@ -128,3 +128,4 @@ The number of dimensions in the update must match those of the created texture.
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1resourcetexture">ID2D1ResourceTexture</a>
+

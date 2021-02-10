@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
+ - __MIDL___MIDL_itf_vmr9_0000_0001_0001
  - VMR9SurfaceAllocationFlags
 ---
 
@@ -91,3 +92,4 @@ The VMR9AllocFlag_TextureSurface flag can be combined with the VMR9AllocFlag_DXV
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

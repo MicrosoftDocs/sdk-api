@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEncoderAPI.IsSupported
+ - IEncoderAPI::IsSupported
 ---
 
 # IEncoderAPI::IsSupported
@@ -108,3 +108,4 @@ Any errors besides those in the table above indicate an inability to process the
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>
+

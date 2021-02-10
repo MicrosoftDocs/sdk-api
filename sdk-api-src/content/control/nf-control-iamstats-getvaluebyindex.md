@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStats.GetValueByIndex
+ - IAMStats::GetValueByIndex
 ---
 
 # IAMStats::GetValueByIndex
@@ -155,3 +155,4 @@ To get the number of statistics, call [IAMStats::GetIndex](/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
+

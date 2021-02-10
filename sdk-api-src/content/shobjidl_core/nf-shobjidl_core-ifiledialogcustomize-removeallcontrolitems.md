@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogCustomize.RemoveAllControlItems
+ - IFileDialogCustomize::RemoveAllControlItems
 ---
 
 # IFileDialogCustomize::RemoveAllControlItems

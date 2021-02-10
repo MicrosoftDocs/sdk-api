@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.WriteCertToCSP
- - IEnroll.get_WriteCertToCSP
- - IEnroll.put_WriteCertToCSP
+ - IEnroll::put_WriteCertToCSP
 ---
 
 # IEnroll::put_WriteCertToCSP
@@ -85,3 +83,4 @@ To explicitly force that the Certificate Enrollment Control not attempt to write
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+

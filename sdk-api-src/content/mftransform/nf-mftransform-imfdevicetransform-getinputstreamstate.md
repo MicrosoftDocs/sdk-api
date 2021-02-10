@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform.GetInputStreamState
+ - IMFDeviceTransform::GetInputStreamState
 ---
 
 # IMFDeviceTransform::GetInputStreamState
@@ -113,3 +113,4 @@ This method is used by device transform  manager (DTM) to get a specific input s
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
+

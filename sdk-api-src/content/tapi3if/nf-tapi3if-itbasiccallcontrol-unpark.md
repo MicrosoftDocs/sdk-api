@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl.Unpark
+ - ITBasicCallControl::Unpark
 ---
 
 # ITBasicCallControl::Unpark
@@ -168,3 +168,4 @@ pBasicCall -&gt;Unpark();</code></pre>
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
+

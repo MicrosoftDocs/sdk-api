@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.SelectCall
+ - ITAutomatedPhoneControl::SelectCall
 ---
 
 # ITAutomatedPhoneControl::SelectCall
@@ -125,3 +125,4 @@ Depending on the circumstances, the phone object performs one of the following a
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
+

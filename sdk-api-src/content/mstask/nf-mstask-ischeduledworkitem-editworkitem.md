@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.EditWorkItem
+ - IScheduledWorkItem::EditWorkItem
 ---
 
 # IScheduledWorkItem::EditWorkItem
@@ -123,3 +123,4 @@ Not enough memory is available.
 ## -see-also
 
 <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+

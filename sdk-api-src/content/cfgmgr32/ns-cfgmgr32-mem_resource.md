@@ -46,6 +46,8 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
+ - Mem_Resource_s
+ - PMEM_RESOURCE
  - MEM_RESOURCE
 ---
 
@@ -81,3 +83,4 @@ A [MEM_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range) array.
 
 
 [MEM_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)
+

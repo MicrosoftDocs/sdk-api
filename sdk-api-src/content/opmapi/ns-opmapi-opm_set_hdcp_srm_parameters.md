@@ -44,6 +44,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
+ - _OPM_SET_HDCP_SRM_PARAMETERS
  - OPM_SET_HDCP_SRM_PARAMETERS
 ---
 
@@ -67,3 +68,4 @@ Contains the SRM version number in little-endian format. This number is containe
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

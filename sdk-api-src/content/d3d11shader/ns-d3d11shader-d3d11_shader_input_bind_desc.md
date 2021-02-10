@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D11Shader.h
 api_name:
+ - _D3D11_SHADER_INPUT_BIND_DESC
  - D3D11_SHADER_INPUT_BIND_DESC
 ---
 
@@ -111,3 +112,4 @@ Get a shader-input-signature description by calling <a href="/windows/desktop/ap
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
+

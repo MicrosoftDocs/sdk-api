@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamMute.GetMute
+ - IAudioEndpointOffloadStreamMute::GetMute
 ---
 
 # IAudioEndpointOffloadStreamMute::GetMute
@@ -65,3 +65,4 @@ The <b>GetMute</b> method returns <b>S_OK</b> to indicate that it has completed 
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammute">IAudioEndpointOffloadStreamMute</a>
+

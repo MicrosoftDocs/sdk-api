@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocatorCallbackTemp.SetNotify
+ - IMemAllocatorCallbackTemp::SetNotify
 ---
 
 # IMemAllocatorCallbackTemp::SetNotify
@@ -76,3 +76,4 @@ The allocator holds a reference count on the caller's <b>IMemAllocatorNotifyCall
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocatorcallbacktemp">IMemAllocatorCallbackTemp Interface</a>
+

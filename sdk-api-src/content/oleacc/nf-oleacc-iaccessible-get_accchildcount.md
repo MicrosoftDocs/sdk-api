@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible.get_accChildCount
+ - IAccessible::get_accChildCount
 ---
 
 # IAccessible::get_accChildCount
@@ -89,3 +89,4 @@ The number of children in an object can change. An application tracks the change
 
 
 <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">IAccessible::get_accParent</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMultiMediaStream.SetState
+ - IMultiMediaStream::SetState
 ---
 
 # IMultiMediaStream::SetState
@@ -100,3 +100,4 @@ Stopping the multimedia stream object deletes any data that is pending.
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
+

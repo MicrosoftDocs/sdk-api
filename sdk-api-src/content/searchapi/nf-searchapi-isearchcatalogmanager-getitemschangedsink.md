@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCatalogManager.GetItemsChangedSink
+ - ISearchCatalogManager::GetItemsChangedSink
 ---
 
 # ISearchCatalogManager::GetItemsChangedSink
@@ -95,3 +95,4 @@ Receives a pointer to the number indicating the last checkpoint to be saved.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

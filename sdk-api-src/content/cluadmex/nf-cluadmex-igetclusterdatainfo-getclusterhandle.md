@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterDataInfo.GetClusterHandle
+ - IGetClusterDataInfo::GetClusterHandle
 ---
 
 # IGetClusterDataInfo::GetClusterHandle
@@ -64,3 +64,4 @@ A cluster handle.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterdatainfo">IGetClusterDataInfo</a>
+

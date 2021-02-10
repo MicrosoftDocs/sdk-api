@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IExpandCollapseProvider.ExpandCollapseState
- - IExpandCollapseProvider.get_ExpandCollapseState
+ - IExpandCollapseProvider::get_ExpandCollapseState
 ---
 
 # IExpandCollapseProvider::get_ExpandCollapseState
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

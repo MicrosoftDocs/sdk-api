@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll2.GetSupportedKeySpec
+ - IEnroll2::GetSupportedKeySpec
 ---
 
 # IEnroll2::GetSupportedKeySpec
@@ -78,3 +78,4 @@ Call this method to determine whether the current CSP supports exchange keys, si
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
+

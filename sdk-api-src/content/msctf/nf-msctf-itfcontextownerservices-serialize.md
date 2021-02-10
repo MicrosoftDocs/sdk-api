@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContextOwnerServices.Serialize
+ - ITfContextOwnerServices::Serialize
 ---
 
 # ITfContextOwnerServices::Serialize
@@ -147,3 +147,4 @@ When calling this method, the application must be able to grant a synchronous re
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_persistent_property_header_acp">TF_PERSISTENT_PROPERTY_HEADER_ACP
       </a>
+

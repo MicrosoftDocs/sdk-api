@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageACT2.GetDeviceName
+ - IEnhancedStorageACT2::GetDeviceName
 ---
 
 # IEnhancedStorageACT2::GetDeviceName
@@ -109,3 +109,4 @@ The memory containing the device name string is allocated by the Enhanced Storag
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact2">IEnhancedStorageACT2</a>
+

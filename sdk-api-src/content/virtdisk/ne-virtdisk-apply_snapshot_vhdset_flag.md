@@ -47,6 +47,8 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _APPLY_SNAPSHOT_VHDSET_FLAG
+ - PAPPLY_SNAPSHOT_VHDSET_FLAG
  - APPLY_SNAPSHOT_VHDSET_FLAG
 ---
 

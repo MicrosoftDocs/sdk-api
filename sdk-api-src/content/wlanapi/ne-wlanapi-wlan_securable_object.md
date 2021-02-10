@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
+ - _WLAN_SECURABLE_OBJECT
+ - PWLAN_SECURABLE_OBJECT
  - WLAN_SECURABLE_OBJECT
 ---
 
@@ -241,3 +243,4 @@ These objects can be secured using <a href="/windows/desktop/api/wlanapi/nf-wlan
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileposition">WlanSetProfilePosition</a>
+

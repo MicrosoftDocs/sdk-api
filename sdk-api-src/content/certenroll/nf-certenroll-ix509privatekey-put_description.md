@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey.Description
- - IX509PrivateKey.get_Description
- - IX509PrivateKey.put_Description
+ - IX509PrivateKey::put_Description
 ---
 
 # IX509PrivateKey::put_Description
@@ -65,3 +63,4 @@ This property can contain any text and is intended to be displayed in a user int
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
+

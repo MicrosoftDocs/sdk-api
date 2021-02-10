@@ -46,7 +46,8 @@ api_type:
 api_location:
  - Shellapi.h
 api_name:
- - NOTIFYICONDATA
+ - _NOTIFYICONDATAW
+ - PNOTIFYICONDATAW
  - NOTIFYICONDATAW
 ---
 
@@ -627,3 +628,4 @@ This also occurs in the case of a side-by-side installation. When dealing with a
 ## -see-also
 
 <a href="/windows/desktop/shell/notification-area">Notifications and the Notification Area</a>
+

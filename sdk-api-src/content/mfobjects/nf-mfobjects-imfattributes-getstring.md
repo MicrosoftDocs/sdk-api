@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAttributes.GetString
+ - IMFAttributes::GetString
 ---
 
 # IMFAttributes::GetString
@@ -196,3 +196,4 @@ HRESULT AttributeGetString(IMFAttributes *pAttributes)
 
 
 <a href="/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
+

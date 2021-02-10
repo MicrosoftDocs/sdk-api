@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IGridItemProvider.ContainingGrid
- - IGridItemProvider.get_ContainingGrid
+ - IGridItemProvider::get_ContainingGrid
 ---
 
 # IGridItemProvider::get_ContainingGrid
@@ -66,3 +65,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

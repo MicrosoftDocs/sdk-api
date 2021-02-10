@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiNamedStreams.get_Count
+ - IFsiNamedStreams::get_Count
 ---
 
 # IFsiNamedStreams::get_Count
@@ -88,3 +88,4 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams">IFsiNamedStreams</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator.GetBuffer
+ - IAMVideoAccelerator::GetBuffer
 ---
 
 # IAMVideoAccelerator::GetBuffer
@@ -196,3 +196,4 @@ Until all compressed buffers are released, it is possible that the calling threa
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
+

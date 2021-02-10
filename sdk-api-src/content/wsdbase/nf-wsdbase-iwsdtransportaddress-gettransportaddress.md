@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDTransportAddress.GetTransportAddress
+ - IWSDTransportAddress::GetTransportAddress
 ---
 
 # IWSDTransportAddress::GetTransportAddress
@@ -114,3 +114,4 @@ The string returned by this method may contain an IPv4 or unbracketed IPv6 addre
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
+

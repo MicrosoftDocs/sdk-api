@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.idl
 api_name:
- - IActionProgress.QueryCancel
+ - IActionProgress::QueryCancel
 ---
 
 # IActionProgress::QueryCancel
@@ -77,3 +77,4 @@ Call this method when a process must know whether an action has been canceled. I
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-resetcancel">IActionProgress::ResetCancel</a>
+

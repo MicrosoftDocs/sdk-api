@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MAKEINTRESOURCEA
  - winuser/MAKEINTRESOURCEA
+ - MAKEINTRESOURCE
+ - winuser/MAKEINTRESOURCE
 dev_langs:
  - c++
 topic_type:
@@ -42,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - MAKEINTRESOURCEA
  - MAKEINTRESOURCE
 ---
 
@@ -72,3 +75,4 @@ The return value should be passed only to functions which explicitly indicate th
 ## -see-also
 
 <a href="/windows/desktop/menurc/resources">Resources Overview</a>
+

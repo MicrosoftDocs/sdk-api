@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
+ - PAM_COPY_MACROVISION_LEVEL
  - AM_COPY_MACROVISION_LEVEL
 ---
 
@@ -79,3 +80,4 @@ The <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_copy
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
+

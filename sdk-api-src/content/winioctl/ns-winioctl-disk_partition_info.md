@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DISK_PARTITION_INFO
+ - PDISK_PARTITION_INFO
  - DISK_PARTITION_INFO
 ---
 

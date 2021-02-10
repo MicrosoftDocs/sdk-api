@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStreamEvents.OnReadCompleted
+ - IRDPSRAPITransportStreamEvents::OnReadCompleted
 ---
 
 # IRDPSRAPITransportStreamEvents::OnReadCompleted
@@ -67,3 +67,4 @@ An <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportst
 
 
 <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-readbuffer">ReadBuffer</a>
+

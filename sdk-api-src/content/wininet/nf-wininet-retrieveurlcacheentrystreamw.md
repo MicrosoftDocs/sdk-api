@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RetrieveUrlCacheEntryStreamW
  - wininet/RetrieveUrlCacheEntryStreamW
+ - RetrieveUrlCacheEntryStream
+ - wininet/RetrieveUrlCacheEntryStream
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - RetrieveUrlCacheEntryStream
- - RetrieveUrlCacheEntryStreamA
  - RetrieveUrlCacheEntryStreamW
+ - RetrieveUrlCacheEntryStream
 ---
 
 # RetrieveUrlCacheEntryStreamW function
@@ -145,3 +146,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+

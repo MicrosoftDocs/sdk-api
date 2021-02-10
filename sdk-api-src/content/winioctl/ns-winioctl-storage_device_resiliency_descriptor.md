@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
+ - PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR
  - STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 ---
 
@@ -105,3 +107,4 @@ Size of a stripe unit of the storage device, in bytes. This is also referred to 
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
+

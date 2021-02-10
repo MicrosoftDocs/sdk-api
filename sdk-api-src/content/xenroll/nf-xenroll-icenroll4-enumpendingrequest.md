@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.enumPendingRequest
- - CEnroll.enumPendingRequest
+ - ICEnroll4::enumPendingRequest
 ---
 
 # ICEnroll4::enumPendingRequest
@@ -161,3 +160,4 @@ If you specify any other value for <i>lDesiredProperty</i> this method returns E
 ## -remarks
 
 This method is disabled when  the Certificate Enrollment Control is executed as a scripted control.
+

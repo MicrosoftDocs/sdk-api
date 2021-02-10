@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RegEnumKeyA
  - winreg/RegEnumKeyA
+ - RegEnumKey
+ - winreg/RegEnumKey
 dev_langs:
  - c++
 topic_type:
@@ -45,9 +47,8 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegEnumKey
  - RegEnumKeyA
- - RegEnumKeyW
+ - RegEnumKey
 ---
 
 # RegEnumKeyA function
@@ -164,3 +165,4 @@ While an application is using the
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
+

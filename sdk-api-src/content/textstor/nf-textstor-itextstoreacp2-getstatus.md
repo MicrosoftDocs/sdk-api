@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITextStoreACP2.GetStatus
+ - ITextStoreACP2::GetStatus
 ---
 
 # ITextStoreACP2::GetStatus
@@ -108,3 +108,4 @@ The pointer to the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status"
 
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a>
+

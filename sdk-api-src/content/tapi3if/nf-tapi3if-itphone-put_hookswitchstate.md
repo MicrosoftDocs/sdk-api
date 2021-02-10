@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone.put_HookSwitchState
+ - ITPhone::put_HookSwitchState
 ---
 
 # ITPhone::put_HookSwitchState
@@ -83,3 +83,4 @@ Typically, speakerphones and headsets have application-settable hookswitch state
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_hookswitchstate">get_HookSwitchState</a>
+

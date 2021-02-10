@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_Session
  - MI_Session
 ---
 
@@ -76,3 +77,4 @@ This is the function table for accessing carrying out
 
 
 <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocalsession">MI_Context_GetLocalSession</a>
+

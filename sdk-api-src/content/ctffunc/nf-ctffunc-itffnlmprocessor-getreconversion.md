@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnLMProcessor.GetReconversion
+ - ITfFnLMProcessor::GetReconversion
 ---
 
 # ITfFnLMProcessor::GetReconversion
@@ -139,3 +139,4 @@ This method is identical to <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itf
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
+

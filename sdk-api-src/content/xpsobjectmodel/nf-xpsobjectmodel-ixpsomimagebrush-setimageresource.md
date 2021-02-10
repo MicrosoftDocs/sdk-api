@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMImageBrush.SetImageResource
+ - IXpsOMImageBrush::SetImageResource
 ---
 
 # IXpsOMImageBrush::SetImageResource
@@ -125,3 +125,4 @@ The image resource must be of type JPEG, PNG, TIFF 6.0, or HD  Photo.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
+

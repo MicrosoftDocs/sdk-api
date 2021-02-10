@@ -43,11 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.PrefixText
- - IInkRecognizerContext.get_PrefixText
- - IInkRecognizerContext.put_PrefixText
- - InkRecognizerContext.get_PrefixText
- - InkRecognizerContext.put_PrefixText
+ - IInkRecognizerContext::put_PrefixText
 ---
 
 # IInkRecognizerContext::put_PrefixText
@@ -98,3 +94,4 @@ If your application provides a correction interface when converting ink to text,
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext">SuffixText Property</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcLibrary.ComputeDefaultRecursionDepth
+ - IRdcLibrary::ComputeDefaultRecursionDepth
 ---
 
 # IRdcLibrary::ComputeDefaultRecursionDepth
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPRegistrar.RegisterDeviceProvider
+ - IUPnPRegistrar::RegisterDeviceProvider
 ---
 
 # IUPnPRegistrar::RegisterDeviceProvider
@@ -94,3 +94,4 @@ Common errors that can occur when invoking this function include:
 
 
 <a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdeviceprovider">IUPnPRegistrar::UnregisterDeviceProvider</a>
+

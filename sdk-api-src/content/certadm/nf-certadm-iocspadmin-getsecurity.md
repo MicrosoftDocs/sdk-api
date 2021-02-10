@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin.GetSecurity
+ - IOCSPAdmin::GetSecurity
 ---
 
 # IOCSPAdmin::GetSecurity
@@ -77,3 +77,4 @@ This method calls the <a href="/windows/desktop/api/sddl/nf-sddl-convertsecurity
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
+

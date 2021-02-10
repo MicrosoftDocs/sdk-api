@@ -9,6 +9,8 @@ tech.root: tapi3
 f1_keywords:
  - mspstrm
  - mspstrm/mspstrm
+api_name:
+ - mspstrm
 ---
 
 # Mspstrm.h header

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs.Clone
+ - IEnumPortableDeviceObjectIDs::Clone
 ---
 
 # IEnumPortableDeviceObjectIDs::Clone
@@ -92,3 +92,4 @@ Not implemented in this release.
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>
+

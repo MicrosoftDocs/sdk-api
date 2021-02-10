@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_SAML_MESSAGE_SECURITY_BINDING
  - WS_SAML_MESSAGE_SECURITY_BINDING
 ---
 
@@ -104,3 +105,4 @@ To use this binding on HTTP without SSL, the security description property <b>WS
 
 The authenticator for validating incoming SAML tokens.  This field is
 required.
+

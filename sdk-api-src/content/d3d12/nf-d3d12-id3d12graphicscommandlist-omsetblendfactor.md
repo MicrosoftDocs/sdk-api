@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.OMSetBlendFactor
+ - ID3D12GraphicsCommandList::OMSetBlendFactor
 ---
 
 # ID3D12GraphicsCommandList::OMSetBlendFactor
@@ -69,3 +69,4 @@ If you pass NULL, then the runtime uses or stores a blend factor equal to `{ 1, 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
+

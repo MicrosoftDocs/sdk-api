@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_LUN_PLEX_PROP
+ - PVDS_LUN_PLEX_PROP
  - VDS_LUN_PLEX_PROP
 ---
 
@@ -183,3 +185,4 @@ The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a>
+

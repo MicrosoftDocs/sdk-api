@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioenginebaseapo.h
 api_name:
- - IAudioSystemEffects2.GetEffectsList
+ - IAudioSystemEffects2::GetEffectsList
 ---
 
 # IAudioSystemEffects2::GetEffectsList
@@ -85,3 +85,4 @@ APOs should identify effects using GUIDs defined by Windows, such as AUDIO_EFFEC
 
 
 <a href="/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects2">IAudioSystemEffects2</a>
+

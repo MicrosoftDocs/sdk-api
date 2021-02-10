@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntddpsch.h
 api_name:
+ - _PS_COMPONENT_STATS
+ - PPS_COMPONENT_STATS
  - PS_COMPONENT_STATS
 ---
 
@@ -156,3 +158,4 @@ Array of structures of the type indicated in the <b>Type</b> member.
 
 
 <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_shaper_stats">PS_SHAPER_STATS</a>
+

@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _VERIFY_INFORMATION
+ - PVERIFY_INFORMATION
  - VERIFY_INFORMATION
 ---
 
@@ -69,3 +71,4 @@ The length of the disk extent, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_verify">IOCTL_DISK_VERIFY</a>
+

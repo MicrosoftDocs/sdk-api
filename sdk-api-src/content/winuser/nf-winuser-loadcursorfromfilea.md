@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - LoadCursorFromFileA
  - winuser/LoadCursorFromFileA
+ - LoadCursorFromFile
+ - winuser/LoadCursorFromFile
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - User32.dll
  - ext-ms-win-ntuser-gui-l1-2-1.dll
 api_name:
- - LoadCursorFromFile
  - LoadCursorFromFileA
- - LoadCursorFromFileW
+ - LoadCursorFromFile
 ---
 
 # LoadCursorFromFileA function
@@ -127,3 +128,4 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setsystemcursor">SetSystemCursor</a>
+

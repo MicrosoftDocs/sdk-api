@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_SERVER_OCSP_RESPONSE_CONTEXT
+ - PCERT_SERVER_OCSP_RESPONSE_CONTEXT
  - CERT_SERVER_OCSP_RESPONSE_CONTEXT
 ---
 

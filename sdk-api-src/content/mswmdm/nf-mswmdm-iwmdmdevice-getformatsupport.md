@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice.GetFormatSupport
+ - IWMDMDevice::GetFormatSupport
 ---
 
 # IWMDMDevice::GetFormatSupport
@@ -165,3 +165,4 @@ e_Exit:
 
 
 <a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>
+

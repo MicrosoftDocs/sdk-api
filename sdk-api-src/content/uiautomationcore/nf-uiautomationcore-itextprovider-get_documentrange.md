@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextProvider.DocumentRange
- - ITextProvider.get_DocumentRange
+ - ITextProvider::get_DocumentRange
 ---
 
 # ITextProvider::get_DocumentRange
@@ -76,3 +75,4 @@ Some auxiliary text such as headers, footnotes, or annotations may not be includ
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

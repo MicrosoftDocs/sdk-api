@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISendMethodEvents.SendMethodReturn
+ - ISendMethodEvents::SendMethodReturn
 ---
 
 # ISendMethodEvents::SendMethodReturn
@@ -81,3 +81,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isendmethodevents">ISendMethodEvents</a>
+

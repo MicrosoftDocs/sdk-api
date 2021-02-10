@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnectionCallback.DisplayIOCtl
+ - IWTSProtocolConnectionCallback::DisplayIOCtl
 ---
 
 # IWTSProtocolConnectionCallback::DisplayIOCtl
@@ -82,3 +82,4 @@ To avoid deadlocks when calling this method:
 
 
 <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_display_ioctl">WTS_DISPLAY_IOCTL</a>
+

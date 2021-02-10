@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
+ - _WSD_ENDPOINT_REFERENCE_LIST
  - WSD_ENDPOINT_REFERENCE_LIST
 ---
 
@@ -67,3 +68,4 @@ Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_r
 ## -see-also
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>
+

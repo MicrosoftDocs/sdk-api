@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetSwitches
+ - IDirectDrawVideo::GetSwitches
 ---
 
 # IDirectDrawVideo::GetSwitches
@@ -135,3 +135,4 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
+

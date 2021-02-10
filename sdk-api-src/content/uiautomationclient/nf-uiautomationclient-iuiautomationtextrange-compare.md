@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.Compare
+ - IUIAutomationTextRange::Compare
 ---
 
 # IUIAutomationTextRange::Compare
@@ -83,3 +83,4 @@ This method compares the endpoints of the two text ranges, not the text in the r
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

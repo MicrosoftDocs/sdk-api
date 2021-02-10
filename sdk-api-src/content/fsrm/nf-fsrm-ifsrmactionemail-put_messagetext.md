@@ -42,12 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionEmail2.MessageText
- - IFsrmActionEmail2.get_MessageText
- - IFsrmActionEmail2.put_MessageText
- - IFsrmActionEmail.MessageText
- - IFsrmActionEmail.get_MessageText
- - IFsrmActionEmail.put_MessageText
+ - IFsrmActionEmail::put_MessageText
 ---
 
 # IFsrmActionEmail::put_MessageText
@@ -88,3 +83,4 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
+

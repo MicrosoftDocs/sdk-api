@@ -42,7 +42,7 @@ api_type:
 api_location:
  - activationregistration.h
 api_name:
- - IDllServerActivatableClassRegistration.get_ThreadingType
+ - IDllServerActivatableClassRegistration::get_ThreadingType
 ---
 
 # IDllServerActivatableClassRegistration::get_ThreadingType
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/activationregistration/ne-activationregistration-threadingtype">ThreadingType</a>
+

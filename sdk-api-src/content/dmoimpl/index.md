@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - dmoimpl
  - dmoimpl/dmoimpl
+api_name:
+ - dmoimpl
 ---
 
 # Dmoimpl.h header

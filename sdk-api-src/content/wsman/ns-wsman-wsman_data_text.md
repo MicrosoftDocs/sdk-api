@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
+ - _WSMAN_DATA_TEXT
  - WSMAN_DATA_TEXT
 ---
 
@@ -63,3 +64,4 @@ Specifies the number of UNICODE characters stored in the buffer.
 ### -field buffer
 
 Specifies the storage location for the textual data.
+

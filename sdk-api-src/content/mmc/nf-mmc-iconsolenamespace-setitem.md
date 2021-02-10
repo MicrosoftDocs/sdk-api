@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.SetItem
- - IConsoleNameSpace2.SetItem
+ - IConsoleNameSpace::SetItem
 ---
 
 # IConsoleNameSpace::SetItem
@@ -71,3 +70,4 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
+

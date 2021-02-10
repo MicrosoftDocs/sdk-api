@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMImageInfo.GetImageCount
+ - IWMImageInfo::GetImageCount
 ---
 
 # IWMImageInfo::GetImageCount
@@ -112,3 +112,4 @@ One of the ID3 frames that should be in the file cannot be accessed.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmimageinfo-getimage">IWMImageInfo::GetImage</a>
+

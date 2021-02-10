@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_DOSP_STATE_ENUM_TEMPLATE0_
  - IPSEC_DOSP_STATE_ENUM_TEMPLATE0
 ---
 
@@ -75,3 +76,4 @@ An [FWP_V6_ADDR_AND_MASK](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

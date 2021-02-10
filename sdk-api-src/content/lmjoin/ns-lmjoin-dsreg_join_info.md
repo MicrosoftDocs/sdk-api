@@ -46,6 +46,8 @@ api_type:
 api_location:
  - lmjoin.h
 api_name:
+ - _DSREG_JOIN_INFO
+ - PDSREG_JOIN_INFO
  - DSREG_JOIN_INFO
 ---
 
@@ -110,3 +112,4 @@ Information about the user account  that was used to join a device to Azure AD.
 <a href="/windows/desktop/api/lmjoin/ne-lmjoin-dsreg_join_type">DSREG_JOIN_TYPE</a>
 
 <a href="/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_user_info">DSREG_USER_INFO</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost.TxViewChange
+ - ITextHost::TxViewChange
 ---
 
 # ITextHost::TxViewChange
@@ -102,3 +102,4 @@ After the text services object has updated the active view, it can call <b>TxVie
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

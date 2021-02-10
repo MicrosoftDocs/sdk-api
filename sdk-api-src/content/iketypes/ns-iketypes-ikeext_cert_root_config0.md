@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_CERT_ROOT_CONFIG0_
  - IKEEXT_CERT_ROOT_CONFIG0
 ---
 
@@ -188,3 +189,4 @@ Available only on Windows 8 and Windows Server 2012.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

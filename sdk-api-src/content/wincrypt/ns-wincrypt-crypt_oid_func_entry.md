@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_OID_FUNC_ENTRY
+ - PCRYPT_OID_FUNC_ENTRY
  - CRYPT_OID_FUNC_ENTRY
 ---
 
@@ -70,3 +72,4 @@ The starting address of the function that the OID identifies.
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a>
+

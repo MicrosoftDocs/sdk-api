@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices.TxGetText
+ - ITextServices::TxGetText
 ---
 
 # ITextServices::TxGetText
@@ -135,3 +135,4 @@ The returned text will <i>not</i> necessarily be null-terminated.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

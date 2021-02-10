@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_RETRIEVE_AUX_INFO
+ - PCRYPT_RETRIEVE_AUX_INFO
  - CRYPT_RETRIEVE_AUX_INFO
 ---
 
@@ -102,3 +104,4 @@ A value that specifies a status code from an unsuccessful HTTP response header. 
 ### -field ppwszErrorResponseHeaders
 
 ### -field ppErrorContentBlob
+

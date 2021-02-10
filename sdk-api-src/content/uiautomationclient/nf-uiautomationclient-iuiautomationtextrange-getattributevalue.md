@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.GetAttributeValue
+ - IUIAutomationTextRange::GetAttributeValue
 ---
 
 # IUIAutomationTextRange::GetAttributeValue
@@ -95,3 +95,4 @@ The <b>GetAttributeValue</b> method retrieves the attribute value regardless of 
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
+

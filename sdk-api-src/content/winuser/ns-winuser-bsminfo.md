@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - PBSMINFO
  - BSMINFO
 ---
 
@@ -96,3 +97,4 @@ A locally unique identifier (LUID) for the window.
 
 
 <b>Reference</b>
+

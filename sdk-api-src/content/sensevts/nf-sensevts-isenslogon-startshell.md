@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon.StartShell
+ - ISensLogon::StartShell
 ---
 
 # ISensLogon::StartShell
@@ -100,3 +100,4 @@ SENS calls this method to notify an application that the shell is started.
 
 
 <a href="/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
+

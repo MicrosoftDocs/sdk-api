@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent.get_OverallCallRate
+ - ITAgent::get_OverallCallRate
 ---
 
 # ITAgent::get_OverallCallRate
@@ -124,3 +124,4 @@ The <b>CURRENCY</b> type is used here instead of <b>FLOAT</b> for Visual Basic a
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
+

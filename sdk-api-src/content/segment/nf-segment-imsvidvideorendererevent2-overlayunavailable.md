@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRendererEvent2.OverlayUnavailable
+ - IMSVidVideoRendererEvent2::OverlayUnavailable
 ---
 
 # IMSVidVideoRendererEvent2::OverlayUnavailable
@@ -61,3 +61,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidvideorendererevent2">IMSVidVideoRendererEvent2</a>
+

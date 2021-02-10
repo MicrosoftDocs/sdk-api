@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNetworkIsProtseqValidA
  - rpcdce/RpcNetworkIsProtseqValidA
+ - RpcNetworkIsProtseqValid
+ - rpcdce/RpcNetworkIsProtseqValid
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcNetworkIsProtseqValid
  - RpcNetworkIsProtseqValidA
- - RpcNetworkIsProtseqValidW
+ - RpcNetworkIsProtseqValid
 ---
 
 # RpcNetworkIsProtseqValidA function
@@ -134,3 +135,4 @@ A protocol sequence is valid if both the RPC run-time library and the operating 
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
+

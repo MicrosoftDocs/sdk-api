@@ -42,7 +42,7 @@ api_type:
 api_location:
  - directmanipulation.h
 api_name:
- - IDirectManipulationViewportEventHandler.OnViewportUpdated
+ - IDirectManipulationViewportEventHandler::OnViewportUpdated
 ---
 
 # IDirectManipulationViewportEventHandler::OnViewportUpdated
@@ -69,3 +69,4 @@ If you have actions that need to be executed once for a viewport update, impleme
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewporteventhandler">IDirectManipulationViewportEventHandler</a>
+

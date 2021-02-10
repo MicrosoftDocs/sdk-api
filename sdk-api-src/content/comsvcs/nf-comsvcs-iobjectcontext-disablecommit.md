@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectContext.DisableCommit
+ - IObjectContext::DisableCommit
 ---
 
 # IObjectContext::DisableCommit
@@ -107,3 +107,4 @@ For example, suppose you have a GeneralLedger component that updates a database.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
+

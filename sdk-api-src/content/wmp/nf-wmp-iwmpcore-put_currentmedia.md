@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore.put_currentMedia
+ - IWMPCore::put_currentMedia
 ---
 
 # IWMPCore::put_currentMedia
@@ -105,3 +105,4 @@ You can retrieve an <b>IWMPMedia</b> interface for a given media item by invokin
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_autostart">IWMPSettings::put_autoStart</a>
+

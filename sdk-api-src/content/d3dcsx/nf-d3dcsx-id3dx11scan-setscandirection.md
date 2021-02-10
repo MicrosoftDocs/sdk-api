@@ -43,7 +43,7 @@ api_location:
  - d3dcsx.lib
  - d3dcsx.dll
 api_name:
- - ID3DX11Scan.SetScanDirection
+ - ID3DX11Scan::SetScanDirection
 ---
 
 # ID3DX11Scan::SetScanDirection
@@ -74,3 +74,4 @@ Returns one of the return codes described in the topic <a href="/windows/desktop
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11scan">ID3DX11Scan</a>
+

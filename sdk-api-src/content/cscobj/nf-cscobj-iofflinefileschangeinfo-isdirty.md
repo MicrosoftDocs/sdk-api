@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesChangeInfo.IsDirty
+ - IOfflineFilesChangeInfo::IsDirty
 ---
 
 # IOfflineFilesChangeInfo::IsDirty
@@ -70,3 +70,4 @@ When an item is modified offline, it is marked as "dirty." Such items must be sy
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileschangeinfo">IOfflineFilesChangeInfo</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice.EnumStorage
+ - IWMDMDevice::EnumStorage
 ---
 
 # IWMDMDevice::EnumStorage
@@ -85,3 +85,4 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage Interface</a>
+

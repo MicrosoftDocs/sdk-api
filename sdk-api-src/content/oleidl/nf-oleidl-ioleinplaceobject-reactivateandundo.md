@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceObject.ReactivateAndUndo
+ - IOleInPlaceObject::ReactivateAndUndo
 ---
 
 # IOleInPlaceObject::ReactivateAndUndo
@@ -105,3 +105,4 @@ If the user chooses the <b>Undo</b> command before the undo state of the object 
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>
+

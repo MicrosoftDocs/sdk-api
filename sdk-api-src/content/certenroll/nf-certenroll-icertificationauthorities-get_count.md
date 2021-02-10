@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertificationAuthorities.Count
- - ICertificationAuthorities.get_Count
+ - ICertificationAuthorities::get_Count
 ---
 
 # ICertificationAuthorities::get_Count
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
+

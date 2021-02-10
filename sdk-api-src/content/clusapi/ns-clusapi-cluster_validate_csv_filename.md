@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ClusApi.h
 api_name:
+ - _CLUSTER_VALIDATE_CSV_FILENAME
+ - PCLUSTER_VALIDATE_CSV_FILENAME
  - CLUSTER_VALIDATE_CSV_FILENAME
 ---
 
@@ -65,3 +67,4 @@ A  Unicode string that contains the volume name of the CSV. The string ends with
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
+

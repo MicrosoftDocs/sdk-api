@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.CachedIsTopmost
- - IUIAutomationWindowPattern.get_CachedIsTopmost
+ - IUIAutomationWindowPattern::get_CachedIsTopmost
 ---
 
 # IUIAutomationWindowPattern::get_CachedIsTopmost
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationwindowpattern">IUIAutomationWindowPattern</a>
+

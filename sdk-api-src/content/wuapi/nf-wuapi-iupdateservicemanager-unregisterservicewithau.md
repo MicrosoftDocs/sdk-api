@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceManager.UnregisterServiceWithAU
+ - IUpdateServiceManager::UnregisterServiceWithAU
 ---
 
 # IUpdateServiceManager::UnregisterServiceWithAU
@@ -160,3 +160,4 @@ This method returns <b>WU_E_DS_NEEDWINDOWSSERVICE</b> if you attempt to remove t
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
+

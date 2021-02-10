@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsAdmin.h
 api_name:
- - IVssAdmin.RegisterProvider
+ - IVssAdmin::RegisterProvider
 ---
 
 # IVssAdmin::RegisterProvider
@@ -186,3 +186,4 @@ If the hardware provider is updated, the setup application should call the
 
 
 <a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a>
+

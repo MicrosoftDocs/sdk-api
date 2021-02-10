@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
+ - _SERVER_INFO_1523
+ - PSERVER_INFO_1523
  - SERVER_INFO_1523
 ---
 
@@ -78,3 +80,4 @@ Specifies the length of time the server retains information about incomplete sea
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
+

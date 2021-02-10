@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
+ - _EAP_ATTRIBUTE
  - EAP_ATTRIBUTE
 ---
 
@@ -70,3 +71,4 @@ Pointer to a byte buffer that contains the data value of the attribute.
 [Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - D3D11Shader.h
 api_name:
+ - _D3D11_SHADER_VARIABLE_DESC
  - D3D11_SHADER_VARIABLE_DESC
 ---
 
@@ -120,3 +121,4 @@ As of the June 2010 update, <b>DefaultValue</b> emits default values for reflect
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
+

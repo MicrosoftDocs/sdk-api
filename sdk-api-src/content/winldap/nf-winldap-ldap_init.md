@@ -43,8 +43,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_init
- - ldap_initA
- - ldap_initW
 ---
 
 # ldap_init function
@@ -126,3 +124,4 @@ Multithreading: A call to <b>ldap_init</b> is thread safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
+

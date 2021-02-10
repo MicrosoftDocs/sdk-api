@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.dll
 api_name:
- - IMILBitmapEffectEvents.DirtyRegion
+ - IMILBitmapEffectEvents::DirtyRegion
 ---
 
 # IMILBitmapEffectEvents::DirtyRegion
@@ -71,3 +71,4 @@ A pointer to the rectangle to dirty.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

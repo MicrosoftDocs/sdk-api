@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyCondition.Value
- - IFsrmPropertyCondition.get_Value
- - IFsrmPropertyCondition.put_Value
+ - IFsrmPropertyCondition::put_Value
 ---
 
 # IFsrmPropertyCondition::put_Value
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmpropertycondition">IFsrmPropertyCondition</a>
+

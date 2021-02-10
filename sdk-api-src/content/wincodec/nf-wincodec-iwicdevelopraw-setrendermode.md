@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetRenderMode
+ - IWICDevelopRaw::SetRenderMode
 ---
 
 # IWICDevelopRaw::SetRenderMode
@@ -66,3 +66,4 @@ The render mode to use.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

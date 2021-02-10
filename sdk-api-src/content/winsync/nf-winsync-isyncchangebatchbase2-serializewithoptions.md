@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase2.SerializeWithOptions
+ - ISyncChangeBatchBase2::SerializeWithOptions
 ---
 
 # ISyncChangeBatchBase2::SerializeWithOptions
@@ -201,3 +201,4 @@ The following table describes the flags that specify information about an <a hre
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
+

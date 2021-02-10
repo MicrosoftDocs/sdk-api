@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.GetTag
+ - IUIAnimationStoryboard2::GetTag
 ---
 
 # IUIAnimationStoryboard2::GetTag
@@ -101,3 +101,4 @@ This method can return the identifier, the object, or both portions of the tag.
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-settag">IUIAnimationStoryboard2::SetTag</a>
+

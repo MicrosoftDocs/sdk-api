@@ -42,8 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTaskInfo.EndTime
- - ITsSbTaskInfo.get_EndTime
+ - ITsSbTaskInfo::get_EndTime
 ---
 
 # ITsSbTaskInfo::get_EndTime
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a>
+

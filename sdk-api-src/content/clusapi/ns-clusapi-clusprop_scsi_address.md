@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_SCSI_ADDRESS
+ - PCLUSPROP_SCSI_ADDRESS
 ---
 
 # CLUSPROP_SCSI_ADDRESS structure
@@ -93,3 +94,4 @@ A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_a
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

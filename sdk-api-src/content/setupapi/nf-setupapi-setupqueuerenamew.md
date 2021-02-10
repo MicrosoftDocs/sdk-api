@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupQueueRenameW
  - setupapi/SetupQueueRenameW
+ - SetupQueueRename
+ - setupapi/SetupQueueRename
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupQueueRename
- - SetupQueueRenameA
  - SetupQueueRenameW
+ - SetupQueueRename
 ---
 
 # SetupQueueRenameW function
@@ -117,3 +118,4 @@ Because rename operations are assumed to take place on fixed media, the user wil
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuerenamesectiona">SetupQueueRenameSection</a>
+

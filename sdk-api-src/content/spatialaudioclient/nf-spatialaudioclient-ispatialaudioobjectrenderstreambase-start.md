@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase.Start
+ - ISpatialAudioObjectRenderStreamBase::Start
 ---
 
 # ISpatialAudioObjectRenderStreamBase::Start
@@ -147,3 +147,4 @@ The stream must have been previously stopped with a call to <a href="/windows/de
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMWstDecoder.SetOutputFormat
+ - IAMWstDecoder::SetOutputFormat
 ---
 
 # IAMWstDecoder::SetOutputFormat
@@ -99,3 +99,4 @@ Downstream filters have already defined an output format.
 
 
 <a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>
+

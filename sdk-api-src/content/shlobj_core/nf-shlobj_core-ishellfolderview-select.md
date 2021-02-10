@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlobj_core.h
 api_name:
- - IShellFolderView.Select
+ - IShellFolderView::Select
 ---
 
 # IShellFolderView::Select

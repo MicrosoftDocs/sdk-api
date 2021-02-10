@@ -43,11 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMStatusMsgCollection
- - IGPMStatusMsgCollection.Count
- - IGPMStatusMsgCollection.get_Count
- - IGPMStatusMsgCollection.Item
- - IGPMStatusMsgCollection.get_Item
- - GPMStatusMsgCollection
 ---
 
 # IGPMStatusMsgCollection interface
@@ -77,3 +72,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMsgCollection</b> i
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAsyncCallback.GetParameters
+ - IMFAsyncCallback::GetParameters
 ---
 
 # IMFAsyncCallback::GetParameters
@@ -199,3 +199,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/medfound/work-queues">Work Queues</a>
+

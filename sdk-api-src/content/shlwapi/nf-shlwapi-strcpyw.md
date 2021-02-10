@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StrCpyW
  - shlwapi/StrCpyW
+ - StrCpy
+ - shlwapi/StrCpy
 dev_langs:
  - c++
 topic_type:
@@ -42,8 +44,8 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - StrCpy
  - StrCpyW
+ - StrCpy
 ---
 
 # StrCpyW function
@@ -78,3 +80,4 @@ Returns a pointer to <i>psz1</i>.
 ## -remarks
 
 <b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The first argument, <i>psz1</i>, must be large enough to hold <i>psz2</i> and the closing '\0', otherwise a buffer overrun may occur. Buffer overruns may lead to a denial of service attack against the application if an access violation occurs. In the worst case, a buffer overrun may allow an attacker to inject executable code into your process, especially if <i>psz1</i> is a stack-based buffer. Consider using one of the following alternatives: <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopya">StringCbCopy</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopynexa">StringCbCopyNEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyexa">StringCchCopyEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyna">StringCchCopyN</a>, or <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>. You should review <a href="/windows/desktop/shell/sec-shell">Security Considerations: Microsoft Windows Shell</a> before continuing.
+

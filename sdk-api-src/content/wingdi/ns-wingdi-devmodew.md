@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wingdi.h
 api_name:
+ - _devicemodeW
+ - PDEVMODEW
  - DEVMODEW
 ---
 
@@ -489,3 +491,4 @@ Also for Windows XP, several members of the DEVMODEW structure were moved to dif
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>
+

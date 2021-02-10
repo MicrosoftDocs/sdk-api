@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpplug.h
 api_name:
- - IWMPPluginUI.DisplayPropertyPage
+ - IWMPPluginUI::DisplayPropertyPage
 ---
 
 # IWMPPluginUI::DisplayPropertyPage
@@ -71,3 +71,4 @@ This method is called by Windows Media Player only for plug-ins that provide a p
 ## -see-also
 
 <a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
+

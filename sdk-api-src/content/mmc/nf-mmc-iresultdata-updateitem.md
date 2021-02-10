@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData.UpdateItem
- - IResultData2.UpdateItem
+ - IResultData::UpdateItem
 ---
 
 # IResultData::UpdateItem
@@ -74,3 +73,4 @@ UpdateItem would typically be used to update a displayed item after changes were
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
+

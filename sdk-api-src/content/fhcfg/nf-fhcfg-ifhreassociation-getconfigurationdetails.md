@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhReassociation.GetConfigurationDetails
- - FhReassociation.GetConfigurationDetails
+ - IFhReassociation::GetConfigurationDetails
 ---
 
 # IFhReassociation::GetConfigurationDetails
@@ -105,3 +104,4 @@ In order to perform reassociation, one of the configurations enumerated by this 
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration">IFhReassociation::SelectConfiguration</a>
+

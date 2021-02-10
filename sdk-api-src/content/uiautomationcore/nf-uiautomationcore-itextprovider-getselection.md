@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextProvider.GetSelection
+ - ITextProvider::GetSelection
 ---
 
 # ITextProvider::GetSelection
@@ -102,3 +102,4 @@ If the control contains a text insertion point but no text is selected,  the <i>
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

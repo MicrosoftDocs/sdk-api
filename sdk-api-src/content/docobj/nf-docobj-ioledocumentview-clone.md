@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView.Clone
+ - IOleDocumentView::Clone
 ---
 
 # IOleDocumentView::Clone
@@ -117,3 +117,4 @@ This method is useful for creating a new view with a different viewport and view
 
 
 <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>
+

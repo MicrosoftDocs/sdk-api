@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.getCertFromResponse
- - CEnroll.getCertFromResponse
+ - ICEnroll4::getCertFromResponse
 ---
 
 # ICEnroll4::getCertFromResponse
@@ -81,3 +80,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 The response contained in <i>strResponse</i> must contain exactly one certificate; a child certificate cannot be present.
 
 The response may be either a <a href="/windows/desktop/SecGloss/p-gly">PKCS #7</a> or a full <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response. However, to accept a full CMC response, the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) must support <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding of CMC structures.
+

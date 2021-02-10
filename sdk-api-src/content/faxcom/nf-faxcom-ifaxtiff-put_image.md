@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff.Image
- - IFaxTiff.get_Image
- - IFaxTiff.put_Image
+ - IFaxTiff::put_Image
 ---
 
 # IFaxTiff::put_Image
@@ -83,3 +81,4 @@ The <b>get_Image</b> method allocates the memory required for the buffer pointed
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsIdentity.GetAttribute
+ - ISettingsIdentity::GetAttribute
 ---
 
 # ISettingsIdentity::GetAttribute
@@ -73,3 +73,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. If the attr
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a>
+

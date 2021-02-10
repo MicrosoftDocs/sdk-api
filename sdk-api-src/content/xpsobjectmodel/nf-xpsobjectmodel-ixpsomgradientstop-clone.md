@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStop.Clone
+ - IXpsOMGradientStop::Clone
 ---
 
 # IXpsOMGradientStop::Clone
@@ -119,3 +119,4 @@ This method does not update any of the resource pointers in the  <a href="/windo
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+

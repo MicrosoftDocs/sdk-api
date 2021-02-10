@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IRecordInfo.GetFieldNoCopy
+ - IRecordInfo::GetFieldNoCopy
 ---
 
 # IRecordInfo::GetFieldNoCopy
@@ -118,3 +118,4 @@ The caller allocates memory of the VARIANT, but does not own the memory so canno
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
+

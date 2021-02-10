@@ -46,7 +46,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdUnattachSurface
- - GdiEntry12
 ---
 
 # DdUnattachSurface function
@@ -80,3 +79,4 @@ It is not necessary to call this function since the kernel will automatically de
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
+

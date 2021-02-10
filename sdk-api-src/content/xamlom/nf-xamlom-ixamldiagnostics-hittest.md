@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IXamlDiagnostics.HitTest
+ - IXamlDiagnostics::HitTest
 ---
 
 # IXamlDiagnostics::HitTest
@@ -79,3 +79,4 @@ This method performs a hit test on the XAML visual tree and will return all elem
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>
+

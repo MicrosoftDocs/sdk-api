@@ -47,7 +47,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - QueryWorkingSet
- - K32QueryWorkingSet
 ---
 
 # QueryWorkingSet function
@@ -132,3 +131,4 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 <a href="/windows/desktop/psapi/working-set-information">Working Set Information</a>
+

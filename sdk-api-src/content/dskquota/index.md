@@ -9,6 +9,8 @@ tech.root: fs
 f1_keywords:
  - dskquota
  - dskquota/dskquota
+api_name:
+ - dskquota
 ---
 
 # Dskquota.h header

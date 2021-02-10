@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Olectl.h
 api_name:
+ - tagPICTDESC
+ - LPPICTDESC
  - PICTDESC
 ---
 
@@ -117,3 +119,4 @@ The <b>HENHMETAFILE</b> handle identifying the enhanced metafile assigned to the
 
 
 <a href="/windows/desktop/com/pictype-constants">PICTYPE</a>
+

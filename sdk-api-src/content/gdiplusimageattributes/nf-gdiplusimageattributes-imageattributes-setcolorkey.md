@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes.SetColorKey
+ - ImageAttributes::SetColorKey
 ---
 
 # ImageAttributes::SetColorKey
@@ -182,3 +182,4 @@ VOID Example_SetColorKey(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
+

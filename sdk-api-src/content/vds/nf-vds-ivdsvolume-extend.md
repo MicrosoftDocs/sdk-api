@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume.Extend
+ - IVdsVolume::Extend
 ---
 
 # IVdsVolume::Extend
@@ -202,3 +202,4 @@ Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a>
+

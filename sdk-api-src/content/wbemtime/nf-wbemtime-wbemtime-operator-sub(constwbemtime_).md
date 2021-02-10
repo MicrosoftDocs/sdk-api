@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.operator-
- - ??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z
+ - WBEMTime::operator-
 ---
 
 # WBEMTime::operator-sub
@@ -73,3 +72,4 @@ When a <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object is returne
 When a <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object is returned, it is a new time span object whose value is the difference between the "this" object and the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object used as an argument.
 
 Any returned objects that has a negative time span or a time before Jan 1, 1601 is set to INVALID_TIME.
+

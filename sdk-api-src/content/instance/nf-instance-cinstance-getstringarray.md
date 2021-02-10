@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance.GetStringArray
+ - CInstance::GetStringArray
 ---
 
 # CInstance::GetStringArray
@@ -72,3 +72,4 @@ Buffer to receive the array of strings.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if the supplied string array type is not valid for the property being returned or an attempt is made to retrieve a nonexistent property. More information is available in the log file, Framework.log.
+

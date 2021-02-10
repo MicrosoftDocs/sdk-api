@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumSystemCodePagesW
  - winnls/EnumSystemCodePagesW
+ - EnumSystemCodePages
+ - winnls/EnumSystemCodePages
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - EnumSystemCodePages
- - EnumSystemCodePagesA
  - EnumSystemCodePagesW
+ - EnumSystemCodePages
 ---
 
 # EnumSystemCodePagesW function
@@ -129,3 +130,4 @@ When an application is using this function to determine an appropriate code page
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

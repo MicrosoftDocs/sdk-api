@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes.SetToIdentity
+ - ImageAttributes::SetToIdentity
 ---
 
 # ImageAttributes::SetToIdentity
@@ -96,3 +96,4 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
+

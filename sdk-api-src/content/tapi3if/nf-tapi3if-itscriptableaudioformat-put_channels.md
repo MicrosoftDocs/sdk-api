@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.put_Channels
+ - ITScriptableAudioFormat::put_Channels
 ---
 
 # ITScriptableAudioFormat::put_Channels
@@ -90,3 +90,4 @@ Method succeeded.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_channels">get_Channels</a>
+

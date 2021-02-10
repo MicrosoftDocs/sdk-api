@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DiUninstallDriverW
  - newdev/DiUninstallDriverW
+ - DiUninstallDriver
+ - newdev/DiUninstallDriver
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Newdev.lib
  - Newdev.dll
 api_name:
- - DiInstallDriver
- - diuninstalldriverw
+ - DiUninstallDriverW
+ - DiUninstallDriver
 ---
 
 # DiUninstallDriverW function
@@ -152,3 +154,4 @@ The application must perform required operations, other than calling <b>DiUninst
 ## -see-also
 
 <a href="/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiUninstallDevice</a>
+

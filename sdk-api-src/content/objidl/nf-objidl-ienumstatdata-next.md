@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IEnumSTATDATA.Next
+ - IEnumSTATDATA::Next
 ---
 
 # IEnumSTATDATA::Next
@@ -79,3 +79,4 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 <a href="/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a>
+

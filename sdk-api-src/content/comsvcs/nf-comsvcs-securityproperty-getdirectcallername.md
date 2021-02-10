@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - SecurityProperty.GetDirectCallerName
+ - SecurityProperty::GetDirectCallerName
 ---
 
 # SecurityProperty::GetDirectCallerName
@@ -74,3 +74,4 @@ The following scenarios illustrate the functionality of this method:
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-securityproperty">SecurityProperty</a>
+

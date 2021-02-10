@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter.GetNextSample
+ - IMFASFSplitter::GetNextSample
 ---
 
 # IMFASFSplitter::GetNextSample
@@ -151,3 +151,4 @@ The ASF splitter skips samples for unselected streams. To select streams, call <
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
+

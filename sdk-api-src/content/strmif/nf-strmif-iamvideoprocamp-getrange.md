@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoProcAmp.GetRange
+ - IAMVideoProcAmp::GetRange
 ---
 
 # IAMVideoProcAmp::GetRange
@@ -145,3 +145,4 @@ No error.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
+

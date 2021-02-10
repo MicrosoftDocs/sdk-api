@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
+ - tagPictureAttributes
  - PICTUREATTRIBUTES
 ---
 
@@ -67,3 +68,4 @@ The picture object contains an image that has transparent areas, such that drawi
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_attributes">IPicture::get_Attributes</a>
+

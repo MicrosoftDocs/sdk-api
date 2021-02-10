@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastAddressAllocation.ReleaseAddress
+ - IMcastAddressAllocation::ReleaseAddress
 ---
 
 # IMcastAddressAllocation::ReleaseAddress
@@ -109,3 +109,4 @@ Not enough memory exists to make the request.
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
+

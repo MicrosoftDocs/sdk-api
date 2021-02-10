@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509EndorsementKey.Length
- - IX509EndorsementKey.get_Length
+ - IX509EndorsementKey::get_Length
 ---
 
 # IX509EndorsementKey::get_Length
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
+

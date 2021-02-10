@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDragSourceHelper.InitializeFromWindow
+ - IDragSourceHelper::InitializeFromWindow
 ---
 
 # IDragSourceHelper::InitializeFromWindow
@@ -85,3 +85,4 @@ The <b>DI_GETDRAGIMAGE</b> message allows you to source a drag image from a cust
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>
+

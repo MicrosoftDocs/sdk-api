@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSSBuffer.GetBuffer
+ - INSSBuffer::GetBuffer
 ---
 
 # INSSBuffer::GetBuffer
@@ -105,3 +105,4 @@ The <i>ppdwBuffer</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">INSSBuffer::GetBufferAndLength</a>
+

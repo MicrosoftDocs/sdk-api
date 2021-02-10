@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
+ - _POSTBL
  - POSTBL
 ---
 
@@ -67,3 +68,4 @@ The name of the part of speech.
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getpostable">IFEDictionary::GetPosTable</a>
+

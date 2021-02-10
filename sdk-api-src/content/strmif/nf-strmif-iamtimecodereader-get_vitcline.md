@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeReader.get_VITCLine
+ - IAMTimecodeReader::get_VITCLine
 ---
 
 # IAMTimecodeReader::get_VITCLine
@@ -82,3 +82,4 @@ The high bit indicates that multiple lines are used and successive calls will cy
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-put_vitcline">IAMTimecodeReader::put_VITCLine</a>
+

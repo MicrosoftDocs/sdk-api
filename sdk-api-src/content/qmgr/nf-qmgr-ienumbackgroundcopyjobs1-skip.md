@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyJobs1.Skip
+ - IEnumBackgroundCopyJobs1::Skip
 ---
 
 # IEnumBackgroundCopyJobs1::Skip
@@ -96,3 +96,4 @@ Skipped less than the number of requested elements.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ienumbackgroundcopyjobs1">IEnumBackgroundCopyJobs1</a>
+

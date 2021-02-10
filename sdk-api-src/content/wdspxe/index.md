@@ -9,6 +9,8 @@ tech.root: wds
 f1_keywords:
  - wdspxe
  - wdspxe/wdspxe
+api_name:
+ - wdspxe
 ---
 
 # Wdspxe.h header

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskDefinition.Triggers
- - ITaskDefinition.get_Triggers
- - ITaskDefinition.put_Triggers
+ - ITaskDefinition::put_Triggers
 ---
 
 # ITaskDefinition::put_Triggers
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
+

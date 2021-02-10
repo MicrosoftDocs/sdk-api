@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IActiveDesktop.AddDesktopItem
+ - IActiveDesktop::AddDesktopItem
 ---
 
 # IActiveDesktop::AddDesktopItem
@@ -123,3 +123,4 @@ The desktop item is added to the desktop, but it does not save it to the registr
 
 
 <a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
+

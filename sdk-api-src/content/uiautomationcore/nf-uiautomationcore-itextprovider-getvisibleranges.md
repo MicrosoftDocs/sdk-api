@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextProvider.GetVisibleRanges
+ - ITextProvider::GetVisibleRanges
 ---
 
 # ITextProvider::GetVisibleRanges
@@ -104,3 +104,4 @@ If the visible text consists of multiple, disjoint spans of text, the <i>pRetVal
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

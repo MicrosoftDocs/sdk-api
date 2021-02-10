@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList.AppendCategory
+ - ICustomDestinationList::AppendCategory
 ---
 
 # ICustomDestinationList::AppendCategory
@@ -141,3 +141,4 @@ Optionally, the description field (<a href="/windows/desktop/api/shobjidl_core/n
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+

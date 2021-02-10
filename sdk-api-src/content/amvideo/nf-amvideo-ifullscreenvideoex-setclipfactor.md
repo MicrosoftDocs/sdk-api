@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx.SetClipFactor
+ - IFullScreenVideoEx::SetClipFactor
 ---
 
 # IFullScreenVideoEx::SetClipFactor
@@ -89,3 +89,4 @@ Specifies the maximum allowable amount of the image to clip. The value is expres
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
+

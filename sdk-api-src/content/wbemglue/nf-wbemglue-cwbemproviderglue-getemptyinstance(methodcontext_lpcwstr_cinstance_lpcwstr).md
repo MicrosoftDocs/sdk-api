@@ -43,8 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetEmptyInstance
- - ?GetEmptyInstance@CWbemProviderGlue@@SGJPAVMethodContext@@PBGPAPAVCInstance@@1@Z
+ - CWbemProviderGlue::GetEmptyInstance
 ---
 
 # CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR)
@@ -87,3 +86,4 @@ Returns <b>WBEM_S_NO_ERROR</b> if the operation was successful, <b>WBEM_E_OUT_OF
 The framework provider pass the name of the provider to <b>GetEmptyInstance</b>, which returns an empty instance. A common use of this method is to populate an embedded object property. This method is used in conjunction with <a href="/windows/desktop/api/instance/nf-instance-cinstance-setembeddedobject">CInstance::SetEmbeddedObject</a>.
 
 The second function prototype is not recommended. It is provided only to support existing code.
+

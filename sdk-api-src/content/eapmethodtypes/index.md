@@ -9,6 +9,8 @@ tech.root: eaphost
 f1_keywords:
  - eapmethodtypes
  - eapmethodtypes/eapmethodtypes
+api_name:
+ - eapmethodtypes
 ---
 
 # Eapmethodtypes.h header

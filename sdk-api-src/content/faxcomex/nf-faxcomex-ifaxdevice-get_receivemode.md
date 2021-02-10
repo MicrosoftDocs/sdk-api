@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice.ReceiveMode
- - IFaxDevice.get_ReceiveMode
- - IFaxDevice.put_ReceiveMode
+ - IFaxDevice::get_ReceiveMode
 ---
 
 # IFaxDevice::get_ReceiveMode
@@ -75,3 +73,4 @@ Some devices, such as virtual devices, do not support the manual-answer receive 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-configuring-a-fax-device">Visual Basic Example</a>
+

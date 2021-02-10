@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnection.Disconnect
+ - IMbnConnection::Disconnect
 ---
 
 # IMbnConnection::Disconnect
@@ -105,3 +105,4 @@ Windows 8 and later versions of Windows: A Windows Store app may only use <b>Di
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
+

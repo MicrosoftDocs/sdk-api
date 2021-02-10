@@ -46,6 +46,8 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
+ - _DOMAINTYPE
+ - PIASDOMAINTYPE
  - IASDOMAINTYPE
 ---
 
@@ -82,3 +84,4 @@ The SDO computer is part of a Windows domain running in mixed mode.
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdomaintype">ISdoMachine::GetDomainType</a>
+

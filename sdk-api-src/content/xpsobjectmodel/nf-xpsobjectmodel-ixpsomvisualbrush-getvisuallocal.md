@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush.GetVisualLocal
+ - IXpsOMVisualBrush::GetVisualLocal
 ---
 
 # IXpsOMVisualBrush::GetVisualLocal
@@ -160,3 +160,4 @@ This method returns an  <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjec
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

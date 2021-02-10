@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidRect.get_Top
+ - IMSVidRect::get_Top
 ---
 
 # IMSVidRect::get_Top
@@ -73,3 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-put_top">IMSVidRect::put_Top</a>
+

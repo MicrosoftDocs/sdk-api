@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFQualityAdviseLimits.GetMinimumQualityLevel
+ - IMFQualityAdviseLimits::GetMinimumQualityLevel
 ---
 
 # IMFQualityAdviseLimits::GetMinimumQualityLevel
@@ -69,3 +69,4 @@ To get the current quality level, call the <a href="/windows/desktop/api/mfidl/n
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadviselimits">IMFQualityAdviseLimits</a>
+

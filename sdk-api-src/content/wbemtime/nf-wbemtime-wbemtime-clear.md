@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime.Clear
+ - WBEMTime::Clear
 ---
 
 # WBEMTime::Clear
@@ -68,3 +68,4 @@ The <b>Clear</b> method sets the time in the <a href="/windows/desktop/WmiSdk/wb
 
 
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-isok">WBEMTime::IsOk</a>
+

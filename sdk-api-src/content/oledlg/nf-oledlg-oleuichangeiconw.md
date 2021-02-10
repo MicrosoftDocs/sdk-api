@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - OleUIChangeIconW
  - oledlg/OleUIChangeIconW
+ - OleUIChangeIcon
+ - oledlg/OleUIChangeIcon
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - OleDlg.dll
 api_name:
- - OleUIChangeIcon
- - OleUIChangeIconA
  - OleUIChangeIconW
+ - OleUIChangeIcon
 ---
 
 # OleUIChangeIconW function
@@ -402,3 +403,4 @@ The <i>szIconExe</i> value was invalid.
 ## -see-also
 
 [OLEUICHANGEICON](./nf-oledlg-oleuichangeicona.md)
+

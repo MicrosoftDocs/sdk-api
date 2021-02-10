@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaParamInfo.GetSupportedTimeFormat
+ - IMediaParamInfo::GetSupportedTimeFormat
 ---
 
 # IMediaParamInfo::GetSupportedTimeFormat
@@ -118,3 +118,4 @@ Call the <a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getn
 
 
 <a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>
+

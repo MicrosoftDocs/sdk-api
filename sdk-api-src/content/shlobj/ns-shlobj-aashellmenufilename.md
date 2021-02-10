@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
+ - tagAAMENUFILENAME
+ - LPAASHELLMENUFILENAME
  - AASHELLMENUFILENAME
 ---
 
@@ -85,3 +87,4 @@ When reading an <b>AASHELLMENUFILENAME</b> structure, first read a single SHORT 
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj/ns-shlobj-aashellmenuitem">AASHELLMENUITEM</a>
+

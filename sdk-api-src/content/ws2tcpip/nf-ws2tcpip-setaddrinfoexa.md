@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetAddrInfoExA
  - ws2tcpip/SetAddrInfoExA
+ - SetAddrInfoEx
+ - ws2tcpip/SetAddrInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - SetAddrInfoEx
  - SetAddrInfoExA
- - SetAddrInfoExW
+ - SetAddrInfoEx
 ---
 
 # SetAddrInfoExA function
@@ -315,3 +316,4 @@ On Windows Vista and later, when <b>SetAddrInfoEx</b> is called from a service,
 
 
 <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
+

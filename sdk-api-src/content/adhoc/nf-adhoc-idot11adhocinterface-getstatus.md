@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocInterface.GetStatus
+ - IDot11AdHocInterface::GetStatus
 ---
 
 # IDot11AdHocInterface::GetStatus
@@ -131,3 +131,4 @@ A pointer passed as a parameter is not valid.
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getactivenetwork">IDot11AdHocInterface::GetActiveNetwork</a>
+

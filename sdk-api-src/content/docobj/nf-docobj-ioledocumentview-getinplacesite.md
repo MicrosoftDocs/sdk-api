@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView.GetInPlaceSite
+ - IOleDocumentView::GetInPlaceSite
 ---
 
 # IOleDocumentView::GetInPlaceSite
@@ -95,3 +95,4 @@ The operation failed.
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
+

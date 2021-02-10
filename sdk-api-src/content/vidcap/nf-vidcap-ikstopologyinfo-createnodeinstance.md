@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IKsTopologyInfo.CreateNodeInstance
+ - IKsTopologyInfo::CreateNodeInstance
 ---
 
 # IKsTopologyInfo::CreateNodeInstance
@@ -99,3 +99,4 @@ Node objects expose the <b>IKsControl</b> interface. You can use this interface 
 
 
 <a href="/windows/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl.UnregisterAudioSessionNotification
+ - IAudioSessionControl::UnregisterAudioSessionNotification
 ---
 
 # IAudioSessionControl::UnregisterAudioSessionNotification
@@ -110,3 +110,4 @@ For a code example that calls the <b>UnregisterAudioSessionNotification</b> meth
 
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
+

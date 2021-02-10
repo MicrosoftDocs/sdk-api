@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices.ComposeHmenuIdentityString
+ - IAccPropServices::ComposeHmenuIdentityString
 ---
 
 # IAccPropServices::ComposeHmenuIdentityString
@@ -88,3 +88,4 @@ If successful, returns S_OK.
 Returns E_INVALIDARG if <i>hmenu</i> or <i>idChild</i> is not valid.
 
 May return other error codes under exceptional error conditions such as low memory.
+

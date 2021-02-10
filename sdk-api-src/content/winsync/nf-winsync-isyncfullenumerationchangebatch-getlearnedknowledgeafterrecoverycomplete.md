@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete
+ - ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
 ---
 
 # ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
@@ -109,3 +109,4 @@ No group was added to the batch, or a group was opened but not ended.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+

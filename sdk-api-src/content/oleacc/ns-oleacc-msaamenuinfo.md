@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Oleacc.h
 api_name:
+ - tagMSAAMENUINFO
+ - LPMSAAMENUINFO
  - MSAAMENUINFO
 ---
 
@@ -113,3 +115,4 @@ struct MenuEntry
 
 
 <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+

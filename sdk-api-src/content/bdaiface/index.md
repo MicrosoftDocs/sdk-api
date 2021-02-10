@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - bdaiface
  - bdaiface/bdaiface
+api_name:
+ - bdaiface
 ---
 
 # Bdaiface.h header

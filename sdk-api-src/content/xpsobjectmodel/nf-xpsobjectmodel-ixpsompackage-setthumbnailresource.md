@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.SetThumbnailResource
+ - IXpsOMPackage::SetThumbnailResource
 ---
 
 # IXpsOMPackage::SetThumbnailResource
@@ -127,3 +127,4 @@ The image type of the image resource must be either  <a href="/windows/win32/api
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
+

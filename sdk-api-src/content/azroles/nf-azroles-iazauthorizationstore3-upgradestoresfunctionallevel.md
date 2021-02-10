@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzAuthorizationStore3.UpgradeStoresFunctionalLevel
+ - IAzAuthorizationStore3::UpgradeStoresFunctionalLevel
 ---
 
 # IAzAuthorizationStore3::UpgradeStoresFunctionalLevel
@@ -67,3 +67,4 @@ If the method fails, it returns an error code. For a list of common error codes,
 ## -remarks
 
 If the authorization store being updated is an Active Directory store, this method checks whether the LDAP schema of the Active Directory store is updated. If the LDAP schema of the Active Directory store is not updated, the authorization store is not updated.
+

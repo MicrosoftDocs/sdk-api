@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallInfo.put_CallInfoLong
+ - ITCallInfo::put_CallInfoLong
 ---
 
 # ITCallInfo::put_CallInfoLong
@@ -135,3 +135,4 @@ The current
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong">get_CallInfoLong</a>
+

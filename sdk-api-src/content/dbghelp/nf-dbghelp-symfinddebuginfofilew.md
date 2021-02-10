@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SymFindDebugInfoFileW
  - dbghelp/SymFindDebugInfoFileW
+ - SymFindDebugInfoFile
+ - dbghelp/SymFindDebugInfoFile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymFindDebugInfoFile
- - SymFindDebugInfoFile
  - SymFindDebugInfoFileW
+ - SymFindDebugInfoFile
 ---
 
 # SymFindDebugInfoFileW function
@@ -113,3 +114,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfind_debug_file_callback">FindDebugInfoFileProc</a>
+

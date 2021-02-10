@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetLogClientID
+ - IWMReaderAdvanced2::GetLogClientID
 ---
 
 # IWMReaderAdvanced2::GetLogClientID
@@ -109,3 +109,4 @@ See the remarks for <b>SetLogClientID</b>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid">IWMReaderAdvanced2::SetLogClientID</a>
+

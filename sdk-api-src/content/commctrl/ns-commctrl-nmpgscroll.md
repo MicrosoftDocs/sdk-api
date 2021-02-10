@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - LPNMPGSCROLL
  - NMPGSCROLL
 ---
 
@@ -192,3 +193,4 @@ Contains the vertical scroll position of the contained window, in pixels, before
 Type: <b>int</b>
 
 On entry, contains the default scroll delta in pixels. This member can be modified to contain a different scroll delta amount if desired. This value is always positive, regardless of the scroll direction.
+

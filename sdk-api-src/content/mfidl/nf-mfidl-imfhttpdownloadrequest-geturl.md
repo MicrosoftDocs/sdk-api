@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.GetURL
+ - IMFHttpDownloadRequest::GetURL
 ---
 
 # IMFHttpDownloadRequest::GetURL
@@ -113,3 +113,4 @@ By default, <b>GetURL</b> returns an URL which is synthesized from the parameter
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
+

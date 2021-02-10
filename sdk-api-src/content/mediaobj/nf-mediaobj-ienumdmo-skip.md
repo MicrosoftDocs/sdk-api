@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IEnumDMO.Skip
+ - IEnumDMO::Skip
 ---
 
 # IEnumDMO::Skip
@@ -66,3 +66,4 @@ Returns S_OK if the number items skipped equals <i>cItemsToSkip</i>. Otherwise, 
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-ienumdmo">IEnumDMO Interface</a>
+

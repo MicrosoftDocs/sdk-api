@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IRecordInfo.GetField
+ - IRecordInfo::GetField
 ---
 
 # IRecordInfo::GetField
@@ -116,3 +116,4 @@ The method <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-va
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxRecipients.Count
- - IFaxRecipients.get_Count
+ - IFaxRecipients::get_Count
 ---
 
 # IFaxRecipients::get_Count
@@ -68,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipients">IFaxRecipients</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITTerminalSupport.get_DynamicTerminalClasses
+ - ITTerminalSupport::get_DynamicTerminalClasses
 ---
 
 # ITTerminalSupport::get_DynamicTerminalClasses
@@ -130,3 +130,4 @@ An application calls this method to find out which dynamic terminal classes are 
 
 
 <a href="/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
+

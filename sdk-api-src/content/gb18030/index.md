@@ -9,6 +9,8 @@ tech.root: intl
 f1_keywords:
  - gb18030
  - gb18030/gb18030
+api_name:
+ - gb18030
 ---
 
 # Gb18030.h header

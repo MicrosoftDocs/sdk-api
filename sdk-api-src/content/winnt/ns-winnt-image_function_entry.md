@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
+ - _IMAGE_FUNCTION_ENTRY
+ - PIMAGE_FUNCTION_ENTRY
  - IMAGE_FUNCTION_ENTRY
 ---
 
@@ -93,3 +95,4 @@ typedef struct _IMAGE_FUNCTION_ENTRY64 {
 
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
+

@@ -9,6 +9,8 @@ tech.root: com
 f1_keywords:
  - accctrl
  - accctrl/accctrl
+api_name:
+ - accctrl
 ---
 
 # Accctrl.h header

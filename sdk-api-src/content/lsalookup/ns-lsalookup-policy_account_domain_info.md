@@ -46,6 +46,8 @@ api_type:
 api_location:
  - LsaLookup.h
 api_name:
+ - _POLICY_ACCOUNT_DOMAIN_INFO
+ - PPOLICY_ACCOUNT_DOMAIN_INFO
  - POLICY_ACCOUNT_DOMAIN_INFO
 ---
 
@@ -84,3 +86,4 @@ Pointer to the SID of the account domain.
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
+

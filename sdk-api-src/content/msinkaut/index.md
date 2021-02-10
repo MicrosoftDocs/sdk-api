@@ -9,6 +9,8 @@ tech.root: tablet
 f1_keywords:
  - msinkaut
  - msinkaut/msinkaut
+api_name:
+ - msinkaut
 ---
 
 # Msinkaut.h header

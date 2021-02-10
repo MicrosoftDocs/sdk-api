@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - SetIscsiInitiatorCHAPSharedSecret
+ - SetIScsiInitiatorCHAPSharedSecret
 ---
 
 # SetIScsiInitiatorCHAPSharedSecret function
@@ -79,3 +79,4 @@ The <b>SetIscsiInitiatorCHAPSharedSecret</b> function specifies the default CHAP
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIscsiTarget</a>
+

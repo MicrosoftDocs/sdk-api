@@ -49,7 +49,7 @@ api_location:
  - Wbemess.dll
  - Wmipjobj.dll
 api_name:
- - IWbemContext.GetNames
+ - IWbemContext::GetNames
 ---
 
 # IWbemContext::GetNames
@@ -97,3 +97,4 @@ For more information about using <b>SAFEARRAY</b> structures of <b>BSTR</b> valu
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-getvalue">IWbemContext::GetValue</a>
+

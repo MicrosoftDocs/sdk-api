@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - phoneinitializeexparams_tag
+ - LPPHONEINITIALIZEEXPARAMS
  - PHONEINITIALIZEEXPARAMS
 ---
 
@@ -101,3 +103,4 @@ See
 ## -see-also
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
+

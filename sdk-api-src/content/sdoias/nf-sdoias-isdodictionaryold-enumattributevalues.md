@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoDictionaryOld.EnumAttributeValues
+ - ISdoDictionaryOld::EnumAttributeValues
 ---
 
 # ISdoDictionaryOld::EnumAttributeValues
@@ -84,3 +84,4 @@ The return value is S_OK even if the attribute is not enumerable.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
+

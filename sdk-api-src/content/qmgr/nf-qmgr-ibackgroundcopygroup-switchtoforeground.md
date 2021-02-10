@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.SwitchToForeground
+ - IBackgroundCopyGroup::SwitchToForeground
 ---
 
 # IBackgroundCopyGroup::SwitchToForeground
@@ -81,3 +81,4 @@ Successfully switched the group to foreground processing.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
+

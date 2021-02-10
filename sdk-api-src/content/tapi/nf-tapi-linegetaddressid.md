@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetAddressID
- - lineGetAddressIDA
- - lineGetAddressIDW
 ---
 
 # lineGetAddressID function
@@ -105,3 +103,4 @@ The
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
+

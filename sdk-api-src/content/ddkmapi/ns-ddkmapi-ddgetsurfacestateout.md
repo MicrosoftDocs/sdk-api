@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
+ - _DDGETSURFACESTATEOUT
+ - LPDDGETSURFACESTATEOUT
  - DDGETSURFACESTATEOUT
 ---
 
@@ -161,3 +163,4 @@ Weave mode is being used on this surface.
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+

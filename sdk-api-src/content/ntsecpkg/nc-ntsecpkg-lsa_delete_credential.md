@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - DeleteCredential
+ - LSA_DELETE_CREDENTIAL
 ---
 
 # LSA_DELETE_CREDENTIAL callback function
@@ -119,3 +119,4 @@ The
 
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+

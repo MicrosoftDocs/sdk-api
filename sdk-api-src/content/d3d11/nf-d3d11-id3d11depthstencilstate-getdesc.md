@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DepthStencilState.GetDesc
+ - ID3D11DepthStencilState::GetDesc
 ---
 
 # ID3D11DepthStencilState::GetDesc
@@ -68,3 +68,4 @@ You use the description for depth-stencil state in a call to the <a href="/windo
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilstate">ID3D11DepthStencilState</a>
+

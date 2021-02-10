@@ -42,8 +42,7 @@ api_type:
 api_location:
  - corewindow.h
 api_name:
- - ICoreWindowInterop.WindowHandle
- - ICoreWindowInterop.get_WindowHandle
+ - ICoreWindowInterop::get_WindowHandle
 ---
 
 # ICoreWindowInterop::get_WindowHandle
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/corewindow/nn-corewindow-icorewindowinterop">ICoreWindowInterop</a>
+

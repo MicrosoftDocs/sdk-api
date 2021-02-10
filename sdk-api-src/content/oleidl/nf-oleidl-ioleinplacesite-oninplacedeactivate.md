@@ -43,7 +43,7 @@ api_location:
  - OleIdl.h
  - browsewm.dll
 api_name:
- - IOleInPlaceSite.OnInPlaceDeactivate
+ - IOleInPlaceSite::OnInPlaceDeactivate
 ---
 
 # IOleInPlaceSite::OnInPlaceDeactivate
@@ -92,3 +92,4 @@ If the container is holding pointers to the <a href="/windows/desktop/api/oleidl
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
+

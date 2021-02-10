@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertConfig2.GetField
- - ICertConfig.GetField
- - CCertConfig.GetField
+ - ICertConfig::GetField
 ---
 
 # ICertConfig::GetField
@@ -306,3 +304,4 @@ error:
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+

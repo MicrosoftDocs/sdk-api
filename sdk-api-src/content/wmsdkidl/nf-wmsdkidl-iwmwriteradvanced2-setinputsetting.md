@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced2.SetInputSetting
+ - IWMWriterAdvanced2::SetInputSetting
 ---
 
 # IWMWriterAdvanced2::SetInputSetting
@@ -168,3 +168,4 @@ Only g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlace
 
 
 <a href="/windows/desktop/wmformat/to-set-input-settings">To Set Input Settings</a>
+

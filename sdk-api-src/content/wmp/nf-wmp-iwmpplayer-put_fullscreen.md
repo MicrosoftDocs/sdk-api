@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer.put_fullScreen
+ - IWMPPlayer::put_fullScreen
 ---
 
 # IWMPPlayer::put_fullScreen
@@ -112,3 +112,4 @@ If transport controls are not displayed in full-screen mode, then Windows Media 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_uimode">IWMPPlayer::put_uiMode</a>
+

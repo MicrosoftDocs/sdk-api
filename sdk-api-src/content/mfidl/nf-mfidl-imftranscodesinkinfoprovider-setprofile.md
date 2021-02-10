@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTranscodeSinkInfoProvider.SetProfile
+ - IMFTranscodeSinkInfoProvider::SetProfile
 ---
 
 # IMFTranscodeSinkInfoProvider::SetProfile
@@ -75,3 +75,4 @@ Before calling this method, initialize the profile object as follows:
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetAutoPlay
+ - IMFMediaEngine::GetAutoPlay
 ---
 
 # IMFMediaEngine::GetAutoPlay
@@ -71,3 +71,4 @@ If this method returns <b>TRUE</b>, playback begins automatically after the <a h
 
 
 <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setautoplay">IMFMediaEngine::SetAutoPlay</a>
+

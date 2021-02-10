@@ -44,6 +44,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
+ - __MIDL___MIDL_itf_tapi3_0000_0018_0003
  - MSP_CALL_EVENT_CAUSE
 ---
 
@@ -104,3 +105,4 @@ The media that carries the stream is back to normal from a temporary denial of s
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIApplication.OnCreateUICommand
+ - IUIApplication::OnCreateUICommand
 ---
 
 # IUIApplication::OnCreateUICommand
@@ -152,3 +152,4 @@ STDMETHODIMP CApplication::OnCreateUICommand(
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
+ - tagRECO_LATTICE_COLUMN
  - RECO_LATTICE_COLUMN
 ---
 
@@ -91,3 +92,4 @@ There is one column per recognition segment. Each column contains one or more el
 
 
 <a href="/windows/desktop/api/rectypes/ns-rectypes-reco_lattice_element">RECO_LATTICE_ELEMENT Structure</a>
+

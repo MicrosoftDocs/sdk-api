@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_USER_DATA
+ - PWTS_USER_DATA
  - WTS_USER_DATA
 ---
 
@@ -73,3 +75,4 @@ A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_time_zone_information">WT
 ## -remarks
 
 This structure is used by the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-getuserdata">GetUserData</a> method and is both sent to and returned by the protocol. This structure is initialized with client data by the Remote Desktop Services service. If a value does not exist for a member, the protocol should not provide one.
+

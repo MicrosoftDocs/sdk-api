@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DdpBackup.h
 api_name:
- - IDedupReadFileCallback.OrderContainersRestore
+ - IDedupReadFileCallback::OrderContainersRestore
 ---
 
 # IDedupReadFileCallback::OrderContainersRestore
@@ -112,3 +112,4 @@ The application may return
 
 
 <a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
+

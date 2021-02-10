@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - tagHistogramHeader
  - HistogramHeader
 ---
 
@@ -113,3 +114,4 @@ Note that <a href="/windows/desktop/api/mfapi/ns-mfapi-histogramblobheader">Hist
 
 
 <a href="/windows/desktop/api/mfapi/ns-mfapi-histogramgrid">HistogramGrid</a>
+

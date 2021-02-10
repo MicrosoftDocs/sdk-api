@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.SetGroupTag
+ - IPhotoAcquireSettings::SetGroupTag
 ---
 
 # IPhotoAcquireSettings::SetGroupTag
@@ -92,3 +92,4 @@ The group tag is stored as a keyword in each file's metadata. It is also used in
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
+

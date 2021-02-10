@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.SetRenderHandle
+ - IMFCapturePreviewSink::SetRenderHandle
 ---
 
 # IMFCapturePreviewSink::SetRenderHandle
@@ -69,3 +69,4 @@ Calling this method overrides any previous call to <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink">IMFCapturePreviewSink</a>
+

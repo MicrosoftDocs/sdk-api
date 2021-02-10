@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
+ - IPSEC_SA_LIFETIME0_
  - IPSEC_SA_LIFETIME0
 ---
 
@@ -75,3 +76,4 @@ SA lifetime in packets.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

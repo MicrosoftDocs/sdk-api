@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMPhysicalPinInfo.GetPhysicalType
+ - IAMPhysicalPinInfo::GetPhysicalType
 ---
 
 # IAMPhysicalPinInfo::GetPhysicalType
@@ -75,3 +75,4 @@ Returns S_OK if a valid physical pin value is found. Otherwise, returns VFW_E_NO
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamphysicalpininfo">IAMPhysicalPinInfo Interface</a>
+

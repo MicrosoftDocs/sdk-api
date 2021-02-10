@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - EnumResourceNamesExW
  - libloaderapi/EnumResourceNamesExW
+ - EnumResourceNamesEx
+ - libloaderapi/EnumResourceNamesEx
 dev_langs:
  - c++
 topic_type:
@@ -50,9 +52,8 @@ api_location:
  - API-MS-Win-Core-Libraryloader-l1-2-1.dll
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - EnumResourceNamesEx
- - EnumResourceNamesExA
  - EnumResourceNamesExW
+ - EnumResourceNamesEx
 ---
 
 ## -description
@@ -201,3 +202,4 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+

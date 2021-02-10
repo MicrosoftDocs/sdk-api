@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentContainer.GetPrice
+ - IWMPContentContainer::GetPrice
 ---
 
 # IWMPContentContainer::GetPrice
@@ -114,3 +114,4 @@ If the content container does not represent an album or list, this method retrie
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>
+

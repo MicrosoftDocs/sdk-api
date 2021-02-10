@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IOperationsProgressDialog.StartProgressDialog
+ - IOperationsProgressDialog::StartProgressDialog
 ---
 
 # IOperationsProgressDialog::StartProgressDialog
@@ -167,3 +167,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The progress dialog should be created on a separate thread than the file operation on which the dialog is reporting. If the dialog is running in the same thread as the file operation, progress messages are, at best, only sent as resources allow. Progress messages on the same thread as the file operation might not be sent at all.
 
 Once <b>IOperationsProgressDialog::StartProgressDialog</b> is called, that instance of the <b>CLSID_ProgressDialog</b> object cannot be accessed by <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogressdialog">IActionProgressDialog</a>, or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>. Although <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> can be used to access these interfaces, most of their methods cannot be invoked. <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog">IOperationsProgressDialog</a> is the interface used to display the new progress dialog for the Windows Vista and later operations engine.
+

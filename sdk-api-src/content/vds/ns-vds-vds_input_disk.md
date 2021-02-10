@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_INPUT_DISK
  - VDS_INPUT_DISK
 ---
 
@@ -106,3 +107,4 @@ The <a href="/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">IVdsPack::Cr
 
 
 <a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
+

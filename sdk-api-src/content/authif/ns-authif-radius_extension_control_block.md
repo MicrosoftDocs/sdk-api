@@ -46,6 +46,8 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
+ - _RADIUS_EXTENSION_CONTROL_BLOCK
+ - PRADIUS_EXTENSION_CONTROL_BLOCK
  - RADIUS_EXTENSION_CONTROL_BLOCK
 ---
 
@@ -178,3 +180,4 @@ NPS passes this structure to the Extension DLL when it calls the Extension DLL's
 
 
 <a href="/previous-versions/ms688462(v=vs.85)">SetResponseType</a>
+

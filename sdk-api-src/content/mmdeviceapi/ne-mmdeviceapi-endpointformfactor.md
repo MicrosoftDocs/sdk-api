@@ -43,6 +43,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
+ - __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0003
  - EndpointFormFactor
 ---
 
@@ -128,3 +129,4 @@ For information about obtaining a description of the audio jack or connector thr
 
 
 <a href="/windows/desktop/CoreAudio/pkey-audioendpoint-formfactor">PKEY_AudioEndpoint_FormFactor Property</a>
+

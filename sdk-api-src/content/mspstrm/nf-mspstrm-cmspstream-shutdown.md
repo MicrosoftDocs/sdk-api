@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspstrm.h
 api_name:
- - CMSPStream.ShutDown
+ - CMSPStream::ShutDown
 ---
 
 # CMSPStream::ShutDown
@@ -56,3 +56,4 @@ The
 <a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-mspcallrelease">MSPCallRelease</a> on the call object. This is needed to break the circular refcount.
 
 ## -parameters
+

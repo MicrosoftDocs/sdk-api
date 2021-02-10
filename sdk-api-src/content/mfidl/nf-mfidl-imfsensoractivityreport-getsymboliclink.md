@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorActivityReport.GetSymbolicLink
+ - IMFSensorActivityReport::GetSymbolicLink
 ---
 
 # IMFSensorActivityReport::GetSymbolicLink
@@ -107,3 +107,4 @@ The <i>pcchWritten</i> parameter is null.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a>
+

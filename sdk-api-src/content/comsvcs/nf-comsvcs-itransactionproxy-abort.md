@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionProxy.Abort
+ - ITransactionProxy::Abort
 ---
 
 # ITransactionProxy::Abort
@@ -65,3 +65,4 @@ Calling <b>ITransactionProxy::Abort</b> ends the transaction on return of the me
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproxy">ITransactionProxy</a>
+

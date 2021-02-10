@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_HOST_INFO
+ - LPDHCP_HOST_INFO
  - DHCP_HOST_INFO
 ---
 
@@ -77,3 +79,4 @@ When this structure is populated by the DHCP Server, the <b>HostName</b> and <b>
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - _OUTPUT_DEBUG_STRING_INFO
+ - LPOUTPUT_DEBUG_STRING_INFO
  - OUTPUT_DEBUG_STRING_INFO
 ---
 
@@ -78,3 +80,4 @@ For example, if the original output string is longer than 65536 bytes, this fiel
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
+

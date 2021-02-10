@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Windns.h
 api_name:
+ - _DNS_MESSAGE_BUFFER
+ - PDNS_MESSAGE_BUFFER
  - DNS_MESSAGE_BUFFER
 ---
 
@@ -82,3 +84,4 @@ The <a href="/windows/desktop/api/windns/nf-windns-dnswritequestiontobuffer_utf8
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnswritequestiontobuffer_utf8">DnsWriteQuestionToBuffer</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_BAT.GetRecordCountOfDescriptors
+ - IDVB_BAT::GetRecordCountOfDescriptors
 ---
 
 # IDVB_BAT::GetRecordCountOfDescriptors
@@ -114,3 +114,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_bat">IDVB_BAT Interface</a>
+

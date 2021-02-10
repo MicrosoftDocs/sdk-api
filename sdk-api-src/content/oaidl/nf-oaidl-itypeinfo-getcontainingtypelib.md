@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo.GetContainingTypeLib
+ - ITypeInfo::GetContainingTypeLib
 ---
 
 # ITypeInfo::GetContainingTypeLib
@@ -123,3 +123,4 @@ OLE could not find an implementation of one or more required interfaces.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
+

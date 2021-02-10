@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MF_VIDEO_PROCESSOR_ROTATION
  - MF_VIDEO_PROCESSOR_ROTATION
 ---
 
@@ -71,3 +72,4 @@ Rotate the image to the correct viewing orientation.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

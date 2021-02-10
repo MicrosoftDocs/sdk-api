@@ -46,6 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _RIP_INFO
+ - LPRIP_INFO
  - RIP_INFO
 ---
 
@@ -121,3 +123,4 @@ Indicates that only <b>dwError</b> was set.
 ## -see-also
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
+

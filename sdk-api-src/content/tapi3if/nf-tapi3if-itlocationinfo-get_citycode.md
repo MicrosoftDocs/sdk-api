@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLocationInfo.get_CityCode
+ - ITLocationInfo::get_CityCode
 ---
 
 # ITLocationInfo::get_CityCode
@@ -123,3 +123,4 @@ The value that this method returns corresponds to the <b>dwCityCodeSize</b> and 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
+

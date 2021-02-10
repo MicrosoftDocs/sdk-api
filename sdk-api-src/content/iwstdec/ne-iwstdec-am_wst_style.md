@@ -46,6 +46,8 @@ api_type:
 api_location:
  - iwstdec.h
 api_name:
+ - _AM_WST_STYLE
+ - PAM_WST_STYLE
  - AM_WST_STYLE
 ---
 
@@ -69,3 +71,4 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

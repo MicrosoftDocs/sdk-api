@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - IEnumDialableAddrs.Skip
+ - IEnumDialableAddrs::Skip
 ---
 
 # IEnumDialableAddrs::Skip
@@ -98,3 +98,4 @@ Number of elements skipped was not <i>celt</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
+

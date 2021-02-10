@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsADSystemInfo.GetDCSiteName
+ - IADsADSystemInfo::GetDCSiteName
 ---
 
 # IADsADSystemInfo::GetDCSiteName
@@ -158,3 +158,4 @@ wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsadsysteminfo">IADsADSystemInfo</a>
+

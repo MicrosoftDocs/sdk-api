@@ -44,6 +44,7 @@ api_type:
 api_location:
  - eaphostpeertypes.h
 api_name:
+ - _ISOLATION_STATE
  - ISOLATION_STATE
 ---
 
@@ -97,3 +98,4 @@ Network Access Protection (NAP) uses the <b>ISOLATION_STATE</b> value to determi
 
 
 <a href="/windows/desktop/api/eappapis/nc-eappapis-notificationhandler">NotificationHandler</a>
+

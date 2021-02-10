@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMDomain.SearchSOMs
- - GPMDomain.SearchSOMs
+ - IGPMDomain::SearchSOMs
 ---
 
 ## -description
@@ -102,3 +101,4 @@ This method does not allow you to search for site SOMs. Call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
+

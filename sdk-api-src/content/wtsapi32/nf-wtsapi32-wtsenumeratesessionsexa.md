@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - WTSEnumerateSessionsExA
  - wtsapi32/WTSEnumerateSessionsExA
+ - WTSEnumerateSessionsEx
+ - wtsapi32/WTSEnumerateSessionsEx
 dev_langs:
  - c++
 topic_type:
@@ -43,10 +46,8 @@ api_location:
  - Wtsapi32.dll
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSEnumerateSessionsEx
  - WTSEnumerateSessionsExA
- - WTSEnumerateSessionsExW
-req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
+ - WTSEnumerateSessionsEx
 ---
 
 # WTSEnumerateSessionsExA function
@@ -116,3 +117,4 @@ To enumerate sessions running on a virtual machine hosted on an RD Virtualizati
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_info_1a">WTS_SESSION_INFO_1</a>
+

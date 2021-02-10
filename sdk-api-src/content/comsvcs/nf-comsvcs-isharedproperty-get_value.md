@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISharedProperty.get_Value
+ - ISharedProperty::get_Value
 ---
 
 # ISharedProperty::get_Value
@@ -69,3 +69,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 <a href="/windows/desktop/cossdk/sharedproperty">SharedProperty</a>
+

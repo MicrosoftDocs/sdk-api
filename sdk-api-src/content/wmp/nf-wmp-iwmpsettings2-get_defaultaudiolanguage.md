@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings2.get_defaultAudioLanguage
+ - IWMPSettings2::get_defaultAudioLanguage
 ---
 
 # IWMPSettings2::get_defaultAudioLanguage
@@ -91,3 +91,4 @@ An LCID uniquely identifies a particular language dialect, called a locale.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings2">IWMPSettings2 Interface</a>
+

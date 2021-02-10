@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkListManager.GetNetworkConnection
+ - INetworkListManager::GetNetworkConnection
 ---
 
 # INetworkListManager::GetNetworkConnection
@@ -118,3 +118,4 @@ For example, it is possible for  a client to receive a <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
+

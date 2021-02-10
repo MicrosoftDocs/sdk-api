@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.AdjustRect
+ - IOleInPlaceSiteWindowless::AdjustRect
 ---
 
 # IOleInPlaceSiteWindowless::AdjustRect
@@ -91,3 +91,4 @@ This method can also be used to figure whether a point or a rectangular area is 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
+

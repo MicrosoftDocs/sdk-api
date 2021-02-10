@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - ReplaceTextA
  - commdlg/ReplaceTextA
+ - ReplaceText
+ - commdlg/ReplaceText
 dev_langs:
  - c++
 topic_type:
@@ -42,10 +45,8 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - ReplaceText
  - ReplaceTextA
- - ReplaceTextW
-req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
+ - ReplaceText
 ---
 
 # ReplaceTextA function
@@ -123,3 +124,4 @@ You can provide an <a href="/windows/desktop/api/commdlg/nc-commdlg-lpfrhookproc
 
 
 <a href="/windows/desktop/dlgbox/wm-ctlcolordlg">WM_CTLCOLORDLG</a>
+

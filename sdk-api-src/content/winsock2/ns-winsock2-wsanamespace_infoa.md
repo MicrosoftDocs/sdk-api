@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
- - WSANAMESPACE_INFO
+ - _WSANAMESPACE_INFOA
+ - PWSANAMESPACE_INFOA
  - WSANAMESPACE_INFOA
- - WSANAMESPACE_INFOW
 ---
 
 # WSANAMESPACE_INFOA structure
@@ -228,3 +228,4 @@ On Windows Vista and later, <a href="/windows/desktop/api/winsock2/ns-winsock2-
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace32">WSCInstallNameSpace32</a>
+

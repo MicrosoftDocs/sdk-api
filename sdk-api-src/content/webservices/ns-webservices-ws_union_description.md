@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
+ - _WS_UNION_DESCRIPTION
  - WS_UNION_DESCRIPTION
 ---
 
@@ -246,3 +247,4 @@ The following restrictions apply to the field descriptions:
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> may not be used.
             </li>
 </ul>
+

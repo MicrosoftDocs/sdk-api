@@ -44,6 +44,7 @@ api_type:
 api_location:
  - filtereg.h
 api_name:
+ - _FILTERED_DATA_SOURCES
  - FILTERED_DATA_SOURCES
 ---
 
@@ -97,3 +98,4 @@ A filter, also known as a filter handler, is an implementation of the <a href="/
 
 
 <b>Reference</b>
+

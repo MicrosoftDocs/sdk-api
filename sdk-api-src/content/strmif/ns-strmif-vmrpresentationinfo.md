@@ -45,6 +45,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagVMRPRESENTATIONINFO
  - VMRPRESENTATIONINFO
 ---
 
@@ -100,3 +101,4 @@ Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member 
 
 
 <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
+

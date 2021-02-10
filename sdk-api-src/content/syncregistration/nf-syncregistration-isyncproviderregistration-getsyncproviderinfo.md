@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration.GetSyncProviderInfo
+ - ISyncProviderRegistration::GetSyncProviderInfo
 ---
 
 # ISyncProviderRegistration::GetSyncProviderInfo
@@ -121,3 +121,4 @@ By calling the <a href="/previous-versions/windows/desktop/api/syncregistration/
 
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
+

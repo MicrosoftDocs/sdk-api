@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange.IsEqual
+ - ITextRange::IsEqual
 ---
 
 # ITextRange::IsEqual
@@ -84,3 +84,4 @@ The
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

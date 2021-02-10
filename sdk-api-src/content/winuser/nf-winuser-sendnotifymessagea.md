@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-message-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SendNotifyMessageA
  - winuser/SendNotifyMessageA
+ - SendNotifyMessage
+ - winuser/SendNotifyMessage
 dev_langs:
  - c++
 topic_type:
@@ -50,10 +53,8 @@ api_location:
  - Ext-MS-Win-NTUser-Message-l1-1-2.dll
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
- - SendNotifyMessage
  - SendNotifyMessageA
- - SendNotifyMessageW
-req.apiset: ext-ms-win-ntuser-message-l1-1-3 (introduced in Windows 10, version 10.0.14393)
+ - SendNotifyMessage
 ---
 
 # SendNotifyMessageA function
@@ -149,3 +150,4 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
+

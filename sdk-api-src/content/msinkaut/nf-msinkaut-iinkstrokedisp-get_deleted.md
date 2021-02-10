@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.Deleted
- - IInkStrokeDisp.get_Deleted
- - IInkStrokeDisp.get_Deleted
+ - IInkStrokeDisp::get_Deleted
 ---
 
 # IInkStrokeDisp::get_Deleted
@@ -64,3 +62,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+

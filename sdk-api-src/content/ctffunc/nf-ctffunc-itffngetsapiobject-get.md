@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnGetSAPIObject.Get
+ - ITfFnGetSAPIObject::Get
 ---
 
 # ITfFnGetSAPIObject::Get
@@ -114,3 +114,4 @@ The requested object is not implemented.
 
 <a href="/windows/win32/api/ctffunc/ne-ctffunc-tfsapiobject">TfSapiObject
       </a>
+

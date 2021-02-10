@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidstreamBufferSinkEvent4.WriteFailureClear
+ - IMSVidStreamBufferSinkEvent4::WriteFailureClear
 ---
 
 # IMSVidStreamBufferSinkEvent4::WriteFailureClear
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink Filter</a>
+

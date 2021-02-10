@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont.put_Name
+ - IFont::put_Name
 ---
 
 # IFont::put_Name
@@ -107,3 +107,4 @@ The string value is caller allocated and the caller is responsible for freeing i
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_name">IFont::get_Name</a>
+

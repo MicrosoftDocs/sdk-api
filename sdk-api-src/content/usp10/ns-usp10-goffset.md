@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
+ - tagGOFFSET
  - GOFFSET
 ---
 
@@ -91,3 +92,4 @@ The members of this structure are named as they are so that they are not confuse
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

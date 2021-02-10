@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
+ - LPLVINSERTMARK
  - LVINSERTMARK
 ---
 
@@ -94,3 +95,4 @@ Item next to which the insertion point appears. If this member contains -1, ther
 ### -field dwReserved
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+

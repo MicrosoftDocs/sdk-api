@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation.IsRemovable
- - ICspInformation.get_IsRemovable
+ - ICspInformation::get_IsRemovable
 ---
 
 # ICspInformation::get_IsRemovable
@@ -70,3 +69,4 @@ The Certificate Enrollment service assumes that a provider is a smart card provi
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+

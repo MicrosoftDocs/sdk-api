@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray.RemoveAt
+ - CHStringArray::RemoveAt
 ---
 
 # CHStringArray::RemoveAt
@@ -111,3 +111,4 @@ The results from this program are as follows.
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-insertat(int_chstringarray)">CHStringArray::InsertAt</a>
+

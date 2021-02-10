@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFClockStateSink.OnClockPause
+ - IMFClockStateSink::OnClockPause
 ---
 
 # IMFClockStateSink::OnClockPause
@@ -80,3 +80,4 @@ For any object that is not the presentation time source, the <b>OnClockPause</b>
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
+

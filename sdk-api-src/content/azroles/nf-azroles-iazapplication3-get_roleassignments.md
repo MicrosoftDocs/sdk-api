@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication3.RoleAssignments
- - IAzApplication3.get_RoleAssignments
+ - IAzApplication3::get_RoleAssignments
 ---
 
 # IAzApplication3::get_RoleAssignments
@@ -56,3 +55,4 @@ The <b>RoleAssignments</b> property gets an <a href="/windows/desktop/api/azrole
 This property is read-only.
 
 ## -parameters
+

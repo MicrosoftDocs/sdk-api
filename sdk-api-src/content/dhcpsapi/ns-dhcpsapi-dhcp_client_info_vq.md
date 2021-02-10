@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLIENT_INFO_VQ
+ - LPDHCP_CLIENT_INFO_VQ
  - DHCP_CLIENT_INFO_VQ
 ---
 
@@ -241,3 +243,4 @@ If <b>TRUE</b>, the DHCPv4 client is quarantine-enabled; if <b>FALSE</b>, it is 
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a>
+

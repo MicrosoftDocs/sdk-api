@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsBrowseDomainTree.SetComputer
+ - IDsBrowseDomainTree::SetComputer
 ---
 
 # IDsBrowseDomainTree::SetComputer
@@ -83,3 +83,4 @@ When <b>SetComputer</b> is called on a particular <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">IDsBrowseDomainTree::FlushCachedDomains</a>
+

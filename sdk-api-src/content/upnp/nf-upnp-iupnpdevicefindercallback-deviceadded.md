@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceFinderCallback.DeviceAdded
+ - IUPnPDeviceFinderCallback::DeviceAdded
 ---
 
 # IUPnPDeviceFinderCallback::DeviceAdded
@@ -86,3 +86,4 @@ The UPnP framework might return two or more callbacks for the same device. This 
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefindercallback">IUPnPDeviceFinderCallback</a>
+

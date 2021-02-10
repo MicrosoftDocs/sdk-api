@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGPEInformation.GetOptions
+ - IGPEInformation::GetOptions
 ---
 
 # IGPEInformation::GetOptions
@@ -76,3 +76,4 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
+

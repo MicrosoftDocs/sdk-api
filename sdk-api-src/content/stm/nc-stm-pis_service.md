@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - IsService
+ - PIS_SERVICE
 ---
 
 # PIS_SERVICE callback function
@@ -143,3 +143,4 @@ The service type or name is invalid.
 
 
 <a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
+

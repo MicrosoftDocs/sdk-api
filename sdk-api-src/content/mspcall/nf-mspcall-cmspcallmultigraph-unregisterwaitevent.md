@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallMultiGraph.UnregisterWaitEvent
+ - CMSPCallMultiGraph::UnregisterWaitEvent
 ---
 
 # CMSPCallMultiGraph::UnregisterWaitEvent
@@ -68,3 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
+

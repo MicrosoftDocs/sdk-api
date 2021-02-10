@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetPriority
+ - IBackgroundCopyJob::SetPriority
 ---
 
 # IBackgroundCopyJob::SetPriority
@@ -111,3 +111,4 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getpriority">IBackgroundCopyJob::GetPriority</a>
+

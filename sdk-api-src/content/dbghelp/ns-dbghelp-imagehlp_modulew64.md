@@ -46,10 +46,9 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - IMAGEHLP_MODULE64
- - IMAGEHLP_MODULE64
+ - _IMAGEHLP_MODULEW64
+ - PIMAGEHLP_MODULEW64
  - IMAGEHLP_MODULEW64
- - IMAGEHLP_MODULE
 ---
 
 ## -description
@@ -305,3 +304,4 @@ typedef struct _IMAGEHLP_MODULEW {
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a>
+

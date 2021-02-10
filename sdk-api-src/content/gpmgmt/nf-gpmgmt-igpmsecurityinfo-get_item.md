@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMSecurityInfo.Item
- - IGPMSecurityInfo.get_Item
- - GPMSecurityInfo.Item
+ - IGPMSecurityInfo::get_Item
 ---
 
 # IGPMSecurityInfo::get_Item
@@ -66,3 +64,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
+

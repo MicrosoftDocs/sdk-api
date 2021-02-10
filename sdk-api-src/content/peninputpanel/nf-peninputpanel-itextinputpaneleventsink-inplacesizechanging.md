@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.InPlaceSizeChanging
+ - ITextInputPanelEventSink::InPlaceSizeChanging
 ---
 
 # ITextInputPanelEventSink::InPlaceSizeChanging
@@ -110,3 +110,4 @@ Actions causing the Input Panel to change size include changing the screen resol
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanged">ITextInputPanelEventSink::InPlaceSizeChanged Method</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Shldisp.h
 api_name:
+ - _tagAUTOCOMPLETEOPTIONS
  - AUTOCOMPLETEOPTIONS
 ---
 
@@ -95,3 +96,4 @@ Specifies values used by <a href="/windows/desktop/api/shldisp/nf-shldisp-iautoc
 ### -field ACO_NOPREFIXFILTERING
 
 0x0100. <b>Windows Vista and later</b>. Disable prefix filtering when displaying the autosuggest dropdown. Always display all suggestions.
+

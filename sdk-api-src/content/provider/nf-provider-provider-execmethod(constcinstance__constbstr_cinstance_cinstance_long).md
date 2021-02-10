@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.ExecMethod
+ - Provider::ExecMethod
 ---
 
 # Provider::ExecMethod
@@ -118,3 +118,4 @@ In addition to declaring the [out] properties as specified in the return declara
 </li>
 </ol>
 For more information, see <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a>.
+

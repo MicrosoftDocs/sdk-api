@@ -43,8 +43,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymInitialize
- - SymInitialize
- - SymInitializeW
 ---
 
 # SymInitialize function
@@ -146,3 +144,4 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>
+

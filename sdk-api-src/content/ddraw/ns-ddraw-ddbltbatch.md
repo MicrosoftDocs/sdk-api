@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
+ - _DDBLTBATCH
  - DDBLTBATCH
 ---
 
@@ -219,3 +220,4 @@ Performs a z-buffered bitblt, using the <b>lpDDSZBufferSrc</b> and <b>dwZBufferO
 ### -field lpDDBltFx
 
 Address of a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure that specifies additional bitblt effects.
+

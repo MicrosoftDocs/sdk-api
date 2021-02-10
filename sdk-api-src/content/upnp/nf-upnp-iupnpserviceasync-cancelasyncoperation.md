@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync.CancelAsyncOperation
+ - IUPnPServiceAsync::CancelAsyncOperation
 ---
 
 # IUPnPServiceAsync::CancelAsyncOperation
@@ -114,3 +114,4 @@ Calling this method for a pending <a href="/windows/desktop/api/upnp/nf-upnp-iup
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents">IUPnPServiceAsync::BeginSubscribeToEvents</a>
+

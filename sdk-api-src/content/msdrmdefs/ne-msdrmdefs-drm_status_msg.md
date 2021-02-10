@@ -45,6 +45,7 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
+ - _DRM_STATUS_MSG
  - DRM_STATUS_MSG
 ---
 
@@ -111,3 +112,4 @@ The callback function can use this message, together with the <i>hr</i> paramete
 
 
 <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmactivate">DRMActivate</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryProvider.Detach
+ - IWSDiscoveryProvider::Detach
 ---
 
 # IWSDiscoveryProvider::Detach
@@ -96,3 +96,4 @@ The <b>Detach</b> operation blocks until all callbacks into the associated <a hr
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
+

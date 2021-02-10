@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
+ - _EVT_RPC_LOGIN
  - EVT_RPC_LOGIN
 ---
 
@@ -85,3 +86,4 @@ If you set <b>Password</b>, consider using the <a href="/previous-versions/windo
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>
+

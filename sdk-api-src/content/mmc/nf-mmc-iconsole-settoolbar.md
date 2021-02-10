@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole.SetToolbar
+ - IConsole::SetToolbar
 ---
 
 # IConsole::SetToolbar
@@ -72,3 +72,4 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
+

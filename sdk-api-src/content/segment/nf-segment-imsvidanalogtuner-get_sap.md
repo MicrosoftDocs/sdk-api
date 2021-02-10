@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAnalogTuner.get_SAP
+ - IMSVidAnalogTuner::get_SAP
 ---
 
 # IMSVidAnalogTuner::get_SAP
@@ -75,3 +75,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-put_sap">IMSVidAnalogTuner::put_SAP</a>
+

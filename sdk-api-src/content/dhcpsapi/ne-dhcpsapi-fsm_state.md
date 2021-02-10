@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
+ - _FSM_STATE
  - FSM_STATE
 ---
 
@@ -119,3 +120,4 @@ These states are in conformance with the states described in the IETF Failover P
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a>
+

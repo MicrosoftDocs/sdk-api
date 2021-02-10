@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter.Initialize
+ - IMFASFSplitter::Initialize
 ---
 
 # IMFASFSplitter::Initialize
@@ -99,3 +99,4 @@ The <i>pIContentInfo</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
+

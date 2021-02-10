@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _TRUSTED_PASSWORD_INFO
+ - PTRUSTED_PASSWORD_INFO
  - TRUSTED_PASSWORD_INFO
 ---
 
@@ -88,3 +90,4 @@ When you have finished using the <b>TRUSTED_PASSWORD_INFO</b> structure, clear t
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
+

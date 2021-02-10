@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiSetSelectedDriverW
  - setupapi/SetupDiSetSelectedDriverW
+ - SetupDiSetSelectedDriver
+ - setupapi/SetupDiSetSelectedDriver
 dev_langs:
  - c++
 topic_type:
@@ -43,7 +45,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetSelectedDriver - SetupDiSetSelectedDriverW
+ - SetupDiSetSelectedDriverW
+ - SetupDiSetSelectedDriver
 ---
 
 # SetupDiSetSelectedDriverW function
@@ -89,3 +92,4 @@ If <i>DriverInfoData</i> is <b>NULL</b>, <b>SetupDiSetSelectedDriver</b> resets 
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetselecteddrivera">SetupDiGetSelectedDriver</a>
+

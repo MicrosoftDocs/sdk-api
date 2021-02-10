@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformationCollection._NewEnum
- - ICertSrvSetupKeyInformationCollection.get__NewEnum
+ - ICertSrvSetupKeyInformationCollection::get__NewEnum
 ---
 
 # ICertSrvSetupKeyInformationCollection::get__NewEnum
@@ -64,3 +63,4 @@ This property is provided for internal use by the <code>For Each</code> statemen
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
+

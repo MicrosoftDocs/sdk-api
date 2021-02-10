@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_RENDER_TARGET_VIEW_DESC.CD3D11_RENDER_TARGET_VIEW_DESC
+ - CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC
 ---
 
 # CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT)
@@ -74,3 +74,4 @@ Total number of elements in the view.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a>
+

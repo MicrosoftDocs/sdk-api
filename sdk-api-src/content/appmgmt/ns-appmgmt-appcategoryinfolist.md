@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Appmgmt.h
 api_name:
+ - _APPCATEGORYINFOLIST
  - APPCATEGORYINFOLIST
 ---
 
@@ -79,3 +80,4 @@ A pointer to an array of <a href="/windows/desktop/api/appmgmt/ns-appmgmt-appcat
 
 
 <a href="/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-getcategories">IAppPublisher::GetCategories</a>
+

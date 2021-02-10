@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IConsolePowerSink.OnPowerBroadcast
+ - IConsolePowerSink::OnPowerBroadcast
 ---
 
 # IConsolePowerSink::OnPowerBroadcast
@@ -130,3 +130,4 @@ If successful, the return value is S_OK. Other return values indicate an error c
 ## -see-also
 
 <a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPReregistrar.ReregisterRunningDevice
+ - IUPnPReregistrar::ReregisterRunningDevice
 ---
 
 # IUPnPReregistrar::ReregisterRunningDevice
@@ -204,3 +204,4 @@ Common errors that can occur when invoking this function include:
 
 
 <a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpreregistrar">IUPnPReregistrar</a>
+

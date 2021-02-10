@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
- - ID3D10ShaderReflectionConstantBuffer.GetDesc
+ - ID3D10ShaderReflectionConstantBuffer::GetDesc
 ---
 
 # ID3D10ShaderReflectionConstantBuffer::GetDesc
@@ -69,3 +69,4 @@ Returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectionconstantbuffer">ID3D10ShaderReflectionConstantBuffer Interface</a>
+

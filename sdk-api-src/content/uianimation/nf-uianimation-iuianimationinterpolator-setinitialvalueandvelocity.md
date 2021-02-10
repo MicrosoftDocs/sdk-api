@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator.SetInitialValueAndVelocity
+ - IUIAnimationInterpolator::SetInitialValueAndVelocity
 ---
 
 # IUIAnimationInterpolator::SetInitialValueAndVelocity
@@ -75,3 +75,4 @@ Windows Animation always calls <b>SetInitialValueAndVelocity</b> before calling 
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a>
+

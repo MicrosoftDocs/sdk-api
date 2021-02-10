@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - IWordBreaker.ComposePhrase
+ - IWordBreaker::ComposePhrase
 ---
 
 # IWordBreaker::ComposePhrase

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.GetIAccessible
+ - IUIAutomationLegacyIAccessiblePattern::GetIAccessible
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::GetIAccessible
@@ -73,3 +73,4 @@ This method returns <b>NULL</b> if the underlying implementation of the UI Autom
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern">IUIAutomationLegacyIAccessiblePattern</a>
+

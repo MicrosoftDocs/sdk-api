@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.QueryProperty
+ - IWRdsProtocolConnection::QueryProperty
 ---
 
 # IWRdsProtocolConnection::QueryProperty
@@ -254,3 +254,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
+

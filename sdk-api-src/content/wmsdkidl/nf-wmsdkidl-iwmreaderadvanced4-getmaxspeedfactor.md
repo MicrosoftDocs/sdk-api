@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.GetMaxSpeedFactor
+ - IWMReaderAdvanced4::GetMaxSpeedFactor
 ---
 
 # IWMReaderAdvanced4::GetMaxSpeedFactor
@@ -105,3 +105,4 @@ If the server is using Fast Cache streaming, this method returns 1.0. For local 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-isusingfastcache">IWMReaderAdvanced4::IsUsingFastCache</a>
+

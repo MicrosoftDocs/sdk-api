@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaTypeHandler.GetMajorType
+ - IMFMediaTypeHandler::GetMajorType
 ---
 
 # IMFMediaTypeHandler::GetMajorType
@@ -77,3 +77,4 @@ This interface is available on the following platforms if the Windows Media Form
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>
+

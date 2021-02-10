@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.GetMaximumContentAge
+ - IBitsPeerCacheAdministration::GetMaximumContentAge
 ---
 
 # IBitsPeerCacheAdministration::GetMaximumContentAge
@@ -88,3 +88,4 @@ Success
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
+

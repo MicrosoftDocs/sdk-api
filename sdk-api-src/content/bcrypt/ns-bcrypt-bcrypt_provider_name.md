@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_PROVIDER_NAME
  - BCRYPT_PROVIDER_NAME
 ---
 
@@ -63,3 +64,4 @@ A pointer to a null-terminated Unicode string that contains the name of the prov
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumproviders">BCryptEnumProviders</a>
+

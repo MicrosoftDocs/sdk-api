@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddstream.h
 api_name:
- - IDirectDrawMediaStream.GetFormat
+ - IDirectDrawMediaStream::GetFormat
 ---
 
 # IDirectDrawMediaStream::GetFormat
@@ -156,3 +156,4 @@ The DDSD_CAPS flag will return one of the values listed in the <b>DDSCAPS</b> st
 ## -see-also
 
 <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
+

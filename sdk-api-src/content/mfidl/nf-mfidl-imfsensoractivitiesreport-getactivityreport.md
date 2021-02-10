@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorActivitiesReport.GetActivityReport
+ - IMFSensorActivitiesReport::GetActivityReport
 ---
 
 # IMFSensorActivitiesReport::GetActivityReport
@@ -118,3 +118,4 @@ The <i>Index</i> parameter is not less than value returned by <a href="/windows/
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a>
+

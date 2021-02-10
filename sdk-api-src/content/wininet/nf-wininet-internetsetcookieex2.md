@@ -29,6 +29,9 @@ req.umdf-ver:
 req.unicode-ansi: 
 f1_keywords:
  - InternetSetCookieEx2
+ - wininet/InternetSetCookieEx2
+ - InternetSetCookieEx
+ - wininet/InternetSetCookieEx
 topic_type:
  - apiref
 api_type:
@@ -37,6 +40,7 @@ api_location:
  - Wininet.dll
 api_name:
  - InternetSetCookieEx2
+ - InternetSetCookieEx
 ---
 
 ## -description
@@ -93,3 +97,4 @@ Returns ERROR_SUCCESS if successful, or a [system error code](/windows/desktop/d
 [InternetFreeCookies](nf-wininet-internetfreecookies.md)
 
 [WinINet Functions](/windows/win32/wininet/wininet-functions)
+

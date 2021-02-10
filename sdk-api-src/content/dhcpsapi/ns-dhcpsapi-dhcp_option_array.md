@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_OPTION_ARRAY
+ - LPDHCP_OPTION_ARRAY
  - DHCP_OPTION_ARRAY
 ---
 
@@ -77,3 +79,4 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_opt
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a>
+

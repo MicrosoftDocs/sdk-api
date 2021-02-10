@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _LUID_AND_ATTRIBUTES
+ - PLUID_AND_ATTRIBUTES
  - LUID_AND_ATTRIBUTES
 ---
 
@@ -85,3 +87,4 @@ An <b>LUID_AND_ATTRIBUTES</b> structure can represent an LUID whose attributes c
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
+

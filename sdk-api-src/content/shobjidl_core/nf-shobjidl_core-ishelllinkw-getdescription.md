@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLink.GetDescription
- - IShellLinkA.GetDescription
- - IShellLinkW.GetDescription
+ - IShellLinkW::GetDescription
 ---
 
 # IShellLinkW::GetDescription

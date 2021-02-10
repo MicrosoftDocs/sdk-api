@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaControl.ShutdownNameResolution
+ - IDiskQuotaControl::ShutdownNameResolution
 ---
 
 # IDiskQuotaControl::ShutdownNameResolution
@@ -91,3 +91,4 @@ Asynchronous name resolution will also cease after the thread terminates. A subs
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
+

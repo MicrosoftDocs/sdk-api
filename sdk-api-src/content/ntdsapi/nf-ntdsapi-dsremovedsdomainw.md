@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsRemoveDsDomainW
  - ntdsapi/DsRemoveDsDomainW
+ - DsRemoveDsDomain
+ - ntdsapi/DsRemoveDsDomain
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsRemoveDsDomain
- - DsRemoveDsDomainA
  - DsRemoveDsDomainW
+ - DsRemoveDsDomain
 ---
 
 # DsRemoveDsDomainW function
@@ -90,3 +91,4 @@ Returns <b>ERROR_SUCCESS</b> if successful  or a Win32 or RPC error code if unsu
 
 > [!NOTE]
 > The ntdsapi.h header defines DsRemoveDsDomain as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

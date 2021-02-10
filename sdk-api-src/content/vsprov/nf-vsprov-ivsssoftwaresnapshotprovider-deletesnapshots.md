@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.DeleteSnapshots
+ - IVssSoftwareSnapshotProvider::DeleteSnapshots
 ---
 
 # IVssSoftwareSnapshotProvider::DeleteSnapshots
@@ -161,3 +161,4 @@ Multiple shadow copies in a shadow copy set are deleted sequentially. If an erro
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume.SetFlags
+ - IVdsVolume::SetFlags
 ---
 
 # IVdsVolume::SetFlags
@@ -253,3 +253,4 @@ Specifying either <b>VDS_VF_HIDDEN</b> or <b>VDS_VF_READONLY</b> will
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>
+

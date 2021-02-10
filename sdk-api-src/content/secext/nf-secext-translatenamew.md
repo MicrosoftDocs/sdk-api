@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - TranslateNameW
  - secext/TranslateNameW
+ - TranslateName
+ - secext/TranslateName
 dev_langs:
  - c++
 topic_type:
@@ -42,10 +45,8 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - TranslateName
- - TranslateNameA
  - TranslateNameW
-req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
+ - TranslateName
 ---
 
 # TranslateNameW function
@@ -119,3 +120,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
+

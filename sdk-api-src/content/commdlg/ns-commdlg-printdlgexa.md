@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
- - PRINTDLGEX
+ - tagPDEXA
+ - LPPRINTDLGEXA
  - PRINTDLGEXA
- - PRINTDLGEXW
 ---
 
 # PRINTDLGEXA structure
@@ -533,3 +533,4 @@ During the execution of <a href="/previous-versions/windows/desktop/legacy/ms646
 
 
 <b>Reference</b>
+

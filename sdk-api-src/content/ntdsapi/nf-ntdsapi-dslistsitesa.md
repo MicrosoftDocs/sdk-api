@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DsListSitesA
  - ntdsapi/DsListSitesA
+ - DsListSites
+ - ntdsapi/DsListSites
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsListSites
  - DsListSitesA
- - DsListSitesW
+ - DsListSites
 ---
 
 # DsListSitesA function
@@ -93,3 +94,4 @@ Individual name conversion errors are reported in the returned <a href="/windows
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreenameresulta">DsFreeNameResult</a>
+

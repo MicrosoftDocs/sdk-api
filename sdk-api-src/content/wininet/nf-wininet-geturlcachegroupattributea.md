@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetUrlCacheGroupAttributeA
  - wininet/GetUrlCacheGroupAttributeA
+ - GetUrlCacheGroupAttribute
+ - wininet/GetUrlCacheGroupAttribute
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - GetUrlCacheGroupAttribute
  - GetUrlCacheGroupAttributeA
- - GetUrlCacheGroupAttributeW
+ - GetUrlCacheGroupAttribute
 ---
 
 # GetUrlCacheGroupAttributeA function
@@ -189,3 +190,4 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific er
 
 
 <a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
+

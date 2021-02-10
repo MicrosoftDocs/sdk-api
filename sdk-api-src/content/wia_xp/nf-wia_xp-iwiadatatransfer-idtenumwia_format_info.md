@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
+ - IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
 ---
 
 # IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
@@ -90,3 +90,4 @@ If it fails for any reason other than those specified in the following table, th
 This method creates the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface that applications use to enumerate an array of <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structures. This provides applications with the ability to determine the formats and media types of incoming data when transferring banded data.
 
 Note that applications must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppEnum</i> parameter.
+

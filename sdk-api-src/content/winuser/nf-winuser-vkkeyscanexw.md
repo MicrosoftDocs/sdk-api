@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - VkKeyScanExW
  - winuser/VkKeyScanExW
+ - VkKeyScanEx
+ - winuser/VkKeyScanEx
 dev_langs:
  - c++
 topic_type:
@@ -48,9 +50,8 @@ api_location:
  - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - VkKeyScanEx
- - VkKeyScanExA
  - VkKeyScanExW
+ - VkKeyScanEx
 ---
 
 # VkKeyScanExW function
@@ -215,3 +216,4 @@ Translations for the numeric keypad (VK_NUMPAD0 through VK_DIVIDE) are ignored. 
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a>
+

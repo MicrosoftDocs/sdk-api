@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - wtsdefs
  - wtsdefs/wtsdefs
+api_name:
+ - wtsdefs
 ---
 
 # Wtsdefs.h header

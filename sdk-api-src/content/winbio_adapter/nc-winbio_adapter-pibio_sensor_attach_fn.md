@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - SensorAdapterAttach
+ - PIBIO_SENSOR_ATTACH_FN
 ---
 
 # PIBIO_SENSOR_ATTACH_FN callback function
@@ -217,3 +217,4 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a>
+

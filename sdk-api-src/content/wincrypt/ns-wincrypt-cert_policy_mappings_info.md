@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_POLICY_MAPPINGS_INFO
+ - PCERT_POLICY_MAPPINGS_INFO
  - CERT_POLICY_MAPPINGS_INFO
 ---
 
@@ -66,3 +68,4 @@ Count of the number of elements in the <b>rgPolicyMapping</b> array.
 
 Array of 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_mapping">CERT_POLICY_MAPPING</a> structures. Each element of this array provides pair of OIDs mapping the identifies of one domain to identifiers in the other domain.
+

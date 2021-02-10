@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _VDS_VDISK_PROPERTIES
+ - PVDS_VDISK_PROPERTIES
  - VDS_VDISK_PROPERTIES
 ---
 
@@ -103,3 +105,4 @@ A <b>NULL</b>-terminated wide-character string that contains an optional path to
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-getproperties">IVdsVDisk::GetProperties</a>
+

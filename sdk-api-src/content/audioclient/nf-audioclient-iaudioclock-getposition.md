@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClock.GetPosition
+ - IAudioClock::GetPosition
 ---
 
 # IAudioClock::GetPosition
@@ -157,3 +157,4 @@ Position measurements might occasionally be delayed by intermittent, high-priori
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">IAudioClock::GetFrequency</a>
+

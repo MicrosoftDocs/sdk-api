@@ -45,6 +45,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_MAINTENANCE_OPERATION
  - VDS_MAINTENANCE_OPERATION
 ---
 
@@ -101,3 +102,4 @@ The  <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-startmai
 
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
+

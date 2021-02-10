@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12PipelineState.GetCachedBlob
+ - ID3D12PipelineState::GetCachedBlob
 ---
 
 # ID3D12PipelineState::GetCachedBlob
@@ -73,3 +73,4 @@ Refer to the remarks for <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_cach
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate">ID3D12PipelineState</a>
+

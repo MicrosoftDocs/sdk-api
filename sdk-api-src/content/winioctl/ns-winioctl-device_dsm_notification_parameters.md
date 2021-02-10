@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _DEVICE_DSM_NOTIFICATION_PARAMETERS
+ - PDEVICE_DSM_NOTIFICATION_PARAMETERS
  - DEVICE_DSM_NOTIFICATION_PARAMETERS
 ---
 
@@ -162,3 +164,4 @@ Specifies a notification operation for a system crash dump file.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+

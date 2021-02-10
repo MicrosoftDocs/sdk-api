@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager.FolderActions
- - IDataManager.get_FolderActions
+ - IDataManager::get_FolderActions
 ---
 
 # IDataManager::get_FolderActions
@@ -64,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_resourcepolicy">IDataManager::ResourcePolicy</a>
+

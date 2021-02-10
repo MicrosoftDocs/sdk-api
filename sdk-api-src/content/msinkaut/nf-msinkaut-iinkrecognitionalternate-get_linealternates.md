@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.LineAlternates
- - IInkRecognitionAlternate.get_LineAlternates
- - IInkRecognitionAlternate.get_LineAlternates
+ - IInkRecognitionAlternate::get_LineAlternates
 ---
 
 # IInkRecognitionAlternate::get_LineAlternates
@@ -89,3 +87,4 @@ This property is an alternative to calling the <a href="/windows/desktop/api/msi
 
 
 <a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty Constants</a>
+

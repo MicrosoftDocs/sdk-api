@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller.Install
+ - IUpdateInstaller::Install
 ---
 
 # IUpdateInstaller::Install
@@ -113,3 +113,4 @@ This method returns WU_E_NO_UPDATE if the <a href="/windows/desktop/api/wuapi/nf
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
+

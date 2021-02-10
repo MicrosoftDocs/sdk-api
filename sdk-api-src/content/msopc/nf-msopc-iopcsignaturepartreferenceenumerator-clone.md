@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignaturePartReferenceEnumerator.Clone
+ - IOpcSignaturePartReferenceEnumerator::Clone
 ---
 
 # IOpcSignaturePartReferenceEnumerator::Clone
@@ -153,3 +153,4 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
+

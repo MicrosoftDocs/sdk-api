@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
+ - _PPP_ATCP_INFO
  - PPP_ATCP_INFO
 ---
 
@@ -76,3 +77,4 @@ Specifies a Unicode string that holds the client's AppleTalk address on the RAS 
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
+

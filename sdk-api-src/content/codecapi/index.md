@@ -9,6 +9,8 @@ tech.root: mf
 f1_keywords:
  - codecapi
  - codecapi/codecapi
+api_name:
+ - codecapi
 ---
 
 # Codecapi.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.GetParentScopeVersionId
+ - ISearchCrawlScopeManager::GetParentScopeVersionId
 ---
 
 # ISearchCrawlScopeManager::GetParentScopeVersionId
@@ -79,3 +79,4 @@ Use this method to determine whether the indexer is aware of a change in a data 
 This ID can change if a scope rule is removed and then added again. This method returns <b>S_FALSE</b> if no parent inclusion URL was found.
 
 <b>Windows 7 and later</b>: Check out the <a href="/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+

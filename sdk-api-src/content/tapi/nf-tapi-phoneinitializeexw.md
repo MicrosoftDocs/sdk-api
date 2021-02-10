@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - phoneInitializeExW
  - tapi/phoneInitializeExW
+ - phoneInitializeEx
+ - tapi/phoneInitializeEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - phoneInitializeEx
- - phoneInitializeExA
  - phoneInitializeExW
+ - phoneInitializeEx
 ---
 
 # phoneInitializeExW function
@@ -190,3 +191,4 @@ The application can refer to individual phone devices by using phone device iden
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a>
+

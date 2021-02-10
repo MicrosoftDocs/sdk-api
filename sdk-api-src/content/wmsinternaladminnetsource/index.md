@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmsinternaladminnetsource
  - wmsinternaladminnetsource/wmsinternaladminnetsource
+api_name:
+ - wmsinternaladminnetsource
 ---
 
 # Wmsinternaladminnetsource.h header

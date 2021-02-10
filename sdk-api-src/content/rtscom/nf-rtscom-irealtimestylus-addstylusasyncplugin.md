@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus.AddStylusAsyncPlugin
+ - IRealTimeStylus::AddStylusAsyncPlugin
 ---
 
 # IRealTimeStylus::AddStylusAsyncPlugin
@@ -129,3 +129,4 @@ HRESULT CCOMRTSDlg::InitGestureHandler()
 
 
 <b>RealTimeStylus Class</b>
+

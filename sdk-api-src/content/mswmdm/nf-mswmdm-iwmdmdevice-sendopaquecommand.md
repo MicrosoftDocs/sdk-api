@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice.SendOpaqueCommand
+ - IWMDMDevice::SendOpaqueCommand
 ---
 
 # IWMDMDevice::SendOpaqueCommand
@@ -166,3 +166,4 @@ The following code performs a simplified extended authentication procedure with 
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogObject.Value
- - ICatalogObject.get_Value
- - ICatalogObject.put_Value
+ - ICatalogObject::put_Value
 ---
 
 # ICatalogObject::put_Value
@@ -65,3 +63,4 @@ For information regarding properties exposed by catalog objects in each collecti
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
+

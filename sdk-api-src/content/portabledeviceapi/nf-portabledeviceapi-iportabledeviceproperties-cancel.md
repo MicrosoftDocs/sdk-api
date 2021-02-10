@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties.Cancel
+ - IPortableDeviceProperties::Cancel
 ---
 
 # IPortableDeviceProperties::Cancel
@@ -84,3 +84,4 @@ This method cancels all pending operations on the current device handle, which c
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties Interface</a>
+

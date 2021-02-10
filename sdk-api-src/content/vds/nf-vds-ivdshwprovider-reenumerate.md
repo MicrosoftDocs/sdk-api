@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsHwProvider.Reenumerate
+ - IVdsHwProvider::Reenumerate
 ---
 
 # IVdsHwProvider::Reenumerate
@@ -140,3 +140,4 @@ The network query associated with this method can take a long time to complete. 
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
+

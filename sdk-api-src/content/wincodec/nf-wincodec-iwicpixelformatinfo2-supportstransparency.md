@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPixelFormatInfo2.SupportsTransparency
+ - IWICPixelFormatInfo2::SupportsTransparency
 ---
 
 # IWICPixelFormatInfo2::SupportsTransparency
@@ -73,3 +73,4 @@ An indexed pixel format will not return <b>TRUE</b> even though it may have some
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo2">IWICPixelFormatInfo2</a>
+

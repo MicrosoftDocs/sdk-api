@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager._NewEnum
- - IX509PolicyServerListManager.get__NewEnum
+ - IX509PolicyServerListManager::get__NewEnum
 ---
 
 # IX509PolicyServerListManager::get__NewEnum
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlistmanager">IX509PolicyServerListManager</a>
+

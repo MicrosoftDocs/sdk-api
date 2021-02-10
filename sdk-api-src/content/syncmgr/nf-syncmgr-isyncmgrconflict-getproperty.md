@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrConflict.GetProperty
+ - ISyncMgrConflict::GetProperty
 ---
 
 # ISyncMgrConflict::GetProperty
@@ -107,3 +107,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The properties returned are properties of the conflict and not of the <b>IShellItems</b> that are in conflict.
 
 If the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> referenced in <i>propkey</i> is not present in the property store, this method returns S_OK and the <b>vt</b> member of the structure pointed to by <i>ppropvar</i> is set to VT_EMPTY.
+

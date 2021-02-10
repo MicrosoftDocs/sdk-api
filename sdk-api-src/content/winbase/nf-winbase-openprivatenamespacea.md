@@ -34,6 +34,8 @@ ms.custom: 19H1
 f1_keywords:
  - OpenPrivateNamespaceA
  - winbase/OpenPrivateNamespaceA
+ - OpenPrivateNamespace
+ - winbase/OpenPrivateNamespace
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,9 +49,8 @@ api_location:
  - API-Ms-Win-Core-Namespace-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - OpenPrivateNamespace
  - OpenPrivateNamespaceA
- - OpenPrivateNamespaceW
+ - OpenPrivateNamespace
 ---
 
 # OpenPrivateNamespaceA function
@@ -92,3 +93,4 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.SendMessageComplete
+ - IWMPContentPartnerCallback::SendMessageComplete
 ---
 
 # IWMPContentPartnerCallback::SendMessageComplete
@@ -104,3 +104,4 @@ The <b>SendMessageComplete</b> method is part of a chain of methods that are cal
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
+

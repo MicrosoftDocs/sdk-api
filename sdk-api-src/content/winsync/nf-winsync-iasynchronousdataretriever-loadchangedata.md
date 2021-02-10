@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IAsynchronousDataRetriever.LoadChangeData
+ - IAsynchronousDataRetriever::LoadChangeData
 ---
 
 # IAsynchronousDataRetriever::LoadChangeData
@@ -108,3 +108,4 @@ When <b>LoadChangeData</b> is called, the provider must take one of the followin
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-idataretrievercallback">IDataRetrieverCallback Interface</a>
+

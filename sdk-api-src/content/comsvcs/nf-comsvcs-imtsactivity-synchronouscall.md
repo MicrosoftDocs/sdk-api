@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IMTSActivity.SynchronousCall
+ - IMTSActivity::SynchronousCall
 ---
 
 # IMTSActivity::SynchronousCall
@@ -69,3 +69,4 @@ The batch work that is run using this method runs in the context and thread apar
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsactivity">IMTSActivity</a>
+

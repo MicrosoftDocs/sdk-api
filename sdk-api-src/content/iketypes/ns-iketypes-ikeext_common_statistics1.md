@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_COMMON_STATISTICS1_
  - IKEEXT_COMMON_STATISTICS1
 ---
 
@@ -84,3 +85,4 @@ Current number of work items that are queued and waiting to be processed.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

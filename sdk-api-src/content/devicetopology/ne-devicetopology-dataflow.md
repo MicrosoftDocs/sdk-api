@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
+ - __MIDL___MIDL_itf_devicetopology_0000_0000_0011
  - DataFlow
 ---
 
@@ -87,3 +88,4 @@ For more information, see <a href="/windows/desktop/CoreAudio/device-topologies"
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-getdataflow">IConnector::GetDataFlow</a>
+

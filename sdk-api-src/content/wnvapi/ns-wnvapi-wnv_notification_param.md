@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
+ - _WNV_NOTIFICATION_PARAM
+ - PWNV_NOTIFICATION_PARAM
  - WNV_NOTIFICATION_PARAM
 ---
 
@@ -110,3 +112,4 @@ One or more <a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_change_par
 </td>
 </tr>
 </table>
+

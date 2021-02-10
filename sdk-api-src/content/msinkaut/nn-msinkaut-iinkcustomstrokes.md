@@ -44,7 +44,6 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkCustomStrokes
- - IInkCustomStrokes._NewEnum
 ---
 
 # IInkCustomStrokes interface
@@ -90,3 +89,4 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+

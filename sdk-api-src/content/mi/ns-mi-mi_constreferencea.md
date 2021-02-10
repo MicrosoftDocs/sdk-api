@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ConstReferenceA
  - MI_ConstReferenceA
 ---
 
@@ -63,3 +64,4 @@ An array of  <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
 ### -field size
 
 Number of items in the data array.
+

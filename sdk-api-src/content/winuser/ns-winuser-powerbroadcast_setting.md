@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinUser.h
 api_name:
+ - PPOWERBROADCAST_SETTING
  - POWERBROADCAST_SETTING
 ---
 
@@ -78,3 +79,4 @@ The new value of the power setting. The type and possible values for this member
 
 
 <a href="/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>
+

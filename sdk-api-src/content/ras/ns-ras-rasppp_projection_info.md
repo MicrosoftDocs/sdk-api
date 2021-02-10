@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ras.h
 api_name:
+ - _RASPPP_PROJECTION_INFO
+ - PRASPPP_PROJECTION_INFO
  - RASPPP_PROJECTION_INFO
 ---
 
@@ -666,3 +668,4 @@ MPPE compression using 128-bit keys.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
+

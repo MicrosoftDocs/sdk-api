@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor.IsDirectory
+ - IUrlAccessor::IsDirectory
 ---
 
 # IUrlAccessor::IsDirectory

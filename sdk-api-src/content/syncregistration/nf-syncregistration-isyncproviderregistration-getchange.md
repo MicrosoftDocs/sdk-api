@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration.GetChange
+ - ISyncProviderRegistration::GetChange
 ---
 
 # ISyncProviderRegistration::GetChange
@@ -116,3 +116,4 @@ This method returns the changes that have occurred since <a href="/previous-vers
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
+

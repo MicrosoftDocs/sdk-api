@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertConfig2.Reset
- - ICertConfig.Reset
- - CCertConfig.Reset
+ - ICertConfig::Reset
 ---
 
 # ICertConfig::Reset
@@ -87,3 +85,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-next">Next</a>
+

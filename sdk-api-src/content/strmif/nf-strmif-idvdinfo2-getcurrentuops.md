@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentUOPS
+ - IDvdInfo2::GetCurrentUOPS
 ---
 
 # IDvdInfo2::GetCurrentUOPS
@@ -109,3 +109,4 @@ A DVD player application should normally never have to use this method because t
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+

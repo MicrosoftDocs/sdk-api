@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetLocaleInfoW
  - winnls/SetLocaleInfoW
+ - SetLocaleInfo
+ - winnls/SetLocaleInfo
 dev_langs:
  - c++
 topic_type:
@@ -51,9 +53,8 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - SetLocaleInfo
- - SetLocaleInfoA
  - SetLocaleInfoW
+ - SetLocaleInfo
 ---
 
 # SetLocaleInfoW function
@@ -144,3 +145,4 @@ As of Windows Vista, the <a href="/windows/desktop/Intl/locale-sdate">LOCALE_SD
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

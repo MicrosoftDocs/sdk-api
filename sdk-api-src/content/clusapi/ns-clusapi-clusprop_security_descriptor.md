@@ -45,6 +45,7 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_SECURITY_DESCRIPTOR
+ - PCLUSPROP_SECURITY_DESCRIPTOR
 ---
 
 # CLUSPROP_SECURITY_DESCRIPTOR structure
@@ -87,3 +88,4 @@ Byte array to address the entire security descriptor including the owner, group,
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
+

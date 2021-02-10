@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode.SetInputPrefType
+ - IMFTopologyNode::SetInputPrefType
 ---
 
 # IMFTopologyNode::SetInputPrefType
@@ -113,3 +113,4 @@ Source nodes cannot have inputs. If this method is called on a source node, it r
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

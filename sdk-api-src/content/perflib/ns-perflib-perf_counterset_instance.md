@@ -46,7 +46,9 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE
+ - _PERF_COUNTERSET_INSTANCE
+ - PPERF_COUNTERSET_INSTANCE
+ - PERF_COUNTERSET_INSTANCE
 ---
 
 # PERF_COUNTERSET_INSTANCE structure
@@ -101,3 +103,4 @@ The <b>Offset</b> member of  <a href="/windows/desktop/api/perflib/ns-perflib-pe
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfqueryinstance">PerfQueryInstance</a>
+

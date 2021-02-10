@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFontSet.GetPropertyValues
+ - IDWriteFontSet::GetPropertyValues
 ---
 
 # IDWriteFontSet::GetPropertyValues(DWRITE_FONT_PROPERTY_ID,IDWriteStringList)
@@ -75,3 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>
+

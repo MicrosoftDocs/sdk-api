@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
+ - __MIDL___MIDL_itf_devicetopology_0000_0000_0012
  - PartType
 ---
 
@@ -89,3 +90,4 @@ For more information about connectors and subunits, see <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit Interface</a>
+

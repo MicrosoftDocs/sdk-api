@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.Run
+ - IScheduledWorkItem::Run
 ---
 
 # IScheduledWorkItem::Run
@@ -127,3 +127,4 @@ For an example of how to start a task, see <a href="/windows/desktop/TaskSchd/st
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+

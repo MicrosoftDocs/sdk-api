@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJob.TSID
- - IFaxIncomingJob.get_TSID
- - IFaxIncomingJob.get_TSID
+ - IFaxIncomingJob::get_TSID
 ---
 
 # IFaxIncomingJob::get_TSID
@@ -69,3 +67,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
+

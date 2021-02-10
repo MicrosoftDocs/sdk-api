@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - FreePrivateHeap
+ - LSA_FREE_PRIVATE_HEAP
 ---
 
 # LSA_FREE_PRIVATE_HEAP callback function
@@ -67,3 +67,4 @@ A pointer to the <b>FreePrivateHeap</b> function is available in the
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

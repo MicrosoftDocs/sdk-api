@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_SSL_CLIENT_CERT_INFO
+ - PHTTP_SSL_CLIENT_CERT_INFO
  - HTTP_SSL_CLIENT_CERT_INFO
 ---
 
@@ -137,3 +139,4 @@ An
 
 
 <a href="/windows/desktop/api/http/nf-http-httpreceiveclientcertificate">HttpReceiveClientCertificate</a>
+

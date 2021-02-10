@@ -43,7 +43,7 @@ api_location:
  - WWAHost.exe
  - WWAHost.exe.dll
 api_name:
- - IWebApplicationActivation.CancelPendingActivation
+ - IWebApplicationActivation::CancelPendingActivation
 ---
 
 # IWebApplicationActivation::CancelPendingActivation
@@ -62,3 +62,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationactivation">IWebApplicationActivation</a>
+

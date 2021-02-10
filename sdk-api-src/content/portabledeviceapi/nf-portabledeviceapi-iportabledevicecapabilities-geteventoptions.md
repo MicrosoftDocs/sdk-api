@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetEventOptions
+ - IPortableDeviceCapabilities::GetEventOptions
 ---
 
 # IPortableDeviceCapabilities::GetEventOptions
@@ -104,3 +104,4 @@ At least one of the arguments was a <b>NULL</b> pointer.
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+

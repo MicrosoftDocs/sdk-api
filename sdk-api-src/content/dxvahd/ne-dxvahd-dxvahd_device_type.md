@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
+ - _DXVAHD_DEVICE_TYPE
  - DXVAHD_DEVICE_TYPE
 ---
 
@@ -83,3 +84,4 @@ Other. The device is neither a hardware device nor a software plug-in.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.StopBuffering
+ - IWMReaderAdvanced2::StopBuffering
 ---
 
 # IWMReaderAdvanced2::StopBuffering
@@ -72,3 +72,4 @@ The reader responds to the request to stop buffering only if it is currently buf
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_play_mode">WMT_PLAY_MODE</a>
+

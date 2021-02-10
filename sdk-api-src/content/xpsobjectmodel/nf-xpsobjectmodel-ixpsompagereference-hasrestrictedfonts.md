@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.HasRestrictedFonts
+ - IXpsOMPageReference::HasRestrictedFonts
 ---
 
 # IXpsOMPageReference::HasRestrictedFonts
@@ -137,3 +137,4 @@ This value is not updated automatically. If fonts or glyphs are added or removed
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_RESTRICTED</a>
+

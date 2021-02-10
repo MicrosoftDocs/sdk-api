@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnReadData
+ - IMbnDeviceServicesEvents::OnReadData
 ---
 
 # IMbnDeviceServicesEvents::OnReadData
@@ -94,3 +94,4 @@ This byte array contains the byte-by-byte copy of data read from the device serv
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeRenewalCertificate.RenewalCertificate
- - IX509AttributeRenewalCertificate.get_RenewalCertificate
+ - IX509AttributeRenewalCertificate::get_RenewalCertificate
 ---
 
 # IX509AttributeRenewalCertificate::get_RenewalCertificate
@@ -64,3 +63,4 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributere
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributerenewalcertificate">IX509AttributeRenewalCertificate</a>
+

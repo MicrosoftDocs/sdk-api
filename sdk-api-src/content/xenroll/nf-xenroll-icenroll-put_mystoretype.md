@@ -42,19 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.MyStoreType
- - ICEnroll4.get_MyStoreType
- - ICEnroll4.put_MyStoreType
- - ICEnroll3.MyStoreType
- - ICEnroll3.get_MyStoreType
- - ICEnroll3.put_MyStoreType
- - ICEnroll2.MyStoreType
- - ICEnroll2.get_MyStoreType
- - ICEnroll2.put_MyStoreType
- - ICEnroll.MyStoreType
- - ICEnroll.get_MyStoreType
- - ICEnroll.put_MyStoreType
- - CEnroll.MyStoreType
+ - ICEnroll::put_MyStoreType
 ---
 
 # ICEnroll::put_MyStoreType
@@ -117,3 +105,4 @@ if ( FAILED ( hr ) )
 else
     printf( "MyStoreType was set to %ws\n", bstrNewType );
 ```
+

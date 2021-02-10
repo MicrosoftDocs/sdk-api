@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wia_xp.h
 api_name:
+ - _WIA_DATA_TRANSFER_INFO
+ - PWIA_DATA_TRANSFER_INFO
  - WIA_DATA_TRANSFER_INFO
 ---
 
@@ -99,3 +101,4 @@ Reserved for use by the WIA system DLLs. Must be set to zero.
 Type: <b>ULONG</b>
 
 Reserved for use by the WIA system DLLs. Must be set to zero.
+

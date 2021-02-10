@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext.SetResourceMinLOD
+ - ID3D11DeviceContext::SetResourceMinLOD
 ---
 
 # ID3D11DeviceContext::SetResourceMinLOD
@@ -84,3 +84,4 @@ Empty-set accesses are handled as out-of-bounds cases.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
+

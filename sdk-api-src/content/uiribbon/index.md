@@ -9,6 +9,8 @@ tech.root: windowsribbon
 f1_keywords:
  - uiribbon
  - uiribbon/uiribbon
+api_name:
+ - uiribbon
 ---
 
 # Uiribbon.h header

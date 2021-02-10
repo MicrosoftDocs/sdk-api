@@ -47,6 +47,8 @@ api_location:
  - FileAPI.h
  - WinBase.h
 api_name:
+ - _BY_HANDLE_FILE_INFORMATION
+ - PBY_HANDLE_FILE_INFORMATION
  - BY_HANDLE_FILE_INFORMATION
 ---
 
@@ -165,3 +167,4 @@ Not all file systems can record creation and last access time, and not all file 
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
+

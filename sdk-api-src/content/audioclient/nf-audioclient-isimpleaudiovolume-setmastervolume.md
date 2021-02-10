@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - ISimpleAudioVolume.SetMasterVolume
+ - ISimpleAudioVolume::SetMasterVolume
 ---
 
 # ISimpleAudioVolume::SetMasterVolume
@@ -121,3 +121,4 @@ This method generates a volume-change event only if the method call changes the 
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-getmastervolume">ISimpleAudioVolume::GetMasterVolume</a>
+

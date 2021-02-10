@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Audioenginebaseapo.h
 api_name:
+ - __MIDL___MIDL_itf_audioenginebaseapo_0000_0008_0001
  - AudioFXExtensionParams
 ---
 
@@ -76,3 +77,4 @@ An <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertySto
 
 
 <a href="/previous-versions/bb416595(v=msdn.10)">IShellPropSheetExt::AddPages</a>
+

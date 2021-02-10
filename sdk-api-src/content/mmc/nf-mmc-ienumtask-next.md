@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IEnumTASK.Next
+ - IEnumTASK::Next
 ---
 
 # IEnumTASK::Next
@@ -95,3 +95,4 @@ MMC calls this method to enumerate the list of tasks that the snap-in must add t
 
 
 <a href="/windows/desktop/api/mmc/ns-mmc-mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
+

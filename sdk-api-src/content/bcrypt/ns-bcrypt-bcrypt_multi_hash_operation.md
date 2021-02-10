@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
+ - _BCRYPT_MULTI_HASH_OPERATION
  - BCRYPT_MULTI_HASH_OPERATION
 ---
 
@@ -87,3 +88,4 @@ The buffer on which the operation works.
 
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter.SelectStreams
+ - IMFASFSplitter::SelectStreams
 ---
 
 # IMFASFSplitter::SelectStreams
@@ -122,3 +122,4 @@ You can obtain a list of the currently selected streams by calling the <a href="
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
+

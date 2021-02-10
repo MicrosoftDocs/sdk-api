@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsMaintenance.StartMaintenance
+ - IVdsMaintenance::StartMaintenance
 ---
 
 # IVdsMaintenance::StartMaintenance
@@ -164,3 +164,4 @@ Calling <b>StartMaintenance</b> on a pulsing operation causes the operation to s
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>
+

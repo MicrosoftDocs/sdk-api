@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IFolderView.GetSpacing
+ - IFolderView::GetSpacing
 ---
 
 # IFolderView::GetSpacing
@@ -77,3 +77,4 @@ As an example, consider an icon measuring 75 pixels by 70 pixels, with its upper
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getdefaultspacing">IFolderView::GetDefaultSpacing</a>
+

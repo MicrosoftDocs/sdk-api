@@ -43,6 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - PUSN_RECORD_V2
  - USN_RECORD_V2
 ---
 
@@ -626,3 +627,4 @@ For more information, see
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a>
+

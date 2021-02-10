@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdmin.UnregisterProvider
+ - IVdsAdmin::UnregisterProvider
 ---
 
 # IVdsAdmin::UnregisterProvider
@@ -80,3 +80,4 @@ An in-process provider calls this method from the
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsadmin-registerprovider">IVdsAdmin::RegisterProvider</a>
+

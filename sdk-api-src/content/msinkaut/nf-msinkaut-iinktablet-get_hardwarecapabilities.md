@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablet.HardwareCapabilities
- - IInkTablet.get_HardwareCapabilities
- - IInkTablet.get_HardwareCapabilities
+ - IInkTablet::get_HardwareCapabilities
 ---
 
 # IInkTablet::get_HardwareCapabilities
@@ -75,3 +73,4 @@ For a complete list of hardware capability values that you can use, see the <a h
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-tablethardwarecapabilities">TabletHardwareCapabilities Enumeration</a>
+

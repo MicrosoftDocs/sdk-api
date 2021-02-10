@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Recipients
- - IFaxIncomingMessage2.get_Recipients
- - IFaxIncomingMessage2.put_Recipients
- - IFaxIncomingMessage2.get_Recipients
- - IFaxIncomingMessage2.put_Recipients
+ - IFaxIncomingMessage2::get_Recipients
 ---
 
 # IFaxIncomingMessage2::get_Recipients
@@ -74,3 +70,4 @@ Each recipient is identified on the pattern of &lt;DomainName&gt;\&lt;UserName&g
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
+

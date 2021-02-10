@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopology.GetOutputNodeCollection
+ - IMFTopology::GetOutputNodeCollection
 ---
 
 # IMFTopology::GetOutputNodeCollection
@@ -74,3 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
+

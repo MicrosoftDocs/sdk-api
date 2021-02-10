@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Prsht.h
 api_name:
+ - _PSHNOTIFY
+ - LPPSHNOTIFY
  - PSHNOTIFY
 ---
 
@@ -69,3 +71,4 @@ Address of an <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Additional information about this notification. To determine what, if any, information is contained in this member, see the description of the particular notification message.
+

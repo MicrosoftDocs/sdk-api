@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WNetUseConnectionW
  - winnetwk/WNetUseConnectionW
+ - WNetUseConnection
+ - winnetwk/WNetUseConnection
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetUseConnection
- - WNetUseConnectionA
  - WNetUseConnectionW
+ - WNetUseConnection
 ---
 
 # WNetUseConnectionW function
@@ -534,3 +535,4 @@ The network is unavailable.
 
 
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona">WnetCancelConnection</a>
+

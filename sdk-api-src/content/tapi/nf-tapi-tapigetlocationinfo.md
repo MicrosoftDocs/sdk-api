@@ -43,8 +43,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - tapiGetLocationInfo
- - tapiGetLocationInfoA
- - tapiGetLocationInfoW
 ---
 
 # tapiGetLocationInfo function
@@ -88,3 +86,4 @@ Returns zero if the request succeeds or a negative error number if an error occu
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+

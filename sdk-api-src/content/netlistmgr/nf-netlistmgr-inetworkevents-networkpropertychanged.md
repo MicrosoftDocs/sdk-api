@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkEvents.NetworkPropertyChanged
+ - INetworkEvents::NetworkPropertyChanged
 ---
 
 # INetworkEvents::NetworkPropertyChanged
@@ -73,3 +73,4 @@ Returns S_OK if the method succeeds.
 
 
 <a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_property_change">NLM_NETWORK_PROPERTY_CHANGE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMMediaContent2.get_MediaParameter
+ - IAMMediaContent2::get_MediaParameter
 ---
 
 # IAMMediaContent2::get_MediaParameter
@@ -98,3 +98,4 @@ The caller must release the <b>BSTR</b> returned in <i>pbstrValue</i>, by callin
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent2">IAMMediaContent2 Interface</a>
+

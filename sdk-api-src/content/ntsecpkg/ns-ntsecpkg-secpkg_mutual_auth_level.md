@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
+ - _SECPKG_MUTUAL_AUTH_LEVEL
+ - PSECPKG_MUTUAL_AUTH_LEVEL
  - SECPKG_MUTUAL_AUTH_LEVEL
 ---
 
@@ -65,3 +67,4 @@ This structure is used by the
 ### -field MutualAuthLevel
 
 The mutual authentication level.
+

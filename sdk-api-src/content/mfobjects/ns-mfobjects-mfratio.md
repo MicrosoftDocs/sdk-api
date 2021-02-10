@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - _MFRatio
  - MFRatio
 ---
 
@@ -67,3 +68,4 @@ Denominator of the ratio.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

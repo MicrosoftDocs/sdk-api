@@ -46,6 +46,8 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
+ - _VSS_VOLUME_PROP
+ - PVSS_VOLUME_PROP
  - VSS_VOLUME_PROP
 ---
 

@@ -47,6 +47,8 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
+ - _GET_VIRTUAL_DISK_INFO
+ - PGET_VIRTUAL_DISK_INFO
  - GET_VIRTUAL_DISK_INFO
 ---
 
@@ -267,3 +269,4 @@ The change tracking identifier for the change that identifies the state of the v
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+

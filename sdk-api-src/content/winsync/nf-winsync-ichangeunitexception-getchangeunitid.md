@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IChangeUnitException.GetChangeUnitId
+ - IChangeUnitException::GetChangeUnitId
 ---
 
 # IChangeUnitException::GetChangeUnitId
@@ -109,3 +109,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
+

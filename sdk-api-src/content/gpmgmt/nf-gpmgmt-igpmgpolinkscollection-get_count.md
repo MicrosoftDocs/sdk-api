@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPOLinksCollection.Count
- - IGPMGPOLinksCollection.get_Count
- - GPMGPOLinksCollection.Count
+ - IGPMGPOLinksCollection::get_Count
 ---
 
 # IGPMGPOLinksCollection::get_Count
@@ -65,3 +63,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a>
+

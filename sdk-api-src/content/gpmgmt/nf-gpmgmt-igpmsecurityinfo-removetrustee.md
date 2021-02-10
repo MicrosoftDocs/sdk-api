@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMSecurityInfo.RemoveTrustee
- - GPMSecurityInfo.RemoveTrustee
+ - IGPMSecurityInfo::RemoveTrustee
 ---
 
 # IGPMSecurityInfo::RemoveTrustee
@@ -91,3 +90,4 @@ For more information about policy-related permissions, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
+

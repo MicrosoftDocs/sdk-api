@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskFolder.GetTask
+ - ITaskFolder::GetTask
 ---
 
 # ITaskFolder::GetTask
@@ -72,3 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a>
+

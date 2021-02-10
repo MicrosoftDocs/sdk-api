@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.Find
+ - ITextRange2::Find
 ---
 
 # ITextRange2::Find
@@ -93,3 +93,4 @@ If the string isn't found, the range remains unchanged and length is set equal t
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+

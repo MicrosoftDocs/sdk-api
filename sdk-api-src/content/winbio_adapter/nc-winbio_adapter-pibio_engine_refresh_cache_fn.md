@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - EngineAdapterRefreshCache
+ - PIBIO_ENGINE_REFRESH_CACHE_FN
 ---
 
 # PIBIO_ENGINE_REFRESH_CACHE_FN callback function
@@ -115,3 +115,4 @@ Deleting one or more existing templates from the database.
 
 </li>
 </ul>
+

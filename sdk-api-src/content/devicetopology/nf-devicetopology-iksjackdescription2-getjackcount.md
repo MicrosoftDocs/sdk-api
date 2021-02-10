@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IKsJackDescription2.GetJackCount
+ - IKsJackDescription2::GetJackCount
 ---
 
 # IKsJackDescription2::GetJackCount
@@ -83,3 +83,4 @@ Pointer <i>pcJacks</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
+

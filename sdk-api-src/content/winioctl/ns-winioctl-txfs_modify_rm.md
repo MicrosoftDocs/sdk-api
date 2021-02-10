@@ -45,6 +45,8 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
+ - _TXFS_MODIFY_RM
+ - PTXFS_MODIFY_RM
  - TXFS_MODIFY_RM
 ---
 
@@ -363,3 +365,4 @@ Full logging is used
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a>
+

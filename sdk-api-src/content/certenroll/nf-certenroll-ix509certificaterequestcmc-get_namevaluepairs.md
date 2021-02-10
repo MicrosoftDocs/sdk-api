@@ -42,8 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.NameValuePairs
- - IX509CertificateRequestCmc.get_NameValuePairs
+ - IX509CertificateRequestCmc::get_NameValuePairs
 ---
 
 # IX509CertificateRequestCmc::get_NameValuePairs
@@ -83,3 +82,4 @@ For an example of a name-value pair in a CMC request object, see <a href="/windo
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
+

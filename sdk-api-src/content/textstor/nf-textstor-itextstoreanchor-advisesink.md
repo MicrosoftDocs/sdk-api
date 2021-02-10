@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor.AdviseSink
+ - ITextStoreAnchor::AdviseSink
 ---
 
 # ITextStoreAnchor::AdviseSink
@@ -141,3 +141,4 @@ Servers only maintain a single connection point. Attempts to advise a second sin
 
 <a href="/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants
       </a>
+

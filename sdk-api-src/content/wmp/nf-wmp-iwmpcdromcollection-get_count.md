@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromCollection.get_count
+ - IWMPCdromCollection::get_count
 ---
 
 # IWMPCdromCollection::get_count
@@ -99,3 +99,4 @@ DVD drives are counted exactly like CD drives. However, the Windows Media Player
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-requestmediaaccessrights">IWMPSettings2::requestMediaAccessRights</a>
+

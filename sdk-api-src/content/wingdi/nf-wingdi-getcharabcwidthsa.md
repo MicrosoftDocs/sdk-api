@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - GetCharABCWidthsA
  - wingdi/GetCharABCWidthsA
+ - GetCharABCWidths
+ - wingdi/GetCharABCWidths
 dev_langs:
  - c++
 topic_type:
@@ -47,9 +49,8 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetCharABCWidths
  - GetCharABCWidthsA
- - GetCharABCWidthsW
+ - GetCharABCWidths
 ---
 
 # GetCharABCWidthsA function
@@ -125,3 +126,4 @@ To retrieve the widths of characters in non-TrueType fonts, applications should 
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a>
+

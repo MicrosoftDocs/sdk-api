@@ -47,6 +47,8 @@ api_location:
  - Iprtrmib.h
  - Iphlpapi.h
 api_name:
+ - _UDP_TABLE_CLASS
+ - PUDP_TABLE_CLASS
  - UDP_TABLE_CLASS
 ---
 
@@ -78,3 +80,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>
+

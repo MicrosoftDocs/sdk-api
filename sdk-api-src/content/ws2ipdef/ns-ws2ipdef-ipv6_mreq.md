@@ -47,6 +47,8 @@ api_location:
  - Ws2ipdef.h
  - Ws2tcpip.h
 api_name:
+ - ipv6_mreq
+ - PIPV6_MREQ
  - IPV6_MREQ
 ---
 
@@ -126,3 +128,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_mreq">ip_mreq</a>
+

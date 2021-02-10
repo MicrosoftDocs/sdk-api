@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
+ - _CREATE_PARTITION_PARAMETERS
  - CREATE_PARTITION_PARAMETERS
 ---
 
@@ -515,3 +516,4 @@ The
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
+

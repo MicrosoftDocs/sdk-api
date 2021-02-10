@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MessageBoxExW
  - winuser/MessageBoxExW
+ - MessageBoxEx
+ - winuser/MessageBoxEx
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - MessageBoxEx
- - MessageBoxExA
  - MessageBoxExW
+ - MessageBoxEx
 ---
 
 # MessageBoxExW function
@@ -265,3 +266,4 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
+

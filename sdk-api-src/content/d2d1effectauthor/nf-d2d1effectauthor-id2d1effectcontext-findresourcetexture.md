@@ -43,7 +43,7 @@ api_location:
  - D2D1.lib
  - D2D1.dll
 api_name:
- - ID2D1EffectContext.FindResourceTexture
+ - ID2D1EffectContext::FindResourceTexture
 ---
 
 # ID2D1EffectContext::FindResourceTexture
@@ -92,3 +92,4 @@ The method returns an HRESULT. Possible values include, but are not limited to, 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
+

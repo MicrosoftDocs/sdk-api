@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IUIAutomationRegistrar.RegisterPattern
+ - IUIAutomationRegistrar::RegisterPattern
 ---
 
 # IUIAutomationRegistrar::RegisterPattern
@@ -109,3 +109,4 @@ The pattern, property, and event IDs retrieved by this method can be used in <a 
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationregistrar">IUIAutomationRegistrar</a>
+

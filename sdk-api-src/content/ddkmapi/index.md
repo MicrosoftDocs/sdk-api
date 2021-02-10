@@ -9,6 +9,8 @@ tech.root: display
 f1_keywords:
  - ddkmapi
  - ddkmapi/ddkmapi
+api_name:
+ - ddkmapi
 ---
 
 # Ddkmapi.h header

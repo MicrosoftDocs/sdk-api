@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2.UnregisterStereoStatus
+ - IDXGIFactory2::UnregisterStereoStatus
 ---
 
 # IDXGIFactory2::UnregisterStereoStatus
@@ -66,3 +66,4 @@ A key value for the window or event to unregister. The  <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
+

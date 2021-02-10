@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionManager.GetAudioSessionControl
+ - IAudioSessionManager::GetAudioSessionControl
 ---
 
 # IAudioSessionManager::GetAudioSessionControl
@@ -143,3 +143,4 @@ For a code example that calls this method, see <a href="/windows/desktop/CoreAud
 
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager Interface</a>
+

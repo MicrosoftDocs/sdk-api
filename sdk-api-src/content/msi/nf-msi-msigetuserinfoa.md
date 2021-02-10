@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetUserInfoA
  - msi/MsiGetUserInfoA
+ - MsiGetUserInfo
+ - msi/MsiGetUserInfo
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetUserInfo
  - MsiGetUserInfoA
- - MsiGetUserInfoW
+ - MsiGetUserInfo
 ---
 
 # MsiGetUserInfoA function
@@ -172,3 +173,4 @@ The user information is considered to be present even in the absence of a compan
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
+

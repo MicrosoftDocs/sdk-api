@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - midiInGetErrorTextW
  - mmeapi/midiInGetErrorTextW
+ - midiInGetErrorText
+ - mmeapi/midiInGetErrorText
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-mm-mme-l1-1-0.dll
  - winmmbase.dll
 api_name:
- - midiInGetErrorText
- - midiInGetErrorTextA
  - midiInGetErrorTextW
+ - midiInGetErrorText
 ---
 
 # midiInGetErrorTextW function
@@ -128,3 +129,4 @@ If the textual error description is longer than the specified buffer, the descri
 ## -see-also
 
 <a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
+

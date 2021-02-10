@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagWCRANGE
+ - PWCRANGE
  - WCRANGE
 ---
 
@@ -77,3 +79,4 @@ Number of supported Unicode code points in this range.
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-glyphset">GLYPHSET</a>
+

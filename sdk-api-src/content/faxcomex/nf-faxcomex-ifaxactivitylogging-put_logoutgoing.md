@@ -42,11 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxActivityLogging.LogOutgoing
- - IFaxActivityLogging.get_LogOutgoing
- - IFaxActivityLogging.put_LogOutgoing
- - IFaxActivityLogging.get_LogOutgoing
- - IFaxActivityLogging.put_LogOutgoing
+ - IFaxActivityLogging::put_LogOutgoing
 ---
 
 # IFaxActivityLogging::put_LogOutgoing
@@ -77,3 +73,4 @@ To read or write to this property, a user must have the <a href="/previous-versi
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-logging-options">Visual Basic Example</a>
+

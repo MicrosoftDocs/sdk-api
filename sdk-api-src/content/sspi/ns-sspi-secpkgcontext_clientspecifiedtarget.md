@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
+ - _SecPkgContext_ClientSpecifiedTarget
+ - PSecPkgContext_ClientSpecifiedTarget
  - SecPkgContext_ClientSpecifiedTarget
 ---
 
@@ -65,3 +67,4 @@ The SPN of the initial target.
 ## -see-also
 
 <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a>
+

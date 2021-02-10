@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth.SetMasterClock
+ - IDirectMusicSynth::SetMasterClock
 ---
 
 # IDirectMusicSynth::SetMasterClock
@@ -120,3 +120,4 @@ The <i>pClock</i> parameter follows the <a href="/windows-hardware/drivers/audio
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
+ - PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO
  - CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
 ---
 
@@ -84,3 +86,4 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DA
 
 
 <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_encrypt_private_key_func">PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</a>
+

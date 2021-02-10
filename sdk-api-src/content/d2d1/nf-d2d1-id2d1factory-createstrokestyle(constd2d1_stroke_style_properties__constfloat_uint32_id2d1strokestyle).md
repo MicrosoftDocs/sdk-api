@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory.CreateStrokeStyle
+ - ID2D1Factory::CreateStrokeStyle
 ---
 
 # ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle)

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - DeleteProfileA
  - userenv/DeleteProfileA
+ - DeleteProfile
+ - userenv/DeleteProfile
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Userenv.dll
 api_name:
- - DeleteProfile
  - DeleteProfileA
- - DeleteProfileW
+ - DeleteProfile
 ---
 
 # DeleteProfileA function
@@ -104,3 +105,4 @@ Type: <b>BOOL</b>
 
 
 <a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
+

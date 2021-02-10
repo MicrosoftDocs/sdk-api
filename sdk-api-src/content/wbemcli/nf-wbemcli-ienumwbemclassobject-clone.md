@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IEnumWbemClassObject.Clone
+ - IEnumWbemClassObject::Clone
 ---
 
 # IEnumWbemClassObject::Clone
@@ -116,3 +116,4 @@ BOOL CloneEnum(IEnumWbemClassObject *pSrc)
     return TRUE;
 }
 ```
+

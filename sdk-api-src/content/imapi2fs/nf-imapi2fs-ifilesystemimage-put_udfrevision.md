@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage.put_UDFRevision
+ - IFileSystemImage::put_UDFRevision
 ---
 
 # IFileSystemImage::put_UDFRevision
@@ -97,3 +97,4 @@ To determine the supported UDF revision levels, call the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevision">IFileSystemImage::get_UDFRevision</a>
+

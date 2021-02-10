@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_CLASS_INFO_ARRAY
+ - LPDHCP_CLASS_INFO_ARRAY
  - DHCP_CLASS_INFO_ARRAY
 ---
 
@@ -77,3 +79,4 @@ Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_c
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumclasses">DhcpEnumClasses</a>
+

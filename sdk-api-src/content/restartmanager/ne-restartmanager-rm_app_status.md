@@ -44,6 +44,7 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
+ - _RM_APP_STATUS
  - RM_APP_STATUS
 ---
 
@@ -99,3 +100,4 @@ The constants  of <b>RM_APP_STATUS</b> can be combined with OR operators. The co
 ## -see-also
 
 <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a>
+

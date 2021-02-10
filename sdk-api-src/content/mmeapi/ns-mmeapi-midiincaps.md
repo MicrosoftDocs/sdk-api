@@ -46,6 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
+ - midiincaps_tag
+ - PMIDIINCAPS
  - MIDIINCAPS
 ---
 
@@ -85,3 +87,4 @@ Reserved; must be zero.
 
 
 <a href="/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
+

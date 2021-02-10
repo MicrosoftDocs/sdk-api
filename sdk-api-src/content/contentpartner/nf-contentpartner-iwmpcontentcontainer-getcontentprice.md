@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentContainer.GetContentPrice
+ - IWMPContentContainer::GetContentPrice
 ---
 
 # IWMPContentContainer::GetContentPrice
@@ -114,3 +114,4 @@ The format of the string returned in <i>pbstrPrice</i> is known only to the onli
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>
+

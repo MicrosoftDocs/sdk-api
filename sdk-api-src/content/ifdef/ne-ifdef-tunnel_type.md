@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ifdef.h
 api_name:
+ - PTUNNEL_TYPE
  - TUNNEL_TYPE
 ---
 

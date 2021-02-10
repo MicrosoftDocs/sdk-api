@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_FILTER_ENUM_TEMPLATE0_
  - FWPM_FILTER_ENUM_TEMPLATE0
 ---
 
@@ -199,3 +200,4 @@ Uniquely identifies the callout.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

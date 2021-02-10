@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
- - DRMCallback
+ - DRMCALLBACK
 ---
 
 # DRMCALLBACK callback function
@@ -114,3 +114,4 @@ The following asynchronous AD RMS functions use a callback function:
 
 
 <a href="/previous-versions/windows/desktop/adrms_sdk/issuance-license-callback-example">Issuance License Callback Example</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents.MediaCollectionAttributeStringChanged
+ - IWMPEvents::MediaCollectionAttributeStringChanged
 ---
 
 # IWMPEvents::MediaCollectionAttributeStringChanged
@@ -75,3 +75,4 @@ When a user modifies library metadata, the <b>MediaCollection</b> object is upda
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+

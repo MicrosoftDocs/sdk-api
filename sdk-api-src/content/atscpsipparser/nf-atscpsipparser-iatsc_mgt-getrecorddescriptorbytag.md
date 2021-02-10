@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_MGT.GetRecordDescriptorByTag
+ - IATSC_MGT::GetRecordDescriptorByTag
 ---
 
 # IATSC_MGT::GetRecordDescriptorByTag
@@ -148,3 +148,4 @@ If the value of <i>pdwCookie</i> is not <b>NULL</b>, the method returns either M
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_mgt">IATSC_MGT Interface</a>
+

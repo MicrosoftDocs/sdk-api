@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - StrCatW
  - shlwapi/StrCatW
+ - StrCat
+ - shlwapi/StrCat
 dev_langs:
  - c++
 topic_type:
@@ -42,8 +44,8 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - StrCat
  - StrCatW
+ - StrCat
 ---
 
 # StrCatW function
@@ -78,3 +80,4 @@ Returns a pointer to <i>psz1</i>, which holds the combined strings.
 ## -remarks
 
 <b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The first argument, <i>psz1</i>, must be large enough to hold <i>psz2</i> and the closing '\0', otherwise a buffer overrun may occur. Buffer overruns may lead to a denial of service attack against the application if an access violation occurs. In the worst case, a buffer overrun may allow an attacker to inject executable code into your process, especially if <i>psz1</i> is a stack-based buffer. Consider using one of the following alternatives: <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcata">StringCbCat</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatnexa">StringCbCatNEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatexa">StringCchCatEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatna">StringCchCatN</a>, or <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>. You should review <a href="/windows/desktop/shell/sec-shell">Security Considerations: Microsoft Windows Shell</a> before continuing.
+

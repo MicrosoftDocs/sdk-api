@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - vdmdbg
  - vdmdbg/vdmdbg
+api_name:
+ - vdmdbg
 ---
 
 # Vdmdbg.h header

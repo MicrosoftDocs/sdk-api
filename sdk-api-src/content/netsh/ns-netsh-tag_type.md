@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netsh.h
 api_name:
+ - _TAG_TYPE
+ - PTAG_TYPE
  - TAG_TYPE
 ---
 
@@ -119,8 +121,7 @@ Multiple copies of the tag is allowed. Tag must be present.
 
 This value specifies whether the tag is present. <b>TRUE</b> indicates the tag is present.
 
-
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a>
+

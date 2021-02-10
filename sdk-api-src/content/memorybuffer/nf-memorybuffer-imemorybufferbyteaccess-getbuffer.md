@@ -42,7 +42,7 @@ api_type:
 api_location:
  - memorybuffer.h
 api_name:
- - IMemoryBufferByteAccess.GetBuffer
+ - IMemoryBufferByteAccess::GetBuffer
 ---
 
 # IMemoryBufferByteAccess::GetBuffer
@@ -73,3 +73,4 @@ When <a href="/uwp/api/windows.foundation.memorybuffer.close">MemoryBuffer::Clos
 ## -see-also
 
 <a href="/previous-versions/mt297505(v=vs.85)">IMemoryBufferByteAccess</a>
+

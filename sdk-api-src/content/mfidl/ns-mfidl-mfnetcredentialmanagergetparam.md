@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFNetCredentialManagerGetParam
  - MFNetCredentialManagerGetParam
 ---
 
@@ -99,3 +100,4 @@ The number of times that the credential manager should retry after authenticatio
 
 
 <a href="/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
+

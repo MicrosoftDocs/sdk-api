@@ -44,6 +44,7 @@ api_type:
 api_location:
  - prntvpt.h
 api_name:
+ - tagEDefaultDevmodeType
  - EDefaultDevmodeType
 ---
 

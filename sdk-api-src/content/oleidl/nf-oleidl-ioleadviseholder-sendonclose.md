@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleAdviseHolder.SendOnClose
+ - IOleAdviseHolder::SendOnClose
 ---
 
 # IOleAdviseHolder::SendOnClose
@@ -69,3 +69,4 @@ This method returns S_OK if advise sinks were notified of the close operation th
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
+

@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_ID_List_ExW
  - cfgmgr32/CM_Get_Device_ID_List_ExW
+ - CM_Get_Device_ID_List_Ex
+ - cfgmgr32/CM_Get_Device_ID_List_Ex
 dev_langs:
  - c++
 topic_type:
@@ -43,8 +45,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Get_Device_ID_List_Ex
  - CM_Get_Device_ID_List_ExW
+ - CM_Get_Device_ID_List_Ex
 ---
 
 # CM_Get_Device_ID_List_ExW function
@@ -90,3 +92,4 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 For information about device instance IDs, see <a href="/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
+

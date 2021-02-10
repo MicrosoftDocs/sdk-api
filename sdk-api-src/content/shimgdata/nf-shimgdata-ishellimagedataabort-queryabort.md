@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageDataAbort.QueryAbort
+ - IShellImageDataAbort::QueryAbort
 ---
 
 # IShellImageDataAbort::QueryAbort
@@ -59,3 +59,4 @@ Aborts an <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">
 Type: <b>HRESULT</b>
 
 Returns S_OK if the <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> process should continue, or S_FALSE if it should be aborted.
+

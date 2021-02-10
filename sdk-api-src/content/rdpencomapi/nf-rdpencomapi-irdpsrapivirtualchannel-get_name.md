@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannel.Name
- - IRDPSRAPIVirtualChannel.get_Name
- - RDPSRAPIVirtualChannel.Name
+ - IRDPSRAPIVirtualChannel::get_Name
 ---
 
 # IRDPSRAPIVirtualChannel::get_Name
@@ -61,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>
+

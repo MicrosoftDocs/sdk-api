@@ -42,9 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.Status
- - IX509EnrollmentStatus.get_Status
- - IX509EnrollmentStatus.put_Status
+ - IX509EnrollmentStatus::get_Status
 ---
 
 # IX509EnrollmentStatus::get_Status
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssAsync.QueryStatus
+ - IVssAsync::QueryStatus
 ---
 
 # IVssAsync::QueryStatus
@@ -211,3 +211,4 @@ To obtain a complete list of return values for an
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
+

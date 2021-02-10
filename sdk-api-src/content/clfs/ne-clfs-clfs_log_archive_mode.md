@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
+ - _CLFS_LOG_ARCHIVE_MODE
+ - PCLFS_LOG_ARCHIVE_MODE
  - CLFS_LOG_ARCHIVE_MODE
 ---
 
@@ -69,3 +71,4 @@ Disables ephemeral logs.
 ## -see-also
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-setlogarchivemode">SetLogArchiveMode</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration.DiscountRateStart
- - IFaxConfiguration.get_DiscountRateStart
- - IFaxConfiguration.put_DiscountRateStart
+ - IFaxConfiguration::get_DiscountRateStart
 ---
 
 # IFaxConfiguration::get_DiscountRateStart
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
+

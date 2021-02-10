@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAudioRendererDevices.get_Count
+ - IMSVidAudioRendererDevices::get_Count
 ---
 
 # IMSVidAudioRendererDevices::get_Count
@@ -94,3 +94,4 @@ NULL pointer argument.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidaudiorendererdevices">IMSVidAudioRendererDevices Interface</a>
+

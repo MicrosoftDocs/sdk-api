@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITRequestEvent.get_CalledParty
+ - ITRequestEvent::get_CalledParty
 ---
 
 # ITRequestEvent::get_CalledParty
@@ -111,3 +111,4 @@ The application must use
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent">ITRequestEvent</a>
+

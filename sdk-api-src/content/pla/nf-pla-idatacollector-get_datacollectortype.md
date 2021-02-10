@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector.DataCollectorType
- - IDataCollector.get_DataCollectorType
+ - IDataCollector::get_DataCollectorType
 ---
 
 # IDataCollector::get_DataCollectorType
@@ -64,3 +63,4 @@ PLA sets the type when you create the data collector.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
+

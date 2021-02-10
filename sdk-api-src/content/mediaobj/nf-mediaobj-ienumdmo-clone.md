@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IEnumDMO.Clone
+ - IEnumDMO::Clone
 ---
 
 # IEnumDMO::Clone
@@ -66,3 +66,4 @@ Returns E_NOTIMPL.
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-ienumdmo">IEnumDMO Interface</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
+ - tagCSC_TransactionConfig
  - CSC_TransactionConfig
 ---
 
@@ -95,3 +96,4 @@ This enumeration is used to configure transactions through <a href="/windows/des
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfigbase-configuretransaction">IServiceTransactionConfigBase::ConfigureTransaction</a>
+

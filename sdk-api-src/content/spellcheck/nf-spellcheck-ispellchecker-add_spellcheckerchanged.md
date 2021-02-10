@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellChecker.add_SpellCheckerChanged
+ - ISpellChecker::add_SpellCheckerChanged
 ---
 
 # ISpellChecker::add_SpellCheckerChanged
@@ -81,3 +81,4 @@ The SpellCheckerChanged event fires whenever the state of the spell checker chan
 
 
 <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-remove_spellcheckerchanged">remove_SpellCheckerChanged</a>
+

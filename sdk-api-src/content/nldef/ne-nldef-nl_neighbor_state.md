@@ -46,6 +46,8 @@ api_type:
 api_location:
  - nldef.h
 api_name:
+ - _NL_NEIGHBOR_STATE
+ - PNL_NEIGHBOR_STATE
  - NL_NEIGHBOR_STATE
 ---
 
@@ -129,3 +131,4 @@ For more information about RFC 2461, section 7.3.2, see the
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff559263(v=vs.85)">MIB_IPNET_ROW2</a>
+

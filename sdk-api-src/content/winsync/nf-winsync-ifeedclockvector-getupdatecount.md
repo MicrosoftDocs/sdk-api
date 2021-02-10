@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IFeedClockVector.GetUpdateCount
+ - IFeedClockVector::GetUpdateCount
 ---
 
 # IFeedClockVector::GetUpdateCount
@@ -94,3 +94,4 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvector">IFeedClockVector Interface</a>
+

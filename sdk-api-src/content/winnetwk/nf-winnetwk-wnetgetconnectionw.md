@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - WNetGetConnectionW
  - winnetwk/WNetGetConnectionW
+ - WNetGetConnection
+ - winnetwk/WNetGetConnection
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetGetConnection
- - WNetGetConnectionA
  - WNetGetConnectionW
+ - WNetGetConnection
 ---
 
 # WNetGetConnectionW function
@@ -209,3 +210,4 @@ For a code sample that illustrates how to use the
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
+

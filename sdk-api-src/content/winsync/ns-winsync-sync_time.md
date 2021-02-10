@@ -44,6 +44,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
+ - _SYNC_TIME
  - SYNC_TIME
 ---
 
@@ -71,3 +72,4 @@ This structure is a packed date-and-time value that can store years between 1601
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - LogoutIscsiTarget
+ - LogoutIScsiTarget
 ---
 
 # LogoutIScsiTarget function
@@ -73,3 +73,4 @@ If the login session is not for informational purposes, the iSCSI initiator serv
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIscsiTarget</a>
+

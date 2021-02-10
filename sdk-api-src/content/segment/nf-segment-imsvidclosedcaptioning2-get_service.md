@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidClosedCaptioning2.get_Service
+ - IMSVidClosedCaptioning2::get_Service
 ---
 
 # IMSVidClosedCaptioning2::get_Service
@@ -94,3 +94,4 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning2">IMSVidClosedCaptioning2 Interface</a>
+

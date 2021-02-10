@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionGenerator.DefaultPhrase
+ - IConditionGenerator::DefaultPhrase
 ---
 
 # IConditionGenerator::DefaultPhrase
@@ -115,3 +115,4 @@ Returns S_OK if successful, S_FALSE if the input arguments are valid but no phra
 
 
 <b>Reference</b>
+

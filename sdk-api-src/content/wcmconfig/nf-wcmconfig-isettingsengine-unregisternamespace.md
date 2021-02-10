@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsEngine.UnregisterNamespace
+ - ISettingsEngine::UnregisterNamespace
 ---
 
 # ISettingsEngine::UnregisterNamespace
@@ -69,3 +69,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
+

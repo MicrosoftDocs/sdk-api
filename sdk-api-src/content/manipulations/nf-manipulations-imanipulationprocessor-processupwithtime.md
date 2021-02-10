@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor.ProcessUpWithTime
+ - IManipulationProcessor::ProcessUpWithTime
 ---
 
 # IManipulationProcessor::ProcessUpWithTime
@@ -114,3 +114,4 @@ static void ProcessUp(TOUCHINPUT* pTouchInput, IManipulationProcessor* pManipula
 
 
 <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup">ProcessUp</a>
+

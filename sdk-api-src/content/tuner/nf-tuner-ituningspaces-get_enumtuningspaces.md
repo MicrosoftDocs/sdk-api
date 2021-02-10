@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaces.get_EnumTuningSpaces
+ - ITuningSpaces::get_EnumTuningSpaces
 ---
 
 # ITuningSpaces::get_EnumTuningSpaces
@@ -65,3 +65,4 @@ Returns S_OK if successful.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces Interface</a>
+

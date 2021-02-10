@@ -42,7 +42,7 @@ api_type:
 api_location:
  - directxpackedvector.h
 api_name:
- - XMUSHORT2.XMUSHORT2
+ - XMUSHORT2::XMUSHORT2
 ---
 
 # XMUSHORT2::XMUSHORT2(const uint16_t)
@@ -69,3 +69,4 @@ An array containing the x and y values of the new **XMUSHORT2**.
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort2">XMUSHORT2</a>
 
 <a href="/windows/desktop/dxmath/xmushort2-ctor">XMUSHORT2 Constructors</a>
+

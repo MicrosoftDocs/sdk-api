@@ -44,6 +44,7 @@ api_type:
 api_location:
  - cloneviewhelper.h
 api_name:
+ - tagSources
  - Sources
 ---
 
@@ -75,3 +76,4 @@ An array of identifiers for the video present targets in the VidPN topology.
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Bitmap1.GetSurface
+ - ID2D1Bitmap1::GetSurface
 ---
 
 # ID2D1Bitmap1::GetSurface
@@ -102,3 +102,4 @@ The returned surface can be used with Microsoft Direct3D or any other API that i
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap">ID2D1RenderTarget::CreateSharedBitmap</a>
+

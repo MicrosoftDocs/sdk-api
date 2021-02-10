@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ksopmapi.h
 api_name:
+ - _OPM_RANDOM_NUMBER
  - OPM_RANDOM_NUMBER
 ---
 
@@ -71,3 +72,4 @@ Always use a cryptographically secure random-number generator to fill in this st
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

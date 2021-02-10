@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_ConstSint8A
  - MI_ConstSint8A
 ---
 

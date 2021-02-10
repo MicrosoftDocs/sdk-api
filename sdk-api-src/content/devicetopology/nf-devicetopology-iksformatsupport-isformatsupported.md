@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IKsFormatSupport.IsFormatSupported
+ - IKsFormatSupport::IsFormatSupported
 ---
 
 # IKsFormatSupport::IsFormatSupported
@@ -102,3 +102,4 @@ The format specifier is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksformatsupport">IKsFormatSupport Interface</a>
+

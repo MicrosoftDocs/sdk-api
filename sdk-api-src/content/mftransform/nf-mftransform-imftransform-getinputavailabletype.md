@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTransform.GetInputAvailableType
+ - IMFTransform::GetInputAvailableType
 ---
 
 # IMFTransform::GetInputAvailableType
@@ -168,3 +168,4 @@ If the MFT stores a media type internally, the MFT should return a clone of the 
 
 
 <a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+

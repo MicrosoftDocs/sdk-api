@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult.GetStateNoAddRef
+ - IRtwqAsyncResult::GetStateNoAddRef
 ---
 
 # IRtwqAsyncResult::GetStateNoAddRef
@@ -61,3 +61,4 @@ Returns a pointer to the state object's <b>IUnknown</b> interface, or <b>NULL</b
 ## -see-also
 
 <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>
+

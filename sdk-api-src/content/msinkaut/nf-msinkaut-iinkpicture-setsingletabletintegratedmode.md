@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.SetSingleTabletIntegratedMode
+ - IInkPicture::SetSingleTabletIntegratedMode
 ---
 
 # IInkPicture::SetSingleTabletIntegratedMode
@@ -156,3 +156,4 @@ When this method is called, the <a href="/windows/desktop/api/msinkaut/nf-msinka
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setalltabletsmode">SetAllTabletsMode Method</a>
+

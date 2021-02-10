@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupConfigureWmiFromInfSectionA
  - setupapi/SetupConfigureWmiFromInfSectionA
+ - SetupConfigureWmiFromInfSection
+ - setupapi/SetupConfigureWmiFromInfSection
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupConfigureWmiFromInfSection
  - SetupConfigureWmiFromInfSectionA
- - SetupConfigureWmiFromInfSectionW
+ - SetupConfigureWmiFromInfSection
 ---
 
 # SetupConfigureWmiFromInfSectionA function
@@ -117,3 +118,4 @@ In previous SetupAPI versions, WMI information in INF files is exposed to all us
 
 
 <a href="/windows/desktop/SetupApi/specifying-a-security-descriptor-from-an-inf-file">Specifying a Security Descriptor From an INF File</a>
+

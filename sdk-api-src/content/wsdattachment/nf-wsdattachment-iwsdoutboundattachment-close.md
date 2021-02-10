@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDOutboundAttachment.Close
+ - IWSDOutboundAttachment::Close
 ---
 
 # IWSDOutboundAttachment::Close
@@ -124,3 +124,4 @@ Internal buffers were not available. The data in the attachment stream was not s
 
 
 <a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">IWSDOutboundAttachment::Write</a>
+

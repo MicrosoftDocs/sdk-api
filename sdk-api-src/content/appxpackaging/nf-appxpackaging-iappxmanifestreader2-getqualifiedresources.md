@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestReader2.GetQualifiedResources
+ - IAppxManifestReader2::GetQualifiedResources
 ---
 
 # IAppxManifestReader2::GetQualifiedResources
@@ -75,3 +75,4 @@ Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnkno
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader2">IAppxManifestReader2</a>
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation.GroupName
- - IRDPSRAPIInvitation.get_GroupName
- - RDPSRAPIInvitation.GroupName
+ - IRDPSRAPIInvitation::get_GroupName
 ---
 
 # IRDPSRAPIInvitation::get_GroupName
@@ -65,3 +63,4 @@ The group name is set when calling the <a href="/windows/desktop/api/rdpencomapi
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
+

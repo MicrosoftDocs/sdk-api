@@ -44,6 +44,7 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
+ - tagARRAYDESC
  - ARRAYDESC
 ---
 
@@ -71,3 +72,4 @@ A variable-length array containing one element for each dimension.
 ## -see-also
 
 <a href="/windows/desktop/api/oaidl/ns-oaidl-typedesc">TYPEDESC</a>
+

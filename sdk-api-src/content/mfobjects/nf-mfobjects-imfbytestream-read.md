@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStream.Read
+ - IMFByteStream::Read
 ---
 
 # IMFByteStream::Read
@@ -212,3 +212,4 @@ HRESULT AllocReadFromByteStream(
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
+

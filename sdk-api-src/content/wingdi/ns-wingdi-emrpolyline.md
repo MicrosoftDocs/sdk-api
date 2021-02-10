@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRPOLYLINE
+ - PEMRPOLYLINE
  - EMRPOLYLINE
 ---
 
@@ -81,3 +83,4 @@ Array of 32-bit points, in logical units.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+

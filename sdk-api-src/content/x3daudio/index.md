@@ -9,6 +9,8 @@ tech.root: xaudio2
 f1_keywords:
  - x3daudio
  - x3daudio/x3daudio
+api_name:
+ - x3daudio
 ---
 
 # X3Daudio.h header

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
+ - _MFSequencerTopologyFlags
  - MFSequencerTopologyFlags
 ---
 
@@ -71,3 +72,4 @@ This topology is the last topology in the sequence.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+

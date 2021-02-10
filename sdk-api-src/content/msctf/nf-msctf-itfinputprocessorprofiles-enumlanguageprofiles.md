@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.EnumLanguageProfiles
+ - ITfInputProcessorProfiles::EnumLanguageProfiles
 ---
 
 # ITfInputProcessorProfiles::EnumLanguageProfiles
@@ -126,3 +126,4 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
+

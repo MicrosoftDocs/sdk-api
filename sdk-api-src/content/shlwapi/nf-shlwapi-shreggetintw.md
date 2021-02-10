@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SHRegGetIntW
  - shlwapi/SHRegGetIntW
+ - SHRegGetInt
+ - shlwapi/SHRegGetInt
 dev_langs:
  - c++
 topic_type:
@@ -47,7 +49,7 @@ api_location:
  - API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
  - SHRegGetIntW
- - SHRegGetIntW
+ - SHRegGetInt
 ---
 
 # SHRegGetIntW function

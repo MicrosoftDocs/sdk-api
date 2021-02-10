@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetContentBox
+ - IXpsOMPage::GetContentBox
 ---
 
 # IXpsOMPage::GetContentBox
@@ -136,3 +136,4 @@ The default content box of a page is
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+

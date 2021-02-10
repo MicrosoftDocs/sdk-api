@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemHiPerfEnum.AddObjects
+ - IWbemHiPerfEnum::AddObjects
 ---
 
 # IWbemHiPerfEnum::AddObjects
@@ -82,3 +82,4 @@ If an identifier already exists, <b>WBEM_E_FAILED</b> is returned. The refresher
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemhiperfenum">IWbemHiPerfEnum</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGPEInformation.PolicyChanged
+ - IGPEInformation::PolicyChanged
 ---
 
 # IGPEInformation::PolicyChanged
@@ -112,3 +112,4 @@ lpDataObject->QueryInterface(IID_IGPEInformation, (LPVOID lpDataObject->*)&m_pGP
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
+

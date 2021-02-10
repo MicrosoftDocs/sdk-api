@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWMFiledesc.GetPath
+ - IVssWMFiledesc::GetPath
 ---
 
 # IVssWMFiledesc::GetPath
@@ -151,3 +151,4 @@ The caller must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
+

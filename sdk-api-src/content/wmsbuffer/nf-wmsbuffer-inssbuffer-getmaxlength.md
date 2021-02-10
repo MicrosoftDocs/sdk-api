@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSSBuffer.GetMaxLength
+ - INSSBuffer::GetMaxLength
 ---
 
 # INSSBuffer::GetMaxLength
@@ -109,3 +109,4 @@ The maximum size of the buffer as returned by this method does not affect or ref
 
 
 <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecProps.GetCodecProp
+ - IWMCodecProps::GetCodecProp
 ---
 
 # IWMCodecProps::GetCodecProp
@@ -133,3 +133,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps Interface</a>
+

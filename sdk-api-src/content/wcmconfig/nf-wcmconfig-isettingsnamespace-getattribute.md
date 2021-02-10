@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsNamespace.GetAttribute
+ - ISettingsNamespace::GetAttribute
 ---
 
 # ISettingsNamespace::GetAttribute
@@ -109,3 +109,4 @@ Indicates that there are insufficient resources to return information to the use
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
+

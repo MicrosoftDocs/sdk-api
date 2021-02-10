@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTranscodeSinkInfoProvider.GetSinkInfo
+ - IMFTranscodeSinkInfoProvider::GetSinkInfo
 ---
 
 # IMFTranscodeSinkInfoProvider::GetSinkInfo
@@ -75,3 +75,4 @@ Before calling this method, call <a href="/windows/desktop/api/mfidl/nf-mfidl-im
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a>
+

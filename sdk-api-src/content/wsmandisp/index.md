@@ -9,6 +9,8 @@ tech.root: winrm
 f1_keywords:
  - wsmandisp
  - wsmandisp/wsmandisp
+api_name:
+ - wsmandisp
 ---
 
 # Wsmandisp.h header

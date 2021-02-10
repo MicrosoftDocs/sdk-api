@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAudioRendererEvent2.AVAudioChannelCount
+ - IMSVidAudioRendererEvent2::AVAudioChannelCount
 ---
 
 # IMSVidAudioRendererEvent2::AVAudioChannelCount
@@ -65,3 +65,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>
+

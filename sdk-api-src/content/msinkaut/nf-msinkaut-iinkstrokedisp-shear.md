@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.Shear
+ - IInkStrokeDisp::Shear
 ---
 
 # IInkStrokeDisp::Shear
@@ -107,3 +107,4 @@ This method throws an exception if the shear is non-invertible. The shear is non
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+

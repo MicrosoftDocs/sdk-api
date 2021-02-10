@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner.put_TuningSpace
+ - ITuner::put_TuningSpace
 ---
 
 # ITuner::put_TuningSpace
@@ -73,3 +73,4 @@ When the method is successful, it returns S_OK. Otherwise, it returns an <b>HRES
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
+

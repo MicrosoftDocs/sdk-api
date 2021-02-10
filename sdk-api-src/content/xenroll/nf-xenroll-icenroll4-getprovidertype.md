@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4.getProviderType
- - CEnroll.getProviderType
+ - ICEnroll4::getProviderType
 ---
 
 # ICEnroll4::getProviderType
@@ -105,3 +104,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+

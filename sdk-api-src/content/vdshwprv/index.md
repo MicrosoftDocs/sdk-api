@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - vdshwprv
  - vdshwprv/vdshwprv
+api_name:
+ - vdshwprv
 ---
 
 # Vdshwprv.h header

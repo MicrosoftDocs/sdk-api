@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem.DeleteTrigger
+ - IScheduledWorkItem::DeleteTrigger
 ---
 
 # IScheduledWorkItem::DeleteTrigger
@@ -126,3 +126,4 @@ To complete the deletion of the trigger, programs must call the <b>IPersistFile:
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettriggercount">IScheduledWorkItem::GetTriggerCount</a>
+

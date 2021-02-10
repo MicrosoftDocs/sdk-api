@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Bits.h
 api_name:
+ - _BG_FILE_INFO
  - BG_FILE_INFO
 ---
 
@@ -115,3 +116,4 @@ IIS extension property.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
+

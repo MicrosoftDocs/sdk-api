@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordIsHideGuideBitSet
+ - IATSC_VCT::GetRecordIsHideGuideBitSet
 ---
 
 # IATSC_VCT::GetRecordIsHideGuideBitSet
@@ -122,3 +122,4 @@ If the hidden bit is set, the hide_guide bit may be set to 0, indicating that th
 
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getrecordishiddenbitset">IATSC_VCT::GetRecordIsHiddenBitSet</a>
+

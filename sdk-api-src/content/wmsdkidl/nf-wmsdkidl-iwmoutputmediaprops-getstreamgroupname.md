@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMOutputMediaProps.GetStreamGroupName
+ - IWMOutputMediaProps::GetStreamGroupName
 ---
 
 # IWMOutputMediaProps::GetStreamGroupName
@@ -116,3 +116,4 @@ You should make two calls to <b>GetStreamGroupName</b>. On the first call, pass 
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops">IWMOutputMediaProps Interface</a>
+

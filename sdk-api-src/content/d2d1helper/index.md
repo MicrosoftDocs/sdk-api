@@ -9,6 +9,8 @@ tech.root: direct2d
 f1_keywords:
  - d2d1helper
  - d2d1helper/d2d1helper
+api_name:
+ - d2d1helper
 ---
 
 # D2D1Helper.h header

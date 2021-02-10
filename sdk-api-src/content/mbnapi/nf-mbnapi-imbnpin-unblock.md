@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPin.Unblock
+ - IMbnPin::Unblock
 ---
 
 # IMbnPin::Unblock
@@ -149,3 +149,4 @@ Invoking this method requires administrator privileges.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a>
+

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.SetAllocateForStream
+ - IWMReaderAdvanced::SetAllocateForStream
 ---
 
 # IWMReaderAdvanced::SetAllocateForStream
@@ -84,3 +84,4 @@ If the application's callback implements the <a href="/windows/desktop/api/wmsdk
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderallocatorex-allocateforstreamex">IWMReaderAllocatorEx::AllocateForStreamEx</a>
+

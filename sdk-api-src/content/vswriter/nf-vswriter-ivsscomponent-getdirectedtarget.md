@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetDirectedTarget
+ - IVssComponent::GetDirectedTarget
 ---
 
 # IVssComponent::GetDirectedTarget
@@ -194,3 +194,4 @@ The requester will need to check if the directed target source file was backed u
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>
+

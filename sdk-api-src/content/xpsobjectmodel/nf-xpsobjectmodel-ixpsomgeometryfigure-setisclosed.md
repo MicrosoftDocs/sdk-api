@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.SetIsClosed
+ - IXpsOMGeometryFigure::SetIsClosed
 ---
 
 # IXpsOMGeometryFigure::SetIsClosed
@@ -104,3 +104,4 @@ This value corresponds to that of the <b>IsClosed</b> element   of the <b>PathFi
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+

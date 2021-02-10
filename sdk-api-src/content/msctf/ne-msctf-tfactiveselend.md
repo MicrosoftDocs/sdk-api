@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
+ - __MIDL_ITfContext_0001
  - TfActiveSelEnd
 ---
 
@@ -78,3 +79,4 @@ This enumeration is used in the <a href="/windows/desktop/api/msctf/ns-msctf-tf_
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE
       </a>
+

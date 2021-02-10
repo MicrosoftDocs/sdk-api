@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusbrush.h
 api_name:
- - TextureBrush.TextureBrush
+ - TextureBrush::TextureBrush
 ---
 
 # TextureBrush::TextureBrush~r9
@@ -123,3 +123,4 @@ Creates a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrus
 </table>
 
 ## -parameters
+

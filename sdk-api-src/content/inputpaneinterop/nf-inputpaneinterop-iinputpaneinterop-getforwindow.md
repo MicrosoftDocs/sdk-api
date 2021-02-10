@@ -42,7 +42,7 @@ api_type:
 api_location:
  - inputpaneinterop.h
 api_name:
- - IInputPaneInterop.GetForWindow
+ - IInputPaneInterop::GetForWindow
 ---
 
 # IInputPaneInterop::GetForWindow
@@ -77,3 +77,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a>
+

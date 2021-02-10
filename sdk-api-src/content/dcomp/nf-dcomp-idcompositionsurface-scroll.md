@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionSurface.Scroll
+ - IDCompositionSurface::Scroll
 ---
 
 # IDCompositionSurface::Scroll
@@ -102,3 +102,4 @@ Virtual surface sub-rectangular areas that were discarded by a trim or a resize 
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>
+

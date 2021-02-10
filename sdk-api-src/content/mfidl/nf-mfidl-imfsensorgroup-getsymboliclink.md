@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorGroup.GetSymbolicLink
+ - IMFSensorGroup::GetSymbolicLink
 ---
 
 # IMFSensorGroup::GetSymbolicLink
@@ -118,3 +118,4 @@ The sensor group has not been initialized.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
+

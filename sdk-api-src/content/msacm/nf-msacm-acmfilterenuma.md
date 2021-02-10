@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - acmFilterEnumA
  - msacm/acmFilterEnumA
+ - acmFilterEnum
+ - msacm/acmFilterEnum
 dev_langs:
  - c++
 topic_type:
@@ -43,9 +45,8 @@ api_location:
  - Msacm32.dll
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFilterEnum
  - acmFilterEnumA
- - acmFilterEnumW
+ - acmFilterEnum
 ---
 
 # acmFilterEnumA function
@@ -165,3 +166,4 @@ The following functions should not be called from within the callback function: 
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

@@ -43,9 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider.Commit
- - ?Commit@Provider@@IAEJPAVCInstance@@_N@Z
- - ?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z
+ - Provider::Commit
 ---
 
 # Provider::Commit
@@ -82,3 +80,4 @@ If the client cancels the query, the <b>Commit</b> method returns an error. A pr
 Also, this method calls CInstance::Release on the <i>pInstance</i> pointer. Because of this, the framework provider must be careful not to call CInstance::Release again. This means that a <i>pInstance</i> smart pointer is incompatible with this method because the smart pointer calls CInstance::Release in its destructor.
 
 This method should only be used when the framework provider does not call CInstance::Release on the <i>pInstance</i> pointer separately and if the <i>pInstance</i> pointer is not, and will never be, a smart pointer.
+

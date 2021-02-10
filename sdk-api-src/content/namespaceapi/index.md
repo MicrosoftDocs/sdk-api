@@ -9,6 +9,8 @@ tech.root: base
 f1_keywords:
  - namespaceapi
  - namespaceapi/namespaceapi
+api_name:
+ - namespaceapi
 ---
 
 # Namespaceapi.h header

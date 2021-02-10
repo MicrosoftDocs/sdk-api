@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - _SEARCH_INDEXING_PHASE
  - SEARCH_INDEXING_PHASE
 ---
 

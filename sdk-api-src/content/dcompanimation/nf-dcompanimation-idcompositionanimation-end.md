@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionAnimation.End
+ - IDCompositionAnimation::End
 ---
 
 # IDCompositionAnimation::End
@@ -83,3 +83,4 @@ After this method is called, all methods on this animation object fail except th
 ## -see-also
 
 <a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wingdi.h
 api_name:
+ - _GLYPHMETRICSFLOAT
+ - PGLYPHMETRICSFLOAT
  - GLYPHMETRICSFLOAT
 ---
 
@@ -97,3 +99,4 @@ The values of <b>GLYPHMETRICSFLOAT</b> are specified as notional units.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa">wglUseFontOutlines</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISelectionItemProvider.Select
+ - ISelectionItemProvider::Select
 ---
 
 # ISelectionItemProvider::Select
@@ -71,3 +71,4 @@ If the current element isn’t selected, this method deselects any selected item
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

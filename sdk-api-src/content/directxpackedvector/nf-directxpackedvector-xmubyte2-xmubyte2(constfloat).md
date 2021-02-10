@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUBYTE2.XMUBYTE2
+ - XMUBYTE2::XMUBYTE2
 ---
 
 # XMUBYTE2::XMUBYTE2(const float)
@@ -80,3 +80,4 @@ instance.y = (uint8_t)min( max( pArray[1] 0.0 ), 255.0 );
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">XMUBYTE2</a>
 
 <a href="/windows/desktop/dxmath/xmubyte2-ctor">XMUBYTE2 Constructors</a>
+

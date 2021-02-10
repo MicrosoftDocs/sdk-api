@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _POLICY_LSA_SERVER_ROLE
+ - PPOLICY_LSA_SERVER_ROLE
  - POLICY_LSA_SERVER_ROLE
 ---
 
@@ -79,3 +81,4 @@ Indicates a primary LSA server, a workstation, or a standalone computer.
 
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a>
+

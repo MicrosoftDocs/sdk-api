@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray.GetAt
+ - CHStringArray::GetAt
 ---
 
 # CHStringArray::GetAt(int)
@@ -113,3 +113,4 @@ assert( array.GetAt( 0 ) == "String 1" );
 
 
 <a href="/windows/desktop/WmiSdk/chstringarray--operator-brackets">CHStringArray::operator []</a>
+

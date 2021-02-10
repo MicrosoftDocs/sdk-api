@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
+ - linedevstatus_tag
+ - LPLINEDEVSTATUS
  - LINEDEVSTATUS
 ---
 
@@ -182,3 +184,4 @@ The members <b>dwAvailableMediaModes</b> through <b>dwAppInfoOffset</b> are avai
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>
+

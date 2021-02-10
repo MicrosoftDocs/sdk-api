@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWCWizard97Callback.EnableNext
+ - IWCWizard97Callback::EnableNext
 ---
 
 # IWCWizard97Callback::EnableNext
@@ -123,3 +123,4 @@ For non-Wizard97 pages use
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwcwizardcallback-enablenext">IWCWizardCallback::EnableNext</a>
+

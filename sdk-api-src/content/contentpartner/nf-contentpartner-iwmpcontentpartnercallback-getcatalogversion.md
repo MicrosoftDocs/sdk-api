@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.GetCatalogVersion
+ - IWMPContentPartnerCallback::GetCatalogVersion
 ---
 
 # IWMPContentPartnerCallback::GetCatalogVersion
@@ -93,3 +93,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
+

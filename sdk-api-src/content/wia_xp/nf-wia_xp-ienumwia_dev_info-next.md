@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IEnumWIA_DEV_INFO.Next
+ - IEnumWIA_DEV_INFO::Next
 ---
 
 # IEnumWIA_DEV_INFO::Next
@@ -84,3 +84,4 @@ While there are devices left to enumerate, this method returns S_OK. It returns 
 Applications use this method to query the properties of each available Windows Image Acquisition (WIA) hardware device. To do so, the application passes an array of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a> interface pointers that it allocates. It also passes the number of array elements in the parameter <i>celt</i>. The <b>IEnumWIA_DEV_INFO::Next</b> method fills the array with pointers to <b>IWiaPropertyStorage</b> interfaces. Applications can query the interfaces for the properties that the device supports.
 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>rgelt</i> parameter.
+

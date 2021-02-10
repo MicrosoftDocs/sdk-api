@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay.CollectingInk
- - IInkOverlay.get_CollectingInk
- - InkOverlay.get_CollectingInk
+ - IInkOverlay::get_CollectingInk
 ---
 
 # IInkOverlay::get_CollectingInk
@@ -75,3 +73,4 @@ You can use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector
 
 
 <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame.Marshal
+ - ICallFrame::Marshal
 ---
 
 # ICallFrame::Marshal
@@ -124,3 +124,4 @@ If this method returns an error, the caller will not be able to clean it up. Res
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarMgr.RestoreLastFocus
+ - ITfLangBarMgr::RestoreLastFocus
 ---
 
 # ITfLangBarMgr::RestoreLastFocus
@@ -70,3 +70,4 @@ This method does not return a value.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
+

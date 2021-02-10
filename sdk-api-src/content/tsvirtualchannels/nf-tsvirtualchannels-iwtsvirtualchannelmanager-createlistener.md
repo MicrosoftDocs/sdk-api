@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannelManager.CreateListener
+ - IWTSVirtualChannelManager::CreateListener
 ---
 
 # IWTSVirtualChannelManager::CreateListener
@@ -85,3 +85,4 @@ Returns <b>S_OK</b> on success.
 
 
 <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager">IWTSVirtualChannelManager</a>
+

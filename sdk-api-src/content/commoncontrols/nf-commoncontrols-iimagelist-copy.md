@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList.Copy
+ - IImageList::Copy
 ---
 
 # IImageList::Copy
@@ -107,3 +107,4 @@ The <i>uFlags</i> parameter can have the following values.
  
 
 To use <b>IImageList::Copy</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+

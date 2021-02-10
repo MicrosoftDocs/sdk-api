@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.VolumeName
- - IFsrmPropertyBag.get_VolumeName
+ - IFsrmPropertyBag::get_VolumeName
 ---
 
 # IFsrmPropertyBag::get_VolumeName
@@ -68,3 +67,4 @@ The volume name that is returned will always be the name of a live volume. In th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
+

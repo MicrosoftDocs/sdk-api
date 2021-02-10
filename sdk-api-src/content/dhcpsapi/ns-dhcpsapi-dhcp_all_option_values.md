@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_ALL_OPTION_VALUES
+ - LPDHCP_ALL_OPTION_VALUES
  - DHCP_ALL_OPTION_VALUES
 ---
 
@@ -86,3 +88,4 @@ Pointer to a list of structures that contain the option values for specific clas
 =======
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the option values for the specified vendor/class pair.
 >>>>>>> d630a335cb0... Links: SDK-API - Pass 1
+

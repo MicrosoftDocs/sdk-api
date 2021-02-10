@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceSite.CanInPlaceActivate
+ - IOleInPlaceSite::CanInPlaceActivate
 ---
 
 # IOleInPlaceSite::CanInPlaceActivate
@@ -98,3 +98,4 @@ Only objects being displayed as DVASPECT_CONTENT can be activated in place.
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
+

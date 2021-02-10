@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorStream.CloneSensorStream
+ - IMFSensorStream::CloneSensorStream
 ---
 
 # IMFSensorStream::CloneSensorStream
@@ -99,3 +99,4 @@ The <i>ppStream</i> parameter is null.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>
+

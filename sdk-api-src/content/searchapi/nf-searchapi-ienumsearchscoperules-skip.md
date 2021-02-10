@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IEnumSearchScopeRules.Skip
+ - IEnumSearchScopeRules::Skip
 ---
 
 # IEnumSearchScopeRules::Skip
@@ -71,3 +71,4 @@ Returns S_OK if successful, S_FALSE if there were not enough items left in the e
 Moves the internal counter a specified number of elements forward so that a subsequent call to <a href="/windows/desktop/api/searchapi/nf-searchapi-ienumsearchscoperules-next">IEnumSearchScopeRules::Next</a> starts from that number.
 
 <b>Windows 7 and later</b>: Check out the <a href="/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+

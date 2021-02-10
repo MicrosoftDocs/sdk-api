@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionEmail2.AttachmentFileListSize
- - IFsrmActionEmail2.get_AttachmentFileListSize
- - IFsrmActionEmail2.put_AttachmentFileListSize
+ - IFsrmActionEmail2::get_AttachmentFileListSize
 ---
 
 # IFsrmActionEmail2::get_AttachmentFileListSize
@@ -85,3 +83,4 @@ The attached file is a plain text file. The file contains a line for each file u
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
+

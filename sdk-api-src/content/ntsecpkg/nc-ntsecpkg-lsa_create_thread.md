@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - CreateThread
+ - LSA_CREATE_THREAD
 ---
 
 # LSA_CREATE_THREAD callback function
@@ -111,3 +111,4 @@ For more information, see the Windows
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

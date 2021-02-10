@@ -42,9 +42,7 @@ api_type:
 api_location:
  - eventsys.h
 api_name:
- - IEventClass.TypeLib
- - IEventClass.get_TypeLib
- - IEventClass.put_TypeLib
+ - IEventClass::get_TypeLib
 ---
 
 # IEventClass::get_TypeLib
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage.DeletePropertyNames
+ - IPropertyStorage::DeletePropertyNames
 ---
 
 # IPropertyStorage::DeletePropertyNames
@@ -80,3 +80,4 @@ For each property identifier in <i>rgpropid</i>, <b>IPropertyStorage::DeleteProp
 
 
 <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readpropertynames">IPropertyStorage::ReadPropertyNames</a>
+

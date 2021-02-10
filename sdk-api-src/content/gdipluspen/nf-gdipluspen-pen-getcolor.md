@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen.GetColor
+ - Pen::GetColor
 ---
 
 # Pen::GetColor
@@ -87,3 +87,4 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setcolor">Pen::SetColor</a>
+

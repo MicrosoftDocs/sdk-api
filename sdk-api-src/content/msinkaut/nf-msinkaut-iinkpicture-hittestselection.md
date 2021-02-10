@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture.HitTestSelection
+ - IInkPicture::HitTestSelection
 ---
 
 # IInkPicture::HitTestSelection
@@ -82,3 +82,4 @@ For further details about this method, refer to the <a href="/windows/desktop/ta
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult Enumeration</a>
+

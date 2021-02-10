@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo.SetSourcePosition
+ - IBasicVideo::SetSourcePosition
 ---
 
 # IBasicVideo::SetSourcePosition
@@ -88,3 +88,4 @@ Setting this coordinate does not affect the destination rectangle height.
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
+

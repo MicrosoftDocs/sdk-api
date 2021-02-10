@@ -9,6 +9,8 @@ tech.root: security
 f1_keywords:
  - celib
  - celib/celib
+api_name:
+ - celib
 ---
 
 # Celib.h header

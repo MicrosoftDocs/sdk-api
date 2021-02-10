@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetReadyState
+ - IMFMediaEngine::GetReadyState
 ---
 
 # IMFMediaEngine::GetReadyState
@@ -65,3 +65,4 @@ This method corresponds to the <b>readyState</b> attribute of the <b>HTMLMediaEl
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet.SetValue
+ - IDataCollectorSet::SetValue
 ---
 
 # IDataCollectorSet::SetValue
@@ -79,3 +79,4 @@ You use the key value if you want to perform variable substitution in the <a hre
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-getvalue">IDataCollectorSet::GetValue</a>
+

@@ -43,11 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit.SelUnderline
- - IInkEdit.get_SelUnderline
- - IInkEdit.put_SelUnderline
- - InkEdit.get_SelUnderline
- - InkEdit.put_SelUnderline
+ - IInkEdit::put_SelUnderline
 ---
 
 # IInkEdit::put_SelUnderline
@@ -68,3 +64,4 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+

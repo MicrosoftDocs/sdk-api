@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
+ - _KERB_INTERACTIVE_LOGON
+ - PKERB_INTERACTIVE_LOGON
  - KERB_INTERACTIVE_LOGON
 ---
 
@@ -76,3 +78,4 @@ It is used by
 ### -field Password
 
 <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> specifying the user password. When you have finished using the password, remove the sensitive information from memory by calling <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a>. For more information on protecting the password, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage.EnumStorage
+ - IWMDMStorage::EnumStorage
 ---
 
 # IWMDMStorage::EnumStorage
@@ -89,3 +89,4 @@ The <b>IWMDMEnumStorage</b> interface that is retrieved will enumerate the immed
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
+

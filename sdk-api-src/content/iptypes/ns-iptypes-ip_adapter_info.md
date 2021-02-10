@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
+ - _IP_ADAPTER_INFO
+ - PIP_ADAPTER_INFO
  - IP_ADAPTER_INFO
 ---
 
@@ -471,3 +473,4 @@ int __cdecl main()
 
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
+

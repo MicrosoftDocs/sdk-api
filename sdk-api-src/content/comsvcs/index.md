@@ -9,6 +9,8 @@ tech.root: winmessenger
 f1_keywords:
  - comsvcs
  - comsvcs/comsvcs
+api_name:
+ - comsvcs
 ---
 
 # Comsvcs.h header

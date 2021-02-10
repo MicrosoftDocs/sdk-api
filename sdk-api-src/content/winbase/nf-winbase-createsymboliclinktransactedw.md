@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CreateSymbolicLinkTransactedW
  - winbase/CreateSymbolicLinkTransactedW
+ - CreateSymbolicLinkTransacted
+ - winbase/CreateSymbolicLinkTransacted
 dev_langs:
  - c++
 topic_type:
@@ -46,9 +48,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateSymbolicLinkTransacted
- - CreateSymbolicLinkTransactedA
  - CreateSymbolicLinkTransactedW
+ - CreateSymbolicLinkTransacted
 ---
 
 # CreateSymbolicLinkTransactedW function
@@ -224,3 +225,4 @@ SMB 3.0 does not support TxF.
 
 
 <a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
+

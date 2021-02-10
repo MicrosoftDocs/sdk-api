@@ -44,6 +44,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
+ - _DXVA2_AES_CTR_IV
  - DXVA2_AES_CTR_IV
 ---
 
@@ -84,3 +85,4 @@ When the <b>D3DCPCAPS_SEQUENTIAL_CTR_IV</b> capability is present, it is recomme
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+

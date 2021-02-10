@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetRuntimeId
+ - IUIAutomationElement::GetRuntimeId
 ---
 
 # IUIAutomationElement::GetRuntimeId
@@ -95,3 +95,4 @@ The format of run-time identifiers might change in the future. The returned iden
 
 
 <b>Reference</b>
+

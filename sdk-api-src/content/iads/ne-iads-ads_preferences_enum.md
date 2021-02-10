@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iads.h
 api_name:
+ - __MIDL___MIDL_itf_ads_0000_0000_0022
  - ADS_PREFERENCES_ENUM
 ---
 
@@ -131,3 +132,4 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 
 <a href="/windows/desktop/api/iads/ns-iads-ads_sortkey">ADS_SORTKEY</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
+ - tagEMRINVERTRGN
+ - PEMRINVERTRGN
  - EMRINVERTRGN
 ---
 
@@ -90,3 +92,4 @@ Buffer containing an <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGN
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-paintrgn">PaintRgn</a>
+

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem.GetDrive
+ - IVdsSubSystem::GetDrive
 ---
 
 # IVdsSubSystem::GetDrive
@@ -160,3 +160,4 @@ Because <i>sSlotNumber</i> and  <i>sBusNumber</i> identify a drive
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querydrives">IVdsSubSystem::QueryDrives</a>
+

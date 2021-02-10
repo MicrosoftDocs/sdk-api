@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - wmpservices
  - wmpservices/wmpservices
+api_name:
+ - wmpservices
 ---
 
 # Wmpservices.h header

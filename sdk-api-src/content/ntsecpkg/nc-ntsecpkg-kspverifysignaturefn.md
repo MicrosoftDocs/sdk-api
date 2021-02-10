@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpVerifySignature
+ - KspVerifySignatureFn
 ---
 
 # KspVerifySignatureFn callback function
@@ -62,22 +62,18 @@ The <b>SpVerifySignature</b> function is the dispatch function for the
 
 A handle to the <a href="/windows/desktop/SecGloss/s-gly">security context</a> used to sign the message.
 
-
 ### -param Message [in]
 
 Pointer to a 
 <a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure containing the message to verify.
 
-
 ### -param MessageSeqNo [in]
 
 Sequence number to assign to the message. Sequence numbers are optional and are used as protection against loss and insertion of messages. A value of zero indicates that sequence numbers are not in use.
 
-
 ### -param pfQOP [out]
 
 Pointer to package-specific flags that indicate the quality of protection.
-
 
 ## -returns
 
@@ -133,3 +129,4 @@ A pointer to the <b>SpVerifySignature</b> function is available in the
 
 
 <a href="/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a>
+

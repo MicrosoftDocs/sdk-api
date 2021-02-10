@@ -46,6 +46,8 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
+ - _DDGETTRANSFERSTATUSOUTINFO
+ - PDDGETTRANSFEROUTINFO
  - DDGETTRANSFERSTATUSOUTINFO
 ---
 
@@ -73,3 +75,4 @@ Contains the transfer ID of the bus master transfer that completed. The transfer
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_transfer">DxTransfer</a>
+

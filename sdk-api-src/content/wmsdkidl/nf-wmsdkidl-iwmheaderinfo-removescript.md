@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMHeaderInfo.RemoveScript
+ - IWMHeaderInfo::RemoveScript
 ---
 
 # IWMHeaderInfo::RemoveScript
@@ -120,3 +120,4 @@ The writer only supports this method before the <b>BeginWriting</b> method has b
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscript">IWMHeaderInfo::GetScript</a>
+

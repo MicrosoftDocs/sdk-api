@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMultiMediaStream.Initialize
+ - IAMMultiMediaStream::Initialize
 ---
 
 # IAMMultiMediaStream::Initialize
@@ -125,3 +125,4 @@ If you specify AMMSF_NOGRAPHTHREAD in the <i>dwFlags</i> parameter, the calling 
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
+

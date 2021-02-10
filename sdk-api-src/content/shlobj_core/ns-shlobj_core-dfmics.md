@@ -44,6 +44,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
+ - PDFMICS
  - DFMICS
 ---
 
@@ -176,3 +177,4 @@ A pointer to a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cmin
 Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the site of the context menu handler.
+

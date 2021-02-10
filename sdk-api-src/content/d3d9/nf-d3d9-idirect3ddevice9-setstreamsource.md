@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9.SetStreamSource
+ - IDirect3DDevice9::SetStreamSource
 ---
 
 # IDirect3DDevice9::SetStreamSource
@@ -118,3 +118,4 @@ When calling SetStreamSource, the stride is normally required to be equal to the
 
 
 <a href="/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
+

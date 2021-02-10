@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbProvider.CreateTargetObject
+ - ITsSbProvider::CreateTargetObject
 ---
 
 # ITsSbProvider::CreateTargetObject
@@ -84,3 +84,4 @@ Plug-ins can use this method to create a target object.
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
+

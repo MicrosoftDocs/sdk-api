@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiPortal.QueryAssociatedPortalGroups
+ - IVdsIscsiPortal::QueryAssociatedPortalGroups
 ---
 
 # IVdsIscsiPortal::QueryAssociatedPortalGroups
@@ -132,3 +132,4 @@ Another operation is in progress. This operation cannot proceed until the previo
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsiportal">IVdsIscsiPortal</a>
+

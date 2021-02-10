@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyFile3.GetTemporaryName
+ - IBackgroundCopyFile3::GetTemporaryName
 ---
 
 # IBackgroundCopyFile3::GetTemporaryName
@@ -106,3 +106,4 @@ To determine if BITS finished transferring the file, you can:
 
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyfile3">IBackgroundCopyFile3</a>
+

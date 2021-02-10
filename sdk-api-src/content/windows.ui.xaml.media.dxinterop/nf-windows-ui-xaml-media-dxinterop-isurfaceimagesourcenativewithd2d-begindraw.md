@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceNativeWithD2D.BeginDraw
+ - ISurfaceImageSourceNativeWithD2D::BeginDraw
 ---
 
 # ISurfaceImageSourceNativeWithD2D::xaml
@@ -89,3 +89,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
+

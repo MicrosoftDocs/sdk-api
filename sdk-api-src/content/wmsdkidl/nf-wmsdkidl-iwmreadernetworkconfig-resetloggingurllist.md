@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.ResetLoggingUrlList
+ - IWMReaderNetworkConfig::ResetLoggingUrlList
 ---
 
 # IWMReaderNetworkConfig::ResetLoggingUrlList
@@ -72,3 +72,4 @@ This method removes any servers that were added using the <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+

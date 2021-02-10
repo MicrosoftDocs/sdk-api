@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath.Clone
+ - GraphicsPath::Clone
 ---
 
 # GraphicsPath::Clone
@@ -84,3 +84,4 @@ This method returns a pointer to the new <a href="/windows/desktop/api/gdipluspa
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage.SetClass
+ - IStorage::SetClass
 ---
 
 # IStorage::SetClass
@@ -76,3 +76,4 @@ Call the
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionAlternativeNames.InitializeEncode
+ - IX509ExtensionAlternativeNames::InitializeEncode
 ---
 
 # IX509ExtensionAlternativeNames::InitializeEncode
@@ -98,3 +98,4 @@ You must call either <b>InitializeEncode</b> or <a href="/windows/desktop/api/ce
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionalternativenames">IX509ExtensionAlternativeNames</a>
+

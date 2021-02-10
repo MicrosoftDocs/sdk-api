@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CryptRetrieveObjectByUrlA
  - wincrypt/CryptRetrieveObjectByUrlA
+ - CryptRetrieveObjectByUrl
+ - wincrypt/CryptRetrieveObjectByUrl
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Cryptnet.dll
 api_name:
- - CryptRetrieveObjectByUrl
  - CryptRetrieveObjectByUrlA
- - CryptRetrieveObjectByUrlW
+ - CryptRetrieveObjectByUrl
 ---
 
 # CryptRetrieveObjectByUrlA function
@@ -431,3 +432,4 @@ This function supports "http:" and "ldap:" URL schemes as well as newly defined 
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetobjecturl">CryptGetObjectUrl</a>
+

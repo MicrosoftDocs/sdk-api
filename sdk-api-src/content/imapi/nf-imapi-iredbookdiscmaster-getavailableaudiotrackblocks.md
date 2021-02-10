@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IRedbookDiscMaster.GetAvailableAudioTrackBlocks
+ - IRedbookDiscMaster::GetAvailableAudioTrackBlocks
 ---
 
 # IRedbookDiscMaster::GetAvailableAudioTrackBlocks
@@ -69,3 +69,4 @@ This method accounts for gaps associated with open tracks. Additionally, if this
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>
+

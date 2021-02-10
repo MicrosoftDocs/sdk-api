@@ -53,8 +53,6 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
  - CopyFile
- - CopyFileA
- - CopyFileW
 ---
 
 # CopyFile function
@@ -241,3 +239,4 @@ For an example, see
 
 
 <a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+

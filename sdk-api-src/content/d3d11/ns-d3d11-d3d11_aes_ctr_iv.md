@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
+ - _D3D11_AES_CTR_IV
  - D3D11_AES_CTR_IV
 ---
 
@@ -67,3 +68,4 @@ The block count, in big-endian format.
 ## -see-also
 
 <a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+

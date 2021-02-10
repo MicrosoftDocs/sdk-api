@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.IsCheckboxChecked
+ - IPhotoProgressDialog::IsCheckboxChecked
 ---
 
 # IPhotoProgressDialog::IsCheckboxChecked
@@ -99,3 +99,4 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer was expected.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
+

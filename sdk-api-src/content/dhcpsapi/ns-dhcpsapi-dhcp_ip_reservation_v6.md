@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
+ - _DHCP_IP_RESERVATION_V6
+ - LPDHCP_IP_RESERVATION_V6
  - DHCP_IP_RESERVATION_V6
 ---
 
@@ -85,3 +87,4 @@ Integer that specifies the interface identifier for which the IPv6 reservation i
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext2.GetGradientMeshWorldBounds
+ - ID2D1DeviceContext2::GetGradientMeshWorldBounds
 ---
 
 # ID2D1DeviceContext2::GetGradientMeshWorldBounds
@@ -80,3 +80,4 @@ They do not reflect the current clip rectangle set on the device context or the 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
+

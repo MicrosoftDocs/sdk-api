@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UrlHashA
  - shlwapi/UrlHashA
+ - UrlHash
+ - shlwapi/UrlHash
 dev_langs:
  - c++
 topic_type:
@@ -44,9 +46,8 @@ api_location:
  - API-MS-Win-Core-url-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - UrlHash
  - UrlHashA
- - UrlHashW
+ - UrlHash
 ---
 
 # UrlHashA function
@@ -96,3 +97,4 @@ To hash a URL into a single byte, set <i>cbHash</i> = sizeof(BYTE) and <i>pbHash
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-hashdata">HashData</a>
+

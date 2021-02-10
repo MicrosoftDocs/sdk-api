@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole.AddOperation
- - AzRole.AddOperation
+ - IAzRole::AddOperation
 ---
 
 # IAzRole::AddOperation
@@ -66,3 +65,4 @@ Reserved for future use.
 ## -remarks
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1.dll
 api_name:
- - ID2D1CommandSink4.SetPrimitiveBlend2
+ - ID2D1CommandSink4::SetPrimitiveBlend2
 ---
 
 # ID2D1CommandSink4::SetPrimitiveBlend2
@@ -69,3 +69,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT erro
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink4">ID2D1CommandSink4</a>
+

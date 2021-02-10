@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdGraphBuilder.GetFiltergraph
+ - IDvdGraphBuilder::GetFiltergraph
 ---
 
 # IDvdGraphBuilder::GetFiltergraph
@@ -78,3 +78,4 @@ The returned <b>IGraphBuilder</b> interface pointer has an outstanding reference
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder Interface</a>
+

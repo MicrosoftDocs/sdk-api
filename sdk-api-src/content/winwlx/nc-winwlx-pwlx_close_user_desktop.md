@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - WlxCloseUserDesktop
+ - PWLX_CLOSE_USER_DESKTOP
 ---
 
 # PWLX_CLOSE_USER_DESKTOP callback function
@@ -93,3 +93,4 @@ In addition to closing the desktop, this function will modify access to the pare
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+

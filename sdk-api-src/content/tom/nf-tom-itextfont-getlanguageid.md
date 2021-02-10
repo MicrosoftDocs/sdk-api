@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.GetLanguageID
+ - ITextFont::GetLanguageID
 ---
 
 # ITextFont::GetLanguageID
@@ -118,3 +118,4 @@ To get the BCP-47 language tag, such as "en-US", call <code>ITextRange2::GetText
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - tagDVD_DOMAIN
  - DVD_DOMAIN
 ---
 
@@ -89,3 +90,4 @@ A domain is a logical space on a DVD disc. When the DVD Navigator is displaying 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentdomain">IDvdInfo2::GetCurrentDomain</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
+ - _SNodeID
  - SNodeID
 ---
 
@@ -86,3 +87,4 @@ For details on using the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mmc/ccf-nodeid">CCF_NODEID</a>
+

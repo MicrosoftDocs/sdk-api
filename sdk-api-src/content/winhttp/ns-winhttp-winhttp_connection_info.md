@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winhttp.h
 api_name:
+ - _WINHTTP_CONNECTION_INFO
+ - PWINHTTP_CONNECTION_INFO
  - WINHTTP_CONNECTION_INFO
 ---
 
@@ -87,3 +89,4 @@ WinHttpQueryOption( hRequest,
                     &dwConnInfoSize);
 
 ```
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMBYTE4.XMBYTE4
+ - XMBYTE4::XMBYTE4
 ---
 
 # XMBYTE4::XMBYTE4(const int8_t)
@@ -79,3 +79,4 @@ instance.w = pArray[3];
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4">XMBYTE4</a>
 
 <a href="/windows/desktop/dxmath/xmbyte4-ctor">XMBYTE4 Constructors</a>
+

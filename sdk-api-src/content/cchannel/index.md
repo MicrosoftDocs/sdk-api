@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - cchannel
  - cchannel/cchannel
+api_name:
+ - cchannel
 ---
 
 # Cchannel.h header

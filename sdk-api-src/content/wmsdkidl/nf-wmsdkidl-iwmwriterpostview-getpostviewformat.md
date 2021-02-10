@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPostView.GetPostViewFormat
+ - IWMWriterPostView::GetPostViewFormat
 ---
 
 # IWMWriterPostView::GetPostViewFormat
@@ -120,3 +120,4 @@ This method can be used along with <a href="/windows/desktop/api/wmsdkidl/nf-wms
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
+

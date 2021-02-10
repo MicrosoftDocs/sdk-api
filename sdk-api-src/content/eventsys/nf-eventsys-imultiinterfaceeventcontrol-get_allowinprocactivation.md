@@ -42,9 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IMultiInterfaceEventControl.AllowInprocActivation
- - IMultiInterfaceEventControl.get_AllowInprocActivation
- - IMultiInterfaceEventControl.put_AllowInprocActivation
+ - IMultiInterfaceEventControl::get_AllowInprocActivation
 ---
 
 # IMultiInterfaceEventControl::get_AllowInprocActivation
@@ -61,3 +59,4 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
+

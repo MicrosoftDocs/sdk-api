@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart.EnumPartsIncoming
+ - IPart::EnumPartsIncoming
 ---
 
 # IPart::EnumPartsIncoming
@@ -115,3 +115,4 @@ If this part has no links to upstream parts, the method returns error code E_NOT
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList Interface</a>
+

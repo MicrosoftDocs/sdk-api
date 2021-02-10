@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - SICHINTF
+ - _SICHINTF
 ---
 
 # _SICHINTF enumeration
@@ -69,3 +69,4 @@ Used to determine how to compare two Shell items. <a href="/windows/desktop/api/
 ### -field SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL
 
 0x20000000. <b>Windows 7 and later</b>. If the Shell items are not the same, test the file system paths.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange.GetEmbedded
+ - ITfRange::GetEmbedded
 ---
 
 # ITfRange::GetEmbedded
@@ -243,3 +243,4 @@ While the obtained object might not support certain interfaces, it is likely tha
 
 
 <a href="/windows/desktop/TSF/text-stores">Text Stores</a>
+

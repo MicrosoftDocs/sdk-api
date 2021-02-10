@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.InsertEffect
+ - IMFPMediaPlayer::InsertEffect
 ---
 
 # IMFPMediaPlayer::InsertEffect
@@ -188,3 +188,4 @@ HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

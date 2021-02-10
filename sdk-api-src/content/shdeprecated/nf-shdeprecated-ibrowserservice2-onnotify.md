@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2.OnNotify
+ - IBrowserService2::OnNotify
 ---
 
 # IBrowserService2::OnNotify
@@ -66,3 +66,4 @@ A pointer to a <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</
 Type: <b>LRESULT</b>
 
 The return value specifies the result of the notification processing; it depends on the notification sent.
+

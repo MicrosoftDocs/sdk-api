@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Qos2.h
 api_name:
+ - _QOS_VERSION
+ - PQOS_VERSION
  - QOS_VERSION
 ---
 
@@ -73,3 +75,4 @@ Minor version of the QOS protocol.
 
 
 <a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
+

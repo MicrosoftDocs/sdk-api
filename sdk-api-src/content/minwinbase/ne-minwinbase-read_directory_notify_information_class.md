@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Minwinbase.h
 api_name:
+ - _READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
+ - PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS
  - READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
 ---
 
@@ -77,3 +79,4 @@ The <a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">Re
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">ReadDirectoryChangesExW</a>
+

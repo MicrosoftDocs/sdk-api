@@ -44,6 +44,7 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - _FINDEX_SEARCH_OPS
  - FINDEX_SEARCH_OPS
 ---
 
@@ -91,3 +92,4 @@ For more information, see
 ## -see-also
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
+

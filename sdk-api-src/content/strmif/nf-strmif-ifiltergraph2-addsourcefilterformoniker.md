@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph2.AddSourceFilterForMoniker
+ - IFilterGraph2::AddSourceFilterForMoniker
 ---
 
 # IFilterGraph2::AddSourceFilterForMoniker
@@ -208,3 +208,4 @@ pMoniker-&gt;Release();
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2 Interface</a>
+

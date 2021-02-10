@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFSourceBufferNotify.OnUpdate
+ - IMFSourceBufferNotify::OnUpdate
 ---
 
 # IMFSourceBufferNotify::OnUpdate
@@ -57,3 +57,4 @@ Used to indicate that the source buffer is updating.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>
+

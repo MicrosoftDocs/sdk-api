@@ -44,6 +44,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
+ - _OPM_CONFIGURE_PARAMETERS
  - OPM_CONFIGURE_PARAMETERS
 ---
 
@@ -104,3 +105,4 @@ Initialize this structure as follows.
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
+

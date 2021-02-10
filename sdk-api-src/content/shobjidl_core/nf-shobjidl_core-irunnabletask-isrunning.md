@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IRunnableTask.IsRunning
+ - IRunnableTask::IsRunning
 ---
 
 # IRunnableTask::IsRunning
@@ -126,3 +126,4 @@ The task is finished.
 ## -remarks
 
 This method must be implemented.
+

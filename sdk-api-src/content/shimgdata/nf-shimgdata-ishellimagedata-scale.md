@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData.Scale
+ - IShellImageData::Scale
 ---
 
 # IShellImageData::Scale
@@ -128,3 +128,4 @@ The process was stopped by the calling application through a registered instance
 </td>
 </tr>
 </table>
+

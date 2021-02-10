@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMetadataPicture.get_description
+ - IWMPMetadataPicture::get_description
 ---
 
 # IWMPMetadataPicture::get_description
@@ -89,3 +89,4 @@ Before calling this method, you must have read access to the library. For more i
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmetadatapicture">IWMPMetadataPicture Interface</a>
+

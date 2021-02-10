@@ -46,6 +46,8 @@ api_type:
 api_location:
  - windef.h
 api_name:
+ - tagPOINT
+ - PPOINT
  - POINT
 ---
 
@@ -77,3 +79,4 @@ The POINT structure is identical to the <a href="/windows/desktop/api/windef/ns-
 
 
 <a href="/windows/desktop/api/windef/ns-windef-points">POINTS</a>
+

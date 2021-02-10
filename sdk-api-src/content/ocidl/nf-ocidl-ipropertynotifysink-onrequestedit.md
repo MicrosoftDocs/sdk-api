@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyNotifySink.OnRequestEdit
+ - IPropertyNotifySink::OnRequestEdit
 ---
 
 # IPropertyNotifySink::OnRequestEdit
@@ -104,3 +104,4 @@ This method cannot be used to implement any sort of data validation. At the time
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_MUX.GetPidList
+ - IBDA_MUX::GetPidList
 ---
 
 # IBDA_MUX::GetPidList
@@ -102,3 +102,4 @@ If the <i>pbPidListBuffer</i> array is too small, the method returns <b>E_NOT_SU
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_mux">IBDA_MUX</a>
+

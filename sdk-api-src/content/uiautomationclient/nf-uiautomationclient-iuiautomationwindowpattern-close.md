@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.Close
+ - IUIAutomationWindowPattern::Close
 ---
 
 # IUIAutomationWindowPattern::Close
@@ -67,3 +67,4 @@ When called on a split pane control, this method closes the pane and removes the
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationwindowpattern">IUIAutomationWindowPattern</a>
+

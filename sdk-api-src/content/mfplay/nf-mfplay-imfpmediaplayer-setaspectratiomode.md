@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer.SetAspectRatioMode
+ - IMFPMediaPlayer::SetAspectRatioMode
 ---
 
 # IMFPMediaPlayer::SetAspectRatioMode
@@ -119,3 +119,4 @@ To set the aspect-ratio mode before playback starts, call this method inside you
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
+

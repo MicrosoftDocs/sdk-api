@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2.RegisterOcclusionStatusEvent
+ - IDXGIFactory2::RegisterOcclusionStatusEvent
 ---
 
 # IDXGIFactory2::RegisterOcclusionStatusEvent
@@ -86,3 +86,4 @@ If you call <b>RegisterOcclusionStatusEvent</b> multiple times with the differen
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
+

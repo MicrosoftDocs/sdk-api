@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsMembers.get__NewEnum
+ - IADsMembers::get__NewEnum
 ---
 
 # IADsMembers::get__NewEnum
@@ -81,3 +81,4 @@ This method supports the standard return values, including S_OK. For more inform
 
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+

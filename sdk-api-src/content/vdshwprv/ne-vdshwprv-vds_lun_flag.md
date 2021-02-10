@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_LUN_FLAG
+ - PVDS_LUN_FLAG
  - VDS_LUN_FLAG
 ---
 
@@ -125,3 +127,4 @@ This enumeration provides the values for the <i>ulFlags</i> member of the <a hre
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a>
+

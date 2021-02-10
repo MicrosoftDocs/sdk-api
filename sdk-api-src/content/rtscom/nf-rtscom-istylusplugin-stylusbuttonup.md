@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin.StylusButtonUp
+ - IStylusPlugin::StylusButtonUp
 ---
 
 # IStylusPlugin::StylusButtonUp
@@ -93,3 +93,4 @@ The stylus button is no longer down and the stylus is in range of the digitizer.
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+

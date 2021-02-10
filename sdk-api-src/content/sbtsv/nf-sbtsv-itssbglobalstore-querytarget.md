@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbGlobalStore.QueryTarget
+ - ITsSbGlobalStore::QueryTarget
 ---
 
 # ITsSbGlobalStore::QueryTarget
@@ -82,3 +82,4 @@ in Remote Desktop Connection Broker (RD Connection Broker). The target object r
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbglobalstore">ITsSbGlobalStore</a>
+

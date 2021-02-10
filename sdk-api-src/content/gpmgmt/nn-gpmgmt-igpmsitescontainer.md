@@ -43,7 +43,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMSitesContainer
- - GPMSitesContainer
 ---
 
 # IGPMSitesContainer interface
@@ -70,3 +69,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSitesContainer</b> interf
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+

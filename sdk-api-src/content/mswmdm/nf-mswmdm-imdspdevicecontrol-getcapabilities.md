@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDeviceControl.GetCapabilities
+ - IMDSPDeviceControl::GetCapabilities
 ---
 
 # IMDSPDeviceControl::GetCapabilities
@@ -147,3 +147,4 @@ An unspecified error occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>
+

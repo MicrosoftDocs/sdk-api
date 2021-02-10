@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WRDS_DYNAMIC_TIME_ZONE_INFORMATION
+ - PWRDS_DYNAMIC_TIME_ZONE_INFORMATION
  - WRDS_DYNAMIC_TIME_ZONE_INFORMATION
 ---
 
@@ -101,3 +103,4 @@ Whether DynamicDaylightTime is disabled.
 
 
 <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-queryproperty">QueryProperty</a>
+

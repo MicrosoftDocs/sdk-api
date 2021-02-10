@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
+ - _tagSYNCMGRITEMFLAGS
  - SYNCMGRITEMFLAGS
 ---
 
@@ -83,3 +84,4 @@ The item may be deleted. This value has been deprecated for Windows Vista and l
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgritem">SYNCMGRITEM</a>
+

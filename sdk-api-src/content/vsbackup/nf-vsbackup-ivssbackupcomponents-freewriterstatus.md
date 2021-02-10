@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents.FreeWriterStatus
+ - IVssBackupComponents::FreeWriterStatus
 ---
 
 # IVssBackupComponents::FreeWriterStatus
@@ -107,3 +107,4 @@ The backup components object is not initialized, this method has been called dur
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a>
+

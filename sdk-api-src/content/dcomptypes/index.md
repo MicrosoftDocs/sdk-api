@@ -9,6 +9,8 @@ tech.root: directcomp
 f1_keywords:
  - dcomptypes
  - dcomptypes/dcomptypes
+api_name:
+ - dcomptypes
 ---
 
 # Dcomptypes.h header

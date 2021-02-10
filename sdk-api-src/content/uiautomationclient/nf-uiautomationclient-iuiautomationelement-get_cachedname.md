@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedName
- - IUIAutomationElement.get_CachedName
+ - IUIAutomationElement::get_CachedName
 ---
 
 # IUIAutomationElement::get_CachedName
@@ -76,3 +75,4 @@ The name of an element can be used to find the element in the element tree when 
 
 
 <b>Reference</b>
+

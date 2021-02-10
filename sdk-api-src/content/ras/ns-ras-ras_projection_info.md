@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ras.h
 api_name:
+ - _RAS_PROJECTION_INFO
+ - PRAS_PROJECTION_INFO
  - RAS_PROJECTION_INFO
 ---
 
@@ -100,3 +102,4 @@ A <a href="/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PR
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
+

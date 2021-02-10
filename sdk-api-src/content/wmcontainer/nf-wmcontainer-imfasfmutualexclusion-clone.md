@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.Clone
+ - IMFASFMutualExclusion::Clone
 ---
 
 # IMFASFMutualExclusion::Clone
@@ -92,3 +92,4 @@ The cloned object is a new object, completely independent of the object from whi
 
 
 <a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
+

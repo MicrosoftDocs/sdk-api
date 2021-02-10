@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
+ - _FH_BACKUP_STATUS
  - FH_BACKUP_STATUS
 ---
 
@@ -87,3 +88,4 @@ The <b>FH_STATUS_DISABLED_BY_GP</b> status can be queried by calling the <a href
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">IFhConfigMgr::SetBackupStatus</a>
+

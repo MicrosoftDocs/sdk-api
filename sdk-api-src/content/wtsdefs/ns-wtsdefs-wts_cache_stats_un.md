@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
+ - _WTS_CACHE_STATS_UN
+ - PWTS_CACHE_STATS_UN
  - WTS_CACHE_STATS_UN
 ---
 
@@ -82,8 +84,7 @@ Reserved protocol specific data. The maximum size, in bytes, of this data is WTS
 
 ### -field Reserved.case.3
 
-
-
 ## -remarks
 
 This union is a member of the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats">WTS_CACHE_STATS</a> structure. The <b>Specific</b> member of that structure contains an integer index that specifies which  member of the <b>WTS_CACHE_STATS_UN</b> union contains the cache data.
+

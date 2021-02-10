@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMMediaContent2.get_PlaylistCount
+ - IAMMediaContent2::get_PlaylistCount
 ---
 
 # IAMMediaContent2::get_PlaylistCount
@@ -69,3 +69,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent2">IAMMediaContent2 Interface</a>
+

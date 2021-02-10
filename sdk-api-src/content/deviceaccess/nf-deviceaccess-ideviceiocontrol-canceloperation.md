@@ -43,7 +43,7 @@ api_location:
  - Deviceaccess.lib
  - Deviceaccess.dll
 api_name:
- - IDeviceIoControl.CancelOperation
+ - IDeviceIoControl::CancelOperation
 ---
 
 # IDeviceIoControl::CancelOperation
@@ -99,3 +99,4 @@ Regardless of whether cancellation is successful, the result of the operation is
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>
+

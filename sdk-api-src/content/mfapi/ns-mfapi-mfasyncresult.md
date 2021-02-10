@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
+ - tagMFASYNCRESULT
  - MFASYNCRESULT
 ---
 
@@ -93,3 +94,4 @@ Any custom implementation of the <a href="/windows/desktop/api/mfobjects/nn-mfob
 
 
 <a href="/windows/desktop/medfound/work-queues">Work Queues</a>
+

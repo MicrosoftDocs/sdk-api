@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual2.SetBackFaceVisibility
+ - IDCompositionVisual2::SetBackFaceVisibility
 ---
 
 ## -description
@@ -76,3 +76,4 @@ If the <i>visibility</i> parameter is anything other than DCOMPOSITION_BACKFACE_
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">IDCompositionEffectGroup::SetTransform3D</a>
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>
+

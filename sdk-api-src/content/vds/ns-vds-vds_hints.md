@@ -47,6 +47,8 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
+ - _VDS_HINTS
+ - PVDS_HINTS
  - VDS_HINTS
 ---
 
@@ -315,3 +317,4 @@ Hints are not directives to implementers. While implementers are in general expe
 
 
 <a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
+

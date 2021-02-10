@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mi.h
 api_name:
+ - _MI_Module
  - MI_Module
 ---
 
@@ -150,3 +151,4 @@ The module may implement a single 'dynamic provider' (one that provides CIM inst
 
 
 <a href="/windows/desktop/api/mi/ns-mi-mi_schemadecl">MI_SchemaDecl</a>
+

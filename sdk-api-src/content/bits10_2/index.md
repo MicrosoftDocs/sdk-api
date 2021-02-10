@@ -9,6 +9,8 @@ tech.root: bits
 f1_keywords:
  - bits10_2
  - bits10_2/bits10_2
+api_name:
+ - bits10_2
 ---
 
 # Bits10_2.h header

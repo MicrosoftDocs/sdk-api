@@ -44,7 +44,8 @@ api_type:
 api_location:
  - activationregistration.h
 api_name:
- - ActivationType
+ - tagACTIVATIONTYPE
+ - ACTIVATIONTYPE
 ---
 
 # ACTIVATIONTYPE enumeration
@@ -85,3 +86,4 @@ Specifies remote-process activation.
 ## -see-also
 
 <a href="/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>
+

@@ -42,10 +42,8 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - DdGetAvailDriverMemory
+ - PDD_GETAVAILDRIVERMEMORY
 ---
-
-
 
 ## -description
 
@@ -54,7 +52,6 @@ The <b>DdGetAvailDriverMemory</b> callback function queries the amount of free m
 ## -parameters
 
 ### -param Arg1
-
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.
 
@@ -77,3 +74,4 @@ The driver indicates its support of <b>DdGetAvailDriverMemory</b> by implementin
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+

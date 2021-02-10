@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceRegistration.IsPendingRegistrationWithAU
- - IUpdateServiceRegistration.get_IsPendingRegistrationWithAU
+ - IUpdateServiceRegistration::get_IsPendingRegistrationWithAU
 ---
 
 # IUpdateServiceRegistration::get_IsPendingRegistrationWithAU
@@ -64,3 +63,4 @@ If the <a href="/windows/desktop/api/wuapi/ne-wuapi-updateserviceregistrationsta
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a>
+

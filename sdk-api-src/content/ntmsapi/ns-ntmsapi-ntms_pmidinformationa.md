@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - NTMS_PMIDINFORMATION
+ - _NTMS_PMIDINFORMATIONA
  - NTMS_PMIDINFORMATIONA
- - NTMS_PMIDINFORMATIONW
 ---
 
 # NTMS_PMIDINFORMATIONA structure
@@ -241,3 +240,4 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+

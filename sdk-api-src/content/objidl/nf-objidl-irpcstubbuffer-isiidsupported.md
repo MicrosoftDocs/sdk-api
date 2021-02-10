@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcStubBuffer.IsIIDSupported
+ - IRpcStubBuffer::IsIIDSupported
 ---
 
 # IRpcStubBuffer::IsIIDSupported
@@ -71,3 +71,4 @@ As in <a href="/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createstub
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
+

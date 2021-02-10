@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Txlogpub.h
 api_name:
- - ILog.ReadRecord
+ - ILog::ReadRecord
 ---
 
 # ILog::ReadRecord
@@ -139,3 +139,4 @@ If the log contains very large records, this method may fail because <b>ReadReco
 ## -see-also
 
 <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
+

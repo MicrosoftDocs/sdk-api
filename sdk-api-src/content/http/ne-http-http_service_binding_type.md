@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Http.h
 api_name:
+ - _HTTP_SERVICE_BINDING_TYPE
  - HTTP_SERVICE_BINDING_TYPE
 ---
 

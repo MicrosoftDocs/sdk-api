@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig.GetConnectionName
+ - IWMStreamConfig::GetConnectionName
 ---
 
 # IWMStreamConfig::GetConnectionName
@@ -122,3 +122,4 @@ The connection name is not written to the header section of an ASF file. If you 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setconnectionname">IWMStreamConfig::SetConnectionName</a>
+

@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
+ - _MIB_IPPATH_TABLE
+ - PMIB_IPPATH_TABLE
  - MIB_IPPATH_TABLE
 ---
 
@@ -97,3 +99,4 @@ The <b>MIB_IPPATH_TABLE</b> structure may contain padding for alignment between 
 
 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a>
+

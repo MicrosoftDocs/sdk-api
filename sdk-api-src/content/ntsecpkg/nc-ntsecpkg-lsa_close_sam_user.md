@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - CloseSamUser
+ - LSA_CLOSE_SAM_USER
 ---
 
 # LSA_CLOSE_SAM_USER callback function
@@ -100,3 +100,4 @@ A pointer to the <b>CloseSamUser</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO.GetSecurityDescriptor
- - GPMGPO.GetSecurityDescriptor
+ - IGPMGPO::GetSecurityDescriptor
 ---
 
 # IGPMGPO::GetSecurityDescriptor
@@ -108,3 +107,4 @@ For more information about security descriptors, ACLs, and the security model fo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
+

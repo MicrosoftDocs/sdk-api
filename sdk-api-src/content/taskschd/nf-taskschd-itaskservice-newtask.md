@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskService.NewTask
+ - ITaskService::NewTask
 ---
 
 # ITaskService::NewTask
@@ -116,3 +116,4 @@ A nonzero value was passed into the <i>flags</i> parameter.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
+

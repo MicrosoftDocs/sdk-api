@@ -43,9 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkExtendedProperty.Guid
- - IInkExtendedProperty.get_Guid
- - IInkExtendedProperty.get_Guid
+ - IInkExtendedProperty::get_Guid
 ---
 
 # IInkExtendedProperty::get_Guid
@@ -69,3 +67,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtended Property Interface</a>
+

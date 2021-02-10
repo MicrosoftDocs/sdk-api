@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
+ - _CLUSTER_SETUP_PHASE_SEVERITY
  - CLUSTER_SETUP_PHASE_SEVERITY
 ---
 
@@ -77,3 +78,4 @@ This phase of the cluster setup process cannot complete successfully.
 
 
 <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
+

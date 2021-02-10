@@ -46,9 +46,7 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile.GetMutualExclusionCount
- - IWMProfile2.GetMutualExclusionCount
- - IWMProfile3.GetMutualExclusionCount
+ - IWMProfile::GetMutualExclusionCount
 ---
 
 # IWMProfile::GetMutualExclusionCount
@@ -116,3 +114,4 @@ The <i>pcME</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/wmformat/mutual-exclusion">Mutual Exclusion</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
+ - _D3D12_PARAMETER_DESC
  - D3D12_PARAMETER_DESC
 ---
 
@@ -115,3 +116,4 @@ Get a function-parameter description by calling <a href="/windows/desktop/api/d3
 
 
 <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
+

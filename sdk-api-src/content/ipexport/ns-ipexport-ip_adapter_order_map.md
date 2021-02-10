@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
+ - _IP_ADAPTER_ORDER_MAP
+ - PIP_ADAPTER_ORDER_MAP
  - IP_ADAPTER_ORDER_MAP
 ---
 

@@ -9,6 +9,8 @@ tech.root: winrt
 f1_keywords:
  - shcore
  - shcore/shcore
+api_name:
+ - shcore
 ---
 
 # Shcore.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IWindowProvider.Close
+ - IWindowProvider::Close
 ---
 
 # IWindowProvider::Close
@@ -82,3 +82,4 @@ This method may also close all other panes depending on implementation.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+

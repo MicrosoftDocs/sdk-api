@@ -42,8 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter.AddPage
- - IXpsOMPackageWriter3D.AddPage
+ - IXpsOMPackageWriter::AddPage
 ---
 
 # IXpsOMPackageWriter::AddPage
@@ -200,3 +199,4 @@ If <i>pagePrintTicket</i> contains a <b>NULL</b> pointer and the package writer 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
+

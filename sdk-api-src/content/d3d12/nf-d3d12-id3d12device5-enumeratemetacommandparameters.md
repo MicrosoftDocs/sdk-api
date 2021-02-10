@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.h
 api_name:
- - ID3D12Device5.EnumerateMetaCommandParameters
+ - ID3D12Device5::EnumerateMetaCommandParameters
 ---
 
 # ID3D12Device5::EnumerateMetaCommandParameters
@@ -93,3 +93,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
+

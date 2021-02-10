@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IMessageView.SetBodyText
+ - IMessageView::SetBodyText
 ---
 
 # IMessageView::SetBodyText
@@ -75,3 +75,4 @@ SetBodyText.
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>
+

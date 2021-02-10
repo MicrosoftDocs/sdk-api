@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport.FindMemberRef
+ - IMetaDataImport::FindMemberRef
 ---
 
 # IMetaDataImport::FindMemberRef
@@ -89,3 +89,4 @@ The signature passed to <b>FindMemberRef</b> must have been generated in the cur
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
+

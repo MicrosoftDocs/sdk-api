@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderPropertyConstraintCollection.GetCount
+ - IProviderPropertyConstraintCollection::GetCount
 ---
 
 # IProviderPropertyConstraintCollection::GetCount
@@ -85,3 +85,4 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection">IProviderPropertyConstraintCollection</a>
+

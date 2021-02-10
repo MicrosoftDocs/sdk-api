@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IProgressItems.ProgressItemFromDescription
+ - IProgressItems::ProgressItemFromDescription
 ---
 
 # IProgressItems::ProgressItemFromDescription
@@ -140,3 +140,4 @@ Value: 0x80070057
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_item">IProgressItems::get_Item</a>
+

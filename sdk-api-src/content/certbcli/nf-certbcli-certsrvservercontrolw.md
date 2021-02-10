@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - CertSrvServerControlW
  - certbcli/CertSrvServerControlW
+ - CertSrvServerControl
+ - certbcli/CertSrvServerControl
 dev_langs:
  - c++
 topic_type:
@@ -42,8 +44,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - CertSrvServerControl
  - CertSrvServerControlW
+ - CertSrvServerControl
 ---
 
 # CertSrvServerControlW function
@@ -135,3 +137,4 @@ if ( FAILED( hr ) )
 ## -see-also
 
 <a href="/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
+

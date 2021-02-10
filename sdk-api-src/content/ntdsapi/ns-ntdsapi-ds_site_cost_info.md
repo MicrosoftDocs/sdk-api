@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
+ - PDS_SITE_COST_INFO
  - DS_SITE_COST_INFO
 ---
 
@@ -83,3 +84,4 @@ If the <b>errorCode</b> member contains <b>ERROR_SUCCESS</b>, this member contai
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a>
+

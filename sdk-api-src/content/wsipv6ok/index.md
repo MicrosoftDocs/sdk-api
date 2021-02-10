@@ -9,6 +9,8 @@ tech.root: winsock
 f1_keywords:
  - wsipv6ok
  - wsipv6ok/wsipv6ok
+api_name:
+ - wsipv6ok
 ---
 
 # Wsipv6Ok.h header

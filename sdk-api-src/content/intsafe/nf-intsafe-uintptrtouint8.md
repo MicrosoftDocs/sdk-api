@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - UIntPtrToUInt8
  - intsafe/UIntPtrToUInt8
+ - UIntPtrToUInt
+ - intsafe/UIntPtrToUInt
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - intsafe.h
 api_name:
  - UIntPtrToUInt8
+ - UIntPtrToUInt
 ---
 
 # UIntPtrToUInt8 function

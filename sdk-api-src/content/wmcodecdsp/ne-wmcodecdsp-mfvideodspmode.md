@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
+ - _MFVideoDSPMode
  - MFVideoDSPMode
 ---
 
@@ -81,3 +82,4 @@ In pass-through mode, the MFT does not apply any processing to the video.
 
 
 <a href="/windows/desktop/medfound/video-stabilization-mft">Video Stabilization MFT</a>
+

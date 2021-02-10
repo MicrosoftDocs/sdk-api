@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
+ - IKEEXT_TRAFFIC0_
  - IKEEXT_TRAFFIC0
 ---
 
@@ -99,3 +100,4 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+

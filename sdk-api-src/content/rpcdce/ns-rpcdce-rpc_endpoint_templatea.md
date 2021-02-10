@@ -44,9 +44,8 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - RPC_ENDPOINT_TEMPLATE
+ - PRPC_ENDPOINT_TEMPLATEA
  - RPC_ENDPOINT_TEMPLATEA
- - RPC_ENDPOINT_TEMPLATEW
 ---
 
 # RPC_ENDPOINT_TEMPLATEA structure
@@ -96,3 +95,4 @@ An application developer should balance memory footprint versus scalability requ
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInqBindings</a>
+

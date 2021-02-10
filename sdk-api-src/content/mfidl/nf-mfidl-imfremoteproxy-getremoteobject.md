@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRemoteProxy.GetRemoteObject
+ - IMFRemoteProxy::GetRemoteObject
 ---
 
 # IMFRemoteProxy::GetRemoteObject
@@ -88,3 +88,4 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfremoteproxy">IMFRemoteProxy</a>
+

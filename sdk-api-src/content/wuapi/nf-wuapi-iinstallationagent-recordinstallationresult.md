@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationAgent.RecordInstallationResult
+ - IInstallationAgent::RecordInstallationResult
 ---
 
 # IInstallationAgent::RecordInstallationResult
@@ -73,3 +73,4 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationagent">IInstallationAgent</a>
+

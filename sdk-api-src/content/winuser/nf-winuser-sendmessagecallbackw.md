@@ -29,9 +29,12 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SendMessageCallbackW
  - winuser/SendMessageCallbackW
+ - SendMessageCallback
+ - winuser/SendMessageCallback
 dev_langs:
  - c++
 topic_type:
@@ -45,10 +48,8 @@ api_location:
  - minuser.dll
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - SendMessageCallback
- - SendMessageCallbackA
  - SendMessageCallbackW
-req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
+ - SendMessageCallback
 ---
 
 # SendMessageCallbackW function
@@ -158,3 +159,4 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
+

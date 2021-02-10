@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeystrokeMgr.TestKeyUp
+ - ITfKeystrokeMgr::TestKeyUp
 ---
 
 # ITfKeystrokeMgr::TestKeyUp
@@ -152,3 +152,4 @@ If the keystroke manager does not handle the key event, it passes the key event 
 
 
 <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+

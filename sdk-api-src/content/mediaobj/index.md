@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - mediaobj
  - mediaobj/mediaobj
+api_name:
+ - mediaobj
 ---
 
 # Mediaobj.h header

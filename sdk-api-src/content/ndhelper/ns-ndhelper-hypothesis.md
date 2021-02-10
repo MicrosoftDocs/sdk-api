@@ -46,7 +46,9 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - HYPOTHESIS, *PHYPOTHESIS
+ - tagHYPOTHESIS
+ - PHYPOTHESIS
+ - HYPOTHESIS
 ---
 
 # HYPOTHESIS structure
@@ -85,3 +87,4 @@ A pointer to an array of <a href="/windows/desktop/api/ndattrib/ns-ndattrib-help
 ## -see-also
 
 <a href="/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a>
+

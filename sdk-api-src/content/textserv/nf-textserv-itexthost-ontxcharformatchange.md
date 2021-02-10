@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost.OnTxCharFormatChange
+ - ITextHost::OnTxCharFormatChange
 ---
 
 # ITextHost::OnTxCharFormatChange
@@ -116,3 +116,4 @@ Unspecified error.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
+

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRealTimeClient.RegisterThreads
+ - IMFRealTimeClient::RegisterThreads
 ---
 
 # IMFRealTimeClient::RegisterThreads
@@ -74,3 +74,4 @@ The object's worker threads should register themselves with MMCSS by calling <a 
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient">IMFRealTimeClient</a>
+

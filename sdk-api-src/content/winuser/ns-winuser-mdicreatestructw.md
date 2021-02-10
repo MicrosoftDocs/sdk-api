@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - MDICREATESTRUCT
- - MDICREATESTRUCTA
+ - tagMDICREATESTRUCTW
+ - LPMDICREATESTRUCTW
  - MDICREATESTRUCTW
 ---
 
@@ -204,3 +204,4 @@ When the MDI client window creates an MDI child window
 
 
 <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a>
+

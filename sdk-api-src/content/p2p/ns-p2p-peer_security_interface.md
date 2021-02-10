@@ -46,6 +46,8 @@ api_type:
 api_location:
  - P2P.h
 api_name:
+ - peer_security_interface_tag
+ - PPEER_SECURITY_INTERFACE
  - PEER_SECURITY_INTERFACE
 ---
 
@@ -125,3 +127,4 @@ If you have developed your own SSP, your application must not call the Peer Grap
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>
+

@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
+ - lpMapiRecipDesc
  - MapiRecipDesc
 ---
 
@@ -156,3 +157,4 @@ Pointer to an opaque entry identifier used by a messaging system service provide
 
 
 <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a>
+

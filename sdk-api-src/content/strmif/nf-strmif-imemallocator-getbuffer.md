@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocator.GetBuffer
+ - IMemAllocator::GetBuffer
 ---
 
 # IMemAllocator::GetBuffer
@@ -157,3 +157,4 @@ You must call the <a href="/windows/desktop/api/strmif/nf-strmif-imemallocator-c
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
+

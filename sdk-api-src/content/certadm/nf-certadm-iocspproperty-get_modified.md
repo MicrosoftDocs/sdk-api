@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPProperty.Modified
- - IOCSPProperty.get_Modified
+ - IOCSPProperty::get_Modified
 ---
 
 # IOCSPProperty::get_Modified
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
+

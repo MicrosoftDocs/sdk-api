@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IEVRFilterConfig.SetNumberOfStreams
+ - IEVRFilterConfig::SetNumberOfStreams
 ---
 
 # IEVRFilterConfig::SetNumberOfStreams
@@ -114,3 +114,4 @@ After this method has been called, it cannot be called a second time on the same
 
 
 <a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a>
+

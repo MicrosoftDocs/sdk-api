@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont.GetStrikeThrough
+ - ITextFont::GetStrikeThrough
 ---
 
 # ITextFont::GetStrikeThrough
@@ -141,3 +141,4 @@ This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
+

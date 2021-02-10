@@ -9,6 +9,8 @@ tech.root: backup
 f1_keywords:
  - winnt
  - winnt/winnt
+api_name:
+ - winnt
 ---
 
 # Winnt.h header

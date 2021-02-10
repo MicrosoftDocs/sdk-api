@@ -35,6 +35,7 @@ api_location:
 api_name:
  - ID3D12Device8::CreateSamplerFeedbackUnorderedAccessView
 f1_keywords:
+ - ID3D12Device8::CreateSamplerFeedbackUnorderedAccessView
  - d3d12/ID3D12Device8::CreateSamplerFeedbackUnorderedAccessView
 dev_langs:
  - c++
@@ -67,3 +68,4 @@ The CPU descriptor handle.
 ## -see-also
 
 * [Sampler feedback specification](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html)
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - ClientCallback
+ - LSA_CLIENT_CALLBACK
 ---
 
 # LSA_CLIENT_CALLBACK callback function
@@ -105,3 +105,4 @@ The user-mode security package must use the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
+

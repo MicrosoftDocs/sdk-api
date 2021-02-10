@@ -9,6 +9,8 @@ tech.root: winsat
 f1_keywords:
  - winsatcominterfacei
  - winsatcominterfacei/winsatcominterfacei
+api_name:
+ - winsatcominterfacei
 ---
 
 # Winsatcominterfacei.h header

@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaParamInfo.GetParamInfo
+ - IMediaParamInfo::GetParamInfo
 ---
 
 # IMediaParamInfo::GetParamInfo
@@ -114,3 +114,4 @@ Call the <a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getp
 ## -see-also
 
 <a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
+

@@ -44,8 +44,6 @@ api_location:
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
  - acmFilterTagEnum
- - acmFilterTagEnumA
- - acmFilterTagEnumW
 ---
 
 # acmFilterTagEnum function
@@ -132,3 +130,4 @@ This function will return MMSYSERR_NOERROR (zero) if no suitable ACM drivers are
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+

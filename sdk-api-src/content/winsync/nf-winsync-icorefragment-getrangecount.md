@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ICoreFragment.GetRangeCount
+ - ICoreFragment::GetRangeCount
 ---
 
 # ICoreFragment::GetRangeCount
@@ -98,3 +98,4 @@ An <b>ICoreFragment</b> object contains one or more ranges. Each range specifies
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragment">ICoreFragment Interface</a>
+

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriterEx2.GetSessionId
+ - CVssWriterEx2::GetSessionId
 ---
 
 # CVssWriterEx2::GetSessionId
@@ -79,3 +79,4 @@ If a writer's event handler (such as <a href="/windows/desktop/api/vswriter/nf-v
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getsessionid">IVssBackupComponentsEx3::GetSessionId</a>
+

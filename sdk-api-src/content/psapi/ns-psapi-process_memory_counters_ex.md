@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
+ - _PROCESS_MEMORY_COUNTERS_EX
  - PROCESS_MEMORY_COUNTERS_EX
 ---
 
@@ -117,3 +118,4 @@ Same as <b>PagefileUsage</b>. The Commit Charge value in bytes for this process.
 
 
 <a href="/windows/desktop/psapi/working-set-information">Working Set Information</a>
+

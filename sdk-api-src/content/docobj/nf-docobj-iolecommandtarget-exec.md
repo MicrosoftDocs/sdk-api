@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleCommandTarget.Exec
+ - IOleCommandTarget::Exec
 ---
 
 # IOleCommandTarget::Exec
@@ -163,3 +163,4 @@ A command target must implement this function; E_NOTIMPL is not a valid return v
 
 
 <a href="/windows/desktop/api/docobj/ne-docobj-olecmdexecopt">OLECMDEXECOPT</a>
+

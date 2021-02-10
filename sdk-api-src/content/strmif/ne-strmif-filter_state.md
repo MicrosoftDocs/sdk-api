@@ -44,6 +44,7 @@ api_type:
 api_location:
  - strmif.h
 api_name:
+ - _FilterState
  - FILTER_STATE
 ---
 
@@ -83,3 +84,4 @@ Running. The filter is processing and rendering data.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-imediafilter-getstate">IMediaFilter::GetState</a>
+

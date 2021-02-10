@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
+ - _SEARCH_ITEM_INDEXING_STATUS
  - SEARCH_ITEM_INDEXING_STATUS
 ---
 

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJobManager.ActionVariableDescriptions
- - IFsrmFileManagementJobManager.get_ActionVariableDescriptions
- - FsrmFileManagementJobManager.ActionVariableDescriptions
+ - IFsrmFileManagementJobManager::get_ActionVariableDescriptions
 ---
 
 # IFsrmFileManagementJobManager::get_ActionVariableDescriptions
@@ -67,3 +65,4 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjobmanager">IFsrmFileManagementJobManager</a>
+

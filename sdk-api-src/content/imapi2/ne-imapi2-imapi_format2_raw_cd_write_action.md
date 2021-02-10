@@ -46,6 +46,8 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
+ - _IMAPI_FORMAT2_RAW_CD_WRITE_ACTION
+ - PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION
  - IMAPI_FORMAT2_RAW_CD_WRITE_ACTION
 ---
 
@@ -77,3 +79,4 @@ Synchronizing the drive's cache with the end of the data written to disc.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2rawcdevents-update">DDiscFormat2RawCDEvents::Update</a>
+

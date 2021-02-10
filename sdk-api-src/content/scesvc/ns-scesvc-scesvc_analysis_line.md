@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Scesvc.h
 api_name:
+ - _SCESVC_ANALYSIS_LINE_
+ - PSCESVC_ANALYSIS_LINE
  - SCESVC_ANALYSIS_LINE
 ---
 

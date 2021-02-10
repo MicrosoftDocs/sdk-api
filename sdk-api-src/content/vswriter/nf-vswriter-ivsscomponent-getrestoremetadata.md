@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent.GetRestoreMetadata
+ - IVssComponent::GetRestoreMetadata
 ---
 
 # IVssComponent::GetRestoreMetadata
@@ -153,3 +153,4 @@ A writer setting the restore method to VSS_RME_RESTORE_TO_ALTERNATE_LOCATION wit
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+

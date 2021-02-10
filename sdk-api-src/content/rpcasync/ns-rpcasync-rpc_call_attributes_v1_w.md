@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
- - RPC_CALL_ATTRIBUTES_V1
- - RPC_CALL_ATTRIBUTES_V1_A
+ - tagRPC_CALL_ATTRIBUTES_V1_W
  - RPC_CALL_ATTRIBUTES_V1_W
 ---
 
@@ -167,3 +166,4 @@ Status = RpcServerInqCallAttributes(0, &CallAttributes);
 
 
 <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>
+

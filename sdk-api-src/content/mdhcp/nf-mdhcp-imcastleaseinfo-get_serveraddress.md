@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.get_ServerAddress
+ - IMcastLeaseInfo::get_ServerAddress
 ---
 
 # IMcastLeaseInfo::get_ServerAddress
@@ -132,3 +132,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
+

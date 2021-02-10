@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Authz.h
 api_name:
+ - PAUTHZ_SECURITY_ATTRIBUTE_OPERATION
  - AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 ---
 
@@ -93,3 +94,4 @@ When no value is specified for an attribute, that attribute is deleted. Otherwis
 ## -see-also
 
 <a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
+

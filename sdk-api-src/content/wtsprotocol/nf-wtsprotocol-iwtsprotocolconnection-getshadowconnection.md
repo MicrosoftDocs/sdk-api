@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetShadowConnection
+ - IWTSProtocolConnection::GetShadowConnection
 ---
 
 # IWTSProtocolConnection::GetShadowConnection
@@ -63,3 +63,4 @@ Retrieves a  <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotoc
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
+

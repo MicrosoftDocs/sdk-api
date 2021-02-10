@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2.PublishCRLs
- - CCertAdmin2.PublishCRLs
+ - ICertAdmin2::PublishCRLs
 ---
 
 # ICertAdmin2::PublishCRLs
@@ -168,3 +167,4 @@ error:
     if (bstrCA)
         SysFreeString(bstrCA);
 ```
+

@@ -42,9 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersist.GetClassID
- - IPersistFolder.GetClassID
- - IBaseFilter.GetClassID
+ - IPersist::GetClassID
 ---
 
 # IPersist::GetClassID
@@ -95,3 +93,4 @@ This method returns CLSID_StdURLMoniker.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder">IPersistFolder</a>
+

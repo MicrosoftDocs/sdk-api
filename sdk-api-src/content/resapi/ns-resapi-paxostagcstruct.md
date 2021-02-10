@@ -45,6 +45,8 @@ api_type:
 api_location:
  - 
 api_name:
+ - _PaxosTagCStruct
+ - PPaxosTagCStruct
  - PaxosTagCStruct
 ---
 
@@ -128,3 +130,4 @@ TBD
 
 
 <a href="/windows/desktop/api/resapi/ns-resapi-witnesstagupdatehelper">WitnessTagUpdateHelper</a>
+

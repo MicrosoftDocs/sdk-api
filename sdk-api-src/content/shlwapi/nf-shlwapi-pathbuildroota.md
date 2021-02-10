@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - PathBuildRootA
  - shlwapi/PathBuildRootA
+ - PathBuildRoot
+ - shlwapi/PathBuildRoot
 dev_langs:
  - c++
 topic_type:
@@ -42,9 +44,8 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - PathBuildRoot
  - PathBuildRootA
- - PathBuildRootW
+ - PathBuildRoot
 ---
 
 # PathBuildRootA function

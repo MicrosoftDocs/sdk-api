@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation.Password
- - IRDPSRAPIInvitation.get_Password
- - RDPSRAPIInvitation.Password
+ - IRDPSRAPIInvitation::get_Password
 ---
 
 # IRDPSRAPIInvitation::get_Password
@@ -65,3 +63,4 @@ The password is set when calling the <a href="/windows/desktop/api/rdpencomapi/n
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
+

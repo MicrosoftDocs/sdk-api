@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus.Send
- - IFaxStatus.get_Send
+ - IFaxStatus::get_Send
 ---
 
 # IFaxStatus::get_Send
@@ -84,3 +83,4 @@ You can call the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxstatu
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxstatus-get-receive-vb">IFaxStatus::get_Receive</a>
+

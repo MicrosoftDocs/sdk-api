@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerHost.DisconnectUnusedReferenceSources
+ - IReferenceTrackerHost::DisconnectUnusedReferenceSources
 ---
 
 # IReferenceTrackerHost::xaml
@@ -69,3 +69,4 @@ This method is expected to potentially cause the reference source to call <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost">IReferenceTrackerHost</a>
+

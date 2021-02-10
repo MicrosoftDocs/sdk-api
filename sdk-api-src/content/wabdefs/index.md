@@ -9,6 +9,8 @@ tech.root: wab
 f1_keywords:
  - wabdefs
  - wabdefs/wabdefs
+api_name:
+ - wabdefs
 ---
 
 # Wabdefs.h header

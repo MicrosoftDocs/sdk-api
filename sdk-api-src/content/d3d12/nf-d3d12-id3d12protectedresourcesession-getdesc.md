@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12ProtectedResourceSession.GetDesc
+ - ID3D12ProtectedResourceSession::GetDesc
 ---
 
 ## -description
@@ -56,3 +56,4 @@ A [D3D12_PROTECTED_RESOURCE_SESSION_DESC](./ns-d3d12-d3d12_protected_resource_se
 ## -see-also
 
 * [ID3D12ProtectedResourceSession](./nn-d3d12-id3d12protectedresourcesession.md)
+

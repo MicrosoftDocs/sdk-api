@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmExportImport.ImportQuotaTemplates
- - FsrmExportImport.ImportQuotaTemplates
+ - IFsrmExportImport::ImportQuotaTemplates
 ---
 
 # IFsrmExportImport::ImportQuotaTemplates
@@ -88,3 +87,4 @@ You can also use the <a href="/previous-versions/windows/desktop/api/fsrmquota/n
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmexportimport">IFsrmExportImport</a>
+

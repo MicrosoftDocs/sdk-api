@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfCandidateListUIElement.GetUpdatedFlags
+ - ITfCandidateListUIElement::GetUpdatedFlags
 ---
 
 # ITfCandidateListUIElement::GetUpdatedFlags

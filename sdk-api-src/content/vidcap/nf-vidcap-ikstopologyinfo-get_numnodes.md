@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IKsTopologyInfo.get_NumNodes
+ - IKsTopologyInfo::get_NumNodes
 ---
 
 # IKsTopologyInfo::get_NumNodes
@@ -87,3 +87,4 @@ The method succeeded.
 
 
 <a href="/windows/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
+

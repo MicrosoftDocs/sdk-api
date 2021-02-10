@@ -47,6 +47,8 @@ api_location:
  - Ws2def.h
  - Mswsock.h
 api_name:
+ - _WSAMSG
+ - PWSAMSG
  - WSAMSG
 ---
 
@@ -431,3 +433,4 @@ Returns the value in <b>cmsg_len</b> given the amount of data. Includes alignmen
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>
+

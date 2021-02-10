@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWEExtendPropertySheet.CreatePropertySheetPages
+ - IWEExtendPropertySheet::CreatePropertySheetPages
 ---
 
 # IWEExtendPropertySheet::CreatePropertySheetPages
@@ -225,3 +225,4 @@ To create the page, call the function
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendpropertysheet">IWEExtendPropertySheet</a>
+

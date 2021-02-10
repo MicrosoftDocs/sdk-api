@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - ICatRegister.RegisterClassReqCategories
+ - ICatRegister::RegisterClassReqCategories
 ---
 
 # ICatRegister::RegisterClassReqCategories
@@ -106,3 +106,4 @@ In case of an error, this method does not ensure that the registry is restored t
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
+

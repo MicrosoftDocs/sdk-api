@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fsrm.h
 api_name:
+ - _FsrmFileManagementType
  - FsrmFileManagementType
 ---
 
@@ -81,3 +82,4 @@ The file management jobs runs an RMS action on files meeting the specified crite
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-get_operationtype">IFsrmFileManagementJob.OperationType</a>
+

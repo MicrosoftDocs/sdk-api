@@ -42,8 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll.CreatePKCS7RequestFromRequest
- - IEnroll2.CreatePKCS7RequestFromRequest
+ - IEnroll::CreatePKCS7RequestFromRequest
 ---
 
 # IEnroll::CreatePKCS7RequestFromRequest
@@ -84,3 +83,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
+

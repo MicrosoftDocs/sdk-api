@@ -42,8 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IDropTargetProvider.DropTargetEffect
- - IDropTargetProvider.get_DropTargetEffect
+ - IDropTargetProvider::get_DropTargetEffect
 ---
 
 # IDropTargetProvider::get_DropTargetEffect
@@ -83,3 +82,4 @@ IFACEMETHODIMP CRegionProvider::get_DropTargetEffect(BSTR * pDefaultDropAction)
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider">IDropTargetProvider</a>
+

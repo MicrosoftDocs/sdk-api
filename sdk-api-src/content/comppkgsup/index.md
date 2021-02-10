@@ -9,6 +9,8 @@ tech.root: winprog
 f1_keywords:
  - comppkgsup
  - comppkgsup/comppkgsup
+api_name:
+ - comppkgsup
 ---
 
 # Comppkgsup.h header

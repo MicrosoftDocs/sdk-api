@@ -46,6 +46,8 @@ api_type:
 api_location:
  - nldef.h
 api_name:
+ - _NL_ROUTE_ORIGIN
+ - PNL_ROUTE_ORIGIN
  - NL_ROUTE_ORIGIN
 ---
 

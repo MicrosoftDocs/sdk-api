@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
+ - _TOKEN_DEFAULT_DACL
+ - PTOKEN_DEFAULT_DACL
  - TOKEN_DEFAULT_DACL
 ---
 
@@ -117,3 +119,4 @@ The <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninf
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
+

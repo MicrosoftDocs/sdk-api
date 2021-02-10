@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector.GetOutputMutex
+ - IMFASFStreamSelector::GetOutputMutex
 ---
 
 # IMFASFStreamSelector::GetOutputMutex
@@ -104,3 +104,4 @@ Outputs are streams in the ASF data section that will be parsed.
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setoutputmutexselection">IMFASFStreamSelector::SetOutputMutexSelection</a>
+

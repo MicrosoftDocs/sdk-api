@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter.IsPathAffected
+ - CVssWriter::IsPathAffected
 ---
 
 # CVssWriter::IsPathAffected
@@ -122,3 +122,4 @@ The path is not included in the set of volumes being included in the shadow copy
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
+

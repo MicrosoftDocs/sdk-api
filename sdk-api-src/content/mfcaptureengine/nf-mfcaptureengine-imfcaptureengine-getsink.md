@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureEngine.GetSink
+ - IMFCaptureEngine::GetSink
 ---
 
 # IMFCaptureEngine::GetSink
@@ -98,3 +98,4 @@ Invalid argument.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
+

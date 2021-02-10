@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2.Linearize
+ - ITextRange2::Linearize
 ---
 
 # ITextRange2::Linearize
@@ -150,3 +150,4 @@ The build-down process automatically inserts the parentheses, because the linear
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-buildupmath">ITextRange2::BuildUpMath</a>
+

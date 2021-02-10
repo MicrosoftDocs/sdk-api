@@ -46,6 +46,8 @@ api_type:
 api_location:
  - ntddkbd.h
 api_name:
+ - _KEYBOARD_INDICATOR_TRANSLATION
+ - PKEYBOARD_INDICATOR_TRANSLATION
  - KEYBOARD_INDICATOR_TRANSLATION
 ---
 
@@ -120,3 +122,4 @@ This structure is used with an <a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-
 
 
 <a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a>
+

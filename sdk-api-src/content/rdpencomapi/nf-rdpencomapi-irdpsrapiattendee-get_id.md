@@ -42,9 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.Id
- - IRDPSRAPIAttendee.get_Id
- - RDPSRAPIAttendee.Id
+ - IRDPSRAPIAttendee::get_Id
 ---
 
 # IRDPSRAPIAttendee::get_Id
@@ -69,3 +67,4 @@ If an attendee disconnects, the attendee object will be destroyed. If the attend
 
 
 <a href="/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpencomapi_constants">RDPENCOMAPI_CONSTANTS</a>
+

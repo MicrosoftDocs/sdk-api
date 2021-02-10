@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
+ - _AFPROTOCOLS
+ - PAFPROTOCOLS
  - AFPROTOCOLS
 ---
 
@@ -84,3 +86,4 @@ The members of the
 
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQuerySet</a>
+

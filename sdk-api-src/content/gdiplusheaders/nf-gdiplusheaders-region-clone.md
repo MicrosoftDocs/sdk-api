@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region.Clone
+ - Region::Clone
 ---
 
 # Region::Clone
@@ -63,3 +63,4 @@ Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">
 
 This method returns a pointer to the new 
 						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object.
+

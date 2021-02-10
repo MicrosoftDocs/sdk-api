@@ -32,6 +32,8 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetClassPropertyKeysExW
  - setupapi/SetupDiGetClassPropertyKeysExW
+ - SetupDiGetClassPropertyKeysEx
+ - setupapi/SetupDiGetClassPropertyKeysEx
 dev_langs:
  - c++
 topic_type:
@@ -43,6 +45,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
+ - SetupDiGetClassPropertyKeysExW
  - SetupDiGetClassPropertyKeysEx
 ---
 
@@ -255,3 +258,4 @@ To retrieve the property keys for a device setup class or device interface class
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>
+

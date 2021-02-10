@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITSubStreamControl.get_SubStreams
+ - ITSubStreamControl::get_SubStreams
 ---
 
 # ITSubStreamControl::get_SubStreams
@@ -138,3 +138,4 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+

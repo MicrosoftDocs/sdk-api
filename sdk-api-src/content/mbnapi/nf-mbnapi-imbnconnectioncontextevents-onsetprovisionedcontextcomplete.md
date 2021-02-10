@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionContextEvents.OnSetProvisionedContextComplete
+ - IMbnConnectionContextEvents::OnSetProvisionedContextComplete
 ---
 
 # IMbnConnectionContextEvents::OnSetProvisionedContextComplete
@@ -152,3 +152,4 @@ If there are multiple applications registered to receive notifications then all 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a>
+

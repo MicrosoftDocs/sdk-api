@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIFramework.InvalidateUICommand
+ - IUIFramework::InvalidateUICommand
 ---
 
 # IUIFramework::InvalidateUICommand
@@ -131,3 +131,4 @@ If <b>IUIFramework::InvalidateUICommand</b> is called multiple times
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+

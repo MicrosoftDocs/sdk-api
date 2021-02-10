@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CERT_EXTENSIONS
+ - PCERT_EXTENSIONS
  - CERT_EXTENSIONS
 ---
 
@@ -69,3 +71,4 @@ Array of structures, each holding information of type <a href="/windows/desktop/
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+

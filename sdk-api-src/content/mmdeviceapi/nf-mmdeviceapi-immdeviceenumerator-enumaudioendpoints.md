@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDeviceEnumerator.EnumAudioEndpoints
+ - IMMDeviceEnumerator::EnumAudioEndpoints
 ---
 
 # IMMDeviceEnumerator::EnumAudioEndpoints
@@ -158,3 +158,4 @@ For a code example that calls the <b>EnumAudioEndpoints</b> method, see <a href=
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
+

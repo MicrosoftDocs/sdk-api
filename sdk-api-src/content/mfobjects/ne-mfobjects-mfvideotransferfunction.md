@@ -44,6 +44,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
+ - _MFVideoTransferFunction
  - MFVideoTransferFunction
 ---
 
@@ -176,3 +177,4 @@ For more information about these values, see the remarks for the <a href="/windo
 
 
 <a href="/windows/desktop/medfound/video-media-types">Video Media Types</a>
+

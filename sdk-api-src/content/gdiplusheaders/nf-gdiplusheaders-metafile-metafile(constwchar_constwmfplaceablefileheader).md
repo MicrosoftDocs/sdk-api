@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusheaders.h
 api_name:
- - Metafile.Metafile
+ - Metafile::Metafile
 ---
 
 # Metafile::Metafile(IN const WCHAR,IN const WmfPlaceableFileHeader)
@@ -177,3 +177,4 @@ Creates a <a href="/previous-versions/ms535289(v=vs.85)">Metafile::Metafile</a> 
 </table>
 
 ## -parameters
+

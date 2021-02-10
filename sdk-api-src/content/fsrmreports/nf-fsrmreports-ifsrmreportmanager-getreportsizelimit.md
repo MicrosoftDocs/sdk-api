@@ -42,8 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportManager.GetReportSizeLimit
- - FsrmReportManager.GetReportSizeLimit
+ - IFsrmReportManager::GetReportSizeLimit
 ---
 
 # IFsrmReportManager::GetReportSizeLimit
@@ -74,3 +73,4 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
+

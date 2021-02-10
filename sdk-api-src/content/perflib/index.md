@@ -9,6 +9,8 @@ tech.root: perf
 f1_keywords:
  - perflib
  - perflib/perflib
+api_name:
+ - perflib
 ---
 
 # Perflib.h header

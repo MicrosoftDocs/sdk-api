@@ -44,6 +44,7 @@ api_type:
 api_location:
  - ISysmon.h
 api_name:
+ - __MIDL___MIDL_itf_sysmon_0000_0000_0003
  - SysmonBatchReason
 ---
 
@@ -73,3 +74,4 @@ TBD
 ## -see-also
 
 <a href="/windows/desktop/SysMon/systemmonitor-batchinglock">SystemMonitor.BatchingLock</a>
+

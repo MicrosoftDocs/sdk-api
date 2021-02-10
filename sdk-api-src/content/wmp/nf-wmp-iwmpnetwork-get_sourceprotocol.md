@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork.get_sourceProtocol
+ - IWMPNetwork::get_sourceProtocol
 ---
 
 # IWMPNetwork::get_sourceProtocol
@@ -87,3 +87,4 @@ This method retrieves an empty string ("") when playing a CD or DVD.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
+

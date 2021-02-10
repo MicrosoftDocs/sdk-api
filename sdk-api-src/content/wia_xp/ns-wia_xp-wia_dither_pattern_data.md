@@ -46,6 +46,8 @@ api_type:
 api_location:
  - wia_xp.h
 api_name:
+ - _WIA_DITHER_PATTERN_DATA
+ - PWIA_DITHER_PATTERN_DATA
  - WIA_DITHER_PATTERN_DATA
 ---
 
@@ -93,3 +95,4 @@ Specifies the total number of bytes in the array pointed to by the <b>pbPattern<
 Type: <b>BYTE*</b>
 
 Specifies a pointer to a buffer that contains the dither pattern.
+

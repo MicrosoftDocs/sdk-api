@@ -46,6 +46,8 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
+ - _CRYPT_DECODE_PARA
+ - PCRYPT_DECODE_PARA
  - CRYPT_DECODE_PARA
 ---
 
@@ -69,3 +71,4 @@ This member is an optional pointer to a callback function used to allocate memor
 ### -field pfnFree
 
 This member is an optional pointer to a callback function used to free memory allocated by the allocate callback function.
+

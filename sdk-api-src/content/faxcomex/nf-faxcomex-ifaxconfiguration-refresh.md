@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration.Refresh
+ - IFaxConfiguration::Refresh
 ---
 
 # IFaxConfiguration::Refresh
@@ -61,3 +61,4 @@ This method does not return a value.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
+

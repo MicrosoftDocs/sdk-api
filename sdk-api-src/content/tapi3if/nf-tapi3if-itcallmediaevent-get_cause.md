@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallMediaEvent.get_Cause
+ - ITCallMediaEvent::get_Cause
 ---
 
 # ITCallMediaEvent::get_Cause
@@ -111,3 +111,4 @@ The <i>pCause</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/Tapi/call-object">Call Object</a>
+

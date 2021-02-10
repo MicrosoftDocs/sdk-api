@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureRelationshipReference.GetSourceUri
+ - IOpcSignatureRelationshipReference::GetSourceUri
 ---
 
 # IOpcSignatureRelationshipReference::GetSourceUri
@@ -130,3 +130,4 @@ The <i>sourceUri</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
+

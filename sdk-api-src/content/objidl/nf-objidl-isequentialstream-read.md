@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ISequentialStream.Read
+ - ISequentialStream::Read
 ---
 
 # ISequentialStream::Read
@@ -103,3 +103,4 @@ The application should handle both a returned error  and <b>S_OK</b> return valu
 
 
 <a href="/windows/desktop/api/wtypes/ne-wtypes-stgmove">STGMOVE</a>
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFVideoSampleAllocatorCallback.SetCallback
+ - IMFVideoSampleAllocatorCallback::SetCallback
 ---
 
 # IMFVideoSampleAllocatorCallback::SetCallback
@@ -71,3 +71,4 @@ The allocator holds at most one callback pointer. Calling this method again repl
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback">IMFVideoSampleAllocatorCallback</a>
+

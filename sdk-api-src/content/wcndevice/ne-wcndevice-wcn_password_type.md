@@ -44,6 +44,7 @@ api_type:
 api_location:
  - wcndevice.h
 api_name:
+ - tagWCN_PASSWORD_TYPE
  - WCN_PASSWORD_TYPE
 ---
 
@@ -78,3 +79,4 @@ Indicates that authentication is secured via a PIN, as above, but that the PIN i
 ## -see-also
 
 <a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
+

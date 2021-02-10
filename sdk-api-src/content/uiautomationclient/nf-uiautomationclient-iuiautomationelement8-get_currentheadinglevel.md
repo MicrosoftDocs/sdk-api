@@ -42,8 +42,7 @@ api_type:
 api_location:
  - uiautomationclient.h
 api_name:
- - IUIAutomationElement8.CurrentHeadingLevel
- - IUIAutomationElement8.get_CurrentHeadingLevel
+ - IUIAutomationElement8::get_CurrentHeadingLevel
 ---
 
 # IUIAutomationElement8::get_CurrentHeadingLevel
@@ -60,3 +59,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement8">IUIAutomationElement8</a>
+

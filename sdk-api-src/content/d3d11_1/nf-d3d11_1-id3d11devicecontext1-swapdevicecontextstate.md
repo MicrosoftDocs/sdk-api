@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext1.SwapDeviceContextState
+ - ID3D11DeviceContext1::SwapDeviceContextState
 ---
 
 # ID3D11DeviceContext1::SwapDeviceContextState
@@ -97,3 +97,4 @@ No asynchronous objects are affected by <b>SwapDeviceContextState</b>. For examp
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
+

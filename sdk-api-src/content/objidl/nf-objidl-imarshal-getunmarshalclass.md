@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMarshal.GetUnmarshalClass
+ - IMarshal::GetUnmarshalClass
 ---
 
 # IMarshal::GetUnmarshalClass
@@ -122,3 +122,4 @@ For more information, see <a href="/windows/desktop/com/inprocserver32">InprocSe
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
+

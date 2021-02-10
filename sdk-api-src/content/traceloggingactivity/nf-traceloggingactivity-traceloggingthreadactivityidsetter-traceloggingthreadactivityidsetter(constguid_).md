@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
+ - TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
 ---
 
 # TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter(const GUID &)
@@ -61,3 +61,4 @@ A reference to the unique identifier that should be associated with this instanc
 ## -see-also
 
 <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>
+

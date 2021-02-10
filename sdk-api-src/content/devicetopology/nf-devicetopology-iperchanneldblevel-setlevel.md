@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPerChannelDbLevel.SetLevel
+ - IPerChannelDbLevel::SetLevel
 ---
 
 # IPerChannelDbLevel::SetLevel
@@ -122,3 +122,4 @@ If the caller specifies a value for <i>fLevelDB</i> that is an exact stepping va
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getlevelrange">IPerChannelDbLevel::GetLevelRange</a>
+

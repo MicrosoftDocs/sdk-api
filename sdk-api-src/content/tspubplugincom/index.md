@@ -9,6 +9,8 @@ tech.root: termserv
 f1_keywords:
  - tspubplugincom
  - tspubplugincom/tspubplugincom
+api_name:
+ - tspubplugincom
 ---
 
 # Tspubplugincom.h header

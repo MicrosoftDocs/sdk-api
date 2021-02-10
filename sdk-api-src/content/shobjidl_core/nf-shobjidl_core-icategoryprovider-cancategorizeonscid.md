@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICategoryProvider.CanCategorizeOnSCID
+ - ICategoryProvider::CanCategorizeOnSCID
 ---
 
 # ICategoryProvider::CanCategorizeOnSCID
@@ -69,3 +69,4 @@ Returns S_OK if the column can be used as a category or S_FALSE if not.
 ## -remarks
 
 When using the System Folder View Object in Category view (<b>Show in Groups</b>), the titles of columns for which this method returns S_OK appear in the upper portion of the <b>Arrange Icons By</b> submenu.
+

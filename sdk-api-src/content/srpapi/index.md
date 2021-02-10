@@ -10,6 +10,8 @@ archived: true
 f1_keywords:
  - srpapi
  - srpapi/srpapi
+api_name:
+ - srpapi
 ---
 
 # Srpapi.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - editionupgradehelper.h
 api_name:
- - IEditionUpgradeHelper.GetOsProductContentId
+ - IEditionUpgradeHelper::GetOsProductContentId
 ---
 
 # IEditionUpgradeHelper::GetOsProductContentId
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-updateoperatingsystem">UpdateOperatingSystem</a>
+

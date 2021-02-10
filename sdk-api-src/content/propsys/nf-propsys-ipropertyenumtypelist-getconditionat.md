@@ -42,7 +42,7 @@ api_type:
 api_location:
  - propsys.h
 api_name:
- - IPropertyEnumTypeList.GetConditionAt
+ - IPropertyEnumTypeList::GetConditionAt
 ---
 
 # IPropertyEnumTypeList::GetConditionAt
@@ -79,3 +79,4 @@ When this method returns, contains the address of an <a href="/windows/desktop/a
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - ISearchBoxInfo.GetText
+ - ISearchBoxInfo::GetText
 ---
 
 # ISearchBoxInfo::GetText
@@ -69,3 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-isearchboxinfo">ISearchBoxInfo</a>
+

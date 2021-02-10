@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - ISectionList.GetSectionData
+ - ISectionList::GetSectionData
 ---
 
 # ISectionList::GetSectionData
@@ -130,3 +130,4 @@ The body of the section data, after the header, is left unparsed and unconverted
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
+

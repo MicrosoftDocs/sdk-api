@@ -44,6 +44,7 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
+ - FWPM_SUBLAYER0_
  - FWPM_SUBLAYER0
 ---
 
@@ -108,3 +109,4 @@ Higher-weighted sublayers are invoked first.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+
