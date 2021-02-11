@@ -2,12 +2,12 @@
 UID: NF:newdev.DiUninstallDriverW
 title: DiUninstallDriverW function (newdev.h)
 description: The DiUninstallDriver function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver if no other matching driver is available. Then the specified driver is removed from the driver store.
-helpviewer_keywords: ["DiInstallDriver","DiInstallDriver function [Device and Driver Installation]","DiInstallDriverA","DiInstallDriverW","devinst.diinstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiInstallDriver"]
-old-location: devinst\diinstalldriver.htm
+helpviewer_keywords: ["DiUninstallDriver","DiUninstallDriver function [Device and Driver Installation]","DiUninstallDriverA","DiUninstallDriverW","devinst.diuninstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiUninstallDriver"]
+old-location: devinst\diuninstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
 ms.date: 12/05/2018
-ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
+ms.keywords: DiUninstallDriver, DiUninstallDriver function [Device and Driver Installation], DiUninstallDriverA, DiUninstallDriverW, devinst.diuninstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiUninstallDriver
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
