@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - CoCreateInstance
  - combaseapi/CoCreateInstance
@@ -161,6 +161,18 @@ In the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
 ### UWP applications
 Although there are no restrictions on which CLSIDs a UWP application can pass to <b>CoCreateInstance</b>, many objects will fail with <b>E_ACCESSDENIED</b> for security reasons, especially if they do not run in-process. Additionally, even if you can successfully create an object, it might fail at a later time due to UWP security constraints, app-model differences, etc. In particular, background tasks should limit the objects they communicate with to avoid hangs or other complications due to connected stand-by. 
+
+## Examples
+
+```cpp
+// Create WIC factory
+hr = CoCreateInstance(
+    CLSID_WICImagingFactory,
+    NULL,
+    CLSCTX_INPROC_SERVER,
+    IID_PPV_ARGS(&m_pIWICFactory)
+    );
+```
 
 ## -see-also
 
