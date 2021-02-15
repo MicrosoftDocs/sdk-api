@@ -96,9 +96,16 @@ Specifies an alignment offset into the destination buffer.
 
 <b>ResolveQueryData</b> performs a batched operation which writes query data into a destination buffer.  Query data is written contiguously to the destination buffer, and the parameter.
         
+<b>ResolveQueryData</b> turns application-opaque query data in an application-opaque query heap into adapter-agnostic values usable by your application. Resolving queries within a heap which have not been completed (so have had [**ID3D12GraphicsCommandList::BeginQuery**](https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery) called for them, but not [**ID3D12GraphicsCommandList::EndQuery**](https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery)), or which have been uninitialized, results in undefined behaviour and may cause device hangs or removal. The debug layer will emit an error if it detects an application has resolved incomplete or uninitialized queries.
 
-Binary occlusion queries write 64-bits per query.  The least significant bit is either 0 or 1.  The rest of the bits are 0.
-        
+> [!Note]
+> Resolving incomplete or uninitialized queries is undefined behaviour because the driver may internally store GPUVAs or other data within unresolved queries, and so attempting to resolve these queries on uninitialized data could cause a page fault or device hang. Older versions of the debug layer did not validate this behaviour.
+
+Binary occlusion queries write 64-bits per query.  The least significant bit is either 0 (the object was entirely occluded) or 1 (at least 1 sample of the object would have been drawn).  The rest of the bits are 0.
+Occlusion queries write 64-bits per query. The value is the number of samples which passed testing.
+Timestamp queries write 64-bits per query, which is a tick value that must be compared to the respective command queue frequency (see [Timing](/windows/win32/direct3d12/timing)).
+Pipeline statistics queries write a [**D3D12_QUERY_DATA_PIPELINE_STATISTICS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_query_data_pipeline_statistics) structure per query.
+All stream-out statistics queries write a [**D3D12_QUERY_DATA_SO_STATISTICS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_query_data_so_statistics) structure per query.
 
 The core runtime will validate the following:
 
@@ -116,8 +123,9 @@ The core runtime will validate the following:
 <li>The query type must be supported by the query heap.
           </li>
 </ul>
-The debug layer will issue a warning if the destination buffer is not in the D3D12_RESOURCE_STATE_COPY_DEST state.
-        
+
+The debug layer will issue a warning if the destination buffer is not in the D3D12_RESOURCE_STATE_COPY_DEST state,
+or if any queries being resolved have not had [**ID3D12GraphicsCommandList::EndQuery**](https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery) called on them.
 
 
 #### Examples
