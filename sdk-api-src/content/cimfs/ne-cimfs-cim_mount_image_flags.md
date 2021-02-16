@@ -43,7 +43,7 @@ When no flags are specified the mounted image will contain the entire contents o
 
 ### -field CIM_MOUNT_CHILD_ONLY
 
-Specifies that the mounted image should contain only the contents of the leaf node child of a forked image. The parent image contents are masked in the mounted image.
+This flag is ignored.
 
 ## -remarks
 
